@@ -1,0 +1,97 @@
+# For changed dependencies
+📦 dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - pnpm-lock.yaml
+
+# For changes in documentation
+📖 documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - docs/*.md
+          - docs/**/*.md
+
+# For changes in the site, but not markdown files
+🌍 site:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'docs/**'
+
+# For changes in the metadata
+🫧 metadata:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'icons/*.json'
+          - categories/*
+
+# For changes or added icons
+🎨 icon:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'icons/*.svg'
+
+# For changes in the ycloud package
+🧳 ycloud package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud/*'
+
+# For changes in the YCloud React package
+⚛️ react package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-react/*'
+
+# For changes in the YCloud React Native package
+⚛️ react native package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-react-native/*'
+
+# For changes in the YCloud vue packages
+💎 vue package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/vue/*'
+
+# For changes in the YCloud angular package
+🅰️ angular package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/angular/*'
+
+# For changes in the YCloud preact package
+⚛️ preact package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-preact/*'
+
+# For changes in the YCloud svelte package
+🧣 svelte package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/svelte/*'
+
+# For changes in the YCloud solid package
+🪝 solid package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-solid/*'
+
+# For changes in the YCloud astro package
+🚀 astro package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/astro/*'
+
+# For changes in the @ycloud-web/icons-data package
+❇️ ycloud-icons:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-icons/*'
+
+# For changes in the YCloud static package
+🪨 static package:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'packages/ycloud-static/*'

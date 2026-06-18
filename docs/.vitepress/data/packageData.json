@@ -1,0 +1,195 @@
+{
+  "ycloud": {
+    "order": 0,
+    "icon": "js",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/ycloud",
+        "href": "https://www.npmjs.com/package/ycloud"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/ycloud",
+        "href": "https://www.npmjs.com/package/ycloud"
+      }
+    ]
+  },
+  "ycloud-react": {
+    "order": 1,
+    "icon": "react",
+    "docsAlias": "react",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/ycloud-react",
+        "href": "https://www.npmjs.com/package/ycloud-react"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/ycloud-react",
+        "href": "https://www.npmjs.com/package/ycloud-react"
+      }
+    ]
+  },
+  "@ycloud-web/icons-vue": {
+    "order": 2,
+    "icon": "vue",
+    "docsAlias": "vue",
+    "packageDirname": "vue",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-vue",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-vue"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-vue",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-vue"
+      }
+    ]
+  },
+  "@ycloud-web/icons-svelte": {
+    "order": 3,
+    "icon": "svelte",
+    "docsAlias": "svelte",
+    "packageDirname": "svelte",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-svelte",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-svelte"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-svelte",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-svelte"
+      }
+    ]
+  },
+  "@ycloud-web/icons-solid": {
+    "order": 4,
+    "icon": "solid",
+    "docsAlias": "solid",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-solid",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-solid"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-solid",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-solid"
+      }
+    ]
+  },
+  "@ycloud-web/icons-react-native": {
+    "order": 5,
+    "icon": "react-native",
+    "docsAlias": "react-native",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-react-native",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-react-native"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-react-native",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-react-native"
+      }
+    ]
+  },
+  "@ycloud-web/icons-angular": {
+    "order": 6,
+    "icon": "angular",
+    "docsAlias": "angular",
+    "packageDirname": "angular",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-angular",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-angular"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-angular",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-angular"
+      }
+    ]
+  },
+  "@ycloud-web/icons-preact": {
+    "order": 8,
+    "icon": "preact",
+    "docsAlias": "preact",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-preact",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-preact"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-preact",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-preact"
+      }
+    ]
+  },
+  "@ycloud-web/icons-astro": {
+    "docsAlias": "astro",
+    "packageDirname": "astro",
+    "order": 9,
+    "icon": "astro",
+    "iconDark": "astro-dark",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-astro",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-astro"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-astro",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-astro"
+      }
+    ]
+  },
+  "@ycloud-web/icons-static": {
+    "order": 10,
+    "icon": "svg",
+    "docsAlias": "static",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-static",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-static"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-static",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-static"
+      }
+    ]
+  },
+  "@ycloud-web/icons-data": {
+    "hide": true,
+    "docsAlias": "icons",
+    "packageDirname": "icons",
+    "order": 10,
+    "icon": "ts",
+    "shields": [
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/v/@ycloud-web/icons-data",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-data"
+      },
+      {
+        "alt": "npm",
+        "src": "https://img.shields.io/npm/dw/@ycloud-web/icons-data",
+        "href": "https://www.npmjs.com/package/@ycloud-web/icons-data"
+      }
+    ]
+  }
+}
