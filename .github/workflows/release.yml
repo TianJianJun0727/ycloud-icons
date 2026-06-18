@@ -19,6 +19,7 @@ on:
 permissions:
   contents: read
   id-token: write
+  pages: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -92,3 +93,12 @@ jobs:
         run: pnpm --filter ${{ matrix.package }} publish --tag ${{ needs.prepare.outputs.npm-tag }} --no-git-checks
         env:
           NPM_CONFIG_PROVENANCE: true
+
+  deploy-docs:
+    if: github.repository == 'TianJianJun0727/ycloud-icons'
+    needs: release
+    uses: './.github/workflows/docs.yml'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
