@@ -18,12 +18,14 @@ const defaultSandpackCSS = await readFile(
 const title = 'YCloud Icons';
 const socialTitle = 'YCloud Icons';
 const description = 'A multi-framework icon toolkit based on the YCloud Icons ecosystem.';
+const base = process.env.DOCS_BASE ?? (process.env.GITHUB_ACTIONS ? '/ycloud-icons/' : '/');
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title,
   titleTemplate: ':title - YCloud Icons',
   description,
+  base,
   cleanUrls: true,
   outDir: '.vercel/output/static',
   srcExclude: ['**/README.md'],
