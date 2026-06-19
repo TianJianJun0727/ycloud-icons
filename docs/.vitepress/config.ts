@@ -93,6 +93,33 @@ function localizeSidebar(source: DefaultTheme.Sidebar): DefaultTheme.Sidebar {
   );
 }
 
+function filterLlmsSidebarItems(
+  items: DefaultTheme.SidebarItem[] | undefined,
+): DefaultTheme.SidebarItem[] | undefined {
+  const filtered = items
+    ?.filter((item) => !(item.link?.includes('#') ?? false))
+    .map((item) => ({
+      ...item,
+      items: filterLlmsSidebarItems(item.items),
+    }))
+    .filter((item) => item.link || (item.items?.length ?? 0) > 0);
+
+  return filtered?.length ? filtered : undefined;
+}
+
+function createLlmsSidebar(source: DefaultTheme.Sidebar): DefaultTheme.Sidebar {
+  return Object.fromEntries(
+    Object.entries(source).flatMap(([key, value]) => {
+      const filtered = filterLlmsSidebarItems(value as DefaultTheme.SidebarItem[]);
+
+      return filtered ? [[key, filtered]] : [];
+    }),
+  );
+}
+
+const localizedSidebar = localizeSidebar(sidebar);
+const llmsSidebar = createLlmsSidebar(localizedSidebar);
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
@@ -184,6 +211,7 @@ export default defineConfig({
           'packages.md',
           'icons/**', // Not working, need investigation
         ],
+        sidebar: llmsSidebar,
       }) as unknown as UserConfig['vite']['plugins'][0],
     ],
   },
@@ -192,7 +220,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo-icon.svg',
     nav,
-    sidebar: localizeSidebar(sidebar),
+    sidebar: localizedSidebar,
     socialLinks: [{ icon: 'github', link: 'https://github.com/TianJianJun0727/ycloud-icons' }],
     footer: {
       message: '基于 ISC 许可证发布。',
