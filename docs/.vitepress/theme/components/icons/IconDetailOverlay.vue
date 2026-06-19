@@ -11,7 +11,7 @@ import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
 import { computedAsync } from '@vueuse/core';
 import { satisfies } from 'semver';
-import { resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
 
 const props = defineProps<{
   iconName: string | null;
@@ -45,6 +45,10 @@ function onClose() {
 
 const CloseIcon = createYCloudIcon('Close', x);
 const Expand = createYCloudIcon('Expand', expand);
+
+function openDetailPage(iconName: string) {
+  window.location.assign(resolveBrowserHref(`/icons/${iconName}`));
+}
 </script>
 
 <template>
@@ -64,7 +68,7 @@ const Expand = createYCloudIcon('Expand', expand);
             :href="releaseTagLink(icon.createdRelease.version)"
             >v{{ icon.createdRelease.version }}</Badge
           >
-          <IconButton @click="go(resolveRoutePath(`/icons/${icon.name}`))">
+          <IconButton @click="openDetailPage(icon.name)">
             <component :is="Expand" />
           </IconButton>
           <IconButton @click="onClose">

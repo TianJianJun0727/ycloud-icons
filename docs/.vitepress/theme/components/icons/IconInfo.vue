@@ -5,11 +5,11 @@ import Badge from '../base/Badge.vue';
 import CopySVGButton from './CopySVGButton.vue';
 import CopyCodeButton from './CopyCodeButton.vue';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { useData, useRouter } from 'vitepress';
+import { useData } from 'vitepress';
 import { computed } from 'vue';
 import deprecationReasonTemplate from '../../../../../tools/build-icons/utils/deprecationReasonTemplate.ts';
 import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../utils/iconI18n';
-import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref } from '../../utils/navigation';
 
 const props = defineProps<{
   icon: IconEntity;
@@ -17,7 +17,6 @@ const props = defineProps<{
 }>();
 
 const { page } = useData();
-const { go } = useRouter();
 
 const tags = computed(() => {
   if (!props.icon) return '';
@@ -52,7 +51,7 @@ const detailHref = computed(() => resolveBrowserHref(detailPath.value));
 
 function openDetail(event: MouseEvent) {
   event.preventDefault();
-  go(resolveRoutePath(detailPath.value));
+  window.location.assign(detailHref.value);
 }
 </script>
 

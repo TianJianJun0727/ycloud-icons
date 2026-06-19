@@ -2,11 +2,10 @@
 import { computed } from 'vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
 import { useMediaQuery } from '@vueuse/core';
-import { useRouter } from 'vitepress';
 import getSVGIcon from '../../utils/getSVGIcon';
 import useConfetti from '../../composables/useConfetti';
 import Tooltip from '../base/Tooltip.vue';
-import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref } from '../../utils/navigation';
 
 const copiedText = '已复制';
 
@@ -24,7 +23,6 @@ const props = defineProps<{
 
 const emit = defineEmits(['setActiveIcon']);
 
-const { go } = useRouter();
 const showOverlay = useMediaQuery('(min-width: 860px)');
 const { animate, confetti, confettiText } = useConfetti();
 
@@ -62,7 +60,7 @@ async function navigateToIcon(event) {
     emit('setActiveIcon', props.name);
   } else {
     event.preventDefault();
-    go(resolveRoutePath(href.value));
+    window.location.assign(browserHref.value);
   }
 }
 </script>
