@@ -6,12 +6,14 @@ import { data } from './HomeHeroIconsCard.data';
 import FakeInput from '../base/FakeInput.vue';
 import { nextTick, provide } from 'vue';
 import useSearchShortcut from '../../utils/useSearchShortcut';
+import { resolveInternalHref } from '../../utils/navigation';
 
 const { go } = useRouter();
 const iconsSearchPath = '/icons/?focus';
+const iconsSearchHref = resolveInternalHref(iconsSearchPath);
 
 const { shortcutText: kbdSearchShortcut } = useSearchShortcut(() => {
-  go(iconsSearchPath);
+  go(iconsSearchHref);
 });
 
 const enableTransitions = () =>
@@ -20,19 +22,19 @@ const enableTransitions = () =>
 
 async function handleClick(event: MouseEvent) {
   if (!enableTransitions()) {
-    go(iconsSearchPath);
+    go(iconsSearchHref);
     return;
   }
 
   await document.startViewTransition(async () => {
-    await go(iconsSearchPath);
+    await go(iconsSearchHref);
     await nextTick();
   }).ready;
 }
 </script>
 <template>
   <FakeInput
-    @click="go(iconsSearchPath)"
+    @click="go(iconsSearchHref)"
     :shortcut="kbdSearchShortcut"
     class="search-box"
   >

@@ -14,6 +14,9 @@ pnpm install
 # Start docs dev server
 pnpm docs:dev
 
+# Start docs dev server with OG image generation
+pnpm docs:dev:og
+
 # Start api dev server
 pnpm dev
 ```
@@ -23,6 +26,16 @@ pnpm dev
 ```sh
 # Build docs
 pnpm docs:build
+
+# Build docs without generating per-page OG images
+pnpm docs:build:no-og
+```
+
+`DOCS_OG` 可以作为统一开关使用：
+
+```sh
+DOCS_OG=0 pnpm docs:build
+DOCS_OG=1 pnpm docs:dev:og
 ```
 
 ```sh

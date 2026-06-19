@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
-import { execSync } from 'node:child_process';
 import { fileURLToPath, URL } from 'node:url';
+import { getChangelogAnchor, listReleaseEntries } from '../../../utils/changelog';
 
 export default {
   async load() {
@@ -8,21 +8,15 @@ export default {
       new URL('../../../../../packages/ycloud-react/package.json', import.meta.url),
     );
     const packageJson = JSON.parse(await readFile(packageJsonPath, 'utf-8')) as { version: string };
-    let latestVersion = packageJson.version;
-
-    try {
-      latestVersion = execSync("git tag --list 'v*' --sort=-version:refname | head -1", {
-        cwd: fileURLToPath(new URL('../../../../../', import.meta.url)),
-        encoding: 'utf-8',
-      })
-        .trim()
-        .replace(/^v/, '') || packageJson.version;
-    } catch {
-      latestVersion = packageJson.version;
-    }
+    const releases = listReleaseEntries();
+    const latestRelease = releases[0];
+    const latestVersion = latestRelease?.version || packageJson.version;
+    const latestVersionDate = latestRelease?.date || new Date().toISOString().slice(0, 10);
 
     return {
       version: latestVersion,
+      changelogHref: `/changelog#${getChangelogAnchor(latestVersion, latestVersionDate)}`,
+      installationHref: '/guide/installation',
     };
   },
 };

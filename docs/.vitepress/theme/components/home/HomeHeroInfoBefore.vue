@@ -8,12 +8,12 @@ import RocketDuotoneIcon from './RocketDuotoneIcon.ts';
 
 <template>
   <div class="info">
-    <Badge href="https://www.npmjs.com/package/@ycloud-web/icons-react">
+    <Badge :href="data.changelogHref">
       {{ data.version }}
     </Badge>
     <Badge
       class="badge-special confetti-button animate"
-      href="/guide/installation"
+      :href="data.installationHref"
     >
       <Icon :iconNode="RocketDuotoneIcon" />
       安装

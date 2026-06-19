@@ -89,7 +89,20 @@ import { Camera as FilledCamera } from '@ycloud-web/icons-react/filled';
 pnpm install
 pnpm icons-react build
 pnpm icons-vue build
-pnpm --filter @ycloud-web/icons-docs docs:dev
+pnpm docs:dev
+```
+
+文档站支持一键开关 OG 图生成：
+
+```sh
+# 默认开发模式：关闭 OG 图生成，加快启动和重建
+pnpm docs:dev
+
+# 显式开启 OG 图生成
+pnpm docs:dev:og
+
+# 构建文档但跳过逐页 OG 图
+pnpm docs:build:no-og
 ```
 
 ## 许可证

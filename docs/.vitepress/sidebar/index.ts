@@ -9,6 +9,7 @@ import { reactNativeSidebar } from './react-native';
 import { astroSidebar } from './astro';
 import { angularSidebar } from './angular';
 import { ycloudStaticSidebar } from './static';
+import changelogSidebarItems from '../data/changelogSidebar';
 
 type Sidebar = UserConfig<DefaultTheme.Config>['themeConfig']['sidebar'];
 
@@ -20,6 +21,13 @@ export const guideSidebarTop: DefaultTheme.SidebarItem[] = [
       { text: '安装', link: '/guide/installation' },
       { text: '架构', link: '/guide/architecture' },
     ],
+  },
+];
+
+const changelogSidebar: DefaultTheme.SidebarItem[] = [
+  {
+    text: '版本记录',
+    items: changelogSidebarItems,
   },
 ];
 
@@ -158,6 +166,7 @@ const sidebar: Sidebar = localizeSidebar(
     '/guide/react-native/': reactNativeSidebar,
     '/guide/angular/': angularSidebar,
     '/guide/static/': ycloudStaticSidebar,
+    '/changelog': changelogSidebar,
     // This should be here to keep the sidebar shown on the icons page
     icons: [{ text: '', link: '/' }],
   }),

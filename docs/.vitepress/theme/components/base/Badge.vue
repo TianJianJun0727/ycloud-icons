@@ -1,24 +1,16 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useData, useRouter, withBase } from 'vitepress';
+import { useRouter } from 'vitepress';
+import { resolveInternalHref } from '../../utils/navigation';
 
 const { go } = useRouter();
-const { site } = useData();
 const props = defineProps<{
   href?: string;
 }>();
 
 const isExternal = computed(() => props.href?.startsWith('http') ?? false);
-const siteBase = computed(() => site.value.base || '/');
-const internalHref = computed(() =>
-  !props.href || isExternal.value
-    ? props.href
-    : props.href.startsWith(siteBase.value)
-      ? `/${props.href.slice(siteBase.value.length).replace(/^\/+/, '')}`
-      : props.href,
-);
 const resolvedHref = computed(() =>
-  !props.href || isExternal.value ? props.href : withBase(internalHref.value),
+  !props.href || isExternal.value ? props.href : resolveInternalHref(props.href),
 );
 
 const component = computed(() => (props.href ? 'a' : 'div'));
@@ -26,9 +18,9 @@ const target = computed(() => (isExternal.value ? '_blank' : undefined));
 const rel = computed(() => (isExternal.value ? 'noreferrer noopener' : undefined));
 
 function onClick(event: MouseEvent) {
-  if (!internalHref.value || isExternal.value) return;
+  if (!props.href || isExternal.value) return;
   event.preventDefault();
-  go(internalHref.value);
+  go(resolveInternalHref(props.href));
 }
 </script>
 

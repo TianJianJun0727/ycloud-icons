@@ -5,6 +5,7 @@ import { useData, useRoute, useRouter } from 'vitepress';
 import Select from '../base/Select.vue';
 import { computed } from 'vue';
 import { useLocalStorage } from '@vueuse/core';
+import { resolveInternalHref } from '../../utils/navigation';
 
 type FrameworkItem = {
   name: string;
@@ -88,11 +89,11 @@ function onSelectFramework(item: FrameworkItem) {
     const hasRoute = findSidebarLink(sidebar[item.value] as unknown[] | undefined, likeRoute);
 
     if (hasRoute) {
-      router.go(likeRoute);
+      router.go(resolveInternalHref(likeRoute));
       return;
     }
 
-    router.go(item.value);
+    router.go(resolveInternalHref(item.value));
   }
 }
 </script>

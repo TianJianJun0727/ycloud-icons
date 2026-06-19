@@ -6,11 +6,12 @@ import IconButton from '../base/IconButton.vue';
 import IconContributors from './IconContributors.vue';
 import IconPreview from './IconPreview.vue';
 import { x, expand } from '../../../data/iconNodes';
-import { useRouter, withBase } from 'vitepress';
+import { useRouter } from 'vitepress';
 import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
 import { computedAsync } from '@vueuse/core';
 import { satisfies } from 'semver';
+import { resolveInternalHref } from '../../utils/navigation';
 
 const props = defineProps<{
   iconName: string | null;
@@ -23,7 +24,7 @@ const icon = computedAsync<IconEntity | null>(async () => {
     try {
       return (await import(`../../../data/iconDetails/${props.iconName}.ts`)).default as IconEntity;
     } catch (err) {
-      go(`/icons/${props.iconName}`);
+      go(resolveInternalHref(`/icons/${props.iconName}`));
     }
   }
   return null;
@@ -63,7 +64,7 @@ const Expand = createYCloudIcon('Expand', expand);
             :href="releaseTagLink(icon.createdRelease.version)"
             >v{{ icon.createdRelease.version }}</Badge
           >
-          <IconButton @click="go(`/icons/${icon.name}`)">
+          <IconButton @click="go(resolveInternalHref(`/icons/${icon.name}`))">
             <component :is="Expand" />
           </IconButton>
           <IconButton @click="onClose">

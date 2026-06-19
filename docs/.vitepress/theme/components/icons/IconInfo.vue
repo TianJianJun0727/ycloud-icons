@@ -5,10 +5,11 @@ import Badge from '../base/Badge.vue';
 import CopySVGButton from './CopySVGButton.vue';
 import CopyCodeButton from './CopyCodeButton.vue';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { useData } from 'vitepress';
+import { useData, useRouter } from 'vitepress';
 import { computed } from 'vue';
 import deprecationReasonTemplate from '../../../../../tools/build-icons/utils/deprecationReasonTemplate.ts';
 import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../utils/iconI18n';
+import { resolveInternalHref } from '../../utils/navigation';
 
 const props = defineProps<{
   icon: IconEntity;
@@ -16,6 +17,7 @@ const props = defineProps<{
 }>();
 
 const { page } = useData();
+const { go } = useRouter();
 
 const tags = computed(() => {
   if (!props.icon) return '';
@@ -44,6 +46,13 @@ const deprecatedTitle = computed(() => {
     toBeRemovedInVersion: props.icon.toBeRemovedInVersion,
   });
 });
+
+const detailHref = computed(() => resolveInternalHref(`/icons/${props.icon.name}`));
+
+function openDetail(event: MouseEvent) {
+  event.preventDefault();
+  go(detailHref.value);
+}
 </script>
 
 <template>
@@ -81,8 +90,9 @@ const deprecatedTitle = computed(() => {
     <div class="group buttons">
       <VPButton
         v-if="!page?.relativePath?.startsWith?.(`icons/${icon.name}`)"
-        :href="`/icons/${icon.name}`"
+        :href="detailHref"
         text="查看详情"
+        @click="openDetail"
       />
       <CopySVGButton
         :name="icon.name"

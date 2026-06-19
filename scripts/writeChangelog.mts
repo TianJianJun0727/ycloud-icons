@@ -14,6 +14,10 @@ type ReleaseEntry = {
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(currentDir, '..');
 const changelogPath = path.resolve(projectRoot, 'CHANGELOG.md');
+const changelogSidebarPath = path.resolve(
+  projectRoot,
+  'docs/.vitepress/data/changelogSidebar.ts',
+);
 
 function run(command: string) {
   return execSync(command, {
@@ -64,6 +68,10 @@ function buildEntries(tags: string[]): ReleaseEntry[] {
   });
 }
 
+function getChangelogAnchor(version: string, date: string) {
+  return `v${version.replace(/\./g, '-')}-${date}`;
+}
+
 function toMarkdown(entries: ReleaseEntry[]) {
   const lines = ['# 更新日志', '', '> 此文件会在文档构建前根据 Git tag 和提交记录自动生成。', ''];
 
@@ -94,11 +102,23 @@ async function main() {
   if (!tags.length) {
     const fallback = '# 更新日志\n\n> 当前仓库还没有可用的版本标签。\n';
     await writeFile(changelogPath, fallback, 'utf8');
+    await writeFile(changelogSidebarPath, 'export default [];\n', 'utf8');
     return;
   }
 
-  const markdown = toMarkdown(buildEntries(tags));
+  const entries = buildEntries(tags);
+  const markdown = toMarkdown(entries);
+  const sidebarItems = entries.map((entry) => ({
+    text: `${entry.tag} · ${entry.date}`,
+    link: `/changelog#${getChangelogAnchor(entry.version, entry.date)}`,
+  }));
+
   await writeFile(changelogPath, markdown, 'utf8');
+  await writeFile(
+    changelogSidebarPath,
+    `const changelogSidebarItems = ${JSON.stringify(sidebarItems, null, 2)};\n\nexport default changelogSidebarItems;\n`,
+    'utf8',
+  );
 }
 
 await main();

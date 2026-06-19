@@ -2,7 +2,7 @@ import { PageData } from 'vitepress';
 import getStructuredData from './getStructuredData';
 import { createGeneralOGImage, createIconOGImage } from './createOGImage';
 
-const shouldSkipOG = process.env.DOCS_SKIP_OG === '1';
+const isOGEnabled = process.env.DOCS_OG !== '0' && process.env.DOCS_SKIP_OG !== '1';
 
 export async function transformPageData(pageData: PageData) {
   pageData.frontmatter.head ??= [];
@@ -22,9 +22,9 @@ export async function transformPageData(pageData: PageData) {
 
     const structuredData = await getStructuredData(iconName, pageData);
 
-    const ogPath = shouldSkipOG
-      ? undefined
-      : await createIconOGImage(iconName, pageData.params?.tags || []);
+    const ogPath = isOGEnabled
+      ? await createIconOGImage(iconName, pageData.params?.tags || [])
+      : undefined;
 
     if (ogPath) {
       const content = `https://tianjianjun0727.github.io/ycloud-icons${ogPath}`;
@@ -54,7 +54,7 @@ export async function transformPageData(pageData: PageData) {
   }
 
   if (pageData.relativePath.startsWith('guide/')) {
-    const ogPath = shouldSkipOG ? undefined : await createGeneralOGImage(pageData);
+    const ogPath = isOGEnabled ? await createGeneralOGImage(pageData) : undefined;
 
     if (ogPath) {
       const content = `https://tianjianjun0727.github.io/ycloud-icons${ogPath}`;

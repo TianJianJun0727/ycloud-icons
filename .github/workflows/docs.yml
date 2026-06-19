@@ -43,6 +43,7 @@ jobs:
         env:
           NODE_OPTIONS: --max-old-space-size=8192
           DOCS_BASE: /ycloud-icons/
+          DOCS_OG: 0
         run: pnpm --dir docs build
 
       - name: Setup Pages
