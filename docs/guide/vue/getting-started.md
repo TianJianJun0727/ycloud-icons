@@ -52,7 +52,7 @@ import { Camera } from '@ycloud-web/icons-vue';
 </template>
 ```
 
-## Props
+## 属性
 
 你可以通过以下 props 调整图标外观：
 

@@ -70,7 +70,7 @@ import CircleAlert from '@ycloud-web/icons-astro/icons/circle-alert';
 <CircleAlert color="#ff3e98" />
 ```
 
-## Props
+## 属性
 
 | 名称                  | 类型      | 默认值       |
 | --------------------- | --------- | ------------ |

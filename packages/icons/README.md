@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-YCloud helper library that exports icon data.
+导出 YCloud Icons 图标数据的辅助库。
 </p>
 
 <div align="center">
@@ -15,20 +15,20 @@ YCloud helper library that exports icon data.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/packages/ycloud">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/packages/ycloud">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # @ycloud-web/icons-data
 
-A helper library that exports YCloud icon data in a tree-shakable format, also providing utilities for dynamic importing icons.
+以支持 tree-shaking 的格式导出 YCloud Icons 图标数据，并提供动态图标导入相关工具函数。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-data
@@ -49,17 +49,17 @@ bun add @ycloud-web/icons-data
 ### CDN
 
 ```html
-<!-- Development version -->
+<!-- 开发版本 -->
 <script src="https://unpkg.com/@ycloud-web/icons-data@latest/dist/umd/ycloud.js"></script>
 
-<!-- Production version -->
+<!-- 生产版本 -->
 <script src="https://unpkg.com/@ycloud-web/icons-data@latest"></script>
 ```
 
-## Documentation
+## 文档
 
-For full documentation, visit [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/icons)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/icons)。
 
-## License
+## 许可证
 
-YCloud is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

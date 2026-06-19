@@ -15,7 +15,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/SandpackVue.vue'
 我们推荐使用 CSS 设置全局样式，因为这是最直接的方式。
 但如果使用 CSS，单个图标上的 `size`、`color` 和 `strokeWidth` 等 props 可能会被 CSS 优先级覆盖。若你仍希望单独图标可以继续通过 props 调整样式，可以使用 YCloud context provider。
 
-## Context Provider
+## 上下文 Provider
 
 YCloud Vue 提供了名为 `setYCloudIconsProps` 的 context API，可以为应用中的所有 YCloud Icons 设置全局默认属性。
 当你希望所有图标默认共享相同尺寸、颜色或描边宽度时，这会很有用。

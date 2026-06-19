@@ -1,9 +1,9 @@
 ---
-title: Icons
-description: Browse all YCloud icons.
+title: 图标
+description: 浏览全部 YCloud Icons 图标。
 layout: page
 outline: 2
-outlineTitle: Categories
+outlineTitle: 分类
 sidebar: true
 head:
   - - link

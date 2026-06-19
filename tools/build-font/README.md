@@ -1,3 +1,3 @@
 # @ycloud-web/build-font
 
-A internal used package to build the font.
+内部构建包，用于生成图标字体。

@@ -1,3 +1,3 @@
 # @ycloud-web/shared
 
-A collection of shared internal utilities for YCloud.
+YCloud 内部共享工具集合。

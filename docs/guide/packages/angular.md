@@ -177,7 +177,7 @@ export class Foobar { }
 </svg>
 ```
 
-## Props
+## 属性
 
 可以传入额外 props 调整图标外观。
 

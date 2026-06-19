@@ -1,3 +1,3 @@
 # @ycloud-web/rollup-plugins
 
-A internal used package with a collection of rollup plugins used to build the YCloud icon library packages.
+内部构建包，包含用于构建 YCloud Icons 各个包的 Rollup 插件集合。

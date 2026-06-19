@@ -7,7 +7,7 @@ description: 安装 YCloud Icons 支持的框架包和静态资源包。
 
 YCloud Icons 当前覆盖 10 种包类型，可以按项目所用框架选择安装。
 
-## Core JavaScript
+## 核心 JavaScript
 
 与框架无关的图标数据和辅助方法。
 

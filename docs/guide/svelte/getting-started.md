@@ -50,7 +50,7 @@ YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 <Camera />
 ```
 
-## Props
+## 属性
 
 你可以通过以下 props 调整图标外观：
 

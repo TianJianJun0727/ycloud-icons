@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-react-native.svg" alt="YCloud icon library for React Native applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-react-native.svg" alt="适用于 React Native 应用的 YCloud Icons 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for React Native applications.
+适用于 React Native 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
@@ -17,20 +17,20 @@ YCloud icon library for React Native applications.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/react-native">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/react-native">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # YCloud React Native
 
-Implementation of the YCloud icon library for React Native applications.
+适用于 React Native 应用的 YCloud Icons 实现。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-react-native
@@ -48,10 +48,10 @@ yarn add @ycloud-web/icons-react-native
 bun add @ycloud-web/icons-react-native
 ```
 
-## Documentation
+## 文档
 
-For full documentation, visit [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-react-native)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-react-native)。
 
-## License
+## 许可证
 
-YCloud is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-vue.svg" alt="YCloud icon library for Vue applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-vue.svg" alt="适用于 Vue 应用的 YCloud Icons 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for Vue applications.
+适用于 Vue 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
@@ -17,20 +17,20 @@ YCloud icon library for Vue applications.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/vue">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/vue">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # YCloud Icons Vue
 
-Implementation of the YCloud icon library for Vue applications.
+适用于 Vue 应用的 YCloud Icons 实现。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-vue
@@ -48,10 +48,10 @@ yarn add @ycloud-web/icons-vue
 bun add @ycloud-web/icons-vue
 ```
 
-## Documentation
+## 文档
 
-For full documentation, visit [YCloud Icons docs](https://tianjianjun0727.github.io/ycloud-icons/guide/vue/)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/vue/)。
 
-## License
+## 许可证
 
-YCloud Icons is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

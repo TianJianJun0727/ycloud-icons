@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-solid.svg" alt="YCloud icon library for Solid applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-solid.svg" alt="适用于 Solid 应用的 YCloud Icons 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for Solid applications.
+适用于 Solid 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
@@ -17,20 +17,20 @@ YCloud icon library for Solid applications.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/solid">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/solid">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # YCloud Solid
 
-Implementation of the YCloud icon library for solid applications.
+适用于 Solid 应用的 YCloud Icons 实现。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-solid
@@ -48,10 +48,10 @@ yarn add @ycloud-web/icons-solid
 bun add @ycloud-web/icons-solid
 ```
 
-## Documentation
+## 文档
 
-For full documentation, visit [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-solid)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-solid)。
 
-## License
+## 许可证
 
-YCloud is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

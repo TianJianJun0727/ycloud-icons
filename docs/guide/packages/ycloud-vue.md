@@ -54,7 +54,7 @@ import { Camera } from '@ycloud-web/icons-vue';
 </template>
 ```
 
-## Props
+## 属性
 
 | 名称                  | 类型      | 默认值       |
 | --------------------- | --------- | ------------ |

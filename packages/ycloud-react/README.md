@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-react.svg" alt="YCloud icon library for React applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-react.svg" alt="适用于 React 应用的 YCloud Icons 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for React applications.
+适用于 React 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
@@ -17,20 +17,20 @@ YCloud icon library for React applications.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/react">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/react">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # YCloud Icons React
 
-Implementation of the YCloud icon library for React applications.
+适用于 React 应用的 YCloud Icons 实现。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-react
@@ -48,10 +48,10 @@ yarn add @ycloud-web/icons-react
 bun add @ycloud-web/icons-react
 ```
 
-## Documentation
+## 文档
 
-For full documentation, visit [YCloud Icons docs](https://tianjianjun0727.github.io/ycloud-icons/guide/react/)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/react/)。
 
-## License
+## 许可证
 
-YCloud Icons is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

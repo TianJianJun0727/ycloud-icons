@@ -1,9 +1,9 @@
-# YCloud Docs website
+# YCloud Icons 文档站
 
-The YCloud docs website is built with Vitepress: https://vitepress.dev/
-This is Markdown-based documentation powered by Vue.
+YCloud Icons 文档站基于 VitePress 构建：https://vitepress.dev/
+这是一个由 Vue 驱动的 Markdown 文档站。
 
-## Development
+## 开发
 
 ```sh
 # Install dependencies
@@ -18,7 +18,7 @@ pnpm docs:dev
 pnpm dev
 ```
 
-## Build
+## 构建
 
 ```sh
 # Build docs
@@ -30,6 +30,6 @@ pnpm docs:build
 pnpm build:api
 ```
 
-## Components
+## 组件
 
-See .vitepress directory.
+组件和主题扩展位于 `.vitepress` 目录。

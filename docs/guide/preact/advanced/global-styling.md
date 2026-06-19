@@ -15,7 +15,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/SandpackPreact.vue'
 我们推荐使用 CSS 设置全局样式，因为这是最直接的方式。
 但如果使用 CSS，单个图标上的 `size`、`color` 和 `strokeWidth` 等 props 可能会被 CSS 优先级覆盖。若你仍希望单独图标可以继续通过 props 调整样式，可以使用 YCloud context provider。
 
-## Context Provider
+## 上下文 Provider
 
 如果要通过 context provider 设置全局样式，可以使用 `@ycloud-web/icons-preact` 包提供的 `YCloudIconsProvider` 组件。
 

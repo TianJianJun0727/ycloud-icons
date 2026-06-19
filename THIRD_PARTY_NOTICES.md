@@ -1,14 +1,14 @@
-# Third Party Notices
+# 第三方声明
 
 ## Lucide
 
-YCloud Icons is forked from [lucide-icons/lucide](https://github.com/lucide-icons/lucide).
+YCloud Icons 基于 [lucide-icons/lucide](https://github.com/lucide-icons/lucide) fork 演进。
 
-Lucide is licensed under the ISC License. The upstream license is preserved in [LICENSE](./LICENSE).
+Lucide 使用 ISC 许可证授权。上游许可证文本保留在 [LICENSE](./LICENSE) 中。
 
-Upstream project links:
+上游项目链接：
 
-- Repository: https://github.com/lucide-icons/lucide
-- License page: https://lucide.dev/license
+- 仓库：https://github.com/lucide-icons/lucide
+- 许可证页面：https://lucide.dev/license
 
-The initial icon set, package layout, documentation structure, and generation scripts are derived from Lucide. YCloud-specific package names and documentation are maintained in this fork.
+初始图标集合、包目录结构、文档结构和生成脚本均来自 Lucide。YCloud 相关的包名和文档由本 fork 维护。

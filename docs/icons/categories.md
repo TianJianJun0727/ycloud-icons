@@ -1,9 +1,9 @@
 ---
-title: Categories
-description: Explore YCloud icons organized into various categories for easier browsing.
+title: 分类
+description: 按分类浏览 YCloud Icons 图标，便于查找和筛选。
 layout: page
 outline: 2
-outlineTitle: Categories
+outlineTitle: 分类
 sidebar: true
 ---
 

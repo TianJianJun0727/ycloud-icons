@@ -51,7 +51,7 @@ const App = () => {
 export default App;
 ```
 
-## Props
+## 属性
 
 你可以通过以下 props 调整图标外观：
 

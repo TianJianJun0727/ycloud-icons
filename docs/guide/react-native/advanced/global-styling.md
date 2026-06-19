@@ -8,7 +8,7 @@ description: 了解如何在 React Native 应用中通过 CSS 或 YCloud context
 图标可以通过 [颜色](../basics/color.md)、[尺寸](../basics/sizing.md) 和 [描边宽度](../basics/stroke-width.md) 进行调整。
 如果要为所有图标设置全局样式，可以使用 context provider。
 
-## Context Provider
+## 上下文 Provider
 
 如果要通过 context provider 设置全局样式，可以使用 `@ycloud-web/icons-react-native` 包提供的 `YCloudIconsProvider` 组件。
 

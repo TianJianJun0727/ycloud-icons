@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-svelte.svg" alt="YCloud icon library for Svelte 5 applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud-svelte.svg" alt="适用于 Svelte 5 应用的 YCloud Icons 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for Svelte 5 applications.
+适用于 Svelte 5 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
@@ -17,20 +17,20 @@ YCloud icon library for Svelte 5 applications.
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/svelte">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/svelte">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
 # YCloud Svelte
 
-Implementation of the YCloud icon library for svelte applications.
+适用于 Svelte 应用的 YCloud Icons 实现。
 
-## Installation
+## 安装
 
 ```sh
 pnpm add @ycloud-web/icons-svelte
@@ -48,12 +48,12 @@ yarn add @ycloud-web/icons-svelte
 bun add @ycloud-web/icons-svelte
 ```
 
-> `@ycloud-web/icons-svelte` is only for Svelte 5, for Svelte 4 use the [`@ycloud-web/icons-svelte`](https://www.npmjs.com/package/@ycloud-web/icons-svelte) package.
+> `@ycloud-web/icons-svelte` 仅支持 Svelte 5；如果使用 Svelte 4，请使用兼容版本的 [`@ycloud-web/icons-svelte`](https://www.npmjs.com/package/@ycloud-web/icons-svelte)。
 
-## Documentation
+## 文档
 
-For full documentation, visit [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-svelte)
+完整文档请访问 [YCloud Icons 文档](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/@ycloud-web/icons-svelte)。
 
-## License
+## 许可证
 
-YCloud is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+YCloud Icons 使用 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。
