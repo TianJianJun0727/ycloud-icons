@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRouter } from 'vitepress';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
 
 const { go } = useRouter();
 const props = defineProps<{
@@ -10,7 +10,7 @@ const props = defineProps<{
 
 const isExternal = computed(() => props.href?.startsWith('http') ?? false);
 const resolvedHref = computed(() =>
-  !props.href || isExternal.value ? props.href : resolveInternalHref(props.href),
+  !props.href || isExternal.value ? props.href : resolveBrowserHref(props.href),
 );
 
 const component = computed(() => (props.href ? 'a' : 'div'));
@@ -20,7 +20,7 @@ const rel = computed(() => (isExternal.value ? 'noreferrer noopener' : undefined
 function onClick(event: MouseEvent) {
   if (!props.href || isExternal.value) return;
   event.preventDefault();
-  go(resolveInternalHref(props.href));
+  go(resolveRoutePath(props.href));
 }
 </script>
 

@@ -20,6 +20,7 @@ export const guideSidebarTop: DefaultTheme.SidebarItem[] = [
       { text: '什么是 YCloud Icons？', link: '/guide/' },
       { text: '安装', link: '/guide/installation' },
       { text: '架构', link: '/guide/architecture' },
+      { text: '图标维护', link: '/guide/icon-maintenance' },
     ],
   },
 ];

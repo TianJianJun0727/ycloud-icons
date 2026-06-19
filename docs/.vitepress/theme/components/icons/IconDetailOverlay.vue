@@ -11,7 +11,7 @@ import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
 import { computedAsync } from '@vueuse/core';
 import { satisfies } from 'semver';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveRoutePath } from '../../utils/navigation';
 
 const props = defineProps<{
   iconName: string | null;
@@ -24,7 +24,7 @@ const icon = computedAsync<IconEntity | null>(async () => {
     try {
       return (await import(`../../../data/iconDetails/${props.iconName}.ts`)).default as IconEntity;
     } catch (err) {
-      go(resolveInternalHref(`/icons/${props.iconName}`));
+      go(resolveRoutePath(`/icons/${props.iconName}`));
     }
   }
   return null;
@@ -64,7 +64,7 @@ const Expand = createYCloudIcon('Expand', expand);
             :href="releaseTagLink(icon.createdRelease.version)"
             >v{{ icon.createdRelease.version }}</Badge
           >
-          <IconButton @click="go(resolveInternalHref(`/icons/${icon.name}`))">
+          <IconButton @click="go(resolveRoutePath(`/icons/${icon.name}`))">
             <component :is="Expand" />
           </IconButton>
           <IconButton @click="onClose">

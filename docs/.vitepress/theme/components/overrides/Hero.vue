@@ -6,10 +6,9 @@ import { useRouter } from 'vitepress';
 import { data } from '../home/HomeHeroIconsCard.data';
 import { useScroll } from '@vueuse/core';
 import { computed } from 'vue';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveRoutePath } from '../../utils/navigation';
 const { go } = useRouter();
 const iconsSearchPath = '/icons/?focus';
-const iconsSearchHref = resolveInternalHref(iconsSearchPath);
 
 const { frontmatter: fm } = useData();
 const { x, y, isScrolling, arrivedState, directions } = useScroll(window);
@@ -34,7 +33,7 @@ const opacity = computed(() => {
     <template #home-hero-image></template>
     <template #home-hero-actions-after>
       <FakeInput
-        @click="go(iconsSearchHref)"
+        @click="go(resolveRoutePath(iconsSearchPath))"
         class="search-box"
       >
         Search {{ data.iconsCount }} icons...

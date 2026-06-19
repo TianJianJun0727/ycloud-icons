@@ -6,7 +6,7 @@ import { useRouter } from 'vitepress';
 import getSVGIcon from '../../utils/getSVGIcon';
 import useConfetti from '../../composables/useConfetti';
 import Tooltip from '../base/Tooltip.vue';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
 
 const copiedText = '已复制';
 
@@ -34,7 +34,7 @@ const icon = computed(() => {
 });
 
 const href = computed(() => `/icons/${props.name}`);
-const browserHref = computed(() => resolveInternalHref(href.value));
+const browserHref = computed(() => resolveBrowserHref(href.value));
 const displayTitle = computed(() =>
   props.displayName && props.displayName !== props.name
     ? `${props.displayName}（${props.name}）`
@@ -62,7 +62,7 @@ async function navigateToIcon(event) {
     emit('setActiveIcon', props.name);
   } else {
     event.preventDefault();
-    go(browserHref.value);
+    go(resolveRoutePath(href.value));
   }
 }
 </script>

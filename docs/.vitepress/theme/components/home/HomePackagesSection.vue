@@ -4,7 +4,7 @@ import HomeSectionTitle from './HomeSectionTitle.vue';
 import { useRouter, withBase } from 'vitepress';
 import { data } from './HomePackagesSection.data';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveRoutePath } from '../../utils/navigation';
 
 const { go } = useRouter();
 </script>
@@ -18,7 +18,7 @@ const { go } = useRouter();
         :href="withBase(path)"
         class="package-logo"
         :aria-label="`查看 ${name} 包的使用说明`"
-        @click.prevent="go(resolveInternalHref(path))"
+        @click.prevent="go(resolveRoutePath(path))"
       >
         <img
           :src="withBase(logo)"

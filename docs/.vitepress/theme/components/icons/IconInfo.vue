@@ -9,7 +9,7 @@ import { useData, useRouter } from 'vitepress';
 import { computed } from 'vue';
 import deprecationReasonTemplate from '../../../../../tools/build-icons/utils/deprecationReasonTemplate.ts';
 import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../utils/iconI18n';
-import { resolveInternalHref } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
 
 const props = defineProps<{
   icon: IconEntity;
@@ -47,11 +47,12 @@ const deprecatedTitle = computed(() => {
   });
 });
 
-const detailHref = computed(() => resolveInternalHref(`/icons/${props.icon.name}`));
+const detailPath = computed(() => `/icons/${props.icon.name}`);
+const detailHref = computed(() => resolveBrowserHref(detailPath.value));
 
 function openDetail(event: MouseEvent) {
   event.preventDefault();
-  go(detailHref.value);
+  go(resolveRoutePath(detailPath.value));
 }
 </script>
 
