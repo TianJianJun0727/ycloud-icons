@@ -8,8 +8,8 @@ export function resolveRoutePath(path: string) {
   const base = import.meta.env.BASE_URL || '/';
 
   if (base !== '/' && path.startsWith(base)) {
-    return `/${path.slice(base.length).replace(/^\/+/, '')}`;
+    return path;
   }
 
-  return path;
+  return withBase(path);
 }
