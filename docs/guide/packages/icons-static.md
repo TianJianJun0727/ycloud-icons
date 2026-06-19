@@ -59,7 +59,7 @@ bun add @ycloud-web/icons-static@latest
 
 ## 版本要求
 
-`@ycloud-web/icons-static` 无框架 peer dependency。文档示例使用当前最新稳定版本的构建工具和运行时。
+`@ycloud-web/icons-static` 无框架 peer dependency。
 
 ## SVG 文件
 

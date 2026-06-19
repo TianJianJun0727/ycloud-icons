@@ -14,6 +14,11 @@ import { svelteSidebar } from '../../.vitepress/sidebar/svelte'
 本指南会帮助你在 Svelte 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 Svelte 开发环境。如果还没有，可以使用 Vite 或其他你熟悉的 Svelte 脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-svelte` 的最低版本要求与 Lucide 官方当前 Svelte 包保持一致：Svelte `^5`。
+
+
 ## 安装
 
 ::: code-group

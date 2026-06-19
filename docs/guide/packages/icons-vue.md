@@ -33,7 +33,7 @@ bun add @ycloud-web/icons-vue@latest
 
 ## 版本要求
 
-Vue `>=3.0.1`。文档示例使用当前最新稳定版本。
+Vue `>=3.0.1`。
 
 ## 使用方式
 

@@ -14,6 +14,11 @@ import { vueSidebar } from '../../.vitepress/sidebar/vue'
 本指南会帮助你在 Vue 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 Vue 开发环境。如果还没有，可以使用 Vite 或其他你熟悉的 Vue 脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-vue` 的最低版本要求与 Lucide 官方当前 Vue 包保持一致：Vue `>=3.0.1`。
+
+
 ## 安装
 
 ::: code-group

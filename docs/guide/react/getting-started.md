@@ -14,6 +14,11 @@ import { reactSidebar } from '../../.vitepress/sidebar/react'
 本指南会帮助你在 React 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 React 开发环境。如果还没有，可以使用 Create React App、Vite 或其他你熟悉的 React 脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-react` 的最低版本要求与 Lucide 官方当前 React 包保持一致：React `^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0`。
+
+
 ## 安装
 
 ::: code-group

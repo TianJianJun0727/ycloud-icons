@@ -34,7 +34,7 @@ bun add @ycloud-web/icons-solid@latest
 
 ## 版本要求
 
-Solid `^1.4.7`。文档示例使用当前最新稳定版本。
+Solid `^1.4.7`。
 
 ## 使用方式
 

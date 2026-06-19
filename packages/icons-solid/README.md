@@ -30,10 +30,6 @@
 
 适用于 Solid 应用的 YCloud Icons 实现。
 
-## 版本要求
-
-Solid `^1.4.7`。文档示例使用当前最新 Solid 版本。
-
 ## 安装
 
 ```sh
@@ -51,6 +47,10 @@ yarn add @ycloud-web/icons-solid@latest
 ```sh
 bun add @ycloud-web/icons-solid@latest
 ```
+
+### 版本要求
+
+Solid `^1.4.7`。
 
 ## 文档
 

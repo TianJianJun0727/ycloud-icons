@@ -14,6 +14,15 @@ import { reactNativeSidebar } from '../../.vitepress/sidebar/react-native'
 本指南会帮助你在 React Native 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 React Native 开发环境。如果还没有，可以使用 React Native CLI、Expo 或其他你熟悉的 React Native 脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-react-native` 的最低版本要求与 Lucide 官方当前 React Native 包保持一致：
+
+- React `^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0`
+- React Native 任意版本
+- `react-native-svg` `^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0`
+
+
 ## 安装
 
 首先确保已经安装 `react-native-svg`（版本 12 到 15）。然后安装图标包：

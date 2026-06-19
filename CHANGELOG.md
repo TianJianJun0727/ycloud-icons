@@ -2,6 +2,12 @@
 
 > 此文件会在文档构建前根据 Git tag 和提交记录自动生成。
 
+## [v0.1.5](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.5) - 2026-06-19
+
+[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.4...v0.1.5)
+
+- fix: repair static examples and version docs
+
 ## [v0.1.4](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.4) - 2026-06-19
 
 [查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.3...v0.1.4)

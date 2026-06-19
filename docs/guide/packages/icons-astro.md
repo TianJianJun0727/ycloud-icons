@@ -34,7 +34,7 @@ bun add @ycloud-web/icons-astro@latest
 
 ## 版本要求
 
-Astro `^4 || ^5 || ^6`。文档示例使用当前最新稳定版本。
+Astro `^4 || ^5 || ^6`。
 
 ## 使用方式
 

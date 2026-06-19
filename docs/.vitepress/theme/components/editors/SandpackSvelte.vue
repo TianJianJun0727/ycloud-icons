@@ -2,6 +2,7 @@
 import { type SandpackFiles } from 'sandpack-vue3';
 import styledCSS from '../../sandpack-default.css?raw';
 import Sandpack from './Sandpack.vue';
+import iconsSveltePackage from '../../../../../packages/icons-svelte/package.json';
 
 const props = defineProps<{
   files: SandpackFiles;
@@ -27,7 +28,7 @@ const props = defineProps<{
             },
             dependencies: {
               svelte: '^5.38.6',
-              '@ycloud-web/icons-svelte': 'latest',
+              '@ycloud-web/icons-svelte': iconsSveltePackage.version,
             },
             devDependencies: {
               '@sveltejs/vite-plugin-svelte': '^7.1.2',

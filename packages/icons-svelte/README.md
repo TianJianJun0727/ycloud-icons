@@ -30,10 +30,6 @@
 
 适用于 Svelte 应用的 YCloud Icons 实现。
 
-## 版本要求
-
-Svelte `^5`。本包与 Lucide 官方保持一致，仅支持 Svelte 5；Svelte 4 不在当前支持范围内。文档示例使用当前最新 Svelte 5 版本。
-
 ## 安装
 
 ```sh
@@ -53,6 +49,10 @@ bun add @ycloud-web/icons-svelte@latest
 ```
 
 > `@ycloud-web/icons-svelte` 仅支持 Svelte 5；Svelte 4 不在当前版本的支持范围内。
+
+### 版本要求
+
+Svelte `^5`。本包与 Lucide 官方保持一致，仅支持 Svelte 5；Svelte 4 不在当前支持范围内。
 
 ## 文档
 

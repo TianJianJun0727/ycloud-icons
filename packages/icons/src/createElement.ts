@@ -17,7 +17,7 @@ const createSVGElement = ([tag, attrs, children]: CreateSVGElementParams) => {
     element.setAttribute(name, String(attrs[name]));
   });
 
-  if (children?.length) {
+  if (children && children.length) {
     children.forEach((child) => {
       const childElement = createSVGElement(child);
 

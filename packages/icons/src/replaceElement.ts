@@ -92,7 +92,9 @@ const replaceElement = (element: Element, { nameAttr, icons, attrs }: ReplaceEle
 
   const svgElement = createElement(iconNode, iconAttrs);
 
-  return element.parentNode?.replaceChild(svgElement, element);
+  if (!element.parentNode) return;
+
+  return element.parentNode.replaceChild(svgElement, element);
 };
 
 export default replaceElement;

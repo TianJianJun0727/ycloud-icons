@@ -46,5 +46,6 @@ import ThumbsUp from "@ycloud-web/icons-svelte/icons/thumbs-up";
   <ThumbsUp />
   赞
 </button>
-:::
 ```
+
+:::

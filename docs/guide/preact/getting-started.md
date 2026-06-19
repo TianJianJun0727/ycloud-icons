@@ -14,6 +14,11 @@ import { preactSidebar } from '../../.vitepress/sidebar/preact'
 本指南会帮助你在 Preact 项目中开始使用 YCloud Icons。
 请确保已经准备好 Preact 开发环境。如果还没有，可以使用 Create Preact App、Vite 或其他你偏好的 Preact 脚手架创建新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-preact` 的最低版本要求与 Lucide 官方当前 Preact 包保持一致：Preact `^10.27.2`。
+
+
 ## 安装
 
 ::: code-group

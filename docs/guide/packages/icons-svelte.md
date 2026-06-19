@@ -34,7 +34,7 @@ bun add @ycloud-web/icons-svelte@latest
 
 ## 版本要求
 
-`@ycloud-web/icons-svelte` 与 Lucide 官方保持一致，要求 Svelte `^5`。文档中的交互示例使用当前最新 Svelte 5 版本。
+`@ycloud-web/icons-svelte` 与 Lucide 官方保持一致，要求 Svelte `^5`。
 
 ## 使用方式
 

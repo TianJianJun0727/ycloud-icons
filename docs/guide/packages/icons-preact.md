@@ -38,7 +38,7 @@ bun add @ycloud-web/icons-preact@latest
 
 ## 版本要求
 
-Preact `^10.27.2`。文档示例使用当前最新稳定版本。
+Preact `^10.27.2`。
 
 ## 使用方式
 

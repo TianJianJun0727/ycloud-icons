@@ -30,10 +30,6 @@
 
 适用于 Vue 应用的 YCloud Icons 实现。
 
-## 版本要求
-
-Vue `>=3.0.1`。文档示例使用当前最新 Vue 3 版本。
-
 ## 安装
 
 ```sh
@@ -51,6 +47,10 @@ yarn add @ycloud-web/icons-vue@latest
 ```sh
 bun add @ycloud-web/icons-vue@latest
 ```
+
+### 版本要求
+
+Vue `>=3.0.1`。
 
 ## 文档
 

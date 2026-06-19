@@ -14,10 +14,11 @@ import { angularSidebar } from '../../.vitepress/sidebar/angular'
 本指南会帮助你在 Angular 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 Angular 开发环境。如果还没有，可以使用 `@angular/cli` [创建一个新的 Angular 项目](https://angular.dev/installation#create-a-new-project)。
 
-## 前置要求
+## 版本要求
 
-该包要求 Angular 17+，并使用 standalone components、signals 和 zoneless change detection。
+`@ycloud-web/icons-angular` 的最低版本要求与 Lucide 官方当前 Angular 包保持一致：Angular `>=17.0.0`。
 
+该包使用 standalone components、signals 和 zoneless change detection。
 ## 安装
 
 ::: code-group

@@ -11,7 +11,7 @@
 
 ## 版本要求
 
-Angular `>=17.0.0`。文档示例使用当前最新稳定版本，并使用 standalone components、signals 和 zoneless change detection。
+Angular `>=17.0.0`。
 
 ## 安装
 

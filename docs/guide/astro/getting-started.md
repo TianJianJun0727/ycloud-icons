@@ -14,6 +14,11 @@ import { astroSidebar } from '../../.vitepress/sidebar/astro'
 本指南会帮助你在 Astro 项目中开始使用 YCloud Icons。
 请先确保你已经准备好 Astro 开发环境。如果还没有，可以使用 Vite 或其他你熟悉的 Astro 脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons-astro` 的最低版本要求与 Lucide 官方当前 Astro 包保持一致：Astro `^4 || ^5 || ^6`。
+
+
 ## 安装
 
 ::: code-group

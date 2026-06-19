@@ -14,6 +14,9 @@ import { reactSidebar } from '../../.vitepress/sidebar/react'
 本指南会帮助你在 Vanilla JavaScript 项目中开始使用 YCloud Icons。
 请先确保你已经准备好项目环境。如果还没有，可以使用 Vite、Parcel 或其他你熟悉的脚手架创建一个新项目。
 
+## 版本要求
+
+`@ycloud-web/icons` 无框架 peer dependency。
 ## 安装
 
 ### 包管理器

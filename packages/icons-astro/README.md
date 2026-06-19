@@ -30,10 +30,6 @@
 
 适用于 Astro 应用的 YCloud Icons 实现。
 
-## 版本要求
-
-Astro `^4 || ^5 || ^6`。文档示例使用当前最新 Astro 版本。
-
 ## 安装
 
 ```sh
@@ -51,6 +47,10 @@ yarn add @ycloud-web/icons-astro@latest
 ```sh
 bun add @ycloud-web/icons-astro@latest
 ```
+
+### 版本要求
+
+Astro `^4 || ^5 || ^6`。
 
 ## 文档
 
