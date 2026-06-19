@@ -1,67 +1,77 @@
 <p align="center">
   <a href="https://github.com/TianJianJun0727/ycloud-icons">
-    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud.svg" alt="YCloud icon library for web applications." width="540">
+    <img src="https://tianjianjun0727.github.io/ycloud-icons/package-logos/ycloud.svg" alt="YCloud Icons Web 图标库。" width="540">
   </a>
 </p>
 
 <p align="center">
-YCloud icon library for web applications.
+面向 Web 和 JavaScript 应用的 YCloud Icons 图标库。
 </p>
 
 <div align="center">
 
-[![npm](https://img.shields.io/npm/v/ycloud?color=blue)](https://www.npmjs.com/package/ycloud)
-![NPM Downloads](https://img.shields.io/npm/dw/ycloud)
+[![npm](https://img.shields.io/npm/v/@ycloud-web/icons?color=blue)](https://www.npmjs.com/package/@ycloud-web/icons)
+![NPM Downloads](https://img.shields.io/npm/dw/@ycloud-web/icons)
 [![License](https://img.shields.io/badge/license-ISC-green)](https://tianjianjun0727.github.io/ycloud-icons/license)
 
 </div>
 
 <p align="center">
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">About</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/">介绍</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">Icons</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/icons/">图标</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/ycloud">Documentation</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/guide/ycloud">文档</a>
   ·
-  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">License</a>
+  <a href="https://tianjianjun0727.github.io/ycloud-icons/license">许可证</a>
 </p>
 
-# YCloud
+# @ycloud-web/icons
 
-Implementation of the YCloud icon library for web applications.
+面向 Web 和 JavaScript 应用的 YCloud Icons 核心包。
 
-## Installation
+## 安装
 
 ```sh
-pnpm add ycloud
+pnpm add @ycloud-web/icons
 ```
 
 ```sh
-npm install ycloud
+npm install @ycloud-web/icons
 ```
 
 ```sh
-yarn add ycloud
+yarn add @ycloud-web/icons
 ```
 
 ```sh
-bun add ycloud
+bun add @ycloud-web/icons
 ```
 
 ### CDN
 
 ```html
-<!-- Development version -->
-<script src="https://unpkg.com/ycloud@latest/dist/umd/ycloud.js"></script>
+<!-- 开发版本 -->
+<script src="https://unpkg.com/@ycloud-web/icons@latest/dist/umd/@ycloud-web/icons.js"></script>
 
-<!-- Production version -->
-<script src="https://unpkg.com/ycloud@latest"></script>
+<!-- 生产版本 -->
+<script src="https://unpkg.com/@ycloud-web/icons@latest"></script>
 ```
 
-## Documentation
+CDN 方式会暴露全局变量 `ycloud`：
 
-For full documentation, visit [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/ycloud)
+```html
+<i data-ycloud="menu"></i>
 
-## License
+<script>
+  ycloud.createIcons();
+</script>
+```
 
-YCloud is licensed under the ISC license. See [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license).
+## 文档
+
+完整文档见 [tianjianjun0727.github.io/ycloud-icons](https://tianjianjun0727.github.io/ycloud-icons/guide/packages/ycloud)。
+
+## 许可证
+
+YCloud Icons 基于 ISC 许可证发布。详见 [LICENSE](https://tianjianjun0727.github.io/ycloud-icons/license)。

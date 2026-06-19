@@ -1,5 +1,5 @@
 ---
-title: HTML template 元素 - YCloud
+title: HTML template 元素 - YCloud Icons
 description: 了解如何通过 inTemplates 选项在 HTML template 元素中使用 YCloud Icons。
 ---
 
@@ -16,10 +16,10 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 ## 在 `template` 元素中使用 `createIcons` 函数的示例
 
-::: sandpack {template=vanilla editorHeight=420 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=420 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```js /index.js [active]
-import { createIcons, Backpack } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Backpack } from '@ycloud-web/icons';
 import './styles.css';
 
 createIcons({

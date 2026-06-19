@@ -1,5 +1,5 @@
 ---
-title: 描边宽度 - YCloud
+title: 描边宽度 - YCloud Icons
 description: 了解如何在 Vanilla JavaScript 应用中通过 strokeWidth 和 absoluteStrokeWidth 属性调整 YCloud Icons 的描边宽度。
 ---
 
@@ -15,7 +15,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 ## 使用 `strokeWidth` prop 调整描边宽度
 
-::: sandpack {template=vanilla showTabs=false editorHeight=250 editorWidthPercentage=70 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=250 editorWidthPercentage=70 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -34,7 +34,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 ```js /index.js
 import './styles.css';
 
-import { createIcons, FolderLock } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, FolderLock } from '@ycloud-web/icons';
 
 createIcons({
   icons: {
@@ -59,7 +59,7 @@ createIcons({
 
 将 `absoluteStrokeWidth` 设置为 `true` 后，描边宽度会保持固定。
 
-::: sandpack {template=vanilla showTabs=false editorHeight=250 editorWidthPercentage=70 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=250 editorWidthPercentage=70 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!DOCTYPE html>
@@ -75,7 +75,7 @@ createIcons({
 ```js /index.js
 import "./styles.css";
 
-import { createIcons, RollerCoaster } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, RollerCoaster } from '@ycloud-web/icons';
 
 createIcons({
   icons: {

@@ -1,5 +1,5 @@
 ---
-title: 尺寸 - YCloud
+title: 尺寸 - YCloud Icons
 description: 了解如何在 Vanilla JavaScript 应用中通过 width、height 属性和 CSS 调整 YCloud Icons 的尺寸。
 ---
 
@@ -13,7 +13,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 ## 使用 `width` 和 `height` 属性调整图标尺寸
 
-::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -33,7 +33,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 ```js /index.js
 import './styles.css';
 
-import { createIcons, Landmark } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Landmark } from '@ycloud-web/icons';
 
 createIcons({
   icons: {
@@ -48,7 +48,7 @@ createIcons({
 
 可以使用 CSS 的 `width` 和 `height` 属性调整图标尺寸。
 
-::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```css icon.css [active]
 .my-beer-icon {
@@ -73,7 +73,7 @@ createIcons({
 ```
 
 ```js /index.js
-import { createIcons, Beer } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Beer } from '@ycloud-web/icons';
 import './styles.css';
 import './icon.css';
 
@@ -90,7 +90,7 @@ createIcons({
 
 图标也可以根据字体大小自动缩放，通常可以通过 `em` 单位实现。关于 `em` 的更多信息，可以参考这篇 [MDN 文档](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#ems)。
 
-::: sandpack {template=vanilla editorHeight=320 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=320 dependencies="@ycloud-web/icons"}
 
 ```css icon.css [active]
 .my-icon {
@@ -111,7 +111,7 @@ createIcons({
 ```
 
 ```js /index.js
-import { createIcons, Star } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Star } from '@ycloud-web/icons';
 import './styles.css';
 import './icon.css';
 
@@ -145,7 +145,7 @@ createIcons({
 
 可以使用 `size-*` 工具类调整图标尺寸。关于 `size-*` 工具类的更多信息，可以参考 [Tailwind 文档](https://tailwindcss.com/docs/width#setting-both-width-and-height)。
 
-::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="ycloud" externalResources="https://cdn.tailwindcss.com"}
+::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="@ycloud-web/icons" externalResources="https://cdn.tailwindcss.com"}
 
 ```html /index.html
 <!doctype html>
@@ -162,7 +162,7 @@ createIcons({
 ```
 
 ```js /index.js [hidden]
-import { createIcons, PartyPopper } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, PartyPopper } from '@ycloud-web/icons';
 import './styles.css';
 
 createIcons({

@@ -1,5 +1,5 @@
 ---
-title: 快速开始 - YCloud
+title: 快速开始 - YCloud Icons
 description: 本指南会帮助你在 Vanilla JavaScript 项目中开始使用 YCloud Icons。
 ---
 
@@ -37,6 +37,36 @@ bun add @ycloud-web/icons
 ```
 
 :::
+
+### CDN
+
+如果你的项目没有构建流程，也可以直接通过 CDN 引入浏览器版本。CDN 方式会暴露全局变量 `ycloud`，适合静态页面、快速原型或旧项目接入。
+
+::: code-group
+
+```html [unpkg]
+<script src="https://unpkg.com/@ycloud-web/icons@latest"></script>
+```
+
+```html [jsDelivr]
+<script src="https://cdn.jsdelivr.net/npm/@ycloud-web/icons@latest/dist/umd/@ycloud-web/icons.min.js"></script>
+```
+
+:::
+
+```html
+<i data-ycloud="menu"></i>
+
+<script>
+  ycloud.createIcons();
+</script>
+```
+
+生产环境建议锁定具体版本，避免 CDN 上游版本变化影响线上页面：
+
+```html
+<script src="https://unpkg.com/@ycloud-web/icons@0.1.0-beta.1"></script>
+```
 
 ## 导入第一个图标
 

@@ -1,5 +1,5 @@
 ---
-title: Shadow DOM - YCloud
+title: Shadow DOM - YCloud Icons
 description: 了解如何在 Vanilla JavaScript 应用的 Shadow DOM 中使用 YCloud Icons。
 ---
 
@@ -15,7 +15,7 @@ YCloud Icons 可以在 Shadow DOM 中使用。
 
 使用 `createElement` 函数创建单个图标，并将它追加到 Shadow DOM 中。
 
-::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=300 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html
 <!doctype html>
@@ -30,7 +30,7 @@ YCloud Icons 可以在 Shadow DOM 中使用。
 
 ```js /index.js [active]
 import './styles.css';
-import { Home, createElement } from 'ycloud/dist/cjs/ycloud';
+import { Home, createElement } from '@ycloud-web/icons';
 
 const container = document.getElementById('container');
 const shadowRoot = container.attachShadow({ mode: 'open' });
@@ -46,7 +46,7 @@ shadowRoot.appendChild(iconElement);
 如果想在 Shadow DOM 中创建多个图标，可以使用 `createIcons` 函数。
 通过 `root` 选项，可以把 shadow root 指定为图标渲染的根元素。
 
-::: sandpack {template=vanilla editorHeight=420 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=420 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html
 <!doctype html>
@@ -61,7 +61,7 @@ shadowRoot.appendChild(iconElement);
 
 ```js /index.js [active]
 import './styles.css';
-import { TreePalm, Volleyball, Waves, createIcons } from 'ycloud/dist/cjs/ycloud';
+import { TreePalm, Volleyball, Waves, createIcons } from '@ycloud-web/icons';
 
 const container = document.getElementById('container');
 const shadowRoot = container.attachShadow({ mode: 'open' });

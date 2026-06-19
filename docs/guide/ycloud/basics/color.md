@@ -1,5 +1,5 @@
 ---
-title: 颜色 - YCloud
+title: 颜色 - YCloud Icons
 description: 了解如何在 Vanilla JavaScript 应用中通过 color 属性和 CSS 调整 YCloud Icons 的颜色。
 ---
 
@@ -17,7 +17,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 可以直接向图标元素传入 color 属性来调整颜色。
 
-::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -36,7 +36,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 ```js /index.js
 import './styles.css';
 
-import { createIcons, Smile } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Smile } from '@ycloud-web/icons';
 
 createIcons({
   icons: {
@@ -53,7 +53,7 @@ createIcons({
 
 例如，如果父元素的颜色值是 `#fff`，其中一个子元素是 YCloud Icons 图标，那么图标会渲染为 `#fff`。这是浏览器原生行为。
 
-::: sandpack {template=vanilla showTabs=false editorHeight=300 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=300 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -72,7 +72,7 @@ createIcons({
 ```js /index.js [hidden]
 import './styles.css';
 
-import { createIcons, ThumbsUp } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, ThumbsUp } from '@ycloud-web/icons';
 
 createIcons({
   icons: {

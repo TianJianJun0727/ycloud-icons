@@ -1,5 +1,5 @@
 ---
-title: 全局样式 - YCloud
+title: 全局样式 - YCloud Icons
 description: 了解如何在 Vanilla JavaScript 应用中通过 CSS 或 createIcons 的 attrs 选项为 YCloud Icons 设置全局样式。
 ---
 
@@ -14,16 +14,13 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue';
 
 我们推荐使用 CSS 设置全局样式，因为这是最直接的方式。
 
-<!-- Local overwrite NOT working -->
-<!-- But using CSS prevents you from using props like `size`, `color` and `strokeWidth` on individual icons, since CSS specificity will override these props, to be able to use the props on individual ones you need to adjust the global styles using `attrs` in `createIcons`. -->
-
 这会把 `color`、`size` 和 `strokeWidth` props 应用到所有图标。
 
 ### 通过 `createIcons` 的 attrs 设置样式
 
 你也可以通过向 `createIcons` 函数传入 attributes 来应用全局样式。
 
-::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -39,7 +36,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue';
 ```js /index.js
 import './styles.css';
 
-import { createIcons, Building } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Building } from '@ycloud-web/icons';
 
 createIcons({
   attrs: {
@@ -64,7 +61,7 @@ createIcons({
 - 图标的**尺寸**可以通过 [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width) 和 [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height) CSS 属性修改。
 - 图标的**描边宽度**可以通过 [`stroke-width`](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-width) CSS 属性修改。
 
-::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla showTabs=false editorHeight=295 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```css icon.css [active]
 .ycloud {
@@ -119,7 +116,7 @@ import {
   Sandwich,
   Wine,
   Dessert,
-} from 'ycloud/dist/cjs/ycloud';
+} from '@ycloud-web/icons';
 
 createIcons({
   icons: {

@@ -11,7 +11,7 @@ export interface CreateIconsOptions {
 }
 
 /**
- * Replaces all elements with matching nameAttr with the defined icons
+ * 将匹配 nameAttr 的元素替换为对应图标。
  * @param {CreateIconsOptions} options
  */
 const createIcons = ({
@@ -23,12 +23,12 @@ const createIcons = ({
 }: CreateIconsOptions = {}) => {
   if (!Object.values(icons).length) {
     throw new Error(
-      "Please provide an icons object.\nIf you want to use all the icons you can import it like:\n `import { createIcons, icons } from 'ycloud';\nycloud.createIcons({icons});`",
+      "请提供 icons 对象。\n如果需要使用全部图标，可以这样导入：\n `import { createIcons, icons } from '@ycloud-web/icons';\ncreateIcons({ icons });`",
     );
   }
 
   if (typeof root === 'undefined') {
-    throw new Error('`createIcons()` only works in a browser environment.');
+    throw new Error('`createIcons()` 只能在浏览器环境中使用。');
   }
 
   const elementsToReplace = Array.from(root.querySelectorAll(`[${nameAttr}]`));
@@ -49,12 +49,12 @@ const createIcons = ({
     );
   }
 
-  /** @todo: remove this block in v1.0 */
+  /** @todo: 在 v1.0 中移除该兼容逻辑。 */
   if (nameAttr === 'data-ycloud') {
     const deprecatedElements = root.querySelectorAll('[icon-name]');
     if (deprecatedElements.length > 0) {
       console.warn(
-        '[YCloud] Some icons were found with the now deprecated icon-name attribute. These will still be replaced for backwards compatibility, but will no longer be supported in v1.0 and you should switch to data-ycloud',
+        '[YCloud Icons] 检测到部分图标仍在使用已废弃的 icon-name 属性。为了向后兼容，这些图标目前仍会被替换，但 v1.0 将不再支持该属性，请改用 data-ycloud。',
       );
       Array.from(deprecatedElements).forEach((element) =>
         replaceElement(element, { nameAttr: 'icon-name', icons, attrs }),
@@ -66,18 +66,18 @@ const createIcons = ({
 export { createIcons };
 
 /*
-  Create Element function export.
+  导出 createElement 函数。
 */
 export { default as createElement } from './createElement';
 
 /*
- Icons exports.
+ 导出图标。
 */
 export { iconAndAliases as icons };
 export * from './icons';
 export * from './aliases';
 
 /*
- Types exports.
+ 导出类型。
 */
 export * from './types';

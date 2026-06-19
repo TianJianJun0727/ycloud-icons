@@ -4,48 +4,48 @@ export const ycloudSidebar = [
   {
     items: [
       {
-        text: 'Overview',
+        text: '概览',
         link: '/guide/ycloud/',
       },
       {
-        text: 'Getting started',
+        text: '快速开始',
         link: '/guide/ycloud/getting-started',
-        desc: 'Learn how to get started with YCloud.',
+        desc: '了解如何开始使用 YCloud Icons。',
       },
     ],
   },
   {
-    text: 'Basics',
+    text: '基础',
     items: [
       {
-        text: 'Color',
-        desc: 'Adjust the color of your icons',
+        text: '颜色',
+        desc: '调整图标颜色。',
         link: '/guide/ycloud/basics/color',
       },
       {
-        text: 'Sizing',
-        desc: 'Adjust the size of your icons',
+        text: '尺寸',
+        desc: '调整图标尺寸。',
         link: '/guide/ycloud/basics/sizing',
       },
       {
-        text: 'Stroke width',
-        desc: 'Adjust the stroke width of your icons',
+        text: '描边宽度',
+        desc: '调整图标描边宽度。',
         link: '/guide/ycloud/basics/stroke-width',
       },
     ],
   },
   {
-    text: 'Advanced',
+    text: '进阶',
     items: [
       {
-        text: 'Global styling',
+        text: '全局样式',
         link: '/guide/ycloud/advanced/global-styling',
-        desc: 'Apply options and styles globally',
+        desc: '全局应用选项和样式。',
       },
       {
         text: 'Shadow DOM',
         link: '/guide/ycloud/advanced/shadow-dom',
-        desc: 'All exported types and how to use them',
+        desc: '在 Shadow DOM 中渲染和替换图标。',
       },
       {
         text: '模板元素',
@@ -53,14 +53,14 @@ export const ycloudSidebar = [
         desc: '在 YCloud Icons 中使用内容模板元素。',
       },
       {
-        text: 'Accessibility',
+        text: '无障碍',
         link: '/guide/ycloud/advanced/accessibility',
-        desc: 'Making your icons accessible',
+        desc: '让图标更易访问。',
       },
       {
-        text: 'Filled icons',
+        text: '填充图标',
         link: '/guide/ycloud/advanced/filled-icons',
-        desc: 'Using filled icons in ycloud',
+        desc: '在 YCloud Icons 中使用填充图标。',
       },
     ],
   },

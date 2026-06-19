@@ -1,5 +1,5 @@
 ---
-title: 填充图标 - YCloud
+title: 填充图标 - YCloud Icons
 description: YCloud Icons 目前并不正式支持填充图标，但你仍可以在部分图标上使用 fill 属性创建填充效果。
 ---
 
@@ -15,7 +15,7 @@ YCloud Icons 目前并不正式支持填充图标。
 
 下面是星级评分的示例：
 
-::: sandpack {template=vanilla editorHeight=480 editorWidthPercentage=60 dependencies="ycloud"}
+::: sandpack {template=vanilla editorHeight=480 editorWidthPercentage=60 dependencies="@ycloud-web/icons"}
 
 ```html /index.html [active]
 <!doctype html>
@@ -76,7 +76,7 @@ YCloud Icons 目前并不正式支持填充图标。
 ```
 
 ```js /index.js
-import { createIcons, Star, StarHalf } from 'ycloud/dist/cjs/ycloud';
+import { createIcons, Star, StarHalf } from '@ycloud-web/icons';
 import './styles.css';
 import './icon.css';
 
