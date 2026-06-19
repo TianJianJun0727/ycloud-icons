@@ -1,44 +1,87 @@
 # YCloud Icons
 
-YCloud Icons 是一个支持多框架的图标工具集，基于 [Lucide](https://github.com/lucide-icons/lucide) fork 演进。
+YCloud Icons 是 YCloud 的多框架 SVG 图标组件库，面向产品前端、后台系统和设计工程化场景。
 
-第一阶段保留 Lucide 已验证的 SVG 源数据格式、生成流程和组件 API 形态，同时将公开包统一迁移到 `@ycloud-web` npm scope 下。
+它提供一致的图标源数据、可 tree-shaking 的组件包、静态资源包和图标数据包。业务项目只需要安装对应框架包，即可按需引入图标组件，并获得 TypeScript 自动补全、重构和类型检查体验。
 
 ## 包
 
-| 目标            | 包                        | 源码目录                |
-| --------------- | ------------------------- | ----------------------- |
-| Core JavaScript | `@ycloud-web/icons`       | `packages/ycloud`       |
-| React           | `@ycloud-web/icons-react` | `packages/ycloud-react` |
-| Vue             | `@ycloud-web/icons-vue`   | `packages/vue`          |
-| 图标数据        | `@ycloud-web/icons-data`  | `packages/icons`        |
+| 目标            | 包名                             | 源码目录                       |
+| --------------- | -------------------------------- | ------------------------------ |
+| Core JavaScript | `@ycloud-web/icons`              | `packages/ycloud`              |
+| React           | `@ycloud-web/icons-react`        | `packages/ycloud-react`        |
+| Vue             | `@ycloud-web/icons-vue`          | `packages/vue`                 |
+| Svelte          | `@ycloud-web/icons-svelte`       | `packages/svelte`              |
+| Solid           | `@ycloud-web/icons-solid`        | `packages/ycloud-solid`        |
+| Preact          | `@ycloud-web/icons-preact`       | `packages/ycloud-preact`       |
+| React Native    | `@ycloud-web/icons-react-native` | `packages/ycloud-react-native` |
+| Angular         | `@ycloud-web/icons-angular`      | `packages/angular`             |
+| Astro           | `@ycloud-web/icons-astro`        | `packages/astro`               |
+| 静态资源        | `@ycloud-web/icons-static`       | `packages/ycloud-static`       |
+| 图标数据        | `@ycloud-web/icons-data`         | `packages/icons`               |
 
-来自 Lucide 上游的其他框架包仍保留在仓库中，待 React/Vue 流程稳定后再逐步统一命名和发布。
+## 使用示例
 
-## 组件命名
-
-组件名目前有意保留上游风格：
+React：
 
 ```tsx
 import { Camera } from '@ycloud-web/icons-react';
 
 export function Example() {
-  return <Camera size={24} />;
+  return (
+    <Camera
+      size={24}
+      color="currentColor"
+    />
+  );
 }
 ```
 
-这样可以保留完整的 TypeScript 自动补全、安全重构和 tree-shaking 行为。
+Vue：
+
+```vue
+<script setup lang="ts">
+import { Camera } from '@ycloud-web/icons-vue';
+</script>
+
+<template>
+  <Camera
+    :size="24"
+    color="currentColor"
+  />
+</template>
+```
+
+Core JavaScript：
+
+```ts
+import { createIcons, Camera } from '@ycloud-web/icons';
+
+createIcons({
+  icons: {
+    Camera,
+  },
+});
+```
+
+## 设计目标
+
+- **组件化体验**：在 React、Vue 等框架中以真实组件方式使用图标。
+- **按需打包**：业务只会打包实际导入的图标，避免引入未使用资源。
+- **强类型提示**：组件名、属性和图标数据都提供类型声明，便于补全、检查和重构。
+- **一源多端**：同一份图标源生成多框架包、静态资源和图标数据。
+- **可持续维护**：生成链路基于稳定的 SVG 数据、构建脚本和包发布流程。
 
 ## 风格策略
 
-规划中的双风格模型会通过包入口或目录区分，而不是给组件名追加后缀：
+YCloud Icons 会保持稳定的公开组件名，例如 `Camera`。后续如果引入 outline、filled 等多风格形态，优先通过包入口或目录区分，而不是给组件名追加风格后缀：
 
 ```tsx
 import { Camera } from '@ycloud-web/icons-react/outline';
 import { Camera as FilledCamera } from '@ycloud-web/icons-react/filled';
 ```
 
-公开组件名保持稳定（`Camera`），源图标名也保持稳定（`camera`）。最终选择哪个入口，决定生成的 SVG 是 outline 还是 filled。
+这样可以让组件命名、图标搜索和重构体验保持一致。
 
 ## 开发
 
@@ -49,6 +92,8 @@ pnpm icons-vue build
 pnpm --filter @ycloud-web/icons-docs docs:dev
 ```
 
-## 许可证与来源
+## 许可证
 
-本项目基于 Lucide fork 演进，并保留上游 ISC 许可证。详见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) 和 [LICENSE](./LICENSE)。
+YCloud Icons 使用 ISC 许可证发布。
+
+本项目的初始图标集合、包结构和生成流程基于 [Lucide](https://github.com/lucide-icons/lucide) 演进，并保留 Lucide 的必要上游授权信息。详见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) 和 [LICENSE](./LICENSE)。
