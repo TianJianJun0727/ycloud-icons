@@ -14,5 +14,17 @@
   "categories": [
     "text",
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "复制勾选",
+      "tags": [
+        "完成"
+      ],
+      "categories": [
+        "文本格式",
+        "通知"
+      ]
+    }
+  }
 }

@@ -17,5 +17,20 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图片进入图片2",
+      "tags": [
+        "播放",
+        "视频",
+        "pop外部",
+        "alwayson顶部",
+        "窗口"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

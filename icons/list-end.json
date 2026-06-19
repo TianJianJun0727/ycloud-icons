@@ -13,5 +13,18 @@
   "categories": [
     "multimedia",
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "列表末端",
+      "tags": [
+        "底部",
+        "末端"
+      ],
+      "categories": [
+        "多媒体",
+        "文本格式"
+      ]
+    }
+  }
 }

@@ -18,5 +18,18 @@
   "categories": [
     "sports",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "奖杯",
+      "tags": [
+        "奖章",
+        "庆祝"
+      ],
+      "categories": [
+        "运动",
+        "游戏"
+      ]
+    }
+  }
 }

@@ -16,5 +16,20 @@
     "photography",
     "multimedia",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图片加号",
+      "tags": [
+        "添加",
+        "创建",
+        "图片"
+      ],
+      "categories": [
+        "摄影",
+        "多媒体",
+        "文件"
+      ]
+    }
+  }
 }

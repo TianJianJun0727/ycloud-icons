@@ -22,5 +22,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "减少闹钟",
+      "tags": [
+        "移除"
+      ],
+      "categories": [
+        "设备",
+        "通知",
+        "时间与日历"
+      ]
+    }
+  }
 }

@@ -12,5 +12,17 @@
   ],
   "categories": [
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "上下箭头",
+      "tags": [
+        "展开",
+        "垂直"
+      ],
+      "categories": [
+        "箭头"
+      ]
+    }
+  }
 }

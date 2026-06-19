@@ -20,5 +20,19 @@
   "categories": [
     "arrows",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "箭头大左",
+      "tags": [
+        "上一个",
+        "返回",
+        "方向"
+      ],
+      "categories": [
+        "箭头",
+        "游戏"
+      ]
+    }
+  }
 }

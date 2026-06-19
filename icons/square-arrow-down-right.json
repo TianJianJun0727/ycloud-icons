@@ -25,5 +25,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形箭头下右",
+      "tags": [
+        "方向",
+        "对角线",
+        "标志",
+        "键盘"
+      ],
+      "categories": [
+        "箭头",
+        "游戏"
+      ]
+    }
+  }
 }

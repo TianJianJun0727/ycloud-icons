@@ -18,5 +18,20 @@
   "categories": [
     "buildings",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "房屋加号",
+      "tags": [
+        "家居",
+        "医疗",
+        "新建",
+        "建筑"
+      ],
+      "categories": [
+        "建筑",
+        "医疗"
+      ]
+    }
+  }
 }

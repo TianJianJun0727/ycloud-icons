@@ -13,5 +13,18 @@
   "categories": [
     "travel",
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "行李",
+      "tags": [
+        "行李",
+        "旅行"
+      ],
+      "categories": [
+        "旅行",
+        "交通"
+      ]
+    }
+  }
 }

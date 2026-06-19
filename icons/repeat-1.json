@@ -9,5 +9,18 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "重复1",
+      "tags": [
+        "重复",
+        "单曲循环",
+        "循环"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

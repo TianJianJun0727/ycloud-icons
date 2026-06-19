@@ -11,5 +11,19 @@
   "categories": [
     "charts",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "趋势下",
+      "tags": [
+        "趋势下降",
+        "下降",
+        "图表"
+      ],
+      "categories": [
+        "图表",
+        "箭头"
+      ]
+    }
+  }
 }

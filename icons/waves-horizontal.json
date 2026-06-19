@@ -30,5 +30,21 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "波浪水平",
+      "tags": [
+        "水",
+        "振动",
+        "声音"
+      ],
+      "categories": [
+        "天气",
+        "导航与地点",
+        "多媒体",
+        "可持续"
+      ]
+    }
+  }
 }

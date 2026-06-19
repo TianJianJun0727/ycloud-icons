@@ -37,5 +37,22 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图表无坐标轴甘特图",
+      "tags": [
+        "时间线",
+        "日期",
+        "范围",
+        "代码"
+      ],
+      "categories": [
+        "图表",
+        "时间与日历",
+        "编码与开发",
+        "设计"
+      ]
+    }
+  }
 }

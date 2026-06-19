@@ -15,5 +15,16 @@
   ],
   "categories": [
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "药丸",
+      "tags": [
+        "平板"
+      ],
+      "categories": [
+        "医疗"
+      ]
+    }
+  }
 }

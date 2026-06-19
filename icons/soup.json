@@ -15,5 +15,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "汤",
+      "tags": [
+        "食物",
+        "盘子",
+        "碗"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

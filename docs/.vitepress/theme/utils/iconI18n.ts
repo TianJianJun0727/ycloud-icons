@@ -1176,11 +1176,9 @@ export function localizeIconName(name: string, zhName?: string) {
 }
 
 export function localizeIconTags(tags: string[] = [], zhTags?: string[]) {
-  if (zhTags?.length) return zhTags;
+  if (Array.isArray(zhTags)) return zhTags;
 
-  const localizedTags = tags
-    .map((tag) => tagMap[tag])
-    .filter((tag): tag is string => Boolean(tag));
+  const localizedTags = tags.map((tag) => tagMap[tag]).filter((tag): tag is string => Boolean(tag));
 
   return localizedTags.length ? localizedTags : tags;
 }

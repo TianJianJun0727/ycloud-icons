@@ -12,5 +12,17 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "俄罗斯卢布",
+      "tags": [
+        "货币",
+        "支付"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

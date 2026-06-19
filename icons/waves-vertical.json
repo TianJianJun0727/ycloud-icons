@@ -23,5 +23,17 @@
   "categories": [
     "weather",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "波浪垂直",
+      "tags": [
+        "烟雾"
+      ],
+      "categories": [
+        "天气",
+        "可持续"
+      ]
+    }
+  }
 }

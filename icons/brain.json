@@ -26,5 +26,18 @@
   "categories": [
     "medical",
     "science"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "大脑",
+      "tags": [
+        "医疗",
+        "AI"
+      ],
+      "categories": [
+        "医疗",
+        "科学"
+      ]
+    }
+  }
 }

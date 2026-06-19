@@ -18,5 +18,19 @@
   "categories": [
     "transportation",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "火车正面隧道",
+      "tags": [
+        "快速",
+        "轨道",
+        "线条"
+      ],
+      "categories": [
+        "交通",
+        "导航与地点"
+      ]
+    }
+  }
 }

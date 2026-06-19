@@ -13,5 +13,18 @@
   "categories": [
     "files",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹输出",
+      "tags": [
+        "导入",
+        "目录"
+      ],
+      "categories": [
+        "文件",
+        "箭头"
+      ]
+    }
+  }
 }

@@ -27,5 +27,21 @@
   "categories": [
     "medical",
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "救护车",
+      "tags": [
+        "救护车",
+        "医疗",
+        "警报器",
+        "交通",
+        "第一个aid"
+      ],
+      "categories": [
+        "医疗",
+        "交通"
+      ]
+    }
+  }
 }

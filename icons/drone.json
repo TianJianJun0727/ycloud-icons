@@ -20,5 +20,19 @@
   "categories": [
     "transportation",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "无人机",
+      "tags": [
+        "无人机",
+        "飞行器",
+        "航拍"
+      ],
+      "categories": [
+        "交通",
+        "设备"
+      ]
+    }
+  }
 }

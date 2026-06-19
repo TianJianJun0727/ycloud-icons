@@ -18,5 +18,20 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器上",
+      "tags": [
+        "电视",
+        "屏幕",
+        "上传",
+        "屏幕分享"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

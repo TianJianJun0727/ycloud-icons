@@ -12,5 +12,17 @@
   "categories": [
     "design",
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "布局仪表盘",
+      "tags": [
+        "砖块"
+      ],
+      "categories": [
+        "设计",
+        "布局"
+      ]
+    }
+  }
 }

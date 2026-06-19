@@ -30,5 +30,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "餐具交叉",
+      "tags": [
+        "分叉",
+        "刀",
+        "食物"
+      ],
+      "categories": [
+        "餐饮",
+        "旅行",
+        "导航与地点"
+      ]
+    }
+  }
 }

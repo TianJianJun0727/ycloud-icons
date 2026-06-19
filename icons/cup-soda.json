@@ -16,5 +16,19 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "杯子汽水",
+      "tags": [
+        "杯子",
+        "饮品",
+        "汽水",
+        "水"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

@@ -14,5 +14,17 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "菲律宾比索",
+      "tags": [
+        "货币",
+        "比索"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

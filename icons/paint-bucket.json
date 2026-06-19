@@ -15,5 +15,18 @@
   "categories": [
     "design",
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "绘制桶",
+      "tags": [
+        "绘制",
+        "桶"
+      ],
+      "categories": [
+        "设计",
+        "工具"
+      ]
+    }
+  }
 }

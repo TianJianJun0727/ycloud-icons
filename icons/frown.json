@@ -17,5 +17,18 @@
   "categories": [
     "emoji",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "皱眉",
+      "tags": [
+        "表情",
+        "情绪"
+      ],
+      "categories": [
+        "表情",
+        "账号与访问"
+      ]
+    }
+  }
 }

@@ -19,5 +19,17 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "雨伞关闭",
+      "tags": [
+        "雨",
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

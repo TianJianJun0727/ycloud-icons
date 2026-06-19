@@ -26,5 +26,19 @@
       "toBeRemovedInVersion": "v1.0",
       "deprecationReason": "alias.duplicate"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图层",
+      "tags": [
+        "堆叠",
+        "堆",
+        "复制"
+      ],
+      "categories": [
+        "设计",
+        "布局"
+      ]
+    }
+  }
 }

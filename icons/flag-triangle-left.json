@@ -15,5 +15,20 @@
   "categories": [
     "development",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "旗帜三角形左",
+      "tags": [
+        "报告",
+        "时间线",
+        "图钉",
+        "标记"
+      ],
+      "categories": [
+        "编码与开发",
+        "导航与地点"
+      ]
+    }
+  }
 }

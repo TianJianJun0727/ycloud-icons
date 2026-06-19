@@ -17,5 +17,19 @@
   "categories": [
     "security",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "ID卡片挂绳",
+      "tags": [
+        "ID卡片",
+        "ID卡片挂绳",
+        "徽章"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问"
+      ]
+    }
+  }
 }

@@ -13,5 +13,18 @@
   ],
   "categories": [
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "月亮",
+      "tags": [
+        "月亮",
+        "夜间",
+        "深色模式"
+      ],
+      "categories": [
+        "无障碍"
+      ]
+    }
+  }
 }

@@ -11,5 +11,19 @@
   "categories": [
     "gaming",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "游戏手柄",
+      "tags": [
+        "游戏手柄",
+        "游戏",
+        "控制器"
+      ],
+      "categories": [
+        "游戏",
+        "设备"
+      ]
+    }
+  }
 }

@@ -26,5 +26,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "三角告警",
+      "tags": [
+        "警告",
+        "告警",
+        "感叹号标记"
+      ],
+      "categories": [
+        "通知",
+        "形状",
+        "编码与开发"
+      ]
+    }
+  }
 }

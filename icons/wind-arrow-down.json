@@ -16,5 +16,17 @@
   "categories": [
     "weather",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "风箭头下",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "天气",
+        "可持续"
+      ]
+    }
+  }
 }

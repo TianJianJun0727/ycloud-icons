@@ -18,5 +18,16 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件笔",
+      "tags": [
+        "签名"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

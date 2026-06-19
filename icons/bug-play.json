@@ -18,5 +18,21 @@
   "categories": [
     "development",
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "缺陷播放",
+      "tags": [
+        "问题",
+        "测试",
+        "调试",
+        "代码",
+        "昆虫"
+      ],
+      "categories": [
+        "编码与开发",
+        "动物"
+      ]
+    }
+  }
 }

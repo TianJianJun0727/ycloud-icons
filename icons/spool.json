@@ -17,5 +17,20 @@
     "communication",
     "tools",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "线轴",
+      "tags": [
+        "线轴",
+        "卷轴",
+        "缠绕"
+      ],
+      "categories": [
+        "沟通",
+        "工具",
+        "社交"
+      ]
+    }
+  }
 }

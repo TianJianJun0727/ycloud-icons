@@ -14,5 +14,16 @@
   ],
   "categories": [
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "沙发",
+      "tags": [
+        "扶手椅"
+      ],
+      "categories": [
+        "家居"
+      ]
+    }
+  }
 }

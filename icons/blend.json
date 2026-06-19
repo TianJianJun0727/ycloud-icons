@@ -29,5 +29,19 @@
     "photography",
     "tools",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "混合",
+      "tags": [
+        "屏幕"
+      ],
+      "categories": [
+        "设计",
+        "摄影",
+        "工具",
+        "编码与开发"
+      ]
+    }
+  }
 }

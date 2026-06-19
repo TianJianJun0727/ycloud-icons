@@ -14,5 +14,19 @@
   "categories": [
     "files",
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹钥匙",
+      "tags": [
+        "钥匙",
+        "安全",
+        "目录"
+      ],
+      "categories": [
+        "文件",
+        "安全"
+      ]
+    }
+  }
 }

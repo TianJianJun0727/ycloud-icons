@@ -46,5 +46,21 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形笔",
+      "tags": [
+        "铅笔",
+        "编辑",
+        "创建",
+        "草稿",
+        "标记",
+        "文具"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

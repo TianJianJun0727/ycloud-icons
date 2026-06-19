@@ -18,5 +18,17 @@
   ],
   "categories": [
     "connectivity"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "信号零",
+      "tags": [
+        "连接",
+        "电话"
+      ],
+      "categories": [
+        "连接"
+      ]
+    }
+  }
 }

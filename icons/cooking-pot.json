@@ -22,5 +22,19 @@
   "categories": [
     "food-beverage",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "烹饪锅",
+      "tags": [
+        "烹饪",
+        "食物",
+        "厨师"
+      ],
+      "categories": [
+        "餐饮",
+        "家居"
+      ]
+    }
+  }
 }

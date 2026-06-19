@@ -16,5 +16,19 @@
     "communication",
     "finance",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "智能手机NFC近场通信",
+      "tags": [
+        "支付",
+        "屏幕"
+      ],
+      "categories": [
+        "沟通",
+        "金融",
+        "设备"
+      ]
+    }
+  }
 }

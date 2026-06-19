@@ -14,5 +14,16 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "太阳雪",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

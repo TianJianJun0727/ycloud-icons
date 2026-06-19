@@ -12,5 +12,18 @@
   "categories": [
     "arrows",
     "cursors"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "移动水平",
+      "tags": [
+        "双人",
+        "箭头"
+      ],
+      "categories": [
+        "箭头",
+        "光标"
+      ]
+    }
+  }
 }

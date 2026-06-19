@@ -14,5 +14,18 @@
   "categories": [
     "development",
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "矩形圆形",
+      "tags": [
+        "键盘",
+        "钥匙"
+      ],
+      "categories": [
+        "编码与开发",
+        "文本格式"
+      ]
+    }
+  }
 }

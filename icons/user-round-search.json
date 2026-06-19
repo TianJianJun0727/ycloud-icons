@@ -18,5 +18,22 @@
   "categories": [
     "account",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "用户圆形搜索",
+      "tags": [
+        "人员",
+        "账号",
+        "联系人",
+        "扫描",
+        "magnifying玻璃杯",
+        "镜头"
+      ],
+      "categories": [
+        "账号与访问",
+        "社交"
+      ]
+    }
+  }
 }

@@ -11,5 +11,16 @@
   ],
   "categories": [
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "头骨",
+      "tags": [
+        "骨头"
+      ],
+      "categories": [
+        "游戏"
+      ]
+    }
+  }
 }

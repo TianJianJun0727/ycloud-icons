@@ -20,5 +20,18 @@
   "categories": [
     "development",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "合并",
+      "tags": [
+        "合并",
+        "单位"
+      ],
+      "categories": [
+        "编码与开发",
+        "文件"
+      ]
+    }
+  }
 }

@@ -18,5 +18,17 @@
   "categories": [
     "home",
     "buildings"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "栅栏",
+      "tags": [
+        "面板"
+      ],
+      "categories": [
+        "家居",
+        "建筑"
+      ]
+    }
+  }
 }

@@ -20,5 +20,17 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件播放",
+      "tags": [
+        "视频",
+        "胶片"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

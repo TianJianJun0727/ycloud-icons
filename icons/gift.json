@@ -17,5 +17,18 @@
   "categories": [
     "gaming",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "礼物",
+      "tags": [
+        "盒子",
+        "派对"
+      ],
+      "categories": [
+        "游戏",
+        "账号与访问"
+      ]
+    }
+  }
 }

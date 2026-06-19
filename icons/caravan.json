@@ -20,5 +20,18 @@
     "transportation",
     "travel",
     "nature"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "房车",
+      "tags": [
+        "mobile家居"
+      ],
+      "categories": [
+        "交通",
+        "旅行",
+        "自然"
+      ]
+    }
+  }
 }

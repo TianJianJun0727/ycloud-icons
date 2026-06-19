@@ -20,5 +20,17 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "牛肉关闭",
+      "tags": [
+        "食物",
+        "盘子"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

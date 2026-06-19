@@ -17,5 +17,18 @@
     "devices",
     "multimedia",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "USB接口",
+      "tags": [
+        "公交车"
+      ],
+      "categories": [
+        "设备",
+        "多媒体",
+        "家居"
+      ]
+    }
+  }
 }

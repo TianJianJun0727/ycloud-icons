@@ -25,5 +25,22 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形箭头外部上右",
+      "tags": [
+        "方向",
+        "对角线",
+        "分享",
+        "打开",
+        "外部",
+        "链接"
+      ],
+      "categories": [
+        "箭头",
+        "社交"
+      ]
+    }
+  }
 }

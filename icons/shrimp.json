@@ -18,5 +18,18 @@
   ],
   "categories": [
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "虾",
+      "tags": [
+        "虾",
+        "海鲜",
+        "食物"
+      ],
+      "categories": [
+        "动物"
+      ]
+    }
+  }
 }

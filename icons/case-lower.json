@@ -16,5 +16,17 @@
   "categories": [
     "text",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "箱包小写",
+      "tags": [
+        "文本"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

@@ -16,5 +16,18 @@
     "food-beverage",
     "emoji",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "绿叶绿色",
+      "tags": [
+        "沙拉"
+      ],
+      "categories": [
+        "餐饮",
+        "表情",
+        "可持续"
+      ]
+    }
+  }
 }

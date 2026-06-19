@@ -20,5 +20,19 @@
   "categories": [
     "cursors",
     "design"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "加载器纸风车",
+      "tags": [
+        "加载",
+        "等待",
+        "忙碌"
+      ],
+      "categories": [
+        "光标",
+        "设计"
+      ]
+    }
+  }
 }

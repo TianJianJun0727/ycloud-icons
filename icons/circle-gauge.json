@@ -25,5 +25,19 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形仪表",
+      "tags": [
+        "仪表盘",
+        "仪表"
+      ],
+      "categories": [
+        "交通",
+        "运动",
+        "科学"
+      ]
+    }
+  }
 }

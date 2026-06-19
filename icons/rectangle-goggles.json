@@ -18,5 +18,20 @@
     "gaming",
     "multimedia",
     "connectivity"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "矩形护目镜",
+      "tags": [
+        "耳麦",
+        "护目镜"
+      ],
+      "categories": [
+        "设备",
+        "游戏",
+        "多媒体",
+        "连接"
+      ]
+    }
+  }
 }

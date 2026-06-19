@@ -20,5 +20,21 @@
     "social",
     "notifications",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "笑脸加号",
+      "tags": [
+        "表情",
+        "情绪",
+        "添加"
+      ],
+      "categories": [
+        "表情",
+        "社交",
+        "通知",
+        "沟通"
+      ]
+    }
+  }
 }

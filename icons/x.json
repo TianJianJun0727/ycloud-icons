@@ -21,5 +21,20 @@
   "categories": [
     "notifications",
     "math"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "关闭",
+      "tags": [
+        "关闭",
+        "十字",
+        "删除",
+        "移除"
+      ],
+      "categories": [
+        "通知",
+        "数学"
+      ]
+    }
+  }
 }

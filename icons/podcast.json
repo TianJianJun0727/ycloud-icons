@@ -20,5 +20,20 @@
   "categories": [
     "multimedia",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "播客",
+      "tags": [
+        "音频",
+        "音乐",
+        "麦克风",
+        "串流"
+      ],
+      "categories": [
+        "多媒体",
+        "社交"
+      ]
+    }
+  }
 }

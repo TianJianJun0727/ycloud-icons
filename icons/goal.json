@@ -11,5 +11,16 @@
   ],
   "categories": [
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "目标",
+      "tags": [
+        "旗帜"
+      ],
+      "categories": [
+        "游戏"
+      ]
+    }
+  }
 }

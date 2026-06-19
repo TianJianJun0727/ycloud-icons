@@ -18,5 +18,16 @@
   ],
   "categories": [
     "charts"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图表网络",
+      "tags": [
+        "图形"
+      ],
+      "categories": [
+        "图表"
+      ]
+    }
+  }
 }

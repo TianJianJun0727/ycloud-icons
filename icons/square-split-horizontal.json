@@ -19,5 +19,17 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形拆分水平",
+      "tags": [
+        "拆分",
+        "除号"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

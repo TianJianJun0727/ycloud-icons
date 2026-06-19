@@ -18,5 +18,19 @@
   "categories": [
     "shapes",
     "math"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "星形线",
+      "tags": [
+        "星标",
+        "形状",
+        "AI"
+      ],
+      "categories": [
+        "形状",
+        "数学"
+      ]
+    }
+  }
 }

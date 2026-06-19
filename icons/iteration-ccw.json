@@ -12,5 +12,19 @@
   "categories": [
     "arrows",
     "design"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "迭代逆时针",
+      "tags": [
+        "箭头",
+        "右",
+        "向右"
+      ],
+      "categories": [
+        "箭头",
+        "设计"
+      ]
+    }
+  }
 }

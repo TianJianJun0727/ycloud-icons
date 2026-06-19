@@ -19,5 +19,17 @@
   ],
   "categories": [
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "太阳月亮",
+      "tags": [
+        "月亮",
+        "太阳"
+      ],
+      "categories": [
+        "无障碍"
+      ]
+    }
+  }
 }

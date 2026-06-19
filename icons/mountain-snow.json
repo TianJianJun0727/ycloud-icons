@@ -12,5 +12,16 @@
   ],
   "categories": [
     "nature"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "山雪",
+      "tags": [
+        "雪"
+      ],
+      "categories": [
+        "自然"
+      ]
+    }
+  }
 }

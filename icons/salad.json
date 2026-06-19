@@ -18,5 +18,19 @@
   "categories": [
     "food-beverage",
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "沙拉",
+      "tags": [
+        "食物",
+        "盘子",
+        "健康"
+      ],
+      "categories": [
+        "餐饮",
+        "表情"
+      ]
+    }
+  }
 }

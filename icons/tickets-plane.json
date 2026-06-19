@@ -22,5 +22,20 @@
   "categories": [
     "transportation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "票券飞机",
+      "tags": [
+        "飞机",
+        "旅行",
+        "勾选进入",
+        "行程"
+      ],
+      "categories": [
+        "交通",
+        "旅行"
+      ]
+    }
+  }
 }

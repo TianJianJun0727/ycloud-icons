@@ -16,5 +16,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "啤酒花关闭",
+      "tags": [
+        "啤酒",
+        "饮品",
+        "啤酒花free"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

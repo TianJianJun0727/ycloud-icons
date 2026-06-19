@@ -19,5 +19,16 @@
   ],
   "categories": [
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "老鼠",
+      "tags": [
+        "鼠标"
+      ],
+      "categories": [
+        "动物"
+      ]
+    }
+  }
 }

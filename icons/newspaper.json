@@ -17,5 +17,17 @@
   "categories": [
     "multimedia",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "报纸",
+      "tags": [
+        "家居"
+      ],
+      "categories": [
+        "多媒体",
+        "沟通"
+      ]
+    }
+  }
 }

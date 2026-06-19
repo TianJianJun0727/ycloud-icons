@@ -17,5 +17,17 @@
   "categories": [
     "food-beverage",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "爆米花",
+      "tags": [
+        "糖果"
+      ],
+      "categories": [
+        "餐饮",
+        "多媒体"
+      ]
+    }
+  }
 }

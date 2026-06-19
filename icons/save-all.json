@@ -13,5 +13,17 @@
   "categories": [
     "text",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "保存全部",
+      "tags": [
+        "复制"
+      ],
+      "categories": [
+        "文本格式",
+        "文件"
+      ]
+    }
+  }
 }

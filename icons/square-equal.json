@@ -19,5 +19,16 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形等于",
+      "tags": [
+        "计算"
+      ],
+      "categories": [
+        "数学"
+      ]
+    }
+  }
 }

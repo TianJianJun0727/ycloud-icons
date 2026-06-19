@@ -13,5 +13,16 @@
   ],
   "categories": [
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "爱心裂纹",
+      "tags": [
+        "情绪"
+      ],
+      "categories": [
+        "表情"
+      ]
+    }
+  }
 }

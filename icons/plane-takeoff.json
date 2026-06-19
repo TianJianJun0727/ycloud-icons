@@ -15,5 +15,18 @@
   "categories": [
     "transportation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "飞机起飞",
+      "tags": [
+        "飞机",
+        "行程"
+      ],
+      "categories": [
+        "交通",
+        "旅行"
+      ]
+    }
+  }
 }

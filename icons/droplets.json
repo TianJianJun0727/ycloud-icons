@@ -18,5 +18,17 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "水滴",
+      "tags": [
+        "水",
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

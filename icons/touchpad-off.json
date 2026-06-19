@@ -12,5 +12,16 @@
   ],
   "categories": [
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "触控板关闭",
+      "tags": [
+        "光标"
+      ],
+      "categories": [
+        "设备"
+      ]
+    }
+  }
 }

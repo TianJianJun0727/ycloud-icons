@@ -19,5 +19,20 @@
   "categories": [
     "development",
     "shapes"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形点",
+      "tags": [
+        "点",
+        "问题",
+        "代码",
+        "version控制"
+      ],
+      "categories": [
+        "编码与开发",
+        "形状"
+      ]
+    }
+  }
 }

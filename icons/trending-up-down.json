@@ -19,5 +19,18 @@
   "categories": [
     "charts",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "趋势上下",
+      "tags": [
+        "箭头",
+        "变量"
+      ],
+      "categories": [
+        "图表",
+        "箭头"
+      ]
+    }
+  }
 }

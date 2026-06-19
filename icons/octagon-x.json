@@ -25,5 +25,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "八边形关闭",
+      "tags": [
+        "删除",
+        "停止",
+        "告警",
+        "警告"
+      ],
+      "categories": [
+        "数学",
+        "通知"
+      ]
+    }
+  }
 }

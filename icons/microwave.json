@@ -14,5 +14,19 @@
   "categories": [
     "food-beverage",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "微波炉",
+      "tags": [
+        "微波炉",
+        "厨房",
+        "加热"
+      ],
+      "categories": [
+        "餐饮",
+        "家居"
+      ]
+    }
+  }
 }

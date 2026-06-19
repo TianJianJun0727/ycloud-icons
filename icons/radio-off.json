@@ -15,5 +15,19 @@
     "devices",
     "multimedia",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "收音机关闭",
+      "tags": [
+        "信号",
+        "连接"
+      ],
+      "categories": [
+        "设备",
+        "多媒体",
+        "社交"
+      ]
+    }
+  }
 }

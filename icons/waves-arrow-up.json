@@ -22,5 +22,20 @@
   "categories": [
     "weather",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "波浪箭头上",
+      "tags": [
+        "水",
+        "振动",
+        "高",
+        "声音"
+      ],
+      "categories": [
+        "天气",
+        "可持续"
+      ]
+    }
+  }
 }

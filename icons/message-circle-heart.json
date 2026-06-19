@@ -23,5 +23,19 @@
   ],
   "categories": [
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息圆形爱心",
+      "tags": [
+        "正向",
+        "日期",
+        "语音bubble",
+        "聊天"
+      ],
+      "categories": [
+        "社交"
+      ]
+    }
+  }
 }

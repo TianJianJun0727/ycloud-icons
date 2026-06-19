@@ -28,5 +28,25 @@
     "development",
     "files",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息方形差异",
+      "tags": [
+        "语音bubble",
+        "添加",
+        "加号",
+        "减少",
+        "加号减少",
+        "代码review",
+        "version控制",
+        "聊天"
+      ],
+      "categories": [
+        "编码与开发",
+        "文件",
+        "社交"
+      ]
+    }
+  }
 }

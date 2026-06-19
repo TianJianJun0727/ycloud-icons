@@ -22,5 +22,21 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "魔法棒",
+      "tags": [
+        "魔法棒",
+        "闪光",
+        "增强"
+      ],
+      "categories": [
+        "设计",
+        "游戏",
+        "光标",
+        "摄影"
+      ]
+    }
+  }
 }

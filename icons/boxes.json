@@ -18,5 +18,19 @@
     "shapes",
     "gaming",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "盒子组",
+      "tags": [
+        "组合",
+        "单位"
+      ],
+      "categories": [
+        "形状",
+        "游戏",
+        "编码与开发"
+      ]
+    }
+  }
 }

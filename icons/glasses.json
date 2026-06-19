@@ -11,5 +11,16 @@
   ],
   "categories": [
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "眼镜",
+      "tags": [
+        "眼镜"
+      ],
+      "categories": [
+        "无障碍"
+      ]
+    }
+  }
 }

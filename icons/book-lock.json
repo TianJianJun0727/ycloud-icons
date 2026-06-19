@@ -19,5 +19,20 @@
     "development",
     "security",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "书籍锁定",
+      "tags": [
+        "代码",
+        "version控制",
+        "知识"
+      ],
+      "categories": [
+        "编码与开发",
+        "安全",
+        "游戏"
+      ]
+    }
+  }
 }

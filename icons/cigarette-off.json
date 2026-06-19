@@ -14,5 +14,18 @@
     "travel",
     "transportation",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "香烟关闭",
+      "tags": [
+        "无smoking"
+      ],
+      "categories": [
+        "旅行",
+        "交通",
+        "医疗"
+      ]
+    }
+  }
 }

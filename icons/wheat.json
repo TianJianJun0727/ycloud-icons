@@ -12,5 +12,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "小麦",
+      "tags": [
+        "小麦",
+        "谷物",
+        "农业"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

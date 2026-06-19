@@ -15,5 +15,20 @@
   "categories": [
     "navigation",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图钉",
+      "tags": [
+        "保存",
+        "地图",
+        "锁定",
+        "锁"
+      ],
+      "categories": [
+        "导航与地点",
+        "账号与访问"
+      ]
+    }
+  }
 }

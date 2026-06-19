@@ -19,5 +19,20 @@
   "categories": [
     "arrows",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形淡出箭头上",
+      "tags": [
+        "上",
+        "升级",
+        "圆形",
+        "向上"
+      ],
+      "categories": [
+        "箭头",
+        "编码与开发"
+      ]
+    }
+  }
 }

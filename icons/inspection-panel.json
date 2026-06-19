@@ -14,5 +14,16 @@
   ],
   "categories": [
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "检查面板",
+      "tags": [
+        "金属"
+      ],
+      "categories": [
+        "工具"
+      ]
+    }
+  }
 }

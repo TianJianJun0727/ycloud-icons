@@ -14,5 +14,16 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "云月亮雨",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

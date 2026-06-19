@@ -14,5 +14,16 @@
   ],
   "categories": [
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "浴缸",
+      "tags": [
+        "淋浴"
+      ],
+      "categories": [
+        "旅行"
+      ]
+    }
+  }
 }

@@ -17,5 +17,20 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "无线网络笔",
+      "tags": [
+        "编辑",
+        "无线网络",
+        "笔",
+        "网络"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

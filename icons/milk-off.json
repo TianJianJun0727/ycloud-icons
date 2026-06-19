@@ -17,5 +17,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "牛奶关闭",
+      "tags": [
+        "瓶子",
+        "饮品",
+        "水"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

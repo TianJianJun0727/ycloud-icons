@@ -19,5 +19,17 @@
   "categories": [
     "shopping",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "扫描条码",
+      "tags": [
+        "购物车"
+      ],
+      "categories": [
+        "购物",
+        "设备"
+      ]
+    }
+  }
 }

@@ -19,5 +19,17 @@
   "categories": [
     "sports",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "波浪梯子",
+      "tags": [
+        "水"
+      ],
+      "categories": [
+        "运动",
+        "家居"
+      ]
+    }
+  }
 }

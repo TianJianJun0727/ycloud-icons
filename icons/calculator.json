@@ -12,5 +12,17 @@
   "categories": [
     "math",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "计算器",
+      "tags": [
+        "calculating机器"
+      ],
+      "categories": [
+        "数学",
+        "设备"
+      ]
+    }
+  }
 }

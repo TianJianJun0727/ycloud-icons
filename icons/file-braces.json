@@ -22,5 +22,19 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件花括号",
+      "tags": [
+        "代码",
+        "curly花括号",
+        "curly方括号"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

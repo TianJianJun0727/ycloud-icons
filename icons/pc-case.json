@@ -12,5 +12,17 @@
   "categories": [
     "devices",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电脑箱包",
+      "tags": [
+        "电脑"
+      ],
+      "categories": [
+        "设备",
+        "游戏"
+      ]
+    }
+  }
 }

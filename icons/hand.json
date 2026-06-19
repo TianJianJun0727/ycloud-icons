@@ -13,5 +13,19 @@
   "categories": [
     "cursors",
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "手",
+      "tags": [
+        "移动",
+        "鼠标",
+        "抓取"
+      ],
+      "categories": [
+        "光标",
+        "无障碍"
+      ]
+    }
+  }
 }

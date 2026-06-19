@@ -23,5 +23,22 @@
     "connectivity",
     "communication",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "书籍用户",
+      "tags": [
+        "人员",
+        "家庭",
+        "电话numbers",
+        "目录"
+      ],
+      "categories": [
+        "账号与访问",
+        "连接",
+        "沟通",
+        "社交"
+      ]
+    }
+  }
 }

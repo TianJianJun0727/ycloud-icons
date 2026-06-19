@@ -14,5 +14,19 @@
   "categories": [
     "multimedia",
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "列表起始",
+      "tags": [
+        "顶部",
+        "起始",
+        "下一个"
+      ],
+      "categories": [
+        "多媒体",
+        "文本格式"
+      ]
+    }
+  }
 }

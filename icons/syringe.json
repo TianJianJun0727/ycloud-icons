@@ -17,5 +17,17 @@
   "categories": [
     "science",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "注射器",
+      "tags": [
+        "医疗"
+      ],
+      "categories": [
+        "科学",
+        "医疗"
+      ]
+    }
+  }
 }

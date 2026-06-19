@@ -21,5 +21,18 @@
     "text",
     "design",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "调色板",
+      "tags": [
+        "绘制"
+      ],
+      "categories": [
+        "文本格式",
+        "设计",
+        "摄影"
+      ]
+    }
+  }
 }

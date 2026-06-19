@@ -43,5 +43,20 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "汉堡",
+      "tags": [
+        "牛肉",
+        "快速食物",
+        "junk食物",
+        "盘子",
+        "烹饪"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

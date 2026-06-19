@@ -26,5 +26,22 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形底部虚线剪刀",
+      "tags": [
+        "切割",
+        "文具",
+        "手工"
+      ],
+      "categories": [
+        "文本格式",
+        "设计",
+        "工具",
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

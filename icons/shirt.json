@@ -15,5 +15,18 @@
   ],
   "categories": [
     "shopping"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "衬衫",
+      "tags": [
+        "t衬衫",
+        "购物",
+        "商店"
+      ],
+      "categories": [
+        "购物"
+      ]
+    }
+  }
 }

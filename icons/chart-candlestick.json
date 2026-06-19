@@ -36,5 +36,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图表蜡烛图",
+      "tags": [
+        "货币",
+        "图形"
+      ],
+      "categories": [
+        "图表",
+        "金融"
+      ]
+    }
+  }
 }

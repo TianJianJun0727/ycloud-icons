@@ -15,5 +15,19 @@
     "connectivity",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "屏幕分享关闭",
+      "tags": [
+        "显示器",
+        "断开"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

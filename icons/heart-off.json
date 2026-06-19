@@ -16,5 +16,17 @@
   "categories": [
     "social",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "爱心关闭",
+      "tags": [
+        "情绪"
+      ],
+      "categories": [
+        "社交",
+        "多媒体"
+      ]
+    }
+  }
 }

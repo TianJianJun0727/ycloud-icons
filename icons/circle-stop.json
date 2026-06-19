@@ -19,5 +19,16 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形停止",
+      "tags": [
+        "音乐"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

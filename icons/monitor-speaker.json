@@ -13,5 +13,17 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器扬声器",
+      "tags": [
+        "投屏"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

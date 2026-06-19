@@ -23,5 +23,19 @@
   "categories": [
     "food-beverage",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蛋糕切片",
+      "tags": [
+        "甜点",
+        "庆祝",
+        "派对"
+      ],
+      "categories": [
+        "餐饮",
+        "社交"
+      ]
+    }
+  }
 }

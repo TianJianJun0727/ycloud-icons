@@ -27,5 +27,17 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "列表缩进减少",
+      "tags": [
+        "文本"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

@@ -14,5 +14,17 @@
   "categories": [
     "multimedia",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "星标关闭",
+      "tags": [
+        "移除"
+      ],
+      "categories": [
+        "多媒体",
+        "社交"
+      ]
+    }
+  }
 }

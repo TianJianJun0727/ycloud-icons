@@ -35,5 +35,24 @@
   "categories": [
     "devices",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电视极简播放",
+      "tags": [
+        "串流",
+        "高definition",
+        "高清",
+        "视频",
+        "起始",
+        "胶片",
+        "家居cinema",
+        "娱乐"
+      ],
+      "categories": [
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

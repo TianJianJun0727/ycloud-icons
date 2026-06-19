@@ -19,5 +19,18 @@
   "categories": [
     "animals",
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蠕虫",
+      "tags": [
+        "pest控制",
+        "电脑virus"
+      ],
+      "categories": [
+        "动物",
+        "安全"
+      ]
+    }
+  }
 }

@@ -26,5 +26,21 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "闹钟完成",
+      "tags": [
+        "完成",
+        "待办",
+        "勾选",
+        "任务"
+      ],
+      "categories": [
+        "设备",
+        "通知",
+        "时间与日历"
+      ]
+    }
+  }
 }

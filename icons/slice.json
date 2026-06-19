@@ -13,5 +13,16 @@
   ],
   "categories": [
     "design"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "切片",
+      "tags": [
+        "刀"
+      ],
+      "categories": [
+        "设计"
+      ]
+    }
+  }
 }

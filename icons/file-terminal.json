@@ -14,5 +14,17 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件终端",
+      "tags": [
+        "终端"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

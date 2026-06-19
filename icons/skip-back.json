@@ -14,5 +14,19 @@
   "categories": [
     "multimedia",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "跳过返回",
+      "tags": [
+        "箭头",
+        "上一个",
+        "音乐"
+      ],
+      "categories": [
+        "多媒体",
+        "箭头"
+      ]
+    }
+  }
 }

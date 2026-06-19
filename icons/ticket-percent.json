@@ -21,5 +21,18 @@
   "categories": [
     "transportation",
     "shopping"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "票券百分比",
+      "tags": [
+        "折扣",
+        "书籍"
+      ],
+      "categories": [
+        "交通",
+        "购物"
+      ]
+    }
+  }
 }

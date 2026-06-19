@@ -22,5 +22,19 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件加号角落",
+      "tags": [
+        "添加",
+        "创建",
+        "新建",
+        "文档"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

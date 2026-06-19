@@ -26,5 +26,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "省略号垂直",
+      "tags": [
+        "菜单",
+        "更多",
+        "额外"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

@@ -16,5 +16,21 @@
     "nature",
     "sustainability",
     "seasons"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "叶子",
+      "tags": [
+        "可持续",
+        "自然",
+        "能源",
+        "植物"
+      ],
+      "categories": [
+        "自然",
+        "可持续",
+        "季节"
+      ]
+    }
+  }
 }

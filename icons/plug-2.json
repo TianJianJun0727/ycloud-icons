@@ -14,5 +14,18 @@
   "categories": [
     "devices",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "插头2",
+      "tags": [
+        "电力",
+        "能源"
+      ],
+      "categories": [
+        "设备",
+        "编码与开发"
+      ]
+    }
+  }
 }

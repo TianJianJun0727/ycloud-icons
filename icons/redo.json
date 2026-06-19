@@ -14,5 +14,18 @@
   "categories": [
     "text",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "重做",
+      "tags": [
+        "撤销",
+        "历史"
+      ],
+      "categories": [
+        "文本格式",
+        "箭头"
+      ]
+    }
+  }
 }

@@ -38,5 +38,22 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "省略号",
+      "tags": [
+        "加载器",
+        "菜单",
+        "代码",
+        "更多",
+        "额外",
+        "加载"
+      ],
+      "categories": [
+        "布局",
+        "编码与开发"
+      ]
+    }
+  }
 }

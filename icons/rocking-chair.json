@@ -15,5 +15,16 @@
   ],
   "categories": [
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "摇椅椅子",
+      "tags": [
+        "椅子"
+      ],
+      "categories": [
+        "家居"
+      ]
+    }
+  }
 }

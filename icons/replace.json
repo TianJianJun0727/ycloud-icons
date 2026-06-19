@@ -14,5 +14,16 @@
   ],
   "categories": [
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "替换",
+      "tags": [
+        "搜索"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

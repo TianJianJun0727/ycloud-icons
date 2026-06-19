@@ -18,5 +18,18 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "包打开",
+      "tags": [
+        "盒子",
+        "容器"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

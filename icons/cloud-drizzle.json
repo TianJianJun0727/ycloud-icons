@@ -13,5 +13,17 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "云毛毛雨",
+      "tags": [
+        "天气",
+        "淋浴"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

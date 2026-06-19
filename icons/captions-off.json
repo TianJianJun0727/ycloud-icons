@@ -15,5 +15,17 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "字幕关闭",
+      "tags": [
+        "关闭字幕",
+        "无障碍"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

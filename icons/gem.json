@@ -25,5 +25,20 @@
     "gaming",
     "development",
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "宝石",
+      "tags": [
+        "菱形",
+        "礼物",
+        "响铃"
+      ],
+      "categories": [
+        "游戏",
+        "编码与开发",
+        "金融"
+      ]
+    }
+  }
 }

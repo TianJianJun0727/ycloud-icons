@@ -15,5 +15,20 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹打开点",
+      "tags": [
+        "根",
+        "项目",
+        "定位",
+        "目录"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

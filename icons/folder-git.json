@@ -15,5 +15,18 @@
   ],
   "categories": [
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹Git",
+      "tags": [
+        "根",
+        "项目",
+        "目录"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

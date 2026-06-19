@@ -11,5 +11,16 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "列表视频",
+      "tags": [
+        "视频"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

@@ -35,5 +35,22 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电视极简",
+      "tags": [
+        "串流",
+        "高definition",
+        "高清",
+        "视频",
+        "家居cinema",
+        "娱乐"
+      ],
+      "categories": [
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

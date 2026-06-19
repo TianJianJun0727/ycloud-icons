@@ -11,5 +11,16 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "货币",
+      "tags": [
+        "金融"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

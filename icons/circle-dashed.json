@@ -18,5 +18,21 @@
   "categories": [
     "development",
     "shapes"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形虚线",
+      "tags": [
+        "点",
+        "问题",
+        "草稿",
+        "代码",
+        "version控制"
+      ],
+      "categories": [
+        "编码与开发",
+        "形状"
+      ]
+    }
+  }
 }

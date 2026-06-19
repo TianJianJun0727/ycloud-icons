@@ -15,5 +15,17 @@
   "categories": [
     "text",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "删除",
+      "tags": [
+        "移除"
+      ],
+      "categories": [
+        "文本格式",
+        "箭头"
+      ]
+    }
+  }
 }

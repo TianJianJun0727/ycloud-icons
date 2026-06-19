@@ -15,5 +15,17 @@
   "categories": [
     "gaming",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "火箭",
+      "tags": [
+        "间距"
+      ],
+      "categories": [
+        "游戏",
+        "编码与开发"
+      ]
+    }
+  }
 }

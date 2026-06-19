@@ -26,5 +26,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形斜杠",
+      "tags": [
+        "差异",
+        "除号"
+      ],
+      "categories": [
+        "编码与开发",
+        "数学"
+      ]
+    }
+  }
 }

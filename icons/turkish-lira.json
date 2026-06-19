@@ -11,5 +11,17 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "土耳其里拉",
+      "tags": [
+        "货币",
+        "支付"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

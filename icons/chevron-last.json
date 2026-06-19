@@ -13,5 +13,19 @@
   "categories": [
     "arrows",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "折角箭头最后一个",
+      "tags": [
+        "跳过",
+        "下一个",
+        "音乐"
+      ],
+      "categories": [
+        "箭头",
+        "多媒体"
+      ]
+    }
+  }
 }

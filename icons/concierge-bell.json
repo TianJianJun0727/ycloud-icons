@@ -12,5 +12,16 @@
   ],
   "categories": [
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "礼宾铃铛",
+      "tags": [
+        "铃铛"
+      ],
+      "categories": [
+        "旅行"
+      ]
+    }
+  }
 }

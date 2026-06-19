@@ -24,5 +24,16 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "手帮扶",
+      "tags": [
+        "帮助"
+      ],
+      "categories": [
+        "表情"
+      ]
+    }
+  }
 }

@@ -17,5 +17,18 @@
   "categories": [
     "text",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "@标志",
+      "tags": [
+        "消息",
+        "邮箱"
+      ],
+      "categories": [
+        "文本格式",
+        "账号与访问"
+      ]
+    }
+  }
 }

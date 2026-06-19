@@ -16,5 +16,19 @@
   "categories": [
     "sports",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "钓鱼鱼竿",
+      "tags": [
+        "钓鱼",
+        "鱼竿",
+        "设备"
+      ],
+      "categories": [
+        "运动",
+        "旅行"
+      ]
+    }
+  }
 }

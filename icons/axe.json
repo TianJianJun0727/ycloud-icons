@@ -25,5 +25,19 @@
   "categories": [
     "tools",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "斧头",
+      "tags": [
+        "武器",
+        "切割",
+        "设备"
+      ],
+      "categories": [
+        "工具",
+        "游戏"
+      ]
+    }
+  }
 }

@@ -13,5 +13,17 @@
   "categories": [
     "communication",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "讲台",
+      "tags": [
+        "领奖台"
+      ],
+      "categories": [
+        "沟通",
+        "多媒体"
+      ]
+    }
+  }
 }

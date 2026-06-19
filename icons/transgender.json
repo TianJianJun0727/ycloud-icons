@@ -11,5 +11,17 @@
   "categories": [
     "medical",
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "跨性别",
+      "tags": [
+        "性别"
+      ],
+      "categories": [
+        "医疗",
+        "无障碍"
+      ]
+    }
+  }
 }

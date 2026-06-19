@@ -22,5 +22,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形函数",
+      "tags": [
+        "代码",
+        "编程"
+      ],
+      "categories": [
+        "编码与开发",
+        "数学"
+      ]
+    }
+  }
 }

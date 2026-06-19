@@ -16,5 +16,17 @@
   ],
   "categories": [
     "shapes"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "三角形",
+      "tags": [
+        "金字塔",
+        "形状"
+      ],
+      "categories": [
+        "形状"
+      ]
+    }
+  }
 }

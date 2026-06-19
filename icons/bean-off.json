@@ -17,5 +17,16 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "豆子关闭",
+      "tags": [
+        "食物"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

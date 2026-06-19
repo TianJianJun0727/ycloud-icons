@@ -22,5 +22,19 @@
   "categories": [
     "devices",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "光盘2",
+      "tags": [
+        "相册",
+        "音乐",
+        "旋转"
+      ],
+      "categories": [
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

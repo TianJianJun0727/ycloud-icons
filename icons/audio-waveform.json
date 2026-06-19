@@ -31,5 +31,21 @@
   "categories": [
     "multimedia",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "音频波形",
+      "tags": [
+        "振动",
+        "轨道",
+        "音乐",
+        "收音机",
+        "声音"
+      ],
+      "categories": [
+        "多媒体",
+        "沟通"
+      ]
+    }
+  }
 }

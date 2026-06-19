@@ -14,5 +14,18 @@
   "categories": [
     "text",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "地图",
+      "tags": [
+        "导航",
+        "旅行"
+      ],
+      "categories": [
+        "文本格式",
+        "导航与地点"
+      ]
+    }
+  }
 }

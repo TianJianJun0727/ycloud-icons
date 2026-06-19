@@ -12,5 +12,17 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器关闭",
+      "tags": [
+        "分享"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

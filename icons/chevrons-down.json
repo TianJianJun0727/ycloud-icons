@@ -12,5 +12,18 @@
   "categories": [
     "arrows",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "双折角箭头下",
+      "tags": [
+        "后退",
+        "反向"
+      ],
+      "categories": [
+        "箭头",
+        "游戏"
+      ]
+    }
+  }
 }

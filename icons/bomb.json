@@ -18,5 +18,18 @@
   "categories": [
     "security",
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "炸弹",
+      "tags": [
+        "错误",
+        "崩溃"
+      ],
+      "categories": [
+        "安全",
+        "工具"
+      ]
+    }
+  }
 }

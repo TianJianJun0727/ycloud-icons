@@ -20,5 +20,19 @@
     "text",
     "math",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "星号",
+      "tags": [
+        "代码",
+        "glob图案"
+      ],
+      "categories": [
+        "文本格式",
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

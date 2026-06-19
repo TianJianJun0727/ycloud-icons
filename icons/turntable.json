@@ -25,5 +25,20 @@
   "categories": [
     "multimedia",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "唱盘",
+      "tags": [
+        "光盘",
+        "餐盘",
+        "音乐",
+        "光盘jockey"
+      ],
+      "categories": [
+        "多媒体",
+        "家居"
+      ]
+    }
+  }
 }

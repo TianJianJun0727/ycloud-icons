@@ -32,5 +32,19 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "书籍虚线",
+      "tags": [
+        "代码",
+        "version控制",
+        "模板",
+        "草稿"
+      ],
+      "categories": [
+        "编码与开发"
+      ]
+    }
+  }
 }

@@ -22,5 +22,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形折角箭头左",
+      "tags": [
+        "返回",
+        "上一个",
+        "菜单"
+      ],
+      "categories": [
+        "箭头"
+      ]
+    }
+  }
 }

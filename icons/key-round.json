@@ -15,5 +15,19 @@
   "categories": [
     "security",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "钥匙圆形",
+      "tags": [
+        "钥匙",
+        "权限",
+        "访问"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问"
+      ]
+    }
+  }
 }

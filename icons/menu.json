@@ -15,5 +15,18 @@
   "categories": [
     "layout",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "菜单",
+      "tags": [
+        "导航",
+        "汉堡"
+      ],
+      "categories": [
+        "布局",
+        "账号与访问"
+      ]
+    }
+  }
 }

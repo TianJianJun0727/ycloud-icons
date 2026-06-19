@@ -18,5 +18,19 @@
     "home",
     "travel",
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "门关闭",
+      "tags": [
+        "退出",
+        "emergency退出"
+      ],
+      "categories": [
+        "家居",
+        "旅行",
+        "安全"
+      ]
+    }
+  }
 }

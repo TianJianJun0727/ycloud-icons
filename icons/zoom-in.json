@@ -15,5 +15,21 @@
     "design",
     "text",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "缩放进入",
+      "tags": [
+        "magnifying玻璃杯",
+        "加号"
+      ],
+      "categories": [
+        "无障碍",
+        "布局",
+        "设计",
+        "文本格式",
+        "摄影"
+      ]
+    }
+  }
 }

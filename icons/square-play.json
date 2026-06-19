@@ -23,5 +23,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形播放",
+      "tags": [
+        "音乐",
+        "音频",
+        "视频",
+        "起始"
+      ],
+      "categories": [
+        "箭头",
+        "多媒体"
+      ]
+    }
+  }
 }

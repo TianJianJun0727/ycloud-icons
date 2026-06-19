@@ -18,5 +18,19 @@
   "categories": [
     "devices",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "高清",
+      "tags": [
+        "电视",
+        "视频",
+        "高definition"
+      ],
+      "categories": [
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

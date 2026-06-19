@@ -14,5 +14,16 @@
   ],
   "categories": [
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "锁",
+      "tags": [
+        "安全"
+      ],
+      "categories": [
+        "安全"
+      ]
+    }
+  }
 }

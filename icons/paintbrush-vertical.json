@@ -28,5 +28,22 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "画笔垂直",
+      "tags": [
+        "刷子",
+        "画笔",
+        "设计"
+      ],
+      "categories": [
+        "文本格式",
+        "设计",
+        "摄影",
+        "家居",
+        "工具"
+      ]
+    }
+  }
 }

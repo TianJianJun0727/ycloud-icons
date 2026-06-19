@@ -15,5 +15,20 @@
     "connectivity",
     "devices",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "卫星盘子",
+      "tags": [
+        "天线",
+        "接收器",
+        "盘子aerial"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

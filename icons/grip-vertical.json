@@ -14,5 +14,17 @@
   ],
   "categories": [
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "握柄垂直",
+      "tags": [
+        "抓取",
+        "移动"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

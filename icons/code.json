@@ -13,5 +13,20 @@
   "categories": [
     "text",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "代码",
+      "tags": [
+        "源码",
+        "编程",
+        "HTML",
+        "XML"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

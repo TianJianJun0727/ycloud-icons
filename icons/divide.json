@@ -17,5 +17,18 @@
   "categories": [
     "math",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "除号",
+      "tags": [
+        "计算",
+        "代码"
+      ],
+      "categories": [
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

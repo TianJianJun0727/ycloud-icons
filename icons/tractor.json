@@ -17,5 +17,18 @@
     "transportation",
     "sustainability",
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "拖拉机",
+      "tags": [
+        "设备"
+      ],
+      "categories": [
+        "交通",
+        "可持续",
+        "餐饮"
+      ]
+    }
+  }
 }

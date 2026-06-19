@@ -27,5 +27,17 @@
   "categories": [
     "home",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "毛巾架子",
+      "tags": [
+        "健康梅花"
+      ],
+      "categories": [
+        "家居",
+        "旅行"
+      ]
+    }
+  }
 }

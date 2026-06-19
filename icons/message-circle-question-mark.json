@@ -25,5 +25,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息圆形问题标记",
+      "tags": [
+        "语音bubble",
+        "聊天",
+        "帮助"
+      ],
+      "categories": [
+        "社交"
+      ]
+    }
+  }
 }

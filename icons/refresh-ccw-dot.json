@@ -23,5 +23,21 @@
   "categories": [
     "arrows",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "刷新逆时针点",
+      "tags": [
+        "箭头",
+        "旋转",
+        "问题",
+        "代码",
+        "version控制"
+      ],
+      "categories": [
+        "箭头",
+        "编码与开发"
+      ]
+    }
+  }
 }

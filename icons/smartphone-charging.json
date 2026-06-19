@@ -15,5 +15,20 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "智能手机充电",
+      "tags": [
+        "电话",
+        "设备",
+        "电源",
+        "屏幕"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

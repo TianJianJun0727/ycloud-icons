@@ -15,5 +15,18 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "无限",
+      "tags": [
+        "无限",
+        "循环",
+        "持续"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

@@ -20,5 +20,16 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "卡车",
+      "tags": [
+        "厢式车"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

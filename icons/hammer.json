@@ -17,5 +17,18 @@
   "categories": [
     "tools",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "锤子",
+      "tags": [
+        "工具箱",
+        "施工"
+      ],
+      "categories": [
+        "工具",
+        "家居"
+      ]
+    }
+  }
 }

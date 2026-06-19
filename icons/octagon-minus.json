@@ -19,5 +19,20 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "八边形减少",
+      "tags": [
+        "停止",
+        "减去",
+        "移除",
+        "减少",
+        "交通"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

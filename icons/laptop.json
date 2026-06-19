@@ -12,5 +12,17 @@
   ],
   "categories": [
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "笔记本电脑",
+      "tags": [
+        "电脑",
+        "屏幕"
+      ],
+      "categories": [
+        "设备"
+      ]
+    }
+  }
 }

@@ -12,5 +12,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "冰棍",
+      "tags": [
+        "冰lolly",
+        "冰冰淇淋",
+        "食物"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

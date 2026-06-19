@@ -29,5 +29,19 @@
   "categories": [
     "travel",
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "阳伞",
+      "tags": [
+        "雨伞",
+        "太阳",
+        "旅行"
+      ],
+      "categories": [
+        "旅行",
+        "天气"
+      ]
+    }
+  }
 }

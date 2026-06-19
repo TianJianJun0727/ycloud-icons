@@ -14,5 +14,17 @@
   "categories": [
     "gaming",
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "国际象棋主教",
+      "tags": [
+        "面板game"
+      ],
+      "categories": [
+        "游戏",
+        "表情"
+      ]
+    }
+  }
 }

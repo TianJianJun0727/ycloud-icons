@@ -14,5 +14,17 @@
   "categories": [
     "design",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "视图",
+      "tags": [
+        "眼睛"
+      ],
+      "categories": [
+        "设计",
+        "摄影"
+      ]
+    }
+  }
 }

@@ -15,5 +15,17 @@
   "categories": [
     "text",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "表格",
+      "tags": [
+        "表格"
+      ],
+      "categories": [
+        "文本格式",
+        "文件"
+      ]
+    }
+  }
 }

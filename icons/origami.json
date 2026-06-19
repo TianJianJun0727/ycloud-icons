@@ -11,5 +11,17 @@
   "categories": [
     "animals",
     "design"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "折纸",
+      "tags": [
+        "鸟"
+      ],
+      "categories": [
+        "动物",
+        "设计"
+      ]
+    }
+  }
 }

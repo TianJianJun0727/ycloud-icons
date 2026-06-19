@@ -15,5 +15,19 @@
   ],
   "categories": [
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "聚焦",
+      "tags": [
+        "相机",
+        "镜头",
+        "照片",
+        "虚线"
+      ],
+      "categories": [
+        "摄影"
+      ]
+    }
+  }
 }

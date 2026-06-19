@@ -29,5 +29,21 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "加载器圆形",
+      "tags": [
+        "圆形",
+        "加载",
+        "等待",
+        "忙碌"
+      ],
+      "categories": [
+        "光标",
+        "多媒体",
+        "布局"
+      ]
+    }
+  }
 }

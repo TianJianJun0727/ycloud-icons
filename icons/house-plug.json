@@ -18,5 +18,20 @@
     "buildings",
     "home",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "房屋插头",
+      "tags": [
+        "家居",
+        "建筑",
+        "能源"
+      ],
+      "categories": [
+        "建筑",
+        "家居",
+        "可持续"
+      ]
+    }
+  }
 }

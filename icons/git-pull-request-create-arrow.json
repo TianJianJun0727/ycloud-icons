@@ -15,5 +15,21 @@
   "categories": [
     "development",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "Git拉取请求创建箭头",
+      "tags": [
+        "代码",
+        "version控制",
+        "打开",
+        "加号",
+        "添加"
+      ],
+      "categories": [
+        "编码与开发",
+        "箭头"
+      ]
+    }
+  }
 }

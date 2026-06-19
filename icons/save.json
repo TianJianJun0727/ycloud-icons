@@ -12,5 +12,17 @@
   "categories": [
     "text",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "保存",
+      "tags": [
+        "软盘"
+      ],
+      "categories": [
+        "文本格式",
+        "文件"
+      ]
+    }
+  }
 }

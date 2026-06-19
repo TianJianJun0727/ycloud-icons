@@ -11,5 +11,19 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蓝牙关闭",
+      "tags": [
+        "蓝牙",
+        "关闭",
+        "断开"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

@@ -23,5 +23,21 @@
   "categories": [
     "social",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息方形勾选",
+      "tags": [
+        "语音bubble",
+        "勾选",
+        "完成",
+        "待办",
+        "聊天"
+      ],
+      "categories": [
+        "社交",
+        "账号与访问"
+      ]
+    }
+  }
 }

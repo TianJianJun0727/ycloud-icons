@@ -15,5 +15,19 @@
   "categories": [
     "math",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "等于非",
+      "tags": [
+        "计算",
+        "关闭",
+        "代码"
+      ],
+      "categories": [
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

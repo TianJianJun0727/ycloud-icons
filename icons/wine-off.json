@@ -19,5 +19,17 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "葡萄酒关闭",
+      "tags": [
+        "饮品",
+        "玻璃杯"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

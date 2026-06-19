@@ -17,5 +17,18 @@
   "categories": [
     "files",
     "mail"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "归档",
+      "tags": [
+        "备份",
+        "盒子"
+      ],
+      "categories": [
+        "文件",
+        "邮件"
+      ]
+    }
+  }
 }

@@ -12,5 +12,16 @@
   ],
   "categories": [
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "猫",
+      "tags": [
+        "动物"
+      ],
+      "categories": [
+        "动物"
+      ]
+    }
+  }
 }

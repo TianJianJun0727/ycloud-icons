@@ -13,5 +13,19 @@
   "categories": [
     "text",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "正则",
+      "tags": [
+        "搜索",
+        "文本",
+        "代码"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

@@ -12,5 +12,18 @@
   ],
   "categories": [
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "标题",
+      "tags": [
+        "HTML",
+        "标记语言",
+        "Markdown"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

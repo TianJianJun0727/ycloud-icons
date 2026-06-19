@@ -16,5 +16,17 @@
   "categories": [
     "arrows",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "重复关闭",
+      "tags": [
+        "箭头"
+      ],
+      "categories": [
+        "箭头",
+        "多媒体"
+      ]
+    }
+  }
 }

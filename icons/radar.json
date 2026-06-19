@@ -16,5 +16,19 @@
     "navigation",
     "security",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "雷达",
+      "tags": [
+        "扫描",
+        "定位"
+      ],
+      "categories": [
+        "导航与地点",
+        "安全",
+        "沟通"
+      ]
+    }
+  }
 }

@@ -20,5 +20,20 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "无线网络同步",
+      "tags": [
+        "连接",
+        "信号",
+        "重置",
+        "重启"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

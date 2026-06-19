@@ -12,5 +12,16 @@
   ],
   "categories": [
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹",
+      "tags": [
+        "复制"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

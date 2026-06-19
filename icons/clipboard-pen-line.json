@@ -18,5 +18,16 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "剪贴板笔线条",
+      "tags": [
+        "粘贴"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

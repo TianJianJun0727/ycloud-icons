@@ -11,5 +11,16 @@
   ],
   "categories": [
     "mail"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "回复",
+      "tags": [
+        "邮箱"
+      ],
+      "categories": [
+        "邮件"
+      ]
+    }
+  }
 }

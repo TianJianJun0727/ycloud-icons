@@ -11,5 +11,17 @@
   ],
   "categories": [
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "准星",
+      "tags": [
+        "瞄准",
+        "目标"
+      ],
+      "categories": [
+        "摄影"
+      ]
+    }
+  }
 }

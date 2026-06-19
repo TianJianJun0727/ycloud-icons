@@ -29,5 +29,21 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形减少",
+      "tags": [
+        "减去",
+        "移除",
+        "减少",
+        "计算",
+        "线条",
+        "代码"
+      ],
+      "categories": [
+        "数学"
+      ]
+    }
+  }
 }

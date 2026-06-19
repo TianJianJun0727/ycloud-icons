@@ -12,5 +12,16 @@
   ],
   "categories": [
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "版权",
+      "tags": [
+        "许可"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

@@ -21,5 +21,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件信号",
+      "tags": [
+        "音频",
+        "音乐",
+        "音量"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

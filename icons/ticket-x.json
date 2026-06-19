@@ -32,5 +32,19 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "票券关闭",
+      "tags": [
+        "删除",
+        "移除",
+        "错误",
+        "关闭"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

@@ -18,5 +18,17 @@
   "categories": [
     "photography",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "手电筒",
+      "tags": [
+        "工具"
+      ],
+      "categories": [
+        "摄影",
+        "设备"
+      ]
+    }
+  }
 }

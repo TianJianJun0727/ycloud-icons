@@ -20,5 +20,19 @@
   "categories": [
     "buildings",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "砖块墙",
+      "tags": [
+        "施工",
+        "积木",
+        "石头"
+      ],
+      "categories": [
+        "建筑",
+        "家居"
+      ]
+    }
+  }
 }

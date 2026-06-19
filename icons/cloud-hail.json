@@ -11,5 +11,16 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "云冰雹",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

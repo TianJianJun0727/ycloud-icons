@@ -28,5 +28,19 @@
   "categories": [
     "food-beverage",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "桶",
+      "tags": [
+        "鼓",
+        "葡萄酒",
+        "啤酒"
+      ],
+      "categories": [
+        "餐饮",
+        "导航与地点"
+      ]
+    }
+  }
 }

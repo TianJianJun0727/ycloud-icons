@@ -22,5 +22,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件轴三维",
+      "tags": [
+        "三维",
+        "轴"
+      ],
+      "categories": [
+        "设计",
+        "文件"
+      ]
+    }
+  }
 }

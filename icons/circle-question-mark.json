@@ -29,5 +29,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形问题标记",
+      "tags": [
+        "问题标记"
+      ],
+      "categories": [
+        "无障碍",
+        "文本格式",
+        "通知"
+      ]
+    }
+  }
 }

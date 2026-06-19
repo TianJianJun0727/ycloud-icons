@@ -11,5 +11,17 @@
   ],
   "categories": [
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "回收",
+      "tags": [
+        "箭头",
+        "可持续"
+      ],
+      "categories": [
+        "可持续"
+      ]
+    }
+  }
 }

@@ -15,5 +15,16 @@
   ],
   "categories": [
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "加粗",
+      "tags": [
+        "文本"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

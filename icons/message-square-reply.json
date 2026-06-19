@@ -17,5 +17,18 @@
   ],
   "categories": [
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息方形回复",
+      "tags": [
+        "语音bubble",
+        "回复",
+        "聊天"
+      ],
+      "categories": [
+        "社交"
+      ]
+    }
+  }
 }

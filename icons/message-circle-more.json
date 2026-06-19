@@ -24,5 +24,18 @@
   ],
   "categories": [
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息圆形更多",
+      "tags": [
+        "语音bubble",
+        "省略号",
+        "聊天"
+      ],
+      "categories": [
+        "社交"
+      ]
+    }
+  }
 }

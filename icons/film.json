@@ -17,5 +17,19 @@
   "categories": [
     "photography",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "胶片",
+      "tags": [
+        "视频",
+        "相机",
+        "娱乐"
+      ],
+      "categories": [
+        "摄影",
+        "多媒体"
+      ]
+    }
+  }
 }

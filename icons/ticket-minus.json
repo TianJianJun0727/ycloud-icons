@@ -20,5 +20,18 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "票券减少",
+      "tags": [
+        "移除",
+        "减去",
+        "减少"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

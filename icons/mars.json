@@ -15,5 +15,16 @@
   ],
   "categories": [
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "火星",
+      "tags": [
+        "性别"
+      ],
+      "categories": [
+        "医疗"
+      ]
+    }
+  }
 }

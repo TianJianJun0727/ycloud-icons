@@ -11,5 +11,17 @@
   ],
   "categories": [
     "nature"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "叶片关闭",
+      "tags": [
+        "叶片",
+        "叶子"
+      ],
+      "categories": [
+        "自然"
+      ]
+    }
+  }
 }

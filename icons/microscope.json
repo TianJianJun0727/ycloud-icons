@@ -15,5 +15,19 @@
   "categories": [
     "science",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显微镜",
+      "tags": [
+        "医疗",
+        "教育",
+        "研究"
+      ],
+      "categories": [
+        "科学",
+        "医疗"
+      ]
+    }
+  }
 }

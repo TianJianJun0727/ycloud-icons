@@ -15,5 +15,18 @@
   "categories": [
     "multimedia",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "音乐",
+      "tags": [
+        "便签",
+        "eighth便签"
+      ],
+      "categories": [
+        "多媒体",
+        "文件"
+      ]
+    }
+  }
 }

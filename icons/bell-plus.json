@@ -16,5 +16,19 @@
   ],
   "categories": [
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "铃铛加号",
+      "tags": [
+        "通知",
+        "添加",
+        "创建",
+        "新建"
+      ],
+      "categories": [
+        "通知"
+      ]
+    }
+  }
 }

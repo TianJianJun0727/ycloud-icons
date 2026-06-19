@@ -23,5 +23,19 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "八边形告警",
+      "tags": [
+        "警告",
+        "告警",
+        "感叹号标记"
+      ],
+      "categories": [
+        "通知",
+        "形状"
+      ]
+    }
+  }
 }

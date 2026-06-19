@@ -36,5 +36,23 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形斜杠2",
+      "tags": [
+        "直径",
+        "零",
+        "禁止",
+        "除号",
+        "一半",
+        "拆分"
+      ],
+      "categories": [
+        "形状",
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

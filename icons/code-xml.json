@@ -22,5 +22,20 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "代码XML",
+      "tags": [
+        "源码",
+        "编程",
+        "HTML",
+        "XML"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

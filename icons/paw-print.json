@@ -15,5 +15,17 @@
   ],
   "categories": [
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "爪印打印",
+      "tags": [
+        "猫",
+        "狗"
+      ],
+      "categories": [
+        "动物"
+      ]
+    }
+  }
 }

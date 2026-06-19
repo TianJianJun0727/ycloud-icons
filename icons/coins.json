@@ -15,5 +15,16 @@
   ],
   "categories": [
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "硬币",
+      "tags": [
+        "金融"
+      ],
+      "categories": [
+        "游戏"
+      ]
+    }
+  }
 }

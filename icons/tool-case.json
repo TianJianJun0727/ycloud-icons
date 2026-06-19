@@ -15,5 +15,18 @@
     "tools",
     "development",
     "home"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "工具箱包",
+      "tags": [
+        "维护"
+      ],
+      "categories": [
+        "工具",
+        "编码与开发",
+        "家居"
+      ]
+    }
+  }
 }

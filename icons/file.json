@@ -11,5 +11,16 @@
   ],
   "categories": [
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件",
+      "tags": [
+        "文档"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

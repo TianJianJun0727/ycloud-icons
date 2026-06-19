@@ -16,5 +16,19 @@
     "connectivity",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电话呼入",
+      "tags": [
+        "通话"
+      ],
+      "categories": [
+        "箭头",
+        "连接",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

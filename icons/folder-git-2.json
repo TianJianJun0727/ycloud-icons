@@ -16,5 +16,18 @@
   ],
   "categories": [
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹Git2",
+      "tags": [
+        "根",
+        "项目",
+        "目录"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

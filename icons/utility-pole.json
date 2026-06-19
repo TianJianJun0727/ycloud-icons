@@ -16,5 +16,23 @@
     "buildings",
     "home",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "公用设施杆",
+      "tags": [
+        "transmission线条",
+        "telegraph杆",
+        "电源线条",
+        "电话",
+        "电力",
+        "能源"
+      ],
+      "categories": [
+        "建筑",
+        "家居",
+        "可持续"
+      ]
+    }
+  }
 }

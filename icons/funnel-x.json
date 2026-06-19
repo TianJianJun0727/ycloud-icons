@@ -24,5 +24,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "漏斗关闭",
+      "tags": [
+        "筛选",
+        "移除",
+        "删除"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

@@ -15,5 +15,17 @@
   "categories": [
     "transportation",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "停车仪表",
+      "tags": [
+        "汽车park"
+      ],
+      "categories": [
+        "交通",
+        "导航与地点"
+      ]
+    }
+  }
 }

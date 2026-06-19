@@ -14,5 +14,18 @@
   "categories": [
     "accessibility",
     "people"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "人员站立",
+      "tags": [
+        "无障碍",
+        "手杖figure"
+      ],
+      "categories": [
+        "无障碍",
+        "人物"
+      ]
+    }
+  }
 }

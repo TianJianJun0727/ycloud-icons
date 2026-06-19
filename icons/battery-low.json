@@ -17,5 +17,19 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电池低",
+      "tags": [
+        "电源",
+        "电力",
+        "能源"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

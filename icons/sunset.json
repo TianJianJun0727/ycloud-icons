@@ -16,5 +16,18 @@
   "categories": [
     "arrows",
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "日落",
+      "tags": [
+        "天气",
+        "时间"
+      ],
+      "categories": [
+        "箭头",
+        "天气"
+      ]
+    }
+  }
 }

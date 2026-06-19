@@ -26,5 +26,17 @@
   "categories": [
     "multimedia",
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "广告",
+      "tags": [
+        "营销"
+      ],
+      "categories": [
+        "多媒体",
+        "通知"
+      ]
+    }
+  }
 }

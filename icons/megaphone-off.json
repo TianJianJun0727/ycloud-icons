@@ -18,5 +18,20 @@
   "categories": [
     "multimedia",
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "扩音器关闭",
+      "tags": [
+        "告警",
+        "扩音器",
+        "通知",
+        "警告"
+      ],
+      "categories": [
+        "多媒体",
+        "通知"
+      ]
+    }
+  }
 }

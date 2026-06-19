@@ -13,5 +13,18 @@
   "categories": [
     "files",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件下",
+      "tags": [
+        "下载",
+        "导入"
+      ],
+      "categories": [
+        "文件",
+        "箭头"
+      ]
+    }
+  }
 }

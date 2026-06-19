@@ -14,5 +14,19 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件夹根",
+      "tags": [
+        "根",
+        "项目",
+        "目录"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

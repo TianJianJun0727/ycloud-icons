@@ -14,5 +14,18 @@
   "categories": [
     "design",
     "cursors"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "套索",
+      "tags": [
+        "选择",
+        "光标"
+      ],
+      "categories": [
+        "设计",
+        "光标"
+      ]
+    }
+  }
 }

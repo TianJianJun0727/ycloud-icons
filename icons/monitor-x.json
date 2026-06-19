@@ -22,5 +22,23 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器关闭",
+      "tags": [
+        "电视",
+        "屏幕",
+        "virtual机器",
+        "关闭",
+        "停止",
+        "移除",
+        "删除"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

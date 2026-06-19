@@ -21,5 +21,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "用户圆形齿轮",
+      "tags": [
+        "设置",
+        "编辑",
+        "齿轮"
+      ],
+      "categories": [
+        "账号与访问"
+      ]
+    }
+  }
 }

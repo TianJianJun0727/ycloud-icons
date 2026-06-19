@@ -11,5 +11,16 @@
   ],
   "categories": [
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "面板右底部",
+      "tags": [
+        "侧边栏"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

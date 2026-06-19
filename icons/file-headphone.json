@@ -27,5 +27,19 @@
       "deprecationReason": "alias.duplicate",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件耳机",
+      "tags": [
+        "音乐",
+        "音频",
+        "耳机",
+        "声音"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

@@ -12,5 +12,17 @@
   ],
   "categories": [
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "面板右",
+      "tags": [
+        "侧边栏",
+        "抽屉"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

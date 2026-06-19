@@ -16,5 +16,20 @@
   "categories": [
     "design",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "组件",
+      "tags": [
+        "设计",
+        "组合",
+        "符号",
+        "元素"
+      ],
+      "categories": [
+        "设计",
+        "编码与开发"
+      ]
+    }
+  }
 }

@@ -28,5 +28,20 @@
     "navigation",
     "development",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "路径点",
+      "tags": [
+        "virtualprivate网络"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问",
+        "导航与地点",
+        "编码与开发",
+        "社交"
+      ]
+    }
+  }
 }

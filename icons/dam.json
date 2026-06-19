@@ -13,5 +13,20 @@
     "buildings",
     "sustainability",
     "navigation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "大坝",
+      "tags": [
+        "水",
+        "电力",
+        "能源"
+      ],
+      "categories": [
+        "建筑",
+        "可持续",
+        "导航与地点"
+      ]
+    }
+  }
 }

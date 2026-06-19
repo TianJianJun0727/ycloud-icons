@@ -13,5 +13,20 @@
     "travel",
     "transportation",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "香烟",
+      "tags": [
+        "香烟",
+        "吸烟",
+        "烟草"
+      ],
+      "categories": [
+        "旅行",
+        "交通",
+        "医疗"
+      ]
+    }
+  }
 }

@@ -20,5 +20,19 @@
   "categories": [
     "finance",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "收据",
+      "tags": [
+        "勾选",
+        "货币",
+        "美元"
+      ],
+      "categories": [
+        "金融",
+        "旅行"
+      ]
+    }
+  }
 }

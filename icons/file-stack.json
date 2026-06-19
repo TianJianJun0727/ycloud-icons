@@ -17,5 +17,19 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件堆叠",
+      "tags": [
+        "复制",
+        "version控制",
+        "历史"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

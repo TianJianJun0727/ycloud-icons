@@ -19,5 +19,23 @@
   "categories": [
     "shapes",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形",
+      "tags": [
+        "停止",
+        "音乐",
+        "音频",
+        "视频",
+        "矩形",
+        "aspect比例",
+        "形状"
+      ],
+      "categories": [
+        "形状",
+        "多媒体"
+      ]
+    }
+  }
 }

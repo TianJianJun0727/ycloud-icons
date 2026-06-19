@@ -17,5 +17,19 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "火车正面",
+      "tags": [
+        "高speed",
+        "快速",
+        "轨道",
+        "线条"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

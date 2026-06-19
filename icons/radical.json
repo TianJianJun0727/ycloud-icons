@@ -17,5 +17,20 @@
   "categories": [
     "development",
     "math"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "根号",
+      "tags": [
+        "计算",
+        "根",
+        "方形",
+        "符号"
+      ],
+      "categories": [
+        "编码与开发",
+        "数学"
+      ]
+    }
+  }
 }

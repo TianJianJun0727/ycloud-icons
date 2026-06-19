@@ -14,5 +14,18 @@
   "categories": [
     "gaming",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "摇杆",
+      "tags": [
+        "控制手杖",
+        "游戏"
+      ],
+      "categories": [
+        "游戏",
+        "设备"
+      ]
+    }
+  }
 }

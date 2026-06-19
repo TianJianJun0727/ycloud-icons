@@ -11,5 +11,19 @@
   "categories": [
     "account",
     "buildings"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "建筑",
+      "tags": [
+        "建筑",
+        "楼宇",
+        "办公楼"
+      ],
+      "categories": [
+        "账号与访问",
+        "建筑"
+      ]
+    }
+  }
 }

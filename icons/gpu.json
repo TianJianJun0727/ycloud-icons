@@ -24,5 +24,21 @@
   "categories": [
     "devices",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图形处理器",
+      "tags": [
+        "电脑",
+        "电路",
+        "graphicsprocessing单元",
+        "视频卡片",
+        "digital图片processing"
+      ],
+      "categories": [
+        "设备",
+        "游戏"
+      ]
+    }
+  }
 }

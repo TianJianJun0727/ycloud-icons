@@ -32,5 +32,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形关闭",
+      "tags": [
+        "关闭",
+        "删除",
+        "移除",
+        "错误"
+      ],
+      "categories": [
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

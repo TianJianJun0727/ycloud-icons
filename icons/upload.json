@@ -12,5 +12,17 @@
   "categories": [
     "arrows",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "上传",
+      "tags": [
+        "文件"
+      ],
+      "categories": [
+        "箭头",
+        "文件"
+      ]
+    }
+  }
 }

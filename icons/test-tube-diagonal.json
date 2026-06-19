@@ -27,5 +27,19 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "试管",
+      "tags": [
+        "管",
+        "烧瓶",
+        "测试",
+        "化学"
+      ],
+      "categories": [
+        "科学"
+      ]
+    }
+  }
 }

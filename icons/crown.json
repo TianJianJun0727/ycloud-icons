@@ -19,5 +19,17 @@
   ],
   "categories": [
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "皇冠",
+      "tags": [
+        "国王",
+        "尺子"
+      ],
+      "categories": [
+        "游戏"
+      ]
+    }
+  }
 }

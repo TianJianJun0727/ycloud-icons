@@ -35,5 +35,25 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "网格2x2关闭",
+      "tags": [
+        "表格",
+        "行",
+        "列",
+        "积木",
+        "图",
+        "土地",
+        "surface区域",
+        "方形仪表"
+      ],
+      "categories": [
+        "文本格式",
+        "布局",
+        "数学"
+      ]
+    }
+  }
 }

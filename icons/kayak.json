@@ -20,5 +20,19 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "皮划艇",
+      "tags": [
+        "皮划艇",
+        "水",
+        "运动",
+        "设备"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

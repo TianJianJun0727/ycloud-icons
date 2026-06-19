@@ -20,5 +20,22 @@
     "communication",
     "connectivity",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "监控",
+      "tags": [
+        "相机",
+        "胶片",
+        "录像带"
+      ],
+      "categories": [
+        "安全",
+        "设备",
+        "沟通",
+        "连接",
+        "摄影"
+      ]
+    }
+  }
 }

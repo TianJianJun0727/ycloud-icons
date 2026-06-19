@@ -13,5 +13,17 @@
   "categories": [
     "text",
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文本光标输入",
+      "tags": [
+        "选择"
+      ],
+      "categories": [
+        "文本格式",
+        "布局"
+      ]
+    }
+  }
 }

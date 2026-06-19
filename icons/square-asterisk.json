@@ -28,5 +28,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形星号",
+      "tags": [
+        "钥匙",
+        "glob图案"
+      ],
+      "categories": [
+        "文本格式",
+        "安全",
+        "数学",
+        "编码与开发"
+      ]
+    }
+  }
 }

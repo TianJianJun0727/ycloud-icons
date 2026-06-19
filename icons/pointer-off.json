@@ -10,5 +10,16 @@
   ],
   "categories": [
     "cursors"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "指针关闭",
+      "tags": [
+        "鼠标"
+      ],
+      "categories": [
+        "光标"
+      ]
+    }
+  }
 }

@@ -23,5 +23,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文本对齐对齐",
+      "tags": [
+        "文本",
+        "菜单",
+        "列表"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

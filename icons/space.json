@@ -14,5 +14,16 @@
   ],
   "categories": [
     "text"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "间距",
+      "tags": [
+        "文本"
+      ],
+      "categories": [
+        "文本格式"
+      ]
+    }
+  }
 }

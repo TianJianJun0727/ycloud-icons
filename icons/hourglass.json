@@ -12,5 +12,18 @@
   "categories": [
     "time",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "沙漏",
+      "tags": [
+        "计时器",
+        "时间"
+      ],
+      "categories": [
+        "时间与日历",
+        "游戏"
+      ]
+    }
+  }
 }

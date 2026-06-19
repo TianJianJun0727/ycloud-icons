@@ -12,5 +12,16 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "多云",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

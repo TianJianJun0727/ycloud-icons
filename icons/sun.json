@@ -17,5 +17,19 @@
     "weather",
     "seasons",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "太阳",
+      "tags": [
+        "天气"
+      ],
+      "categories": [
+        "无障碍",
+        "天气",
+        "季节",
+        "可持续"
+      ]
+    }
+  }
 }

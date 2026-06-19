@@ -13,5 +13,16 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "柑橘",
+      "tags": [
+        "水果"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

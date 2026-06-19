@@ -22,5 +22,20 @@
     "communication",
     "finance",
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "握手",
+      "tags": [
+        "商务"
+      ],
+      "categories": [
+        "账号与访问",
+        "社交",
+        "沟通",
+        "金融",
+        "安全"
+      ]
+    }
+  }
 }

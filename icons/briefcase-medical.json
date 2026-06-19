@@ -15,5 +15,17 @@
   "categories": [
     "medical",
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "公文包医疗",
+      "tags": [
+        "第一个aid"
+      ],
+      "categories": [
+        "医疗",
+        "交通"
+      ]
+    }
+  }
 }

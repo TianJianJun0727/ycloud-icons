@@ -16,5 +16,20 @@
   "categories": [
     "medical",
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "DNA链关闭",
+      "tags": [
+        "基因",
+        "螺旋",
+        "遗传",
+        "染色体"
+      ],
+      "categories": [
+        "医疗",
+        "餐饮"
+      ]
+    }
+  }
 }

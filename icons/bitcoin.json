@@ -22,5 +22,19 @@
   "categories": [
     "development",
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "比特币",
+      "tags": [
+        "金融",
+        "货币",
+        "支付"
+      ],
+      "categories": [
+        "编码与开发",
+        "金融"
+      ]
+    }
+  }
 }

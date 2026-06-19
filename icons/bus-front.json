@@ -13,5 +13,17 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "公交车正面",
+      "tags": [
+        "道路",
+        "行程"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

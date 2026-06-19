@@ -27,5 +27,22 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "联系人圆形",
+      "tags": [
+        "用户",
+        "人员",
+        "家庭",
+        "朋友"
+      ],
+      "categories": [
+        "账号与访问",
+        "连接",
+        "沟通",
+        "社交"
+      ]
+    }
+  }
 }

@@ -20,5 +20,18 @@
   "categories": [
     "devices",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "内存手杖",
+      "tags": [
+        "电脑",
+        "电路"
+      ],
+      "categories": [
+        "设备",
+        "游戏"
+      ]
+    }
+  }
 }

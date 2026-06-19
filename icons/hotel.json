@@ -15,5 +15,18 @@
     "buildings",
     "navigation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "酒店",
+      "tags": [
+        "建筑"
+      ],
+      "categories": [
+        "建筑",
+        "导航与地点",
+        "旅行"
+      ]
+    }
+  }
 }

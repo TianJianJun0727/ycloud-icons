@@ -13,5 +13,20 @@
   "categories": [
     "development",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "机器人",
+      "tags": [
+        "机器人",
+        "AI",
+        "聊天",
+        "助手"
+      ],
+      "categories": [
+        "编码与开发",
+        "社交"
+      ]
+    }
+  }
 }

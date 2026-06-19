@@ -11,5 +11,19 @@
   "categories": [
     "emoji",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "手金属",
+      "tags": [
+        "手势",
+        "摇滚",
+        "手掌"
+      ],
+      "categories": [
+        "表情",
+        "多媒体"
+      ]
+    }
+  }
 }

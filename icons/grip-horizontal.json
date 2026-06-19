@@ -13,5 +13,17 @@
   ],
   "categories": [
     "layout"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "握柄水平",
+      "tags": [
+        "抓取",
+        "移动"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

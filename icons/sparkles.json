@@ -24,5 +24,19 @@
     "multimedia",
     "gaming",
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "闪光",
+      "tags": [
+        "筛选"
+      ],
+      "categories": [
+        "光标",
+        "多媒体",
+        "游戏",
+        "天气"
+      ]
+    }
+  }
 }

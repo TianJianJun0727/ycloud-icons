@@ -15,5 +15,17 @@
   "categories": [
     "text",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "链接2",
+      "tags": [
+        "链接"
+      ],
+      "categories": [
+        "文本格式",
+        "账号与访问"
+      ]
+    }
+  }
 }

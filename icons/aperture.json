@@ -14,5 +14,17 @@
   ],
   "categories": [
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "光圈",
+      "tags": [
+        "相机",
+        "照片"
+      ],
+      "categories": [
+        "摄影"
+      ]
+    }
+  }
 }

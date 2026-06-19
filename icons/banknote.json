@@ -12,5 +12,17 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "纸币",
+      "tags": [
+        "货币",
+        "支付"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

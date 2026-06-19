@@ -17,5 +17,20 @@
   "categories": [
     "development",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "差异",
+      "tags": [
+        "比较",
+        "加号",
+        "减少",
+        "加号减少"
+      ],
+      "categories": [
+        "编码与开发",
+        "文件"
+      ]
+    }
+  }
 }

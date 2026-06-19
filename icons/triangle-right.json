@@ -19,5 +19,19 @@
   "categories": [
     "shapes",
     "math"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "三角形右",
+      "tags": [
+        "音量",
+        "电视remote",
+        "增加"
+      ],
+      "categories": [
+        "形状",
+        "数学"
+      ]
+    }
+  }
 }

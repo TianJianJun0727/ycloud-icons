@@ -12,5 +12,17 @@
   "categories": [
     "account",
     "mail"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "收件箱",
+      "tags": [
+        "邮箱"
+      ],
+      "categories": [
+        "账号与访问",
+        "邮件"
+      ]
+    }
+  }
 }

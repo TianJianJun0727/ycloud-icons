@@ -20,5 +20,20 @@
   "categories": [
     "navigation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "地图减少",
+      "tags": [
+        "导航",
+        "旅行",
+        "删除",
+        "移除"
+      ],
+      "categories": [
+        "导航与地点",
+        "旅行"
+      ]
+    }
+  }
 }

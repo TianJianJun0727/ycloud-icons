@@ -14,5 +14,19 @@
     "photography",
     "multimedia",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图片减少",
+      "tags": [
+        "移除",
+        "删除"
+      ],
+      "categories": [
+        "摄影",
+        "多媒体",
+        "文件"
+      ]
+    }
+  }
 }

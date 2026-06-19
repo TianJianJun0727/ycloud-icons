@@ -27,5 +27,20 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "插头闪电",
+      "tags": [
+        "充电",
+        "电池",
+        "电力",
+        "能源",
+        "电子"
+      ],
+      "categories": [
+        "设备"
+      ]
+    }
+  }
 }

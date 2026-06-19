@@ -20,5 +20,17 @@
   ],
   "categories": [
     "transportation"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "叉车",
+      "tags": [
+        "仓库",
+        "设备"
+      ],
+      "categories": [
+        "交通"
+      ]
+    }
+  }
 }

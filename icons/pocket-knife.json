@@ -17,5 +17,17 @@
   ],
   "categories": [
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "口袋刀",
+      "tags": [
+        "瑞士army刀",
+        "multi工具"
+      ],
+      "categories": [
+        "工具"
+      ]
+    }
+  }
 }

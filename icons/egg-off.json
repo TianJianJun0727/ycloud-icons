@@ -14,5 +14,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "鸡蛋关闭",
+      "tags": [
+        "鸡蛋free",
+        "素食",
+        "bad鸡蛋"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

@@ -27,5 +27,25 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形百分比",
+      "tags": [
+        "促销",
+        "折扣",
+        "营销",
+        "贴纸",
+        "price标签",
+        "已验证",
+        "未验证"
+      ],
+      "categories": [
+        "社交",
+        "金融",
+        "购物",
+        "数学"
+      ]
+    }
+  }
 }

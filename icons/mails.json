@@ -17,5 +17,17 @@
   ],
   "categories": [
     "mail"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "邮件",
+      "tags": [
+        "mailing列表",
+        "复制"
+      ],
+      "categories": [
+        "邮件"
+      ]
+    }
+  }
 }

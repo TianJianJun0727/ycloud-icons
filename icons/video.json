@@ -21,5 +21,21 @@
     "communication",
     "connectivity",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "视频",
+      "tags": [
+        "相机",
+        "胶片",
+        "运动图片"
+      ],
+      "categories": [
+        "设备",
+        "沟通",
+        "连接",
+        "摄影"
+      ]
+    }
+  }
 }

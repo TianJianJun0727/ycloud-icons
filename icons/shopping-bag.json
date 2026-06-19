@@ -14,5 +14,17 @@
   ],
   "categories": [
     "shopping"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "购物包",
+      "tags": [
+        "购物车",
+        "商店"
+      ],
+      "categories": [
+        "购物"
+      ]
+    }
+  }
 }

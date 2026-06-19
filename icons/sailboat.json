@@ -15,5 +15,18 @@
   "categories": [
     "transportation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "帆船",
+      "tags": [
+        "船",
+        "停靠栏"
+      ],
+      "categories": [
+        "交通",
+        "旅行"
+      ]
+    }
+  }
 }

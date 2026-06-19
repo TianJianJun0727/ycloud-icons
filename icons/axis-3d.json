@@ -19,5 +19,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "轴三维",
+      "tags": [
+        "3D",
+        "坐标轴",
+        "三维"
+      ],
+      "categories": [
+        "设计"
+      ]
+    }
+  }
 }

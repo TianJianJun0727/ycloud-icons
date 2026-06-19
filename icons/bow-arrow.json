@@ -14,5 +14,19 @@
   "categories": [
     "gaming",
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "弓箭头",
+      "tags": [
+        "游戏",
+        "战争",
+        "武器"
+      ],
+      "categories": [
+        "游戏",
+        "工具"
+      ]
+    }
+  }
 }

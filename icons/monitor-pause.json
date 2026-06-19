@@ -24,5 +24,22 @@
     "connectivity",
     "devices",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器暂停",
+      "tags": [
+        "电视",
+        "屏幕",
+        "视频",
+        "胶片",
+        "virtual机器"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

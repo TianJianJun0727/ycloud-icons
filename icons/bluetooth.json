@@ -12,5 +12,19 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蓝牙",
+      "tags": [
+        "蓝牙",
+        "无线",
+        "连接"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

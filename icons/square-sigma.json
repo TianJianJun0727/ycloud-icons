@@ -23,5 +23,17 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形西格玛",
+      "tags": [
+        "计算"
+      ],
+      "categories": [
+        "文本格式",
+        "数学"
+      ]
+    }
+  }
 }

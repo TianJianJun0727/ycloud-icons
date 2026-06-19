@@ -14,5 +14,18 @@
   "categories": [
     "design",
     "photography"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "翻转水平2",
+      "tags": [
+        "镜像",
+        "虚线"
+      ],
+      "categories": [
+        "设计",
+        "摄影"
+      ]
+    }
+  }
 }

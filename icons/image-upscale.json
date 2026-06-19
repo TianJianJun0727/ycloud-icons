@@ -17,5 +17,18 @@
   "categories": [
     "photography",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "图片放大",
+      "tags": [
+        "图片",
+        "增加"
+      ],
+      "categories": [
+        "摄影",
+        "多媒体"
+      ]
+    }
+  }
 }

@@ -17,5 +17,17 @@
   "categories": [
     "food-beverage",
     "animals"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "鱼符号",
+      "tags": [
+        "盘子"
+      ],
+      "categories": [
+        "餐饮",
+        "动物"
+      ]
+    }
+  }
 }

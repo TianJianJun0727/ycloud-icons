@@ -16,5 +16,16 @@
   ],
   "categories": [
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "打印机勾选",
+      "tags": [
+        "设备"
+      ],
+      "categories": [
+        "设备"
+      ]
+    }
+  }
 }

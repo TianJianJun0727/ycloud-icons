@@ -14,5 +14,19 @@
     "connectivity",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "摄像头",
+      "tags": [
+        "相机",
+        "安全"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

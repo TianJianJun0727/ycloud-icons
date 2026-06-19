@@ -20,5 +20,17 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形箭头外部上左",
+      "tags": [
+        "方向",
+        "对角线"
+      ],
+      "categories": [
+        "箭头"
+      ]
+    }
+  }
 }

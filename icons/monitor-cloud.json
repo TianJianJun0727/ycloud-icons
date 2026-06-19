@@ -29,5 +29,20 @@
     "connectivity",
     "devices",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "显示器云",
+      "tags": [
+        "virtual机器",
+        "电视",
+        "屏幕"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "编码与开发"
+      ]
+    }
+  }
 }

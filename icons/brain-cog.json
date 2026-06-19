@@ -19,5 +19,18 @@
   "categories": [
     "science",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "大脑齿轮",
+      "tags": [
+        "机器learning",
+        "AI"
+      ],
+      "categories": [
+        "科学",
+        "编码与开发"
+      ]
+    }
+  }
 }

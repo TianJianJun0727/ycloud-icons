@@ -18,5 +18,18 @@
   "categories": [
     "finance",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "收据瑞士法郎",
+      "tags": [
+        "勾选",
+        "货币"
+      ],
+      "categories": [
+        "金融",
+        "旅行"
+      ]
+    }
+  }
 }

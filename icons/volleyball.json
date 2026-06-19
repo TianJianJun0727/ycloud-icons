@@ -34,5 +34,18 @@
     "sports",
     "gaming",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "排球",
+      "tags": [
+        "目标"
+      ],
+      "categories": [
+        "运动",
+        "游戏",
+        "旅行"
+      ]
+    }
+  }
 }

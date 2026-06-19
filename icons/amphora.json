@@ -19,5 +19,17 @@
   "categories": [
     "food-beverage",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "双耳瓶",
+      "tags": [
+        "葡萄酒"
+      ],
+      "categories": [
+        "餐饮",
+        "游戏"
+      ]
+    }
+  }
 }

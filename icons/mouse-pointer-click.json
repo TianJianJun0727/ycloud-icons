@@ -13,5 +13,18 @@
   "categories": [
     "arrows",
     "cursors"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "鼠标指针点击",
+      "tags": [
+        "点击",
+        "选择"
+      ],
+      "categories": [
+        "箭头",
+        "光标"
+      ]
+    }
+  }
 }

@@ -14,5 +14,19 @@
   ],
   "categories": [
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "勾选线条",
+      "tags": [
+        "完成",
+        "待办",
+        "勾选",
+        "任务"
+      ],
+      "categories": [
+        "通知"
+      ]
+    }
+  }
 }

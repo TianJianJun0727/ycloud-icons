@@ -18,5 +18,20 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件代码",
+      "tags": [
+        "property列表",
+        "文档",
+        "HTML",
+        "XML"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

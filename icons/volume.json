@@ -14,5 +14,20 @@
     "connectivity",
     "communication",
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "音量",
+      "tags": [
+        "音乐",
+        "扬声器",
+        "声音"
+      ],
+      "categories": [
+        "连接",
+        "沟通",
+        "多媒体"
+      ]
+    }
+  }
 }

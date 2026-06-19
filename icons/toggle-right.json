@@ -17,5 +17,19 @@
     "layout",
     "account",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "开关右",
+      "tags": [
+        "关闭",
+        "切换"
+      ],
+      "categories": [
+        "布局",
+        "账号与访问",
+        "编码与开发"
+      ]
+    }
+  }
 }

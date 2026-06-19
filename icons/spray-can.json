@@ -18,5 +18,17 @@
   "categories": [
     "design",
     "tools"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "喷雾罐",
+      "tags": [
+        "绘制"
+      ],
+      "categories": [
+        "设计",
+        "工具"
+      ]
+    }
+  }
 }

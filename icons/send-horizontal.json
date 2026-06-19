@@ -25,5 +25,20 @@
       "deprecationReason": "alias.typo",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "发送水平",
+      "tags": [
+        "消息",
+        "邮件",
+        "邮箱"
+      ],
+      "categories": [
+        "邮件",
+        "沟通",
+        "连接"
+      ]
+    }
+  }
 }

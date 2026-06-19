@@ -21,5 +21,22 @@
     "photography",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "投影仪",
+      "tags": [
+        "胶片",
+        "家居视频",
+        "演示",
+        "项目"
+      ],
+      "categories": [
+        "多媒体",
+        "摄影",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

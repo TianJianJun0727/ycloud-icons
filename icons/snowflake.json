@@ -16,5 +16,18 @@
   "categories": [
     "weather",
     "seasons"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "雪花",
+      "tags": [
+        "天气",
+        "雪"
+      ],
+      "categories": [
+        "天气",
+        "季节"
+      ]
+    }
+  }
 }

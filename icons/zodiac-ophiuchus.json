@@ -19,5 +19,18 @@
   "categories": [
     "social",
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "星座蛇夫座",
+      "tags": [
+        "星标标志",
+        "知识"
+      ],
+      "categories": [
+        "社交",
+        "表情"
+      ]
+    }
+  }
 }

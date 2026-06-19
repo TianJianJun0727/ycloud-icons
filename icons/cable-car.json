@@ -14,5 +14,19 @@
   "categories": [
     "transportation",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "线缆汽车",
+      "tags": [
+        "缆车",
+        "索道",
+        "交通"
+      ],
+      "categories": [
+        "交通",
+        "旅行"
+      ]
+    }
+  }
 }

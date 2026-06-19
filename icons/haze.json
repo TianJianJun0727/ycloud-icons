@@ -10,5 +10,16 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "雾霾",
+      "tags": [
+        "雾"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

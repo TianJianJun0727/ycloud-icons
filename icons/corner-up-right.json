@@ -11,5 +11,16 @@
   ],
   "categories": [
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "角落上右",
+      "tags": [
+        "箭头"
+      ],
+      "categories": [
+        "箭头"
+      ]
+    }
+  }
 }

@@ -18,5 +18,20 @@
     "connectivity",
     "devices",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "语音信箱",
+      "tags": [
+        "电话",
+        "磁带",
+        "音频"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "社交"
+      ]
+    }
+  }
 }

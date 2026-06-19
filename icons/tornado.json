@@ -12,5 +12,17 @@
   ],
   "categories": [
     "weather"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "龙卷风",
+      "tags": [
+        "天气",
+        "风"
+      ],
+      "categories": [
+        "天气"
+      ]
+    }
+  }
 }

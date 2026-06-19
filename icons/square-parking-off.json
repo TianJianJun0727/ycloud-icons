@@ -22,5 +22,19 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形停车关闭",
+      "tags": [
+        "停车lot",
+        "汽车park",
+        "无停车"
+      ],
+      "categories": [
+        "交通",
+        "导航与地点"
+      ]
+    }
+  }
 }

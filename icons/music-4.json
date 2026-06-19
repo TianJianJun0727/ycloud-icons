@@ -13,5 +13,18 @@
   "categories": [
     "multimedia",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "音乐4",
+      "tags": [
+        "sixteenth便签",
+        "便签"
+      ],
+      "categories": [
+        "多媒体",
+        "文件"
+      ]
+    }
+  }
 }

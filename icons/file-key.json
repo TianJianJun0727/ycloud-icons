@@ -22,5 +22,18 @@
       "deprecationReason": "alias.duplicate",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件钥匙",
+      "tags": [
+        "钥匙",
+        "安全"
+      ],
+      "categories": [
+        "文件",
+        "安全"
+      ]
+    }
+  }
 }

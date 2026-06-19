@@ -11,5 +11,17 @@
   "categories": [
     "arrows",
     "cursors"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "移动",
+      "tags": [
+        "箭头"
+      ],
+      "categories": [
+        "箭头",
+        "光标"
+      ]
+    }
+  }
 }

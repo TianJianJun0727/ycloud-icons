@@ -16,5 +16,17 @@
   "categories": [
     "shapes",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "取消组合",
+      "tags": [
+        "单位"
+      ],
+      "categories": [
+        "形状",
+        "文件"
+      ]
+    }
+  }
 }

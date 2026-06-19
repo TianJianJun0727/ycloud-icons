@@ -17,5 +17,20 @@
     "gaming",
     "photography",
     "travel"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "背包",
+      "tags": [
+        "包",
+        "旅行",
+        "学校"
+      ],
+      "categories": [
+        "游戏",
+        "摄影",
+        "旅行"
+      ]
+    }
+  }
 }

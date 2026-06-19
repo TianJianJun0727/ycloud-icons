@@ -20,5 +20,17 @@
   "categories": [
     "math",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "计数4",
+      "tags": [
+        "天数"
+      ],
+      "categories": [
+        "数学",
+        "游戏"
+      ]
+    }
+  }
 }

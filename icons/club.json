@@ -14,5 +14,18 @@
   "categories": [
     "shapes",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "梅花",
+      "tags": [
+        "卡片",
+        "形状"
+      ],
+      "categories": [
+        "形状",
+        "游戏"
+      ]
+    }
+  }
 }

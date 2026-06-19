@@ -10,5 +10,16 @@
   ],
   "categories": [
     "shapes"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "五边形",
+      "tags": [
+        "形状"
+      ],
+      "categories": [
+        "形状"
+      ]
+    }
+  }
 }

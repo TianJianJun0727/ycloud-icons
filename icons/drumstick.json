@@ -14,5 +14,16 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "鼓槌",
+      "tags": [
+        "食物"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

@@ -17,5 +17,20 @@
     "photography",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "相机关闭",
+      "tags": [
+        "照片",
+        "摄像头",
+        "视频"
+      ],
+      "categories": [
+        "摄影",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

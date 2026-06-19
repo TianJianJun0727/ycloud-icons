@@ -20,5 +20,18 @@
   "categories": [
     "social",
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "星座天蝎座",
+      "tags": [
+        "水",
+        "星标标志"
+      ],
+      "categories": [
+        "社交",
+        "表情"
+      ]
+    }
+  }
 }

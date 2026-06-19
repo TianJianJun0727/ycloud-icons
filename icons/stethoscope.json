@@ -14,5 +14,19 @@
   "categories": [
     "science",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "听诊器",
+      "tags": [
+        "医疗",
+        "爱心",
+        "声音"
+      ],
+      "categories": [
+        "科学",
+        "医疗"
+      ]
+    }
+  }
 }

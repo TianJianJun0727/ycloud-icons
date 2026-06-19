@@ -20,5 +20,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形停车",
+      "tags": [
+        "停车lot",
+        "汽车park"
+      ],
+      "categories": [
+        "交通",
+        "导航与地点"
+      ]
+    }
+  }
 }

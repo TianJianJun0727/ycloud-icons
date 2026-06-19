@@ -27,5 +27,20 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "麦克风人声",
+      "tags": [
+        "音乐",
+        "收音机",
+        "播客",
+        "声音"
+      ],
+      "categories": [
+        "设备",
+        "多媒体"
+      ]
+    }
+  }
 }

@@ -12,5 +12,18 @@
   "categories": [
     "layout",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "收缩",
+      "tags": [
+        "比例尺",
+        "全屏"
+      ],
+      "categories": [
+        "布局",
+        "箭头"
+      ]
+    }
+  }
 }

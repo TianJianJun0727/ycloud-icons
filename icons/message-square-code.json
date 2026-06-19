@@ -18,5 +18,19 @@
   "categories": [
     "development",
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "消息方形代码",
+      "tags": [
+        "语音bubble",
+        "代码review",
+        "聊天"
+      ],
+      "categories": [
+        "编码与开发",
+        "社交"
+      ]
+    }
+  }
 }

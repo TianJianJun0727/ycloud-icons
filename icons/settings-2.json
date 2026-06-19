@@ -15,5 +15,17 @@
   ],
   "categories": [
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "设置2",
+      "tags": [
+        "齿轮",
+        "编辑"
+      ],
+      "categories": [
+        "账号与访问"
+      ]
+    }
+  }
 }

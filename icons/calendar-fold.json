@@ -16,5 +16,17 @@
   "categories": [
     "time",
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "日历折叠",
+      "tags": [
+        "日期"
+      ],
+      "categories": [
+        "时间与日历",
+        "文件"
+      ]
+    }
+  }
 }

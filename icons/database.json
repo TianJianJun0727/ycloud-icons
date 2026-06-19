@@ -17,5 +17,19 @@
   "categories": [
     "devices",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "数据库",
+      "tags": [
+        "内存",
+        "容器",
+        "锅"
+      ],
+      "categories": [
+        "设备",
+        "编码与开发"
+      ]
+    }
+  }
 }

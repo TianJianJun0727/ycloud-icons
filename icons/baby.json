@@ -14,5 +14,17 @@
   "categories": [
     "accessibility",
     "people"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "婴儿",
+      "tags": [
+        "儿童"
+      ],
+      "categories": [
+        "无障碍",
+        "人物"
+      ]
+    }
+  }
 }

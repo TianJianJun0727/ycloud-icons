@@ -20,5 +20,17 @@
   "categories": [
     "security",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "钥匙",
+      "tags": [
+        "钥匙响铃"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问"
+      ]
+    }
+  }
 }

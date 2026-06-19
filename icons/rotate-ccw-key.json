@@ -15,5 +15,18 @@
   "categories": [
     "security",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "旋转逆时针钥匙",
+      "tags": [
+        "钥匙",
+        "刷新"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问"
+      ]
+    }
+  }
 }

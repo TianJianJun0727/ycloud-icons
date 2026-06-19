@@ -16,5 +16,18 @@
   "categories": [
     "development",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "拆分",
+      "tags": [
+        "除号",
+        "分支"
+      ],
+      "categories": [
+        "编码与开发",
+        "箭头"
+      ]
+    }
+  }
 }

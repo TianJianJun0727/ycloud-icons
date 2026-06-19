@@ -14,5 +14,17 @@
   "categories": [
     "arrows",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "双折角箭头上",
+      "tags": [
+        "前进"
+      ],
+      "categories": [
+        "箭头",
+        "游戏"
+      ]
+    }
+  }
 }

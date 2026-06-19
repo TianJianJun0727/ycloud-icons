@@ -20,5 +20,19 @@
   "categories": [
     "tools",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "镐",
+      "tags": [
+        "土地worker",
+        "施工",
+        "建筑"
+      ],
+      "categories": [
+        "工具",
+        "游戏"
+      ]
+    }
+  }
 }

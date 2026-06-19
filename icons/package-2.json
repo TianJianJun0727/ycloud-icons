@@ -20,5 +20,19 @@
   "categories": [
     "files",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "包2",
+      "tags": [
+        "盒子",
+        "容器",
+        "归档"
+      ],
+      "categories": [
+        "文件",
+        "编码与开发"
+      ]
+    }
+  }
 }

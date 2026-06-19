@@ -13,5 +13,18 @@
   ],
   "categories": [
     "multimedia"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形暂停",
+      "tags": [
+        "音乐",
+        "音频",
+        "停止"
+      ],
+      "categories": [
+        "多媒体"
+      ]
+    }
+  }
 }

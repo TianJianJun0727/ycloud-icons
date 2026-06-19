@@ -22,5 +22,18 @@
   "categories": [
     "math",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "计数5",
+      "tags": [
+        "天数",
+        "斜杠"
+      ],
+      "categories": [
+        "数学",
+        "游戏"
+      ]
+    }
+  }
 }

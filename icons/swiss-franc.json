@@ -12,5 +12,17 @@
   ],
   "categories": [
     "finance"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "瑞士法郎",
+      "tags": [
+        "货币",
+        "支付"
+      ],
+      "categories": [
+        "金融"
+      ]
+    }
+  }
 }

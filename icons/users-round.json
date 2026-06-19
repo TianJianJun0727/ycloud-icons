@@ -18,5 +18,16 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "用户组圆形",
+      "tags": [
+        "组合"
+      ],
+      "categories": [
+        "账号与访问"
+      ]
+    }
+  }
 }

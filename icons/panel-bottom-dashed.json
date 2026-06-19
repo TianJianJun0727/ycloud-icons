@@ -27,5 +27,18 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "面板底部虚线",
+      "tags": [
+        "停靠栏",
+        "布局",
+        "抽屉"
+      ],
+      "categories": [
+        "布局"
+      ]
+    }
+  }
 }

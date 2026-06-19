@@ -13,5 +13,18 @@
   ],
   "categories": [
     "files"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件爱心",
+      "tags": [
+        "爱心",
+        "书签",
+        "quick链接"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

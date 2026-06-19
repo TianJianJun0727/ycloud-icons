@@ -25,5 +25,21 @@
       "deprecated": true,
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "方形箭头上右",
+      "tags": [
+        "方向",
+        "对角线",
+        "标志",
+        "键盘",
+        "分享"
+      ],
+      "categories": [
+        "箭头",
+        "社交"
+      ]
+    }
+  }
 }

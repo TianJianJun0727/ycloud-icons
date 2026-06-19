@@ -18,5 +18,19 @@
     "home",
     "buildings",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "房屋爱心",
+      "tags": [
+        "家居sweet家居",
+        "建筑"
+      ],
+      "categories": [
+        "家居",
+        "建筑",
+        "医疗"
+      ]
+    }
+  }
 }

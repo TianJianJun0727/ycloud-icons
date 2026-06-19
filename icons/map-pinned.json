@@ -15,5 +15,18 @@
     "navigation",
     "travel",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "地图定位",
+      "tags": [
+        "标记"
+      ],
+      "categories": [
+        "导航与地点",
+        "旅行",
+        "账号与访问"
+      ]
+    }
+  }
 }

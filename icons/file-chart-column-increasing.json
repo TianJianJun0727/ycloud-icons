@@ -23,5 +23,18 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "文件图表列上升",
+      "tags": [
+        "图形",
+        "演示",
+        "趋势上"
+      ],
+      "categories": [
+        "文件"
+      ]
+    }
+  }
 }

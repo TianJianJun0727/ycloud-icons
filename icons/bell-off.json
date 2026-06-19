@@ -16,5 +16,17 @@
   ],
   "categories": [
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "铃铛关闭",
+      "tags": [
+        "闹钟",
+        "通知"
+      ],
+      "categories": [
+        "通知"
+      ]
+    }
+  }
 }

@@ -18,5 +18,20 @@
   "categories": [
     "shapes",
     "design"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "矩形垂直",
+      "tags": [
+        "矩形",
+        "aspect比例",
+        "垂直",
+        "形状"
+      ],
+      "categories": [
+        "形状",
+        "设计"
+      ]
+    }
+  }
 }

@@ -22,5 +22,20 @@
     "food-beverage",
     "social",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蛋糕",
+      "tags": [
+        "甜点",
+        "庆祝",
+        "派对"
+      ],
+      "categories": [
+        "餐饮",
+        "社交",
+        "账号与访问"
+      ]
+    }
+  }
 }

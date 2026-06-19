@@ -20,5 +20,18 @@
   ],
   "categories": [
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "云勾选",
+      "tags": [
+        "同步",
+        "网络",
+        "完成"
+      ],
+      "categories": [
+        "编码与开发"
+      ]
+    }
+  }
 }

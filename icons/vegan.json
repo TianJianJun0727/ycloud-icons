@@ -15,5 +15,17 @@
   "categories": [
     "food-beverage",
     "sustainability"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "素食",
+      "tags": [
+        "动物rights"
+      ],
+      "categories": [
+        "餐饮",
+        "可持续"
+      ]
+    }
+  }
 }

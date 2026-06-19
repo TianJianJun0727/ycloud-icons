@@ -16,5 +16,18 @@
   "categories": [
     "animals",
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蜗牛",
+      "tags": [
+        "动物",
+        "昆虫"
+      ],
+      "categories": [
+        "动物",
+        "餐饮"
+      ]
+    }
+  }
 }

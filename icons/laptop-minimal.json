@@ -19,5 +19,17 @@
       "deprecationReason": "alias.name",
       "toBeRemovedInVersion": "v1.0"
     }
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "笔记本电脑极简",
+      "tags": [
+        "电脑",
+        "屏幕"
+      ],
+      "categories": [
+        "设备"
+      ]
+    }
+  }
 }

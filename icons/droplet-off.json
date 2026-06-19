@@ -23,5 +23,18 @@
   "categories": [
     "weather",
     "gaming"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "水滴关闭",
+      "tags": [
+        "水",
+        "天气"
+      ],
+      "categories": [
+        "天气",
+        "游戏"
+      ]
+    }
+  }
 }

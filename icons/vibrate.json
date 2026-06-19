@@ -16,5 +16,21 @@
     "connectivity",
     "account",
     "notifications"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "振动",
+      "tags": [
+        "智能手机",
+        "通知",
+        "屏幕"
+      ],
+      "categories": [
+        "设备",
+        "连接",
+        "账号与访问",
+        "通知"
+      ]
+    }
+  }
 }

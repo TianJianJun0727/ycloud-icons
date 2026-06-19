@@ -12,5 +12,17 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "可颂",
+      "tags": [
+        "烹饪",
+        "食物"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

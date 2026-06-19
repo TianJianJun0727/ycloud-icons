@@ -16,5 +16,17 @@
   ],
   "categories": [
     "social"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "投票",
+      "tags": [
+        "投票",
+        "勾选"
+      ],
+      "categories": [
+        "社交"
+      ]
+    }
+  }
 }

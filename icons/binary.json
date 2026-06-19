@@ -17,5 +17,19 @@
   "categories": [
     "text",
     "development"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "二进制",
+      "tags": [
+        "代码",
+        "电脑",
+        "零"
+      ],
+      "categories": [
+        "文本格式",
+        "编码与开发"
+      ]
+    }
+  }
 }

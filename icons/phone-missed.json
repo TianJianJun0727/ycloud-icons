@@ -15,5 +15,18 @@
     "connectivity",
     "devices",
     "communication"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "电话未接",
+      "tags": [
+        "通话"
+      ],
+      "categories": [
+        "连接",
+        "设备",
+        "沟通"
+      ]
+    }
+  }
 }

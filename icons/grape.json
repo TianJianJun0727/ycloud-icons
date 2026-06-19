@@ -11,5 +11,18 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "葡萄",
+      "tags": [
+        "葡萄酒",
+        "食物",
+        "水果"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

@@ -14,5 +14,19 @@
   "categories": [
     "gaming",
     "emoji"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "国际象棋皇后",
+      "tags": [
+        "尺子",
+        "皇冠",
+        "面板game"
+      ],
+      "categories": [
+        "游戏",
+        "表情"
+      ]
+    }
+  }
 }

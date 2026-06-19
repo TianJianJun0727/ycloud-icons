@@ -16,5 +16,17 @@
   "categories": [
     "security",
     "account"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "钥匙方形",
+      "tags": [
+        "汽车钥匙"
+      ],
+      "categories": [
+        "安全",
+        "账号与访问"
+      ]
+    }
+  }
 }

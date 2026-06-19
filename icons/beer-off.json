@@ -15,5 +15,17 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "啤酒关闭",
+      "tags": [
+        "条形",
+        "饮品"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

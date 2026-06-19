@@ -30,5 +30,19 @@
   ],
   "categories": [
     "food-beverage"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "苹果",
+      "tags": [
+        "食物",
+        "绿色",
+        "水果",
+        "植物"
+      ],
+      "categories": [
+        "餐饮"
+      ]
+    }
+  }
 }

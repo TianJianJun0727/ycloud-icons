@@ -20,5 +20,21 @@
     "home",
     "travel",
     "security"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "门关闭锁定",
+      "tags": [
+        "退出",
+        "emergency退出",
+        "锁定",
+        "锁"
+      ],
+      "categories": [
+        "家居",
+        "旅行",
+        "安全"
+      ]
+    }
+  }
 }

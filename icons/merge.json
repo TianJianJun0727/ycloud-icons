@@ -13,5 +13,17 @@
   "categories": [
     "development",
     "arrows"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "合并",
+      "tags": [
+        "合并"
+      ],
+      "categories": [
+        "编码与开发",
+        "箭头"
+      ]
+    }
+  }
 }

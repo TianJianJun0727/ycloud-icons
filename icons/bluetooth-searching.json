@@ -11,5 +11,19 @@
   "categories": [
     "connectivity",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "蓝牙搜索中",
+      "tags": [
+        "蓝牙",
+        "搜索",
+        "扫描"
+      ],
+      "categories": [
+        "连接",
+        "设备"
+      ]
+    }
+  }
 }

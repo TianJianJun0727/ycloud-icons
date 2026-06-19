@@ -18,5 +18,19 @@
   "categories": [
     "medical",
     "accessibility"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "耳朵关闭",
+      "tags": [
+        "硬盘的hearing",
+        "音频",
+        "无障碍"
+      ],
+      "categories": [
+        "医疗",
+        "无障碍"
+      ]
+    }
+  }
 }

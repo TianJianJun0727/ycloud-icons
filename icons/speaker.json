@@ -20,5 +20,19 @@
   "categories": [
     "multimedia",
     "devices"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "扬声器",
+      "tags": [
+        "音频",
+        "音乐",
+        "声音"
+      ],
+      "categories": [
+        "多媒体",
+        "设备"
+      ]
+    }
+  }
 }

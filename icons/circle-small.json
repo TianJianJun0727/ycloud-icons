@@ -13,5 +13,18 @@
   "categories": [
     "shapes",
     "medical"
-  ]
+  ],
+  "i18n": {
+    "zh": {
+      "name": "圆形小",
+      "tags": [
+        "形状",
+        "性别"
+      ],
+      "categories": [
+        "形状",
+        "医疗"
+      ]
+    }
+  }
 }
