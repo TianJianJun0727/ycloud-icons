@@ -1,14 +1,14 @@
 # YCloud Icons for Solid
 
-SolidJS components for YCloud icons that leverage Solid's fine-grained reactivity system. Each icon is a reactive Solid component that renders as an inline SVG, providing exceptional performance through Solid's compile-time optimizations and reactive primitives.
+面向 SolidJS 的 YCloud Icons 组件，充分利用 Solid 的细粒度响应式系统。每个图标都是一个响应式 Solid 组件，并渲染为内联 SVG，可借助 Solid 的编译期优化和响应式原语获得优秀性能。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as SolidJS components with fine-grained reactivity
-- Create highly performant interfaces with Solid's reactive system
-- Build dynamic icon components that respond to signals and stores
-- Integrate seamlessly with Solid's JSX and component patterns
-- Optimize performance with direct icon imports and minimal runtime overhead
+- 使用具备细粒度响应能力的 SolidJS 图标组件。
+- 借助 Solid 的响应式系统创建高性能界面。
+- 构建可响应 signals 和 stores 的动态图标组件。
+- 与 Solid 的 JSX 和组件模式自然集成。
+- 通过直接导入图标和更低运行时开销优化性能。
 
 ## 安装
 
@@ -40,7 +40,7 @@ YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
 ### 示例
 
-Additional props can be passed to adjust the icon:
+可以传入额外 props 调整图标：
 
 ```jsx
 import { Camera } from '@ycloud-web/icons-solid';
@@ -58,7 +58,7 @@ const App = () => {
 export default App;
 ```
 
-Vite loading/performing issues with the dev server can be resolved by import icons directly from the `@ycloud-web/icons-solid/icons` directory:
+如果 Vite dev server 出现加载或性能问题，可以直接从 `@ycloud-web/icons-solid/icons` 目录导入图标：
 
 ```jsx
 import Camera from '@ycloud-web/icons-solid/icons/camera';
@@ -87,7 +87,7 @@ export default App;
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。可在 [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) 查看 SVG Presentation Attributes 列表。
 
 ```jsx
 // 使用
@@ -183,4 +183,4 @@ const App = () => {
 };
 ```
 
-For best practices on accessibility, please see our [accessibility guide](../accessibility.md).
+无障碍最佳实践请参考[无障碍指南](../accessibility.md)。

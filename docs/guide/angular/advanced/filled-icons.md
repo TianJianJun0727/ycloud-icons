@@ -9,9 +9,9 @@ import Sandpack from '~/.vitepress/theme/components/editors/SandpackAngular.vue'
 
 # 填充图标
 
-Fills are not officially supported by YCloud.
+YCloud Icons 目前并不正式支持填充图标。
 
-However, since the icons are standard SVG elements, SVG attributes such as `fill` can still be applied. Depending on the icon, this may produce acceptable results.
+不过，图标本质上是标准 SVG 元素，因此仍然可以应用 `fill` 等 SVG 属性。根据图标结构不同，实际效果可能是可接受的。
 
 ## 星级评分示例
 

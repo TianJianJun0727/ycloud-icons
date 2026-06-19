@@ -40,7 +40,7 @@ bun add @ycloud-web/icons-astro
 
 YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
-Each icon can be imported as an Astro component, which renders an inline SVG element. This way, only the icons that are imported into your project are included in the final bundle. The rest of the icons are tree-shaken away.
+每个图标都可以作为 Astro 组件导入，并渲染为内联 SVG 元素。这样最终产物只会包含你实际导入的图标，其余图标会被 tree-shaking 移除。
 
 ```astro
 ---

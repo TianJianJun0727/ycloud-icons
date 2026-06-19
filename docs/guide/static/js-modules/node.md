@@ -2,10 +2,10 @@
 import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 </script>
 
-# Use YCloud in Node.js
+# 在 Node.js 中使用 YCloud Icons
 
 也可以通过 @ycloud-web/icons-static 包在 Node.js 项目中导入 YCloud Icons。
-Each icon is exported as a string containing the SVG markup, which can be used in server-side rendering or static site generation.
+每个图标都会以包含 SVG 标记的字符串导出，可用于服务端渲染或静态站点生成。
 
 ::: code-group
 

@@ -22,7 +22,6 @@ const base = process.env.DOCS_BASE ?? (process.env.GITHUB_ACTIONS ? '/ycloud-ico
 const nav = [
   { text: '图标', link: '/icons/' },
   { text: '指南', link: '/guide/' },
-  { text: '架构', link: '/architecture' },
   { text: '包', link: '/packages' },
   { text: '更新日志', link: 'https://github.com/TianJianJun0727/ycloud-icons/releases' },
 ];

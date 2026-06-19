@@ -5,7 +5,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 # 在 Web 中使用 YCloud Icons
 
 :::warning 不建议在高流量生产环境中使用
-This library exports each svg as basic strings. We have a more optimized library for web. Which is smaller in size and supports color, size and strokeWidth. See [YCloud](../../ycloud/index.md).
+这个库会把每个 SVG 导出为基础字符串。我们还提供了更适合 Web 的优化库，体积更小，并支持 color、size 和 strokeWidth。可参考 [Core JavaScript](../../ycloud/index.md)。
 :::
 
 也可以通过 @ycloud-web/icons-static 包在 Web 项目中导入 SVG 字符串。每个图标都会以包含 SVG 标记的字符串导出，可用于客户端渲染。

@@ -1,9 +1,8 @@
 # @ycloud-web/icons-data
 
-`@ycloud-web/icons-data` is a helper library that exports YCloud **icon data** in a tree-shakable format, also providing utilities for dynamic importing icons.
+`@ycloud-web/icons-data` 是一个辅助库，用 tree-shakable 的形式导出 YCloud **图标数据**，并提供动态导入图标的工具方法。
 
-It intentionally ships **no real rendering logic or components** — other packages (for example [`@ycloud-web/icons-angular`](http://npmjs.com/package/@ycloud-web/icons-angular)) can consume this data to render icons in their respective
-框架。你也可以使用这个包为暂未支持的框架构建第三方集成。
+它刻意**不包含真实渲染逻辑或组件**，其他包（例如 [`@ycloud-web/icons-angular`](http://npmjs.com/package/@ycloud-web/icons-angular)）可以消费这些数据，在各自框架中渲染图标。你也可以使用这个包为暂未支持的框架构建第三方集成。
 
 ## 安装
 
@@ -29,7 +28,7 @@ bun add @ycloud-web/icons-data
 
 ## 图标数据格式
 
-Each icon is described by the following interface:
+每个图标都由下面的接口描述：
 
 ```typescript
 export type YCloudIconData = {
@@ -40,46 +39,46 @@ export type YCloudIconData = {
 
 | name                         | type               | description                                                        |
 | ---------------------------- | ------------------ | ------------------------------------------------------------------ |
-| `name`                       | `string`           | The name of the icon.                                              |
-| `node`                       | `YCloudIconNode[]` | SVG child nodes as `[tagName, attributes]` tuples.                 |
-| `size` or `width` & `height` | `number`           | The dimensions of the icon (`size` is shorthand for square icons). |
+| `name`                       | `string`           | 图标名称。                                                         |
+| `node`                       | `YCloudIconNode[]` | SVG 子节点，格式为 `[tagName, attributes]` 元组。                  |
+| `size` or `width` & `height` | `number`           | 图标尺寸（`size` 是正方形图标的简写）。                            |
 
 ## 使用方式
 
-Icons can be imported individually. Only the icons you import end up referenced by your application code — the rest will be eliminated by tree-shaking.
+图标可以单独导入。只有你导入的图标会被应用代码引用，其余图标会被 tree-shaking 移除。
 
 ```ts
 import { House } from '@ycloud-web/icons-data';
-// House is icon data (not a rendered component).
+// House 是图标数据，不是已经渲染好的组件。
 ```
 
 ## 构建图标
 
-`@ycloud-web/icons-data` ships small helpers that convert YCloud icon data into different render-ready outputs.
-All builders accept the same `params` object (`YCloudBuildParams`) to customize the generated SVG.
+`@ycloud-web/icons-data` 提供了一组小工具，可以把 YCloud 图标数据转换成不同的可渲染输出。
+所有 builder 都接收相同的 `params` 对象（`YCloudBuildParams`），用于自定义生成的 SVG。
 
 ### 构建参数
 
-The following parameters are supported (names reflect the current implementation):
+当前支持以下参数（名称与当前实现保持一致）：
 
 | param                 | type                     | effect                                                                                                                                             |
 | --------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `color`               | `string`                 | Sets `stroke` (defaults to `currentColor`).                                                                                                        |
-| `size`                | `number`                 | Sets both `width` and `height` (defaults to 24).                                                                                                   |
-| `width`               | `number`                 | Sets `width` only.                                                                                                                                 |
-| `height`              | `number`                 | Sets `height` only.                                                                                                                                |
-| `strokeWidth`         | `number`                 | Sets `stroke-width` (defaults to 2).                                                                                                               |
-| `absoluteStrokeWidth` | `boolean`                | Adds [`vector-effect="non-scaling-stroke"`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/vector-effect) to child elements. |
-| `className`           | `string`                 | Appended to the generated `class` attribute.                                                                                                       |
-| `attributes`          | `Record<string, string>` | Add or override any generated SVG attributes (including `class`, `viewBox`, etc.).                                                                 |
+| `color`               | `string`                 | 设置 `stroke`，默认值为 `currentColor`。                                                                                                           |
+| `size`                | `number`                 | 同时设置 `width` 和 `height`，默认值为 24。                                                                                                        |
+| `width`               | `number`                 | 只设置 `width`。                                                                                                                                   |
+| `height`              | `number`                 | 只设置 `height`。                                                                                                                                  |
+| `strokeWidth`         | `number`                 | 设置 `stroke-width`，默认值为 2。                                                                                                                  |
+| `absoluteStrokeWidth` | `boolean`                | 向子元素添加 [`vector-effect="non-scaling-stroke"`](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/vector-effect)。          |
+| `className`           | `string`                 | 追加到生成的 `class` 属性中。                                                                                                                      |
+| `attributes`          | `Record<string, string>` | 添加或覆盖任意生成的 SVG 属性，包括 `class`、`viewBox` 等。                                                                                        |
 
 ::: info
-SVG attributes generated by the builders include a default YCloud setup (`xmlns`, `viewBox`, `fill="none"`, `stroke="currentColor"`, `stroke-width="2"`, `stroke-linecap="round"`, `stroke-linejoin="round"`), plus a class string of the form: `ycloud ycloud-{iconName}`.
+builder 生成的 SVG 属性包含默认的 YCloud 配置（`xmlns`、`viewBox`、`fill="none"`、`stroke="currentColor"`、`stroke-width="2"`、`stroke-linecap="round"`、`stroke-linejoin="round"`），以及形如 `ycloud ycloud-{iconName}` 的 class 字符串。
 :::
 
 ### `buildYCloudIconNode`
 
-Creates a root SVG node in an svgson-like format:
+创建一个 svgson-like 格式的根 SVG 节点：
 
 ```ts
 import { buildYCloudIconNode } from '@ycloud-web/icons-data/builders';
@@ -98,7 +97,7 @@ const node = buildYCloudIconNode(House, {
 
 ### `buildYCloudSvg`
 
-Creates an SVG string:
+创建 SVG 字符串：
 
 ```ts
 import { buildYCloudSvg } from '@ycloud-web/icons-data/builders';
@@ -109,7 +108,7 @@ const svg = buildYCloudSvg(House, { size: 24, color: '#111' });
 
 ### `buildYCloudIconElement`
 
-Creates an actual DOM element (SVG) within the provided document:
+在传入的 document 中创建真实 DOM 元素（SVG）：
 
 ```ts
 import { buildYCloudIconElement } from '@ycloud-web/icons-data/builders';
@@ -121,12 +120,12 @@ document.body.appendChild(el);
 
 ### `buildYCloudDataUri`
 
-Creates a base64-encoded SVG data URI from a YCloud icon object.
+基于 YCloud 图标对象创建 base64 编码的 SVG data URI。
 
-This helper works in both browsers and Node.js:
+这个辅助函数同时适用于浏览器和 Node.js：
 
-- In browsers it uses `btoa` (with proper UTF-8 handling)
-- In Node.js it falls back to `Buffer`
+- 在浏览器中使用 `btoa`，并正确处理 UTF-8。
+- 在 Node.js 中回退使用 `Buffer`。
 
 ```ts
 import { buildYCloudDataUri } from '@ycloud-web/icons-data/builders';
@@ -135,31 +134,28 @@ import { House } from '@ycloud-web/icons-data';
 const uri = buildYCloudDataUri(House, { size: 24 });
 ```
 
-The returned value can be used directly in places such as:
+返回值可以直接用于以下场景：
 
 - `<img src="...">`
 - CSS `background-image`
-- Canvas drawing
-- Inline data URLs in HTML or SVG
+- Canvas 绘制
+- HTML 或 SVG 中的内联 data URL
 
-::: tip Environment notes
+::: tip 环境说明
 
-- The SVG is encoded as UTF-8 before base64 conversion to ensure correct handling of non-ASCII characters.
-- No runtime configuration is required — the function automatically selects the appropriate encoding strategy.
-- If neither `btoa` nor `Buffer` is available, an error is thrown.
-  :::
+- SVG 会先按 UTF-8 编码再转换为 base64，以确保能正确处理非 ASCII 字符。
+- 不需要运行时配置，函数会自动选择合适的编码策略。
+- 如果当前环境既没有 `btoa` 也没有 `Buffer`，会抛出错误。
 
-## 动态导入
-
-Dynamic imports are useful when you only know the icon name at runtime (for example, icon names stored in a database or a CMS). For purely static use cases, prefer direct imports for the best tree-shaking results.
-
-::: tip
-Validate `iconName` before indexing the map (and provide a fallback icon) to avoid runtime errors.
 :::
 
 ## 动态导入
 
-Dynamic imports are useful when the icon name is only known at runtime (for example, icon names stored in a CMS or database). For purely static usage, prefer direct imports for maximum tree-shaking.
+当图标名称只能在运行时确定时，动态导入会很有用，例如图标名称存储在数据库或 CMS 中。对于完全静态的使用场景，优先使用直接导入，以获得最佳 tree-shaking 效果。
+
+::: tip
+在访问映射表前先校验 `iconName`，并提供兜底图标，以避免运行时错误。
+:::
 
 ```ts
 import { ycloudDynamicIconImports } from '@ycloud-web/icons-data/dynamic';
@@ -168,6 +164,6 @@ const name = 'house';
 const icon = await ycloudDynamicIconImports[name]?.();
 
 if (!icon) {
-  // handle unknown icon name (fallback)
+  // 处理未知图标名称，例如使用兜底图标。
 }
 ```

@@ -1,13 +1,13 @@
 # `@ycloud-web/icons-angular`
 
-A standalone, signal-based, zoneless implementation of YCloud icons for Angular.
+面向 Angular 的 YCloud Icons 实现，基于 standalone components、signals 和 zoneless 设计。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as standalone Angular components with full dependency injection support
-- Configure icons globally through modern Angular providers
-- Integrate with Angular's reactive forms and data binding
-- Build scalable applications with tree-shaken icons and lazy loading support
+- 将图标作为 standalone Angular 组件使用，并完整支持依赖注入。
+- 通过现代 Angular providers 进行全局图标配置。
+- 与 Angular 的响应式表单和数据绑定集成。
+- 构建支持 tree-shaking 和懒加载的可扩展应用。
 
 ## 前置要求
 
@@ -39,7 +39,7 @@ bun add @ycloud-web/icons-angular
 
 ### 独立图标
 
-Every icon can be imported as a ready-to-use standalone component:
+每个图标都可以作为可直接使用的 standalone component 导入：
 
 ```html
 <svg ycloudFileText></svg>
@@ -58,18 +58,18 @@ export class Foobar { }
 ```
 
 ::: tip
-Standalone icon components use the selector `svg[ycloud{PascalCaseIconName}]`.
+独立图标组件使用 `svg[ycloud{PascalCaseIconName}]` 作为 selector。
 
-This ensures minimal bloating of the DOM and the ability to directly manipulate all attributes of the resulting SVG element.
+这样可以尽量减少 DOM 体积，同时让你能够直接操作最终 SVG 元素上的所有属性。
 :::
 
 ### 动态图标组件
 
-You may also use the dynamic `YCloudIcon` component to dynamically render icons.
+也可以使用动态 `YCloudIcon` 组件来动态渲染图标。
 
-#### With tree-shaken imports
+#### 使用支持 tree-shaking 的导入
 
-You may pass imported icons directly to the component:
+可以把导入的图标直接传给组件：
 
 ```html{3}
 @for (item of items) {
@@ -106,11 +106,11 @@ export class Navbar {
 }
 ```
 
-#### With icons provided via dependency injection
+#### 通过依赖注入提供图标
 
-Alternatively, the component also accepts string inputs.
+另外，这个组件也支持字符串输入。
 
-To use icons this way, first, you have to provide icons via `provideYCloudIcons`:
+如果要用这种方式渲染图标，需要先通过 `provideYCloudIcons` 提供图标：
 
 :::code-group
 
@@ -148,13 +148,13 @@ export class Foobar { }
 :::
 
 ::: tip
-For optimal bundle size, provide icons at the highest appropriate level in your application.
+为了获得更理想的包体积，请在应用中合适的最高层级提供图标。
 
-Providing all icons at the root level may increase your initial bundle size, while providing them at feature module level enables better code splitting.
+如果在根层级提供所有图标，可能会增加初始包体积；按功能模块层级提供图标，则更利于代码分割。
 :::
 
 ::: warning
-While you may provide your icons at any level of the dependency injection tree, be aware that [Angular's DI system is hierarchical](https://angular.dev/guide/di/defining-dependency-providers#injector-hierarchy-in-angular): `YCloudIcon` will only have access to the icons provided closest to it in the tree.
+虽然你可以在依赖注入树的任意层级提供图标，但需要注意 [Angular 的 DI 系统是分层的](https://angular.dev/guide/di/defining-dependency-providers#injector-hierarchy-in-angular)：`YCloudIcon` 只能访问距离它最近的那一层所提供的图标。
 :::
 
 ## 无障碍标签
@@ -217,7 +217,7 @@ export const appConfig: ApplicationConfig = {
 
 ## 通过 CSS 设置样式
 
-Icons can also be styled by using custom CSS classes:
+也可以使用自定义 CSS class 设置图标样式：
 
 ```html
 <svg
@@ -236,15 +236,15 @@ svg.my-icon {
 
 ## 使用 YCloud Icons Lab 或自定义图标
 
-[YCloud lab](https://github.com/TianJianJun0727/ycloud-icons-lab) is a collection of icons that are not part of the YCloud Icons main library.
+[YCloud Icons Lab](https://github.com/TianJianJun0727/ycloud-icons-lab) 收录了一批不属于 YCloud Icons 主库的图标。
 
 这些图标不会以独立组件形式提供，但仍可以像官方图标一样传给 `YCloudIcon` 组件：
 
 ```html
-<!-- Directly as YCloudIconData: -->
+<!-- 直接作为 YCloudIconData 传入： -->
 <svg [ycloudIcon]="CoconutIcon"></svg>
 
-<!-- As a provided icon by name: -->
+<!-- 通过 provider 按名称使用： -->
 <svg ycloudIcon="coconut"></svg>
 ```
 
@@ -254,12 +254,12 @@ import { coconut } from '@ycloud-web/icons-lab';
 
 @Component({
   templateUrl: './foobar.html',
-  // For using by name via provider:
+  // 通过 provider 按名称使用：
   providers: [provideYCloudIcons({ coconut })],
   imports: [YCloudIcon]
 })
 export class Foobar {
-  // For passing directly as YCloudIconData:
+  // 直接作为 YCloudIconData 传入：
   readonly CoconutIcon = coconut;
 }
 ```
@@ -268,20 +268,20 @@ export class Foobar {
 
 ### 图标未显示
 
-If using per-icon-components:
+如果使用单图标组件：
 
-1. Ensure that the icon component is being imported, if using per-icon-components
-2. Check that the icon name matches exactly (case-sensitive)
+1. 确保已经导入对应的图标组件。
+2. 检查图标名称是否完全匹配（区分大小写）。
 
-If using the dynamic component:
+如果使用动态组件：
 
-1. Ensure the icon is provided via `provideYCloudIcons()` if using string names
-2. Verify the icon is imported from `@ycloud-web/icons-angular`.
+1. 如果使用字符串名称，请确保图标已经通过 `provideYCloudIcons()` 提供。
+2. 确认图标是从 `@ycloud-web/icons-angular` 导入的。
 
-### TypeScript errors?
+### TypeScript 报错？
 
 请确保从 `@ycloud-web/icons-angular` 导入。
 
 ### 图标使用了错误的默认值
 
-Ensure `provideYCloudConfig()` is used at the right level.
+请确保在正确层级使用了 `provideYCloudConfig()`。

@@ -47,7 +47,7 @@ declare module '@ycloud-web/icons-vue' {
 
 ### 导入命名风格
 
-| 导入风格 | 可用导入          | Declaration file import |
+| 导入风格 | 可用导入          | 声明文件导入路径        |
 | ------------ | -------------------------- | ----------------------- |
 | 默认      | Home, HomeIcon, YCloudHome |                         |
 | 前缀      | YCloudHome                 | ycloud-vue.prefixed     |

@@ -1,38 +1,38 @@
 # YCloud Icons Static
 
-Static assets and utilities for YCloud icons that work without JavaScript frameworks. This package provides multiple formats including individual SVG files, SVG sprites, icon fonts, and Node.js utilities for server-side rendering and static site generation.
+无需 JavaScript 框架即可使用的 YCloud Icons 静态资源和工具。这个包提供多种格式，包括独立 SVG 文件、SVG sprites、Icon font，以及用于服务端渲染和静态站点生成的 Node.js 工具。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use individual SVG files as images or CSS background images
-- Implement icon fonts for CSS-based icon systems
-- Create SVG sprites for efficient icon loading in static sites
-- Import SVG strings in Node.js applications and server-side rendering
-- Build static websites and applications without JavaScript framework dependencies
+- 将独立 SVG 文件作为图片或 CSS 背景图使用。
+- 为基于 CSS 的图标系统实现 Icon font。
+- 创建 SVG sprites，让静态站点能更高效地加载图标。
+- 在 Node.js 应用和服务端渲染中导入 SVG 字符串。
+- 构建不依赖 JavaScript 框架的静态网站和应用。
 
-This package includes the following implementations of YCloud icons:
+这个包包含以下 YCloud Icons 实现形式：
 
-- Individual SVG files
+- 独立 SVG 文件
 - SVG sprite
-- Icon font files
-- A JavaScript library exporting SVG strings
+- Icon font 文件
+- 导出 SVG 字符串的 JavaScript 库
 
-## Who is this for?
+## 适用场景
 
-`@ycloud-web/icons-static` is suitable for _very specific use cases_ where you want to use YCloud icons without relying on a JavaScript framework or component system. It's ideal for:
+`@ycloud-web/icons-static` 适合一些_非常具体的场景_：你希望使用 YCloud Icons，但不想依赖 JavaScript 框架或组件系统。它适合：
 
-- Projects that use icon fonts with plain CSS or utility-first frameworks
-- Embedding raw SVG files or sprites directly in HTML
-- Using SVGs as CSS background images
-- Importing SVG strings into Node.js (CommonJS) environments
+- 使用纯 CSS 或 utility-first 框架消费 Icon font 的项目。
+- 直接在 HTML 中嵌入原始 SVG 文件或 sprites。
+- 将 SVG 作为 CSS 背景图使用。
+- 在 Node.js（CommonJS）环境中导入 SVG 字符串。
 
 ::: danger
 
-### Not recommended for production {#production-warning}
+### 不推荐用于生产环境 {#production-warning}
 
-SVG sprites and icon fonts include **all icons**, which can significantly increase your app's bundle size and load time.
+SVG sprites 和 Icon font 会包含**全部图标**，可能显著增加应用包体积和加载时间。
 
-For production environments, we recommend using a bundler with tree-shaking support to include only the icons you actually use. Consider using one of the framework-specific [packages](../../packages.md).
+生产环境中，建议使用支持 tree-shaking 的构建工具，只包含你实际使用的图标。也可以考虑使用对应框架的[专用包](../../packages.md)。
 :::
 
 ## 安装
@@ -61,7 +61,7 @@ bun add @ycloud-web/icons-static
 
 可以通过多种方式使用独立 SVG 文件或 SVG sprite。
 
-Check out our [codesandbox example](https://codesandbox.io/s/using-the-svg-sprite-lz1kk).
+可以查看这个 [CodeSandbox 示例](https://codesandbox.io/s/using-the-svg-sprite-lz1kk)。
 
 ### SVG 文件作为图片
 
@@ -70,12 +70,12 @@ Check out our [codesandbox example](https://codesandbox.io/s/using-the-svg-sprit
 ::: code-group
 
 ```html [Webpack]
-<!-- SVG file for a single icon -->
+<!-- 单个图标的 SVG 文件 -->
 <img src="~@ycloud-web/icons-static/icons/house.svg" />
 ```
 
 ```html [CDN]
-<!-- SVG file for a single icon -->
+<!-- 单个图标的 SVG 文件 -->
 <img src="https://unpkg.com/@ycloud-web/icons-static@latest/icons/house.svg" />
 ```
 
@@ -103,7 +103,7 @@ Check out our [codesandbox example](https://codesandbox.io/s/using-the-svg-sprit
 
 ### SVG 文件作为字符串
 
-To import an SVG as a string (e.g., for templating):
+如需把 SVG 作为字符串导入（例如用于模板渲染）：
 
 ::: code-group
 
@@ -122,12 +122,12 @@ import arrowRightIcon from '@ycloud-web/icons-static/icons/arrow-right.svg?raw';
 ### 使用 SVG sprite
 
 :::danger
-[Not intended for production use.](#production-warning)
+[不适合生产环境使用。](#production-warning)
 :::
 
 可能还需要额外的 SVG loader 来处理它。
 
-#### 基础 sprite 用法 (not production-optimized):
+#### 基础 sprite 用法（未针对生产环境优化）：
 
 ```html
 <img src="@ycloud-web/icons-static/sprite.svg#house" />
@@ -168,7 +168,7 @@ import arrowRightIcon from '@ycloud-web/icons-static/icons/arrow-right.svg?raw';
 }
 ```
 
-...and update the SVG as follows:
+然后按如下方式更新 SVG：
 
 ```xml
 <svg
@@ -185,10 +185,10 @@ import arrowRightIcon from '@ycloud-web/icons-static/icons/arrow-right.svg?raw';
 ## Icon Font
 
 :::danger
-[Not intended for production use.](#production-warning)
+[不适合生产环境使用。](#production-warning)
 :::
 
-YCloud icons are also available as a web font. To use them, you first need to include the corresponding stylesheet:
+YCloud Icons 也提供 web font。使用前需要先引入对应样式表：
 
 ::: code-group
 
@@ -240,9 +240,9 @@ const { MessageSquare } = require('@ycloud-web/icons-static');
 
 :::
 
-> Note: Each icon name is in PascalCase.
+> 注意：每个图标名称都是 PascalCase。
 
-#### Express app example in Node.js
+#### Node.js 中的 Express 应用示例
 
 ```js
 import express from 'express';
@@ -255,7 +255,7 @@ app.get('/', (req, res) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>Page Title</title>
+        <title>页面标题</title>
       </head>
       <body>
         <h1>YCloud Icons</h1>
@@ -267,6 +267,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`示例应用正在监听 http://localhost:${port}`);
 });
 ```

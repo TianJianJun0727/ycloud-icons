@@ -1,14 +1,14 @@
 # YCloud Icons for Svelte
 
-Svelte components for YCloud icons that work seamlessly with both Svelte 4 and Svelte 5. Each icon is a reactive Svelte component that renders as an inline SVG, providing excellent performance and integration with Svelte's reactive system and modern features.
+面向 Svelte 的 YCloud Icons 组件，可与 Svelte 4 和 Svelte 5 一起使用。每个图标都是响应式 Svelte 组件，并渲染为内联 SVG，能很好地融入 Svelte 的响应式系统和现代能力。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as Svelte components with full reactivity and TypeScript support
-- Bind icon properties to reactive variables and stores
-- Create dynamic icon systems that respond to application state
-- Build type-safe interfaces with comprehensive TypeScript definitions
-- Optimize bundle sizes with direct icon imports and tree-shaking
+- 使用具备完整响应式能力和 TypeScript 支持的 Svelte 图标组件。
+- 将图标属性绑定到响应式变量和 stores。
+- 创建可响应应用状态变化的动态图标系统。
+- 借助完整 TypeScript 类型定义构建类型安全的界面。
+- 通过直接导入图标和 tree-shaking 优化包体积。
 
 ## 安装
 
@@ -32,7 +32,7 @@ bun add @ycloud-web/icons-svelte
 
 :::
 
-> `@ycloud-web/icons-svelte` is only for Svelte 5, for Svelte 4 use the `@ycloud-web/icons-svelte` package.
+> `@ycloud-web/icons-svelte` 面向 Svelte 5；如果使用 Svelte 4，请确认项目依赖的包版本与 Svelte 4 兼容。
 
 ## 使用方式
 
@@ -42,7 +42,7 @@ YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
 ### 示例
 
-Default usage:
+默认用法：
 
 ```svelte
 <script>
@@ -52,7 +52,7 @@ Default usage:
 <Skull />
 ```
 
-Additional props can be passed to adjust the icon:
+可以传入额外 props 调整图标：
 
 ```svelte
 <script>
@@ -62,7 +62,7 @@ Additional props can be passed to adjust the icon:
 <Camera color="#ff3e98" />
 ```
 
-For faster builds and load times, you can import icons directly from the `@ycloud-web/icons-svelte/icons` directory:
+为了获得更快的构建和加载速度，可以直接从 `@ycloud-web/icons-svelte/icons` 目录导入图标：
 
 ```svelte
 <script>
@@ -83,7 +83,7 @@ For faster builds and load times, you can import icons directly from the `@yclou
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。可在 [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) 查看 SVG Presentation Attributes 列表。
 
 ```svelte
 <script>
@@ -93,13 +93,13 @@ To customize the appearance of an icon, you can pass custom properties as props 
 <Phone fill="#333" />
 ```
 
-This results a filled phone icon.
+这样会得到一个填充效果的电话图标。
 
 ## 类型
 
 该包包含所有图标的类型定义。无论使用 TypeScript 还是 JSDoc，当你想通过 `svelte:component` 指令动态加载图标时，这都会很有用。
 
-### TypeScript Example
+### TypeScript 示例
 
 ::: code-group
 
@@ -183,7 +183,7 @@ This results a filled phone icon.
 
 :::
 
-### JSDoc Example
+### JSDoc 示例
 
 ::: code-group
 
@@ -269,7 +269,7 @@ This results a filled phone icon.
 
 :::
 
-For more details about typing the `svelte:component` directive, see the [Svelte documentation](https://svelte.dev/docs/typescript#types-componenttype).
+关于 `svelte:component` 指令的类型标注细节，请参考 [Svelte 文档](https://svelte.dev/docs/typescript#types-componenttype)。
 
 ## 使用 YCloud Icons Lab 或自定义图标
 
@@ -350,4 +350,4 @@ import { pear, sausage } from '@ycloud-web/icons-lab';
 <Check aria-label="Task completed" />
 ```
 
-For best practices on accessibility, please see our [accessibility guide](../accessibility.md).
+无障碍最佳实践请参考[无障碍指南](../accessibility.md)。

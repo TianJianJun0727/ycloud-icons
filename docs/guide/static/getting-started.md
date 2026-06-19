@@ -8,19 +8,19 @@ import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLin
 本指南会帮助你在项目中开始使用 YCloud Icons 静态资源。
 请先确保你已经准备好项目环境。如果还没有，可以使用 Vite、Parcel 或其他你熟悉的脚手架创建一个新项目。
 
-## For what use cases is `@ycloud-web/icons-static` suitable?
+## `@ycloud-web/icons-static` 适合哪些场景？
 
-`@ycloud-web/icons-static` is suitable for _very specific use cases_ where you want to use YCloud icons without relying on a JavaScript framework or component system. It's ideal for:
+`@ycloud-web/icons-static` 适合一些_非常具体的场景_：你希望使用 YCloud Icons，但不想依赖 JavaScript 框架或组件系统。它适合：
 
-- Projects that use icon fonts with plain CSS or utility-first frameworks
-- Embedding raw SVG files or sprites directly in HTML
-- Using SVGs as CSS background images
-- Importing SVG strings into Node.js environments
+- 使用纯 CSS 或 utility-first 框架消费 Icon font 的项目。
+- 直接在 HTML 中嵌入原始 SVG 文件或 sprites。
+- 将 SVG 作为 CSS 背景图使用。
+- 在 Node.js 环境中导入 SVG 字符串。
 
-::: danger Not recommended for production high performance needs {#production-warning}
-SVG sprites and icon fonts include **all icons**, which can significantly increase your app's bundle size and load time.
+::: danger 不建议用于高性能生产环境 {#production-warning}
+SVG sprites 和 Icon font 会包含**全部图标**，可能显著增加应用包体积和加载时间。
 
-For production environments, we recommend using a bundler with tree-shaking support to include only the icons you actually use. Consider using one of the framework-specific [packages](../../packages.md).
+生产环境中，建议使用支持 tree-shaking 的构建工具，只包含你实际使用的图标。也可以考虑使用对应框架的[专用包](../../packages.md)。
 :::
 
 ## 安装

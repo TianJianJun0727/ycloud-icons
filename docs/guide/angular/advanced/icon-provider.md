@@ -1,9 +1,9 @@
 ---
-title: Icon provider - Angular
+title: 图标 Provider - Angular
 description: 了解如何使用 provideYCloudIcons 全局注册图标，包括自定义图标和兼容旧数据的图标。
 ---
 
-# Icon provider
+# 图标 Provider
 
 可以使用 `YCloudDynamicIcon` 组件按名称渲染图标。按名称使用图标前，需要先通过 `provideYCloudIcons` 注册它。
 

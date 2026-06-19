@@ -15,7 +15,7 @@ import Sandpack from '~/.vitepress/theme/components/editors/SandpackAngular.vue'
 
 ## 使用 `color` input 调整颜色
 
-The color can be adjusted by binding the `color` input of the element.
+可以通过绑定元素的 `color` input 调整颜色。
 
 ::: sandpack {template=angular showTabs=false editorHeight=400 editorWidthPercentage=60 dependencies="@ycloud-web/icons-angular"}
 

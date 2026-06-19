@@ -1,13 +1,13 @@
 # `@ycloud-web/icons-vue`
 
-Vue components for YCloud icons. Each icon is available as a standalone Vue component that renders an optimized inline SVG.
+面向 Vue 的 YCloud Icons 组件。每个图标都作为独立 Vue 组件提供，并渲染为优化后的内联 SVG。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as Vue components with `<script setup>` or standard component registration
-- Keep imports tree-shakable so unused icons stay out of your bundle
-- Customize size, color, stroke width, and SVG attributes through props
-- Keep component names typed and searchable in editors
+- 通过 `<script setup>` 或标准组件注册方式使用图标。
+- 保持导入可 tree-shaking，让未使用图标不会进入最终产物。
+- 通过 props 自定义尺寸、颜色、描边宽度和 SVG 属性。
+- 让组件名称在编辑器中具备类型提示和可搜索性。
 
 ## 安装
 
@@ -35,7 +35,7 @@ bun add @ycloud-web/icons-vue
 
 YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
-Each icon can be imported as a Vue component, which renders an inline SVG Element. This way only the icons that are imported into your project are included in the final bundle. The rest of the icons are tree-shaken away.
+每个图标都可以作为 Vue 组件导入，并渲染为内联 SVG 元素。这样最终产物只会包含你实际导入的图标，其余图标会被 tree-shaking 移除。
 
 ### 示例
 
@@ -66,7 +66,7 @@ import { Camera } from '@ycloud-web/icons-vue';
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。可在 [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) 查看 SVG Presentation Attributes 列表。
 
 ```vue
 <template>
@@ -138,7 +138,7 @@ const icon = computed(() => icons[props.name]);
 
 ### 使用 Icon 组件
 
-All other props listed above also work on the `Icon` Component.
+上面列出的其他 props 同样适用于 `Icon` 组件。
 
 ```vue
 <template>
@@ -168,4 +168,4 @@ import { Check } from '@ycloud-web/icons-vue';
 </template>
 ```
 
-For best practices on accessibility, please see our [accessibility guide](../accessibility.md).
+无障碍最佳实践请参考[无障碍指南](../accessibility.md)。

@@ -1,14 +1,14 @@
 # YCloud Icons for React Native
 
-React Native components for YCloud icons that work seamlessly across iOS and Android platforms. Built on top of react-native-svg, each icon renders as a native SVG component, providing consistent visual appearance and performance across mobile devices.
+面向 React Native 的 YCloud Icons 组件，可在 iOS 和 Android 平台一致工作。它基于 `react-native-svg` 构建，每个图标都会渲染为原生 SVG 组件，在移动设备上提供一致的视觉效果和性能。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as React Native components with platform-consistent rendering
-- Build cross-platform mobile apps with scalable vector icons
-- Create responsive interfaces that adapt to different screen densities
-- Integrate with React Native's styling system and animation libraries
-- Maintain consistent icon appearance across iOS and Android platforms
+- 将图标作为 React Native 组件使用，并保持跨平台渲染一致。
+- 使用可缩放矢量图标构建跨平台移动应用。
+- 创建能适配不同屏幕密度的响应式界面。
+- 与 React Native 的样式系统和动画库集成。
+- 在 iOS 和 Android 平台保持一致的图标外观。
 
 ## 安装
 
@@ -36,11 +36,11 @@ bun add @ycloud-web/icons-react-native
 
 ## 使用方式
 
-Each icon can be imported as a React component.
+每个图标都可以作为 React 组件导入。
 
 ### 示例
 
-Additional props can be passed to adjust the icon:
+可以传入额外 props 调整图标：
 
 ```jsx
 import { Camera } from '@ycloud-web/icons-react-native';
@@ -69,7 +69,7 @@ export default App;
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements.
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。
 
 ```jsx
 // 使用

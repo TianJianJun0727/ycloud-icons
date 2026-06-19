@@ -1,6 +1,6 @@
 ---
 title: 别名 - Preact
-description: Learn about the different import name styles available for YCloud icons in your project and how to choose the one that best fits your needs.
+description: 了解 Preact 项目中可用的 YCloud Icons 导入命名风格，以及如何选择适合项目的方式。
 ---
 
 # 别名
@@ -36,18 +36,18 @@ import { House, HouseIcon, YCloudHouse } from '@ycloud-web/icons-preact';
 declare module '@ycloud-web/icons-preact' {
   // 前缀导入名称
   export * from '@ycloud-web/icons-preact/dist/@ycloud-web/icons-preact.prefixed';
-  // or
+  // 或
   // 后缀导入名称
   export * from '@ycloud-web/icons-preact/dist/@ycloud-web/icons-preact.suffixed';
 }
 ```
 
 将这个文件放在项目根目录，或放在 TypeScript 配置会包含的目录中。
-A common approach is to create a `@types` folder and name the file `@ycloud-web/icons-preact.d.ts`.
+常见做法是创建一个 `@types` 文件夹，并将文件命名为 `@ycloud-web/icons-preact.d.ts`。
 
 ### 导入命名风格
 
-| 导入风格 | 可用导入          | Declaration file import           |
+| 导入风格 | 可用导入          | 声明文件导入路径                  |
 | ------------ | -------------------------- | --------------------------------- |
 | 默认      | Home, HomeIcon, YCloudHome |                                   |
 | 前缀      | YCloudHome                 | @ycloud-web/icons-preact.prefixed |

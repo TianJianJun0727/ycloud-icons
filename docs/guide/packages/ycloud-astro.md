@@ -1,14 +1,14 @@
 # YCloud Icons for Astro
 
-Astro components for YCloud icons that work perfectly with Astro's island architecture and multi-framework support. Each icon is an Astro component that renders as an inline SVG, providing excellent performance for static sites and server-side rendering scenarios.
+面向 Astro 的 YCloud Icons 组件，适配 Astro 的 Islands 架构和多框架能力。每个图标都是一个 Astro 组件，并渲染为内联 SVG，适合静态站点和服务端渲染场景。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as Astro components with zero JavaScript runtime overhead
-- Build fast, static websites with optimized SVG icons
-- Integrate seamlessly with Astro's component islands and partial hydration
-- Create multi-framework applications where icons work across different UI libraries
-- Optimize performance with direct icon imports and build-time rendering
+- 将图标作为 Astro 组件使用，不增加 JavaScript 运行时开销。
+- 使用优化后的 SVG 图标构建快速的静态网站。
+- 与 Astro 的 component islands 和 partial hydration 自然集成。
+- 在多框架应用中跨不同 UI 库复用图标。
+- 通过直接导入图标和构建时渲染优化性能。
 
 ## 安装
 
@@ -36,11 +36,11 @@ bun add @ycloud-web/icons-astro
 
 YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
-Each icon can be imported as an Astro component, which renders an inline SVG element. This way, only the icons that are imported into your project are included in the final bundle. The rest of the icons are tree-shaken away.
+每个图标都可以作为 Astro 组件导入，并渲染为内联 SVG 元素。这样最终产物只会包含你实际导入的图标，其余图标会被 tree-shaking 移除。
 
 ### 示例
 
-Default usage:
+默认用法：
 
 ```astro
 ---
@@ -50,7 +50,7 @@ import { Skull } from '@ycloud-web/icons-astro';
 <Skull />
 ```
 
-Additional props can be passed to adjust the icon:
+可以传入额外 props 调整图标：
 
 ```astro
 ---
@@ -60,7 +60,7 @@ import { Camera } from '@ycloud-web/icons-astro';
 <Camera color="#ff3e98" />
 ```
 
-For faster builds and load times, you can import icons directly from the `@ycloud-web/icons-astro/icons` directory:
+为了获得更快的构建和加载速度，可以直接从 `@ycloud-web/icons-astro/icons` 目录导入图标：
 
 ```astro
 ---
@@ -81,7 +81,7 @@ import CircleAlert from '@ycloud-web/icons-astro/icons/circle-alert';
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。可在 [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) 查看 SVG Presentation Attributes 列表。
 
 ```astro
 ---
@@ -91,7 +91,7 @@ import { Phone } from '@ycloud-web/icons-astro';
 <Phone fill="#333" />
 ```
 
-This results a filled phone icon.
+这样会得到一个填充效果的电话图标。
 
 ## 类型
 
@@ -164,7 +164,7 @@ import { burger, sausage } from '@ycloud-web/icons-lab';
 可以创建一个通用图标组件来加载图标，但不推荐这样做。
 
 ::: danger
-The example below imports all ES Modules, so exercise caution when using it. Importing all icons will significantly increase the build size of the application. This may be passable if you're doing SSG and SSR in server environments. However if you're doing SSR in serverless environments, it could negatively affect your app's performance, as a bigger bundle size will translate to an increase in cold starts.
+下面的示例会导入所有 ES Modules，使用时需要谨慎。导入全部图标会显著增加应用构建体积。如果是在服务器环境中做 SSG 或 SSR，这可能还能接受；但如果是在 serverless 环境中做 SSR，更大的包体积会增加冷启动时间，从而影响应用性能。
 :::
 
 ### Icon 组件示例
@@ -208,4 +208,4 @@ import { Check } from '@ycloud-web/icons-astro';
 <Check aria-label="Task completed" />
 ```
 
-For best practices on accessibility, please see our [accessibility guide](../accessibility.md).
+无障碍最佳实践请参考[无障碍指南](../accessibility.md)。

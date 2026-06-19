@@ -21,7 +21,7 @@ YCloud Icons for Angular 提供了 `provideYCloudConfig` provider，用于为所
 
 你可以定义全局默认值（例如 `size`、`color` 或 `strokeWidth`），同时仍允许单个图标通过 input 覆盖这些默认值。
 
-Register the provider in your application configuration or in a top-level component:
+在应用配置或顶层组件中注册这个 provider：
 
 ```ts
 import { ApplicationConfig } from '@angular/core';

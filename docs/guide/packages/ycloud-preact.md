@@ -4,15 +4,15 @@ title: YCloud Icons for Preact
 
 # YCloud Icons for Preact
 
-Preact components for YCloud icons that provide React-like development experience with a smaller footprint. Each icon is a lightweight Preact component that renders as an inline SVG, perfect for applications that need React compatibility with minimal bundle size.
+面向 Preact 的 YCloud Icons 组件，在更小体积下提供接近 React 的开发体验。每个图标都是轻量 Preact 组件，并渲染为内联 SVG，适合需要 React 兼容性且关注包体积的应用。
 
-**What you can accomplish:**
+**你可以用它完成：**
 
-- Use icons as Preact components with React-like syntax and patterns
-- Build lightweight applications with Preact's smaller runtime
-- Create fast, responsive interfaces with minimal JavaScript overhead
-- Maintain React compatibility while reducing bundle size
-- Integrate with existing Preact applications and component libraries
+- 使用接近 React 语法和模式的 Preact 图标组件。
+- 借助 Preact 更小的运行时构建轻量应用。
+- 以更低 JavaScript 开销创建快速响应的界面。
+- 在保持 React 兼容性的同时降低包体积。
+- 集成到现有 Preact 应用和组件库中。
 
 ## 安装
 
@@ -44,7 +44,7 @@ YCloud Icons 基于 ES Modules 构建，因此可以完整支持 tree-shaking。
 
 ### 示例
 
-Additional props can be passed to adjust the icon:
+可以传入额外 props 调整图标：
 
 ```jsx
 import { Camera } from '@ycloud-web/icons-preact';
@@ -73,7 +73,7 @@ export default App;
 
 ### 应用 props
 
-To customize the appearance of an icon, you can pass custom properties as props directly to the component. The component accepts all SVG attributes as props, which allows flexible styling of the SVG elements. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+如需自定义图标外观，可以直接向组件传入自定义 props。组件支持把所有 SVG 属性作为 props 传入，因此可以灵活设置 SVG 元素样式。可在 [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation) 查看 SVG Presentation Attributes 列表。
 
 ```jsx
 // 使用
@@ -87,7 +87,7 @@ const App = () => {
 };
 ```
 
-> SVG attributes in Preact aren't transformed, so if you want to change for example the `stroke-linejoin` you need to pass it in kebabcase. Basically how the SVG spec want you to write it. See this topic in the [Preact documentation](https://preactjs.com/guide/v10/differences-to-react/#svg-inside-jsx).
+> Preact 不会转换 SVG 属性名。因此如果要修改 `stroke-linejoin` 这类属性，需要按 kebab-case 传入，也就是 SVG 规范中的写法。可参考 [Preact 文档](https://preactjs.com/guide/v10/differences-to-react/#svg-inside-jsx)中的相关说明。
 
 ## 使用 YCloud Icons Lab 或自定义图标
 
@@ -160,4 +160,4 @@ const App = () => {
 };
 ```
 
-For best practices on accessibility, please see our [accessibility guide](../accessibility.md).
+无障碍最佳实践请参考[无障碍指南](../accessibility.md)。

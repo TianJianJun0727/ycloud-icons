@@ -36,18 +36,18 @@ import { House, HouseIcon, YCloudHouse } from '@ycloud-web/icons-react-native';
 declare module '@ycloud-web/icons-react-native' {
   // 前缀导入名称
   export * from '@ycloud-web/icons-react-native/dist/@ycloud-web/icons-react-native.prefixed';
-  // or
+  // 或
   // 后缀导入名称
   export * from '@ycloud-web/icons-react-native/dist/@ycloud-web/icons-react-native.suffixed';
 }
 ```
 
 将这个文件放在项目根目录，或放在 TypeScript 配置会包含的目录中。
-A common approach is to create a `@types` folder and name the file `@ycloud-web/icons-react-native.d.ts`.
+常见做法是创建一个 `@types` 文件夹，并将文件命名为 `@ycloud-web/icons-react-native.d.ts`。
 
 ### 导入命名风格
 
-| 导入风格 | 可用导入          | Declaration file import                 |
+| 导入风格 | 可用导入          | 声明文件导入路径                        |
 | ------------ | -------------------------- | --------------------------------------- |
 | 默认      | Home, HomeIcon, YCloudHome |                                         |
 | 前缀      | YCloudHome                 | @ycloud-web/icons-react-native.prefixed |
