@@ -17,9 +17,9 @@ on:
         type: string
 
 permissions:
+  actions: write
   contents: read
   id-token: write
-  pages: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -114,11 +114,22 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: true
 
-  deploy-docs:
+  trigger-docs:
     if: github.repository == 'TianJianJun0727/ycloud-icons'
     needs: release
-    uses: './.github/workflows/docs.yml'
     permissions:
+      actions: write
       contents: read
-      pages: write
-      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger docs deployment on main
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'docs.yml',
+              ref: 'main',
+            });
