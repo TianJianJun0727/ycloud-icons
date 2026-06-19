@@ -75,7 +75,7 @@ export const reactSidebar = [
       },
       {
         text: 'Dynamic icon component',
-        link: '/guide/react/advanced/dynamic-icon-component.md',
+        link: '/guide/react/advanced/dynamic-icon-component',
         desc: 'Dynamically import icons as needed',
       },
     ],

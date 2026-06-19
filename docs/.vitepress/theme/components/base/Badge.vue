@@ -1,15 +1,24 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useRouter, withBase } from 'vitepress';
+import { useData, useRouter, withBase } from 'vitepress';
 
 const { go } = useRouter();
+const { site } = useData();
 const props = defineProps<{
   href?: string;
 }>();
 
 const isExternal = computed(() => props.href?.startsWith('http') ?? false);
+const siteBase = computed(() => site.value.base || '/');
+const internalHref = computed(() =>
+  !props.href || isExternal.value
+    ? props.href
+    : props.href.startsWith(siteBase.value)
+      ? `/${props.href.slice(siteBase.value.length).replace(/^\/+/, '')}`
+      : props.href,
+);
 const resolvedHref = computed(() =>
-  !props.href || isExternal.value ? props.href : withBase(props.href),
+  !props.href || isExternal.value ? props.href : withBase(internalHref.value),
 );
 
 const component = computed(() => (props.href ? 'a' : 'div'));
@@ -17,9 +26,9 @@ const target = computed(() => (isExternal.value ? '_blank' : undefined));
 const rel = computed(() => (isExternal.value ? 'noreferrer noopener' : undefined));
 
 function onClick(event: MouseEvent) {
-  if (!resolvedHref.value || isExternal.value) return;
+  if (!internalHref.value || isExternal.value) return;
   event.preventDefault();
-  go(resolvedHref.value);
+  go(internalHref.value);
 }
 </script>
 
@@ -37,14 +46,19 @@ function onClick(event: MouseEvent) {
 </template>
 
 <style>
-.badge, a.badge, .vp-doc a.badge {
+.badge,
+a.badge,
+.vp-doc a.badge {
   display: block;
   border: 1px solid transparent;
   text-align: center;
   font-weight: 600;
   padding: 2px 12px;
   white-space: nowrap;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+  transition:
+    color 0.25s,
+    border-color 0.25s,
+    background-color 0.25s;
   border-radius: 6px;
   background-color: var(--vp-c-bg-alt);
   color: var(--vp-c-text-1);
@@ -54,7 +68,8 @@ function onClick(event: MouseEvent) {
   font-size: 16px;
 }
 
-.badge[href]:hover, a.badge:hover  {
+.badge[href]:hover,
+a.badge:hover {
   border-color: var(--vp-button-alt-hover-border);
   color: var(--vp-button-alt-hover-text);
   background-color: var(--vp-button-alt-hover-bg);
@@ -72,6 +87,4 @@ function onClick(event: MouseEvent) {
   /* color: var(--vp-button-alt-active-text);
   background-color: var(--vp-button-alt-active-bg); */
 }
-
-
 </style>

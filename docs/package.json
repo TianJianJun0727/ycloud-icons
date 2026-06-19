@@ -9,6 +9,7 @@
     "docs:build": "pnpm run /^prebuild:.*/ && vitepress build",
     "docs:preview": "vitepress preview",
     "build:docs": "vitepress build",
+    "prebuild:changelog": "node ../scripts/writeChangelog.mts",
     "prebuild:iconNodes": "node ./scripts/writeIconNodes.mts",
     "prebuild:metaJson": "node ./scripts/writeIconMetaIndex.mts",
     "prebuild:releaseJson": "node ./scripts/writeReleaseMetadata.mts",

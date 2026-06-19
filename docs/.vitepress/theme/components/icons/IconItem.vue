@@ -33,8 +33,7 @@ const icon = computed(() => {
 });
 
 const href = computed(() => `/icons/${props.name}`);
-
-const resolvedHref = computed(() => withBase(href.value));
+const browserHref = computed(() => withBase(href.value));
 const displayTitle = computed(() =>
   props.displayName && props.displayName !== props.name
     ? `${props.displayName}（${props.name}）`
@@ -58,11 +57,11 @@ async function navigateToIcon(event) {
   if (props.overlayMode && showOverlay.value) {
     event.preventDefault();
 
-    window.history.pushState({}, '', resolvedHref.value);
+    window.history.pushState({}, '', browserHref.value);
     emit('setActiveIcon', props.name);
   } else {
     event.preventDefault();
-    go(resolvedHref.value);
+    go(href.value);
   }
 }
 </script>
@@ -71,7 +70,7 @@ async function navigateToIcon(event) {
   <Tooltip :title="displayTitle">
     <a
       class="icon-button confetti-button vp-raw"
-      :href="resolvedHref"
+      :href="browserHref"
       @click="navigateToIcon"
       :class="{ active, animate }"
       :aria-label="displayTitle"

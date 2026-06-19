@@ -2,12 +2,12 @@
 import VPHero from 'vitepress/dist/client/theme-default/components/VPHero.vue';
 import { useData } from 'vitepress/dist/client/theme-default/composables/data';
 import FakeInput from '../base/FakeInput.vue';
-import { useRouter, withBase } from 'vitepress';
+import { useRouter } from 'vitepress';
 import { data } from '../home/HomeHeroIconsCard.data';
 import { useScroll } from '@vueuse/core';
 import { computed } from 'vue';
 const { go } = useRouter();
-const iconsSearchPath = withBase('/icons/?focus');
+const iconsSearchPath = '/icons/?focus';
 
 const { frontmatter: fm } = useData();
 const { x, y, isScrolling, arrivedState, directions } = useScroll(window);

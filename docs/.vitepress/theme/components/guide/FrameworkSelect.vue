@@ -1,7 +1,7 @@
 <script setup lang="tsx">
 import VPSidebarGroup from 'vitepress/dist/client/theme-default/components/VPSidebarGroup.vue';
 import sidebar, { guideSidebarTop } from '../../../sidebar';
-import { useData, useRoute, useRouter, withBase } from 'vitepress';
+import { useData, useRoute, useRouter } from 'vitepress';
 import Select from '../base/Select.vue';
 import { computed } from 'vue';
 import { useLocalStorage } from '@vueuse/core';
@@ -88,11 +88,11 @@ function onSelectFramework(item: FrameworkItem) {
     const hasRoute = findSidebarLink(sidebar[item.value] as unknown[] | undefined, likeRoute);
 
     if (hasRoute) {
-      router.go(withBase(likeRoute));
+      router.go(likeRoute);
       return;
     }
 
-    router.go(withBase(item.value));
+    router.go(item.value);
   }
 }
 </script>

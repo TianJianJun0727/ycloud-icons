@@ -23,7 +23,7 @@ const nav = [
   { text: '图标', link: '/icons/' },
   { text: '指南', link: '/guide/' },
   { text: '包', link: '/packages' },
-  { text: '更新日志', link: 'https://github.com/TianJianJun0727/ycloud-icons/releases' },
+  { text: '更新日志', link: '/changelog' },
 ];
 
 const sidebarText: Record<string, string> = {

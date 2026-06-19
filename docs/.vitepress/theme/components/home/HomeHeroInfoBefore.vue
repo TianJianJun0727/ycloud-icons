@@ -4,7 +4,6 @@ import { moveRight } from '../../../data/iconNodes';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
 import { data } from './HomeHeroInfoBefore.data';
 import RocketDuotoneIcon from './RocketDuotoneIcon.ts';
-import { withBase } from 'vitepress';
 </script>
 
 <template>
@@ -14,10 +13,10 @@ import { withBase } from 'vitepress';
     </Badge>
     <Badge
       class="badge-special confetti-button animate"
-      :href="withBase('/guide/installation')"
+      href="/guide/installation"
     >
       <Icon :iconNode="RocketDuotoneIcon" />
-      Beta
+      安装
       <Icon
         :iconNode="moveRight"
         class=""

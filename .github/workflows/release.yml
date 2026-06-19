@@ -84,6 +84,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v6
 
@@ -114,9 +116,24 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: true
 
-  trigger-docs:
+  github-release:
     if: github.repository == 'TianJianJun0727/ycloud-icons'
     needs: release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ needs.prepare.outputs.version }}
+          generate_release_notes: true
+
+  trigger-docs:
+    if: github.repository == 'TianJianJun0727/ycloud-icons'
+    needs:
+      - release
+      - github-release
     permissions:
       actions: write
       contents: read

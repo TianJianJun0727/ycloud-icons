@@ -5,7 +5,7 @@ import Badge from '../base/Badge.vue';
 import CopySVGButton from './CopySVGButton.vue';
 import CopyCodeButton from './CopyCodeButton.vue';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { useData, useRouter, withBase } from 'vitepress';
+import { useData } from 'vitepress';
 import { computed } from 'vue';
 import deprecationReasonTemplate from '../../../../../tools/build-icons/utils/deprecationReasonTemplate.ts';
 import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../utils/iconI18n';
@@ -15,7 +15,6 @@ const props = defineProps<{
   popoverPosition?: 'top' | 'bottom';
 }>();
 
-const { go } = useRouter();
 const { page } = useData();
 
 const tags = computed(() => {
@@ -73,7 +72,7 @@ const deprecatedTitle = computed(() => {
       <Badge
         v-for="category in icon.categories"
         class="category"
-        :href="withBase(`/icons/categories#${category}`)"
+        :href="`/icons/categories#${category}`"
       >
         {{ displayCategories[icon.categories.indexOf(category)] || category }}
       </Badge>
@@ -82,9 +81,8 @@ const deprecatedTitle = computed(() => {
     <div class="group buttons">
       <VPButton
         v-if="!page?.relativePath?.startsWith?.(`icons/${icon.name}`)"
-        :href="withBase(`/icons/${icon.name}`)"
+        :href="`/icons/${icon.name}`"
         text="查看详情"
-        @click="go(withBase(`/icons/${icon.name}`))"
       />
       <CopySVGButton
         :name="icon.name"

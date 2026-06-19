@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRouter, withBase } from 'vitepress';
+import { useRouter } from 'vitepress';
 import Badge from '../base/Badge.vue';
 import HomeContainer from './HomeContainer.vue';
 import { data } from './HomeHeroIconsCard.data';
@@ -8,7 +8,7 @@ import { nextTick, provide } from 'vue';
 import useSearchShortcut from '../../utils/useSearchShortcut';
 
 const { go } = useRouter();
-const iconsSearchPath = withBase('/icons/?focus');
+const iconsSearchPath = '/icons/?focus';
 
 const { shortcutText: kbdSearchShortcut } = useSearchShortcut(() => {
   go(iconsSearchPath);
