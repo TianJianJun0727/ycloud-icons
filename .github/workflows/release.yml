@@ -107,7 +107,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Set package version
-        run: pnpm version ${{ needs.prepare.outputs.version }} --filter ${{ matrix.package }} --fail-if-no-match --no-git-tag-version
+        run: node ./scripts/syncPackageVersions.mts "${VERSION}"
+        env:
+          VERSION: ${{ needs.prepare.outputs.version }}
 
       - name: Build
         run: pnpm --filter ${{ matrix.package }} build
