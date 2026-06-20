@@ -2,6 +2,12 @@
 
 > This file is generated before the documentation build from Git tags and commit history.
 
+## [v0.1.9](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.9) - 2026-06-21
+
+[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.8...v0.1.9)
+
+- ci: stabilize release and pages warnings
+
 ## [v0.1.8](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.8) - 2026-06-21
 
 [View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.7...v0.1.8)

@@ -1,16 +1,11 @@
 import { getViteConfig } from "astro/config";
-import { unified } from "@astrojs/markdown-remark";
 import type { ConfigEnv, PluginOption } from "vite";
 import type { ViteUserConfig } from "vitest/config";
+import { astroTestConfig } from "./tests/utils/astroConfig";
 
 const astroViteConfig = getViteConfig(
   {
-    markdown: {
-      processor: unified({
-        gfm: true,
-        smartypants: true,
-      }),
-    },
+    ...astroTestConfig,
     // @ts-expect-error: types of this functions aren't correct
     test: {
       environment: "node",

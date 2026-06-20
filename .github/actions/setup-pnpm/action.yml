@@ -10,6 +10,10 @@ inputs:
     description: Optional npm registry URL for publish jobs.
     required: false
     default: ''
+  cache-mode:
+    description: Use restore-save to populate the cache, or restore to only read from it.
+    required: false
+    default: restore-save
 
 runs:
   using: composite
@@ -41,6 +45,16 @@ runs:
       run: echo "path=$(pnpm store path --silent)" >> "$GITHUB_OUTPUT"
 
     - name: Restore pnpm store
+      if: inputs.cache-mode == 'restore'
+      uses: actions/cache/restore@v5
+      with:
+        path: ${{ steps.pnpm-store.outputs.path }}
+        key: pnpm-store-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          pnpm-store-${{ runner.os }}-
+
+    - name: Restore and save pnpm store
+      if: inputs.cache-mode != 'restore'
       uses: actions/cache@v5
       with:
         path: ${{ steps.pnpm-store.outputs.path }}

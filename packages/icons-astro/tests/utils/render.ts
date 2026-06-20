@@ -2,10 +2,13 @@ import { parseHTML } from 'linkedom';
 import { getQueriesForElement } from '@testing-library/dom';
 import { experimental_AstroContainer as AstroContainer } from 'astro/container';
 import { type AstroComponentFactory, HTMLString } from 'astro/runtime/server/index.js';
+import { astroTestConfig } from './astroConfig';
 import type { RenderFn } from './types';
 
 export const render = async function (AstroComponent, options?) {
-  const astroContainer = await AstroContainer.create();
+  const astroContainer = await AstroContainer.create({
+    astroConfig: astroTestConfig,
+  });
   const htmlString = await astroContainer.renderToString(
     AstroComponent as AstroComponentFactory,
     options,
