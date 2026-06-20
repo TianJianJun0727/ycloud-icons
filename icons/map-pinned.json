@@ -5,11 +5,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "地图定位",
   "tags": [
-    "location",
-    "waypoint",
-    "marker",
-    "drop"
+    "标记"
   ],
   "categories": [
     "navigation",
@@ -17,15 +15,18 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图定位",
+    "en": {
+      "name": "map pinned",
       "tags": [
-        "标记"
+        "location",
+        "waypoint",
+        "marker",
+        "drop"
       ],
       "categories": [
-        "导航与地点",
-        "旅行",
-        "账号与访问"
+        "Navigation & Places",
+        "Travel",
+        "Accounts & access"
       ]
     }
   }

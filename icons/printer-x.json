@@ -8,29 +8,30 @@
     "lt25106"
   ],
   "use-cases": [],
+  "name": "打印机关闭",
   "tags": [
-    "fax",
-    "office",
-    "device",
-    "cross",
-    "cancel",
-    "remove",
-    "error"
+    "设备",
+    "十字",
+    "移除",
+    "错误"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "打印机关闭",
+    "en": {
+      "name": "printer X",
       "tags": [
-        "设备",
-        "十字",
-        "移除",
-        "错误"
+        "fax",
+        "office",
+        "device",
+        "cross",
+        "cancel",
+        "remove",
+        "error"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

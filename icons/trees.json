@@ -4,26 +4,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "树木",
   "tags": [
-    "tree",
-    "forest",
-    "park",
-    "nature"
+    "树",
+    "自然"
   ],
   "categories": [
     "nature",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "树木",
+    "en": {
+      "name": "trees",
       "tags": [
-        "树",
-        "自然"
+        "tree",
+        "forest",
+        "park",
+        "nature"
       ],
       "categories": [
-        "自然",
-        "可持续"
+        "Nature",
+        "Sustainability"
       ]
     }
   }

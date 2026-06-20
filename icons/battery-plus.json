@@ -8,42 +8,43 @@
     "Footagesus"
   ],
   "use-cases": [],
+  "name": "电池加号",
   "tags": [
-    "power",
-    "electricity",
-    "energy",
-    "accumulator",
-    "charge",
-    "plus",
-    "economy",
-    "health",
-    "add",
-    "new",
-    "maximum",
-    "upgrade",
-    "extra",
-    "+"
+    "电源",
+    "加号",
+    "健康",
+    "添加",
+    "新建",
+    "最大值",
+    "升级",
+    "额外",
+    "电力",
+    "能源"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "电池加号",
+    "en": {
+      "name": "battery plus",
       "tags": [
-        "电源",
-        "加号",
-        "健康",
-        "添加",
-        "新建",
-        "最大值",
-        "升级",
-        "额外",
-        "电力",
-        "能源"
+        "power",
+        "electricity",
+        "energy",
+        "accumulator",
+        "charge",
+        "plus",
+        "economy",
+        "health",
+        "add",
+        "new",
+        "maximum",
+        "upgrade",
+        "extra",
+        "+"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

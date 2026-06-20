@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "斜体",
   "tags": [
-    "oblique",
-    "text",
-    "format"
+    "文本"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "斜体",
+    "en": {
+      "name": "italic",
       "tags": [
-        "文本"
+        "oblique",
+        "text",
+        "format"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

@@ -4,32 +4,33 @@
     "kemie"
   ],
   "use-cases": [],
+  "name": "沙拉",
   "tags": [
-    "food",
-    "vegetarian",
-    "dish",
-    "restaurant",
-    "course",
-    "meal",
-    "side",
-    "vegetables",
-    "health"
+    "食物",
+    "盘子",
+    "健康"
   ],
   "categories": [
     "food-beverage",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "沙拉",
+    "en": {
+      "name": "salad",
       "tags": [
-        "食物",
-        "盘子",
-        "健康"
+        "food",
+        "vegetarian",
+        "dish",
+        "restaurant",
+        "course",
+        "meal",
+        "side",
+        "vegetables",
+        "health"
       ],
       "categories": [
-        "餐饮",
-        "表情"
+        "Food & beverage",
+        "Emoji"
       ]
     }
   }

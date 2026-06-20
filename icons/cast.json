@@ -6,25 +6,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "投屏",
   "tags": [
-    "chromecast",
-    "airplay",
-    "screen"
+    "隔空播放",
+    "屏幕"
   ],
   "categories": [
     "devices",
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "投屏",
+    "en": {
+      "name": "cast",
       "tags": [
-        "隔空播放",
-        "屏幕"
+        "chromecast",
+        "airplay",
+        "screen"
       ],
       "categories": [
-        "设备",
-        "连接"
+        "Devices",
+        "Connectivity"
       ]
     }
   }

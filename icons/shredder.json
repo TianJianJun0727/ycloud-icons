@@ -9,48 +9,49 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "碎纸机",
   "tags": [
-    "file",
-    "paper",
-    "tear",
-    "cut",
-    "delete",
-    "destroy",
-    "remove",
-    "erase",
-    "document",
-    "destruction",
-    "secure",
-    "security",
-    "confidential",
-    "data",
-    "trash",
-    "dispose",
-    "disposal",
-    "information",
-    "waste",
-    "permanent"
+    "文件",
+    "删除",
+    "移除",
+    "安全",
+    "垃圾桶",
+    "文档",
+    "信息",
+    "废弃物"
   ],
   "categories": [
     "mail",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "碎纸机",
+    "en": {
+      "name": "shredder",
       "tags": [
-        "文件",
-        "删除",
-        "移除",
-        "安全",
-        "垃圾桶",
-        "文档",
-        "信息",
-        "废弃物"
+        "file",
+        "paper",
+        "tear",
+        "cut",
+        "delete",
+        "destroy",
+        "remove",
+        "erase",
+        "document",
+        "destruction",
+        "secure",
+        "security",
+        "confidential",
+        "data",
+        "trash",
+        "dispose",
+        "disposal",
+        "information",
+        "waste",
+        "permanent"
       ],
       "categories": [
-        "邮件",
-        "文件"
+        "Mail",
+        "File icons"
       ]
     }
   }

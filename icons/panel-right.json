@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板右",
   "tags": [
-    "sidebar",
-    "secondary",
-    "drawer"
+    "侧边栏",
+    "抽屉"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板右",
+    "en": {
+      "name": "panel right",
       "tags": [
-        "侧边栏",
-        "抽屉"
+        "sidebar",
+        "secondary",
+        "drawer"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

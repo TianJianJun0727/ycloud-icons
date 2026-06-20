@@ -5,28 +5,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "口袋刀",
   "tags": [
-    "swiss army knife",
-    "penknife",
-    "multi-tool",
-    "multitask",
-    "blade",
-    "cutter",
-    "gadget",
-    "corkscrew"
+    "瑞士army刀",
+    "multi工具"
   ],
   "categories": [
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "口袋刀",
+    "en": {
+      "name": "pocket knife",
       "tags": [
-        "瑞士army刀",
-        "multi工具"
+        "swiss army knife",
+        "penknife",
+        "multi-tool",
+        "multitask",
+        "blade",
+        "cutter",
+        "gadget",
+        "corkscrew"
       ],
       "categories": [
-        "工具"
+        "Tools"
       ]
     }
   }

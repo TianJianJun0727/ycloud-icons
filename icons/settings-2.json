@@ -6,25 +6,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "设置2",
   "tags": [
-    "cog",
-    "edit",
-    "gear",
-    "preferences",
-    "slider"
+    "齿轮",
+    "编辑"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "设置2",
+    "en": {
+      "name": "settings 2",
       "tags": [
-        "齿轮",
-        "编辑"
+        "cog",
+        "edit",
+        "gear",
+        "preferences",
+        "slider"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

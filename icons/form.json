@@ -5,35 +5,36 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "表单",
   "tags": [
-    "document",
-    "page",
-    "file",
-    "layout",
-    "paper",
-    "stub",
-    "formality",
-    "structure",
-    "template",
-    "inputs",
-    "design",
-    "components"
+    "文件",
+    "布局",
+    "模板",
+    "设计",
+    "文档"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "表单",
+    "en": {
+      "name": "form",
       "tags": [
-        "文件",
-        "布局",
-        "模板",
-        "设计",
-        "文档"
+        "document",
+        "page",
+        "file",
+        "layout",
+        "paper",
+        "stub",
+        "formality",
+        "structure",
+        "template",
+        "inputs",
+        "design",
+        "components"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

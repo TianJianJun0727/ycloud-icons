@@ -11,25 +11,26 @@
     "saving a file with a specific name and/or to a specific location",
     "exporting or saving a copy of the current document with a different name or format"
   ],
+  "name": "保存笔",
   "tags": [
-    "floppy disk",
-    "directory",
-    "rename"
+    "软盘",
+    "目录"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "保存笔",
+    "en": {
+      "name": "save pen",
       "tags": [
-        "软盘",
-        "目录"
+        "floppy disk",
+        "directory",
+        "rename"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

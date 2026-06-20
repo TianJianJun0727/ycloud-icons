@@ -6,38 +6,39 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "电源",
   "tags": [
-    "on",
-    "off",
-    "device",
-    "switch",
-    "toggle",
-    "binary",
-    "boolean",
-    "reboot",
-    "restart",
-    "button",
-    "keyboard",
-    "troubleshoot"
+    "关闭",
+    "设备",
+    "切换",
+    "开关",
+    "二进制",
+    "重启",
+    "键盘",
+    "排障"
   ],
   "categories": [
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "电源",
+    "en": {
+      "name": "power",
       "tags": [
-        "关闭",
-        "设备",
-        "切换",
-        "开关",
-        "二进制",
-        "重启",
-        "键盘",
-        "排障"
+        "on",
+        "off",
+        "device",
+        "switch",
+        "toggle",
+        "binary",
+        "boolean",
+        "reboot",
+        "restart",
+        "button",
+        "keyboard",
+        "troubleshoot"
       ],
       "categories": [
-        "连接"
+        "Connectivity"
       ]
     }
   }

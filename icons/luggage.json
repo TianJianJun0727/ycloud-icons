@@ -4,26 +4,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "行李",
   "tags": [
-    "baggage",
-    "luggage",
-    "travel",
-    "suitcase"
+    "行李",
+    "旅行"
   ],
   "categories": [
     "travel",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "行李",
+    "en": {
+      "name": "luggage",
       "tags": [
-        "行李",
-        "旅行"
+        "baggage",
+        "luggage",
+        "travel",
+        "suitcase"
       ],
       "categories": [
-        "旅行",
-        "交通"
+        "Travel",
+        "Transportation"
       ]
     }
   }

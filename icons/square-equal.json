@@ -5,9 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形等于",
   "tags": [
-    "calculate",
-    "="
+    "计算"
   ],
   "categories": [
     "math"
@@ -21,13 +21,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形等于",
+    "en": {
+      "name": "square equal",
       "tags": [
-        "计算"
+        "calculate",
+        "="
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

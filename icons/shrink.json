@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "收缩",
   "tags": [
-    "scale",
-    "fullscreen"
+    "比例尺",
+    "全屏"
   ],
   "categories": [
     "layout",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "收缩",
+    "en": {
+      "name": "shrink",
       "tags": [
-        "比例尺",
-        "全屏"
+        "scale",
+        "fullscreen"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

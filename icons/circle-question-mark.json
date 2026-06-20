@@ -8,8 +8,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形问题标记",
   "tags": [
-    "question mark"
+    "问题标记"
   ],
   "categories": [
     "accessibility",
@@ -31,15 +32,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形问题标记",
+    "en": {
+      "name": "circle question mark",
       "tags": [
-        "问题标记"
+        "question mark"
       ],
       "categories": [
-        "无障碍",
-        "文本格式",
-        "通知"
+        "Accessibility",
+        "Text formatting",
+        "Notification"
       ]
     }
   }

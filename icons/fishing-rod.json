@@ -6,28 +6,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "钓鱼鱼竿",
   "tags": [
-    "fishing",
-    "rod",
-    "hobby",
-    "equipment",
-    "reel"
+    "钓鱼",
+    "鱼竿",
+    "设备"
   ],
   "categories": [
     "sports",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "钓鱼鱼竿",
+    "en": {
+      "name": "fishing rod",
       "tags": [
-        "钓鱼",
-        "鱼竿",
-        "设备"
+        "fishing",
+        "rod",
+        "hobby",
+        "equipment",
+        "reel"
       ],
       "categories": [
-        "运动",
-        "旅行"
+        "Sports",
+        "Travel"
       ]
     }
   }

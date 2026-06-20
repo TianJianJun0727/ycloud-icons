@@ -4,31 +4,32 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "虾",
   "tags": [
-    "seafood",
-    "shellfish",
-    "crustacean",
-    "prawn",
-    "scallop",
-    "whelk",
-    "arthropod",
-    "littleneck",
-    "quahog",
-    "cherrystone"
+    "虾",
+    "海鲜",
+    "食物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "虾",
+    "en": {
+      "name": "shrimp",
       "tags": [
-        "虾",
-        "海鲜",
-        "食物"
+        "seafood",
+        "shellfish",
+        "crustacean",
+        "prawn",
+        "scallop",
+        "whelk",
+        "arthropod",
+        "littleneck",
+        "quahog",
+        "cherrystone"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

@@ -5,14 +5,13 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形箭头上右",
   "tags": [
-    "direction",
-    "north-east",
-    "diagonal",
-    "sign",
-    "keyboard",
-    "button",
-    "share"
+    "方向",
+    "对角线",
+    "标志",
+    "键盘",
+    "分享"
   ],
   "categories": [
     "arrows",
@@ -27,18 +26,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头上右",
+    "en": {
+      "name": "square arrow up right",
       "tags": [
-        "方向",
-        "对角线",
-        "标志",
-        "键盘",
-        "分享"
+        "direction",
+        "north-east",
+        "diagonal",
+        "sign",
+        "keyboard",
+        "button",
+        "share"
       ],
       "categories": [
-        "箭头",
-        "社交"
+        "Arrows",
+        "Social"
       ]
     }
   }

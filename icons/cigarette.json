@@ -6,8 +6,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "香烟",
   "tags": [
-    "smoking"
+    "香烟",
+    "吸烟",
+    "烟草"
   ],
   "categories": [
     "travel",
@@ -15,17 +18,15 @@
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "香烟",
+    "en": {
+      "name": "cigarette",
       "tags": [
-        "香烟",
-        "吸烟",
-        "烟草"
+        "smoking"
       ],
       "categories": [
-        "旅行",
-        "交通",
-        "医疗"
+        "Travel",
+        "Transportation",
+        "Medical"
       ]
     }
   }

@@ -4,24 +4,25 @@
     "jonas-hoebenreich"
   ],
   "use-cases": [],
+  "name": "移动上",
   "tags": [
-    "arrow",
-    "direction",
-    "upwards",
-    "north"
+    "箭头",
+    "方向"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "移动上",
+    "en": {
+      "name": "move up",
       "tags": [
-        "箭头",
-        "方向"
+        "arrow",
+        "direction",
+        "upwards",
+        "north"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

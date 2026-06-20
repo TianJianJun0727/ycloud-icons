@@ -6,8 +6,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "锁定打开",
   "tags": [
-    "security"
+    "安全"
   ],
   "categories": [
     "security"
@@ -21,13 +22,13 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "锁定打开",
+    "en": {
+      "name": "lock open",
       "tags": [
-        "安全"
+        "security"
       ],
       "categories": [
-        "安全"
+        "Security"
       ]
     }
   }

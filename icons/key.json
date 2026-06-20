@@ -7,29 +7,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "钥匙",
   "tags": [
-    "password",
-    "login",
-    "authentication",
-    "secure",
-    "unlock",
-    "keychain",
-    "key ring",
-    "fob"
+    "钥匙响铃"
   ],
   "categories": [
     "security",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "钥匙",
+    "en": {
+      "name": "key",
       "tags": [
-        "钥匙响铃"
+        "password",
+        "login",
+        "authentication",
+        "secure",
+        "unlock",
+        "keychain",
+        "key ring",
+        "fob"
       ],
       "categories": [
-        "安全",
-        "账号与访问"
+        "Security",
+        "Accounts & access"
       ]
     }
   }

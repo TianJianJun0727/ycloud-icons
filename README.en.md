@@ -1,0 +1,112 @@
+# YCloud Icons
+
+YCloud Icons is a multi-framework SVG icon component library for YCloud products, admin systems, and design engineering workflows.
+
+This project is developed from [Lucide](https://github.com/lucide-icons/lucide). It keeps the upstream ISC license and required third-party notices, while adapting the brand, Chinese-first source data, package names, documentation, publishing flow, and icon maintenance model for YCloud.
+
+It provides consistent icon source data, tree-shakable component packages, static assets, and icon data packages. Application projects can install the package for their framework, import icons on demand, and get TypeScript autocomplete, refactoring, and type-checking support.
+
+## Packages
+
+| Target | Package | Source directory |
+| ------ | ------- | ---------------- |
+| Core JavaScript | `@ycloud-web/icons` | `packages/icons` |
+| React | `@ycloud-web/icons-react` | `packages/icons-react` |
+| Vue | `@ycloud-web/icons-vue` | `packages/icons-vue` |
+| Svelte | `@ycloud-web/icons-svelte` | `packages/icons-svelte` |
+| Solid | `@ycloud-web/icons-solid` | `packages/icons-solid` |
+| Preact | `@ycloud-web/icons-preact` | `packages/icons-preact` |
+| React Native | `@ycloud-web/icons-react-native` | `packages/icons-react-native` |
+| Angular | `@ycloud-web/icons-angular` | `packages/icons-angular` |
+| Astro | `@ycloud-web/icons-astro` | `packages/icons-astro` |
+| Static assets | `@ycloud-web/icons-static` | `packages/icons-static` |
+| Icon data | `@ycloud-web/icons-data` | `packages/icons-data` |
+
+## Usage Examples
+
+React:
+
+```tsx
+import { Camera } from '@ycloud-web/icons-react';
+
+export function Example() {
+  return (
+    <Camera
+      size={24}
+      color="currentColor"
+    />
+  );
+}
+```
+
+Vue:
+
+```vue
+<script setup lang="ts">
+import { Camera } from '@ycloud-web/icons-vue';
+</script>
+
+<template>
+  <Camera
+    :size="24"
+    color="currentColor"
+  />
+</template>
+```
+
+Core JavaScript:
+
+```ts
+import { createIcons, Camera } from '@ycloud-web/icons';
+
+createIcons({
+  icons: {
+    Camera,
+  },
+});
+```
+
+## Design Goals
+
+- **Component-first experience**: Use icons as real components in React, Vue, and other frameworks.
+- **On-demand bundling**: Application bundles include only the icons that are actually imported.
+- **Strong typing**: Component names, props, and icon data include type declarations for autocomplete, checking, and refactoring.
+- **One source, many targets**: One icon source generates framework packages, static assets, and icon data.
+- **Sustainable maintenance**: The generation pipeline is based on stable SVG data, build scripts, and package publishing workflows.
+
+## Style Strategy
+
+YCloud Icons keeps stable public component names such as `Camera`. If outline, filled, or other style variants are introduced later, they should be separated by package entrypoints or directories instead of adding style suffixes to component names:
+
+```tsx
+import { Camera } from '@ycloud-web/icons-react/outline';
+import { Camera as FilledCamera } from '@ycloud-web/icons-react/filled';
+```
+
+This keeps component naming, icon search, and refactoring behavior consistent.
+
+## Development
+
+```sh
+pnpm install
+pnpm icons-react build
+pnpm icons-vue build
+pnpm docs:dev
+```
+
+The documentation site can enable or disable OG image generation with one command:
+
+```sh
+# Default development mode: disable OG image generation for faster startup and rebuilds
+pnpm docs:dev
+
+# Explicitly enable OG image generation
+pnpm docs:dev:og
+
+# Build docs while skipping per-page OG images
+pnpm docs:build:no-og
+```
+
+## License
+
+YCloud Icons is released under the ISC License. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) for upstream and third-party notices, and [LICENSE](./LICENSE) for the full license text.

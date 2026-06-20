@@ -5,29 +5,30 @@
     "azdle"
   ],
   "use-cases": [],
+  "name": "信号零",
   "tags": [
-    "connection",
-    "wireless",
-    "gsm",
-    "phone",
-    "2g",
-    "3g",
-    "4g",
-    "5g",
-    "lost"
+    "连接",
+    "电话"
   ],
   "categories": [
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "信号零",
+    "en": {
+      "name": "signal zero",
       "tags": [
-        "连接",
-        "电话"
+        "connection",
+        "wireless",
+        "gsm",
+        "phone",
+        "2g",
+        "3g",
+        "4g",
+        "5g",
+        "lost"
       ],
       "categories": [
-        "连接"
+        "Connectivity"
       ]
     }
   }

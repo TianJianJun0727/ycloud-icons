@@ -7,29 +7,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "牛肉关闭",
   "tags": [
-    "food",
-    "dish",
-    "restaurant",
-    "course",
-    "meal",
-    "meat",
-    "bbq",
-    "steak",
-    "vegetarian"
+    "食物",
+    "盘子"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "牛肉关闭",
+    "en": {
+      "name": "beef off",
       "tags": [
-        "食物",
-        "盘子"
+        "food",
+        "dish",
+        "restaurant",
+        "course",
+        "meal",
+        "meat",
+        "bbq",
+        "steak",
+        "vegetarian"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

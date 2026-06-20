@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Layout",
+  "title": "布局",
   "icon": "panels-top-left",
   "i18n": {
-    "zh": {
-      "title": "布局"
+    "en": {
+      "title": "Layout"
     }
   }
 }

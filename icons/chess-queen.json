@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "国际象棋皇后",
   "tags": [
-    "ruler",
-    "crown",
-    "piece",
-    "board game",
-    "stalemate"
+    "尺子",
+    "皇冠",
+    "面板game"
   ],
   "categories": [
     "gaming",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "国际象棋皇后",
+    "en": {
+      "name": "chess queen",
       "tags": [
-        "尺子",
-        "皇冠",
-        "面板game"
+        "ruler",
+        "crown",
+        "piece",
+        "board game",
+        "stalemate"
       ],
       "categories": [
-        "游戏",
-        "表情"
+        "Gaming",
+        "Emoji"
       ]
     }
   }

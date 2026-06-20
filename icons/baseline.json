@@ -4,22 +4,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "基线",
   "tags": [
-    "text",
-    "format",
-    "color"
+    "文本"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "基线",
+    "en": {
+      "name": "baseline",
       "tags": [
-        "文本"
+        "text",
+        "format",
+        "color"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

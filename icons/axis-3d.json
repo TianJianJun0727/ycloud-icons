@@ -5,9 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "轴三维",
   "tags": [
-    "gizmo",
-    "coordinates"
+    "3D",
+    "坐标轴",
+    "三维"
   ],
   "categories": [
     "design"
@@ -21,15 +23,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "轴三维",
+    "en": {
+      "name": "axis 3d",
       "tags": [
-        "3D",
-        "坐标轴",
-        "三维"
+        "gizmo",
+        "coordinates"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

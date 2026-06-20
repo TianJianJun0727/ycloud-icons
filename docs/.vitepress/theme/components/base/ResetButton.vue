@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { rotateCw } from '../../../data/iconNodes';
+import { rotateCw } from '@data/iconNodes';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
 import IconButton from './IconButton.vue';
 </script>

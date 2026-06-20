@@ -7,37 +7,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "救生浮标",
   "tags": [
-    "preserver",
-    "life belt",
-    "lifesaver",
-    "help",
-    "rescue",
-    "ship",
-    "ring",
-    "raft",
-    "inflatable",
-    "wheel",
-    "donut"
+    "救生传送带",
+    "船",
+    "响铃",
+    "轮",
+    "甜甜圈",
+    "帮助"
   ],
   "categories": [
     "accessibility",
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "救生浮标",
+    "en": {
+      "name": "life buoy",
       "tags": [
-        "救生传送带",
-        "船",
-        "响铃",
-        "轮",
-        "甜甜圈",
-        "帮助"
+        "preserver",
+        "life belt",
+        "lifesaver",
+        "help",
+        "rescue",
+        "ship",
+        "ring",
+        "raft",
+        "inflatable",
+        "wheel",
+        "donut"
       ],
       "categories": [
-        "无障碍",
-        "医疗"
+        "Accessibility",
+        "Medical"
       ]
     }
   }

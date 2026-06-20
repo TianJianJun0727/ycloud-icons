@@ -4,32 +4,33 @@
     "Alportan"
   ],
   "use-cases": [],
+  "name": "趋势上下",
   "tags": [
-    "arrows",
-    "estimated",
-    "indeterminate",
-    "data fluctuation",
-    "uncertain",
-    "forecast",
-    "variable",
-    "prediction",
-    "dynamic",
-    "volatile"
+    "箭头",
+    "变量"
   ],
   "categories": [
     "charts",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "趋势上下",
+    "en": {
+      "name": "trending up down",
       "tags": [
-        "箭头",
-        "变量"
+        "arrows",
+        "estimated",
+        "indeterminate",
+        "data fluctuation",
+        "uncertain",
+        "forecast",
+        "variable",
+        "prediction",
+        "dynamic",
+        "volatile"
       ],
       "categories": [
-        "图表",
-        "箭头"
+        "Charts",
+        "Arrows"
       ]
     }
   }

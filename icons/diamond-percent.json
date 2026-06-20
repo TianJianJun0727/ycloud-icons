@@ -4,15 +4,15 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "菱形百分比",
   "tags": [
-    "verified",
-    "unverified",
-    "sale",
-    "discount",
-    "offer",
-    "marketing",
-    "sticker",
-    "price tag"
+    "促销",
+    "折扣",
+    "营销",
+    "贴纸",
+    "price标签",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "social",
@@ -29,22 +29,23 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "菱形百分比",
+    "en": {
+      "name": "diamond percent",
       "tags": [
-        "促销",
-        "折扣",
-        "营销",
-        "贴纸",
-        "price标签",
-        "已验证",
-        "未验证"
+        "verified",
+        "unverified",
+        "sale",
+        "discount",
+        "offer",
+        "marketing",
+        "sticker",
+        "price tag"
       ],
       "categories": [
-        "社交",
-        "金融",
-        "购物",
-        "数学"
+        "Social",
+        "Finance",
+        "Shopping",
+        "Mathematics"
       ]
     }
   }

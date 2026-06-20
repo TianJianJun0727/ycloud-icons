@@ -10,13 +10,11 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "爱心加号",
   "tags": [
-    "plus",
-    "like",
-    "favorite",
-    "add",
-    "health",
-    "support"
+    "加号",
+    "添加",
+    "健康"
   ],
   "categories": [
     "medical",
@@ -26,19 +24,22 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心加号",
+    "en": {
+      "name": "heart plus",
       "tags": [
-        "加号",
-        "添加",
-        "健康"
+        "plus",
+        "like",
+        "favorite",
+        "add",
+        "health",
+        "support"
       ],
       "categories": [
-        "医疗",
-        "账号与访问",
-        "多媒体",
-        "游戏",
-        "社交"
+        "Medical",
+        "Accounts & access",
+        "Multimedia",
+        "Gaming",
+        "Social"
       ]
     }
   }

@@ -6,10 +6,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "角落下右",
   "tags": [
-    "arrow",
-    "indent",
-    "tab"
+    "箭头",
+    "缩进"
   ],
   "categories": [
     "arrows",
@@ -17,16 +17,17 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "角落下右",
+    "en": {
+      "name": "corner down right",
       "tags": [
-        "箭头",
-        "缩进"
+        "arrow",
+        "indent",
+        "tab"
       ],
       "categories": [
-        "箭头",
-        "文本格式",
-        "编码与开发"
+        "Arrows",
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

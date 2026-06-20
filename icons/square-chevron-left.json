@@ -5,16 +5,13 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形折角箭头左",
   "tags": [
-    "back",
-    "previous",
-    "less than",
-    "fewer",
-    "menu",
-    "panel",
-    "button",
-    "keyboard",
-    "<"
+    "返回",
+    "上一个",
+    "菜单",
+    "面板",
+    "键盘"
   ],
   "categories": [
     "arrows",
@@ -29,18 +26,22 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形折角箭头左",
+    "en": {
+      "name": "square chevron left",
       "tags": [
-        "返回",
-        "上一个",
-        "菜单",
-        "面板",
-        "键盘"
+        "back",
+        "previous",
+        "less than",
+        "fewer",
+        "menu",
+        "panel",
+        "button",
+        "keyboard",
+        "<"
       ],
       "categories": [
-        "箭头",
-        "导航与地点"
+        "Arrows",
+        "Navigation & Places"
       ]
     }
   }

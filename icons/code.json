@@ -4,28 +4,29 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "代码",
   "tags": [
-    "source",
-    "programming",
-    "html",
-    "xml"
+    "源码",
+    "编程",
+    "HTML",
+    "XML"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "代码",
+    "en": {
+      "name": "code",
       "tags": [
-        "源码",
-        "编程",
-        "HTML",
-        "XML"
+        "source",
+        "programming",
+        "html",
+        "xml"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

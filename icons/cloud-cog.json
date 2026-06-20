@@ -5,24 +5,25 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "云齿轮",
   "tags": [
-    "computing",
-    "ai",
-    "cluster",
-    "network"
+    "网络",
+    "AI"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "云齿轮",
+    "en": {
+      "name": "cloud cog",
       "tags": [
-        "网络",
-        "AI"
+        "computing",
+        "ai",
+        "cluster",
+        "network"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

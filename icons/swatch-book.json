@@ -4,22 +4,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "色板书籍",
   "tags": [
-    "colors",
-    "colours",
-    "swatches",
-    "pantone",
-    "shades",
-    "tint",
-    "hue",
-    "saturation",
-    "brightness",
-    "theme",
-    "scheme",
-    "palette",
-    "samples",
-    "textile",
-    "carpet"
+    "调色板"
   ],
   "categories": [
     "design",
@@ -27,15 +14,29 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "色板书籍",
+    "en": {
+      "name": "swatch book",
       "tags": [
-        "调色板"
+        "colors",
+        "colours",
+        "swatches",
+        "pantone",
+        "shades",
+        "tint",
+        "hue",
+        "saturation",
+        "brightness",
+        "theme",
+        "scheme",
+        "palette",
+        "samples",
+        "textile",
+        "carpet"
       ],
       "categories": [
-        "设计",
-        "家居",
-        "摄影"
+        "Design",
+        "Home",
+        "Photography"
       ]
     }
   }

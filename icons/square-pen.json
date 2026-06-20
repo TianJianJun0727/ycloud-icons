@@ -7,22 +7,14 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形笔",
   "tags": [
-    "pencil",
-    "edit",
-    "change",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
-    "writer",
-    "writing",
-    "biro",
-    "ink",
-    "marker",
-    "felt tip",
-    "stationery",
-    "artist"
+    "铅笔",
+    "编辑",
+    "创建",
+    "草稿",
+    "标记",
+    "文具"
   ],
   "categories": [
     "text"
@@ -48,18 +40,27 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形笔",
+    "en": {
+      "name": "square pen",
       "tags": [
-        "铅笔",
-        "编辑",
-        "创建",
-        "草稿",
-        "标记",
-        "文具"
+        "pencil",
+        "edit",
+        "change",
+        "create",
+        "draw",
+        "sketch",
+        "draft",
+        "writer",
+        "writing",
+        "biro",
+        "ink",
+        "marker",
+        "felt tip",
+        "stationery",
+        "artist"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

@@ -8,28 +8,29 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "手电筒关闭",
   "tags": [
-    "torch",
-    "light",
-    "beam",
-    "emergency",
-    "safety",
-    "tool",
-    "bright"
+    "工具"
   ],
   "categories": [
     "photography",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "手电筒关闭",
+    "en": {
+      "name": "flashlight off",
       "tags": [
-        "工具"
+        "torch",
+        "light",
+        "beam",
+        "emergency",
+        "safety",
+        "tool",
+        "bright"
       ],
       "categories": [
-        "摄影",
-        "设备"
+        "Photography",
+        "Devices"
       ]
     }
   }

@@ -5,30 +5,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "奖杯",
   "tags": [
-    "prize",
-    "sports",
-    "winner",
-    "achievement",
-    "award",
-    "champion",
-    "celebration",
-    "victory"
+    "奖章",
+    "庆祝"
   ],
   "categories": [
     "sports",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "奖杯",
+    "en": {
+      "name": "trophy",
       "tags": [
-        "奖章",
-        "庆祝"
+        "prize",
+        "sports",
+        "winner",
+        "achievement",
+        "award",
+        "champion",
+        "celebration",
+        "victory"
       ],
       "categories": [
-        "运动",
-        "游戏"
+        "Sports",
+        "Gaming"
       ]
     }
   }

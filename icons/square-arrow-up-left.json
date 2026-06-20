@@ -5,13 +5,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形箭头上左",
   "tags": [
-    "direction",
-    "north-west",
-    "diagonal",
-    "sign",
-    "keyboard",
-    "button"
+    "方向",
+    "对角线",
+    "标志",
+    "键盘"
   ],
   "categories": [
     "arrows"
@@ -25,16 +24,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头上左",
+    "en": {
+      "name": "square arrow up left",
       "tags": [
-        "方向",
-        "对角线",
-        "标志",
-        "键盘"
+        "direction",
+        "north-west",
+        "diagonal",
+        "sign",
+        "keyboard",
+        "button"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

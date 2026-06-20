@@ -5,31 +5,32 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "耳朵关闭",
   "tags": [
-    "hearing",
-    "hard of hearing",
-    "hearing loss",
-    "deafness",
-    "noise",
-    "silence",
-    "audio",
-    "accessibility"
+    "硬盘的hearing",
+    "音频",
+    "无障碍"
   ],
   "categories": [
     "medical",
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "耳朵关闭",
+    "en": {
+      "name": "ear off",
       "tags": [
-        "硬盘的hearing",
-        "音频",
-        "无障碍"
+        "hearing",
+        "hard of hearing",
+        "hearing loss",
+        "deafness",
+        "noise",
+        "silence",
+        "audio",
+        "accessibility"
       ],
       "categories": [
-        "医疗",
-        "无障碍"
+        "Medical",
+        "Accessibility"
       ]
     }
   }

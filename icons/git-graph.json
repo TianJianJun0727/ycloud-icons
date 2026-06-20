@@ -4,26 +4,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "Git图形",
   "tags": [
-    "code",
-    "version control",
-    "commit graph",
-    "commits",
-    "gitlens"
+    "代码",
+    "version控制",
+    "提交图形"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git图形",
+    "en": {
+      "name": "git graph",
       "tags": [
-        "代码",
-        "version控制",
-        "提交图形"
+        "code",
+        "version control",
+        "commit graph",
+        "commits",
+        "gitlens"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

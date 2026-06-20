@@ -6,31 +6,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件代码",
   "tags": [
-    "script",
-    "document",
-    "gist",
-    "html",
-    "xml",
-    "property list",
-    "plist"
+    "property列表",
+    "文档",
+    "HTML",
+    "XML"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件代码",
+    "en": {
+      "name": "file code",
       "tags": [
-        "property列表",
-        "文档",
-        "HTML",
-        "XML"
+        "script",
+        "document",
+        "gist",
+        "html",
+        "xml",
+        "property list",
+        "plist"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -9,8 +9,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "电话通话",
   "tags": [
-    "ring"
+    "响铃"
   ],
   "categories": [
     "connectivity",
@@ -18,15 +19,15 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "电话通话",
+    "en": {
+      "name": "phone call",
       "tags": [
-        "响铃"
+        "ring"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "沟通"
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

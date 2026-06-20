@@ -5,37 +5,38 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "邮件勾选",
   "tags": [
-    "email",
-    "message",
-    "letter",
-    "subscribe",
-    "delivered",
-    "success",
-    "read",
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "消息",
+    "字母",
+    "完成",
+    "待办",
+    "勾选",
+    "任务",
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮件勾选",
+    "en": {
+      "name": "mail check",
       "tags": [
-        "消息",
-        "字母",
-        "完成",
-        "待办",
-        "勾选",
-        "任务",
-        "邮箱"
+        "email",
+        "message",
+        "letter",
+        "subscribe",
+        "delivered",
+        "success",
+        "read",
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

@@ -6,38 +6,39 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "西兰花",
   "tags": [
-    "leafy",
-    "crisp",
-    "fresh",
-    "culinary",
-    "vegetation",
-    "vegetable",
-    "food",
-    "healthy",
-    "vegan",
-    "vegetarian",
-    "nutrition",
-    "diet",
-    "plant",
-    "green",
-    "produce"
+    "绿叶",
+    "食物",
+    "素食",
+    "绿色",
+    "植物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "西兰花",
+    "en": {
+      "name": "broccoli",
       "tags": [
-        "绿叶",
-        "食物",
-        "素食",
-        "绿色",
-        "植物"
+        "leafy",
+        "crisp",
+        "fresh",
+        "culinary",
+        "vegetation",
+        "vegetable",
+        "food",
+        "healthy",
+        "vegan",
+        "vegetarian",
+        "nutrition",
+        "diet",
+        "plant",
+        "green",
+        "produce"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

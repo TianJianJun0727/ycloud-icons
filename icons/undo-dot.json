@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "撤销点",
   "tags": [
-    "redo",
-    "history",
-    "step",
-    "back"
+    "重做",
+    "历史",
+    "步骤",
+    "返回"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "撤销点",
+    "en": {
+      "name": "undo dot",
       "tags": [
-        "重做",
-        "历史",
-        "步骤",
-        "返回"
+        "redo",
+        "history",
+        "step",
+        "back"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

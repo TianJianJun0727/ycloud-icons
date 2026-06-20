@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "栅栏",
   "tags": [
-    "picket",
-    "panels",
-    "woodwork",
-    "diy",
-    "materials",
-    "suburban",
-    "garden",
-    "property",
-    "territory"
+    "面板"
   ],
   "categories": [
     "home",
     "buildings"
   ],
   "i18n": {
-    "zh": {
-      "name": "栅栏",
+    "en": {
+      "name": "fence",
       "tags": [
-        "面板"
+        "picket",
+        "panels",
+        "woodwork",
+        "diy",
+        "materials",
+        "suburban",
+        "garden",
+        "property",
+        "territory"
       ],
       "categories": [
-        "家居",
-        "建筑"
+        "Home",
+        "Buildings"
       ]
     }
   }

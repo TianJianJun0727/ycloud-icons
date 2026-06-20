@@ -5,32 +5,33 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头上到线条",
   "tags": [
-    "forward",
-    "direction",
-    "north",
-    "upload",
-    "collapse",
-    "fold",
-    "vertical"
+    "前进",
+    "方向",
+    "上传",
+    "折叠",
+    "垂直"
   ],
   "categories": [
     "arrows",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头上到线条",
+    "en": {
+      "name": "arrow up to line",
       "tags": [
-        "前进",
-        "方向",
-        "上传",
-        "折叠",
-        "垂直"
+        "forward",
+        "direction",
+        "north",
+        "upload",
+        "collapse",
+        "fold",
+        "vertical"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

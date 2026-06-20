@@ -7,27 +7,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "归档",
   "tags": [
-    "index",
-    "backup",
-    "box",
-    "storage",
-    "records"
+    "备份",
+    "盒子"
   ],
   "categories": [
     "files",
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "归档",
+    "en": {
+      "name": "archive",
       "tags": [
-        "备份",
-        "盒子"
+        "index",
+        "backup",
+        "box",
+        "storage",
+        "records"
       ],
       "categories": [
-        "文件",
-        "邮件"
+        "File icons",
+        "Mail"
       ]
     }
   }

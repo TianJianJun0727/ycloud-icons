@@ -5,26 +5,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "火焰灭火器",
   "tags": [
-    "flames",
-    "smoke",
-    "foam",
-    "water",
-    "spray",
-    "hose",
-    "firefighter",
-    "fireman",
-    "department",
-    "brigade",
-    "station",
-    "emergency",
-    "suppress",
-    "compressed",
-    "tank",
-    "cylinder",
-    "safety",
-    "equipment",
-    "amenities"
+    "烟雾",
+    "水",
+    "喷雾",
+    "圆柱",
+    "设备"
   ],
   "categories": [
     "home",
@@ -32,19 +19,33 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "火焰灭火器",
+    "en": {
+      "name": "fire extinguisher",
       "tags": [
-        "烟雾",
-        "水",
-        "喷雾",
-        "圆柱",
-        "设备"
+        "flames",
+        "smoke",
+        "foam",
+        "water",
+        "spray",
+        "hose",
+        "firefighter",
+        "fireman",
+        "department",
+        "brigade",
+        "station",
+        "emergency",
+        "suppress",
+        "compressed",
+        "tank",
+        "cylinder",
+        "safety",
+        "equipment",
+        "amenities"
       ],
       "categories": [
-        "家居",
-        "工具",
-        "旅行"
+        "Home",
+        "Tools",
+        "Travel"
       ]
     }
   }

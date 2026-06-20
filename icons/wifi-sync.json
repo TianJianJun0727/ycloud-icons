@@ -8,31 +8,32 @@
     "luisdlopera"
   ],
   "use-cases": [],
+  "name": "无线网络同步",
   "tags": [
-    "connection",
-    "signal",
-    "wireless",
-    "synchronize",
-    "reconnect",
-    "reset",
-    "restart"
+    "连接",
+    "信号",
+    "重置",
+    "重启"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络同步",
+    "en": {
+      "name": "wifi sync",
       "tags": [
-        "连接",
-        "信号",
-        "重置",
-        "重启"
+        "connection",
+        "signal",
+        "wireless",
+        "synchronize",
+        "reconnect",
+        "reset",
+        "restart"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

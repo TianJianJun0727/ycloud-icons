@@ -9,14 +9,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "顺时针旋转",
   "tags": [
-    "arrow",
-    "right",
-    "clockwise",
-    "refresh",
-    "reload",
-    "rerun",
-    "redo"
+    "箭头",
+    "右",
+    "顺时针",
+    "刷新",
+    "重做",
+    "向右"
   ],
   "categories": [
     "arrows",
@@ -24,20 +24,21 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "顺时针旋转",
+    "en": {
+      "name": "rotate cw",
       "tags": [
-        "箭头",
-        "右",
-        "顺时针",
-        "刷新",
-        "重做",
-        "向右"
+        "arrow",
+        "right",
+        "clockwise",
+        "refresh",
+        "reload",
+        "rerun",
+        "redo"
       ],
       "categories": [
-        "箭头",
-        "设计",
-        "摄影"
+        "Arrows",
+        "Design",
+        "Photography"
       ]
     }
   }

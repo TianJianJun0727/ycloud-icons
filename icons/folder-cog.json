@@ -5,14 +5,13 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "文件夹齿轮",
   "tags": [
-    "directory",
-    "settings",
-    "control",
-    "preferences",
-    "cog",
-    "edit",
-    "gear"
+    "设置",
+    "控制",
+    "齿轮",
+    "编辑",
+    "目录"
   ],
   "categories": [
     "files"
@@ -26,17 +25,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹齿轮",
+    "en": {
+      "name": "folder cog",
       "tags": [
-        "设置",
-        "控制",
-        "齿轮",
-        "编辑",
-        "目录"
+        "directory",
+        "settings",
+        "control",
+        "preferences",
+        "cog",
+        "edit",
+        "gear"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

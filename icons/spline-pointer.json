@@ -8,15 +8,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "样条曲线指针",
   "tags": [
-    "path",
-    "tool",
-    "curve",
-    "node",
-    "click",
-    "pointer",
-    "target",
-    "vector"
+    "工具",
+    "点击",
+    "指针",
+    "目标",
+    "矢量"
   ],
   "categories": [
     "arrows",
@@ -25,20 +23,23 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "样条曲线指针",
+    "en": {
+      "name": "spline pointer",
       "tags": [
-        "工具",
-        "点击",
-        "指针",
-        "目标",
-        "矢量"
+        "path",
+        "tool",
+        "curve",
+        "node",
+        "click",
+        "pointer",
+        "target",
+        "vector"
       ],
       "categories": [
-        "箭头",
-        "光标",
-        "设计",
-        "工具"
+        "Arrows",
+        "Cursors",
+        "Design",
+        "Tools"
       ]
     }
   }

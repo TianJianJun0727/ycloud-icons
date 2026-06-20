@@ -4,23 +4,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "双折角箭头左右",
   "tags": [
-    "expand",
-    "horizontal",
-    "unfold"
+    "展开",
+    "水平"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "双折角箭头左右",
+    "en": {
+      "name": "chevrons left right",
       "tags": [
-        "展开",
-        "水平"
+        "expand",
+        "horizontal",
+        "unfold"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

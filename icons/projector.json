@@ -4,17 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "投影仪",
   "tags": [
-    "cinema",
-    "film",
-    "movie",
-    "home video",
-    "presentation",
-    "slideshow",
-    "office",
-    "meeting",
-    "project",
-    "planning"
+    "胶片",
+    "家居视频",
+    "演示",
+    "项目"
   ],
   "categories": [
     "multimedia",
@@ -23,19 +18,25 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "投影仪",
+    "en": {
+      "name": "projector",
       "tags": [
-        "胶片",
-        "家居视频",
-        "演示",
-        "项目"
+        "cinema",
+        "film",
+        "movie",
+        "home video",
+        "presentation",
+        "slideshow",
+        "office",
+        "meeting",
+        "project",
+        "planning"
       ],
       "categories": [
-        "多媒体",
-        "摄影",
-        "设备",
-        "沟通"
+        "Multimedia",
+        "Photography",
+        "Devices",
+        "Communication"
       ]
     }
   }

@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "床单人",
   "tags": [
-    "sleep",
-    "hotel",
-    "furniture"
+    "酒店"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "床单人",
+    "en": {
+      "name": "bed single",
       "tags": [
-        "酒店"
+        "sleep",
+        "hotel",
+        "furniture"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

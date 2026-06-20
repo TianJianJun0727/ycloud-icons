@@ -5,39 +5,40 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "图形处理器",
   "tags": [
-    "processor",
-    "cores",
-    "technology",
-    "computer",
-    "chip",
-    "circuit",
-    "specs",
-    "graphics processing unit",
-    "video card",
-    "display adapter",
-    "gddr",
-    "rendering",
-    "digital image processing",
-    "crypto mining"
+    "电脑",
+    "电路",
+    "graphicsprocessing单元",
+    "视频卡片",
+    "digital图片processing"
   ],
   "categories": [
     "devices",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "图形处理器",
+    "en": {
+      "name": "gpu",
       "tags": [
-        "电脑",
-        "电路",
-        "graphicsprocessing单元",
-        "视频卡片",
-        "digital图片processing"
+        "processor",
+        "cores",
+        "technology",
+        "computer",
+        "chip",
+        "circuit",
+        "specs",
+        "graphics processing unit",
+        "video card",
+        "display adapter",
+        "gddr",
+        "rendering",
+        "digital image processing",
+        "crypto mining"
       ],
       "categories": [
-        "设备",
-        "游戏"
+        "Devices",
+        "Gaming"
       ]
     }
   }

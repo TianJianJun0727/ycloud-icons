@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "People",
+  "title": "人物",
   "icon": "person-standing",
   "i18n": {
-    "zh": {
-      "title": "人物"
+    "en": {
+      "title": "People"
     }
   }
 }

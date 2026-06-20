@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "组合",
   "tags": [
-    "cubes",
-    "packages",
-    "parts",
-    "units",
-    "collection",
-    "cluster",
-    "gather",
-    "dashed"
+    "虚线",
+    "单位"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "组合",
+    "en": {
+      "name": "group",
       "tags": [
-        "虚线",
-        "单位"
+        "cubes",
+        "packages",
+        "parts",
+        "units",
+        "collection",
+        "cluster",
+        "gather",
+        "dashed"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

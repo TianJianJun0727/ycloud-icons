@@ -5,29 +5,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "扫描爱心",
   "tags": [
-    "health",
-    "heart rate",
-    "pulse",
-    "monitoring",
-    "healthiness",
-    "screening",
-    "dashed"
+    "健康",
+    "爱心rate",
+    "脉搏",
+    "虚线"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描爱心",
+    "en": {
+      "name": "scan heart",
       "tags": [
-        "健康",
-        "爱心rate",
-        "脉搏",
-        "虚线"
+        "health",
+        "heart rate",
+        "pulse",
+        "monitoring",
+        "healthiness",
+        "screening",
+        "dashed"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

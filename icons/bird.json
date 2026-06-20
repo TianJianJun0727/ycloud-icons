@@ -5,26 +5,27 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "鸟",
   "tags": [
-    "peace",
-    "freedom",
-    "wing",
-    "avian",
-    "tweet"
+    "鸟",
+    "飞行",
+    "自然"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "鸟",
+    "en": {
+      "name": "bird",
       "tags": [
-        "鸟",
-        "飞行",
-        "自然"
+        "peace",
+        "freedom",
+        "wing",
+        "avian",
+        "tweet"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

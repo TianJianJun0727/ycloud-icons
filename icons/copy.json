@@ -8,24 +8,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "复制",
   "tags": [
-    "clone",
-    "duplicate",
-    "multiple"
+    "复制",
+    "副本",
+    "克隆"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "复制",
+    "en": {
+      "name": "copy",
       "tags": [
-        "复制",
-        "副本",
-        "克隆"
+        "clone",
+        "duplicate",
+        "multiple"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

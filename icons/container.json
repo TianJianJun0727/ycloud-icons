@@ -4,16 +4,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "容器",
   "tags": [
-    "storage",
-    "shipping",
-    "freight",
-    "supply chain",
-    "docker",
-    "environment",
-    "devops",
-    "code",
-    "coding"
+    "代码"
   ],
   "categories": [
     "development",
@@ -21,15 +14,23 @@
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "容器",
+    "en": {
+      "name": "container",
       "tags": [
-        "代码"
+        "storage",
+        "shipping",
+        "freight",
+        "supply chain",
+        "docker",
+        "environment",
+        "devops",
+        "code",
+        "coding"
       ],
       "categories": [
-        "编码与开发",
-        "交通",
-        "邮件"
+        "Coding & development",
+        "Transportation",
+        "Mail"
       ]
     }
   }

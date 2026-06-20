@@ -4,43 +4,44 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "鼓",
   "tags": [
-    "drummer",
-    "kit",
-    "sticks",
-    "instrument",
-    "beat",
-    "bang",
-    "bass",
-    "backing track",
-    "band",
-    "play",
-    "performance",
-    "concert",
-    "march",
-    "music",
-    "audio",
-    "sound",
-    "noise",
-    "loud"
+    "backing轨道",
+    "播放",
+    "音乐",
+    "音频",
+    "声音"
   ],
   "categories": [
     "multimedia",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼓",
+    "en": {
+      "name": "drum",
       "tags": [
-        "backing轨道",
-        "播放",
-        "音乐",
-        "音频",
-        "声音"
+        "drummer",
+        "kit",
+        "sticks",
+        "instrument",
+        "beat",
+        "bang",
+        "bass",
+        "backing track",
+        "band",
+        "play",
+        "performance",
+        "concert",
+        "march",
+        "music",
+        "audio",
+        "sound",
+        "noise",
+        "loud"
       ],
       "categories": [
-        "多媒体",
-        "设备"
+        "Multimedia",
+        "Devices"
       ]
     }
   }

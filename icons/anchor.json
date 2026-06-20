@@ -7,22 +7,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "锚点",
   "tags": [
-    "ship"
+    "船"
   ],
   "categories": [
     "transportation",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "锚点",
+    "en": {
+      "name": "anchor",
       "tags": [
-        "船"
+        "ship"
       ],
       "categories": [
-        "交通",
-        "文本格式"
+        "Transportation",
+        "Text formatting"
       ]
     }
   }

@@ -4,20 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "欧米伽",
   "tags": [
-    "greek",
-    "symbol",
-    "mathematics",
-    "education",
-    "physics",
-    "engineering",
-    "ohms",
-    "electrical resistance",
-    "angular frequency",
-    "dynamical systems",
-    "astronomy",
-    "constellations",
-    "philosophy"
+    "符号",
+    "教育",
+    "物理"
   ],
   "categories": [
     "math",
@@ -26,18 +17,28 @@
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "欧米伽",
+    "en": {
+      "name": "omega",
       "tags": [
-        "符号",
-        "教育",
-        "物理"
+        "greek",
+        "symbol",
+        "mathematics",
+        "education",
+        "physics",
+        "engineering",
+        "ohms",
+        "electrical resistance",
+        "angular frequency",
+        "dynamical systems",
+        "astronomy",
+        "constellations",
+        "philosophy"
       ],
       "categories": [
-        "数学",
-        "编码与开发",
-        "文本格式",
-        "科学"
+        "Mathematics",
+        "Coding & development",
+        "Text formatting",
+        "Science"
       ]
     }
   }

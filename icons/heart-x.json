@@ -11,14 +11,10 @@
     "swastik7805"
   ],
   "use-cases": [],
+  "name": "爱心关闭",
   "tags": [
-    "unlike",
-    "unfavorite",
-    "remove",
-    "reject",
-    "dismiss",
-    "delete",
-    "clear"
+    "移除",
+    "删除"
   ],
   "categories": [
     "social",
@@ -27,17 +23,22 @@
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心关闭",
+    "en": {
+      "name": "heart X",
       "tags": [
-        "移除",
-        "删除"
+        "unlike",
+        "unfavorite",
+        "remove",
+        "reject",
+        "dismiss",
+        "delete",
+        "clear"
       ],
       "categories": [
-        "社交",
-        "多媒体",
-        "设计",
-        "形状"
+        "Social",
+        "Multimedia",
+        "Design",
+        "Shapes"
       ]
     }
   }

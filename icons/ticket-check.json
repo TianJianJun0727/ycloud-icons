@@ -4,35 +4,36 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券勾选",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "booked",
-    "purchased",
-    "receipt",
-    "redeemed",
-    "validated",
-    "verified",
-    "certified",
-    "checked",
-    "used"
+    "收据",
+    "已验证"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券勾选",
+    "en": {
+      "name": "ticket check",
       "tags": [
-        "收据",
-        "已验证"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "booked",
+        "purchased",
+        "receipt",
+        "redeemed",
+        "validated",
+        "verified",
+        "certified",
+        "checked",
+        "used"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

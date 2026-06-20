@@ -4,25 +4,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "整词单词",
   "tags": [
-    "text",
-    "selection",
-    "letters",
-    "characters",
-    "font",
-    "typography"
+    "文本"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "整词单词",
+    "en": {
+      "name": "whole word",
       "tags": [
-        "文本"
+        "text",
+        "selection",
+        "letters",
+        "characters",
+        "font",
+        "typography"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

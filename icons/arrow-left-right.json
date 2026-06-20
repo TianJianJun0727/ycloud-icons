@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头左右",
   "tags": [
-    "bidirectional",
-    "two-way",
-    "2-way",
-    "swap",
-    "switch",
-    "transaction",
-    "reorder",
-    "move",
-    "<-",
-    "->"
+    "切换",
+    "移动"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头左右",
+    "en": {
+      "name": "arrow left right",
       "tags": [
-        "切换",
-        "移动"
+        "bidirectional",
+        "two-way",
+        "2-way",
+        "swap",
+        "switch",
+        "transaction",
+        "reorder",
+        "move",
+        "<-",
+        "->"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

@@ -5,14 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "画笔垂直",
   "tags": [
-    "brush",
-    "paintbrush",
-    "design",
-    "color",
-    "colour",
-    "decoration",
-    "diy"
+    "刷子",
+    "画笔",
+    "设计"
   ],
   "categories": [
     "text",
@@ -30,19 +27,23 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "画笔垂直",
+    "en": {
+      "name": "paintbrush vertical",
       "tags": [
-        "刷子",
-        "画笔",
-        "设计"
+        "brush",
+        "paintbrush",
+        "design",
+        "color",
+        "colour",
+        "decoration",
+        "diy"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "摄影",
-        "家居",
-        "工具"
+        "Text formatting",
+        "Design",
+        "Photography",
+        "Home",
+        "Tools"
       ]
     }
   }

@@ -5,33 +5,34 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板右打开",
   "tags": [
-    "sidebar",
-    "secondary",
-    "drawer",
-    "show",
-    "reveal",
-    "chevron",
-    "left",
-    "<"
+    "折角箭头",
+    "左",
+    "侧边栏",
+    "抽屉",
+    "向左"
   ],
   "categories": [
     "layout",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板右打开",
+    "en": {
+      "name": "panel right open",
       "tags": [
-        "折角箭头",
-        "左",
-        "侧边栏",
-        "抽屉",
-        "向左"
+        "sidebar",
+        "secondary",
+        "drawer",
+        "show",
+        "reveal",
+        "chevron",
+        "left",
+        "<"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

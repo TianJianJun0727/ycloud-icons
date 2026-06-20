@@ -4,30 +4,31 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "表格列拆分",
   "tags": [
-    "spreadsheet",
-    "grid",
-    "cut",
-    "break",
-    "divide",
-    "separate",
-    "segment"
+    "电子表格",
+    "网格",
+    "除号"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "表格列拆分",
+    "en": {
+      "name": "table columns split",
       "tags": [
-        "电子表格",
-        "网格",
-        "除号"
+        "spreadsheet",
+        "grid",
+        "cut",
+        "break",
+        "divide",
+        "separate",
+        "segment"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

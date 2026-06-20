@@ -4,33 +4,17 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "笔记本",
   "tags": [
-    "notepad",
-    "notes",
-    "stationery",
-    "sketchbook",
-    "moleskine",
-    "closure",
-    "strap",
-    "band",
-    "elastic",
-    "organizer",
-    "organiser",
-    "planner",
-    "diary",
-    "journal",
-    "writing",
-    "written",
-    "writer",
-    "reading",
-    "high school",
-    "university",
-    "college",
-    "academy",
-    "student",
-    "study",
-    "homework",
-    "research"
+    "记事本",
+    "便签",
+    "高学校",
+    "大学",
+    "文具",
+    "阅读",
+    "学生",
+    "学习",
+    "研究"
   ],
   "categories": [
     "text",
@@ -39,24 +23,41 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "笔记本",
+    "en": {
+      "name": "notebook",
       "tags": [
-        "记事本",
-        "便签",
-        "高学校",
-        "大学",
-        "文具",
-        "阅读",
-        "学生",
-        "学习",
-        "研究"
+        "notepad",
+        "notes",
+        "stationery",
+        "sketchbook",
+        "moleskine",
+        "closure",
+        "strap",
+        "band",
+        "elastic",
+        "organizer",
+        "organiser",
+        "planner",
+        "diary",
+        "journal",
+        "writing",
+        "written",
+        "writer",
+        "reading",
+        "high school",
+        "university",
+        "college",
+        "academy",
+        "student",
+        "study",
+        "homework",
+        "research"
       ],
       "categories": [
-        "文本格式",
-        "沟通",
-        "社交",
-        "设计"
+        "Text formatting",
+        "Communication",
+        "Social",
+        "Design"
       ]
     }
   }

@@ -6,10 +6,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "外部链接",
   "tags": [
-    "outbound",
-    "open",
-    "share"
+    "打开",
+    "分享"
   ],
   "categories": [
     "arrows",
@@ -17,16 +17,17 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "外部链接",
+    "en": {
+      "name": "external link",
       "tags": [
-        "打开",
-        "分享"
+        "outbound",
+        "open",
+        "share"
       ],
       "categories": [
-        "箭头",
-        "文本格式",
-        "社交"
+        "Arrows",
+        "Text formatting",
+        "Social"
       ]
     }
   }

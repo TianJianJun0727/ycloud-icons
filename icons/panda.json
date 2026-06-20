@@ -5,24 +5,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "熊猫",
   "tags": [
-    "animal",
-    "wildlife",
-    "bear",
-    "zoo",
-    "bamboo"
+    "动物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "熊猫",
+    "en": {
+      "name": "panda",
       "tags": [
-        "动物"
+        "animal",
+        "wildlife",
+        "bear",
+        "zoo",
+        "bamboo"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

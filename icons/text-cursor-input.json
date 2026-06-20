@@ -7,22 +7,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文本光标输入",
   "tags": [
-    "select"
+    "选择"
   ],
   "categories": [
     "text",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "文本光标输入",
+    "en": {
+      "name": "text cursor input",
       "tags": [
-        "选择"
+        "select"
       ],
       "categories": [
-        "文本格式",
-        "布局"
+        "Text formatting",
+        "Layout"
       ]
     }
   }

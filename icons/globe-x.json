@@ -5,17 +5,16 @@
     "Muhammad-Aqib-Bashir"
   ],
   "use-cases": [],
+  "name": "地球关闭",
   "tags": [
-    "globe",
-    "internet",
-    "offline",
-    "disconnected",
-    "network",
-    "connection",
-    "world",
-    "no connection",
-    "network failure",
-    "signal off"
+    "地球",
+    "互联网",
+    "网络",
+    "连接",
+    "无连接",
+    "网络failure",
+    "信号关闭",
+    "已断开"
   ],
   "categories": [
     "connectivity",
@@ -23,22 +22,24 @@
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "地球关闭",
+    "en": {
+      "name": "globe X",
       "tags": [
-        "地球",
-        "互联网",
-        "网络",
-        "连接",
-        "无连接",
-        "网络failure",
-        "信号关闭",
-        "已断开"
+        "globe",
+        "internet",
+        "offline",
+        "disconnected",
+        "network",
+        "connection",
+        "world",
+        "no connection",
+        "network failure",
+        "signal off"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "导航与地点"
+        "Connectivity",
+        "Devices",
+        "Navigation & Places"
       ]
     }
   }

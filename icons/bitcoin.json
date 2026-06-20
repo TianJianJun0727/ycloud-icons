@@ -5,35 +5,36 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "比特币",
   "tags": [
-    "cryptocurrency",
-    "digital",
-    "blockchain",
-    "finance",
-    "coin",
-    "market",
-    "decentralized",
-    "investment",
-    "crypto",
-    "currency",
-    "money",
-    "payment"
+    "金融",
+    "货币",
+    "支付"
   ],
   "categories": [
     "development",
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "比特币",
+    "en": {
+      "name": "bitcoin",
       "tags": [
-        "金融",
-        "货币",
-        "支付"
+        "cryptocurrency",
+        "digital",
+        "blockchain",
+        "finance",
+        "coin",
+        "market",
+        "decentralized",
+        "investment",
+        "crypto",
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "编码与开发",
-        "金融"
+        "Coding & development",
+        "Finance"
       ]
     }
   }

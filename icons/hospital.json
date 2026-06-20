@@ -5,18 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "医院",
   "tags": [
-    "infirmary",
-    "sanatorium",
-    "healthcare",
-    "doctor",
-    "hospice",
-    "clinic",
-    "emergency room",
-    "ward",
-    "building",
-    "medical",
-    "vet"
+    "医疗",
+    "建筑"
   ],
   "categories": [
     "medical",
@@ -25,17 +17,26 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "医院",
+    "en": {
+      "name": "hospital",
       "tags": [
-        "医疗",
-        "建筑"
+        "infirmary",
+        "sanatorium",
+        "healthcare",
+        "doctor",
+        "hospice",
+        "clinic",
+        "emergency room",
+        "ward",
+        "building",
+        "medical",
+        "vet"
       ],
       "categories": [
-        "医疗",
-        "建筑",
-        "导航与地点",
-        "旅行"
+        "Medical",
+        "Buildings",
+        "Navigation & Places",
+        "Travel"
       ]
     }
   }

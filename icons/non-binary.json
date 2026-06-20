@@ -4,22 +4,23 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "非二进制",
   "tags": [
-    "gender",
-    "nonbinary",
-    "enby"
+    "性别"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "非二进制",
+    "en": {
+      "name": "non binary",
       "tags": [
-        "性别"
+        "gender",
+        "nonbinary",
+        "enby"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

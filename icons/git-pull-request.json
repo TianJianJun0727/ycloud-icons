@@ -6,24 +6,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "Git拉取请求",
   "tags": [
-    "code",
-    "version control",
-    "open"
+    "代码",
+    "version控制",
+    "打开"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git拉取请求",
+    "en": {
+      "name": "git pull request",
       "tags": [
-        "代码",
-        "version控制",
-        "打开"
+        "code",
+        "version control",
+        "open"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

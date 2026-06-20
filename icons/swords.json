@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "双剑",
   "tags": [
-    "battle",
-    "challenge",
-    "game",
-    "war",
-    "weapon"
+    "游戏",
+    "战争",
+    "武器"
   ],
   "categories": [
     "gaming",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "双剑",
+    "en": {
+      "name": "swords",
       "tags": [
-        "游戏",
-        "战争",
-        "武器"
+        "battle",
+        "challenge",
+        "game",
+        "war",
+        "weapon"
       ],
       "categories": [
-        "游戏",
-        "工具"
+        "Gaming",
+        "Tools"
       ]
     }
   }

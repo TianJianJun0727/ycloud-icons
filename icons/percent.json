@@ -5,16 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "百分比",
   "tags": [
-    "percentage",
-    "modulo",
-    "modulus",
-    "remainder",
-    "%",
-    "sale",
-    "discount",
-    "offer",
-    "marketing"
+    "促销",
+    "折扣",
+    "营销"
   ],
   "categories": [
     "math",
@@ -23,18 +18,24 @@
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "百分比",
+    "en": {
+      "name": "percent",
       "tags": [
-        "促销",
-        "折扣",
-        "营销"
+        "percentage",
+        "modulo",
+        "modulus",
+        "remainder",
+        "%",
+        "sale",
+        "discount",
+        "offer",
+        "marketing"
       ],
       "categories": [
-        "数学",
-        "编码与开发",
-        "金融",
-        "购物"
+        "Mathematics",
+        "Coding & development",
+        "Finance",
+        "Shopping"
       ]
     }
   }

@@ -5,20 +5,14 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形折角箭头上",
   "tags": [
-    "caret",
-    "keyboard",
-    "button",
-    "mac",
-    "control",
-    "ctrl",
-    "superscript",
-    "exponential",
-    "power",
-    "ahead",
-    "menu",
-    "panel",
-    "^"
+    "键盘",
+    "控制",
+    "上标",
+    "电源",
+    "菜单",
+    "面板"
   ],
   "categories": [
     "arrows",
@@ -34,20 +28,27 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形折角箭头上",
+    "en": {
+      "name": "square chevron up",
       "tags": [
-        "键盘",
-        "控制",
-        "上标",
-        "电源",
-        "菜单",
-        "面板"
+        "caret",
+        "keyboard",
+        "button",
+        "mac",
+        "control",
+        "ctrl",
+        "superscript",
+        "exponential",
+        "power",
+        "ahead",
+        "menu",
+        "panel",
+        "^"
       ],
       "categories": [
-        "箭头",
-        "导航与地点",
-        "数学"
+        "Arrows",
+        "Navigation & Places",
+        "Mathematics"
       ]
     }
   }

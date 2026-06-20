@@ -4,23 +4,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "收音机接收器",
   "tags": [
-    "device",
-    "music",
-    "connect"
+    "设备",
+    "音乐"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "收音机接收器",
+    "en": {
+      "name": "radio receiver",
       "tags": [
-        "设备",
-        "音乐"
+        "device",
+        "music",
+        "connect"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

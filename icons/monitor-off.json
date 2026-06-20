@@ -6,22 +6,23 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "显示器关闭",
   "tags": [
-    "share"
+    "分享"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器关闭",
+    "en": {
+      "name": "monitor off",
       "tags": [
-        "分享"
+        "share"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

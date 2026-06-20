@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Weather",
+  "title": "天气",
   "icon": "cloud-sun",
   "i18n": {
-    "zh": {
-      "title": "天气"
+    "en": {
+      "title": "Weather"
     }
   }
 }

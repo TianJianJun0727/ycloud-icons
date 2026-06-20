@@ -4,10 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "魔法棒",
   "tags": [
-    "magic",
-    "wizard",
-    "magician"
+    "魔法棒",
+    "闪光",
+    "增强"
   ],
   "categories": [
     "design",
@@ -24,18 +25,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "魔法棒",
+    "en": {
+      "name": "wand sparkles",
       "tags": [
-        "魔法棒",
-        "闪光",
-        "增强"
+        "magic",
+        "wizard",
+        "magician"
       ],
       "categories": [
-        "设计",
-        "游戏",
-        "光标",
-        "摄影"
+        "Design",
+        "Gaming",
+        "Cursors",
+        "Photography"
       ]
     }
   }

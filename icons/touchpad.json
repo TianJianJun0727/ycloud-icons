@@ -5,21 +5,22 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "触控板",
   "tags": [
-    "trackpad",
-    "cursor"
+    "光标"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "触控板",
+    "en": {
+      "name": "touchpad",
       "tags": [
-        "光标"
+        "trackpad",
+        "cursor"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

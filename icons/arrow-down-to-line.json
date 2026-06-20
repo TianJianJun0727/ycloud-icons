@@ -5,18 +5,15 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头下到线条",
   "tags": [
-    "behind",
-    "direction",
-    "south",
-    "download",
-    "save",
-    "git",
-    "version control",
-    "pull",
-    "collapse",
-    "fold",
-    "vertical"
+    "方向",
+    "下载",
+    "保存",
+    "version控制",
+    "拉取",
+    "折叠",
+    "垂直"
   ],
   "categories": [
     "arrows",
@@ -24,21 +21,25 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下到线条",
+    "en": {
+      "name": "arrow down to line",
       "tags": [
-        "方向",
-        "下载",
-        "保存",
-        "version控制",
-        "拉取",
-        "折叠",
-        "垂直"
+        "behind",
+        "direction",
+        "south",
+        "download",
+        "save",
+        "git",
+        "version control",
+        "pull",
+        "collapse",
+        "fold",
+        "vertical"
       ],
       "categories": [
-        "箭头",
-        "文件",
-        "编码与开发"
+        "Arrows",
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -8,29 +8,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "Git合并冲突",
   "tags": [
-    "code",
-    "version control",
-    "commits",
-    "diff",
-    "error",
-    "conflict"
+    "代码",
+    "version控制",
+    "差异",
+    "错误",
+    "冲突"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git合并冲突",
+    "en": {
+      "name": "git merge conflict",
       "tags": [
-        "代码",
-        "version控制",
-        "差异",
-        "错误",
-        "冲突"
+        "code",
+        "version control",
+        "commits",
+        "diff",
+        "error",
+        "conflict"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

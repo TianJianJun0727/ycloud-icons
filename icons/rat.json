@@ -7,27 +7,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "老鼠",
   "tags": [
-    "mouse",
-    "mice",
-    "gerbil",
-    "rodent",
-    "pet",
-    "pest",
-    "plague",
-    "disease"
+    "鼠标"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "老鼠",
+    "en": {
+      "name": "rat",
       "tags": [
-        "鼠标"
+        "mouse",
+        "mice",
+        "gerbil",
+        "rodent",
+        "pet",
+        "pest",
+        "plague",
+        "disease"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

@@ -9,12 +9,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "爱心减少",
   "tags": [
-    "unlike",
-    "unfavorite",
-    "remove",
-    "delete",
-    "damage"
+    "移除",
+    "删除"
   ],
   "categories": [
     "medical",
@@ -24,18 +22,21 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心减少",
+    "en": {
+      "name": "heart minus",
       "tags": [
-        "移除",
-        "删除"
+        "unlike",
+        "unfavorite",
+        "remove",
+        "delete",
+        "damage"
       ],
       "categories": [
-        "医疗",
-        "账号与访问",
-        "多媒体",
-        "游戏",
-        "社交"
+        "Medical",
+        "Accounts & access",
+        "Multimedia",
+        "Gaming",
+        "Social"
       ]
     }
   }

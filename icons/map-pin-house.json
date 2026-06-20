@@ -7,25 +7,13 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "地图图钉房屋",
   "tags": [
-    "location",
-    "waypoint",
-    "marker",
-    "drop",
-    "home",
-    "living",
-    "building",
-    "residence",
-    "architecture",
-    "address",
-    "poi",
-    "real estate",
-    "property",
-    "navigation",
-    "destination",
-    "geolocation",
-    "place",
-    "landmark"
+    "家居",
+    "建筑",
+    "导航",
+    "地标",
+    "标记"
   ],
   "categories": [
     "navigation",
@@ -33,19 +21,32 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图图钉房屋",
+    "en": {
+      "name": "map pin house",
       "tags": [
-        "家居",
-        "建筑",
-        "导航",
-        "地标",
-        "标记"
+        "location",
+        "waypoint",
+        "marker",
+        "drop",
+        "home",
+        "living",
+        "building",
+        "residence",
+        "architecture",
+        "address",
+        "poi",
+        "real estate",
+        "property",
+        "navigation",
+        "destination",
+        "geolocation",
+        "place",
+        "landmark"
       ],
       "categories": [
-        "导航与地点",
-        "旅行",
-        "账号与访问"
+        "Navigation & Places",
+        "Travel",
+        "Accounts & access"
       ]
     }
   }

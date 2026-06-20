@@ -6,30 +6,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "电池警告",
   "tags": [
-    "power",
-    "electricity",
-    "energy",
-    "accumulator",
-    "charge",
-    "exclamation mark"
+    "电源",
+    "感叹号标记",
+    "电力",
+    "能源"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "电池警告",
+    "en": {
+      "name": "battery warning",
       "tags": [
-        "电源",
-        "感叹号标记",
-        "电力",
-        "能源"
+        "power",
+        "electricity",
+        "energy",
+        "accumulator",
+        "charge",
+        "exclamation mark"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "包搜索",
   "tags": [
-    "find",
-    "product process",
-    "lens"
+    "镜头"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包搜索",
+    "en": {
+      "name": "package search",
       "tags": [
-        "镜头"
+        "find",
+        "product process",
+        "lens"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -5,29 +5,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息方形回复",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "reply",
-    "response"
+    "语音bubble",
+    "回复",
+    "聊天"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形回复",
+    "en": {
+      "name": "message square reply",
       "tags": [
-        "语音bubble",
-        "回复",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "reply",
+        "response"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

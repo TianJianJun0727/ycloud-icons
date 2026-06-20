@@ -4,30 +4,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "警报器",
   "tags": [
-    "police",
-    "ambulance",
-    "emergency",
-    "security",
-    "alert",
-    "alarm",
-    "light"
+    "救护车",
+    "安全",
+    "告警",
+    "闹钟",
+    "警告"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "警报器",
+    "en": {
+      "name": "siren",
       "tags": [
-        "救护车",
-        "安全",
-        "告警",
-        "闹钟",
-        "警告"
+        "police",
+        "ambulance",
+        "emergency",
+        "security",
+        "alert",
+        "alarm",
+        "light"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

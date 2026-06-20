@@ -6,25 +6,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "贴纸",
   "tags": [
-    "reaction",
-    "emotion",
-    "smile",
-    "happy",
-    "feedback"
+    "情绪",
+    "笑脸"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "贴纸",
+    "en": {
+      "name": "sticker",
       "tags": [
-        "情绪",
-        "笑脸"
+        "reaction",
+        "emotion",
+        "smile",
+        "happy",
+        "feedback"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

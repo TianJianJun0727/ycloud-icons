@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { useCategoryView } from '../../composables/useCategoryView';
-import { withBase } from 'vitepress';
+import { useCategoryView } from '@theme/composables/useCategoryView';
+import { useData, withBase } from 'vitepress';
+import { computed } from 'vue';
 
 interface Header {
   level: number;
@@ -22,6 +23,8 @@ defineProps<{
 }>();
 
 const { selectedCategory } = useCategoryView();
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 function onClick(categoryName: string) {
   selectedCategory.value = categoryName;
@@ -30,7 +33,7 @@ function onClick(categoryName: string) {
   heading?.focus();
 
   const url = new URL(window.location.href);
-  url.pathname = withBase('/icons/categories');
+  url.pathname = withBase(isEnglish.value ? '/en/icons/categories' : '/icons/categories');
   url.hash = categoryName;
   window.history.pushState({}, '', url);
 }
@@ -53,7 +56,9 @@ function onClick(categoryName: string) {
         </span>
         <span
           class="icon-count"
-          :aria-label="`${title} 分类下的图标数量`"
+          :aria-label="
+            isEnglish ? `${iconCount} icons in ${title}` : `${title} 分类下的图标数量`
+          "
         >
           {{ iconCount }}
         </span>

@@ -4,26 +4,27 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "折角箭头下",
   "tags": [
-    "backwards",
-    "reverse",
-    "slow",
-    "dropdown"
+    "后退",
+    "反向"
   ],
   "categories": [
     "arrows",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "折角箭头下",
+    "en": {
+      "name": "chevron down",
       "tags": [
-        "后退",
-        "反向"
+        "backwards",
+        "reverse",
+        "slow",
+        "dropdown"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

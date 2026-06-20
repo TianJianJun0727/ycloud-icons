@@ -5,15 +5,13 @@
     "aramsoneson"
   ],
   "use-cases": [],
+  "name": "圆角方形虚线",
   "tags": [
-    "shape",
-    "pending",
-    "progress",
-    "issue",
-    "draft",
-    "code",
-    "coding",
-    "version control"
+    "问题",
+    "草稿",
+    "代码",
+    "version控制",
+    "形状"
   ],
   "categories": [
     "development",
@@ -21,19 +19,22 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆角方形虚线",
+    "en": {
+      "name": "squircle dashed",
       "tags": [
-        "问题",
-        "草稿",
-        "代码",
-        "version控制",
-        "形状"
+        "shape",
+        "pending",
+        "progress",
+        "issue",
+        "draft",
+        "code",
+        "coding",
+        "version control"
       ],
       "categories": [
-        "编码与开发",
-        "形状",
-        "设计"
+        "Coding & development",
+        "Shapes",
+        "Design"
       ]
     }
   }

@@ -8,11 +8,9 @@
     "LieOnLion"
   ],
   "use-cases": [],
+  "name": "麦克风关闭",
   "tags": [
-    "record",
-    "sound",
-    "mute",
-    "microphone"
+    "声音"
   ],
   "categories": [
     "devices",
@@ -21,16 +19,19 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "麦克风关闭",
+    "en": {
+      "name": "mic off",
       "tags": [
-        "声音"
+        "record",
+        "sound",
+        "mute",
+        "microphone"
       ],
       "categories": [
-        "设备",
-        "沟通",
-        "连接",
-        "多媒体"
+        "Devices",
+        "Communication",
+        "Connectivity",
+        "Multimedia"
       ]
     }
   }

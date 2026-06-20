@@ -19,11 +19,12 @@ import {
   worm,
   testTubeDiagonal,
   sword,
-} from '../../../data/iconNodes';
+} from '@data/iconNodes';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
 import { useEventListener } from '@vueuse/core';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { IconNode } from '../../types';
+import { IconNode } from '@theme/types';
+import { useData } from 'vitepress';
 
 const { searchQuery, isBrandSearch } = defineProps<{
   searchQuery: string;
@@ -31,6 +32,9 @@ const { searchQuery, isBrandSearch } = defineProps<{
 }>();
 
 defineEmits(['clear']);
+
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 interface Placeholder {
   title: string;
@@ -102,6 +106,29 @@ const brandPlaceholders: Placeholder[] = shallowReadonly([
   },
 ]);
 
+const englishBrandPlaceholders: Placeholder[] = shallowReadonly([
+  {
+    title: 'Brand icons are not included',
+    message: 'You are searching for [name], but YCloud Icons does not include brand logos.',
+    icon: markRaw(ghost),
+  },
+  {
+    title: 'No [name] here',
+    message: 'YCloud Icons only maintains general-purpose icons, not brand assets.',
+    icon: markRaw(castle),
+  },
+  {
+    title: '[name] is not in this icon set',
+    message: 'If you need brand logos, use a dedicated brand icon library.',
+    icon: markRaw(drama),
+  },
+  {
+    title: 'Try a broader concept',
+    message: 'Search for a generic meaning instead of a brand name.',
+    icon: markRaw(sword),
+  },
+]);
+
 const notFoundPlaceholders: Omit<Placeholder, 'title'>[] = shallowReadonly([
   {
     message: '没有找到匹配的图标。',
@@ -129,6 +156,25 @@ const notFoundPlaceholders: Omit<Placeholder, 'title'>[] = shallowReadonly([
   },
 ]);
 
+const englishNotFoundPlaceholders: Omit<Placeholder, 'title'>[] = shallowReadonly([
+  {
+    message: 'No matching icons were found.',
+    icon: markRaw(bird),
+  },
+  {
+    message: 'There are no results for this keyword.',
+    icon: markRaw(squirrel),
+  },
+  {
+    message: 'This icon does not exist yet.',
+    icon: markRaw(rabbit),
+  },
+  {
+    message: 'Try another keyword or a broader concept.',
+    icon: markRaw(fish),
+  },
+]);
+
 function randomItem<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -137,19 +183,21 @@ const placeholderIcon = ref<HTMLElement>();
 const placeholder = ref<Placeholder>();
 
 watch(
-  () => isBrandSearch,
+  () => [isBrandSearch, isEnglish.value],
   () => {
     placeholder.value = isBrandSearch
       ? {
-          ...randomItem(brandPlaceholders),
-          finePrint:
-            'YCloud Icons 不接收品牌 Logo，也不计划在未来添加。这主要出于授权限制、设计一致性和长期维护成本的考虑。',
+          ...randomItem(isEnglish.value ? englishBrandPlaceholders : brandPlaceholders),
+          finePrint: isEnglish.value
+            ? 'YCloud Icons does not accept brand logos. This keeps licensing, design consistency, and long-term maintenance manageable.'
+            : 'YCloud Icons 不接收品牌 Logo，也不计划在未来添加。这主要出于授权限制、设计一致性和长期维护成本的考虑。',
         }
       : {
-          title: `没有找到“[name]”`,
-          finePrint:
-            '这个图标目前还不存在。你可以尝试搜索相近关键词，查看已有请求，或提交一个新的请求。',
-          ...randomItem(notFoundPlaceholders),
+          title: isEnglish.value ? `No results for "[name]"` : `没有找到“[name]”`,
+          finePrint: isEnglish.value
+            ? 'This icon does not exist yet. Try a nearby keyword, check existing requests, or open a new request.'
+            : '这个图标目前还不存在。你可以尝试搜索相近关键词，查看已有请求，或提交一个新的请求。',
+          ...randomItem(isEnglish.value ? englishNotFoundPlaceholders : notFoundPlaceholders),
         };
   },
   { immediate: true },
@@ -190,28 +238,28 @@ onMounted(() => {
     </p>
     <VPButton
       v-if="isBrandSearch"
-      text="前往 Simple Icons"
+      :text="isEnglish ? 'Open Simple Icons' : '前往 Simple Icons'"
       theme="brand"
       :href="`https://simpleicons.org/?q=${searchQuery}`"
       target="_blank"
     />
     <VPButton
       v-else
-      text="清空搜索并重试"
+      :text="isEnglish ? 'Clear search and try again' : '清空搜索并重试'"
       theme="brand"
       @click="$emit('clear')"
     />
-    <span class="text-divider">or</span>
+    <span class="text-divider">{{ isEnglish ? 'or' : '或' }}</span>
     <VPButton
       v-if="isBrandSearch"
-      text="阅读品牌 Logo 说明"
+      :text="isEnglish ? 'Read the brand logo statement' : '阅读品牌 Logo 说明'"
       theme="alt"
       href="https://github.com/ycloud-icons/@ycloud-web/icons/blob/main/BRAND_LOGOS_STATEMENT.md"
       target="_blank"
     />
     <VPButton
       v-else
-      text="搜索 GitHub Issues"
+      :text="isEnglish ? 'Search GitHub Issues' : '搜索 GitHub Issues'"
       theme="alt"
       :href="`https://github.com/ycloud-icons/@ycloud-web/icons/issues?q=is%3Aopen+${searchQuery}`"
       target="_blank"

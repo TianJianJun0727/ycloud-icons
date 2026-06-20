@@ -7,32 +7,33 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "法槌",
   "tags": [
-    "justice",
-    "law",
-    "court",
-    "judgment",
-    "legal",
-    "hands",
-    "penalty",
-    "decision",
-    "authority",
-    "hammer",
-    "mallet"
+    "锤子"
   ],
   "categories": [
     "navigation",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "法槌",
+    "en": {
+      "name": "gavel",
       "tags": [
-        "锤子"
+        "justice",
+        "law",
+        "court",
+        "judgment",
+        "legal",
+        "hands",
+        "penalty",
+        "decision",
+        "authority",
+        "hammer",
+        "mallet"
       ],
       "categories": [
-        "导航与地点",
-        "工具"
+        "Navigation & Places",
+        "Tools"
       ]
     }
   }

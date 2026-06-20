@@ -5,12 +5,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "指纹图案",
   "tags": [
-    "2fa",
-    "authentication",
-    "biometric",
-    "identity",
-    "security"
+    "安全"
   ],
   "categories": [
     "account",
@@ -27,16 +24,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "指纹图案",
+    "en": {
+      "name": "fingerprint pattern",
       "tags": [
-        "安全"
+        "2fa",
+        "authentication",
+        "biometric",
+        "identity",
+        "security"
       ],
       "categories": [
-        "账号与访问",
-        "安全",
-        "医疗",
-        "设备"
+        "Accounts & access",
+        "Security",
+        "Medical",
+        "Devices"
       ]
     }
   }

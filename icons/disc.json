@@ -7,41 +7,42 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "光盘",
   "tags": [
-    "album",
-    "music",
-    "songs",
-    "format",
-    "cd",
-    "dvd",
-    "vinyl",
-    "sleeve",
-    "cover",
-    "platinum",
-    "compilation",
-    "ep",
-    "recording",
-    "playback",
-    "spin",
-    "rotate",
-    "rpm",
-    "dj"
+    "相册",
+    "音乐",
+    "旋转"
   ],
   "categories": [
     "devices",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "光盘",
+    "en": {
+      "name": "disc",
       "tags": [
-        "相册",
-        "音乐",
-        "旋转"
+        "album",
+        "music",
+        "songs",
+        "format",
+        "cd",
+        "dvd",
+        "vinyl",
+        "sleeve",
+        "cover",
+        "platinum",
+        "compilation",
+        "ep",
+        "recording",
+        "playback",
+        "spin",
+        "rotate",
+        "rpm",
+        "dj"
       ],
       "categories": [
-        "设备",
-        "多媒体"
+        "Devices",
+        "Multimedia"
       ]
     }
   }

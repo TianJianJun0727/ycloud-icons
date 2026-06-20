@@ -4,9 +4,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "冰冰淇淋圆锥",
   "tags": [
-    "gelato",
-    "food"
+    "食物"
   ],
   "categories": [
     "food-beverage"
@@ -20,13 +20,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "冰冰淇淋圆锥",
+    "en": {
+      "name": "ice cream cone",
       "tags": [
-        "食物"
+        "gelato",
+        "food"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

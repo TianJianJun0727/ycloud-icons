@@ -4,31 +4,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "火车正面",
   "tags": [
-    "railway",
-    "metro",
-    "subway",
-    "underground",
-    "high-speed",
-    "bullet",
-    "fast",
-    "track",
-    "line"
+    "高speed",
+    "快速",
+    "轨道",
+    "线条"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "火车正面",
+    "en": {
+      "name": "train front",
       "tags": [
-        "高speed",
-        "快速",
-        "轨道",
-        "线条"
+        "railway",
+        "metro",
+        "subway",
+        "underground",
+        "high-speed",
+        "bullet",
+        "fast",
+        "track",
+        "line"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

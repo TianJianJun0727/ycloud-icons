@@ -5,19 +5,14 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形减少",
   "tags": [
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "calculate",
-    "line",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade",
-    "-"
+    "减去",
+    "移除",
+    "减少",
+    "计算",
+    "线条",
+    "代码"
   ],
   "categories": [
     "math"
@@ -31,18 +26,24 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形减少",
+    "en": {
+      "name": "circle minus",
       "tags": [
-        "减去",
-        "移除",
-        "减少",
-        "计算",
-        "线条",
-        "代码"
+        "subtract",
+        "remove",
+        "decrease",
+        "reduce",
+        "calculate",
+        "line",
+        "operator",
+        "code",
+        "coding",
+        "minimum",
+        "downgrade",
+        "-"
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

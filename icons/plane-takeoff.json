@@ -5,27 +5,28 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "飞机起飞",
   "tags": [
-    "departure",
-    "plane",
-    "trip",
-    "airplane",
-    "takeoff"
+    "飞机",
+    "行程"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "飞机起飞",
+    "en": {
+      "name": "plane takeoff",
       "tags": [
-        "飞机",
-        "行程"
+        "departure",
+        "plane",
+        "trip",
+        "airplane",
+        "takeoff"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

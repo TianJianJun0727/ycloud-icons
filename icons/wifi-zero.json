@@ -7,25 +7,26 @@
     "VirtCode"
   ],
   "use-cases": [],
+  "name": "无线网络零",
   "tags": [
-    "connection",
-    "signal",
-    "wireless"
+    "连接",
+    "信号"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络零",
+    "en": {
+      "name": "wifi zero",
       "tags": [
-        "连接",
-        "信号"
+        "connection",
+        "signal",
+        "wireless"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

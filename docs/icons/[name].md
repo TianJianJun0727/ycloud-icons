@@ -110,6 +110,7 @@ function releaseTagLink(version) {
   <IconShowcase
   :name="params.name"
   :displayName="params.displayName"
+  :englishName="params.englishName"
   :iconNode="params.iconNode"
   />
 

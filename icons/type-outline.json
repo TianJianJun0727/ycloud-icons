@@ -6,29 +6,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文字轮廓",
   "tags": [
-    "text",
-    "font",
-    "typography",
-    "silhouette",
-    "profile",
-    "contour",
-    "stroke",
-    "line"
+    "文本",
+    "描边",
+    "线条"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "文字轮廓",
+    "en": {
+      "name": "type outline",
       "tags": [
-        "文本",
-        "描边",
-        "线条"
+        "text",
+        "font",
+        "typography",
+        "silhouette",
+        "profile",
+        "contour",
+        "stroke",
+        "line"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

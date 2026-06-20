@@ -4,29 +4,30 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "彩虹",
   "tags": [
-    "colors",
-    "colours",
-    "spectrum",
-    "light",
-    "prism",
-    "arc",
-    "clear",
-    "sunshine"
+    "彩虹",
+    "颜色",
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "彩虹",
+    "en": {
+      "name": "rainbow",
       "tags": [
-        "彩虹",
-        "颜色",
-        "天气"
+        "colors",
+        "colours",
+        "spectrum",
+        "light",
+        "prism",
+        "arc",
+        "clear",
+        "sunshine"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

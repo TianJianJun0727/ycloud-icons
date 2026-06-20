@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "人员站立",
   "tags": [
-    "people",
-    "human",
-    "accessibility",
-    "stick figure"
+    "无障碍",
+    "手杖figure"
   ],
   "categories": [
     "accessibility",
     "people"
   ],
   "i18n": {
-    "zh": {
-      "name": "人员站立",
+    "en": {
+      "name": "person standing",
       "tags": [
-        "无障碍",
-        "手杖figure"
+        "people",
+        "human",
+        "accessibility",
+        "stick figure"
       ],
       "categories": [
-        "无障碍",
-        "人物"
+        "Accessibility",
+        "People"
       ]
     }
   }

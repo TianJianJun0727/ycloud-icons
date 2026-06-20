@@ -4,24 +4,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "葡萄",
   "tags": [
-    "fruit",
-    "wine",
-    "food"
+    "葡萄酒",
+    "食物",
+    "水果"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "葡萄",
+    "en": {
+      "name": "grape",
       "tags": [
-        "葡萄酒",
-        "食物",
-        "水果"
+        "fruit",
+        "wine",
+        "food"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

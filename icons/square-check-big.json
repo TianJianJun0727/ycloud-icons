@@ -7,12 +7,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形勾选大",
   "tags": [
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "notifications"
@@ -26,16 +26,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形勾选大",
+    "en": {
+      "name": "square check big",
       "tags": [
-        "完成",
-        "待办",
-        "勾选",
-        "任务"
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "通知"
+        "Notification"
       ]
     }
   }

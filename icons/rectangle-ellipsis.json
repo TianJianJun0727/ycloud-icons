@@ -5,34 +5,15 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "矩形省略号",
   "tags": [
-    "login",
-    "password",
-    "authenticate",
-    "2fa",
-    "field",
-    "fill",
-    "ellipsis",
-    "et cetera",
-    "etc",
-    "loader",
-    "loading",
-    "progress",
-    "pending",
-    "throbber",
-    "menu",
-    "options",
-    "operator",
-    "code",
-    "spread",
-    "rest",
-    "more",
-    "further",
-    "extra",
-    "overflow",
-    "dots",
-    "…",
-    "..."
+    "省略号",
+    "加载器",
+    "菜单",
+    "代码",
+    "更多",
+    "额外",
+    "加载"
   ],
   "categories": [
     "text",
@@ -47,20 +28,40 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "矩形省略号",
+    "en": {
+      "name": "rectangle ellipsis",
       "tags": [
-        "省略号",
-        "加载器",
-        "菜单",
-        "代码",
-        "更多",
-        "额外",
-        "加载"
+        "login",
+        "password",
+        "authenticate",
+        "2fa",
+        "field",
+        "fill",
+        "ellipsis",
+        "et cetera",
+        "etc",
+        "loader",
+        "loading",
+        "progress",
+        "pending",
+        "throbber",
+        "menu",
+        "options",
+        "operator",
+        "code",
+        "spread",
+        "rest",
+        "more",
+        "further",
+        "extra",
+        "overflow",
+        "dots",
+        "…",
+        "..."
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

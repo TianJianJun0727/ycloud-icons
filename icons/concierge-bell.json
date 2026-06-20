@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "礼宾铃铛",
   "tags": [
-    "reception",
-    "bell",
-    "porter"
+    "铃铛"
   ],
   "categories": [
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "礼宾铃铛",
+    "en": {
+      "name": "concierge bell",
       "tags": [
-        "铃铛"
+        "reception",
+        "bell",
+        "porter"
       ],
       "categories": [
-        "旅行"
+        "Travel"
       ]
     }
   }

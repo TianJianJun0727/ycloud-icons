@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "十字",
   "tags": [
-    "healthcare",
-    "first aid"
+    "医疗",
+    "第一个aid"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "十字",
+    "en": {
+      "name": "cross",
       "tags": [
-        "医疗",
-        "第一个aid"
+        "healthcare",
+        "first aid"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

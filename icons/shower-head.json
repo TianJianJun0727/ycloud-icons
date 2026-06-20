@@ -4,27 +4,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "淋浴头部",
   "tags": [
-    "shower",
-    "bath",
-    "bathroom",
-    "amenities",
-    "services"
+    "淋浴",
+    "浴缸"
   ],
   "categories": [
     "home",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "淋浴头部",
+    "en": {
+      "name": "shower head",
       "tags": [
-        "淋浴",
-        "浴缸"
+        "shower",
+        "bath",
+        "bathroom",
+        "amenities",
+        "services"
       ],
       "categories": [
-        "家居",
-        "旅行"
+        "Home",
+        "Travel"
       ]
     }
   }

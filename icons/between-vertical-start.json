@@ -4,25 +4,19 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "两端垂直起始",
   "tags": [
-    "insert",
-    "add",
-    "bottom",
-    "slot",
-    "squeeze",
-    "space",
-    "vertical",
-    "grid",
-    "table",
-    "columns",
-    "cells",
-    "data",
-    "enter",
-    "entry",
-    "entries",
-    "blocks",
-    "rectangles",
-    "chevron"
+    "添加",
+    "底部",
+    "间距",
+    "垂直",
+    "网格",
+    "表格",
+    "列",
+    "单元格",
+    "进入",
+    "积木",
+    "折角箭头"
   ],
   "categories": [
     "layout",
@@ -30,25 +24,32 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "两端垂直起始",
+    "en": {
+      "name": "between vertical start",
       "tags": [
-        "添加",
-        "底部",
-        "间距",
-        "垂直",
-        "网格",
-        "表格",
-        "列",
-        "单元格",
-        "进入",
-        "积木",
-        "折角箭头"
+        "insert",
+        "add",
+        "bottom",
+        "slot",
+        "squeeze",
+        "space",
+        "vertical",
+        "grid",
+        "table",
+        "columns",
+        "cells",
+        "data",
+        "enter",
+        "entry",
+        "entries",
+        "blocks",
+        "rectangles",
+        "chevron"
       ],
       "categories": [
-        "布局",
-        "设计",
-        "工具"
+        "Layout",
+        "Design",
+        "Tools"
       ]
     }
   }

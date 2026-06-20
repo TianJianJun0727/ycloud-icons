@@ -4,23 +4,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形等于",
   "tags": [
-    "calculate",
-    "shape",
-    "="
+    "计算",
+    "形状"
   ],
   "categories": [
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形等于",
+    "en": {
+      "name": "circle equal",
       "tags": [
-        "计算",
-        "形状"
+        "calculate",
+        "shape",
+        "="
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

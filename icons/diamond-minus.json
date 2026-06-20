@@ -4,30 +4,21 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "菱形减少",
   "tags": [
-    "keyframe",
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "calculator",
-    "button",
-    "keyboard",
-    "line",
-    "divider",
-    "separator",
-    "horizontal rule",
-    "hr",
-    "html",
-    "markup",
-    "markdown",
-    "---",
-    "toolbar",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade"
+    "减去",
+    "移除",
+    "减少",
+    "计算器",
+    "键盘",
+    "线条",
+    "分隔符",
+    "水平rule",
+    "工具栏",
+    "代码",
+    "HTML",
+    "标记语言",
+    "Markdown"
   ],
   "categories": [
     "multimedia",
@@ -36,28 +27,38 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "菱形减少",
+    "en": {
+      "name": "diamond minus",
       "tags": [
-        "减去",
-        "移除",
-        "减少",
-        "计算器",
-        "键盘",
-        "线条",
-        "分隔符",
-        "水平rule",
-        "工具栏",
-        "代码",
-        "HTML",
-        "标记语言",
-        "Markdown"
+        "keyframe",
+        "subtract",
+        "remove",
+        "decrease",
+        "reduce",
+        "calculator",
+        "button",
+        "keyboard",
+        "line",
+        "divider",
+        "separator",
+        "horizontal rule",
+        "hr",
+        "html",
+        "markup",
+        "markdown",
+        "---",
+        "toolbar",
+        "operator",
+        "code",
+        "coding",
+        "minimum",
+        "downgrade"
       ],
       "categories": [
-        "多媒体",
-        "摄影",
-        "工具",
-        "设备"
+        "Multimedia",
+        "Photography",
+        "Tools",
+        "Devices"
       ]
     }
   }

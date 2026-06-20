@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "葡萄酒关闭",
   "tags": [
-    "alcohol",
-    "beverage",
-    "drink",
-    "glass",
-    "alcohol free",
-    "abstinence",
-    "abstaining",
-    "teetotalism",
-    "allergy",
-    "intolerance"
+    "饮品",
+    "玻璃杯"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "葡萄酒关闭",
+    "en": {
+      "name": "wine off",
       "tags": [
-        "饮品",
-        "玻璃杯"
+        "alcohol",
+        "beverage",
+        "drink",
+        "glass",
+        "alcohol free",
+        "abstinence",
+        "abstaining",
+        "teetotalism",
+        "allergy",
+        "intolerance"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

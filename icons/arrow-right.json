@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头右",
   "tags": [
-    "forward",
-    "next",
-    "direction",
-    "east",
-    "->"
+    "前进",
+    "下一个",
+    "方向"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头右",
+    "en": {
+      "name": "arrow right",
       "tags": [
-        "前进",
-        "下一个",
-        "方向"
+        "forward",
+        "next",
+        "direction",
+        "east",
+        "->"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

@@ -5,18 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "小数箭头左",
   "tags": [
-    "numerical",
-    "decimal",
-    "decrease",
-    "less",
-    "fewer",
-    "precision",
-    "rounding",
-    "digits",
-    "fraction",
-    "float",
-    "number"
+    "数字顺序",
+    "减少"
   ],
   "categories": [
     "design",
@@ -25,17 +17,26 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "小数箭头左",
+    "en": {
+      "name": "decimals arrow left",
       "tags": [
-        "数字顺序",
-        "减少"
+        "numerical",
+        "decimal",
+        "decrease",
+        "less",
+        "fewer",
+        "precision",
+        "rounding",
+        "digits",
+        "fraction",
+        "float",
+        "number"
       ],
       "categories": [
-        "设计",
-        "文本格式",
-        "箭头",
-        "数学"
+        "Design",
+        "Text formatting",
+        "Arrows",
+        "Mathematics"
       ]
     }
   }

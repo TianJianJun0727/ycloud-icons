@@ -4,15 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "加热器",
   "tags": [
-    "heating",
-    "warmth",
-    "comfort",
-    "fire",
-    "stove",
-    "electric",
-    "electronics",
-    "amenities"
+    "火焰",
+    "电动",
+    "电子"
   ],
   "categories": [
     "home",
@@ -20,17 +16,22 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "加热器",
+    "en": {
+      "name": "heater",
       "tags": [
-        "火焰",
-        "电动",
-        "电子"
+        "heating",
+        "warmth",
+        "comfort",
+        "fire",
+        "stove",
+        "electric",
+        "electronics",
+        "amenities"
       ],
       "categories": [
-        "家居",
-        "设备",
-        "旅行"
+        "Home",
+        "Devices",
+        "Travel"
       ]
     }
   }

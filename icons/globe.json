@@ -6,25 +6,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "地球",
   "tags": [
-    "world",
-    "browser",
-    "language",
-    "translate"
+    "地球",
+    "全球",
+    "网络"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "地球",
+    "en": {
+      "name": "globe",
       "tags": [
-        "地球",
-        "全球",
-        "网络"
+        "world",
+        "browser",
+        "language",
+        "translate"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

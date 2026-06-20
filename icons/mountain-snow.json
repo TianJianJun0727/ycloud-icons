@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "山雪",
   "tags": [
-    "alpine",
-    "climb",
-    "snow"
+    "雪"
   ],
   "categories": [
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "山雪",
+    "en": {
+      "name": "mountain snow",
       "tags": [
-        "雪"
+        "alpine",
+        "climb",
+        "snow"
       ],
       "categories": [
-        "自然"
+        "Nature"
       ]
     }
   }

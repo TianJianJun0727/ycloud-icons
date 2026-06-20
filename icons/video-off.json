@@ -8,10 +8,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "视频关闭",
   "tags": [
-    "camera",
-    "movie",
-    "film"
+    "相机",
+    "胶片"
   ],
   "categories": [
     "devices",
@@ -20,17 +20,18 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "视频关闭",
+    "en": {
+      "name": "video off",
       "tags": [
-        "相机",
-        "胶片"
+        "camera",
+        "movie",
+        "film"
       ],
       "categories": [
-        "设备",
-        "沟通",
-        "连接",
-        "摄影"
+        "Devices",
+        "Communication",
+        "Connectivity",
+        "Photography"
       ]
     }
   }

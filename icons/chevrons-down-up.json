@@ -6,23 +6,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "双折角箭头下上",
   "tags": [
-    "collapse",
-    "fold",
-    "vertical"
+    "折叠",
+    "垂直"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "双折角箭头下上",
+    "en": {
+      "name": "chevrons down up",
       "tags": [
-        "折叠",
-        "垂直"
+        "collapse",
+        "fold",
+        "vertical"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

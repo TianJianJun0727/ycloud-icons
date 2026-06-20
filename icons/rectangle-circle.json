@@ -5,26 +5,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "矩形圆形",
   "tags": [
-    "compose",
-    "keyboard",
-    "key",
-    "button"
+    "键盘",
+    "钥匙"
   ],
   "categories": [
     "development",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "矩形圆形",
+    "en": {
+      "name": "rectangle circle",
       "tags": [
-        "键盘",
-        "钥匙"
+        "compose",
+        "keyboard",
+        "key",
+        "button"
       ],
       "categories": [
-        "编码与开发",
-        "文本格式"
+        "Coding & development",
+        "Text formatting"
       ]
     }
   }

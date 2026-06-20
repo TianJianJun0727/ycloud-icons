@@ -7,27 +7,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "@标志",
   "tags": [
-    "mention",
-    "at",
-    "email",
-    "message",
-    "@"
+    "消息",
+    "邮箱"
   ],
   "categories": [
     "text",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "@标志",
+    "en": {
+      "name": "at sign",
       "tags": [
-        "消息",
-        "邮箱"
+        "mention",
+        "at",
+        "email",
+        "message",
+        "@"
       ],
       "categories": [
-        "文本格式",
-        "账号与访问"
+        "Text formatting",
+        "Accounts & access"
       ]
     }
   }

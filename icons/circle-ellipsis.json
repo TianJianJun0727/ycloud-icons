@@ -5,48 +5,49 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形省略号",
   "tags": [
-    "ellipsis",
-    "et cetera",
-    "etc",
-    "loader",
-    "loading",
-    "progress",
-    "pending",
-    "throbber",
-    "menu",
-    "options",
-    "operator",
-    "code",
-    "spread",
-    "rest",
-    "more",
-    "further",
-    "extra",
-    "overflow",
-    "dots",
-    "…",
-    "..."
+    "省略号",
+    "加载器",
+    "菜单",
+    "代码",
+    "更多",
+    "额外",
+    "加载"
   ],
   "categories": [
     "layout",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形省略号",
+    "en": {
+      "name": "circle ellipsis",
       "tags": [
-        "省略号",
-        "加载器",
-        "菜单",
-        "代码",
-        "更多",
-        "额外",
-        "加载"
+        "ellipsis",
+        "et cetera",
+        "etc",
+        "loader",
+        "loading",
+        "progress",
+        "pending",
+        "throbber",
+        "menu",
+        "options",
+        "operator",
+        "code",
+        "spread",
+        "rest",
+        "more",
+        "further",
+        "extra",
+        "overflow",
+        "dots",
+        "…",
+        "..."
       ],
       "categories": [
-        "布局",
-        "编码与开发"
+        "Layout",
+        "Coding & development"
       ]
     }
   }

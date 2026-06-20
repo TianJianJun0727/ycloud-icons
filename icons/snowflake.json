@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "雪花",
   "tags": [
-    "cold",
-    "weather",
-    "freeze",
-    "snow",
-    "winter"
+    "天气",
+    "雪"
   ],
   "categories": [
     "weather",
     "seasons"
   ],
   "i18n": {
-    "zh": {
-      "name": "雪花",
+    "en": {
+      "name": "snowflake",
       "tags": [
-        "天气",
-        "雪"
+        "cold",
+        "weather",
+        "freeze",
+        "snow",
+        "winter"
       ],
       "categories": [
-        "天气",
-        "季节"
+        "Weather",
+        "Seasons"
       ]
     }
   }

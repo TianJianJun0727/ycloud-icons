@@ -4,14 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "大学",
   "tags": [
-    "building",
-    "education",
-    "childhood",
-    "school",
-    "college",
-    "academy",
-    "institute"
+    "建筑",
+    "学校",
+    "教育"
   ],
   "categories": [
     "buildings",
@@ -26,16 +23,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "大学",
+    "en": {
+      "name": "university",
       "tags": [
-        "建筑",
-        "学校",
-        "教育"
+        "building",
+        "education",
+        "childhood",
+        "school",
+        "college",
+        "academy",
+        "institute"
       ],
       "categories": [
-        "建筑",
-        "导航与地点"
+        "Buildings",
+        "Navigation & Places"
       ]
     }
   }

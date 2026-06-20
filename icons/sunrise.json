@@ -7,11 +7,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "日出",
   "tags": [
-    "weather",
-    "time",
-    "morning",
-    "day"
+    "天气",
+    "时间"
   ],
   "categories": [
     "arrows",
@@ -19,16 +18,18 @@
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日出",
+    "en": {
+      "name": "sunrise",
       "tags": [
-        "天气",
-        "时间"
+        "weather",
+        "time",
+        "morning",
+        "day"
       ],
       "categories": [
-        "箭头",
-        "天气",
-        "时间与日历"
+        "Arrows",
+        "Weather",
+        "Time & calendar"
       ]
     }
   }

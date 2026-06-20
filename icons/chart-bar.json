@@ -5,11 +5,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "图表条形",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph"
+    "图形"
   ],
   "categories": [
     "charts"
@@ -23,13 +21,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "图表条形",
+    "en": {
+      "name": "chart bar",
       "tags": [
-        "图形"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph"
       ],
       "categories": [
-        "图表"
+        "Charts"
       ]
     }
   }

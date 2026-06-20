@@ -5,40 +5,41 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章美元标志",
   "tags": [
-    "discount",
-    "offer",
-    "sale",
-    "voucher",
-    "tag",
-    "monetization",
-    "marketing",
-    "finance",
-    "financial",
-    "exchange",
-    "transaction",
-    "payment",
-    "usd",
-    "$"
+    "折扣",
+    "促销",
+    "标签",
+    "营销",
+    "金融",
+    "支付"
   ],
   "categories": [
     "shopping",
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章美元标志",
+    "en": {
+      "name": "badge dollar sign",
       "tags": [
-        "折扣",
-        "促销",
-        "标签",
-        "营销",
-        "金融",
-        "支付"
+        "discount",
+        "offer",
+        "sale",
+        "voucher",
+        "tag",
+        "monetization",
+        "marketing",
+        "finance",
+        "financial",
+        "exchange",
+        "transaction",
+        "payment",
+        "usd",
+        "$"
       ],
       "categories": [
-        "购物",
-        "金融"
+        "Shopping",
+        "Finance"
       ]
     }
   }

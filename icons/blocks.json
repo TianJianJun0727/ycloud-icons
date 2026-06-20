@@ -5,20 +5,14 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "积木",
   "tags": [
-    "addon",
-    "plugin",
-    "integration",
-    "extension",
-    "package",
-    "build",
-    "stack",
-    "toys",
-    "kids",
-    "children",
-    "learning",
-    "squares",
-    "corner"
+    "包",
+    "堆叠",
+    "方块",
+    "角落",
+    "包裹",
+    "学习"
   ],
   "categories": [
     "development",
@@ -26,20 +20,27 @@
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "积木",
+    "en": {
+      "name": "blocks",
       "tags": [
-        "包",
-        "堆叠",
-        "方块",
-        "角落",
-        "包裹",
-        "学习"
+        "addon",
+        "plugin",
+        "integration",
+        "extension",
+        "package",
+        "build",
+        "stack",
+        "toys",
+        "kids",
+        "children",
+        "learning",
+        "squares",
+        "corner"
       ],
       "categories": [
-        "编码与开发",
-        "布局",
-        "形状"
+        "Coding & development",
+        "Layout",
+        "Shapes"
       ]
     }
   }

@@ -4,37 +4,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方形星标",
   "tags": [
-    "badge",
-    "medal",
-    "honour",
-    "decoration",
-    "order",
-    "pin",
-    "laurel",
-    "trophy",
-    "medallion",
-    "insignia",
-    "bronze",
-    "silver",
-    "gold"
+    "徽章",
+    "奖牌",
+    "图钉",
+    "奖杯"
   ],
   "categories": [
     "sports",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形星标",
+    "en": {
+      "name": "square star",
       "tags": [
-        "徽章",
-        "奖牌",
-        "图钉",
-        "奖杯"
+        "badge",
+        "medal",
+        "honour",
+        "decoration",
+        "order",
+        "pin",
+        "laurel",
+        "trophy",
+        "medallion",
+        "insignia",
+        "bronze",
+        "silver",
+        "gold"
       ],
       "categories": [
-        "运动",
-        "游戏"
+        "Sports",
+        "Gaming"
       ]
     }
   }

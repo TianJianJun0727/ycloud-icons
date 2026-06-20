@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "无线网络关闭",
   "tags": [
-    "disabled"
+    "禁用"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络关闭",
+    "en": {
+      "name": "wifi off",
       "tags": [
-        "禁用"
+        "disabled"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

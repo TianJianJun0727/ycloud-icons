@@ -5,14 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "有轨电车正面",
   "tags": [
-    "railway",
-    "metro",
-    "subway",
-    "underground",
-    "track",
-    "line",
-    "tourism"
+    "轨道",
+    "线条"
   ],
   "categories": [
     "transportation"
@@ -26,14 +22,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "有轨电车正面",
+    "en": {
+      "name": "tram front",
       "tags": [
-        "轨道",
-        "线条"
+        "railway",
+        "metro",
+        "subway",
+        "underground",
+        "track",
+        "line",
+        "tourism"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

@@ -5,23 +5,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "豆子",
   "tags": [
-    "legume",
-    "soy",
-    "food",
-    "seed"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "豆子",
+    "en": {
+      "name": "bean",
       "tags": [
-        "食物"
+        "legume",
+        "soy",
+        "food",
+        "seed"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

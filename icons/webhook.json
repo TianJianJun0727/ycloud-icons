@@ -4,10 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "Webhook回调",
   "tags": [
-    "push api",
-    "interface",
-    "callback"
+    "Webhook",
+    "回调",
+    "集成"
   ],
   "categories": [
     "development",
@@ -15,17 +16,17 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "Webhook回调",
+    "en": {
+      "name": "webhook",
       "tags": [
-        "Webhook",
-        "回调",
-        "集成"
+        "push api",
+        "interface",
+        "callback"
       ],
       "categories": [
-        "编码与开发",
-        "社交",
-        "账号与访问"
+        "Coding & development",
+        "Social",
+        "Accounts & access"
       ]
     }
   }

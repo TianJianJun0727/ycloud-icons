@@ -7,30 +7,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "语音",
   "tags": [
-    "disability",
-    "disabled",
-    "dda",
-    "human",
-    "accessibility",
-    "people",
-    "sound"
+    "无障碍",
+    "禁用",
+    "声音"
   ],
   "categories": [
     "accessibility",
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "语音",
+    "en": {
+      "name": "speech",
       "tags": [
-        "无障碍",
-        "禁用",
-        "声音"
+        "disability",
+        "disabled",
+        "dda",
+        "human",
+        "accessibility",
+        "people",
+        "sound"
       ],
       "categories": [
-        "无障碍",
-        "沟通"
+        "Accessibility",
+        "Communication"
       ]
     }
   }

@@ -5,35 +5,36 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "烹饪锅",
   "tags": [
-    "pod",
-    "cooking",
-    "recipe",
-    "food",
-    "kitchen",
-    "chef",
-    "restaurant",
-    "dinner",
-    "lunch",
-    "breakfast",
-    "meal",
-    "eat"
+    "烹饪",
+    "食物",
+    "厨师"
   ],
   "categories": [
     "food-beverage",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "烹饪锅",
+    "en": {
+      "name": "cooking pot",
       "tags": [
-        "烹饪",
-        "食物",
-        "厨师"
+        "pod",
+        "cooking",
+        "recipe",
+        "food",
+        "kitchen",
+        "chef",
+        "restaurant",
+        "dinner",
+        "lunch",
+        "breakfast",
+        "meal",
+        "eat"
       ],
       "categories": [
-        "餐饮",
-        "家居"
+        "Food & beverage",
+        "Home"
       ]
     }
   }

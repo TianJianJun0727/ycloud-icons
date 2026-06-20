@@ -2,14 +2,15 @@ export type IconNode = [elementName: string, attrs: Record<string, string>][];
 export type IconNodeWithKeys = [elementName: string, attrs: Record<string, string>, key: string][];
 
 export interface IconMetaData {
+  name: string;
   tags: string[];
   categories: string[];
   contributors: string[];
-  i18n?: {
-    zh?: {
-      name?: string;
-      tags?: string[];
-      categories?: string[];
+  i18n: {
+    en: {
+      name: string;
+      tags: string[];
+      categories: string[];
     };
   };
   aliases?: string[];
@@ -23,6 +24,9 @@ export interface IconEntity extends IconMetaData {
   displayName?: string;
   displayTags?: string[];
   displayCategories?: string[];
+  englishName?: string;
+  englishTags?: string[];
+  englishCategories?: string[];
   iconNode: IconNode;
   createdRelease?: Release;
   changedRelease?: Release;
@@ -32,7 +36,7 @@ export interface IconEntity extends IconMetaData {
 export interface Category {
   name: string;
   title: string;
-  displayTitle?: string;
+  englishTitle: string;
   icon?: string;
   iconCount: number;
   icons?: IconEntity[];

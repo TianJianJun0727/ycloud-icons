@@ -6,37 +6,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "毛巾架子",
   "tags": [
-    "flannel",
-    "bathroom",
-    "toiletries",
-    "sanitation",
-    "clean",
-    "fresh",
-    "dry",
-    "laundry",
-    "laundrette",
-    "hospitality",
-    "housekeeping",
-    "room service",
-    "spa break",
-    "health club",
-    "amenities",
-    "hanging"
+    "健康梅花"
   ],
   "categories": [
     "home",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "毛巾架子",
+    "en": {
+      "name": "towel rack",
       "tags": [
-        "健康梅花"
+        "flannel",
+        "bathroom",
+        "toiletries",
+        "sanitation",
+        "clean",
+        "fresh",
+        "dry",
+        "laundry",
+        "laundrette",
+        "hospitality",
+        "housekeeping",
+        "room service",
+        "spa break",
+        "health club",
+        "amenities",
+        "hanging"
       ],
       "categories": [
-        "家居",
-        "旅行"
+        "Home",
+        "Travel"
       ]
     }
   }

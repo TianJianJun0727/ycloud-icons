@@ -7,26 +7,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "公文包商务",
   "tags": [
-    "work",
-    "bag",
-    "baggage",
-    "folder",
-    "portfolio"
+    "包",
+    "行李",
+    "文件夹"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "公文包商务",
+    "en": {
+      "name": "briefcase business",
       "tags": [
-        "包",
-        "行李",
-        "文件夹"
+        "work",
+        "bag",
+        "baggage",
+        "folder",
+        "portfolio"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

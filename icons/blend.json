@@ -4,25 +4,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "混合",
   "tags": [
-    "mode",
-    "overlay",
-    "multiply",
-    "screen",
-    "opacity",
-    "transparency",
-    "alpha",
-    "filters",
-    "lenses",
-    "mixed",
-    "shades",
-    "tints",
-    "hues",
-    "saturation",
-    "brightness",
-    "overlap",
-    "colors",
-    "colours"
+    "屏幕"
   ],
   "categories": [
     "design",
@@ -31,16 +15,33 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "混合",
+    "en": {
+      "name": "blend",
       "tags": [
-        "屏幕"
+        "mode",
+        "overlay",
+        "multiply",
+        "screen",
+        "opacity",
+        "transparency",
+        "alpha",
+        "filters",
+        "lenses",
+        "mixed",
+        "shades",
+        "tints",
+        "hues",
+        "saturation",
+        "brightness",
+        "overlap",
+        "colors",
+        "colours"
       ],
       "categories": [
-        "设计",
-        "摄影",
-        "工具",
-        "编码与开发"
+        "Design",
+        "Photography",
+        "Tools",
+        "Coding & development"
       ]
     }
   }

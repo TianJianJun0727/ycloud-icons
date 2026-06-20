@@ -7,33 +7,15 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "地标",
   "tags": [
-    "bank",
-    "building",
-    "capitol",
-    "finance",
-    "money",
-    "museum",
-    "art gallery",
-    "hall",
-    "institute",
-    "pediment",
-    "portico",
-    "doric",
-    "columns",
-    "pillars",
-    "classical",
-    "architecture",
-    "government",
-    "institution",
-    "monument",
-    "site",
-    "history",
-    "historic",
-    "library",
-    "temple",
-    "ancient",
-    "structure"
+    "银行",
+    "建筑",
+    "金融",
+    "art图库",
+    "列",
+    "历史",
+    "图书馆"
   ],
   "categories": [
     "finance",
@@ -41,21 +23,40 @@
     "buildings"
   ],
   "i18n": {
-    "zh": {
-      "name": "地标",
+    "en": {
+      "name": "landmark",
       "tags": [
-        "银行",
-        "建筑",
-        "金融",
-        "art图库",
-        "列",
-        "历史",
-        "图书馆"
+        "bank",
+        "building",
+        "capitol",
+        "finance",
+        "money",
+        "museum",
+        "art gallery",
+        "hall",
+        "institute",
+        "pediment",
+        "portico",
+        "doric",
+        "columns",
+        "pillars",
+        "classical",
+        "architecture",
+        "government",
+        "institution",
+        "monument",
+        "site",
+        "history",
+        "historic",
+        "library",
+        "temple",
+        "ancient",
+        "structure"
       ],
       "categories": [
-        "金融",
-        "导航与地点",
-        "建筑"
+        "Finance",
+        "Navigation & Places",
+        "Buildings"
       ]
     }
   }

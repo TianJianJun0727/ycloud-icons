@@ -5,36 +5,37 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "日历勾选",
   "tags": [
-    "date",
-    "day",
-    "month",
-    "year",
-    "event",
-    "confirm",
-    "subscribe",
-    "schedule",
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "日期",
+    "完成",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历勾选",
+    "en": {
+      "name": "calendar check",
       "tags": [
-        "日期",
-        "完成",
-        "待办",
-        "勾选",
-        "任务"
+        "date",
+        "day",
+        "month",
+        "year",
+        "event",
+        "confirm",
+        "subscribe",
+        "schedule",
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

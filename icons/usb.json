@@ -5,13 +5,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "USB接口",
   "tags": [
-    "universal",
-    "serial",
-    "bus",
-    "controller",
-    "connector",
-    "interface"
+    "公交车"
   ],
   "categories": [
     "devices",
@@ -19,15 +15,20 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "USB接口",
+    "en": {
+      "name": "usb",
       "tags": [
-        "公交车"
+        "universal",
+        "serial",
+        "bus",
+        "controller",
+        "connector",
+        "interface"
       ],
       "categories": [
-        "设备",
-        "多媒体",
-        "家居"
+        "Devices",
+        "Multimedia",
+        "Home"
       ]
     }
   }

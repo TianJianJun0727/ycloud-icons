@@ -5,25 +5,20 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "扫描",
   "tags": [
-    "qr-code",
-    "barcode",
-    "checkout",
-    "augmented reality",
-    "ar",
-    "target",
-    "surveillance",
-    "camera",
-    "lens",
-    "focus",
-    "frame",
-    "select",
-    "box",
-    "boundary",
-    "bounds",
-    "area",
-    "square",
-    "dashed"
+    "二维码代码",
+    "条码",
+    "目标",
+    "相机",
+    "镜头",
+    "聚焦",
+    "框架",
+    "选择",
+    "盒子",
+    "区域",
+    "方形",
+    "虚线"
   ],
   "categories": [
     "devices",
@@ -33,28 +28,34 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描",
+    "en": {
+      "name": "scan",
       "tags": [
-        "二维码代码",
-        "条码",
-        "目标",
-        "相机",
-        "镜头",
-        "聚焦",
-        "框架",
-        "选择",
-        "盒子",
-        "区域",
-        "方形",
-        "虚线"
+        "qr-code",
+        "barcode",
+        "checkout",
+        "augmented reality",
+        "ar",
+        "target",
+        "surveillance",
+        "camera",
+        "lens",
+        "focus",
+        "frame",
+        "select",
+        "box",
+        "boundary",
+        "bounds",
+        "area",
+        "square",
+        "dashed"
       ],
       "categories": [
-        "设备",
-        "购物",
-        "安全",
-        "社交",
-        "游戏"
+        "Devices",
+        "Shopping",
+        "Security",
+        "Social",
+        "Gaming"
       ]
     }
   }

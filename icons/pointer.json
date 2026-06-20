@@ -4,20 +4,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "指针",
   "tags": [
-    "mouse"
+    "鼠标"
   ],
   "categories": [
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "指针",
+    "en": {
+      "name": "pointer",
       "tags": [
-        "鼠标"
+        "mouse"
       ],
       "categories": [
-        "光标"
+        "Cursors"
       ]
     }
   }

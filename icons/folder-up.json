@@ -5,27 +5,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹上",
   "tags": [
-    "directory",
-    "upload",
-    "import",
-    "export"
+    "上传",
+    "导入",
+    "目录"
   ],
   "categories": [
     "files",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹上",
+    "en": {
+      "name": "folder up",
       "tags": [
-        "上传",
-        "导入",
-        "目录"
+        "directory",
+        "upload",
+        "import",
+        "export"
       ],
       "categories": [
-        "文件",
-        "箭头"
+        "File icons",
+        "Arrows"
       ]
     }
   }

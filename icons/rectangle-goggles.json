@@ -5,13 +5,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "矩形护目镜",
   "tags": [
-    "vr",
-    "virtual",
-    "augmented",
-    "reality",
-    "headset",
-    "goggles"
+    "耳麦",
+    "护目镜"
   ],
   "categories": [
     "devices",
@@ -20,17 +17,21 @@
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "矩形护目镜",
+    "en": {
+      "name": "rectangle goggles",
       "tags": [
-        "耳麦",
-        "护目镜"
+        "vr",
+        "virtual",
+        "augmented",
+        "reality",
+        "headset",
+        "goggles"
       ],
       "categories": [
-        "设备",
-        "游戏",
-        "多媒体",
-        "连接"
+        "Devices",
+        "Gaming",
+        "Multimedia",
+        "Connectivity"
       ]
     }
   }

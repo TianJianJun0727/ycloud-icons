@@ -4,29 +4,30 @@
     "Youya-ui"
   ],
   "use-cases": [],
+  "name": "运动鞋",
   "tags": [
-    "footwear",
-    "sports",
-    "running",
-    "athletic",
-    "shoe",
-    "sneaker",
-    "training",
-    "exercise",
-    "fitness"
+    "鞋",
+    "健身"
   ],
   "categories": [
     "sports"
   ],
   "i18n": {
-    "zh": {
-      "name": "运动鞋",
+    "en": {
+      "name": "sport shoe",
       "tags": [
-        "鞋",
-        "健身"
+        "footwear",
+        "sports",
+        "running",
+        "athletic",
+        "shoe",
+        "sneaker",
+        "training",
+        "exercise",
+        "fitness"
       ],
       "categories": [
-        "运动"
+        "Sports"
       ]
     }
   }

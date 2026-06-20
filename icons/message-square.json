@@ -7,26 +7,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息方形",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble"
+    "语音bubble",
+    "聊天"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形",
+    "en": {
+      "name": "message square",
       "tags": [
-        "语音bubble",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

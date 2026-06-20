@@ -7,8 +7,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "闹钟时钟加号",
   "tags": [
-    "add"
+    "添加"
   ],
   "categories": [
     "devices",
@@ -24,15 +25,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "闹钟时钟加号",
+    "en": {
+      "name": "alarm clock plus",
       "tags": [
-        "添加"
+        "add"
       ],
       "categories": [
-        "设备",
-        "通知",
-        "时间与日历"
+        "Devices",
+        "Notification",
+        "Time & calendar"
       ]
     }
   }

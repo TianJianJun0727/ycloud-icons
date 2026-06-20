@@ -4,16 +4,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形星号",
   "tags": [
-    "password",
-    "secret",
-    "access",
-    "key",
-    "multiply",
-    "multiplication",
-    "glob pattern",
-    "wildcard",
-    "*"
+    "钥匙",
+    "glob图案"
   ],
   "categories": [
     "text",
@@ -30,17 +24,24 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形星号",
+    "en": {
+      "name": "square asterisk",
       "tags": [
-        "钥匙",
-        "glob图案"
+        "password",
+        "secret",
+        "access",
+        "key",
+        "multiply",
+        "multiplication",
+        "glob pattern",
+        "wildcard",
+        "*"
       ],
       "categories": [
-        "文本格式",
-        "安全",
-        "数学",
-        "编码与开发"
+        "Text formatting",
+        "Security",
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

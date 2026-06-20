@@ -4,6 +4,16 @@
     "danielbayley",
     "karsa-mistmere"
   ],
+  "use-cases": [],
+  "name": "花括号",
+  "tags": [
+    "代码",
+    "curly方括号"
+  ],
+  "categories": [
+    "development",
+    "files"
+  ],
   "aliases": [
     {
       "name": "curly-braces",
@@ -12,30 +22,21 @@
       "toBeRemovedInVersion": "v1.0"
     }
   ],
-  "use-cases": [],
-  "tags": [
-    "json",
-    "code",
-    "token",
-    "curly brackets",
-    "data",
-    "{",
-    "}"
-  ],
-  "categories": [
-    "development",
-    "files"
-  ],
   "i18n": {
-    "zh": {
-      "name": "花括号",
+    "en": {
+      "name": "braces",
       "tags": [
-        "代码",
-        "curly方括号"
+        "json",
+        "code",
+        "token",
+        "curly brackets",
+        "data",
+        "{",
+        "}"
       ],
       "categories": [
-        "编码与开发",
-        "文件"
+        "Coding & development",
+        "File icons"
       ]
     }
   }

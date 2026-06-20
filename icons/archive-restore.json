@@ -6,28 +6,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "归档恢复",
   "tags": [
-    "unarchive",
-    "index",
-    "backup",
-    "box",
-    "storage",
-    "records"
+    "备份",
+    "盒子"
   ],
   "categories": [
     "files",
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "归档恢复",
+    "en": {
+      "name": "archive restore",
       "tags": [
-        "备份",
-        "盒子"
+        "unarchive",
+        "index",
+        "backup",
+        "box",
+        "storage",
+        "records"
       ],
       "categories": [
-        "文件",
-        "邮件"
+        "File icons",
+        "Mail"
       ]
     }
   }

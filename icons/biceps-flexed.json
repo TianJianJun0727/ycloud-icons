@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "肱二头肌弯曲",
   "tags": [
-    "arm",
-    "muscle",
-    "strong",
-    "working out",
-    "athletic",
-    "toned",
-    "muscular",
-    "forelimb",
-    "curled"
+    "working外部"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "肱二头肌弯曲",
+    "en": {
+      "name": "biceps flexed",
       "tags": [
-        "working外部"
+        "arm",
+        "muscle",
+        "strong",
+        "working out",
+        "athletic",
+        "toned",
+        "muscular",
+        "forelimb",
+        "curled"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "取消组合",
   "tags": [
-    "cubes",
-    "packages",
-    "parts",
-    "units",
-    "collection",
-    "cluster",
-    "separate"
+    "单位"
   ],
   "categories": [
     "shapes",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "取消组合",
+    "en": {
+      "name": "ungroup",
       "tags": [
-        "单位"
+        "cubes",
+        "packages",
+        "parts",
+        "units",
+        "collection",
+        "cluster",
+        "separate"
       ],
       "categories": [
-        "形状",
-        "文件"
+        "Shapes",
+        "File icons"
       ]
     }
   }

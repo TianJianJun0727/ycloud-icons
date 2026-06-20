@@ -5,34 +5,35 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "发送到返回",
   "tags": [
-    "bring",
-    "send",
-    "move",
-    "under",
-    "back",
-    "backwards",
-    "overlap",
-    "layer",
-    "order"
+    "置于",
+    "发送",
+    "移动",
+    "返回",
+    "后退"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "发送到返回",
+    "en": {
+      "name": "send to back",
       "tags": [
-        "置于",
-        "发送",
-        "移动",
-        "返回",
-        "后退"
+        "bring",
+        "send",
+        "move",
+        "under",
+        "back",
+        "backwards",
+        "overlap",
+        "layer",
+        "order"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

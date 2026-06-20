@@ -6,19 +6,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "手拳头",
   "tags": [
-    "clench",
-    "strength",
-    "power",
-    "unity",
-    "solidarity",
-    "rebellion",
-    "victory",
-    "triumph",
-    "support",
-    "fight",
-    "combat",
-    "brawl"
+    "电源"
   ],
   "categories": [
     "social",
@@ -27,16 +17,27 @@
     "sports"
   ],
   "i18n": {
-    "zh": {
-      "name": "手拳头",
+    "en": {
+      "name": "hand fist",
       "tags": [
-        "电源"
+        "clench",
+        "strength",
+        "power",
+        "unity",
+        "solidarity",
+        "rebellion",
+        "victory",
+        "triumph",
+        "support",
+        "fight",
+        "combat",
+        "brawl"
       ],
       "categories": [
-        "社交",
-        "表情",
-        "沟通",
-        "运动"
+        "Social",
+        "Emoji",
+        "Communication",
+        "Sports"
       ]
     }
   }

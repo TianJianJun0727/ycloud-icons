@@ -6,28 +6,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "音乐3",
   "tags": [
-    "crotchet",
-    "minim",
-    "quarter note",
-    "half note",
-    "note"
+    "quarter便签",
+    "一半便签",
+    "便签"
   ],
   "categories": [
     "multimedia",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "音乐3",
+    "en": {
+      "name": "music 3",
       "tags": [
-        "quarter便签",
-        "一半便签",
-        "便签"
+        "crotchet",
+        "minim",
+        "quarter note",
+        "half note",
+        "note"
       ],
       "categories": [
-        "多媒体",
-        "文件"
+        "Multimedia",
+        "File icons"
       ]
     }
   }

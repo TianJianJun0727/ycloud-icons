@@ -5,22 +5,23 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "取消链接",
   "tags": [
-    "url",
-    "unchain"
+    "链接",
+    "解除链接"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "取消链接",
+    "en": {
+      "name": "unlink",
       "tags": [
-        "链接",
-        "解除链接"
+        "url",
+        "unchain"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

@@ -1,31 +1,33 @@
 <script setup lang="ts">
-import type { IconEntity } from '../../types';
+import type { IconEntity } from '@theme/types';
 import { computed } from 'vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon.ts';
-import Calendar from '../../../data/iconDetails/calendar.ts';
-import Clock from '../../../data/iconDetails/clock.ts';
-import Bug from '../../../data/iconDetails/bug.ts';
-import Rocket from '../../../data/iconDetails/rocket.ts';
-import TriangleAlert from '../../../data/iconDetails/triangle-alert.ts';
-import PartyPopper from '../../../data/iconDetails/party-popper.ts';
-import Scissors from '../../../data/iconDetails/scissors.ts';
-import Copy from '../../../data/iconDetails/copy.ts';
-import Save from '../../../data/iconDetails/save.ts';
-import Clipboard from '../../../data/iconDetails/clipboard.ts';
-import MessageCircle from '../../../data/iconDetails/message-circle.ts';
-import ThumbsDown from '../../../data/iconDetails/thumbs-down.ts';
-import ThumbsUp from '../../../data/iconDetails/thumbs-up.ts';
-import Heart from '../../../data/iconDetails/heart.ts';
-import Folder from '../../../data/iconDetails/folder.ts';
-import Files from '../../../data/iconDetails/files.ts';
-import Plus from '../../../data/iconDetails/plus.ts';
-import File from '../../../data/iconDetails/file.ts';
-import FileText from '../../../data/iconDetails/file-text.ts';
-import { localizeIconName } from '../../utils/iconI18n';
+import Calendar from '@data/iconDetails/calendar.ts';
+import Clock from '@data/iconDetails/clock.ts';
+import Bug from '@data/iconDetails/bug.ts';
+import Rocket from '@data/iconDetails/rocket.ts';
+import TriangleAlert from '@data/iconDetails/triangle-alert.ts';
+import PartyPopper from '@data/iconDetails/party-popper.ts';
+import Scissors from '@data/iconDetails/scissors.ts';
+import Copy from '@data/iconDetails/copy.ts';
+import Save from '@data/iconDetails/save.ts';
+import Clipboard from '@data/iconDetails/clipboard.ts';
+import MessageCircle from '@data/iconDetails/message-circle.ts';
+import ThumbsDown from '@data/iconDetails/thumbs-down.ts';
+import ThumbsUp from '@data/iconDetails/thumbs-up.ts';
+import Heart from '@data/iconDetails/heart.ts';
+import Folder from '@data/iconDetails/folder.ts';
+import Files from '@data/iconDetails/files.ts';
+import Plus from '@data/iconDetails/plus.ts';
+import File from '@data/iconDetails/file.ts';
+import FileText from '@data/iconDetails/file-text.ts';
+import { localizeIconName } from '@theme/utils/iconI18n';
+import { useData } from 'vitepress';
 
 const props = defineProps<{
   name: IconEntity['name'];
   displayName?: IconEntity['displayName'];
+  englishName?: IconEntity['englishName'];
   iconNode: IconEntity['iconNode'];
 }>();
 
@@ -59,7 +61,11 @@ const PlusIcon = createYCloudIcon('plus.ts', Plus.iconNode);
 const FileIcon = createYCloudIcon('file.ts', File.iconNode);
 const FileTextIcon = createYCloudIcon('file-text.ts', FileText.iconNode);
 
-const prettyName = computed(() => localizeIconName(props.name, props.displayName));
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+const prettyName = computed(() =>
+  isEnglish.value ? props.englishName ?? props.name : localizeIconName(props.name, props.displayName),
+);
 </script>
 
 <template>
@@ -67,7 +73,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
     class="showcase"
     v-if="iconComponent"
   >
-    <h2 class="title">图标使用示例</h2>
+    <h2 class="title">{{ isEnglish ? 'Icon usage examples' : '图标使用示例' }}</h2>
     <div class="showcase-grid">
       <div class="showcase-item column">
         <div class="placeholder"></div>
@@ -80,7 +86,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
             <iconComponent />
             {{ prettyName }}
           </button>
-          <button class="button button-alt">取消</button>
+          <button class="button button-alt">{{ isEnglish ? 'Cancel' : '取消' }}</button>
         </div>
       </div>
       <div class="showcase-item column">
@@ -91,12 +97,12 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
           <input
             type="text"
             v-if="name !== 'calendar'"
-            placeholder="输入日期..."
+            :placeholder="isEnglish ? 'Enter date...' : '输入日期...'"
           />
           <input
             type="text"
             v-if="name == 'calendar'"
-            placeholder="输入时间..."
+            :placeholder="isEnglish ? 'Enter time...' : '输入时间...'"
           />
         </div>
         <div class="spacer"></div>
@@ -105,7 +111,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
           <iconComponent />
           <input
             type="text"
-            placeholder="输入内容..."
+            :placeholder="isEnglish ? 'Enter text...' : '输入内容...'"
           />
         </div>
       </div>
@@ -117,7 +123,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
           <div class="placeholder"></div>
           <div class="badge badge-red">
             <BugIcon :size="20" />
-            缺陷
+            {{ isEnglish ? 'Bug' : '缺陷' }}
           </div>
         </div>
         <div
@@ -127,7 +133,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
           <div class="placeholder"></div>
           <div class="badge badge-red">
             <AlertTriangleIcon :size="20" />
-            告警
+            {{ isEnglish ? 'Alert' : '告警' }}
           </div>
         </div>
         <div class="row">
@@ -141,7 +147,7 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
               :size="20"
               v-else
             />
-            功能
+            {{ isEnglish ? 'Feature' : '功能' }}
           </div>
         </div>
         <div class="row">
@@ -156,13 +162,13 @@ const prettyName = computed(() => localizeIconName(props.name, props.displayName
         <button class="button button-alt button-square">
           <FolderIcon v-if="name !== 'folder'" />
           <FilesIcon v-else />
-          文档
+          {{ isEnglish ? 'Docs' : '文档' }}
           <PlusIcon class="ms-auto" />
         </button>
         <button class="button button-alt button-square">
           <FileIcon v-if="name !== 'file'" />
           <FileTextIcon v-else />
-          自述文件
+          {{ isEnglish ? 'Readme' : '自述文件' }}
         </button>
         <button class="button button-alt button-square">
           <iconComponent />

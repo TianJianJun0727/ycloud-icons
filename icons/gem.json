@@ -6,20 +6,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "宝石",
   "tags": [
-    "diamond",
-    "crystal",
-    "ruby",
-    "jewellery",
-    "price",
-    "special",
-    "present",
-    "gift",
-    "ring",
-    "wedding",
-    "proposal",
-    "marriage",
-    "rubygems"
+    "菱形",
+    "礼物",
+    "响铃"
   ],
   "categories": [
     "gaming",
@@ -27,17 +18,27 @@
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "宝石",
+    "en": {
+      "name": "gem",
       "tags": [
-        "菱形",
-        "礼物",
-        "响铃"
+        "diamond",
+        "crystal",
+        "ruby",
+        "jewellery",
+        "price",
+        "special",
+        "present",
+        "gift",
+        "ring",
+        "wedding",
+        "proposal",
+        "marriage",
+        "rubygems"
       ],
       "categories": [
-        "游戏",
-        "编码与开发",
-        "金融"
+        "Gaming",
+        "Coding & development",
+        "Finance"
       ]
     }
   }

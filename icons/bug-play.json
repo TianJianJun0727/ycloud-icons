@@ -7,31 +7,32 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "缺陷播放",
   "tags": [
-    "issue",
-    "testing",
-    "debug",
-    "reproduce",
-    "code",
-    "insect"
+    "问题",
+    "测试",
+    "调试",
+    "代码",
+    "昆虫"
   ],
   "categories": [
     "development",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "缺陷播放",
+    "en": {
+      "name": "bug play",
       "tags": [
-        "问题",
-        "测试",
-        "调试",
-        "代码",
-        "昆虫"
+        "issue",
+        "testing",
+        "debug",
+        "reproduce",
+        "code",
+        "insect"
       ],
       "categories": [
-        "编码与开发",
-        "动物"
+        "Coding & development",
+        "Animals"
       ]
     }
   }

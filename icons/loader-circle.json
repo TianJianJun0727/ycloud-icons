@@ -7,15 +7,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "加载器圆形",
   "tags": [
-    "loading",
-    "wait",
-    "busy",
-    "progress",
-    "spinner",
-    "spinning",
-    "throbber",
-    "circle"
+    "圆形",
+    "加载",
+    "等待",
+    "忙碌"
   ],
   "categories": [
     "cursors",
@@ -31,18 +28,22 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "加载器圆形",
+    "en": {
+      "name": "loader circle",
       "tags": [
-        "圆形",
-        "加载",
-        "等待",
-        "忙碌"
+        "loading",
+        "wait",
+        "busy",
+        "progress",
+        "spinner",
+        "spinning",
+        "throbber",
+        "circle"
       ],
       "categories": [
-        "光标",
-        "多媒体",
-        "布局"
+        "Cursors",
+        "Multimedia",
+        "Layout"
       ]
     }
   }

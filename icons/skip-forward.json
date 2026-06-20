@@ -6,28 +6,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "跳过前进",
   "tags": [
-    "arrow",
-    "skip",
-    "next",
-    "music"
+    "箭头",
+    "跳过",
+    "下一个",
+    "音乐"
   ],
   "categories": [
     "multimedia",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "跳过前进",
+    "en": {
+      "name": "skip forward",
       "tags": [
-        "箭头",
-        "跳过",
-        "下一个",
-        "音乐"
+        "arrow",
+        "skip",
+        "next",
+        "music"
       ],
       "categories": [
-        "多媒体",
-        "箭头"
+        "Multimedia",
+        "Arrows"
       ]
     }
   }

@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "日历关闭",
   "tags": [
-    "date",
-    "day",
-    "month",
-    "year",
-    "event",
-    "delete",
-    "remove"
+    "日期",
+    "删除",
+    "移除"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历关闭",
+    "en": {
+      "name": "calendar off",
       "tags": [
-        "日期",
-        "删除",
-        "移除"
+        "date",
+        "day",
+        "month",
+        "year",
+        "event",
+        "delete",
+        "remove"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

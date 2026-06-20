@@ -5,24 +5,25 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "灯泡",
   "tags": [
-    "idea",
-    "bright",
-    "lights"
+    "灯泡",
+    "灵感",
+    "想法"
   ],
   "categories": [
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "灯泡",
+    "en": {
+      "name": "lightbulb",
       "tags": [
-        "灯泡",
-        "灵感",
-        "想法"
+        "idea",
+        "bright",
+        "lights"
       ],
       "categories": [
-        "摄影"
+        "Photography"
       ]
     }
   }

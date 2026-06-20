@@ -8,26 +8,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局网格",
   "tags": [
-    "app",
-    "home",
-    "start"
+    "应用",
+    "家居",
+    "起始"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局网格",
+    "en": {
+      "name": "layout grid",
       "tags": [
-        "应用",
-        "家居",
-        "起始"
+        "app",
+        "home",
+        "start"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

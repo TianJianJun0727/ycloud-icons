@@ -10,37 +10,38 @@
     "creating a new database instance",
     "adding a database connection in a client or admin panel"
   ],
+  "name": "数据库加号",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "server",
-    "plus",
-    "add",
-    "create",
-    "insert",
-    "new",
-    "expand"
+    "内存",
+    "服务器",
+    "加号",
+    "添加",
+    "创建",
+    "新建",
+    "展开"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库加号",
+    "en": {
+      "name": "database plus",
       "tags": [
-        "内存",
-        "服务器",
-        "加号",
-        "添加",
-        "创建",
-        "新建",
-        "展开"
+        "storage",
+        "memory",
+        "bytes",
+        "server",
+        "plus",
+        "add",
+        "create",
+        "insert",
+        "new",
+        "expand"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

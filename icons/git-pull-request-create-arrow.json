@@ -4,31 +4,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "Git拉取请求创建箭头",
   "tags": [
-    "code",
-    "version control",
-    "open",
-    "plus",
-    "add",
-    "+"
+    "代码",
+    "version控制",
+    "打开",
+    "加号",
+    "添加"
   ],
   "categories": [
     "development",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git拉取请求创建箭头",
+    "en": {
+      "name": "git pull request create arrow",
       "tags": [
-        "代码",
-        "version控制",
-        "打开",
-        "加号",
-        "添加"
+        "code",
+        "version control",
+        "open",
+        "plus",
+        "add",
+        "+"
       ],
       "categories": [
-        "编码与开发",
-        "箭头"
+        "Coding & development",
+        "Arrows"
       ]
     }
   }

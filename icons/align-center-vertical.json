@@ -4,24 +4,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "对齐居中垂直",
   "tags": [
-    "items",
-    "flex",
-    "justify"
+    "项目",
+    "弹性布局",
+    "对齐"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "对齐居中垂直",
+    "en": {
+      "name": "align center vertical",
       "tags": [
-        "项目",
-        "弹性布局",
-        "对齐"
+        "items",
+        "flex",
+        "justify"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

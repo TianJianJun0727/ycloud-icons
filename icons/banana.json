@@ -4,22 +4,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "香蕉",
   "tags": [
-    "fruit",
-    "food"
+    "食物",
+    "水果"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "香蕉",
+    "en": {
+      "name": "banana",
       "tags": [
-        "食物",
-        "水果"
+        "fruit",
+        "food"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

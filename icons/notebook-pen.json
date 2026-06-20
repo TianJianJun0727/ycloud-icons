@@ -4,56 +4,57 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "笔记本笔",
   "tags": [
-    "pencil",
-    "notepad",
-    "notes",
-    "noted",
-    "stationery",
-    "sketchbook",
-    "organizer",
-    "organiser",
-    "planner",
-    "diary",
-    "journal",
-    "writing",
-    "write",
-    "written",
-    "reading",
-    "high school",
-    "university",
-    "college",
-    "academy",
-    "student",
-    "study",
-    "research",
-    "homework",
-    "eraser",
-    "rubber"
+    "铅笔",
+    "记事本",
+    "便签",
+    "高学校",
+    "大学",
+    "橡皮擦",
+    "文具",
+    "阅读",
+    "学生",
+    "学习",
+    "研究"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "笔记本笔",
+    "en": {
+      "name": "notebook pen",
       "tags": [
-        "铅笔",
-        "记事本",
-        "便签",
-        "高学校",
-        "大学",
-        "橡皮擦",
-        "文具",
-        "阅读",
-        "学生",
-        "学习",
-        "研究"
+        "pencil",
+        "notepad",
+        "notes",
+        "noted",
+        "stationery",
+        "sketchbook",
+        "organizer",
+        "organiser",
+        "planner",
+        "diary",
+        "journal",
+        "writing",
+        "write",
+        "written",
+        "reading",
+        "high school",
+        "university",
+        "college",
+        "academy",
+        "student",
+        "study",
+        "research",
+        "homework",
+        "eraser",
+        "rubber"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

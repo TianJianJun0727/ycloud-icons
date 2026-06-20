@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "啤酒",
   "tags": [
-    "alcohol",
-    "bar",
-    "beverage",
-    "brewery",
-    "drink"
+    "条形",
+    "饮品"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "啤酒",
+    "en": {
+      "name": "beer",
       "tags": [
-        "条形",
-        "饮品"
+        "alcohol",
+        "bar",
+        "beverage",
+        "brewery",
+        "drink"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

@@ -13,7 +13,7 @@ export interface InputProps {
 <script setup lang="ts">
 import { ref, onMounted, nextTick, watch } from 'vue';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
-import { x } from '../../../data/iconNodes';
+import { x } from '@data/iconNodes';
 import IconButton from './IconButton.vue';
 
 const props = withDefaults(defineProps<InputProps>(), {

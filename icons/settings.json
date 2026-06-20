@@ -8,24 +8,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "设置",
   "tags": [
-    "cog",
-    "edit",
-    "gear",
-    "preferences"
+    "齿轮",
+    "编辑"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "设置",
+    "en": {
+      "name": "settings",
       "tags": [
-        "齿轮",
-        "编辑"
+        "cog",
+        "edit",
+        "gear",
+        "preferences"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

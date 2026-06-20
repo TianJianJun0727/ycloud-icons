@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "棒棒糖",
   "tags": [
-    "lolly",
-    "candy",
-    "sugar",
-    "food",
-    "sweet",
-    "dessert",
-    "spiral"
+    "糖果",
+    "食物",
+    "甜点"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "棒棒糖",
+    "en": {
+      "name": "lollipop",
       "tags": [
-        "糖果",
-        "食物",
-        "甜点"
+        "lolly",
+        "candy",
+        "sugar",
+        "food",
+        "sweet",
+        "dessert",
+        "spiral"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

@@ -5,23 +5,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "叶片",
   "tags": [
-    "cannabis",
-    "weed",
-    "leaf"
+    "叶片",
+    "叶子"
   ],
   "categories": [
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "叶片",
+    "en": {
+      "name": "cannabis",
       "tags": [
-        "叶片",
-        "叶子"
+        "cannabis",
+        "weed",
+        "leaf"
       ],
       "categories": [
-        "自然"
+        "Nature"
       ]
     }
   }

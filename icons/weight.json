@@ -5,27 +5,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "重量",
   "tags": [
-    "mass",
-    "heavy",
-    "lead",
-    "metal",
-    "measure",
-    "geometry",
-    "scales",
-    "balance"
+    "金属"
   ],
   "categories": [
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "重量",
+    "en": {
+      "name": "weight",
       "tags": [
-        "金属"
+        "mass",
+        "heavy",
+        "lead",
+        "metal",
+        "measure",
+        "geometry",
+        "scales",
+        "balance"
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

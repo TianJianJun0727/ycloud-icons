@@ -7,36 +7,37 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "大脑",
   "tags": [
-    "medical",
-    "mind",
-    "mental",
-    "intellect",
-    "cerebral",
-    "consciousness",
-    "genius",
-    "artificial intelligence",
-    "ai",
-    "think",
-    "thought",
-    "insight",
-    "intelligent",
-    "smart"
+    "医疗",
+    "AI"
   ],
   "categories": [
     "medical",
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "大脑",
+    "en": {
+      "name": "brain",
       "tags": [
-        "医疗",
-        "AI"
+        "medical",
+        "mind",
+        "mental",
+        "intellect",
+        "cerebral",
+        "consciousness",
+        "genius",
+        "artificial intelligence",
+        "ai",
+        "think",
+        "thought",
+        "insight",
+        "intelligent",
+        "smart"
       ],
       "categories": [
-        "医疗",
-        "科学"
+        "Medical",
+        "Science"
       ]
     }
   }

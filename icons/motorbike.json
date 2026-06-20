@@ -4,31 +4,32 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "摩托车",
   "tags": [
-    "moto",
-    "motorcycle",
-    "transport",
-    "vehicle",
-    "drive",
-    "ride",
-    "trip",
-    "race",
-    "racing",
-    "journey",
-    "delivery"
+    "驱动器",
+    "行程"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "摩托车",
+    "en": {
+      "name": "motorbike",
       "tags": [
-        "驱动器",
-        "行程"
+        "moto",
+        "motorcycle",
+        "transport",
+        "vehicle",
+        "drive",
+        "ride",
+        "trip",
+        "race",
+        "racing",
+        "journey",
+        "delivery"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

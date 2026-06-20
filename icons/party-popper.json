@@ -4,32 +4,33 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "礼花",
   "tags": [
-    "emoji",
-    "congratulations",
-    "celebration",
-    "party",
-    "tada",
-    "🎉",
-    "🎊",
-    "excitement",
-    "exciting",
-    "excites",
-    "confetti"
+    "表情",
+    "庆祝",
+    "派对"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "礼花",
+    "en": {
+      "name": "party popper",
       "tags": [
-        "表情",
-        "庆祝",
-        "派对"
+        "emoji",
+        "congratulations",
+        "celebration",
+        "party",
+        "tada",
+        "🎉",
+        "🎊",
+        "excitement",
+        "exciting",
+        "excites",
+        "confetti"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

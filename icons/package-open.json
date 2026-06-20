@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "包打开",
   "tags": [
-    "box",
-    "container",
-    "storage",
-    "unpack",
-    "unarchive",
-    "unzip",
-    "opened",
-    "delivered"
+    "盒子",
+    "容器"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包打开",
+    "en": {
+      "name": "package open",
       "tags": [
-        "盒子",
-        "容器"
+        "box",
+        "container",
+        "storage",
+        "unpack",
+        "unarchive",
+        "unzip",
+        "opened",
+        "delivered"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

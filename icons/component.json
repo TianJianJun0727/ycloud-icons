@@ -5,30 +5,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "组件",
   "tags": [
-    "design",
-    "element",
-    "group",
-    "module",
-    "part",
-    "symbol"
+    "设计",
+    "组合",
+    "符号",
+    "元素"
   ],
   "categories": [
     "design",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "组件",
+    "en": {
+      "name": "component",
       "tags": [
-        "设计",
-        "组合",
-        "符号",
-        "元素"
+        "design",
+        "element",
+        "group",
+        "module",
+        "part",
+        "symbol"
       ],
       "categories": [
-        "设计",
-        "编码与开发"
+        "Design",
+        "Coding & development"
       ]
     }
   }

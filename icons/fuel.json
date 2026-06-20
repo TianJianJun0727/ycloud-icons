@@ -6,27 +6,28 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "燃料",
   "tags": [
-    "filling-station",
-    "gas",
-    "petrol",
-    "tank"
+    "燃料",
+    "加油",
+    "能源"
   ],
   "categories": [
     "transportation",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "燃料",
+    "en": {
+      "name": "fuel",
       "tags": [
-        "燃料",
-        "加油",
-        "能源"
+        "filling-station",
+        "gas",
+        "petrol",
+        "tank"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

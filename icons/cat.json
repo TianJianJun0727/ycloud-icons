@@ -4,23 +4,24 @@
     "kemie"
   ],
   "use-cases": [],
+  "name": "猫",
   "tags": [
-    "animal",
-    "pet",
-    "kitten",
-    "feline"
+    "动物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "猫",
+    "en": {
+      "name": "cat",
       "tags": [
-        "动物"
+        "animal",
+        "pet",
+        "kitten",
+        "feline"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

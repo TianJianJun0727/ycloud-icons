@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "指南针",
   "tags": [
-    "direction",
-    "north",
-    "east",
-    "south",
-    "west",
-    "safari",
-    "browser"
+    "方向"
   ],
   "categories": [
     "navigation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "指南针",
+    "en": {
+      "name": "compass",
       "tags": [
-        "方向"
+        "direction",
+        "north",
+        "east",
+        "south",
+        "west",
+        "safari",
+        "browser"
       ],
       "categories": [
-        "导航与地点",
-        "旅行"
+        "Navigation & Places",
+        "Travel"
       ]
     }
   }

@@ -5,26 +5,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形加号",
   "tags": [
-    "add",
-    "new",
-    "increase",
-    "increment",
-    "positive",
-    "calculate",
-    "calculator",
-    "button",
-    "keyboard",
-    "toolbar",
-    "maximum",
-    "upgrade",
-    "extra",
-    "operator",
-    "join",
-    "concatenate",
-    "code",
-    "coding",
-    "+"
+    "添加",
+    "新建",
+    "增加",
+    "递增",
+    "正向",
+    "计算",
+    "计算器",
+    "键盘",
+    "工具栏",
+    "最大值",
+    "升级",
+    "额外",
+    "代码"
   ],
   "categories": [
     "math",
@@ -41,28 +36,34 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形加号",
+    "en": {
+      "name": "square plus",
       "tags": [
-        "添加",
-        "新建",
-        "增加",
-        "递增",
-        "正向",
-        "计算",
-        "计算器",
-        "键盘",
-        "工具栏",
-        "最大值",
-        "升级",
-        "额外",
-        "代码"
+        "add",
+        "new",
+        "increase",
+        "increment",
+        "positive",
+        "calculate",
+        "calculator",
+        "button",
+        "keyboard",
+        "toolbar",
+        "maximum",
+        "upgrade",
+        "extra",
+        "operator",
+        "join",
+        "concatenate",
+        "code",
+        "coding",
+        "+"
       ],
       "categories": [
-        "数学",
-        "工具",
-        "编码与开发",
-        "文本格式"
+        "Mathematics",
+        "Tools",
+        "Coding & development",
+        "Text formatting"
       ]
     }
   }

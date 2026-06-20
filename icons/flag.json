@@ -6,37 +6,38 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "旗帜",
   "tags": [
-    "report",
-    "marker",
-    "notification",
-    "warning",
-    "milestone",
-    "goal",
-    "notice",
-    "signal",
-    "attention",
-    "banner"
+    "报告",
+    "通知",
+    "警告",
+    "里程碑",
+    "目标",
+    "信号",
+    "标记"
   ],
   "categories": [
     "account",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "旗帜",
+    "en": {
+      "name": "flag",
       "tags": [
-        "报告",
-        "通知",
-        "警告",
-        "里程碑",
-        "目标",
-        "信号",
-        "标记"
+        "report",
+        "marker",
+        "notification",
+        "warning",
+        "milestone",
+        "goal",
+        "notice",
+        "signal",
+        "attention",
+        "banner"
       ],
       "categories": [
-        "账号与访问",
-        "社交"
+        "Accounts & access",
+        "Social"
       ]
     }
   }

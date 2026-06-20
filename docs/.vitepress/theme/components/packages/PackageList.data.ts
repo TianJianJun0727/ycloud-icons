@@ -1,18 +1,51 @@
 import packageDataList from '../../../data/packageData.json';
 import fetchPackages from '../../../lib/fetchPackages';
 
-const packageDescriptions: Record<string, string> = {
-  '@ycloud-web/icons': '面向 Web 和 JavaScript 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-react': '面向 React 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-vue': '面向 Vue 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-svelte': '面向 Svelte 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-solid': '面向 Solid 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-react-native': '面向 React Native 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-angular': '面向 Angular 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-preact': '面向 Preact 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-astro': '面向 Astro 应用的 YCloud Icons库包。',
-  '@ycloud-web/icons-static': 'YCloud Icons 的静态 SVG 和字体资源包。',
-  '@ycloud-web/icons-data': '包含标准化图标节点和元数据的 YCloud Icons数据包。',
+const packageDescriptions: Record<string, { zh: string; en: string }> = {
+  '@ycloud-web/icons': {
+    zh: '面向 Web 和 JavaScript 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for web and JavaScript applications.',
+  },
+  '@ycloud-web/icons-react': {
+    zh: '面向 React 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for React applications.',
+  },
+  '@ycloud-web/icons-vue': {
+    zh: '面向 Vue 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Vue applications.',
+  },
+  '@ycloud-web/icons-svelte': {
+    zh: '面向 Svelte 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Svelte applications.',
+  },
+  '@ycloud-web/icons-solid': {
+    zh: '面向 Solid 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Solid applications.',
+  },
+  '@ycloud-web/icons-react-native': {
+    zh: '面向 React Native 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for React Native applications.',
+  },
+  '@ycloud-web/icons-angular': {
+    zh: '面向 Angular 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Angular applications.',
+  },
+  '@ycloud-web/icons-preact': {
+    zh: '面向 Preact 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Preact applications.',
+  },
+  '@ycloud-web/icons-astro': {
+    zh: '面向 Astro 应用的 YCloud Icons 库包。',
+    en: 'YCloud Icons package for Astro applications.',
+  },
+  '@ycloud-web/icons-static': {
+    zh: 'YCloud Icons 的静态 SVG 和字体资源包。',
+    en: 'Static SVG, sprite, and icon font assets for YCloud Icons.',
+  },
+  '@ycloud-web/icons-data': {
+    zh: '包含标准化图标节点和元数据的 YCloud Icons 数据包。',
+    en: 'YCloud Icons data package with normalized icon nodes and metadata.',
+  },
 };
 
 export default {
@@ -27,7 +60,8 @@ export default {
           return {
             ...pJson,
             ...packageData,
-            description: packageDescriptions[pJson.name] ?? pJson.description,
+            description: packageDescriptions[pJson.name]?.zh ?? pJson.description,
+            descriptionEn: packageDescriptions[pJson.name]?.en ?? pJson.description,
             documentation:
               packageData.documentation ?? `/guide/${packageData.docsAlias ?? pJson.name}`,
             source: `https://github.com/TianJianJun0727/ycloud-icons/tree/main/${pJson.repository?.directory ?? `packages/${packageData.packageDirname ?? pJson.name}`}`,

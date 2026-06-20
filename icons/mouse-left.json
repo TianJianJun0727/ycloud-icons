@@ -7,24 +7,25 @@
     "marvfash"
   ],
   "use-cases": [],
+  "name": "鼠标左",
   "tags": [
-    "device",
-    "scroll",
-    "click"
+    "设备",
+    "滚动",
+    "点击"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼠标左",
+    "en": {
+      "name": "mouse left",
       "tags": [
-        "设备",
-        "滚动",
-        "点击"
+        "device",
+        "scroll",
+        "click"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

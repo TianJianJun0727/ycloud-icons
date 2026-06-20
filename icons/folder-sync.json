@@ -5,30 +5,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹同步",
   "tags": [
-    "directory",
-    "synchronize",
-    "synchronise",
-    "refresh",
-    "reconnect",
-    "transfer",
-    "backup"
+    "刷新",
+    "备份",
+    "目录"
   ],
   "categories": [
     "files",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹同步",
+    "en": {
+      "name": "folder sync",
       "tags": [
-        "刷新",
-        "备份",
-        "目录"
+        "directory",
+        "synchronize",
+        "synchronise",
+        "refresh",
+        "reconnect",
+        "transfer",
+        "backup"
       ],
       "categories": [
-        "文件",
-        "箭头"
+        "File icons",
+        "Arrows"
       ]
     }
   }

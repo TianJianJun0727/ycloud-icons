@@ -5,15 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形斜杠",
   "tags": [
-    "git",
-    "diff",
-    "ignored",
-    "divide",
-    "division",
-    "shortcut",
-    "or",
-    "/"
+    "差异",
+    "除号"
   ],
   "categories": [
     "development",
@@ -28,15 +23,21 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形斜杠",
+    "en": {
+      "name": "square slash",
       "tags": [
-        "差异",
-        "除号"
+        "git",
+        "diff",
+        "ignored",
+        "divide",
+        "division",
+        "shortcut",
+        "or",
+        "/"
       ],
       "categories": [
-        "编码与开发",
-        "数学"
+        "Coding & development",
+        "Mathematics"
       ]
     }
   }

@@ -6,26 +6,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "衬衫",
   "tags": [
-    "t-shirt",
-    "shopping",
-    "store",
-    "clothing",
-    "clothes"
+    "t衬衫",
+    "购物",
+    "商店"
   ],
   "categories": [
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "衬衫",
+    "en": {
+      "name": "shirt",
       "tags": [
-        "t衬衫",
-        "购物",
-        "商店"
+        "t-shirt",
+        "shopping",
+        "store",
+        "clothing",
+        "clothes"
       ],
       "categories": [
-        "购物"
+        "Shopping"
       ]
     }
   }

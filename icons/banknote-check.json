@@ -7,45 +7,46 @@
     "confirm a paid product",
     "confirm a payment method was added successfully"
   ],
+  "name": "纸币勾选",
   "tags": [
-    "banknote",
-    "bill",
-    "currency",
-    "payment",
-    "money",
-    "finance",
-    "document",
-    "verification",
-    "tick",
-    "verified",
-    "accepted",
-    "done",
-    "complete",
-    "found",
-    "paid",
-    "task",
-    "check",
-    "success"
+    "纸币",
+    "货币",
+    "支付",
+    "金融",
+    "勾选",
+    "完成",
+    "任务",
+    "文档",
+    "已验证"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "纸币勾选",
+    "en": {
+      "name": "banknote check",
       "tags": [
-        "纸币",
-        "货币",
-        "支付",
-        "金融",
-        "勾选",
-        "完成",
-        "任务",
-        "文档",
-        "已验证"
+        "banknote",
+        "bill",
+        "currency",
+        "payment",
+        "money",
+        "finance",
+        "document",
+        "verification",
+        "tick",
+        "verified",
+        "accepted",
+        "done",
+        "complete",
+        "found",
+        "paid",
+        "task",
+        "check",
+        "success"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

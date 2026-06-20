@@ -5,16 +5,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "铁砧",
   "tags": [
-    "metal",
-    "iron",
-    "alloy",
-    "materials",
-    "heavy",
-    "weight",
-    "blacksmith",
-    "forge",
-    "acme"
+    "金属",
+    "重量"
   ],
   "categories": [
     "buildings",
@@ -22,16 +16,23 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "铁砧",
+    "en": {
+      "name": "anvil",
       "tags": [
-        "金属",
-        "重量"
+        "metal",
+        "iron",
+        "alloy",
+        "materials",
+        "heavy",
+        "weight",
+        "blacksmith",
+        "forge",
+        "acme"
       ],
       "categories": [
-        "建筑",
-        "工具",
-        "游戏"
+        "Buildings",
+        "Tools",
+        "Gaming"
       ]
     }
   }

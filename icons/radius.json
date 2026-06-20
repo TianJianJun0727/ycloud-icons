@@ -5,15 +5,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "半径",
   "tags": [
-    "shape",
-    "circle",
-    "geometry",
-    "trigonometry",
-    "radii",
-    "calculate",
-    "measure",
-    "size"
+    "圆形",
+    "计算",
+    "形状"
   ],
   "categories": [
     "shapes",
@@ -22,18 +18,23 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "半径",
+    "en": {
+      "name": "radius",
       "tags": [
-        "圆形",
-        "计算",
-        "形状"
+        "shape",
+        "circle",
+        "geometry",
+        "trigonometry",
+        "radii",
+        "calculate",
+        "measure",
+        "size"
       ],
       "categories": [
-        "形状",
-        "数学",
-        "设计",
-        "工具"
+        "Shapes",
+        "Mathematics",
+        "Design",
+        "Tools"
       ]
     }
   }

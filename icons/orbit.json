@@ -6,25 +6,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "轨道",
   "tags": [
-    "planet",
-    "space",
-    "physics",
-    "satellites",
-    "moons"
+    "间距",
+    "物理"
   ],
   "categories": [
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "轨道",
+    "en": {
+      "name": "orbit",
       "tags": [
-        "间距",
-        "物理"
+        "planet",
+        "space",
+        "physics",
+        "satellites",
+        "moons"
       ],
       "categories": [
-        "科学"
+        "Science"
       ]
     }
   }

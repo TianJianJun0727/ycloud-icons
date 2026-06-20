@@ -5,14 +5,12 @@
     "vexkiddy"
   ],
   "use-cases": [],
+  "name": "扫描二维码代码",
   "tags": [
-    "barcode",
-    "scan",
-    "qrcode",
-    "url",
-    "information",
-    "digital",
-    "scanner"
+    "条码",
+    "扫描",
+    "链接",
+    "信息"
   ],
   "categories": [
     "account",
@@ -21,19 +19,22 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描二维码代码",
+    "en": {
+      "name": "scan qr code",
       "tags": [
-        "条码",
-        "扫描",
-        "链接",
-        "信息"
+        "barcode",
+        "scan",
+        "qrcode",
+        "url",
+        "information",
+        "digital",
+        "scanner"
       ],
       "categories": [
-        "账号与访问",
-        "购物",
-        "设备",
-        "安全"
+        "Accounts & access",
+        "Shopping",
+        "Devices",
+        "Security"
       ]
     }
   }

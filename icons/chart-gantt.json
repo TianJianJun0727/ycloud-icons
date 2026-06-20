@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "图表甘特图",
   "tags": [
-    "diagram",
-    "graph",
-    "timeline",
-    "planning"
+    "图形",
+    "时间线"
   ],
   "categories": [
     "charts"
   ],
   "i18n": {
-    "zh": {
-      "name": "图表甘特图",
+    "en": {
+      "name": "chart gantt",
       "tags": [
-        "图形",
-        "时间线"
+        "diagram",
+        "graph",
+        "timeline",
+        "planning"
       ],
       "categories": [
-        "图表"
+        "Charts"
       ]
     }
   }

@@ -8,17 +8,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "铅笔",
   "tags": [
-    "rubber",
-    "edit",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
-    "writer",
-    "writing",
-    "stationery",
-    "artist"
+    "编辑",
+    "创建",
+    "草稿",
+    "文具"
   ],
   "categories": [
     "design",
@@ -27,19 +22,25 @@
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "铅笔",
+    "en": {
+      "name": "pencil",
       "tags": [
-        "编辑",
-        "创建",
-        "草稿",
-        "文具"
+        "rubber",
+        "edit",
+        "create",
+        "draw",
+        "sketch",
+        "draft",
+        "writer",
+        "writing",
+        "stationery",
+        "artist"
       ],
       "categories": [
-        "设计",
-        "光标",
-        "工具",
-        "文本格式"
+        "Design",
+        "Cursors",
+        "Tools",
+        "Text formatting"
       ]
     }
   }

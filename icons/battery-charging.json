@@ -9,28 +9,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "电池充电",
   "tags": [
-    "power",
-    "electricity",
-    "energy",
-    "accumulator",
-    "charge"
+    "电源",
+    "电力",
+    "能源"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "电池充电",
+    "en": {
+      "name": "battery charging",
       "tags": [
-        "电源",
-        "电力",
-        "能源"
+        "power",
+        "electricity",
+        "energy",
+        "accumulator",
+        "charge"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

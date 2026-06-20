@@ -4,19 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "餐具交叉",
   "tags": [
-    "fork",
-    "knife",
-    "cutlery",
-    "flatware",
-    "tableware",
-    "silverware",
-    "food",
-    "restaurant",
-    "meal",
-    "breakfast",
-    "dinner",
-    "supper"
+    "分叉",
+    "刀",
+    "食物"
   ],
   "categories": [
     "food-beverage",
@@ -32,17 +24,26 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "餐具交叉",
+    "en": {
+      "name": "utensils crossed",
       "tags": [
-        "分叉",
-        "刀",
-        "食物"
+        "fork",
+        "knife",
+        "cutlery",
+        "flatware",
+        "tableware",
+        "silverware",
+        "food",
+        "restaurant",
+        "meal",
+        "breakfast",
+        "dinner",
+        "supper"
       ],
       "categories": [
-        "餐饮",
-        "旅行",
-        "导航与地点"
+        "Food & beverage",
+        "Travel",
+        "Navigation & Places"
       ]
     }
   }

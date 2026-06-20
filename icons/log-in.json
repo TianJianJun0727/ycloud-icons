@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "日志进入",
   "tags": [
-    "sign in",
-    "arrow",
-    "enter",
-    "auth"
+    "标志进入",
+    "箭头",
+    "进入"
   ],
   "categories": [
     "arrows",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "日志进入",
+    "en": {
+      "name": "log in",
       "tags": [
-        "标志进入",
-        "箭头",
-        "进入"
+        "sign in",
+        "arrow",
+        "enter",
+        "auth"
       ],
       "categories": [
-        "箭头",
-        "账号与访问"
+        "Arrows",
+        "Accounts & access"
       ]
     }
   }

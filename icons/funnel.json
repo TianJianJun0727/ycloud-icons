@@ -7,9 +7,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "漏斗",
   "tags": [
-    "filter",
-    "hopper"
+    "筛选"
   ],
   "categories": [
     "layout"
@@ -23,13 +23,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "漏斗",
+    "en": {
+      "name": "funnel",
       "tags": [
-        "筛选"
+        "filter",
+        "hopper"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -7,44 +7,45 @@
     "Veatec22"
   ],
   "use-cases": [],
+  "name": "搜索告警",
   "tags": [
-    "find",
-    "scan",
-    "magnifier",
-    "magnifying glass",
-    "stop",
-    "warning",
-    "alert",
-    "error",
-    "anomaly",
-    "lens",
-    "locate",
-    "explore",
-    "discover",
-    "enlarge",
-    "zoom"
+    "扫描",
+    "magnifying玻璃杯",
+    "停止",
+    "警告",
+    "告警",
+    "错误",
+    "镜头",
+    "定位",
+    "缩放"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "搜索告警",
+    "en": {
+      "name": "search alert",
       "tags": [
-        "扫描",
-        "magnifying玻璃杯",
-        "停止",
-        "警告",
-        "告警",
-        "错误",
-        "镜头",
-        "定位",
-        "缩放"
+        "find",
+        "scan",
+        "magnifier",
+        "magnifying glass",
+        "stop",
+        "warning",
+        "alert",
+        "error",
+        "anomaly",
+        "lens",
+        "locate",
+        "explore",
+        "discover",
+        "enlarge",
+        "zoom"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "灌木",
   "tags": [
-    "forest",
-    "undergrowth",
-    "park",
-    "nature"
+    "自然"
   ],
   "categories": [
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "灌木",
+    "en": {
+      "name": "shrub",
       "tags": [
-        "自然"
+        "forest",
+        "undergrowth",
+        "park",
+        "nature"
       ],
       "categories": [
-        "自然"
+        "Nature"
       ]
     }
   }

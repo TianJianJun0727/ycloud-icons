@@ -10,31 +10,32 @@
     "saving a new copy of a file or document",
     "creating a new item by saving the current work"
   ],
+  "name": "保存加号",
   "tags": [
-    "floppy disk",
-    "save",
-    "plus",
-    "add",
-    "update",
-    "create"
+    "保存",
+    "加号",
+    "添加",
+    "创建",
+    "软盘"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "保存加号",
+    "en": {
+      "name": "save plus",
       "tags": [
-        "保存",
-        "加号",
-        "添加",
-        "创建",
-        "软盘"
+        "floppy disk",
+        "save",
+        "plus",
+        "add",
+        "update",
+        "create"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

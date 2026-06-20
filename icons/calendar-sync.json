@@ -7,39 +7,40 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "日历同步",
   "tags": [
-    "repeat",
-    "refresh",
-    "reconnect",
-    "transfer",
-    "backup",
-    "date",
-    "month",
-    "year",
-    "event",
-    "subscribe",
-    "recurring",
-    "schedule",
-    "reminder",
-    "automatic",
-    "auto"
+    "重复",
+    "刷新",
+    "备份",
+    "日期"
   ],
   "categories": [
     "arrows",
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历同步",
+    "en": {
+      "name": "calendar sync",
       "tags": [
-        "重复",
-        "刷新",
-        "备份",
-        "日期"
+        "repeat",
+        "refresh",
+        "reconnect",
+        "transfer",
+        "backup",
+        "date",
+        "month",
+        "year",
+        "event",
+        "subscribe",
+        "recurring",
+        "schedule",
+        "reminder",
+        "automatic",
+        "auto"
       ],
       "categories": [
-        "箭头",
-        "时间与日历"
+        "Arrows",
+        "Time & calendar"
       ]
     }
   }

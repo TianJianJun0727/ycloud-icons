@@ -4,14 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形箭头外部上左",
   "tags": [
-    "outwards",
-    "direction",
-    "north-west",
-    "diagonal",
-    "keyboard",
-    "button",
-    "escape"
+    "方向",
+    "对角线",
+    "键盘"
   ],
   "categories": [
     "arrows",
@@ -26,16 +23,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形箭头外部上左",
+    "en": {
+      "name": "circle arrow out up left",
       "tags": [
-        "方向",
-        "对角线",
-        "键盘"
+        "outwards",
+        "direction",
+        "north-west",
+        "diagonal",
+        "keyboard",
+        "button",
+        "escape"
       ],
       "categories": [
-        "箭头",
-        "编码与开发"
+        "Arrows",
+        "Coding & development"
       ]
     }
   }

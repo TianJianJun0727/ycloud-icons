@@ -7,19 +7,15 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "相机",
   "tags": [
-    "photography",
-    "lens",
-    "focus",
-    "capture",
-    "shot",
-    "visual",
-    "image",
-    "device",
-    "equipment",
-    "photo",
-    "webcam",
-    "video"
+    "镜头",
+    "聚焦",
+    "图片",
+    "设备",
+    "照片",
+    "摄像头",
+    "视频"
   ],
   "categories": [
     "photography",
@@ -27,21 +23,26 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "相机",
+    "en": {
+      "name": "camera",
       "tags": [
-        "镜头",
-        "聚焦",
-        "图片",
-        "设备",
-        "照片",
-        "摄像头",
-        "视频"
+        "photography",
+        "lens",
+        "focus",
+        "capture",
+        "shot",
+        "visual",
+        "image",
+        "device",
+        "equipment",
+        "photo",
+        "webcam",
+        "video"
       ],
       "categories": [
-        "摄影",
-        "设备",
-        "沟通"
+        "Photography",
+        "Devices",
+        "Communication"
       ]
     }
   }

@@ -6,26 +6,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "旋转逆时针钥匙",
   "tags": [
-    "password",
-    "key",
-    "refresh",
-    "change"
+    "钥匙",
+    "刷新"
   ],
   "categories": [
     "security",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "旋转逆时针钥匙",
+    "en": {
+      "name": "rotate ccw key",
       "tags": [
-        "钥匙",
-        "刷新"
+        "password",
+        "key",
+        "refresh",
+        "change"
       ],
       "categories": [
-        "安全",
-        "账号与访问"
+        "Security",
+        "Accounts & access"
       ]
     }
   }

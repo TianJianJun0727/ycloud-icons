@@ -7,25 +7,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "三角形",
   "tags": [
-    "equilateral",
-    "delta",
-    "shape",
-    "pyramid",
-    "hierarchy"
+    "金字塔",
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "三角形",
+    "en": {
+      "name": "triangle",
       "tags": [
-        "金字塔",
-        "形状"
+        "equilateral",
+        "delta",
+        "shape",
+        "pyramid",
+        "hierarchy"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

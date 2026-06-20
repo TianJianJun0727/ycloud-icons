@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "邮件加号",
   "tags": [
-    "email",
-    "message",
-    "letter",
-    "add",
-    "create",
-    "new",
-    "compose"
+    "消息",
+    "字母",
+    "添加",
+    "创建",
+    "新建",
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮件加号",
+    "en": {
+      "name": "mail plus",
       "tags": [
-        "消息",
-        "字母",
-        "添加",
-        "创建",
-        "新建",
-        "邮箱"
+        "email",
+        "message",
+        "letter",
+        "add",
+        "create",
+        "new",
+        "compose"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

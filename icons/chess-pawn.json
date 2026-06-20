@@ -4,23 +4,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "国际象棋兵",
   "tags": [
-    "piece",
-    "board game"
+    "面板game"
   ],
   "categories": [
     "gaming",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "国际象棋兵",
+    "en": {
+      "name": "chess pawn",
       "tags": [
-        "面板game"
+        "piece",
+        "board game"
       ],
       "categories": [
-        "游戏",
-        "表情"
+        "Gaming",
+        "Emoji"
       ]
     }
   }

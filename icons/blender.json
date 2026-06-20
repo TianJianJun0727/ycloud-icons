@@ -4,49 +4,50 @@
     "rrod497"
   ],
   "use-cases": [],
+  "name": "搅拌机",
   "tags": [
-    "mixer",
-    "appliances",
-    "food",
-    "liquid",
-    "juicer",
-    "vitamizer",
-    "mix",
-    "emulsify",
-    "smoothie",
-    "drink",
-    "blade",
-    "container",
-    "kitchen",
-    "milkshake",
-    "cocktail",
-    "beverage",
-    "culinary",
-    "shredder",
-    "processor",
-    "cooking",
-    "recipe",
-    "chef",
-    "restaurant"
+    "食物",
+    "饮品",
+    "容器",
+    "碎纸机",
+    "烹饪",
+    "厨师"
   ],
   "categories": [
     "food-beverage",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "搅拌机",
+    "en": {
+      "name": "blender",
       "tags": [
-        "食物",
-        "饮品",
-        "容器",
-        "碎纸机",
-        "烹饪",
-        "厨师"
+        "mixer",
+        "appliances",
+        "food",
+        "liquid",
+        "juicer",
+        "vitamizer",
+        "mix",
+        "emulsify",
+        "smoothie",
+        "drink",
+        "blade",
+        "container",
+        "kitchen",
+        "milkshake",
+        "cocktail",
+        "beverage",
+        "culinary",
+        "shredder",
+        "processor",
+        "cooking",
+        "recipe",
+        "chef",
+        "restaurant"
       ],
       "categories": [
-        "餐饮",
-        "家居"
+        "Food & beverage",
+        "Home"
       ]
     }
   }

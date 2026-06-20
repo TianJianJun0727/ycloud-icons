@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件符号链接",
   "tags": [
-    "symlink",
-    "symbolic",
-    "link"
+    "符号链接",
+    "链接"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件符号链接",
+    "en": {
+      "name": "file symlink",
       "tags": [
-        "符号链接",
-        "链接"
+        "symlink",
+        "symbolic",
+        "link"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

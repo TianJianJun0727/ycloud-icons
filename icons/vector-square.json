@@ -5,18 +5,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "矢量方形",
   "tags": [
-    "shape",
-    "geometry",
-    "art",
-    "width",
-    "height",
-    "size",
-    "calculate",
-    "measure",
-    "select",
-    "graphics",
-    "box"
+    "计算",
+    "选择",
+    "盒子",
+    "形状"
   ],
   "categories": [
     "shapes",
@@ -25,19 +19,26 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "矢量方形",
+    "en": {
+      "name": "vector square",
       "tags": [
-        "计算",
-        "选择",
-        "盒子",
-        "形状"
+        "shape",
+        "geometry",
+        "art",
+        "width",
+        "height",
+        "size",
+        "calculate",
+        "measure",
+        "select",
+        "graphics",
+        "box"
       ],
       "categories": [
-        "形状",
-        "数学",
-        "设计",
-        "工具"
+        "Shapes",
+        "Mathematics",
+        "Design",
+        "Tools"
       ]
     }
   }

@@ -4,31 +4,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "帽子眼镜",
   "tags": [
-    "incognito",
-    "disguise",
-    "costume",
-    "masked",
-    "anonymous",
-    "anonymity",
-    "privacy",
-    "private browsing",
-    "stealth",
-    "hidden",
-    "undercover",
-    "cloak",
-    "invisible",
-    "ghost",
-    "spy",
-    "agent",
-    "detective",
-    "identity",
-    "cap",
-    "fedora",
-    "spectacles",
-    "shades",
-    "sunglasses",
-    "eyewear"
+    "幽灵",
+    "帽子"
   ],
   "categories": [
     "social",
@@ -36,16 +15,38 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "帽子眼镜",
+    "en": {
+      "name": "hat glasses",
       "tags": [
-        "幽灵",
-        "帽子"
+        "incognito",
+        "disguise",
+        "costume",
+        "masked",
+        "anonymous",
+        "anonymity",
+        "privacy",
+        "private browsing",
+        "stealth",
+        "hidden",
+        "undercover",
+        "cloak",
+        "invisible",
+        "ghost",
+        "spy",
+        "agent",
+        "detective",
+        "identity",
+        "cap",
+        "fedora",
+        "spectacles",
+        "shades",
+        "sunglasses",
+        "eyewear"
       ],
       "categories": [
-        "社交",
-        "账号与访问",
-        "安全"
+        "Social",
+        "Accounts & access",
+        "Security"
       ]
     }
   }

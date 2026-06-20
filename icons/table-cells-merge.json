@@ -4,25 +4,26 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "表格单元格合并",
   "tags": [
-    "spreadsheet",
-    "grid",
-    "row"
+    "电子表格",
+    "网格"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "表格单元格合并",
+    "en": {
+      "name": "table cells merge",
       "tags": [
-        "电子表格",
-        "网格"
+        "spreadsheet",
+        "grid",
+        "row"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

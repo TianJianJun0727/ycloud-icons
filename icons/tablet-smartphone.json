@@ -4,12 +4,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "平板智能手机",
   "tags": [
-    "responsive",
-    "screens",
-    "browser",
-    "testing",
-    "mobile"
+    "测试"
   ],
   "categories": [
     "devices",
@@ -18,16 +15,20 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "平板智能手机",
+    "en": {
+      "name": "tablet smartphone",
       "tags": [
-        "测试"
+        "responsive",
+        "screens",
+        "browser",
+        "testing",
+        "mobile"
       ],
       "categories": [
-        "设备",
-        "设计",
-        "编码与开发",
-        "工具"
+        "Devices",
+        "Design",
+        "Coding & development",
+        "Tools"
       ]
     }
   }

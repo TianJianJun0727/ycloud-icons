@@ -4,37 +4,38 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "螺栓",
   "tags": [
-    "nut",
-    "screw",
-    "settings",
-    "preferences",
-    "configuration",
-    "controls",
-    "edit",
-    "diy",
-    "fixed",
-    "build",
-    "construction",
-    "parts"
+    "螺母",
+    "设置",
+    "编辑",
+    "固定",
+    "施工"
   ],
   "categories": [
     "tools",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "螺栓",
+    "en": {
+      "name": "bolt",
       "tags": [
-        "螺母",
-        "设置",
-        "编辑",
-        "固定",
-        "施工"
+        "nut",
+        "screw",
+        "settings",
+        "preferences",
+        "configuration",
+        "controls",
+        "edit",
+        "diy",
+        "fixed",
+        "build",
+        "construction",
+        "parts"
       ],
       "categories": [
-        "工具",
-        "家居"
+        "Tools",
+        "Home"
       ]
     }
   }

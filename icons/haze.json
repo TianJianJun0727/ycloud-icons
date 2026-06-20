@@ -4,21 +4,22 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "雾霾",
   "tags": [
-    "mist",
-    "fog"
+    "雾"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "雾霾",
+    "en": {
+      "name": "haze",
       "tags": [
-        "雾"
+        "mist",
+        "fog"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

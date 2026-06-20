@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "拼写勾选2",
   "tags": [
-    "spelling",
-    "error",
-    "mistake",
-    "oversight",
-    "typo",
-    "correction",
-    "code",
-    "linter",
-    "a"
+    "错误",
+    "代码"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "拼写勾选2",
+    "en": {
+      "name": "spell check 2",
       "tags": [
-        "错误",
-        "代码"
+        "spelling",
+        "error",
+        "mistake",
+        "oversight",
+        "typo",
+        "correction",
+        "code",
+        "linter",
+        "a"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

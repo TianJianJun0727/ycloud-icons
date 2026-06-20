@@ -6,22 +6,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "保存",
   "tags": [
-    "floppy disk"
+    "软盘"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "保存",
+    "en": {
+      "name": "save",
       "tags": [
-        "软盘"
+        "floppy disk"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

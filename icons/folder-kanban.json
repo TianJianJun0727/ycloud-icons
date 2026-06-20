@@ -4,24 +4,15 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件夹看板",
   "tags": [
-    "projects",
-    "manage",
-    "overview",
-    "board",
-    "tickets",
-    "issues",
-    "roadmap",
-    "plan",
-    "intentions",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding",
-    "directory",
-    "project",
-    "root"
+    "面板",
+    "票券",
+    "代码",
+    "项目",
+    "根",
+    "电路板",
+    "目录"
   ],
   "categories": [
     "charts",
@@ -30,22 +21,32 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹看板",
+    "en": {
+      "name": "folder kanban",
       "tags": [
-        "面板",
-        "票券",
-        "代码",
-        "项目",
-        "根",
-        "电路板",
-        "目录"
+        "projects",
+        "manage",
+        "overview",
+        "board",
+        "tickets",
+        "issues",
+        "roadmap",
+        "plan",
+        "intentions",
+        "productivity",
+        "work",
+        "agile",
+        "code",
+        "coding",
+        "directory",
+        "project",
+        "root"
       ],
       "categories": [
-        "图表",
-        "编码与开发",
-        "设计",
-        "文件"
+        "Charts",
+        "Coding & development",
+        "Design",
+        "File icons"
       ]
     }
   }

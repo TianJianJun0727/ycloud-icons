@@ -5,41 +5,42 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "桶",
   "tags": [
-    "keg",
-    "drum",
-    "tank",
-    "wine",
-    "beer",
-    "oak",
-    "wood",
-    "firkin",
-    "hogshead",
-    "kilderkin",
-    "barrique",
-    "solera",
-    "aging",
-    "whiskey",
-    "brewery",
-    "distillery",
-    "winery",
-    "vineyard"
+    "鼓",
+    "葡萄酒",
+    "啤酒"
   ],
   "categories": [
     "food-beverage",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "桶",
+    "en": {
+      "name": "barrel",
       "tags": [
-        "鼓",
-        "葡萄酒",
-        "啤酒"
+        "keg",
+        "drum",
+        "tank",
+        "wine",
+        "beer",
+        "oak",
+        "wood",
+        "firkin",
+        "hogshead",
+        "kilderkin",
+        "barrique",
+        "solera",
+        "aging",
+        "whiskey",
+        "brewery",
+        "distillery",
+        "winery",
+        "vineyard"
       ],
       "categories": [
-        "餐饮",
-        "导航与地点"
+        "Food & beverage",
+        "Navigation & Places"
       ]
     }
   }

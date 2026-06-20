@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { useData } from 'vitepress';
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue';
 
 const props = defineProps<{
@@ -7,6 +8,10 @@ const props = defineProps<{
   title?: string;
   desc?: string;
 }>();
+
+const { page } = useData();
+
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 const textMap: Record<string, string> = {
   Overview: '概览',
@@ -72,9 +77,19 @@ const descMap: Record<string, string> = {
   'Using content template element with ycloud': '在 YCloud Icons 中使用内容模板元素。',
 };
 
-const localizedTitle = computed(() => (props.title ? textMap[props.title] ?? props.title : ''));
-const localizedDesc = computed(() => (props.desc ? descMap[props.desc] ?? props.desc : ''));
-const resolvedHref = computed(() => props.href);
+const localizedTitle = computed(() => {
+  if (!props.title) return '';
+  return isEnglish.value ? props.title : textMap[props.title] ?? props.title;
+});
+const localizedDesc = computed(() => {
+  if (!props.desc) return '';
+  return isEnglish.value ? props.desc : descMap[props.desc] ?? props.desc;
+});
+const resolvedHref = computed(() => {
+  if (!isEnglish.value || !props.href?.startsWith('/')) return props.href;
+  if (props.href.startsWith('/en/')) return props.href;
+  return `/en${props.href}`;
+});
 </script>
 
 <template>

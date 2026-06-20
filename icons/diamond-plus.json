@@ -4,25 +4,23 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "菱形加号",
   "tags": [
-    "keyframe",
-    "add",
-    "new",
-    "increase",
-    "increment",
-    "positive",
-    "calculate",
-    "toolbar",
-    "crosshair",
-    "aim",
-    "target",
-    "scope",
-    "sight",
-    "reticule",
-    "maximum",
-    "upgrade",
-    "extra",
-    "+"
+    "添加",
+    "新建",
+    "增加",
+    "递增",
+    "正向",
+    "计算",
+    "工具栏",
+    "准星",
+    "瞄准",
+    "目标",
+    "瞄准镜",
+    "视线",
+    "最大值",
+    "升级",
+    "额外"
   ],
   "categories": [
     "multimedia",
@@ -31,30 +29,33 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "菱形加号",
+    "en": {
+      "name": "diamond plus",
       "tags": [
-        "添加",
-        "新建",
-        "增加",
-        "递增",
-        "正向",
-        "计算",
-        "工具栏",
-        "准星",
-        "瞄准",
-        "目标",
-        "瞄准镜",
-        "视线",
-        "最大值",
-        "升级",
-        "额外"
+        "keyframe",
+        "add",
+        "new",
+        "increase",
+        "increment",
+        "positive",
+        "calculate",
+        "toolbar",
+        "crosshair",
+        "aim",
+        "target",
+        "scope",
+        "sight",
+        "reticule",
+        "maximum",
+        "upgrade",
+        "extra",
+        "+"
       ],
       "categories": [
-        "多媒体",
-        "摄影",
-        "工具",
-        "设备"
+        "Multimedia",
+        "Photography",
+        "Tools",
+        "Devices"
       ]
     }
   }

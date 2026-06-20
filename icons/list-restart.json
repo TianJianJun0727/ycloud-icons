@@ -5,27 +5,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表重启",
   "tags": [
-    "reset",
-    "refresh",
-    "reload",
-    "playlist",
-    "replay"
+    "重置",
+    "刷新"
   ],
   "categories": [
     "multimedia",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表重启",
+    "en": {
+      "name": "list restart",
       "tags": [
-        "重置",
-        "刷新"
+        "reset",
+        "refresh",
+        "reload",
+        "playlist",
+        "replay"
       ],
       "categories": [
-        "多媒体",
-        "文本格式"
+        "Multimedia",
+        "Text formatting"
       ]
     }
   }

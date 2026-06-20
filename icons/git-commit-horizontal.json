@@ -6,12 +6,11 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "Git提交水平",
   "tags": [
-    "code",
-    "version control",
-    "waypoint",
-    "stop",
-    "station"
+    "代码",
+    "version控制",
+    "停止"
   ],
   "categories": [
     "development",
@@ -26,16 +25,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "Git提交水平",
+    "en": {
+      "name": "git commit horizontal",
       "tags": [
-        "代码",
-        "version控制",
-        "停止"
+        "code",
+        "version control",
+        "waypoint",
+        "stop",
+        "station"
       ],
       "categories": [
-        "编码与开发",
-        "导航与地点"
+        "Coding & development",
+        "Navigation & Places"
       ]
     }
   }

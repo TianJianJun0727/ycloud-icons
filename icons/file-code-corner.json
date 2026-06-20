@@ -6,13 +6,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件代码角落",
   "tags": [
-    "script",
-    "document",
-    "html",
-    "xml",
-    "property list",
-    "plist"
+    "property列表",
+    "文档",
+    "HTML",
+    "XML"
   ],
   "categories": [
     "files",
@@ -27,17 +26,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件代码角落",
+    "en": {
+      "name": "file code corner",
       "tags": [
-        "property列表",
-        "文档",
-        "HTML",
-        "XML"
+        "script",
+        "document",
+        "html",
+        "xml",
+        "property list",
+        "plist"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -4,15 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形圆周率",
   "tags": [
-    "constant",
-    "code",
-    "coding",
-    "programming",
-    "symbol",
-    "trigonometry",
-    "geometry",
-    "formula"
+    "代码",
+    "符号",
+    "编程"
   ],
   "categories": [
     "development",
@@ -27,16 +23,21 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形圆周率",
+    "en": {
+      "name": "square pi",
       "tags": [
-        "代码",
-        "符号",
-        "编程"
+        "constant",
+        "code",
+        "coding",
+        "programming",
+        "symbol",
+        "trigonometry",
+        "geometry",
+        "formula"
       ],
       "categories": [
-        "编码与开发",
-        "数学"
+        "Coding & development",
+        "Mathematics"
       ]
     }
   }

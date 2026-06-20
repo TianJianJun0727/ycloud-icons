@@ -5,11 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形终端",
   "tags": [
-    "code",
-    "command line",
-    "prompt",
-    "shell"
+    "代码",
+    "命令线条",
+    "外壳"
   ],
   "categories": [
     "development"
@@ -23,15 +23,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形终端",
+    "en": {
+      "name": "square terminal",
       "tags": [
-        "代码",
-        "命令线条",
-        "外壳"
+        "code",
+        "command line",
+        "prompt",
+        "shell"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

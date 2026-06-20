@@ -7,25 +7,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "爱心关闭",
   "tags": [
-    "unlike",
-    "dislike",
-    "hate",
-    "emotion"
+    "情绪"
   ],
   "categories": [
     "social",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心关闭",
+    "en": {
+      "name": "heart off",
       "tags": [
-        "情绪"
+        "unlike",
+        "dislike",
+        "hate",
+        "emotion"
       ],
       "categories": [
-        "社交",
-        "多媒体"
+        "Social",
+        "Multimedia"
       ]
     }
   }

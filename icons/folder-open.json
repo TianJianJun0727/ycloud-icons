@@ -5,20 +5,21 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件夹打开",
   "tags": [
-    "directory"
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹打开",
+    "en": {
+      "name": "folder open",
       "tags": [
-        "目录"
+        "directory"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

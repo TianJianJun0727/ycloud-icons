@@ -6,24 +6,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "购物包",
   "tags": [
-    "ecommerce",
-    "cart",
-    "purchase",
-    "store"
+    "购物车",
+    "商店"
   ],
   "categories": [
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "购物包",
+    "en": {
+      "name": "shopping bag",
       "tags": [
-        "购物车",
-        "商店"
+        "ecommerce",
+        "cart",
+        "purchase",
+        "store"
       ],
       "categories": [
-        "购物"
+        "Shopping"
       ]
     }
   }

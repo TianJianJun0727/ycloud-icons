@@ -6,39 +6,40 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "波浪箭头下",
   "tags": [
-    "water",
-    "sea",
-    "level",
-    "sound",
-    "hertz",
-    "wavelength",
-    "vibrate",
-    "low",
-    "tide",
-    "ocean",
-    "rising",
-    "down",
-    "falling"
+    "水",
+    "振动",
+    "低",
+    "下",
+    "声音",
+    "向下"
   ],
   "categories": [
     "weather",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "波浪箭头下",
+    "en": {
+      "name": "waves arrow down",
       "tags": [
-        "水",
-        "振动",
-        "低",
-        "下",
-        "声音",
-        "向下"
+        "water",
+        "sea",
+        "level",
+        "sound",
+        "hertz",
+        "wavelength",
+        "vibrate",
+        "low",
+        "tide",
+        "ocean",
+        "rising",
+        "down",
+        "falling"
       ],
       "categories": [
-        "天气",
-        "可持续"
+        "Weather",
+        "Sustainability"
       ]
     }
   }

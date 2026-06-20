@@ -8,54 +8,55 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "汉堡",
   "tags": [
-    "burger",
-    "cheeseburger",
-    "meat",
-    "beef",
-    "patty",
-    "bun",
-    "fast food",
-    "junk food",
-    "takeaway",
-    "takeout",
-    "snack",
-    "dish",
-    "restaurant",
-    "lunch",
-    "meal",
-    "savory",
-    "savoury",
-    "cookery",
-    "cooking",
-    "grilled",
-    "barbecue",
-    "barbeque",
-    "bbq",
-    "lettuce",
-    "tomato",
-    "relish",
-    "pickles",
-    "onions",
-    "ketchup",
-    "mustard",
-    "mayonnaise"
+    "牛肉",
+    "快速食物",
+    "junk食物",
+    "盘子",
+    "烹饪"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "汉堡",
+    "en": {
+      "name": "hamburger",
       "tags": [
-        "牛肉",
-        "快速食物",
-        "junk食物",
-        "盘子",
-        "烹饪"
+        "burger",
+        "cheeseburger",
+        "meat",
+        "beef",
+        "patty",
+        "bun",
+        "fast food",
+        "junk food",
+        "takeaway",
+        "takeout",
+        "snack",
+        "dish",
+        "restaurant",
+        "lunch",
+        "meal",
+        "savory",
+        "savoury",
+        "cookery",
+        "cooking",
+        "grilled",
+        "barbecue",
+        "barbeque",
+        "bbq",
+        "lettuce",
+        "tomato",
+        "relish",
+        "pickles",
+        "onions",
+        "ketchup",
+        "mustard",
+        "mayonnaise"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

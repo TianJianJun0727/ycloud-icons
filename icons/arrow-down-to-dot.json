@@ -4,26 +4,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "箭头下到点",
   "tags": [
-    "direction",
-    "south",
-    "waypoint",
-    "location",
-    "step",
-    "into"
+    "方向",
+    "步骤"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下到点",
+    "en": {
+      "name": "arrow down to dot",
       "tags": [
-        "方向",
-        "步骤"
+        "direction",
+        "south",
+        "waypoint",
+        "location",
+        "step",
+        "into"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

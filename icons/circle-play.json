@@ -5,10 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "圆形播放",
   "tags": [
-    "music",
-    "start",
-    "run"
+    "音乐",
+    "起始"
   ],
   "categories": [
     "multimedia"
@@ -22,14 +22,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形播放",
+    "en": {
+      "name": "circle play",
       "tags": [
-        "音乐",
-        "起始"
+        "music",
+        "start",
+        "run"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

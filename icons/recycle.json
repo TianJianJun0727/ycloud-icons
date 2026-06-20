@@ -4,23 +4,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "回收",
   "tags": [
-    "sustainability",
-    "salvage",
-    "arrows"
+    "箭头",
+    "可持续"
   ],
   "categories": [
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "回收",
+    "en": {
+      "name": "recycle",
       "tags": [
-        "箭头",
-        "可持续"
+        "sustainability",
+        "salvage",
+        "arrows"
       ],
       "categories": [
-        "可持续"
+        "Sustainability"
       ]
     }
   }

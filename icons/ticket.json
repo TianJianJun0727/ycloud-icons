@@ -6,29 +6,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "票券",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "perforated",
-    "dashed"
+    "虚线"
   ],
   "categories": [
     "account",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券",
+    "en": {
+      "name": "ticket",
       "tags": [
-        "虚线"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "perforated",
+        "dashed"
       ],
       "categories": [
-        "账号与访问",
-        "交通"
+        "Accounts & access",
+        "Transportation"
       ]
     }
   }

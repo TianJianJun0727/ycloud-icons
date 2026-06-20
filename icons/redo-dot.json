@@ -5,29 +5,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "重做点",
   "tags": [
-    "redo",
-    "history",
-    "step",
-    "over",
-    "forward"
+    "重做",
+    "历史",
+    "步骤",
+    "前进"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "重做点",
+    "en": {
+      "name": "redo dot",
       "tags": [
-        "重做",
-        "历史",
-        "步骤",
-        "前进"
+        "redo",
+        "history",
+        "step",
+        "over",
+        "forward"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

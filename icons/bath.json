@@ -6,23 +6,24 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "浴缸",
   "tags": [
-    "amenities",
-    "services",
-    "bathroom",
-    "shower"
+    "淋浴"
   ],
   "categories": [
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "浴缸",
+    "en": {
+      "name": "bath",
       "tags": [
-        "淋浴"
+        "amenities",
+        "services",
+        "bathroom",
+        "shower"
       ],
       "categories": [
-        "旅行"
+        "Travel"
       ]
     }
   }

@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件夹钥匙",
   "tags": [
-    "directory",
-    "key",
-    "private",
-    "security",
-    "protected"
+    "钥匙",
+    "安全",
+    "目录"
   ],
   "categories": [
     "files",
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹钥匙",
+    "en": {
+      "name": "folder key",
       "tags": [
-        "钥匙",
-        "安全",
-        "目录"
+        "directory",
+        "key",
+        "private",
+        "security",
+        "protected"
       ],
       "categories": [
-        "文件",
-        "安全"
+        "File icons",
+        "Security"
       ]
     }
   }

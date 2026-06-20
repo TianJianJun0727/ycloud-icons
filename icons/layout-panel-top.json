@@ -4,29 +4,30 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局面板顶部",
   "tags": [
-    "window",
-    "webpage",
-    "block",
-    "section",
-    "grid",
-    "template",
-    "structure"
+    "窗口",
+    "分节",
+    "网格",
+    "模板"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局面板顶部",
+    "en": {
+      "name": "layout panel top",
       "tags": [
-        "窗口",
-        "分节",
-        "网格",
-        "模板"
+        "window",
+        "webpage",
+        "block",
+        "section",
+        "grid",
+        "template",
+        "structure"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

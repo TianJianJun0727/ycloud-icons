@@ -5,27 +5,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "多个与号",
   "tags": [
-    "and",
-    "operator",
-    "then",
-    "code",
-    "&&"
+    "与",
+    "代码"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "多个与号",
+    "en": {
+      "name": "ampersands",
       "tags": [
-        "与",
-        "代码"
+        "and",
+        "operator",
+        "then",
+        "code",
+        "&&"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

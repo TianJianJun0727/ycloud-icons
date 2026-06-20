@@ -10,28 +10,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "箭头大左",
   "tags": [
-    "previous",
-    "back",
-    "direction",
-    "west",
-    "indicate turn"
+    "上一个",
+    "返回",
+    "方向"
   ],
   "categories": [
     "arrows",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头大左",
+    "en": {
+      "name": "arrow big left",
       "tags": [
-        "上一个",
-        "返回",
-        "方向"
+        "previous",
+        "back",
+        "direction",
+        "west",
+        "indicate turn"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

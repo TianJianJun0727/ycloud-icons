@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件夹根",
   "tags": [
-    "directory",
-    "root",
-    "project",
-    "git",
-    "repo"
+    "根",
+    "项目",
+    "目录"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹根",
+    "en": {
+      "name": "folder root",
       "tags": [
-        "根",
-        "项目",
-        "目录"
+        "directory",
+        "root",
+        "project",
+        "git",
+        "repo"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -8,12 +8,12 @@
     "indicating the end of a time range",
     "unassign timing information"
   ],
+  "name": "时钟箭头右",
   "tags": [
-    "time",
-    "watch",
-    "alarm",
-    "range",
-    "unassign"
+    "时间",
+    "手表",
+    "闹钟",
+    "范围"
   ],
   "categories": [
     "time",
@@ -21,18 +21,19 @@
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "时钟箭头右",
+    "en": {
+      "name": "clock arrow right",
       "tags": [
-        "时间",
-        "手表",
-        "闹钟",
-        "范围"
+        "time",
+        "watch",
+        "alarm",
+        "range",
+        "unassign"
       ],
       "categories": [
-        "时间与日历",
-        "人物",
-        "箭头"
+        "Time & calendar",
+        "People",
+        "Arrows"
       ]
     }
   }

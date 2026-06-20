@@ -6,30 +6,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "橡皮擦",
   "tags": [
-    "pencil",
-    "drawing",
-    "undo",
-    "delete",
-    "clear",
-    "trash",
-    "remove"
+    "铅笔",
+    "撤销",
+    "删除",
+    "垃圾桶",
+    "移除"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "橡皮擦",
+    "en": {
+      "name": "eraser",
       "tags": [
-        "铅笔",
-        "撤销",
-        "删除",
-        "垃圾桶",
-        "移除"
+        "pencil",
+        "drawing",
+        "undo",
+        "delete",
+        "clear",
+        "trash",
+        "remove"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

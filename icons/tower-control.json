@@ -5,28 +5,29 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "塔控制",
   "tags": [
-    "airport",
-    "travel",
-    "tower",
-    "transportation",
-    "lighthouse"
+    "旅行",
+    "塔",
+    "交通"
   ],
   "categories": [
     "travel",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "塔控制",
+    "en": {
+      "name": "tower control",
       "tags": [
-        "旅行",
-        "塔",
-        "交通"
+        "airport",
+        "travel",
+        "tower",
+        "transportation",
+        "lighthouse"
       ],
       "categories": [
-        "旅行",
-        "交通"
+        "Travel",
+        "Transportation"
       ]
     }
   }

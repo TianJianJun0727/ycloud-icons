@@ -5,37 +5,38 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "时钟箭头下",
   "tags": [
-    "time",
-    "watch",
-    "alarm",
-    "sort",
-    "order",
-    "ascending",
-    "descending",
-    "increasing",
-    "decreasing",
-    "rising",
-    "falling"
+    "时间",
+    "手表",
+    "闹钟",
+    "排序",
+    "升序",
+    "降序",
+    "上升",
+    "下降"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "时钟箭头下",
+    "en": {
+      "name": "clock arrow down",
       "tags": [
-        "时间",
-        "手表",
-        "闹钟",
-        "排序",
-        "升序",
-        "降序",
-        "上升",
-        "下降"
+        "time",
+        "watch",
+        "alarm",
+        "sort",
+        "order",
+        "ascending",
+        "descending",
+        "increasing",
+        "decreasing",
+        "rising",
+        "falling"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

@@ -5,40 +5,41 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件音乐",
   "tags": [
-    "audio",
-    "sound",
-    "noise",
-    "track",
-    "digital",
-    "recording",
-    "playback",
-    "piano",
-    "keyboard",
-    "keys",
-    "notes",
-    "chord",
-    "midi",
-    "octave"
+    "音频",
+    "轨道",
+    "钢琴",
+    "键盘",
+    "便签",
+    "声音"
   ],
   "categories": [
     "files",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件音乐",
+    "en": {
+      "name": "file music",
       "tags": [
-        "音频",
-        "轨道",
-        "钢琴",
-        "键盘",
-        "便签",
-        "声音"
+        "audio",
+        "sound",
+        "noise",
+        "track",
+        "digital",
+        "recording",
+        "playback",
+        "piano",
+        "keyboard",
+        "keys",
+        "notes",
+        "chord",
+        "midi",
+        "octave"
       ],
       "categories": [
-        "文件",
-        "多媒体"
+        "File icons",
+        "Multimedia"
       ]
     }
   }

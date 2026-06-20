@@ -4,21 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "土地图",
   "tags": [
-    "area",
-    "surface",
-    "square metres",
-    "allotment",
-    "parcel",
-    "property",
-    "plane",
-    "acres",
-    "measure",
-    "distance",
-    "isometric",
-    "flag",
-    "golf course",
-    "hole"
+    "区域",
+    "方形metres",
+    "飞机",
+    "旗帜"
   ],
   "categories": [
     "design",
@@ -28,20 +19,30 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "土地图",
+    "en": {
+      "name": "land plot",
       "tags": [
-        "区域",
-        "方形metres",
-        "飞机",
-        "旗帜"
+        "area",
+        "surface",
+        "square metres",
+        "allotment",
+        "parcel",
+        "property",
+        "plane",
+        "acres",
+        "measure",
+        "distance",
+        "isometric",
+        "flag",
+        "golf course",
+        "hole"
       ],
       "categories": [
-        "设计",
-        "工具",
-        "数学",
-        "运动",
-        "游戏"
+        "Design",
+        "Tools",
+        "Mathematics",
+        "Sports",
+        "Gaming"
       ]
     }
   }

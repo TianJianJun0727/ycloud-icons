@@ -4,9 +4,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "分隔符水平",
   "tags": [
-    "move",
-    "split"
+    "移动",
+    "拆分"
   ],
   "categories": [
     "text",
@@ -14,16 +15,16 @@
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "分隔符水平",
+    "en": {
+      "name": "separator horizontal",
       "tags": [
-        "移动",
-        "拆分"
+        "move",
+        "split"
       ],
       "categories": [
-        "文本格式",
-        "箭头",
-        "布局"
+        "Text formatting",
+        "Arrows",
+        "Layout"
       ]
     }
   }

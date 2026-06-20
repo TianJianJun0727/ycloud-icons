@@ -5,24 +5,16 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息方形差异",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "add",
-    "patch",
-    "difference",
-    "plus",
-    "minus",
-    "plus-minus",
-    "math",
-    "code review",
-    "coding",
-    "version control",
-    "git"
+    "语音bubble",
+    "添加",
+    "加号",
+    "减少",
+    "加号减少",
+    "代码review",
+    "version控制",
+    "聊天"
   ],
   "categories": [
     "development",
@@ -30,22 +22,31 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形差异",
+    "en": {
+      "name": "message square diff",
       "tags": [
-        "语音bubble",
-        "添加",
-        "加号",
-        "减少",
-        "加号减少",
-        "代码review",
-        "version控制",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "add",
+        "patch",
+        "difference",
+        "plus",
+        "minus",
+        "plus-minus",
+        "math",
+        "code review",
+        "coding",
+        "version control",
+        "git"
       ],
       "categories": [
-        "编码与开发",
-        "文件",
-        "社交"
+        "Coding & development",
+        "File icons",
+        "Social"
       ]
     }
   }

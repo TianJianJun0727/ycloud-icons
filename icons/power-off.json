@@ -6,25 +6,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "关机",
   "tags": [
-    "on",
-    "off",
-    "device",
-    "switch"
+    "关闭",
+    "设备",
+    "切换"
   ],
   "categories": [
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "关机",
+    "en": {
+      "name": "power off",
       "tags": [
-        "关闭",
-        "设备",
-        "切换"
+        "on",
+        "off",
+        "device",
+        "switch"
       ],
       "categories": [
-        "连接"
+        "Connectivity"
       ]
     }
   }

@@ -4,29 +4,30 @@
     "joris-gallot"
   ],
   "use-cases": [],
+  "name": "Git分支减少",
   "tags": [
-    "code",
-    "version control",
-    "vcs",
-    "repository",
-    "delete",
-    "remove",
-    "-"
+    "代码",
+    "version控制",
+    "删除",
+    "移除"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git分支减少",
+    "en": {
+      "name": "git branch minus",
       "tags": [
-        "代码",
-        "version控制",
-        "删除",
-        "移除"
+        "code",
+        "version control",
+        "vcs",
+        "repository",
+        "delete",
+        "remove",
+        "-"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

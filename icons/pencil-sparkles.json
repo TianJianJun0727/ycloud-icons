@@ -12,22 +12,13 @@
     "indicating AI-assisted writing or editing features",
     "representing automated writing or content generation tools"
   ],
+  "name": "铅笔闪光",
   "tags": [
-    "edit",
-    "ai",
-    "tools",
-    "smart",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
-    "writer",
-    "writing",
-    "stationery",
-    "artist",
-    "magic",
-    "wizard",
-    "magician"
+    "编辑",
+    "创建",
+    "草稿",
+    "AI",
+    "文具"
   ],
   "categories": [
     "design",
@@ -37,21 +28,31 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "铅笔闪光",
+    "en": {
+      "name": "pencil sparkles",
       "tags": [
-        "编辑",
-        "创建",
-        "草稿",
-        "AI",
-        "文具"
+        "edit",
+        "ai",
+        "tools",
+        "smart",
+        "create",
+        "draw",
+        "sketch",
+        "draft",
+        "writer",
+        "writing",
+        "stationery",
+        "artist",
+        "magic",
+        "wizard",
+        "magician"
       ],
       "categories": [
-        "设计",
-        "光标",
-        "工具",
-        "文本格式",
-        "摄影"
+        "Design",
+        "Cursors",
+        "Tools",
+        "Text formatting",
+        "Photography"
       ]
     }
   }

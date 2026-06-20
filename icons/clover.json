@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "三叶草",
   "tags": [
-    "leaf",
-    "luck",
-    "plant"
+    "叶子",
+    "植物"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "三叶草",
+    "en": {
+      "name": "clover",
       "tags": [
-        "叶子",
-        "植物"
+        "leaf",
+        "luck",
+        "plant"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

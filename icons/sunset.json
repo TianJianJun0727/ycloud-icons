@@ -7,26 +7,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "日落",
   "tags": [
-    "weather",
-    "time",
-    "evening",
-    "night"
+    "天气",
+    "时间"
   ],
   "categories": [
     "arrows",
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "日落",
+    "en": {
+      "name": "sunset",
       "tags": [
-        "天气",
-        "时间"
+        "weather",
+        "time",
+        "evening",
+        "night"
       ],
       "categories": [
-        "箭头",
-        "天气"
+        "Arrows",
+        "Weather"
       ]
     }
   }

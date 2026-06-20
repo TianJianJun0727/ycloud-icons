@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "听诊器",
   "tags": [
-    "phonendoscope",
-    "medical",
-    "heart",
-    "lungs",
-    "sound"
+    "医疗",
+    "爱心",
+    "声音"
   ],
   "categories": [
     "science",
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "听诊器",
+    "en": {
+      "name": "stethoscope",
       "tags": [
-        "医疗",
-        "爱心",
-        "声音"
+        "phonendoscope",
+        "medical",
+        "heart",
+        "lungs",
+        "sound"
       ],
       "categories": [
-        "科学",
-        "医疗"
+        "Science",
+        "Medical"
       ]
     }
   }

@@ -5,25 +5,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件爱心",
   "tags": [
-    "heart",
-    "favourite",
-    "bookmark",
-    "quick link"
+    "爱心",
+    "书签",
+    "quick链接"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件爱心",
+    "en": {
+      "name": "file heart",
       "tags": [
-        "爱心",
-        "书签",
-        "quick链接"
+        "heart",
+        "favourite",
+        "bookmark",
+        "quick link"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

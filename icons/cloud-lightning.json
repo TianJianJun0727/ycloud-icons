@@ -7,22 +7,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云闪电",
   "tags": [
-    "weather",
-    "bolt"
+    "天气",
+    "螺栓"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "云闪电",
+    "en": {
+      "name": "cloud lightning",
       "tags": [
-        "天气",
-        "螺栓"
+        "weather",
+        "bolt"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

@@ -5,32 +5,33 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "内存手杖",
   "tags": [
-    "ram",
-    "random access",
-    "technology",
-    "computer",
-    "chip",
-    "circuit",
-    "specs",
-    "capacity",
-    "gigabytes",
-    "gb"
+    "电脑",
+    "电路"
   ],
   "categories": [
     "devices",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "内存手杖",
+    "en": {
+      "name": "memory stick",
       "tags": [
-        "电脑",
-        "电路"
+        "ram",
+        "random access",
+        "technology",
+        "computer",
+        "chip",
+        "circuit",
+        "specs",
+        "capacity",
+        "gigabytes",
+        "gb"
       ],
       "categories": [
-        "设备",
-        "游戏"
+        "Devices",
+        "Gaming"
       ]
     }
   }

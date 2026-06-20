@@ -5,29 +5,30 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件勾选",
   "tags": [
-    "done",
-    "document",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "待办",
+    "勾选",
+    "任务",
+    "文档"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件勾选",
+    "en": {
+      "name": "file check",
       "tags": [
-        "完成",
-        "待办",
-        "勾选",
-        "任务",
-        "文档"
+        "done",
+        "document",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

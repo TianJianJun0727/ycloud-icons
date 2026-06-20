@@ -5,24 +5,25 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "蓝牙关闭",
   "tags": [
-    "lost"
+    "蓝牙",
+    "关闭",
+    "断开"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "蓝牙关闭",
+    "en": {
+      "name": "bluetooth off",
       "tags": [
-        "蓝牙",
-        "关闭",
-        "断开"
+        "lost"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

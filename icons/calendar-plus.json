@@ -6,31 +6,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "日历加号",
   "tags": [
-    "date",
-    "day",
-    "month",
-    "year",
-    "event",
-    "add",
-    "subscribe",
-    "create",
-    "new"
+    "日期",
+    "添加",
+    "创建",
+    "新建"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历加号",
+    "en": {
+      "name": "calendar plus",
       "tags": [
-        "日期",
-        "添加",
-        "创建",
-        "新建"
+        "date",
+        "day",
+        "month",
+        "year",
+        "event",
+        "add",
+        "subscribe",
+        "create",
+        "new"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

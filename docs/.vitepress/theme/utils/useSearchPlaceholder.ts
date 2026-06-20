@@ -1,5 +1,5 @@
 import { ref, Ref, watch } from 'vue';
-import BRAND_STOPWORDS from '../../data/brandStopwords.json' with { type: 'json' };
+import BRAND_STOPWORDS from '@data/brandStopwords.json' with { type: 'json' };
 
 export default function useSearchPlaceholder(
   searchQuery: Ref<string, string>,

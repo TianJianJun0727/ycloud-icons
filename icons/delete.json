@@ -8,23 +8,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "删除",
   "tags": [
-    "backspace",
-    "remove"
+    "移除"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "删除",
+    "en": {
+      "name": "delete",
       "tags": [
-        "移除"
+        "backspace",
+        "remove"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

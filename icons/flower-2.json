@@ -4,10 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "花2",
   "tags": [
-    "sustainability",
-    "nature",
-    "plant"
+    "可持续",
+    "自然",
+    "植物"
   ],
   "categories": [
     "nature",
@@ -15,17 +16,17 @@
     "seasons"
   ],
   "i18n": {
-    "zh": {
-      "name": "花2",
+    "en": {
+      "name": "flower 2",
       "tags": [
-        "可持续",
-        "自然",
-        "植物"
+        "sustainability",
+        "nature",
+        "plant"
       ],
       "categories": [
-        "自然",
-        "可持续",
-        "季节"
+        "Nature",
+        "Sustainability",
+        "Seasons"
       ]
     }
   }

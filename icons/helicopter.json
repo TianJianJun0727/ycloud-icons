@@ -6,32 +6,33 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "直升机",
   "tags": [
-    "transport",
-    "flying",
-    "rotor",
-    "aviation",
-    "helipad",
-    "gear",
-    "flyer",
-    "technology",
-    "helicopter",
-    "aircraft",
-    "vehicle"
+    "直升机"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "直升机",
+    "en": {
+      "name": "helicopter",
       "tags": [
-        "直升机"
+        "transport",
+        "flying",
+        "rotor",
+        "aviation",
+        "helipad",
+        "gear",
+        "flyer",
+        "technology",
+        "helicopter",
+        "aircraft",
+        "vehicle"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

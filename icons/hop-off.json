@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "啤酒花关闭",
   "tags": [
-    "beer",
-    "brewery",
-    "drink",
-    "hop free",
-    "allergy",
-    "intolerance",
-    "diet"
+    "啤酒",
+    "饮品",
+    "啤酒花free"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "啤酒花关闭",
+    "en": {
+      "name": "hop off",
       "tags": [
-        "啤酒",
-        "饮品",
-        "啤酒花free"
+        "beer",
+        "brewery",
+        "drink",
+        "hop free",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

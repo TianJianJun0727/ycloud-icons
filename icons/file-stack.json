@@ -5,30 +5,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件堆叠",
   "tags": [
-    "versions",
-    "multiple",
-    "copy",
-    "documents",
-    "revisions",
-    "version control",
-    "history"
+    "复制",
+    "version控制",
+    "历史"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件堆叠",
+    "en": {
+      "name": "file stack",
       "tags": [
-        "复制",
-        "version控制",
-        "历史"
+        "versions",
+        "multiple",
+        "copy",
+        "documents",
+        "revisions",
+        "version control",
+        "history"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

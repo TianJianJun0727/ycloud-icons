@@ -7,24 +7,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件夹减少",
   "tags": [
-    "directory",
-    "remove",
-    "delete"
+    "移除",
+    "删除",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹减少",
+    "en": {
+      "name": "folder minus",
       "tags": [
-        "移除",
-        "删除",
-        "目录"
+        "directory",
+        "remove",
+        "delete"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

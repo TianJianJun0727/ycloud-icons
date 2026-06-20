@@ -4,34 +4,35 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件滑块",
   "tags": [
-    "cogged",
-    "gear",
-    "mechanical",
-    "machinery",
-    "configuration",
-    "controls",
-    "preferences",
-    "settings",
-    "system",
-    "admin",
-    "edit",
-    "executable"
+    "设置",
+    "编辑"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件滑块",
+    "en": {
+      "name": "file sliders",
       "tags": [
-        "设置",
-        "编辑"
+        "cogged",
+        "gear",
+        "mechanical",
+        "machinery",
+        "configuration",
+        "controls",
+        "preferences",
+        "settings",
+        "system",
+        "admin",
+        "edit",
+        "executable"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

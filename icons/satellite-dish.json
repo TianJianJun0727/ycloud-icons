@@ -5,11 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "卫星盘子",
   "tags": [
-    "antenna",
-    "receiver",
-    "dish aerial",
-    "saucer"
+    "天线",
+    "接收器",
+    "盘子aerial"
   ],
   "categories": [
     "connectivity",
@@ -17,17 +17,18 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "卫星盘子",
+    "en": {
+      "name": "satellite dish",
       "tags": [
-        "天线",
-        "接收器",
-        "盘子aerial"
+        "antenna",
+        "receiver",
+        "dish aerial",
+        "saucer"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "多媒体"
+        "Connectivity",
+        "Devices",
+        "Multimedia"
       ]
     }
   }

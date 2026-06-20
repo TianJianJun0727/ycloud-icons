@@ -38,10 +38,18 @@ export type AliasDeprecation = {
 export type IconDeprecationReason = 'icon.renamed' | '';
 
 export type IconMetadataBase = {
+  name: string;
   toBeRemovedInVersion?: string;
   categories: string[];
   aliases?: (string | AliasDeprecation)[];
   tags: string[];
+  i18n: {
+    en: {
+      name: string;
+      tags: string[];
+      categories: string[];
+    };
+  };
   deprecationReason?: IconDeprecationReason;
   deprecated?: boolean;
 };

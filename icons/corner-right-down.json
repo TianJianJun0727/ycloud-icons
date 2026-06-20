@@ -6,20 +6,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "角落右下",
   "tags": [
-    "arrow"
+    "箭头"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "角落右下",
+    "en": {
+      "name": "corner right down",
       "tags": [
-        "箭头"
+        "arrow"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

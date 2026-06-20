@@ -6,30 +6,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方括号",
   "tags": [
-    "code",
-    "token",
-    "array",
-    "list",
-    "square",
-    "[",
-    "]"
+    "代码",
+    "列表",
+    "方形"
   ],
   "categories": [
     "development",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "方括号",
+    "en": {
+      "name": "brackets",
       "tags": [
-        "代码",
-        "列表",
-        "方形"
+        "code",
+        "token",
+        "array",
+        "list",
+        "square",
+        "[",
+        "]"
       ],
       "categories": [
-        "编码与开发",
-        "文件"
+        "Coding & development",
+        "File icons"
       ]
     }
   }

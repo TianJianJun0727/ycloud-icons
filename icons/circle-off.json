@@ -4,41 +4,42 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形关闭",
   "tags": [
-    "diameter",
-    "zero",
-    "Ø",
-    "nothing",
-    "null",
-    "void",
-    "cancel",
-    "ban",
-    "no",
-    "stop",
-    "forbidden",
-    "prohibited",
-    "error",
-    "incorrect",
-    "mistake",
-    "wrong",
-    "failure"
+    "直径",
+    "零",
+    "禁止",
+    "无",
+    "停止",
+    "错误"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形关闭",
+    "en": {
+      "name": "circle off",
       "tags": [
-        "直径",
-        "零",
-        "禁止",
-        "无",
-        "停止",
-        "错误"
+        "diameter",
+        "zero",
+        "Ø",
+        "nothing",
+        "null",
+        "void",
+        "cancel",
+        "ban",
+        "no",
+        "stop",
+        "forbidden",
+        "prohibited",
+        "error",
+        "incorrect",
+        "mistake",
+        "wrong",
+        "failure"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

@@ -5,21 +5,22 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "眼镜",
   "tags": [
-    "glasses",
-    "spectacles"
+    "眼镜"
   ],
   "categories": [
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "眼镜",
+    "en": {
+      "name": "glasses",
       "tags": [
-        "眼镜"
+        "glasses",
+        "spectacles"
       ],
       "categories": [
-        "无障碍"
+        "Accessibility"
       ]
     }
   }

@@ -4,32 +4,33 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "星座蛇夫座",
   "tags": [
-    "serpent",
-    "snake holder",
-    "healing",
-    "knowledge",
-    "astronomy",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "星标标志",
+    "知识"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座蛇夫座",
+    "en": {
+      "name": "zodiac ophiuchus",
       "tags": [
-        "星标标志",
-        "知识"
+        "serpent",
+        "snake holder",
+        "healing",
+        "knowledge",
+        "astronomy",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

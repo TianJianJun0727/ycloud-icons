@@ -5,11 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形除号",
   "tags": [
-    "calculate",
-    "math",
-    "÷",
-    "/"
+    "计算"
   ],
   "categories": [
     "math"
@@ -23,13 +21,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形除号",
+    "en": {
+      "name": "square divide",
       "tags": [
-        "计算"
+        "calculate",
+        "math",
+        "÷",
+        "/"
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

@@ -2,13 +2,15 @@
 import { computed } from 'vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
 import { useMediaQuery } from '@vueuse/core';
-import { useRouter } from 'vitepress';
-import getSVGIcon from '../../utils/getSVGIcon';
-import useConfetti from '../../composables/useConfetti';
+import { useData, useRouter } from 'vitepress';
+import getSVGIcon from '@theme/utils/getSVGIcon';
+import useConfetti from '@theme/composables/useConfetti';
 import Tooltip from '../base/Tooltip.vue';
-import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '@theme/utils/navigation';
 
-const copiedText = '已复制';
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+const copiedText = computed(() => (isEnglish.value ? 'Copied' : '已复制'));
 
 export type IconNode = [elementName: string, attrs: Record<string, string>][];
 
@@ -33,13 +35,9 @@ const icon = computed(() => {
   return createYCloudIcon(props.name, props.iconNode);
 });
 
-const href = computed(() => `/icons/${props.name}`);
+const href = computed(() => `${isEnglish.value ? '/en' : ''}/icons/${props.name}`);
 const browserHref = computed(() => resolveBrowserHref(href.value));
-const displayTitle = computed(() =>
-  props.displayName && props.displayName !== props.name
-    ? `${props.displayName}（${props.name}）`
-    : props.name,
-);
+const displayTitle = computed(() => props.displayName || props.name);
 
 async function navigateToIcon(event) {
   if (event.shiftKey) {
@@ -50,7 +48,7 @@ async function navigateToIcon(event) {
 
     await navigator.clipboard.writeText(svgString);
 
-    confettiText.value = copiedText;
+    confettiText.value = copiedText.value;
     confetti();
     return;
   }

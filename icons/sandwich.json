@@ -5,26 +5,27 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "三明治",
   "tags": [
-    "food",
-    "snack",
-    "dish",
-    "restaurant",
-    "lunch",
-    "meal"
+    "食物",
+    "盘子"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "三明治",
+    "en": {
+      "name": "sandwich",
       "tags": [
-        "食物",
-        "盘子"
+        "food",
+        "snack",
+        "dish",
+        "restaurant",
+        "lunch",
+        "meal"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

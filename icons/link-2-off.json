@@ -6,22 +6,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "链接2关闭",
   "tags": [
-    "unchain",
-    "chain"
+    "解除链接",
+    "链接"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "链接2关闭",
+    "en": {
+      "name": "link 2 off",
       "tags": [
-        "解除链接",
-        "链接"
+        "unchain",
+        "chain"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

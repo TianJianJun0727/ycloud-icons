@@ -5,22 +5,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹",
   "tags": [
-    "multiple",
-    "copy",
-    "directories"
+    "复制"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹",
+    "en": {
+      "name": "folders",
       "tags": [
-        "复制"
+        "multiple",
+        "copy",
+        "directories"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

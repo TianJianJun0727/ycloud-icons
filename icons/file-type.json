@@ -5,26 +5,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件文字",
   "tags": [
-    "font",
-    "text",
-    "typography",
-    "type"
+    "文本",
+    "文字"
   ],
   "categories": [
     "files",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件文字",
+    "en": {
+      "name": "file type",
       "tags": [
-        "文本",
-        "文字"
+        "font",
+        "text",
+        "typography",
+        "type"
       ],
       "categories": [
-        "文件",
-        "文本格式"
+        "File icons",
+        "Text formatting"
       ]
     }
   }

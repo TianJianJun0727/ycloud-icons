@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "兔子",
   "tags": [
-    "animal",
-    "rodent",
-    "pet",
-    "pest",
-    "bunny",
-    "hare",
-    "fast",
-    "speed",
-    "hop"
+    "动物",
+    "快速",
+    "啤酒花"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "兔子",
+    "en": {
+      "name": "rabbit",
       "tags": [
-        "动物",
-        "快速",
-        "啤酒花"
+        "animal",
+        "rodent",
+        "pet",
+        "pest",
+        "bunny",
+        "hare",
+        "fast",
+        "speed",
+        "hop"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

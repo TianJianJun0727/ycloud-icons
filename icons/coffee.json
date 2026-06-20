@@ -9,27 +9,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "咖啡",
   "tags": [
-    "drink",
-    "cup",
-    "mug",
-    "tea",
-    "cafe",
-    "hot",
-    "beverage"
+    "饮品",
+    "杯子"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "咖啡",
+    "en": {
+      "name": "coffee",
       "tags": [
-        "饮品",
-        "杯子"
+        "drink",
+        "cup",
+        "mug",
+        "tea",
+        "cafe",
+        "hot",
+        "beverage"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

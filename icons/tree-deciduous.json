@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "树落叶树",
   "tags": [
-    "tree",
-    "forest",
-    "park",
-    "nature"
+    "树",
+    "自然"
   ],
   "categories": [
     "nature",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "树落叶树",
+    "en": {
+      "name": "tree deciduous",
       "tags": [
-        "树",
-        "自然"
+        "tree",
+        "forest",
+        "park",
+        "nature"
       ],
       "categories": [
-        "自然",
-        "可持续"
+        "Nature",
+        "Sustainability"
       ]
     }
   }

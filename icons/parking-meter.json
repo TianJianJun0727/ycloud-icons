@@ -5,26 +5,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "停车仪表",
   "tags": [
-    "driving",
-    "car park",
-    "pay",
-    "sidewalk",
-    "pavement"
+    "汽车park"
   ],
   "categories": [
     "transportation",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "停车仪表",
+    "en": {
+      "name": "parking meter",
       "tags": [
-        "汽车park"
+        "driving",
+        "car park",
+        "pay",
+        "sidewalk",
+        "pavement"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

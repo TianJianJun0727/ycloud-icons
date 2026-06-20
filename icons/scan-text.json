@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "扫描文本",
   "tags": [
-    "recognition",
-    "read",
-    "translate",
-    "copy",
-    "lines"
+    "复制",
+    "线条"
   ],
   "categories": [
     "text",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描文本",
+    "en": {
+      "name": "scan text",
       "tags": [
-        "复制",
-        "线条"
+        "recognition",
+        "read",
+        "translate",
+        "copy",
+        "lines"
       ],
       "categories": [
-        "文本格式",
-        "设备"
+        "Text formatting",
+        "Devices"
       ]
     }
   }

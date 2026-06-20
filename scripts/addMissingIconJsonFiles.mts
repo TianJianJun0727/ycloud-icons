@@ -19,8 +19,18 @@ iconNames.forEach((iconName) => {
     const iconContent = JSON.stringify(
       {
         $schema: '../icon.schema.json',
+        contributors: [],
+        'use-cases': [],
+        name: iconName,
         tags: [],
         categories: [],
+        i18n: {
+          en: {
+            name: iconName,
+            tags: [],
+            categories: [],
+          },
+        },
       },
       null,
       2,

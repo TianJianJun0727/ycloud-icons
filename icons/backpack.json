@@ -5,13 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "背包",
   "tags": [
-    "bag",
-    "hiking",
-    "travel",
-    "camping",
-    "school",
-    "childhood"
+    "包",
+    "旅行",
+    "学校"
   ],
   "categories": [
     "gaming",
@@ -19,17 +17,20 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "背包",
+    "en": {
+      "name": "backpack",
       "tags": [
-        "包",
-        "旅行",
-        "学校"
+        "bag",
+        "hiking",
+        "travel",
+        "camping",
+        "school",
+        "childhood"
       ],
       "categories": [
-        "游戏",
-        "摄影",
-        "旅行"
+        "Gaming",
+        "Photography",
+        "Travel"
       ]
     }
   }

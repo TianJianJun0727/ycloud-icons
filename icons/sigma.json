@@ -6,13 +6,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "西格玛",
   "tags": [
-    "sum",
-    "calculate",
-    "formula",
-    "math",
-    "enumeration",
-    "enumerate"
+    "计算"
   ],
   "categories": [
     "text",
@@ -20,15 +16,20 @@
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "西格玛",
+    "en": {
+      "name": "sigma",
       "tags": [
-        "计算"
+        "sum",
+        "calculate",
+        "formula",
+        "math",
+        "enumeration",
+        "enumerate"
       ],
       "categories": [
-        "文本格式",
-        "数学",
-        "科学"
+        "Text formatting",
+        "Mathematics",
+        "Science"
       ]
     }
   }

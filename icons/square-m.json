@@ -6,12 +6,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方形米",
   "tags": [
-    "metro",
-    "subway",
-    "underground",
-    "track",
-    "line"
+    "轨道",
+    "线条"
   ],
   "categories": [
     "transportation",
@@ -26,15 +24,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形米",
+    "en": {
+      "name": "square M",
       "tags": [
-        "轨道",
-        "线条"
+        "metro",
+        "subway",
+        "underground",
+        "track",
+        "line"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

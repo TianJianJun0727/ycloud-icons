@@ -5,25 +5,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "国际象棋城堡",
   "tags": [
-    "castle",
-    "piece",
-    "board game"
+    "城堡",
+    "面板game"
   ],
   "categories": [
     "gaming",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "国际象棋城堡",
+    "en": {
+      "name": "chess rook",
       "tags": [
-        "城堡",
-        "面板game"
+        "castle",
+        "piece",
+        "board game"
       ],
       "categories": [
-        "游戏",
-        "表情"
+        "Gaming",
+        "Emoji"
       ]
     }
   }

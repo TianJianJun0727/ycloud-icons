@@ -5,24 +5,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹关闭",
   "tags": [
-    "directory",
-    "remove",
-    "delete"
+    "移除",
+    "删除",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹关闭",
+    "en": {
+      "name": "folder X",
       "tags": [
-        "移除",
-        "删除",
-        "目录"
+        "directory",
+        "remove",
+        "delete"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

@@ -7,16 +7,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "数据库备份",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "servers",
-    "backup",
-    "timemachine",
-    "rotate",
-    "arrow",
-    "left"
+    "内存",
+    "备份",
+    "旋转",
+    "箭头",
+    "左",
+    "向左"
   ],
   "categories": [
     "devices",
@@ -26,22 +24,25 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库备份",
+    "en": {
+      "name": "database backup",
       "tags": [
-        "内存",
-        "备份",
-        "旋转",
-        "箭头",
-        "左",
-        "向左"
+        "storage",
+        "memory",
+        "bytes",
+        "servers",
+        "backup",
+        "timemachine",
+        "rotate",
+        "arrow",
+        "left"
       ],
       "categories": [
-        "设备",
-        "箭头",
-        "设计",
-        "编码与开发",
-        "摄影"
+        "Devices",
+        "Arrows",
+        "Design",
+        "Coding & development",
+        "Photography"
       ]
     }
   }

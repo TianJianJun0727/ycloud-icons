@@ -4,14 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "线轴",
   "tags": [
-    "bobbin",
-    "spindle",
-    "yarn",
-    "thread",
-    "string",
-    "sewing",
-    "needlework"
+    "线轴",
+    "卷轴",
+    "缠绕"
   ],
   "categories": [
     "communication",
@@ -19,17 +16,21 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "线轴",
+    "en": {
+      "name": "spool",
       "tags": [
-        "线轴",
-        "卷轴",
-        "缠绕"
+        "bobbin",
+        "spindle",
+        "yarn",
+        "thread",
+        "string",
+        "sewing",
+        "needlework"
       ],
       "categories": [
-        "沟通",
-        "工具",
-        "社交"
+        "Communication",
+        "Tools",
+        "Social"
       ]
     }
   }

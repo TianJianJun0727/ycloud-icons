@@ -13,7 +13,7 @@
   "title": "YCloud Icons category schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "icon", "title"],
+  "required": ["$schema", "icon", "title", "i18n"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -30,8 +30,9 @@
     "i18n": {
       "type": "object",
       "additionalProperties": false,
+      "required": ["en"],
       "properties": {
-        "zh": {
+        "en": {
           "type": "object",
           "additionalProperties": false,
           "required": ["title"],

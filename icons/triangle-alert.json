@@ -7,12 +7,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "三角告警",
   "tags": [
-    "warning",
-    "alert",
-    "danger",
-    "exclamation mark",
-    "linter"
+    "警告",
+    "告警",
+    "感叹号标记"
   ],
   "categories": [
     "notifications",
@@ -28,17 +27,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "三角告警",
+    "en": {
+      "name": "triangle alert",
       "tags": [
-        "警告",
-        "告警",
-        "感叹号标记"
+        "warning",
+        "alert",
+        "danger",
+        "exclamation mark",
+        "linter"
       ],
       "categories": [
-        "通知",
-        "形状",
-        "编码与开发"
+        "Notification",
+        "Shapes",
+        "Coding & development"
       ]
     }
   }

@@ -5,26 +5,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "翻转水平2",
   "tags": [
-    "reflect",
-    "mirror",
-    "alignment",
-    "dashed"
+    "镜像",
+    "虚线"
   ],
   "categories": [
     "design",
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "翻转水平2",
+    "en": {
+      "name": "flip horizontal 2",
       "tags": [
-        "镜像",
-        "虚线"
+        "reflect",
+        "mirror",
+        "alignment",
+        "dashed"
       ],
       "categories": [
-        "设计",
-        "摄影"
+        "Design",
+        "Photography"
       ]
     }
   }

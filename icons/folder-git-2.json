@@ -7,26 +7,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹Git2",
   "tags": [
-    "directory",
-    "root",
-    "project",
-    "git",
-    "repo"
+    "根",
+    "项目",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹Git2",
+    "en": {
+      "name": "folder git 2",
       "tags": [
-        "根",
-        "项目",
-        "目录"
+        "directory",
+        "root",
+        "project",
+        "git",
+        "repo"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

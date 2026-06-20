@@ -5,42 +5,43 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "签名",
   "tags": [
-    "text",
-    "format",
-    "input",
-    "contract",
-    "autograph",
-    "handwriting",
-    "sign",
-    "cursive",
-    "ink",
-    "scribble",
-    "authorize",
-    "personal",
-    "agreement",
-    "legal",
-    "document",
-    "identity",
-    "authentic",
-    "approval",
-    "verification",
-    "unique"
+    "文本",
+    "输入",
+    "标志",
+    "文档"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "签名",
+    "en": {
+      "name": "signature",
       "tags": [
-        "文本",
-        "输入",
-        "标志",
-        "文档"
+        "text",
+        "format",
+        "input",
+        "contract",
+        "autograph",
+        "handwriting",
+        "sign",
+        "cursive",
+        "ink",
+        "scribble",
+        "authorize",
+        "personal",
+        "agreement",
+        "legal",
+        "document",
+        "identity",
+        "authentic",
+        "approval",
+        "verification",
+        "unique"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

@@ -5,28 +5,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "日志",
   "tags": [
-    "options",
-    "list",
-    "menu",
-    "order",
-    "queue",
-    "tasks",
-    "logs"
+    "列表",
+    "菜单",
+    "日志"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "日志",
+    "en": {
+      "name": "logs",
       "tags": [
-        "列表",
-        "菜单",
-        "日志"
+        "options",
+        "list",
+        "menu",
+        "order",
+        "queue",
+        "tasks",
+        "logs"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

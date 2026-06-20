@@ -5,33 +5,34 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头右从线条",
   "tags": [
-    "next",
-    "forward",
-    "direction",
-    "east",
-    "export",
-    "expand",
-    "fold",
-    "horizontal",
-    "|->"
+    "下一个",
+    "前进",
+    "方向",
+    "展开",
+    "折叠",
+    "水平"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头右从线条",
+    "en": {
+      "name": "arrow right from line",
       "tags": [
-        "下一个",
-        "前进",
-        "方向",
-        "展开",
-        "折叠",
-        "水平"
+        "next",
+        "forward",
+        "direction",
+        "east",
+        "export",
+        "expand",
+        "fold",
+        "horizontal",
+        "|->"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

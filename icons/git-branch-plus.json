@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "Git分支加号",
   "tags": [
-    "code",
-    "version control",
-    "vcs",
-    "repository",
-    "add",
-    "create",
-    "+"
+    "代码",
+    "version控制",
+    "添加",
+    "创建"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git分支加号",
+    "en": {
+      "name": "git branch plus",
       "tags": [
-        "代码",
-        "version控制",
-        "添加",
-        "创建"
+        "code",
+        "version control",
+        "vcs",
+        "repository",
+        "add",
+        "create",
+        "+"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

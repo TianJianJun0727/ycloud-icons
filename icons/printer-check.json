@@ -7,24 +7,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "打印机勾选",
   "tags": [
-    "fax",
-    "office",
-    "device",
-    "success",
-    "printed"
+    "设备"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "打印机勾选",
+    "en": {
+      "name": "printer check",
       "tags": [
-        "设备"
+        "fax",
+        "office",
+        "device",
+        "success",
+        "printed"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

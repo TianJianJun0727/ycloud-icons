@@ -4,14 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆柱",
   "tags": [
-    "shape",
-    "elliptical",
-    "geometry",
-    "container",
-    "storage",
-    "tin",
-    "pot"
+    "容器",
+    "锅",
+    "形状"
   ],
   "categories": [
     "shapes",
@@ -19,17 +16,21 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆柱",
+    "en": {
+      "name": "cylinder",
       "tags": [
-        "容器",
-        "锅",
-        "形状"
+        "shape",
+        "elliptical",
+        "geometry",
+        "container",
+        "storage",
+        "tin",
+        "pot"
       ],
       "categories": [
-        "形状",
-        "设计",
-        "数学"
+        "Shapes",
+        "Design",
+        "Mathematics"
       ]
     }
   }

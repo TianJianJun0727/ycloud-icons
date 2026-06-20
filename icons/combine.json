@@ -6,31 +6,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "合并",
   "tags": [
-    "cubes",
-    "packages",
-    "parts",
-    "units",
-    "collection",
-    "cluster",
-    "combine",
-    "gather",
-    "merge"
+    "合并",
+    "单位"
   ],
   "categories": [
     "development",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "合并",
+    "en": {
+      "name": "combine",
       "tags": [
-        "合并",
-        "单位"
+        "cubes",
+        "packages",
+        "parts",
+        "units",
+        "collection",
+        "cluster",
+        "combine",
+        "gather",
+        "merge"
       ],
       "categories": [
-        "编码与开发",
-        "文件"
+        "Coding & development",
+        "File icons"
       ]
     }
   }

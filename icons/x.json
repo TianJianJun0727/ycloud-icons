@@ -5,35 +5,36 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "关闭",
   "tags": [
-    "cancel",
-    "close",
-    "cross",
-    "delete",
-    "ex",
-    "remove",
-    "times",
-    "clear",
-    "math",
-    "multiply",
-    "multiplication"
+    "关闭",
+    "十字",
+    "删除",
+    "移除"
   ],
   "categories": [
     "notifications",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "关闭",
+    "en": {
+      "name": "X",
       "tags": [
-        "关闭",
-        "十字",
-        "删除",
-        "移除"
+        "cancel",
+        "close",
+        "cross",
+        "delete",
+        "ex",
+        "remove",
+        "times",
+        "clear",
+        "math",
+        "multiply",
+        "multiplication"
       ],
       "categories": [
-        "通知",
-        "数学"
+        "Notification",
+        "Mathematics"
       ]
     }
   }

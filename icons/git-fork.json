@@ -5,22 +5,23 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "Git分叉",
   "tags": [
-    "code",
-    "version control"
+    "代码",
+    "version控制"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git分叉",
+    "en": {
+      "name": "git fork",
       "tags": [
-        "代码",
-        "version控制"
+        "code",
+        "version control"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

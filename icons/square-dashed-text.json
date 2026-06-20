@@ -4,11 +4,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形虚线文本",
   "tags": [
-    "find",
-    "search",
-    "selection",
-    "dashed"
+    "搜索",
+    "虚线"
   ],
   "categories": [
     "text",
@@ -29,15 +28,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形虚线文本",
+    "en": {
+      "name": "square dashed text",
       "tags": [
-        "搜索",
-        "虚线"
+        "find",
+        "search",
+        "selection",
+        "dashed"
       ],
       "categories": [
-        "文本格式",
-        "光标"
+        "Text formatting",
+        "Cursors"
       ]
     }
   }

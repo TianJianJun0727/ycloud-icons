@@ -4,31 +4,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "剪刀线条虚线",
   "tags": [
-    "cut here",
-    "along",
-    "snip",
-    "chop",
-    "stationery",
-    "crafts",
-    "instructions",
-    "diagram"
+    "切割",
+    "文具",
+    "手工"
   ],
   "categories": [
     "design",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪刀线条虚线",
+    "en": {
+      "name": "scissors line dashed",
       "tags": [
-        "切割",
-        "文具",
-        "手工"
+        "cut here",
+        "along",
+        "snip",
+        "chop",
+        "stationery",
+        "crafts",
+        "instructions",
+        "diagram"
       ],
       "categories": [
-        "设计",
-        "工具"
+        "Design",
+        "Tools"
       ]
     }
   }

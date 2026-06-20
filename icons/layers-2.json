@@ -5,34 +5,35 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "图层2",
   "tags": [
-    "stack",
-    "pile",
-    "pages",
-    "sheets",
-    "paperwork",
-    "copies",
-    "copy",
-    "duplicate",
-    "double",
-    "shortcuts"
+    "堆叠",
+    "堆",
+    "复制",
+    "双人"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "图层2",
+    "en": {
+      "name": "layers 2",
       "tags": [
-        "堆叠",
-        "堆",
-        "复制",
-        "双人"
+        "stack",
+        "pile",
+        "pages",
+        "sheets",
+        "paperwork",
+        "copies",
+        "copy",
+        "duplicate",
+        "double",
+        "shortcuts"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

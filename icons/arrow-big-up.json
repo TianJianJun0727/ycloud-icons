@@ -9,16 +9,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "箭头大上",
   "tags": [
-    "shift",
-    "keyboard",
-    "button",
-    "mac",
-    "capitalize",
-    "capitalise",
-    "forward",
-    "direction",
-    "north"
+    "键盘",
+    "前进",
+    "方向"
   ],
   "categories": [
     "arrows",
@@ -27,18 +22,24 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头大上",
+    "en": {
+      "name": "arrow big up",
       "tags": [
-        "键盘",
-        "前进",
-        "方向"
+        "shift",
+        "keyboard",
+        "button",
+        "mac",
+        "capitalize",
+        "capitalise",
+        "forward",
+        "direction",
+        "north"
       ],
       "categories": [
-        "箭头",
-        "文本格式",
-        "编码与开发",
-        "游戏"
+        "Arrows",
+        "Text formatting",
+        "Coding & development",
+        "Gaming"
       ]
     }
   }

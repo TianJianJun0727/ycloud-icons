@@ -5,30 +5,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "拔出",
   "tags": [
-    "electricity",
-    "energy",
-    "electronics",
-    "socket",
-    "outlet",
-    "disconnect"
+    "电力",
+    "能源",
+    "电子",
+    "断开"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "拔出",
+    "en": {
+      "name": "unplug",
       "tags": [
-        "电力",
-        "能源",
-        "电子",
-        "断开"
+        "electricity",
+        "energy",
+        "electronics",
+        "socket",
+        "outlet",
+        "disconnect"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

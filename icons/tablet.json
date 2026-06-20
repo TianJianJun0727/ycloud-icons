@@ -5,20 +5,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "平板",
   "tags": [
-    "device"
+    "设备"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "平板",
+    "en": {
+      "name": "tablet",
       "tags": [
-        "设备"
+        "device"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

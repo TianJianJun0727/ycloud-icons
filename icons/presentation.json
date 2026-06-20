@@ -5,21 +5,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "演示",
   "tags": [
-    "screen",
-    "whiteboard",
-    "marker pens",
-    "markers",
-    "blackboard",
-    "chalk",
-    "easel",
-    "school",
-    "learning",
-    "lesson",
-    "office",
-    "meeting",
-    "project",
-    "planning"
+    "屏幕",
+    "学校",
+    "项目",
+    "学习"
   ],
   "categories": [
     "multimedia",
@@ -29,20 +20,30 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "演示",
+    "en": {
+      "name": "presentation",
       "tags": [
-        "屏幕",
-        "学校",
-        "项目",
-        "学习"
+        "screen",
+        "whiteboard",
+        "marker pens",
+        "markers",
+        "blackboard",
+        "chalk",
+        "easel",
+        "school",
+        "learning",
+        "lesson",
+        "office",
+        "meeting",
+        "project",
+        "planning"
       ],
       "categories": [
-        "多媒体",
-        "摄影",
-        "设备",
-        "沟通",
-        "设计"
+        "Multimedia",
+        "Photography",
+        "Devices",
+        "Communication",
+        "Design"
       ]
     }
   }

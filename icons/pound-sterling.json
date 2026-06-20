@@ -5,23 +5,24 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "英镑英镑",
   "tags": [
-    "currency",
-    "money",
-    "payment"
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "英镑英镑",
+    "en": {
+      "name": "pound sterling",
       "tags": [
-        "货币",
-        "支付"
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

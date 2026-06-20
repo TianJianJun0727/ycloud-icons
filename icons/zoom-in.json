@@ -5,9 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "缩放进入",
   "tags": [
-    "magnifying glass",
-    "plus"
+    "magnifying玻璃杯",
+    "加号"
   ],
   "categories": [
     "accessibility",
@@ -17,18 +18,18 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "缩放进入",
+    "en": {
+      "name": "zoom in",
       "tags": [
-        "magnifying玻璃杯",
-        "加号"
+        "magnifying glass",
+        "plus"
       ],
       "categories": [
-        "无障碍",
-        "布局",
-        "设计",
-        "文本格式",
-        "摄影"
+        "Accessibility",
+        "Layout",
+        "Design",
+        "Text formatting",
+        "Photography"
       ]
     }
   }

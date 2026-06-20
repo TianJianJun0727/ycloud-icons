@@ -7,25 +7,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "重复关闭",
   "tags": [
-    "loop",
-    "arrows",
-    "recurring",
-    "again"
+    "箭头"
   ],
   "categories": [
     "arrows",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "重复关闭",
+    "en": {
+      "name": "repeat off",
       "tags": [
-        "箭头"
+        "loop",
+        "arrows",
+        "recurring",
+        "again"
       ],
       "categories": [
-        "箭头",
-        "多媒体"
+        "Arrows",
+        "Multimedia"
       ]
     }
   }

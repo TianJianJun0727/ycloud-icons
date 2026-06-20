@@ -5,36 +5,37 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形",
   "tags": [
-    "stop",
-    "playback",
-    "music",
-    "audio",
-    "video",
-    "rectangle",
-    "aspect ratio",
-    "1:1",
-    "shape"
+    "停止",
+    "音乐",
+    "音频",
+    "视频",
+    "矩形",
+    "aspect比例",
+    "形状"
   ],
   "categories": [
     "shapes",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形",
+    "en": {
+      "name": "square",
       "tags": [
-        "停止",
-        "音乐",
-        "音频",
-        "视频",
-        "矩形",
-        "aspect比例",
-        "形状"
+        "stop",
+        "playback",
+        "music",
+        "audio",
+        "video",
+        "rectangle",
+        "aspect ratio",
+        "1:1",
+        "shape"
       ],
       "categories": [
-        "形状",
-        "多媒体"
+        "Shapes",
+        "Multimedia"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "菲律宾比索",
   "tags": [
-    "currency",
-    "peso",
-    "money",
-    "php"
+    "货币",
+    "比索"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "菲律宾比索",
+    "en": {
+      "name": "philippine peso",
       "tags": [
-        "货币",
-        "比索"
+        "currency",
+        "peso",
+        "money",
+        "php"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

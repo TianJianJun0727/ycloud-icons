@@ -6,25 +6,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "音乐2",
   "tags": [
-    "quaver",
-    "eighth note",
-    "note"
+    "eighth便签",
+    "便签"
   ],
   "categories": [
     "multimedia",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "音乐2",
+    "en": {
+      "name": "music 2",
       "tags": [
-        "eighth便签",
-        "便签"
+        "quaver",
+        "eighth note",
+        "note"
       ],
       "categories": [
-        "多媒体",
-        "文件"
+        "Multimedia",
+        "File icons"
       ]
     }
   }

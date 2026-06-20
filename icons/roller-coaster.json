@@ -4,24 +4,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "滚筒杯垫",
   "tags": [
-    "attraction",
-    "entertainment",
-    "amusement park",
-    "theme park",
-    "funfair"
+    "娱乐"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "滚筒杯垫",
+    "en": {
+      "name": "roller coaster",
       "tags": [
-        "娱乐"
+        "attraction",
+        "entertainment",
+        "amusement park",
+        "theme park",
+        "funfair"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

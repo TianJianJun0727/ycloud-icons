@@ -6,22 +6,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "爱心裂纹",
   "tags": [
-    "heartbreak",
-    "sadness",
-    "emotion"
+    "情绪"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心裂纹",
+    "en": {
+      "name": "heart crack",
       "tags": [
-        "情绪"
+        "heartbreak",
+        "sadness",
+        "emotion"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

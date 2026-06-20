@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "骰子1",
   "tags": [
-    "dice",
-    "random",
-    "tabletop",
-    "1",
-    "board",
-    "game"
+    "骰子",
+    "面板",
+    "电路板",
+    "游戏"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "骰子1",
+    "en": {
+      "name": "dice 1",
       "tags": [
-        "骰子",
-        "面板",
-        "电路板",
-        "游戏"
+        "dice",
+        "random",
+        "tabletop",
+        "1",
+        "board",
+        "game"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

@@ -6,37 +6,38 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "缺陷关闭",
   "tags": [
-    "issue",
-    "fixed",
-    "resolved",
-    "testing",
-    "debug",
-    "code",
-    "insect",
-    "kill",
-    "exterminate",
-    "pest control"
+    "问题",
+    "固定",
+    "测试",
+    "调试",
+    "代码",
+    "昆虫",
+    "pest控制"
   ],
   "categories": [
     "development",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "缺陷关闭",
+    "en": {
+      "name": "bug off",
       "tags": [
-        "问题",
-        "固定",
-        "测试",
-        "调试",
-        "代码",
-        "昆虫",
-        "pest控制"
+        "issue",
+        "fixed",
+        "resolved",
+        "testing",
+        "debug",
+        "code",
+        "insect",
+        "kill",
+        "exterminate",
+        "pest control"
       ],
       "categories": [
-        "编码与开发",
-        "动物"
+        "Coding & development",
+        "Animals"
       ]
     }
   }

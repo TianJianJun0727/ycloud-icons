@@ -5,13 +5,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "重复2",
   "tags": [
-    "arrows",
-    "retweet",
-    "repost",
-    "share",
-    "repeat",
-    "loop"
+    "箭头",
+    "分享",
+    "重复"
   ],
   "categories": [
     "arrows",
@@ -19,17 +17,20 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "重复2",
+    "en": {
+      "name": "repeat 2",
       "tags": [
-        "箭头",
-        "分享",
-        "重复"
+        "arrows",
+        "retweet",
+        "repost",
+        "share",
+        "repeat",
+        "loop"
       ],
       "categories": [
-        "箭头",
-        "社交",
-        "多媒体"
+        "Arrows",
+        "Social",
+        "Multimedia"
       ]
     }
   }

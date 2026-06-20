@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件夹打开点",
   "tags": [
-    "directory",
-    "root",
-    "project",
-    "active",
-    "current",
-    "pinned"
+    "根",
+    "项目",
+    "定位",
+    "目录"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹打开点",
+    "en": {
+      "name": "folder open dot",
       "tags": [
-        "根",
-        "项目",
-        "定位",
-        "目录"
+        "directory",
+        "root",
+        "project",
+        "active",
+        "current",
+        "pinned"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

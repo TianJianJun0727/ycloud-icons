@@ -6,24 +6,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "包加号",
   "tags": [
-    "new",
-    "add",
-    "create"
+    "新建",
+    "添加",
+    "创建"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包加号",
+    "en": {
+      "name": "package plus",
       "tags": [
-        "新建",
-        "添加",
-        "创建"
+        "new",
+        "add",
+        "create"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

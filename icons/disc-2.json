@@ -6,34 +6,35 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "光盘2",
   "tags": [
-    "album",
-    "music",
-    "vinyl",
-    "record",
-    "cd",
-    "dvd",
-    "format",
-    "dj",
-    "spin",
-    "rotate",
-    "rpm"
+    "相册",
+    "音乐",
+    "旋转"
   ],
   "categories": [
     "devices",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "光盘2",
+    "en": {
+      "name": "disc 2",
       "tags": [
-        "相册",
-        "音乐",
-        "旋转"
+        "album",
+        "music",
+        "vinyl",
+        "record",
+        "cd",
+        "dvd",
+        "format",
+        "dj",
+        "spin",
+        "rotate",
+        "rpm"
       ],
       "categories": [
-        "设备",
-        "多媒体"
+        "Devices",
+        "Multimedia"
       ]
     }
   }

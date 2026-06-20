@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板右关闭",
   "tags": [
-    "sidebar",
-    "secondary",
-    "drawer",
-    "hide",
-    "chevron",
-    ">"
+    "折角箭头",
+    "侧边栏",
+    "抽屉"
   ],
   "categories": [
     "layout",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板右关闭",
+    "en": {
+      "name": "panel right close",
       "tags": [
-        "折角箭头",
-        "侧边栏",
-        "抽屉"
+        "sidebar",
+        "secondary",
+        "drawer",
+        "hide",
+        "chevron",
+        ">"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

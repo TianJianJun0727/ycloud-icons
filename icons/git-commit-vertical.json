@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "Git提交垂直",
   "tags": [
-    "code",
-    "version control",
-    "waypoint",
-    "stop",
-    "station"
+    "代码",
+    "version控制",
+    "停止"
   ],
   "categories": [
     "development",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git提交垂直",
+    "en": {
+      "name": "git commit vertical",
       "tags": [
-        "代码",
-        "version控制",
-        "停止"
+        "code",
+        "version control",
+        "waypoint",
+        "stop",
+        "station"
       ],
       "categories": [
-        "编码与开发",
-        "导航与地点"
+        "Coding & development",
+        "Navigation & Places"
       ]
     }
   }

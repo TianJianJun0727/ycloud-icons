@@ -4,25 +4,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "检查面板",
   "tags": [
-    "access",
-    "cover",
-    "tile",
-    "metal",
-    "materials",
-    "screws"
+    "金属"
   ],
   "categories": [
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "检查面板",
+    "en": {
+      "name": "inspection panel",
       "tags": [
-        "金属"
+        "access",
+        "cover",
+        "tile",
+        "metal",
+        "materials",
+        "screws"
       ],
       "categories": [
-        "工具"
+        "Tools"
       ]
     }
   }

@@ -4,25 +4,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "图表条形下降",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph",
-    "trending down"
+    "图形",
+    "趋势下"
   ],
   "categories": [
     "charts"
   ],
   "i18n": {
-    "zh": {
-      "name": "图表条形下降",
+    "en": {
+      "name": "chart bar decreasing",
       "tags": [
-        "图形",
-        "趋势下"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph",
+        "trending down"
       ],
       "categories": [
-        "图表"
+        "Charts"
       ]
     }
   }

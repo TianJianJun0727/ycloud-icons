@@ -5,15 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形箭头左",
   "tags": [
-    "previous",
-    "back",
-    "direction",
-    "west",
-    "sign",
-    "turn",
-    "button",
-    "<-"
+    "上一个",
+    "返回",
+    "方向",
+    "标志"
   ],
   "categories": [
     "arrows",
@@ -28,17 +25,21 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形箭头左",
+    "en": {
+      "name": "circle arrow left",
       "tags": [
-        "上一个",
-        "返回",
-        "方向",
-        "标志"
+        "previous",
+        "back",
+        "direction",
+        "west",
+        "sign",
+        "turn",
+        "button",
+        "<-"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

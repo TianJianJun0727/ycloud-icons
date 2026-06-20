@@ -5,9 +5,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "圆形停车",
   "tags": [
-    "parking lot",
-    "car park"
+    "停车lot",
+    "汽车park"
   ],
   "categories": [
     "transportation",
@@ -22,15 +23,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形停车",
+    "en": {
+      "name": "circle parking",
       "tags": [
-        "停车lot",
-        "汽车park"
+        "parking lot",
+        "car park"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

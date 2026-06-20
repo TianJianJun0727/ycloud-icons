@@ -7,36 +7,37 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "刷新逆时针点",
   "tags": [
-    "arrows",
-    "rotate",
-    "reload",
-    "synchronise",
-    "synchronize",
-    "circular",
-    "cycle",
-    "issue",
-    "code",
-    "coding",
-    "version control"
+    "箭头",
+    "旋转",
+    "问题",
+    "代码",
+    "version控制"
   ],
   "categories": [
     "arrows",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "刷新逆时针点",
+    "en": {
+      "name": "refresh ccw dot",
       "tags": [
-        "箭头",
-        "旋转",
-        "问题",
-        "代码",
-        "version控制"
+        "arrows",
+        "rotate",
+        "reload",
+        "synchronise",
+        "synchronize",
+        "circular",
+        "cycle",
+        "issue",
+        "code",
+        "coding",
+        "version control"
       ],
       "categories": [
-        "箭头",
-        "编码与开发"
+        "Arrows",
+        "Coding & development"
       ]
     }
   }

@@ -5,28 +5,29 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "飞机降落",
   "tags": [
-    "arrival",
-    "plane",
-    "trip",
-    "airplane",
-    "landing"
+    "飞机",
+    "降落",
+    "行程"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "飞机降落",
+    "en": {
+      "name": "plane landing",
       "tags": [
-        "飞机",
-        "降落",
-        "行程"
+        "arrival",
+        "plane",
+        "trip",
+        "airplane",
+        "landing"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

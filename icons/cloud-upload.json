@@ -8,8 +8,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "云上传",
   "tags": [
-    "file"
+    "文件"
   ],
   "categories": [
     "arrows",
@@ -24,14 +25,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "云上传",
+    "en": {
+      "name": "cloud upload",
       "tags": [
-        "文件"
+        "file"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

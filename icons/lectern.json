@@ -5,24 +5,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "讲台",
   "tags": [
-    "pulpit",
-    "podium",
-    "stand"
+    "领奖台"
   ],
   "categories": [
     "communication",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "讲台",
+    "en": {
+      "name": "lectern",
       "tags": [
-        "领奖台"
+        "pulpit",
+        "podium",
+        "stand"
       ],
       "categories": [
-        "沟通",
-        "多媒体"
+        "Communication",
+        "Multimedia"
       ]
     }
   }

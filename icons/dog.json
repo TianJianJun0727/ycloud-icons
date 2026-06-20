@@ -5,24 +5,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "狗",
   "tags": [
-    "animal",
-    "pet",
-    "puppy",
-    "hound",
-    "canine"
+    "动物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "狗",
+    "en": {
+      "name": "dog",
       "tags": [
-        "动物"
+        "animal",
+        "pet",
+        "puppy",
+        "hound",
+        "canine"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

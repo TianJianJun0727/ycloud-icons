@@ -5,14 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "八边形关闭",
   "tags": [
-    "delete",
-    "stop",
-    "alert",
-    "warning",
-    "times",
-    "clear",
-    "math"
+    "删除",
+    "停止",
+    "告警",
+    "警告"
   ],
   "categories": [
     "math",
@@ -27,17 +25,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "八边形关闭",
+    "en": {
+      "name": "octagon X",
       "tags": [
-        "删除",
-        "停止",
-        "告警",
-        "警告"
+        "delete",
+        "stop",
+        "alert",
+        "warning",
+        "times",
+        "clear",
+        "math"
       ],
       "categories": [
-        "数学",
-        "通知"
+        "Mathematics",
+        "Notification"
       ]
     }
   }

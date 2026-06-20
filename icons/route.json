@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "路线",
   "tags": [
-    "path",
-    "journey",
-    "planner",
-    "points",
-    "stops",
-    "stations"
+    "路线",
+    "路径",
+    "导航"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "路线",
+    "en": {
+      "name": "route",
       "tags": [
-        "路线",
-        "路径",
-        "导航"
+        "path",
+        "journey",
+        "planner",
+        "points",
+        "stops",
+        "stations"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

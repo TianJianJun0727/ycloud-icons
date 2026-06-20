@@ -4,31 +4,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "条码",
   "tags": [
-    "scan",
-    "checkout",
-    "till",
-    "cart",
-    "transaction",
-    "purchase",
-    "buy",
-    "product",
-    "packaging",
-    "retail",
-    "consumer"
+    "扫描",
+    "购物车"
   ],
   "categories": [
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "条码",
+    "en": {
+      "name": "barcode",
       "tags": [
-        "扫描",
-        "购物车"
+        "scan",
+        "checkout",
+        "till",
+        "cart",
+        "transaction",
+        "purchase",
+        "buy",
+        "product",
+        "packaging",
+        "retail",
+        "consumer"
       ],
       "categories": [
-        "购物"
+        "Shopping"
       ]
     }
   }

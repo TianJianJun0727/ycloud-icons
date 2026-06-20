@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "螺母关闭",
   "tags": [
-    "hazelnut",
-    "acorn",
-    "food",
-    "allergy",
-    "intolerance",
-    "diet"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "螺母关闭",
+    "en": {
+      "name": "nut off",
       "tags": [
-        "食物"
+        "hazelnut",
+        "acorn",
+        "food",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

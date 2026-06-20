@@ -6,13 +6,13 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "闪电关闭",
   "tags": [
-    "flash",
-    "camera",
-    "lightning",
-    "electricity",
-    "energy",
-    "power"
+    "相机",
+    "闪电",
+    "电源",
+    "电力",
+    "能源"
   ],
   "categories": [
     "connectivity",
@@ -21,20 +21,21 @@
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "闪电关闭",
+    "en": {
+      "name": "zap off",
       "tags": [
-        "相机",
-        "闪电",
-        "电源",
-        "电力",
-        "能源"
+        "flash",
+        "camera",
+        "lightning",
+        "electricity",
+        "energy",
+        "power"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "摄影",
-        "天气"
+        "Connectivity",
+        "Devices",
+        "Photography",
+        "Weather"
       ]
     }
   }

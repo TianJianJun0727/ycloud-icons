@@ -1,0 +1,79 @@
+---
+title: Getting started - Svelte
+description: This guide will help you get started with YCloud in your Svelte project.
+---
+
+<script setup>
+import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { svelteSidebar } from '../../.vitepress/sidebar/svelte'
+</script>
+
+# Getting started
+
+This guide will help you get started with YCloud in your Svelte project.
+Make sure you have a Svelte environment set up. If you don't have one yet, you can create a new Svelte project using Vite, or any other Svelte boilerplate of your choice.
+
+## Installation
+
+::: code-group
+
+```sh [pnpm]
+pnpm install @ycloud-web/icons-svelte
+```
+
+```sh [yarn]
+yarn add @ycloud-web/icons-svelte
+```
+
+```sh [npm]
+npm install @ycloud-web/icons-svelte
+```
+
+```sh [bun]
+bun add @ycloud-web/icons-svelte
+```
+
+:::
+
+## Importing your first icon
+
+YCloud is built with ES Modules, so it's completely tree-shakable.
+
+Each icon can be imported as a Svelte component, which renders an inline SVG element. This way, only the icons that are imported into your project are included in the final bundle. The rest of the icons are tree-shaken away.
+
+```svelte
+<script>
+  import Camera from '@ycloud-web/icons-svelte/icons/camera';
+</script>
+
+<Camera />
+```
+
+## Props
+
+To customize the appearance of an icon, you can use the following props:
+
+| name                  | type      | default      |
+| --------------------- | --------- | ------------ |
+| `size`                | _number_  | 24           |
+| `color`               | _string_  | currentColor |
+| `stroke-width`        | _number_  | 2            |
+| `absoluteStrokeWidth` | _boolean_ | false        |
+| `default-class`       | _string_  | ycloud-icon  |
+
+Because icons render as SVG elements, all standard SVG attributes can also be applied as props. See the list of SVG Presentation Attributes on [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/Presentation).
+
+```svelte
+<script>
+  import Camera from '@ycloud-web/icons-svelte/icons/camera';
+</script>
+
+<Camera size={48} color="red" strokeWidth={1} />
+```
+
+More examples and details how to use props, continue the guide:
+
+<OverviewLinkGrid>
+  <OverviewLink v-for="item in svelteSidebar[1].items" :key="item.link" :href="item.link" :title="item.text" :desc="item.desc"/>
+</OverviewLinkGrid>

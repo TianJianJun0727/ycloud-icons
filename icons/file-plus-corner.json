@@ -6,11 +6,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件加号角落",
   "tags": [
-    "add",
-    "create",
-    "new",
-    "document"
+    "添加",
+    "创建",
+    "新建",
+    "文档"
   ],
   "categories": [
     "files"
@@ -24,16 +25,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件加号角落",
+    "en": {
+      "name": "file plus corner",
       "tags": [
-        "添加",
-        "创建",
-        "新建",
-        "文档"
+        "add",
+        "create",
+        "new",
+        "document"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

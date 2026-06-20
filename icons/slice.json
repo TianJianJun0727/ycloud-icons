@@ -6,22 +6,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "切片",
   "tags": [
-    "cutter",
-    "scalpel",
-    "knife"
+    "刀"
   ],
   "categories": [
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "切片",
+    "en": {
+      "name": "slice",
       "tags": [
-        "刀"
+        "cutter",
+        "scalpel",
+        "knife"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

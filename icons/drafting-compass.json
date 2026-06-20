@@ -6,18 +6,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "绘图指南针",
   "tags": [
-    "geometry",
-    "trigonometry",
-    "radius",
-    "diameter",
-    "circumference",
-    "calculate",
-    "measure",
-    "arc",
-    "curve",
-    "draw",
-    "sketch"
+    "半径",
+    "直径",
+    "计算"
   ],
   "categories": [
     "math",
@@ -25,17 +18,25 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "绘图指南针",
+    "en": {
+      "name": "drafting compass",
       "tags": [
-        "半径",
-        "直径",
-        "计算"
+        "geometry",
+        "trigonometry",
+        "radius",
+        "diameter",
+        "circumference",
+        "calculate",
+        "measure",
+        "arc",
+        "curve",
+        "draw",
+        "sketch"
       ],
       "categories": [
-        "数学",
-        "设计",
-        "工具"
+        "Mathematics",
+        "Design",
+        "Tools"
       ]
     }
   }

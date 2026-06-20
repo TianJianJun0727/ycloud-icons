@@ -5,28 +5,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "砖块墙火焰",
   "tags": [
-    "firewall",
-    "security",
-    "bricks",
-    "mortar",
-    "cement",
-    "materials",
-    "construction",
-    "builder",
-    "labourer",
-    "quantity surveyor",
-    "blocks",
-    "stone",
-    "campfire",
-    "camping",
-    "wilderness",
-    "outdoors",
-    "lit",
-    "warmth",
-    "wood",
-    "twigs",
-    "sticks"
+    "安全",
+    "施工",
+    "积木",
+    "石头"
   ],
   "categories": [
     "security",
@@ -34,18 +18,35 @@
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "砖块墙火焰",
+    "en": {
+      "name": "brick wall fire",
       "tags": [
-        "安全",
-        "施工",
-        "积木",
-        "石头"
+        "firewall",
+        "security",
+        "bricks",
+        "mortar",
+        "cement",
+        "materials",
+        "construction",
+        "builder",
+        "labourer",
+        "quantity surveyor",
+        "blocks",
+        "stone",
+        "campfire",
+        "camping",
+        "wilderness",
+        "outdoors",
+        "lit",
+        "warmth",
+        "wood",
+        "twigs",
+        "sticks"
       ],
       "categories": [
-        "安全",
-        "家居",
-        "连接"
+        "Security",
+        "Home",
+        "Connectivity"
       ]
     }
   }

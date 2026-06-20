@@ -7,36 +7,37 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "硬盘驱动器",
   "tags": [
-    "computer",
-    "server",
-    "memory",
-    "data",
-    "ssd",
-    "disk",
-    "hard disk",
-    "storage",
-    "hardware",
-    "backup",
-    "media"
+    "电脑",
+    "服务器",
+    "内存",
+    "硬盘disk",
+    "备份"
   ],
   "categories": [
     "development",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "硬盘驱动器",
+    "en": {
+      "name": "hard drive",
       "tags": [
-        "电脑",
-        "服务器",
-        "内存",
-        "硬盘disk",
-        "备份"
+        "computer",
+        "server",
+        "memory",
+        "data",
+        "ssd",
+        "disk",
+        "hard disk",
+        "storage",
+        "hardware",
+        "backup",
+        "media"
       ],
       "categories": [
-        "编码与开发",
-        "设备"
+        "Coding & development",
+        "Devices"
       ]
     }
   }

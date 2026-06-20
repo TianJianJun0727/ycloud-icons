@@ -6,38 +6,39 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "显示器关闭",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "desktop",
-    "virtual machine",
-    "vm",
-    "close",
-    "stop",
-    "suspend",
-    "remove",
-    "delete"
+    "电视",
+    "屏幕",
+    "virtual机器",
+    "关闭",
+    "停止",
+    "移除",
+    "删除"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器关闭",
+    "en": {
+      "name": "monitor X",
       "tags": [
-        "电视",
-        "屏幕",
-        "virtual机器",
-        "关闭",
-        "停止",
-        "移除",
-        "删除"
+        "tv",
+        "screen",
+        "display",
+        "desktop",
+        "virtual machine",
+        "vm",
+        "close",
+        "stop",
+        "suspend",
+        "remove",
+        "delete"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

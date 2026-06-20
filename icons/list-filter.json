@@ -5,22 +5,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表筛选",
   "tags": [
-    "options"
+    "列表",
+    "筛选",
+    "过滤"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表筛选",
+    "en": {
+      "name": "list filter",
       "tags": [
-        "列表",
-        "筛选",
-        "过滤"
+        "options"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

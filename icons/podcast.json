@@ -7,32 +7,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "播客",
   "tags": [
-    "audio",
-    "music",
-    "mic",
-    "talk",
-    "voice",
-    "subscribe",
-    "subscription",
-    "stream"
+    "音频",
+    "音乐",
+    "麦克风",
+    "串流"
   ],
   "categories": [
     "multimedia",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "播客",
+    "en": {
+      "name": "podcast",
       "tags": [
-        "音频",
-        "音乐",
-        "麦克风",
-        "串流"
+        "audio",
+        "music",
+        "mic",
+        "talk",
+        "voice",
+        "subscribe",
+        "subscription",
+        "stream"
       ],
       "categories": [
-        "多媒体",
-        "社交"
+        "Multimedia",
+        "Social"
       ]
     }
   }

@@ -5,26 +5,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "素食",
   "tags": [
-    "vegetarian",
-    "fruitarian",
-    "herbivorous",
-    "animal rights",
-    "diet"
+    "动物rights"
   ],
   "categories": [
     "food-beverage",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "素食",
+    "en": {
+      "name": "vegan",
       "tags": [
-        "动物rights"
+        "vegetarian",
+        "fruitarian",
+        "herbivorous",
+        "animal rights",
+        "diet"
       ],
       "categories": [
-        "餐饮",
-        "可持续"
+        "Food & beverage",
+        "Sustainability"
       ]
     }
   }

@@ -5,24 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "图表无坐标轴甘特图",
   "tags": [
-    "projects",
-    "manage",
-    "overview",
-    "roadmap",
-    "plan",
-    "intentions",
-    "timeline",
-    "deadline",
-    "date",
-    "event",
-    "range",
-    "period",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding"
+    "时间线",
+    "日期",
+    "范围",
+    "代码"
   ],
   "categories": [
     "charts",
@@ -39,19 +27,32 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "图表无坐标轴甘特图",
+    "en": {
+      "name": "chart no axes gantt",
       "tags": [
-        "时间线",
-        "日期",
-        "范围",
-        "代码"
+        "projects",
+        "manage",
+        "overview",
+        "roadmap",
+        "plan",
+        "intentions",
+        "timeline",
+        "deadline",
+        "date",
+        "event",
+        "range",
+        "period",
+        "productivity",
+        "work",
+        "agile",
+        "code",
+        "coding"
       ],
       "categories": [
-        "图表",
-        "时间与日历",
-        "编码与开发",
-        "设计"
+        "Charts",
+        "Time & calendar",
+        "Coding & development",
+        "Design"
       ]
     }
   }

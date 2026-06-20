@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "注射器",
   "tags": [
-    "medicine",
-    "medical",
-    "needle",
-    "pump",
-    "plunger",
-    "nozzle",
-    "blood"
+    "医疗"
   ],
   "categories": [
     "science",
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "注射器",
+    "en": {
+      "name": "syringe",
       "tags": [
-        "医疗"
+        "medicine",
+        "medical",
+        "needle",
+        "pump",
+        "plunger",
+        "nozzle",
+        "blood"
       ],
       "categories": [
-        "科学",
-        "医疗"
+        "Science",
+        "Medical"
       ]
     }
   }

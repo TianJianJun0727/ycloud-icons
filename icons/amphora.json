@@ -4,31 +4,32 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "双耳瓶",
   "tags": [
-    "pottery",
-    "artifact",
-    "artefact",
-    "vase",
-    "ceramics",
-    "clay",
-    "archaeology",
-    "museum",
-    "wine",
-    "oil"
+    "葡萄酒"
   ],
   "categories": [
     "food-beverage",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "双耳瓶",
+    "en": {
+      "name": "amphora",
       "tags": [
-        "葡萄酒"
+        "pottery",
+        "artifact",
+        "artefact",
+        "vase",
+        "ceramics",
+        "clay",
+        "archaeology",
+        "museum",
+        "wine",
+        "oil"
       ],
       "categories": [
-        "餐饮",
-        "游戏"
+        "Food & beverage",
+        "Gaming"
       ]
     }
   }

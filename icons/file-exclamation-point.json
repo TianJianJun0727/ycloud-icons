@@ -5,13 +5,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件感叹号点",
   "tags": [
-    "hidden",
-    "warning",
-    "alert",
-    "danger",
-    "protected",
-    "exclamation mark"
+    "警告",
+    "告警",
+    "感叹号标记"
   ],
   "categories": [
     "files",
@@ -26,16 +24,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件感叹号点",
+    "en": {
+      "name": "file exclamation point",
       "tags": [
-        "警告",
-        "告警",
-        "感叹号标记"
+        "hidden",
+        "warning",
+        "alert",
+        "danger",
+        "protected",
+        "exclamation mark"
       ],
       "categories": [
-        "文件",
-        "通知"
+        "File icons",
+        "Notification"
       ]
     }
   }

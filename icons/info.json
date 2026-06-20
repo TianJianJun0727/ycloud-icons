@@ -6,36 +6,37 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "信息",
   "tags": [
-    "about",
-    "advice",
-    "clue",
-    "details",
-    "help",
-    "hint",
-    "indicator",
-    "information",
-    "knowledge",
-    "notice",
-    "status",
-    "support",
-    "tooltip"
+    "帮助",
+    "信息",
+    "知识"
   ],
   "categories": [
     "accessibility",
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "信息",
+    "en": {
+      "name": "info",
       "tags": [
-        "帮助",
-        "信息",
-        "知识"
+        "about",
+        "advice",
+        "clue",
+        "details",
+        "help",
+        "hint",
+        "indicator",
+        "information",
+        "knowledge",
+        "notice",
+        "status",
+        "support",
+        "tooltip"
       ],
       "categories": [
-        "无障碍",
-        "通知"
+        "Accessibility",
+        "Notification"
       ]
     }
   }

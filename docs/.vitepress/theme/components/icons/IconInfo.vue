@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconEntity } from '../../types';
+import { IconEntity } from '@theme/types';
 import IconDetailName from './IconDetailName.vue';
 import Badge from '../base/Badge.vue';
 import CopySVGButton from './CopySVGButton.vue';
@@ -7,9 +7,8 @@ import CopyCodeButton from './CopyCodeButton.vue';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
 import { useData } from 'vitepress';
 import { computed } from 'vue';
-import deprecationReasonTemplate from '../../../../../tools/build-icons/utils/deprecationReasonTemplate.ts';
-import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../utils/iconI18n';
-import { resolveBrowserHref } from '../../utils/navigation';
+import deprecationReasonTemplate from '@tools/build-icons/utils/deprecationReasonTemplate.ts';
+import { resolveBrowserHref } from '@theme/utils/navigation';
 
 const props = defineProps<{
   icon: IconEntity;
@@ -17,24 +16,20 @@ const props = defineProps<{
 }>();
 
 const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 const tags = computed(() => {
   if (!props.icon) return '';
-  const displayTags = props.icon.displayTags?.length
-    ? props.icon.displayTags
-    : localizeIconTags(props.icon.tags, props.icon.i18n?.zh?.tags);
+  const displayTags = isEnglish.value ? props.icon.englishTags : props.icon.displayTags;
   return displayTags?.join(' • ') ?? '';
 });
 
 const displayName = computed(() =>
-  localizeIconName(props.icon.name, props.icon.displayName ?? props.icon.i18n?.zh?.name),
+  isEnglish.value ? props.icon.englishName : props.icon.displayName,
 );
 
 const displayCategories = computed(() =>
-  localizeIconCategories(
-    props.icon.categories,
-    props.icon.displayCategories ?? props.icon.i18n?.zh?.categories,
-  ),
+  isEnglish.value ? props.icon.englishCategories : props.icon.displayCategories,
 );
 
 const deprecatedTitle = computed(() => {
@@ -46,7 +41,7 @@ const deprecatedTitle = computed(() => {
   });
 });
 
-const detailPath = computed(() => `/icons/${props.icon.name}`);
+const detailPath = computed(() => `${isEnglish.value ? '/en' : ''}/icons/${props.icon.name}`);
 
 function openDetail(event: MouseEvent) {
   event.preventDefault();
@@ -75,7 +70,7 @@ function openDetail(event: MouseEvent) {
         class="deprecated-badge"
         :title="deprecatedTitle"
       >
-        Deprecated
+        {{ isEnglish ? 'Deprecated' : '已弃用' }}
       </Badge>
     </div>
     <div
@@ -90,7 +85,7 @@ function openDetail(event: MouseEvent) {
       <Badge
         v-for="category in icon.categories"
         class="category"
-        :href="`/icons/categories#${category}`"
+        :href="`${isEnglish ? '/en' : ''}/icons/categories#${category}`"
       >
         {{ displayCategories[icon.categories.indexOf(category)] || category }}
       </Badge>
@@ -100,7 +95,7 @@ function openDetail(event: MouseEvent) {
       <VPButton
         v-if="!page?.relativePath?.startsWith?.(`icons/${icon.name}`)"
         :href="detailPath"
-        text="查看详情"
+        :text="isEnglish ? 'See details' : '查看详情'"
         @click="openDetail"
       />
       <CopySVGButton

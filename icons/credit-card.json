@@ -6,26 +6,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "信用卡片",
   "tags": [
-    "bank",
-    "purchase",
-    "payment",
-    "cc"
+    "银行",
+    "支付"
   ],
   "categories": [
     "account",
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "信用卡片",
+    "en": {
+      "name": "credit card",
       "tags": [
-        "银行",
-        "支付"
+        "bank",
+        "purchase",
+        "payment",
+        "cc"
       ],
       "categories": [
-        "账号与访问",
-        "金融"
+        "Accounts & access",
+        "Finance"
       ]
     }
   }

@@ -4,43 +4,44 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "阳伞",
   "tags": [
-    "umbrella",
-    "sunshade",
-    "beach",
-    "shade",
-    "sun",
-    "protection",
-    "cover",
-    "canopy",
-    "garden",
-    "outdoors",
-    "resort",
-    "travel",
-    "vacation",
-    "holiday",
-    "summer",
-    "apparel",
-    "accessory",
-    "sunbathing",
-    "relax",
-    "tropical"
+    "雨伞",
+    "太阳",
+    "旅行"
   ],
   "categories": [
     "travel",
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "阳伞",
+    "en": {
+      "name": "parasol",
       "tags": [
-        "雨伞",
-        "太阳",
-        "旅行"
+        "umbrella",
+        "sunshade",
+        "beach",
+        "shade",
+        "sun",
+        "protection",
+        "cover",
+        "canopy",
+        "garden",
+        "outdoors",
+        "resort",
+        "travel",
+        "vacation",
+        "holiday",
+        "summer",
+        "apparel",
+        "accessory",
+        "sunbathing",
+        "relax",
+        "tropical"
       ],
       "categories": [
-        "旅行",
-        "天气"
+        "Travel",
+        "Weather"
       ]
     }
   }

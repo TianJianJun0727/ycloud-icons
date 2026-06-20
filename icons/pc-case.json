@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "电脑箱包",
   "tags": [
-    "computer",
-    "chassis"
+    "电脑"
   ],
   "categories": [
     "devices",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "电脑箱包",
+    "en": {
+      "name": "pc case",
       "tags": [
-        "电脑"
+        "computer",
+        "chassis"
       ],
       "categories": [
-        "设备",
-        "游戏"
+        "Devices",
+        "Gaming"
       ]
     }
   }

@@ -4,12 +4,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "振动",
   "tags": [
-    "smartphone",
-    "notification",
-    "rumble",
-    "haptic feedback",
-    "screen"
+    "智能手机",
+    "通知",
+    "屏幕"
   ],
   "categories": [
     "devices",
@@ -18,18 +17,20 @@
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "振动",
+    "en": {
+      "name": "vibrate",
       "tags": [
-        "智能手机",
-        "通知",
-        "屏幕"
+        "smartphone",
+        "notification",
+        "rumble",
+        "haptic feedback",
+        "screen"
       ],
       "categories": [
-        "设备",
-        "连接",
-        "账号与访问",
-        "通知"
+        "Devices",
+        "Connectivity",
+        "Accounts & access",
+        "Notification"
       ]
     }
   }

@@ -7,31 +7,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "无人机",
   "tags": [
-    "quadcopter",
-    "uav",
-    "aerial",
-    "flight",
-    "flying",
-    "technology",
-    "airborne",
-    "robotics"
+    "无人机",
+    "飞行器",
+    "航拍"
   ],
   "categories": [
     "transportation",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无人机",
+    "en": {
+      "name": "drone",
       "tags": [
-        "无人机",
-        "飞行器",
-        "航拍"
+        "quadcopter",
+        "uav",
+        "aerial",
+        "flight",
+        "flying",
+        "technology",
+        "airborne",
+        "robotics"
       ],
       "categories": [
-        "交通",
-        "设备"
+        "Transportation",
+        "Devices"
       ]
     }
   }

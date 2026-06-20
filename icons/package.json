@@ -10,34 +10,35 @@
     "sezze"
   ],
   "use-cases": [],
+  "name": "包裹",
   "tags": [
-    "box",
-    "container",
-    "storage",
-    "sealed",
-    "delivery",
-    "undelivered",
-    "unopened",
-    "packed",
-    "archive",
-    "zip",
-    "module"
+    "盒子",
+    "容器",
+    "归档"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包裹",
+    "en": {
+      "name": "package",
       "tags": [
-        "盒子",
-        "容器",
-        "归档"
+        "box",
+        "container",
+        "storage",
+        "sealed",
+        "delivery",
+        "undelivered",
+        "unopened",
+        "packed",
+        "archive",
+        "zip",
+        "module"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

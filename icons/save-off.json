@@ -4,23 +4,24 @@
     "AnnaSasDev"
   ],
   "use-cases": [],
+  "name": "保存关闭",
   "tags": [
-    "floppy disk",
-    "unsalvageable"
+    "软盘"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "保存关闭",
+    "en": {
+      "name": "save off",
       "tags": [
-        "软盘"
+        "floppy disk",
+        "unsalvageable"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

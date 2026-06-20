@@ -8,26 +8,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "图片放大",
   "tags": [
-    "resize",
-    "picture",
-    "sharpen",
-    "increase"
+    "图片",
+    "增加"
   ],
   "categories": [
     "photography",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "图片放大",
+    "en": {
+      "name": "image upscale",
       "tags": [
-        "图片",
-        "增加"
+        "resize",
+        "picture",
+        "sharpen",
+        "increase"
       ],
       "categories": [
-        "摄影",
-        "多媒体"
+        "Photography",
+        "Multimedia"
       ]
     }
   }

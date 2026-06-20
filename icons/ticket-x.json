@@ -4,46 +4,47 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券关闭",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "cancelled",
-    "cancellation",
-    "refunded",
-    "used",
-    "void",
-    "invalidated",
-    "spoiled",
-    "denied",
-    "refused",
-    "banned",
-    "barred",
-    "forbidden",
-    "prohibited",
-    "delete",
-    "remove",
-    "clear",
-    "error",
-    "x"
+    "删除",
+    "移除",
+    "错误",
+    "关闭"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券关闭",
+    "en": {
+      "name": "ticket X",
       "tags": [
-        "删除",
-        "移除",
-        "错误",
-        "关闭"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "cancelled",
+        "cancellation",
+        "refunded",
+        "used",
+        "void",
+        "invalidated",
+        "spoiled",
+        "denied",
+        "refused",
+        "banned",
+        "barred",
+        "forbidden",
+        "prohibited",
+        "delete",
+        "remove",
+        "clear",
+        "error",
+        "x"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

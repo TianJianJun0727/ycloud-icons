@@ -7,14 +7,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "扳手",
   "tags": [
-    "account",
-    "settings",
-    "spanner",
-    "diy",
-    "toolbox",
-    "build",
-    "construction"
+    "账号",
+    "设置",
+    "工具箱",
+    "施工"
   ],
   "categories": [
     "account",
@@ -22,18 +20,21 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "扳手",
+    "en": {
+      "name": "wrench",
       "tags": [
-        "账号",
-        "设置",
-        "工具箱",
-        "施工"
+        "account",
+        "settings",
+        "spanner",
+        "diy",
+        "toolbox",
+        "build",
+        "construction"
       ],
       "categories": [
-        "账号与访问",
-        "编码与开发",
-        "工具"
+        "Accounts & access",
+        "Coding & development",
+        "Tools"
       ]
     }
   }

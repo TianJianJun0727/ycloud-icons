@@ -6,29 +6,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "心率",
   "tags": [
-    "heartbeat",
-    "pulse",
-    "health",
-    "medical",
-    "blood pressure",
-    "cardiac",
-    "systole",
-    "diastole"
+    "脉搏",
+    "健康",
+    "医疗"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "心率",
+    "en": {
+      "name": "heart pulse",
       "tags": [
-        "脉搏",
-        "健康",
-        "医疗"
+        "heartbeat",
+        "pulse",
+        "health",
+        "medical",
+        "blood pressure",
+        "cardiac",
+        "systole",
+        "diastole"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

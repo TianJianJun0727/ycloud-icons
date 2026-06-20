@@ -1,30 +1,32 @@
 <script setup lang="ts">
-import type { IconEntity } from '../../types';
+import type { IconEntity } from '@theme/types';
 import { computed } from 'vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
 import IconButton from '../base/IconButton.vue';
 import IconContributors from './IconContributors.vue';
 import IconPreview from './IconPreview.vue';
-import { x, expand } from '../../../data/iconNodes';
-import { useRouter } from 'vitepress';
+import { x, expand } from '@data/iconNodes';
+import { useData, useRouter } from 'vitepress';
 import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
 import { computedAsync } from '@vueuse/core';
 import { satisfies } from 'semver';
-import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '@theme/utils/navigation';
 
 const props = defineProps<{
   iconName: string | null;
 }>();
 
 const { go } = useRouter();
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 const icon = computedAsync<IconEntity | null>(async () => {
   if (props.iconName) {
     try {
       return (await import(`../../../data/iconDetails/${props.iconName}.ts`)).default as IconEntity;
     } catch (err) {
-      go(resolveRoutePath(`/icons/${props.iconName}`));
+      go(resolveRoutePath(`${isEnglish.value ? '/en' : ''}/icons/${props.iconName}`));
     }
   }
   return null;
@@ -47,7 +49,7 @@ const CloseIcon = createYCloudIcon('Close', x);
 const Expand = createYCloudIcon('Expand', expand);
 
 function openDetailPage(iconName: string) {
-  const targetHref = resolveBrowserHref(`/icons/${iconName}`);
+  const targetHref = resolveBrowserHref(`${isEnglish.value ? '/en' : ''}/icons/${iconName}`);
   const currentUrl = new URL(window.location.href);
   const targetUrl = new URL(targetHref, currentUrl.origin);
 

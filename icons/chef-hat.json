@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "厨师帽子",
   "tags": [
-    "cooking",
-    "food",
-    "kitchen",
-    "restaurant"
+    "烹饪",
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "厨师帽子",
+    "en": {
+      "name": "chef hat",
       "tags": [
-        "烹饪",
-        "食物"
+        "cooking",
+        "food",
+        "kitchen",
+        "restaurant"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

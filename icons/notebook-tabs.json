@@ -4,27 +4,15 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "笔记本标签页",
   "tags": [
-    "notepad",
-    "notes",
-    "people",
-    "family",
-    "friends",
-    "acquaintances",
-    "contacts",
-    "details",
-    "addresses",
-    "phone numbers",
-    "directory",
-    "listing",
-    "networking",
-    "alphabetical",
-    "a-z",
-    "organizer",
-    "organiser",
-    "planner",
-    "diary",
-    "stationery"
+    "记事本",
+    "便签",
+    "家庭",
+    "电话numbers",
+    "字母顺序",
+    "目录",
+    "文具"
   ],
   "categories": [
     "account",
@@ -32,21 +20,34 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "笔记本标签页",
+    "en": {
+      "name": "notebook tabs",
       "tags": [
-        "记事本",
-        "便签",
-        "家庭",
-        "电话numbers",
-        "字母顺序",
-        "目录",
-        "文具"
+        "notepad",
+        "notes",
+        "people",
+        "family",
+        "friends",
+        "acquaintances",
+        "contacts",
+        "details",
+        "addresses",
+        "phone numbers",
+        "directory",
+        "listing",
+        "networking",
+        "alphabetical",
+        "a-z",
+        "organizer",
+        "organiser",
+        "planner",
+        "diary",
+        "stationery"
       ],
       "categories": [
-        "账号与访问",
-        "沟通",
-        "社交"
+        "Accounts & access",
+        "Communication",
+        "Social"
       ]
     }
   }

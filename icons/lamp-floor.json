@@ -6,25 +6,26 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "灯地板",
   "tags": [
-    "lighting",
-    "household",
-    "floor",
-    "home",
-    "furniture"
+    "地板",
+    "家居"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "灯地板",
+    "en": {
+      "name": "lamp floor",
       "tags": [
-        "地板",
-        "家居"
+        "lighting",
+        "household",
+        "floor",
+        "home",
+        "furniture"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

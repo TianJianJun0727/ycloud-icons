@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "归档关闭",
   "tags": [
-    "index",
-    "backup",
-    "box",
-    "storage",
-    "records",
-    "junk"
+    "备份",
+    "盒子"
   ],
   "categories": [
     "files",
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "归档关闭",
+    "en": {
+      "name": "archive X",
       "tags": [
-        "备份",
-        "盒子"
+        "index",
+        "backup",
+        "box",
+        "storage",
+        "records",
+        "junk"
       ],
       "categories": [
-        "文件",
-        "邮件"
+        "File icons",
+        "Mail"
       ]
     }
   }

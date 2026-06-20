@@ -6,13 +6,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "发送",
   "tags": [
-    "email",
-    "message",
-    "mail",
-    "paper airplane",
-    "paper aeroplane",
-    "submit"
+    "消息",
+    "邮件",
+    "邮箱"
   ],
   "categories": [
     "mail",
@@ -20,17 +18,20 @@
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "发送",
+    "en": {
+      "name": "send",
       "tags": [
-        "消息",
-        "邮件",
-        "邮箱"
+        "email",
+        "message",
+        "mail",
+        "paper airplane",
+        "paper aeroplane",
+        "submit"
       ],
       "categories": [
-        "邮件",
-        "沟通",
-        "连接"
+        "Mail",
+        "Communication",
+        "Connectivity"
       ]
     }
   }

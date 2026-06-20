@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "邮件关闭",
   "tags": [
-    "email",
-    "message",
-    "letter",
-    "remove",
-    "delete"
+    "消息",
+    "字母",
+    "移除",
+    "删除",
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮件关闭",
+    "en": {
+      "name": "mail X",
       "tags": [
-        "消息",
-        "字母",
-        "移除",
-        "删除",
-        "邮箱"
+        "email",
+        "message",
+        "letter",
+        "remove",
+        "delete"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

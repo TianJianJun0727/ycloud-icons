@@ -4,27 +4,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "牛奶",
   "tags": [
-    "lactose",
-    "bottle",
-    "beverage",
-    "drink",
-    "water",
-    "diet"
+    "瓶子",
+    "饮品",
+    "水"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "牛奶",
+    "en": {
+      "name": "milk",
       "tags": [
-        "瓶子",
-        "饮品",
-        "水"
+        "lactose",
+        "bottle",
+        "beverage",
+        "drink",
+        "water",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

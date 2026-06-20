@@ -5,32 +5,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "星座天蝎座",
   "tags": [
-    "scorpion",
-    "stinger",
-    "intensity",
-    "water",
-    "transformation",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "水",
+    "星标标志"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座天蝎座",
+    "en": {
+      "name": "zodiac scorpio",
       "tags": [
-        "水",
-        "星标标志"
+        "scorpion",
+        "stinger",
+        "intensity",
+        "water",
+        "transformation",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

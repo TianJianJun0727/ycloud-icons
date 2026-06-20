@@ -24,10 +24,22 @@ const iconJsonTemplate = `{
   "$schema": "../icon.schema.json",
   "contributors": [
   ],
+  "use-cases": [
+  ],
+  "name": "",
   "tags": [
   ],
   "categories": [
-  ]
+  ],
+  "i18n": {
+    "en": {
+      "name": "",
+      "tags": [
+      ],
+      "categories": [
+      ]
+    }
+  }
 }
 `;
 

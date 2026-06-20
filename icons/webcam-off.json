@@ -10,9 +10,10 @@
     "indicating that a webcam is disabled or turned off",
     "showing a camera feed is unavailable or blocked for privacy"
   ],
+  "name": "摄像头关闭",
   "tags": [
-    "camera",
-    "security"
+    "相机",
+    "安全"
   ],
   "categories": [
     "connectivity",
@@ -20,16 +21,16 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "摄像头关闭",
+    "en": {
+      "name": "webcam off",
       "tags": [
-        "相机",
-        "安全"
+        "camera",
+        "security"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "沟通"
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

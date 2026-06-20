@@ -5,24 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "加号",
   "tags": [
-    "add",
-    "new",
-    "increase",
-    "increment",
-    "positive",
-    "calculate",
-    "toolbar",
-    "crosshair",
-    "aim",
-    "target",
-    "scope",
-    "sight",
-    "reticule",
-    "maximum",
-    "upgrade",
-    "extra",
-    "+"
+    "添加",
+    "创建",
+    "新建",
+    "加号",
+    "正向",
+    "计算",
+    "工具栏",
+    "准星",
+    "瞄准",
+    "目标",
+    "瞄准镜",
+    "视线",
+    "最大值",
+    "升级",
+    "额外"
   ],
   "categories": [
     "math",
@@ -33,32 +32,34 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "加号",
+    "en": {
+      "name": "plus",
       "tags": [
-        "添加",
-        "创建",
-        "新建",
-        "加号",
-        "正向",
-        "计算",
-        "工具栏",
-        "准星",
-        "瞄准",
-        "目标",
-        "瞄准镜",
-        "视线",
-        "最大值",
-        "升级",
-        "额外"
+        "add",
+        "new",
+        "increase",
+        "increment",
+        "positive",
+        "calculate",
+        "toolbar",
+        "crosshair",
+        "aim",
+        "target",
+        "scope",
+        "sight",
+        "reticule",
+        "maximum",
+        "upgrade",
+        "extra",
+        "+"
       ],
       "categories": [
-        "数学",
-        "工具",
-        "编码与开发",
-        "文本格式",
-        "光标",
-        "游戏"
+        "Mathematics",
+        "Tools",
+        "Coding & development",
+        "Text formatting",
+        "Cursors",
+        "Gaming"
       ]
     }
   }

@@ -5,28 +5,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "松鼠",
   "tags": [
-    "animal",
-    "rodent",
-    "pet",
-    "pest",
-    "nuts",
-    "retrieve",
-    "updates",
-    "storage",
-    "stash"
+    "动物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "松鼠",
+    "en": {
+      "name": "squirrel",
       "tags": [
-        "动物"
+        "animal",
+        "rodent",
+        "pet",
+        "pest",
+        "nuts",
+        "retrieve",
+        "updates",
+        "storage",
+        "stash"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

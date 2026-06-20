@@ -7,40 +7,41 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "纸币箭头上",
   "tags": [
-    "bill",
-    "currency",
-    "money",
-    "payment",
-    "funds",
-    "transaction",
-    "cash",
-    "finance",
-    "deposit",
-    "earnings",
-    "income",
-    "in",
-    "credit",
-    "prepaid",
-    "growth",
-    "increase"
+    "货币",
+    "支付",
+    "金融",
+    "进入",
+    "信用",
+    "增加"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "纸币箭头上",
+    "en": {
+      "name": "banknote arrow up",
       "tags": [
-        "货币",
-        "支付",
-        "金融",
-        "进入",
-        "信用",
-        "增加"
+        "bill",
+        "currency",
+        "money",
+        "payment",
+        "funds",
+        "transaction",
+        "cash",
+        "finance",
+        "deposit",
+        "earnings",
+        "income",
+        "in",
+        "credit",
+        "prepaid",
+        "growth",
+        "increase"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

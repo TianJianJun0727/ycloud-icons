@@ -8,24 +8,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "随机",
   "tags": [
-    "music",
-    "random",
-    "reorder"
+    "音乐"
   ],
   "categories": [
     "multimedia",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "随机",
+    "en": {
+      "name": "shuffle",
       "tags": [
-        "音乐"
+        "music",
+        "random",
+        "reorder"
       ],
       "categories": [
-        "多媒体",
-        "箭头"
+        "Multimedia",
+        "Arrows"
       ]
     }
   }

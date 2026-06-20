@@ -4,34 +4,35 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "计数1",
   "tags": [
-    "count",
-    "score",
-    "enumerate",
-    "days",
-    "one",
-    "1",
-    "first",
-    "bar",
-    "prison",
-    "cell",
-    "sentence"
+    "天数",
+    "第一个",
+    "条形"
   ],
   "categories": [
     "math",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "计数1",
+    "en": {
+      "name": "tally 1",
       "tags": [
-        "天数",
-        "第一个",
-        "条形"
+        "count",
+        "score",
+        "enumerate",
+        "days",
+        "one",
+        "1",
+        "first",
+        "bar",
+        "prison",
+        "cell",
+        "sentence"
       ],
       "categories": [
-        "数学",
-        "游戏"
+        "Mathematics",
+        "Gaming"
       ]
     }
   }

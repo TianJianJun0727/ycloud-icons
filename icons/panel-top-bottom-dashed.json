@@ -7,33 +7,34 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "面板顶部底部虚线",
   "tags": [
-    "sidebar",
-    "primary",
-    "drawer",
-    "show",
-    "reveal",
-    "padding",
-    "margin",
-    "guide",
-    "layout",
-    "horizontal",
-    "bleed"
+    "布局",
+    "水平",
+    "侧边栏",
+    "抽屉"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板顶部底部虚线",
+    "en": {
+      "name": "panel top bottom dashed",
       "tags": [
-        "布局",
-        "水平",
-        "侧边栏",
-        "抽屉"
+        "sidebar",
+        "primary",
+        "drawer",
+        "show",
+        "reveal",
+        "padding",
+        "margin",
+        "guide",
+        "layout",
+        "horizontal",
+        "bleed"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -4,29 +4,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "仓库",
   "tags": [
-    "storage",
-    "storehouse",
-    "depot",
-    "depository",
-    "repository",
-    "stockroom",
-    "logistics",
-    "building"
+    "建筑"
   ],
   "categories": [
     "buildings",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "仓库",
+    "en": {
+      "name": "warehouse",
       "tags": [
-        "建筑"
+        "storage",
+        "storehouse",
+        "depot",
+        "depository",
+        "repository",
+        "stockroom",
+        "logistics",
+        "building"
       ],
       "categories": [
-        "建筑",
-        "导航与地点"
+        "Buildings",
+        "Navigation & Places"
       ]
     }
   }

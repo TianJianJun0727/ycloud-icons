@@ -7,24 +7,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "用户减少",
   "tags": [
-    "delete",
-    "remove",
-    "unfollow",
-    "unsubscribe"
+    "删除",
+    "移除"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户减少",
+    "en": {
+      "name": "user minus",
       "tags": [
-        "删除",
-        "移除"
+        "delete",
+        "remove",
+        "unfollow",
+        "unsubscribe"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

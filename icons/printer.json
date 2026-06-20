@@ -6,22 +6,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "打印机",
   "tags": [
-    "fax",
-    "office",
-    "device"
+    "设备"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "打印机",
+    "en": {
+      "name": "printer",
       "tags": [
-        "设备"
+        "fax",
+        "office",
+        "device"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

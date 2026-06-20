@@ -5,29 +5,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表减少",
   "tags": [
-    "playlist",
-    "remove",
-    "song",
-    "subtract",
-    "delete",
-    "unqueue"
+    "移除",
+    "减去",
+    "删除"
   ],
   "categories": [
     "multimedia",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表减少",
+    "en": {
+      "name": "list minus",
       "tags": [
-        "移除",
-        "减去",
-        "删除"
+        "playlist",
+        "remove",
+        "song",
+        "subtract",
+        "delete",
+        "unqueue"
       ],
       "categories": [
-        "多媒体",
-        "文本格式"
+        "Multimedia",
+        "Text formatting"
       ]
     }
   }

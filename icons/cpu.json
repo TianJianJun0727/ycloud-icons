@@ -7,32 +7,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "处理器",
   "tags": [
-    "processor",
-    "cores",
-    "technology",
-    "computer",
-    "chip",
-    "circuit",
-    "memory",
-    "ram",
-    "specs",
-    "gigahertz",
-    "ghz"
+    "电脑",
+    "电路",
+    "内存"
   ],
   "categories": [
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "处理器",
+    "en": {
+      "name": "cpu",
       "tags": [
-        "电脑",
-        "电路",
-        "内存"
+        "processor",
+        "cores",
+        "technology",
+        "computer",
+        "chip",
+        "circuit",
+        "memory",
+        "ram",
+        "specs",
+        "gigahertz",
+        "ghz"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

@@ -6,20 +6,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "羽毛",
   "tags": [
-    "logo"
+    "标志"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "羽毛",
+    "en": {
+      "name": "feather",
       "tags": [
-        "标志"
+        "logo"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

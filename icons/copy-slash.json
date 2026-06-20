@@ -5,22 +5,14 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "复制斜杠",
   "tags": [
-    "clone",
-    "duplicate",
-    "cancel",
-    "ban",
-    "no",
-    "stop",
-    "forbidden",
-    "prohibited",
-    "error",
-    "multiple",
-    "divide",
-    "division",
-    "split",
-    "or",
-    "/"
+    "禁止",
+    "无",
+    "停止",
+    "错误",
+    "除号",
+    "拆分"
   ],
   "categories": [
     "text",
@@ -28,20 +20,29 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "复制斜杠",
+    "en": {
+      "name": "copy slash",
       "tags": [
-        "禁止",
-        "无",
-        "停止",
-        "错误",
-        "除号",
-        "拆分"
+        "clone",
+        "duplicate",
+        "cancel",
+        "ban",
+        "no",
+        "stop",
+        "forbidden",
+        "prohibited",
+        "error",
+        "multiple",
+        "divide",
+        "division",
+        "split",
+        "or",
+        "/"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发",
-        "数学"
+        "Text formatting",
+        "Coding & development",
+        "Mathematics"
       ]
     }
   }

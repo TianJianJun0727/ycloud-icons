@@ -6,29 +6,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "与号",
   "tags": [
-    "and",
-    "typography",
-    "operator",
-    "join",
-    "concatenate",
-    "code",
-    "&"
+    "与",
+    "代码"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "与号",
+    "en": {
+      "name": "ampersand",
       "tags": [
-        "与",
-        "代码"
+        "and",
+        "typography",
+        "operator",
+        "join",
+        "concatenate",
+        "code",
+        "&"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

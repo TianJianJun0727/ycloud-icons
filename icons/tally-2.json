@@ -4,34 +4,35 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "计数2",
   "tags": [
-    "count",
-    "score",
-    "enumerate",
-    "days",
-    "two",
-    "2",
-    "second",
-    "double",
-    "bars",
-    "prison",
-    "cell",
-    "sentence"
+    "天数",
+    "双人"
   ],
   "categories": [
     "math",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "计数2",
+    "en": {
+      "name": "tally 2",
       "tags": [
-        "天数",
-        "双人"
+        "count",
+        "score",
+        "enumerate",
+        "days",
+        "two",
+        "2",
+        "second",
+        "double",
+        "bars",
+        "prison",
+        "cell",
+        "sentence"
       ],
       "categories": [
-        "数学",
-        "游戏"
+        "Mathematics",
+        "Gaming"
       ]
     }
   }

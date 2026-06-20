@@ -17,7 +17,7 @@ icons/<icon-name>.json
 ```
 
 - `.svg` 负责图形本体
-- `.json` 负责分类、标签、贡献者以及中文信息
+- `.json` 负责分类、标签、贡献者，以及中文默认展示信息和英文 `i18n.en`
 
 除此之外，还有一类文件与图标展示有关：
 
@@ -73,11 +73,14 @@ pnpm optimize
 - `tags`
 - `use-cases`
 
-如果这个图标要在中文文档和中文搜索里正常显示，建议同时补齐：
+元数据必须同时包含中文主字段和英文 `i18n.en`：
 
-- `i18n.zh.name`
-- `i18n.zh.tags`
-- `i18n.zh.categories`
+- `name`：中文图标名
+- `tags`：中文搜索标签
+- `categories`：稳定分类 slug，不是展示文案
+- `i18n.en.name`：英文图标名
+- `i18n.en.tags`：英文搜索标签
+- `i18n.en.categories`：英文分类展示名
 
 ## 删除一个图标
 
@@ -139,11 +142,11 @@ icons/<icon-name>.json
 ```json
 {
   "$schema": "../category.schema.json",
-  "title": "Navigation & Places",
+  "title": "导航与地点",
   "icon": "compass",
   "i18n": {
-    "zh": {
-      "title": "导航与地点"
+    "en": {
+      "title": "Navigation & Places"
     }
   }
 }

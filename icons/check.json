@@ -4,27 +4,28 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "勾选",
   "tags": [
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "勾选",
+    "en": {
+      "name": "check",
       "tags": [
-        "完成",
-        "待办",
-        "勾选",
-        "任务"
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "通知"
+        "Notification"
       ]
     }
   }

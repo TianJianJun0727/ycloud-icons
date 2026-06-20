@@ -4,12 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "印章",
   "tags": [
-    "mark",
-    "print",
-    "clone",
-    "loyalty",
-    "library"
+    "标记",
+    "打印",
+    "图书馆"
   ],
   "categories": [
     "design",
@@ -17,17 +16,19 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "印章",
+    "en": {
+      "name": "stamp",
       "tags": [
-        "标记",
-        "打印",
-        "图书馆"
+        "mark",
+        "print",
+        "clone",
+        "loyalty",
+        "library"
       ],
       "categories": [
-        "设计",
-        "光标",
-        "工具"
+        "Design",
+        "Cursors",
+        "Tools"
       ]
     }
   }

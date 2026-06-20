@@ -6,24 +6,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "风",
   "tags": [
-    "weather",
-    "air",
-    "blow"
+    "天气"
   ],
   "categories": [
     "weather",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "风",
+    "en": {
+      "name": "wind",
       "tags": [
-        "天气"
+        "weather",
+        "air",
+        "blow"
       ],
       "categories": [
-        "天气",
-        "可持续"
+        "Weather",
+        "Sustainability"
       ]
     }
   }

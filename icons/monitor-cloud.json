@@ -8,22 +8,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "显示器云",
   "tags": [
-    "virtual machine",
-    "virtual desktop",
-    "vm",
-    "vdi",
-    "computing",
-    "remote work",
-    "monitoring",
-    "infrastructure",
-    "software as a service",
-    "saas",
-    "workstation",
-    "environment",
-    "tv",
-    "screen",
-    "display"
+    "virtual机器",
+    "电视",
+    "屏幕"
   ],
   "categories": [
     "connectivity",
@@ -31,17 +20,29 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器云",
+    "en": {
+      "name": "monitor cloud",
       "tags": [
-        "virtual机器",
-        "电视",
-        "屏幕"
+        "virtual machine",
+        "virtual desktop",
+        "vm",
+        "vdi",
+        "computing",
+        "remote work",
+        "monitoring",
+        "infrastructure",
+        "software as a service",
+        "saas",
+        "workstation",
+        "environment",
+        "tv",
+        "screen",
+        "display"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "编码与开发"
+        "Connectivity",
+        "Devices",
+        "Coding & development"
       ]
     }
   }

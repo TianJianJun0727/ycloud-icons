@@ -8,25 +8,15 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "铅笔关闭",
   "tags": [
-    "disabled",
-    "inactive",
-    "non-editable",
-    "locked",
-    "read-only",
-    "unmodifiable",
-    "frozen",
-    "restricted",
-    "rubber",
-    "edit",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
-    "writer",
-    "writing",
-    "stationery",
-    "artist"
+    "非editable",
+    "锁定",
+    "编辑",
+    "创建",
+    "草稿",
+    "禁用",
+    "文具"
   ],
   "categories": [
     "design",
@@ -35,22 +25,33 @@
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "铅笔关闭",
+    "en": {
+      "name": "pencil off",
       "tags": [
-        "非editable",
-        "锁定",
-        "编辑",
-        "创建",
-        "草稿",
-        "禁用",
-        "文具"
+        "disabled",
+        "inactive",
+        "non-editable",
+        "locked",
+        "read-only",
+        "unmodifiable",
+        "frozen",
+        "restricted",
+        "rubber",
+        "edit",
+        "create",
+        "draw",
+        "sketch",
+        "draft",
+        "writer",
+        "writing",
+        "stationery",
+        "artist"
       ],
       "categories": [
-        "设计",
-        "光标",
-        "工具",
-        "文本格式"
+        "Design",
+        "Cursors",
+        "Tools",
+        "Text formatting"
       ]
     }
   }

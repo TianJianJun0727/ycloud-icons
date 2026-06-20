@@ -7,37 +7,38 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "钓鱼钩子",
   "tags": [
-    "sea",
-    "boating",
-    "angler",
-    "bait",
-    "reel",
-    "tackle",
-    "marine",
-    "outdoors",
-    "fish",
-    "fishing",
-    "hook",
-    "sports",
-    "travel"
+    "鱼",
+    "钓鱼",
+    "钩子",
+    "旅行"
   ],
   "categories": [
     "sports",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "钓鱼钩子",
+    "en": {
+      "name": "fishing hook",
       "tags": [
-        "鱼",
-        "钓鱼",
-        "钩子",
-        "旅行"
+        "sea",
+        "boating",
+        "angler",
+        "bait",
+        "reel",
+        "tackle",
+        "marine",
+        "outdoors",
+        "fish",
+        "fishing",
+        "hook",
+        "sports",
+        "travel"
       ],
       "categories": [
-        "运动",
-        "旅行"
+        "Sports",
+        "Travel"
       ]
     }
   }

@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "DNA链关闭",
   "tags": [
-    "gene",
-    "gmo free",
-    "helix",
-    "heredity",
-    "chromosome",
-    "nucleic acid"
+    "基因",
+    "螺旋",
+    "遗传",
+    "染色体"
   ],
   "categories": [
     "medical",
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "DNA链关闭",
+    "en": {
+      "name": "dna off",
       "tags": [
-        "基因",
-        "螺旋",
-        "遗传",
-        "染色体"
+        "gene",
+        "gmo free",
+        "helix",
+        "heredity",
+        "chromosome",
+        "nucleic acid"
       ],
       "categories": [
-        "医疗",
-        "餐饮"
+        "Medical",
+        "Food & beverage"
       ]
     }
   }

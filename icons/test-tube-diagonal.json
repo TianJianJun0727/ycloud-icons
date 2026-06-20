@@ -5,17 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "试管",
   "tags": [
-    "tube",
-    "vial",
-    "phial",
-    "flask",
-    "ampoule",
-    "ampule",
-    "lab",
-    "chemistry",
-    "experiment",
-    "test"
+    "管",
+    "烧瓶",
+    "测试",
+    "化学"
   ],
   "categories": [
     "science"
@@ -29,16 +24,22 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "试管",
+    "en": {
+      "name": "test tube diagonal",
       "tags": [
-        "管",
-        "烧瓶",
-        "测试",
-        "化学"
+        "tube",
+        "vial",
+        "phial",
+        "flask",
+        "ampoule",
+        "ampule",
+        "lab",
+        "chemistry",
+        "experiment",
+        "test"
       ],
       "categories": [
-        "科学"
+        "Science"
       ]
     }
   }

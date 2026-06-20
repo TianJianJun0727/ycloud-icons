@@ -5,39 +5,40 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头右到线条",
   "tags": [
-    "next",
-    "forward",
-    "direction",
-    "east",
-    "tab",
-    "keyboard",
-    "mac",
-    "indent",
-    "collapse",
-    "fold",
-    "horizontal",
-    "->|"
+    "下一个",
+    "前进",
+    "方向",
+    "键盘",
+    "缩进",
+    "折叠",
+    "水平"
   ],
   "categories": [
     "arrows",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头右到线条",
+    "en": {
+      "name": "arrow right to line",
       "tags": [
-        "下一个",
-        "前进",
-        "方向",
-        "键盘",
-        "缩进",
-        "折叠",
-        "水平"
+        "next",
+        "forward",
+        "direction",
+        "east",
+        "tab",
+        "keyboard",
+        "mac",
+        "indent",
+        "collapse",
+        "fold",
+        "horizontal",
+        "->|"
       ],
       "categories": [
-        "箭头",
-        "编码与开发"
+        "Arrows",
+        "Coding & development"
       ]
     }
   }

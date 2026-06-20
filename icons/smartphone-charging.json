@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "智能手机充电",
   "tags": [
-    "phone",
-    "cellphone",
-    "device",
-    "power",
-    "screen"
+    "电话",
+    "设备",
+    "电源",
+    "屏幕"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "智能手机充电",
+    "en": {
+      "name": "smartphone charging",
       "tags": [
-        "电话",
-        "设备",
-        "电源",
-        "屏幕"
+        "phone",
+        "cellphone",
+        "device",
+        "power",
+        "screen"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

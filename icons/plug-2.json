@@ -5,26 +5,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "插头2",
   "tags": [
-    "electricity",
-    "energy",
-    "socket",
-    "outlet"
+    "电力",
+    "能源"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "插头2",
+    "en": {
+      "name": "plug 2",
       "tags": [
-        "电力",
-        "能源"
+        "electricity",
+        "energy",
+        "socket",
+        "outlet"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

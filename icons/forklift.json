@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "叉车",
   "tags": [
-    "machinery",
-    "industrial",
-    "warehouse",
-    "lifting",
-    "storage",
-    "equipment",
-    "heavy-duty",
-    "moving",
-    "vehicle",
-    "transport",
-    "logistics"
+    "仓库",
+    "设备"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "叉车",
+    "en": {
+      "name": "forklift",
       "tags": [
-        "仓库",
-        "设备"
+        "machinery",
+        "industrial",
+        "warehouse",
+        "lifting",
+        "storage",
+        "equipment",
+        "heavy-duty",
+        "moving",
+        "vehicle",
+        "transport",
+        "logistics"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

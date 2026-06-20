@@ -5,11 +5,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件轴三维",
   "tags": [
-    "model",
-    "3d",
-    "axis",
-    "coordinates"
+    "三维",
+    "轴"
   ],
   "categories": [
     "design",
@@ -24,15 +23,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件轴三维",
+    "en": {
+      "name": "file axis 3d",
       "tags": [
-        "三维",
-        "轴"
+        "model",
+        "3d",
+        "axis",
+        "coordinates"
       ],
       "categories": [
-        "设计",
-        "文件"
+        "Design",
+        "File icons"
       ]
     }
   }

@@ -5,35 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "盾牌减少",
   "tags": [
-    "unshield",
-    "cybersecurity",
-    "unsecure",
-    "unguard",
-    "unblock",
-    "antivirus",
-    "clean",
-    "clear",
-    "disinfect",
-    "patch",
-    "fix",
-    "stop",
-    "cancel",
-    "remove",
-    "relax",
-    "admin",
-    "crest",
-    "bravery",
-    "weakened",
-    "damaged",
-    "hit",
-    "unarm",
-    "disable",
-    "deactivate",
-    "decommission",
-    "downgraded",
-    "minimum",
-    "-"
+    "停止",
+    "移除"
   ],
   "categories": [
     "account",
@@ -42,17 +17,43 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "盾牌减少",
+    "en": {
+      "name": "shield minus",
       "tags": [
-        "停止",
-        "移除"
+        "unshield",
+        "cybersecurity",
+        "unsecure",
+        "unguard",
+        "unblock",
+        "antivirus",
+        "clean",
+        "clear",
+        "disinfect",
+        "patch",
+        "fix",
+        "stop",
+        "cancel",
+        "remove",
+        "relax",
+        "admin",
+        "crest",
+        "bravery",
+        "weakened",
+        "damaged",
+        "hit",
+        "unarm",
+        "disable",
+        "deactivate",
+        "decommission",
+        "downgraded",
+        "minimum",
+        "-"
       ],
       "categories": [
-        "账号与访问",
-        "安全",
-        "编码与开发",
-        "游戏"
+        "Accounts & access",
+        "Security",
+        "Coding & development",
+        "Gaming"
       ]
     }
   }

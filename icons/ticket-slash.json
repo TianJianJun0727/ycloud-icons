@@ -4,50 +4,51 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券斜杠",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "redeemed",
-    "used",
-    "marked",
-    "checked",
-    "verified",
-    "spoiled",
-    "invalidated",
-    "void",
-    "denied",
-    "refused",
-    "banned",
-    "barred",
-    "forbidden",
-    "prohibited",
-    "cancelled",
-    "cancellation",
-    "refunded",
-    "delete",
-    "remove",
-    "clear",
-    "error"
+    "已标记",
+    "删除",
+    "移除",
+    "错误",
+    "已验证"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券斜杠",
+    "en": {
+      "name": "ticket slash",
       "tags": [
-        "已标记",
-        "删除",
-        "移除",
-        "错误",
-        "已验证"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "redeemed",
+        "used",
+        "marked",
+        "checked",
+        "verified",
+        "spoiled",
+        "invalidated",
+        "void",
+        "denied",
+        "refused",
+        "banned",
+        "barred",
+        "forbidden",
+        "prohibited",
+        "cancelled",
+        "cancellation",
+        "refunded",
+        "delete",
+        "remove",
+        "clear",
+        "error"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

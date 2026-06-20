@@ -4,23 +4,24 @@
     "nickveles"
   ],
   "use-cases": [],
+  "name": "叶片关闭",
   "tags": [
-    "cannabis",
-    "weed",
-    "leaf"
+    "叶片",
+    "叶子"
   ],
   "categories": [
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "叶片关闭",
+    "en": {
+      "name": "cannabis off",
       "tags": [
-        "叶片",
-        "叶子"
+        "cannabis",
+        "weed",
+        "leaf"
       ],
       "categories": [
-        "自然"
+        "Nature"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "荧光笔",
   "tags": [
-    "mark",
-    "text"
+    "标记",
+    "文本"
   ],
   "categories": [
     "text",
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "荧光笔",
+    "en": {
+      "name": "highlighter",
       "tags": [
-        "标记",
-        "文本"
+        "mark",
+        "text"
       ],
       "categories": [
-        "文本格式",
-        "设计"
+        "Text formatting",
+        "Design"
       ]
     }
   }

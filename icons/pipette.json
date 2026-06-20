@@ -7,11 +7,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "吸管",
   "tags": [
-    "eye dropper",
-    "color picker",
-    "lab",
-    "chemistry"
+    "眼睛dropper",
+    "化学"
   ],
   "categories": [
     "text",
@@ -19,16 +18,18 @@
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "吸管",
+    "en": {
+      "name": "pipette",
       "tags": [
-        "眼睛dropper",
-        "化学"
+        "eye dropper",
+        "color picker",
+        "lab",
+        "chemistry"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "科学"
+        "Text formatting",
+        "Design",
+        "Science"
       ]
     }
   }

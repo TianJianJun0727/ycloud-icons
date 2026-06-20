@@ -4,29 +4,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "摩天轮轮",
   "tags": [
-    "big wheel",
-    "daisy wheel",
-    "observation",
-    "attraction",
-    "entertainment",
-    "amusement park",
-    "theme park",
-    "funfair"
+    "大轮",
+    "daisy轮",
+    "娱乐"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "摩天轮轮",
+    "en": {
+      "name": "ferris wheel",
       "tags": [
-        "大轮",
-        "daisy轮",
-        "娱乐"
+        "big wheel",
+        "daisy wheel",
+        "observation",
+        "attraction",
+        "entertainment",
+        "amusement park",
+        "theme park",
+        "funfair"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

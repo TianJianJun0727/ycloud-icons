@@ -4,21 +4,22 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "创意共享",
   "tags": [
-    "licence",
-    "license"
+    "许可"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "创意共享",
+    "en": {
+      "name": "creative commons",
       "tags": [
-        "许可"
+        "licence",
+        "license"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

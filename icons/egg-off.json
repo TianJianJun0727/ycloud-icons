@@ -6,25 +6,26 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "鸡蛋关闭",
   "tags": [
-    "egg free",
-    "vegan",
-    "hatched",
-    "bad egg"
+    "鸡蛋free",
+    "素食",
+    "bad鸡蛋"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "鸡蛋关闭",
+    "en": {
+      "name": "egg off",
       "tags": [
-        "鸡蛋free",
-        "素食",
-        "bad鸡蛋"
+        "egg free",
+        "vegan",
+        "hatched",
+        "bad egg"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

@@ -5,13 +5,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局列表",
   "tags": [
-    "todo",
-    "tasks",
-    "items",
-    "pending",
-    "image",
-    "photo"
+    "待办",
+    "项目",
+    "图片",
+    "照片"
   ],
   "categories": [
     "design",
@@ -20,19 +19,21 @@
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局列表",
+    "en": {
+      "name": "layout list",
       "tags": [
-        "待办",
-        "项目",
-        "图片",
-        "照片"
+        "todo",
+        "tasks",
+        "items",
+        "pending",
+        "image",
+        "photo"
       ],
       "categories": [
-        "设计",
-        "布局",
-        "摄影",
-        "文本格式"
+        "Design",
+        "Layout",
+        "Photography",
+        "Text formatting"
       ]
     }
   }

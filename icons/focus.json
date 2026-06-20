@@ -7,26 +7,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "聚焦",
   "tags": [
-    "camera",
-    "lens",
-    "photo",
-    "dashed"
+    "相机",
+    "镜头",
+    "照片",
+    "虚线"
   ],
   "categories": [
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "聚焦",
+    "en": {
+      "name": "focus",
       "tags": [
-        "相机",
-        "镜头",
-        "照片",
-        "虚线"
+        "camera",
+        "lens",
+        "photo",
+        "dashed"
       ],
       "categories": [
-        "摄影"
+        "Photography"
       ]
     }
   }

@@ -4,28 +4,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "信号高",
   "tags": [
-    "connection",
-    "wireless",
-    "gsm",
-    "phone",
-    "2g",
-    "3g",
-    "4g",
-    "5g"
+    "连接",
+    "电话"
   ],
   "categories": [
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "信号高",
+    "en": {
+      "name": "signal high",
       "tags": [
-        "连接",
-        "电话"
+        "connection",
+        "wireless",
+        "gsm",
+        "phone",
+        "2g",
+        "3g",
+        "4g",
+        "5g"
       ],
       "categories": [
-        "连接"
+        "Connectivity"
       ]
     }
   }

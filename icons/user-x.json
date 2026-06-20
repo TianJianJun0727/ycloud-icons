@@ -7,25 +7,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "用户关闭",
   "tags": [
-    "delete",
-    "remove",
-    "unfollow",
-    "unsubscribe",
-    "unavailable"
+    "删除",
+    "移除"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户关闭",
+    "en": {
+      "name": "user X",
       "tags": [
-        "删除",
-        "移除"
+        "delete",
+        "remove",
+        "unfollow",
+        "unsubscribe",
+        "unavailable"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

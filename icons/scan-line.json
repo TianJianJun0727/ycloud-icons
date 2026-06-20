@@ -5,35 +5,36 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "扫描线条",
   "tags": [
-    "checkout",
-    "till",
-    "cart",
-    "transaction",
-    "purchase",
-    "buy",
-    "product",
-    "packaging",
-    "retail",
-    "consumer",
-    "qr-code",
-    "dashed"
+    "购物车",
+    "二维码代码",
+    "虚线"
   ],
   "categories": [
     "devices",
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描线条",
+    "en": {
+      "name": "scan line",
       "tags": [
-        "购物车",
-        "二维码代码",
-        "虚线"
+        "checkout",
+        "till",
+        "cart",
+        "transaction",
+        "purchase",
+        "buy",
+        "product",
+        "packaging",
+        "retail",
+        "consumer",
+        "qr-code",
+        "dashed"
       ],
       "categories": [
-        "设备",
-        "购物"
+        "Devices",
+        "Shopping"
       ]
     }
   }

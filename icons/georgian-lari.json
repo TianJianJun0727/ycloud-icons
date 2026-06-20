@@ -4,23 +4,24 @@
     "kivicode"
   ],
   "use-cases": [],
+  "name": "格鲁吉亚拉里",
   "tags": [
-    "currency",
-    "money",
-    "payment"
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "格鲁吉亚拉里",
+    "en": {
+      "name": "georgian lari",
       "tags": [
-        "货币",
-        "支付"
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

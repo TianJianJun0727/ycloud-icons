@@ -6,25 +6,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文本文件",
   "tags": [
-    "data",
-    "txt",
-    "pdf",
-    "document"
+    "文档"
   ],
   "categories": [
     "files",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "文本文件",
+    "en": {
+      "name": "file text",
       "tags": [
-        "文档"
+        "data",
+        "txt",
+        "pdf",
+        "document"
       ],
       "categories": [
-        "文件",
-        "文本格式"
+        "File icons",
+        "Text formatting"
       ]
     }
   }

@@ -5,27 +5,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "卡片SIM卡",
   "tags": [
-    "cellphone",
-    "smartphone",
-    "mobile",
-    "network",
-    "cellular",
-    "service",
-    "provider",
-    "signal",
-    "coverage",
-    "disk",
-    "data",
-    "format",
-    "storage",
-    "flash",
-    "digital",
-    "contacts",
-    "phone book",
-    "contractual",
-    "circuit board",
-    "chip"
+    "智能手机",
+    "网络",
+    "信号",
+    "电话书籍",
+    "电路面板"
   ],
   "categories": [
     "connectivity",
@@ -34,20 +20,35 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "卡片SIM卡",
+    "en": {
+      "name": "card sim",
       "tags": [
-        "智能手机",
-        "网络",
-        "信号",
-        "电话书籍",
-        "电路面板"
+        "cellphone",
+        "smartphone",
+        "mobile",
+        "network",
+        "cellular",
+        "service",
+        "provider",
+        "signal",
+        "coverage",
+        "disk",
+        "data",
+        "format",
+        "storage",
+        "flash",
+        "digital",
+        "contacts",
+        "phone book",
+        "contractual",
+        "circuit board",
+        "chip"
       ],
       "categories": [
-        "连接",
-        "沟通",
-        "多媒体",
-        "设备"
+        "Connectivity",
+        "Communication",
+        "Multimedia",
+        "Devices"
       ]
     }
   }

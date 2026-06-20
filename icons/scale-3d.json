@@ -6,11 +6,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "比例尺三维",
   "tags": [
-    "gizmo",
-    "transform",
-    "size",
-    "axis"
+    "轴"
   ],
   "categories": [
     "design"
@@ -24,13 +22,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "比例尺三维",
+    "en": {
+      "name": "scale 3d",
       "tags": [
-        "轴"
+        "gizmo",
+        "transform",
+        "size",
+        "axis"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

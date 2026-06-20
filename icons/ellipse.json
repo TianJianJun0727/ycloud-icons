@@ -4,33 +4,34 @@
     "KISHORE-KUMAR-S"
   ],
   "use-cases": [],
+  "name": "椭圆",
   "tags": [
-    "shape",
-    "geometry",
-    "rounded",
-    "smooth",
-    "outline",
-    "form",
-    "boundary",
-    "curve",
-    "shapes",
-    "ellipse",
-    "oval"
+    "轮廓",
+    "表单",
+    "形状",
+    "椭圆"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "椭圆",
+    "en": {
+      "name": "ellipse",
       "tags": [
-        "轮廓",
-        "表单",
-        "形状",
-        "椭圆"
+        "shape",
+        "geometry",
+        "rounded",
+        "smooth",
+        "outline",
+        "form",
+        "boundary",
+        "curve",
+        "shapes",
+        "ellipse",
+        "oval"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

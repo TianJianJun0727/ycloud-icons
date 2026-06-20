@@ -5,13 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "鸟屋",
   "tags": [
-    "birdhouse",
-    "bird",
-    "garden",
-    "home",
-    "house",
-    "woodwork"
+    "鸟屋",
+    "鸟",
+    "家居",
+    "房屋"
   ],
   "categories": [
     "nature",
@@ -20,19 +19,21 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "鸟屋",
+    "en": {
+      "name": "birdhouse",
       "tags": [
-        "鸟屋",
-        "鸟",
-        "家居",
-        "房屋"
+        "birdhouse",
+        "bird",
+        "garden",
+        "home",
+        "house",
+        "woodwork"
       ],
       "categories": [
-        "自然",
-        "动物",
-        "导航与地点",
-        "家居"
+        "Nature",
+        "Animals",
+        "Navigation & Places",
+        "Home"
       ]
     }
   }

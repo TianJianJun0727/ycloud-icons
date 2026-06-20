@@ -5,22 +5,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "八边形",
   "tags": [
-    "stop",
-    "shape"
+    "停止",
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "八边形",
+    "en": {
+      "name": "octagon",
       "tags": [
-        "停止",
-        "形状"
+        "stop",
+        "shape"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

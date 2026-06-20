@@ -4,26 +4,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表末端",
   "tags": [
-    "queue",
-    "bottom",
-    "end",
-    "playlist"
+    "底部",
+    "末端"
   ],
   "categories": [
     "multimedia",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表末端",
+    "en": {
+      "name": "list end",
       "tags": [
-        "底部",
-        "末端"
+        "queue",
+        "bottom",
+        "end",
+        "playlist"
       ],
       "categories": [
-        "多媒体",
-        "文本格式"
+        "Multimedia",
+        "Text formatting"
       ]
     }
   }

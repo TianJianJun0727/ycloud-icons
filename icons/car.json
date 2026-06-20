@@ -6,24 +6,25 @@
     "Andreto"
   ],
   "use-cases": [],
+  "name": "汽车",
   "tags": [
-    "vehicle",
-    "drive",
-    "trip",
-    "journey"
+    "驱动器",
+    "行程"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "汽车",
+    "en": {
+      "name": "car",
       "tags": [
-        "驱动器",
-        "行程"
+        "vehicle",
+        "drive",
+        "trip",
+        "journey"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

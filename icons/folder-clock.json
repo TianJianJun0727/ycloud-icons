@@ -6,26 +6,27 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "文件夹时钟",
   "tags": [
-    "history",
-    "directory",
-    "clock"
+    "历史",
+    "时钟",
+    "目录"
   ],
   "categories": [
     "files",
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹时钟",
+    "en": {
+      "name": "folder clock",
       "tags": [
-        "历史",
-        "时钟",
-        "目录"
+        "history",
+        "directory",
+        "clock"
       ],
       "categories": [
-        "文件",
-        "时间与日历"
+        "File icons",
+        "Time & calendar"
       ]
     }
   }

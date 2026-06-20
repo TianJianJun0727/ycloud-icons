@@ -5,34 +5,35 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "圆锥",
   "tags": [
-    "conical",
-    "triangle",
-    "triangular",
-    "geometry",
-    "filter",
-    "funnel",
-    "hopper",
-    "spotlight",
-    "searchlight"
+    "圆锥",
+    "三角形",
+    "筛选",
+    "漏斗",
+    "聚光灯"
   ],
   "categories": [
     "shapes",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆锥",
+    "en": {
+      "name": "cone",
       "tags": [
-        "圆锥",
-        "三角形",
-        "筛选",
-        "漏斗",
-        "聚光灯"
+        "conical",
+        "triangle",
+        "triangular",
+        "geometry",
+        "filter",
+        "funnel",
+        "hopper",
+        "spotlight",
+        "searchlight"
       ],
       "categories": [
-        "形状",
-        "数学"
+        "Shapes",
+        "Mathematics"
       ]
     }
   }

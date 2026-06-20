@@ -6,31 +6,32 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "烧瓶圆锥关闭",
   "tags": [
-    "beaker",
-    "erlenmeyer",
-    "non toxic",
-    "lab",
-    "chemistry",
-    "experiment",
-    "test"
+    "烧杯",
+    "非toxic",
+    "测试",
+    "化学"
   ],
   "categories": [
     "science",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "烧瓶圆锥关闭",
+    "en": {
+      "name": "flask conical off",
       "tags": [
-        "烧杯",
-        "非toxic",
-        "测试",
-        "化学"
+        "beaker",
+        "erlenmeyer",
+        "non toxic",
+        "lab",
+        "chemistry",
+        "experiment",
+        "test"
       ],
       "categories": [
-        "科学",
-        "游戏"
+        "Science",
+        "Gaming"
       ]
     }
   }

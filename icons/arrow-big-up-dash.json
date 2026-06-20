@@ -7,18 +7,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "箭头大上短横线",
   "tags": [
-    "caps lock",
-    "capitals",
-    "keyboard",
-    "button",
-    "mac",
-    "forward",
-    "direction",
-    "north",
-    "faster",
-    "speed",
-    "boost"
+    "caps锁定",
+    "键盘",
+    "前进",
+    "方向"
   ],
   "categories": [
     "arrows",
@@ -27,19 +21,26 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头大上短横线",
+    "en": {
+      "name": "arrow big up dash",
       "tags": [
-        "caps锁定",
-        "键盘",
-        "前进",
-        "方向"
+        "caps lock",
+        "capitals",
+        "keyboard",
+        "button",
+        "mac",
+        "forward",
+        "direction",
+        "north",
+        "faster",
+        "speed",
+        "boost"
       ],
       "categories": [
-        "箭头",
-        "文本格式",
-        "编码与开发",
-        "游戏"
+        "Arrows",
+        "Text formatting",
+        "Coding & development",
+        "Gaming"
       ]
     }
   }

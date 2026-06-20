@@ -5,29 +5,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "公文包传送传送带",
   "tags": [
-    "baggage",
-    "luggage",
-    "travel",
-    "suitcase",
-    "conveyor",
-    "carousel"
+    "行李",
+    "旅行",
+    "传送"
   ],
   "categories": [
     "travel",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "公文包传送传送带",
+    "en": {
+      "name": "briefcase conveyor belt",
       "tags": [
-        "行李",
-        "旅行",
-        "传送"
+        "baggage",
+        "luggage",
+        "travel",
+        "suitcase",
+        "conveyor",
+        "carousel"
       ],
       "categories": [
-        "旅行",
-        "交通"
+        "Travel",
+        "Transportation"
       ]
     }
   }

@@ -6,20 +6,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "镜像矩形",
   "tags": [
-    "reflection",
-    "optics",
-    "glass",
-    "surface",
-    "image",
-    "physics",
-    "science",
-    "bathroom",
-    "decor",
-    "cosmetic",
-    "shiny",
-    "periscope",
-    "vanity"
+    "玻璃杯",
+    "图片",
+    "物理"
   ],
   "categories": [
     "science",
@@ -27,17 +18,27 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "镜像矩形",
+    "en": {
+      "name": "mirror rectangular",
       "tags": [
-        "玻璃杯",
-        "图片",
-        "物理"
+        "reflection",
+        "optics",
+        "glass",
+        "surface",
+        "image",
+        "physics",
+        "science",
+        "bathroom",
+        "decor",
+        "cosmetic",
+        "shiny",
+        "periscope",
+        "vanity"
       ],
       "categories": [
-        "科学",
-        "家居",
-        "工具"
+        "Science",
+        "Home",
+        "Tools"
       ]
     }
   }

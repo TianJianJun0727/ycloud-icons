@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "小麦关闭",
   "tags": [
-    "corn",
-    "cereal",
-    "grain",
-    "gluten free",
-    "allergy",
-    "intolerance",
-    "diet"
+    "小麦",
+    "禁用",
+    "谷物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "小麦关闭",
+    "en": {
+      "name": "wheat off",
       "tags": [
-        "小麦",
-        "禁用",
-        "谷物"
+        "corn",
+        "cereal",
+        "grain",
+        "gluten free",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

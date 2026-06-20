@@ -6,7 +6,7 @@ import { useRouter } from 'vitepress';
 import { data } from '../home/HomeHeroIconsCard.data';
 import { useScroll } from '@vueuse/core';
 import { computed } from 'vue';
-import { resolveRoutePath } from '../../utils/navigation';
+import { resolveRoutePath } from '@theme/utils/navigation';
 const { go } = useRouter();
 const iconsSearchPath = '/icons/?focus';
 

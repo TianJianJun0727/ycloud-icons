@@ -6,28 +6,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "生物危害",
   "tags": [
-    "fallout",
-    "waste",
-    "biology",
-    "chemistry",
-    "chemical",
-    "element"
+    "放射尘",
+    "废弃物",
+    "化学",
+    "元素"
   ],
   "categories": [
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "生物危害",
+    "en": {
+      "name": "biohazard",
       "tags": [
-        "放射尘",
-        "废弃物",
-        "化学",
-        "元素"
+        "fallout",
+        "waste",
+        "biology",
+        "chemistry",
+        "chemical",
+        "element"
       ],
       "categories": [
-        "科学"
+        "Science"
       ]
     }
   }

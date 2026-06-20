@@ -4,23 +4,24 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "土耳其里拉",
   "tags": [
-    "currency",
-    "money",
-    "payment"
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "土耳其里拉",
+    "en": {
+      "name": "turkish lira",
       "tags": [
-        "货币",
-        "支付"
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

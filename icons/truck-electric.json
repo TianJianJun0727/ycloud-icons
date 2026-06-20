@@ -14,26 +14,27 @@
     "AnnaSasDev"
   ],
   "use-cases": [],
+  "name": "卡车电动",
   "tags": [
-    "delivery",
-    "van",
-    "shipping",
-    "haulage",
-    "lorry",
-    "electric"
+    "厢式车",
+    "电动"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "卡车电动",
+    "en": {
+      "name": "truck electric",
       "tags": [
-        "厢式车",
-        "电动"
+        "delivery",
+        "van",
+        "shipping",
+        "haulage",
+        "lorry",
+        "electric"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

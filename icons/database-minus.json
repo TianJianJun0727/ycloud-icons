@@ -11,33 +11,34 @@
     "deleting or detaching a database connection",
     "reducing allocated database resources"
   ],
+  "name": "数据库减少",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "server",
-    "minus",
-    "remove",
-    "delete",
-    "reduce"
+    "内存",
+    "服务器",
+    "减少",
+    "移除",
+    "删除"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库减少",
+    "en": {
+      "name": "database minus",
       "tags": [
-        "内存",
-        "服务器",
-        "减少",
-        "移除",
-        "删除"
+        "storage",
+        "memory",
+        "bytes",
+        "server",
+        "minus",
+        "remove",
+        "delete",
+        "reduce"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

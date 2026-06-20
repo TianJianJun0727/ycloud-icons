@@ -5,27 +5,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章减少",
   "tags": [
-    "verified",
-    "unverified",
-    "delete",
-    "remove",
-    "erase"
+    "删除",
+    "移除",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章减少",
+    "en": {
+      "name": "badge minus",
       "tags": [
-        "删除",
-        "移除",
-        "已验证",
-        "未验证"
+        "verified",
+        "unverified",
+        "delete",
+        "remove",
+        "erase"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

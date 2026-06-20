@@ -4,25 +4,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "图表条形上升",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph",
-    "trending up"
+    "图形",
+    "趋势上"
   ],
   "categories": [
     "charts"
   ],
   "i18n": {
-    "zh": {
-      "name": "图表条形上升",
+    "en": {
+      "name": "chart bar increasing",
       "tags": [
-        "图形",
-        "趋势上"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph",
+        "trending up"
       ],
       "categories": [
-        "图表"
+        "Charts"
       ]
     }
   }

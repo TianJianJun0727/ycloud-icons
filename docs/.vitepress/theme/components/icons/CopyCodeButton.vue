@@ -1,14 +1,17 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { useData } from 'vitepress';
 import { toPascalCase } from '@ycloud-web/shared';
 import ButtonMenu from '../base/ButtonMenu.vue';
-import { useIconStyleContext } from '../../composables/useIconStyle';
-import useConfetti from '../../composables/useConfetti';
+import { useIconStyleContext } from '@theme/composables/useIconStyle';
+import useConfetti from '@theme/composables/useConfetti';
 
 const props = defineProps<{
   name: string;
   popoverPosition?: 'top' | 'bottom';
 }>();
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 const { size, color, strokeWidth, absoluteStrokeWidth } = useIconStyleContext();
 const { animate, confetti } = useConfetti();
 const componentName = computed(() => {
@@ -103,14 +106,14 @@ function copyAngular() {
     callOptionOnClick
     @click="confetti"
     @optionClick="confetti"
-    data-confetti-text="已复制"
+    :data-confetti-text="isEnglish ? 'Copied' : '已复制'"
     :popoverPosition="popoverPosition"
     :options="[
-      { text: '复制 JSX', onClick: copyJSX },
-      { text: '复制组件名', onClick: copyComponentName },
-      { text: '复制 Vue', onClick: copyVue },
-      { text: '复制 Svelte', onClick: copyJSX },
-      { text: '复制 Angular', onClick: copyAngular },
+      { text: isEnglish ? 'Copy JSX' : '复制 JSX', onClick: copyJSX },
+      { text: isEnglish ? 'Copy component name' : '复制组件名', onClick: copyComponentName },
+      { text: isEnglish ? 'Copy Vue' : '复制 Vue', onClick: copyVue },
+      { text: isEnglish ? 'Copy Svelte' : '复制 Svelte', onClick: copyJSX },
+      { text: isEnglish ? 'Copy Angular' : '复制 Angular', onClick: copyAngular },
     ]"
   />
 </template>

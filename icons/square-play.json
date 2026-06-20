@@ -5,12 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方形播放",
   "tags": [
-    "music",
-    "audio",
-    "video",
-    "start",
-    "run"
+    "音乐",
+    "音频",
+    "视频",
+    "起始"
   ],
   "categories": [
     "arrows",
@@ -25,17 +25,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形播放",
+    "en": {
+      "name": "square play",
       "tags": [
-        "音乐",
-        "音频",
-        "视频",
-        "起始"
+        "music",
+        "audio",
+        "video",
+        "start",
+        "run"
       ],
       "categories": [
-        "箭头",
-        "多媒体"
+        "Arrows",
+        "Multimedia"
       ]
     }
   }

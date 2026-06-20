@@ -5,13 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形箭头上",
   "tags": [
-    "forward",
-    "direction",
-    "north",
-    "sign",
-    "keyboard",
-    "button"
+    "前进",
+    "方向",
+    "标志",
+    "键盘"
   ],
   "categories": [
     "arrows"
@@ -25,16 +24,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头上",
+    "en": {
+      "name": "square arrow up",
       "tags": [
-        "前进",
-        "方向",
-        "标志",
-        "键盘"
+        "forward",
+        "direction",
+        "north",
+        "sign",
+        "keyboard",
+        "button"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

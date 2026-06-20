@@ -5,25 +5,26 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "药丸",
   "tags": [
-    "medicine",
-    "medication",
-    "drug",
-    "prescription",
-    "tablet",
-    "pharmacy"
+    "平板"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "药丸",
+    "en": {
+      "name": "pill",
       "tags": [
-        "平板"
+        "medicine",
+        "medication",
+        "drug",
+        "prescription",
+        "tablet",
+        "pharmacy"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

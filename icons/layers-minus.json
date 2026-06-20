@@ -9,36 +9,37 @@
     "Spleefies"
   ],
   "use-cases": [],
+  "name": "图层减少",
   "tags": [
-    "stack",
-    "pile",
-    "pages",
-    "sheets",
-    "paperwork",
-    "copies",
-    "copy",
-    "layers",
-    "remove",
-    "delete"
+    "堆叠",
+    "堆",
+    "复制",
+    "图层",
+    "移除",
+    "删除"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "图层减少",
+    "en": {
+      "name": "layers minus",
       "tags": [
-        "堆叠",
-        "堆",
-        "复制",
-        "图层",
-        "移除",
-        "删除"
+        "stack",
+        "pile",
+        "pages",
+        "sheets",
+        "paperwork",
+        "copies",
+        "copy",
+        "layers",
+        "remove",
+        "delete"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

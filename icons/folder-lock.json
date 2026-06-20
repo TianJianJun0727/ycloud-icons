@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文件夹锁定",
   "tags": [
-    "directory",
-    "lock",
-    "private",
-    "security",
-    "protected"
+    "锁定",
+    "安全",
+    "目录",
+    "锁"
   ],
   "categories": [
     "files",
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹锁定",
+    "en": {
+      "name": "folder lock",
       "tags": [
-        "锁定",
-        "安全",
-        "目录",
-        "锁"
+        "directory",
+        "lock",
+        "private",
+        "security",
+        "protected"
       ],
       "categories": [
-        "文件",
-        "安全"
+        "File icons",
+        "Security"
       ]
     }
   }

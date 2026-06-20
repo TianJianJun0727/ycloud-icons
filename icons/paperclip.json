@@ -8,9 +8,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "回形针",
   "tags": [
-    "attachment",
-    "file"
+    "文件"
   ],
   "categories": [
     "text",
@@ -19,16 +19,17 @@
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "回形针",
+    "en": {
+      "name": "paperclip",
       "tags": [
-        "文件"
+        "attachment",
+        "file"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "文件",
-        "邮件"
+        "Text formatting",
+        "Design",
+        "File icons",
+        "Mail"
       ]
     }
   }

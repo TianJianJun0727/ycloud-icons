@@ -5,14 +5,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "监控",
   "tags": [
-    "camera",
-    "surveillance",
-    "recording",
-    "film",
-    "videotape",
-    "crime",
-    "watching"
+    "相机",
+    "胶片",
+    "录像带"
   ],
   "categories": [
     "security",
@@ -22,19 +19,23 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "监控",
+    "en": {
+      "name": "cctv",
       "tags": [
-        "相机",
-        "胶片",
-        "录像带"
+        "camera",
+        "surveillance",
+        "recording",
+        "film",
+        "videotape",
+        "crime",
+        "watching"
       ],
       "categories": [
-        "安全",
-        "设备",
-        "沟通",
-        "连接",
-        "摄影"
+        "Security",
+        "Devices",
+        "Communication",
+        "Connectivity",
+        "Photography"
       ]
     }
   }

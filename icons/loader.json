@@ -6,14 +6,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "加载器",
   "tags": [
-    "loading",
-    "wait",
-    "busy",
-    "progress",
-    "spinner",
-    "spinning",
-    "throbber"
+    "加载",
+    "等待",
+    "忙碌"
   ],
   "categories": [
     "cursors",
@@ -22,18 +19,22 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "加载器",
+    "en": {
+      "name": "loader",
       "tags": [
-        "加载",
-        "等待",
-        "忙碌"
+        "loading",
+        "wait",
+        "busy",
+        "progress",
+        "spinner",
+        "spinning",
+        "throbber"
       ],
       "categories": [
-        "光标",
-        "多媒体",
-        "布局",
-        "设计"
+        "Cursors",
+        "Multimedia",
+        "Layout",
+        "Design"
       ]
     }
   }

@@ -5,12 +5,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "奖章",
   "tags": [
-    "achievement",
-    "badge",
-    "rosette",
-    "prize",
-    "winner"
+    "徽章"
   ],
   "categories": [
     "account",
@@ -18,15 +15,19 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "奖章",
+    "en": {
+      "name": "award",
       "tags": [
-        "徽章"
+        "achievement",
+        "badge",
+        "rosette",
+        "prize",
+        "winner"
       ],
       "categories": [
-        "账号与访问",
-        "运动",
-        "游戏"
+        "Accounts & access",
+        "Sports",
+        "Gaming"
       ]
     }
   }

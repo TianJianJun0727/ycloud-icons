@@ -4,13 +4,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "丝带",
   "tags": [
-    "awareness",
-    "strip",
-    "band",
-    "tape",
-    "strap",
-    "cordon"
+    "磁带"
   ],
   "categories": [
     "social",
@@ -18,15 +14,20 @@
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "丝带",
+    "en": {
+      "name": "ribbon",
       "tags": [
-        "磁带"
+        "awareness",
+        "strip",
+        "band",
+        "tape",
+        "strap",
+        "cordon"
       ],
       "categories": [
-        "社交",
-        "医疗",
-        "表情"
+        "Social",
+        "Medical",
+        "Emoji"
       ]
     }
   }

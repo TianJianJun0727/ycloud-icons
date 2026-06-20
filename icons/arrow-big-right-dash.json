@@ -7,30 +7,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "箭头大右短横线",
   "tags": [
-    "next",
-    "forward",
-    "direction",
-    "east",
-    "turn",
-    "corner"
+    "下一个",
+    "前进",
+    "方向",
+    "角落"
   ],
   "categories": [
     "arrows",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头大右短横线",
+    "en": {
+      "name": "arrow big right dash",
       "tags": [
-        "下一个",
-        "前进",
-        "方向",
-        "角落"
+        "next",
+        "forward",
+        "direction",
+        "east",
+        "turn",
+        "corner"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

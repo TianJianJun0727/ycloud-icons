@@ -6,20 +6,21 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "下标",
   "tags": [
-    "text"
+    "文本"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "下标",
+    "en": {
+      "name": "subscript",
       "tags": [
-        "文本"
+        "text"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

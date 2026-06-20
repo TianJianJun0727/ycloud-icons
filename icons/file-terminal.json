@@ -5,25 +5,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件终端",
   "tags": [
-    "terminal",
-    "bash",
-    "script",
-    "executable"
+    "终端"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件终端",
+    "en": {
+      "name": "file terminal",
       "tags": [
-        "终端"
+        "terminal",
+        "bash",
+        "script",
+        "executable"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

@@ -6,28 +6,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "树松树",
   "tags": [
-    "tree",
-    "pine",
-    "forest",
-    "park",
-    "nature"
+    "树",
+    "松树",
+    "自然"
   ],
   "categories": [
     "nature",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "树松树",
+    "en": {
+      "name": "tree pine",
       "tags": [
-        "树",
-        "松树",
-        "自然"
+        "tree",
+        "pine",
+        "forest",
+        "park",
+        "nature"
       ],
       "categories": [
-        "自然",
-        "可持续"
+        "Nature",
+        "Sustainability"
       ]
     }
   }

@@ -6,28 +6,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "图钉",
   "tags": [
-    "save",
-    "map",
-    "lock",
-    "fix"
+    "保存",
+    "地图",
+    "锁定",
+    "锁"
   ],
   "categories": [
     "navigation",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "图钉",
+    "en": {
+      "name": "pin",
       "tags": [
-        "保存",
-        "地图",
-        "锁定",
-        "锁"
+        "save",
+        "map",
+        "lock",
+        "fix"
       ],
       "categories": [
-        "导航与地点",
-        "账号与访问"
+        "Navigation & Places",
+        "Accounts & access"
       ]
     }
   }

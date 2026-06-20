@@ -5,24 +5,25 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "蓝牙已连接",
   "tags": [
-    "paired"
+    "蓝牙",
+    "已连接",
+    "连接"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "蓝牙已连接",
+    "en": {
+      "name": "bluetooth connected",
       "tags": [
-        "蓝牙",
-        "已连接",
-        "连接"
+        "paired"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

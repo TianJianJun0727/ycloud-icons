@@ -5,15 +5,15 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章百分比",
   "tags": [
-    "verified",
-    "unverified",
-    "sale",
-    "discount",
-    "offer",
-    "marketing",
-    "sticker",
-    "price tag"
+    "促销",
+    "折扣",
+    "营销",
+    "贴纸",
+    "price标签",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "social",
@@ -22,22 +22,23 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章百分比",
+    "en": {
+      "name": "badge percent",
       "tags": [
-        "促销",
-        "折扣",
-        "营销",
-        "贴纸",
-        "price标签",
-        "已验证",
-        "未验证"
+        "verified",
+        "unverified",
+        "sale",
+        "discount",
+        "offer",
+        "marketing",
+        "sticker",
+        "price tag"
       ],
       "categories": [
-        "社交",
-        "金融",
-        "购物",
-        "数学"
+        "Social",
+        "Finance",
+        "Shopping",
+        "Mathematics"
       ]
     }
   }

@@ -7,13 +7,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形代码",
   "tags": [
-    "gist",
-    "source",
-    "programming",
-    "html",
-    "xml",
-    "coding"
+    "源码",
+    "编程",
+    "HTML",
+    "XML"
   ],
   "categories": [
     "text",
@@ -28,17 +27,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形代码",
+    "en": {
+      "name": "square code",
       "tags": [
-        "源码",
-        "编程",
-        "HTML",
-        "XML"
+        "gist",
+        "source",
+        "programming",
+        "html",
+        "xml",
+        "coding"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

@@ -5,33 +5,34 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文本搜索",
   "tags": [
-    "find",
-    "data",
-    "copy",
-    "txt",
-    "pdf",
-    "document",
-    "scan",
-    "magnifier",
-    "magnifying glass",
-    "lens"
+    "复制",
+    "扫描",
+    "magnifying玻璃杯",
+    "镜头",
+    "文档"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "文本搜索",
+    "en": {
+      "name": "text search",
       "tags": [
-        "复制",
-        "扫描",
-        "magnifying玻璃杯",
-        "镜头",
-        "文档"
+        "find",
+        "data",
+        "copy",
+        "txt",
+        "pdf",
+        "document",
+        "scan",
+        "magnifier",
+        "magnifying glass",
+        "lens"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

@@ -5,24 +5,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "趋势上",
   "tags": [
-    "statistics"
+    "趋势上升",
+    "上升",
+    "图表"
   ],
   "categories": [
     "charts",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "趋势上",
+    "en": {
+      "name": "trending up",
       "tags": [
-        "趋势上升",
-        "上升",
-        "图表"
+        "statistics"
       ],
       "categories": [
-        "图表",
-        "箭头"
+        "Charts",
+        "Arrows"
       ]
     }
   }

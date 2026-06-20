@@ -11,21 +11,11 @@
     "setting the current user as recipient",
     "indicating an inbound user request"
   ],
+  "name": "用户圆形箭头左",
   "tags": [
-    "person",
-    "assign",
-    "move",
-    "give",
-    "setup",
-    "self",
-    "me",
-    "myself",
-    "profile",
-    "avatar",
-    "incoming",
-    "recipient",
-    "assignee",
-    "inbound"
+    "人员",
+    "移动",
+    "呼入"
   ],
   "categories": [
     "account",
@@ -33,17 +23,28 @@
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户圆形箭头左",
+    "en": {
+      "name": "user round arrow left",
       "tags": [
-        "人员",
-        "移动",
-        "呼入"
+        "person",
+        "assign",
+        "move",
+        "give",
+        "setup",
+        "self",
+        "me",
+        "myself",
+        "profile",
+        "avatar",
+        "incoming",
+        "recipient",
+        "assignee",
+        "inbound"
       ],
       "categories": [
-        "账号与访问",
-        "人物",
-        "箭头"
+        "Accounts & access",
+        "People",
+        "Arrows"
       ]
     }
   }

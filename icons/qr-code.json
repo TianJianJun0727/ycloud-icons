@@ -6,30 +6,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "二维码代码",
   "tags": [
-    "barcode",
-    "scan",
-    "link",
-    "url",
-    "information",
-    "digital"
+    "条码",
+    "扫描",
+    "链接",
+    "信息"
   ],
   "categories": [
     "development",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "二维码代码",
+    "en": {
+      "name": "qr code",
       "tags": [
-        "条码",
-        "扫描",
-        "链接",
-        "信息"
+        "barcode",
+        "scan",
+        "link",
+        "url",
+        "information",
+        "digital"
       ],
       "categories": [
-        "编码与开发",
-        "社交"
+        "Coding & development",
+        "Social"
       ]
     }
   }

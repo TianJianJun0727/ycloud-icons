@@ -4,41 +4,42 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "点",
   "tags": [
-    "interpunct",
-    "interpoint",
-    "middot",
-    "step",
-    "punctuation",
-    "period",
-    "full stop",
-    "end",
-    "finish",
-    "final",
-    "characters",
-    "font",
-    "typography",
-    "type",
-    "center",
-    "."
+    "步骤",
+    "满停止",
+    "末端",
+    "文字",
+    "居中"
   ],
   "categories": [
     "shapes",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "点",
+    "en": {
+      "name": "dot",
       "tags": [
-        "步骤",
-        "满停止",
-        "末端",
-        "文字",
-        "居中"
+        "interpunct",
+        "interpoint",
+        "middot",
+        "step",
+        "punctuation",
+        "period",
+        "full stop",
+        "end",
+        "finish",
+        "final",
+        "characters",
+        "font",
+        "typography",
+        "type",
+        "center",
+        "."
       ],
       "categories": [
-        "形状",
-        "文本格式"
+        "Shapes",
+        "Text formatting"
       ]
     }
   }

@@ -5,41 +5,42 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "缺陷",
   "tags": [
-    "issue",
-    "error",
-    "defect",
-    "testing",
-    "troubleshoot",
-    "problem",
-    "report",
-    "debug",
-    "code",
-    "insect",
-    "beetle"
+    "问题",
+    "错误",
+    "缺陷",
+    "测试",
+    "排障",
+    "报告",
+    "调试",
+    "代码",
+    "昆虫",
+    "甲虫"
   ],
   "categories": [
     "development",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "缺陷",
+    "en": {
+      "name": "bug",
       "tags": [
-        "问题",
-        "错误",
-        "缺陷",
-        "测试",
-        "排障",
-        "报告",
-        "调试",
-        "代码",
-        "昆虫",
-        "甲虫"
+        "issue",
+        "error",
+        "defect",
+        "testing",
+        "troubleshoot",
+        "problem",
+        "report",
+        "debug",
+        "code",
+        "insect",
+        "beetle"
       ],
       "categories": [
-        "编码与开发",
-        "动物"
+        "Coding & development",
+        "Animals"
       ]
     }
   }

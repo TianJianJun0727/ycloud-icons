@@ -11,24 +11,25 @@
     "jordan808"
   ],
   "use-cases": [],
+  "name": "卡车",
   "tags": [
-    "delivery",
-    "van",
-    "shipping",
-    "haulage",
-    "lorry"
+    "厢式车"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "卡车",
+    "en": {
+      "name": "truck",
       "tags": [
-        "厢式车"
+        "delivery",
+        "van",
+        "shipping",
+        "haulage",
+        "lorry"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

@@ -4,15 +4,13 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "硬盘驱动器下载",
   "tags": [
-    "computer",
-    "server",
-    "memory",
-    "data",
-    "ssd",
-    "disk",
-    "hard disk",
-    "save"
+    "电脑",
+    "服务器",
+    "内存",
+    "硬盘disk",
+    "保存"
   ],
   "categories": [
     "development",
@@ -21,20 +19,23 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "硬盘驱动器下载",
+    "en": {
+      "name": "hard drive download",
       "tags": [
-        "电脑",
-        "服务器",
-        "内存",
-        "硬盘disk",
-        "保存"
+        "computer",
+        "server",
+        "memory",
+        "data",
+        "ssd",
+        "disk",
+        "hard disk",
+        "save"
       ],
       "categories": [
-        "编码与开发",
-        "设备",
-        "箭头",
-        "文件"
+        "Coding & development",
+        "Devices",
+        "Arrows",
+        "File icons"
       ]
     }
   }

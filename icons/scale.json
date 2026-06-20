@@ -7,21 +7,13 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "比例尺",
   "tags": [
-    "balance",
-    "legal",
-    "license",
-    "right",
-    "rule",
-    "law",
-    "justice",
-    "weight",
-    "measure",
-    "compare",
-    "judge",
-    "fair",
-    "ethics",
-    "decision"
+    "右",
+    "重量",
+    "比较",
+    "许可",
+    "向右"
   ],
   "categories": [
     "navigation",
@@ -29,19 +21,28 @@
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "比例尺",
+    "en": {
+      "name": "scale",
       "tags": [
-        "右",
-        "重量",
-        "比较",
-        "许可",
-        "向右"
+        "balance",
+        "legal",
+        "license",
+        "right",
+        "rule",
+        "law",
+        "justice",
+        "weight",
+        "measure",
+        "compare",
+        "judge",
+        "fair",
+        "ethics",
+        "decision"
       ],
       "categories": [
-        "导航与地点",
-        "科学",
-        "金融"
+        "Navigation & Places",
+        "Science",
+        "Finance"
       ]
     }
   }

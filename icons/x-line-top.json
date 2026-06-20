@@ -6,55 +6,56 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "关闭线条顶部",
   "tags": [
-    "line",
-    "top",
-    "arrow",
-    "navigation",
-    "up",
-    "pointer",
-    "direction",
-    "vector",
-    "symbol",
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "times",
-    "clear",
-    "math",
-    "multiply",
-    "multiplication",
-    "mean",
-    "median",
-    "average",
-    "x̄"
+    "线条",
+    "顶部",
+    "箭头",
+    "导航",
+    "上",
+    "指针",
+    "方向",
+    "矢量",
+    "符号",
+    "关闭",
+    "删除",
+    "移除",
+    "向上"
   ],
   "categories": [
     "notifications",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "关闭线条顶部",
+    "en": {
+      "name": "X line top",
       "tags": [
-        "线条",
-        "顶部",
-        "箭头",
-        "导航",
-        "上",
-        "指针",
-        "方向",
-        "矢量",
-        "符号",
-        "关闭",
-        "删除",
-        "移除",
-        "向上"
+        "line",
+        "top",
+        "arrow",
+        "navigation",
+        "up",
+        "pointer",
+        "direction",
+        "vector",
+        "symbol",
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "times",
+        "clear",
+        "math",
+        "multiply",
+        "multiplication",
+        "mean",
+        "median",
+        "average",
+        "x̄"
       ],
       "categories": [
-        "通知",
-        "数学"
+        "Notification",
+        "Mathematics"
       ]
     }
   }

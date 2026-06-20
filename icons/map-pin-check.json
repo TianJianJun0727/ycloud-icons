@@ -7,16 +7,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "地图图钉勾选",
   "tags": [
-    "location",
-    "waypoint",
-    "marker",
-    "drop",
-    "done",
-    "tick",
-    "complete",
-    "task",
-    "added"
+    "完成",
+    "勾选",
+    "任务",
+    "标记"
   ],
   "categories": [
     "navigation",
@@ -24,18 +20,23 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图图钉勾选",
+    "en": {
+      "name": "map pin check",
       "tags": [
-        "完成",
-        "勾选",
-        "任务",
-        "标记"
+        "location",
+        "waypoint",
+        "marker",
+        "drop",
+        "done",
+        "tick",
+        "complete",
+        "task",
+        "added"
       ],
       "categories": [
-        "导航与地点",
-        "旅行",
-        "账号与访问"
+        "Navigation & Places",
+        "Travel",
+        "Accounts & access"
       ]
     }
   }

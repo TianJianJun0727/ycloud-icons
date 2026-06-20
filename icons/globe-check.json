@@ -7,34 +7,35 @@
     "Barakudum"
   ],
   "use-cases": [],
+  "name": "地球勾选",
   "tags": [
-    "world",
-    "browser",
-    "language",
-    "translate",
-    "internet",
-    "web",
-    "check",
-    "verified",
-    "success",
-    "valid",
-    "available",
-    "online",
-    "status"
+    "互联网",
+    "勾选",
+    "已验证"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "地球勾选",
+    "en": {
+      "name": "globe check",
       "tags": [
-        "互联网",
-        "勾选",
-        "已验证"
+        "world",
+        "browser",
+        "language",
+        "translate",
+        "internet",
+        "web",
+        "check",
+        "verified",
+        "success",
+        "valid",
+        "available",
+        "online",
+        "status"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

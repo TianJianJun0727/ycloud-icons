@@ -6,34 +6,35 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "撤销2",
   "tags": [
-    "redo",
-    "rerun",
-    "history",
-    "back",
-    "return",
-    "reverse",
-    "revert",
-    "direction",
-    "u-turn"
+    "重做",
+    "历史",
+    "返回",
+    "方向",
+    "反向"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "撤销2",
+    "en": {
+      "name": "undo 2",
       "tags": [
-        "重做",
-        "历史",
-        "返回",
-        "方向",
-        "反向"
+        "redo",
+        "rerun",
+        "history",
+        "back",
+        "return",
+        "reverse",
+        "revert",
+        "direction",
+        "u-turn"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

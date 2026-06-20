@@ -5,26 +5,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "图表条形堆叠",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph",
-    "multivariate",
-    "categorical",
-    "comparison"
+    "图形"
   ],
   "categories": [
     "charts"
   ],
   "i18n": {
-    "zh": {
-      "name": "图表条形堆叠",
+    "en": {
+      "name": "chart bar stacked",
       "tags": [
-        "图形"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph",
+        "multivariate",
+        "categorical",
+        "comparison"
       ],
       "categories": [
-        "图表"
+        "Charts"
       ]
     }
   }

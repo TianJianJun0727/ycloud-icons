@@ -27,22 +27,28 @@ import iconNode from '../iconNodes/${iconName}.node.json'
 import metaData from '../../../../icons/${iconName}.json'
 import releaseData from '../releaseMetadata/${iconName}.json'
 import popularity from '../iconPopularity/${iconName}.json'
-import { localizeIconCategories, localizeIconName, localizeIconTags } from '../../theme/utils/iconI18n'
+import { localizeCategoryName } from '../../theme/utils/categoryLabels'
 
-const { tags, categories, contributors, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = metaData
-const displayName = localizeIconName('${iconName}', i18n?.zh?.name)
-const displayTags = localizeIconTags(tags, i18n?.zh?.tags)
-const displayCategories = localizeIconCategories(categories, i18n?.zh?.categories)
+const { name: displayName, tags, categories, contributors, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = metaData
+const displayTags = tags
+const displayCategories = categories.map(localizeCategoryName)
+const englishName = i18n.en.name
+const englishTags = i18n.en.tags
+const englishCategories = i18n.en.categories
 
 const iconDetails = {
   name: '${iconName}',
   displayName,
+  englishName,
   iconNode,
   contributors,
+  i18n,
   tags,
   displayTags,
+  englishTags,
   categories,
   displayCategories,
+  englishCategories,
   aliases,
   deprecated,
   popularity,

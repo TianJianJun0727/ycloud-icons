@@ -7,24 +7,25 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "表格",
   "tags": [
-    "spreadsheets",
-    "table",
-    "excel"
+    "表格"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "表格",
+    "en": {
+      "name": "sheet",
       "tags": [
-        "表格"
+        "spreadsheets",
+        "table",
+        "excel"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

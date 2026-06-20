@@ -1,10 +1,15 @@
 <script setup lang="ts">
-import { IconEntity } from '../../types';
+import { IconEntity } from '@theme/types';
 import Label from '../base/Label.vue';
+import { useData } from 'vitepress';
+import { computed } from 'vue';
 
 const props = defineProps<{
   icon: IconEntity;
 }>();
+
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 </script>
 
 <template>
@@ -12,7 +17,7 @@ const props = defineProps<{
     class="contributors"
     v-if="props.icon.contributors?.length > 0"
   >
-    <Label>贡献者：</Label>
+    <Label>{{ isEnglish ? 'Contributors:' : '贡献者：' }}</Label>
     <div class="avatar-group">
       <a
         class="avatar"

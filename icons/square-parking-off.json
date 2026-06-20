@@ -6,10 +6,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形停车关闭",
   "tags": [
-    "parking lot",
-    "car park",
-    "no parking"
+    "停车lot",
+    "汽车park",
+    "无停车"
   ],
   "categories": [
     "transportation",
@@ -24,16 +25,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形停车关闭",
+    "en": {
+      "name": "square parking off",
       "tags": [
-        "停车lot",
-        "汽车park",
-        "无停车"
+        "parking lot",
+        "car park",
+        "no parking"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

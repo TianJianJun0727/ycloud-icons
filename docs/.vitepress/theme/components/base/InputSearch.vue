@@ -8,7 +8,7 @@ export default {
 import { computed, ref } from 'vue';
 import Input from './Input.vue';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
-import { search } from '../../../data/iconNodes';
+import { search } from '@data/iconNodes';
 
 interface Props {
   modelValue: string;

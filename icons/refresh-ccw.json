@@ -9,28 +9,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "逆时针刷新",
   "tags": [
-    "arrows",
-    "rotate",
-    "reload",
-    "rerun",
-    "synchronise",
-    "synchronize",
-    "circular",
-    "cycle"
+    "箭头",
+    "旋转"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "逆时针刷新",
+    "en": {
+      "name": "refresh ccw",
       "tags": [
-        "箭头",
-        "旋转"
+        "arrows",
+        "rotate",
+        "reload",
+        "rerun",
+        "synchronise",
+        "synchronize",
+        "circular",
+        "cycle"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

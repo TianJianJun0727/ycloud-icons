@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "DNA链",
   "tags": [
-    "gene",
-    "gmo",
-    "helix",
-    "heredity",
-    "chromosome",
-    "nucleic acid"
+    "基因",
+    "螺旋",
+    "遗传",
+    "染色体"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "DNA链",
+    "en": {
+      "name": "dna",
       "tags": [
-        "基因",
-        "螺旋",
-        "遗传",
-        "染色体"
+        "gene",
+        "gmo",
+        "helix",
+        "heredity",
+        "chromosome",
+        "nucleic acid"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

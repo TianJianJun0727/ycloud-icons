@@ -8,13 +8,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "爱心",
   "tags": [
-    "like",
-    "love",
-    "emotion",
-    "suit",
-    "playing",
-    "cards"
+    "情绪",
+    "卡片"
   ],
   "categories": [
     "medical",
@@ -25,19 +22,23 @@
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心",
+    "en": {
+      "name": "heart",
       "tags": [
-        "情绪",
-        "卡片"
+        "like",
+        "love",
+        "emotion",
+        "suit",
+        "playing",
+        "cards"
       ],
       "categories": [
-        "医疗",
-        "社交",
-        "多媒体",
-        "表情",
-        "游戏",
-        "形状"
+        "Medical",
+        "Social",
+        "Multimedia",
+        "Emoji",
+        "Gaming",
+        "Shapes"
       ]
     }
   }

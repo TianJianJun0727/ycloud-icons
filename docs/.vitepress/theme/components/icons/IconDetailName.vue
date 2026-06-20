@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { computed, useSlots } from 'vue';
-import { copy } from '../../../data/iconNodes';
+import { copy } from '@data/iconNodes';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
-import useConfetti from '../../composables/useConfetti';
+import useConfetti from '@theme/composables/useConfetti';
+import { useData } from 'vitepress';
 const { animate, confetti } = useConfetti();
 const slots = useSlots();
+const { page } = useData();
 
 const copiedText = computed(() => slots.default?.()[0].children);
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+const copyFeedback = computed(() => (isEnglish.value ? 'Copied' : '已复制'));
 
 function copyText() {
   navigator.clipboard.writeText(copiedText.value);
@@ -19,7 +23,7 @@ function copyText() {
   <h1
     class="icon-name confetti-button"
     :class="{ animate }"
-    data-confetti-text="已复制"
+    :data-confetti-text="copyFeedback"
     @click="copyText"
   >
     <slot />

@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "耳朵",
   "tags": [
-    "hearing",
-    "noise",
-    "audio",
-    "accessibility"
+    "音频",
+    "无障碍"
   ],
   "categories": [
     "medical",
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "耳朵",
+    "en": {
+      "name": "ear",
       "tags": [
-        "音频",
-        "无障碍"
+        "hearing",
+        "noise",
+        "audio",
+        "accessibility"
       ],
       "categories": [
-        "医疗",
-        "无障碍"
+        "Medical",
+        "Accessibility"
       ]
     }
   }

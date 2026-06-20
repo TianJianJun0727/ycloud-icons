@@ -4,16 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "火焰引火物",
   "tags": [
-    "campfire",
-    "camping",
-    "wilderness",
-    "outdoors",
-    "lit",
-    "warmth",
-    "wood",
-    "twigs",
-    "sticks"
+    "火焰",
+    "点燃",
+    "生火"
   ],
   "categories": [
     "nature",
@@ -21,17 +16,23 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "火焰引火物",
+    "en": {
+      "name": "flame kindling",
       "tags": [
-        "火焰",
-        "点燃",
-        "生火"
+        "campfire",
+        "camping",
+        "wilderness",
+        "outdoors",
+        "lit",
+        "warmth",
+        "wood",
+        "twigs",
+        "sticks"
       ],
       "categories": [
-        "自然",
-        "社交",
-        "游戏"
+        "Nature",
+        "Social",
+        "Gaming"
       ]
     }
   }

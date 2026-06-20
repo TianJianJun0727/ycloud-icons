@@ -5,8 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "剪贴板笔线条",
   "tags": [
-    "paste"
+    "粘贴"
   ],
   "categories": [
     "text"
@@ -20,13 +21,13 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "剪贴板笔线条",
+    "en": {
+      "name": "clipboard pen line",
       "tags": [
-        "粘贴"
+        "paste"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

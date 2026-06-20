@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import Sandpack from './Sandpack.vue';
-import { ycloudFontDataUrl } from '../../../data/fontDataUrl';
-import ycloudFontCss from '../../../../../packages/icons-static/font/ycloud.css?raw';
+import { ycloudFontDataUrl } from '@data/fontDataUrl';
+import ycloudFontCss from '@packages/icons-static/font/ycloud.css?raw';
 
 const fontCss = ycloudFontCss.replace(
   /@font-face\s*\{[\s\S]*?\}\s*/,

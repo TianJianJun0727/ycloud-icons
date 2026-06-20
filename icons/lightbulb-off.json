@@ -7,22 +7,23 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "灯泡关闭",
   "tags": [
-    "lights"
+    "灯泡",
+    "关闭",
+    "灵感"
   ],
   "categories": [
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "灯泡关闭",
+    "en": {
+      "name": "lightbulb off",
       "tags": [
-        "灯泡",
-        "关闭",
-        "灵感"
+        "lights"
       ],
       "categories": [
-        "摄影"
+        "Photography"
       ]
     }
   }

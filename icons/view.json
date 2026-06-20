@@ -7,23 +7,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "视图",
   "tags": [
-    "eye",
-    "look"
+    "眼睛"
   ],
   "categories": [
     "design",
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "视图",
+    "en": {
+      "name": "view",
       "tags": [
-        "眼睛"
+        "eye",
+        "look"
       ],
       "categories": [
-        "设计",
-        "摄影"
+        "Design",
+        "Photography"
       ]
     }
   }

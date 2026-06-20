@@ -6,35 +6,36 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "波浪箭头上",
   "tags": [
-    "water",
-    "sea",
-    "level",
-    "sound",
-    "hertz",
-    "wavelength",
-    "vibrate",
-    "high",
-    "tide",
-    "ocean",
-    "rising"
+    "水",
+    "振动",
+    "高",
+    "声音"
   ],
   "categories": [
     "weather",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "波浪箭头上",
+    "en": {
+      "name": "waves arrow up",
       "tags": [
-        "水",
-        "振动",
-        "高",
-        "声音"
+        "water",
+        "sea",
+        "level",
+        "sound",
+        "hertz",
+        "wavelength",
+        "vibrate",
+        "high",
+        "tide",
+        "ocean",
+        "rising"
       ],
       "categories": [
-        "天气",
-        "可持续"
+        "Weather",
+        "Sustainability"
       ]
     }
   }

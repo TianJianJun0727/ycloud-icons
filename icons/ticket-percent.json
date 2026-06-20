@@ -4,34 +4,35 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券百分比",
   "tags": [
-    "discount",
-    "reduced",
-    "offer",
-    "voucher",
-    "entry",
-    "pass",
-    "event",
-    "concert",
-    "show",
-    "book",
-    "purchase",
-    "%"
+    "折扣",
+    "书籍"
   ],
   "categories": [
     "transportation",
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券百分比",
+    "en": {
+      "name": "ticket percent",
       "tags": [
-        "折扣",
-        "书籍"
+        "discount",
+        "reduced",
+        "offer",
+        "voucher",
+        "entry",
+        "pass",
+        "event",
+        "concert",
+        "show",
+        "book",
+        "purchase",
+        "%"
       ],
       "categories": [
-        "交通",
-        "购物"
+        "Transportation",
+        "Shopping"
       ]
     }
   }

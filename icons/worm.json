@@ -4,32 +4,33 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "蠕虫",
   "tags": [
-    "invertebrate",
-    "grub",
-    "larva",
-    "snake",
-    "crawl",
-    "wiggle",
-    "slither",
-    "pest control",
-    "computer virus",
-    "malware"
+    "pest控制",
+    "电脑virus"
   ],
   "categories": [
     "animals",
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "蠕虫",
+    "en": {
+      "name": "worm",
       "tags": [
-        "pest控制",
-        "电脑virus"
+        "invertebrate",
+        "grub",
+        "larva",
+        "snake",
+        "crawl",
+        "wiggle",
+        "slither",
+        "pest control",
+        "computer virus",
+        "malware"
       ],
       "categories": [
-        "动物",
-        "安全"
+        "Animals",
+        "Security"
       ]
     }
   }

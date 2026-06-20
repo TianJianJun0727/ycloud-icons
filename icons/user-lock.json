@@ -5,29 +5,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "用户锁定",
   "tags": [
-    "person",
-    "lock",
-    "locked",
-    "account",
-    "secure"
+    "人员",
+    "锁定",
+    "账号",
+    "锁"
   ],
   "categories": [
     "account",
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户锁定",
+    "en": {
+      "name": "user lock",
       "tags": [
-        "人员",
-        "锁定",
-        "账号",
-        "锁"
+        "person",
+        "lock",
+        "locked",
+        "account",
+        "secure"
       ],
       "categories": [
-        "账号与访问",
-        "安全"
+        "Accounts & access",
+        "Security"
       ]
     }
   }

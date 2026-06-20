@@ -4,35 +4,36 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "计数5",
   "tags": [
-    "count",
-    "score",
-    "enumerate",
-    "days",
-    "five",
-    "5",
-    "fifth",
-    "bars",
-    "prison",
-    "cell",
-    "sentence",
-    "slash",
-    "/"
+    "天数",
+    "斜杠"
   ],
   "categories": [
     "math",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "计数5",
+    "en": {
+      "name": "tally 5",
       "tags": [
-        "天数",
-        "斜杠"
+        "count",
+        "score",
+        "enumerate",
+        "days",
+        "five",
+        "5",
+        "fifth",
+        "bars",
+        "prison",
+        "cell",
+        "sentence",
+        "slash",
+        "/"
       ],
       "categories": [
-        "数学",
-        "游戏"
+        "Mathematics",
+        "Gaming"
       ]
     }
   }

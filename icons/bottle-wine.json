@@ -4,43 +4,44 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "瓶子葡萄酒",
   "tags": [
-    "alcohol",
-    "drink",
-    "glass",
-    "goblet",
-    "chalice",
-    "vineyard",
-    "winery",
-    "red",
-    "white",
-    "rose",
-    "dry",
-    "sparkling",
-    "bar",
-    "party",
-    "nightclub",
-    "nightlife",
-    "sommelier",
-    "restaurant",
-    "dinner",
-    "meal"
+    "饮品",
+    "玻璃杯",
+    "玫瑰",
+    "条形",
+    "派对"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "瓶子葡萄酒",
+    "en": {
+      "name": "bottle wine",
       "tags": [
-        "饮品",
-        "玻璃杯",
-        "玫瑰",
-        "条形",
-        "派对"
+        "alcohol",
+        "drink",
+        "glass",
+        "goblet",
+        "chalice",
+        "vineyard",
+        "winery",
+        "red",
+        "white",
+        "rose",
+        "dry",
+        "sparkling",
+        "bar",
+        "party",
+        "nightclub",
+        "nightlife",
+        "sommelier",
+        "restaurant",
+        "dinner",
+        "meal"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

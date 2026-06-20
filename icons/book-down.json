@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍下",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "pull"
+    "代码",
+    "version控制",
+    "拉取"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍下",
+    "en": {
+      "name": "book down",
       "tags": [
-        "代码",
-        "version控制",
-        "拉取"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "pull"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

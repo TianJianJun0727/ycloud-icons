@@ -8,19 +8,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "笔",
   "tags": [
-    "pencil",
-    "change",
-    "create",
-    "draw",
-    "writer",
-    "writing",
-    "biro",
-    "ink",
-    "marker",
-    "felt tip",
-    "stationery",
-    "artist"
+    "铅笔",
+    "创建",
+    "标记",
+    "文具"
   ],
   "categories": [
     "text",
@@ -36,18 +29,26 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "笔",
+    "en": {
+      "name": "pen",
       "tags": [
-        "铅笔",
-        "创建",
-        "标记",
-        "文具"
+        "pencil",
+        "change",
+        "create",
+        "draw",
+        "writer",
+        "writing",
+        "biro",
+        "ink",
+        "marker",
+        "felt tip",
+        "stationery",
+        "artist"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "工具"
+        "Text formatting",
+        "Design",
+        "Tools"
       ]
     }
   }

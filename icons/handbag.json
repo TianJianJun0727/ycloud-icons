@@ -5,32 +5,33 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "手提包",
   "tags": [
-    "bag",
-    "baggage",
-    "carry",
-    "clutch",
-    "fashion",
-    "luggage",
-    "purse",
-    "tote",
-    "travel"
+    "包",
+    "行李",
+    "旅行"
   ],
   "categories": [
     "shopping",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "手提包",
+    "en": {
+      "name": "handbag",
       "tags": [
-        "包",
-        "行李",
-        "旅行"
+        "bag",
+        "baggage",
+        "carry",
+        "clutch",
+        "fashion",
+        "luggage",
+        "purse",
+        "tote",
+        "travel"
       ],
       "categories": [
-        "购物",
-        "交通"
+        "Shopping",
+        "Transportation"
       ]
     }
   }

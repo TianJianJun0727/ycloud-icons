@@ -5,37 +5,38 @@
     "kayleyhill"
   ],
   "use-cases": [],
+  "name": "手硬币",
   "tags": [
-    "savings",
-    "banking",
-    "money",
-    "finance",
-    "offers",
-    "mortgage",
-    "payment",
-    "received",
-    "wage",
-    "payroll",
-    "allowance",
-    "pocket money",
-    "handout",
-    "pennies"
+    "金融",
+    "支付",
+    "口袋money"
   ],
   "categories": [
     "finance",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "手硬币",
+    "en": {
+      "name": "hand coins",
       "tags": [
-        "金融",
-        "支付",
-        "口袋money"
+        "savings",
+        "banking",
+        "money",
+        "finance",
+        "offers",
+        "mortgage",
+        "payment",
+        "received",
+        "wage",
+        "payroll",
+        "allowance",
+        "pocket money",
+        "handout",
+        "pennies"
       ],
       "categories": [
-        "金融",
-        "账号与访问"
+        "Finance",
+        "Accounts & access"
       ]
     }
   }

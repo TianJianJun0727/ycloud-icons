@@ -7,8 +7,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云下载",
   "tags": [
-    "import"
+    "导入"
   ],
   "categories": [
     "arrows",
@@ -23,14 +24,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "云下载",
+    "en": {
+      "name": "cloud download",
       "tags": [
-        "导入"
+        "import"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

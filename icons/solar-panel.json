@@ -6,14 +6,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "太阳能面板",
   "tags": [
-    "solar panel",
-    "solar",
-    "panel",
-    "sun",
-    "energy",
-    "electricity",
-    "light"
+    "太阳能面板",
+    "太阳能",
+    "面板",
+    "太阳",
+    "能源",
+    "电力"
   ],
   "categories": [
     "home",
@@ -22,21 +22,22 @@
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "太阳能面板",
+    "en": {
+      "name": "solar panel",
       "tags": [
-        "太阳能面板",
-        "太阳能",
-        "面板",
-        "太阳",
-        "能源",
-        "电力"
+        "solar panel",
+        "solar",
+        "panel",
+        "sun",
+        "energy",
+        "electricity",
+        "light"
       ],
       "categories": [
-        "家居",
-        "科学",
-        "可持续",
-        "天气"
+        "Home",
+        "Science",
+        "Sustainability",
+        "Weather"
       ]
     }
   }

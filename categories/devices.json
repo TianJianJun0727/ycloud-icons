@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Devices",
+  "title": "设备",
   "icon": "smartphone",
   "i18n": {
-    "zh": {
-      "title": "设备"
+    "en": {
+      "title": "Devices"
     }
   }
 }

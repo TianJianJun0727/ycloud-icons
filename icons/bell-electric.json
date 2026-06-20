@@ -5,26 +5,14 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "铃铛电动",
   "tags": [
-    "fire alarm",
-    "flames",
-    "smoke",
-    "firefighter",
-    "fireman",
-    "department",
-    "brigade",
-    "station",
-    "emergency",
-    "alert",
-    "safety",
-    "school bell",
-    "period break",
-    "recess",
-    "doorbell",
-    "entrance",
-    "entry",
-    "ring",
-    "reception"
+    "火焰闹钟",
+    "烟雾",
+    "告警",
+    "学校铃铛",
+    "响铃",
+    "警告"
   ],
   "categories": [
     "devices",
@@ -32,20 +20,33 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "铃铛电动",
+    "en": {
+      "name": "bell electric",
       "tags": [
-        "火焰闹钟",
-        "烟雾",
-        "告警",
-        "学校铃铛",
-        "响铃",
-        "警告"
+        "fire alarm",
+        "flames",
+        "smoke",
+        "firefighter",
+        "fireman",
+        "department",
+        "brigade",
+        "station",
+        "emergency",
+        "alert",
+        "safety",
+        "school bell",
+        "period break",
+        "recess",
+        "doorbell",
+        "entrance",
+        "entry",
+        "ring",
+        "reception"
       ],
       "categories": [
-        "设备",
-        "通知",
-        "家居"
+        "Devices",
+        "Notification",
+        "Home"
       ]
     }
   }

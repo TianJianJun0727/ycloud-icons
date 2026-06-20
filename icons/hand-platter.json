@@ -4,31 +4,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "手餐盘",
   "tags": [
-    "waiter",
-    "waitress",
-    "restaurant",
-    "table service",
-    "served",
-    "dinner",
-    "dining",
-    "meal",
-    "course",
-    "luxury"
+    "表格service"
   ],
   "categories": [
     "food-beverage",
     "people"
   ],
   "i18n": {
-    "zh": {
-      "name": "手餐盘",
+    "en": {
+      "name": "hand platter",
       "tags": [
-        "表格service"
+        "waiter",
+        "waitress",
+        "restaurant",
+        "table service",
+        "served",
+        "dinner",
+        "dining",
+        "meal",
+        "course",
+        "luxury"
       ],
       "categories": [
-        "餐饮",
-        "人物"
+        "Food & beverage",
+        "People"
       ]
     }
   }

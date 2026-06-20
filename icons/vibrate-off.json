@@ -5,13 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "振动关闭",
   "tags": [
-    "smartphone",
-    "notification",
-    "rumble",
-    "haptic feedback",
-    "notifications",
-    "screen"
+    "智能手机",
+    "通知",
+    "屏幕"
   ],
   "categories": [
     "devices",
@@ -19,17 +17,20 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "振动关闭",
+    "en": {
+      "name": "vibrate off",
       "tags": [
-        "智能手机",
-        "通知",
-        "屏幕"
+        "smartphone",
+        "notification",
+        "rumble",
+        "haptic feedback",
+        "notifications",
+        "screen"
       ],
       "categories": [
-        "设备",
-        "连接",
-        "账号与访问"
+        "Devices",
+        "Connectivity",
+        "Accounts & access"
       ]
     }
   }

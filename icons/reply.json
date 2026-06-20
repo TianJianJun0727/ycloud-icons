@@ -6,20 +6,21 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "回复",
   "tags": [
-    "email"
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "回复",
+    "en": {
+      "name": "reply",
       "tags": [
-        "邮箱"
+        "email"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

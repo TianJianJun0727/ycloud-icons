@@ -4,34 +4,35 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "甜甜圈",
   "tags": [
-    "doughnut",
-    "sprinkles",
-    "topping",
-    "fast food",
-    "junk food",
-    "snack",
-    "treat",
-    "sweet",
-    "sugar",
-    "dessert",
-    "hollow",
-    "ring"
+    "快速食物",
+    "junk食物",
+    "甜点",
+    "响铃"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "甜甜圈",
+    "en": {
+      "name": "donut",
       "tags": [
-        "快速食物",
-        "junk食物",
-        "甜点",
-        "响铃"
+        "doughnut",
+        "sprinkles",
+        "topping",
+        "fast food",
+        "junk food",
+        "snack",
+        "treat",
+        "sweet",
+        "sugar",
+        "dessert",
+        "hollow",
+        "ring"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

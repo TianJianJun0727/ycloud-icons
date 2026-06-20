@@ -6,11 +6,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "太阳",
   "tags": [
-    "brightness",
-    "weather",
-    "light",
-    "summer"
+    "天气"
   ],
   "categories": [
     "accessibility",
@@ -19,16 +17,19 @@
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "太阳",
+    "en": {
+      "name": "sun",
       "tags": [
-        "天气"
+        "brightness",
+        "weather",
+        "light",
+        "summer"
       ],
       "categories": [
-        "无障碍",
-        "天气",
-        "季节",
-        "可持续"
+        "Accessibility",
+        "Weather",
+        "Seasons",
+        "Sustainability"
       ]
     }
   }

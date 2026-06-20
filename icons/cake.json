@@ -5,18 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "蛋糕",
   "tags": [
-    "birthday",
-    "birthdate",
-    "celebration",
-    "party",
-    "surprise",
-    "gateaux",
-    "dessert",
-    "fondant",
-    "icing sugar",
-    "sweet",
-    "baking"
+    "甜点",
+    "庆祝",
+    "派对"
   ],
   "categories": [
     "food-beverage",
@@ -24,17 +17,25 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "蛋糕",
+    "en": {
+      "name": "cake",
       "tags": [
-        "甜点",
-        "庆祝",
-        "派对"
+        "birthday",
+        "birthdate",
+        "celebration",
+        "party",
+        "surprise",
+        "gateaux",
+        "dessert",
+        "fondant",
+        "icing sugar",
+        "sweet",
+        "baking"
       ],
       "categories": [
-        "餐饮",
-        "社交",
-        "账号与访问"
+        "Food & beverage",
+        "Social",
+        "Accounts & access"
       ]
     }
   }

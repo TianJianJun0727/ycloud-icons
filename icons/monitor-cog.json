@@ -6,44 +6,45 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "显示器齿轮",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "virtual machine",
-    "vm",
-    "executable",
-    "settings",
-    "cog",
-    "edit",
-    "gear",
-    "configuration",
-    "preferences",
-    "system",
-    "control panel",
-    "network",
-    "computing"
+    "电视",
+    "屏幕",
+    "virtual机器",
+    "设置",
+    "齿轮",
+    "编辑",
+    "控制面板",
+    "网络"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器齿轮",
+    "en": {
+      "name": "monitor cog",
       "tags": [
-        "电视",
-        "屏幕",
-        "virtual机器",
-        "设置",
-        "齿轮",
-        "编辑",
-        "控制面板",
-        "网络"
+        "tv",
+        "screen",
+        "display",
+        "virtual machine",
+        "vm",
+        "executable",
+        "settings",
+        "cog",
+        "edit",
+        "gear",
+        "configuration",
+        "preferences",
+        "system",
+        "control panel",
+        "network",
+        "computing"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

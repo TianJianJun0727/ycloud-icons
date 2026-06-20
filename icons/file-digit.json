@@ -6,23 +6,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件数字",
   "tags": [
-    "number",
-    "document"
+    "文档"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件数字",
+    "en": {
+      "name": "file digit",
       "tags": [
-        "文档"
+        "number",
+        "document"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

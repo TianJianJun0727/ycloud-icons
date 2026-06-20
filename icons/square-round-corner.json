@@ -5,15 +5,14 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形圆形角落",
   "tags": [
-    "border",
-    "radius",
-    "style",
-    "design",
-    "corner",
-    "layout",
-    "round",
-    "rounded"
+    "半径",
+    "样式",
+    "设计",
+    "角落",
+    "布局",
+    "圆形"
   ],
   "categories": [
     "design",
@@ -21,20 +20,22 @@
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形圆形角落",
+    "en": {
+      "name": "square round corner",
       "tags": [
-        "半径",
-        "样式",
-        "设计",
-        "角落",
-        "布局",
-        "圆形"
+        "border",
+        "radius",
+        "style",
+        "design",
+        "corner",
+        "layout",
+        "round",
+        "rounded"
       ],
       "categories": [
-        "设计",
-        "编码与开发",
-        "布局"
+        "Design",
+        "Coding & development",
+        "Layout"
       ]
     }
   }

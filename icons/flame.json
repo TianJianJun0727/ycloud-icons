@@ -7,26 +7,10 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "火焰",
   "tags": [
-    "heat",
-    "burn",
-    "light",
-    "glow",
-    "ignite",
-    "passion",
-    "ember",
-    "fire",
-    "lit",
-    "burning",
-    "spark",
-    "embers",
-    "smoke",
-    "firefighter",
-    "fireman",
-    "department",
-    "brigade",
-    "station",
-    "emergency"
+    "火焰",
+    "烟雾"
   ],
   "categories": [
     "weather",
@@ -34,16 +18,33 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "火焰",
+    "en": {
+      "name": "flame",
       "tags": [
-        "火焰",
-        "烟雾"
+        "heat",
+        "burn",
+        "light",
+        "glow",
+        "ignite",
+        "passion",
+        "ember",
+        "fire",
+        "lit",
+        "burning",
+        "spark",
+        "embers",
+        "smoke",
+        "firefighter",
+        "fireman",
+        "department",
+        "brigade",
+        "station",
+        "emergency"
       ],
       "categories": [
-        "天气",
-        "社交",
-        "游戏"
+        "Weather",
+        "Social",
+        "Gaming"
       ]
     }
   }

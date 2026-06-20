@@ -7,39 +7,40 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "纸币箭头下",
   "tags": [
-    "bill",
-    "currency",
-    "money",
-    "payment",
-    "funds",
-    "transaction",
-    "cash",
-    "finance",
-    "withdraw",
-    "expense",
-    "out",
-    "payout",
-    "refund",
-    "debit",
-    "spending",
-    "decrease"
+    "货币",
+    "支付",
+    "金融",
+    "外部",
+    "减少"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "纸币箭头下",
+    "en": {
+      "name": "banknote arrow down",
       "tags": [
-        "货币",
-        "支付",
-        "金融",
-        "外部",
-        "减少"
+        "bill",
+        "currency",
+        "money",
+        "payment",
+        "funds",
+        "transaction",
+        "cash",
+        "finance",
+        "withdraw",
+        "expense",
+        "out",
+        "payout",
+        "refund",
+        "debit",
+        "spending",
+        "decrease"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

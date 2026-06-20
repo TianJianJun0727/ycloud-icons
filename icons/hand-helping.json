@@ -6,13 +6,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "手帮扶",
   "tags": [
-    "agreement",
-    "help",
-    "proposal",
-    "charity",
-    "begging",
-    "terms"
+    "帮助"
   ],
   "categories": [
     "emoji"
@@ -26,13 +22,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "手帮扶",
+    "en": {
+      "name": "hand helping",
       "tags": [
-        "帮助"
+        "agreement",
+        "help",
+        "proposal",
+        "charity",
+        "begging",
+        "terms"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

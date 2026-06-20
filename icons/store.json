@@ -4,12 +4,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "商店",
   "tags": [
-    "shop",
-    "supermarket",
-    "stand",
-    "boutique",
-    "building"
+    "建筑"
   ],
   "categories": [
     "buildings",
@@ -17,15 +14,19 @@
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "商店",
+    "en": {
+      "name": "store",
       "tags": [
-        "建筑"
+        "shop",
+        "supermarket",
+        "stand",
+        "boutique",
+        "building"
       ],
       "categories": [
-        "建筑",
-        "导航与地点",
-        "购物"
+        "Buildings",
+        "Navigation & Places",
+        "Shopping"
       ]
     }
   }

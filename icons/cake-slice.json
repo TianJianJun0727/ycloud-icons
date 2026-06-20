@@ -5,36 +5,37 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "蛋糕切片",
   "tags": [
-    "birthday",
-    "birthdate",
-    "celebration",
-    "party",
-    "surprise",
-    "gateaux",
-    "dessert",
-    "candles",
-    "wish",
-    "fondant",
-    "icing sugar",
-    "sweet",
-    "baking"
+    "甜点",
+    "庆祝",
+    "派对"
   ],
   "categories": [
     "food-beverage",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "蛋糕切片",
+    "en": {
+      "name": "cake slice",
       "tags": [
-        "甜点",
-        "庆祝",
-        "派对"
+        "birthday",
+        "birthdate",
+        "celebration",
+        "party",
+        "surprise",
+        "gateaux",
+        "dessert",
+        "candles",
+        "wish",
+        "fondant",
+        "icing sugar",
+        "sweet",
+        "baking"
       ],
       "categories": [
-        "餐饮",
-        "社交"
+        "Food & beverage",
+        "Social"
       ]
     }
   }

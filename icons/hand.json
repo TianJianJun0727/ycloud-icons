@@ -4,27 +4,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "手",
   "tags": [
-    "wave",
-    "move",
-    "mouse",
-    "grab"
+    "移动",
+    "鼠标",
+    "抓取"
   ],
   "categories": [
     "cursors",
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "手",
+    "en": {
+      "name": "hand",
       "tags": [
-        "移动",
-        "鼠标",
-        "抓取"
+        "wave",
+        "move",
+        "mouse",
+        "grab"
       ],
       "categories": [
-        "光标",
-        "无障碍"
+        "Cursors",
+        "Accessibility"
       ]
     }
   }

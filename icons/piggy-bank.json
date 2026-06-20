@@ -5,23 +5,24 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "储蓄罐银行",
   "tags": [
-    "money",
-    "savings"
+    "存钱罐",
+    "储蓄",
+    "金融"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "储蓄罐银行",
+    "en": {
+      "name": "piggy bank",
       "tags": [
-        "存钱罐",
-        "储蓄",
-        "金融"
+        "money",
+        "savings"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

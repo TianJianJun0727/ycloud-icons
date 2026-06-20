@@ -6,30 +6,31 @@
     "peteruithoven"
   ],
   "use-cases": [],
+  "name": "日历1",
   "tags": [
-    "date",
-    "month",
-    "year",
-    "event",
-    "single",
-    "singular",
-    "once",
-    "1",
-    "first"
+    "日期",
+    "单人",
+    "第一个"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历1",
+    "en": {
+      "name": "calendar 1",
       "tags": [
-        "日期",
-        "单人",
-        "第一个"
+        "date",
+        "month",
+        "year",
+        "event",
+        "single",
+        "singular",
+        "once",
+        "1",
+        "first"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

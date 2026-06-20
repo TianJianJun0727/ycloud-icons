@@ -4,24 +4,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "国际象棋骑士",
   "tags": [
-    "piece",
-    "horse",
-    "board game"
+    "面板game"
   ],
   "categories": [
     "gaming",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "国际象棋骑士",
+    "en": {
+      "name": "chess knight",
       "tags": [
-        "面板game"
+        "piece",
+        "horse",
+        "board game"
       ],
       "categories": [
-        "游戏",
-        "表情"
+        "Gaming",
+        "Emoji"
       ]
     }
   }

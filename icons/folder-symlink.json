@@ -5,25 +5,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹符号链接",
   "tags": [
-    "directory",
-    "symlink",
-    "symbolic",
-    "link"
+    "符号链接",
+    "链接",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹符号链接",
+    "en": {
+      "name": "folder symlink",
       "tags": [
-        "符号链接",
-        "链接",
-        "目录"
+        "directory",
+        "symlink",
+        "symbolic",
+        "link"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

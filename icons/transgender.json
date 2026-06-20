@@ -4,23 +4,24 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "跨性别",
   "tags": [
-    "gender",
-    "inclusive"
+    "性别"
   ],
   "categories": [
     "medical",
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "跨性别",
+    "en": {
+      "name": "transgender",
       "tags": [
-        "性别"
+        "gender",
+        "inclusive"
       ],
       "categories": [
-        "医疗",
-        "无障碍"
+        "Medical",
+        "Accessibility"
       ]
     }
   }

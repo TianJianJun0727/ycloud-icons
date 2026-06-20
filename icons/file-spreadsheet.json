@@ -5,23 +5,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件电子表格",
   "tags": [
-    "spreadsheet",
-    "sheet",
-    "table"
+    "电子表格",
+    "表格"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件电子表格",
+    "en": {
+      "name": "file spreadsheet",
       "tags": [
-        "电子表格",
-        "表格"
+        "spreadsheet",
+        "sheet",
+        "table"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

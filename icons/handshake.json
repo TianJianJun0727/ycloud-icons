@@ -5,16 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "握手",
   "tags": [
-    "agreement",
-    "partnership",
-    "deal",
-    "business",
-    "assistance",
-    "cooperation",
-    "friendship",
-    "union",
-    "terms"
+    "商务"
   ],
   "categories": [
     "account",
@@ -24,17 +17,25 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "握手",
+    "en": {
+      "name": "handshake",
       "tags": [
-        "商务"
+        "agreement",
+        "partnership",
+        "deal",
+        "business",
+        "assistance",
+        "cooperation",
+        "friendship",
+        "union",
+        "terms"
       ],
       "categories": [
-        "账号与访问",
-        "社交",
-        "沟通",
-        "金融",
-        "安全"
+        "Accounts & access",
+        "Social",
+        "Communication",
+        "Finance",
+        "Security"
       ]
     }
   }

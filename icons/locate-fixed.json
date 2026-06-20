@@ -7,24 +7,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "定位固定",
   "tags": [
-    "map",
-    "gps",
-    "location",
-    "cross"
+    "地图",
+    "十字"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "定位固定",
+    "en": {
+      "name": "locate fixed",
       "tags": [
-        "地图",
-        "十字"
+        "map",
+        "gps",
+        "location",
+        "cross"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

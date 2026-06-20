@@ -6,24 +6,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "邮箱",
   "tags": [
-    "emails",
-    "messages",
-    "letters",
-    "mailing list",
-    "newsletter"
+    "mailing列表"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮箱",
+    "en": {
+      "name": "mailbox",
       "tags": [
-        "mailing列表"
+        "emails",
+        "messages",
+        "letters",
+        "mailing list",
+        "newsletter"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

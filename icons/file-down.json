@@ -5,25 +5,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件下",
   "tags": [
-    "download",
-    "import",
-    "export"
+    "下载",
+    "导入"
   ],
   "categories": [
     "files",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件下",
+    "en": {
+      "name": "file down",
       "tags": [
-        "下载",
-        "导入"
+        "download",
+        "import",
+        "export"
       ],
       "categories": [
-        "文件",
-        "箭头"
+        "File icons",
+        "Arrows"
       ]
     }
   }

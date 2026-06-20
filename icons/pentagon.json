@@ -5,20 +5,21 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "五边形",
   "tags": [
-    "shape"
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "五边形",
+    "en": {
+      "name": "pentagon",
       "tags": [
-        "形状"
+        "shape"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

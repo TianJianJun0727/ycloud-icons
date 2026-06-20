@@ -5,21 +5,22 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "鸡蛋煎",
   "tags": [
-    "food",
-    "breakfast"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "鸡蛋煎",
+    "en": {
+      "name": "egg fried",
       "tags": [
-        "食物"
+        "food",
+        "breakfast"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

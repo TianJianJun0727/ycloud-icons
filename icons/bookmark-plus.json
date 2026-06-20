@@ -6,20 +6,21 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "书签加号",
   "tags": [
-    "add"
+    "添加"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "书签加号",
+    "en": {
+      "name": "bookmark plus",
       "tags": [
-        "添加"
+        "add"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

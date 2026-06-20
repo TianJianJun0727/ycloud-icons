@@ -6,10 +6,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "路由器",
   "tags": [
-    "computer",
-    "server",
-    "cloud"
+    "电脑",
+    "服务器",
+    "云"
   ],
   "categories": [
     "development",
@@ -18,18 +19,18 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "路由器",
+    "en": {
+      "name": "router",
       "tags": [
-        "电脑",
-        "服务器",
-        "云"
+        "computer",
+        "server",
+        "cloud"
       ],
       "categories": [
-        "编码与开发",
-        "设备",
-        "连接",
-        "家居"
+        "Coding & development",
+        "Devices",
+        "Connectivity",
+        "Home"
       ]
     }
   }

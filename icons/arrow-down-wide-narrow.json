@@ -6,15 +6,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "箭头下宽窄",
   "tags": [
-    "filter",
-    "sort",
-    "ascending",
-    "descending",
-    "increasing",
-    "decreasing",
-    "rising",
-    "falling"
+    "筛选",
+    "排序",
+    "升序",
+    "降序",
+    "上升",
+    "下降"
   ],
   "categories": [
     "text",
@@ -30,20 +29,22 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下宽窄",
+    "en": {
+      "name": "arrow down wide narrow",
       "tags": [
-        "筛选",
-        "排序",
-        "升序",
-        "降序",
-        "上升",
-        "下降"
+        "filter",
+        "sort",
+        "ascending",
+        "descending",
+        "increasing",
+        "decreasing",
+        "rising",
+        "falling"
       ],
       "categories": [
-        "文本格式",
-        "布局",
-        "箭头"
+        "Text formatting",
+        "Layout",
+        "Arrows"
       ]
     }
   }

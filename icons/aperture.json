@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "光圈",
   "tags": [
-    "camera",
-    "photo",
-    "pictures",
-    "shutter",
-    "exposure"
+    "相机",
+    "照片"
   ],
   "categories": [
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "光圈",
+    "en": {
+      "name": "aperture",
       "tags": [
-        "相机",
-        "照片"
+        "camera",
+        "photo",
+        "pictures",
+        "shutter",
+        "exposure"
       ],
       "categories": [
-        "摄影"
+        "Photography"
       ]
     }
   }

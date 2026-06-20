@@ -6,28 +6,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "杯子汽水",
   "tags": [
-    "beverage",
-    "cup",
-    "drink",
-    "soda",
-    "straw",
-    "water"
+    "杯子",
+    "饮品",
+    "汽水",
+    "水"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "杯子汽水",
+    "en": {
+      "name": "cup soda",
       "tags": [
-        "杯子",
-        "饮品",
-        "汽水",
-        "水"
+        "beverage",
+        "cup",
+        "drink",
+        "soda",
+        "straw",
+        "water"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

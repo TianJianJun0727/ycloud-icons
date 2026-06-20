@@ -4,36 +4,37 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "形状",
   "tags": [
-    "triangle",
-    "equilateral",
-    "square",
-    "circle",
-    "classification",
-    "different",
-    "collection",
-    "toy",
-    "blocks",
-    "learning"
+    "三角形",
+    "方形",
+    "圆形",
+    "玩具",
+    "积木",
+    "学习"
   ],
   "categories": [
     "shapes",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "形状",
+    "en": {
+      "name": "shapes",
       "tags": [
-        "三角形",
-        "方形",
-        "圆形",
-        "玩具",
-        "积木",
-        "学习"
+        "triangle",
+        "equilateral",
+        "square",
+        "circle",
+        "classification",
+        "different",
+        "collection",
+        "toy",
+        "blocks",
+        "learning"
       ],
       "categories": [
-        "形状",
-        "游戏"
+        "Shapes",
+        "Gaming"
       ]
     }
   }

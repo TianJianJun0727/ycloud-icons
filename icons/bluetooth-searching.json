@@ -5,24 +5,25 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "蓝牙搜索中",
   "tags": [
-    "pairing"
+    "蓝牙",
+    "搜索",
+    "扫描"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "蓝牙搜索中",
+    "en": {
+      "name": "bluetooth searching",
       "tags": [
-        "蓝牙",
-        "搜索",
-        "扫描"
+        "pairing"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

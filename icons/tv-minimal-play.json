@@ -6,52 +6,53 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "电视极简播放",
   "tags": [
-    "flatscreen",
-    "television",
-    "stream",
-    "display",
-    "widescreen",
-    "high-definition",
-    "hd",
-    "1080p",
-    "4k",
-    "8k",
-    "smart",
-    "digital",
-    "video",
-    "movie",
-    "live",
-    "ott",
-    "running",
-    "start",
-    "film",
-    "home cinema",
-    "entertainment",
-    "showtime",
-    "channels",
-    "catchup"
+    "串流",
+    "高definition",
+    "高清",
+    "视频",
+    "起始",
+    "胶片",
+    "家居cinema",
+    "娱乐"
   ],
   "categories": [
     "devices",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "电视极简播放",
+    "en": {
+      "name": "tv minimal play",
       "tags": [
-        "串流",
-        "高definition",
-        "高清",
-        "视频",
-        "起始",
-        "胶片",
-        "家居cinema",
-        "娱乐"
+        "flatscreen",
+        "television",
+        "stream",
+        "display",
+        "widescreen",
+        "high-definition",
+        "hd",
+        "1080p",
+        "4k",
+        "8k",
+        "smart",
+        "digital",
+        "video",
+        "movie",
+        "live",
+        "ott",
+        "running",
+        "start",
+        "film",
+        "home cinema",
+        "entertainment",
+        "showtime",
+        "channels",
+        "catchup"
       ],
       "categories": [
-        "设备",
-        "多媒体"
+        "Devices",
+        "Multimedia"
       ]
     }
   }

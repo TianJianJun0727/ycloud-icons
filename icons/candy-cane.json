@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "糖果手杖",
   "tags": [
-    "sugar",
-    "food",
-    "sweet",
-    "christmas",
-    "xmas"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "糖果手杖",
+    "en": {
+      "name": "candy cane",
       "tags": [
-        "食物"
+        "sugar",
+        "food",
+        "sweet",
+        "christmas",
+        "xmas"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

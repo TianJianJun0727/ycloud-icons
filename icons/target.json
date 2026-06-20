@@ -4,26 +4,27 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "目标",
   "tags": [
-    "logo",
-    "bullseye",
-    "deadline",
-    "projects",
-    "overview",
-    "work",
-    "productivity"
+    "标志"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "目标",
+    "en": {
+      "name": "target",
       "tags": [
-        "标志"
+        "logo",
+        "bullseye",
+        "deadline",
+        "projects",
+        "overview",
+        "work",
+        "productivity"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

@@ -5,34 +5,35 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "石头",
   "tags": [
-    "mineral",
-    "geology",
-    "nature",
-    "solid",
-    "pebble",
-    "crystal",
-    "ore",
-    "hard",
-    "coal",
-    "stone",
-    "rock",
-    "boulder"
+    "实心",
+    "硬盘",
+    "石头",
+    "自然"
   ],
   "categories": [
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "石头",
+    "en": {
+      "name": "stone",
       "tags": [
-        "实心",
-        "硬盘",
-        "石头",
-        "自然"
+        "mineral",
+        "geology",
+        "nature",
+        "solid",
+        "pebble",
+        "crystal",
+        "ore",
+        "hard",
+        "coal",
+        "stone",
+        "rock",
+        "boulder"
       ],
       "categories": [
-        "自然"
+        "Nature"
       ]
     }
   }

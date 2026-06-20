@@ -6,20 +6,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "镜头凹面",
   "tags": [
-    "concave",
-    "lens",
-    "optics",
-    "light",
-    "magnification",
-    "curved",
-    "focus",
-    "refraction",
-    "science",
-    "physics",
-    "eyeglass",
-    "telescope",
-    "microscope"
+    "凹面",
+    "镜头",
+    "聚焦",
+    "望远镜",
+    "显微镜",
+    "物理"
   ],
   "categories": [
     "science",
@@ -27,20 +21,27 @@
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "镜头凹面",
+    "en": {
+      "name": "lens concave",
       "tags": [
-        "凹面",
-        "镜头",
-        "聚焦",
-        "望远镜",
-        "显微镜",
-        "物理"
+        "concave",
+        "lens",
+        "optics",
+        "light",
+        "magnification",
+        "curved",
+        "focus",
+        "refraction",
+        "science",
+        "physics",
+        "eyeglass",
+        "telescope",
+        "microscope"
       ],
       "categories": [
-        "科学",
-        "工具",
-        "形状"
+        "Science",
+        "Tools",
+        "Shapes"
       ]
     }
   }

@@ -12,35 +12,36 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "救护车",
   "tags": [
-    "ambulance",
-    "emergency",
-    "medical",
-    "vehicle",
-    "siren",
-    "healthcare",
-    "transportation",
-    "rescue",
-    "urgent",
-    "first aid"
+    "救护车",
+    "医疗",
+    "警报器",
+    "交通",
+    "第一个aid"
   ],
   "categories": [
     "medical",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "救护车",
+    "en": {
+      "name": "ambulance",
       "tags": [
-        "救护车",
-        "医疗",
-        "警报器",
-        "交通",
-        "第一个aid"
+        "ambulance",
+        "emergency",
+        "medical",
+        "vehicle",
+        "siren",
+        "healthcare",
+        "transportation",
+        "rescue",
+        "urgent",
+        "first aid"
       ],
       "categories": [
-        "医疗",
-        "交通"
+        "Medical",
+        "Transportation"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件归档",
   "tags": [
-    "zip",
-    "package",
-    "archive"
+    "包",
+    "归档",
+    "包裹"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件归档",
+    "en": {
+      "name": "file archive",
       "tags": [
-        "包",
-        "归档",
-        "包裹"
+        "zip",
+        "package",
+        "archive"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

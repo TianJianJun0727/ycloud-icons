@@ -7,38 +7,39 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云同步",
   "tags": [
-    "synchronize",
-    "synchronise",
-    "refresh",
-    "reconnect",
-    "transfer",
-    "backup",
-    "storage",
-    "upload",
-    "download",
-    "connection",
-    "network",
-    "data"
+    "刷新",
+    "备份",
+    "上传",
+    "下载",
+    "连接",
+    "网络"
   ],
   "categories": [
     "arrows",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "云同步",
+    "en": {
+      "name": "cloud sync",
       "tags": [
-        "刷新",
-        "备份",
-        "上传",
-        "下载",
-        "连接",
-        "网络"
+        "synchronize",
+        "synchronise",
+        "refresh",
+        "reconnect",
+        "transfer",
+        "backup",
+        "storage",
+        "upload",
+        "download",
+        "connection",
+        "network",
+        "data"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

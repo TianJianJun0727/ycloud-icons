@@ -9,40 +9,41 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "电动车充电器",
   "tags": [
-    "electric",
-    "charger",
-    "station",
-    "vehicle",
-    "fast",
-    "plug",
-    "ev",
-    "power",
-    "electricity",
-    "energy",
-    "accumulator",
-    "charge"
+    "电动",
+    "充电器",
+    "快速",
+    "插头",
+    "电动车",
+    "电源",
+    "电力",
+    "能源"
   ],
   "categories": [
     "transportation",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "电动车充电器",
+    "en": {
+      "name": "ev charger",
       "tags": [
-        "电动",
-        "充电器",
-        "快速",
-        "插头",
-        "电动车",
-        "电源",
-        "电力",
-        "能源"
+        "electric",
+        "charger",
+        "station",
+        "vehicle",
+        "fast",
+        "plug",
+        "ev",
+        "power",
+        "electricity",
+        "energy",
+        "accumulator",
+        "charge"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

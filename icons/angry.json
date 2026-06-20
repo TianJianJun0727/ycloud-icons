@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "生气",
   "tags": [
-    "emoji",
-    "anger",
-    "face",
-    "emotion"
+    "表情",
+    "情绪"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "生气",
+    "en": {
+      "name": "angry",
       "tags": [
-        "表情",
-        "情绪"
+        "emoji",
+        "anger",
+        "face",
+        "emotion"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

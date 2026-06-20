@@ -5,29 +5,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "对齐垂直分布居中",
   "tags": [
-    "items",
-    "flex",
-    "justify",
-    "space",
-    "evenly",
-    "around"
+    "项目",
+    "弹性布局",
+    "对齐",
+    "间距",
+    "环绕"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "对齐垂直分布居中",
+    "en": {
+      "name": "align vertical distribute center",
       "tags": [
-        "项目",
-        "弹性布局",
-        "对齐",
-        "间距",
-        "环绕"
+        "items",
+        "flex",
+        "justify",
+        "space",
+        "evenly",
+        "around"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -7,25 +7,26 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "无限",
   "tags": [
-    "unlimited",
-    "forever",
-    "loop",
-    "math"
+    "无限",
+    "循环",
+    "持续"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "无限",
+    "en": {
+      "name": "infinity",
       "tags": [
-        "无限",
-        "循环",
-        "持续"
+        "unlimited",
+        "forever",
+        "loop",
+        "math"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

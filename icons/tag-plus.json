@@ -12,32 +12,33 @@
     "adding a tag to an item",
     "creating a new product or entry with a tag"
   ],
+  "name": "标签加号",
   "tags": [
-    "label",
-    "badge",
-    "ticket",
-    "mark",
-    "new",
-    "add",
-    "create",
-    "+"
+    "徽章",
+    "票券",
+    "标记",
+    "新建",
+    "添加",
+    "创建"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "标签加号",
+    "en": {
+      "name": "tag plus",
       "tags": [
-        "徽章",
-        "票券",
-        "标记",
-        "新建",
-        "添加",
-        "创建"
+        "label",
+        "badge",
+        "ticket",
+        "mark",
+        "new",
+        "add",
+        "create",
+        "+"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

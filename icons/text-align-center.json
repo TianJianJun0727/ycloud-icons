@@ -6,10 +6,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文本对齐居中",
   "tags": [
-    "text",
-    "alignment",
-    "center"
+    "文本",
+    "居中"
   ],
   "categories": [
     "text"
@@ -23,14 +23,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文本对齐居中",
+    "en": {
+      "name": "text align center",
       "tags": [
-        "文本",
-        "居中"
+        "text",
+        "alignment",
+        "center"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

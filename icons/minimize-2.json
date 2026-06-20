@@ -5,11 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "最小化2",
   "tags": [
-    "exit fullscreen",
-    "arrows",
-    "close",
-    "shrink"
+    "退出全屏",
+    "箭头",
+    "关闭",
+    "收缩"
   ],
   "categories": [
     "arrows",
@@ -17,18 +18,18 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "最小化2",
+    "en": {
+      "name": "minimize 2",
       "tags": [
-        "退出全屏",
-        "箭头",
-        "关闭",
-        "收缩"
+        "exit fullscreen",
+        "arrows",
+        "close",
+        "shrink"
       ],
       "categories": [
-        "箭头",
-        "布局",
-        "设计"
+        "Arrows",
+        "Layout",
+        "Design"
       ]
     }
   }

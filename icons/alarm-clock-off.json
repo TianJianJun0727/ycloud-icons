@@ -7,9 +7,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "闹钟时钟关闭",
   "tags": [
-    "morning",
-    "turn-off"
+    "turn关闭"
   ],
   "categories": [
     "devices",
@@ -17,15 +17,16 @@
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "闹钟时钟关闭",
+    "en": {
+      "name": "alarm clock off",
       "tags": [
-        "turn关闭"
+        "morning",
+        "turn-off"
       ],
       "categories": [
-        "设备",
-        "通知",
-        "时间与日历"
+        "Devices",
+        "Notification",
+        "Time & calendar"
       ]
     }
   }

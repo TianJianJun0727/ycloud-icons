@@ -5,11 +5,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "酒店",
   "tags": [
-    "building",
-    "hostel",
-    "motel",
-    "inn"
+    "建筑"
   ],
   "categories": [
     "buildings",
@@ -17,15 +15,18 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "酒店",
+    "en": {
+      "name": "hotel",
       "tags": [
-        "建筑"
+        "building",
+        "hostel",
+        "motel",
+        "inn"
       ],
       "categories": [
-        "建筑",
-        "导航与地点",
-        "旅行"
+        "Buildings",
+        "Navigation & Places",
+        "Travel"
       ]
     }
   }

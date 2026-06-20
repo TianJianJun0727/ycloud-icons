@@ -1,6 +1,6 @@
 <script setup>
 import Icon from '@ycloud-web/icons-vue/src/Icon';
-import { search } from '../../../data/iconNodes';
+import { search } from '@data/iconNodes';
 
 defineProps({
   shortcut: {

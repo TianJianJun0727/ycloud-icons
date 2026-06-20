@@ -5,10 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形折角箭头下",
   "tags": [
-    "back",
-    "menu",
-    "panel"
+    "返回",
+    "菜单",
+    "面板"
   ],
   "categories": [
     "arrows",
@@ -23,16 +24,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形折角箭头下",
+    "en": {
+      "name": "square chevron down",
       "tags": [
-        "返回",
-        "菜单",
-        "面板"
+        "back",
+        "menu",
+        "panel"
       ],
       "categories": [
-        "箭头",
-        "导航与地点"
+        "Arrows",
+        "Navigation & Places"
       ]
     }
   }

@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头下",
   "tags": [
-    "backwards",
-    "reverse",
-    "direction",
-    "south"
+    "方向",
+    "后退",
+    "反向"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下",
+    "en": {
+      "name": "arrow down",
       "tags": [
-        "方向",
-        "后退",
-        "反向"
+        "backwards",
+        "reverse",
+        "direction",
+        "south"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

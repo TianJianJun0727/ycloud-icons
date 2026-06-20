@@ -8,8 +8,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "闹钟时钟",
   "tags": [
-    "morning"
+    "闹钟",
+    "提醒",
+    "时间"
   ],
   "categories": [
     "devices",
@@ -17,17 +20,15 @@
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "闹钟时钟",
+    "en": {
+      "name": "alarm clock",
       "tags": [
-        "闹钟",
-        "提醒",
-        "时间"
+        "morning"
       ],
       "categories": [
-        "设备",
-        "通知",
-        "时间与日历"
+        "Devices",
+        "Notification",
+        "Time & calendar"
       ]
     }
   }

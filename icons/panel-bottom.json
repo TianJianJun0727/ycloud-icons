@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板底部",
   "tags": [
-    "drawer",
-    "dock"
+    "停靠栏",
+    "抽屉"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板底部",
+    "en": {
+      "name": "panel bottom",
       "tags": [
-        "停靠栏",
-        "抽屉"
+        "drawer",
+        "dock"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

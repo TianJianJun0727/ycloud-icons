@@ -5,12 +5,11 @@
     "eden881"
   ],
   "use-cases": [],
+  "name": "方形底部虚线剪刀",
   "tags": [
-    "cut",
-    "snippet",
-    "chop",
-    "stationery",
-    "crafts"
+    "切割",
+    "文具",
+    "手工"
   ],
   "categories": [
     "text",
@@ -28,19 +27,21 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形底部虚线剪刀",
+    "en": {
+      "name": "square bottom dashed scissors",
       "tags": [
-        "切割",
-        "文具",
-        "手工"
+        "cut",
+        "snippet",
+        "chop",
+        "stationery",
+        "crafts"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "工具",
-        "文件",
-        "编码与开发"
+        "Text formatting",
+        "Design",
+        "Tools",
+        "File icons",
+        "Coding & development"
       ]
     }
   }

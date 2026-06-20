@@ -9,6 +9,11 @@
     "noEmit": true,
     "paths": {
       "~/.vitepress/*": ["./.vitepress/*"],
+      "@theme/*": ["./.vitepress/theme/*"],
+      "@data/*": ["./.vitepress/data/*"],
+      "@lib/*": ["./.vitepress/lib/*"],
+      "@tools/*": ["../tools/*"],
+      "@packages/*": ["../packages/*"],
     },
   },
 }

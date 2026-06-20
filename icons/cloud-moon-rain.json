@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "云月亮雨",
   "tags": [
-    "weather",
-    "partly",
-    "night",
-    "rainfall"
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "云月亮雨",
+    "en": {
+      "name": "cloud moon rain",
       "tags": [
-        "天气"
+        "weather",
+        "partly",
+        "night",
+        "rainfall"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

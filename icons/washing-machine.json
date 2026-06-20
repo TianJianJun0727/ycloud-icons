@@ -4,15 +4,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "洗衣机器",
   "tags": [
-    "tumble dryer",
-    "amenities",
-    "electronics",
-    "cycle",
-    "clothes",
-    "rinse",
-    "spin",
-    "drum"
+    "鼓",
+    "电子"
   ],
   "categories": [
     "home",
@@ -20,16 +15,22 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "洗衣机器",
+    "en": {
+      "name": "washing machine",
       "tags": [
-        "鼓",
-        "电子"
+        "tumble dryer",
+        "amenities",
+        "electronics",
+        "cycle",
+        "clothes",
+        "rinse",
+        "spin",
+        "drum"
       ],
       "categories": [
-        "家居",
-        "设备",
-        "旅行"
+        "Home",
+        "Devices",
+        "Travel"
       ]
     }
   }

@@ -4,26 +4,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "图表蜡烛图",
   "tags": [
-    "trading",
-    "trader",
-    "financial",
-    "markets",
-    "portfolio",
-    "assets",
-    "prices",
-    "value",
-    "valuation",
-    "commodities",
-    "currencies",
-    "currency",
-    "stocks",
-    "exchange",
-    "hedge fund",
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph"
+    "货币",
+    "图形"
   ],
   "categories": [
     "charts",
@@ -38,15 +22,32 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "图表蜡烛图",
+    "en": {
+      "name": "chart candlestick",
       "tags": [
-        "货币",
-        "图形"
+        "trading",
+        "trader",
+        "financial",
+        "markets",
+        "portfolio",
+        "assets",
+        "prices",
+        "value",
+        "valuation",
+        "commodities",
+        "currencies",
+        "currency",
+        "stocks",
+        "exchange",
+        "hedge fund",
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph"
       ],
       "categories": [
-        "图表",
-        "金融"
+        "Charts",
+        "Finance"
       ]
     }
   }

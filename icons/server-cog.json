@@ -5,27 +5,28 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "服务器齿轮",
   "tags": [
-    "cloud",
-    "storage",
-    "computing",
-    "cog",
-    "gear"
+    "云",
+    "齿轮"
   ],
   "categories": [
     "development",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "服务器齿轮",
+    "en": {
+      "name": "server cog",
       "tags": [
-        "云",
-        "齿轮"
+        "cloud",
+        "storage",
+        "computing",
+        "cog",
+        "gear"
       ],
       "categories": [
-        "编码与开发",
-        "设备"
+        "Coding & development",
+        "Devices"
       ]
     }
   }

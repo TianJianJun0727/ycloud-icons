@@ -4,13 +4,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "公用设施杆",
   "tags": [
-    "electricity",
-    "energy",
-    "transmission line",
-    "telegraph pole",
-    "power lines",
-    "phone"
+    "transmission线条",
+    "telegraph杆",
+    "电源线条",
+    "电话",
+    "电力",
+    "能源"
   ],
   "categories": [
     "buildings",
@@ -18,20 +19,20 @@
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "公用设施杆",
+    "en": {
+      "name": "utility pole",
       "tags": [
-        "transmission线条",
-        "telegraph杆",
-        "电源线条",
-        "电话",
-        "电力",
-        "能源"
+        "electricity",
+        "energy",
+        "transmission line",
+        "telegraph pole",
+        "power lines",
+        "phone"
       ],
       "categories": [
-        "建筑",
-        "家居",
-        "可持续"
+        "Buildings",
+        "Home",
+        "Sustainability"
       ]
     }
   }

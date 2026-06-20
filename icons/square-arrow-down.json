@@ -5,14 +5,13 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形箭头下",
   "tags": [
-    "backwards",
-    "reverse",
-    "direction",
-    "south",
-    "sign",
-    "keyboard",
-    "button"
+    "方向",
+    "标志",
+    "键盘",
+    "后退",
+    "反向"
   ],
   "categories": [
     "arrows",
@@ -27,18 +26,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头下",
+    "en": {
+      "name": "square arrow down",
       "tags": [
-        "方向",
-        "标志",
-        "键盘",
-        "后退",
-        "反向"
+        "backwards",
+        "reverse",
+        "direction",
+        "south",
+        "sign",
+        "keyboard",
+        "button"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

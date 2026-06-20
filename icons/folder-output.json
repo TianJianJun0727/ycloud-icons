@@ -5,25 +5,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件夹输出",
   "tags": [
-    "directory",
-    "import",
-    "export"
+    "导入",
+    "目录"
   ],
   "categories": [
     "files",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹输出",
+    "en": {
+      "name": "folder output",
       "tags": [
-        "导入",
-        "目录"
+        "directory",
+        "import",
+        "export"
       ],
       "categories": [
-        "文件",
-        "箭头"
+        "File icons",
+        "Arrows"
       ]
     }
   }

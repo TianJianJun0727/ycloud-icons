@@ -7,44 +7,45 @@
     "show rankings or leaderboards",
     "display top winners after a game or competition"
   ],
+  "name": "领奖台",
   "tags": [
-    "award",
-    "stage",
-    "winner",
-    "celebration",
-    "performance",
-    "medal",
-    "success",
-    "achievement",
-    "highlight",
-    "ranking",
-    "winning",
-    "place",
-    "placing",
-    "leaderboard",
-    "first",
-    "second",
-    "third",
-    "gold",
-    "silver",
-    "bronze"
+    "奖章",
+    "奖牌",
+    "第一个",
+    "庆祝"
   ],
   "categories": [
     "sports",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "领奖台",
+    "en": {
+      "name": "podium",
       "tags": [
-        "奖章",
-        "奖牌",
-        "第一个",
-        "庆祝"
+        "award",
+        "stage",
+        "winner",
+        "celebration",
+        "performance",
+        "medal",
+        "success",
+        "achievement",
+        "highlight",
+        "ranking",
+        "winning",
+        "place",
+        "placing",
+        "leaderboard",
+        "first",
+        "second",
+        "third",
+        "gold",
+        "silver",
+        "bronze"
       ],
       "categories": [
-        "运动",
-        "游戏"
+        "Sports",
+        "Gaming"
       ]
     }
   }

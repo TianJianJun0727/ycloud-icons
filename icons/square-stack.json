@@ -4,16 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形堆叠",
   "tags": [
-    "versions",
-    "clone",
-    "copy",
-    "duplicate",
-    "multiple",
-    "revisions",
-    "version control",
-    "backup",
-    "history"
+    "复制",
+    "version控制",
+    "备份",
+    "历史"
   ],
   "categories": [
     "text",
@@ -21,18 +17,23 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形堆叠",
+    "en": {
+      "name": "square stack",
       "tags": [
-        "复制",
-        "version控制",
-        "备份",
-        "历史"
+        "versions",
+        "clone",
+        "copy",
+        "duplicate",
+        "multiple",
+        "revisions",
+        "version control",
+        "backup",
+        "history"
       ],
       "categories": [
-        "文本格式",
-        "文件",
-        "编码与开发"
+        "Text formatting",
+        "File icons",
+        "Coding & development"
       ]
     }
   }

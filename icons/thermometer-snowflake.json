@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "温度计雪花",
   "tags": [
-    "temperature",
-    "celsius",
-    "fahrenheit",
-    "weather",
-    "cold",
-    "freeze",
-    "freezing"
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "温度计雪花",
+    "en": {
+      "name": "thermometer snowflake",
       "tags": [
-        "天气"
+        "temperature",
+        "celsius",
+        "fahrenheit",
+        "weather",
+        "cold",
+        "freeze",
+        "freezing"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

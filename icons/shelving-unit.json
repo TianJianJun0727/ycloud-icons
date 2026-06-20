@@ -4,39 +4,40 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "货架单元",
   "tags": [
-    "ledge",
-    "rack",
-    "storage",
-    "inventory",
-    "furniture",
-    "sill",
-    "shelves",
-    "shelf",
-    "organize",
-    "display",
-    "store",
-    "arrange",
-    "unit",
-    "cabinet",
-    "fixture",
-    "retail",
-    "warehouse"
+    "架子",
+    "商店",
+    "单元",
+    "仓库"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "货架单元",
+    "en": {
+      "name": "shelving unit",
       "tags": [
-        "架子",
-        "商店",
-        "单元",
-        "仓库"
+        "ledge",
+        "rack",
+        "storage",
+        "inventory",
+        "furniture",
+        "sill",
+        "shelves",
+        "shelf",
+        "organize",
+        "display",
+        "store",
+        "arrange",
+        "unit",
+        "cabinet",
+        "fixture",
+        "retail",
+        "warehouse"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

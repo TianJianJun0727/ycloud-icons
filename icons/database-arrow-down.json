@@ -10,34 +10,35 @@
     "exporting or downloading data from a database",
     "syncing data from a remote to a local environment"
   ],
+  "name": "数据库箭头下",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "server",
-    "export",
-    "download",
-    "backup",
-    "pull",
-    "downsize"
+    "内存",
+    "服务器",
+    "下载",
+    "备份",
+    "拉取"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库箭头下",
+    "en": {
+      "name": "database arrow down",
       "tags": [
-        "内存",
-        "服务器",
-        "下载",
-        "备份",
-        "拉取"
+        "storage",
+        "memory",
+        "bytes",
+        "server",
+        "export",
+        "download",
+        "backup",
+        "pull",
+        "downsize"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

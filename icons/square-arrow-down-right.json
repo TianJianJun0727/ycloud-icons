@@ -5,14 +5,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形箭头下右",
   "tags": [
-    "direction",
-    "south-east",
-    "diagonal",
-    "sign",
-    "turn",
-    "keyboard",
-    "button"
+    "方向",
+    "对角线",
+    "标志",
+    "键盘"
   ],
   "categories": [
     "arrows",
@@ -27,17 +25,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头下右",
+    "en": {
+      "name": "square arrow down right",
       "tags": [
-        "方向",
-        "对角线",
-        "标志",
-        "键盘"
+        "direction",
+        "south-east",
+        "diagonal",
+        "sign",
+        "turn",
+        "keyboard",
+        "button"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

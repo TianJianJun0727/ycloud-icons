@@ -5,31 +5,32 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "差异",
   "tags": [
-    "patch",
-    "difference",
-    "compare",
-    "plus",
-    "minus",
-    "plus-minus",
-    "math"
+    "比较",
+    "加号",
+    "减少",
+    "加号减少"
   ],
   "categories": [
     "development",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "差异",
+    "en": {
+      "name": "diff",
       "tags": [
-        "比较",
-        "加号",
-        "减少",
-        "加号减少"
+        "patch",
+        "difference",
+        "compare",
+        "plus",
+        "minus",
+        "plus-minus",
+        "math"
       ],
       "categories": [
-        "编码与开发",
-        "文件"
+        "Coding & development",
+        "File icons"
       ]
     }
   }

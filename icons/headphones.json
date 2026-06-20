@@ -7,10 +7,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "耳机",
   "tags": [
-    "music",
-    "audio",
-    "sound"
+    "音乐",
+    "音频",
+    "声音"
   ],
   "categories": [
     "multimedia",
@@ -20,19 +21,19 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "耳机",
+    "en": {
+      "name": "headphones",
       "tags": [
-        "音乐",
-        "音频",
-        "声音"
+        "music",
+        "audio",
+        "sound"
       ],
       "categories": [
-        "多媒体",
-        "连接",
-        "设备",
-        "文件",
-        "游戏"
+        "Multimedia",
+        "Connectivity",
+        "Devices",
+        "File icons",
+        "Gaming"
       ]
     }
   }

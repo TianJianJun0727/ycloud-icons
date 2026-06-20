@@ -7,24 +7,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "公文包医疗",
   "tags": [
-    "doctor",
-    "medicine",
-    "first aid"
+    "第一个aid"
   ],
   "categories": [
     "medical",
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "公文包医疗",
+    "en": {
+      "name": "briefcase medical",
       "tags": [
-        "第一个aid"
+        "doctor",
+        "medicine",
+        "first aid"
       ],
       "categories": [
-        "医疗",
-        "交通"
+        "Medical",
+        "Transportation"
       ]
     }
   }

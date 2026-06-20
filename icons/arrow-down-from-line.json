@@ -5,35 +5,36 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头下从线条",
   "tags": [
-    "backwards",
-    "reverse",
-    "direction",
-    "south",
-    "download",
-    "expand",
-    "fold",
-    "vertical"
+    "方向",
+    "下载",
+    "展开",
+    "折叠",
+    "垂直",
+    "后退",
+    "反向"
   ],
   "categories": [
     "arrows",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下从线条",
+    "en": {
+      "name": "arrow down from line",
       "tags": [
-        "方向",
-        "下载",
-        "展开",
-        "折叠",
-        "垂直",
-        "后退",
-        "反向"
+        "backwards",
+        "reverse",
+        "direction",
+        "south",
+        "download",
+        "expand",
+        "fold",
+        "vertical"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

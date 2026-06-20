@@ -8,27 +8,17 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "地球关闭",
   "tags": [
-    "globe",
-    "earth",
-    "planet",
-    "disable",
-    "mute",
-    "off",
-    "hide",
-    "avoid",
-    "world",
-    "browser",
-    "language",
-    "translate",
-    "internet",
-    "offline",
-    "disconnected",
-    "network",
-    "connection",
-    "no connection",
-    "network failure",
-    "signal off"
+    "地球",
+    "关闭",
+    "互联网",
+    "网络",
+    "连接",
+    "无连接",
+    "网络failure",
+    "信号关闭",
+    "已断开"
   ],
   "categories": [
     "navigation",
@@ -36,23 +26,34 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "地球关闭",
+    "en": {
+      "name": "globe off",
       "tags": [
-        "地球",
-        "关闭",
-        "互联网",
-        "网络",
-        "连接",
-        "无连接",
-        "网络failure",
-        "信号关闭",
-        "已断开"
+        "globe",
+        "earth",
+        "planet",
+        "disable",
+        "mute",
+        "off",
+        "hide",
+        "avoid",
+        "world",
+        "browser",
+        "language",
+        "translate",
+        "internet",
+        "offline",
+        "disconnected",
+        "network",
+        "connection",
+        "no connection",
+        "network failure",
+        "signal off"
       ],
       "categories": [
-        "导航与地点",
-        "连接",
-        "设备"
+        "Navigation & Places",
+        "Connectivity",
+        "Devices"
       ]
     }
   }

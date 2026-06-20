@@ -3,41 +3,49 @@ import { ref, computed, watch } from 'vue';
 import { useData, withBase } from 'vitepress';
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue';
 import { isActive } from 'vitepress/dist/client/shared';
-import { useActiveAnchor } from '../../composables/useActiveAnchor';
+import { useActiveAnchor } from '@theme/composables/useActiveAnchor';
 import { data } from './CategoryList.data';
 import CategoryListItem from './CategoryListItem.vue';
 import SidebarTitle from './SidebarTitle.vue';
-import { useCategoryViewSync } from '../../composables/useCategoryView';
-import { localizeCategoryTitle } from '../../utils/categoryLabels';
+import { useCategoryViewSync } from '@theme/composables/useCategoryView';
 
 const { page } = useData();
 const { categoryCounts, selectedCategory } = useCategoryViewSync();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 function onCategoriesClick() {
   selectedCategory.value = '';
 }
 
 const categoriesIsActive = computed(() => {
-  return isActive(page.value.relativePath, '/icons/categories');
+  return isActive(page.value.relativePath, isEnglish.value ? '/en/icons/categories' : '/icons/categories');
 });
 
 const overviewIsActive = computed(() => {
-  return isActive(page.value.relativePath, '/icons/');
+  return isActive(page.value.relativePath, isEnglish.value ? '/en/icons/' : '/icons/');
 });
 
 const headers = computed(() => {
-  const linkPrefix = page.value.relativePath.startsWith('icons/categories')
+  const categoryPath = isEnglish.value ? '/en/icons/categories' : '/icons/categories';
+  const linkPrefix = page.value.relativePath.startsWith(
+    isEnglish.value ? 'en/icons/categories' : 'icons/categories',
+  )
     ? ''
-    : withBase('/icons/categories');
+    : withBase(categoryPath);
 
-  return data.categories.map(({ name, title, displayTitle, iconCount }) => ({
+  return data.categories.map(({ name, title, englishTitle, iconCount }) => ({
     level: 2,
     link: `${linkPrefix}#${name}`,
-    title: displayTitle ?? localizeCategoryTitle(title),
+    title: isEnglish.value ? englishTitle : title,
     iconCount: categoryCounts.value[name] ?? iconCount,
     name,
   }));
 });
+
+const overviewHref = computed(() => (isEnglish.value ? '/en/icons/' : '/icons/'));
+const categoriesHref = computed(() =>
+  isEnglish.value ? '/en/icons/categories' : '/icons/categories',
+);
 
 const container = ref();
 const marker = ref();
@@ -56,21 +64,21 @@ watch(headers, () => {
     class="category-list"
     ref="container"
   >
-    <SidebarTitle>视图</SidebarTitle>
+    <SidebarTitle>{{ isEnglish ? 'View' : '视图' }}</SidebarTitle>
     <VPLink
       class="sidebar-link sidebar-text"
-      href="/icons/"
+      :href="overviewHref"
       :class="{ active: overviewIsActive }"
     >
-      全部
+      {{ isEnglish ? 'All' : '全部' }}
     </VPLink>
     <VPLink
       class="sidebar-link sidebar-text"
-      href="/icons/categories"
+      :href="categoriesHref"
       :class="{ active: categoriesIsActive }"
       @click="onCategoriesClick"
     >
-      分类
+      {{ isEnglish ? 'Categories' : '分类' }}
     </VPLink>
     <div class="content">
       <div

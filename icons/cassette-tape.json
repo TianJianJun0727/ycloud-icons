@@ -4,11 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "磁带磁带",
   "tags": [
-    "audio",
-    "music",
-    "recording",
-    "play"
+    "音频",
+    "音乐",
+    "播放"
   ],
   "categories": [
     "connectivity",
@@ -18,19 +18,20 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "磁带磁带",
+    "en": {
+      "name": "cassette tape",
       "tags": [
-        "音频",
-        "音乐",
-        "播放"
+        "audio",
+        "music",
+        "recording",
+        "play"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "多媒体",
-        "沟通",
-        "文件"
+        "Connectivity",
+        "Devices",
+        "Multimedia",
+        "Communication",
+        "File icons"
       ]
     }
   }

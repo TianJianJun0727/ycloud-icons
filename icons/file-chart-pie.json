@@ -6,12 +6,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件图表饼图",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph",
-    "presentation"
+    "图形",
+    "演示"
   ],
   "categories": [
     "files"
@@ -25,14 +23,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件图表饼图",
+    "en": {
+      "name": "file chart pie",
       "tags": [
-        "图形",
-        "演示"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph",
+        "presentation"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

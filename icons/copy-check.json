@@ -5,25 +5,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "复制勾选",
   "tags": [
-    "clone",
-    "duplicate",
-    "done",
-    "multiple"
+    "完成"
   ],
   "categories": [
     "text",
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "复制勾选",
+    "en": {
+      "name": "copy check",
       "tags": [
-        "完成"
+        "clone",
+        "duplicate",
+        "done",
+        "multiple"
       ],
       "categories": [
-        "文本格式",
-        "通知"
+        "Text formatting",
+        "Notification"
       ]
     }
   }

@@ -7,24 +7,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "无表情",
   "tags": [
-    "emoji",
-    "face",
-    "neutral",
-    "emotion"
+    "表情",
+    "情绪"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "无表情",
+    "en": {
+      "name": "meh",
       "tags": [
-        "表情",
-        "情绪"
+        "emoji",
+        "face",
+        "neutral",
+        "emotion"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

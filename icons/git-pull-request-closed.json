@@ -5,27 +5,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "Git拉取请求关闭",
   "tags": [
-    "code",
-    "version control",
-    "rejected",
-    "closed",
-    "cancelled",
-    "x"
+    "代码",
+    "version控制",
+    "关闭"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git拉取请求关闭",
+    "en": {
+      "name": "git pull request closed",
       "tags": [
-        "代码",
-        "version控制",
-        "关闭"
+        "code",
+        "version control",
+        "rejected",
+        "closed",
+        "cancelled",
+        "x"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

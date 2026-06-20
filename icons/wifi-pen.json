@@ -7,29 +7,30 @@
     "luisdlopera"
   ],
   "use-cases": [],
+  "name": "无线网络笔",
   "tags": [
-    "edit",
-    "wifi",
-    "pen",
-    "change",
-    "network"
+    "编辑",
+    "无线网络",
+    "笔",
+    "网络"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络笔",
+    "en": {
+      "name": "wifi pen",
       "tags": [
-        "编辑",
-        "无线网络",
-        "笔",
-        "网络"
+        "edit",
+        "wifi",
+        "pen",
+        "change",
+        "network"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

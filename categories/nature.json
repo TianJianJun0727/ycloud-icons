@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Nature",
+  "title": "自然",
   "icon": "sprout",
   "i18n": {
-    "zh": {
-      "title": "自然"
+    "en": {
+      "title": "Nature"
     }
   }
 }

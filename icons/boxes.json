@@ -4,15 +4,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "盒子组",
   "tags": [
-    "cubes",
-    "packages",
-    "parts",
-    "group",
-    "units",
-    "collection",
-    "cluster",
-    "geometry"
+    "组合",
+    "单位"
   ],
   "categories": [
     "shapes",
@@ -20,16 +15,22 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "盒子组",
+    "en": {
+      "name": "boxes",
       "tags": [
-        "组合",
-        "单位"
+        "cubes",
+        "packages",
+        "parts",
+        "group",
+        "units",
+        "collection",
+        "cluster",
+        "geometry"
       ],
       "categories": [
-        "形状",
-        "游戏",
-        "编码与开发"
+        "Shapes",
+        "Gaming",
+        "Coding & development"
       ]
     }
   }

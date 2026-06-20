@@ -7,39 +7,40 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "历史",
   "tags": [
-    "time",
-    "redo",
-    "undo",
-    "rewind",
-    "timeline",
-    "version",
-    "time machine",
-    "backup",
-    "rotate",
-    "ccw"
+    "时间",
+    "重做",
+    "撤销",
+    "快退",
+    "时间线",
+    "时间机器",
+    "备份",
+    "旋转",
+    "逆时针"
   ],
   "categories": [
     "arrows",
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "历史",
+    "en": {
+      "name": "history",
       "tags": [
-        "时间",
-        "重做",
-        "撤销",
-        "快退",
-        "时间线",
-        "时间机器",
-        "备份",
-        "旋转",
-        "逆时针"
+        "time",
+        "redo",
+        "undo",
+        "rewind",
+        "timeline",
+        "version",
+        "time machine",
+        "backup",
+        "rotate",
+        "ccw"
       ],
       "categories": [
-        "箭头",
-        "时间与日历"
+        "Arrows",
+        "Time & calendar"
       ]
     }
   }

@@ -4,33 +4,34 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "星座白羊座",
   "tags": [
-    "ram",
-    "horns",
-    "fire",
-    "energy",
-    "initiative",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "火焰",
+    "星标标志",
+    "能源"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座白羊座",
+    "en": {
+      "name": "zodiac aries",
       "tags": [
-        "火焰",
-        "星标标志",
-        "能源"
+        "ram",
+        "horns",
+        "fire",
+        "energy",
+        "initiative",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

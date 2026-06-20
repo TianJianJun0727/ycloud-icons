@@ -4,24 +4,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "可颂",
   "tags": [
-    "bakery",
-    "cooking",
-    "food",
-    "pastry"
+    "烹饪",
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "可颂",
+    "en": {
+      "name": "croissant",
       "tags": [
-        "烹饪",
-        "食物"
+        "bakery",
+        "cooking",
+        "food",
+        "pastry"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

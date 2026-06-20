@@ -5,29 +5,21 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形减少",
   "tags": [
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "calculator",
-    "button",
-    "keyboard",
-    "line",
-    "divider",
-    "separator",
-    "horizontal rule",
-    "hr",
-    "html",
-    "markup",
-    "markdown",
-    "---",
-    "toolbar",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade"
+    "减去",
+    "移除",
+    "减少",
+    "计算器",
+    "键盘",
+    "线条",
+    "分隔符",
+    "水平rule",
+    "工具栏",
+    "代码",
+    "HTML",
+    "标记语言",
+    "Markdown"
   ],
   "categories": [
     "math",
@@ -45,29 +37,38 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形减少",
+    "en": {
+      "name": "square minus",
       "tags": [
-        "减去",
-        "移除",
-        "减少",
-        "计算器",
-        "键盘",
-        "线条",
-        "分隔符",
-        "水平rule",
-        "工具栏",
-        "代码",
-        "HTML",
-        "标记语言",
-        "Markdown"
+        "subtract",
+        "remove",
+        "decrease",
+        "reduce",
+        "calculator",
+        "button",
+        "keyboard",
+        "line",
+        "divider",
+        "separator",
+        "horizontal rule",
+        "hr",
+        "html",
+        "markup",
+        "markdown",
+        "---",
+        "toolbar",
+        "operator",
+        "code",
+        "coding",
+        "minimum",
+        "downgrade"
       ],
       "categories": [
-        "数学",
-        "编码与开发",
-        "文本格式",
-        "工具",
-        "设备"
+        "Mathematics",
+        "Coding & development",
+        "Text formatting",
+        "Tools",
+        "Devices"
       ]
     }
   }

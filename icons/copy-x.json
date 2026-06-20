@@ -5,32 +5,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "复制关闭",
   "tags": [
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "clear",
-    "multiple",
-    "multiply",
-    "multiplication",
-    "times"
+    "关闭",
+    "删除",
+    "移除"
   ],
   "categories": [
     "notifications",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "复制关闭",
+    "en": {
+      "name": "copy X",
       "tags": [
-        "关闭",
-        "删除",
-        "移除"
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "clear",
+        "multiple",
+        "multiply",
+        "multiplication",
+        "times"
       ],
       "categories": [
-        "通知",
-        "数学"
+        "Notification",
+        "Mathematics"
       ]
     }
   }

@@ -4,25 +4,14 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形斜杠2",
   "tags": [
-    "diameter",
-    "zero",
-    "ø",
-    "nothing",
-    "null",
-    "void",
-    "ban",
-    "math",
-    "divide",
-    "division",
-    "half",
-    "split",
-    "/",
-    "average",
-    "avg",
-    "mean",
-    "median",
-    "normal"
+    "直径",
+    "零",
+    "禁止",
+    "除号",
+    "一半",
+    "拆分"
   ],
   "categories": [
     "shapes",
@@ -38,20 +27,32 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形斜杠2",
+    "en": {
+      "name": "circle slash 2",
       "tags": [
-        "直径",
-        "零",
-        "禁止",
-        "除号",
-        "一半",
-        "拆分"
+        "diameter",
+        "zero",
+        "ø",
+        "nothing",
+        "null",
+        "void",
+        "ban",
+        "math",
+        "divide",
+        "division",
+        "half",
+        "split",
+        "/",
+        "average",
+        "avg",
+        "mean",
+        "median",
+        "normal"
       ],
       "categories": [
-        "形状",
-        "数学",
-        "编码与开发"
+        "Shapes",
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "握柄",
   "tags": [
-    "grab",
-    "dots",
-    "handle",
-    "move",
-    "drag"
+    "抓取",
+    "移动"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "握柄",
+    "en": {
+      "name": "grip",
       "tags": [
-        "抓取",
-        "移动"
+        "grab",
+        "dots",
+        "handle",
+        "move",
+        "drag"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -5,10 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章问题标记",
   "tags": [
-    "verified",
-    "unverified",
-    "help"
+    "已验证",
+    "未验证",
+    "帮助"
   ],
   "categories": [
     "accessibility",
@@ -24,17 +25,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章问题标记",
+    "en": {
+      "name": "badge question mark",
       "tags": [
-        "已验证",
-        "未验证",
-        "帮助"
+        "verified",
+        "unverified",
+        "help"
       ],
       "categories": [
-        "无障碍",
-        "社交",
-        "形状"
+        "Accessibility",
+        "Social",
+        "Shapes"
       ]
     }
   }

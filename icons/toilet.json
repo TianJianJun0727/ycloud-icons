@@ -7,25 +7,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "马桶",
   "tags": [
-    "toilet",
-    "potty",
-    "bathroom",
-    "washroom"
+    "马桶"
   ],
   "categories": [
     "devices",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "马桶",
+    "en": {
+      "name": "toilet",
       "tags": [
-        "马桶"
+        "toilet",
+        "potty",
+        "bathroom",
+        "washroom"
       ],
       "categories": [
-        "设备",
-        "家居"
+        "Devices",
+        "Home"
       ]
     }
   }

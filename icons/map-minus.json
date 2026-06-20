@@ -8,31 +8,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "地图减少",
   "tags": [
-    "location",
-    "navigation",
-    "travel",
-    "drop",
-    "delete",
-    "remove",
-    "erase"
+    "导航",
+    "旅行",
+    "删除",
+    "移除"
   ],
   "categories": [
     "navigation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图减少",
+    "en": {
+      "name": "map minus",
       "tags": [
-        "导航",
-        "旅行",
-        "删除",
-        "移除"
+        "location",
+        "navigation",
+        "travel",
+        "drop",
+        "delete",
+        "remove",
+        "erase"
       ],
       "categories": [
-        "导航与地点",
-        "旅行"
+        "Navigation & Places",
+        "Travel"
       ]
     }
   }

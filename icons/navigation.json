@@ -4,21 +4,22 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "导航",
   "tags": [
-    "location",
-    "travel"
+    "旅行"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "导航",
+    "en": {
+      "name": "navigation",
       "tags": [
-        "旅行"
+        "location",
+        "travel"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

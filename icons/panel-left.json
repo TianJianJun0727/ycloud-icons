@@ -6,9 +6,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板左",
   "tags": [
-    "primary",
-    "drawer"
+    "抽屉"
   ],
   "categories": [
     "layout"
@@ -22,13 +22,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "面板左",
+    "en": {
+      "name": "panel left",
       "tags": [
-        "抽屉"
+        "primary",
+        "drawer"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

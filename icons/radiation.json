@@ -6,35 +6,36 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "辐射",
   "tags": [
-    "radioactive",
-    "nuclear",
-    "fallout",
-    "waste",
-    "atomic",
-    "physics",
-    "particle",
-    "element",
-    "molecule"
+    "核能",
+    "放射尘",
+    "废弃物",
+    "原子",
+    "物理",
+    "粒子",
+    "元素",
+    "分子"
   ],
   "categories": [
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "辐射",
+    "en": {
+      "name": "radiation",
       "tags": [
-        "核能",
-        "放射尘",
-        "废弃物",
-        "原子",
-        "物理",
-        "粒子",
-        "元素",
-        "分子"
+        "radioactive",
+        "nuclear",
+        "fallout",
+        "waste",
+        "atomic",
+        "physics",
+        "particle",
+        "element",
+        "molecule"
       ],
       "categories": [
-        "科学"
+        "Science"
       ]
     }
   }

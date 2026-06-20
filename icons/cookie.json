@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "曲奇",
   "tags": [
-    "biscuit",
-    "privacy",
-    "legal",
-    "food"
+    "食物"
   ],
   "categories": [
     "account",
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "曲奇",
+    "en": {
+      "name": "cookie",
       "tags": [
-        "食物"
+        "biscuit",
+        "privacy",
+        "legal",
+        "food"
       ],
       "categories": [
-        "账号与访问",
-        "餐饮"
+        "Accounts & access",
+        "Food & beverage"
       ]
     }
   }

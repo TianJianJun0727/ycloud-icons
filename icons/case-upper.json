@@ -7,26 +7,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "箱包大写",
   "tags": [
-    "text",
-    "letters",
-    "characters",
-    "font",
-    "typography"
+    "文本"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "箱包大写",
+    "en": {
+      "name": "case upper",
       "tags": [
-        "文本"
+        "text",
+        "letters",
+        "characters",
+        "font",
+        "typography"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

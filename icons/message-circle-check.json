@@ -4,36 +4,37 @@
     "Shrinks99"
   ],
   "use-cases": [],
+  "name": "消息圆形勾选",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "moderate",
-    "check",
-    "done",
-    "todo",
-    "complete"
+    "语音bubble",
+    "勾选",
+    "完成",
+    "待办",
+    "聊天"
   ],
   "categories": [
     "social",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息圆形勾选",
+    "en": {
+      "name": "message circle check",
       "tags": [
-        "语音bubble",
-        "勾选",
-        "完成",
-        "待办",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "moderate",
+        "check",
+        "done",
+        "todo",
+        "complete"
       ],
       "categories": [
-        "社交",
-        "账号与访问"
+        "Social",
+        "Accounts & access"
       ]
     }
   }

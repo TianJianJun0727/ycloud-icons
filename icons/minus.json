@@ -5,29 +5,20 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "减少",
   "tags": [
-    "subtract",
-    "remove",
-    "decrease",
-    "decrement",
-    "reduce",
-    "negative",
-    "calculate",
-    "line",
-    "divider",
-    "separator",
-    "horizontal rule",
-    "hr",
-    "html",
-    "markup",
-    "markdown",
-    "---",
-    "toolbar",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade"
+    "减去",
+    "移除",
+    "减少",
+    "计算",
+    "线条",
+    "分隔符",
+    "水平rule",
+    "工具栏",
+    "代码",
+    "HTML",
+    "标记语言",
+    "Markdown"
   ],
   "categories": [
     "math",
@@ -36,27 +27,37 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "减少",
+    "en": {
+      "name": "minus",
       "tags": [
-        "减去",
-        "移除",
-        "减少",
-        "计算",
-        "线条",
-        "分隔符",
-        "水平rule",
-        "工具栏",
-        "代码",
-        "HTML",
-        "标记语言",
-        "Markdown"
+        "subtract",
+        "remove",
+        "decrease",
+        "decrement",
+        "reduce",
+        "negative",
+        "calculate",
+        "line",
+        "divider",
+        "separator",
+        "horizontal rule",
+        "hr",
+        "html",
+        "markup",
+        "markdown",
+        "---",
+        "toolbar",
+        "operator",
+        "code",
+        "coding",
+        "minimum",
+        "downgrade"
       ],
       "categories": [
-        "数学",
-        "编码与开发",
-        "文本格式",
-        "工具"
+        "Mathematics",
+        "Coding & development",
+        "Text formatting",
+        "Tools"
       ]
     }
   }

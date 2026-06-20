@@ -5,24 +5,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "通风口",
   "tags": [
-    "air conditioner",
-    "ac",
-    "central air",
-    "cooling",
-    "climate-control"
+    "climate控制"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "通风口",
+    "en": {
+      "name": "air vent",
       "tags": [
-        "climate控制"
+        "air conditioner",
+        "ac",
+        "central air",
+        "cooling",
+        "climate-control"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

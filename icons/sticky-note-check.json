@@ -7,48 +7,49 @@
     "Barakudum"
   ],
   "use-cases": [],
+  "name": "便签便签勾选",
   "tags": [
-    "post-it",
-    "comment",
-    "annotation",
-    "reaction",
-    "memo",
-    "reminder",
-    "todo",
-    "task",
-    "idea",
-    "brainstorm",
-    "document",
-    "page",
-    "paper",
-    "sheet",
-    "stationary",
-    "office",
-    "done",
-    "complete",
-    "success",
-    "check",
-    "verified"
+    "待办",
+    "任务",
+    "表格",
+    "完成",
+    "勾选",
+    "文档",
+    "已验证"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "便签便签勾选",
+    "en": {
+      "name": "sticky note check",
       "tags": [
-        "待办",
-        "任务",
-        "表格",
-        "完成",
-        "勾选",
-        "文档",
-        "已验证"
+        "post-it",
+        "comment",
+        "annotation",
+        "reaction",
+        "memo",
+        "reminder",
+        "todo",
+        "task",
+        "idea",
+        "brainstorm",
+        "document",
+        "page",
+        "paper",
+        "sheet",
+        "stationary",
+        "office",
+        "done",
+        "complete",
+        "success",
+        "check",
+        "verified"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

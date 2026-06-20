@@ -5,25 +5,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "音乐4",
   "tags": [
-    "semiquaver",
-    "sixteenth note",
-    "note"
+    "sixteenth便签",
+    "便签"
   ],
   "categories": [
     "multimedia",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "音乐4",
+    "en": {
+      "name": "music 4",
       "tags": [
-        "sixteenth便签",
-        "便签"
+        "semiquaver",
+        "sixteenth note",
+        "note"
       ],
       "categories": [
-        "多媒体",
-        "文件"
+        "Multimedia",
+        "File icons"
       ]
     }
   }

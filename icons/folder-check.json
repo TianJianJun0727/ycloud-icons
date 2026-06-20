@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文件夹勾选",
   "tags": [
-    "done",
-    "directory",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "待办",
+    "勾选",
+    "任务",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹勾选",
+    "en": {
+      "name": "folder check",
       "tags": [
-        "完成",
-        "待办",
-        "勾选",
-        "任务",
-        "目录"
+        "done",
+        "directory",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

@@ -6,11 +6,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "音量关闭",
   "tags": [
-    "music",
-    "sound",
-    "mute",
-    "speaker"
+    "音乐",
+    "扬声器",
+    "声音"
   ],
   "categories": [
     "connectivity",
@@ -18,17 +18,18 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "音量关闭",
+    "en": {
+      "name": "volume off",
       "tags": [
-        "音乐",
-        "扬声器",
-        "声音"
+        "music",
+        "sound",
+        "mute",
+        "speaker"
       ],
       "categories": [
-        "连接",
-        "沟通",
-        "多媒体"
+        "Connectivity",
+        "Communication",
+        "Multimedia"
       ]
     }
   }

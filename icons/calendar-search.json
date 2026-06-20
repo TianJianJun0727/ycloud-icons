@@ -6,28 +6,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "日历搜索",
   "tags": [
-    "date",
-    "day",
-    "month",
-    "year",
-    "events",
-    "search",
-    "lens"
+    "日期",
+    "搜索",
+    "镜头"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历搜索",
+    "en": {
+      "name": "calendar search",
       "tags": [
-        "日期",
-        "搜索",
-        "镜头"
+        "date",
+        "day",
+        "month",
+        "year",
+        "events",
+        "search",
+        "lens"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

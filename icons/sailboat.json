@@ -5,27 +5,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "帆船",
   "tags": [
-    "ship",
-    "boat",
-    "harbor",
-    "harbour",
-    "dock"
+    "船",
+    "停靠栏"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "帆船",
+    "en": {
+      "name": "sailboat",
       "tags": [
-        "船",
-        "停靠栏"
+        "ship",
+        "boat",
+        "harbor",
+        "harbour",
+        "dock"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

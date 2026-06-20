@@ -6,19 +6,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "眼睛",
   "tags": [
-    "view",
-    "watch",
-    "see",
-    "show",
-    "expose",
-    "reveal",
-    "display",
-    "visible",
-    "visibility",
-    "vision",
-    "preview",
-    "read"
+    "视图",
+    "手表",
+    "查看"
   ],
   "categories": [
     "accessibility",
@@ -27,18 +19,27 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "眼睛",
+    "en": {
+      "name": "eye",
       "tags": [
-        "视图",
-        "手表",
-        "查看"
+        "view",
+        "watch",
+        "see",
+        "show",
+        "expose",
+        "reveal",
+        "display",
+        "visible",
+        "visibility",
+        "vision",
+        "preview",
+        "read"
       ],
       "categories": [
-        "无障碍",
-        "摄影",
-        "设计",
-        "安全"
+        "Accessibility",
+        "Photography",
+        "Design",
+        "Security"
       ]
     }
   }

@@ -5,30 +5,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "步骤前进",
   "tags": [
-    "arrow",
-    "next",
-    "music",
-    "right",
-    "continue"
+    "箭头",
+    "下一个",
+    "音乐",
+    "右",
+    "向右"
   ],
   "categories": [
     "multimedia",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "步骤前进",
+    "en": {
+      "name": "step forward",
       "tags": [
-        "箭头",
-        "下一个",
-        "音乐",
-        "右",
-        "向右"
+        "arrow",
+        "next",
+        "music",
+        "right",
+        "continue"
       ],
       "categories": [
-        "多媒体",
-        "箭头"
+        "Multimedia",
+        "Arrows"
       ]
     }
   }

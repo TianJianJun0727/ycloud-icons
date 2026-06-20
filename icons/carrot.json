@@ -6,22 +6,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "胡萝卜",
   "tags": [
-    "vegetable",
-    "food",
-    "eat"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "胡萝卜",
+    "en": {
+      "name": "carrot",
       "tags": [
-        "食物"
+        "vegetable",
+        "food",
+        "eat"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

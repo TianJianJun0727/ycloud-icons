@@ -5,26 +5,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "圆形美元标志",
   "tags": [
-    "monetization",
-    "marketing",
-    "currency",
-    "money",
-    "payment"
+    "营销",
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形美元标志",
+    "en": {
+      "name": "circle dollar sign",
       "tags": [
-        "营销",
-        "货币",
-        "支付"
+        "monetization",
+        "marketing",
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

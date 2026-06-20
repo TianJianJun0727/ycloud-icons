@@ -5,27 +5,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "投票",
   "tags": [
-    "vote",
-    "poll",
-    "ballot",
-    "political",
-    "social",
-    "check",
-    "tick"
+    "投票",
+    "勾选"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "投票",
+    "en": {
+      "name": "vote",
       "tags": [
-        "投票",
-        "勾选"
+        "vote",
+        "poll",
+        "ballot",
+        "political",
+        "social",
+        "check",
+        "tick"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

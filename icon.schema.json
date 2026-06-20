@@ -13,7 +13,7 @@
   "title": "YCloud Icons icon schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "contributors", "categories", "tags", "use-cases"],
+  "required": ["$schema", "contributors", "name", "categories", "tags", "i18n", "use-cases"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -106,6 +106,10 @@
       "minItems": 1,
       "uniqueItems": true
     },
+    "name": {
+      "type": "string",
+      "description": "The Simplified Chinese display name for this icon."
+    },
     "tags": {
       "type": "array",
       "items": {
@@ -117,10 +121,12 @@
     "i18n": {
       "type": "object",
       "additionalProperties": false,
+      "required": ["en"],
       "properties": {
-        "zh": {
+        "en": {
           "type": "object",
           "additionalProperties": false,
+          "required": ["name", "tags", "categories"],
           "properties": {
             "name": {
               "type": "string"

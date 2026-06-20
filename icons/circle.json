@@ -4,25 +4,26 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "圆形",
   "tags": [
-    "off",
-    "zero",
-    "record",
-    "shape"
+    "关闭",
+    "零",
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形",
+    "en": {
+      "name": "circle",
       "tags": [
-        "关闭",
-        "零",
-        "形状"
+        "off",
+        "zero",
+        "record",
+        "shape"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

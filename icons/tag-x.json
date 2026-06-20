@@ -12,31 +12,32 @@
     "removing a tag from an item",
     "deleting a labeled product or entry"
   ],
+  "name": "标签关闭",
   "tags": [
-    "label",
-    "badge",
-    "ticket",
-    "mark",
-    "x",
-    "delete",
-    "remove"
+    "徽章",
+    "票券",
+    "标记",
+    "关闭",
+    "删除",
+    "移除"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "标签关闭",
+    "en": {
+      "name": "tag X",
       "tags": [
-        "徽章",
-        "票券",
-        "标记",
-        "关闭",
-        "删除",
-        "移除"
+        "label",
+        "badge",
+        "ticket",
+        "mark",
+        "x",
+        "delete",
+        "remove"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

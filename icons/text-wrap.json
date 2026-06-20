@@ -6,11 +6,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文本换行",
   "tags": [
-    "words",
-    "lines",
-    "break",
-    "paragraph"
+    "线条"
   ],
   "categories": [
     "text",
@@ -25,14 +23,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文本换行",
+    "en": {
+      "name": "text wrap",
       "tags": [
-        "线条"
+        "words",
+        "lines",
+        "break",
+        "paragraph"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

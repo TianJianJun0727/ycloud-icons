@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Photography",
+  "title": "摄影",
   "icon": "camera",
   "i18n": {
-    "zh": {
-      "title": "摄影"
+    "en": {
+      "title": "Photography"
     }
   }
 }

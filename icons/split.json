@@ -5,28 +5,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "拆分",
   "tags": [
-    "break",
-    "disband",
-    "divide",
-    "separate",
-    "branch",
-    "disunite"
+    "除号",
+    "分支"
   ],
   "categories": [
     "development",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "拆分",
+    "en": {
+      "name": "split",
       "tags": [
-        "除号",
-        "分支"
+        "break",
+        "disband",
+        "divide",
+        "separate",
+        "branch",
+        "disunite"
       ],
       "categories": [
-        "编码与开发",
-        "箭头"
+        "Coding & development",
+        "Arrows"
       ]
     }
   }

@@ -5,27 +5,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "服务器崩溃",
   "tags": [
-    "cloud",
-    "storage",
-    "problem",
-    "error"
+    "云",
+    "问题",
+    "错误"
   ],
   "categories": [
     "development",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "服务器崩溃",
+    "en": {
+      "name": "server crash",
       "tags": [
-        "云",
-        "问题",
-        "错误"
+        "cloud",
+        "storage",
+        "problem",
+        "error"
       ],
       "categories": [
-        "编码与开发",
-        "设备"
+        "Coding & development",
+        "Devices"
       ]
     }
   }

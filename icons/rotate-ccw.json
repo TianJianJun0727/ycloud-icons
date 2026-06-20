@@ -9,21 +9,19 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "旋转逆时针",
   "tags": [
-    "arrow",
-    "left",
-    "counter-clockwise",
-    "restart",
-    "reload",
-    "rerun",
-    "refresh",
-    "backup",
-    "undo",
-    "replay",
-    "redo",
-    "retry",
-    "rewind",
-    "reverse"
+    "箭头",
+    "左",
+    "counter顺时针",
+    "重启",
+    "刷新",
+    "备份",
+    "撤销",
+    "重做",
+    "快退",
+    "向左",
+    "反向"
   ],
   "categories": [
     "arrows",
@@ -31,25 +29,28 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "旋转逆时针",
+    "en": {
+      "name": "rotate ccw",
       "tags": [
-        "箭头",
-        "左",
-        "counter顺时针",
-        "重启",
-        "刷新",
-        "备份",
-        "撤销",
-        "重做",
-        "快退",
-        "向左",
-        "反向"
+        "arrow",
+        "left",
+        "counter-clockwise",
+        "restart",
+        "reload",
+        "rerun",
+        "refresh",
+        "backup",
+        "undo",
+        "replay",
+        "redo",
+        "retry",
+        "rewind",
+        "reverse"
       ],
       "categories": [
-        "箭头",
-        "设计",
-        "摄影"
+        "Arrows",
+        "Design",
+        "Photography"
       ]
     }
   }

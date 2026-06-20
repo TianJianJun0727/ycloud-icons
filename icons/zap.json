@@ -5,14 +5,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "闪电",
   "tags": [
-    "flash",
-    "camera",
-    "lightning",
-    "electricity",
-    "energy",
-    "power",
-    "quick"
+    "相机",
+    "闪电",
+    "电源",
+    "电力",
+    "能源"
   ],
   "categories": [
     "connectivity",
@@ -21,20 +20,22 @@
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "闪电",
+    "en": {
+      "name": "zap",
       "tags": [
-        "相机",
-        "闪电",
-        "电源",
-        "电力",
-        "能源"
+        "flash",
+        "camera",
+        "lightning",
+        "electricity",
+        "energy",
+        "power",
+        "quick"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "摄影",
-        "天气"
+        "Connectivity",
+        "Devices",
+        "Photography",
+        "Weather"
       ]
     }
   }

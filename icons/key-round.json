@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "钥匙圆形",
   "tags": [
-    "password",
-    "login",
-    "authentication",
-    "secure",
-    "unlock"
+    "钥匙",
+    "权限",
+    "访问"
   ],
   "categories": [
     "security",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "钥匙圆形",
+    "en": {
+      "name": "key round",
       "tags": [
-        "钥匙",
-        "权限",
-        "访问"
+        "password",
+        "login",
+        "authentication",
+        "secure",
+        "unlock"
       ],
       "categories": [
-        "安全",
-        "账号与访问"
+        "Security",
+        "Accounts & access"
       ]
     }
   }

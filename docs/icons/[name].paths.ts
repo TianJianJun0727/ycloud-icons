@@ -21,6 +21,9 @@ export default {
           return {
             name,
             displayName: relatedIcon?.displayName,
+            englishName: relatedIcon?.englishName,
+            englishTags: relatedIcon?.englishTags,
+            englishCategories: relatedIcon?.englishCategories,
             i18n: relatedIcon?.i18n,
             iconNode: iconNodes[name],
           };

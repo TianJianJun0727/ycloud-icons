@@ -6,16 +6,11 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "波浪水平",
   "tags": [
-    "water",
-    "sea",
-    "sound",
-    "hertz",
-    "wavelength",
-    "vibrate",
-    "ocean",
-    "swimming",
-    "frequency"
+    "水",
+    "振动",
+    "声音"
   ],
   "categories": [
     "weather",
@@ -32,18 +27,24 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "波浪水平",
+    "en": {
+      "name": "waves horizontal",
       "tags": [
-        "水",
-        "振动",
-        "声音"
+        "water",
+        "sea",
+        "sound",
+        "hertz",
+        "wavelength",
+        "vibrate",
+        "ocean",
+        "swimming",
+        "frequency"
       ],
       "categories": [
-        "天气",
-        "导航与地点",
-        "多媒体",
-        "可持续"
+        "Weather",
+        "Navigation & Places",
+        "Multimedia",
+        "Sustainability"
       ]
     }
   }

@@ -4,23 +4,24 @@
     "ksk3110"
   ],
   "use-cases": [],
+  "name": "等于约等于",
   "tags": [
-    "about",
-    "calculate",
-    "math",
-    "operater"
+    "计算"
   ],
   "categories": [
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "等于约等于",
+    "en": {
+      "name": "equal approximately",
       "tags": [
-        "计算"
+        "about",
+        "calculate",
+        "math",
+        "operater"
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

@@ -5,15 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "笑脸加号",
   "tags": [
-    "emoji",
-    "face",
-    "happy",
-    "good",
-    "emotion",
-    "react",
-    "reaction",
-    "add"
+    "表情",
+    "情绪",
+    "添加"
   ],
   "categories": [
     "emoji",
@@ -22,18 +18,23 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "笑脸加号",
+    "en": {
+      "name": "smile plus",
       "tags": [
-        "表情",
-        "情绪",
-        "添加"
+        "emoji",
+        "face",
+        "happy",
+        "good",
+        "emotion",
+        "react",
+        "reaction",
+        "add"
       ],
       "categories": [
-        "表情",
-        "社交",
-        "通知",
-        "沟通"
+        "Emoji",
+        "Social",
+        "Notification",
+        "Communication"
       ]
     }
   }

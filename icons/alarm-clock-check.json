@@ -7,12 +7,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "闹钟完成",
   "tags": [
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "devices",
@@ -28,18 +28,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "闹钟完成",
+    "en": {
+      "name": "alarm clock check",
       "tags": [
-        "完成",
-        "待办",
-        "勾选",
-        "任务"
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "设备",
-        "通知",
-        "时间与日历"
+        "Devices",
+        "Notification",
+        "Time & calendar"
       ]
     }
   }

@@ -6,8 +6,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件笔线条",
   "tags": [
-    "edit"
+    "编辑"
   ],
   "categories": [
     "files"
@@ -21,13 +22,13 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件笔线条",
+    "en": {
+      "name": "file pen line",
       "tags": [
-        "编辑"
+        "edit"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

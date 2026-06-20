@@ -5,11 +5,12 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "代码XML",
   "tags": [
-    "source",
-    "programming",
-    "html",
-    "xml"
+    "源码",
+    "编程",
+    "HTML",
+    "XML"
   ],
   "categories": [
     "text",
@@ -24,17 +25,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "代码XML",
+    "en": {
+      "name": "code xml",
       "tags": [
-        "源码",
-        "编程",
-        "HTML",
-        "XML"
+        "source",
+        "programming",
+        "html",
+        "xml"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

@@ -5,34 +5,35 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "置于到正面",
   "tags": [
-    "bring",
-    "send",
-    "move",
-    "over",
-    "forward",
-    "front",
-    "overlap",
-    "layer",
-    "order"
+    "置于",
+    "发送",
+    "移动",
+    "前进",
+    "正面"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "置于到正面",
+    "en": {
+      "name": "bring to front",
       "tags": [
-        "置于",
-        "发送",
-        "移动",
-        "前进",
-        "正面"
+        "bring",
+        "send",
+        "move",
+        "over",
+        "forward",
+        "front",
+        "overlap",
+        "layer",
+        "order"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

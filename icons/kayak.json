@@ -5,33 +5,34 @@
     "jpjacobpadilla"
   ],
   "use-cases": [],
+  "name": "皮划艇",
   "tags": [
-    "kayak",
-    "boat",
-    "paddle",
-    "water",
-    "sport",
-    "recreation",
-    "adventure",
-    "outdoors",
-    "equipment",
-    "lake",
-    "ocean"
+    "皮划艇",
+    "水",
+    "运动",
+    "设备"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "皮划艇",
+    "en": {
+      "name": "kayak",
       "tags": [
-        "皮划艇",
-        "水",
-        "运动",
-        "设备"
+        "kayak",
+        "boat",
+        "paddle",
+        "water",
+        "sport",
+        "recreation",
+        "adventure",
+        "outdoors",
+        "equipment",
+        "lake",
+        "ocean"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

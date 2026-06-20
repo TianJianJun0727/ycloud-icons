@@ -6,29 +6,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "展开",
   "tags": [
-    "scale",
-    "fullscreen",
-    "maximize",
-    "minimize",
-    "contract"
+    "比例尺",
+    "全屏",
+    "最大化",
+    "最小化"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "展开",
+    "en": {
+      "name": "expand",
       "tags": [
-        "比例尺",
-        "全屏",
-        "最大化",
-        "最小化"
+        "scale",
+        "fullscreen",
+        "maximize",
+        "minimize",
+        "contract"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

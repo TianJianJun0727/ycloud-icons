@@ -4,17 +4,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "麦克风人声",
   "tags": [
-    "lyrics",
-    "voice",
-    "listen",
-    "sound",
-    "music",
-    "radio",
-    "podcast",
-    "karaoke",
-    "singing",
-    "microphone"
+    "音乐",
+    "收音机",
+    "播客",
+    "声音"
   ],
   "categories": [
     "devices",
@@ -29,17 +24,23 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "麦克风人声",
+    "en": {
+      "name": "mic vocal",
       "tags": [
-        "音乐",
-        "收音机",
-        "播客",
-        "声音"
+        "lyrics",
+        "voice",
+        "listen",
+        "sound",
+        "music",
+        "radio",
+        "podcast",
+        "karaoke",
+        "singing",
+        "microphone"
       ],
       "categories": [
-        "设备",
-        "多媒体"
+        "Devices",
+        "Multimedia"
       ]
     }
   }

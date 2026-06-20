@@ -8,30 +8,31 @@
     "mosch"
   ],
   "use-cases": [],
+  "name": "圆形淡出箭头上",
   "tags": [
-    "north",
-    "up",
-    "upgrade",
-    "improve",
-    "circle",
-    "button"
+    "上",
+    "升级",
+    "圆形",
+    "向上"
   ],
   "categories": [
     "arrows",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形淡出箭头上",
+    "en": {
+      "name": "circle fading arrow up",
       "tags": [
-        "上",
-        "升级",
-        "圆形",
-        "向上"
+        "north",
+        "up",
+        "upgrade",
+        "improve",
+        "circle",
+        "button"
       ],
       "categories": [
-        "箭头",
-        "编码与开发"
+        "Arrows",
+        "Coding & development"
       ]
     }
   }

@@ -5,26 +5,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "梅花",
   "tags": [
-    "shape",
-    "suit",
-    "playing",
-    "cards"
+    "卡片",
+    "形状"
   ],
   "categories": [
     "shapes",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "梅花",
+    "en": {
+      "name": "club",
       "tags": [
-        "卡片",
-        "形状"
+        "shape",
+        "suit",
+        "playing",
+        "cards"
       ],
       "categories": [
-        "形状",
-        "游戏"
+        "Shapes",
+        "Gaming"
       ]
     }
   }

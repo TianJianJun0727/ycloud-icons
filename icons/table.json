@@ -8,24 +8,25 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "表格",
   "tags": [
-    "spreadsheet",
-    "grid"
+    "电子表格",
+    "网格"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "表格",
+    "en": {
+      "name": "table",
       "tags": [
-        "电子表格",
-        "网格"
+        "spreadsheet",
+        "grid"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

@@ -6,33 +6,34 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方块减去",
   "tags": [
-    "square",
-    "pathfinder",
-    "path",
-    "minus",
-    "subtract",
-    "subtraction",
-    "shape",
-    "front",
-    "vector"
+    "方形",
+    "减少",
+    "减去",
+    "正面",
+    "矢量",
+    "形状"
   ],
   "categories": [
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "方块减去",
+    "en": {
+      "name": "squares subtract",
       "tags": [
-        "方形",
-        "减少",
-        "减去",
-        "正面",
-        "矢量",
-        "形状"
+        "square",
+        "pathfinder",
+        "path",
+        "minus",
+        "subtract",
+        "subtraction",
+        "shape",
+        "front",
+        "vector"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

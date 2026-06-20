@@ -4,30 +4,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "对齐垂直对齐起始",
   "tags": [
-    "top",
-    "items",
-    "flex",
-    "justify",
-    "distribute",
-    "between"
+    "顶部",
+    "项目",
+    "弹性布局",
+    "对齐",
+    "分布",
+    "两端"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "对齐垂直对齐起始",
+    "en": {
+      "name": "align vertical justify start",
       "tags": [
-        "顶部",
-        "项目",
-        "弹性布局",
-        "对齐",
-        "分布",
-        "两端"
+        "top",
+        "items",
+        "flex",
+        "justify",
+        "distribute",
+        "between"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

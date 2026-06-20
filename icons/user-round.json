@@ -4,10 +4,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "用户圆形",
   "tags": [
-    "person",
-    "account",
-    "contact"
+    "人员",
+    "账号",
+    "联系人"
   ],
   "categories": [
     "account"
@@ -21,15 +22,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "用户圆形",
+    "en": {
+      "name": "user round",
       "tags": [
-        "人员",
-        "账号",
-        "联系人"
+        "person",
+        "account",
+        "contact"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

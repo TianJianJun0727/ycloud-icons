@@ -4,25 +4,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "双筒望远镜",
   "tags": [
-    "field glasses",
-    "lorgnette",
-    "pince-nez",
-    "observation",
-    "sightseeing",
-    "nature",
-    "wildlife",
-    "birdwatching",
-    "scouting",
-    "surveillance",
-    "search",
-    "discovery",
-    "monitoring",
-    "lookout",
-    "viewpoint",
-    "travel",
-    "tourism",
-    "research"
+    "field眼镜",
+    "搜索",
+    "旅行",
+    "自然",
+    "研究"
   ],
   "categories": [
     "navigation",
@@ -33,22 +21,35 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "双筒望远镜",
+    "en": {
+      "name": "binoculars",
       "tags": [
-        "field眼镜",
-        "搜索",
-        "旅行",
-        "自然",
-        "研究"
+        "field glasses",
+        "lorgnette",
+        "pince-nez",
+        "observation",
+        "sightseeing",
+        "nature",
+        "wildlife",
+        "birdwatching",
+        "scouting",
+        "surveillance",
+        "search",
+        "discovery",
+        "monitoring",
+        "lookout",
+        "viewpoint",
+        "travel",
+        "tourism",
+        "research"
       ],
       "categories": [
-        "导航与地点",
-        "自然",
-        "摄影",
-        "科学",
-        "旅行",
-        "编码与开发"
+        "Navigation & Places",
+        "Nature",
+        "Photography",
+        "Science",
+        "Travel",
+        "Coding & development"
       ]
     }
   }

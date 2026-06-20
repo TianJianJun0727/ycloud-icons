@@ -6,12 +6,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形箭头右退出",
   "tags": [
-    "out",
-    "outside",
-    "output",
-    "export",
-    "->"
+    "外部",
+    "输出"
   ],
   "categories": [
     "arrows",
@@ -20,17 +18,20 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头右退出",
+    "en": {
+      "name": "square arrow right exit",
       "tags": [
-        "外部",
-        "输出"
+        "out",
+        "outside",
+        "output",
+        "export",
+        "->"
       ],
       "categories": [
-        "箭头",
-        "形状",
-        "布局",
-        "多媒体"
+        "Arrows",
+        "Shapes",
+        "Layout",
+        "Multimedia"
       ]
     }
   }

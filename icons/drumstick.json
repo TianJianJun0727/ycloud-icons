@@ -7,22 +7,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "鼓槌",
   "tags": [
-    "food",
-    "chicken",
-    "meat"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼓槌",
+    "en": {
+      "name": "drumstick",
       "tags": [
-        "食物"
+        "food",
+        "chicken",
+        "meat"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

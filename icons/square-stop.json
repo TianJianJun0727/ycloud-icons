@@ -6,21 +6,22 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方形停止",
   "tags": [
-    "media",
-    "music"
+    "音乐"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形停止",
+    "en": {
+      "name": "square stop",
       "tags": [
-        "音乐"
+        "media",
+        "music"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

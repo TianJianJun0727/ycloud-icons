@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "框架",
   "tags": [
-    "logo",
-    "design",
-    "tool"
+    "设计",
+    "工具",
+    "标志"
   ],
   "categories": [
     "design",
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "框架",
+    "en": {
+      "name": "frame",
       "tags": [
-        "设计",
-        "工具",
-        "标志"
+        "logo",
+        "design",
+        "tool"
       ],
       "categories": [
-        "设计",
-        "摄影"
+        "Design",
+        "Photography"
       ]
     }
   }

@@ -4,19 +4,16 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "折角箭头右",
   "tags": [
-    "forward",
-    "next",
-    "more than",
-    "greater",
-    "menu",
-    "code",
-    "coding",
-    "command line",
-    "terminal",
-    "prompt",
-    "shell",
-    ">"
+    "前进",
+    "下一个",
+    "更多than",
+    "菜单",
+    "代码",
+    "命令线条",
+    "终端",
+    "外壳"
   ],
   "categories": [
     "arrows",
@@ -24,22 +21,26 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "折角箭头右",
+    "en": {
+      "name": "chevron right",
       "tags": [
-        "前进",
-        "下一个",
-        "更多than",
-        "菜单",
-        "代码",
-        "命令线条",
-        "终端",
-        "外壳"
+        "forward",
+        "next",
+        "more than",
+        "greater",
+        "menu",
+        "code",
+        "coding",
+        "command line",
+        "terminal",
+        "prompt",
+        "shell",
+        ">"
       ],
       "categories": [
-        "箭头",
-        "数学",
-        "编码与开发"
+        "Arrows",
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

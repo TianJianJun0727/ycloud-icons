@@ -39,7 +39,7 @@ import {
   bookmark,
   tag,
   sparkles,
-} from '../../../data/iconNodes';
+} from '@data/iconNodes';
 import createElement from '@ycloud-web/icons/src/createElement';
 import { IconNode } from '@ycloud-web/icons';
 

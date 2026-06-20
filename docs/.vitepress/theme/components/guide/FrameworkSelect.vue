@@ -1,11 +1,11 @@
 <script setup lang="tsx">
 import VPSidebarGroup from 'vitepress/dist/client/theme-default/components/VPSidebarGroup.vue';
-import sidebar, { guideSidebarTop } from '../../../sidebar';
+import { createGuideSidebarTop, type DocsLocale } from '~/.vitepress/sidebar';
 import { useData, useRoute, useRouter } from 'vitepress';
 import Select from '../base/Select.vue';
 import { computed } from 'vue';
 import { useLocalStorage } from '@vueuse/core';
-import { resolveRoutePath } from '../../utils/navigation';
+import { resolveRoutePath } from '@theme/utils/navigation';
 
 type FrameworkItem = {
   name: string;
@@ -42,12 +42,24 @@ const frameworks: FrameworkItem[] = [
 
 const fallbackFramework = useLocalStorage('ycloud-docs-fallback-framework', frameworks[1]);
 
+const currentLocale = computed<DocsLocale>(() =>
+  page.value.relativePath?.startsWith?.('en/') ? 'en' : 'zh',
+);
+
+const currentLocalePrefix = computed(() => (currentLocale.value === 'en' ? '/en' : ''));
+
+const currentGuideSidebarTop = computed(() => createGuideSidebarTop(currentLocale.value));
+
 function normalizeRelativePath(relativePath: string) {
-  return `/${relativePath.replace(/\/index\.md$/, '/').replace(/\.md$/, '')}`;
+  const normalized = `/${relativePath.replace(/\/index\.md$/, '/').replace(/\.md$/, '')}`;
+  return normalized.replace(/^\/en(?=\/|$)/, '');
 }
 
 const normalizedPath = computed(() => {
-  if (page.value.relativePath?.startsWith?.('guide/')) {
+  if (
+    page.value.relativePath?.startsWith?.('guide/') ||
+    page.value.relativePath?.startsWith?.('en/guide/')
+  ) {
     return normalizeRelativePath(page.value.relativePath);
   }
 
@@ -81,33 +93,41 @@ const selected = computed<FrameworkItem>({
   },
 });
 
+const isFrameworkGuidePage = computed(() =>
+  frameworks.some(({ value }) => normalizedPath.value.startsWith(value)),
+);
+
+const isGuidePage = computed(() => normalizedPath.value === '/guide/' || normalizedPath.value.startsWith('/guide/'));
+
 function onSelectFramework(item: FrameworkItem) {
   fallbackFramework.value = item;
   if (item.value !== normalizedPath.value) {
     const likeRoute = normalizedPath.value.replace(selected.value.value, item.value);
+    const localizedLikeRoute = `${currentLocalePrefix.value}${likeRoute}`;
+    const localizedFallbackRoute = `${currentLocalePrefix.value}${item.value}`;
 
-    const hasRoute = findSidebarLink(sidebar[item.value] as unknown[] | undefined, likeRoute);
+    const hasRoute = findSidebarLink(site.value.themeConfig.sidebar?.[localizedFallbackRoute], localizedLikeRoute);
 
     if (hasRoute) {
-      router.go(resolveRoutePath(likeRoute));
+      router.go(resolveRoutePath(localizedLikeRoute));
       return;
     }
 
-    router.go(resolveRoutePath(item.value));
+    router.go(resolveRoutePath(localizedFallbackRoute));
   }
 }
 </script>
 
 <template>
   <VPSidebarGroup
-    :items="guideSidebarTop"
-    v-if="page?.relativePath?.startsWith?.('guide')"
+    :items="currentGuideSidebarTop"
+    v-if="isFrameworkGuidePage"
   />
   <div
     class="framework-select"
-    v-if="page?.relativePath?.startsWith?.('guide')"
+    v-if="isGuidePage"
   >
-    <label for="framework-select">框架</label>
+    <label for="framework-select">{{ currentLocale === 'zh' ? '框架' : 'Framework' }}</label>
     <Select
       id="framework-select"
       :key="selected.value"
@@ -118,11 +138,8 @@ function onSelectFramework(item: FrameworkItem) {
   </div>
   <VPSidebarGroup
     :key="selected.value"
-    v-if="
-      page?.relativePath?.startsWith?.('guide') &&
-      !page?.relativePath?.startsWith?.(selected.value.substring(1))
-    "
-    :items="sidebar[selected.value]"
+    v-if="isGuidePage && !isFrameworkGuidePage"
+    :items="site.themeConfig.sidebar?.[`${currentLocalePrefix}${selected.value}`]"
   />
 </template>
 

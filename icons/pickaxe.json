@@ -4,34 +4,35 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "镐",
   "tags": [
-    "mining",
-    "mine",
-    "land worker",
-    "extraction",
-    "labor",
-    "construction",
-    "progress",
-    "advancement",
-    "crafting",
-    "building",
-    "creation"
+    "土地worker",
+    "施工",
+    "建筑"
   ],
   "categories": [
     "tools",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "镐",
+    "en": {
+      "name": "pickaxe",
       "tags": [
-        "土地worker",
-        "施工",
-        "建筑"
+        "mining",
+        "mine",
+        "land worker",
+        "extraction",
+        "labor",
+        "construction",
+        "progress",
+        "advancement",
+        "crafting",
+        "building",
+        "creation"
       ],
       "categories": [
-        "工具",
-        "游戏"
+        "Tools",
+        "Gaming"
       ]
     }
   }

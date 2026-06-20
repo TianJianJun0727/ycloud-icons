@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板底部关闭",
   "tags": [
-    "drawer",
-    "dock",
-    "hide",
-    "chevron",
-    "down"
+    "停靠栏",
+    "折角箭头",
+    "下",
+    "抽屉",
+    "向下"
   ],
   "categories": [
     "layout",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板底部关闭",
+    "en": {
+      "name": "panel bottom close",
       "tags": [
-        "停靠栏",
-        "折角箭头",
-        "下",
-        "抽屉",
-        "向下"
+        "drawer",
+        "dock",
+        "hide",
+        "chevron",
+        "down"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

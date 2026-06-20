@@ -5,21 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "看板",
   "tags": [
-    "projects",
-    "manage",
-    "overview",
-    "board",
-    "tickets",
-    "issues",
-    "roadmap",
-    "plan",
-    "intentions",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding"
+    "面板",
+    "票券",
+    "代码",
+    "电路板"
   ],
   "categories": [
     "charts",
@@ -27,18 +18,28 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "看板",
+    "en": {
+      "name": "kanban",
       "tags": [
-        "面板",
-        "票券",
-        "代码",
-        "电路板"
+        "projects",
+        "manage",
+        "overview",
+        "board",
+        "tickets",
+        "issues",
+        "roadmap",
+        "plan",
+        "intentions",
+        "productivity",
+        "work",
+        "agile",
+        "code",
+        "coding"
       ],
       "categories": [
-        "图表",
-        "编码与开发",
-        "设计"
+        "Charts",
+        "Coding & development",
+        "Design"
       ]
     }
   }

@@ -4,14 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "图库垂直",
   "tags": [
-    "carousel",
-    "pictures",
-    "images",
-    "scroll",
-    "swipe",
-    "album",
-    "portfolio"
+    "图片",
+    "滚动",
+    "相册"
   ],
   "categories": [
     "layout",
@@ -21,19 +18,23 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "图库垂直",
+    "en": {
+      "name": "gallery vertical",
       "tags": [
-        "图片",
-        "滚动",
-        "相册"
+        "carousel",
+        "pictures",
+        "images",
+        "scroll",
+        "swipe",
+        "album",
+        "portfolio"
       ],
       "categories": [
-        "布局",
-        "设计",
-        "编码与开发",
-        "摄影",
-        "多媒体"
+        "Layout",
+        "Design",
+        "Coding & development",
+        "Photography",
+        "Multimedia"
       ]
     }
   }

@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "手金属",
   "tags": [
-    "rock"
+    "手势",
+    "摇滚",
+    "手掌"
   ],
   "categories": [
     "emoji",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "手金属",
+    "en": {
+      "name": "hand metal",
       "tags": [
-        "手势",
-        "摇滚",
-        "手掌"
+        "rock"
       ],
       "categories": [
-        "表情",
-        "多媒体"
+        "Emoji",
+        "Multimedia"
       ]
     }
   }

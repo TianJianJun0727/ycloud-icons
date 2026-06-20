@@ -4,13 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形菜单",
   "tags": [
-    "bars",
-    "navigation",
-    "hamburger",
-    "options",
-    "menu bar",
-    "panel"
+    "导航",
+    "汉堡",
+    "菜单条形",
+    "面板"
   ],
   "categories": [
     "layout"
@@ -24,16 +23,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形菜单",
+    "en": {
+      "name": "square menu",
       "tags": [
-        "导航",
-        "汉堡",
-        "菜单条形",
-        "面板"
+        "bars",
+        "navigation",
+        "hamburger",
+        "options",
+        "menu bar",
+        "panel"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

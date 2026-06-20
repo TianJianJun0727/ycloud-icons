@@ -5,10 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形暂停",
   "tags": [
-    "music",
-    "audio",
-    "stop"
+    "音乐",
+    "音频",
+    "停止"
   ],
   "categories": [
     "multimedia"
@@ -22,15 +23,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形暂停",
+    "en": {
+      "name": "circle pause",
       "tags": [
-        "音乐",
-        "音频",
-        "停止"
+        "music",
+        "audio",
+        "stop"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

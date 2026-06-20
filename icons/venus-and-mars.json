@@ -4,24 +4,25 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "金星与火星",
   "tags": [
-    "gender",
-    "sex",
-    "intersex",
-    "androgynous",
-    "hermaphrodite"
+    "性别"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "金星与火星",
+    "en": {
+      "name": "venus and mars",
       "tags": [
-        "性别"
+        "gender",
+        "sex",
+        "intersex",
+        "androgynous",
+        "hermaphrodite"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

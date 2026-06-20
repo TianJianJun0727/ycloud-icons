@@ -5,12 +5,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "星标",
   "tags": [
-    "bookmark",
-    "favorite",
-    "like",
-    "review",
-    "rating"
+    "书签"
   ],
   "categories": [
     "account",
@@ -22,19 +19,23 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "星标",
+    "en": {
+      "name": "star",
       "tags": [
-        "书签"
+        "bookmark",
+        "favorite",
+        "like",
+        "review",
+        "rating"
       ],
       "categories": [
-        "账号与访问",
-        "社交",
-        "形状",
-        "多媒体",
-        "天气",
-        "表情",
-        "游戏"
+        "Accounts & access",
+        "Social",
+        "Shapes",
+        "Multimedia",
+        "Weather",
+        "Emoji",
+        "Gaming"
       ]
     }
   }

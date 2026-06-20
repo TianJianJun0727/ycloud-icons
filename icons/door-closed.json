@@ -4,15 +4,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "门关闭",
   "tags": [
-    "entrance",
-    "entry",
-    "exit",
-    "ingress",
-    "egress",
-    "gate",
-    "gateway",
-    "emergency exit"
+    "退出",
+    "emergency退出"
   ],
   "categories": [
     "home",
@@ -20,16 +15,22 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "门关闭",
+    "en": {
+      "name": "door closed",
       "tags": [
-        "退出",
-        "emergency退出"
+        "entrance",
+        "entry",
+        "exit",
+        "ingress",
+        "egress",
+        "gate",
+        "gateway",
+        "emergency exit"
       ],
       "categories": [
-        "家居",
-        "旅行",
-        "安全"
+        "Home",
+        "Travel",
+        "Security"
       ]
     }
   }

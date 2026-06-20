@@ -7,17 +7,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "地球锁定",
   "tags": [
-    "vpn",
-    "private",
-    "privacy",
-    "network",
-    "world",
-    "browser",
-    "security",
-    "encryption",
-    "protection",
-    "connection"
+    "网络",
+    "安全",
+    "连接"
   ],
   "categories": [
     "security",
@@ -25,17 +19,24 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "地球锁定",
+    "en": {
+      "name": "globe lock",
       "tags": [
-        "网络",
-        "安全",
-        "连接"
+        "vpn",
+        "private",
+        "privacy",
+        "network",
+        "world",
+        "browser",
+        "security",
+        "encryption",
+        "protection",
+        "connection"
       ],
       "categories": [
-        "安全",
-        "编码与开发",
-        "设备"
+        "Security",
+        "Coding & development",
+        "Devices"
       ]
     }
   }

@@ -4,12 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形折角箭头右",
   "tags": [
-    "back",
-    "more than",
-    "greater",
-    "menu",
-    ">"
+    "返回",
+    "更多than",
+    "菜单"
   ],
   "categories": [
     "arrows"
@@ -23,15 +22,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形折角箭头右",
+    "en": {
+      "name": "circle chevron right",
       "tags": [
-        "返回",
-        "更多than",
-        "菜单"
+        "back",
+        "more than",
+        "greater",
+        "menu",
+        ">"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

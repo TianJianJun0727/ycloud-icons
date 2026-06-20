@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件音量",
   "tags": [
-    "audio",
-    "music",
-    "volume"
+    "音频",
+    "音乐",
+    "音量"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件音量",
+    "en": {
+      "name": "file volume",
       "tags": [
-        "音频",
-        "音乐",
-        "音量"
+        "audio",
+        "music",
+        "volume"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

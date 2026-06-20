@@ -4,39 +4,40 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "记事本文本虚线",
   "tags": [
-    "notebook",
-    "notes",
-    "pages",
-    "paper",
-    "stationery",
-    "diary",
-    "journal",
-    "writing",
-    "write",
-    "written",
-    "draft",
-    "template",
-    "lines"
+    "笔记本",
+    "便签",
+    "草稿",
+    "模板",
+    "线条",
+    "文具"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "记事本文本虚线",
+    "en": {
+      "name": "notepad text dashed",
       "tags": [
-        "笔记本",
-        "便签",
-        "草稿",
-        "模板",
-        "线条",
-        "文具"
+        "notebook",
+        "notes",
+        "pages",
+        "paper",
+        "stationery",
+        "diary",
+        "journal",
+        "writing",
+        "write",
+        "written",
+        "draft",
+        "template",
+        "lines"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

@@ -4,25 +4,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "足迹",
   "tags": [
-    "steps",
-    "walking",
-    "foot",
-    "feet",
-    "trail",
-    "shoe"
+    "鞋"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "足迹",
+    "en": {
+      "name": "footprints",
       "tags": [
-        "鞋"
+        "steps",
+        "walking",
+        "foot",
+        "feet",
+        "trail",
+        "shoe"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

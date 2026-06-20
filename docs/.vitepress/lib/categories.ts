@@ -16,7 +16,7 @@ export function getAllCategoryFiles(): Category[] {
     return {
       name,
       title: parsedFileContent.title,
-      displayTitle: parsedFileContent.i18n?.zh?.title,
+      englishTitle: parsedFileContent.i18n.en.title,
     };
   });
 }

@@ -1,12 +1,24 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress';
-import { PackageItem } from '../../types';
+import { PackageItem } from '@theme/types';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
 import Card from '../base/Card.vue';
+import { computed } from 'vue';
 
 const props = defineProps<{
-  packageData: PackageItem;
+  packageData: PackageItem & { descriptionEn?: string };
+  isEnglish?: boolean;
 }>();
+
+const documentationLink = computed(() => {
+  if (!props.isEnglish || !props.packageData.documentation?.startsWith('/')) {
+    return props.packageData.documentation;
+  }
+
+  return props.packageData.documentation.startsWith('/en/')
+    ? props.packageData.documentation
+    : `/en${props.packageData.documentation}`;
+});
 </script>
 
 <template>
@@ -44,17 +56,17 @@ const props = defineProps<{
         </div>
       </header>
       <div class="package-details">
-        {{ packageData.description }}
+        {{ isEnglish ? packageData.descriptionEn : packageData.description }}
       </div>
       <footer class="package-footer">
         <VPButton
-          :href="packageData.documentation"
-          text="指南"
+          :href="documentationLink"
+          :text="isEnglish ? 'Guide' : '指南'"
           theme="brand"
         />
         <VPButton
           :href="packageData.source"
-          text="源码"
+          :text="isEnglish ? 'Source' : '源码'"
           theme="alt"
         />
         <VPButton

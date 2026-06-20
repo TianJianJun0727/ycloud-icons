@@ -8,35 +8,36 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "用户钥匙",
   "tags": [
-    "passkey",
-    "password",
-    "login",
-    "authentication",
-    "authorization",
-    "roles",
-    "permissions",
-    "private",
-    "public",
-    "security",
-    "person",
-    "account",
-    "contact"
+    "安全",
+    "人员",
+    "账号",
+    "联系人"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户钥匙",
+    "en": {
+      "name": "user key",
       "tags": [
-        "安全",
-        "人员",
-        "账号",
-        "联系人"
+        "passkey",
+        "password",
+        "login",
+        "authentication",
+        "authorization",
+        "roles",
+        "permissions",
+        "private",
+        "public",
+        "security",
+        "person",
+        "account",
+        "contact"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

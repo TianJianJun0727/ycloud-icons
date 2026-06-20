@@ -7,45 +7,46 @@
     "Barakudum"
   ],
   "use-cases": [],
+  "name": "便签便签关闭",
   "tags": [
-    "post-it",
-    "comment",
-    "annotation",
-    "reaction",
-    "memo",
-    "reminder",
-    "todo",
-    "task",
-    "idea",
-    "brainstorm",
-    "document",
-    "page",
-    "paper",
-    "sheet",
-    "stationary",
-    "office",
-    "disabled",
-    "hidden",
-    "mute",
-    "inactive"
+    "待办",
+    "任务",
+    "表格",
+    "文档",
+    "禁用"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "便签便签关闭",
+    "en": {
+      "name": "sticky note off",
       "tags": [
-        "待办",
-        "任务",
-        "表格",
-        "文档",
-        "禁用"
+        "post-it",
+        "comment",
+        "annotation",
+        "reaction",
+        "memo",
+        "reminder",
+        "todo",
+        "task",
+        "idea",
+        "brainstorm",
+        "document",
+        "page",
+        "paper",
+        "sheet",
+        "stationary",
+        "office",
+        "disabled",
+        "hidden",
+        "mute",
+        "inactive"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

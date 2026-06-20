@@ -6,25 +6,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "无线网络",
   "tags": [
-    "connection",
-    "signal",
-    "wireless"
+    "连接",
+    "信号"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络",
+    "en": {
+      "name": "wifi",
       "tags": [
-        "连接",
-        "信号"
+        "connection",
+        "signal",
+        "wireless"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

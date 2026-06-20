@@ -5,24 +5,25 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件盒",
   "tags": [
-    "box",
-    "package",
-    "model"
+    "盒子",
+    "包",
+    "包裹"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件盒",
+    "en": {
+      "name": "file box",
       "tags": [
-        "盒子",
-        "包",
-        "包裹"
+        "box",
+        "package",
+        "model"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

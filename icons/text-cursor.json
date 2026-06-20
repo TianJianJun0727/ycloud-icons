@@ -4,34 +4,35 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文本光标",
   "tags": [
-    "select",
-    "caret",
-    "type",
-    "typing",
-    "write",
-    "writing",
-    "edit",
-    "insert",
-    "input",
-    "textarea"
+    "选择",
+    "文字",
+    "编辑",
+    "输入"
   ],
   "categories": [
     "text",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "文本光标",
+    "en": {
+      "name": "text cursor",
       "tags": [
-        "选择",
-        "文字",
-        "编辑",
-        "输入"
+        "select",
+        "caret",
+        "type",
+        "typing",
+        "write",
+        "writing",
+        "edit",
+        "insert",
+        "input",
+        "textarea"
       ],
       "categories": [
-        "文本格式",
-        "光标"
+        "Text formatting",
+        "Cursors"
       ]
     }
   }

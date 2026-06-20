@@ -6,32 +6,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "肥皂分配器水滴",
   "tags": [
-    "wash",
-    "bath",
-    "water",
-    "liquid",
-    "fluid",
-    "wet",
-    "moisture",
-    "damp",
-    "bead",
-    "globule"
+    "浴缸",
+    "水"
   ],
   "categories": [
     "home",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "肥皂分配器水滴",
+    "en": {
+      "name": "soap dispenser droplet",
       "tags": [
-        "浴缸",
-        "水"
+        "wash",
+        "bath",
+        "water",
+        "liquid",
+        "fluid",
+        "wet",
+        "moisture",
+        "damp",
+        "bead",
+        "globule"
       ],
       "categories": [
-        "家居",
-        "旅行"
+        "Home",
+        "Travel"
       ]
     }
   }

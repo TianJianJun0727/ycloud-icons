@@ -4,28 +4,29 @@
     "nathan-de-pachtere"
   ],
   "use-cases": [],
+  "name": "重量波浪号",
   "tags": [
-    "measure",
-    "scale",
-    "estimate",
-    "load",
-    "balance",
-    "size",
-    "measurement",
-    "quantity",
-    "mass"
+    "比例尺"
   ],
   "categories": [
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "重量波浪号",
+    "en": {
+      "name": "weight tilde",
       "tags": [
-        "比例尺"
+        "measure",
+        "scale",
+        "estimate",
+        "load",
+        "balance",
+        "size",
+        "measurement",
+        "quantity",
+        "mass"
       ],
       "categories": [
-        "数学"
+        "Mathematics"
       ]
     }
   }

@@ -6,26 +6,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "菜单",
   "tags": [
-    "bars",
-    "navigation",
-    "hamburger",
-    "options"
+    "导航",
+    "汉堡"
   ],
   "categories": [
     "layout",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "菜单",
+    "en": {
+      "name": "menu",
       "tags": [
-        "导航",
-        "汉堡"
+        "bars",
+        "navigation",
+        "hamburger",
+        "options"
       ],
       "categories": [
-        "布局",
-        "账号与访问"
+        "Layout",
+        "Accounts & access"
       ]
     }
   }

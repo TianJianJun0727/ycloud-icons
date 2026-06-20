@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Arrows",
+  "title": "箭头",
   "icon": "arrow-left-right",
   "i18n": {
-    "zh": {
-      "title": "箭头"
+    "en": {
+      "title": "Arrows"
     }
   }
 }

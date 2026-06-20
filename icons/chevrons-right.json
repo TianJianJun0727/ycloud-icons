@@ -4,23 +4,24 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "双折角箭头右",
   "tags": [
-    "turn",
-    "corner"
+    "角落"
   ],
   "categories": [
     "arrows",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "双折角箭头右",
+    "en": {
+      "name": "chevrons right",
       "tags": [
-        "角落"
+        "turn",
+        "corner"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

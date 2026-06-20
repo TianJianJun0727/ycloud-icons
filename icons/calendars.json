@@ -7,27 +7,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "日历",
   "tags": [
-    "date",
-    "month",
-    "year",
-    "event",
-    "dates",
-    "months",
-    "years",
-    "events"
+    "日期"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "日历",
+    "en": {
+      "name": "calendars",
       "tags": [
-        "日期"
+        "date",
+        "month",
+        "year",
+        "event",
+        "dates",
+        "months",
+        "years",
+        "events"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

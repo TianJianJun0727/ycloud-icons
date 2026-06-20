@@ -6,36 +6,37 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "绷带",
   "tags": [
-    "plaster",
-    "band-aid",
-    "first aid",
-    "medical",
-    "health",
-    "wound",
-    "injury",
-    "care",
-    "treatment",
-    "healing",
-    "protection",
-    "emergency",
-    "aid",
-    "safety",
-    "patch"
+    "第一个aid",
+    "医疗",
+    "健康"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "绷带",
+    "en": {
+      "name": "bandage",
       "tags": [
-        "第一个aid",
-        "医疗",
-        "健康"
+        "plaster",
+        "band-aid",
+        "first aid",
+        "medical",
+        "health",
+        "wound",
+        "injury",
+        "care",
+        "treatment",
+        "healing",
+        "protection",
+        "emergency",
+        "aid",
+        "safety",
+        "patch"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

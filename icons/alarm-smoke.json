@@ -6,15 +6,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "闹钟烟雾",
   "tags": [
-    "fire",
-    "alert",
-    "warning",
-    "detector",
-    "carbon monoxide",
-    "safety",
-    "equipment",
-    "amenities"
+    "火焰",
+    "告警",
+    "警告",
+    "设备"
   ],
   "categories": [
     "home",
@@ -22,18 +19,22 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "闹钟烟雾",
+    "en": {
+      "name": "alarm smoke",
       "tags": [
-        "火焰",
-        "告警",
-        "警告",
-        "设备"
+        "fire",
+        "alert",
+        "warning",
+        "detector",
+        "carbon monoxide",
+        "safety",
+        "equipment",
+        "amenities"
       ],
       "categories": [
-        "家居",
-        "设备",
-        "旅行"
+        "Home",
+        "Devices",
+        "Travel"
       ]
     }
   }

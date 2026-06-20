@@ -5,45 +5,46 @@
     "nathan-de-pachtere"
   ],
   "use-cases": [],
+  "name": "圆形堆",
   "tags": [
-    "off",
-    "zero",
-    "record",
-    "shape",
-    "circle-pile",
-    "circle",
-    "pile",
-    "stack",
-    "layer",
-    "structure",
-    "form",
-    "group",
-    "collection",
-    "stock",
-    "inventory",
-    "materials",
-    "warehouse"
+    "关闭",
+    "零",
+    "圆形堆",
+    "圆形",
+    "堆",
+    "堆叠",
+    "表单",
+    "组合",
+    "仓库",
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形堆",
+    "en": {
+      "name": "circle pile",
       "tags": [
-        "关闭",
-        "零",
-        "圆形堆",
-        "圆形",
-        "堆",
-        "堆叠",
-        "表单",
-        "组合",
-        "仓库",
-        "形状"
+        "off",
+        "zero",
+        "record",
+        "shape",
+        "circle-pile",
+        "circle",
+        "pile",
+        "stack",
+        "layer",
+        "structure",
+        "form",
+        "group",
+        "collection",
+        "stock",
+        "inventory",
+        "materials",
+        "warehouse"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

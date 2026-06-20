@@ -4,18 +4,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "保险库",
   "tags": [
-    "safe",
-    "lockbox",
-    "deposit",
-    "locker",
-    "coffer",
-    "strongbox",
-    "safety",
-    "secure",
-    "storage",
-    "valuables",
-    "bank"
+    "银行"
   ],
   "categories": [
     "security",
@@ -23,15 +14,25 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "保险库",
+    "en": {
+      "name": "vault",
       "tags": [
-        "银行"
+        "safe",
+        "lockbox",
+        "deposit",
+        "locker",
+        "coffer",
+        "strongbox",
+        "safety",
+        "secure",
+        "storage",
+        "valuables",
+        "bank"
       ],
       "categories": [
-        "安全",
-        "旅行",
-        "家居"
+        "Security",
+        "Travel",
+        "Home"
       ]
     }
   }

@@ -1180,7 +1180,7 @@ export function localizeIconTags(tags: string[] = [], zhTags?: string[]) {
 
   const localizedTags = tags.map((tag) => tagMap[tag]).filter((tag): tag is string => Boolean(tag));
 
-  return localizedTags.length ? localizedTags : tags;
+  return localizedTags;
 }
 
 export function localizeIconCategories(categories: string[] = [], zhCategories?: string[]) {

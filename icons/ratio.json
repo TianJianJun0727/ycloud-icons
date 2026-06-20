@@ -4,26 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "比例",
   "tags": [
-    "screens",
-    "sizes",
-    "rotate",
-    "rotation",
-    "adjust",
-    "aspect ratio",
-    "proportions",
-    "16:9",
-    "widescreen",
-    "4:3",
-    "resolution",
-    "responsive",
-    "mobile",
-    "desktop",
-    "dimensions",
-    "monitor",
-    "orientation",
-    "portrait",
-    "landscape"
+    "旋转",
+    "aspect比例",
+    "比例",
+    "显示器"
   ],
   "categories": [
     "layout",
@@ -31,18 +17,33 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "比例",
+    "en": {
+      "name": "ratio",
       "tags": [
-        "旋转",
-        "aspect比例",
-        "比例",
-        "显示器"
+        "screens",
+        "sizes",
+        "rotate",
+        "rotation",
+        "adjust",
+        "aspect ratio",
+        "proportions",
+        "16:9",
+        "widescreen",
+        "4:3",
+        "resolution",
+        "responsive",
+        "mobile",
+        "desktop",
+        "dimensions",
+        "monitor",
+        "orientation",
+        "portrait",
+        "landscape"
       ],
       "categories": [
-        "布局",
-        "设计",
-        "摄影"
+        "Layout",
+        "Design",
+        "Photography"
       ]
     }
   }

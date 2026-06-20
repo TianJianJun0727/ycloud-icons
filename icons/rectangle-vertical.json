@@ -8,29 +8,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "矩形垂直",
   "tags": [
-    "rectangle",
-    "aspect ratio",
-    "9:16",
-    "vertical",
-    "shape"
+    "矩形",
+    "aspect比例",
+    "垂直",
+    "形状"
   ],
   "categories": [
     "shapes",
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "矩形垂直",
+    "en": {
+      "name": "rectangle vertical",
       "tags": [
-        "矩形",
-        "aspect比例",
-        "垂直",
-        "形状"
+        "rectangle",
+        "aspect ratio",
+        "9:16",
+        "vertical",
+        "shape"
       ],
       "categories": [
-        "形状",
-        "设计"
+        "Shapes",
+        "Design"
       ]
     }
   }

@@ -5,11 +5,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件钥匙",
   "tags": [
-    "key",
-    "private",
-    "public",
-    "security"
+    "钥匙",
+    "安全"
   ],
   "categories": [
     "files",
@@ -24,15 +23,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件钥匙",
+    "en": {
+      "name": "file key",
       "tags": [
-        "钥匙",
-        "安全"
+        "key",
+        "private",
+        "public",
+        "security"
       ],
       "categories": [
-        "文件",
-        "安全"
+        "File icons",
+        "Security"
       ]
     }
   }

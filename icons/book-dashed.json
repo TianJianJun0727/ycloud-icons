@@ -5,22 +5,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "书籍虚线",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "template",
-    "draft",
-    "script",
-    "screenplay",
-    "writing",
-    "writer",
-    "author",
-    "unwritten",
-    "unpublished",
-    "untold"
+    "代码",
+    "version控制",
+    "模板",
+    "草稿"
   ],
   "categories": [
     "development"
@@ -34,16 +24,27 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍虚线",
+    "en": {
+      "name": "book dashed",
       "tags": [
-        "代码",
-        "version控制",
-        "模板",
-        "草稿"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "template",
+        "draft",
+        "script",
+        "screenplay",
+        "writing",
+        "writer",
+        "author",
+        "unwritten",
+        "unpublished",
+        "untold"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

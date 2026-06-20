@@ -6,27 +6,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "太阳变暗",
   "tags": [
-    "brightness",
-    "dim",
-    "low",
-    "brightness low"
+    "变暗",
+    "低",
+    "brightness低"
   ],
   "categories": [
     "accessibility",
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "太阳变暗",
+    "en": {
+      "name": "sun dim",
       "tags": [
-        "变暗",
-        "低",
-        "brightness低"
+        "brightness",
+        "dim",
+        "low",
+        "brightness low"
       ],
       "categories": [
-        "无障碍",
-        "天气"
+        "Accessibility",
+        "Weather"
       ]
     }
   }

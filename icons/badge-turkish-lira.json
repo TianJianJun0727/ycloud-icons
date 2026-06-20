@@ -5,40 +5,41 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "徽章土耳其里拉",
   "tags": [
-    "discount",
-    "offer",
-    "sale",
-    "voucher",
-    "tag",
-    "monetization",
-    "marketing",
-    "finance",
-    "financial",
-    "exchange",
-    "transaction",
-    "payment",
-    "try",
-    "₺"
+    "折扣",
+    "促销",
+    "标签",
+    "营销",
+    "金融",
+    "支付"
   ],
   "categories": [
     "shopping",
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章土耳其里拉",
+    "en": {
+      "name": "badge turkish lira",
       "tags": [
-        "折扣",
-        "促销",
-        "标签",
-        "营销",
-        "金融",
-        "支付"
+        "discount",
+        "offer",
+        "sale",
+        "voucher",
+        "tag",
+        "monetization",
+        "marketing",
+        "finance",
+        "financial",
+        "exchange",
+        "transaction",
+        "payment",
+        "try",
+        "₺"
       ],
       "categories": [
-        "购物",
-        "金融"
+        "Shopping",
+        "Finance"
       ]
     }
   }

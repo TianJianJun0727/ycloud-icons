@@ -6,11 +6,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "八边形告警",
   "tags": [
-    "warning",
-    "alert",
-    "danger",
-    "exclamation mark"
+    "警告",
+    "告警",
+    "感叹号标记"
   ],
   "categories": [
     "notifications",
@@ -25,16 +25,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "八边形告警",
+    "en": {
+      "name": "octagon alert",
       "tags": [
-        "警告",
-        "告警",
-        "感叹号标记"
+        "warning",
+        "alert",
+        "danger",
+        "exclamation mark"
       ],
       "categories": [
-        "通知",
-        "形状"
+        "Notification",
+        "Shapes"
       ]
     }
   }

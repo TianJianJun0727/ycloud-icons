@@ -4,19 +4,17 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "耳麦",
   "tags": [
-    "music",
-    "audio",
-    "sound",
-    "gaming",
-    "headphones",
-    "headset",
-    "call",
-    "center",
-    "phone",
-    "telephone",
-    "voip",
-    "video"
+    "音乐",
+    "音频",
+    "耳机",
+    "耳麦",
+    "通话",
+    "居中",
+    "电话",
+    "视频",
+    "声音"
   ],
   "categories": [
     "multimedia",
@@ -26,25 +24,28 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "耳麦",
+    "en": {
+      "name": "headset",
       "tags": [
-        "音乐",
-        "音频",
-        "耳机",
-        "耳麦",
-        "通话",
-        "居中",
-        "电话",
-        "视频",
-        "声音"
+        "music",
+        "audio",
+        "sound",
+        "gaming",
+        "headphones",
+        "headset",
+        "call",
+        "center",
+        "phone",
+        "telephone",
+        "voip",
+        "video"
       ],
       "categories": [
-        "多媒体",
-        "连接",
-        "设备",
-        "文件",
-        "游戏"
+        "Multimedia",
+        "Connectivity",
+        "Devices",
+        "File icons",
+        "Gaming"
       ]
     }
   }

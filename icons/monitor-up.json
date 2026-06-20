@@ -6,31 +6,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "显示器上",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "upload",
-    "connect",
-    "remote",
-    "screen share"
+    "电视",
+    "屏幕",
+    "上传",
+    "屏幕分享"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器上",
+    "en": {
+      "name": "monitor up",
       "tags": [
-        "电视",
-        "屏幕",
-        "上传",
-        "屏幕分享"
+        "tv",
+        "screen",
+        "display",
+        "upload",
+        "connect",
+        "remote",
+        "screen share"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

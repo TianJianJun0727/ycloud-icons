@@ -6,10 +6,9 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "屏幕分享",
   "tags": [
-    "host",
-    "desktop",
-    "monitor"
+    "显示器"
   ],
   "categories": [
     "connectivity",
@@ -17,15 +16,17 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "屏幕分享",
+    "en": {
+      "name": "screen share",
       "tags": [
-        "显示器"
+        "host",
+        "desktop",
+        "monitor"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "沟通"
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

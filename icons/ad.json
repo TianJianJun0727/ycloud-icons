@@ -10,32 +10,33 @@
     "marking content as sponsored",
     "linking to an advertise with us page"
   ],
+  "name": "广告",
   "tags": [
-    "advert",
-    "affiliate",
-    "brand",
-    "campaign",
-    "commercial",
-    "marketing",
-    "monetize",
-    "paid",
-    "partner",
-    "promo",
-    "sponsor"
+    "营销"
   ],
   "categories": [
     "multimedia",
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "广告",
+    "en": {
+      "name": "ad",
       "tags": [
-        "营销"
+        "advert",
+        "affiliate",
+        "brand",
+        "campaign",
+        "commercial",
+        "marketing",
+        "monetize",
+        "paid",
+        "partner",
+        "promo",
+        "sponsor"
       ],
       "categories": [
-        "多媒体",
-        "通知"
+        "Multimedia",
+        "Notification"
       ]
     }
   }

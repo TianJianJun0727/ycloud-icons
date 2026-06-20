@@ -6,9 +6,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "香烟关闭",
   "tags": [
-    "smoking",
-    "no-smoking"
+    "无smoking"
   ],
   "categories": [
     "travel",
@@ -16,15 +16,16 @@
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "香烟关闭",
+    "en": {
+      "name": "cigarette off",
       "tags": [
-        "无smoking"
+        "smoking",
+        "no-smoking"
       ],
       "categories": [
-        "旅行",
-        "交通",
-        "医疗"
+        "Travel",
+        "Transportation",
+        "Medical"
       ]
     }
   }

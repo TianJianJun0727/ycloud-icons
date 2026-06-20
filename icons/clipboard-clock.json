@@ -9,47 +9,48 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "剪贴板时钟",
   "tags": [
-    "copy",
-    "paste",
-    "history",
-    "log",
-    "clock",
-    "time",
-    "watch",
-    "alarm",
-    "hour",
-    "minute",
-    "reminder",
-    "scheduled",
-    "deadline",
-    "pending",
-    "time tracking",
-    "timesheets",
-    "appointment",
-    "logbook"
+    "复制",
+    "粘贴",
+    "历史",
+    "日志",
+    "时钟",
+    "时间",
+    "手表",
+    "闹钟",
+    "时间tracking"
   ],
   "categories": [
     "time",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪贴板时钟",
+    "en": {
+      "name": "clipboard clock",
       "tags": [
-        "复制",
-        "粘贴",
-        "历史",
-        "日志",
-        "时钟",
-        "时间",
-        "手表",
-        "闹钟",
-        "时间tracking"
+        "copy",
+        "paste",
+        "history",
+        "log",
+        "clock",
+        "time",
+        "watch",
+        "alarm",
+        "hour",
+        "minute",
+        "reminder",
+        "scheduled",
+        "deadline",
+        "pending",
+        "time tracking",
+        "timesheets",
+        "appointment",
+        "logbook"
       ],
       "categories": [
-        "时间与日历",
-        "文本格式"
+        "Time & calendar",
+        "Text formatting"
       ]
     }
   }

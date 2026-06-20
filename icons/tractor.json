@@ -5,13 +5,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "拖拉机",
   "tags": [
-    "farming",
-    "farmer",
-    "ranch",
-    "harvest",
-    "equipment",
-    "vehicle"
+    "设备"
   ],
   "categories": [
     "transportation",
@@ -19,15 +15,20 @@
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "拖拉机",
+    "en": {
+      "name": "tractor",
       "tags": [
-        "设备"
+        "farming",
+        "farmer",
+        "ranch",
+        "harvest",
+        "equipment",
+        "vehicle"
       ],
       "categories": [
-        "交通",
-        "可持续",
-        "餐饮"
+        "Transportation",
+        "Sustainability",
+        "Food & beverage"
       ]
     }
   }

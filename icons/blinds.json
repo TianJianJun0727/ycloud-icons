@@ -5,31 +5,32 @@
     "it-is-not"
   ],
   "use-cases": [],
+  "name": "百叶窗",
   "tags": [
-    "shades",
-    "screen",
-    "curtain",
-    "shutter",
-    "roller blind",
-    "window",
-    "lighting",
-    "household",
-    "home"
+    "屏幕",
+    "滚筒blind",
+    "窗口",
+    "家居"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "百叶窗",
+    "en": {
+      "name": "blinds",
       "tags": [
-        "屏幕",
-        "滚筒blind",
-        "窗口",
-        "家居"
+        "shades",
+        "screen",
+        "curtain",
+        "shutter",
+        "roller blind",
+        "window",
+        "lighting",
+        "household",
+        "home"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

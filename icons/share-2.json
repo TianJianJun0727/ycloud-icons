@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "分享2",
   "tags": [
-    "network",
-    "connections"
+    "网络"
   ],
   "categories": [
     "account",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "分享2",
+    "en": {
+      "name": "share 2",
       "tags": [
-        "网络"
+        "network",
+        "connections"
       ],
       "categories": [
-        "账号与访问",
-        "社交"
+        "Accounts & access",
+        "Social"
       ]
     }
   }

@@ -5,33 +5,34 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "八边形减少",
   "tags": [
-    "stop",
-    "forbidden",
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "-",
-    "traffic",
-    "halt",
-    "restricted"
+    "停止",
+    "减去",
+    "移除",
+    "减少",
+    "交通"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "八边形减少",
+    "en": {
+      "name": "octagon minus",
       "tags": [
-        "停止",
-        "减去",
-        "移除",
-        "减少",
-        "交通"
+        "stop",
+        "forbidden",
+        "subtract",
+        "remove",
+        "decrease",
+        "reduce",
+        "-",
+        "traffic",
+        "halt",
+        "restricted"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

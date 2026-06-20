@@ -6,45 +6,46 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "RSS订阅",
   "tags": [
-    "feed",
-    "subscribe",
-    "news",
-    "updates",
-    "notifications",
-    "content",
-    "blog",
-    "articles",
-    "broadcast",
-    "syndication",
-    "reader",
-    "channels",
-    "posts",
-    "publishing",
-    "digest",
-    "alert",
-    "following",
-    "inbox",
-    "newsletter",
-    "weblog",
-    "podcast"
+    "告警",
+    "收件箱",
+    "播客",
+    "警告"
   ],
   "categories": [
     "development",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "RSS订阅",
+    "en": {
+      "name": "rss",
       "tags": [
-        "告警",
-        "收件箱",
-        "播客",
-        "警告"
+        "feed",
+        "subscribe",
+        "news",
+        "updates",
+        "notifications",
+        "content",
+        "blog",
+        "articles",
+        "broadcast",
+        "syndication",
+        "reader",
+        "channels",
+        "posts",
+        "publishing",
+        "digest",
+        "alert",
+        "following",
+        "inbox",
+        "newsletter",
+        "weblog",
+        "podcast"
       ],
       "categories": [
-        "编码与开发",
-        "社交"
+        "Coding & development",
+        "Social"
       ]
     }
   }

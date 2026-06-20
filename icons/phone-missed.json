@@ -8,8 +8,9 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "电话未接",
   "tags": [
-    "call"
+    "通话"
   ],
   "categories": [
     "connectivity",
@@ -17,15 +18,15 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "电话未接",
+    "en": {
+      "name": "phone missed",
       "tags": [
-        "通话"
+        "call"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "沟通"
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

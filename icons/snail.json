@@ -5,28 +5,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "蜗牛",
   "tags": [
-    "animal",
-    "insect",
-    "slow",
-    "speed",
-    "delicacy",
-    "spiral"
+    "动物",
+    "昆虫"
   ],
   "categories": [
     "animals",
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "蜗牛",
+    "en": {
+      "name": "snail",
       "tags": [
-        "动物",
-        "昆虫"
+        "animal",
+        "insect",
+        "slow",
+        "speed",
+        "delicacy",
+        "spiral"
       ],
       "categories": [
-        "动物",
-        "餐饮"
+        "Animals",
+        "Food & beverage"
       ]
     }
   }

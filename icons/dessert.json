@@ -5,37 +5,38 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "甜点",
   "tags": [
-    "pudding",
-    "christmas",
-    "xmas",
-    "custard",
-    "iced bun",
-    "icing",
-    "fondant",
-    "cake",
-    "ice cream",
-    "gelato",
-    "sundae",
-    "scoop",
-    "dollop",
-    "sugar",
-    "food",
-    "sweet"
+    "蛋糕",
+    "冰冰淇淋",
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "甜点",
+    "en": {
+      "name": "dessert",
       "tags": [
-        "蛋糕",
-        "冰冰淇淋",
-        "食物"
+        "pudding",
+        "christmas",
+        "xmas",
+        "custard",
+        "iced bun",
+        "icing",
+        "fondant",
+        "cake",
+        "ice cream",
+        "gelato",
+        "sundae",
+        "scoop",
+        "dollop",
+        "sugar",
+        "food",
+        "sweet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

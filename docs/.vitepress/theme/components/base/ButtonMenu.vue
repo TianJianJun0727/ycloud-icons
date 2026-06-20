@@ -3,7 +3,7 @@ import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vu
 import { computed, ref, watchEffect } from 'vue';
 import { Listbox, ListboxButton, ListboxOptions, ListboxOption } from '@headlessui/vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
-import { chevronUp } from '../../../data/iconNodes';
+import { chevronUp } from '@data/iconNodes';
 import { useStorage } from '@vueuse/core';
 
 interface Props {

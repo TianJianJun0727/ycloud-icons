@@ -5,38 +5,39 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "吉他",
   "tags": [
-    "acoustic",
-    "instrument",
-    "strings",
-    "riff",
-    "rock",
-    "band",
-    "country",
-    "concert",
-    "performance",
-    "play",
-    "lead",
-    "loud",
-    "music",
-    "audio",
-    "sound",
-    "noise"
+    "播放",
+    "音乐",
+    "音频",
+    "声音"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "吉他",
+    "en": {
+      "name": "guitar",
       "tags": [
-        "播放",
-        "音乐",
-        "音频",
-        "声音"
+        "acoustic",
+        "instrument",
+        "strings",
+        "riff",
+        "rock",
+        "band",
+        "country",
+        "concert",
+        "performance",
+        "play",
+        "lead",
+        "loud",
+        "music",
+        "audio",
+        "sound",
+        "noise"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

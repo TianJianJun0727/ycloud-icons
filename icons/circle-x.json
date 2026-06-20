@@ -5,21 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形关闭",
   "tags": [
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "times",
-    "clear",
-    "error",
-    "incorrect",
-    "wrong",
-    "mistake",
-    "failure",
-    "linter",
-    "multiply",
-    "multiplication"
+    "关闭",
+    "删除",
+    "移除",
+    "错误"
   ],
   "categories": [
     "math",
@@ -34,17 +25,27 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形关闭",
+    "en": {
+      "name": "circle X",
       "tags": [
-        "关闭",
-        "删除",
-        "移除",
-        "错误"
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "times",
+        "clear",
+        "error",
+        "incorrect",
+        "wrong",
+        "mistake",
+        "failure",
+        "linter",
+        "multiply",
+        "multiplication"
       ],
       "categories": [
-        "数学",
-        "编码与开发"
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "爪印打印",
   "tags": [
-    "pets",
-    "vets",
-    "veterinarian",
-    "domesticated",
-    "cat",
-    "dog",
-    "bear"
+    "猫",
+    "狗"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "爪印打印",
+    "en": {
+      "name": "paw print",
       "tags": [
-        "猫",
-        "狗"
+        "pets",
+        "vets",
+        "veterinarian",
+        "domesticated",
+        "cat",
+        "dog",
+        "bear"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

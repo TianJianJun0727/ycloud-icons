@@ -6,22 +6,23 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "语言",
   "tags": [
-    "translate"
+    "语言",
+    "翻译",
+    "本地化"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "语言",
+    "en": {
+      "name": "languages",
       "tags": [
-        "语言",
-        "翻译",
-        "本地化"
+        "translate"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

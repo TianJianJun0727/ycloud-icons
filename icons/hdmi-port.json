@@ -4,22 +4,14 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "HDMI接口",
   "tags": [
-    "socket",
-    "plug",
-    "slot",
-    "controller",
-    "connector",
-    "interface",
-    "console",
-    "signal",
-    "audio",
-    "video",
-    "visual",
-    "av",
-    "data",
-    "input",
-    "output"
+    "插头",
+    "信号",
+    "音频",
+    "视频",
+    "输入",
+    "输出"
   ],
   "categories": [
     "devices",
@@ -27,20 +19,29 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "HDMI接口",
+    "en": {
+      "name": "hdmi port",
       "tags": [
-        "插头",
-        "信号",
-        "音频",
-        "视频",
-        "输入",
-        "输出"
+        "socket",
+        "plug",
+        "slot",
+        "controller",
+        "connector",
+        "interface",
+        "console",
+        "signal",
+        "audio",
+        "video",
+        "visual",
+        "av",
+        "data",
+        "input",
+        "output"
       ],
       "categories": [
-        "设备",
-        "多媒体",
-        "游戏"
+        "Devices",
+        "Multimedia",
+        "Gaming"
       ]
     }
   }

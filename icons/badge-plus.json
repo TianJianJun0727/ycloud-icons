@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章加号",
   "tags": [
-    "verified",
-    "unverified",
-    "add",
-    "create",
-    "new"
+    "添加",
+    "创建",
+    "新建",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章加号",
+    "en": {
+      "name": "badge plus",
       "tags": [
-        "添加",
-        "创建",
-        "新建",
-        "已验证",
-        "未验证"
+        "verified",
+        "unverified",
+        "add",
+        "create",
+        "new"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

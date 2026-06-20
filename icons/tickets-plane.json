@@ -5,36 +5,37 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "票券飞机",
   "tags": [
-    "plane",
-    "trip",
-    "airplane",
-    "flight",
-    "travel",
-    "fly",
-    "takeoff",
-    "vacation",
-    "passenger",
-    "pass",
-    "check-in",
-    "airport"
+    "飞机",
+    "旅行",
+    "勾选进入",
+    "行程"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券飞机",
+    "en": {
+      "name": "tickets plane",
       "tags": [
-        "飞机",
-        "旅行",
-        "勾选进入",
-        "行程"
+        "plane",
+        "trip",
+        "airplane",
+        "flight",
+        "travel",
+        "fly",
+        "takeoff",
+        "vacation",
+        "passenger",
+        "pass",
+        "check-in",
+        "airport"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

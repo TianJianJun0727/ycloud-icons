@@ -6,20 +6,9 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "帐篷",
   "tags": [
-    "tipi",
-    "teepee",
-    "wigwam",
-    "lodge",
-    "camping",
-    "campsite",
-    "holiday",
-    "retreat",
-    "nomadic",
-    "native american",
-    "indian",
-    "wilderness",
-    "outdoors"
+    "印度"
   ],
   "categories": [
     "travel",
@@ -27,15 +16,27 @@
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "帐篷",
+    "en": {
+      "name": "tent",
       "tags": [
-        "印度"
+        "tipi",
+        "teepee",
+        "wigwam",
+        "lodge",
+        "camping",
+        "campsite",
+        "holiday",
+        "retreat",
+        "nomadic",
+        "native american",
+        "indian",
+        "wilderness",
+        "outdoors"
       ],
       "categories": [
-        "旅行",
-        "自然",
-        "可持续"
+        "Travel",
+        "Nature",
+        "Sustainability"
       ]
     }
   }

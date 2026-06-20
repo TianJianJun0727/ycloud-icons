@@ -6,10 +6,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "飞机",
   "tags": [
-    "plane",
-    "trip",
-    "airplane"
+    "飞机",
+    "行程"
   ],
   "categories": [
     "transportation",
@@ -17,16 +17,17 @@
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "飞机",
+    "en": {
+      "name": "plane",
       "tags": [
-        "飞机",
-        "行程"
+        "plane",
+        "trip",
+        "airplane"
       ],
       "categories": [
-        "交通",
-        "旅行",
-        "导航与地点"
+        "Transportation",
+        "Travel",
+        "Navigation & Places"
       ]
     }
   }

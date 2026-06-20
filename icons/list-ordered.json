@@ -6,24 +6,25 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表有序",
   "tags": [
-    "number",
-    "order",
-    "queue"
+    "列表",
+    "排序",
+    "编号"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表有序",
+    "en": {
+      "name": "list ordered",
       "tags": [
-        "列表",
-        "排序",
-        "编号"
+        "number",
+        "order",
+        "queue"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

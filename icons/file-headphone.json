@@ -5,11 +5,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件耳机",
   "tags": [
-    "music",
-    "audio",
-    "sound",
-    "headphones"
+    "音乐",
+    "音频",
+    "耳机",
+    "声音"
   ],
   "categories": [
     "files"
@@ -29,16 +30,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件耳机",
+    "en": {
+      "name": "file headphone",
       "tags": [
-        "音乐",
-        "音频",
-        "耳机",
-        "声音"
+        "music",
+        "audio",
+        "sound",
+        "headphones"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

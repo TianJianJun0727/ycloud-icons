@@ -7,14 +7,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "视频",
   "tags": [
-    "camera",
-    "movie",
-    "film",
-    "recording",
-    "motion picture",
-    "camcorder",
-    "reel"
+    "相机",
+    "胶片",
+    "运动图片"
   ],
   "categories": [
     "devices",
@@ -23,18 +20,22 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "视频",
+    "en": {
+      "name": "video",
       "tags": [
-        "相机",
-        "胶片",
-        "运动图片"
+        "camera",
+        "movie",
+        "film",
+        "recording",
+        "motion picture",
+        "camcorder",
+        "reel"
       ],
       "categories": [
-        "设备",
-        "沟通",
-        "连接",
-        "摄影"
+        "Devices",
+        "Communication",
+        "Connectivity",
+        "Photography"
       ]
     }
   }

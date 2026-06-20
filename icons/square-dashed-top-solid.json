@@ -11,20 +11,16 @@
     "juanpablofernandez"
   ],
   "use-cases": [],
+  "name": "方形虚线顶部实心",
   "tags": [
-    "square",
-    "border",
-    "width",
-    "layout",
-    "style",
-    "design",
-    "rectangular",
-    "marquee",
-    "dashed",
-    "box",
-    "rectangle",
-    "aspect ratio",
-    "1:1"
+    "方形",
+    "布局",
+    "样式",
+    "设计",
+    "矩形",
+    "虚线",
+    "盒子",
+    "aspect比例"
   ],
   "categories": [
     "design",
@@ -32,22 +28,27 @@
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形虚线顶部实心",
+    "en": {
+      "name": "square dashed top solid",
       "tags": [
-        "方形",
-        "布局",
-        "样式",
-        "设计",
-        "矩形",
-        "虚线",
-        "盒子",
-        "aspect比例"
+        "square",
+        "border",
+        "width",
+        "layout",
+        "style",
+        "design",
+        "rectangular",
+        "marquee",
+        "dashed",
+        "box",
+        "rectangle",
+        "aspect ratio",
+        "1:1"
       ],
       "categories": [
-        "设计",
-        "编码与开发",
-        "布局"
+        "Design",
+        "Coding & development",
+        "Layout"
       ]
     }
   }

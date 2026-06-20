@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "合并",
   "tags": [
-    "combine",
-    "join",
-    "unite"
+    "合并"
   ],
   "categories": [
     "development",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "合并",
+    "en": {
+      "name": "merge",
       "tags": [
-        "合并"
+        "combine",
+        "join",
+        "unite"
       ],
       "categories": [
-        "编码与开发",
-        "箭头"
+        "Coding & development",
+        "Arrows"
       ]
     }
   }

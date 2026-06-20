@@ -5,9 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形拆分垂直",
   "tags": [
-    "split",
-    "divide"
+    "拆分",
+    "除号"
   ],
   "categories": [
     "layout"
@@ -21,14 +22,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形拆分垂直",
+    "en": {
+      "name": "square split vertical",
       "tags": [
-        "拆分",
-        "除号"
+        "split",
+        "divide"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

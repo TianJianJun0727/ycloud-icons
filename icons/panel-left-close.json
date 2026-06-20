@@ -6,12 +6,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板左关闭",
   "tags": [
-    "primary",
-    "drawer",
-    "hide",
-    "chevron",
-    "<"
+    "折角箭头",
+    "抽屉"
   ],
   "categories": [
     "layout",
@@ -26,15 +24,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "面板左关闭",
+    "en": {
+      "name": "panel left close",
       "tags": [
-        "折角箭头",
-        "抽屉"
+        "primary",
+        "drawer",
+        "hide",
+        "chevron",
+        "<"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

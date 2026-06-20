@@ -11,41 +11,42 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表双折角箭头上下",
   "tags": [
-    "options",
-    "items",
-    "collapse",
-    "expand",
-    "details",
-    "disclosure",
-    "show",
-    "hide",
-    "toggle",
-    "accordion",
-    "more",
-    "less",
-    "fold",
-    "unfold",
-    "vertical"
+    "项目",
+    "折叠",
+    "展开",
+    "开关",
+    "更多",
+    "垂直"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表双折角箭头上下",
+    "en": {
+      "name": "list chevrons up down",
       "tags": [
-        "项目",
-        "折叠",
-        "展开",
-        "开关",
-        "更多",
-        "垂直"
+        "options",
+        "items",
+        "collapse",
+        "expand",
+        "details",
+        "disclosure",
+        "show",
+        "hide",
+        "toggle",
+        "accordion",
+        "more",
+        "less",
+        "fold",
+        "unfold",
+        "vertical"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

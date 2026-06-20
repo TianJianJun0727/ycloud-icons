@@ -4,33 +4,34 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "圆形点虚线",
   "tags": [
-    "pending",
-    "dot",
-    "progress",
-    "issue",
-    "draft",
-    "code",
-    "coding",
-    "version control"
+    "点",
+    "问题",
+    "草稿",
+    "代码",
+    "version控制"
   ],
   "categories": [
     "development",
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形点虚线",
+    "en": {
+      "name": "circle dot dashed",
       "tags": [
-        "点",
-        "问题",
-        "草稿",
-        "代码",
-        "version控制"
+        "pending",
+        "dot",
+        "progress",
+        "issue",
+        "draft",
+        "code",
+        "coding",
+        "version control"
       ],
       "categories": [
-        "编码与开发",
-        "形状"
+        "Coding & development",
+        "Shapes"
       ]
     }
   }

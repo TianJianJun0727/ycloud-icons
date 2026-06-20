@@ -6,20 +6,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "书籍钥匙",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "private",
-    "public",
-    "secret",
-    "unlocked",
-    "hidden",
-    "revealed",
-    "knowledge",
-    "learning"
+    "代码",
+    "version控制",
+    "知识",
+    "学习"
   ],
   "categories": [
     "development",
@@ -27,18 +19,27 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍钥匙",
+    "en": {
+      "name": "book key",
       "tags": [
-        "代码",
-        "version控制",
-        "知识",
-        "学习"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "private",
+        "public",
+        "secret",
+        "unlocked",
+        "hidden",
+        "revealed",
+        "knowledge",
+        "learning"
       ],
       "categories": [
-        "编码与开发",
-        "安全",
-        "游戏"
+        "Coding & development",
+        "Security",
+        "Gaming"
       ]
     }
   }

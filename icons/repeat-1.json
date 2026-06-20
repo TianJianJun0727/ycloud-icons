@@ -4,22 +4,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "重复1",
   "tags": [
-    "replay"
+    "重复",
+    "单曲循环",
+    "循环"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "重复1",
+    "en": {
+      "name": "repeat 1",
       "tags": [
-        "重复",
-        "单曲循环",
-        "循环"
+        "replay"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

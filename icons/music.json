@@ -7,25 +7,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "音乐",
   "tags": [
-    "note",
-    "quaver",
-    "eighth note"
+    "便签",
+    "eighth便签"
   ],
   "categories": [
     "multimedia",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "音乐",
+    "en": {
+      "name": "music",
       "tags": [
-        "便签",
-        "eighth便签"
+        "note",
+        "quaver",
+        "eighth note"
       ],
       "categories": [
-        "多媒体",
-        "文件"
+        "Multimedia",
+        "File icons"
       ]
     }
   }

@@ -7,46 +7,47 @@
     "Barakudum"
   ],
   "use-cases": [],
+  "name": "便签便签减少",
   "tags": [
-    "post-it",
-    "comment",
-    "annotation",
-    "reaction",
-    "memo",
-    "reminder",
-    "todo",
-    "task",
-    "idea",
-    "brainstorm",
-    "document",
-    "page",
-    "paper",
-    "sheet",
-    "stationary",
-    "office",
-    "remove",
-    "delete",
-    "minus"
+    "待办",
+    "任务",
+    "表格",
+    "移除",
+    "删除",
+    "减少",
+    "文档"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "便签便签减少",
+    "en": {
+      "name": "sticky note minus",
       "tags": [
-        "待办",
-        "任务",
-        "表格",
-        "移除",
-        "删除",
-        "减少",
-        "文档"
+        "post-it",
+        "comment",
+        "annotation",
+        "reaction",
+        "memo",
+        "reminder",
+        "todo",
+        "task",
+        "idea",
+        "brainstorm",
+        "document",
+        "page",
+        "paper",
+        "sheet",
+        "stationary",
+        "office",
+        "remove",
+        "delete",
+        "minus"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

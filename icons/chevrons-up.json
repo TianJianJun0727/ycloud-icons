@@ -4,26 +4,27 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "双折角箭头上",
   "tags": [
-    "forward",
-    "ahead",
-    "faster",
-    "speed",
-    "boost"
+    "前进"
   ],
   "categories": [
     "arrows",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "双折角箭头上",
+    "en": {
+      "name": "chevrons up",
       "tags": [
-        "前进"
+        "forward",
+        "ahead",
+        "faster",
+        "speed",
+        "boost"
       ],
       "categories": [
-        "箭头",
-        "游戏"
+        "Arrows",
+        "Gaming"
       ]
     }
   }

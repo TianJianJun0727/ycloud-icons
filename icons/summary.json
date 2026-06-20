@@ -11,35 +11,36 @@
     "turning meeting transcripts into summaries",
     "summarizing articles"
   ],
+  "name": "摘要",
   "tags": [
-    "brief",
-    "abstract",
-    "synopsis",
-    "report",
-    "digest",
-    "outline",
-    "recap",
-    "condensation",
-    "summary",
-    "ai",
-    "text",
-    "overview"
+    "报告",
+    "轮廓",
+    "摘要",
+    "文本",
+    "AI"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "摘要",
+    "en": {
+      "name": "summary",
       "tags": [
-        "报告",
-        "轮廓",
-        "摘要",
-        "文本",
-        "AI"
+        "brief",
+        "abstract",
+        "synopsis",
+        "report",
+        "digest",
+        "outline",
+        "recap",
+        "condensation",
+        "summary",
+        "ai",
+        "text",
+        "overview"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

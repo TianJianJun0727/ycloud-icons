@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "剪贴板粘贴",
   "tags": [
-    "copy",
-    "paste"
+    "复制",
+    "粘贴"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪贴板粘贴",
+    "en": {
+      "name": "clipboard paste",
       "tags": [
-        "复制",
-        "粘贴"
+        "copy",
+        "paste"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

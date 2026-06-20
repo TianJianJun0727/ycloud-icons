@@ -5,21 +5,22 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "目标",
   "tags": [
-    "flag",
-    "bullseye"
+    "旗帜"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "目标",
+    "en": {
+      "name": "goal",
       "tags": [
-        "旗帜"
+        "flag",
+        "bullseye"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

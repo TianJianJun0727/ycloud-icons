@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "圆形淡出加号",
   "tags": [
-    "stories",
-    "social media",
-    "instagram",
-    "facebook",
-    "meta",
-    "snapchat",
-    "sharing",
-    "content"
+    "圆形",
+    "淡出",
+    "添加"
   ],
   "categories": [
     "communication",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形淡出加号",
+    "en": {
+      "name": "circle fading plus",
       "tags": [
-        "圆形",
-        "淡出",
-        "添加"
+        "stories",
+        "social media",
+        "instagram",
+        "facebook",
+        "meta",
+        "snapchat",
+        "sharing",
+        "content"
       ],
       "categories": [
-        "沟通",
-        "社交"
+        "Communication",
+        "Social"
       ]
     }
   }

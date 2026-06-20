@@ -8,36 +8,37 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "书签",
   "tags": [
-    "save",
-    "favorite",
-    "mark",
-    "label",
-    "attachment",
-    "file",
-    "stick",
-    "pin",
-    "read",
-    "clip",
-    "marker",
-    "tag"
+    "保存",
+    "标记",
+    "文件",
+    "手杖",
+    "图钉",
+    "标签"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "书签",
+    "en": {
+      "name": "bookmark",
       "tags": [
-        "保存",
-        "标记",
-        "文件",
-        "手杖",
-        "图钉",
-        "标签"
+        "save",
+        "favorite",
+        "mark",
+        "label",
+        "attachment",
+        "file",
+        "stick",
+        "pin",
+        "read",
+        "clip",
+        "marker",
+        "tag"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

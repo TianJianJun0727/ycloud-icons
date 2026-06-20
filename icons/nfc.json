@@ -6,10 +6,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "NFC近场通信",
   "tags": [
-    "contactless",
-    "payment",
-    "near-field communication"
+    "支付"
   ],
   "categories": [
     "communication",
@@ -17,15 +16,17 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "NFC近场通信",
+    "en": {
+      "name": "nfc",
       "tags": [
-        "支付"
+        "contactless",
+        "payment",
+        "near-field communication"
       ],
       "categories": [
-        "沟通",
-        "金融",
-        "设备"
+        "Communication",
+        "Finance",
+        "Devices"
       ]
     }
   }

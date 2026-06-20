@@ -6,32 +6,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "包2",
   "tags": [
-    "box",
-    "container",
-    "storage",
-    "sealed",
-    "packed",
-    "unopened",
-    "undelivered",
-    "archive",
-    "zip"
+    "盒子",
+    "容器",
+    "归档"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包2",
+    "en": {
+      "name": "package 2",
       "tags": [
-        "盒子",
-        "容器",
-        "归档"
+        "box",
+        "container",
+        "storage",
+        "sealed",
+        "packed",
+        "unopened",
+        "undelivered",
+        "archive",
+        "zip"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

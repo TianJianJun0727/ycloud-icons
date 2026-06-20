@@ -7,24 +7,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "套索",
   "tags": [
-    "select",
-    "cursor"
+    "选择",
+    "光标"
   ],
   "categories": [
     "design",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "套索",
+    "en": {
+      "name": "lasso",
       "tags": [
-        "选择",
-        "光标"
+        "select",
+        "cursor"
       ],
       "categories": [
-        "设计",
-        "光标"
+        "Design",
+        "Cursors"
       ]
     }
   }

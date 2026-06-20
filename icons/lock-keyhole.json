@@ -9,23 +9,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "锁定钥匙孔",
   "tags": [
-    "security",
-    "password",
-    "secure",
-    "admin"
+    "安全"
   ],
   "categories": [
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "锁定钥匙孔",
+    "en": {
+      "name": "lock keyhole",
       "tags": [
-        "安全"
+        "security",
+        "password",
+        "secure",
+        "admin"
       ],
       "categories": [
-        "安全"
+        "Security"
       ]
     }
   }

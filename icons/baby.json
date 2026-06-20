@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "婴儿",
   "tags": [
-    "child",
-    "childproof",
-    "children"
+    "儿童"
   ],
   "categories": [
     "accessibility",
     "people"
   ],
   "i18n": {
-    "zh": {
-      "name": "婴儿",
+    "en": {
+      "name": "baby",
       "tags": [
-        "儿童"
+        "child",
+        "childproof",
+        "children"
       ],
       "categories": [
-        "无障碍",
-        "人物"
+        "Accessibility",
+        "People"
       ]
     }
   }

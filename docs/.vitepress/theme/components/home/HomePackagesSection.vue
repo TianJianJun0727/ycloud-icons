@@ -4,21 +4,28 @@ import HomeSectionTitle from './HomeSectionTitle.vue';
 import { useRouter, withBase } from 'vitepress';
 import { data } from './HomePackagesSection.data';
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue';
-import { resolveRoutePath } from '../../utils/navigation';
+import { resolveRoutePath } from '@theme/utils/navigation';
+import { computed } from 'vue';
+import { useData } from 'vitepress';
 
 const { go } = useRouter();
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+const packagePath = computed(() => (isEnglish.value ? '/en/packages' : '/packages'));
 </script>
 
 <template>
   <HomeContainer>
-    <HomeSectionTitle :heading-level="2">支持平台：</HomeSectionTitle>
+    <HomeSectionTitle :heading-level="2">
+      {{ isEnglish ? 'Available for:' : '支持平台：' }}
+    </HomeSectionTitle>
     <div class="packages-list">
       <a
         v-for="{ name, logo, logoDark, path } in data.packages"
         :href="withBase(path)"
         class="package-logo"
-        :aria-label="`查看 ${name} 包的使用说明`"
-        @click.prevent="go(resolveRoutePath(path))"
+        :aria-label="isEnglish ? `View ${name} package guide` : `查看 ${name} 包的使用说明`"
+        @click.prevent="go(resolveRoutePath(isEnglish ? `/en${path}` : path))"
       >
         <img
           :src="withBase(logo)"
@@ -39,7 +46,8 @@ const { go } = useRouter();
     <div class="more-button-wrapper">
       <VPButton
         text="查看更多"
-        href="/packages"
+        :text="isEnglish ? 'View more' : '查看更多'"
+        :href="packagePath"
         theme="alt"
         class="more-button"
       />

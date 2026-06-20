@@ -6,16 +6,15 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形箭头右进入",
   "tags": [
-    "left",
-    "in",
-    "inside",
-    "input",
-    "insert",
-    "source",
-    "import",
-    "place",
-    "->"
+    "左",
+    "进入",
+    "内部",
+    "输入",
+    "导入",
+    "向左",
+    "源码"
   ],
   "categories": [
     "arrows",
@@ -24,22 +23,24 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头右进入",
+    "en": {
+      "name": "square arrow right enter",
       "tags": [
-        "左",
-        "进入",
-        "内部",
-        "输入",
-        "导入",
-        "向左",
-        "源码"
+        "left",
+        "in",
+        "inside",
+        "input",
+        "insert",
+        "source",
+        "import",
+        "place",
+        "->"
       ],
       "categories": [
-        "箭头",
-        "形状",
-        "布局",
-        "多媒体"
+        "Arrows",
+        "Shapes",
+        "Layout",
+        "Multimedia"
       ]
     }
   }

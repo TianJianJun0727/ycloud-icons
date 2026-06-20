@@ -5,9 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形折角箭头下",
   "tags": [
-    "back",
-    "menu"
+    "返回",
+    "菜单"
   ],
   "categories": [
     "arrows"
@@ -21,14 +22,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形折角箭头下",
+    "en": {
+      "name": "circle chevron down",
       "tags": [
-        "返回",
-        "菜单"
+        "back",
+        "menu"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

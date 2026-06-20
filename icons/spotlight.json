@@ -7,29 +7,14 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "聚光灯",
   "tags": [
-    "winner",
-    "soapbox",
-    "stage",
-    "entertainment",
-    "drama",
-    "podium",
-    "actor",
-    "actress",
-    "singer",
-    "light",
-    "beam",
-    "play",
-    "theatre",
-    "show",
-    "focus",
-    "concert",
-    "performance",
-    "lens",
-    "leaderboard",
-    "followspot",
-    "best",
-    "highlight"
+    "戏剧",
+    "领奖台",
+    "播放",
+    "聚焦",
+    "镜头",
+    "娱乐"
   ],
   "categories": [
     "devices",
@@ -38,21 +23,37 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "聚光灯",
+    "en": {
+      "name": "spotlight",
       "tags": [
-        "戏剧",
-        "领奖台",
-        "播放",
-        "聚焦",
-        "镜头",
-        "娱乐"
+        "winner",
+        "soapbox",
+        "stage",
+        "entertainment",
+        "drama",
+        "podium",
+        "actor",
+        "actress",
+        "singer",
+        "light",
+        "beam",
+        "play",
+        "theatre",
+        "show",
+        "focus",
+        "concert",
+        "performance",
+        "lens",
+        "leaderboard",
+        "followspot",
+        "best",
+        "highlight"
       ],
       "categories": [
-        "设备",
-        "摄影",
-        "多媒体",
-        "沟通"
+        "Devices",
+        "Photography",
+        "Multimedia",
+        "Communication"
       ]
     }
   }

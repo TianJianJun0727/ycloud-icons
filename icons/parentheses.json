@@ -5,22 +5,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "圆括号",
   "tags": [
-    "code",
-    "token",
-    "parenthesis",
-    "parens",
-    "brackets",
-    "parameters",
-    "arguments",
-    "args",
-    "input",
-    "call",
-    "math",
-    "formula",
-    "function",
-    "(",
-    ")"
+    "代码",
+    "方括号",
+    "输入",
+    "通话",
+    "函数"
   ],
   "categories": [
     "development",
@@ -28,19 +19,29 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆括号",
+    "en": {
+      "name": "parentheses",
       "tags": [
-        "代码",
-        "方括号",
-        "输入",
-        "通话",
-        "函数"
+        "code",
+        "token",
+        "parenthesis",
+        "parens",
+        "brackets",
+        "parameters",
+        "arguments",
+        "args",
+        "input",
+        "call",
+        "math",
+        "formula",
+        "function",
+        "(",
+        ")"
       ],
       "categories": [
-        "编码与开发",
-        "文件",
-        "数学"
+        "Coding & development",
+        "File icons",
+        "Mathematics"
       ]
     }
   }

@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "星标关闭",
   "tags": [
-    "dislike",
-    "unlike",
-    "remove",
-    "unrate"
+    "移除"
   ],
   "categories": [
     "multimedia",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "星标关闭",
+    "en": {
+      "name": "star off",
       "tags": [
-        "移除"
+        "dislike",
+        "unlike",
+        "remove",
+        "unrate"
       ],
       "categories": [
-        "多媒体",
-        "社交"
+        "Multimedia",
+        "Social"
       ]
     }
   }

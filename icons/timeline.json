@@ -5,22 +5,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "时间线",
   "tags": [
-    "tags",
-    "history"
+    "标签组",
+    "历史"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "时间线",
+    "en": {
+      "name": "timeline",
       "tags": [
-        "标签组",
-        "历史"
+        "tags",
+        "history"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

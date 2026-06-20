@@ -8,27 +8,28 @@
     "pettelau"
   ],
   "use-cases": [],
+  "name": "铃铛勾选",
   "tags": [
-    "alarm",
-    "notification",
-    "sound",
-    "reminder"
+    "闹钟",
+    "通知",
+    "声音"
   ],
   "categories": [
     "account",
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "铃铛勾选",
+    "en": {
+      "name": "bell check",
       "tags": [
-        "闹钟",
-        "通知",
-        "声音"
+        "alarm",
+        "notification",
+        "sound",
+        "reminder"
       ],
       "categories": [
-        "账号与访问",
-        "通知"
+        "Accounts & access",
+        "Notification"
       ]
     }
   }

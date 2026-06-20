@@ -4,14 +4,14 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "全屏",
   "tags": [
-    "expand",
-    "zoom",
-    "preview",
-    "focus",
-    "camera",
-    "lens",
-    "image"
+    "展开",
+    "缩放",
+    "聚焦",
+    "相机",
+    "镜头",
+    "图片"
   ],
   "categories": [
     "layout",
@@ -20,21 +20,22 @@
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "全屏",
+    "en": {
+      "name": "fullscreen",
       "tags": [
-        "展开",
-        "缩放",
-        "聚焦",
-        "相机",
-        "镜头",
-        "图片"
+        "expand",
+        "zoom",
+        "preview",
+        "focus",
+        "camera",
+        "lens",
+        "image"
       ],
       "categories": [
-        "布局",
-        "多媒体",
-        "设计",
-        "摄影"
+        "Layout",
+        "Multimedia",
+        "Design",
+        "Photography"
       ]
     }
   }

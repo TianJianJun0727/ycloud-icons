@@ -4,47 +4,48 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍音频",
   "tags": [
-    "audiobook",
-    "reading",
-    "listening",
-    "sound",
-    "story",
-    "fiction",
-    "novel",
-    "information",
-    "knowledge",
-    "education",
-    "student",
-    "study",
-    "learning",
-    "research"
+    "有声书",
+    "阅读",
+    "收听",
+    "声音",
+    "故事",
+    "小说",
+    "长篇小说",
+    "信息",
+    "知识",
+    "教育",
+    "学生",
+    "学习",
+    "研究"
   ],
   "categories": [
     "multimedia",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍音频",
+    "en": {
+      "name": "book audio",
       "tags": [
-        "有声书",
-        "阅读",
-        "收听",
-        "声音",
-        "故事",
-        "小说",
-        "长篇小说",
-        "信息",
-        "知识",
-        "教育",
-        "学生",
-        "学习",
-        "研究"
+        "audiobook",
+        "reading",
+        "listening",
+        "sound",
+        "story",
+        "fiction",
+        "novel",
+        "information",
+        "knowledge",
+        "education",
+        "student",
+        "study",
+        "learning",
+        "research"
       ],
       "categories": [
-        "多媒体",
-        "文本格式"
+        "Multimedia",
+        "Text formatting"
       ]
     }
   }

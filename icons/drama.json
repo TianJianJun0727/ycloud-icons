@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "戏剧",
   "tags": [
-    "drama",
-    "masks",
-    "theater",
-    "theatre",
-    "entertainment",
-    "show"
+    "戏剧",
+    "剧院",
+    "娱乐"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "戏剧",
+    "en": {
+      "name": "drama",
       "tags": [
-        "戏剧",
-        "剧院",
-        "娱乐"
+        "drama",
+        "masks",
+        "theater",
+        "theatre",
+        "entertainment",
+        "show"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

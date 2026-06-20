@@ -5,9 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形停止",
   "tags": [
-    "media",
-    "music"
+    "音乐"
   ],
   "categories": [
     "multimedia"
@@ -21,13 +21,14 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形停止",
+    "en": {
+      "name": "circle stop",
       "tags": [
-        "音乐"
+        "media",
+        "music"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

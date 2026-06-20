@@ -6,24 +6,25 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "前进",
   "tags": [
-    "send",
-    "share",
-    "email"
+    "发送",
+    "分享",
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "前进",
+    "en": {
+      "name": "forward",
       "tags": [
-        "发送",
-        "分享",
-        "邮箱"
+        "send",
+        "share",
+        "email"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

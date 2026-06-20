@@ -8,13 +8,11 @@
     "TonySullivan"
   ],
   "use-cases": [],
+  "name": "地图图钉搜索",
   "tags": [
-    "location",
-    "navigation",
-    "travel",
-    "waypoint",
-    "marker",
-    "drop"
+    "导航",
+    "旅行",
+    "标记"
   ],
   "categories": [
     "text",
@@ -23,18 +21,21 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图图钉搜索",
+    "en": {
+      "name": "map pin search",
       "tags": [
-        "导航",
-        "旅行",
-        "标记"
+        "location",
+        "navigation",
+        "travel",
+        "waypoint",
+        "marker",
+        "drop"
       ],
       "categories": [
-        "文本格式",
-        "导航与地点",
-        "旅行",
-        "账号与访问"
+        "Text formatting",
+        "Navigation & Places",
+        "Travel",
+        "Accounts & access"
       ]
     }
   }

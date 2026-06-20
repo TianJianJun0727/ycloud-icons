@@ -6,35 +6,36 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "消息方形引用",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "blockquote",
-    "quotation",
-    "indent",
-    "reply",
-    "response"
+    "语音bubble",
+    "缩进",
+    "回复",
+    "聊天"
   ],
   "categories": [
     "social",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形引用",
+    "en": {
+      "name": "message square quote",
       "tags": [
-        "语音bubble",
-        "缩进",
-        "回复",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "blockquote",
+        "quotation",
+        "indent",
+        "reply",
+        "response"
       ],
       "categories": [
-        "社交",
-        "文本格式"
+        "Social",
+        "Text formatting"
       ]
     }
   }

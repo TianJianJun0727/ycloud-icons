@@ -7,14 +7,10 @@
     "colebemis"
   ],
   "use-cases": [],
+  "name": "盾牌用户",
   "tags": [
-    "shield",
-    "user",
-    "admin",
-    "protection",
-    "protected",
-    "safety",
-    "guard"
+    "盾牌",
+    "用户"
   ],
   "categories": [
     "account",
@@ -22,16 +18,21 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "盾牌用户",
+    "en": {
+      "name": "shield user",
       "tags": [
-        "盾牌",
-        "用户"
+        "shield",
+        "user",
+        "admin",
+        "protection",
+        "protected",
+        "safety",
+        "guard"
       ],
       "categories": [
-        "账号与访问",
-        "安全",
-        "编码与开发"
+        "Accounts & access",
+        "Security",
+        "Coding & development"
       ]
     }
   }

@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "工厂",
   "tags": [
-    "building",
-    "business",
-    "energy",
-    "industry",
-    "manufacture",
-    "sector"
+    "建筑",
+    "商务",
+    "能源"
   ],
   "categories": [
     "buildings",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "工厂",
+    "en": {
+      "name": "factory",
       "tags": [
-        "建筑",
-        "商务",
-        "能源"
+        "building",
+        "business",
+        "energy",
+        "industry",
+        "manufacture",
+        "sector"
       ],
       "categories": [
-        "建筑",
-        "导航与地点"
+        "Buildings",
+        "Navigation & Places"
       ]
     }
   }

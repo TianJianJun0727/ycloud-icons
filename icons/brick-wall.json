@@ -5,33 +5,34 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "砖块墙",
   "tags": [
-    "bricks",
-    "mortar",
-    "cement",
-    "materials",
-    "construction",
-    "builder",
-    "labourer",
-    "quantity surveyor",
-    "blocks",
-    "stone"
+    "施工",
+    "积木",
+    "石头"
   ],
   "categories": [
     "buildings",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "砖块墙",
+    "en": {
+      "name": "brick wall",
       "tags": [
-        "施工",
-        "积木",
-        "石头"
+        "bricks",
+        "mortar",
+        "cement",
+        "materials",
+        "construction",
+        "builder",
+        "labourer",
+        "quantity surveyor",
+        "blocks",
+        "stone"
       ],
       "categories": [
-        "建筑",
-        "家居"
+        "Buildings",
+        "Home"
       ]
     }
   }

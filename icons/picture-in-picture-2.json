@@ -5,31 +5,32 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "图片进入图片2",
   "tags": [
-    "display",
-    "play",
-    "video",
-    "pop out",
-    "always on top",
-    "window",
-    "inset",
-    "multitask"
+    "播放",
+    "视频",
+    "pop外部",
+    "alwayson顶部",
+    "窗口"
   ],
   "categories": [
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "图片进入图片2",
+    "en": {
+      "name": "picture in picture 2",
       "tags": [
-        "播放",
-        "视频",
-        "pop外部",
-        "alwayson顶部",
-        "窗口"
+        "display",
+        "play",
+        "video",
+        "pop out",
+        "always on top",
+        "window",
+        "inset",
+        "multitask"
       ],
       "categories": [
-        "多媒体"
+        "Multimedia"
       ]
     }
   }

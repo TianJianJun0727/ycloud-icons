@@ -5,13 +5,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件徽章",
   "tags": [
-    "award",
-    "achievement",
-    "badge",
-    "rosette",
-    "prize",
-    "winner"
+    "奖章",
+    "徽章"
   ],
   "categories": [
     "files"
@@ -25,14 +22,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件徽章",
+    "en": {
+      "name": "file badge",
       "tags": [
-        "奖章",
-        "徽章"
+        "award",
+        "achievement",
+        "badge",
+        "rosette",
+        "prize",
+        "winner"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

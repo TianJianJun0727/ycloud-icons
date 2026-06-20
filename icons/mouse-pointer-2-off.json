@@ -7,41 +7,42 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "鼠标指针2关闭",
   "tags": [
-    "pointer",
-    "mouse",
-    "cursor",
-    "off",
-    "disable",
-    "arrow",
-    "navigation",
-    "selection",
-    "select",
-    "click",
-    "no-click",
-    "interaction"
+    "指针",
+    "鼠标",
+    "光标",
+    "关闭",
+    "箭头",
+    "导航",
+    "选择",
+    "点击",
+    "无点击"
   ],
   "categories": [
     "arrows",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼠标指针2关闭",
+    "en": {
+      "name": "mouse pointer 2 off",
       "tags": [
-        "指针",
-        "鼠标",
-        "光标",
-        "关闭",
-        "箭头",
-        "导航",
-        "选择",
-        "点击",
-        "无点击"
+        "pointer",
+        "mouse",
+        "cursor",
+        "off",
+        "disable",
+        "arrow",
+        "navigation",
+        "selection",
+        "select",
+        "click",
+        "no-click",
+        "interaction"
       ],
       "categories": [
-        "箭头",
-        "光标"
+        "Arrows",
+        "Cursors"
       ]
     }
   }

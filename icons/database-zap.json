@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "数据库闪电",
   "tags": [
-    "cache busting",
-    "storage",
-    "memory",
-    "bytes",
-    "servers",
-    "power",
-    "crash"
+    "内存",
+    "电源",
+    "崩溃"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库闪电",
+    "en": {
+      "name": "database zap",
       "tags": [
-        "内存",
-        "电源",
-        "崩溃"
+        "cache busting",
+        "storage",
+        "memory",
+        "bytes",
+        "servers",
+        "power",
+        "crash"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

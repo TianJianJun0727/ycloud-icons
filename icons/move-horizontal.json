@@ -5,24 +5,25 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "移动水平",
   "tags": [
-    "double",
-    "arrow"
+    "双人",
+    "箭头"
   ],
   "categories": [
     "arrows",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "移动水平",
+    "en": {
+      "name": "move horizontal",
       "tags": [
-        "双人",
-        "箭头"
+        "double",
+        "arrow"
       ],
       "categories": [
-        "箭头",
-        "光标"
+        "Arrows",
+        "Cursors"
       ]
     }
   }

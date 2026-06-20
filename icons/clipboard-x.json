@@ -6,25 +6,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "剪贴板关闭",
   "tags": [
-    "copy",
-    "paste",
-    "discard",
-    "remove"
+    "复制",
+    "粘贴",
+    "移除"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪贴板关闭",
+    "en": {
+      "name": "clipboard X",
       "tags": [
-        "复制",
-        "粘贴",
-        "移除"
+        "copy",
+        "paste",
+        "discard",
+        "remove"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

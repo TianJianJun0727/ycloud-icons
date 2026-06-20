@@ -4,31 +4,32 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "移除格式",
   "tags": [
-    "text",
-    "font",
-    "typography",
-    "format",
-    "x",
-    "remove",
-    "delete",
-    "times",
-    "clear"
+    "文本",
+    "关闭",
+    "移除",
+    "删除"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "移除格式",
+    "en": {
+      "name": "remove formatting",
       "tags": [
-        "文本",
-        "关闭",
-        "移除",
-        "删除"
+        "text",
+        "font",
+        "typography",
+        "format",
+        "x",
+        "remove",
+        "delete",
+        "times",
+        "clear"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

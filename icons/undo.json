@@ -6,25 +6,26 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "撤销",
   "tags": [
-    "redo",
-    "rerun",
-    "history"
+    "重做",
+    "历史"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "撤销",
+    "en": {
+      "name": "undo",
       "tags": [
-        "重做",
-        "历史"
+        "redo",
+        "rerun",
+        "history"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

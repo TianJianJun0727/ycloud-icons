@@ -4,50 +4,51 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍关闭",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "remove",
-    "delete",
-    "reading",
-    "misinformation",
-    "disinformation",
-    "misinformed",
-    "charlatan",
-    "sophistry",
-    "false",
-    "lies",
-    "untruth",
-    "propaganda",
-    "censored",
-    "cancelled",
-    "forbidden",
-    "prohibited",
-    "banned",
-    "uneducated",
-    "re-education",
-    "unlearn"
+    "代码",
+    "version控制",
+    "移除",
+    "删除",
+    "阅读"
   ],
   "categories": [
     "text",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍关闭",
+    "en": {
+      "name": "book X",
       "tags": [
-        "代码",
-        "version控制",
-        "移除",
-        "删除",
-        "阅读"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "remove",
+        "delete",
+        "reading",
+        "misinformation",
+        "disinformation",
+        "misinformed",
+        "charlatan",
+        "sophistry",
+        "false",
+        "lies",
+        "untruth",
+        "propaganda",
+        "censored",
+        "cancelled",
+        "forbidden",
+        "prohibited",
+        "banned",
+        "uneducated",
+        "re-education",
+        "unlearn"
       ],
       "categories": [
-        "文本格式",
-        "游戏"
+        "Text formatting",
+        "Gaming"
       ]
     }
   }

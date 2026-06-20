@@ -6,29 +6,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "二进制",
   "tags": [
-    "code",
-    "digits",
-    "computer",
-    "zero",
-    "one",
-    "boolean"
+    "代码",
+    "电脑",
+    "零"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "二进制",
+    "en": {
+      "name": "binary",
       "tags": [
-        "代码",
-        "电脑",
-        "零"
+        "code",
+        "digits",
+        "computer",
+        "zero",
+        "one",
+        "boolean"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

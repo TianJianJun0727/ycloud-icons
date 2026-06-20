@@ -6,19 +6,14 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "显示器播放",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "desktop",
-    "video",
-    "movie",
-    "film",
-    "running",
-    "start",
-    "boot",
-    "virtual machine",
-    "vm"
+    "电视",
+    "屏幕",
+    "视频",
+    "胶片",
+    "起始",
+    "virtual机器"
   ],
   "categories": [
     "connectivity",
@@ -26,20 +21,26 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器播放",
+    "en": {
+      "name": "monitor play",
       "tags": [
-        "电视",
-        "屏幕",
-        "视频",
-        "胶片",
-        "起始",
-        "virtual机器"
+        "tv",
+        "screen",
+        "display",
+        "desktop",
+        "video",
+        "movie",
+        "film",
+        "running",
+        "start",
+        "boot",
+        "virtual machine",
+        "vm"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "多媒体"
+        "Connectivity",
+        "Devices",
+        "Multimedia"
       ]
     }
   }

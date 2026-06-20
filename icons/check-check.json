@@ -4,30 +4,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "勾选勾选",
   "tags": [
-    "done",
-    "received",
-    "double",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "完成",
+    "双人",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "勾选勾选",
+    "en": {
+      "name": "check check",
       "tags": [
-        "完成",
-        "双人",
-        "待办",
-        "勾选",
-        "任务"
+        "done",
+        "received",
+        "double",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "通知"
+        "Notification"
       ]
     }
   }

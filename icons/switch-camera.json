@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "切换相机",
   "tags": [
-    "photo",
-    "selfie",
-    "front",
-    "back"
+    "照片",
+    "正面",
+    "返回"
   ],
   "categories": [
     "communication",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "切换相机",
+    "en": {
+      "name": "switch camera",
       "tags": [
-        "照片",
-        "正面",
-        "返回"
+        "photo",
+        "selfie",
+        "front",
+        "back"
       ],
       "categories": [
-        "沟通",
-        "设备"
+        "Communication",
+        "Devices"
       ]
     }
   }

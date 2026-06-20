@@ -1,212 +1,212 @@
 [
   {
     "name": "accessibility",
-    "title": "Accessibility",
-    "displayTitle": "无障碍"
+    "title": "无障碍",
+    "englishTitle": "Accessibility"
   },
   {
     "name": "account",
-    "title": "Accounts & access",
-    "displayTitle": "账号与访问"
+    "title": "账号与访问",
+    "englishTitle": "Accounts & access"
   },
   {
     "name": "animals",
-    "title": "Animals",
-    "displayTitle": "动物"
+    "title": "动物",
+    "englishTitle": "Animals"
   },
   {
     "name": "arrows",
-    "title": "Arrows",
-    "displayTitle": "箭头"
+    "title": "箭头",
+    "englishTitle": "Arrows"
   },
   {
     "name": "buildings",
-    "title": "Buildings",
-    "displayTitle": "建筑"
+    "title": "建筑",
+    "englishTitle": "Buildings"
   },
   {
     "name": "charts",
-    "title": "Charts",
-    "displayTitle": "图表"
+    "title": "图表",
+    "englishTitle": "Charts"
   },
   {
     "name": "communication",
-    "title": "Communication",
-    "displayTitle": "沟通"
+    "title": "沟通",
+    "englishTitle": "Communication"
   },
   {
     "name": "connectivity",
-    "title": "Connectivity",
-    "displayTitle": "连接"
+    "title": "连接",
+    "englishTitle": "Connectivity"
   },
   {
     "name": "cursors",
-    "title": "Cursors",
-    "displayTitle": "光标"
+    "title": "光标",
+    "englishTitle": "Cursors"
   },
   {
     "name": "design",
-    "title": "Design",
-    "displayTitle": "设计"
+    "title": "设计",
+    "englishTitle": "Design"
   },
   {
     "name": "development",
-    "title": "Coding & development",
-    "displayTitle": "编码与开发"
+    "title": "编码与开发",
+    "englishTitle": "Coding & development"
   },
   {
     "name": "devices",
-    "title": "Devices",
-    "displayTitle": "设备"
+    "title": "设备",
+    "englishTitle": "Devices"
   },
   {
     "name": "emoji",
-    "title": "Emoji",
-    "displayTitle": "表情"
+    "title": "表情",
+    "englishTitle": "Emoji"
   },
   {
     "name": "files",
-    "title": "File icons",
-    "displayTitle": "文件"
+    "title": "文件",
+    "englishTitle": "File icons"
   },
   {
     "name": "finance",
-    "title": "Finance",
-    "displayTitle": "金融"
+    "title": "金融",
+    "englishTitle": "Finance"
   },
   {
     "name": "food-beverage",
-    "title": "Food & beverage",
-    "displayTitle": "餐饮"
+    "title": "餐饮",
+    "englishTitle": "Food & beverage"
   },
   {
     "name": "gaming",
-    "title": "Gaming",
-    "displayTitle": "游戏"
+    "title": "游戏",
+    "englishTitle": "Gaming"
   },
   {
     "name": "home",
-    "title": "Home",
-    "displayTitle": "家居"
+    "title": "家居",
+    "englishTitle": "Home"
   },
   {
     "name": "layout",
-    "title": "Layout",
-    "displayTitle": "布局"
+    "title": "布局",
+    "englishTitle": "Layout"
   },
   {
     "name": "mail",
-    "title": "Mail",
-    "displayTitle": "邮件"
+    "title": "邮件",
+    "englishTitle": "Mail"
   },
   {
     "name": "math",
-    "title": "Mathematics",
-    "displayTitle": "数学"
+    "title": "数学",
+    "englishTitle": "Mathematics"
   },
   {
     "name": "medical",
-    "title": "Medical",
-    "displayTitle": "医疗"
+    "title": "医疗",
+    "englishTitle": "Medical"
   },
   {
     "name": "multimedia",
-    "title": "Multimedia",
-    "displayTitle": "多媒体"
+    "title": "多媒体",
+    "englishTitle": "Multimedia"
   },
   {
     "name": "nature",
-    "title": "Nature",
-    "displayTitle": "自然"
+    "title": "自然",
+    "englishTitle": "Nature"
   },
   {
     "name": "navigation",
-    "title": "Navigation & Places",
-    "displayTitle": "导航与地点"
+    "title": "导航与地点",
+    "englishTitle": "Navigation & Places"
   },
   {
     "name": "notifications",
-    "title": "Notification",
-    "displayTitle": "通知"
+    "title": "通知",
+    "englishTitle": "Notification"
   },
   {
     "name": "people",
-    "title": "People",
-    "displayTitle": "人物"
+    "title": "人物",
+    "englishTitle": "People"
   },
   {
     "name": "photography",
-    "title": "Photography",
-    "displayTitle": "摄影"
+    "title": "摄影",
+    "englishTitle": "Photography"
   },
   {
     "name": "science",
-    "title": "Science",
-    "displayTitle": "科学"
+    "title": "科学",
+    "englishTitle": "Science"
   },
   {
     "name": "seasons",
-    "title": "Seasons",
-    "displayTitle": "季节"
+    "title": "季节",
+    "englishTitle": "Seasons"
   },
   {
     "name": "security",
-    "title": "Security",
-    "displayTitle": "安全"
+    "title": "安全",
+    "englishTitle": "Security"
   },
   {
     "name": "shapes",
-    "title": "Shapes",
-    "displayTitle": "形状"
+    "title": "形状",
+    "englishTitle": "Shapes"
   },
   {
     "name": "shopping",
-    "title": "Shopping",
-    "displayTitle": "购物"
+    "title": "购物",
+    "englishTitle": "Shopping"
   },
   {
     "name": "social",
-    "title": "Social",
-    "displayTitle": "社交"
+    "title": "社交",
+    "englishTitle": "Social"
   },
   {
     "name": "sports",
-    "title": "Sports",
-    "displayTitle": "运动"
+    "title": "运动",
+    "englishTitle": "Sports"
   },
   {
     "name": "sustainability",
-    "title": "Sustainability",
-    "displayTitle": "可持续"
+    "title": "可持续",
+    "englishTitle": "Sustainability"
   },
   {
     "name": "text",
-    "title": "Text formatting",
-    "displayTitle": "文本格式"
+    "title": "文本格式",
+    "englishTitle": "Text formatting"
   },
   {
     "name": "time",
-    "title": "Time & calendar",
-    "displayTitle": "时间与日历"
+    "title": "时间与日历",
+    "englishTitle": "Time & calendar"
   },
   {
     "name": "tools",
-    "title": "Tools",
-    "displayTitle": "工具"
+    "title": "工具",
+    "englishTitle": "Tools"
   },
   {
     "name": "transportation",
-    "title": "Transportation",
-    "displayTitle": "交通"
+    "title": "交通",
+    "englishTitle": "Transportation"
   },
   {
     "name": "travel",
-    "title": "Travel",
-    "displayTitle": "旅行"
+    "title": "旅行",
+    "englishTitle": "Travel"
   },
   {
     "name": "weather",
-    "title": "Weather",
-    "displayTitle": "天气"
+    "title": "天气",
+    "englishTitle": "Weather"
   }
 ]

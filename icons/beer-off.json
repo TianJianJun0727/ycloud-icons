@@ -6,25 +6,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "啤酒关闭",
   "tags": [
-    "alcohol",
-    "bar",
-    "beverage",
-    "brewery",
-    "drink"
+    "条形",
+    "饮品"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "啤酒关闭",
+    "en": {
+      "name": "beer off",
       "tags": [
-        "条形",
-        "饮品"
+        "alcohol",
+        "bar",
+        "beverage",
+        "brewery",
+        "drink"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

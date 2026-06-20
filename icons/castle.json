@@ -4,12 +4,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "城堡",
   "tags": [
-    "fortress",
-    "stronghold",
-    "palace",
-    "chateau",
-    "building"
+    "建筑"
   ],
   "categories": [
     "buildings",
@@ -17,15 +14,19 @@
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "城堡",
+    "en": {
+      "name": "castle",
       "tags": [
-        "建筑"
+        "fortress",
+        "stronghold",
+        "palace",
+        "chateau",
+        "building"
       ],
       "categories": [
-        "建筑",
-        "游戏",
-        "导航与地点"
+        "Buildings",
+        "Gaming",
+        "Navigation & Places"
       ]
     }
   }

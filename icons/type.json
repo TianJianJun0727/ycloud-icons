@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文字",
   "tags": [
-    "text",
-    "font",
-    "typography"
+    "文本"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "文字",
+    "en": {
+      "name": "type",
       "tags": [
-        "文本"
+        "text",
+        "font",
+        "typography"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

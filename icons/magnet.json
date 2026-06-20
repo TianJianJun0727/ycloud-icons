@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "磁铁",
   "tags": [
-    "horseshoe",
-    "lock",
-    "science",
-    "snap"
+    "锁定",
+    "锁"
   ],
   "categories": [
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "磁铁",
+    "en": {
+      "name": "magnet",
       "tags": [
-        "锁定",
-        "锁"
+        "horseshoe",
+        "lock",
+        "science",
+        "snap"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

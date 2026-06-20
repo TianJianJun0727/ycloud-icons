@@ -5,24 +5,25 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局模板",
   "tags": [
-    "window",
-    "webpage",
-    "block",
-    "section"
+    "窗口",
+    "分节"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局模板",
+    "en": {
+      "name": "layout template",
       "tags": [
-        "窗口",
-        "分节"
+        "window",
+        "webpage",
+        "block",
+        "section"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

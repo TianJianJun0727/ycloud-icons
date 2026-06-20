@@ -5,12 +5,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "绘制滚筒",
   "tags": [
-    "brush",
-    "color",
-    "colour",
-    "decoration",
-    "diy"
+    "刷子"
   ],
   "categories": [
     "text",
@@ -19,16 +16,20 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "绘制滚筒",
+    "en": {
+      "name": "paint roller",
       "tags": [
-        "刷子"
+        "brush",
+        "color",
+        "colour",
+        "decoration",
+        "diy"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "家居",
-        "工具"
+        "Text formatting",
+        "Design",
+        "Home",
+        "Tools"
       ]
     }
   }

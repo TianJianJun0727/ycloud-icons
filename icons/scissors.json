@@ -5,12 +5,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "剪刀",
   "tags": [
-    "cut",
-    "snip",
-    "chop",
-    "stationery",
-    "crafts"
+    "切割",
+    "文具",
+    "手工"
   ],
   "categories": [
     "text",
@@ -18,17 +17,19 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪刀",
+    "en": {
+      "name": "scissors",
       "tags": [
-        "切割",
-        "文具",
-        "手工"
+        "cut",
+        "snip",
+        "chop",
+        "stationery",
+        "crafts"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "工具"
+        "Text formatting",
+        "Design",
+        "Tools"
       ]
     }
   }

@@ -7,25 +7,26 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "命令",
   "tags": [
-    "keyboard",
-    "key",
-    "mac",
-    "cmd",
-    "button"
+    "键盘",
+    "钥匙"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "命令",
+    "en": {
+      "name": "command",
       "tags": [
-        "键盘",
-        "钥匙"
+        "keyboard",
+        "key",
+        "mac",
+        "cmd",
+        "button"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

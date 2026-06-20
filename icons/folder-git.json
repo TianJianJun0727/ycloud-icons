@@ -6,26 +6,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文件夹Git",
   "tags": [
-    "directory",
-    "root",
-    "project",
-    "git",
-    "repo"
+    "根",
+    "项目",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹Git",
+    "en": {
+      "name": "folder git",
       "tags": [
-        "根",
-        "项目",
-        "目录"
+        "directory",
+        "root",
+        "project",
+        "git",
+        "repo"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Medical",
+  "title": "医疗",
   "icon": "heart",
   "i18n": {
-    "zh": {
-      "title": "医疗"
+    "en": {
+      "title": "Medical"
     }
   }
 }

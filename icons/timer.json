@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "计时器",
   "tags": [
-    "time",
-    "timer",
-    "stopwatch"
+    "时间",
+    "计时器"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "计时器",
+    "en": {
+      "name": "timer",
       "tags": [
-        "时间",
-        "计时器"
+        "time",
+        "timer",
+        "stopwatch"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

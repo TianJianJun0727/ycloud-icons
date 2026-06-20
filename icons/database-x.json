@@ -11,39 +11,40 @@
     "displaying error states in monitoring tools",
     "representing rejected queries or destructive operations"
   ],
+  "name": "数据库关闭",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "server",
-    "x",
-    "error",
-    "failed",
-    "invalid",
-    "rejected",
-    "denied",
-    "clear",
-    "remove",
-    "disconnect"
+    "内存",
+    "服务器",
+    "关闭",
+    "错误",
+    "移除",
+    "断开"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库关闭",
+    "en": {
+      "name": "database X",
       "tags": [
-        "内存",
-        "服务器",
-        "关闭",
-        "错误",
-        "移除",
-        "断开"
+        "storage",
+        "memory",
+        "bytes",
+        "server",
+        "x",
+        "error",
+        "failed",
+        "invalid",
+        "rejected",
+        "denied",
+        "clear",
+        "remove",
+        "disconnect"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

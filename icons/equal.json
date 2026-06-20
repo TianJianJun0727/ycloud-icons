@@ -4,28 +4,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "等于",
   "tags": [
-    "calculate",
-    "math",
-    "operator",
-    "assignment",
-    "code",
-    "="
+    "计算",
+    "代码"
   ],
   "categories": [
     "math",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "等于",
+    "en": {
+      "name": "equal",
       "tags": [
-        "计算",
-        "代码"
+        "calculate",
+        "math",
+        "operator",
+        "assignment",
+        "code",
+        "="
       ],
       "categories": [
-        "数学",
-        "编码与开发"
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

@@ -7,39 +7,40 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "垃圾桶",
   "tags": [
-    "empty",
-    "deletion",
-    "cleanup",
-    "junk",
-    "clear",
-    "garbage",
-    "delete",
-    "remove",
-    "bin",
-    "waste",
-    "recycle",
-    "discard",
-    "binoculars",
-    "rubbish"
+    "删除",
+    "移除",
+    "回收",
+    "双筒望远镜",
+    "废弃物"
   ],
   "categories": [
     "files",
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "垃圾桶",
+    "en": {
+      "name": "trash",
       "tags": [
-        "删除",
-        "移除",
-        "回收",
-        "双筒望远镜",
-        "废弃物"
+        "empty",
+        "deletion",
+        "cleanup",
+        "junk",
+        "clear",
+        "garbage",
+        "delete",
+        "remove",
+        "bin",
+        "waste",
+        "recycle",
+        "discard",
+        "binoculars",
+        "rubbish"
       ],
       "categories": [
-        "文件",
-        "邮件"
+        "File icons",
+        "Mail"
       ]
     }
   }

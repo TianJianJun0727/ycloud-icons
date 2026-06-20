@@ -6,25 +6,26 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "交通圆锥",
   "tags": [
-    "roadworks",
-    "tarmac",
-    "safety",
-    "block"
+    "交通锥",
+    "施工",
+    "警示"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "交通圆锥",
+    "en": {
+      "name": "traffic cone",
       "tags": [
-        "交通锥",
-        "施工",
-        "警示"
+        "roadworks",
+        "tarmac",
+        "safety",
+        "block"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

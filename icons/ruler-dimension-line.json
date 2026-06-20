@@ -5,26 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "尺子尺寸线条",
   "tags": [
-    "measurements",
-    "centimeters",
-    "cm",
-    "millimeters",
-    "mm",
-    "metre",
-    "foot",
-    "feet",
-    "inches",
-    "units",
-    "size",
-    "length",
-    "width",
-    "height",
-    "dimensions",
-    "depth",
-    "breadth",
-    "extent",
-    "stationery"
+    "单位",
+    "文具"
   ],
   "categories": [
     "tools",
@@ -32,16 +16,33 @@
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "尺子尺寸线条",
+    "en": {
+      "name": "ruler dimension line",
       "tags": [
-        "单位",
-        "文具"
+        "measurements",
+        "centimeters",
+        "cm",
+        "millimeters",
+        "mm",
+        "metre",
+        "foot",
+        "feet",
+        "inches",
+        "units",
+        "size",
+        "length",
+        "width",
+        "height",
+        "dimensions",
+        "depth",
+        "breadth",
+        "extent",
+        "stationery"
       ],
       "categories": [
-        "工具",
-        "设计",
-        "布局"
+        "Tools",
+        "Design",
+        "Layout"
       ]
     }
   }

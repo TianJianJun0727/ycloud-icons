@@ -6,22 +6,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "包关闭",
   "tags": [
-    "delete",
-    "remove"
+    "删除",
+    "移除"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "包关闭",
+    "en": {
+      "name": "package X",
       "tags": [
-        "删除",
-        "移除"
+        "delete",
+        "remove"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

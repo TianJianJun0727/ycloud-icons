@@ -8,27 +8,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "雨伞关闭",
   "tags": [
-    "rain",
-    "weather",
-    "uncovered",
-    "uninsured",
-    "antivirus",
-    "unprotected",
-    "risky"
+    "雨",
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "雨伞关闭",
+    "en": {
+      "name": "umbrella off",
       "tags": [
-        "雨",
-        "天气"
+        "rain",
+        "weather",
+        "uncovered",
+        "uninsured",
+        "antivirus",
+        "unprotected",
+        "risky"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

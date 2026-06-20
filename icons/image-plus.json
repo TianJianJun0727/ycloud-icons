@@ -7,10 +7,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "图片加号",
   "tags": [
-    "add",
-    "create",
-    "picture"
+    "添加",
+    "创建",
+    "图片"
   ],
   "categories": [
     "photography",
@@ -18,17 +19,17 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "图片加号",
+    "en": {
+      "name": "image plus",
       "tags": [
-        "添加",
-        "创建",
-        "图片"
+        "add",
+        "create",
+        "picture"
       ],
       "categories": [
-        "摄影",
-        "多媒体",
-        "文件"
+        "Photography",
+        "Multimedia",
+        "File icons"
       ]
     }
   }

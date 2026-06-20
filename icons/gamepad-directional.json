@@ -5,37 +5,38 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "游戏手柄方向",
   "tags": [
-    "direction",
-    "arrow",
-    "controller",
-    "navigation",
-    "button",
-    "move",
-    "pointer",
-    "arrowhead",
-    "console",
-    "game",
-    "gaming"
+    "方向",
+    "箭头",
+    "导航",
+    "移动",
+    "指针",
+    "游戏"
   ],
   "categories": [
     "gaming",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "游戏手柄方向",
+    "en": {
+      "name": "gamepad directional",
       "tags": [
-        "方向",
-        "箭头",
-        "导航",
-        "移动",
-        "指针",
-        "游戏"
+        "direction",
+        "arrow",
+        "controller",
+        "navigation",
+        "button",
+        "move",
+        "pointer",
+        "arrowhead",
+        "console",
+        "game",
+        "gaming"
       ],
       "categories": [
-        "游戏",
-        "设备"
+        "Gaming",
+        "Devices"
       ]
     }
   }

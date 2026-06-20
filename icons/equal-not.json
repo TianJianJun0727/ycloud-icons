@@ -4,29 +4,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "等于非",
   "tags": [
-    "calculate",
-    "off",
-    "math",
-    "operator",
-    "code",
-    "≠"
+    "计算",
+    "关闭",
+    "代码"
   ],
   "categories": [
     "math",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "等于非",
+    "en": {
+      "name": "equal not",
       "tags": [
-        "计算",
-        "关闭",
-        "代码"
+        "calculate",
+        "off",
+        "math",
+        "operator",
+        "code",
+        "≠"
       ],
       "categories": [
-        "数学",
-        "编码与开发"
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

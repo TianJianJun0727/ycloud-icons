@@ -6,32 +6,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "菱形",
   "tags": [
-    "square",
-    "rectangle",
-    "oblique",
-    "rhombus",
-    "shape",
-    "suit",
-    "playing",
-    "cards"
+    "方形",
+    "矩形",
+    "卡片",
+    "形状"
   ],
   "categories": [
     "shapes",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "菱形",
+    "en": {
+      "name": "diamond",
       "tags": [
-        "方形",
-        "矩形",
-        "卡片",
-        "形状"
+        "square",
+        "rectangle",
+        "oblique",
+        "rhombus",
+        "shape",
+        "suit",
+        "playing",
+        "cards"
       ],
       "categories": [
-        "形状",
-        "游戏"
+        "Shapes",
+        "Gaming"
       ]
     }
   }

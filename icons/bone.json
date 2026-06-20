@@ -5,13 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "骨头",
   "tags": [
-    "health",
-    "skeleton",
-    "skull",
-    "death",
-    "pets",
-    "dog"
+    "健康",
+    "头骨",
+    "狗"
   ],
   "categories": [
     "animals",
@@ -19,17 +17,20 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "骨头",
+    "en": {
+      "name": "bone",
       "tags": [
-        "健康",
-        "头骨",
-        "狗"
+        "health",
+        "skeleton",
+        "skull",
+        "death",
+        "pets",
+        "dog"
       ],
       "categories": [
-        "动物",
-        "医疗",
-        "游戏"
+        "Animals",
+        "Medical",
+        "Gaming"
       ]
     }
   }

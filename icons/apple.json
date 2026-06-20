@@ -4,44 +4,45 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "苹果",
   "tags": [
-    "fruit",
-    "food",
-    "healthy",
-    "snack",
-    "nutrition",
-    "fresh",
-    "produce",
-    "grocery",
-    "organic",
-    "harvest",
-    "vitamin",
-    "red",
-    "green",
-    "juicy",
-    "sweet",
-    "tart",
-    "bite",
-    "orchard",
-    "plant",
-    "core",
-    "raw",
-    "diet"
+    "食物",
+    "绿色",
+    "水果",
+    "植物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "苹果",
+    "en": {
+      "name": "apple",
       "tags": [
-        "食物",
-        "绿色",
-        "水果",
-        "植物"
+        "fruit",
+        "food",
+        "healthy",
+        "snack",
+        "nutrition",
+        "fresh",
+        "produce",
+        "grocery",
+        "organic",
+        "harvest",
+        "vitamin",
+        "red",
+        "green",
+        "juicy",
+        "sweet",
+        "tart",
+        "bite",
+        "orchard",
+        "plant",
+        "core",
+        "raw",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

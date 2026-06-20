@@ -4,13 +4,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "绿叶绿色",
   "tags": [
-    "salad",
-    "lettuce",
-    "vegetable",
-    "chard",
-    "cabbage",
-    "bok choy"
+    "沙拉"
   ],
   "categories": [
     "food-beverage",
@@ -18,15 +14,20 @@
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "绿叶绿色",
+    "en": {
+      "name": "leafy green",
       "tags": [
-        "沙拉"
+        "salad",
+        "lettuce",
+        "vegetable",
+        "chard",
+        "cabbage",
+        "bok choy"
       ],
       "categories": [
-        "餐饮",
-        "表情",
-        "可持续"
+        "Food & beverage",
+        "Emoji",
+        "Sustainability"
       ]
     }
   }

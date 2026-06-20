@@ -6,10 +6,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件锁定",
   "tags": [
-    "lock",
-    "password",
-    "security"
+    "锁定",
+    "安全",
+    "锁"
   ],
   "categories": [
     "files",
@@ -24,16 +25,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件锁定",
+    "en": {
+      "name": "file lock",
       "tags": [
-        "锁定",
-        "安全",
-        "锁"
+        "lock",
+        "password",
+        "security"
       ],
       "categories": [
-        "文件",
-        "安全"
+        "File icons",
+        "Security"
       ]
     }
   }

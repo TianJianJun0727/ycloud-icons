@@ -7,30 +7,31 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "方块排除",
   "tags": [
-    "square",
-    "pathfinder",
-    "path",
-    "exclude",
-    "invert",
-    "xor",
-    "shape",
-    "vector"
+    "方形",
+    "排除",
+    "矢量",
+    "形状"
   ],
   "categories": [
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "方块排除",
+    "en": {
+      "name": "squares exclude",
       "tags": [
-        "方形",
-        "排除",
-        "矢量",
-        "形状"
+        "square",
+        "pathfinder",
+        "path",
+        "exclude",
+        "invert",
+        "xor",
+        "shape",
+        "vector"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

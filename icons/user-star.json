@@ -9,29 +9,30 @@
     "MArtytraM99"
   ],
   "use-cases": [],
+  "name": "用户星标",
   "tags": [
-    "person",
-    "account",
-    "favorite",
-    "contact",
-    "like",
-    "review",
-    "rating",
-    "admin"
+    "人员",
+    "账号",
+    "联系人"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户星标",
+    "en": {
+      "name": "user star",
       "tags": [
-        "人员",
-        "账号",
-        "联系人"
+        "person",
+        "account",
+        "favorite",
+        "contact",
+        "like",
+        "review",
+        "rating",
+        "admin"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

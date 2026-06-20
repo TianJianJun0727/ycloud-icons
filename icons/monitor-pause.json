@@ -6,19 +6,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "显示器暂停",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "desktop",
-    "video",
-    "movie",
-    "film",
-    "suspend",
-    "hibernate",
-    "boot",
-    "virtual machine",
-    "vm"
+    "电视",
+    "屏幕",
+    "视频",
+    "胶片",
+    "virtual机器"
   ],
   "categories": [
     "connectivity",
@@ -26,19 +20,26 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器暂停",
+    "en": {
+      "name": "monitor pause",
       "tags": [
-        "电视",
-        "屏幕",
-        "视频",
-        "胶片",
-        "virtual机器"
+        "tv",
+        "screen",
+        "display",
+        "desktop",
+        "video",
+        "movie",
+        "film",
+        "suspend",
+        "hibernate",
+        "boot",
+        "virtual machine",
+        "vm"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "多媒体"
+        "Connectivity",
+        "Devices",
+        "Multimedia"
       ]
     }
   }

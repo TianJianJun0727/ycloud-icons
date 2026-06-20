@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "邮件警告",
   "tags": [
-    "email",
-    "message",
-    "letter",
-    "delivery error",
-    "exclamation mark"
+    "消息",
+    "字母",
+    "delivery错误",
+    "感叹号标记",
+    "邮箱"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮件警告",
+    "en": {
+      "name": "mail warning",
       "tags": [
-        "消息",
-        "字母",
-        "delivery错误",
-        "感叹号标记",
-        "邮箱"
+        "email",
+        "message",
+        "letter",
+        "delivery error",
+        "exclamation mark"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

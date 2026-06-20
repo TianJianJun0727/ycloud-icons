@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券加号",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "book",
-    "purchase",
-    "add",
-    "+"
+    "书籍",
+    "添加"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券加号",
+    "en": {
+      "name": "ticket plus",
       "tags": [
-        "书籍",
-        "添加"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "book",
+        "purchase",
+        "add",
+        "+"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

@@ -5,21 +5,22 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "货币",
   "tags": [
-    "finance",
-    "money"
+    "金融"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "货币",
+    "en": {
+      "name": "currency",
       "tags": [
-        "金融"
+        "finance",
+        "money"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

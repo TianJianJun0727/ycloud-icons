@@ -5,10 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章",
   "tags": [
-    "check",
-    "verified",
-    "unverified"
+    "勾选",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "account",
@@ -16,17 +17,17 @@
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章",
+    "en": {
+      "name": "badge",
       "tags": [
-        "勾选",
-        "已验证",
-        "未验证"
+        "check",
+        "verified",
+        "unverified"
       ],
       "categories": [
-        "账号与访问",
-        "社交",
-        "形状"
+        "Accounts & access",
+        "Social",
+        "Shapes"
       ]
     }
   }

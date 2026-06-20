@@ -6,23 +6,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "替换全部",
   "tags": [
-    "search",
-    "substitute",
-    "swap",
-    "change"
+    "搜索"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "替换全部",
+    "en": {
+      "name": "replace all",
       "tags": [
-        "搜索"
+        "search",
+        "substitute",
+        "swap",
+        "change"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

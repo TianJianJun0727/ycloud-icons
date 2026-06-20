@@ -4,30 +4,20 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "图书馆大",
   "tags": [
-    "books",
-    "reading",
-    "written",
-    "authors",
-    "stories",
-    "fiction",
-    "novels",
-    "information",
-    "knowledge",
-    "education",
-    "high school",
-    "university",
-    "college",
-    "academy",
-    "learning",
-    "study",
-    "research",
-    "collection",
-    "vinyl",
-    "records",
-    "albums",
-    "music",
-    "package"
+    "高学校",
+    "大学",
+    "音乐",
+    "包",
+    "阅读",
+    "小说",
+    "信息",
+    "知识",
+    "教育",
+    "学习",
+    "研究",
+    "包裹"
   ],
   "categories": [
     "text",
@@ -37,28 +27,39 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "图书馆大",
+    "en": {
+      "name": "library big",
       "tags": [
-        "高学校",
-        "大学",
-        "音乐",
-        "包",
-        "阅读",
-        "小说",
-        "信息",
-        "知识",
-        "教育",
-        "学习",
-        "研究",
-        "包裹"
+        "books",
+        "reading",
+        "written",
+        "authors",
+        "stories",
+        "fiction",
+        "novels",
+        "information",
+        "knowledge",
+        "education",
+        "high school",
+        "university",
+        "college",
+        "academy",
+        "learning",
+        "study",
+        "research",
+        "collection",
+        "vinyl",
+        "records",
+        "albums",
+        "music",
+        "package"
       ],
       "categories": [
-        "文本格式",
-        "摄影",
-        "多媒体",
-        "导航与地点",
-        "编码与开发"
+        "Text formatting",
+        "Photography",
+        "Multimedia",
+        "Navigation & Places",
+        "Coding & development"
       ]
     }
   }

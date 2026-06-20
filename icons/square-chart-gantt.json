@@ -4,26 +4,13 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形图表甘特图",
   "tags": [
-    "projects",
-    "manage",
-    "overview",
-    "roadmap",
-    "plan",
-    "intentions",
-    "timeline",
-    "deadline",
-    "date",
-    "event",
-    "range",
-    "period",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding",
-    "toolbar",
-    "button"
+    "时间线",
+    "日期",
+    "范围",
+    "代码",
+    "工具栏"
   ],
   "categories": [
     "charts",
@@ -46,20 +33,34 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形图表甘特图",
+    "en": {
+      "name": "square chart gantt",
       "tags": [
-        "时间线",
-        "日期",
-        "范围",
-        "代码",
-        "工具栏"
+        "projects",
+        "manage",
+        "overview",
+        "roadmap",
+        "plan",
+        "intentions",
+        "timeline",
+        "deadline",
+        "date",
+        "event",
+        "range",
+        "period",
+        "productivity",
+        "work",
+        "agile",
+        "code",
+        "coding",
+        "toolbar",
+        "button"
       ],
       "categories": [
-        "图表",
-        "时间与日历",
-        "编码与开发",
-        "设计"
+        "Charts",
+        "Time & calendar",
+        "Coding & development",
+        "Design"
       ]
     }
   }

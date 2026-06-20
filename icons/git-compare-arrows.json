@@ -4,26 +4,27 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "Git比较箭头",
   "tags": [
-    "code",
-    "version control",
-    "diff"
+    "代码",
+    "version控制",
+    "差异"
   ],
   "categories": [
     "development",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "Git比较箭头",
+    "en": {
+      "name": "git compare arrows",
       "tags": [
-        "代码",
-        "version控制",
-        "差异"
+        "code",
+        "version control",
+        "diff"
       ],
       "categories": [
-        "编码与开发",
-        "箭头"
+        "Coding & development",
+        "Arrows"
       ]
     }
   }

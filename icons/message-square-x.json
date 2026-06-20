@@ -5,37 +5,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息方形关闭",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "clear",
-    "close",
-    "delete",
-    "remove",
-    "cancel",
-    "silence",
-    "mute",
-    "moderate"
+    "语音bubble",
+    "关闭",
+    "删除",
+    "移除",
+    "聊天"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形关闭",
+    "en": {
+      "name": "message square X",
       "tags": [
-        "语音bubble",
-        "关闭",
-        "删除",
-        "移除",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "clear",
+        "close",
+        "delete",
+        "remove",
+        "cancel",
+        "silence",
+        "mute",
+        "moderate"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

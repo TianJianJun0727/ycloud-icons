@@ -4,24 +4,25 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "海龟",
   "tags": [
-    "animal",
-    "pet",
-    "tortoise",
-    "slow",
-    "speed"
+    "动物"
   ],
   "categories": [
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "海龟",
+    "en": {
+      "name": "turtle",
       "tags": [
-        "动物"
+        "animal",
+        "pet",
+        "tortoise",
+        "slow",
+        "speed"
       ],
       "categories": [
-        "动物"
+        "Animals"
       ]
     }
   }

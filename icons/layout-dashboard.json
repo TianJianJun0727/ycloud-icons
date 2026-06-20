@@ -5,23 +5,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局仪表盘",
   "tags": [
-    "masonry",
-    "brick"
+    "砖块"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局仪表盘",
+    "en": {
+      "name": "layout dashboard",
       "tags": [
-        "砖块"
+        "masonry",
+        "brick"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

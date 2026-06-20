@@ -6,10 +6,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件视频相机",
   "tags": [
-    "movie",
-    "video",
-    "film"
+    "视频",
+    "胶片"
   ],
   "categories": [
     "files"
@@ -23,14 +23,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件视频相机",
+    "en": {
+      "name": "file video camera",
       "tags": [
-        "视频",
-        "胶片"
+        "movie",
+        "video",
+        "film"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

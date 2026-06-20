@@ -4,32 +4,33 @@
     "peteruithoven"
   ],
   "use-cases": [],
+  "name": "气球",
   "tags": [
-    "party",
-    "festival",
-    "congratulations",
-    "celebration",
-    "decoration",
-    "colorful",
-    "floating",
-    "fun",
-    "birthday",
-    "event",
-    "entertainment"
+    "派对",
+    "庆祝",
+    "娱乐"
   ],
   "categories": [
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "气球",
+    "en": {
+      "name": "balloon",
       "tags": [
-        "派对",
-        "庆祝",
-        "娱乐"
+        "party",
+        "festival",
+        "congratulations",
+        "celebration",
+        "decoration",
+        "colorful",
+        "floating",
+        "fun",
+        "birthday",
+        "event",
+        "entertainment"
       ],
       "categories": [
-        "表情"
+        "Emoji"
       ]
     }
   }

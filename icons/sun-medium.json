@@ -5,23 +5,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "太阳中等",
   "tags": [
-    "brightness",
-    "medium"
+    "中等"
   ],
   "categories": [
     "accessibility",
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "太阳中等",
+    "en": {
+      "name": "sun medium",
       "tags": [
-        "中等"
+        "brightness",
+        "medium"
       ],
       "categories": [
-        "无障碍",
-        "天气"
+        "Accessibility",
+        "Weather"
       ]
     }
   }

@@ -11,35 +11,36 @@
     "restoring from a backup",
     "pushing local data to a remote database"
   ],
+  "name": "数据库箭头上",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "server",
-    "import",
-    "upload",
-    "backup",
-    "push",
-    "upscale"
+    "内存",
+    "服务器",
+    "导入",
+    "上传",
+    "备份",
+    "放大"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库箭头上",
+    "en": {
+      "name": "database arrow up",
       "tags": [
-        "内存",
-        "服务器",
-        "导入",
-        "上传",
-        "备份",
-        "放大"
+        "storage",
+        "memory",
+        "bytes",
+        "server",
+        "import",
+        "upload",
+        "backup",
+        "push",
+        "upscale"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

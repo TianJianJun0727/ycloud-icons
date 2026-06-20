@@ -8,17 +8,15 @@
     "luisdlopera"
   ],
   "use-cases": [],
+  "name": "无线网络齿轮",
   "tags": [
-    "connection",
-    "signal",
-    "wireless",
-    "directory",
-    "settings",
-    "control",
-    "preferences",
-    "cog",
-    "edit",
-    "gear"
+    "连接",
+    "信号",
+    "设置",
+    "控制",
+    "齿轮",
+    "编辑",
+    "目录"
   ],
   "categories": [
     "connectivity",
@@ -26,21 +24,24 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "无线网络齿轮",
+    "en": {
+      "name": "wifi cog",
       "tags": [
-        "连接",
-        "信号",
-        "设置",
-        "控制",
-        "齿轮",
-        "编辑",
-        "目录"
+        "connection",
+        "signal",
+        "wireless",
+        "directory",
+        "settings",
+        "control",
+        "preferences",
+        "cog",
+        "edit",
+        "gear"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "文件"
+        "Connectivity",
+        "Devices",
+        "File icons"
       ]
     }
   }

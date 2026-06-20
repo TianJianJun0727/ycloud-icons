@@ -6,9 +6,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "对比度",
   "tags": [
-    "display",
-    "accessibility"
+    "无障碍"
   ],
   "categories": [
     "photography",
@@ -16,15 +16,16 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "对比度",
+    "en": {
+      "name": "contrast",
       "tags": [
-        "无障碍"
+        "display",
+        "accessibility"
       ],
       "categories": [
-        "摄影",
-        "无障碍",
-        "设计"
+        "Photography",
+        "Accessibility",
+        "Design"
       ]
     }
   }

@@ -4,20 +4,21 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "圆角方形",
   "tags": [
-    "shape"
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆角方形",
+    "en": {
+      "name": "squircle",
       "tags": [
-        "形状"
+        "shape"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

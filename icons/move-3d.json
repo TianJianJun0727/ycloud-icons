@@ -5,13 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "移动三维",
   "tags": [
-    "arrows",
-    "axis",
-    "gizmo",
-    "coordinates",
-    "transform",
-    "translate"
+    "箭头",
+    "轴"
   ],
   "categories": [
     "design"
@@ -25,14 +22,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "移动三维",
+    "en": {
+      "name": "move 3d",
       "tags": [
-        "箭头",
-        "轴"
+        "arrows",
+        "axis",
+        "gizmo",
+        "coordinates",
+        "transform",
+        "translate"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

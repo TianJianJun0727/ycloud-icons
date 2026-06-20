@@ -5,29 +5,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表勾选",
   "tags": [
-    "done",
-    "check",
-    "tick",
-    "complete",
-    "list",
-    "to-do",
-    "bom"
+    "完成",
+    "勾选",
+    "列表",
+    "到do"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表勾选",
+    "en": {
+      "name": "list check",
       "tags": [
-        "完成",
-        "勾选",
-        "列表",
-        "到do"
+        "done",
+        "check",
+        "tick",
+        "complete",
+        "list",
+        "to-do",
+        "bom"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

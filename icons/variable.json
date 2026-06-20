@@ -5,40 +5,41 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "变量",
   "tags": [
-    "code",
-    "coding",
-    "programming",
-    "symbol",
-    "calculate",
-    "algebra",
-    "x",
-    "parentheses",
-    "parenthesis",
-    "brackets",
-    "parameter",
-    "(",
-    ")"
+    "代码",
+    "符号",
+    "计算",
+    "关闭",
+    "圆括号",
+    "方括号",
+    "编程"
   ],
   "categories": [
     "development",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "变量",
+    "en": {
+      "name": "variable",
       "tags": [
-        "代码",
-        "符号",
-        "计算",
-        "关闭",
-        "圆括号",
-        "方括号",
-        "编程"
+        "code",
+        "coding",
+        "programming",
+        "symbol",
+        "calculate",
+        "algebra",
+        "x",
+        "parentheses",
+        "parenthesis",
+        "brackets",
+        "parameter",
+        "(",
+        ")"
       ],
       "categories": [
-        "编码与开发",
-        "数学"
+        "Coding & development",
+        "Mathematics"
       ]
     }
   }

@@ -8,27 +8,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "漏斗加号",
   "tags": [
-    "filter",
-    "hopper",
-    "add",
-    "create",
-    "new"
+    "筛选",
+    "添加",
+    "创建",
+    "新建"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "漏斗加号",
+    "en": {
+      "name": "funnel plus",
       "tags": [
-        "筛选",
-        "添加",
-        "创建",
-        "新建"
+        "filter",
+        "hopper",
+        "add",
+        "create",
+        "new"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

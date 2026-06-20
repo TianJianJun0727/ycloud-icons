@@ -6,26 +6,27 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "灯桌面",
   "tags": [
-    "lighting",
-    "household",
-    "office",
-    "desk",
-    "home",
-    "furniture"
+    "桌面",
+    "家居"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "灯桌面",
+    "en": {
+      "name": "lamp desk",
       "tags": [
-        "桌面",
-        "家居"
+        "lighting",
+        "household",
+        "office",
+        "desk",
+        "home",
+        "furniture"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

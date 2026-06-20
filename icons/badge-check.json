@@ -4,6 +4,15 @@
     "karsa-mistmere",
     "jguddas"
   ],
+  "use-cases": [],
+  "name": "徽章勾选",
+  "tags": [
+    "勾选",
+    "已验证"
+  ],
+  "categories": [
+    "social"
+  ],
   "aliases": [
     {
       "name": "verified",
@@ -12,23 +21,15 @@
       "toBeRemovedInVersion": "v1.0"
     }
   ],
-  "use-cases": [],
-  "tags": [
-    "verified",
-    "check"
-  ],
-  "categories": [
-    "social"
-  ],
   "i18n": {
-    "zh": {
-      "name": "徽章勾选",
+    "en": {
+      "name": "badge check",
       "tags": [
-        "勾选",
-        "已验证"
+        "verified",
+        "check"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "服务器",
   "tags": [
-    "cloud",
-    "storage"
+    "云"
   ],
   "categories": [
     "development",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "服务器",
+    "en": {
+      "name": "server",
       "tags": [
-        "云"
+        "cloud",
+        "storage"
       ],
       "categories": [
-        "编码与开发",
-        "设备"
+        "Coding & development",
+        "Devices"
       ]
     }
   }

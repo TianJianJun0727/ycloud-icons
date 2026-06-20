@@ -5,14 +5,12 @@
     "eden881"
   ],
   "use-cases": [],
+  "name": "方形剪刀",
   "tags": [
-    "cut",
-    "snippet",
-    "chop",
-    "stationery",
-    "crafts",
-    "toolbar",
-    "button"
+    "工具栏",
+    "切割",
+    "文具",
+    "手工"
   ],
   "categories": [
     "text",
@@ -30,20 +28,23 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形剪刀",
+    "en": {
+      "name": "square scissors",
       "tags": [
-        "工具栏",
-        "切割",
-        "文具",
-        "手工"
+        "cut",
+        "snippet",
+        "chop",
+        "stationery",
+        "crafts",
+        "toolbar",
+        "button"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "工具",
-        "文件",
-        "编码与开发"
+        "Text formatting",
+        "Design",
+        "Tools",
+        "File icons",
+        "Coding & development"
       ]
     }
   }

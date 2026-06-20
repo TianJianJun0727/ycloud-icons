@@ -9,12 +9,10 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "收音机",
   "tags": [
-    "signal",
-    "broadcast",
-    "connectivity",
-    "live",
-    "frequency"
+    "信号",
+    "连接"
   ],
   "categories": [
     "devices",
@@ -22,16 +20,19 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "收音机",
+    "en": {
+      "name": "radio",
       "tags": [
-        "信号",
-        "连接"
+        "signal",
+        "broadcast",
+        "connectivity",
+        "live",
+        "frequency"
       ],
       "categories": [
-        "设备",
-        "多媒体",
-        "社交"
+        "Devices",
+        "Multimedia",
+        "Social"
       ]
     }
   }

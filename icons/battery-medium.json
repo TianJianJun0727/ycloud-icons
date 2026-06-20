@@ -7,28 +7,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "电池中等",
   "tags": [
-    "power",
-    "electricity",
-    "energy",
-    "accumulator",
-    "charge"
+    "电源",
+    "电力",
+    "能源"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "电池中等",
+    "en": {
+      "name": "battery medium",
       "tags": [
-        "电源",
-        "电力",
-        "能源"
+        "power",
+        "electricity",
+        "energy",
+        "accumulator",
+        "charge"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

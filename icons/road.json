@@ -6,32 +6,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "道路",
   "tags": [
-    "road",
-    "street",
-    "highway",
-    "route",
-    "path",
-    "transport",
-    "traffic",
-    "drive",
-    "map"
+    "道路",
+    "路线",
+    "交通",
+    "驱动器",
+    "地图"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "道路",
+    "en": {
+      "name": "road",
       "tags": [
-        "道路",
-        "路线",
-        "交通",
-        "驱动器",
-        "地图"
+        "road",
+        "street",
+        "highway",
+        "route",
+        "path",
+        "transport",
+        "traffic",
+        "drive",
+        "map"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

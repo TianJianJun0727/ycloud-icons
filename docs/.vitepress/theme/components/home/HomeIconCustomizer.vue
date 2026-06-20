@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { syncRef, useCssVar } from '@vueuse/core';
 import HomeContainer from './HomeContainer.vue';
 import RangeSlider from '../base/RangeSlider.vue';
@@ -8,8 +8,11 @@ import ColorPicker from '../base/ColorPicker.vue';
 import ResetButton from '../base/ResetButton.vue';
 import HomeIconCustomizerIcons from './HomeIconCustomizerIcons.vue';
 import Switch from '../base/Switch.vue';
+import { useData } from 'vitepress';
 
 const iconContainer = ref<HTMLElement | null>();
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 const color = ref('currentColor');
 const strokeWidth = ref(2);
 const size = ref(24);
@@ -48,10 +51,16 @@ watch(absoluteStrokeWidth, (enabled) => {
     <div class="card">
       <div class="card-column">
         <h2 class="title">
-          按需调整样式
+          {{ isEnglish ? 'Style as you please' : '按需调整样式' }}
           <ResetButton @click="resetStyle"></ResetButton>
         </h2>
-        <p class="copy">YCloud 提供丰富的自定义选项，方便让图标与你的界面风格保持一致。</p>
+        <p class="copy">
+          {{
+            isEnglish
+              ? 'YCloud Icons has customization options to match the icons with your UI.'
+              : 'YCloud Icons 提供丰富的自定义选项，方便让图标与你的界面风格保持一致。'
+          }}
+        </p>
 
         <div
           class="customizer"
@@ -59,7 +68,7 @@ watch(absoluteStrokeWidth, (enabled) => {
         >
           <InputField
             id="icon-color"
-            label="颜色"
+            :label="isEnglish ? 'Color' : '颜色'"
             class="color-picker-field"
           >
             <template #display>
@@ -72,7 +81,7 @@ watch(absoluteStrokeWidth, (enabled) => {
 
           <InputField
             id="stroke-width"
-            label="描边宽度"
+            :label="isEnglish ? 'Stroke width' : '描边宽度'"
           >
             <template #display>
               <span class="customize-label">{{ strokeWidth }}px</span>
@@ -89,7 +98,7 @@ watch(absoluteStrokeWidth, (enabled) => {
 
           <InputField
             id="size"
-            label="尺寸"
+            :label="isEnglish ? 'Size' : '尺寸'"
           >
             <template #display>
               <span class="customize-label">{{ size }}px</span>
@@ -106,7 +115,7 @@ watch(absoluteStrokeWidth, (enabled) => {
 
           <InputField
             id="absolute-stroke-width"
-            label="绝对描边宽度"
+            :label="isEnglish ? 'Absolute stroke width' : '绝对描边宽度'"
           >
             <template #display>
               <Switch

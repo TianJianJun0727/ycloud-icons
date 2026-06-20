@@ -5,16 +5,12 @@
     "lukedukeus"
   ],
   "use-cases": [],
+  "name": "门关闭锁定",
   "tags": [
-    "entrance",
-    "entry",
-    "exit",
-    "ingress",
-    "egress",
-    "gate",
-    "gateway",
-    "emergency exit",
-    "lock"
+    "退出",
+    "emergency退出",
+    "锁定",
+    "锁"
   ],
   "categories": [
     "home",
@@ -22,18 +18,23 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "门关闭锁定",
+    "en": {
+      "name": "door closed locked",
       "tags": [
-        "退出",
-        "emergency退出",
-        "锁定",
-        "锁"
+        "entrance",
+        "entry",
+        "exit",
+        "ingress",
+        "egress",
+        "gate",
+        "gateway",
+        "emergency exit",
+        "lock"
       ],
       "categories": [
-        "家居",
-        "旅行",
-        "安全"
+        "Home",
+        "Travel",
+        "Security"
       ]
     }
   }

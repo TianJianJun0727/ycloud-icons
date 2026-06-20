@@ -4,37 +4,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "箭头下上",
   "tags": [
-    "bidirectional",
-    "two-way",
-    "2-way",
-    "swap",
-    "switch",
-    "network",
-    "traffic",
-    "flow",
-    "mobile data",
-    "internet",
-    "sort",
-    "reorder",
-    "move"
+    "切换",
+    "网络",
+    "交通",
+    "互联网",
+    "排序",
+    "移动"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下上",
+    "en": {
+      "name": "arrow down up",
       "tags": [
-        "切换",
-        "网络",
-        "交通",
-        "互联网",
-        "排序",
-        "移动"
+        "bidirectional",
+        "two-way",
+        "2-way",
+        "swap",
+        "switch",
+        "network",
+        "traffic",
+        "flow",
+        "mobile data",
+        "internet",
+        "sort",
+        "reorder",
+        "move"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

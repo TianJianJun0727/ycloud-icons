@@ -5,30 +5,31 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板顶部关闭",
   "tags": [
-    "menu bar",
-    "drawer",
-    "hide",
-    "chevron",
-    "up"
+    "菜单条形",
+    "折角箭头",
+    "上",
+    "抽屉",
+    "向上"
   ],
   "categories": [
     "layout",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板顶部关闭",
+    "en": {
+      "name": "panel top close",
       "tags": [
-        "菜单条形",
-        "折角箭头",
-        "上",
-        "抽屉",
-        "向上"
+        "menu bar",
+        "drawer",
+        "hide",
+        "chevron",
+        "up"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

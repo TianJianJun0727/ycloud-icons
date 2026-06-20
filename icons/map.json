@@ -6,25 +6,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "地图",
   "tags": [
-    "location",
-    "navigation",
-    "travel"
+    "导航",
+    "旅行"
   ],
   "categories": [
     "text",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "地图",
+    "en": {
+      "name": "map",
       "tags": [
-        "导航",
-        "旅行"
+        "location",
+        "navigation",
+        "travel"
       ],
       "categories": [
-        "文本格式",
-        "导航与地点"
+        "Text formatting",
+        "Navigation & Places"
       ]
     }
   }

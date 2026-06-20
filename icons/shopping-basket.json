@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "购物篮子",
   "tags": [
-    "cart",
-    "e-commerce",
-    "store",
-    "purchase",
-    "products",
-    "items",
-    "ingredients"
+    "购物车",
+    "商店",
+    "项目"
   ],
   "categories": [
     "shopping"
   ],
   "i18n": {
-    "zh": {
-      "name": "购物篮子",
+    "en": {
+      "name": "shopping basket",
       "tags": [
-        "购物车",
-        "商店",
-        "项目"
+        "cart",
+        "e-commerce",
+        "store",
+        "purchase",
+        "products",
+        "items",
+        "ingredients"
       ],
       "categories": [
-        "购物"
+        "Shopping"
       ]
     }
   }

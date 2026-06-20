@@ -7,45 +7,46 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云备份",
   "tags": [
-    "storage",
-    "memory",
-    "bytes",
-    "servers",
-    "backup",
-    "timemachine",
-    "rotate",
-    "synchronize",
-    "synchronise",
-    "refresh",
-    "reconnect",
-    "transfer",
-    "data",
-    "security",
-    "upload",
-    "save",
-    "remote",
-    "safety"
+    "内存",
+    "备份",
+    "旋转",
+    "刷新",
+    "安全",
+    "上传",
+    "保存"
   ],
   "categories": [
     "arrows",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "云备份",
+    "en": {
+      "name": "cloud backup",
       "tags": [
-        "内存",
-        "备份",
-        "旋转",
-        "刷新",
-        "安全",
-        "上传",
-        "保存"
+        "storage",
+        "memory",
+        "bytes",
+        "servers",
+        "backup",
+        "timemachine",
+        "rotate",
+        "synchronize",
+        "synchronise",
+        "refresh",
+        "reconnect",
+        "transfer",
+        "data",
+        "security",
+        "upload",
+        "save",
+        "remote",
+        "safety"
       ],
       "categories": [
-        "箭头",
-        "文件"
+        "Arrows",
+        "File icons"
       ]
     }
   }

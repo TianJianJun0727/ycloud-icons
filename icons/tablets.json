@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "药片",
   "tags": [
-    "medicine",
-    "medication",
-    "drug",
-    "prescription",
-    "pills",
-    "pharmacy"
+    "药片",
+    "药物",
+    "医疗"
   ],
   "categories": [
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "药片",
+    "en": {
+      "name": "tablets",
       "tags": [
-        "药片",
-        "药物",
-        "医疗"
+        "medicine",
+        "medication",
+        "drug",
+        "prescription",
+        "pills",
+        "pharmacy"
       ],
       "categories": [
-        "医疗"
+        "Medical"
       ]
     }
   }

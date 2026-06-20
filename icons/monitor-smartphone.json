@@ -7,33 +7,34 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "显示器智能手机",
   "tags": [
-    "smartphone",
-    "phone",
-    "cellphone",
-    "device",
-    "mobile",
-    "desktop",
-    "monitor",
-    "responsive",
-    "screens"
+    "智能手机",
+    "电话",
+    "设备",
+    "显示器"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器智能手机",
+    "en": {
+      "name": "monitor smartphone",
       "tags": [
-        "智能手机",
-        "电话",
-        "设备",
-        "显示器"
+        "smartphone",
+        "phone",
+        "cellphone",
+        "device",
+        "mobile",
+        "desktop",
+        "monitor",
+        "responsive",
+        "screens"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

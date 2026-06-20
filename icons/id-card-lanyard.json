@@ -6,29 +6,30 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "ID卡片挂绳",
   "tags": [
-    "id-card",
-    "id-card-lanyard",
-    "identity",
-    "employee",
-    "gate-pass",
-    "badge"
+    "ID卡片",
+    "ID卡片挂绳",
+    "徽章"
   ],
   "categories": [
     "security",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "ID卡片挂绳",
+    "en": {
+      "name": "id card lanyard",
       "tags": [
-        "ID卡片",
-        "ID卡片挂绳",
-        "徽章"
+        "id-card",
+        "id-card-lanyard",
+        "identity",
+        "employee",
+        "gate-pass",
+        "badge"
       ],
       "categories": [
-        "安全",
-        "账号与访问"
+        "Security",
+        "Accounts & access"
       ]
     }
   }

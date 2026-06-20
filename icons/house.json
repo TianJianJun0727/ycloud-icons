@@ -5,12 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "房屋",
   "tags": [
-    "home",
-    "living",
-    "building",
-    "residence",
-    "architecture"
+    "家居",
+    "建筑"
   ],
   "categories": [
     "buildings",
@@ -26,16 +24,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "房屋",
+    "en": {
+      "name": "house",
       "tags": [
-        "家居",
-        "建筑"
+        "home",
+        "living",
+        "building",
+        "residence",
+        "architecture"
       ],
       "categories": [
-        "建筑",
-        "家居",
-        "导航与地点"
+        "Buildings",
+        "Home",
+        "Navigation & Places"
       ]
     }
   }

@@ -5,32 +5,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "复制减少",
   "tags": [
-    "clone",
-    "duplicate",
-    "remove",
-    "delete",
-    "collapse",
-    "subtract",
-    "multiple",
-    "-"
+    "移除",
+    "删除",
+    "折叠",
+    "减去"
   ],
   "categories": [
     "text",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "复制减少",
+    "en": {
+      "name": "copy minus",
       "tags": [
-        "移除",
-        "删除",
-        "折叠",
-        "减去"
+        "clone",
+        "duplicate",
+        "remove",
+        "delete",
+        "collapse",
+        "subtract",
+        "multiple",
+        "-"
       ],
       "categories": [
-        "文本格式",
-        "数学"
+        "Text formatting",
+        "Mathematics"
       ]
     }
   }

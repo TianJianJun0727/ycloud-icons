@@ -5,33 +5,34 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "星座摩羯座",
   "tags": [
-    "goat",
-    "mountain",
-    "ambition",
-    "earth",
-    "discipline",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "山",
+    "地球",
+    "星标标志"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座摩羯座",
+    "en": {
+      "name": "zodiac capricorn",
       "tags": [
-        "山",
-        "地球",
-        "星标标志"
+        "goat",
+        "mountain",
+        "ambition",
+        "earth",
+        "discipline",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

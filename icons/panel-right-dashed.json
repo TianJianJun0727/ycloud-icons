@@ -6,17 +6,11 @@
     "irvineacosta"
   ],
   "use-cases": [],
+  "name": "面板右虚线",
   "tags": [
-    "sidebar",
-    "secondary",
-    "drawer",
-    "show",
-    "reveal",
-    "padding",
-    "margin",
-    "guide",
-    "layout",
-    "bleed"
+    "布局",
+    "侧边栏",
+    "抽屉"
   ],
   "categories": [
     "layout"
@@ -30,15 +24,22 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "面板右虚线",
+    "en": {
+      "name": "panel right dashed",
       "tags": [
-        "布局",
-        "侧边栏",
-        "抽屉"
+        "sidebar",
+        "secondary",
+        "drawer",
+        "show",
+        "reveal",
+        "padding",
+        "margin",
+        "guide",
+        "layout",
+        "bleed"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

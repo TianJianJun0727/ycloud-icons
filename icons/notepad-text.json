@@ -4,55 +4,56 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "记事本文本",
   "tags": [
-    "notebook",
-    "notes",
-    "pages",
-    "paper",
-    "stationery",
-    "sketchbook",
-    "organizer",
-    "organiser",
-    "planner",
-    "diary",
-    "journal",
-    "writing",
-    "write",
-    "written",
-    "reading",
-    "high school",
-    "university",
-    "college",
-    "academy",
-    "student",
-    "study",
-    "homework",
-    "research",
-    "lines",
-    "opened"
+    "笔记本",
+    "便签",
+    "高学校",
+    "大学",
+    "线条",
+    "文具",
+    "阅读",
+    "学生",
+    "学习",
+    "研究"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "记事本文本",
+    "en": {
+      "name": "notepad text",
       "tags": [
-        "笔记本",
-        "便签",
-        "高学校",
-        "大学",
-        "线条",
-        "文具",
-        "阅读",
-        "学生",
-        "学习",
-        "研究"
+        "notebook",
+        "notes",
+        "pages",
+        "paper",
+        "stationery",
+        "sketchbook",
+        "organizer",
+        "organiser",
+        "planner",
+        "diary",
+        "journal",
+        "writing",
+        "write",
+        "written",
+        "reading",
+        "high school",
+        "university",
+        "college",
+        "academy",
+        "student",
+        "study",
+        "homework",
+        "research",
+        "lines",
+        "opened"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

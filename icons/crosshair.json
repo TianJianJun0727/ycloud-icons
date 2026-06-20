@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "准星",
   "tags": [
-    "aim",
-    "target"
+    "瞄准",
+    "目标"
   ],
   "categories": [
     "photography"
   ],
   "i18n": {
-    "zh": {
-      "name": "准星",
+    "en": {
+      "name": "crosshair",
       "tags": [
-        "瞄准",
-        "目标"
+        "aim",
+        "target"
       ],
       "categories": [
-        "摄影"
+        "Photography"
       ]
     }
   }

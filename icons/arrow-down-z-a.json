@@ -5,17 +5,16 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "箭头下ZA",
   "tags": [
-    "filter",
-    "sort",
-    "ascending",
-    "descending",
-    "increasing",
-    "decreasing",
-    "rising",
-    "falling",
-    "alphabetical",
-    "reverse"
+    "筛选",
+    "排序",
+    "升序",
+    "降序",
+    "上升",
+    "下降",
+    "字母顺序",
+    "反向"
   ],
   "categories": [
     "text",
@@ -31,22 +30,24 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头下ZA",
+    "en": {
+      "name": "arrow down Z A",
       "tags": [
-        "筛选",
-        "排序",
-        "升序",
-        "降序",
-        "上升",
-        "下降",
-        "字母顺序",
-        "反向"
+        "filter",
+        "sort",
+        "ascending",
+        "descending",
+        "increasing",
+        "decreasing",
+        "rising",
+        "falling",
+        "alphabetical",
+        "reverse"
       ],
       "categories": [
-        "文本格式",
-        "布局",
-        "箭头"
+        "Text formatting",
+        "Layout",
+        "Arrows"
       ]
     }
   }

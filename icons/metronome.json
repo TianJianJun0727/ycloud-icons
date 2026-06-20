@@ -5,49 +5,50 @@
     "edwloef"
   ],
   "use-cases": [],
+  "name": "节拍器",
   "tags": [
-    "metronome",
-    "tempo",
-    "rhythm",
-    "beat",
-    "bpm",
-    "music",
-    "audio",
-    "sound",
-    "practice",
-    "timing",
-    "timer",
-    "time",
-    "pulse",
-    "sync",
-    "cadence",
-    "control",
-    "playback",
-    "studio",
-    "tool"
+    "节拍器",
+    "音乐",
+    "音频",
+    "计时器",
+    "时间",
+    "脉搏",
+    "同步",
+    "控制",
+    "工具",
+    "声音"
   ],
   "categories": [
     "multimedia",
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "节拍器",
+    "en": {
+      "name": "metronome",
       "tags": [
-        "节拍器",
-        "音乐",
-        "音频",
-        "计时器",
-        "时间",
-        "脉搏",
-        "同步",
-        "控制",
-        "工具",
-        "声音"
+        "metronome",
+        "tempo",
+        "rhythm",
+        "beat",
+        "bpm",
+        "music",
+        "audio",
+        "sound",
+        "practice",
+        "timing",
+        "timer",
+        "time",
+        "pulse",
+        "sync",
+        "cadence",
+        "control",
+        "playback",
+        "studio",
+        "tool"
       ],
       "categories": [
-        "多媒体",
-        "时间与日历"
+        "Multimedia",
+        "Time & calendar"
       ]
     }
   }

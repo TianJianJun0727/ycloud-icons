@@ -4,43 +4,44 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件夹点",
   "tags": [
-    "directory",
-    "root",
-    "project",
-    "pinned",
-    "active",
-    "current",
-    "cogged",
-    "gear",
-    "mechanical",
-    "machinery",
-    "configuration",
-    "controls",
-    "preferences",
-    "settings",
-    "system",
-    "admin",
-    "edit"
+    "根",
+    "项目",
+    "定位",
+    "设置",
+    "编辑",
+    "目录"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹点",
+    "en": {
+      "name": "folder dot",
       "tags": [
-        "根",
-        "项目",
-        "定位",
-        "设置",
-        "编辑",
-        "目录"
+        "directory",
+        "root",
+        "project",
+        "pinned",
+        "active",
+        "current",
+        "cogged",
+        "gear",
+        "mechanical",
+        "machinery",
+        "configuration",
+        "controls",
+        "preferences",
+        "settings",
+        "system",
+        "admin",
+        "edit"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

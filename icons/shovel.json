@@ -6,10 +6,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "铲子",
   "tags": [
-    "dig",
-    "spade",
-    "treasure"
+    "黑桃"
   ],
   "categories": [
     "nature",
@@ -17,15 +16,17 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "铲子",
+    "en": {
+      "name": "shovel",
       "tags": [
-        "黑桃"
+        "dig",
+        "spade",
+        "treasure"
       ],
       "categories": [
-        "自然",
-        "工具",
-        "游戏"
+        "Nature",
+        "Tools",
+        "Gaming"
       ]
     }
   }

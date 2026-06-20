@@ -7,28 +7,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "用户笔",
   "tags": [
-    "person",
-    "account",
-    "contact",
-    "profile",
-    "edit",
-    "change"
+    "人员",
+    "账号",
+    "联系人",
+    "编辑"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "用户笔",
+    "en": {
+      "name": "user pen",
       "tags": [
-        "人员",
-        "账号",
-        "联系人",
-        "编辑"
+        "person",
+        "account",
+        "contact",
+        "profile",
+        "edit",
+        "change"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

@@ -5,23 +5,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "柑橘",
   "tags": [
-    "lemon",
-    "orange",
-    "grapefruit",
-    "fruit"
+    "水果"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "柑橘",
+    "en": {
+      "name": "citrus",
       "tags": [
-        "水果"
+        "lemon",
+        "orange",
+        "grapefruit",
+        "fruit"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

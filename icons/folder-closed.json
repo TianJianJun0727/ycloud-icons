@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "文件夹关闭",
   "tags": [
-    "directory",
-    "closed"
+    "关闭",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹关闭",
+    "en": {
+      "name": "folder closed",
       "tags": [
-        "关闭",
-        "目录"
+        "directory",
+        "closed"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

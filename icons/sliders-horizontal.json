@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "滑块水平",
   "tags": [
-    "settings",
-    "filters",
-    "controls"
+    "设置"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "滑块水平",
+    "en": {
+      "name": "sliders horizontal",
       "tags": [
-        "设置"
+        "settings",
+        "filters",
+        "controls"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

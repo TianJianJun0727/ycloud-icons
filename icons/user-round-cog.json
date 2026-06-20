@@ -5,11 +5,11 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "用户圆形齿轮",
   "tags": [
-    "settings",
-    "edit",
-    "cog",
-    "gear"
+    "设置",
+    "编辑",
+    "齿轮"
   ],
   "categories": [
     "account"
@@ -23,15 +23,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "用户圆形齿轮",
+    "en": {
+      "name": "user round cog",
       "tags": [
-        "设置",
-        "编辑",
-        "齿轮"
+        "settings",
+        "edit",
+        "cog",
+        "gear"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

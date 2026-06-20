@@ -5,23 +5,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头上右",
   "tags": [
-    "direction",
-    "north-east",
-    "diagonal"
+    "方向",
+    "对角线"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头上右",
+    "en": {
+      "name": "arrow up right",
       "tags": [
-        "方向",
-        "对角线"
+        "direction",
+        "north-east",
+        "diagonal"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章告警",
   "tags": [
-    "check",
-    "verified",
-    "unverified",
-    "security",
-    "safety",
-    "issue"
+    "勾选",
+    "安全",
+    "问题",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "account",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章告警",
+    "en": {
+      "name": "badge alert",
       "tags": [
-        "勾选",
-        "安全",
-        "问题",
-        "已验证",
-        "未验证"
+        "check",
+        "verified",
+        "unverified",
+        "security",
+        "safety",
+        "issue"
       ],
       "categories": [
-        "账号与访问",
-        "社交"
+        "Accounts & access",
+        "Social"
       ]
     }
   }

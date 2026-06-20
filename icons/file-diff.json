@@ -5,23 +5,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件差异",
   "tags": [
-    "diff",
-    "patch"
+    "差异"
   ],
   "categories": [
     "files",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件差异",
+    "en": {
+      "name": "file diff",
       "tags": [
-        "差异"
+        "diff",
+        "patch"
       ],
       "categories": [
-        "文件",
-        "编码与开发"
+        "File icons",
+        "Coding & development"
       ]
     }
   }

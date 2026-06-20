@@ -6,10 +6,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件信号",
   "tags": [
-    "audio",
-    "music",
-    "volume"
+    "音频",
+    "音乐",
+    "音量"
   ],
   "categories": [
     "files"
@@ -23,15 +24,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件信号",
+    "en": {
+      "name": "file signal",
       "tags": [
-        "音频",
-        "音乐",
-        "音量"
+        "audio",
+        "music",
+        "volume"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

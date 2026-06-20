@@ -5,10 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "八边形暂停",
   "tags": [
-    "music",
-    "audio",
-    "stop"
+    "音乐",
+    "音频",
+    "停止"
   ],
   "categories": [
     "multimedia",
@@ -23,16 +24,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "八边形暂停",
+    "en": {
+      "name": "octagon pause",
       "tags": [
-        "音乐",
-        "音频",
-        "停止"
+        "music",
+        "audio",
+        "stop"
       ],
       "categories": [
-        "多媒体",
-        "形状"
+        "Multimedia",
+        "Shapes"
       ]
     }
   }

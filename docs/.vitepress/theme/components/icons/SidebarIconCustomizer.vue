@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { shallowRef, type Ref, watch, computed } from 'vue';
 import { useCssVar, syncRef } from '@vueuse/core';
-import { STYLE_DEFAULTS, useIconStyleContext } from '../../composables/useIconStyle';
+import { STYLE_DEFAULTS, useIconStyleContext } from '@theme/composables/useIconStyle';
 import RangeSlider from '../base/RangeSlider.vue';
 import InputField from '../base/InputField.vue';
 import ColorPicker from '../base/ColorPicker.vue';

@@ -4,23 +4,24 @@
     "gurtt"
   ],
   "use-cases": [],
+  "name": "折纸",
   "tags": [
-    "paper",
-    "bird"
+    "鸟"
   ],
   "categories": [
     "animals",
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "折纸",
+    "en": {
+      "name": "origami",
       "tags": [
-        "鸟"
+        "paper",
+        "bird"
       ],
       "categories": [
-        "动物",
-        "设计"
+        "Animals",
+        "Design"
       ]
     }
   }

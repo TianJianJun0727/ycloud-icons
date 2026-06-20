@@ -6,21 +6,22 @@
     "mittalyashu"
   ],
   "use-cases": [],
+  "name": "云雾",
   "tags": [
-    "weather",
-    "mist"
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "云雾",
+    "en": {
+      "name": "cloud fog",
       "tags": [
-        "天气"
+        "weather",
+        "mist"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

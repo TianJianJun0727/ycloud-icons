@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "线缆汽车",
   "tags": [
-    "ski lift",
-    "winter holiday",
-    "alpine",
-    "resort",
-    "mountains"
+    "缆车",
+    "索道",
+    "交通"
   ],
   "categories": [
     "transportation",
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "线缆汽车",
+    "en": {
+      "name": "cable car",
       "tags": [
-        "缆车",
-        "索道",
-        "交通"
+        "ski lift",
+        "winter holiday",
+        "alpine",
+        "resort",
+        "mountains"
       ],
       "categories": [
-        "交通",
-        "旅行"
+        "Transportation",
+        "Travel"
       ]
     }
   }

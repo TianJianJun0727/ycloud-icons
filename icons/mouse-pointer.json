@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "鼠标指针",
   "tags": [
-    "click",
-    "select"
+    "点击",
+    "选择"
   ],
   "categories": [
     "arrows",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼠标指针",
+    "en": {
+      "name": "mouse pointer",
       "tags": [
-        "点击",
-        "选择"
+        "click",
+        "select"
       ],
       "categories": [
-        "箭头",
-        "光标"
+        "Arrows",
+        "Cursors"
       ]
     }
   }

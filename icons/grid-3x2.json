@@ -4,23 +4,17 @@
     "qubrat"
   ],
   "use-cases": [],
+  "name": "网格3x2",
   "tags": [
-    "table",
-    "rows",
-    "columns",
-    "blocks",
-    "plot",
-    "land",
-    "geometry",
-    "measure",
-    "size",
-    "width",
-    "height",
-    "distance",
-    "surface area",
-    "square meter",
-    "acre",
-    "window"
+    "表格",
+    "行",
+    "列",
+    "积木",
+    "图",
+    "土地",
+    "surface区域",
+    "方形仪表",
+    "窗口"
   ],
   "categories": [
     "text",
@@ -29,24 +23,31 @@
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "网格3x2",
+    "en": {
+      "name": "grid 3x2",
       "tags": [
-        "表格",
-        "行",
-        "列",
-        "积木",
-        "图",
-        "土地",
-        "surface区域",
-        "方形仪表",
-        "窗口"
+        "table",
+        "rows",
+        "columns",
+        "blocks",
+        "plot",
+        "land",
+        "geometry",
+        "measure",
+        "size",
+        "width",
+        "height",
+        "distance",
+        "surface area",
+        "square meter",
+        "acre",
+        "window"
       ],
       "categories": [
-        "文本格式",
-        "数学",
-        "布局",
-        "设计"
+        "Text formatting",
+        "Mathematics",
+        "Layout",
+        "Design"
       ]
     }
   }

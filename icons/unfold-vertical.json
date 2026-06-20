@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "展开垂直",
   "tags": [
-    "arrow",
-    "expand",
-    "vertical",
-    "dashed"
+    "箭头",
+    "展开",
+    "垂直",
+    "虚线"
   ],
   "categories": [
     "arrows",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "展开垂直",
+    "en": {
+      "name": "unfold vertical",
       "tags": [
-        "箭头",
-        "展开",
-        "垂直",
-        "虚线"
+        "arrow",
+        "expand",
+        "vertical",
+        "dashed"
       ],
       "categories": [
-        "箭头",
-        "布局"
+        "Arrows",
+        "Layout"
       ]
     }
   }

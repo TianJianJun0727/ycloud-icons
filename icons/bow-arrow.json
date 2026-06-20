@@ -4,28 +4,29 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "弓箭头",
   "tags": [
-    "archer",
-    "archery",
-    "game",
-    "war",
-    "weapon"
+    "游戏",
+    "战争",
+    "武器"
   ],
   "categories": [
     "gaming",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "弓箭头",
+    "en": {
+      "name": "bow arrow",
       "tags": [
-        "游戏",
-        "战争",
-        "武器"
+        "archer",
+        "archery",
+        "game",
+        "war",
+        "weapon"
       ],
       "categories": [
-        "游戏",
-        "工具"
+        "Gaming",
+        "Tools"
       ]
     }
   }

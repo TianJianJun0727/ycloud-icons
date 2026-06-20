@@ -6,14 +6,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "面板左打开",
   "tags": [
-    "primary",
-    "drawer",
-    "show",
-    "reveal",
-    "chevron",
-    "right",
-    ">"
+    "折角箭头",
+    "右",
+    "抽屉",
+    "向右"
   ],
   "categories": [
     "layout",
@@ -28,17 +26,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "面板左打开",
+    "en": {
+      "name": "panel left open",
       "tags": [
-        "折角箭头",
-        "右",
-        "抽屉",
-        "向右"
+        "primary",
+        "drawer",
+        "show",
+        "reveal",
+        "chevron",
+        "right",
+        ">"
       ],
       "categories": [
-        "布局",
-        "箭头"
+        "Layout",
+        "Arrows"
       ]
     }
   }

@@ -6,13 +6,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "房屋爱心",
   "tags": [
-    "home sweet home",
-    "abode",
-    "building",
-    "residence",
-    "healthy living",
-    "lifestyle"
+    "家居sweet家居",
+    "建筑"
   ],
   "categories": [
     "home",
@@ -20,16 +17,20 @@
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "房屋爱心",
+    "en": {
+      "name": "house heart",
       "tags": [
-        "家居sweet家居",
-        "建筑"
+        "home sweet home",
+        "abode",
+        "building",
+        "residence",
+        "healthy living",
+        "lifestyle"
       ],
       "categories": [
-        "家居",
-        "建筑",
-        "医疗"
+        "Home",
+        "Buildings",
+        "Medical"
       ]
     }
   }

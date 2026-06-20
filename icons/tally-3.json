@@ -4,33 +4,34 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "计数3",
   "tags": [
-    "count",
-    "score",
-    "enumerate",
-    "days",
-    "three",
-    "3",
-    "third",
-    "triple",
-    "bars",
-    "prison",
-    "cell",
-    "sentence"
+    "天数"
   ],
   "categories": [
     "math",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "计数3",
+    "en": {
+      "name": "tally 3",
       "tags": [
-        "天数"
+        "count",
+        "score",
+        "enumerate",
+        "days",
+        "three",
+        "3",
+        "third",
+        "triple",
+        "bars",
+        "prison",
+        "cell",
+        "sentence"
       ],
       "categories": [
-        "数学",
-        "游戏"
+        "Mathematics",
+        "Gaming"
       ]
     }
   }

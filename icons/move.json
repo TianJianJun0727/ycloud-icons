@@ -5,22 +5,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "移动",
   "tags": [
-    "arrows"
+    "箭头"
   ],
   "categories": [
     "arrows",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "移动",
+    "en": {
+      "name": "move",
       "tags": [
-        "箭头"
+        "arrows"
       ],
       "categories": [
-        "箭头",
-        "光标"
+        "Arrows",
+        "Cursors"
       ]
     }
   }

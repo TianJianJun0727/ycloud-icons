@@ -7,35 +7,36 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "鸡蛋",
   "tags": [
-    "bird",
-    "chicken",
-    "nest",
-    "hatch",
-    "shell",
-    "incubate",
-    "soft boiled",
-    "hard",
-    "breakfast",
-    "brunch",
-    "morning",
-    "easter"
+    "鸟",
+    "外壳",
+    "硬盘"
   ],
   "categories": [
     "food-beverage",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "鸡蛋",
+    "en": {
+      "name": "egg",
       "tags": [
-        "鸟",
-        "外壳",
-        "硬盘"
+        "bird",
+        "chicken",
+        "nest",
+        "hatch",
+        "shell",
+        "incubate",
+        "soft boiled",
+        "hard",
+        "breakfast",
+        "brunch",
+        "morning",
+        "easter"
       ],
       "categories": [
-        "餐饮",
-        "动物"
+        "Food & beverage",
+        "Animals"
       ]
     }
   }

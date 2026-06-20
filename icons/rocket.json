@@ -5,26 +5,27 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "火箭",
   "tags": [
-    "release",
-    "boost",
-    "launch",
-    "space",
-    "version"
+    "间距"
   ],
   "categories": [
     "gaming",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "火箭",
+    "en": {
+      "name": "rocket",
       "tags": [
-        "间距"
+        "release",
+        "boost",
+        "launch",
+        "space",
+        "version"
       ],
       "categories": [
-        "游戏",
-        "编码与开发"
+        "Gaming",
+        "Coding & development"
       ]
     }
   }

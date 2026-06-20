@@ -6,27 +6,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "邮件",
   "tags": [
-    "emails",
-    "messages",
-    "letters",
-    "multiple",
-    "mailing list",
-    "newsletter",
-    "copy"
+    "mailing列表",
+    "复制"
   ],
   "categories": [
     "mail"
   ],
   "i18n": {
-    "zh": {
-      "name": "邮件",
+    "en": {
+      "name": "mails",
       "tags": [
-        "mailing列表",
-        "复制"
+        "emails",
+        "messages",
+        "letters",
+        "multiple",
+        "mailing list",
+        "newsletter",
+        "copy"
       ],
       "categories": [
-        "邮件"
+        "Mail"
       ]
     }
   }

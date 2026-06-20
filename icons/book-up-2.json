@@ -4,27 +4,28 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍上2",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "push",
-    "force"
+    "代码",
+    "version控制"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍上2",
+    "en": {
+      "name": "book up 2",
       "tags": [
-        "代码",
-        "version控制"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "push",
+        "force"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

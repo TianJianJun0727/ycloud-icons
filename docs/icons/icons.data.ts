@@ -9,10 +9,13 @@ export default {
           {
             name,
             displayName,
+            englishName,
             tags,
             displayTags,
+            englishTags,
             categories,
             displayCategories,
+            englishCategories,
             iconNode,
             popularity,
             createdRelease,
@@ -21,10 +24,13 @@ export default {
         ]) => ({
           name,
           displayName,
+          englishName,
           tags,
           displayTags,
+          englishTags,
           categories,
           displayCategories,
+          englishCategories,
           iconNode,
           popularity: popularity?.count ?? 0,
           aliases: aliases

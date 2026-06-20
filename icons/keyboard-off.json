@@ -5,12 +5,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "键盘关闭",
   "tags": [
-    "unkeys",
-    "layout",
-    "spell",
-    "settings",
-    "mouse"
+    "布局",
+    "拼写",
+    "设置",
+    "鼠标"
   ],
   "categories": [
     "devices",
@@ -18,18 +18,19 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "键盘关闭",
+    "en": {
+      "name": "keyboard off",
       "tags": [
-        "布局",
-        "拼写",
-        "设置",
-        "鼠标"
+        "unkeys",
+        "layout",
+        "spell",
+        "settings",
+        "mouse"
       ],
       "categories": [
-        "设备",
-        "文本格式",
-        "编码与开发"
+        "Devices",
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

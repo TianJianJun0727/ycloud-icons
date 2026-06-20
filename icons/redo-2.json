@@ -6,25 +6,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "重做2",
   "tags": [
-    "undo",
-    "rerun",
-    "history"
+    "撤销",
+    "历史"
   ],
   "categories": [
     "text",
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "重做2",
+    "en": {
+      "name": "redo 2",
       "tags": [
-        "撤销",
-        "历史"
+        "undo",
+        "rerun",
+        "history"
       ],
       "categories": [
-        "文本格式",
-        "箭头"
+        "Text formatting",
+        "Arrows"
       ]
     }
   }

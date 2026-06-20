@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "卫星",
   "tags": [
-    "space station",
-    "orbit",
-    "transmitter"
+    "间距station",
+    "轨道"
   ],
   "categories": [
     "connectivity",
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "卫星",
+    "en": {
+      "name": "satellite",
       "tags": [
-        "间距station",
-        "轨道"
+        "space station",
+        "orbit",
+        "transmitter"
       ],
       "categories": [
-        "连接",
-        "科学"
+        "Connectivity",
+        "Science"
       ]
     }
   }

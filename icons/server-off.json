@@ -6,23 +6,24 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "服务器关闭",
   "tags": [
-    "cloud",
-    "storage"
+    "云"
   ],
   "categories": [
     "development",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "服务器关闭",
+    "en": {
+      "name": "server off",
       "tags": [
-        "云"
+        "cloud",
+        "storage"
       ],
       "categories": [
-        "编码与开发",
-        "设备"
+        "Coding & development",
+        "Devices"
       ]
     }
   }

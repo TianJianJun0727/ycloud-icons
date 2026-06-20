@@ -7,33 +7,34 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "马天尼",
   "tags": [
-    "cocktail",
-    "alcohol",
-    "beverage",
-    "bar",
-    "drink",
-    "glass",
-    "spirit",
-    "party",
-    "celebration",
-    "mixer"
+    "条形",
+    "饮品",
+    "玻璃杯",
+    "派对",
+    "庆祝"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "马天尼",
+    "en": {
+      "name": "martini",
       "tags": [
-        "条形",
-        "饮品",
-        "玻璃杯",
-        "派对",
-        "庆祝"
+        "cocktail",
+        "alcohol",
+        "beverage",
+        "bar",
+        "drink",
+        "glass",
+        "spirit",
+        "party",
+        "celebration",
+        "mixer"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

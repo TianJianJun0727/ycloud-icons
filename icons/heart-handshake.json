@@ -6,15 +6,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "爱心握手",
   "tags": [
-    "agreement",
-    "charity",
-    "help",
-    "deal",
-    "terms",
-    "emotion",
-    "together",
-    "handshake"
+    "情绪",
+    "握手",
+    "帮助"
   ],
   "categories": [
     "emoji",
@@ -22,17 +18,22 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "爱心握手",
+    "en": {
+      "name": "heart handshake",
       "tags": [
-        "情绪",
-        "握手",
-        "帮助"
+        "agreement",
+        "charity",
+        "help",
+        "deal",
+        "terms",
+        "emotion",
+        "together",
+        "handshake"
       ],
       "categories": [
-        "表情",
-        "账号与访问",
-        "安全"
+        "Emoji",
+        "Accounts & access",
+        "Security"
       ]
     }
   }

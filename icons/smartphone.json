@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "智能手机",
   "tags": [
-    "phone",
-    "cellphone",
-    "device",
-    "screen"
+    "电话",
+    "设备",
+    "屏幕"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "智能手机",
+    "en": {
+      "name": "smartphone",
       "tags": [
-        "电话",
-        "设备",
-        "屏幕"
+        "phone",
+        "cellphone",
+        "device",
+        "screen"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

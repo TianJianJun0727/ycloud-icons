@@ -6,30 +6,31 @@
     "gubser"
   ],
   "use-cases": [],
+  "name": "时钟加号",
   "tags": [
-    "time",
-    "watch",
-    "alarm",
-    "add",
-    "create",
-    "new"
+    "时间",
+    "手表",
+    "闹钟",
+    "添加",
+    "创建",
+    "新建"
   ],
   "categories": [
     "time"
   ],
   "i18n": {
-    "zh": {
-      "name": "时钟加号",
+    "en": {
+      "name": "clock plus",
       "tags": [
-        "时间",
-        "手表",
-        "闹钟",
-        "添加",
-        "创建",
-        "新建"
+        "time",
+        "watch",
+        "alarm",
+        "add",
+        "create",
+        "new"
       ],
       "categories": [
-        "时间与日历"
+        "Time & calendar"
       ]
     }
   }

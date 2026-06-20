@@ -4,16 +4,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍锁定",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "private",
-    "secret",
-    "hidden",
-    "knowledge"
+    "代码",
+    "version控制",
+    "知识"
   ],
   "categories": [
     "development",
@@ -21,17 +16,23 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍锁定",
+    "en": {
+      "name": "book lock",
       "tags": [
-        "代码",
-        "version控制",
-        "知识"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "private",
+        "secret",
+        "hidden",
+        "knowledge"
       ],
       "categories": [
-        "编码与开发",
-        "安全",
-        "游戏"
+        "Coding & development",
+        "Security",
+        "Gaming"
       ]
     }
   }

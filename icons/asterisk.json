@@ -5,16 +5,10 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "星号",
   "tags": [
-    "reference",
-    "times",
-    "multiply",
-    "multiplication",
-    "operator",
-    "code",
-    "glob pattern",
-    "wildcard",
-    "*"
+    "代码",
+    "glob图案"
   ],
   "categories": [
     "text",
@@ -22,16 +16,23 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "星号",
+    "en": {
+      "name": "asterisk",
       "tags": [
-        "代码",
-        "glob图案"
+        "reference",
+        "times",
+        "multiply",
+        "multiplication",
+        "operator",
+        "code",
+        "glob pattern",
+        "wildcard",
+        "*"
       ],
       "categories": [
-        "文本格式",
-        "数学",
-        "编码与开发"
+        "Text formatting",
+        "Mathematics",
+        "Coding & development"
       ]
     }
   }

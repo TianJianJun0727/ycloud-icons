@@ -5,12 +5,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件搜索角落",
   "tags": [
-    "lost",
-    "document",
-    "find",
-    "browser",
-    "lens"
+    "镜头",
+    "文档"
   ],
   "categories": [
     "files"
@@ -24,14 +22,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件搜索角落",
+    "en": {
+      "name": "file search corner",
       "tags": [
-        "镜头",
-        "文档"
+        "lost",
+        "document",
+        "find",
+        "browser",
+        "lens"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

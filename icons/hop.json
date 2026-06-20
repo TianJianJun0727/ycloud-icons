@@ -4,23 +4,24 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "啤酒花",
   "tags": [
-    "beer",
-    "brewery",
-    "drink"
+    "啤酒",
+    "饮品"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "啤酒花",
+    "en": {
+      "name": "hop",
       "tags": [
-        "啤酒",
-        "饮品"
+        "beer",
+        "brewery",
+        "drink"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

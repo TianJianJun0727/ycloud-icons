@@ -6,20 +6,21 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "开放版权",
   "tags": [
-    "licence"
+    "许可"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "开放版权",
+    "en": {
+      "name": "copyleft",
       "tags": [
-        "许可"
+        "licence"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

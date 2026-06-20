@@ -7,36 +7,37 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "毕业帽子",
   "tags": [
-    "school",
-    "university",
-    "learn",
-    "study",
-    "mortarboard",
-    "education",
-    "ceremony",
-    "academic",
-    "hat",
-    "diploma",
-    "bachlor's",
-    "master's",
-    "doctorate"
+    "学校",
+    "大学",
+    "帽子",
+    "学习",
+    "教育"
   ],
   "categories": [
     "buildings"
   ],
   "i18n": {
-    "zh": {
-      "name": "毕业帽子",
+    "en": {
+      "name": "graduation cap",
       "tags": [
-        "学校",
-        "大学",
-        "帽子",
-        "学习",
-        "教育"
+        "school",
+        "university",
+        "learn",
+        "study",
+        "mortarboard",
+        "education",
+        "ceremony",
+        "academic",
+        "hat",
+        "diploma",
+        "bachlor's",
+        "master's",
+        "doctorate"
       ],
       "categories": [
-        "建筑"
+        "Buildings"
       ]
     }
   }

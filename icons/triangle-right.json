@@ -4,33 +4,34 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "三角形右",
   "tags": [
-    "volume",
-    "controls",
-    "controller",
-    "tv remote",
-    "geometry",
-    "delta",
-    "ramp",
-    "slope",
-    "incline",
-    "increase"
+    "音量",
+    "电视remote",
+    "增加"
   ],
   "categories": [
     "shapes",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "三角形右",
+    "en": {
+      "name": "triangle right",
       "tags": [
-        "音量",
-        "电视remote",
-        "增加"
+        "volume",
+        "controls",
+        "controller",
+        "tv remote",
+        "geometry",
+        "delta",
+        "ramp",
+        "slope",
+        "incline",
+        "increase"
       ],
       "categories": [
-        "形状",
-        "数学"
+        "Shapes",
+        "Mathematics"
       ]
     }
   }

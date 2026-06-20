@@ -4,22 +4,23 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "面板右底部",
   "tags": [
-    "drawers",
-    "sidebar",
-    "secondary"
+    "侧边栏"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板右底部",
+    "en": {
+      "name": "panels right bottom",
       "tags": [
-        "侧边栏"
+        "drawers",
+        "sidebar",
+        "secondary"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

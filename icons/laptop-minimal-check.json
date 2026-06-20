@@ -5,35 +5,36 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "笔记本电脑极简勾选",
   "tags": [
-    "computer",
-    "screen",
-    "remote",
-    "success",
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
+    "电脑",
+    "屏幕",
+    "完成",
+    "待办",
+    "勾选",
+    "任务"
   ],
   "categories": [
     "devices",
     "notifications"
   ],
   "i18n": {
-    "zh": {
-      "name": "笔记本电脑极简勾选",
+    "en": {
+      "name": "laptop minimal check",
       "tags": [
-        "电脑",
-        "屏幕",
-        "完成",
-        "待办",
-        "勾选",
-        "任务"
+        "computer",
+        "screen",
+        "remote",
+        "success",
+        "done",
+        "todo",
+        "tick",
+        "complete",
+        "task"
       ],
       "categories": [
-        "设备",
-        "通知"
+        "Devices",
+        "Notification"
       ]
     }
   }

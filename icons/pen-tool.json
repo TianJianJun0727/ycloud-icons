@@ -7,10 +7,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "笔工具",
   "tags": [
-    "vector",
-    "drawing",
-    "path"
+    "矢量"
   ],
   "categories": [
     "text",
@@ -18,15 +17,17 @@
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "笔工具",
+    "en": {
+      "name": "pen tool",
       "tags": [
-        "矢量"
+        "vector",
+        "drawing",
+        "path"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "光标"
+        "Text formatting",
+        "Design",
+        "Cursors"
       ]
     }
   }

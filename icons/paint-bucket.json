@@ -5,27 +5,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "绘制桶",
   "tags": [
-    "fill",
-    "paint",
-    "bucket",
-    "color",
-    "colour"
+    "绘制",
+    "桶"
   ],
   "categories": [
     "design",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "绘制桶",
+    "en": {
+      "name": "paint bucket",
       "tags": [
-        "绘制",
-        "桶"
+        "fill",
+        "paint",
+        "bucket",
+        "color",
+        "colour"
       ],
       "categories": [
-        "设计",
-        "工具"
+        "Design",
+        "Tools"
       ]
     }
   }

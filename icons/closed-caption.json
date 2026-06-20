@@ -5,34 +5,35 @@
     "UsamaKhan"
   ],
   "use-cases": [],
+  "name": "关闭字幕",
   "tags": [
-    "tv",
-    "movie",
-    "video",
-    "closed captions",
-    "subtitles",
-    "subhead",
-    "transcription",
-    "transcribe",
-    "dialogue",
-    "accessibility"
+    "电视",
+    "视频",
+    "关闭字幕",
+    "无障碍"
   ],
   "categories": [
     "accessibility",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "关闭字幕",
+    "en": {
+      "name": "closed caption",
       "tags": [
-        "电视",
-        "视频",
-        "关闭字幕",
-        "无障碍"
+        "tv",
+        "movie",
+        "video",
+        "closed captions",
+        "subtitles",
+        "subhead",
+        "transcription",
+        "transcribe",
+        "dialogue",
+        "accessibility"
       ],
       "categories": [
-        "无障碍",
-        "多媒体"
+        "Accessibility",
+        "Multimedia"
       ]
     }
   }

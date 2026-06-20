@@ -4,25 +4,16 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "天线",
   "tags": [
-    "signal",
-    "connection",
-    "connectivity",
-    "tv",
-    "television",
-    "broadcast",
-    "live",
-    "frequency",
-    "tune",
-    "scan",
-    "channels",
-    "aerial",
-    "receiver",
-    "transmission",
-    "transducer",
-    "terrestrial",
-    "satellite",
-    "cable"
+    "信号",
+    "连接",
+    "电视",
+    "扫描",
+    "接收器",
+    "卫星",
+    "线缆",
+    "缆车"
   ],
   "categories": [
     "devices",
@@ -30,22 +21,32 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "天线",
+    "en": {
+      "name": "antenna",
       "tags": [
-        "信号",
-        "连接",
-        "电视",
-        "扫描",
-        "接收器",
-        "卫星",
-        "线缆",
-        "缆车"
+        "signal",
+        "connection",
+        "connectivity",
+        "tv",
+        "television",
+        "broadcast",
+        "live",
+        "frequency",
+        "tune",
+        "scan",
+        "channels",
+        "aerial",
+        "receiver",
+        "transmission",
+        "transducer",
+        "terrestrial",
+        "satellite",
+        "cable"
       ],
       "categories": [
-        "设备",
-        "多媒体",
-        "沟通"
+        "Devices",
+        "Multimedia",
+        "Communication"
       ]
     }
   }

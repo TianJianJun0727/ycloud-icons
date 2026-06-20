@@ -5,25 +5,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件关闭",
   "tags": [
-    "lost",
-    "delete",
-    "remove",
-    "document"
+    "删除",
+    "移除",
+    "文档"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件关闭",
+    "en": {
+      "name": "file X",
       "tags": [
-        "删除",
-        "移除",
-        "文档"
+        "lost",
+        "delete",
+        "remove",
+        "document"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

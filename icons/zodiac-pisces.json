@@ -4,33 +4,34 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "星座双鱼座",
   "tags": [
-    "fish",
-    "duality",
-    "water",
-    "dreams",
-    "empathy",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "鱼",
+    "水",
+    "星标标志"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座双鱼座",
+    "en": {
+      "name": "zodiac pisces",
       "tags": [
-        "鱼",
-        "水",
-        "星标标志"
+        "fish",
+        "duality",
+        "water",
+        "dreams",
+        "empathy",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

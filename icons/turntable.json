@@ -4,40 +4,41 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "唱盘",
   "tags": [
-    "record player",
-    "gramophone",
-    "stereo",
-    "phonograph",
-    "vinyl",
-    "lp",
-    "disc",
-    "platter",
-    "cut",
-    "music",
-    "analog",
-    "retro",
-    "dj deck",
-    "disc jockey",
-    "scratch",
-    "spinning"
+    "光盘",
+    "餐盘",
+    "音乐",
+    "光盘jockey"
   ],
   "categories": [
     "multimedia",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "唱盘",
+    "en": {
+      "name": "turntable",
       "tags": [
-        "光盘",
-        "餐盘",
-        "音乐",
-        "光盘jockey"
+        "record player",
+        "gramophone",
+        "stereo",
+        "phonograph",
+        "vinyl",
+        "lp",
+        "disc",
+        "platter",
+        "cut",
+        "music",
+        "analog",
+        "retro",
+        "dj deck",
+        "disc jockey",
+        "scratch",
+        "spinning"
       ],
       "categories": [
-        "多媒体",
-        "家居"
+        "Multimedia",
+        "Home"
       ]
     }
   }

@@ -6,23 +6,24 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "灯吊顶",
   "tags": [
-    "lighting",
-    "household",
-    "home",
-    "furniture"
+    "家居"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "灯吊顶",
+    "en": {
+      "name": "lamp ceiling",
       "tags": [
-        "家居"
+        "lighting",
+        "household",
+        "home",
+        "furniture"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

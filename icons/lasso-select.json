@@ -6,9 +6,10 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "套索选择",
   "tags": [
-    "select",
-    "cursor"
+    "选择",
+    "光标"
   ],
   "categories": [
     "arrows",
@@ -16,16 +17,16 @@
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "套索选择",
+    "en": {
+      "name": "lasso select",
       "tags": [
-        "选择",
-        "光标"
+        "select",
+        "cursor"
       ],
       "categories": [
-        "箭头",
-        "设计",
-        "光标"
+        "Arrows",
+        "Design",
+        "Cursors"
       ]
     }
   }

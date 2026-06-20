@@ -6,36 +6,37 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "鱼关闭",
   "tags": [
-    "food",
-    "dish",
-    "restaurant",
-    "course",
-    "meal",
-    "seafood",
-    "animal",
-    "pet",
-    "sea",
-    "marine",
-    "allergy",
-    "intolerance",
-    "diet"
+    "食物",
+    "盘子",
+    "动物"
   ],
   "categories": [
     "food-beverage",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "鱼关闭",
+    "en": {
+      "name": "fish off",
       "tags": [
-        "食物",
-        "盘子",
-        "动物"
+        "food",
+        "dish",
+        "restaurant",
+        "course",
+        "meal",
+        "seafood",
+        "animal",
+        "pet",
+        "sea",
+        "marine",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮",
-        "动物"
+        "Food & beverage",
+        "Animals"
       ]
     }
   }

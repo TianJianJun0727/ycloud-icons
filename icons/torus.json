@@ -5,19 +5,14 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "圆环",
   "tags": [
-    "donut",
-    "doughnut",
-    "ring",
-    "hollow",
-    "3d",
-    "fast food",
-    "junk food",
-    "snack",
-    "treat",
-    "sweet",
-    "sugar",
-    "dessert"
+    "甜甜圈",
+    "响铃",
+    "三维",
+    "快速食物",
+    "junk食物",
+    "甜点"
   ],
   "categories": [
     "shapes",
@@ -26,21 +21,27 @@
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆环",
+    "en": {
+      "name": "torus",
       "tags": [
-        "甜甜圈",
-        "响铃",
-        "三维",
-        "快速食物",
-        "junk食物",
-        "甜点"
+        "donut",
+        "doughnut",
+        "ring",
+        "hollow",
+        "3d",
+        "fast food",
+        "junk food",
+        "snack",
+        "treat",
+        "sweet",
+        "sugar",
+        "dessert"
       ],
       "categories": [
-        "形状",
-        "设计",
-        "工具",
-        "餐饮"
+        "Shapes",
+        "Design",
+        "Tools",
+        "Food & beverage"
       ]
     }
   }

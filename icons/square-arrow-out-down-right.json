@@ -4,11 +4,10 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "方形箭头外部下右",
   "tags": [
-    "outwards",
-    "direction",
-    "south-east",
-    "diagonal"
+    "方向",
+    "对角线"
   ],
   "categories": [
     "arrows"
@@ -22,14 +21,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头外部下右",
+    "en": {
+      "name": "square arrow out down right",
       "tags": [
-        "方向",
-        "对角线"
+        "outwards",
+        "direction",
+        "south-east",
+        "diagonal"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

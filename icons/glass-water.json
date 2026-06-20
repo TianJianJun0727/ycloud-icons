@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "玻璃杯水",
   "tags": [
-    "beverage",
-    "drink",
-    "glass",
-    "water"
+    "饮品",
+    "玻璃杯",
+    "水"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "玻璃杯水",
+    "en": {
+      "name": "glass water",
       "tags": [
-        "饮品",
-        "玻璃杯",
-        "水"
+        "beverage",
+        "drink",
+        "glass",
+        "water"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

@@ -10,21 +10,13 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "铅笔线条",
   "tags": [
-    "pencil",
-    "change",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
-    "writer",
-    "writing",
-    "biro",
-    "ink",
-    "marker",
-    "felt tip",
-    "stationery",
-    "artist"
+    "铅笔",
+    "创建",
+    "草稿",
+    "标记",
+    "文具"
   ],
   "categories": [
     "text",
@@ -32,19 +24,28 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "铅笔线条",
+    "en": {
+      "name": "pencil line",
       "tags": [
-        "铅笔",
-        "创建",
-        "草稿",
-        "标记",
-        "文具"
+        "pencil",
+        "change",
+        "create",
+        "draw",
+        "sketch",
+        "draft",
+        "writer",
+        "writing",
+        "biro",
+        "ink",
+        "marker",
+        "felt tip",
+        "stationery",
+        "artist"
       ],
       "categories": [
-        "文本格式",
-        "设计",
-        "工具"
+        "Text formatting",
+        "Design",
+        "Tools"
       ]
     }
   }

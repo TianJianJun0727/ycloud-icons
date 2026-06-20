@@ -4,33 +4,34 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "票券减少",
   "tags": [
-    "entry",
-    "pass",
-    "voucher",
-    "event",
-    "concert",
-    "show",
-    "remove",
-    "cancel",
-    "unbook",
-    "subtract",
-    "decrease",
-    "-"
+    "移除",
+    "减去",
+    "减少"
   ],
   "categories": [
     "transportation"
   ],
   "i18n": {
-    "zh": {
-      "name": "票券减少",
+    "en": {
+      "name": "ticket minus",
       "tags": [
-        "移除",
-        "减去",
-        "减少"
+        "entry",
+        "pass",
+        "voucher",
+        "event",
+        "concert",
+        "show",
+        "remove",
+        "cancel",
+        "unbook",
+        "subtract",
+        "decrease",
+        "-"
       ],
       "categories": [
-        "交通"
+        "Transportation"
       ]
     }
   }

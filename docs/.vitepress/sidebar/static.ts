@@ -4,28 +4,28 @@ export const ycloudStaticSidebar = [
   {
     items: [
       {
-        text: '概览',
-        desc: '了解如何在项目中以静态资源方式使用 YCloud Icons。',
+        text: 'Overview',
+        desc: 'Overview of using YCloud Icons as static assets in your projects.',
         link: '/guide/static/',
       },
       {
-        text: '快速开始',
+        text: 'Getting started',
         link: '/guide/static/getting-started',
-        desc: '了解如何使用 YCloud Icons 静态资源。',
+        desc: 'Learn how to get started with YCloud static assets.',
       },
     ],
   },
   {
-    text: 'SVG 文件和 Sprite',
+    text: 'SVG Files & Sprite',
     items: [
       {
-        text: '以图片方式导入 SVG',
-        desc: '在项目中以图片方式使用图标。',
+        text: 'Import SVG files as images',
+        desc: 'Use icons as images in your project.',
         link: '/guide/static/link-as-image',
       },
       {
         text: 'SVG Sprite',
-        desc: '在项目中使用 SVG Sprite。',
+        desc: 'Use SVG sprites in your project.',
         link: '/guide/static/svg-sprite',
       },
     ],
@@ -34,54 +34,54 @@ export const ycloudStaticSidebar = [
     text: 'Icon Font',
     items: [
       {
-        text: '以字体方式导入',
-        desc: '在项目中以 Web Font 方式使用图标。',
+        text: 'Import as font',
+        desc: 'Use icons as a web font in your project.',
         link: '/guide/static/font/',
       },
       {
-        text: '颜色',
-        desc: '调整图标颜色。',
+        text: 'Color',
+        desc: 'Adjust the color of your icons.',
         link: '/guide/static/font/color',
       },
       {
-        text: '尺寸',
-        desc: '调整图标尺寸。',
+        text: 'Sizing',
+        desc: 'Adjust the size of your icons.',
         link: '/guide/static/font/sizing',
       },
     ],
   },
   {
-    text: 'SVG 字符串 JS 模块',
+    text: 'SVG String JS modules',
     items: [
       {
-        text: '在 Node.js 中使用',
-        desc: '在 Node.js 项目中使用 YCloud Icons。',
+        text: 'Use in Node.js',
+        desc: 'Use YCloud Icons in your Node.js projects.',
         link: '/guide/static/js-modules/node',
       },
       {
-        text: '在 JavaScript 项目中使用',
-        desc: '在 JavaScript 项目中使用 YCloud Icons。',
+        text: 'Use in JS projects',
+        desc: 'Use YCloud Icons in your JavaScript projects.',
         link: '/guide/static/js-modules/web',
       },
     ],
   },
   {
-    text: '进阶',
+    text: 'Advanced',
     items: [
       {
-        text: '架构',
+        text: 'Architecture',
         link: '/guide/architecture',
-        desc: 'YCloud Icons 仓库的组织方式与设计原因。',
+        desc: 'How the YCloud Icons repository is organized and why.',
       },
       {
-        text: '图标设计指南',
+        text: 'Icon design guide',
         link: '/guide/icon-design-guide',
-        desc: 'YCloud Icons 的设计规则与 SVG 代码约定。',
+        desc: 'Design rules and SVG conventions for YCloud Icons.',
       },
       {
-        text: '图标维护',
+        text: 'Icon maintenance',
         link: '/guide/icon-maintenance',
-        desc: '添加、修改和删除图标的维护流程。',
+        desc: 'Add, update, and remove icons in the repository.',
       },
     ],
   },

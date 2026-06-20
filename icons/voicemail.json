@@ -6,13 +6,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "语音信箱",
   "tags": [
-    "phone",
-    "cassette",
-    "tape",
-    "reel",
-    "recording",
-    "audio"
+    "电话",
+    "磁带",
+    "音频"
   ],
   "categories": [
     "connectivity",
@@ -20,17 +18,20 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "语音信箱",
+    "en": {
+      "name": "voicemail",
       "tags": [
-        "电话",
-        "磁带",
-        "音频"
+        "phone",
+        "cassette",
+        "tape",
+        "reel",
+        "recording",
+        "audio"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "社交"
+        "Connectivity",
+        "Devices",
+        "Social"
       ]
     }
   }

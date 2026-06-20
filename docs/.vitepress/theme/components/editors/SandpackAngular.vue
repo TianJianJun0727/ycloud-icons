@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { type SandpackFiles } from 'sandpack-vue3';
-import styledCSS from '../../sandpack-default.css?raw';
+import styledCSS from '@theme/sandpack-default.css?raw';
 import Sandpack from './Sandpack.vue';
 
 const props = defineProps<{

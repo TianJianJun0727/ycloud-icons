@@ -6,29 +6,9 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "排球",
   "tags": [
-    "beach",
-    "sand",
-    "net",
-    "holiday",
-    "vacation",
-    "summer",
-    "soccer",
-    "football",
-    "futbol",
-    "kick",
-    "pitch",
-    "goal",
-    "score",
-    "bounce",
-    "leather",
-    "wool",
-    "yarn",
-    "knitting",
-    "sewing",
-    "thread",
-    "embroidery",
-    "textile"
+    "目标"
   ],
   "categories": [
     "sports",
@@ -36,15 +16,36 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "排球",
+    "en": {
+      "name": "volleyball",
       "tags": [
-        "目标"
+        "beach",
+        "sand",
+        "net",
+        "holiday",
+        "vacation",
+        "summer",
+        "soccer",
+        "football",
+        "futbol",
+        "kick",
+        "pitch",
+        "goal",
+        "score",
+        "bounce",
+        "leather",
+        "wool",
+        "yarn",
+        "knitting",
+        "sewing",
+        "thread",
+        "embroidery",
+        "textile"
       ],
       "categories": [
-        "运动",
-        "游戏",
-        "旅行"
+        "Sports",
+        "Gaming",
+        "Travel"
       ]
     }
   }

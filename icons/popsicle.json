@@ -4,25 +4,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "冰棍",
   "tags": [
-    "ice lolly",
-    "ice cream",
-    "sweet",
-    "food"
+    "冰lolly",
+    "冰冰淇淋",
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "冰棍",
+    "en": {
+      "name": "popsicle",
       "tags": [
-        "冰lolly",
-        "冰冰淇淋",
-        "食物"
+        "ice lolly",
+        "ice cream",
+        "sweet",
+        "food"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

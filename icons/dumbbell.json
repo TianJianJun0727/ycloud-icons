@@ -5,25 +5,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "哑铃",
   "tags": [
-    "barbell",
-    "weight",
-    "workout",
-    "gym"
+    "重量"
   ],
   "categories": [
     "navigation",
     "sports"
   ],
   "i18n": {
-    "zh": {
-      "name": "哑铃",
+    "en": {
+      "name": "dumbbell",
       "tags": [
-        "重量"
+        "barbell",
+        "weight",
+        "workout",
+        "gym"
       ],
       "categories": [
-        "导航与地点",
-        "运动"
+        "Navigation & Places",
+        "Sports"
       ]
     }
   }

@@ -6,25 +6,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "六边形",
   "tags": [
-    "shape",
-    "node.js",
-    "logo"
+    "形状",
+    "标志"
   ],
   "categories": [
     "shapes",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "六边形",
+    "en": {
+      "name": "hexagon",
       "tags": [
-        "形状",
-        "标志"
+        "shape",
+        "node.js",
+        "logo"
       ],
       "categories": [
-        "形状",
-        "编码与开发"
+        "Shapes",
+        "Coding & development"
       ]
     }
   }

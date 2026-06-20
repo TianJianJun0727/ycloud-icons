@@ -5,27 +5,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "钥匙方形",
   "tags": [
-    "password",
-    "login",
-    "authentication",
-    "secure",
-    "unlock",
-    "car key"
+    "汽车钥匙"
   ],
   "categories": [
     "security",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "钥匙方形",
+    "en": {
+      "name": "key square",
       "tags": [
-        "汽车钥匙"
+        "password",
+        "login",
+        "authentication",
+        "secure",
+        "unlock",
+        "car key"
       ],
       "categories": [
-        "安全",
-        "账号与访问"
+        "Security",
+        "Accounts & access"
       ]
     }
   }

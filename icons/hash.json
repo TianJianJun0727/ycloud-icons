@@ -5,24 +5,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "哈希",
   "tags": [
-    "hashtag",
-    "number",
-    "pound"
+    "英镑"
   ],
   "categories": [
     "text",
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "哈希",
+    "en": {
+      "name": "hash",
       "tags": [
-        "英镑"
+        "hashtag",
+        "number",
+        "pound"
       ],
       "categories": [
-        "文本格式",
-        "社交"
+        "Text formatting",
+        "Social"
       ]
     }
   }

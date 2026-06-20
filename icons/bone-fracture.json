@@ -7,41 +7,42 @@
     "indicate injury or fracture status in health/fitness tracking",
     "show an error or failed state in healthcare UI flows"
   ],
+  "name": "骨头骨折",
   "tags": [
-    "bone",
-    "fracture",
-    "injury",
-    "orthopedic",
-    "medical",
-    "anatomy",
-    "skeletal",
-    "broken",
-    "xray",
-    "trauma",
-    "health",
-    "vet",
-    "veterinary",
-    "crack",
-    "break",
-    "damage"
+    "骨头",
+    "骨折",
+    "医疗",
+    "健康",
+    "裂纹"
   ],
   "categories": [
     "medical",
     "animals"
   ],
   "i18n": {
-    "zh": {
-      "name": "骨头骨折",
+    "en": {
+      "name": "bone fracture",
       "tags": [
-        "骨头",
-        "骨折",
-        "医疗",
-        "健康",
-        "裂纹"
+        "bone",
+        "fracture",
+        "injury",
+        "orthopedic",
+        "medical",
+        "anatomy",
+        "skeletal",
+        "broken",
+        "xray",
+        "trauma",
+        "health",
+        "vet",
+        "veterinary",
+        "crack",
+        "break",
+        "damage"
       ],
       "categories": [
-        "医疗",
-        "动物"
+        "Medical",
+        "Animals"
       ]
     }
   }

@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
+import { useData } from 'vitepress';
 import ButtonMenu from '../base/ButtonMenu.vue';
-import { useIconStyleContext } from '../../composables/useIconStyle';
-import useConfetti from '../../composables/useConfetti';
-import getSVGIcon from '../../utils/getSVGIcon';
-import downloadData from '../../utils/downloadData';
+import { useIconStyleContext } from '@theme/composables/useIconStyle';
+import useConfetti from '@theme/composables/useConfetti';
+import getSVGIcon from '@theme/utils/getSVGIcon';
+import downloadData from '@theme/utils/downloadData';
 
-const downloadText = '已下载';
-const copiedText = '已复制';
-const confettiText = ref(copiedText);
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+const downloadText = computed(() => (isEnglish.value ? 'Downloaded' : '已下载'));
+const copiedText = computed(() => (isEnglish.value ? 'Copied' : '已复制'));
+const confettiText = ref(copiedText.value);
 const props = defineProps<{
   name: string;
   popoverPosition?: 'top' | 'bottom';
@@ -19,7 +22,7 @@ const { size } = useIconStyleContext();
 const { animate, confetti } = useConfetti();
 
 function copySVG() {
-  confettiText.value = copiedText;
+  confettiText.value = copiedText.value;
   const svgString = getSVGIcon();
 
   navigator.clipboard.writeText(svgString);
@@ -28,7 +31,7 @@ function copySVG() {
 }
 
 function copyDataUrl() {
-  confettiText.value = copiedText;
+  confettiText.value = copiedText.value;
   const svgString = getSVGIcon();
 
   // Create SVG data url
@@ -39,7 +42,7 @@ function copyDataUrl() {
 }
 
 function downloadSVG() {
-  confettiText.value = downloadText;
+  confettiText.value = downloadText.value;
   const svgString = getSVGIcon();
 
   downloadData(`${props.name}.svg`, `data:image/svg+xml;base64,${btoa(svgString)}`);
@@ -47,7 +50,7 @@ function downloadSVG() {
 }
 
 function downloadPNG() {
-  confettiText.value = downloadText;
+  confettiText.value = downloadText.value;
   const svgString = getSVGIcon();
 
   const canvas = document.createElement('canvas');
@@ -73,10 +76,10 @@ function downloadPNG() {
     :data-confetti-text="confettiText"
     :popoverPosition="popoverPosition"
     :options="[
-      { text: '复制 SVG', onClick: copySVG },
-      { text: '复制 Data URL', onClick: copyDataUrl },
-      { text: '下载 SVG', onClick: downloadSVG },
-      { text: '下载 PNG', onClick: downloadPNG },
+      { text: isEnglish ? 'Copy SVG' : '复制 SVG', onClick: copySVG },
+      { text: isEnglish ? 'Copy Data URL' : '复制 Data URL', onClick: copyDataUrl },
+      { text: isEnglish ? 'Download SVG' : '下载 SVG', onClick: downloadSVG },
+      { text: isEnglish ? 'Download PNG' : '下载 PNG', onClick: downloadPNG },
     ]"
   />
 </template>

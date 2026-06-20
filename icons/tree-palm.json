@@ -4,10 +4,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "树棕榈",
   "tags": [
-    "vacation",
-    "leisure",
-    "island"
+    "棕榈树",
+    "热带",
+    "自然"
   ],
   "categories": [
     "nature",
@@ -22,16 +23,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "树棕榈",
+    "en": {
+      "name": "tree palm",
       "tags": [
-        "棕榈树",
-        "热带",
-        "自然"
+        "vacation",
+        "leisure",
+        "island"
       ],
       "categories": [
-        "自然",
-        "可持续"
+        "Nature",
+        "Sustainability"
       ]
     }
   }

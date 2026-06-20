@@ -4,51 +4,52 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "工具箱",
   "tags": [
-    "toolkit",
-    "tools",
-    "trunk",
-    "chest",
-    "box",
-    "storage",
-    "utility",
-    "utilities",
-    "container",
-    "kit",
-    "set",
-    "repair",
-    "fix",
-    "service",
-    "maintenance",
-    "mechanic",
-    "workshop",
-    "construction",
-    "hardware",
-    "equipment",
-    "gear",
-    "handyman",
-    "engineering",
-    "craft",
-    "diy"
+    "盒子",
+    "公用设施",
+    "容器",
+    "施工",
+    "维护",
+    "设备"
   ],
   "categories": [
     "tools",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "工具箱",
+    "en": {
+      "name": "toolbox",
       "tags": [
-        "盒子",
-        "公用设施",
-        "容器",
-        "施工",
-        "维护",
-        "设备"
+        "toolkit",
+        "tools",
+        "trunk",
+        "chest",
+        "box",
+        "storage",
+        "utility",
+        "utilities",
+        "container",
+        "kit",
+        "set",
+        "repair",
+        "fix",
+        "service",
+        "maintenance",
+        "mechanic",
+        "workshop",
+        "construction",
+        "hardware",
+        "equipment",
+        "gear",
+        "handyman",
+        "engineering",
+        "craft",
+        "diy"
       ],
       "categories": [
-        "工具",
-        "家居"
+        "Tools",
+        "Home"
       ]
     }
   }

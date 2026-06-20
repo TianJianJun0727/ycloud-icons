@@ -8,12 +8,12 @@
     "Need-an-AwP"
   ],
   "use-cases": [],
+  "name": "耳机关闭",
   "tags": [
-    "music",
-    "audio",
-    "sound",
-    "mute",
-    "off"
+    "音乐",
+    "音频",
+    "关闭",
+    "声音"
   ],
   "categories": [
     "multimedia",
@@ -23,20 +23,21 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "耳机关闭",
+    "en": {
+      "name": "headphone off",
       "tags": [
-        "音乐",
-        "音频",
-        "关闭",
-        "声音"
+        "music",
+        "audio",
+        "sound",
+        "mute",
+        "off"
       ],
       "categories": [
-        "多媒体",
-        "连接",
-        "沟通",
-        "设备",
-        "游戏"
+        "Multimedia",
+        "Connectivity",
+        "Communication",
+        "Devices",
+        "Gaming"
       ]
     }
   }

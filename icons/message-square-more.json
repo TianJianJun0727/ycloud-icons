@@ -5,35 +5,36 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息方形更多",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "typing",
-    "writing",
-    "responding",
-    "ellipsis",
-    "etc",
-    "et cetera",
-    "...",
-    "…"
+    "语音bubble",
+    "省略号",
+    "聊天"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息方形更多",
+    "en": {
+      "name": "message square more",
       "tags": [
-        "语音bubble",
-        "省略号",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "typing",
+        "writing",
+        "responding",
+        "ellipsis",
+        "etc",
+        "et cetera",
+        "...",
+        "…"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

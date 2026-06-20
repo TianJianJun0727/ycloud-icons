@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "正则",
   "tags": [
-    "search",
-    "text",
-    "code"
+    "搜索",
+    "文本",
+    "代码"
   ],
   "categories": [
     "text",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "正则",
+    "en": {
+      "name": "regex",
       "tags": [
-        "搜索",
-        "文本",
-        "代码"
+        "search",
+        "text",
+        "code"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

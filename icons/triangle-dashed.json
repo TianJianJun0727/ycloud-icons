@@ -8,27 +8,28 @@
     "Yohh"
   ],
   "use-cases": [],
+  "name": "三角形虚线",
   "tags": [
-    "equilateral",
-    "delta",
-    "shape",
-    "pyramid",
-    "hierarchy",
-    "dashed"
+    "金字塔",
+    "虚线",
+    "形状"
   ],
   "categories": [
     "shapes"
   ],
   "i18n": {
-    "zh": {
-      "name": "三角形虚线",
+    "en": {
+      "name": "triangle dashed",
       "tags": [
-        "金字塔",
-        "虚线",
-        "形状"
+        "equilateral",
+        "delta",
+        "shape",
+        "pyramid",
+        "hierarchy",
+        "dashed"
       ],
       "categories": [
-        "形状"
+        "Shapes"
       ]
     }
   }

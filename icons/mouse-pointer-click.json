@@ -6,24 +6,25 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "鼠标指针点击",
   "tags": [
-    "click",
-    "select"
+    "点击",
+    "选择"
   ],
   "categories": [
     "arrows",
     "cursors"
   ],
   "i18n": {
-    "zh": {
-      "name": "鼠标指针点击",
+    "en": {
+      "name": "mouse pointer click",
       "tags": [
-        "点击",
-        "选择"
+        "click",
+        "select"
       ],
       "categories": [
-        "箭头",
-        "光标"
+        "Arrows",
+        "Cursors"
       ]
     }
   }

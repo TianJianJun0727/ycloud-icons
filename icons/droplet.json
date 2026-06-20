@@ -7,31 +7,32 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "水滴",
   "tags": [
-    "water",
-    "weather",
-    "liquid",
-    "fluid",
-    "wet",
-    "moisture",
-    "damp",
-    "bead",
-    "globule"
+    "水",
+    "天气"
   ],
   "categories": [
     "weather",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "水滴",
+    "en": {
+      "name": "droplet",
       "tags": [
-        "水",
-        "天气"
+        "water",
+        "weather",
+        "liquid",
+        "fluid",
+        "wet",
+        "moisture",
+        "damp",
+        "bead",
+        "globule"
       ],
       "categories": [
-        "天气",
-        "游戏"
+        "Weather",
+        "Gaming"
       ]
     }
   }

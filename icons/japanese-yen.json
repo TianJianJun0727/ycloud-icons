@@ -4,23 +4,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "日元日元",
   "tags": [
-    "currency",
-    "money",
-    "payment"
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "日元日元",
+    "en": {
+      "name": "japanese yen",
       "tags": [
-        "货币",
-        "支付"
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

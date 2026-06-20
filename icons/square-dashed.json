@@ -8,14 +8,13 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "方形虚线",
   "tags": [
-    "selection",
-    "square",
-    "rectangular",
-    "marquee",
-    "tool",
-    "dashed",
-    "box"
+    "方形",
+    "矩形",
+    "工具",
+    "虚线",
+    "盒子"
   ],
   "categories": [
     "text",
@@ -30,18 +29,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形虚线",
+    "en": {
+      "name": "square dashed",
       "tags": [
-        "方形",
-        "矩形",
-        "工具",
-        "虚线",
-        "盒子"
+        "selection",
+        "square",
+        "rectangular",
+        "marquee",
+        "tool",
+        "dashed",
+        "box"
       ],
       "categories": [
-        "文本格式",
-        "设计"
+        "Text formatting",
+        "Design"
       ]
     }
   }

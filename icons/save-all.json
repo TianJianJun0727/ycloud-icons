@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "保存全部",
   "tags": [
-    "floppy disks",
-    "copy"
+    "复制"
   ],
   "categories": [
     "text",
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "保存全部",
+    "en": {
+      "name": "save all",
       "tags": [
-        "复制"
+        "floppy disks",
+        "copy"
       ],
       "categories": [
-        "文本格式",
-        "文件"
+        "Text formatting",
+        "File icons"
       ]
     }
   }

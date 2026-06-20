@@ -7,10 +7,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "音量2",
   "tags": [
-    "music",
-    "sound",
-    "speaker"
+    "音乐",
+    "扬声器",
+    "声音"
   ],
   "categories": [
     "connectivity",
@@ -18,17 +19,17 @@
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "音量2",
+    "en": {
+      "name": "volume 2",
       "tags": [
-        "音乐",
-        "扬声器",
-        "声音"
+        "music",
+        "sound",
+        "speaker"
       ],
       "categories": [
-        "连接",
-        "沟通",
-        "多媒体"
+        "Connectivity",
+        "Communication",
+        "Multimedia"
       ]
     }
   }

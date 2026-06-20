@@ -4,14 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "表格属性",
   "tags": [
-    "property list",
-    "plist",
-    "spreadsheet",
-    "grid",
-    "dictionary",
-    "object",
-    "hash"
+    "property列表",
+    "电子表格",
+    "网格",
+    "哈希"
   ],
   "categories": [
     "text",
@@ -19,18 +17,21 @@
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "表格属性",
+    "en": {
+      "name": "table properties",
       "tags": [
-        "property列表",
-        "电子表格",
-        "网格",
-        "哈希"
+        "property list",
+        "plist",
+        "spreadsheet",
+        "grid",
+        "dictionary",
+        "object",
+        "hash"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发",
-        "文件"
+        "Text formatting",
+        "Coding & development",
+        "File icons"
       ]
     }
   }

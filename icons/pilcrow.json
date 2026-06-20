@@ -6,31 +6,32 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "段落标记",
   "tags": [
-    "paragraph",
-    "mark",
-    "paraph",
-    "blind",
-    "typography",
-    "type",
-    "text",
-    "prose",
-    "symbol"
+    "标记",
+    "文字",
+    "文本",
+    "符号"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "段落标记",
+    "en": {
+      "name": "pilcrow",
       "tags": [
-        "标记",
-        "文字",
-        "文本",
-        "符号"
+        "paragraph",
+        "mark",
+        "paraph",
+        "blind",
+        "typography",
+        "type",
+        "text",
+        "prose",
+        "symbol"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

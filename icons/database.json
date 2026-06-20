@@ -5,30 +5,31 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "数据库",
   "tags": [
-    "storage",
-    "memory",
-    "container",
-    "tin",
-    "pot",
-    "bytes",
-    "servers"
+    "内存",
+    "容器",
+    "锅"
   ],
   "categories": [
     "devices",
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "数据库",
+    "en": {
+      "name": "database",
       "tags": [
-        "内存",
-        "容器",
-        "锅"
+        "storage",
+        "memory",
+        "container",
+        "tin",
+        "pot",
+        "bytes",
+        "servers"
       ],
       "categories": [
-        "设备",
-        "编码与开发"
+        "Devices",
+        "Coding & development"
       ]
     }
   }

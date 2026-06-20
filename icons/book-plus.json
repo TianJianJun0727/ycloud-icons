@@ -4,28 +4,17 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍加号",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "remove",
-    "delete",
-    "read",
-    "write",
-    "author",
-    "publish",
-    "inform",
-    "graduate",
-    "re-educate",
-    "study",
-    "learn",
-    "research",
-    "knowledge",
-    "improve",
-    "upgrade",
-    "level up"
+    "代码",
+    "version控制",
+    "移除",
+    "删除",
+    "升级",
+    "level上",
+    "学习",
+    "研究",
+    "知识"
   ],
   "categories": [
     "development",
@@ -33,23 +22,35 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍加号",
+    "en": {
+      "name": "book plus",
       "tags": [
-        "代码",
-        "version控制",
-        "移除",
-        "删除",
-        "升级",
-        "level上",
-        "学习",
-        "研究",
-        "知识"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "remove",
+        "delete",
+        "read",
+        "write",
+        "author",
+        "publish",
+        "inform",
+        "graduate",
+        "re-educate",
+        "study",
+        "learn",
+        "research",
+        "knowledge",
+        "improve",
+        "upgrade",
+        "level up"
       ],
       "categories": [
-        "编码与开发",
-        "文本格式",
-        "游戏"
+        "Coding & development",
+        "Text formatting",
+        "Gaming"
       ]
     }
   }

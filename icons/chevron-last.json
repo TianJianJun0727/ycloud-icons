@@ -5,26 +5,27 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "折角箭头最后一个",
   "tags": [
-    "skip",
-    "next",
-    "music"
+    "跳过",
+    "下一个",
+    "音乐"
   ],
   "categories": [
     "arrows",
     "multimedia"
   ],
   "i18n": {
-    "zh": {
-      "name": "折角箭头最后一个",
+    "en": {
+      "name": "chevron last",
       "tags": [
-        "跳过",
-        "下一个",
-        "音乐"
+        "skip",
+        "next",
+        "music"
       ],
       "categories": [
-        "箭头",
-        "多媒体"
+        "Arrows",
+        "Multimedia"
       ]
     }
   }

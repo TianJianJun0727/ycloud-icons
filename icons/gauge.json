@@ -7,14 +7,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "仪表",
   "tags": [
-    "dashboard",
-    "dial",
-    "meter",
-    "speed",
-    "pressure",
-    "measure",
-    "level"
+    "仪表盘",
+    "仪表"
   ],
   "categories": [
     "transportation",
@@ -22,16 +18,21 @@
     "science"
   ],
   "i18n": {
-    "zh": {
-      "name": "仪表",
+    "en": {
+      "name": "gauge",
       "tags": [
-        "仪表盘",
-        "仪表"
+        "dashboard",
+        "dial",
+        "meter",
+        "speed",
+        "pressure",
+        "measure",
+        "level"
       ],
       "categories": [
-        "交通",
-        "运动",
-        "科学"
+        "Transportation",
+        "Sports",
+        "Science"
       ]
     }
   }

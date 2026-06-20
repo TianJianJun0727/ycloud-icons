@@ -5,19 +5,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "书籍图片",
   "tags": [
-    "images",
-    "pictures",
-    "photos",
-    "album",
-    "collection",
-    "event",
-    "magazine",
-    "catalog",
-    "catalogue",
-    "brochure",
-    "browse",
-    "gallery"
+    "图片",
+    "相册",
+    "图库"
   ],
   "categories": [
     "photography",
@@ -29,21 +21,30 @@
     "travel"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍图片",
+    "en": {
+      "name": "book image",
       "tags": [
-        "图片",
-        "相册",
-        "图库"
+        "images",
+        "pictures",
+        "photos",
+        "album",
+        "collection",
+        "event",
+        "magazine",
+        "catalog",
+        "catalogue",
+        "brochure",
+        "browse",
+        "gallery"
       ],
       "categories": [
-        "摄影",
-        "文本格式",
-        "多媒体",
-        "文件",
-        "社交",
-        "购物",
-        "旅行"
+        "Photography",
+        "Text formatting",
+        "Multimedia",
+        "File icons",
+        "Social",
+        "Shopping",
+        "Travel"
       ]
     }
   }

@@ -6,23 +6,24 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "美元标志",
   "tags": [
-    "currency",
-    "money",
-    "payment"
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "美元标志",
+    "en": {
+      "name": "dollar sign",
       "tags": [
-        "货币",
-        "支付"
+        "currency",
+        "money",
+        "payment"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

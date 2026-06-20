@@ -5,25 +5,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "糖果关闭",
   "tags": [
-    "sugar free",
-    "food",
-    "sweet",
-    "allergy",
-    "intolerance",
-    "diet"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "糖果关闭",
+    "en": {
+      "name": "candy off",
       "tags": [
-        "食物"
+        "sugar free",
+        "food",
+        "sweet",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

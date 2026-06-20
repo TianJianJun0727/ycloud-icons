@@ -5,12 +5,10 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "雷达",
   "tags": [
-    "scan",
-    "sonar",
-    "detect",
-    "find",
-    "locate"
+    "扫描",
+    "定位"
   ],
   "categories": [
     "navigation",
@@ -18,16 +16,19 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "雷达",
+    "en": {
+      "name": "radar",
       "tags": [
-        "扫描",
-        "定位"
+        "scan",
+        "sonar",
+        "detect",
+        "find",
+        "locate"
       ],
       "categories": [
-        "导航与地点",
-        "安全",
-        "沟通"
+        "Navigation & Places",
+        "Security",
+        "Communication"
       ]
     }
   }

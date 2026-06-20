@@ -5,27 +5,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "豆子关闭",
   "tags": [
-    "soy free",
-    "legume",
-    "soy",
-    "food",
-    "seed",
-    "allergy",
-    "intolerance",
-    "diet"
+    "食物"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "豆子关闭",
+    "en": {
+      "name": "bean off",
       "tags": [
-        "食物"
+        "soy free",
+        "legume",
+        "soy",
+        "food",
+        "seed",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

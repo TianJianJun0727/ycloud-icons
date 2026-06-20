@@ -7,31 +7,32 @@
     "LieOnLion"
   ],
   "use-cases": [],
+  "name": "圆形英镑英镑",
   "tags": [
-    "monetization",
-    "coin",
-    "penny",
-    "marketing",
-    "currency",
-    "money",
-    "payment",
-    "british",
-    "gbp",
-    "£"
+    "营销",
+    "货币",
+    "支付"
   ],
   "categories": [
     "finance"
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形英镑英镑",
+    "en": {
+      "name": "circle pound sterling",
       "tags": [
-        "营销",
-        "货币",
-        "支付"
+        "monetization",
+        "coin",
+        "penny",
+        "marketing",
+        "currency",
+        "money",
+        "payment",
+        "british",
+        "gbp",
+        "£"
       ],
       "categories": [
-        "金融"
+        "Finance"
       ]
     }
   }

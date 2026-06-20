@@ -4,27 +4,28 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件夹搜索2",
   "tags": [
-    "directory",
-    "search",
-    "find",
-    "lost",
-    "browser",
-    "lens"
+    "搜索",
+    "镜头",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹搜索2",
+    "en": {
+      "name": "folder search 2",
       "tags": [
-        "搜索",
-        "镜头",
-        "目录"
+        "directory",
+        "search",
+        "find",
+        "lost",
+        "browser",
+        "lens"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

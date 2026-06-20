@@ -6,31 +6,32 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "隔空播放",
   "tags": [
-    "stream",
-    "cast",
-    "mirroring",
-    "screen",
-    "monitor",
-    "macos",
-    "osx"
+    "串流",
+    "投屏",
+    "屏幕",
+    "显示器"
   ],
   "categories": [
     "multimedia",
     "connectivity"
   ],
   "i18n": {
-    "zh": {
-      "name": "隔空播放",
+    "en": {
+      "name": "airplay",
       "tags": [
-        "串流",
-        "投屏",
-        "屏幕",
-        "显示器"
+        "stream",
+        "cast",
+        "mirroring",
+        "screen",
+        "monitor",
+        "macos",
+        "osx"
       ],
       "categories": [
-        "多媒体",
-        "连接"
+        "Multimedia",
+        "Connectivity"
       ]
     }
   }

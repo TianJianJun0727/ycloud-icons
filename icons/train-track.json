@@ -4,23 +4,24 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "火车轨道",
   "tags": [
-    "railway",
-    "line"
+    "线条"
   ],
   "categories": [
     "transportation",
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "火车轨道",
+    "en": {
+      "name": "train track",
       "tags": [
-        "线条"
+        "railway",
+        "line"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

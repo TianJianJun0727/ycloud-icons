@@ -4,22 +4,23 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "头骨",
   "tags": [
-    "death",
-    "danger",
-    "bone"
+    "骨头"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "头骨",
+    "en": {
+      "name": "skull",
       "tags": [
-        "骨头"
+        "death",
+        "danger",
+        "bone"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

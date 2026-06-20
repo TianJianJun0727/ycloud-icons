@@ -6,10 +6,11 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "圆形停车关闭",
   "tags": [
-    "parking lot",
-    "car park",
-    "no parking"
+    "停车lot",
+    "汽车park",
+    "无停车"
   ],
   "categories": [
     "transportation",
@@ -24,16 +25,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "圆形停车关闭",
+    "en": {
+      "name": "circle parking off",
       "tags": [
-        "停车lot",
-        "汽车park",
-        "无停车"
+        "parking lot",
+        "car park",
+        "no parking"
       ],
       "categories": [
-        "交通",
-        "导航与地点"
+        "Transportation",
+        "Navigation & Places"
       ]
     }
   }

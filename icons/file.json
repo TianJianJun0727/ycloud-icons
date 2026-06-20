@@ -6,20 +6,21 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件",
   "tags": [
-    "document"
+    "文档"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件",
+    "en": {
+      "name": "file",
       "tags": [
-        "文档"
+        "document"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

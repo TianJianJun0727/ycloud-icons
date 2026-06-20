@@ -4,28 +4,29 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "布局面板左",
   "tags": [
-    "app",
-    "home",
-    "start",
-    "grid"
+    "应用",
+    "家居",
+    "起始",
+    "网格"
   ],
   "categories": [
     "design",
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "布局面板左",
+    "en": {
+      "name": "layout panel left",
       "tags": [
-        "应用",
-        "家居",
-        "起始",
-        "网格"
+        "app",
+        "home",
+        "start",
+        "grid"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

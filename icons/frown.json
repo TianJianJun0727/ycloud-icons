@@ -7,27 +7,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "皱眉",
   "tags": [
-    "emoji",
-    "face",
-    "bad",
-    "sad",
-    "emotion"
+    "表情",
+    "情绪"
   ],
   "categories": [
     "emoji",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "皱眉",
+    "en": {
+      "name": "frown",
       "tags": [
-        "表情",
-        "情绪"
+        "emoji",
+        "face",
+        "bad",
+        "sad",
+        "emotion"
       ],
       "categories": [
-        "表情",
-        "账号与访问"
+        "Emoji",
+        "Accounts & access"
       ]
     }
   }

@@ -5,27 +5,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "微波炉",
   "tags": [
-    "oven",
-    "cooker",
-    "toaster oven",
-    "bake"
+    "微波炉",
+    "厨房",
+    "加热"
   ],
   "categories": [
     "food-beverage",
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "微波炉",
+    "en": {
+      "name": "microwave",
       "tags": [
-        "微波炉",
-        "厨房",
-        "加热"
+        "oven",
+        "cooker",
+        "toaster oven",
+        "bake"
       ],
       "categories": [
-        "餐饮",
-        "家居"
+        "Food & beverage",
+        "Home"
       ]
     }
   }

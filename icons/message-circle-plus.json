@@ -6,28 +6,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "消息圆形加号",
   "tags": [
-    "comment",
-    "chat",
-    "conversation",
-    "dialog",
-    "feedback",
-    "speech bubble",
-    "add"
+    "语音bubble",
+    "添加",
+    "聊天"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "消息圆形加号",
+    "en": {
+      "name": "message circle plus",
       "tags": [
-        "语音bubble",
-        "添加",
-        "聊天"
+        "comment",
+        "chat",
+        "conversation",
+        "dialog",
+        "feedback",
+        "speech bubble",
+        "add"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

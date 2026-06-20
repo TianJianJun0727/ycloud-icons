@@ -4,24 +4,25 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "龙卷风",
   "tags": [
-    "weather",
-    "wind",
-    "storm",
-    "hurricane"
+    "天气",
+    "风"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "龙卷风",
+    "en": {
+      "name": "tornado",
       "tags": [
-        "天气",
-        "风"
+        "weather",
+        "wind",
+        "storm",
+        "hurricane"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

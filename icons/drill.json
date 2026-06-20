@@ -5,15 +5,12 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "电钻",
   "tags": [
-    "power",
-    "bit",
-    "head",
-    "hole",
-    "diy",
-    "toolbox",
-    "build",
-    "construction"
+    "电源",
+    "头部",
+    "工具箱",
+    "施工"
   ],
   "categories": [
     "tools",
@@ -21,18 +18,22 @@
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "电钻",
+    "en": {
+      "name": "drill",
       "tags": [
-        "电源",
-        "头部",
-        "工具箱",
-        "施工"
+        "power",
+        "bit",
+        "head",
+        "hole",
+        "diy",
+        "toolbox",
+        "build",
+        "construction"
       ],
       "categories": [
-        "工具",
-        "家居",
-        "设备"
+        "Tools",
+        "Home",
+        "Devices"
       ]
     }
   }

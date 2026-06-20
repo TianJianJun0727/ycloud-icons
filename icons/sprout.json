@@ -8,16 +8,13 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "幼苗",
   "tags": [
-    "eco",
-    "green",
-    "growth",
-    "leaf",
-    "nature",
-    "plant",
-    "seed",
-    "spring",
-    "sustainability"
+    "绿色",
+    "叶子",
+    "自然",
+    "植物",
+    "可持续"
   ],
   "categories": [
     "nature",
@@ -25,19 +22,23 @@
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "幼苗",
+    "en": {
+      "name": "sprout",
       "tags": [
-        "绿色",
-        "叶子",
-        "自然",
-        "植物",
-        "可持续"
+        "eco",
+        "green",
+        "growth",
+        "leaf",
+        "nature",
+        "plant",
+        "seed",
+        "spring",
+        "sustainability"
       ],
       "categories": [
-        "自然",
-        "游戏",
-        "可持续"
+        "Nature",
+        "Gaming",
+        "Sustainability"
       ]
     }
   }

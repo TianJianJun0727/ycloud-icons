@@ -5,28 +5,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "显微镜",
   "tags": [
-    "medical",
-    "education",
-    "science",
-    "imaging",
-    "research"
+    "医疗",
+    "教育",
+    "研究"
   ],
   "categories": [
     "science",
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "显微镜",
+    "en": {
+      "name": "microscope",
       "tags": [
-        "医疗",
-        "教育",
-        "研究"
+        "medical",
+        "education",
+        "science",
+        "imaging",
+        "research"
       ],
       "categories": [
-        "科学",
-        "医疗"
+        "Science",
+        "Medical"
       ]
     }
   }

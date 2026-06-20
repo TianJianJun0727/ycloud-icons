@@ -4,63 +4,63 @@ export const ycloudSidebar = [
   {
     items: [
       {
-        text: '概览',
+        text: 'Overview',
         link: '/guide/ycloud/',
       },
       {
-        text: '快速开始',
+        text: 'Getting started',
         link: '/guide/ycloud/getting-started',
-        desc: '了解如何开始使用 YCloud Icons。',
+        desc: 'Learn how to get started with YCloud Icons.',
       },
     ],
   },
   {
-    text: '基础',
+    text: 'Basics',
     items: [
       {
-        text: '颜色',
-        desc: '调整图标颜色。',
+        text: 'Color',
+        desc: 'Adjust the color of your icons.',
         link: '/guide/ycloud/basics/color',
       },
       {
-        text: '尺寸',
-        desc: '调整图标尺寸。',
+        text: 'Sizing',
+        desc: 'Adjust the size of your icons.',
         link: '/guide/ycloud/basics/sizing',
       },
       {
-        text: '描边宽度',
-        desc: '调整图标描边宽度。',
+        text: 'Stroke width',
+        desc: 'Adjust the stroke width of your icons.',
         link: '/guide/ycloud/basics/stroke-width',
       },
     ],
   },
   {
-    text: '进阶',
+    text: 'Advanced',
     items: [
       {
-        text: '全局样式',
+        text: 'Global styling',
         link: '/guide/ycloud/advanced/global-styling',
-        desc: '全局应用选项和样式。',
+        desc: 'Apply options and styles globally.',
       },
       {
         text: 'Shadow DOM',
         link: '/guide/ycloud/advanced/shadow-dom',
-        desc: '在 Shadow DOM 中渲染和替换图标。',
+        desc: 'Render and replace icons inside Shadow DOM.',
       },
       {
-        text: '模板元素',
+        text: 'Template element',
         link: '/guide/ycloud/advanced/content-template-element',
-        desc: '在 YCloud Icons 中使用内容模板元素。',
+        desc: 'Using content template element with YCloud Icons.',
       },
       {
-        text: '无障碍',
+        text: 'Accessibility',
         link: '/guide/ycloud/advanced/accessibility',
-        desc: '让图标更易访问。',
+        desc: 'Making your icons accessible.',
       },
       {
-        text: '填充图标',
+        text: 'Filled icons',
         link: '/guide/ycloud/advanced/filled-icons',
-        desc: '在 YCloud Icons 中使用填充图标。',
+        desc: 'Using filled icons in ycloud.',
       },
     ],
   },

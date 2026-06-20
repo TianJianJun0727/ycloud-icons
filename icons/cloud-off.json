@@ -7,22 +7,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云关闭",
   "tags": [
-    "disconnect"
+    "断开"
   ],
   "categories": [
     "connectivity",
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "云关闭",
+    "en": {
+      "name": "cloud off",
       "tags": [
-        "断开"
+        "disconnect"
       ],
       "categories": [
-        "连接",
-        "天气"
+        "Connectivity",
+        "Weather"
       ]
     }
   }

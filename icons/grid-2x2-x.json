@@ -5,23 +5,16 @@
     "chessurisme"
   ],
   "use-cases": [],
+  "name": "网格2x2关闭",
   "tags": [
-    "table",
-    "rows",
-    "columns",
-    "data",
-    "blocks",
-    "plot",
-    "land",
-    "geometry",
-    "measure",
-    "size",
-    "width",
-    "height",
-    "distance",
-    "surface area",
-    "square meter",
-    "acre"
+    "表格",
+    "行",
+    "列",
+    "积木",
+    "图",
+    "土地",
+    "surface区域",
+    "方形仪表"
   ],
   "categories": [
     "text",
@@ -37,22 +30,30 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "网格2x2关闭",
+    "en": {
+      "name": "grid 2x2 X",
       "tags": [
-        "表格",
-        "行",
-        "列",
-        "积木",
-        "图",
-        "土地",
-        "surface区域",
-        "方形仪表"
+        "table",
+        "rows",
+        "columns",
+        "data",
+        "blocks",
+        "plot",
+        "land",
+        "geometry",
+        "measure",
+        "size",
+        "width",
+        "height",
+        "distance",
+        "surface area",
+        "square meter",
+        "acre"
       ],
       "categories": [
-        "文本格式",
-        "布局",
-        "数学"
+        "Text formatting",
+        "Layout",
+        "Mathematics"
       ]
     }
   }

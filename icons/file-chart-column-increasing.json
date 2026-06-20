@@ -5,13 +5,11 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "文件图表列上升",
   "tags": [
-    "statistics",
-    "analytics",
-    "diagram",
-    "graph",
-    "presentation",
-    "trending up"
+    "图形",
+    "演示",
+    "趋势上"
   ],
   "categories": [
     "files"
@@ -25,15 +23,18 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "文件图表列上升",
+    "en": {
+      "name": "file chart column increasing",
       "tags": [
-        "图形",
-        "演示",
-        "趋势上"
+        "statistics",
+        "analytics",
+        "diagram",
+        "graph",
+        "presentation",
+        "trending up"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

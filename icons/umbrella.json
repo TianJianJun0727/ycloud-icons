@@ -8,22 +8,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "雨伞",
   "tags": [
-    "rain",
-    "weather"
+    "雨",
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "雨伞",
+    "en": {
+      "name": "umbrella",
       "tags": [
-        "雨",
-        "天气"
+        "rain",
+        "weather"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

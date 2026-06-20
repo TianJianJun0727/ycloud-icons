@@ -5,27 +5,28 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "徽章关闭",
   "tags": [
-    "verified",
-    "unverified",
-    "lost",
-    "delete",
-    "remove"
+    "删除",
+    "移除",
+    "已验证",
+    "未验证"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "徽章关闭",
+    "en": {
+      "name": "badge X",
       "tags": [
-        "删除",
-        "移除",
-        "已验证",
-        "未验证"
+        "verified",
+        "unverified",
+        "lost",
+        "delete",
+        "remove"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

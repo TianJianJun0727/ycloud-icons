@@ -6,27 +6,28 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "日志外部",
   "tags": [
-    "sign out",
-    "arrow",
-    "exit",
-    "auth"
+    "标志外部",
+    "箭头",
+    "退出"
   ],
   "categories": [
     "arrows",
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "日志外部",
+    "en": {
+      "name": "log out",
       "tags": [
-        "标志外部",
-        "箭头",
-        "退出"
+        "sign out",
+        "arrow",
+        "exit",
+        "auth"
       ],
       "categories": [
-        "箭头",
-        "账号与访问"
+        "Arrows",
+        "Accounts & access"
       ]
     }
   }

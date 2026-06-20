@@ -5,29 +5,30 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "喷雾罐",
   "tags": [
-    "paint",
-    "color",
-    "graffiti",
-    "decoration",
-    "aerosol",
-    "deodorant",
-    "shaving foam",
-    "air freshener"
+    "绘制"
   ],
   "categories": [
     "design",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "喷雾罐",
+    "en": {
+      "name": "spray can",
       "tags": [
-        "绘制"
+        "paint",
+        "color",
+        "graffiti",
+        "decoration",
+        "aerosol",
+        "deodorant",
+        "shaving foam",
+        "air freshener"
       ],
       "categories": [
-        "设计",
-        "工具"
+        "Design",
+        "Tools"
       ]
     }
   }

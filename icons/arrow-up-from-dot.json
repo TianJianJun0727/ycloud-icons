@@ -4,25 +4,26 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "箭头上从点",
   "tags": [
-    "direction",
-    "north",
-    "step",
-    "out"
+    "方向",
+    "步骤",
+    "外部"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头上从点",
+    "en": {
+      "name": "arrow up from dot",
       "tags": [
-        "方向",
-        "步骤",
-        "外部"
+        "direction",
+        "north",
+        "step",
+        "out"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

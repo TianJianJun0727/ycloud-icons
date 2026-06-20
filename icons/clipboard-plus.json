@@ -7,37 +7,38 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "剪贴板加号",
   "tags": [
-    "copy",
-    "paste",
-    "add",
-    "create",
-    "new",
-    "document",
-    "medical",
-    "report",
-    "doctor"
+    "复制",
+    "粘贴",
+    "添加",
+    "创建",
+    "新建",
+    "医疗",
+    "报告",
+    "文档"
   ],
   "categories": [
     "text",
     "medical"
   ],
   "i18n": {
-    "zh": {
-      "name": "剪贴板加号",
+    "en": {
+      "name": "clipboard plus",
       "tags": [
-        "复制",
-        "粘贴",
-        "添加",
-        "创建",
-        "新建",
-        "医疗",
-        "报告",
-        "文档"
+        "copy",
+        "paste",
+        "add",
+        "create",
+        "new",
+        "document",
+        "medical",
+        "report",
+        "doctor"
       ],
       "categories": [
-        "文本格式",
-        "医疗"
+        "Text formatting",
+        "Medical"
       ]
     }
   }

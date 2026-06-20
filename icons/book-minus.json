@@ -4,23 +4,13 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "书籍减少",
   "tags": [
-    "code",
-    "coding",
-    "version control",
-    "git",
-    "repository",
-    "remove",
-    "delete",
-    "censor",
-    "cancel",
-    "forbid",
-    "prohibit",
-    "ban",
-    "uneducated",
-    "re-educate",
-    "unlearn",
-    "downgrade"
+    "代码",
+    "version控制",
+    "移除",
+    "删除",
+    "禁止"
   ],
   "categories": [
     "development",
@@ -28,19 +18,30 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "书籍减少",
+    "en": {
+      "name": "book minus",
       "tags": [
-        "代码",
-        "version控制",
-        "移除",
-        "删除",
-        "禁止"
+        "code",
+        "coding",
+        "version control",
+        "git",
+        "repository",
+        "remove",
+        "delete",
+        "censor",
+        "cancel",
+        "forbid",
+        "prohibit",
+        "ban",
+        "uneducated",
+        "re-educate",
+        "unlearn",
+        "downgrade"
       ],
       "categories": [
-        "编码与开发",
-        "文本格式",
-        "游戏"
+        "Coding & development",
+        "Text formatting",
+        "Gaming"
       ]
     }
   }

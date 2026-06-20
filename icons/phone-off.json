@@ -8,9 +8,9 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "电话关闭",
   "tags": [
-    "call",
-    "mute"
+    "通话"
   ],
   "categories": [
     "connectivity",
@@ -18,15 +18,16 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "电话关闭",
+    "en": {
+      "name": "phone off",
       "tags": [
-        "通话"
+        "call",
+        "mute"
       ],
       "categories": [
-        "连接",
-        "设备",
-        "沟通"
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

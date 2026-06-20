@@ -6,14 +6,11 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "图层",
   "tags": [
-    "stack",
-    "pile",
-    "pages",
-    "sheets",
-    "paperwork",
-    "copies",
-    "copy"
+    "堆叠",
+    "堆",
+    "复制"
   ],
   "categories": [
     "design",
@@ -28,16 +25,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "图层",
+    "en": {
+      "name": "layers",
       "tags": [
-        "堆叠",
-        "堆",
-        "复制"
+        "stack",
+        "pile",
+        "pages",
+        "sheets",
+        "paperwork",
+        "copies",
+        "copy"
       ],
       "categories": [
-        "设计",
-        "布局"
+        "Design",
+        "Layout"
       ]
     }
   }

@@ -4,25 +4,26 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "沙漏",
   "tags": [
-    "timer",
-    "time",
-    "sandglass"
+    "计时器",
+    "时间"
   ],
   "categories": [
     "time",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "沙漏",
+    "en": {
+      "name": "hourglass",
       "tags": [
-        "计时器",
-        "时间"
+        "timer",
+        "time",
+        "sandglass"
       ],
       "categories": [
-        "时间与日历",
-        "游戏"
+        "Time & calendar",
+        "Gaming"
       ]
     }
   }

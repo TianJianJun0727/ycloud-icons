@@ -8,14 +8,13 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "插头闪电",
   "tags": [
-    "electricity",
-    "energy",
-    "electronics",
-    "charge",
-    "charging",
-    "battery",
-    "connect"
+    "充电",
+    "电池",
+    "电力",
+    "能源",
+    "电子"
   ],
   "categories": [
     "devices"
@@ -29,17 +28,19 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "插头闪电",
+    "en": {
+      "name": "plug zap",
       "tags": [
-        "充电",
-        "电池",
-        "电力",
-        "能源",
-        "电子"
+        "electricity",
+        "energy",
+        "electronics",
+        "charge",
+        "charging",
+        "battery",
+        "connect"
       ],
       "categories": [
-        "设备"
+        "Devices"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "johnletey"
   ],
   "use-cases": [],
+  "name": "游戏手柄2",
   "tags": [
-    "console"
+    "游戏手柄",
+    "游戏",
+    "控制器"
   ],
   "categories": [
     "gaming",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "游戏手柄2",
+    "en": {
+      "name": "gamepad 2",
       "tags": [
-        "游戏手柄",
-        "游戏",
-        "控制器"
+        "console"
       ],
       "categories": [
-        "游戏",
-        "设备"
+        "Gaming",
+        "Devices"
       ]
     }
   }

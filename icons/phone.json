@@ -8,8 +8,9 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "电话",
   "tags": [
-    "call"
+    "通话"
   ],
   "categories": [
     "text",
@@ -18,16 +19,16 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "电话",
+    "en": {
+      "name": "phone",
       "tags": [
-        "通话"
+        "call"
       ],
       "categories": [
-        "文本格式",
-        "连接",
-        "设备",
-        "沟通"
+        "Text formatting",
+        "Connectivity",
+        "Devices",
+        "Communication"
       ]
     }
   }

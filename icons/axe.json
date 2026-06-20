@@ -8,35 +8,36 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "斧头",
   "tags": [
-    "hatchet",
-    "weapon",
-    "chop",
-    "sharp",
-    "equipment",
-    "fireman",
-    "firefighter",
-    "brigade",
-    "lumberjack",
-    "woodcutter",
-    "logger",
-    "forestry"
+    "武器",
+    "切割",
+    "设备"
   ],
   "categories": [
     "tools",
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "斧头",
+    "en": {
+      "name": "axe",
       "tags": [
-        "武器",
-        "切割",
-        "设备"
+        "hatchet",
+        "weapon",
+        "chop",
+        "sharp",
+        "equipment",
+        "fireman",
+        "firefighter",
+        "brigade",
+        "lumberjack",
+        "woodcutter",
+        "logger",
+        "forestry"
       ],
       "categories": [
-        "工具",
-        "游戏"
+        "Tools",
+        "Gaming"
       ]
     }
   }

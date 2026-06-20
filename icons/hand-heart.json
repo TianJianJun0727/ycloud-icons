@@ -6,22 +6,23 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "手爱心",
   "tags": [
-    "love",
-    "like",
-    "emotion"
+    "情绪"
   ],
   "categories": [
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "手爱心",
+    "en": {
+      "name": "hand heart",
       "tags": [
-        "情绪"
+        "love",
+        "like",
+        "emotion"
       ],
       "categories": [
-        "社交"
+        "Social"
       ]
     }
   }

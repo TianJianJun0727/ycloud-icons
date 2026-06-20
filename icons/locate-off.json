@@ -5,24 +5,25 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "定位关闭",
   "tags": [
-    "map",
-    "gps",
-    "location",
-    "cross"
+    "地图",
+    "十字"
   ],
   "categories": [
     "navigation"
   ],
   "i18n": {
-    "zh": {
-      "name": "定位关闭",
+    "en": {
+      "name": "locate off",
       "tags": [
-        "地图",
-        "十字"
+        "map",
+        "gps",
+        "location",
+        "cross"
       ],
       "categories": [
-        "导航与地点"
+        "Navigation & Places"
       ]
     }
   }

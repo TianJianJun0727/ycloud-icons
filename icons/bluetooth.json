@@ -6,24 +6,25 @@
     "csandman"
   ],
   "use-cases": [],
+  "name": "蓝牙",
   "tags": [
-    "wireless"
+    "蓝牙",
+    "无线",
+    "连接"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "蓝牙",
+    "en": {
+      "name": "bluetooth",
       "tags": [
-        "蓝牙",
-        "无线",
-        "连接"
+        "wireless"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

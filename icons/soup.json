@@ -4,28 +4,29 @@
     "kemie"
   ],
   "use-cases": [],
+  "name": "汤",
   "tags": [
-    "food",
-    "dish",
-    "restaurant",
-    "course",
-    "meal",
-    "bowl",
-    "starter"
+    "食物",
+    "盘子",
+    "碗"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "汤",
+    "en": {
+      "name": "soup",
       "tags": [
-        "食物",
-        "盘子",
-        "碗"
+        "food",
+        "dish",
+        "restaurant",
+        "course",
+        "meal",
+        "bowl",
+        "starter"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

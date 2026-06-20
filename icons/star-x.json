@@ -17,22 +17,16 @@
     "block preferred content",
     "clear favorite selection"
   ],
+  "name": "星标关闭",
   "tags": [
-    "mark",
-    "symbol",
-    "shape",
-    "vector",
-    "design",
-    "graphic",
-    "bookmark",
-    "favorite",
-    "like",
-    "review",
-    "rating",
-    "x",
-    "cancel",
-    "reject",
-    "star"
+    "标记",
+    "符号",
+    "矢量",
+    "设计",
+    "书签",
+    "关闭",
+    "星标",
+    "形状"
   ],
   "categories": [
     "account",
@@ -44,26 +38,33 @@
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "星标关闭",
+    "en": {
+      "name": "star X",
       "tags": [
-        "标记",
-        "符号",
-        "矢量",
-        "设计",
-        "书签",
-        "关闭",
-        "星标",
-        "形状"
+        "mark",
+        "symbol",
+        "shape",
+        "vector",
+        "design",
+        "graphic",
+        "bookmark",
+        "favorite",
+        "like",
+        "review",
+        "rating",
+        "x",
+        "cancel",
+        "reject",
+        "star"
       ],
       "categories": [
-        "账号与访问",
-        "社交",
-        "形状",
-        "多媒体",
-        "天气",
-        "表情",
-        "游戏"
+        "Accounts & access",
+        "Social",
+        "Shapes",
+        "Multimedia",
+        "Weather",
+        "Emoji",
+        "Gaming"
       ]
     }
   }

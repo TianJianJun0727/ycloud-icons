@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "方形方形",
   "tags": [
-    "float",
-    "center",
-    "rectangle"
+    "居中",
+    "矩形"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "方形方形",
+    "en": {
+      "name": "square square",
       "tags": [
-        "居中",
-        "矩形"
+        "float",
+        "center",
+        "rectangle"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

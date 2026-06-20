@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Shopping",
+  "title": "购物",
   "icon": "shopping-bag",
   "i18n": {
-    "zh": {
-      "title": "购物"
+    "en": {
+      "title": "Shopping"
     }
   }
 }

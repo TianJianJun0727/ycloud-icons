@@ -4,28 +4,29 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表起始",
   "tags": [
-    "queue",
-    "top",
-    "start",
-    "next",
-    "playlist"
+    "顶部",
+    "起始",
+    "下一个"
   ],
   "categories": [
     "multimedia",
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "列表起始",
+    "en": {
+      "name": "list start",
       "tags": [
-        "顶部",
-        "起始",
-        "下一个"
+        "queue",
+        "top",
+        "start",
+        "next",
+        "playlist"
       ],
       "categories": [
-        "多媒体",
-        "文本格式"
+        "Multimedia",
+        "Text formatting"
       ]
     }
   }

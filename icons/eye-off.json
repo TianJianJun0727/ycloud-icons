@@ -7,16 +7,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "眼睛关闭",
   "tags": [
-    "view",
-    "watch",
-    "see",
-    "hide",
-    "conceal",
-    "mask",
-    "hidden",
-    "visibility",
-    "vision"
+    "视图",
+    "手表",
+    "面具",
+    "查看"
   ],
   "categories": [
     "accessibility",
@@ -25,19 +21,24 @@
     "security"
   ],
   "i18n": {
-    "zh": {
-      "name": "眼睛关闭",
+    "en": {
+      "name": "eye off",
       "tags": [
-        "视图",
-        "手表",
-        "面具",
-        "查看"
+        "view",
+        "watch",
+        "see",
+        "hide",
+        "conceal",
+        "mask",
+        "hidden",
+        "visibility",
+        "vision"
       ],
       "categories": [
-        "无障碍",
-        "摄影",
-        "设计",
-        "安全"
+        "Accessibility",
+        "Photography",
+        "Design",
+        "Security"
       ]
     }
   }

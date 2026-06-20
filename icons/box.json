@@ -7,14 +7,12 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "盒子",
   "tags": [
-    "cube",
-    "package",
-    "container",
-    "storage",
-    "geometry",
-    "3d",
-    "isometric"
+    "包",
+    "容器",
+    "三维",
+    "包裹"
   ],
   "categories": [
     "shapes",
@@ -23,19 +21,22 @@
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "盒子",
+    "en": {
+      "name": "box",
       "tags": [
-        "包",
-        "容器",
-        "三维",
-        "包裹"
+        "cube",
+        "package",
+        "container",
+        "storage",
+        "geometry",
+        "3d",
+        "isometric"
       ],
       "categories": [
-        "形状",
-        "游戏",
-        "编码与开发",
-        "数学"
+        "Shapes",
+        "Gaming",
+        "Coding & development",
+        "Mathematics"
       ]
     }
   }

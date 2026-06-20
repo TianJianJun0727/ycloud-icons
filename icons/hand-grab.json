@@ -4,8 +4,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "手抓取",
   "tags": [
-    "hand"
+    "手"
   ],
   "categories": [
     "cursors",
@@ -21,15 +22,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "手抓取",
+    "en": {
+      "name": "hand grab",
       "tags": [
-        "手"
+        "hand"
       ],
       "categories": [
-        "光标",
-        "设计",
-        "布局"
+        "Cursors",
+        "Design",
+        "Layout"
       ]
     }
   }

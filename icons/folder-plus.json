@@ -7,26 +7,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "文件夹加号",
   "tags": [
-    "directory",
-    "add",
-    "create",
-    "new"
+    "添加",
+    "创建",
+    "新建",
+    "目录"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件夹加号",
+    "en": {
+      "name": "folder plus",
       "tags": [
-        "添加",
-        "创建",
-        "新建",
-        "目录"
+        "directory",
+        "add",
+        "create",
+        "new"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

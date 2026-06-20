@@ -4,12 +4,10 @@
     "lscheibel"
   ],
   "use-cases": [],
+  "name": "旋转三维",
   "tags": [
-    "gizmo",
-    "transform",
-    "orientation",
-    "orbit",
-    "axis"
+    "轨道",
+    "轴"
   ],
   "categories": [
     "design"
@@ -23,14 +21,17 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "旋转三维",
+    "en": {
+      "name": "rotate 3d",
       "tags": [
-        "轨道",
-        "轴"
+        "gizmo",
+        "transform",
+        "orientation",
+        "orbit",
+        "axis"
       ],
       "categories": [
-        "设计"
+        "Design"
       ]
     }
   }

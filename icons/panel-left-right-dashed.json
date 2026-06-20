@@ -7,33 +7,34 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "面板左右虚线",
   "tags": [
-    "sidebar",
-    "primary",
-    "drawer",
-    "show",
-    "reveal",
-    "padding",
-    "margin",
-    "guide",
-    "layout",
-    "vertical",
-    "bleed"
+    "布局",
+    "垂直",
+    "侧边栏",
+    "抽屉"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "面板左右虚线",
+    "en": {
+      "name": "panel left right dashed",
       "tags": [
-        "布局",
-        "垂直",
-        "侧边栏",
-        "抽屉"
+        "sidebar",
+        "primary",
+        "drawer",
+        "show",
+        "reveal",
+        "padding",
+        "margin",
+        "guide",
+        "layout",
+        "vertical",
+        "bleed"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -6,10 +6,9 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "工具箱包",
   "tags": [
-    "tools",
-    "maintenance",
-    "repair"
+    "维护"
   ],
   "categories": [
     "tools",
@@ -17,15 +16,17 @@
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "工具箱包",
+    "en": {
+      "name": "tool case",
       "tags": [
-        "维护"
+        "tools",
+        "maintenance",
+        "repair"
       ],
       "categories": [
-        "工具",
-        "编码与开发",
-        "家居"
+        "Tools",
+        "Coding & development",
+        "Home"
       ]
     }
   }

@@ -4,25 +4,26 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "标题2",
   "tags": [
-    "h2",
-    "html",
-    "markup",
-    "markdown"
+    "HTML",
+    "标记语言",
+    "Markdown"
   ],
   "categories": [
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "标题2",
+    "en": {
+      "name": "heading 2",
       "tags": [
-        "HTML",
-        "标记语言",
-        "Markdown"
+        "h2",
+        "html",
+        "markup",
+        "markdown"
       ],
       "categories": [
-        "文本格式"
+        "Text formatting"
       ]
     }
   }

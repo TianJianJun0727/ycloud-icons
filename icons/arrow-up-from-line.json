@@ -5,17 +5,15 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "箭头上从线条",
   "tags": [
-    "forward",
-    "direction",
-    "north",
-    "upload",
-    "git",
-    "version control",
-    "push",
-    "expand",
-    "fold",
-    "vertical"
+    "前进",
+    "方向",
+    "上传",
+    "version控制",
+    "展开",
+    "折叠",
+    "垂直"
   ],
   "categories": [
     "arrows",
@@ -23,21 +21,24 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "箭头上从线条",
+    "en": {
+      "name": "arrow up from line",
       "tags": [
-        "前进",
-        "方向",
-        "上传",
-        "version控制",
-        "展开",
-        "折叠",
-        "垂直"
+        "forward",
+        "direction",
+        "north",
+        "upload",
+        "git",
+        "version control",
+        "push",
+        "expand",
+        "fold",
+        "vertical"
       ],
       "categories": [
-        "箭头",
-        "文件",
-        "编码与开发"
+        "Arrows",
+        "File icons",
+        "Coding & development"
       ]
     }
   }

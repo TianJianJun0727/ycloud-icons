@@ -7,10 +7,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "反对",
   "tags": [
-    "dislike",
-    "bad",
-    "emotion"
+    "情绪"
   ],
   "categories": [
     "account",
@@ -18,15 +17,17 @@
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "反对",
+    "en": {
+      "name": "thumbs down",
       "tags": [
-        "情绪"
+        "dislike",
+        "bad",
+        "emotion"
       ],
       "categories": [
-        "账号与访问",
-        "社交",
-        "表情"
+        "Accounts & access",
+        "Social",
+        "Emoji"
       ]
     }
   }

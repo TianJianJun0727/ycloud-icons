@@ -6,9 +6,9 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "列表缩进增加",
   "tags": [
-    "text",
-    "tab"
+    "文本"
   ],
   "categories": [
     "text",
@@ -29,14 +29,15 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "列表缩进增加",
+    "en": {
+      "name": "list indent increase",
       "tags": [
-        "文本"
+        "text",
+        "tab"
       ],
       "categories": [
-        "文本格式",
-        "编码与开发"
+        "Text formatting",
+        "Coding & development"
       ]
     }
   }

@@ -4,15 +4,15 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "扫描搜索",
   "tags": [
-    "preview",
-    "zoom",
-    "expand",
-    "fullscreen",
-    "gallery",
-    "image",
-    "focus",
-    "lens"
+    "缩放",
+    "展开",
+    "全屏",
+    "图库",
+    "图片",
+    "聚焦",
+    "镜头"
   ],
   "categories": [
     "photography",
@@ -20,21 +20,22 @@
     "accessibility"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描搜索",
+    "en": {
+      "name": "scan search",
       "tags": [
-        "缩放",
-        "展开",
-        "全屏",
-        "图库",
-        "图片",
-        "聚焦",
-        "镜头"
+        "preview",
+        "zoom",
+        "expand",
+        "fullscreen",
+        "gallery",
+        "image",
+        "focus",
+        "lens"
       ],
       "categories": [
-        "摄影",
-        "多媒体",
-        "无障碍"
+        "Photography",
+        "Multimedia",
+        "Accessibility"
       ]
     }
   }

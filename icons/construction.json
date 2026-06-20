@@ -6,23 +6,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "施工",
   "tags": [
-    "roadwork",
-    "maintenance",
-    "blockade",
-    "barricade"
+    "维护"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "施工",
+    "en": {
+      "name": "construction",
       "tags": [
-        "维护"
+        "roadwork",
+        "maintenance",
+        "blockade",
+        "barricade"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

@@ -6,24 +6,25 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "摇椅椅子",
   "tags": [
-    "chair",
-    "furniture",
-    "seat",
-    "comfort",
-    "relax"
+    "椅子"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "摇椅椅子",
+    "en": {
+      "name": "rocking chair",
       "tags": [
-        "椅子"
+        "chair",
+        "furniture",
+        "seat",
+        "comfort",
+        "relax"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

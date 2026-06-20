@@ -5,31 +5,32 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "星座天秤座",
   "tags": [
-    "scales",
-    "balance",
-    "justice",
-    "air",
-    "harmony",
-    "astrology",
-    "star sign",
-    "horoscope",
-    "constellation",
-    "celestial"
+    "星标标志"
   ],
   "categories": [
     "social",
     "emoji"
   ],
   "i18n": {
-    "zh": {
-      "name": "星座天秤座",
+    "en": {
+      "name": "zodiac libra",
       "tags": [
-        "星标标志"
+        "scales",
+        "balance",
+        "justice",
+        "air",
+        "harmony",
+        "astrology",
+        "star sign",
+        "horoscope",
+        "constellation",
+        "celestial"
       ],
       "categories": [
-        "社交",
-        "表情"
+        "Social",
+        "Emoji"
       ]
     }
   }

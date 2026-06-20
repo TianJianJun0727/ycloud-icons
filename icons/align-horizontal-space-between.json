@@ -4,28 +4,29 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "对齐水平间距两端",
   "tags": [
-    "around",
-    "items",
-    "bottom",
-    "flex",
-    "justify"
+    "环绕",
+    "项目",
+    "底部",
+    "弹性布局",
+    "对齐"
   ],
   "categories": [
     "layout"
   ],
   "i18n": {
-    "zh": {
-      "name": "对齐水平间距两端",
+    "en": {
+      "name": "align horizontal space between",
       "tags": [
-        "环绕",
-        "项目",
-        "底部",
-        "弹性布局",
-        "对齐"
+        "around",
+        "items",
+        "bottom",
+        "flex",
+        "justify"
       ],
       "categories": [
-        "布局"
+        "Layout"
       ]
     }
   }

@@ -11,7 +11,7 @@
 1. 不要只改 SVG，不同步元数据。
 2. 不要只删 `.svg` 或只删 `.json`。
 3. 默认不要发明新的分类名，图标的 `categories` 应优先复用现有 `categories/*.json`。
-4. 中文信息优先补齐到 `i18n.zh`，不要只保留英文标签。
+4. 图标元数据默认使用中文，英文信息必须补齐到 `i18n.en`，不要只保留单语言标签。
 5. 除非用户明确要求，不要顺手批量改无关图标。
 6. 修改完成后至少运行最小验证命令，再决定是否提交。
 
@@ -20,7 +20,7 @@
 ## 目录约定
 
 - `icons/*.svg`：图标 SVG 源文件
-- `icons/*.json`：图标元数据，包含分类、标签、贡献者和中文信息
+- `icons/*.json`：图标元数据，主字段为中文展示信息，`i18n.en` 为英文展示信息
 - `categories/*.json`：分类定义，决定左侧分类展示、分类标题和分类图标
 - `docs/`：文档站点，图标详情页、分类页和搜索数据都由构建脚本自动生成
 
@@ -129,13 +129,14 @@ pnpm optimize
   "$schema": "../icon.schema.json",
   "contributors": ["your-github-id"],
   "use-cases": [],
-  "tags": ["arrow", "up", "circle"],
+  "name": "圆形上箭头",
+  "tags": ["箭头", "向上", "圆形"],
   "categories": ["arrows", "navigation"],
   "i18n": {
-    "zh": {
-      "name": "圆形上箭头",
-      "tags": ["箭头", "向上", "圆形"],
-      "categories": ["箭头", "导航与地点"]
+    "en": {
+      "name": "circle arrow up",
+      "tags": ["arrow", "up", "circle"],
+      "categories": ["Arrows", "Navigation & Places"]
     }
   }
 }
@@ -143,15 +144,15 @@ pnpm optimize
 
 最低要求看 `icon.schema.json`：
 
-- 必填：`$schema`、`contributors`、`categories`、`tags`、`use-cases`
-- 推荐补齐：`i18n.zh.name`、`i18n.zh.tags`、`i18n.zh.categories`
+- 必填：`$schema`、`contributors`、`name`、`categories`、`tags`、`i18n.en`、`use-cases`
+- `name` 和 `tags` 使用中文，`i18n.en.name`、`i18n.en.tags` 和 `i18n.en.categories` 使用英文
 
 额外约束：
 
 - `contributors` 不要留空
-- `tags` 不要只写一个宽泛词
+- `tags` 不要只写一个宽泛词，且默认写中文
 - `categories` 最好控制在 1 到 3 个
-- `i18n.zh.name` 应该是用户界面可直接展示的中文名
+- `name` 应该是用户界面可直接展示的中文名，`i18n.en.name` 应该是英文界面可直接展示的英文名
 
 ### 3. 校验分类是否存在
 
@@ -165,11 +166,11 @@ pnpm optimize
 ```json
 {
   "$schema": "../category.schema.json",
-  "title": "Navigation & Places",
+  "title": "导航与地点",
   "icon": "compass",
   "i18n": {
-    "zh": {
-      "title": "导航与地点"
+    "en": {
+      "title": "Navigation & Places"
     }
   }
 }
@@ -177,9 +178,9 @@ pnpm optimize
 
 如果新增了分类，建议同时补：
 
-- `title`
-- `i18n.zh.title`
-- 如有必要再补 `description` 和 `i18n.zh.description`
+- `title`：中文分类名
+- `i18n.en.title`：英文分类名
+- 如有必要再补 `description` 和 `i18n.en.description`
 
 新增分类时再额外遵守：
 
@@ -267,7 +268,7 @@ icons/<icon-name>.json
 
 - 调整 `tags`
 - 调整 `categories`
-- 补齐或修正 `i18n.zh`
+- 补齐或修正中文主字段和 `i18n.en`
 - 增加 `aliases`
 
 这类改动会直接影响：
@@ -317,4 +318,4 @@ git diff --check
 
 ## 一句话摘要
 
-> 先判断是新增、删除还是修改；保证 `icons/*.svg` 与 `icons/*.json` 成对一致；分类只引用已存在的 `categories/*.json`；中文信息写入 `i18n.zh`；最后至少运行 `pnpm checkIcons`、`pnpm lint:json` 和 `pnpm --dir docs docs:build:no-og`。
+> 先判断是新增、删除还是修改；保证 `icons/*.svg` 与 `icons/*.json` 成对一致；分类只引用已存在的 `categories/*.json`；中文写入主字段，英文写入必填的 `i18n.en`；最后至少运行 `pnpm checkIcons`、`pnpm lint:json` 和 `pnpm --dir docs docs:build:no-og`。

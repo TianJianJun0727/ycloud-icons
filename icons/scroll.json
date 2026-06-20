@@ -6,19 +6,14 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "滚动",
   "tags": [
-    "paper",
-    "log",
-    "scripture",
-    "document",
-    "notes",
-    "parchment",
-    "list",
-    "long",
-    "script",
-    "story",
-    "code",
-    "coding"
+    "日志",
+    "便签",
+    "列表",
+    "代码",
+    "文档",
+    "故事"
   ],
   "categories": [
     "gaming",
@@ -26,20 +21,26 @@
     "text"
   ],
   "i18n": {
-    "zh": {
-      "name": "滚动",
+    "en": {
+      "name": "scroll",
       "tags": [
-        "日志",
-        "便签",
-        "列表",
-        "代码",
-        "文档",
-        "故事"
+        "paper",
+        "log",
+        "scripture",
+        "document",
+        "notes",
+        "parchment",
+        "list",
+        "long",
+        "script",
+        "story",
+        "code",
+        "coding"
       ],
       "categories": [
-        "游戏",
-        "编码与开发",
-        "文本格式"
+        "Gaming",
+        "Coding & development",
+        "Text formatting"
       ]
     }
   }

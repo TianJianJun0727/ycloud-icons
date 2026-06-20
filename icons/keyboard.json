@@ -5,11 +5,12 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "键盘",
   "tags": [
-    "layout",
-    "spell",
-    "settings",
-    "mouse"
+    "布局",
+    "拼写",
+    "设置",
+    "鼠标"
   ],
   "categories": [
     "text",
@@ -17,18 +18,18 @@
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "键盘",
+    "en": {
+      "name": "keyboard",
       "tags": [
-        "布局",
-        "拼写",
-        "设置",
-        "鼠标"
+        "layout",
+        "spell",
+        "settings",
+        "mouse"
       ],
       "categories": [
-        "文本格式",
-        "设备",
-        "编码与开发"
+        "Text formatting",
+        "Devices",
+        "Coding & development"
       ]
     }
   }

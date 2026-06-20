@@ -7,23 +7,24 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "硬币",
   "tags": [
-    "money",
-    "cash",
-    "finance",
-    "gamble"
+    "金融"
   ],
   "categories": [
     "gaming"
   ],
   "i18n": {
-    "zh": {
-      "name": "硬币",
+    "en": {
+      "name": "coins",
       "tags": [
-        "金融"
+        "money",
+        "cash",
+        "finance",
+        "gamble"
       ],
       "categories": [
-        "游戏"
+        "Gaming"
       ]
     }
   }

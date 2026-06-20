@@ -7,22 +7,23 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "文件组",
   "tags": [
-    "multiple",
-    "copy",
-    "documents"
+    "复制"
   ],
   "categories": [
     "files"
   ],
   "i18n": {
-    "zh": {
-      "name": "文件组",
+    "en": {
+      "name": "files",
       "tags": [
-        "复制"
+        "multiple",
+        "copy",
+        "documents"
       ],
       "categories": [
-        "文件"
+        "File icons"
       ]
     }
   }

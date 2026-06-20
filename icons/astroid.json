@@ -4,32 +4,33 @@
     "whoisBugsbunny"
   ],
   "use-cases": [],
+  "name": "星形线",
   "tags": [
-    "star",
-    "math",
-    "shape",
-    "curve",
-    "sharp",
-    "four-pointed",
-    "hypocycloid",
-    "ai",
-    "artificial intelligence"
+    "星标",
+    "形状",
+    "AI"
   ],
   "categories": [
     "shapes",
     "math"
   ],
   "i18n": {
-    "zh": {
-      "name": "星形线",
+    "en": {
+      "name": "astroid",
       "tags": [
-        "星标",
-        "形状",
-        "AI"
+        "star",
+        "math",
+        "shape",
+        "curve",
+        "sharp",
+        "four-pointed",
+        "hypocycloid",
+        "ai",
+        "artificial intelligence"
       ],
       "categories": [
-        "形状",
-        "数学"
+        "Shapes",
+        "Mathematics"
       ]
     }
   }

@@ -4,26 +4,27 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "风扇",
   "tags": [
-    "air",
-    "cooler",
-    "ventilation",
-    "ventilator",
-    "blower"
+    "风扇",
+    "通风",
+    "散热"
   ],
   "categories": [
     "home"
   ],
   "i18n": {
-    "zh": {
-      "name": "风扇",
+    "en": {
+      "name": "fan",
       "tags": [
-        "风扇",
-        "通风",
-        "散热"
+        "air",
+        "cooler",
+        "ventilation",
+        "ventilator",
+        "blower"
       ],
       "categories": [
-        "家居"
+        "Home"
       ]
     }
   }

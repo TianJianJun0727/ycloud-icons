@@ -5,11 +5,9 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形点",
   "tags": [
-    "git",
-    "diff",
-    "modified",
-    "."
+    "差异"
   ],
   "categories": [
     "development"
@@ -23,13 +21,16 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形点",
+    "en": {
+      "name": "square dot",
       "tags": [
-        "差异"
+        "git",
+        "diff",
+        "modified",
+        "."
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

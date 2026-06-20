@@ -4,29 +4,30 @@
     "dg-ac"
   ],
   "use-cases": [],
+  "name": "线条样式",
   "tags": [
-    "line",
-    "stroke",
-    "style",
-    "dashed",
-    "border"
+    "线条",
+    "描边",
+    "样式",
+    "虚线"
   ],
   "categories": [
     "design",
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "线条样式",
+    "en": {
+      "name": "line style",
       "tags": [
-        "线条",
-        "描边",
-        "样式",
-        "虚线"
+        "line",
+        "stroke",
+        "style",
+        "dashed",
+        "border"
       ],
       "categories": [
-        "设计",
-        "工具"
+        "Design",
+        "Tools"
       ]
     }
   }

@@ -5,15 +5,13 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "方形箭头左",
   "tags": [
-    "previous",
-    "back",
-    "direction",
-    "west",
-    "sign",
-    "keyboard",
-    "button",
-    "<-"
+    "上一个",
+    "返回",
+    "方向",
+    "标志",
+    "键盘"
   ],
   "categories": [
     "arrows"
@@ -27,17 +25,20 @@
     }
   ],
   "i18n": {
-    "zh": {
-      "name": "方形箭头左",
+    "en": {
+      "name": "square arrow left",
       "tags": [
-        "上一个",
-        "返回",
-        "方向",
-        "标志",
-        "键盘"
+        "previous",
+        "back",
+        "direction",
+        "west",
+        "sign",
+        "keyboard",
+        "button",
+        "<-"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }

@@ -9,33 +9,34 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "云告警",
   "tags": [
-    "weather",
-    "danger",
-    "warning",
-    "alert",
-    "error",
-    "sync",
-    "network",
-    "exclamation"
+    "天气",
+    "警告",
+    "告警",
+    "错误",
+    "同步",
+    "网络",
+    "感叹号"
   ],
   "categories": [
     "development"
   ],
   "i18n": {
-    "zh": {
-      "name": "云告警",
+    "en": {
+      "name": "cloud alert",
       "tags": [
-        "天气",
-        "警告",
-        "告警",
-        "错误",
-        "同步",
-        "网络",
-        "感叹号"
+        "weather",
+        "danger",
+        "warning",
+        "alert",
+        "error",
+        "sync",
+        "network",
+        "exclamation"
       ],
       "categories": [
-        "编码与开发"
+        "Coding & development"
       ]
     }
   }

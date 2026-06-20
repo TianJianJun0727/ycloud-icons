@@ -7,25 +7,26 @@
     "jamiemlaw"
   ],
   "use-cases": [],
+  "name": "风箭头下",
   "tags": [
-    "weather",
-    "air",
-    "pressure",
-    "blow"
+    "天气"
   ],
   "categories": [
     "weather",
     "sustainability"
   ],
   "i18n": {
-    "zh": {
-      "name": "风箭头下",
+    "en": {
+      "name": "wind arrow down",
       "tags": [
-        "天气"
+        "weather",
+        "air",
+        "pressure",
+        "blow"
       ],
       "categories": [
-        "天气",
-        "可持续"
+        "Weather",
+        "Sustainability"
       ]
     }
   }

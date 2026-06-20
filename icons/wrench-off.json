@@ -11,18 +11,15 @@
     "Indicates that a service or maintenance mode is disabled",
     "Used on a button or toggle to turn service/maintenance mode off"
   ],
+  "name": "扳手关闭",
   "tags": [
-    "account",
-    "settings",
-    "spanner",
-    "diy",
-    "toolbox",
-    "build",
-    "construction",
-    "off",
-    "service",
-    "maintenance",
-    "disabled"
+    "账号",
+    "设置",
+    "工具箱",
+    "施工",
+    "关闭",
+    "维护",
+    "禁用"
   ],
   "categories": [
     "account",
@@ -30,21 +27,25 @@
     "tools"
   ],
   "i18n": {
-    "zh": {
-      "name": "扳手关闭",
+    "en": {
+      "name": "wrench off",
       "tags": [
-        "账号",
-        "设置",
-        "工具箱",
-        "施工",
-        "关闭",
-        "维护",
-        "禁用"
+        "account",
+        "settings",
+        "spanner",
+        "diy",
+        "toolbox",
+        "build",
+        "construction",
+        "off",
+        "service",
+        "maintenance",
+        "disabled"
       ],
       "categories": [
-        "账号与访问",
-        "编码与开发",
-        "工具"
+        "Accounts & access",
+        "Coding & development",
+        "Tools"
       ]
     }
   }

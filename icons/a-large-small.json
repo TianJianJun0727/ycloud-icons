@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "indicating a large and small text size",
-    "formatting text size",
-    "indicating a heading and body text"
-  ],
   "contributors": [
     "it-is-not",
     "jguddas",
@@ -13,28 +8,34 @@
     "vichotech",
     "karsa-mistmere"
   ],
+  "use-cases": [
+    "indicating a large and small text size",
+    "formatting text size",
+    "indicating a heading and body text"
+  ],
+  "name": "大小写与字号",
   "tags": [
-    "letter",
-    "font size",
-    "text",
-    "formatting"
+    "字母",
+    "字号",
+    "文本",
+    "格式"
   ],
   "categories": [
     "text",
     "design"
   ],
   "i18n": {
-    "zh": {
-      "name": "大小写与字号",
+    "en": {
+      "name": "A large small",
       "tags": [
-        "字母",
-        "字号",
-        "文本",
-        "格式"
+        "letter",
+        "font size",
+        "text",
+        "formatting"
       ],
       "categories": [
-        "文本格式",
-        "设计"
+        "Text formatting",
+        "Design"
       ]
     }
   }

@@ -4,30 +4,31 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "帐篷树",
   "tags": [
-    "camping",
-    "campsite",
-    "holiday",
-    "retreat",
-    "nomadic",
-    "wilderness",
-    "outdoors"
+    "帐篷",
+    "露营",
+    "户外"
   ],
   "categories": [
     "travel",
     "nature"
   ],
   "i18n": {
-    "zh": {
-      "name": "帐篷树",
+    "en": {
+      "name": "tent tree",
       "tags": [
-        "帐篷",
-        "露营",
-        "户外"
+        "camping",
+        "campsite",
+        "holiday",
+        "retreat",
+        "nomadic",
+        "wilderness",
+        "outdoors"
       ],
       "categories": [
-        "旅行",
-        "自然"
+        "Travel",
+        "Nature"
       ]
     }
   }

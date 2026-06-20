@@ -5,32 +5,33 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "书签关闭",
   "tags": [
-    "read",
-    "clip",
-    "marker",
-    "tag",
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "clear"
+    "标签",
+    "关闭",
+    "删除",
+    "移除",
+    "标记"
   ],
   "categories": [
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "书签关闭",
+    "en": {
+      "name": "bookmark X",
       "tags": [
-        "标签",
-        "关闭",
-        "删除",
-        "移除",
-        "标记"
+        "read",
+        "clip",
+        "marker",
+        "tag",
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "clear"
       ],
       "categories": [
-        "账号与访问"
+        "Accounts & access"
       ]
     }
   }

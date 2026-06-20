@@ -6,28 +6,29 @@
     "jguddas"
   ],
   "use-cases": [],
+  "name": "显示器下",
   "tags": [
-    "tv",
-    "screen",
-    "display",
-    "desktop",
-    "download"
+    "电视",
+    "屏幕",
+    "下载"
   ],
   "categories": [
     "connectivity",
     "devices"
   ],
   "i18n": {
-    "zh": {
-      "name": "显示器下",
+    "en": {
+      "name": "monitor down",
       "tags": [
-        "电视",
-        "屏幕",
-        "下载"
+        "tv",
+        "screen",
+        "display",
+        "desktop",
+        "download"
       ],
       "categories": [
-        "连接",
-        "设备"
+        "Connectivity",
+        "Devices"
       ]
     }
   }

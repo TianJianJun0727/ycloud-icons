@@ -4,15 +4,12 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "音箱盒子",
   "tags": [
-    "radio",
-    "speakers",
-    "audio",
-    "music",
-    "sound",
-    "broadcast",
-    "live",
-    "frequency"
+    "收音机",
+    "音频",
+    "音乐",
+    "声音"
   ],
   "categories": [
     "devices",
@@ -20,18 +17,22 @@
     "social"
   ],
   "i18n": {
-    "zh": {
-      "name": "音箱盒子",
+    "en": {
+      "name": "boom box",
       "tags": [
-        "收音机",
-        "音频",
-        "音乐",
-        "声音"
+        "radio",
+        "speakers",
+        "audio",
+        "music",
+        "sound",
+        "broadcast",
+        "live",
+        "frequency"
       ],
       "categories": [
-        "设备",
-        "多媒体",
-        "社交"
+        "Devices",
+        "Multimedia",
+        "Social"
       ]
     }
   }

@@ -4,24 +4,17 @@
     "danielbayley"
   ],
   "use-cases": [],
+  "name": "扫描眼睛",
   "tags": [
-    "preview",
-    "zoom",
-    "expand",
-    "fullscreen",
-    "gallery",
-    "image",
-    "camera",
-    "watch",
-    "surveillance",
-    "retina",
-    "focus",
-    "lens",
-    "biometric",
-    "identification",
-    "authentication",
-    "access",
-    "login"
+    "缩放",
+    "展开",
+    "全屏",
+    "图库",
+    "图片",
+    "相机",
+    "手表",
+    "聚焦",
+    "镜头"
   ],
   "categories": [
     "photography",
@@ -32,26 +25,34 @@
     "account"
   ],
   "i18n": {
-    "zh": {
-      "name": "扫描眼睛",
+    "en": {
+      "name": "scan eye",
       "tags": [
-        "缩放",
-        "展开",
-        "全屏",
-        "图库",
-        "图片",
-        "相机",
-        "手表",
-        "聚焦",
-        "镜头"
+        "preview",
+        "zoom",
+        "expand",
+        "fullscreen",
+        "gallery",
+        "image",
+        "camera",
+        "watch",
+        "surveillance",
+        "retina",
+        "focus",
+        "lens",
+        "biometric",
+        "identification",
+        "authentication",
+        "access",
+        "login"
       ],
       "categories": [
-        "摄影",
-        "多媒体",
-        "无障碍",
-        "安全",
-        "设备",
-        "账号与访问"
+        "Photography",
+        "Multimedia",
+        "Accessibility",
+        "Security",
+        "Devices",
+        "Accounts & access"
       ]
     }
   }

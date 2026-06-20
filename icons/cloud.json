@@ -7,20 +7,21 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "云",
   "tags": [
-    "weather"
+    "天气"
   ],
   "categories": [
     "weather"
   ],
   "i18n": {
-    "zh": {
-      "name": "云",
+    "en": {
+      "name": "cloud",
       "tags": [
-        "天气"
+        "weather"
       ],
       "categories": [
-        "天气"
+        "Weather"
       ]
     }
   }

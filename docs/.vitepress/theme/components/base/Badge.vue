@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRouter } from 'vitepress';
-import { resolveBrowserHref, resolveRoutePath } from '../../utils/navigation';
+import { resolveBrowserHref, resolveRoutePath } from '@theme/utils/navigation';
 
 const { go } = useRouter();
 const props = defineProps<{

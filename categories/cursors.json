@@ -1,10 +1,10 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Cursors",
+  "title": "光标",
   "icon": "mouse-pointer-2",
   "i18n": {
-    "zh": {
-      "title": "光标"
+    "en": {
+      "title": "Cursors"
     }
   }
 }

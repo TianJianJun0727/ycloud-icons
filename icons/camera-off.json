@@ -8,10 +8,11 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "相机关闭",
   "tags": [
-    "photo",
-    "webcam",
-    "video"
+    "照片",
+    "摄像头",
+    "视频"
   ],
   "categories": [
     "photography",
@@ -19,17 +20,17 @@
     "communication"
   ],
   "i18n": {
-    "zh": {
-      "name": "相机关闭",
+    "en": {
+      "name": "camera off",
       "tags": [
-        "照片",
-        "摄像头",
-        "视频"
+        "photo",
+        "webcam",
+        "video"
       ],
       "categories": [
-        "摄影",
-        "设备",
-        "沟通"
+        "Photography",
+        "Devices",
+        "Communication"
       ]
     }
   }

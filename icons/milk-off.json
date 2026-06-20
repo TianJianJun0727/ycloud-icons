@@ -5,29 +5,30 @@
     "ericfennis"
   ],
   "use-cases": [],
+  "name": "牛奶关闭",
   "tags": [
-    "lactose free",
-    "bottle",
-    "beverage",
-    "drink",
-    "water",
-    "allergy",
-    "intolerance",
-    "diet"
+    "瓶子",
+    "饮品",
+    "水"
   ],
   "categories": [
     "food-beverage"
   ],
   "i18n": {
-    "zh": {
-      "name": "牛奶关闭",
+    "en": {
+      "name": "milk off",
       "tags": [
-        "瓶子",
-        "饮品",
-        "水"
+        "lactose free",
+        "bottle",
+        "beverage",
+        "drink",
+        "water",
+        "allergy",
+        "intolerance",
+        "diet"
       ],
       "categories": [
-        "餐饮"
+        "Food & beverage"
       ]
     }
   }

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Badge from '../base/Badge.vue';
-import { moveRight } from '../../../data/iconNodes';
+import { moveRight } from '@data/iconNodes';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
 import { data } from './HomeHeroInfoBefore.data';
 import RocketDuotoneIcon from './RocketDuotoneIcon.ts';

@@ -6,38 +6,39 @@
     "karsa-mistmere"
   ],
   "use-cases": [],
+  "name": "刷新顺时针关闭",
   "tags": [
-    "rotate",
-    "reload",
-    "rerun",
-    "synchronise",
-    "synchronize",
-    "arrows",
-    "circular",
-    "cycle",
-    "cancel",
-    "no",
-    "stop",
-    "error",
-    "disconnect",
-    "ignore"
+    "旋转",
+    "箭头",
+    "无",
+    "停止",
+    "错误",
+    "断开"
   ],
   "categories": [
     "arrows"
   ],
   "i18n": {
-    "zh": {
-      "name": "刷新顺时针关闭",
+    "en": {
+      "name": "refresh cw off",
       "tags": [
-        "旋转",
-        "箭头",
-        "无",
-        "停止",
-        "错误",
-        "断开"
+        "rotate",
+        "reload",
+        "rerun",
+        "synchronise",
+        "synchronize",
+        "arrows",
+        "circular",
+        "cycle",
+        "cancel",
+        "no",
+        "stop",
+        "error",
+        "disconnect",
+        "ignore"
       ],
       "categories": [
-        "箭头"
+        "Arrows"
       ]
     }
   }
