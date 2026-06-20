@@ -1,6 +1,6 @@
 {
   "name": "@ycloud-web/icons-vue",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "YCloud",
   "description": "A YCloud icon library package for Vue applications.",
   "license": "ISC",
