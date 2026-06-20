@@ -2,6 +2,31 @@
 
 > This file is generated before the documentation build from Git tags and commit history.
 
+## [v0.1.8](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.8) - 2026-06-21
+
+[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.7...v0.1.8)
+
+- ci: remove release workflow warnings
+
+## [v0.1.7](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.7) - 2026-06-21
+
+[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.6...v0.1.7)
+
+- ci: dispatch docs deployment from release
+
+## [v0.1.6](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.6) - 2026-06-21
+
+[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.5...v0.1.6)
+
+- ci: make release version sync idempotent
+- chore: optimize github pages build
+- ci: prepare docs types for github pages build
+- docs: optimize github pages build
+- docs: fix guide sidebar ordering
+- docs: add bilingual icon metadata and readmes
+- fix package build outputs
+- fix: stabilize docs sandpack examples
+
 ## [v0.1.5](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.5) - 2026-06-19
 
 [View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.4...v0.1.5)

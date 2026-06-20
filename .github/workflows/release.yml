@@ -88,17 +88,16 @@ jobs:
             hasTest: false
 
     steps:
+      - name: Configure git default branch
+        run: git config --global init.defaultBranch main
+
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v6
-
-      - uses: actions/setup-node@v6
+      - uses: ./.github/actions/setup-pnpm
         with:
-          cache: pnpm
           registry-url: https://registry.npmjs.org
-          node-version-file: package.json
 
       - name: Verify pnpm version
         run: pnpm --version
@@ -148,17 +147,15 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Configure git default branch
+        run: git config --global init.defaultBranch main
+
       - uses: actions/checkout@v7
         with:
           ref: main
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v6
-
-      - uses: actions/setup-node@v6
-        with:
-          cache: pnpm
-          node-version-file: package.json
+      - uses: ./.github/actions/setup-pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile

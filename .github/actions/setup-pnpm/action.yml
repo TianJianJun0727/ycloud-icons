@@ -1,0 +1,49 @@
+name: Setup Node.js and pnpm
+description: Setup Node.js, activate the packageManager-pinned pnpm with Corepack, and cache the pnpm store.
+
+inputs:
+  node-version-file:
+    description: File that declares the Node.js version.
+    required: false
+    default: package.json
+  registry-url:
+    description: Optional npm registry URL for publish jobs.
+    required: false
+    default: ''
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node.js
+      if: inputs.registry-url == ''
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: ${{ inputs.node-version-file }}
+
+    - name: Setup Node.js for npm publishing
+      if: inputs.registry-url != ''
+      uses: actions/setup-node@v6
+      with:
+        node-version-file: ${{ inputs.node-version-file }}
+        registry-url: ${{ inputs.registry-url }}
+
+    - name: Enable Corepack pnpm
+      shell: bash
+      run: |
+        npm install --global corepack@latest
+        corepack enable
+        corepack install
+        pnpm --version
+
+    - name: Resolve pnpm store path
+      id: pnpm-store
+      shell: bash
+      run: echo "path=$(pnpm store path --silent)" >> "$GITHUB_OUTPUT"
+
+    - name: Restore pnpm store
+      uses: actions/cache@v5
+      with:
+        path: ${{ steps.pnpm-store.outputs.path }}
+        key: pnpm-store-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          pnpm-store-${{ runner.os }}-

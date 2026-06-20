@@ -27,18 +27,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Configure git default branch
+        run: git config --global init.defaultBranch main
+
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ inputs.ref || github.ref }}
 
-      - uses: pnpm/action-setup@v6
-
-      - uses: actions/setup-node@v6
-        with:
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
-          node-version-file: package.json
+      - uses: ./.github/actions/setup-pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -86,3 +83,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        env:
+          NODE_OPTIONS: --disable-warning=DEP0040
