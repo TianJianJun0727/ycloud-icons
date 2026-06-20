@@ -6,9 +6,9 @@ nextPage:
 ---
 
 <script setup>
-import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
-import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
-import { ycloudSidebar } from '../../.vitepress/sidebar/ycloud'
+import OverviewLink from '../../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { ycloudSidebar } from '../../../.vitepress/sidebar/ycloud'
 </script>
 
 <!--@include: ../../../docs/images/package-logos/ycloud.svg -->

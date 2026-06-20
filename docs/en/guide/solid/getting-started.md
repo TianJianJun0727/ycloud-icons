@@ -4,9 +4,9 @@ description: This guide will help you get started with YCloud in your Solid proj
 ---
 
 <script setup>
-import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
-import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
-import { solidSidebar } from '../../.vitepress/sidebar/solid'
+import OverviewLink from '../../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { solidSidebar } from '../../../.vitepress/sidebar/solid'
 </script>
 
 # Getting started

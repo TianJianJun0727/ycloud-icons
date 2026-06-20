@@ -50,7 +50,8 @@ const props = defineProps<{
   icons: IconEntity[];
 }>();
 
-const activeIconName = ref(null);
+const activeIcon = ref<IconEntity | null>(null);
+const activeIconName = computed(() => activeIcon.value?.name ?? '');
 const selectedSort = ref(sortingOptions.value[0]);
 
 const { execute: fetchTags, data: tags } = useFetchTags();
@@ -141,8 +142,8 @@ onMounted(() => {
   }
 });
 
-function setActiveIconName(name: string) {
-  activeIconName.value = name;
+function setActiveIcon(icon: IconEntity) {
+  activeIcon.value = icon;
 }
 
 function onFocusSearchInput() {
@@ -163,7 +164,7 @@ watch(searchQueryDebounced, () => {
 });
 
 function handleCloseDrawer() {
-  setActiveIconName('');
+  activeIcon.value = null;
 
   const url = new URL(window.location);
   url.pathname = withBase(isEnglish.value ? '/en/icons/' : '/icons/');
@@ -217,7 +218,7 @@ function handleCloseDrawer() {
       overlayMode
       :icons="searchResults.slice(0, initialGridItems)"
       :activeIcon="activeIconName"
-      @setActiveIcon="setActiveIconName"
+      @setActiveIcon="setActiveIcon"
     />
     <div
       v-bind="wrapperProps"
@@ -230,13 +231,13 @@ function handleCloseDrawer() {
         overlayMode
         :icons="icons"
         :activeIcon="activeIconName"
-        @setActiveIcon="setActiveIconName"
+        @setActiveIcon="setActiveIcon"
       />
     </div>
   </div>
 
   <IconDetailOverlay
-    :iconName="activeIconName"
+    :icon="activeIcon"
     @close="handleCloseDrawer"
   />
 </template>

@@ -94,17 +94,20 @@ pnpm icons-vue build
 pnpm docs:dev
 ```
 
-文档站支持一键开关 OG 图生成：
+常规文档命令与 Lucide 上游保持一致；GitHub Pages 使用单独的优化命令：
 
 ```sh
-# 默认开发模式：关闭 OG 图生成，加快启动和重建
+# 启动文档开发服务
 pnpm docs:dev
-
-# 显式开启 OG 图生成
-pnpm docs:dev:og
 
 # 构建文档但跳过逐页 OG 图
 pnpm docs:build:no-og
+
+# GitHub Pages 专用构建：固定 base，关闭 OG 和 llms，跳过 API 构建
+pnpm docs:build:github-pages
+
+# 构建文档并额外生成 llms.txt
+pnpm docs:build:llms
 ```
 
 ## 许可证

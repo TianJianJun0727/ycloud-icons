@@ -9,28 +9,18 @@ import { x, expand } from '@data/iconNodes';
 import { useData, useRouter } from 'vitepress';
 import IconInfo from './IconInfo.vue';
 import Badge from '../base/Badge.vue';
-import { computedAsync } from '@vueuse/core';
 import { satisfies } from 'semver';
 import { resolveBrowserHref, resolveRoutePath } from '@theme/utils/navigation';
 
 const props = defineProps<{
-  iconName: string | null;
+  icon: IconEntity | null;
 }>();
 
 const { go } = useRouter();
 const { page } = useData();
 const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
-const icon = computedAsync<IconEntity | null>(async () => {
-  if (props.iconName) {
-    try {
-      return (await import(`../../../data/iconDetails/${props.iconName}.ts`)).default as IconEntity;
-    } catch (err) {
-      go(resolveRoutePath(`${isEnglish.value ? '/en' : ''}/icons/${props.iconName}`));
-    }
-  }
-  return null;
-}, null);
+const icon = computed(() => props.icon);
 
 const emit = defineEmits(['close']);
 const isOpen = computed(() => !!icon.value);

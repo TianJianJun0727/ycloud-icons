@@ -25,7 +25,8 @@ const props = defineProps<{
   iconCategories: Record<string, string[]>;
 }>();
 
-const activeIconName = ref(null);
+const activeIcon = ref<IconEntity | null>(null);
+const activeIconName = computed(() => activeIcon.value?.name ?? '');
 const { searchInput, searchQuery, searchQueryDebounced } = useSearchInput();
 const { selectedCategory } = useCategoryView();
 const isSearching = computed(() => !!searchQuery.value);
@@ -42,8 +43,8 @@ const { shortcutText: kbdSearchShortcut } = useSearchShortcut(() => {
   searchInput.value?.focus();
 });
 
-function setActiveIconName(name: string) {
-  activeIconName.value = name;
+function setActiveIcon(icon: IconEntity) {
+  activeIcon.value = icon;
 }
 
 const { execute: fetchTags, data: tags } = useFetchTags();
@@ -163,7 +164,7 @@ const NoResults = defineAsyncComponent(() => import('./NoResults.vue'));
 const IconDetailOverlay = defineAsyncComponent(() => import('./IconDetailOverlay.vue'));
 
 function handleCloseDrawer() {
-  setActiveIconName('');
+  activeIcon.value = null;
 
   const url = new URL(window.location);
   url.pathname = withBase(isEnglish.value ? '/en/icons/categories' : '/icons/categories');
@@ -207,14 +208,14 @@ function handleCloseDrawer() {
         v-for="{ index, data } in list"
         :categoryRow="data"
         :activeIconName="activeIconName"
-        @setActiveIcon="setActiveIconName"
+        @setActiveIcon="setActiveIcon"
         :key="index"
       />
     </div>
   </div>
   <IconDetailOverlay
-    v-if="activeIconName != null"
-    :iconName="activeIconName"
+    v-if="activeIcon != null"
+    :icon="activeIcon"
     @close="handleCloseDrawer"
   />
 </template>

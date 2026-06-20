@@ -4,9 +4,9 @@ description: This guide will help you get started with YCloud in your Vanilla Ja
 ---
 
 <script setup>
-import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
-import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
-import { reactSidebar } from '../../.vitepress/sidebar/react'
+import OverviewLink from '../../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { reactSidebar } from '../../../.vitepress/sidebar/react'
 </script>
 
 # Getting started

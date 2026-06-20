@@ -61,6 +61,8 @@ function createLlmsSidebar(source: DefaultTheme.Sidebar): DefaultTheme.Sidebar {
 const zhSidebar = createSidebar('zh') as DefaultTheme.Sidebar;
 const enSidebar = createSidebar('en') as DefaultTheme.Sidebar;
 const llmsSidebar = createLlmsSidebar(zhSidebar);
+const isLlmsEnabled = process.env.DOCS_LLMS === '1';
+const isMetaChunkEnabled = process.env.DOCS_META_CHUNK === '1';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -70,6 +72,7 @@ export default defineConfig({
   description: zhDescription,
   base,
   cleanUrls: true,
+  metaChunk: isMetaChunkEnabled,
   outDir: '.vercel/output/static',
   srcExclude: ['**/README.md'],
   markdown: {
@@ -167,15 +170,19 @@ export default defineConfig({
     },
     plugins: [
       groupIconVitePlugin(),
-      llmstxt({
-        ignoreFiles: [
-          'index.md',
-          'packages.md',
-          'icons/**', // Not working, need investigation
-          'en/icons/**',
-        ],
-        sidebar: llmsSidebar,
-      }) as unknown as UserConfig['vite']['plugins'][0],
+      ...(isLlmsEnabled
+        ? [
+            llmstxt({
+              ignoreFiles: [
+                'index.md',
+                'packages.md',
+                'icons/**', // Not working, need investigation
+                'en/icons/**',
+              ],
+              sidebar: llmsSidebar,
+            }) as unknown as UserConfig['vite']['plugins'][0],
+          ]
+        : []),
     ],
   },
   head: getHeadConfig({ title, description: zhDescription, socialTitle, base }),

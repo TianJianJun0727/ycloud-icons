@@ -4,9 +4,9 @@ description: This guide will help you get started with YCloud Icons in your Vue 
 ---
 
 <script setup>
-import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
-import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
-import { vueSidebar } from '../../.vitepress/sidebar/vue'
+import OverviewLink from '../../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { vueSidebar } from '../../../.vitepress/sidebar/vue'
 </script>
 
 # Getting started

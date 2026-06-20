@@ -42,12 +42,22 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Restore GitHub Pages build output
+        id: pages-build-cache
+        uses: actions/cache@v4
+        with:
+          path: docs/.vercel/output/static
+          key: pages-static-${{ runner.os }}-${{ hashFiles('.github/workflows/docs.yml', 'docs/**', 'icons/**', 'categories/**', 'packages/**', 'scripts/**', 'tools/**', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml') }}
+
       - name: Build docs
+        if: steps.pages-build-cache.outputs.cache-hit != 'true'
         env:
           NODE_OPTIONS: --max-old-space-size=8192
-          DOCS_BASE: /ycloud-icons/
-          DOCS_OG: 0
-        run: pnpm --dir docs build
+        run: pnpm --dir docs docs:build:github-pages
+
+      - name: Reuse GitHub Pages build output
+        if: steps.pages-build-cache.outputs.cache-hit == 'true'
+        run: echo "Reused cached GitHub Pages build output."
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

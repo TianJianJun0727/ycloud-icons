@@ -4,9 +4,9 @@ description: This guide will help you get started with YCloud in your React Nati
 ---
 
 <script setup>
-import OverviewLink from '../../.vitepress/theme/components/base/OverviewLink.vue'
-import OverviewLinkGrid from '../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
-import { reactNativeSidebar } from '../../.vitepress/sidebar/react-native'
+import OverviewLink from '../../../.vitepress/theme/components/base/OverviewLink.vue'
+import OverviewLinkGrid from '../../../.vitepress/theme/components/base/OverviewLinkGrid.vue'
+import { reactNativeSidebar } from '../../../.vitepress/sidebar/react-native'
 </script>
 
 # Getting started

@@ -16,8 +16,8 @@ defineProps<{
 const { page } = useData();
 const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
-function setActiveIcon(name: string) {
-  emit('setActiveIcon', name);
+function setActiveIcon(icon: IconEntity) {
+  emit('setActiveIcon', icon);
 }
 </script>
 
@@ -32,7 +32,7 @@ function setActiveIcon(name: string) {
         :iconNode="icon.iconNode"
         :name="icon.name"
         :displayName="isEnglish ? icon.englishName : icon.displayName"
-        @setActiveIcon="setActiveIcon"
+        @setActiveIcon="setActiveIcon(icon)"
         :active="activeIcon === icon.name"
         customizable
         :overlayMode="overlayMode"
