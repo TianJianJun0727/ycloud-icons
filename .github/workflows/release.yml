@@ -190,10 +190,21 @@ jobs:
       - release
       - github-release
       - sync-versions
+    runs-on: ubuntu-latest
     permissions:
+      actions: write
       contents: read
-      pages: write
-      id-token: write
-    uses: ./.github/workflows/docs.yml
-    with:
-      ref: main
+    steps:
+      - name: Trigger GitHub Pages deployment
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'docs.yml',
+              ref: 'main',
+              inputs: {
+                ref: 'main',
+              },
+            });

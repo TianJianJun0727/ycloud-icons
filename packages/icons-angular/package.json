@@ -1,7 +1,7 @@
 {
   "name": "@ycloud-web/icons-angular",
   "description": "A YCloud icon library package for Angular applications.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "karsa-mistmere",
   "license": "ISC",
   "homepage": "https://tianjianjun0727.github.io/ycloud-icons/guide/angular/",
