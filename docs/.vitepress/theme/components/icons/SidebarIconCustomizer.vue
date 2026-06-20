@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { shallowRef, type Ref, watch, computed } from 'vue';
 import { useCssVar, syncRef } from '@vueuse/core';
+import { useData } from 'vitepress';
 import { STYLE_DEFAULTS, useIconStyleContext } from '@theme/composables/useIconStyle';
 import RangeSlider from '../base/RangeSlider.vue';
 import InputField from '../base/InputField.vue';
@@ -13,6 +14,8 @@ const props = defineProps<{
 }>();
 
 const { color, strokeWidth, size, absoluteStrokeWidth } = useIconStyleContext();
+const { page } = useData();
+const isEnglish = computed(() => page.value?.relativePath?.startsWith?.('en/') ?? false);
 const documentRef = shallowRef<HTMLElement | undefined>(
   typeof document !== 'undefined' ? document?.documentElement : undefined,
 );
@@ -66,12 +69,12 @@ const customizingActive = computed(() => {
     :class="{ customized: customizingActive }"
   >
     <div class="card-header">
-      <h2 class="card-title">自定义</h2>
+      <h2 class="card-title">{{ isEnglish ? 'Customize' : '自定义' }}</h2>
       <ResetButton @click="resetStyle"></ResetButton>
     </div>
     <InputField
       id="icon-color"
-      label="颜色"
+      :label="isEnglish ? 'Color' : '颜色'"
       class="color-picker-field"
     >
       <template #display>
@@ -85,7 +88,7 @@ const customizingActive = computed(() => {
 
     <InputField
       id="stroke-width"
-      label="描边宽度"
+      :label="isEnglish ? 'Stroke width' : '描边宽度'"
     >
       <template #display>
         <span class="customize-label">{{ strokeWidth }}px</span>
@@ -102,7 +105,7 @@ const customizingActive = computed(() => {
 
     <InputField
       id="size"
-      label="尺寸"
+      :label="isEnglish ? 'Size' : '尺寸'"
     >
       <template #display>
         <span class="customize-label">{{ size }}px</span>
@@ -119,7 +122,7 @@ const customizingActive = computed(() => {
 
     <InputField
       id="absolute-stroke-width"
-      label="固定描边宽度"
+      :label="isEnglish ? 'Absolute stroke width' : '固定描边宽度'"
     >
       <Switch
         id="absolute-stroke-width"

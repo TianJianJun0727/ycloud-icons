@@ -16,7 +16,7 @@ jobs:
     steps:
       #  We checkout the main branch of main repository for security reasons.
       #  This is to prevent the workflow from running on a forked repository.
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           repository: TianJianJun0727/ycloud-icons
       - uses: pnpm/action-setup@v6

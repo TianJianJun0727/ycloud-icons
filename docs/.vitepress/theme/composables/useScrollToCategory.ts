@@ -1,7 +1,17 @@
 import { Ref, onMounted, watch } from 'vue';
-import { CategoryRow } from '../components/icons/IconsCategory.vue';
-import { Category } from '../types';
+import { Category, IconEntity } from '../types';
 import { useCategoryView } from './useCategoryView';
+
+type CategoryRow =
+  | {
+      type: 'category';
+      title: string;
+      name: string;
+    }
+  | {
+      type: 'icons';
+      icons: IconEntity[];
+    };
 
 interface UseScrollToCategory {
   categories: Ref<Pick<Category, 'name' | 'icons'>[]>;

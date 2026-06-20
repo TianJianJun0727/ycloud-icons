@@ -1,3 +1,4 @@
+import React from 'react';
 import { createYCloudIcon } from '@ycloud-web/icons-react/src/ycloud-react';
 import { type YCloudIconsProps, type IconNode } from '@ycloud-web/icons-react/src/types';
 import { IconEntity } from '../theme/types';

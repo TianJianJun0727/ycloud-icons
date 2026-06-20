@@ -27,7 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ inputs.ref || github.ref }}
@@ -37,23 +37,32 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
           node-version-file: package.json
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate GitHub Pages cache key
+        id: pages-cache-key
+        run: |
+          release_tags_hash="$(git tag --list 'v*' --sort=-version:refname | sha256sum | cut -d ' ' -f 1)"
+          echo "release-tags=${release_tags_hash}" >> "$GITHUB_OUTPUT"
+
       - name: Restore GitHub Pages build output
         id: pages-build-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: docs/.vercel/output/static
-          key: pages-static-${{ runner.os }}-${{ hashFiles('.github/workflows/docs.yml', 'docs/**', 'icons/**', 'categories/**', 'packages/**', 'scripts/**', 'tools/**', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml') }}
+          key: pages-static-${{ runner.os }}-${{ steps.pages-cache-key.outputs.release-tags }}-${{ hashFiles('.github/workflows/docs.yml', 'docs/*.md', 'docs/*.ts', 'docs/*.json', 'docs/en/**', 'docs/guide/**', 'docs/icons/**', 'docs/images/**', 'docs/public/*', 'docs/public/framework-logos/**', 'docs/public/package-logos/**', 'docs/.vitepress/**/*.ts', 'docs/.vitepress/**/*.vue', 'docs/.vitepress/**/*.css', 'docs/.vitepress/**/*.json', 'docs/.vitepress/**/*.svg', 'docs/scripts/**', 'icons/**', 'categories/**', 'packages/**', 'scripts/**', 'tools/build-font/**', 'package.json', 'docs/package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml') }}
+          restore-keys: |
+            pages-static-${{ runner.os }}-
 
       - name: Build docs
         if: steps.pages-build-cache.outputs.cache-hit != 'true'
         env:
           NODE_OPTIONS: --max-old-space-size=8192
-        run: pnpm --dir docs docs:build:github-pages
+        run: pnpm docs:build:github-pages
 
       - name: Reuse GitHub Pages build output
         if: steps.pages-build-cache.outputs.cache-hit == 'true'

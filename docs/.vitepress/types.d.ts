@@ -1,8 +1,8 @@
-import { type IconNode } from '@ycloud-web/icons-vue/src/types';
-import Vue from 'vue';
-
 declare module '*.vue' {
-  export default Vue;
+  import type { DefineComponent } from 'vue';
+
+  const component: DefineComponent<Record<string, unknown>, Record<string, unknown>, any>;
+  export default component;
 }
 
 declare module '*.data.ts' {
@@ -19,6 +19,28 @@ declare module '*.data' {
 
 declare module '*.wasm' {}
 
+declare module '*.css' {}
+
+declare module '*?raw' {
+  const content: string;
+  export default content;
+}
+
+declare module 'virtual:group-icons.css' {}
+
+declare module 'vitepress/dist/client/theme-default/support/utils' {
+  export function throttleAndDebounce<T extends (...args: any[]) => void>(fn: T, delay: number): T;
+}
+
+interface ImportMetaEnv {
+  readonly BASE_URL: string;
+  readonly DEV: boolean;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
+
 declare const resvg_wasm: RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 declare module 'node:module' {
@@ -26,6 +48,8 @@ declare module 'node:module' {
 }
 
 declare module '*.node.json' {
+  import type { IconNode } from '@ycloud-web/icons-vue/src/types';
+
   const value: IconNode;
   export default value;
 }

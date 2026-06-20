@@ -50,6 +50,9 @@ interface Shield {
 
 export interface PackageItem {
   name: string;
+  repository?: {
+    directory?: string;
+  };
   // set when the package's directory
   // name under the `packages/` directory
   // is diffrent from the package name

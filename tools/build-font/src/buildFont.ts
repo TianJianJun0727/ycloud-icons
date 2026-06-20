@@ -1,4 +1,6 @@
 import svgtofont from 'svgtofont';
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import { type CodePoints } from './allocateCodepoints.ts';
 
 interface BuildFontOptions {
@@ -27,6 +29,7 @@ export async function buildFont({
       classNamePrefix,
       css: {
         fontSize: 'inherit',
+        hasTimestamp: false,
       },
       emptyDist: true,
       useCSSVars: false,
@@ -36,6 +39,9 @@ export async function buildFont({
       svgicons2svgfont: {
         fontHeight: 1000, // At least 1000 is recommended
         normalize: false,
+      },
+      svg2ttf: {
+        ts: 0,
       },
       generateInfoData: true,
       website: {
@@ -79,8 +85,46 @@ export async function buildFont({
         return [String.fromCharCode(unicode), startUnicode];
       },
     });
+    await normalizeGeneratedFontFiles(targetDir, fontName);
   } catch (err) {
     console.log(err);
   }
   console.timeEnd('Font generation');
+}
+
+async function normalizeGeneratedFontFiles(targetDir: string, fontName: string) {
+  const generatedTextFiles = [
+    `${fontName}.css`,
+    `${fontName}.less`,
+    `${fontName}.module.less`,
+    `${fontName}.scss`,
+    `${fontName}.styl`,
+    'index.html',
+    'unicode.html',
+    'symbol.html',
+  ];
+
+  await Promise.all(
+    generatedTextFiles.map(async (fileName) => {
+      const filePath = path.join(targetDir, fileName);
+      let content: string;
+
+      try {
+        content = await fs.readFile(filePath, 'utf8');
+      } catch (error) {
+        if ((error as NodeJS.ErrnoException).code === 'ENOENT') return;
+        throw error;
+      }
+
+      const normalizedContent = content
+        .replace(new RegExp(`(${fontName}\\.(?:eot|woff2?|ttf))\\?t=\\d+`, 'g'), '$1')
+        .replace(new RegExp(`(${fontName}\\.eot)\\?#iefix`, 'g'), '$1#iefix')
+        .replace(new RegExp(`(${fontName}\\.(?:woff2?|ttf))\\?\\d+`, 'g'), '$1')
+        .replace(new RegExp(`(${fontName}\\.svg#${fontName})\\?\\d+`, 'g'), '$1');
+
+      if (normalizedContent !== content) {
+        await fs.writeFile(filePath, normalizedContent);
+      }
+    }),
+  );
 }

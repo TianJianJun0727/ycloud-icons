@@ -3,8 +3,9 @@ import path from 'path';
 import { Category, IconEntity } from '../theme/types';
 
 const directory = path.join(process.cwd(), '../categories');
+type CategoryMetadata = Omit<Category, 'iconCount' | 'icons'>;
 
-export function getAllCategoryFiles(): Category[] {
+export function getAllCategoryFiles(): CategoryMetadata[] {
   const fileNames = fs.readdirSync(directory).filter((file) => path.extname(file) === '.json');
 
   return fileNames.map((fileName) => {
@@ -22,9 +23,9 @@ export function getAllCategoryFiles(): Category[] {
 }
 
 export function mapCategoryIconCount(
-  categories: Category[],
+  categories: CategoryMetadata[],
   icons: { categories: IconEntity['categories'] }[],
-) {
+): Category[] {
   return categories.map((category) => ({
     ...category,
     iconCount: icons.reduce(

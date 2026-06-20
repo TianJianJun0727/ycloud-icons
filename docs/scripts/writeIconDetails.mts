@@ -29,7 +29,31 @@ import releaseData from '../releaseMetadata/${iconName}.json'
 import popularity from '../iconPopularity/${iconName}.json'
 import { localizeCategoryName } from '../../theme/utils/categoryLabels'
 
-const { name: displayName, tags, categories, contributors, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = metaData
+type IconMetaJson = {
+  name: string
+  tags: string[]
+  categories: string[]
+  contributors: string[]
+  aliases?: {
+    name: string
+    deprecated?: true
+    deprecationReason?: string
+    toBeRemovedInVersion?: string
+  }[]
+  deprecated?: true
+  deprecationReason?: string
+  toBeRemovedInVersion?: string
+  i18n: {
+    en: {
+      name: string
+      tags: string[]
+      categories: string[]
+    }
+  }
+}
+
+const typedMetaData = metaData as IconMetaJson
+const { name: displayName, tags, categories, contributors, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = typedMetaData
 const displayTags = tags
 const displayCategories = categories.map(localizeCategoryName)
 const englishName = i18n.en.name

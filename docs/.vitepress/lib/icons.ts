@@ -3,11 +3,7 @@ import path from 'path';
 import { IconNodeWithKeys } from '../theme/types';
 import iconNodes from '../data/iconNodes';
 import releaseMeta from '../data/releaseMetaData.json';
-import {
-  localizeIconCategories,
-  localizeIconName,
-  localizeIconTags,
-} from '../theme/utils/iconI18n';
+import { localizeIconCategories } from '../theme/utils/iconI18n';
 
 const DATE_OF_FORK = '2020-06-08T16:39:52+0100';
 
@@ -20,7 +16,7 @@ export interface GetDataOptions {
 export async function getData(name: string) {
   const jsonPath = path.join(directory, `${name}.json`);
   const jsonContent = fs.readFileSync(jsonPath, 'utf8');
-  const { tags, categories, contributors, i18n } = JSON.parse(jsonContent);
+  const { name: displayName, tags, categories, contributors, i18n } = JSON.parse(jsonContent);
 
   const iconNode = iconNodes[name];
 
@@ -37,11 +33,14 @@ export async function getData(name: string) {
 
   return {
     name,
-    displayName: localizeIconName(name, i18n?.zh?.name),
+    displayName,
+    englishName: i18n?.en?.name,
     tags,
-    displayTags: localizeIconTags(tags, i18n?.zh?.tags),
+    displayTags: tags,
+    englishTags: i18n?.en?.tags,
     categories,
-    displayCategories: localizeIconCategories(categories, i18n?.zh?.categories),
+    displayCategories: localizeIconCategories(categories),
+    englishCategories: i18n?.en?.categories,
     iconNode,
     contributors,
     ...releaseData,

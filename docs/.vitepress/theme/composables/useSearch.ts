@@ -1,10 +1,19 @@
 import Fuse from 'fuse.js';
 import { computed, Ref, unref } from 'vue';
 
+type SearchKey<T> =
+  | string
+  | string[]
+  | {
+      name: string | string[];
+      weight?: number;
+      getFn?: (obj: T) => ReadonlyArray<string> | string | null | undefined;
+    };
+
 const useSearch = <T>(
   query: Ref<string>,
   collection: Ref<T[]>,
-  keys: Fuse.FuseOptionKeyObject<T>[] | Ref<Fuse.FuseOptionKeyObject<T>[]> = [],
+  keys: SearchKey<T>[] | Ref<SearchKey<T>[]> = [],
 ) => {
   const index = computed(() => {
     return new Fuse(collection.value, {

@@ -1,6 +1,6 @@
 {
   "name": "@ycloud-web/shared",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "description": "",
   "main": "src/index.ts",
