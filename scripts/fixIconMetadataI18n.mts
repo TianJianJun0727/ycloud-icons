@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { zodTextFormat } from 'openai/helpers/zod';
 import z from 'zod';
 import { createAiClient } from './aiClient.mts';
 
@@ -44,9 +43,8 @@ async function completeIconMetadata(file: string, metadata: Record<string, any>)
     englishTags: metadata.i18n?.en?.tags ?? [],
   };
 
-  const response = await ai.client.responses.create({
-    model: ai.model,
-    input: `Complete bilingual metadata for a YCloud icon.
+  const fixed = await ai.completeJson(
+    `Complete bilingual metadata for a YCloud icon.
 
 Rules:
 - nameZh and tagsZh must be Simplified Chinese for UI display and search.
@@ -57,12 +55,10 @@ Rules:
 
 Current metadata:
 ${JSON.stringify(current, null, 2)}`,
-    text: {
-      format: zodTextFormat(iconI18nSchema, 'icon_i18n'),
-    },
-  });
+    'icon_i18n',
+    iconI18nSchema,
+  );
 
-  const fixed = JSON.parse(response.output_text) as z.infer<typeof iconI18nSchema>;
   const next = { ...metadata };
   const currentName = String(next.name ?? '');
   const currentEnglishName = String(next.i18n?.en?.name ?? '');
@@ -103,9 +99,8 @@ async function completeCategoryMetadata(file: string, metadata: Record<string, a
     englishTitle: metadata.i18n?.en?.title ?? '',
   };
 
-  const response = await ai.client.responses.create({
-    model: ai.model,
-    input: `Complete bilingual metadata for a YCloud icon category.
+  const fixed = await ai.completeJson(
+    `Complete bilingual metadata for a YCloud icon category.
 
 Rules:
 - titleZh must be Simplified Chinese.
@@ -114,12 +109,10 @@ Rules:
 
 Current metadata:
 ${JSON.stringify(current, null, 2)}`,
-    text: {
-      format: zodTextFormat(categoryI18nSchema, 'category_i18n'),
-    },
-  });
+    'category_i18n',
+    categoryI18nSchema,
+  );
 
-  const fixed = JSON.parse(response.output_text) as z.infer<typeof categoryI18nSchema>;
   const next = { ...metadata };
   const currentTitle = String(next.title ?? '');
   const currentEnglishTitle = String(next.i18n?.en?.title ?? '');

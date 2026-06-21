@@ -1,6 +1,5 @@
 import 'dotenv/config';
 import { Octokit } from '@octokit/rest';
-import { zodTextFormat } from 'openai/helpers/zod';
 
 import path from 'node:path';
 import fs from 'node:fs/promises';
@@ -218,15 +217,7 @@ ${prDescription || '(no description provided)'}
 Reference examples from existing icons:
 ${JSON.stringify(referenceExamples, null, 2)}`;
 
-  const response = await ai.client.responses.create({
-    model: ai.model,
-    input,
-    text: {
-      format: zodTextFormat(metadataSchema, 'metadata'),
-    },
-  });
-
-  const suggested: MetadataSuggestion = JSON.parse(response.output_text);
+  const suggested = await ai.completeJson(input, 'metadata', metadataSchema);
 
   console.log(`Suggestions for ${iconName}:`, suggested);
   console.log(`Current metadata for ${iconName}:`, currentMetadata);
