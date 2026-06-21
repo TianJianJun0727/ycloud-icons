@@ -34,6 +34,7 @@ const githubToken = process.env.GITHUB_TOKEN;
 const githubModelsEndpoint =
   process.env.YCLOUD_AI_CHANGELOG_ENDPOINT || 'https://models.github.ai/inference/chat/completions';
 const githubModelsModel = process.env.YCLOUD_AI_CHANGELOG_MODEL || 'openai/gpt-4o';
+const aiChangelogVersion = process.env.YCLOUD_AI_CHANGELOG_VERSION;
 
 function run(command: string) {
   return execSync(command, {
@@ -149,20 +150,20 @@ function parseJsonObject(content: string) {
   return JSON.parse(normalized.slice(start, end + 1));
 }
 
-function buildAiPrompt(entries: ReleaseEntry[]) {
-  const payload = entries.map((entry) => ({
+function buildAiPrompt(entry: ReleaseEntry) {
+  const payload = {
     version: entry.tag,
     date: entry.date,
-    commits: entry.commits,
-    changedFiles: entry.changedFiles,
-  }));
+    commits: entry.commits.slice(0, 30),
+    changedFiles: entry.changedFiles.slice(0, 60),
+  };
 
-  return `你是 YCloud Icons 图标库的发布说明编辑。请根据每个版本的提交标题和文件变更，生成面向使用者的双语 changelog 摘要。
+  return `你是 YCloud Icons 图标库的发布说明编辑。请根据单个版本的提交标题和文件变更，生成面向使用者的双语 changelog 摘要。
 
 要求：
 - 输出严格 JSON，不要 Markdown，不要代码块。
-- JSON 结构必须是 {"releases":[{"tag":"v0.0.0","zh":["..."],"en":["..."]}]}。
-- 每个版本 zh 和 en 各 1 到 5 条。
+- JSON 结构必须是 {"tag":"v0.0.0","zh":["..."],"en":["..."]}。
+- zh 和 en 各 1 到 5 条。
 - 中文自然、简洁，避免逐字翻译 commit。
 - 英文自然、简洁，不能混入中文。
 - 不要编造文件变更之外的能力。
@@ -174,11 +175,7 @@ function buildAiPrompt(entries: ReleaseEntry[]) {
 ${JSON.stringify(payload, null, 2)}`;
 }
 
-async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
-  if (!aiChangelogEnabled || !githubToken) {
-    return entries;
-  }
-
+async function generateAiNotes(entry: ReleaseEntry) {
   try {
     const response = await fetch(githubModelsEndpoint, {
       method: 'POST',
@@ -197,7 +194,7 @@ async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
           },
           {
             role: 'user',
-            content: buildAiPrompt(entries),
+            content: buildAiPrompt(entry),
           },
         ],
       }),
@@ -214,41 +211,50 @@ async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
       throw new Error('GitHub Models response did not contain message content.');
     }
 
-    const parsed = parseJsonObject(content) as { releases?: unknown };
-    const releases = Array.isArray(parsed.releases) ? (parsed.releases as AiReleaseNotes[]) : [];
-    const notesByTag = new Map<string, ChangelogNotes>();
+    const parsed = parseJsonObject(content) as AiReleaseNotes;
 
-    for (const release of releases) {
-      if (typeof release.tag !== 'string') {
-        continue;
-      }
-
-      notesByTag.set(release.tag, {
-        zh: sanitizeNotes(release.zh),
-        en: sanitizeNotes(release.en),
-      });
+    if (parsed.tag !== entry.tag) {
+      throw new Error(`GitHub Models response tag mismatch for ${entry.tag}.`);
     }
 
-    return entries.map((entry) => {
-      const notes = notesByTag.get(entry.tag);
+    const notes = {
+      zh: sanitizeNotes(parsed.zh),
+      en: sanitizeNotes(parsed.en),
+    };
 
-      if (!notes || !notes.zh.length || !notes.en.length) {
-        return entry;
-      }
+    if (!notes.zh.length || !notes.en.length) {
+      throw new Error(`GitHub Models response did not include bilingual notes for ${entry.tag}.`);
+    }
 
-      return {
-        ...entry,
-        notes,
-      };
-    });
+    return notes;
   } catch (error) {
     console.warn(
-      `AI changelog generation failed; falling back to deterministic notes. ${
+      `AI changelog generation failed for ${entry.tag}; falling back to deterministic notes. ${
         error instanceof Error ? error.message : String(error)
       }`,
     );
+    return entry.notes;
+  }
+}
+
+async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
+  if (!aiChangelogEnabled || !githubToken) {
     return entries;
   }
+
+  const targetTag = aiChangelogVersion ? aiChangelogVersion.replace(/^v/, '') : entries[0]?.version;
+  const targetEntry = entries.find((entry) => entry.version === targetTag);
+
+  if (!targetEntry) {
+    console.warn(
+      `AI changelog target version was not found: ${aiChangelogVersion || 'latest tag'}.`,
+    );
+    return entries;
+  }
+
+  const notes = await generateAiNotes(targetEntry);
+
+  return entries.map((entry) => (entry.tag === targetEntry.tag ? { ...entry, notes } : entry));
 }
 
 function toMarkdown(entries: ReleaseEntry[], locale: 'zh' | 'en') {
