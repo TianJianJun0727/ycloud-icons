@@ -135,7 +135,7 @@ pnpm optimize
     "en": {
       "name": "circle arrow up",
       "tags": ["arrow", "up", "circle"],
-      "categories": ["Arrows", "Navigation & Places"]
+      "categories": ["arrows", "navigation"]
     }
   }
 }
@@ -144,7 +144,8 @@ pnpm optimize
 最低要求看 `icon.schema.json`：
 
 - 必填：`$schema`、`name`、`categories`、`tags`、`i18n.en`、`use-cases`
-- `name` 和 `tags` 使用中文，`i18n.en.name`、`i18n.en.tags` 和 `i18n.en.categories` 使用英文
+- `name` 和 `tags` 使用中文，`i18n.en.name`、`i18n.en.tags` 使用英文
+- `categories` 和 `i18n.en.categories` 都使用稳定分类 slug，必须保持一致；英文分类展示名来自 `categories/*.json` 的 `i18n.en.title`
 
 额外约束：
 

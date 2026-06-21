@@ -10,16 +10,11 @@ if (files.length === 0) {
   process.exit(0);
 }
 
-const ai = createAiClient();
-
-if (!ai) {
-  console.log('No AI provider is configured. Skipping AI metadata i18n fixes.');
-  process.exit(0);
-}
-
 const hasCjk = (value: string) => /[\u3400-\u9fff]/.test(value);
 const isMeaningfulArray = (value: unknown): value is string[] =>
   Array.isArray(value) && value.every((item) => typeof item === 'string') && value.length > 0;
+const sameArray = (left: string[], right: string[]) =>
+  left.length === right.length && left.every((item, index) => item === right[index]);
 
 const iconI18nSchema = z.object({
   nameZh: z.string(),
@@ -35,6 +30,46 @@ const categoryI18nSchema = z.object({
 
 async function completeIconMetadata(file: string, metadata: Record<string, any>) {
   const iconName = path.basename(file, '.json');
+  const currentName = String(metadata.name ?? '');
+  const currentEnglishName = String(metadata.i18n?.en?.name ?? '');
+  const currentTags = metadata.tags;
+  const currentEnglishTags = metadata.i18n?.en?.tags;
+  const currentCategories = metadata.categories;
+  const currentEnglishCategories = metadata.i18n?.en?.categories;
+  const shouldFixName = !currentName || !hasCjk(currentName);
+  const shouldFixEnglishName =
+    !currentEnglishName || hasCjk(currentEnglishName) || currentEnglishName === currentName;
+  const shouldFixTags = !isMeaningfulArray(currentTags) || currentTags.every((tag) => !hasCjk(tag));
+  const shouldFixEnglishTags =
+    !isMeaningfulArray(currentEnglishTags) || currentEnglishTags.some((tag) => hasCjk(tag));
+  const shouldFixEnglishCategories =
+    isMeaningfulArray(currentCategories) &&
+    (!isMeaningfulArray(currentEnglishCategories) ||
+      !sameArray(currentCategories, currentEnglishCategories));
+
+  const next = { ...metadata };
+  next.i18n = {
+    ...(next.i18n ?? {}),
+    en: {
+      ...(next.i18n?.en ?? {}),
+    },
+  };
+
+  if (shouldFixEnglishCategories) {
+    next.i18n.en.categories = currentCategories;
+  }
+
+  if (!shouldFixName && !shouldFixEnglishName && !shouldFixTags && !shouldFixEnglishTags) {
+    return next;
+  }
+
+  const ai = createAiClient();
+  if (!ai) {
+    console.log(`No AI provider is configured. Skipping language fixes for ${file}.`);
+    return next;
+  }
+  console.log(`Using ${ai.provider} for icon metadata i18n fixes with model ${ai.model}.`);
+
   const current = {
     file: iconName,
     name: metadata.name ?? '',
@@ -59,32 +94,19 @@ ${JSON.stringify(current, null, 2)}`,
     iconI18nSchema,
   );
 
-  const next = { ...metadata };
-  const currentName = String(next.name ?? '');
-  const currentEnglishName = String(next.i18n?.en?.name ?? '');
-  const currentTags = next.tags;
-  const currentEnglishTags = next.i18n?.en?.tags;
-
-  if (!currentName || !hasCjk(currentName)) {
+  if (shouldFixName) {
     next.name = fixed.nameZh;
   }
 
-  next.i18n = {
-    ...(next.i18n ?? {}),
-    en: {
-      ...(next.i18n?.en ?? {}),
-    },
-  };
-
-  if (!currentEnglishName || hasCjk(currentEnglishName) || currentEnglishName === currentName) {
+  if (shouldFixEnglishName) {
     next.i18n.en.name = fixed.nameEn;
   }
 
-  if (!isMeaningfulArray(currentTags) || currentTags.every((tag) => !hasCjk(tag))) {
+  if (shouldFixTags) {
     next.tags = fixed.tagsZh;
   }
 
-  if (!isMeaningfulArray(currentEnglishTags) || currentEnglishTags.some((tag) => hasCjk(tag))) {
+  if (shouldFixEnglishTags) {
     next.i18n.en.tags = fixed.tagsEn;
   }
 
@@ -93,6 +115,31 @@ ${JSON.stringify(current, null, 2)}`,
 
 async function completeCategoryMetadata(file: string, metadata: Record<string, any>) {
   const categoryName = path.basename(file, '.json');
+  const currentTitle = String(metadata.title ?? '');
+  const currentEnglishTitle = String(metadata.i18n?.en?.title ?? '');
+  const shouldFixTitle = !currentTitle || !hasCjk(currentTitle);
+  const shouldFixEnglishTitle =
+    !currentEnglishTitle || hasCjk(currentEnglishTitle) || currentEnglishTitle === currentTitle;
+
+  const next = { ...metadata };
+  next.i18n = {
+    ...(next.i18n ?? {}),
+    en: {
+      ...(next.i18n?.en ?? {}),
+    },
+  };
+
+  if (!shouldFixTitle && !shouldFixEnglishTitle) {
+    return next;
+  }
+
+  const ai = createAiClient();
+  if (!ai) {
+    console.log(`No AI provider is configured. Skipping language fixes for ${file}.`);
+    return next;
+  }
+  console.log(`Using ${ai.provider} for category metadata i18n fixes with model ${ai.model}.`);
+
   const current = {
     file: categoryName,
     title: metadata.title ?? '',
@@ -113,22 +160,11 @@ ${JSON.stringify(current, null, 2)}`,
     categoryI18nSchema,
   );
 
-  const next = { ...metadata };
-  const currentTitle = String(next.title ?? '');
-  const currentEnglishTitle = String(next.i18n?.en?.title ?? '');
-
-  if (!currentTitle || !hasCjk(currentTitle)) {
+  if (shouldFixTitle) {
     next.title = fixed.titleZh;
   }
 
-  next.i18n = {
-    ...(next.i18n ?? {}),
-    en: {
-      ...(next.i18n?.en ?? {}),
-    },
-  };
-
-  if (!currentEnglishTitle || hasCjk(currentEnglishTitle) || currentEnglishTitle === currentTitle) {
+  if (shouldFixEnglishTitle) {
     next.i18n.en.title = fixed.titleEn;
   }
 
@@ -136,8 +172,6 @@ ${JSON.stringify(current, null, 2)}`,
 }
 
 try {
-  console.log(`Using ${ai.provider} for metadata i18n fixes with model ${ai.model}.`);
-
   for (const file of files) {
     if (!file.startsWith('icons/') && !file.startsWith('categories/')) {
       continue;
@@ -147,9 +181,14 @@ try {
     const fixed = file.startsWith('icons/')
       ? await completeIconMetadata(file, metadata)
       : await completeCategoryMetadata(file, metadata);
+    const nextContent = `${JSON.stringify(fixed, null, 2)}\n`;
 
-    await fs.writeFile(file, `${JSON.stringify(fixed, null, 2)}\n`, 'utf-8');
-    console.log('Fixed metadata i18n:', file);
+    if (nextContent !== JSON.stringify(metadata, null, 2) + '\n') {
+      await fs.writeFile(file, nextContent, 'utf-8');
+      console.log('Fixed metadata i18n:', file);
+    } else {
+      console.log('Metadata i18n already valid:', file);
+    }
   }
 } catch (error) {
   console.warn('AI metadata i18n fixes failed. Skipping optional AI step.');

@@ -93,6 +93,16 @@ jobs:
           pnpm exec eslint icons/*.svg
           pnpm lint:json
           pnpm checkIcons
+          json_files=()
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ ( "$file" == icons/*.json || "$file" == categories/*.json ) && -f "$file" ]]; then
+              json_files+=("$file")
+            fi
+          done
+
+          if (( ${#json_files[@]} > 0 )); then
+            node ./scripts/checkChangedIconMetadata.mts "${json_files[@]}"
+          fi
 
       - name: Commit fixes
         run: |

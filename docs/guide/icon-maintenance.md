@@ -79,7 +79,7 @@ pnpm optimize
 - `categories`：稳定分类 slug，不是展示文案
 - `i18n.en.name`：英文图标名
 - `i18n.en.tags`：英文搜索标签
-- `i18n.en.categories`：英文分类展示名
+- `i18n.en.categories`：稳定分类 slug，必须和 `categories` 保持一致，不是英文展示名
 
 ## 删除一个图标
 

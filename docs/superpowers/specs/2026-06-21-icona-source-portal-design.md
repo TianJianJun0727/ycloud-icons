@@ -152,7 +152,7 @@ interface DraftIcon {
     "en": {
       "name": "english name",
       "tags": ["english tag"],
-      "categories": ["Arrows"]
+      "categories": ["arrows"]
     }
   }
 }
