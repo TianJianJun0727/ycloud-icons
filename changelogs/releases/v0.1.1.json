@@ -1,0 +1,12 @@
+{
+  "tag": "v0.1.1",
+  "date": "2026-06-19",
+  "zh": [
+    "更新文档品牌资产，统一安装命令使用最新版本。",
+    "为全部图标包接入 npm Trusted Publishing 发布流程。"
+  ],
+  "en": [
+    "Refreshed documentation branding assets and standardized installation commands on the latest version.",
+    "Added npm Trusted Publishing support for all icon packages."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tag": "v0.1.2",
+  "date": "2026-06-19",
+  "zh": ["调整文档部署流程，使 release 后可以从 main 触发 GitHub Pages 部署。"],
+  "en": [
+    "Adjusted the documentation deployment flow so GitHub Pages can deploy from main after releases."
+  ]
+}

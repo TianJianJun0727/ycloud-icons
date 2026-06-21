@@ -245,8 +245,11 @@ import { Camera } from '@ycloud-web/icons-react';
 ### 2. 文档展示
 
 - 首页版本号从 tag / release 读取
-- 更新日志从 Git 历史与 tag 数据生成
+- 更新日志优先读取 `changelogs/releases/v*.json` 中的双语版本说明
+- 当前版本没有持久化说明时，才从 Git 历史与 tag 数据生成兜底内容
 - 文档站部署独立于包发布，但版本展示要对齐同一来源
+
+发布流程会在生成当前版本 release notes 后，把对应的 `changelogs/releases/vX.Y.Z.json` 提交回 `main`。这样后续文档构建即使没有 AI 能力，也会展示已经确认过的中文和英文变更说明，而不是重新回退到 commit 标题或 GitHub compare 页面。
 
 这样可以避免文档显示一个版本、包里又是另一个版本的漂移问题。
 

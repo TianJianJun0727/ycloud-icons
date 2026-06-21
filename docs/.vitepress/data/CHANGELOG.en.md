@@ -2,99 +2,60 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
-## [v0.1.12](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.12) - 2026-06-21
+## v0.1.12 - 2026-06-21
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.11...v0.1.12)
+- Improved the Astro example test container configuration to avoid default-container warnings.
 
-- test: avoid astro container default warning
+## v0.1.11 - 2026-06-21
 
-## [v0.1.11](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.11) - 2026-06-21
+- Removed an Astro test deprecation warning to keep test output cleaner.
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.10...v0.1.11)
+## v0.1.10 - 2026-06-21
 
-- fix: remove astro test deprecation warning
+- Further cleaned release warning output so build logs focus on actionable issues.
 
-## [v0.1.10](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.10) - 2026-06-21
+## v0.1.9 - 2026-06-21
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.9...v0.1.10)
+- Stabilized warning handling in release and GitHub Pages workflows for clearer automation logs.
 
-- ci: clean release warning output
+## v0.1.8 - 2026-06-21
 
-## [v0.1.9](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.9) - 2026-06-21
+- Cleaned up unnecessary release workflow warnings to reduce GitHub Actions log noise.
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.8...v0.1.9)
+## v0.1.7 - 2026-06-21
 
-- ci: stabilize release and pages warnings
+- Adjusted the post-release documentation deployment trigger so package publishing and docs deployment stay connected.
 
-## [v0.1.8](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.8) - 2026-06-21
+## v0.1.6 - 2026-06-21
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.7...v0.1.8)
+- Optimized the GitHub Pages build with a fixed base, optional output switches, and lower build pressure.
+- Completed bilingual icon metadata, README files, and guide sidebar ordering.
+- Fixed package build outputs and improved documentation example stability.
 
-- ci: remove release workflow warnings
+## v0.1.5 - 2026-06-19
 
-## [v0.1.7](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.7) - 2026-06-21
+- Fixed static asset examples and version requirement documentation to match the actual package outputs.
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.6...v0.1.7)
+## v0.1.4 - 2026-06-19
 
-- ci: dispatch docs deployment from release
+- Clarified that YCloud Icons is developed from Lucide while preserving required attribution.
+- Fixed release version metadata so documentation and published versions stay aligned.
 
-## [v0.1.6](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.6) - 2026-06-21
+## v0.1.3 - 2026-06-19
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.5...v0.1.6)
+- Aligned package directories with npm package short names to reduce path and release mapping overhead.
+- Reorganized architecture and icon maintenance documentation for maintainers and agent workflows.
+- Fixed icon detail navigation, internal links, and changelog sidebar behavior under the GitHub Pages base path.
 
-- ci: make release version sync idempotent
-- chore: optimize github pages build
-- ci: prepare docs types for github pages build
-- docs: optimize github pages build
-- docs: fix guide sidebar ordering
-- docs: add bilingual icon metadata and readmes
-- fix package build outputs
-- fix: stabilize docs sandpack examples
+## v0.1.2 - 2026-06-19
 
-## [v0.1.5](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.5) - 2026-06-19
+- Adjusted the documentation deployment flow so GitHub Pages can deploy from main after releases.
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.4...v0.1.5)
+## v0.1.1 - 2026-06-19
 
-- fix: repair static examples and version docs
+- Refreshed documentation branding assets and standardized installation commands on the latest version.
+- Added npm Trusted Publishing support for all icon packages.
 
-## [v0.1.4](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.4) - 2026-06-19
+## v0.1.0 - 2026-06-19
 
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.3...v0.1.4)
-
-- docs: clarify lucide-based ycloud icons docs
-- ci: fix release version metadata
-
-## [v0.1.3](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.3) - 2026-06-19
-
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.2...v0.1.3)
-
-- refactor: align package directories with npm names
-- docs: reorganize architecture and maintenance guides
-- docs: fix icon detail history under base url
-- docs: align icon detail navigation with lucide
-- docs: fix icon detail navigation on gh pages
-- docs: split icon maintenance guidance for humans and agents
-- docs: add icon maintenance guide and fix base navigation
-- release: sync package versions with tags
-- docs: fix llms changelog sidebar warning
-- docs: fix internal navigation and changelog sidebar
-- docs: fix base-aware navigation and changelog page
-- docs: fix base path handling in docs navigation
-
-## [v0.1.2](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.2) - 2026-06-19
-
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.1...v0.1.2)
-
-- ci: deploy docs from main after release
-
-## [v0.1.1](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.1) - 2026-06-19
-
-[View comparison](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.0...v0.1.1)
-
-- chore: refresh docs branding assets
-- docs: unify latest install commands
-- ci: add trusted-publisher publish flow for all icon packages
-
-## [v0.1.0](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.0) - 2026-06-19
-
-- First stable release.
+- Published the first stable release with framework icon packages, static assets, and the initial documentation site.

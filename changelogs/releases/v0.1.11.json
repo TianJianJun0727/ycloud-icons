@@ -1,0 +1,6 @@
+{
+  "tag": "v0.1.11",
+  "date": "2026-06-21",
+  "zh": ["修复 Astro 测试中的废弃用法警告，减少测试输出噪音。"],
+  "en": ["Removed an Astro test deprecation warning to keep test output cleaner."]
+}

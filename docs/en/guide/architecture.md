@@ -199,7 +199,10 @@ The release flow is designed so that:
 - npm packages are published from the release version
 - package versions are synchronized back to the repository after a successful release
 - the documentation homepage and changelog read from tag and release metadata
+- changelog pages prefer persisted bilingual notes from `changelogs/releases/v*.json`
 - documentation deployment can run independently from package publishing
+
+During a release, the current version's bilingual release notes are generated once and committed back to `main` as `changelogs/releases/vX.Y.Z.json`. Later documentation builds read this persisted file first, so the site shows curated Chinese and English notes instead of falling back to commit titles or GitHub compare pages.
 
 This avoids version drift between the documentation site and the published packages.
 

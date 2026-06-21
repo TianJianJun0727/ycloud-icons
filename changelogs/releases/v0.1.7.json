@@ -1,0 +1,8 @@
+{
+  "tag": "v0.1.7",
+  "date": "2026-06-21",
+  "zh": ["调整 release 后的文档部署触发方式，避免发布包和文档部署流程脱节。"],
+  "en": [
+    "Adjusted the post-release documentation deployment trigger so package publishing and docs deployment stay connected."
+  ]
+}

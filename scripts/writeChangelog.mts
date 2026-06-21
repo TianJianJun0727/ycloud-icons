@@ -1,5 +1,5 @@
 import { execSync } from 'node:child_process';
-import { writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -7,7 +7,6 @@ type ReleaseEntry = {
   version: string;
   tag: string;
   date: string;
-  compareUrl?: string;
   commits: string[];
   changedFiles: string[];
   notes: {
@@ -24,11 +23,20 @@ type AiReleaseNotes = {
   en?: unknown;
 };
 
+type GeneratedAiNotes = {
+  notes: ChangelogNotes;
+  generated: boolean;
+};
+
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(currentDir, '..');
 const changelogPath = path.resolve(projectRoot, 'CHANGELOG.md');
 const englishChangelogPath = path.resolve(projectRoot, 'docs/.vitepress/data/CHANGELOG.en.md');
 const changelogSidebarPath = path.resolve(projectRoot, 'docs/.vitepress/data/changelogSidebar.ts');
+const persistedReleaseNotesDir = path.resolve(projectRoot, 'changelogs/releases');
+const releaseNotesOutputPath = process.env.YCLOUD_CHANGELOG_RELEASE_NOTES_PATH
+  ? path.resolve(projectRoot, process.env.YCLOUD_CHANGELOG_RELEASE_NOTES_PATH)
+  : undefined;
 const aiChangelogEnabled = process.env.YCLOUD_AI_CHANGELOG === '1';
 const githubToken = process.env.GITHUB_TOKEN;
 const githubModelsEndpoint =
@@ -105,9 +113,6 @@ function buildEntries(tags: string[]): ReleaseEntry[] {
       version,
       tag,
       date: getTagDate(tag),
-      compareUrl: previousTag
-        ? `https://github.com/TianJianJun0727/ycloud-icons/compare/${previousTag}...${tag}`
-        : undefined,
       commits,
       changedFiles: getChangedFiles(tag, previousTag),
       notes: {
@@ -132,6 +137,46 @@ function sanitizeNotes(notes: unknown) {
     .map((note) => note.trim())
     .filter(Boolean)
     .slice(0, 6);
+}
+
+async function readPersistedNotes(entry: ReleaseEntry): Promise<ChangelogNotes | undefined> {
+  try {
+    const content = await readFile(
+      path.resolve(persistedReleaseNotesDir, `${entry.tag}.json`),
+      'utf8',
+    );
+    const parsed = JSON.parse(content) as AiReleaseNotes;
+    const notes = {
+      zh: sanitizeNotes(parsed.zh),
+      en: sanitizeNotes(parsed.en),
+    };
+
+    if (!notes.zh.length || !notes.en.length) {
+      return undefined;
+    }
+
+    return notes;
+  } catch {
+    return undefined;
+  }
+}
+
+async function writePersistedNotes(entry: ReleaseEntry) {
+  await mkdir(persistedReleaseNotesDir, { recursive: true });
+  await writeFile(
+    path.resolve(persistedReleaseNotesDir, `${entry.tag}.json`),
+    `${JSON.stringify(
+      {
+        tag: entry.tag,
+        date: entry.date,
+        zh: entry.notes.zh,
+        en: entry.notes.en,
+      },
+      null,
+      2,
+    )}\n`,
+    'utf8',
+  );
 }
 
 function parseJsonObject(content: string) {
@@ -175,7 +220,7 @@ function buildAiPrompt(entry: ReleaseEntry) {
 ${JSON.stringify(payload, null, 2)}`;
 }
 
-async function generateAiNotes(entry: ReleaseEntry) {
+async function generateAiNotes(entry: ReleaseEntry): Promise<GeneratedAiNotes> {
   try {
     const response = await fetch(githubModelsEndpoint, {
       method: 'POST',
@@ -226,35 +271,51 @@ async function generateAiNotes(entry: ReleaseEntry) {
       throw new Error(`GitHub Models response did not include bilingual notes for ${entry.tag}.`);
     }
 
-    return notes;
+    return { notes, generated: true };
   } catch (error) {
     console.warn(
       `AI changelog generation failed for ${entry.tag}; falling back to deterministic notes. ${
         error instanceof Error ? error.message : String(error)
       }`,
     );
-    return entry.notes;
+    return { notes: entry.notes, generated: false };
   }
 }
 
 async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
+  const entriesWithPersistedNotes = await Promise.all(
+    entries.map(async (entry) => {
+      const notes = await readPersistedNotes(entry);
+      return notes ? { ...entry, notes } : entry;
+    }),
+  );
+
   if (!aiChangelogEnabled || !githubToken) {
-    return entries;
+    return entriesWithPersistedNotes;
   }
 
-  const targetTag = aiChangelogVersion ? aiChangelogVersion.replace(/^v/, '') : entries[0]?.version;
-  const targetEntry = entries.find((entry) => entry.version === targetTag);
+  const targetTag = aiChangelogVersion
+    ? aiChangelogVersion.replace(/^v/, '')
+    : entriesWithPersistedNotes[0]?.version;
+  const targetEntry = entriesWithPersistedNotes.find((entry) => entry.version === targetTag);
 
   if (!targetEntry) {
     console.warn(
       `AI changelog target version was not found: ${aiChangelogVersion || 'latest tag'}.`,
     );
-    return entries;
+    return entriesWithPersistedNotes;
   }
 
-  const notes = await generateAiNotes(targetEntry);
+  const { notes, generated } = await generateAiNotes(targetEntry);
+  const updatedTargetEntry = { ...targetEntry, notes };
 
-  return entries.map((entry) => (entry.tag === targetEntry.tag ? { ...entry, notes } : entry));
+  if (generated) {
+    await writePersistedNotes(updatedTargetEntry);
+  }
+
+  return entriesWithPersistedNotes.map((entry) =>
+    entry.tag === targetEntry.tag ? updatedTargetEntry : entry,
+  );
 }
 
 function toMarkdown(entries: ReleaseEntry[], locale: 'zh' | 'en') {
@@ -269,16 +330,10 @@ function toMarkdown(entries: ReleaseEntry[], locale: 'zh' | 'en') {
     : ['# 更新日志', '', '> 此文件会在文档构建前根据 Git tag 和版本变更自动生成。', ''];
 
   for (const entry of entries) {
-    const releaseUrl = `https://github.com/TianJianJun0727/ycloud-icons/releases/tag/${entry.tag}`;
     const notes = isEnglish ? entry.notes.en : entry.notes.zh;
 
-    lines.push(`## [${entry.tag}](${releaseUrl}) - ${entry.date}`);
+    lines.push(`## ${entry.tag} - ${entry.date}`);
     lines.push('');
-
-    if (entry.compareUrl) {
-      lines.push(`[${isEnglish ? 'View comparison' : '查看对比变更'}](${entry.compareUrl})`);
-      lines.push('');
-    }
 
     for (const note of notes) {
       lines.push(`- ${note}`);
@@ -286,6 +341,25 @@ function toMarkdown(entries: ReleaseEntry[], locale: 'zh' | 'en') {
 
     lines.push('');
   }
+
+  return `${lines.join('\n').trim()}\n`;
+}
+
+function toReleaseNotesMarkdown(entry: ReleaseEntry) {
+  const lines = [
+    `# ${entry.tag}`,
+    '',
+    `发布日期：${entry.date}`,
+    '',
+    '## 中文',
+    '',
+    ...entry.notes.zh.map((note) => `- ${note}`),
+    '',
+    '## English',
+    '',
+    ...entry.notes.en.map((note) => `- ${note}`),
+    '',
+  ];
 
   return `${lines.join('\n').trim()}\n`;
 }
@@ -306,6 +380,10 @@ async function main() {
   const entries = await applyAiGeneratedNotes(buildEntries(tags));
   const markdown = toMarkdown(entries, 'zh');
   const englishMarkdown = toMarkdown(entries, 'en');
+  const targetVersion = aiChangelogVersion
+    ? aiChangelogVersion.replace(/^v/, '')
+    : entries[0]?.version;
+  const targetEntry = entries.find((entry) => entry.version === targetVersion);
   const sidebarItems = entries.map((entry) => ({
     text: `${entry.tag} · ${entry.date}`,
     link: `/changelog#${getChangelogAnchor(entry.version, entry.date)}`,
@@ -313,6 +391,9 @@ async function main() {
 
   await writeFile(changelogPath, markdown, 'utf8');
   await writeFile(englishChangelogPath, englishMarkdown, 'utf8');
+  if (releaseNotesOutputPath && targetEntry) {
+    await writeFile(releaseNotesOutputPath, toReleaseNotesMarkdown(targetEntry), 'utf8');
+  }
   await writeFile(
     changelogSidebarPath,
     `const changelogSidebarItems = ${JSON.stringify(sidebarItems, null, 2)};\n\nexport default changelogSidebarItems;\n`,

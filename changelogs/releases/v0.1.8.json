@@ -1,0 +1,6 @@
+{
+  "tag": "v0.1.8",
+  "date": "2026-06-21",
+  "zh": ["清理 release workflow 中的无效警告输出，减少 Actions 日志噪音。"],
+  "en": ["Cleaned up unnecessary release workflow warnings to reduce GitHub Actions log noise."]
+}

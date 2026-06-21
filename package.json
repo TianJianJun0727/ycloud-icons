@@ -27,7 +27,7 @@
     "optimize": "node ./scripts/optimizeSvgs.mts",
     "addjsons": "node ./scripts/addMissingIconJsonFiles.mts",
     "checkIcons": "node ./scripts/checkIconsAndCategories.mts",
-    "generate:changelog": "node ./scripts/generateChangelog.mts",
+    "generate:changelog": "node ./scripts/writeChangelog.mts",
     "generate:changelog:md": "node ./scripts/writeChangelog.mts",
     "sync:package-versions": "node ./scripts/syncPackageVersions.mts",
     "generate:sponsors": "node scripts/updateSponsors.mts",

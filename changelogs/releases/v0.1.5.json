@@ -1,0 +1,8 @@
+{
+  "tag": "v0.1.5",
+  "date": "2026-06-19",
+  "zh": ["修复静态资源示例和版本要求文档，使示例与实际包输出保持一致。"],
+  "en": [
+    "Fixed static asset examples and version requirement documentation to match the actual package outputs."
+  ]
+}

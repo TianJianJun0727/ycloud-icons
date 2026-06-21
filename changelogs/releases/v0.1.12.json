@@ -1,0 +1,8 @@
+{
+  "tag": "v0.1.12",
+  "date": "2026-06-21",
+  "zh": ["改进 Astro 示例测试的容器配置，避免默认容器相关警告。"],
+  "en": [
+    "Improved the Astro example test container configuration to avoid default-container warnings."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "tag": "v0.1.10",
+  "date": "2026-06-21",
+  "zh": ["继续清理 release 相关 warning 输出，使构建日志更聚焦真实问题。"],
+  "en": ["Further cleaned release warning output so build logs focus on actionable issues."]
+}

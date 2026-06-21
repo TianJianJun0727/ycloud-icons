@@ -2,99 +2,60 @@
 
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 
-## [v0.1.12](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.12) - 2026-06-21
+## v0.1.12 - 2026-06-21
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.11...v0.1.12)
+- 改进 Astro 示例测试的容器配置，避免默认容器相关警告。
 
-- test: avoid astro container default warning
+## v0.1.11 - 2026-06-21
 
-## [v0.1.11](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.11) - 2026-06-21
+- 修复 Astro 测试中的废弃用法警告，减少测试输出噪音。
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.10...v0.1.11)
+## v0.1.10 - 2026-06-21
 
-- fix: remove astro test deprecation warning
+- 继续清理 release 相关 warning 输出，使构建日志更聚焦真实问题。
 
-## [v0.1.10](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.10) - 2026-06-21
+## v0.1.9 - 2026-06-21
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.9...v0.1.10)
+- 稳定 release 与 GitHub Pages workflow 的 warning 处理，提升自动化流程可读性。
 
-- ci: clean release warning output
+## v0.1.8 - 2026-06-21
 
-## [v0.1.9](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.9) - 2026-06-21
+- 清理 release workflow 中的无效警告输出，减少 Actions 日志噪音。
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.8...v0.1.9)
+## v0.1.7 - 2026-06-21
 
-- ci: stabilize release and pages warnings
+- 调整 release 后的文档部署触发方式，避免发布包和文档部署流程脱节。
 
-## [v0.1.8](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.8) - 2026-06-21
+## v0.1.6 - 2026-06-21
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.7...v0.1.8)
+- 优化 GitHub Pages 构建流程，固定 base、关闭可选产物并减少构建资源压力。
+- 补齐双语图标元数据、README 和指南侧栏顺序。
+- 修复包构建输出和文档示例稳定性。
 
-- ci: remove release workflow warnings
+## v0.1.5 - 2026-06-19
 
-## [v0.1.7](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.7) - 2026-06-21
+- 修复静态资源示例和版本要求文档，使示例与实际包输出保持一致。
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.6...v0.1.7)
+## v0.1.4 - 2026-06-19
 
-- ci: dispatch docs deployment from release
+- 补充 YCloud Icons 基于 Lucide 二次开发的来源说明。
+- 修复 release 版本元数据，保证文档和发布版本展示一致。
 
-## [v0.1.6](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.6) - 2026-06-21
+## v0.1.3 - 2026-06-19
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.5...v0.1.6)
+- 将 packages 目录调整为与 npm 包短名一致，降低包路径和发布配置的映射成本。
+- 重组架构与图标维护文档，补充面向维护者和代理流程的说明。
+- 修复 GitHub Pages base 路径下的图标详情导航、内部跳转和更新日志侧栏。
 
-- ci: make release version sync idempotent
-- chore: optimize github pages build
-- ci: prepare docs types for github pages build
-- docs: optimize github pages build
-- docs: fix guide sidebar ordering
-- docs: add bilingual icon metadata and readmes
-- fix package build outputs
-- fix: stabilize docs sandpack examples
+## v0.1.2 - 2026-06-19
 
-## [v0.1.5](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.5) - 2026-06-19
+- 调整文档部署流程，使 release 后可以从 main 触发 GitHub Pages 部署。
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.4...v0.1.5)
+## v0.1.1 - 2026-06-19
 
-- fix: repair static examples and version docs
+- 更新文档品牌资产，统一安装命令使用最新版本。
+- 为全部图标包接入 npm Trusted Publishing 发布流程。
 
-## [v0.1.4](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.4) - 2026-06-19
+## v0.1.0 - 2026-06-19
 
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.3...v0.1.4)
-
-- docs: clarify lucide-based ycloud icons docs
-- ci: fix release version metadata
-
-## [v0.1.3](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.3) - 2026-06-19
-
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.2...v0.1.3)
-
-- refactor: align package directories with npm names
-- docs: reorganize architecture and maintenance guides
-- docs: fix icon detail history under base url
-- docs: align icon detail navigation with lucide
-- docs: fix icon detail navigation on gh pages
-- docs: split icon maintenance guidance for humans and agents
-- docs: add icon maintenance guide and fix base navigation
-- release: sync package versions with tags
-- docs: fix llms changelog sidebar warning
-- docs: fix internal navigation and changelog sidebar
-- docs: fix base-aware navigation and changelog page
-- docs: fix base path handling in docs navigation
-
-## [v0.1.2](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.2) - 2026-06-19
-
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.1...v0.1.2)
-
-- ci: deploy docs from main after release
-
-## [v0.1.1](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.1) - 2026-06-19
-
-[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.0...v0.1.1)
-
-- chore: refresh docs branding assets
-- docs: unify latest install commands
-- ci: add trusted-publisher publish flow for all icon packages
-
-## [v0.1.0](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.0) - 2026-06-19
-
-- 首个正式版本发布。
+- 发布首个正式版本，包含多框架图标包、静态资源包和基础文档站。

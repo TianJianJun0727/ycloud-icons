@@ -1,0 +1,14 @@
+{
+  "tag": "v0.1.6",
+  "date": "2026-06-21",
+  "zh": [
+    "优化 GitHub Pages 构建流程，固定 base、关闭可选产物并减少构建资源压力。",
+    "补齐双语图标元数据、README 和指南侧栏顺序。",
+    "修复包构建输出和文档示例稳定性。"
+  ],
+  "en": [
+    "Optimized the GitHub Pages build with a fixed base, optional output switches, and lower build pressure.",
+    "Completed bilingual icon metadata, README files, and guide sidebar ordering.",
+    "Fixed package build outputs and improved documentation example stability."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "tag": "v0.1.3",
+  "date": "2026-06-19",
+  "zh": [
+    "将 packages 目录调整为与 npm 包短名一致，降低包路径和发布配置的映射成本。",
+    "重组架构与图标维护文档，补充面向维护者和代理流程的说明。",
+    "修复 GitHub Pages base 路径下的图标详情导航、内部跳转和更新日志侧栏。"
+  ],
+  "en": [
+    "Aligned package directories with npm package short names to reduce path and release mapping overhead.",
+    "Reorganized architecture and icon maintenance documentation for maintainers and agent workflows.",
+    "Fixed icon detail navigation, internal links, and changelog sidebar behavior under the GitHub Pages base path."
+  ]
+}

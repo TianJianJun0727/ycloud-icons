@@ -1,0 +1,12 @@
+{
+  "tag": "v0.1.4",
+  "date": "2026-06-19",
+  "zh": [
+    "补充 YCloud Icons 基于 Lucide 二次开发的来源说明。",
+    "修复 release 版本元数据，保证文档和发布版本展示一致。"
+  ],
+  "en": [
+    "Clarified that YCloud Icons is developed from Lucide while preserving required attribution.",
+    "Fixed release version metadata so documentation and published versions stay aligned."
+  ]
+}
