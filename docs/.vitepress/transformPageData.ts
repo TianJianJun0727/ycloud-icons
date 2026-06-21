@@ -105,4 +105,28 @@ export async function transformPageData(pageData: PageData) {
       );
     }
   }
+
+  pageData.frontmatter.head.push(
+    [
+      'meta',
+      {
+        property: 'og:locale',
+        content: isEnglish ? 'en_US' : 'zh_CN',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: pageData.description,
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:description',
+        content: pageData.description,
+      },
+    ],
+  );
 }

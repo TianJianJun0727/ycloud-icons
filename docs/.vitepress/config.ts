@@ -185,7 +185,7 @@ export default defineConfig({
         : []),
     ],
   },
-  head: getHeadConfig({ title, description: zhDescription, socialTitle, base }),
+  head: getHeadConfig({ title, socialTitle, base }),
   transformPageData,
   locales: {
     root: {

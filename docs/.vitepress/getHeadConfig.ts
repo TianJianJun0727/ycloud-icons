@@ -2,12 +2,10 @@ import { HeadConfig } from 'vitepress';
 
 const getHeadConfig = ({
   title,
-  description,
   socialTitle,
   base,
 }: {
   title: string;
-  description: string;
   socialTitle?: string;
   base: string;
 }): HeadConfig[] => {
@@ -52,13 +50,6 @@ const getHeadConfig = ({
     [
       'meta',
       {
-        property: 'og:locale',
-        content: 'en_US',
-      },
-    ],
-    [
-      'meta',
-      {
         property: 'og:type',
         content: 'website',
       },
@@ -75,13 +66,6 @@ const getHeadConfig = ({
       {
         property: 'og:title',
         content: socialTitle,
-      },
-    ],
-    [
-      'meta',
-      {
-        property: 'og:description',
-        content: description,
       },
     ],
     [
@@ -131,13 +115,6 @@ const getHeadConfig = ({
       {
         property: 'twitter:title',
         content: socialTitle,
-      },
-    ],
-    [
-      'meta',
-      {
-        property: 'twitter:description',
-        content: description,
       },
     ],
     [
