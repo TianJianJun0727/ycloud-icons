@@ -19,8 +19,7 @@ const iconsWithNodes = computed(() =>
 
       return {
         name,
-        displayName: metaData?.name,
-        englishName: metaData?.i18n?.en?.name,
+        displayName: isEnglish.value ? metaData?.i18n?.en?.name : metaData?.name,
         iconNode: iconNodes[name],
       };
     })

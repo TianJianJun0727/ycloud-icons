@@ -93,16 +93,18 @@ function releaseTagLink(version) {
         <IconContributors :icon="params" :class="$style.contributors"/>
       </div>
     </div>
-    <CodeGroup
-      :groups="tabs"
-      groupName="icon-code-example"
-      :class="$style.code"
-    >
-      <div
-        class="blocks"
-        v-html="codeExample"
-      />
-    </CodeGroup>
+    <ClientOnly>
+      <CodeGroup
+        :groups="tabs"
+        groupName="icon-code-example"
+        :class="$style.code"
+      >
+        <div
+          class="blocks"
+          v-html="codeExample"
+        />
+      </CodeGroup>
+    </ClientOnly>
   </div>
 </div>
 
