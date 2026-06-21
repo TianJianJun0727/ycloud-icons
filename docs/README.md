@@ -44,7 +44,7 @@ DOCS_OG=0 pnpm docs:build
 DOCS_OG=1 pnpm docs:dev:og
 ```
 
-`docs:build:github-pages` 是 GitHub Pages 专用优化命令，会固定 `DOCS_BASE=/ycloud-icons/`，关闭 OG 和 `llms.txt`，启用 metadata chunk，清理已生成的逐页 OG 图片，跳过 API 构建，并跳过 Vercel 路由配置。
+`docs:build:github-pages` 是 GitHub Pages 专用优化命令，会固定 `DOCS_BASE=/ycloud-icons/`，关闭 OG 和 `llms.txt`，启用 metadata chunk，清理已生成的逐页 OG 图片，并跳过 Vercel 路由配置。
 GitHub Actions 会按文档、图标源、分类、脚本和包源码的 hash 缓存最终静态产物；输入未变化时直接复用 `docs/.vercel/output/static`。
 `DOCS_LLMS` 控制是否生成 `llms.txt`。默认关闭，避免双语文档和大量图标详情页场景下消耗过多内存。
 
