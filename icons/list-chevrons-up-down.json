@@ -1,15 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "ocavue",
-    "jguddas",
-    "PeterlitsZo",
-    "mittalyashu",
-    "juliankellydesign",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "列表双折角箭头上下",
   "tags": [

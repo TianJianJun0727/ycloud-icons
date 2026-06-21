@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "it-is-not",
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "音乐3",
   "tags": [

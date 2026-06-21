@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "jguddas",
-    "karsa-mistmere",
-    "luisdlopera"
-  ],
   "use-cases": [],
   "name": "无线网络齿轮",
   "tags": [

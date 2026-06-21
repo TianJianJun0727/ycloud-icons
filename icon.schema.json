@@ -13,7 +13,7 @@
   "title": "YCloud Icons icon schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "contributors", "name", "categories", "tags", "i18n", "use-cases"],
+  "required": ["$schema", "name", "categories", "tags", "i18n", "use-cases"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -96,14 +96,6 @@
           "weather"
         ]
       },
-      "uniqueItems": true
-    },
-    "contributors": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "minItems": 1,
       "uniqueItems": true
     },
     "name": {

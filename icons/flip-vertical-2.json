@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "翻转垂直2",
   "tags": [

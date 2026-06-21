@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "勾选勾选",
   "tags": [

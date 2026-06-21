@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "dg-ac"
-  ],
   "use-cases": [],
   "name": "线条样式",
   "tags": [

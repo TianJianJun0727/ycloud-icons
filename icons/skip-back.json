@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "跳过返回",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "vichotech",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "箱包大写",
   "tags": [

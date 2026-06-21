@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "lscheibel",
-    "karsa-mistmere",
-    "FPDK",
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "联系人",
   "tags": [

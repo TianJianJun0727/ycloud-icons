@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Diottodev",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "键盘关闭",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "kayleyhill"
-  ],
   "use-cases": [],
   "name": "手硬币",
   "tags": [

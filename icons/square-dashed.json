@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "llaenowyd",
-    "mishkaio",
-    "ericfennis",
-    "karsa-mistmere",
-    "chessurisme"
-  ],
   "use-cases": [],
   "name": "方形虚线",
   "tags": [

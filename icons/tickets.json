@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "票券",
   "tags": [

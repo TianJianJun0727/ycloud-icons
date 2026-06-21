@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "cd16b",
-    "ericfennis",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "图片进入图片",
   "tags": [

@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "非二进制",
   "tags": [

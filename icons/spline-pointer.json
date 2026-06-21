@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "kaleidosium",
-    "mittalyashu",
-    "ericfennis",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "样条曲线指针",
   "tags": [

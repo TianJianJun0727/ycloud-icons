@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "图表条形上升",
   "tags": [

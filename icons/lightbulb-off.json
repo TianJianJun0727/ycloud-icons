@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "ericfennis",
-    "karsa-mistmere",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "灯泡关闭",
   "tags": [

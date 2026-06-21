@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jamiemlaw",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "手提包",
   "tags": [

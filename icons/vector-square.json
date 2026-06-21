@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "chessurisme",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "矢量方形",
   "tags": [

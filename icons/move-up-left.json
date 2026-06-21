@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jonas-hoebenreich"
-  ],
   "use-cases": [],
   "name": "移动上左",
   "tags": [

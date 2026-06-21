@@ -19,7 +19,6 @@ iconNames.forEach((iconName) => {
     const iconContent = JSON.stringify(
       {
         $schema: '../icon.schema.json',
-        contributors: [],
         'use-cases': [],
         name: iconName,
         tags: [],

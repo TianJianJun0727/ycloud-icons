@@ -16,7 +16,7 @@ export interface GetDataOptions {
 export async function getData(name: string) {
   const jsonPath = path.join(directory, `${name}.json`);
   const jsonContent = fs.readFileSync(jsonPath, 'utf8');
-  const { name: displayName, tags, categories, contributors, i18n } = JSON.parse(jsonContent);
+  const { name: displayName, tags, categories, i18n } = JSON.parse(jsonContent);
 
   const iconNode = iconNodes[name];
 
@@ -42,7 +42,6 @@ export async function getData(name: string) {
     displayCategories: localizeIconCategories(categories),
     englishCategories: i18n?.en?.categories,
     iconNode,
-    contributors,
     ...releaseData,
   };
 }

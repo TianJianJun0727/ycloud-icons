@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "zenoamaro",
-    "ericfennis",
-    "csandman",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "网格3x3",
   "tags": [

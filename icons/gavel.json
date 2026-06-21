@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "ericfennis",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "法槌",
   "tags": [

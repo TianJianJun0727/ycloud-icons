@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "无线网络",
   "tags": [

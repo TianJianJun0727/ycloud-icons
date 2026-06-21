@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "圆形暂停",
   "tags": [

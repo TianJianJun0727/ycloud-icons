@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "danielbayley",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "生物危害",
   "tags": [

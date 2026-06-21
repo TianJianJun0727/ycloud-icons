@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "lscheibel",
-    "johnletey",
-    "ericfennis",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "闹钟时钟",
   "tags": [

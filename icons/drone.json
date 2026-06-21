@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "bernatfortet",
-    "shopped",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "无人机",
   "tags": [

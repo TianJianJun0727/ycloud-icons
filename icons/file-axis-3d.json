@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "文件轴三维",
   "tags": [

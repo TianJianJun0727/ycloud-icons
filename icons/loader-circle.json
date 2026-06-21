@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "danielbayley",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "加载器圆形",
   "tags": [

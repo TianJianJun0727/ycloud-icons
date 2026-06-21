@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ocavue",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "列表折叠",
   "tags": [

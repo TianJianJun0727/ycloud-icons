@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "音量关闭",
   "tags": [

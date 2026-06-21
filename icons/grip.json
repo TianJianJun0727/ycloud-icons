@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "koole",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "握柄",
   "tags": [

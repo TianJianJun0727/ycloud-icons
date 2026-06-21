@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "sebinemeth",
-    "ksk3110",
-    "karsa-mistmere",
-    "colebemis"
-  ],
   "use-cases": [],
   "name": "盾牌用户",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "布局模板",
   "tags": [

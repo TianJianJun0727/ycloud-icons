@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "服务器崩溃",
   "tags": [

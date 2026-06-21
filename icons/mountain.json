@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "kerkeslager",
-    "ericfennis",
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "山",
   "tags": [

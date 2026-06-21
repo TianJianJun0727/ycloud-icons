@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "图表无坐标轴列上升",
   "tags": [

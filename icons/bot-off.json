@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "taichimaeda",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "机器人关闭",
   "tags": [

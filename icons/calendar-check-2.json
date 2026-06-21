@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "日历勾选2",
   "tags": [

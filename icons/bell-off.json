@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "mittalyashu",
-    "ericfennis",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "铃铛关闭",
   "tags": [

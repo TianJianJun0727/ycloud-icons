@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "guanboo-yang",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "列表勾选",
   "tags": [

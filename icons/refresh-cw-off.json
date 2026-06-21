@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "刷新顺时针关闭",
   "tags": [

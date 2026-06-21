@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "方形段落标记",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "csandman",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "相册",
   "tags": [

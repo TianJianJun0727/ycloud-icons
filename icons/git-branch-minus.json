@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "joris-gallot"
-  ],
   "use-cases": [],
   "name": "Git分支减少",
   "tags": [

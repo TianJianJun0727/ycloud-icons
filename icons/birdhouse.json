@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "hieu-onefold",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "鸟屋",
   "tags": [

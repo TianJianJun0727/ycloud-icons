@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "UsamaKhan"
-  ],
   "use-cases": [],
   "name": "用户齿轮",
   "tags": [

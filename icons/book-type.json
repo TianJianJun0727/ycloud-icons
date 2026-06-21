@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "书籍文字",
   "tags": [

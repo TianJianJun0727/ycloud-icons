@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "cd16b",
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "锁定钥匙孔",
   "tags": [

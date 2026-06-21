@@ -5,7 +5,6 @@ export interface IconMetaData {
   name: string;
   tags: string[];
   categories: string[];
-  contributors: string[];
   i18n: {
     en: {
       name: string;

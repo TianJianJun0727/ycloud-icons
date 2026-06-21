@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "书籍虚线",
   "tags": [

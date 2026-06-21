@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "gurtt",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "讲台",
   "tags": [

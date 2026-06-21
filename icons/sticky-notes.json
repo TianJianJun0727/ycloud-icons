@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "danielbayley",
-    "Barakudum"
-  ],
   "use-cases": [],
   "name": "便签便签",
   "tags": [

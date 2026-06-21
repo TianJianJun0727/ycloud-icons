@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "johnletey",
-    "csandman",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "网络",
   "tags": [

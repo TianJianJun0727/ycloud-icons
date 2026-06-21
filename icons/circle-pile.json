@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "nathan-de-pachtere"
-  ],
   "use-cases": [],
   "name": "圆形堆",
   "tags": [

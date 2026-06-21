@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "danielbayley",
-    "jguddas",
-    "juanisidoro",
-    "karsa-mistmere",
-    "Spleefies"
-  ],
   "use-cases": [],
   "name": "图层减少",
   "tags": [

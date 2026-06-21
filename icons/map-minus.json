@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis",
-    "MarianoFranzese",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "地图减少",
   "tags": [

@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Shrinks99"
-  ],
   "use-cases": [],
   "name": "消息圆形勾选",
   "tags": [

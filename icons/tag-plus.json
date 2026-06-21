@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "adam-kov",
-    "colebemis",
-    "csandman",
-    "aaofyi",
-    "ericfennis",
-    "karsa-mistmere"
-  ],
   "use-cases": [
     "adding a tag to an item",
     "creating a new product or entry with a tag"

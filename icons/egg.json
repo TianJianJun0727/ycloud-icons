@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "Andreto",
-    "ericfennis",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "鸡蛋",
   "tags": [

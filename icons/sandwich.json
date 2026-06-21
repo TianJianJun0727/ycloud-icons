@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "kemie",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "三明治",
   "tags": [

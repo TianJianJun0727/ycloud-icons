@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "csandman",
-    "ericfennis",
-    "johnletey"
-  ],
   "use-cases": [],
   "name": "屏幕分享关闭",
   "tags": [

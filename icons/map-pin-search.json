@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis",
-    "csandman",
-    "TonySullivan"
-  ],
   "use-cases": [],
   "name": "地图图钉搜索",
   "tags": [

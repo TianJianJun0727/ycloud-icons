@@ -1,14 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "danielbayley",
-    "jguddas",
-    "sezze"
-  ],
   "use-cases": [],
   "name": "包裹",
   "tags": [

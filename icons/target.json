@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis"
-  ],
   "use-cases": [],
   "name": "目标",
   "tags": [

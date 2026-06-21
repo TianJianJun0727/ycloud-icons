@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "缺陷",
   "tags": [

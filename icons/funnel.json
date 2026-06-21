@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "lukedukeus",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "漏斗",
   "tags": [

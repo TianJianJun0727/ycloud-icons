@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jmsv",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "用户圆形搜索",
   "tags": [

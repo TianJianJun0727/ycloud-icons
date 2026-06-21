@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [
     "Indicating that privacy mode is activated",
     "Showing that notifications are muted or do-not-disturb is on",

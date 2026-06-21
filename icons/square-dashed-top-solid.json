@@ -1,15 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "llaenowyd",
-    "mishkaio",
-    "ericfennis",
-    "karsa-mistmere",
-    "chessurisme",
-    "danielbayley",
-    "colebemis",
-    "juanpablofernandez"
-  ],
   "use-cases": [],
   "name": "方形虚线顶部实心",
   "tags": [

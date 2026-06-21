@@ -1,14 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "mittalyashu",
-    "ericfennis",
-    "danielbayley",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "铅笔线条",
   "tags": [

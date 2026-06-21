@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "TimNekk",
-    "karsa-mistmere",
-    "colebemis",
-    "csandman",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "地球关闭",
   "tags": [

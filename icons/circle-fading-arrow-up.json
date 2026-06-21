@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jordan808",
-    "jguddas",
-    "colebemis",
-    "ericfennis",
-    "mosch"
-  ],
   "use-cases": [],
   "name": "圆形淡出箭头上",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "juanisidoro",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "图层加号",
   "tags": [

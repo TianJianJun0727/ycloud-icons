@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "abejenaru",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "表格2",
   "tags": [

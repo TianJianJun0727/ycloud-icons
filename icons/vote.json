@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ptrgast",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "投票",
   "tags": [

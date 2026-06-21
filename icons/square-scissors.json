@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "eden881"
-  ],
   "use-cases": [],
   "name": "方形剪刀",
   "tags": [

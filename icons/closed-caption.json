@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "UsamaKhan"
-  ],
   "use-cases": [],
   "name": "关闭字幕",
   "tags": [

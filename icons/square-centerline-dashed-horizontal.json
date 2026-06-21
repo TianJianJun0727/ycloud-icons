@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "方形中心线虚线水平",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "二进制",
   "tags": [

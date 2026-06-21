@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "it-is-not",
-    "ericfennis",
-    "danielbayley",
-    "torfmuer"
-  ],
   "use-cases": [],
   "name": "场记板",
   "tags": [

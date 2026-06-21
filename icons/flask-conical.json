@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "ericfennis",
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "烧瓶圆锥",
   "tags": [

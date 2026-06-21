@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "johnletey",
-    "csandman",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "火焰",
   "tags": [

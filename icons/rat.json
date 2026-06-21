@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "henri42",
-    "jguddas",
-    "karsa-mistmere",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "老鼠",
   "tags": [

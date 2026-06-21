@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "wojtekmaj"
-  ],
   "use-cases": [],
   "name": "时钟4",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "badraxas",
-    "karsa-mistmere",
-    "jguddas",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "显示器智能手机",
   "tags": [

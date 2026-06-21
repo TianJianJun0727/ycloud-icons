@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "ericfennis",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "铲子",
   "tags": [

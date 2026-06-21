@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "guillermo-angeles",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "烹饪锅",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "karsa-mistmere",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "云雾",
   "tags": [

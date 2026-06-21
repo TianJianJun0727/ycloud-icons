@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "对齐垂直分布居中",
   "tags": [

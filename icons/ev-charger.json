@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "UsamaKhan",
-    "karsa-mistmere",
-    "ericfennis",
-    "colebemis",
-    "csandman",
-    "johnletey"
-  ],
   "use-cases": [],
   "name": "电动车充电器",
   "tags": [

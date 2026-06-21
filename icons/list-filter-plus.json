@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "abdeniz",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "列表筛选加号",
   "tags": [

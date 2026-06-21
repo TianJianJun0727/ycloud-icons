@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "danielbayley",
-    "pettelau"
-  ],
   "use-cases": [],
   "name": "铃铛勾选",
   "tags": [

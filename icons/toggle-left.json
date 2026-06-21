@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "开关左",
   "tags": [

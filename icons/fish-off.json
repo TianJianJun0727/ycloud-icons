@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jguddas",
-    "kemie",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "鱼关闭",
   "tags": [

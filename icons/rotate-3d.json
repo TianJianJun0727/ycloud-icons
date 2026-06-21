@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "lscheibel"
-  ],
   "use-cases": [],
   "name": "旋转三维",
   "tags": [

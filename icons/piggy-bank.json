@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "储蓄罐银行",
   "tags": [

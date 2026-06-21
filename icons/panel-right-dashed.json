@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "ericfennis",
-    "irvineacosta"
-  ],
   "use-cases": [],
   "name": "面板右虚线",
   "tags": [

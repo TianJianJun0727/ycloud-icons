@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis"
-  ],
   "use-cases": [
     "sorting items in a table by column (name, date, price, status)",
     "reordering a list in descending order"

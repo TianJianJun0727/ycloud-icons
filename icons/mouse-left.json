@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "ericfennis",
-    "karsa-mistmere",
-    "marvfash"
-  ],
   "use-cases": [],
   "name": "鼠标左",
   "tags": [

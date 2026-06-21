@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jguddas",
-    "aramsoneson"
-  ],
   "use-cases": [],
   "name": "圆角方形虚线",
   "tags": [

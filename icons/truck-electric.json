@@ -1,18 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ahtohbi4",
-    "ericfennis",
-    "Andreto",
-    "csandman",
-    "karsa-mistmere",
-    "danielbayley",
-    "jordan808",
-    "LienMaas",
-    "jguddas",
-    "AnnaSasDev"
-  ],
   "use-cases": [],
   "name": "卡车电动",
   "tags": [

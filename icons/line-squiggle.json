@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "chessurisme",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "线条波浪线",
   "tags": [

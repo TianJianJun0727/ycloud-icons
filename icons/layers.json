@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "danielbayley",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "图层",
   "tags": [

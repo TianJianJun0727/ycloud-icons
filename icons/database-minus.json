@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "jguddas",
-    "Barakudum",
-    "rrod497"
-  ],
   "use-cases": [
     "removing a database instance",
     "deleting or detaching a database connection",

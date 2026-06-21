@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Alportan"
-  ],
   "use-cases": [],
   "name": "趋势上下",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "圆形停车关闭",
   "tags": [

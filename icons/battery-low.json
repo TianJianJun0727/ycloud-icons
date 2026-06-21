@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "johnletey",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "电池低",
   "tags": [

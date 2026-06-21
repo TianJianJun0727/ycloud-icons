@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "徽章百分比",
   "tags": [

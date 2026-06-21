@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "铃铛响铃",
   "tags": [

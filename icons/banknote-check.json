@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mfjramirezf"
-  ],
   "use-cases": [
     "confirm a paid product",
     "confirm a payment method was added successfully"

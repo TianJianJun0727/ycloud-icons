@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "灯墙下",
   "tags": [

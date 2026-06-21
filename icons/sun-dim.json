@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "bduffany",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "太阳变暗",
   "tags": [

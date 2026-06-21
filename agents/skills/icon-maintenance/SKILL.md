@@ -127,7 +127,6 @@ pnpm optimize
 ```json
 {
   "$schema": "../icon.schema.json",
-  "contributors": ["your-github-id"],
   "use-cases": [],
   "name": "圆形上箭头",
   "tags": ["箭头", "向上", "圆形"],
@@ -144,12 +143,11 @@ pnpm optimize
 
 最低要求看 `icon.schema.json`：
 
-- 必填：`$schema`、`contributors`、`name`、`categories`、`tags`、`i18n.en`、`use-cases`
+- 必填：`$schema`、`name`、`categories`、`tags`、`i18n.en`、`use-cases`
 - `name` 和 `tags` 使用中文，`i18n.en.name`、`i18n.en.tags` 和 `i18n.en.categories` 使用英文
 
 额外约束：
 
-- `contributors` 不要留空
 - `tags` 不要只写一个宽泛词，且默认写中文
 - `categories` 最好控制在 1 到 3 个
 - `name` 应该是用户界面可直接展示的中文名，`i18n.en.name` 应该是英文界面可直接展示的英文名

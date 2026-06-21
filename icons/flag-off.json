@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "cyberalien",
-    "ericfennis",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "旗帜关闭",
   "tags": [

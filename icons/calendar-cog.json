@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "AlexandrePhilibert",
-    "UsamaKhan",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "日历齿轮",
   "tags": [

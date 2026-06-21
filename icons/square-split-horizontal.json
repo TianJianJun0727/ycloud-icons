@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Patchethium",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "方形拆分水平",
   "tags": [

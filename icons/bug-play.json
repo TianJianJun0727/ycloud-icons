@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "缺陷播放",
   "tags": [

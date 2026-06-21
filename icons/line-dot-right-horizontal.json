@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "johnletey",
-    "nathan-de-pachtere"
-  ],
   "use-cases": [],
   "name": "线条点右水平",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "maxwellito",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "橡皮擦",
   "tags": [

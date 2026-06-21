@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "colebemis",
-    "csandman",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "地图图钉加号内部",
   "tags": [

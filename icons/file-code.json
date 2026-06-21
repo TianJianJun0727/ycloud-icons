@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "karsa-mistmere",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "文件代码",
   "tags": [

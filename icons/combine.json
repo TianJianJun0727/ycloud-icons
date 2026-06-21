@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "合并",
   "tags": [

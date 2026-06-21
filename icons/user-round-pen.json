@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "colebemis",
-    "csandman",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "用户圆形笔",
   "tags": [

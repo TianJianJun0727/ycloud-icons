@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "wojtekmaj",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "扫描",
   "tags": [

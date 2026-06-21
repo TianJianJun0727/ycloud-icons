@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "ahtohbi4",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "钱包",
   "tags": [

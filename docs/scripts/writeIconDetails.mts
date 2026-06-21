@@ -33,7 +33,6 @@ type IconMetaJson = {
   name: string
   tags: string[]
   categories: string[]
-  contributors: string[]
   aliases?: {
     name: string
     deprecated?: true
@@ -53,7 +52,7 @@ type IconMetaJson = {
 }
 
 const typedMetaData = metaData as IconMetaJson
-const { name: displayName, tags, categories, contributors, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = typedMetaData
+const { name: displayName, tags, categories, aliases, deprecated, deprecationReason, toBeRemovedInVersion, i18n } = typedMetaData
 const displayTags = tags
 const displayCategories = categories.map(localizeCategoryName)
 const englishName = i18n.en.name
@@ -65,7 +64,6 @@ const iconDetails = {
   displayName,
   englishName,
   iconNode,
-  contributors,
   i18n,
   tags,
   displayTags,

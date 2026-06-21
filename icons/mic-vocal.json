@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "麦克风人声",
   "tags": [

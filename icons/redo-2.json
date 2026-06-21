@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "lscheibel",
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "重做2",
   "tags": [

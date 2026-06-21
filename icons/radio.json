@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "danielbayley",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "收音机",
   "tags": [

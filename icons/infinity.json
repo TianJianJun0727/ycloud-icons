@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "danielbayley",
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "无限",
   "tags": [

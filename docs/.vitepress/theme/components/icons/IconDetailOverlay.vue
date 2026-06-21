@@ -3,7 +3,6 @@ import type { IconEntity } from '@theme/types';
 import { computed } from 'vue';
 import createYCloudIcon from '@ycloud-web/icons-vue/src/createYCloudIcon';
 import IconButton from '../base/IconButton.vue';
-import IconContributors from './IconContributors.vue';
 import IconPreview from './IconPreview.vue';
 import { x, expand } from '@data/iconNodes';
 import { useData, useRouter } from 'vitepress';
@@ -85,14 +84,7 @@ function openDetailPage(iconName: string) {
         <IconInfo
           :icon="icon"
           popoverPosition="top"
-        >
-          <template v-slot:footer>
-            <IconContributors
-              :icon="icon"
-              class="contributors"
-            />
-          </template>
-        </IconInfo>
+        />
       </div>
     </div>
   </Transition>
@@ -186,7 +178,4 @@ function openDetailPage(iconName: string) {
   margin-right: 24px;
 }
 
-.contributors {
-  justify-content: flex-end;
-}
 </style>

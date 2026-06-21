@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "ericfennis",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "回复",
   "tags": [

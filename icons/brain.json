@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas",
-    "it-is-not",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "大脑",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "lscheibel",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "轴三维",
   "tags": [

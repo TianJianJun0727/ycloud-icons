@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "jguddas",
-    "VirtCode"
-  ],
   "use-cases": [],
   "name": "无线网络低",
   "tags": [

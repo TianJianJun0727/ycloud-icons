@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "schmidt-oliver",
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "书籍打开勾选",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "johnletey",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "电池",
   "tags": [

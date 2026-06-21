@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "karsa-mistmere",
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "文件夹Git2",
   "tags": [

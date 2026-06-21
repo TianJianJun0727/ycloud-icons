@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "danielbayley",
-    "karsa-mistmere",
-    "Ayberkyvs",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "爱心减少",
   "tags": [

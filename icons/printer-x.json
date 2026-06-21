@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "jguddas",
-    "lt25106"
-  ],
   "use-cases": [],
   "name": "打印机关闭",
   "tags": [

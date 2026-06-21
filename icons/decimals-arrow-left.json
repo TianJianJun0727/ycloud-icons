@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "AnnaSasDev",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "小数箭头左",
   "tags": [

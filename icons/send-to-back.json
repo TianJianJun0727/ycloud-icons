@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "james-yeoman",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "发送到返回",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "smnandre",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "根号",
   "tags": [

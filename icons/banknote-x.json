@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "AnnaSasDev",
-    "joffx",
-    "ericfennis",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "纸币关闭",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "文件关闭角落",
   "tags": [

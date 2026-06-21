@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "jguddas",
-    "Barakudum",
-    "rrod497"
-  ],
   "use-cases": [
     "importing or uploading data into a database",
     "restoring from a backup",

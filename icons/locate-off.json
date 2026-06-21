@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "fdev",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "定位关闭",
   "tags": [

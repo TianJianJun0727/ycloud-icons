@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "oosawy"
-  ],
   "use-cases": [],
   "name": "勾选线条",
   "tags": [

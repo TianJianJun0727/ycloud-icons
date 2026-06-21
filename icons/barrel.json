@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "桶",
   "tags": [

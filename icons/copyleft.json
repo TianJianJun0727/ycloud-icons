@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "johnletey",
-    "csandman"
-  ],
   "use-cases": [],
   "name": "开放版权",
   "tags": [

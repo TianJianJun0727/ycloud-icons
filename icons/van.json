@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Ahmed-Dghaies",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "厢式车",
   "tags": [

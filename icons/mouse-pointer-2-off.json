@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "csandman",
-    "domingasp",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "鼠标指针2关闭",
   "tags": [

@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ahtohbi4",
-    "csandman",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "飞机",
   "tags": [

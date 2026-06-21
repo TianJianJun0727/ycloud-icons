@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "csandman",
-    "danielbayley",
-    "jguddas",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "定位固定",
   "tags": [

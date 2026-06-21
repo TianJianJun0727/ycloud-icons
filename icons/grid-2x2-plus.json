@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "chessurisme",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "网格2x2加号",
   "tags": [

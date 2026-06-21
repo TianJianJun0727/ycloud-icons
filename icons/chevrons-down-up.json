@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "PeterlitsZo",
-    "mittalyashu",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "双折角箭头下上",
   "tags": [

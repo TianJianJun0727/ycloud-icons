@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "EthanHazel",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "矩形护目镜",
   "tags": [

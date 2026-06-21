@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "azdle"
-  ],
   "use-cases": [],
   "name": "信号零",
   "tags": [

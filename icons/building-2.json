@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "maxim-s-barabash",
-    "ericfennis",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "建筑2",
   "tags": [

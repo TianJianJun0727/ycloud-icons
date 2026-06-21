@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "Barakudum"
-  ],
   "use-cases": [],
   "name": "地球勾选",
   "tags": [

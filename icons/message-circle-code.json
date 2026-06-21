@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "消息圆形代码",
   "tags": [

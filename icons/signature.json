@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "AnnaSasDev",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "签名",
   "tags": [

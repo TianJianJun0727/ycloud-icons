@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ashygee",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "鼠标指针",
   "tags": [

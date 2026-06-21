@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "danielbayley",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "爱心关闭",
   "tags": [

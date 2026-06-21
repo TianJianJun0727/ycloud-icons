@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "chessurisme"
-  ],
   "use-cases": [],
   "name": "网格2x2勾选",
   "tags": [

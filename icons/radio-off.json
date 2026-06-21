@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "kongsgard"
-  ],
   "use-cases": [],
   "name": "收音机关闭",
   "tags": [

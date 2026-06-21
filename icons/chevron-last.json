@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "dperezcabrera",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "折角箭头最后一个",
   "tags": [

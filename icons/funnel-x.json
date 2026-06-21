@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "gubser",
-    "ericfennis",
-    "lukedukeus",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "漏斗关闭",
   "tags": [

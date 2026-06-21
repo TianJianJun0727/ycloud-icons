@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "danielbayley",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "面板左打开",
   "tags": [

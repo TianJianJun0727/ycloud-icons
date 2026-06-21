@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "tallneil",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "钱包卡片",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "it-is-not",
-    "jguddas",
-    "danielbayley",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "字号增大",
   "tags": [

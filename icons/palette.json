@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "csandman",
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "调色板",
   "tags": [

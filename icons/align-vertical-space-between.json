@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "对齐垂直间距两端",
   "tags": [

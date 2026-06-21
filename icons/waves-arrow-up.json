@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "波浪箭头上",
   "tags": [

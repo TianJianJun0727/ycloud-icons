@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "wojtekmaj",
-    "mittalyashu",
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "铅笔",
   "tags": [

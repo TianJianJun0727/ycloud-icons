@@ -51,7 +51,6 @@ Recommended structure:
 ```json
 {
   "$schema": "../icon.schema.json",
-  "contributors": ["github-username"],
   "use-cases": [],
   "name": "Simplified Chinese icon name",
   "tags": ["Simplified Chinese tag"],

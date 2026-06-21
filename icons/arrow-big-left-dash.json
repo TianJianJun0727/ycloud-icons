@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "karsa-mistmere",
-    "jamiemlaw",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "箭头大左短横线",
   "tags": [

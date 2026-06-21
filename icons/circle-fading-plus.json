@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jordan808",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "圆形淡出加号",
   "tags": [

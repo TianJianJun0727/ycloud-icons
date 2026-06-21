@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "圆形折角箭头下",
   "tags": [

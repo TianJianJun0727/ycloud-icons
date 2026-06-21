@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "csandman",
-    "ericfennis",
-    "danielbayley",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "刷新逆时针点",
   "tags": [

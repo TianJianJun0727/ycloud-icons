@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "jguddas",
-    "jamiemlaw",
-    "mittalyashu"
-  ],
   "use-cases": [],
   "name": "玫瑰",
   "tags": [

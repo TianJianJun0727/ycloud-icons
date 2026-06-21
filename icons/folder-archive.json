@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "文件夹归档",
   "tags": [

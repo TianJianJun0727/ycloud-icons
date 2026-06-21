@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "jguddas"
-  ],
   "use-cases": [
     "indicating the end of a time range",
     "unassign timing information"

@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "gurtt"
-  ],
   "use-cases": [],
   "name": "折纸",
   "tags": [

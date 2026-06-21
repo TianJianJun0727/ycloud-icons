@@ -1,16 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "siarie",
-    "jguddas",
-    "swastik7805",
-    "Spleefies",
-    "ramazansancar"
-  ],
   "use-cases": [],
   "name": "文件夹书签",
   "tags": [

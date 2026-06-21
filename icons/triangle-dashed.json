@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "Yohh"
-  ],
   "use-cases": [],
   "name": "三角形虚线",
   "tags": [

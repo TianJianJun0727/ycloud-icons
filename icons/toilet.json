@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "EthanHazel",
-    "staffanmowitz",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "马桶",
   "tags": [

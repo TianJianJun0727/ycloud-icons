@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "面板顶部左",
   "tags": [

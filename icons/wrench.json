@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "ericfennis",
-    "csandman",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "扳手",
   "tags": [

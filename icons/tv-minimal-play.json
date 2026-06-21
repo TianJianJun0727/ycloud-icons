@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "电视极简播放",
   "tags": [

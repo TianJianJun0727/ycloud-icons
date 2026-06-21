@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Muhammad-Aqib-Bashir",
-    "jamiemlaw",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "镜像圆形",
   "tags": [

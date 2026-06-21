@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "绘图指南针",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [
     "assigning a task to the current user",
     "marking a message as directed to me",

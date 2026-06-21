@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "qubrat"
-  ],
   "use-cases": [],
   "name": "网格3x2",
   "tags": [

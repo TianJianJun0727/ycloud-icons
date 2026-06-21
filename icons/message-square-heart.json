@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "消息方形爱心",
   "tags": [

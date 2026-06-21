@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "danielbayley",
-    "karsa-mistmere",
-    "rrod497"
-  ],
   "use-cases": [],
   "name": "监控关闭",
   "tags": [

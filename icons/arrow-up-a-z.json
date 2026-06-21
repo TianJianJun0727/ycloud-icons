@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "danielbayley"
-  ],
   "use-cases": [],
   "name": "箭头上AZ",
   "tags": [

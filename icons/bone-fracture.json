@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Patolord"
-  ],
   "use-cases": [
     "indicate injury or fracture status in health/fitness tracking",
     "show an error or failed state in healthcare UI flows"

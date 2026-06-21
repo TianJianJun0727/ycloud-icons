@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "beanduong",
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "剪贴板时钟",
   "tags": [

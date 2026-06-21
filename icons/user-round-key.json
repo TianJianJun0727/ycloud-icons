@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "mittalyashu",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "用户圆形钥匙",
   "tags": [

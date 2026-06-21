@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "命令",
   "tags": [

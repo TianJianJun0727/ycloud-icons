@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jguddas",
-    "edwloef"
-  ],
   "use-cases": [],
   "name": "节拍器",
   "tags": [

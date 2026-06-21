@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "jpjacobpadilla",
-    "jguddas",
-    "ajokt123"
-  ],
   "use-cases": [
     "summarizing with ai",
     "summarizing long email threads",

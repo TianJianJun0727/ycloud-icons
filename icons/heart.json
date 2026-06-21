@@ -1,12 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "danielbayley",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "爱心",
   "tags": [

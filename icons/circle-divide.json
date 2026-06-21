@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "csandman",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "圆形除号",
   "tags": [

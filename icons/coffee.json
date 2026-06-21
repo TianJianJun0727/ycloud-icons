@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "mittalyashu",
-    "ericfennis",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "咖啡",
   "tags": [

@@ -17,7 +17,7 @@ icons/<icon-name>.json
 ```
 
 - `.svg` stores the icon shape.
-- `.json` stores contributors, stable category IDs, Chinese default metadata, and required English `i18n.en` metadata.
+- `.json` stores stable category IDs, Chinese default metadata, tags, and required English `i18n.en` metadata.
 
 Related files:
 
@@ -38,7 +38,6 @@ Example:
 ```json
 {
   "$schema": "../icon.schema.json",
-  "contributors": ["your-github-id"],
   "use-cases": [],
   "name": "Simplified Chinese icon name",
   "tags": ["Simplified Chinese tag"],

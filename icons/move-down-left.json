@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "siarie",
-    "ericfennis",
-    "karsa-mistmere",
-    "jonas-hoebenreich"
-  ],
   "use-cases": [],
   "name": "移动下左",
   "tags": [

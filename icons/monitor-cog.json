@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "colebemis",
-    "UsamaKhan"
-  ],
   "use-cases": [],
   "name": "显示器齿轮",
   "tags": [

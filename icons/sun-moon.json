@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "zishankadri",
-    "jamiemlaw",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "太阳月亮",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis",
-    "jguddas",
-    "jamiemlaw"
-  ],
   "use-cases": [],
   "name": "披萨",
   "tags": [

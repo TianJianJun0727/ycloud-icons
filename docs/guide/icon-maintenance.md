@@ -17,7 +17,7 @@ icons/<icon-name>.json
 ```
 
 - `.svg` 负责图形本体
-- `.json` 负责分类、标签、贡献者，以及中文默认展示信息和英文 `i18n.en`
+- `.json` 负责分类、标签，以及中文默认展示信息和英文 `i18n.en`
 
 除此之外，还有一类文件与图标展示有关：
 
@@ -68,7 +68,6 @@ pnpm optimize
 
 元数据至少要包含：
 
-- `contributors`
 - `categories`
 - `tags`
 - `use-cases`

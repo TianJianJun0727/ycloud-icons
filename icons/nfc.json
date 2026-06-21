@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "jguddas",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "NFC近场通信",
   "tags": [

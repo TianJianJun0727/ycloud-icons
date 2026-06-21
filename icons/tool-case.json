@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "AlexNaskida",
-    "karsa-mistmere",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "工具箱包",
   "tags": [

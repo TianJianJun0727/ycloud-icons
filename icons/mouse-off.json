@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "mittalyashu",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "鼠标关闭",
   "tags": [

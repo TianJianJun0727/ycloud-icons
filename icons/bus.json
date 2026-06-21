@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ahtohbi4",
-    "ericfennis",
-    "Andreto",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "公交车",
   "tags": [

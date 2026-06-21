@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "mittalyashu",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "智能手机充电",
   "tags": [

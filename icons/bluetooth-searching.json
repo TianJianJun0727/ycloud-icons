@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "csandman"
-  ],
   "use-cases": [],
   "name": "蓝牙搜索中",
   "tags": [

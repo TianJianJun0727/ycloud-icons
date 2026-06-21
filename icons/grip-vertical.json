@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis",
-    "johnletey"
-  ],
   "use-cases": [],
   "name": "握柄垂直",
   "tags": [

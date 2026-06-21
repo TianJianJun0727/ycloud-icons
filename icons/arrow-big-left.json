@@ -1,14 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "Andreto",
-    "mittalyashu",
-    "ericfennis",
-    "danielbayley",
-    "karsa-mistmere",
-    "jamiemlaw",
-    "jguddas"
-  ],
   "use-cases": [],
   "name": "箭头大左",
   "tags": [

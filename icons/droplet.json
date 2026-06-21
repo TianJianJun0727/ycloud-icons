@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "ericfennis",
-    "csandman",
-    "johnletey"
-  ],
   "use-cases": [],
   "name": "水滴",
   "tags": [

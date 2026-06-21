@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "vqh2602",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "气泡",
   "tags": [

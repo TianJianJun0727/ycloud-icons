@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "收音机接收器",
   "tags": [

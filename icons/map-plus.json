@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "karsa-mistmere",
-    "ericfennis",
-    "Seanw265"
-  ],
   "use-cases": [],
   "name": "地图加号",
   "tags": [

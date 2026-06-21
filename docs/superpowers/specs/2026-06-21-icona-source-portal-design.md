@@ -144,7 +144,6 @@ interface DraftIcon {
 ```json
 {
   "$schema": "../icon.schema.json",
-  "contributors": ["<github-user>"],
   "use-cases": [],
   "name": "中文名称",
   "tags": ["中文标签"],

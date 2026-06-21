@@ -1,8 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "smnandre"
-  ],
   "use-cases": [],
   "name": "方形根号",
   "tags": [

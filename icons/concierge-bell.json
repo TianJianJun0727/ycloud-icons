@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "ericfennis"
-  ],
   "use-cases": [],
   "name": "礼宾铃铛",
   "tags": [

@@ -14,7 +14,6 @@ import { useData } from 'vitepress'
 import IconPreview from '~/.vitepress/theme/components/icons/IconPreview.vue'
 import IconPreviewSmall from '~/.vitepress/theme/components/icons/IconPreviewSmall.vue'
 import IconInfo from '~/.vitepress/theme/components/icons/IconInfo.vue'
-import IconContributors from '~/.vitepress/theme/components/icons/IconContributors.vue'
 import IconShowcase from '~/.vitepress/theme/components/icons/IconShowcase.vue'
 import RelatedIcons from '~/.vitepress/theme/components/icons/RelatedIcons.vue'
 import CodeGroup from '~/.vitepress/theme/components/base/CodeGroup.vue'
@@ -90,7 +89,6 @@ function releaseTagLink(version) {
             v{{params.changedRelease.version}}
           </Badge>
         </div>
-        <IconContributors :icon="params" :class="$style.contributors"/>
       </div>
     </div>
     <ClientOnly>
@@ -145,7 +143,7 @@ function releaseTagLink(version) {
     --tags-gradient-background: var(--vp-c-bg);
   }
 
-  .version, .contributors {
+  .version {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -205,7 +203,7 @@ function releaseTagLink(version) {
       margin-top: 0;
     }
 
-    .version, .contributors {
+    .version {
       flex-direction: column;
     }
   }
@@ -223,7 +221,7 @@ function releaseTagLink(version) {
       margin-top: 24px;
     }
 
-    .version, .contributors {
+    .version {
       flex-direction: row;
     }
   }
@@ -241,7 +239,7 @@ function releaseTagLink(version) {
       margin-top: 0;
     }
 
-    .version, .contributors {
+    .version {
       flex-direction: row;
       margin-bottom: 8px;
     }

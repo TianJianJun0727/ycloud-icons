@@ -1,10 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "7ender",
-    "jguddas",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "钓鱼鱼竿",
   "tags": [

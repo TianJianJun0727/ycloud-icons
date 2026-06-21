@@ -1,15 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "siarie",
-    "ericfennis",
-    "jguddas",
-    "ZeenatLawal",
-    "swastik7805",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "书签关闭",
   "tags": [

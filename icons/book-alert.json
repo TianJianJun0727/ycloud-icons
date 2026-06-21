@@ -1,13 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "colebemis",
-    "csandman",
-    "ericfennis",
-    "karsa-mistmere",
-    "lscheibel",
-    "domasmark"
-  ],
   "use-cases": [],
   "name": "书籍告警",
   "tags": [

@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "lukedukeus"
-  ],
   "use-cases": [],
   "name": "门关闭锁定",
   "tags": [

@@ -1,11 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "zenoamaro",
-    "ericfennis",
-    "csandman",
-    "karsa-mistmere"
-  ],
   "use-cases": [],
   "name": "视图",
   "tags": [

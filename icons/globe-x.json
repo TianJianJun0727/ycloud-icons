@@ -1,9 +1,5 @@
 {
   "$schema": "../icon.schema.json",
-  "contributors": [
-    "karsa-mistmere",
-    "Muhammad-Aqib-Bashir"
-  ],
   "use-cases": [],
   "name": "地球关闭",
   "tags": [
