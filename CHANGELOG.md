@@ -2,6 +2,12 @@
 
 > 此文件会在文档构建前根据 Git tag 和提交记录自动生成。
 
+## [v0.1.12](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.12) - 2026-06-21
+
+[查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.11...v0.1.12)
+
+- test: avoid astro container default warning
+
 ## [v0.1.11](https://github.com/TianJianJun0727/ycloud-icons/releases/tag/v0.1.11) - 2026-06-21
 
 [查看对比变更](https://github.com/TianJianJun0727/ycloud-icons/compare/v0.1.10...v0.1.11)

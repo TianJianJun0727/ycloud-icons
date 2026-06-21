@@ -1,22 +1,39 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+import { useData } from 'vitepress';
 import Badge from '../base/Badge.vue';
 import { moveRight } from '@data/iconNodes';
 import Icon from '@ycloud-web/icons-vue/src/Icon';
 import { data } from './HomeHeroInfoBefore.data';
 import RocketDuotoneIcon from './RocketDuotoneIcon.ts';
+
+const { page } = useData();
+const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
+
+function withLocale(path: string) {
+  if (!isEnglish.value || path.startsWith('/en/') || path === '/en') {
+    return path;
+  }
+
+  return `/en${path}`;
+}
+
+const changelogHref = computed(() => withLocale(data.changelogHref));
+const installationHref = computed(() => withLocale(data.installationHref));
+const installationText = computed(() => (isEnglish.value ? 'Installation' : '安装'));
 </script>
 
 <template>
   <div class="info">
-    <Badge :href="data.changelogHref">
+    <Badge :href="changelogHref">
       {{ data.version }}
     </Badge>
     <Badge
       class="badge-special confetti-button animate"
-      :href="data.installationHref"
+      :href="installationHref"
     >
       <Icon :iconNode="RocketDuotoneIcon" />
-      安装
+      {{ installationText }}
       <Icon
         :iconNode="moveRight"
         class=""
