@@ -11,6 +11,7 @@ describe('buildFont', () => {
     vi.spyOn(console, 'time').mockImplementation(() => {});
     vi.spyOn(console, 'timeEnd').mockImplementation(() => {});
     vi.spyOn(console, 'log').mockImplementation(() => {});
+    vi.spyOn(console, 'error').mockImplementation(() => {});
   });
 
   afterEach(() => {
@@ -44,20 +45,22 @@ describe('buildFont', () => {
     expect(() => options.getIconUnicode('missing')).toThrow('No codepoint found for icon: missing');
   });
 
-  it('logs errors from svgtofont and still finishes timing', async () => {
+  it('logs errors from svgtofont, finishes timing, and rethrows the error', async () => {
     const error = new Error('svgtofont failed');
     vi.mocked(svgtofont).mockRejectedValue(error);
 
-    await buildFont({
-      inputDir: '/icons',
-      targetDir: '/dist',
-      fontName: 'ycloud',
-      classNamePrefix: 'icon',
-      codePoints: { camera: 57400 },
-      startUnicode: 57400,
-    });
+    await expect(
+      buildFont({
+        inputDir: '/icons',
+        targetDir: '/dist',
+        fontName: 'ycloud',
+        classNamePrefix: 'icon',
+        codePoints: { camera: 57400 },
+        startUnicode: 57400,
+      }),
+    ).rejects.toThrow(error);
 
-    expect(console.log).toHaveBeenCalledWith(error);
+    expect(console.error).toHaveBeenCalledWith(error);
     expect(console.timeEnd).toHaveBeenCalledWith('Font generation');
   });
 });
