@@ -63,9 +63,6 @@ const mappedIcons = computed(() => {
     const iconCategories = categoriesMap.value?.[icon.name] ?? [];
     return {
       ...icon,
-      displayName: isEnglish.value ? icon.englishName : icon.displayName,
-      displayTags: isEnglish.value ? icon.englishTags : iconTags,
-      displayCategories: isEnglish.value ? icon.englishCategories : icon.displayCategories,
       tags: iconTags,
       categories: iconCategories,
     };
@@ -75,16 +72,16 @@ const mappedIcons = computed(() => {
 const searchKeys = computed(() =>
   isEnglish.value
     ? [
-      { name: 'displayName', weight: 3 },
-      { name: 'aliases', weight: 3 },
-      { name: 'displayTags', weight: 2 },
-      { name: 'displayCategories', weight: 1 },
-    ]
+        { name: 'displayName', weight: 3 },
+        { name: 'aliases', weight: 3 },
+        { name: 'displayTags', weight: 2 },
+        { name: 'displayCategories', weight: 1 },
+      ]
     : [
-      { name: 'displayName', weight: 3 },
-      { name: 'displayTags', weight: 2 },
-      { name: 'displayCategories', weight: 1 },
-    ],
+        { name: 'displayName', weight: 3 },
+        { name: 'displayTags', weight: 2 },
+        { name: 'displayCategories', weight: 1 },
+      ],
 );
 
 const searchResults = useSearch(searchQueryDebounced, mappedIcons, searchKeys);
@@ -189,7 +186,9 @@ function handleCloseDrawer() {
   >
     <StickyBar class="category-search">
       <InputSearch
-        :placeholder="isEnglish ? `Search ${icons.length} icons...` : `搜索 ${icons.length} 个图标…`"
+        :placeholder="
+          isEnglish ? `Search ${icons.length} icons...` : `搜索 ${icons.length} 个图标…`
+        "
         v-model="searchQuery"
         :shortcut="kbdSearchShortcut"
         class="input-wrapper"

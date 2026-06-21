@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import type { IconEntity } from '@theme/types';
 import IconItem from './IconItem.vue';
-import { computed } from 'vue';
-import { useData } from 'vitepress';
 
 const emit = defineEmits(['setActiveIcon']);
 
@@ -12,9 +10,6 @@ defineProps<{
   overlayMode?: boolean;
   hideIcons?: boolean;
 }>();
-
-const { page } = useData();
-const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
 
 function setActiveIcon(icon: IconEntity) {
   emit('setActiveIcon', icon);
@@ -31,7 +26,7 @@ function setActiveIcon(icon: IconEntity) {
       <IconItem
         :iconNode="icon.iconNode"
         :name="icon.name"
-        :displayName="isEnglish ? icon.englishName : icon.displayName"
+        :displayName="icon.displayName"
         @setActiveIcon="setActiveIcon(icon)"
         :active="activeIcon === icon.name"
         customizable
