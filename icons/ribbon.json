@@ -1,8 +1,8 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": ["公益活动宣传丝带", "医疗 awareness 标志", "礼品包装装饰丝带"],
+  "use-cases": ["社会公益倡导丝带", "医疗健康关注标志", "礼品包装装饰丝带"],
   "name": "丝带",
-  "tags": ["丝带", "公益意识", "装饰", "纪念", "医疗丝带"],
+  "tags": ["丝带", "公益倡导", "装饰", "纪念", "医疗丝带"],
   "categories": ["social", "medical", "emoji"],
   "i18n": {
     "en": {
