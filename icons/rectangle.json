@@ -1,18 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [],
-  "name": "",
-  "tags": [],
-  "categories": [
-    "security"
-  ],
+  "use-cases": ["界面边框设计", "安全区域标记", "表单输入框", "内容容器"],
+  "name": "矩形",
+  "tags": ["矩形", "形状", "边框", "安全区域"],
+  "categories": ["security"],
   "i18n": {
     "en": {
       "name": "rectangle",
-      "tags": [
-        "test"
-      ],
-      "use-cases": []
+      "tags": ["rectangle", "shape", "border", "security area"],
+      "use-cases": ["UI border design", "Security area marking", "Form input fields", "Content containers"]
     }
   }
 }
