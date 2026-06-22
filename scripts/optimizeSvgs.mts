@@ -1,3 +1,7 @@
+/**
+ * 全量优化 icons 目录下的 SVG 源文件。
+ * 使用统一 SVG 清洗逻辑重写所有源图标，适合批量迁移或规范升级后运行。
+ */
 import fs from 'fs';
 import path from 'path';
 import { readSvgDirectory, writeSvgFile } from '../tools/build-helpers/helpers.ts';

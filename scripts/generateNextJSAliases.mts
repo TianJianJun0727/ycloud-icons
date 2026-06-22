@@ -1,3 +1,7 @@
+/**
+ * 生成 Next.js modularize imports 兼容别名。
+ * 让图标组件导入路径与 Next.js 对大小写和 kebab-case 的处理方式保持一致。
+ */
 import path from 'path';
 import { promises as fs } from 'fs';
 import { getCurrentDirPath, readSvgDirectory } from '../tools/build-helpers/helpers.ts';

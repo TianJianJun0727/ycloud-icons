@@ -1,3 +1,7 @@
+/**
+ * 将外部 lint 输出转换为 GitHub annotation。
+ * 主要用于 CI 中把文件名、行列号和错误信息转换成可点击的检查结果。
+ */
 import path from 'path';
 import fs from 'fs';
 import process from 'process';

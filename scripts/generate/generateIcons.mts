@@ -1,3 +1,7 @@
+/**
+ * 为指定图标名称生成初始 SVG 占位文件。
+ * 用于快速创建图标源文件骨架，后续再补充真实 SVG 内容和元数据。
+ */
 import path from 'path';
 import { getCurrentDirPath, writeFileIfNotExists } from '../../tools/build-helpers/helpers.ts';
 

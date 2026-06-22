@@ -1,3 +1,7 @@
+/**
+ * 同步 monorepo 内所有包的版本号。
+ * 发布流程使用它把 package.json 版本统一到目标 release 版本。
+ */
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

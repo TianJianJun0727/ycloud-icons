@@ -1,3 +1,7 @@
+/**
+ * 校验源 SVG 是否符合仓库规范。
+ * 检查根节点属性、禁止的 style/class 和重复属性，配合 Prettier 仅处理 SVG 格式化。
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { parseSync, type INode } from 'svgson';

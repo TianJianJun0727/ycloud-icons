@@ -1,3 +1,7 @@
+/**
+ * 按分类批量润色图标元数据。
+ * 使用 AI 结合分类上下文改写中文名称、标签和使用场景，并保持英文源数据稳定。
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { setTimeout } from 'node:timers/promises';

@@ -1,3 +1,7 @@
+/**
+ * 处理单个 SVG 源字符串。
+ * 通过 SVGO 清理结构、统一根属性，并保留 Prettier 作为 SVG 专用格式化器。
+ */
 import { optimize } from 'svgo';
 import * as prettier from 'prettier';
 import { parseSync, stringify } from 'svgson';

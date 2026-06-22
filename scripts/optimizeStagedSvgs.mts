@@ -1,3 +1,7 @@
+/**
+ * 优化指定的暂存或增量 SVG 文件。
+ * 供 PR 自动修复流程只处理本次变更的 SVG，避免全量清洗。
+ */
 import fs from 'fs';
 import processSvg from './render/processSvg.mts';
 

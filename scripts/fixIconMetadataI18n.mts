@@ -1,3 +1,7 @@
+/**
+ * 自动补全或修复图标与分类元数据的双语字段。
+ * 只处理缺失或不符合规范的字段，并通过 AI 生成中文/英文名称、标签和使用场景。
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import z from 'zod';

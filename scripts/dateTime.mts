@@ -1,3 +1,7 @@
+/**
+ * 提供发布流程使用的日期时间格式化工具。
+ * 当前统一输出 Asia/Shanghai 时区下的可读时间。
+ */
 export function formatShanghaiDateTime(isoDateTime: string) {
   const parts = new Intl.DateTimeFormat('zh-CN', {
     timeZone: 'Asia/Shanghai',

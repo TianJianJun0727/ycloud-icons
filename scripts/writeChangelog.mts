@@ -1,3 +1,7 @@
+/**
+ * 生成仓库和文档使用的双语变更日志。
+ * 支持根据 Git tag、提交记录和可选 AI 摘要产出当前版本 release notes。
+ */
 import { execSync } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';

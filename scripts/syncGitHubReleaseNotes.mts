@@ -1,3 +1,7 @@
+/**
+ * 同步本地持久化变更日志到 GitHub Release。
+ * 根据 changelogs/releases 中的双语内容更新对应 tag 的 Release 说明。
+ */
 import { execFileSync } from 'node:child_process';
 import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';

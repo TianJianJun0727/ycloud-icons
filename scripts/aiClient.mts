@@ -1,3 +1,7 @@
+/**
+ * 创建统一的 AI JSON 调用客户端。
+ * 通过 AI_API_KEY、AI_BASE_URL、AI_MODEL 等环境变量接入 OpenAI 兼容服务。
+ */
 import { createOpenAI } from '@ai-sdk/openai';
 import { generateText, Output } from 'ai';
 import type z from 'zod';

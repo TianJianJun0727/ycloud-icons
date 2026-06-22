@@ -1,3 +1,7 @@
+/**
+ * 校验完整图标源数据与分类关系。
+ * 确保每个 SVG、JSON 元数据和分类定义能够相互匹配。
+ */
 import path from 'path';
 import {
   readSvgDirectory,

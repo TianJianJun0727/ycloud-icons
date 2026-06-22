@@ -1,3 +1,7 @@
+/**
+ * CommonJS require hook：把部分工具链中的 typescript require 临时映射到 TypeScript 6。
+ * 用于 ng-packagr、rollup dts 等尚未完全支持 TypeScript 7 RC 的工具。
+ */
 const Module = require('node:module');
 const { createRequire } = require('node:module');
 

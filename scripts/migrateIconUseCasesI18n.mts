@@ -1,3 +1,7 @@
+/**
+ * 迁移旧版 use-cases 元数据到当前双语结构。
+ * 以英文字段为来源，将中文使用场景放在顶层，英文内容放入 i18n.en。
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

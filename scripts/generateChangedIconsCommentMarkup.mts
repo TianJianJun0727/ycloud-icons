@@ -1,3 +1,7 @@
+/**
+ * 为图标 PR 生成变更预览评论内容。
+ * 读取变更 SVG，生成可嵌入 GitHub 评论的图标预览与元数据信息。
+ */
 import fs from 'fs';
 import path from 'path';
 import { parseSync } from 'svgson';

@@ -1,3 +1,7 @@
+/**
+ * 同步 README 中的赞助商占位内容到各 package README。
+ * 当前仅保留历史兼容用途，避免包文档与根文档的赞助区块不一致。
+ */
 import { readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { existsSync, readFileSync, writeFileSync } from 'fs';

@@ -1,3 +1,7 @@
+/**
+ * 为图标 PR 生成元数据建议。
+ * 读取 PR 描述、现有分类和样例图标，调用 AI 输出可用于补全的名称、标签与分类建议。
+ */
 import 'dotenv/config';
 import { Octokit } from '@octokit/rest';
 

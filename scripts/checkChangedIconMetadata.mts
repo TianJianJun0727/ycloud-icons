@@ -1,3 +1,7 @@
+/**
+ * 校验本次变更的图标与分类元数据。
+ * 聚焦 PR 增量文件，检查中英文必填字段、重复值和分类引用是否有效。
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 

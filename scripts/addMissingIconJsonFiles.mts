@@ -1,3 +1,7 @@
+/**
+ * 为缺少元数据的 SVG 源文件补齐对应的 icon JSON 文件。
+ * 主要用于导入新图标后批量生成基础名称、标签和分类元数据。
+ */
 import path from 'path';
 import {
   getCurrentDirPath,

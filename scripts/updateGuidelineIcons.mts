@@ -1,3 +1,7 @@
+/**
+ * 更新文档图标设计指南使用的 SVG 示例。
+ * 批量替换 docs/images 下 SVG 的展示属性，保证指南示例风格统一。
+ */
 import path from 'path';
 import { readdirSync, readFileSync, writeFileSync } from 'fs';
 

@@ -1,3 +1,7 @@
+/**
+ * 图标重命名核心逻辑。
+ * 同步重命名 SVG、元数据、别名和相关源码引用，供单个图标和批量模式复用。
+ */
 import path from 'path';
 import fs from 'fs';
 import { promisify } from 'util';

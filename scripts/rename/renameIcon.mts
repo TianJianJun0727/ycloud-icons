@@ -1,3 +1,7 @@
+/**
+ * 单个图标重命名命令入口。
+ * 从命令行读取旧名称和新名称，并调用通用重命名逻辑完成源文件更新。
+ */
 import path from 'path';
 import { getCurrentDirPath } from '../../tools/build-helpers/helpers.ts';
 import { renameIcon } from './renameIcon.function.mts';

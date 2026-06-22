@@ -1,3 +1,7 @@
+/**
+ * 按正则批量重命名图标。
+ * 根据匹配模式筛选图标名称，并按替换规则调用通用重命名逻辑。
+ */
 import path from 'path';
 import { getCurrentDirPath, readSvgDirectory } from '../../tools/build-helpers/helpers.ts';
 import yargs from 'yargs/yargs';
