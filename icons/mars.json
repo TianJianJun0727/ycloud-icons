@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "火星",
   "tags": [
-    "性别"
+    "性别",
+    "性别",
+    "男",
+    "男性化的",
+    "男人",
+    "男孩"
   ],
   "categories": [
     "medical"
@@ -18,7 +23,8 @@
         "masculine",
         "man",
         "boy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

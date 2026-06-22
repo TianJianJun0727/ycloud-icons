@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "基线",
   "tags": [
-    "文本"
+    "文本",
+    "格式",
+    "颜色"
   ],
   "categories": [
     "text"
@@ -15,7 +17,8 @@
         "text",
         "format",
         "color"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

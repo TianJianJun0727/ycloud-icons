@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "可颂",
   "tags": [
+    "面包店",
     "烹饪",
-    "食物"
+    "食物",
+    "糕点"
   ],
   "categories": [
     "food-beverage"
@@ -17,7 +19,8 @@
         "cooking",
         "food",
         "pastry"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

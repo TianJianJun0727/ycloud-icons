@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "小麦关闭",
   "tags": [
-    "小麦",
-    "禁用",
-    "谷物"
+    "玉米",
+    "谷物",
+    "谷物",
+    "无麸质",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -21,7 +25,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

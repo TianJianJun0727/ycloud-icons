@@ -4,10 +4,15 @@
   "name": "八边形减少",
   "tags": [
     "停止",
+    "禁止的",
     "减去",
     "移除",
     "减少",
-    "交通"
+    "减少",
+    "-",
+    "交通",
+    "停止",
+    "受限的"
   ],
   "categories": [
     "transportation"
@@ -26,7 +31,8 @@
         "traffic",
         "halt",
         "restricted"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

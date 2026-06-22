@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "微波炉",
   "tags": [
-    "微波炉",
-    "厨房",
-    "加热"
+    "烤箱",
+    "炊具",
+    "烤面包机",
+    "烘烤"
   ],
   "categories": [
     "food-beverage",
@@ -19,7 +20,8 @@
         "cooker",
         "toaster oven",
         "bake"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

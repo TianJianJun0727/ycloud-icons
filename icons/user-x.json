@@ -4,7 +4,10 @@
   "name": "用户关闭",
   "tags": [
     "删除",
-    "移除"
+    "移除",
+    "取消关注",
+    "取消订阅",
+    "不可用"
   ],
   "categories": [
     "account"
@@ -18,7 +21,8 @@
         "unfollow",
         "unsubscribe",
         "unavailable"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

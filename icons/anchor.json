@@ -14,7 +14,8 @@
       "name": "anchor",
       "tags": [
         "ship"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

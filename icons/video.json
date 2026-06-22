@@ -4,8 +4,12 @@
   "name": "视频",
   "tags": [
     "相机",
-    "胶片",
-    "运动图片"
+    "电影",
+    "电影",
+    "录音",
+    "电影",
+    "摄像机",
+    "卷轴"
   ],
   "categories": [
     "devices",
@@ -24,7 +28,8 @@
         "motion picture",
         "camcorder",
         "reel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

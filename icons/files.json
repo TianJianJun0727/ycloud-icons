@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "文件组",
   "tags": [
-    "复制"
+    "多个",
+    "复制",
+    "文件"
   ],
   "categories": [
     "files"
@@ -15,7 +17,8 @@
         "multiple",
         "copy",
         "documents"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

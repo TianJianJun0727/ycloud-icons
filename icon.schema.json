@@ -107,8 +107,7 @@
       "items": {
         "type": "string"
       },
-      "minItems": 1,
-      "uniqueItems": true
+      "minItems": 1
     },
     "i18n": {
       "type": "object",
@@ -118,7 +117,7 @@
         "en": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["name", "tags"],
+          "required": ["name", "tags", "use-cases"],
           "properties": {
             "name": {
               "type": "string"
@@ -128,6 +127,14 @@
               "items": {
                 "type": "string"
               },
+              "uniqueItems": true
+            },
+            "use-cases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 0,
               "uniqueItems": true
             }
           }

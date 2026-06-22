@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "人员站立",
   "tags": [
-    "无障碍",
-    "手杖figure"
+    "人",
+    "人类的",
+    "可达性",
+    "简笔画"
   ],
   "categories": [
     "accessibility",
@@ -18,7 +20,8 @@
         "human",
         "accessibility",
         "stick figure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

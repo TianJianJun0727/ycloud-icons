@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "糖果手杖",
   "tags": [
-    "食物"
+    "糖",
+    "食物",
+    "甜甜的",
+    "圣诞节",
+    "圣诞节"
   ],
   "categories": [
     "food-beverage"
@@ -17,7 +21,8 @@
         "sweet",
         "christmas",
         "xmas"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,7 +4,14 @@
   "name": "火腿",
   "tags": [
     "食物",
-    "骨头"
+    "猪肉",
+    "猪",
+    "肉",
+    "骨",
+    "飞节",
+    "指关节",
+    "金门",
+    "治愈了"
   ],
   "categories": [
     "food-beverage"
@@ -22,7 +29,8 @@
         "knuckle",
         "gammon",
         "cured"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

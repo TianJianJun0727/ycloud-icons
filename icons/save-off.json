@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "保存关闭",
   "tags": [
-    "软盘"
+    "软盘",
+    "无法挽救的"
   ],
   "categories": [
     "text",
@@ -15,7 +16,8 @@
       "tags": [
         "floppy disk",
         "unsalvageable"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

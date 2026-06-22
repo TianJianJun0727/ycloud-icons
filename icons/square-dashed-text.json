@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "方形虚线文本",
   "tags": [
+    "找到",
     "搜索",
+    "选择",
     "虚线"
   ],
   "categories": [
@@ -32,7 +34,8 @@
         "search",
         "selection",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

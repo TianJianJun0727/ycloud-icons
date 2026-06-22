@@ -4,7 +4,13 @@
   "name": "日历爱心",
   "tags": [
     "日期",
-    "爱心"
+    "月",
+    "年",
+    "事件",
+    "心",
+    "最喜欢的",
+    "订阅",
+    "情人节"
   ],
   "categories": [
     "time"
@@ -21,7 +27,8 @@
         "favourite",
         "subscribe",
         "valentines day"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

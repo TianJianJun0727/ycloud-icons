@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "口袋刀",
   "tags": [
-    "瑞士army刀",
-    "multi工具"
+    "瑞士军刀",
+    "小刀",
+    "多功能工具",
+    "多任务",
+    "刀片",
+    "切割机",
+    "小工具",
+    "开瓶器"
   ],
   "categories": [
     "tools"
@@ -21,7 +27,8 @@
         "cutter",
         "gadget",
         "corkscrew"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

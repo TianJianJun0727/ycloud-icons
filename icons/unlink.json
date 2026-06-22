@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "取消链接",
   "tags": [
-    "链接",
-    "解除链接"
+    "网址",
+    "解开束缚"
   ],
   "categories": [
     "text"
@@ -15,7 +15,8 @@
       "tags": [
         "url",
         "unchain"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

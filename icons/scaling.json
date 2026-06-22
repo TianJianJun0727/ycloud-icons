@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "缩放",
   "tags": [
-    "比例尺",
+    "规模",
+    "调整大小",
     "设计"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "scale",
         "resize",
         "design"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

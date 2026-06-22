@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "拼图",
   "tags": [
-    "组件"
+    "组件",
+    "模块",
+    "部分",
+    "一块"
   ],
   "categories": [
     "development",
@@ -17,7 +20,8 @@
         "module",
         "part",
         "piece"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

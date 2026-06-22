@@ -5,6 +5,7 @@
   "tags": [
     "音频",
     "音乐",
+    "录音",
     "播放"
   ],
   "categories": [
@@ -22,7 +23,8 @@
         "music",
         "recording",
         "play"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

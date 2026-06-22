@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "雾霾",
   "tags": [
+    "薄雾",
     "雾"
   ],
   "categories": [
@@ -14,7 +15,8 @@
       "tags": [
         "mist",
         "fog"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "文件图表饼图",
   "tags": [
-    "图形",
+    "统计",
+    "分析",
+    "图表",
+    "图",
     "演示"
   ],
   "categories": [
@@ -26,7 +29,8 @@
         "diagram",
         "graph",
         "presentation"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

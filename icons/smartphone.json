@@ -4,7 +4,8 @@
   "name": "智能手机",
   "tags": [
     "电话",
-    "设备",
+    "手机",
+    "装置",
     "屏幕"
   ],
   "categories": [
@@ -19,7 +20,8 @@
         "cellphone",
         "device",
         "screen"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

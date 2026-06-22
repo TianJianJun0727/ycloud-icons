@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "咖啡",
   "tags": [
-    "饮品",
-    "杯子"
+    "喝",
+    "杯子",
+    "杯子",
+    "茶",
+    "咖啡馆",
+    "热",
+    "饮料"
   ],
   "categories": [
     "food-beverage"
@@ -20,7 +25,8 @@
         "cafe",
         "hot",
         "beverage"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

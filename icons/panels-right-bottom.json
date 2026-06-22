@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "面板右底部",
   "tags": [
-    "侧边栏"
+    "抽屉",
+    "侧边栏",
+    "中学"
   ],
   "categories": [
     "layout"
@@ -15,7 +17,8 @@
         "drawers",
         "sidebar",
         "secondary"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

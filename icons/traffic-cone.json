@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "交通圆锥",
   "tags": [
-    "交通锥",
-    "施工",
-    "警示"
+    "道路工程",
+    "停机坪",
+    "安全",
+    "屏蔽"
   ],
   "categories": [
     "transportation"
@@ -18,7 +19,8 @@
         "tarmac",
         "safety",
         "block"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

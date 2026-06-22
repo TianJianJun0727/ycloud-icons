@@ -4,7 +4,9 @@
   "name": "圆形小",
   "tags": [
     "形状",
-    "性别"
+    "子弹",
+    "性别",
+    "无性别的"
   ],
   "categories": [
     "shapes",
@@ -18,7 +20,8 @@
         "bullet",
         "gender",
         "genderless"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

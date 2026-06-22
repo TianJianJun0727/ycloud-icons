@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "矩形护目镜",
   "tags": [
-    "耳麦",
+    "虚拟现实",
+    "虚拟的",
+    "增强的",
+    "现实",
+    "耳机",
     "护目镜"
   ],
   "categories": [
@@ -22,7 +26,8 @@
         "reality",
         "headset",
         "goggles"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

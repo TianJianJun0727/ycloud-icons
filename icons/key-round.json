@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "钥匙圆形",
   "tags": [
-    "钥匙",
-    "权限",
-    "访问"
+    "密码",
+    "登录",
+    "认证",
+    "安全",
+    "解锁"
   ],
   "categories": [
     "security",
@@ -20,7 +22,8 @@
         "authentication",
         "secure",
         "unlock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

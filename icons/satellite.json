@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "卫星",
   "tags": [
-    "间距station",
-    "轨道"
+    "空间站",
+    "轨道",
+    "发射机"
   ],
   "categories": [
     "connectivity",
@@ -17,7 +18,8 @@
         "space station",
         "orbit",
         "transmitter"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

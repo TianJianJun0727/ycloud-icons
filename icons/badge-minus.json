@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "徽章减少",
   "tags": [
+    "已验证",
+    "未经验证",
     "删除",
     "移除",
-    "已验证",
-    "未验证"
+    "擦除"
   ],
   "categories": [
     "social"
@@ -20,7 +21,8 @@
         "delete",
         "remove",
         "erase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

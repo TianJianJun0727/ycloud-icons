@@ -3,10 +3,14 @@
   "use-cases": [],
   "name": "房屋加号",
   "tags": [
-    "家居",
+    "首页",
+    "生活",
     "医疗",
     "新建",
-    "建筑"
+    "加法",
+    "建筑物",
+    "居住地",
+    "建筑学"
   ],
   "categories": [
     "buildings",
@@ -24,7 +28,8 @@
         "building",
         "residence",
         "architecture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "删除",
   "tags": [
+    "垃圾",
     "删除",
-    "移除"
+    "移除",
+    "垃圾箱"
   ],
   "categories": [
     "files",
@@ -18,7 +20,8 @@
         "delete",
         "remove",
         "bin"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

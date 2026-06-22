@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "文件夹关闭",
   "tags": [
-    "关闭",
-    "目录"
+    "目录",
+    "关闭"
   ],
   "categories": [
     "files"
@@ -15,7 +15,8 @@
       "tags": [
         "directory",
         "closed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

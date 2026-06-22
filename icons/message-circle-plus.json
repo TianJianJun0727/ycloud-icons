@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "消息圆形加号",
   "tags": [
-    "语音bubble",
-    "添加",
-    "聊天"
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡",
+    "添加"
   ],
   "categories": [
     "social"
@@ -21,7 +25,8 @@
         "feedback",
         "speech bubble",
         "add"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -18,7 +18,8 @@
         "exit fullscreen",
         "close",
         "shrink"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

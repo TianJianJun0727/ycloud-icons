@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "药片",
   "tags": [
-    "药片",
+    "医学",
+    "药物治疗",
     "药物",
-    "医疗"
+    "处方",
+    "药丸",
+    "药房"
   ],
   "categories": [
     "medical"
@@ -20,7 +23,8 @@
         "prescription",
         "pills",
         "pharmacy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

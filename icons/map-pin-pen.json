@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "地图图钉笔",
   "tags": [
-    "编辑",
-    "标记"
+    "位置",
+    "航路点",
+    "标记",
+    "掉落",
+    "编辑"
   ],
   "categories": [
     "navigation",
@@ -28,7 +31,8 @@
         "marker",
         "drop",
         "edit"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

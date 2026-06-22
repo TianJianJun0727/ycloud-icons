@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "扫描二维码代码",
   "tags": [
-    "条码",
+    "条形码",
     "扫描",
-    "链接",
-    "信息"
+    "二维码",
+    "网址",
+    "信息",
+    "数字化",
+    "扫描仪"
   ],
   "categories": [
     "account",
@@ -25,7 +28,8 @@
         "information",
         "digital",
         "scanner"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

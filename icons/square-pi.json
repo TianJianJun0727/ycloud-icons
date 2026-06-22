@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "方形圆周率",
   "tags": [
+    "常数",
     "代码",
+    "编码",
+    "编程",
     "符号",
-    "编程"
+    "三角学",
+    "几何学",
+    "公式"
   ],
   "categories": [
     "development",
@@ -31,7 +36,8 @@
         "trigonometry",
         "geometry",
         "formula"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

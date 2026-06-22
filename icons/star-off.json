@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "星标关闭",
   "tags": [
-    "移除"
+    "不喜欢",
+    "不像",
+    "移除",
+    "未评级"
   ],
   "categories": [
     "multimedia",
@@ -17,7 +20,8 @@
         "unlike",
         "remove",
         "unrate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

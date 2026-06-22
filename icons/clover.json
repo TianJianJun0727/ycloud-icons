@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "三叶草",
   "tags": [
-    "叶子",
+    "叶",
+    "运气",
     "植物"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "leaf",
         "luck",
         "plant"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

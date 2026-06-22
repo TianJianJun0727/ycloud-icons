@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "太阳变暗",
   "tags": [
-    "变暗",
+    "亮度",
+    "昏暗",
     "低",
-    "brightness低"
+    "亮度低"
   ],
   "categories": [
     "accessibility",
@@ -19,7 +20,8 @@
         "dim",
         "low",
         "brightness low"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

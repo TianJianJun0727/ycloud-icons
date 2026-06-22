@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "展开",
   "tags": [
-    "比例尺",
+    "规模",
     "全屏",
     "最大化",
-    "最小化"
+    "最小化",
+    "合同"
   ],
   "categories": [
     "text",
@@ -21,7 +22,8 @@
         "maximize",
         "minimize",
         "contract"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

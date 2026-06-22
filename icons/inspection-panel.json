@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "检查面板",
   "tags": [
-    "金属"
+    "访问",
+    "封面",
+    "瓷砖",
+    "金属",
+    "材料",
+    "螺丝"
   ],
   "categories": [
     "tools"
@@ -18,7 +23,8 @@
         "metal",
         "materials",
         "screws"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

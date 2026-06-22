@@ -5,9 +5,15 @@
   "tags": [
     "箭头",
     "旋转",
+    "重新加载",
+    "同步",
+    "同步",
+    "圆形",
+    "循环",
     "问题",
     "代码",
-    "version控制"
+    "编码",
+    "版本控制"
   ],
   "categories": [
     "arrows",
@@ -28,7 +34,8 @@
         "code",
         "coding",
         "version control"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

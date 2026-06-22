@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "国际象棋骑士",
   "tags": [
-    "面板game"
+    "一块",
+    "马",
+    "棋盘游戏"
   ],
   "categories": [
     "gaming",
@@ -16,7 +18,8 @@
         "piece",
         "horse",
         "board game"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "山",
   "tags": [
-    "山",
-    "山峰",
-    "自然"
+    "攀登",
+    "远足",
+    "摇滚"
   ],
   "categories": [
     "nature",
@@ -18,7 +18,8 @@
         "climb",
         "hike",
         "rock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "云雾",
   "tags": [
-    "天气"
+    "天气",
+    "薄雾"
   ],
   "categories": [
     "weather"
@@ -14,7 +15,8 @@
       "tags": [
         "weather",
         "mist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

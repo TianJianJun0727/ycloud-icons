@@ -13,7 +13,8 @@
       "name": "reply all",
       "tags": [
         "email"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

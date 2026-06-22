@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "视图",
   "tags": [
-    "眼睛"
+    "眼睛",
+    "看看"
   ],
   "categories": [
     "design",
@@ -15,7 +16,8 @@
       "tags": [
         "eye",
         "look"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

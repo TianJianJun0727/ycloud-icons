@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "扩音器",
   "tags": [
+    "广告",
+    "公告",
+    "关注",
     "告警",
+    "扬声器",
     "扩音器",
-    "通知",
-    "警告"
+    "通知"
   ],
   "categories": [
     "multimedia",
@@ -23,7 +26,8 @@
         "loudspeaker",
         "megaphone",
         "notification"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

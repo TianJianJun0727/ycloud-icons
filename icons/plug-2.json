@@ -4,7 +4,9 @@
   "name": "插头2",
   "tags": [
     "电力",
-    "能源"
+    "能量",
+    "插座",
+    "插座"
   ],
   "categories": [
     "devices",
@@ -18,7 +20,8 @@
         "energy",
         "socket",
         "outlet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

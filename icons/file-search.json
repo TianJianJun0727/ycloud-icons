@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "文件搜索",
   "tags": [
-    "镜头",
-    "文档"
+    "迷失了",
+    "文档",
+    "找到",
+    "浏览器",
+    "镜头"
   ],
   "categories": [
     "files"
@@ -18,7 +21,8 @@
         "find",
         "browser",
         "lens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

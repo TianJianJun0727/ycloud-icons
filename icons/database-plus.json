@@ -1,16 +1,19 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "creating a new database instance",
-    "adding a database connection in a client or admin panel"
+    "创建新的数据库实例",
+    "在客户端或管理面板中添加数据库连接"
   ],
   "name": "数据库加号",
   "tags": [
-    "内存",
+    "存储",
+    "记忆",
+    "字节",
     "服务器",
     "加号",
     "添加",
     "创建",
+    "插入",
     "新建",
     "展开"
   ],
@@ -32,6 +35,10 @@
         "insert",
         "new",
         "expand"
+      ],
+      "use-cases": [
+        "creating a new database instance",
+        "adding a database connection in a client or admin panel"
       ]
     }
   }

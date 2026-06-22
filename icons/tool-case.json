@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "工具箱包",
   "tags": [
-    "维护"
+    "工具",
+    "维护",
+    "修理"
   ],
   "categories": [
     "tools",
@@ -17,7 +19,8 @@
         "tools",
         "maintenance",
         "repair"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

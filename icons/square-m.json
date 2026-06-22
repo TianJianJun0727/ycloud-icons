@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "方形米",
   "tags": [
+    "地铁",
+    "地铁",
+    "地下",
     "轨道",
     "线条"
   ],
@@ -27,7 +30,8 @@
         "underground",
         "track",
         "line"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

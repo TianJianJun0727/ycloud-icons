@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "文件夹树",
   "tags": [
+    "目录",
     "树",
-    "目录"
+    "浏览器"
   ],
   "categories": [
     "files"
@@ -16,7 +17,8 @@
         "directory",
         "tree",
         "browser"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "邮件打开",
   "tags": [
+    "邮箱",
     "消息",
-    "字母",
-    "邮箱"
+    "信",
+    "读"
   ],
   "categories": [
     "mail"
@@ -18,7 +19,8 @@
         "message",
         "letter",
         "read"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

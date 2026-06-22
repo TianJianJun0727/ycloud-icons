@@ -4,7 +4,9 @@
   "name": "行李",
   "tags": [
     "行李",
-    "旅行"
+    "行李",
+    "旅行",
+    "手提箱"
   ],
   "categories": [
     "travel",
@@ -18,7 +20,8 @@
         "luggage",
         "travel",
         "suitcase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

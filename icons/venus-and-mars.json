@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "金星与火星",
   "tags": [
-    "性别"
+    "性别",
+    "性别",
+    "双性人",
+    "雌雄同体的",
+    "雌雄同体"
   ],
   "categories": [
     "medical"
@@ -17,7 +21,8 @@
         "intersex",
         "androgynous",
         "hermaphrodite"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

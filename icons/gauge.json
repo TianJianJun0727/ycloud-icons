@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "仪表",
   "tags": [
-    "仪表盘",
-    "仪表"
+    "仪表板",
+    "拨号",
+    "米",
+    "速度",
+    "压力",
+    "测量",
+    "水平"
   ],
   "categories": [
     "transportation",
@@ -22,7 +27,8 @@
         "pressure",
         "measure",
         "level"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

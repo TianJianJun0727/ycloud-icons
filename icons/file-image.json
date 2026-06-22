@@ -4,7 +4,9 @@
   "name": "文件图片",
   "tags": [
     "图片",
-    "照片"
+    "图形",
+    "照片",
+    "图片"
   ],
   "categories": [
     "files"
@@ -17,7 +19,8 @@
         "graphics",
         "photo",
         "picture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

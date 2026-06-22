@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "报纸",
   "tags": [
-    "家居"
+    "新闻",
+    "饲料",
+    "首页",
+    "杂志",
+    "文章",
+    "标题"
   ],
   "categories": [
     "multimedia",
@@ -19,7 +24,8 @@
         "magazine",
         "article",
         "headline"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

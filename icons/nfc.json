@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "NFC近场通信",
   "tags": [
-    "支付"
+    "非接触式",
+    "付款",
+    "近场通信"
   ],
   "categories": [
     "communication",
@@ -17,7 +19,8 @@
         "contactless",
         "payment",
         "near-field communication"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

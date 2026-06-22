@@ -3,14 +3,16 @@
   "use-cases": [],
   "name": "地球关闭",
   "tags": [
-    "地球",
+    "地球仪",
     "互联网",
+    "离线",
+    "断开连接",
     "网络",
     "连接",
-    "无连接",
-    "网络failure",
-    "信号关闭",
-    "已断开"
+    "世界",
+    "没有连接",
+    "网络故障",
+    "信号关闭"
   ],
   "categories": [
     "connectivity",
@@ -31,7 +33,8 @@
         "no connection",
         "network failure",
         "signal off"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

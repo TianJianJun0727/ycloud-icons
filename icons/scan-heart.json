@@ -4,8 +4,11 @@
   "name": "扫描爱心",
   "tags": [
     "健康",
-    "爱心rate",
-    "脉搏",
+    "心率",
+    "脉冲",
+    "监控",
+    "健康",
+    "筛选",
     "虚线"
   ],
   "categories": [
@@ -22,7 +25,8 @@
         "healthiness",
         "screening",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

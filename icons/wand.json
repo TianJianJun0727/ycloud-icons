@@ -3,9 +3,8 @@
   "use-cases": [],
   "name": "魔杖",
   "tags": [
-    "魔法棒",
-    "工具",
-    "增强"
+    "魔法",
+    "选择"
   ],
   "categories": [
     "design",
@@ -19,7 +18,8 @@
       "tags": [
         "magic",
         "selection"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

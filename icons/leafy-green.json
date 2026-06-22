@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "绿叶绿色",
   "tags": [
-    "沙拉"
+    "沙拉",
+    "生菜",
+    "蔬菜",
+    "甜菜",
+    "卷心菜",
+    "白菜"
   ],
   "categories": [
     "food-beverage",
@@ -20,7 +25,8 @@
         "chard",
         "cabbage",
         "bok choy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

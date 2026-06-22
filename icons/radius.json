@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "半径",
   "tags": [
+    "形状",
     "圆形",
+    "几何学",
+    "三角学",
+    "半径",
     "计算",
-    "形状"
+    "测量",
+    "尺寸"
   ],
   "categories": [
     "shapes",
@@ -25,7 +30,8 @@
         "calculate",
         "measure",
         "size"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

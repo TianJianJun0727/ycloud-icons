@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "箭头大下",
   "tags": [
+    "向后",
+    "反向",
     "方向",
-    "后退",
-    "反向"
+    "南"
   ],
   "categories": [
     "arrows",
@@ -19,7 +20,8 @@
         "reverse",
         "direction",
         "south"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

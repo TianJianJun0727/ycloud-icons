@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "文件夹爱心",
   "tags": [
-    "爱心",
+    "目录",
+    "心",
+    "最喜欢的",
     "书签",
-    "quick链接",
-    "目录"
+    "快速链接"
   ],
   "categories": [
     "files"
@@ -20,7 +21,8 @@
         "favourite",
         "bookmark",
         "quick link"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

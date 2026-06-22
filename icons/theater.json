@@ -4,8 +4,11 @@
   "name": "剧院",
   "tags": [
     "剧院",
-    "领奖台",
-    "娱乐"
+    "剧院",
+    "娱乐",
+    "讲台",
+    "舞台",
+    "音乐剧"
   ],
   "categories": [
     "buildings",
@@ -21,7 +24,8 @@
         "podium",
         "stage",
         "musical"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "披萨",
   "tags": [
-    "饼图",
+    "馅饼",
+    "乳蛋饼",
     "食物"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "pie",
         "quiche",
         "food"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

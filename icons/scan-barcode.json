@@ -3,7 +3,16 @@
   "use-cases": [],
   "name": "扫描条码",
   "tags": [
-    "购物车"
+    "结账",
+    "直到",
+    "购物车",
+    "交易",
+    "购买",
+    "买",
+    "产品",
+    "包装",
+    "零售",
+    "消费者"
   ],
   "categories": [
     "shopping",
@@ -23,7 +32,8 @@
         "packaging",
         "retail",
         "consumer"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

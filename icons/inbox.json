@@ -14,7 +14,8 @@
       "name": "inbox",
       "tags": [
         "email"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

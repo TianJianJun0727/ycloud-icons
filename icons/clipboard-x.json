@@ -5,6 +5,7 @@
   "tags": [
     "复制",
     "粘贴",
+    "丢弃",
     "移除"
   ],
   "categories": [
@@ -18,7 +19,8 @@
         "paste",
         "discard",
         "remove"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

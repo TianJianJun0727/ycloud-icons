@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "应用窗口Mac",
   "tags": [
-    "菜单条形"
+    "应用",
+    "菜单栏",
+    "窗格",
+    "偏好",
+    "macOS",
+    "OS X",
+    "可执行文件"
   ],
   "categories": [
     "layout",
@@ -22,7 +28,8 @@
         "macos",
         "osx",
         "executable"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

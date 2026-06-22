@@ -3,11 +3,14 @@
   "use-cases": [],
   "name": "图片进入图片",
   "tags": [
+    "显示",
     "播放",
     "视频",
-    "pop外部",
-    "alwayson顶部",
-    "窗口"
+    "弹出",
+    "总是在最上面",
+    "窗户",
+    "插图",
+    "多任务"
   ],
   "categories": [
     "multimedia"
@@ -24,7 +27,8 @@
         "window",
         "inset",
         "multitask"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

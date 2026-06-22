@@ -4,8 +4,11 @@
   "name": "爱心加号",
   "tags": [
     "加号",
+    "喜欢",
+    "收藏",
     "添加",
-    "健康"
+    "健康",
+    "支持"
   ],
   "categories": [
     "medical",
@@ -24,7 +27,8 @@
         "add",
         "health",
         "support"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "文件夹钥匙",
   "tags": [
+    "目录",
     "钥匙",
+    "私人的",
     "安全",
-    "目录"
+    "受保护的"
   ],
   "categories": [
     "files",
@@ -20,7 +22,8 @@
         "private",
         "security",
         "protected"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

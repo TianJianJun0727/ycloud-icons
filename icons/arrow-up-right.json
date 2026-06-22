@@ -4,6 +4,7 @@
   "name": "箭头上右",
   "tags": [
     "方向",
+    "东北",
     "对角线"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "direction",
         "north-east",
         "diagonal"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

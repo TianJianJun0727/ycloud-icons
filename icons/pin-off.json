@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "图钉关闭",
   "tags": [
+    "取消固定",
     "地图",
+    "解锁",
+    "取消修复",
+    "取消保存",
     "移除"
   ],
   "categories": [
@@ -19,7 +23,8 @@
         "unfix",
         "unsave",
         "remove"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

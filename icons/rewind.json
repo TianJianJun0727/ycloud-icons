@@ -14,7 +14,8 @@
       "name": "rewind",
       "tags": [
         "music"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

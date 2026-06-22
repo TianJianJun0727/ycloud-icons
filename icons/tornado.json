@@ -4,7 +4,9 @@
   "name": "龙卷风",
   "tags": [
     "天气",
-    "风"
+    "风",
+    "风暴",
+    "飓风"
   ],
   "categories": [
     "weather"
@@ -17,7 +19,8 @@
         "wind",
         "storm",
         "hurricane"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

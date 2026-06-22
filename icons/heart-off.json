@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "爱心关闭",
   "tags": [
-    "情绪"
+    "不像",
+    "不喜欢",
+    "讨厌",
+    "情感"
   ],
   "categories": [
     "social",
@@ -17,7 +20,8 @@
         "dislike",
         "hate",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

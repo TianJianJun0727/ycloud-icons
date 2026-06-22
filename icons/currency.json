@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "货币",
   "tags": [
-    "金融"
+    "金融",
+    "钱"
   ],
   "categories": [
     "finance"
@@ -14,7 +15,8 @@
       "tags": [
         "finance",
         "money"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

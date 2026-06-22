@@ -3,11 +3,16 @@
   "use-cases": [],
   "name": "文本搜索",
   "tags": [
+    "找到",
+    "数据",
     "复制",
+    "文本文件",
+    "PDF",
+    "文档",
     "扫描",
-    "magnifying玻璃杯",
-    "镜头",
-    "文档"
+    "放大镜",
+    "放大镜",
+    "镜头"
   ],
   "categories": [
     "text"
@@ -26,7 +31,8 @@
         "magnifier",
         "magnifying glass",
         "lens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -1,17 +1,19 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "adding a tag to an item",
-    "creating a new product or entry with a tag"
+    "为项目添加标签",
+    "创建带标签的新产品或条目"
   ],
   "name": "标签加号",
   "tags": [
+    "标签",
     "徽章",
-    "票券",
+    "票",
     "标记",
     "新建",
     "添加",
-    "创建"
+    "创建",
+    "+"
   ],
   "categories": [
     "account"
@@ -28,6 +30,10 @@
         "add",
         "create",
         "+"
+      ],
+      "use-cases": [
+        "adding a tag to an item",
+        "creating a new product or entry with a tag"
       ]
     }
   }

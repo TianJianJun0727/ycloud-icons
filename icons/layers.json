@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "图层",
   "tags": [
-    "堆叠",
+    "堆栈",
     "堆",
+    "页面",
+    "床单",
+    "文书工作",
+    "副本",
     "复制"
   ],
   "categories": [
@@ -30,7 +34,8 @@
         "paperwork",
         "copies",
         "copy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

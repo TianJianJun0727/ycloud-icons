@@ -3,10 +3,16 @@
   "use-cases": [],
   "name": "圆形点",
   "tags": [
+    "待定",
     "点",
+    "进展",
     "问题",
     "代码",
-    "version控制"
+    "编码",
+    "版本控制",
+    "选择",
+    "多项选择",
+    "选择"
   ],
   "categories": [
     "development",
@@ -26,7 +32,8 @@
         "choices",
         "multiple choice",
         "choose"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

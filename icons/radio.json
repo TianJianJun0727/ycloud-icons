@@ -4,7 +4,10 @@
   "name": "收音机",
   "tags": [
     "信号",
-    "连接"
+    "广播",
+    "连接性",
+    "直播",
+    "频率"
   ],
   "categories": [
     "devices",
@@ -20,7 +23,8 @@
         "connectivity",
         "live",
         "frequency"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

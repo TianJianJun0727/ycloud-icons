@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "切片",
   "tags": [
+    "切割机",
+    "手术刀",
     "刀"
   ],
   "categories": [
@@ -15,7 +17,8 @@
         "cutter",
         "scalpel",
         "knife"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -5,7 +5,7 @@
   "tags": [
     "扫描",
     "代码",
-    "二维码代码"
+    "二维码"
   ],
   "categories": [
     "files"
@@ -17,7 +17,8 @@
         "scan",
         "code",
         "qr-code"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

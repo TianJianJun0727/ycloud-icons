@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "连字",
   "tags": [
-    "文本"
+    "文本",
+    "字体",
+    "版式",
+    "替补",
+    "替代品"
   ],
   "categories": [
     "text"
@@ -17,7 +21,8 @@
         "typography",
         "alternates",
         "alternatives"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

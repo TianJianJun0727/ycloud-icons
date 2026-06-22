@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "城堡",
   "tags": [
-    "建筑"
+    "堡垒",
+    "据点",
+    "宫殿",
+    "城堡",
+    "建筑物"
   ],
   "categories": [
     "buildings",
@@ -19,7 +23,8 @@
         "palace",
         "chateau",
         "building"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

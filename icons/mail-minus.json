@@ -3,11 +3,11 @@
   "use-cases": [],
   "name": "邮件减少",
   "tags": [
+    "邮箱",
     "消息",
-    "字母",
+    "信",
     "移除",
-    "删除",
-    "邮箱"
+    "删除"
   ],
   "categories": [
     "mail"
@@ -21,7 +21,8 @@
         "letter",
         "remove",
         "delete"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

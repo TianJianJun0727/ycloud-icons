@@ -4,7 +4,8 @@
   "name": "双折角箭头右左",
   "tags": [
     "折叠",
-    "水平"
+    "折叠",
+    "水平的"
   ],
   "categories": [
     "arrows"
@@ -16,7 +17,8 @@
         "collapse",
         "fold",
         "horizontal"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

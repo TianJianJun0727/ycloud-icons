@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "音乐4",
   "tags": [
-    "sixteenth便签",
-    "便签"
+    "十六分音符",
+    "十六分音符",
+    "注释"
   ],
   "categories": [
     "multimedia",
@@ -17,7 +18,8 @@
         "semiquaver",
         "sixteenth note",
         "note"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

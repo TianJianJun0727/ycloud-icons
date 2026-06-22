@@ -4,6 +4,7 @@
   "name": "双折角箭头下上",
   "tags": [
     "折叠",
+    "折叠",
     "垂直"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "collapse",
         "fold",
         "vertical"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

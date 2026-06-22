@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "方形方形",
   "tags": [
-    "居中",
-    "矩形"
+    "浮动",
+    "中心",
+    "长方形"
   ],
   "categories": [
     "layout"
@@ -16,7 +17,8 @@
         "float",
         "center",
         "rectangle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

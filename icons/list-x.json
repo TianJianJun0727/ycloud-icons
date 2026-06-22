@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "列表关闭",
   "tags": [
+    "播放列表",
     "减去",
     "移除",
-    "删除"
+    "删除",
+    "取消队列"
   ],
   "categories": [
     "multimedia",
@@ -20,7 +22,8 @@
         "remove",
         "delete",
         "unqueue"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

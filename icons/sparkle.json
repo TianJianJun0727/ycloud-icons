@@ -4,8 +4,14 @@
   "name": "闪光",
   "tags": [
     "星标",
+    "效果",
     "筛选",
-    "庆祝"
+    "晚上",
+    "魔法",
+    "有光泽",
+    "闪光",
+    "闪烁",
+    "庆祝活动"
   ],
   "categories": [
     "shapes"
@@ -23,7 +29,8 @@
         "glitter",
         "twinkle",
         "celebration"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "方形堆叠",
   "tags": [
+    "版本",
+    "克隆",
     "复制",
-    "version控制",
+    "重复的",
+    "多个",
+    "修订",
+    "版本控制",
     "备份",
     "历史"
   ],
@@ -26,7 +31,8 @@
         "version control",
         "backup",
         "history"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

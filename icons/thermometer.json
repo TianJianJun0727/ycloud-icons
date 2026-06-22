@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "温度计",
   "tags": [
+    "温度",
+    "摄氏度",
+    "华氏度",
     "天气"
   ],
   "categories": [
@@ -16,7 +19,8 @@
         "celsius",
         "fahrenheit",
         "weather"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

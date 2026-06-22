@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "比例尺三维",
   "tags": [
+    "小发明",
+    "变换",
+    "尺寸",
     "轴"
   ],
   "categories": [
@@ -24,7 +27,8 @@
         "transform",
         "size",
         "axis"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

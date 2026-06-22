@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "有轨电车正面",
   "tags": [
+    "铁路",
+    "地铁",
+    "地铁",
+    "地下",
     "轨道",
-    "线条"
+    "线条",
+    "旅游"
   ],
   "categories": [
     "transportation"
@@ -28,7 +33,8 @@
         "track",
         "line",
         "tourism"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

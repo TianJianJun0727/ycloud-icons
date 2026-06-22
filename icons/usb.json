@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "USB接口",
   "tags": [
-    "公交车"
+    "通用的",
+    "连续剧",
+    "巴士",
+    "控制器",
+    "连接器",
+    "接口"
   ],
   "categories": [
     "devices",
@@ -20,7 +25,8 @@
         "controller",
         "connector",
         "interface"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

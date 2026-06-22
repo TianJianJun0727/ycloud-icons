@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "引用",
   "tags": [
-    "引用",
-    "引号",
-    "文本"
+    "报价"
   ],
   "categories": [
     "text"
@@ -15,7 +13,8 @@
       "name": "quote",
       "tags": [
         "quotation"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

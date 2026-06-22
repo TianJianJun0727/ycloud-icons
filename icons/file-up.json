@@ -4,7 +4,8 @@
   "name": "文件上",
   "tags": [
     "上传",
-    "导入"
+    "导入",
+    "导出"
   ],
   "categories": [
     "files",
@@ -17,7 +18,8 @@
         "upload",
         "import",
         "export"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,8 +4,9 @@
   "name": "箭头上从点",
   "tags": [
     "方向",
+    "北",
     "步骤",
-    "外部"
+    "出"
   ],
   "categories": [
     "arrows"
@@ -18,7 +19,8 @@
         "north",
         "step",
         "out"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

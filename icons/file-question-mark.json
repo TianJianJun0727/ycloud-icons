@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "文件问题标记",
   "tags": [
-    "问题",
-    "帮助"
+    "自述文件",
+    "帮助",
+    "问题"
   ],
   "categories": [
     "files"
@@ -24,7 +25,8 @@
         "readme",
         "help",
         "question"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

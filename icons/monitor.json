@@ -5,7 +5,9 @@
   "tags": [
     "电视",
     "屏幕",
-    "virtual机器"
+    "显示",
+    "虚拟机",
+    "虚拟机"
   ],
   "categories": [
     "connectivity",
@@ -20,7 +22,8 @@
         "display",
         "virtual machine",
         "vm"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

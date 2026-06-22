@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "香烟关闭",
   "tags": [
-    "无smoking"
+    "吸烟",
+    "禁止吸烟"
   ],
   "categories": [
     "travel",
@@ -16,7 +17,8 @@
       "tags": [
         "smoking",
         "no-smoking"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

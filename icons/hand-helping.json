@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "手帮扶",
   "tags": [
-    "帮助"
+    "协议",
+    "帮助",
+    "提案",
+    "慈善事业",
+    "乞讨",
+    "条款"
   ],
   "categories": [
     "emoji"
@@ -26,7 +31,8 @@
         "charity",
         "begging",
         "terms"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

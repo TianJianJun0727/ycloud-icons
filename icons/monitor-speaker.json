@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "显示器扬声器",
   "tags": [
-    "投屏"
+    "设备",
+    "连接",
+    "演员表"
   ],
   "categories": [
     "connectivity",
@@ -16,7 +18,8 @@
         "devices",
         "connect",
         "cast"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

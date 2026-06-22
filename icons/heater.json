@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "加热器",
   "tags": [
-    "火焰",
-    "电动",
-    "电子"
+    "供暖",
+    "温暖",
+    "舒适度",
+    "火",
+    "炉子",
+    "电动的",
+    "电子产品",
+    "便利设施"
   ],
   "categories": [
     "home",
@@ -24,7 +29,8 @@
         "electric",
         "electronics",
         "amenities"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

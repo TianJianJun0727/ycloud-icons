@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "旋转三维",
   "tags": [
+    "小发明",
+    "变换",
+    "方向",
     "轨道",
     "轴"
   ],
@@ -26,7 +29,8 @@
         "orientation",
         "orbit",
         "axis"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

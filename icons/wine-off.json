@@ -3,8 +3,16 @@
   "use-cases": [],
   "name": "葡萄酒关闭",
   "tags": [
-    "饮品",
-    "玻璃杯"
+    "酒精",
+    "饮料",
+    "喝",
+    "玻璃",
+    "不含酒精",
+    "禁欲",
+    "弃权",
+    "禁酒主义",
+    "过敏",
+    "不宽容"
   ],
   "categories": [
     "food-beverage"
@@ -23,7 +31,8 @@
         "teetotalism",
         "allergy",
         "intolerance"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

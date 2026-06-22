@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "心率",
   "tags": [
-    "脉搏",
+    "心跳",
+    "脉冲",
     "健康",
-    "医疗"
+    "医疗",
+    "血压",
+    "心脏的",
+    "收缩期",
+    "舒张期"
   ],
   "categories": [
     "medical"
@@ -22,7 +27,8 @@
         "cardiac",
         "systole",
         "diastole"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

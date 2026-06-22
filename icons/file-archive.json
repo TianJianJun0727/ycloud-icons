@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "文件归档",
   "tags": [
-    "包",
-    "归档",
-    "包裹"
+    "邮编",
+    "包裹",
+    "归档"
   ],
   "categories": [
     "files"
@@ -17,7 +17,8 @@
         "zip",
         "package",
         "archive"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

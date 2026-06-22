@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "方形停止",
   "tags": [
+    "媒体",
     "音乐"
   ],
   "categories": [
@@ -14,7 +15,8 @@
       "tags": [
         "media",
         "music"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "黑桃",
   "tags": [
-    "卡片",
-    "形状"
+    "形状",
+    "西装",
+    "玩",
+    "卡片"
   ],
   "categories": [
     "shapes",
@@ -18,7 +20,8 @@
         "suit",
         "playing",
         "cards"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

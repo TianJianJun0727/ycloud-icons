@@ -3,10 +3,15 @@
   "use-cases": [],
   "name": "地图图钉勾选",
   "tags": [
+    "位置",
+    "航路点",
+    "标记",
+    "掉落",
     "完成",
     "勾选",
+    "完成",
     "任务",
-    "标记"
+    "添加了"
   ],
   "categories": [
     "navigation",
@@ -26,7 +31,8 @@
         "complete",
         "task",
         "added"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

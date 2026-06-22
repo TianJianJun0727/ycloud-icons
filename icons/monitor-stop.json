@@ -5,10 +5,15 @@
   "tags": [
     "电视",
     "屏幕",
+    "显示",
+    "桌面",
     "视频",
-    "胶片",
+    "电影",
+    "电影",
     "停止",
-    "virtual机器"
+    "关机",
+    "虚拟机",
+    "虚拟机"
   ],
   "categories": [
     "connectivity",
@@ -30,7 +35,8 @@
         "shutdown",
         "virtual machine",
         "vm"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

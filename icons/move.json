@@ -14,7 +14,8 @@
       "name": "move",
       "tags": [
         "arrows"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "麦克风",
   "tags": [
+    "记录",
+    "声音",
+    "听",
     "收音机",
     "播客",
-    "声音"
+    "麦克风"
   ],
   "categories": [
     "devices",
@@ -23,7 +26,8 @@
         "radio",
         "podcast",
         "microphone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -23,7 +23,8 @@
         "add",
         "create",
         "new"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

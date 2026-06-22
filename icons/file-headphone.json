@@ -5,8 +5,8 @@
   "tags": [
     "音乐",
     "音频",
-    "耳机",
-    "声音"
+    "声音",
+    "耳机"
   ],
   "categories": [
     "files"
@@ -33,7 +33,8 @@
         "audio",
         "sound",
         "headphones"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

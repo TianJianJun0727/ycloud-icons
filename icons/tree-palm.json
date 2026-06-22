@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "树棕榈",
   "tags": [
-    "棕榈树",
-    "热带",
-    "自然"
+    "假期",
+    "休闲",
+    "岛"
   ],
   "categories": [
     "nature",
@@ -26,7 +26,8 @@
         "vacation",
         "leisure",
         "island"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

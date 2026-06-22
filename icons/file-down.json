@@ -4,7 +4,8 @@
   "name": "文件下",
   "tags": [
     "下载",
-    "导入"
+    "导入",
+    "导出"
   ],
   "categories": [
     "files",
@@ -17,7 +18,8 @@
         "download",
         "import",
         "export"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

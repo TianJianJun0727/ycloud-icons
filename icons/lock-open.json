@@ -21,7 +21,8 @@
       "name": "lock open",
       "tags": [
         "security"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

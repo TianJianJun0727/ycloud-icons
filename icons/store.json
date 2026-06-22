@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "商店",
   "tags": [
-    "建筑"
+    "商店",
+    "超市",
+    "站",
+    "精品店",
+    "建筑物"
   ],
   "categories": [
     "buildings",
@@ -19,7 +23,8 @@
         "stand",
         "boutique",
         "building"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

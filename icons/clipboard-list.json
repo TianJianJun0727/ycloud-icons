@@ -4,7 +4,8 @@
   "name": "剪贴板列表",
   "tags": [
     "复制",
-    "粘贴"
+    "粘贴",
+    "任务"
   ],
   "categories": [
     "text"
@@ -16,7 +17,8 @@
         "copy",
         "paste",
         "tasks"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

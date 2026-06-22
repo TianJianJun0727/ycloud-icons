@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "滚筒杯垫",
   "tags": [
-    "娱乐"
+    "景点",
+    "娱乐",
+    "游乐园",
+    "主题公园",
+    "游乐场"
   ],
   "categories": [
     "navigation"
@@ -17,7 +21,8 @@
         "amusement park",
         "theme park",
         "funfair"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

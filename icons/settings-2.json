@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "设置2",
   "tags": [
+    "设置",
+    "编辑",
     "齿轮",
-    "编辑"
+    "偏好",
+    "滑块"
   ],
   "categories": [
     "account"
@@ -18,7 +21,8 @@
         "gear",
         "preferences",
         "slider"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

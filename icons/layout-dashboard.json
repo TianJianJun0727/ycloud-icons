@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "布局仪表盘",
   "tags": [
-    "砖块"
+    "砌体",
+    "砖"
   ],
   "categories": [
     "design",
@@ -15,7 +16,8 @@
       "tags": [
         "masonry",
         "brick"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

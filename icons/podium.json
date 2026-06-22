@@ -1,15 +1,31 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "show rankings or leaderboards",
-    "display top winners after a game or competition"
+    "展示排名或排行榜",
+    "展示游戏或比赛后的优胜者"
   ],
   "name": "领奖台",
   "tags": [
+    "奖项",
+    "舞台",
+    "获胜者",
+    "庆祝活动",
+    "表现",
     "奖章",
-    "奖牌",
-    "第一个",
-    "庆祝"
+    "成功",
+    "成就",
+    "突出显示",
+    "排名",
+    "获胜",
+    "地方",
+    "放置",
+    "排行榜",
+    "第一",
+    "第二",
+    "第三",
+    "黄金",
+    "银",
+    "青铜"
   ],
   "categories": [
     "sports",
@@ -39,6 +55,10 @@
         "gold",
         "silver",
         "bronze"
+      ],
+      "use-cases": [
+        "show rankings or leaderboards",
+        "display top winners after a game or competition"
       ]
     }
   }

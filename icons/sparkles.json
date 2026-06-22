@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "闪光",
   "tags": [
-    "筛选"
+    "星星",
+    "效果",
+    "筛选",
+    "晚上",
+    "魔法"
   ],
   "categories": [
     "cursors",
@@ -28,7 +32,8 @@
         "filter",
         "night",
         "magic"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

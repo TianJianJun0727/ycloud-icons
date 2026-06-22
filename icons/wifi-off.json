@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "无线网络关闭",
   "tags": [
-    "禁用"
+    "残疾人"
   ],
   "categories": [
     "connectivity",
@@ -14,7 +14,8 @@
       "name": "wifi off",
       "tags": [
         "disabled"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

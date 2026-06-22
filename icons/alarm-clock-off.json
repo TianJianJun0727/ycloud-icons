@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "闹钟时钟关闭",
   "tags": [
-    "turn关闭"
+    "早上",
+    "关闭"
   ],
   "categories": [
     "devices",
@@ -16,7 +17,8 @@
       "tags": [
         "morning",
         "turn-off"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

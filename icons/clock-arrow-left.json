@@ -1,15 +1,16 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicating the start of a time range",
-    "assign timing information",
-    "open time settings"
+    "表示时间范围的开始",
+    "分配时间信息",
+    "打开时间设置"
   ],
   "name": "时钟箭头左",
   "tags": [
     "时间",
     "手表",
     "闹钟",
+    "分配",
     "范围"
   ],
   "categories": [
@@ -24,6 +25,11 @@
         "alarm",
         "assign",
         "range"
+      ],
+      "use-cases": [
+        "indicating the start of a time range",
+        "assign timing information",
+        "open time settings"
       ]
     }
   }

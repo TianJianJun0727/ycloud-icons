@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "面板底部",
   "tags": [
-    "停靠栏",
-    "抽屉"
+    "抽屉",
+    "码头"
   ],
   "categories": [
     "layout"
@@ -15,7 +15,8 @@
       "tags": [
         "drawer",
         "dock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

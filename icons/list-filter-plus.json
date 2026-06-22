@@ -5,6 +5,7 @@
   "tags": [
     "筛选",
     "加号",
+    "选项",
     "添加"
   ],
   "categories": [
@@ -19,7 +20,8 @@
         "plus",
         "options",
         "add"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

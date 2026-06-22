@@ -4,7 +4,8 @@
   "name": "无线网络高",
   "tags": [
     "连接",
-    "信号"
+    "信号",
+    "无线"
   ],
   "categories": [
     "connectivity",
@@ -17,7 +18,8 @@
         "connection",
         "signal",
         "wireless"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

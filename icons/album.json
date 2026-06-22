@@ -4,7 +4,7 @@
   "name": "相册",
   "tags": [
     "照片",
-    "书籍"
+    "书"
   ],
   "categories": [
     "photography",
@@ -16,7 +16,8 @@
       "tags": [
         "photo",
         "book"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

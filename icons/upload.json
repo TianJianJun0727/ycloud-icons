@@ -14,7 +14,8 @@
       "name": "upload",
       "tags": [
         "file"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

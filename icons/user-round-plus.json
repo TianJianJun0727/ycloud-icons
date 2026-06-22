@@ -5,7 +5,9 @@
   "tags": [
     "新建",
     "添加",
-    "创建"
+    "创建",
+    "关注",
+    "订阅"
   ],
   "categories": [
     "account"
@@ -27,7 +29,8 @@
         "create",
         "follow",
         "subscribe"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

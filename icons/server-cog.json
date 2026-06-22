@@ -4,6 +4,9 @@
   "name": "服务器齿轮",
   "tags": [
     "云",
+    "存储",
+    "计算",
+    "设置",
     "齿轮"
   ],
   "categories": [
@@ -19,7 +22,8 @@
         "computing",
         "cog",
         "gear"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

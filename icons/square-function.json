@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "方形函数",
   "tags": [
+    "编程",
     "代码",
-    "编程"
+    "自动化",
+    "数学"
   ],
   "categories": [
     "development",
@@ -26,7 +28,8 @@
         "code",
         "automation",
         "math"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

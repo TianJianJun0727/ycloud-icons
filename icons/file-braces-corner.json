@@ -4,8 +4,9 @@
   "name": "文件花括号角落",
   "tags": [
     "代码",
-    "curly花括号",
-    "curly方括号"
+    "JSON",
+    "大括号",
+    "大括号"
   ],
   "categories": [
     "files",
@@ -27,7 +28,8 @@
         "json",
         "curly braces",
         "curly brackets"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

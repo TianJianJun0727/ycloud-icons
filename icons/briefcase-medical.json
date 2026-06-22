@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "公文包医疗",
   "tags": [
-    "第一个aid"
+    "医生",
+    "医学",
+    "急救"
   ],
   "categories": [
     "medical",
@@ -16,7 +18,8 @@
         "doctor",
         "medicine",
         "first aid"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

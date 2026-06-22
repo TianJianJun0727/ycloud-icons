@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "方形点",
   "tags": [
-    "差异"
+    "Git",
+    "差异",
+    "修改过的",
+    "。"
   ],
   "categories": [
     "development"
@@ -24,7 +27,8 @@
         "diff",
         "modified",
         "."
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

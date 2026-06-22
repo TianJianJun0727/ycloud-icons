@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "平板",
   "tags": [
-    "设备"
+    "装置"
   ],
   "categories": [
     "devices"
@@ -13,7 +13,8 @@
       "name": "tablet",
       "tags": [
         "device"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

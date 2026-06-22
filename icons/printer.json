@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "打印机",
   "tags": [
-    "设备"
+    "传真",
+    "办公室",
+    "装置"
   ],
   "categories": [
     "devices"
@@ -15,7 +17,8 @@
         "fax",
         "office",
         "device"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

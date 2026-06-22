@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "剪刀",
   "tags": [
-    "切割",
+    "切",
+    "剪断",
+    "砍",
     "文具",
-    "手工"
+    "工艺品"
   ],
   "categories": [
     "text",
@@ -21,7 +23,8 @@
         "chop",
         "stationery",
         "crafts"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

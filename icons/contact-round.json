@@ -4,9 +4,12 @@
   "name": "联系人圆形",
   "tags": [
     "用户",
-    "人员",
+    "人",
     "家庭",
-    "朋友"
+    "朋友",
+    "相识",
+    "上市",
+    "网络"
   ],
   "categories": [
     "account",
@@ -33,7 +36,8 @@
         "acquaintance",
         "listing",
         "networking"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

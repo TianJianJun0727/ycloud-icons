@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "时间线",
   "tags": [
-    "标签组",
+    "标签",
     "历史"
   ],
   "categories": [
@@ -15,7 +15,8 @@
       "tags": [
         "tags",
         "history"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

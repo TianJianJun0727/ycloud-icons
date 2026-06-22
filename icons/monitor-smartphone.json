@@ -5,8 +5,13 @@
   "tags": [
     "智能手机",
     "电话",
-    "设备",
-    "显示器"
+    "手机",
+    "装置",
+    "移动",
+    "桌面",
+    "显示器",
+    "反应灵敏",
+    "屏幕"
   ],
   "categories": [
     "connectivity",
@@ -25,7 +30,8 @@
         "monitor",
         "responsive",
         "screens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "合并",
   "tags": [
-    "合并"
+    "联合起来",
+    "加入",
+    "团结起来"
   ],
   "categories": [
     "development",
@@ -16,7 +18,8 @@
         "combine",
         "join",
         "unite"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

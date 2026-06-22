@@ -21,7 +21,8 @@
         "arrows",
         "close",
         "shrink"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

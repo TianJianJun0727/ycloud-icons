@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "滑块水平",
   "tags": [
-    "设置"
+    "设置",
+    "过滤器",
+    "控制"
   ],
   "categories": [
     "account"
@@ -15,7 +17,8 @@
         "settings",
         "filters",
         "controls"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

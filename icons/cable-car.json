@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "线缆汽车",
   "tags": [
-    "缆车",
-    "索道",
-    "交通"
+    "滑雪缆车",
+    "寒假",
+    "高山",
+    "度假村",
+    "山"
   ],
   "categories": [
     "transportation",
@@ -20,7 +22,8 @@
         "alpine",
         "resort",
         "mountains"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

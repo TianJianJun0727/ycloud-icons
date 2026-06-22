@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "蓝牙已连接",
   "tags": [
-    "蓝牙",
-    "已连接",
-    "连接"
+    "配对的"
   ],
   "categories": [
     "connectivity",
@@ -16,7 +14,8 @@
       "name": "bluetooth connected",
       "tags": [
         "paired"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

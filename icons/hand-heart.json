@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "手爱心",
   "tags": [
-    "情绪"
+    "爱",
+    "喜欢",
+    "情感"
   ],
   "categories": [
     "social"
@@ -15,7 +17,8 @@
         "love",
         "like",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

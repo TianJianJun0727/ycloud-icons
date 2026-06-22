@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "购物包",
   "tags": [
+    "电子商务",
     "购物车",
+    "购买",
     "商店"
   ],
   "categories": [
@@ -17,7 +19,8 @@
         "cart",
         "purchase",
         "store"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

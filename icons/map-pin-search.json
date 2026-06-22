@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "地图图钉搜索",
   "tags": [
+    "位置",
     "导航",
     "旅行",
-    "标记"
+    "航路点",
+    "标记",
+    "掉落"
   ],
   "categories": [
     "text",
@@ -23,7 +26,8 @@
         "waypoint",
         "marker",
         "drop"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

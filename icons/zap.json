@@ -3,11 +3,13 @@
   "use-cases": [],
   "name": "闪电",
   "tags": [
+    "闪光",
     "相机",
     "闪电",
-    "电源",
     "电力",
-    "能源"
+    "能量",
+    "电源",
+    "快"
   ],
   "categories": [
     "connectivity",
@@ -26,7 +28,8 @@
         "energy",
         "power",
         "quick"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

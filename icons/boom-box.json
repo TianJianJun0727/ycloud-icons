@@ -4,9 +4,13 @@
   "name": "音箱盒子",
   "tags": [
     "收音机",
+    "扬声器",
     "音频",
     "音乐",
-    "声音"
+    "声音",
+    "广播",
+    "直播",
+    "频率"
   ],
   "categories": [
     "devices",
@@ -25,7 +29,8 @@
         "broadcast",
         "live",
         "frequency"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

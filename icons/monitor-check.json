@@ -5,7 +5,12 @@
   "tags": [
     "电视",
     "屏幕",
-    "virtual机器"
+    "显示",
+    "桌面",
+    "跑步",
+    "活跃的",
+    "虚拟机",
+    "虚拟机"
   ],
   "categories": [
     "connectivity",
@@ -23,7 +28,8 @@
         "active",
         "virtual machine",
         "vm"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

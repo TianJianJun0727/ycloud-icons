@@ -4,7 +4,7 @@
   "name": "相机关闭",
   "tags": [
     "照片",
-    "摄像头",
+    "网络摄像头",
     "视频"
   ],
   "categories": [
@@ -19,7 +19,8 @@
         "photo",
         "webcam",
         "video"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

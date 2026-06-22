@@ -3,11 +3,11 @@
   "use-cases": [],
   "name": "字号减小",
   "tags": [
-    "字母",
-    "字号",
+    "信",
+    "字体大小",
     "文本",
-    "格式",
-    "更小"
+    "格式化",
+    "较小"
   ],
   "categories": [
     "text",
@@ -22,7 +22,8 @@
         "text",
         "formatting",
         "smaller"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

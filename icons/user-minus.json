@@ -4,7 +4,9 @@
   "name": "用户减少",
   "tags": [
     "删除",
-    "移除"
+    "移除",
+    "取消关注",
+    "取消订阅"
   ],
   "categories": [
     "account"
@@ -17,7 +19,8 @@
         "remove",
         "unfollow",
         "unsubscribe"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

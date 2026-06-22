@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "云齿轮",
   "tags": [
-    "网络",
-    "AI"
+    "计算",
+    "AI",
+    "集群",
+    "网络"
   ],
   "categories": [
     "development"
@@ -17,7 +19,8 @@
         "ai",
         "cluster",
         "network"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

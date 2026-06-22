@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "拖拉机",
   "tags": [
-    "设备"
+    "农业",
+    "农民",
+    "牧场",
+    "收获",
+    "设备",
+    "车辆"
   ],
   "categories": [
     "transportation",
@@ -20,7 +25,8 @@
         "harvest",
         "equipment",
         "vehicle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

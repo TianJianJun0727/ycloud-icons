@@ -5,7 +5,9 @@
   "tags": [
     "电源",
     "电力",
-    "能源"
+    "能量",
+    "累加器",
+    "收费"
   ],
   "categories": [
     "connectivity",
@@ -20,7 +22,8 @@
         "energy",
         "accumulator",
         "charge"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

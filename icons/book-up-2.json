@@ -4,7 +4,12 @@
   "name": "书籍上2",
   "tags": [
     "代码",
-    "version控制"
+    "编码",
+    "版本控制",
+    "Git",
+    "存储库",
+    "推送",
+    "力"
   ],
   "categories": [
     "development"
@@ -20,7 +25,8 @@
         "repository",
         "push",
         "force"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

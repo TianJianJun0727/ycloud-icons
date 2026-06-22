@@ -3,11 +3,13 @@
   "use-cases": [],
   "name": "警报器",
   "tags": [
+    "警察",
     "救护车",
+    "紧急情况",
     "安全",
     "告警",
     "闹钟",
-    "警告"
+    "光"
   ],
   "categories": [
     "medical"
@@ -23,7 +25,8 @@
         "alert",
         "alarm",
         "light"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

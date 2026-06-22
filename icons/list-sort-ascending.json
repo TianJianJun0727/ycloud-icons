@@ -1,19 +1,27 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "sorting items in a table by column (name, date, price, status)",
-    "reordering a list in ascending order"
+    "按表格列对项目排序（名称、日期、价格、状态）",
+    "按升序重新排列列表"
   ],
   "name": "列表排序升序",
   "tags": [
     "列表",
+    "订单",
+    "安排",
+    "组织",
+    "序列",
+    "排名",
+    "类别",
     "演示",
     "筛选",
     "排序",
-    "升序",
-    "降序",
     "上升",
-    "下降"
+    "下降",
+    "增加",
+    "减少",
+    "上升",
+    "坠落"
   ],
   "categories": [
     "text",
@@ -39,6 +47,10 @@
         "decreasing",
         "rising",
         "falling"
+      ],
+      "use-cases": [
+        "sorting items in a table by column (name, date, price, status)",
+        "reordering a list in ascending order"
       ]
     }
   }

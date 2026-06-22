@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "收音机接收器",
   "tags": [
-    "设备",
-    "音乐"
+    "装置",
+    "音乐",
+    "连接"
   ],
   "categories": [
     "devices"
@@ -16,7 +17,8 @@
         "device",
         "music",
         "connect"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

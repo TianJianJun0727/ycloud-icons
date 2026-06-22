@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "猫",
   "tags": [
-    "动物"
+    "动物",
+    "宠物",
+    "小猫",
+    "猫科动物"
   ],
   "categories": [
     "animals"
@@ -16,7 +19,8 @@
         "pet",
         "kitten",
         "feline"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

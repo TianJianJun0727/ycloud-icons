@@ -3,12 +3,12 @@
   "use-cases": [],
   "name": "公用设施杆",
   "tags": [
-    "transmission线条",
-    "telegraph杆",
-    "电源线条",
-    "电话",
     "电力",
-    "能源"
+    "能量",
+    "传输线",
+    "电线杆",
+    "电源线",
+    "电话"
   ],
   "categories": [
     "buildings",
@@ -25,7 +25,8 @@
         "telegraph pole",
         "power lines",
         "phone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

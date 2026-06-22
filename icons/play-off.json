@@ -1,17 +1,20 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "Indicates that playback is disabled for video, live stream, or audio file",
-    "Indicates that video, live stream, or audio file cannot be played."
+    "表示视频、直播或音频文件已禁用播放",
+    "表示视频、直播或音频文件无法播放"
   ],
   "name": "播放关闭",
   "tags": [
     "音频",
     "视频",
     "音乐",
-    "起始",
+    "开始",
+    "跑",
     "关闭",
-    "禁用"
+    "残疾人",
+    "被阻止",
+    "禁止的"
   ],
   "categories": [
     "multimedia"
@@ -29,6 +32,10 @@
         "disabled",
         "blocked",
         "forbidden"
+      ],
+      "use-cases": [
+        "Indicates that playback is disabled for video, live stream, or audio file",
+        "Indicates that video, live stream, or audio file cannot be played."
       ]
     }
   }

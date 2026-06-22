@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "豆子关闭",
   "tags": [
-    "食物"
+    "不含大豆",
+    "豆类",
+    "大豆",
+    "食物",
+    "种子",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -20,7 +27,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

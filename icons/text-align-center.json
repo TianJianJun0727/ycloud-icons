@@ -4,7 +4,8 @@
   "name": "文本对齐居中",
   "tags": [
     "文本",
-    "居中"
+    "对准",
+    "中心"
   ],
   "categories": [
     "text"
@@ -24,7 +25,8 @@
         "text",
         "alignment",
         "center"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

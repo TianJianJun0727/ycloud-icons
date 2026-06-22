@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "螺母关闭",
   "tags": [
-    "食物"
+    "榛子",
+    "橡子",
+    "食物",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -18,7 +23,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

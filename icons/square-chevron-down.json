@@ -26,7 +26,8 @@
         "back",
         "menu",
         "panel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

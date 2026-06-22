@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "耳朵关闭",
   "tags": [
-    "硬盘的hearing",
+    "听力",
+    "听力困难",
+    "听力损失",
+    "耳聋",
+    "噪音",
+    "沉默",
     "音频",
-    "无障碍"
+    "可达性"
   ],
   "categories": [
     "medical",
@@ -23,7 +28,8 @@
         "silence",
         "audio",
         "accessibility"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "工厂",
   "tags": [
-    "建筑",
-    "商务",
-    "能源"
+    "建筑物",
+    "商业",
+    "能量",
+    "工业",
+    "制造",
+    "部门"
   ],
   "categories": [
     "buildings",
@@ -21,7 +24,8 @@
         "industry",
         "manufacture",
         "sector"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

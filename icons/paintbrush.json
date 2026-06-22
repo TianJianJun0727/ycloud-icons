@@ -5,7 +5,11 @@
   "tags": [
     "刷子",
     "画笔",
-    "设计"
+    "设计",
+    "颜色",
+    "颜色",
+    "装饰",
+    "DIY"
   ],
   "categories": [
     "text",
@@ -25,7 +29,8 @@
         "colour",
         "decoration",
         "diy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

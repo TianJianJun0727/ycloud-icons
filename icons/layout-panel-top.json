@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "布局面板顶部",
   "tags": [
-    "窗口",
-    "分节",
+    "窗户",
+    "网页",
+    "屏蔽",
+    "部分",
     "网格",
-    "模板"
+    "模板",
+    "结构"
   ],
   "categories": [
     "layout"
@@ -22,7 +25,8 @@
         "grid",
         "template",
         "structure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -20,7 +20,8 @@
         "expand",
         "vertical",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

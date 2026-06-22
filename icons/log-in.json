@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "日志进入",
   "tags": [
-    "标志进入",
+    "登录",
     "箭头",
-    "进入"
+    "输入",
+    "授权"
   ],
   "categories": [
     "arrows",
@@ -19,7 +20,8 @@
         "arrow",
         "enter",
         "auth"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

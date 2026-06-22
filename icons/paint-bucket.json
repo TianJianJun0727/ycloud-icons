@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "绘制桶",
   "tags": [
-    "绘制",
-    "桶"
+    "填充",
+    "油漆",
+    "桶",
+    "颜色",
+    "颜色"
   ],
   "categories": [
     "design",
@@ -19,7 +22,8 @@
         "bucket",
         "color",
         "colour"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

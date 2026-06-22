@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "收据欧元",
   "tags": [
+    "账单",
+    "优惠券",
+    "滑倒",
     "勾选",
-    "货币"
+    "存根",
+    "货币",
+    "欧元"
   ],
   "categories": [
     "finance",
@@ -21,7 +26,8 @@
         "counterfoil",
         "currency",
         "€"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

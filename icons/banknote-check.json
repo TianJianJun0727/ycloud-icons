@@ -1,20 +1,29 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "confirm a paid product",
-    "confirm a payment method was added successfully"
+    "确认付费产品",
+    "确认付款方式已成功添加"
   ],
   "name": "纸币勾选",
   "tags": [
-    "纸币",
+    "钞票",
+    "账单",
     "货币",
-    "支付",
+    "付款",
+    "钱",
     "金融",
-    "勾选",
-    "完成",
-    "任务",
     "文档",
-    "已验证"
+    "验证",
+    "勾选",
+    "已验证",
+    "已接受",
+    "完成",
+    "完成",
+    "发现",
+    "付费的",
+    "任务",
+    "勾选",
+    "成功"
   ],
   "categories": [
     "finance"
@@ -41,6 +50,10 @@
         "task",
         "check",
         "success"
+      ],
+      "use-cases": [
+        "confirm a paid product",
+        "confirm a payment method was added successfully"
       ]
     }
   }

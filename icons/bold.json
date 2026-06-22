@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "加粗",
   "tags": [
-    "文本"
+    "文本",
+    "强",
+    "格式"
   ],
   "categories": [
     "text"
@@ -15,7 +17,8 @@
         "text",
         "strong",
         "format"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

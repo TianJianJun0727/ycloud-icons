@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "图表甘特图",
   "tags": [
-    "图形",
-    "时间线"
+    "图表",
+    "图",
+    "时间线",
+    "规划"
   ],
   "categories": [
     "charts"
@@ -17,7 +19,8 @@
         "graph",
         "timeline",
         "planning"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

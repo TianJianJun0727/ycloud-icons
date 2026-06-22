@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "链接",
   "tags": [
-    "链接"
+    "链条",
+    "网址"
   ],
   "categories": [
     "text",
@@ -15,7 +16,8 @@
       "tags": [
         "chain",
         "url"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

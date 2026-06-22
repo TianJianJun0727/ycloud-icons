@@ -4,6 +4,8 @@
   "name": "定位固定",
   "tags": [
     "地图",
+    "全球定位系统",
+    "位置",
     "十字"
   ],
   "categories": [
@@ -17,7 +19,8 @@
         "gps",
         "location",
         "cross"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

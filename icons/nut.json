@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "螺母",
   "tags": [
-    "食物"
+    "榛子",
+    "橡子",
+    "食物",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -16,7 +19,8 @@
         "acorn",
         "food",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

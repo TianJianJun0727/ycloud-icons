@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "教堂",
   "tags": [
-    "建筑"
+    "寺庙",
+    "建筑物"
   ],
   "categories": [
     "buildings",
@@ -15,7 +16,8 @@
       "tags": [
         "temple",
         "building"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

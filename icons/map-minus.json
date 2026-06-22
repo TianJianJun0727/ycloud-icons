@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "地图减少",
   "tags": [
+    "位置",
     "导航",
     "旅行",
+    "掉落",
     "删除",
-    "移除"
+    "移除",
+    "擦除"
   ],
   "categories": [
     "navigation",
@@ -23,7 +26,8 @@
         "delete",
         "remove",
         "erase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

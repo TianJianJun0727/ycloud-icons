@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "发送",
   "tags": [
+    "邮箱",
     "消息",
     "邮件",
-    "邮箱"
+    "纸飞机",
+    "纸飞机",
+    "提交"
   ],
   "categories": [
     "mail",
@@ -22,7 +25,8 @@
         "paper airplane",
         "paper aeroplane",
         "submit"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

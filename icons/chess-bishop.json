@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "国际象棋主教",
   "tags": [
-    "面板game"
+    "斜接",
+    "斜接",
+    "一块",
+    "棋盘游戏",
+    "宗教"
   ],
   "categories": [
     "gaming",
@@ -18,7 +22,8 @@
         "piece",
         "board game",
         "religion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "方形等于",
   "tags": [
-    "计算"
+    "计算",
+    "="
   ],
   "categories": [
     "math"
@@ -22,7 +23,8 @@
       "tags": [
         "calculate",
         "="
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

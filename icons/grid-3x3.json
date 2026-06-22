@@ -33,7 +33,8 @@
         "table",
         "rows",
         "columns"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

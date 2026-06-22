@@ -4,6 +4,7 @@
   "name": "重做",
   "tags": [
     "撤销",
+    "重新运行",
     "历史"
   ],
   "categories": [
@@ -17,7 +18,8 @@
         "undo",
         "rerun",
         "history"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

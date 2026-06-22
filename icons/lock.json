@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "锁",
   "tags": [
-    "安全"
+    "安全",
+    "密码",
+    "安全",
+    "管理员"
   ],
   "categories": [
     "security"
@@ -16,7 +19,8 @@
         "password",
         "secure",
         "admin"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

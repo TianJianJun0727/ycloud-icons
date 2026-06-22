@@ -4,7 +4,9 @@
   "name": "移动下",
   "tags": [
     "箭头",
-    "方向"
+    "方向",
+    "向下",
+    "南"
   ],
   "categories": [
     "arrows"
@@ -17,7 +19,8 @@
         "direction",
         "downwards",
         "south"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -21,7 +21,8 @@
         "music",
         "audio",
         "sound"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

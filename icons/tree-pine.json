@@ -5,6 +5,8 @@
   "tags": [
     "树",
     "松树",
+    "森林",
+    "公园",
     "自然"
   ],
   "categories": [
@@ -20,7 +22,8 @@
         "forest",
         "park",
         "nature"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

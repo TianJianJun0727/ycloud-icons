@@ -3,11 +3,18 @@
   "use-cases": [],
   "name": "文件用户",
   "tags": [
-    "人员",
-    "联系人",
-    "cover字母",
-    "application表单",
-    "文档"
+    "人",
+    "个人信息",
+    "人",
+    "上市",
+    "网络",
+    "文档",
+    "联系方式",
+    "求职信",
+    "简历",
+    "简历",
+    "简历",
+    "申请表"
   ],
   "categories": [
     "account",
@@ -29,7 +36,8 @@
         "cv",
         "curriculum vitae",
         "application form"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

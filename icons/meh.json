@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "无表情",
   "tags": [
-    "表情",
-    "情绪"
+    "表情符号",
+    "脸",
+    "中立的",
+    "情感"
   ],
   "categories": [
     "emoji"
@@ -17,7 +19,8 @@
         "face",
         "neutral",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

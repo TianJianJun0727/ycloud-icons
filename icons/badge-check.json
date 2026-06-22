@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "徽章勾选",
   "tags": [
-    "勾选",
-    "已验证"
+    "已验证",
+    "勾选"
   ],
   "categories": [
     "social"
@@ -23,7 +23,8 @@
       "tags": [
         "verified",
         "check"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

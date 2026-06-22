@@ -4,9 +4,12 @@
   "name": "Git分支加号",
   "tags": [
     "代码",
-    "version控制",
+    "版本控制",
+    "版本控制",
+    "存储库",
     "添加",
-    "创建"
+    "创建",
+    "+"
   ],
   "categories": [
     "development"
@@ -22,7 +25,8 @@
         "add",
         "create",
         "+"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

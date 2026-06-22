@@ -4,7 +4,9 @@
   "name": "厨师帽子",
   "tags": [
     "烹饪",
-    "食物"
+    "食物",
+    "厨房",
+    "餐厅"
   ],
   "categories": [
     "food-beverage"
@@ -17,7 +19,8 @@
         "food",
         "kitchen",
         "restaurant"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

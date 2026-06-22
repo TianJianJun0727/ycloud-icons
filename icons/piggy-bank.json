@@ -3,9 +3,8 @@
   "use-cases": [],
   "name": "储蓄罐银行",
   "tags": [
-    "存钱罐",
-    "储蓄",
-    "金融"
+    "钱",
+    "储蓄"
   ],
   "categories": [
     "finance"
@@ -16,7 +15,8 @@
       "tags": [
         "money",
         "savings"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

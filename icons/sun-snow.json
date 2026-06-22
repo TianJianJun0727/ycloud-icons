@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "太阳雪",
   "tags": [
-    "天气"
+    "天气",
+    "空调",
+    "温度",
+    "热",
+    "冷",
+    "季节"
   ],
   "categories": [
     "weather"
@@ -18,7 +23,8 @@
         "hot",
         "cold",
         "seasons"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

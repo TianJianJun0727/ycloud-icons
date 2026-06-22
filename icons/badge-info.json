@@ -4,7 +4,7 @@
   "name": "徽章信息",
   "tags": [
     "已验证",
-    "未验证",
+    "未经验证",
     "帮助"
   ],
   "categories": [
@@ -19,7 +19,8 @@
         "verified",
         "unverified",
         "help"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

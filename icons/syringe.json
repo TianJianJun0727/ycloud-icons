@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "注射器",
   "tags": [
-    "医疗"
+    "医学",
+    "医疗",
+    "针",
+    "泵",
+    "柱塞",
+    "喷嘴",
+    "血"
   ],
   "categories": [
     "science",
@@ -20,7 +26,8 @@
         "plunger",
         "nozzle",
         "blood"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

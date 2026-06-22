@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "二维码代码",
   "tags": [
-    "条码",
+    "条形码",
     "扫描",
     "链接",
-    "信息"
+    "网址",
+    "信息",
+    "数字化"
   ],
   "categories": [
     "development",
@@ -22,7 +24,8 @@
         "url",
         "information",
         "digital"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

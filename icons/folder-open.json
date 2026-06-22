@@ -13,7 +13,8 @@
       "name": "folder open",
       "tags": [
         "directory"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

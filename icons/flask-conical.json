@@ -4,8 +4,11 @@
   "name": "烧瓶圆锥",
   "tags": [
     "烧杯",
-    "测试",
-    "化学"
+    "埃伦迈耶",
+    "实验室",
+    "化学",
+    "实验",
+    "测试"
   ],
   "categories": [
     "science",
@@ -21,7 +24,8 @@
         "chemistry",
         "experiment",
         "test"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

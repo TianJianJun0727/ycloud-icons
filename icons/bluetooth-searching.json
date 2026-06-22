@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "蓝牙搜索中",
   "tags": [
-    "蓝牙",
-    "搜索",
-    "扫描"
+    "配对"
   ],
   "categories": [
     "connectivity",
@@ -16,7 +14,8 @@
       "name": "bluetooth searching",
       "tags": [
         "pairing"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -15,7 +15,8 @@
       "tags": [
         "weather",
         "bolt"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

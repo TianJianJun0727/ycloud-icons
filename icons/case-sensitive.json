@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "箱包敏感",
   "tags": [
-    "文本"
+    "文本",
+    "字母",
+    "人物",
+    "字体",
+    "版式"
   ],
   "categories": [
     "text"
@@ -17,7 +21,8 @@
         "characters",
         "font",
         "typography"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "花2",
   "tags": [
-    "可持续",
+    "可持续性",
     "自然",
     "植物"
   ],
@@ -19,7 +19,8 @@
         "sustainability",
         "nature",
         "plant"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

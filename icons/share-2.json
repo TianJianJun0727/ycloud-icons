@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "分享2",
   "tags": [
-    "网络"
+    "网络",
+    "连接"
   ],
   "categories": [
     "account",
@@ -15,7 +16,8 @@
       "tags": [
         "network",
         "connections"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

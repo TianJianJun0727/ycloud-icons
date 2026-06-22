@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "地图",
   "tags": [
+    "位置",
     "导航",
     "旅行"
   ],
@@ -17,7 +18,8 @@
         "location",
         "navigation",
         "travel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

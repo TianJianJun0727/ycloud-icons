@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "大脑电路",
   "tags": [
-    "机器learning",
-    "AI"
+    "头脑",
+    "智力",
+    "人工智能",
+    "AI",
+    "深度学习",
+    "机器学习",
+    "计算"
   ],
   "categories": [
     "science",
@@ -21,7 +26,8 @@
         "deep learning",
         "machine learning",
         "computing"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

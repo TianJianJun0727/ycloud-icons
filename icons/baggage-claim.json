@@ -4,8 +4,11 @@
   "name": "行李领取",
   "tags": [
     "行李",
+    "行李",
     "旅行",
-    "购物车"
+    "购物车",
+    "手推车",
+    "手提箱"
   ],
   "categories": [
     "transportation",
@@ -21,7 +24,8 @@
         "cart",
         "trolley",
         "suitcase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

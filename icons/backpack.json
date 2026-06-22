@@ -4,8 +4,11 @@
   "name": "背包",
   "tags": [
     "包",
+    "徒步旅行",
     "旅行",
-    "学校"
+    "露营",
+    "学校",
+    "童年"
   ],
   "categories": [
     "gaming",
@@ -22,7 +25,8 @@
         "camping",
         "school",
         "childhood"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "帐篷树",
   "tags": [
-    "帐篷",
     "露营",
+    "露营地",
+    "假期",
+    "撤退",
+    "游牧的",
+    "荒野",
     "户外"
   ],
   "categories": [
@@ -22,7 +26,8 @@
         "nomadic",
         "wilderness",
         "outdoors"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -1,16 +1,16 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicating a large and small text size",
-    "formatting text size",
-    "indicating a heading and body text"
+    "表示大号和小号文本",
+    "设置文本字号",
+    "表示标题和正文文本"
   ],
   "name": "大小写与字号",
   "tags": [
-    "字母",
-    "字号",
+    "信",
+    "字体大小",
     "文本",
-    "格式"
+    "格式化"
   ],
   "categories": [
     "text",
@@ -24,6 +24,11 @@
         "font size",
         "text",
         "formatting"
+      ],
+      "use-cases": [
+        "indicating a large and small text size",
+        "formatting text size",
+        "indicating a heading and body text"
       ]
     }
   }

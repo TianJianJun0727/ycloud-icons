@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "圆形箭头外部上左",
   "tags": [
+    "向外",
     "方向",
+    "西北",
     "对角线",
-    "键盘"
+    "键盘",
+    "按钮",
+    "逃脱"
   ],
   "categories": [
     "arrows",
@@ -30,7 +34,8 @@
         "keyboard",
         "button",
         "escape"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

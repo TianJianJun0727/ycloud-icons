@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "收缩",
   "tags": [
-    "比例尺",
+    "规模",
     "全屏"
   ],
   "categories": [
@@ -16,7 +16,8 @@
       "tags": [
         "scale",
         "fullscreen"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

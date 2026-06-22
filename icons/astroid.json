@@ -4,8 +4,14 @@
   "name": "星形线",
   "tags": [
     "星标",
+    "数学",
     "形状",
-    "AI"
+    "曲线",
+    "锋利的",
+    "四尖的",
+    "内摆线",
+    "AI",
+    "人工智能"
   ],
   "categories": [
     "shapes",
@@ -24,7 +30,8 @@
         "hypocycloid",
         "ai",
         "artificial intelligence"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

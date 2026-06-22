@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "冰冰淇淋圆锥",
   "tags": [
+    "冰淇淋",
     "食物"
   ],
   "categories": [
@@ -22,7 +23,8 @@
       "tags": [
         "gelato",
         "food"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

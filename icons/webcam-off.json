@@ -1,8 +1,8 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicating that a webcam is disabled or turned off",
-    "showing a camera feed is unavailable or blocked for privacy"
+    "表示摄像头已禁用或关闭",
+    "表示摄像头画面不可用或因隐私被阻止"
   ],
   "name": "摄像头关闭",
   "tags": [
@@ -20,6 +20,10 @@
       "tags": [
         "camera",
         "security"
+      ],
+      "use-cases": [
+        "indicating that a webcam is disabled or turned off",
+        "showing a camera feed is unavailable or blocked for privacy"
       ]
     }
   }

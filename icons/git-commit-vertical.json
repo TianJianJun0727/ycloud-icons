@@ -4,8 +4,10 @@
   "name": "Git提交垂直",
   "tags": [
     "代码",
-    "version控制",
-    "停止"
+    "版本控制",
+    "航路点",
+    "停止",
+    "车站"
   ],
   "categories": [
     "development",
@@ -20,7 +22,8 @@
         "waypoint",
         "stop",
         "station"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

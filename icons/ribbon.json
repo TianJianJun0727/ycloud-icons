@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "丝带",
   "tags": [
-    "磁带"
+    "意识",
+    "条带",
+    "乐队",
+    "胶带",
+    "表带",
+    "警戒线"
   ],
   "categories": [
     "social",
@@ -20,7 +25,8 @@
         "tape",
         "strap",
         "cordon"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

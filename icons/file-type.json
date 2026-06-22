@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "文件文字",
   "tags": [
+    "字体",
     "文本",
-    "文字"
+    "版式",
+    "类型"
   ],
   "categories": [
     "files",
@@ -18,7 +20,8 @@
         "text",
         "typography",
         "type"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

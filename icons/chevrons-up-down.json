@@ -4,6 +4,7 @@
   "name": "上下箭头",
   "tags": [
     "展开",
+    "展开",
     "垂直"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "expand",
         "unfold",
         "vertical"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

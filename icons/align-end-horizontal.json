@@ -5,8 +5,8 @@
   "tags": [
     "项目",
     "底部",
-    "弹性布局",
-    "对齐"
+    "弯曲",
+    "证明合理"
   ],
   "categories": [
     "layout"
@@ -19,7 +19,8 @@
         "bottom",
         "flex",
         "justify"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

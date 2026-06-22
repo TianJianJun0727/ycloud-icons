@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "重复1",
   "tags": [
-    "重复",
-    "单曲循环",
-    "循环"
+    "重播"
   ],
   "categories": [
     "multimedia"
@@ -15,7 +13,8 @@
       "name": "repeat 1",
       "tags": [
         "replay"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

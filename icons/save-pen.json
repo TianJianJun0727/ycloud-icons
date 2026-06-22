@@ -1,13 +1,14 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "saving a file with a specific name and/or to a specific location",
-    "exporting or saving a copy of the current document with a different name or format"
+    "以指定名称或位置保存文件",
+    "以不同名称或格式导出或保存当前文档副本"
   ],
   "name": "保存笔",
   "tags": [
     "软盘",
-    "目录"
+    "目录",
+    "重命名"
   ],
   "categories": [
     "text",
@@ -20,6 +21,10 @@
         "floppy disk",
         "directory",
         "rename"
+      ],
+      "use-cases": [
+        "saving a file with a specific name and/or to a specific location",
+        "exporting or saving a copy of the current document with a different name or format"
       ]
     }
   }

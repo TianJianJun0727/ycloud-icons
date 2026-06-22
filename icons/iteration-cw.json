@@ -4,8 +4,7 @@
   "name": "迭代顺时针",
   "tags": [
     "箭头",
-    "左",
-    "向左"
+    "左"
   ],
   "categories": [
     "arrows",
@@ -17,7 +16,8 @@
       "tags": [
         "arrow",
         "left"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

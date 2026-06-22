@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "豆子",
   "tags": [
-    "食物"
+    "豆类",
+    "大豆",
+    "食物",
+    "种子"
   ],
   "categories": [
     "food-beverage"
@@ -16,7 +19,8 @@
         "soy",
         "food",
         "seed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

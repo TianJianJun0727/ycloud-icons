@@ -4,7 +4,8 @@
   "name": "国际象棋城堡",
   "tags": [
     "城堡",
-    "面板game"
+    "一块",
+    "棋盘游戏"
   ],
   "categories": [
     "gaming",
@@ -17,7 +18,8 @@
         "castle",
         "piece",
         "board game"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

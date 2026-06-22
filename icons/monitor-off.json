@@ -14,7 +14,8 @@
       "name": "monitor off",
       "tags": [
         "share"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

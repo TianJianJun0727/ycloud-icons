@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "角落下左",
   "tags": [
-    "箭头"
+    "箭头",
+    "返回"
   ],
   "categories": [
     "arrows"
@@ -14,7 +15,8 @@
       "tags": [
         "arrow",
         "return"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

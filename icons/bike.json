@@ -4,7 +4,8 @@
   "name": "自行车",
   "tags": [
     "自行车",
-    "行程"
+    "运输",
+    "旅行"
   ],
   "categories": [
     "transportation"
@@ -16,7 +17,8 @@
         "bicycle",
         "transport",
         "trip"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

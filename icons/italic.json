@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "斜体",
   "tags": [
-    "文本"
+    "斜的",
+    "文本",
+    "格式"
   ],
   "categories": [
     "text"
@@ -15,7 +17,8 @@
         "oblique",
         "text",
         "format"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

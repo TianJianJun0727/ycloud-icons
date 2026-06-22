@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "哈希",
   "tags": [
+    "主题标签",
+    "数量",
     "英镑"
   ],
   "categories": [
@@ -16,7 +18,8 @@
         "hashtag",
         "number",
         "pound"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -6,9 +6,10 @@
     "路标",
     "方向",
     "右",
+    "东",
     "前进",
-    "version控制",
-    "向右"
+    "版本控制",
+    "航路点"
   ],
   "categories": [
     "arrows",
@@ -27,7 +28,8 @@
         "forward",
         "version control",
         "waypoint"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

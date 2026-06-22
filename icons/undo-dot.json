@@ -20,7 +20,8 @@
         "history",
         "step",
         "back"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

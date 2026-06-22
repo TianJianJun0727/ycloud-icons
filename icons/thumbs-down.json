@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "反对",
   "tags": [
-    "情绪"
+    "不喜欢",
+    "坏",
+    "情感"
   ],
   "categories": [
     "account",
@@ -17,7 +19,8 @@
         "dislike",
         "bad",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

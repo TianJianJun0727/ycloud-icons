@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "方形西格玛",
   "tags": [
-    "计算"
+    "总和",
+    "计算",
+    "公式",
+    "数学",
+    "枚举",
+    "列举"
   ],
   "categories": [
     "text",
@@ -27,7 +32,8 @@
         "math",
         "enumeration",
         "enumerate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

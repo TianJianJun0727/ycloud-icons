@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "灯地板",
   "tags": [
+    "照明",
+    "家庭",
     "地板",
-    "家居"
+    "首页",
+    "家具"
   ],
   "categories": [
     "home"
@@ -18,7 +21,8 @@
         "floor",
         "home",
         "furniture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

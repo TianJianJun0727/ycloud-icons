@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "方形虚线底部",
   "tags": [
-    "矩形",
-    "aspect比例",
+    "长方形",
+    "纵横比",
+    "1:1",
+    "形状",
+    "片段",
     "代码",
-    "形状"
+    "编码"
   ],
   "categories": [
     "development",
@@ -23,7 +26,8 @@
         "snippet",
         "code",
         "coding"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

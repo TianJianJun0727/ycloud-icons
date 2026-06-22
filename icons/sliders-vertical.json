@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "滑块垂直",
   "tags": [
-    "设置"
+    "设置",
+    "控制"
   ],
   "categories": [
     "account"
@@ -22,7 +23,8 @@
       "tags": [
         "settings",
         "controls"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

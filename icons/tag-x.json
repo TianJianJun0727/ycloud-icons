@@ -1,13 +1,14 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "removing a tag from an item",
-    "deleting a labeled product or entry"
+    "从项目中移除标签",
+    "删除带标签的产品或条目"
   ],
   "name": "标签关闭",
   "tags": [
+    "标签",
     "徽章",
-    "票券",
+    "票",
     "标记",
     "关闭",
     "删除",
@@ -27,6 +28,10 @@
         "x",
         "delete",
         "remove"
+      ],
+      "use-cases": [
+        "removing a tag from an item",
+        "deleting a labeled product or entry"
       ]
     }
   }

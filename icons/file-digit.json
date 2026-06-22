@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "文件数字",
   "tags": [
+    "数量",
     "文档"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "number",
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

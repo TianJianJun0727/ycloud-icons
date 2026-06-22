@@ -4,7 +4,8 @@
   "name": "方形终端",
   "tags": [
     "代码",
-    "命令线条",
+    "命令行",
+    "提示",
     "外壳"
   ],
   "categories": [
@@ -26,7 +27,8 @@
         "command line",
         "prompt",
         "shell"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

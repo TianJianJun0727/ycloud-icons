@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "喷雾罐",
   "tags": [
-    "绘制"
+    "油漆",
+    "颜色",
+    "涂鸦",
+    "装饰",
+    "气雾剂",
+    "除臭剂",
+    "剃须泡沫",
+    "空气清新剂"
   ],
   "categories": [
     "design",
@@ -21,7 +28,8 @@
         "deodorant",
         "shaving foam",
         "air freshener"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

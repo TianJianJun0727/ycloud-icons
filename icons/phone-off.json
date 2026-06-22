@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "电话关闭",
   "tags": [
-    "通话"
+    "通话",
+    "静音"
   ],
   "categories": [
     "connectivity",
@@ -16,7 +17,8 @@
       "tags": [
         "call",
         "mute"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

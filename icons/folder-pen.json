@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "文件夹笔",
   "tags": [
-    "目录"
+    "目录",
+    "重命名"
   ],
   "categories": [
     "files"
@@ -22,7 +23,8 @@
       "tags": [
         "directory",
         "rename"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

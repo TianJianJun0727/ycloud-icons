@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "列表缩进增加",
   "tags": [
-    "文本"
+    "文本",
+    "选项卡"
   ],
   "categories": [
     "text",
@@ -29,7 +30,8 @@
       "tags": [
         "text",
         "tab"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,7 +4,7 @@
   "name": "Git拉取请求箭头",
   "tags": [
     "代码",
-    "version控制",
+    "版本控制",
     "打开"
   ],
   "categories": [
@@ -18,7 +18,8 @@
         "code",
         "version control",
         "open"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

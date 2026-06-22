@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "音乐3",
   "tags": [
-    "quarter便签",
-    "一半便签",
-    "便签"
+    "四分音符",
+    "最小",
+    "四分音符",
+    "二分音符",
+    "注释"
   ],
   "categories": [
     "multimedia",
@@ -20,7 +22,8 @@
         "quarter note",
         "half note",
         "note"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

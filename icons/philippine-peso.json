@@ -4,7 +4,9 @@
   "name": "菲律宾比索",
   "tags": [
     "货币",
-    "比索"
+    "比索",
+    "钱",
+    "PHP"
   ],
   "categories": [
     "finance"
@@ -17,7 +19,8 @@
         "peso",
         "money",
         "php"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

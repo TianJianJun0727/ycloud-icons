@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "版权",
   "tags": [
-    "许可"
+    "许可证",
+    "许可证"
   ],
   "categories": [
     "text"
@@ -14,7 +15,8 @@
       "tags": [
         "licence",
         "license"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

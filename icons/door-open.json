@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "门打开",
   "tags": [
+    "入口",
+    "条目",
     "退出",
-    "emergency退出"
+    "入口",
+    "出口",
+    "门",
+    "网关",
+    "紧急出口"
   ],
   "categories": [
     "home",
@@ -23,7 +29,8 @@
         "gate",
         "gateway",
         "emergency exit"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

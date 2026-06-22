@@ -4,8 +4,11 @@
   "name": "戏剧",
   "tags": [
     "戏剧",
+    "面具",
     "剧院",
-    "娱乐"
+    "剧院",
+    "娱乐",
+    "显示"
   ],
   "categories": [
     "multimedia"
@@ -20,7 +23,8 @@
         "theatre",
         "entertainment",
         "show"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

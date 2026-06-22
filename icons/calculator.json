@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "计算器",
   "tags": [
-    "calculating机器"
+    "计数",
+    "计算机器"
   ],
   "categories": [
     "math",
@@ -15,7 +16,8 @@
       "tags": [
         "count",
         "calculating machine"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

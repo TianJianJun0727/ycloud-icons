@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "糖果",
   "tags": [
-    "食物"
+    "糖",
+    "食物",
+    "甜甜的"
   ],
   "categories": [
     "food-beverage"
@@ -15,7 +17,8 @@
         "sugar",
         "food",
         "sweet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

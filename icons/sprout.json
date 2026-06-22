@@ -3,11 +3,15 @@
   "use-cases": [],
   "name": "幼苗",
   "tags": [
+    "生态",
     "绿色",
-    "叶子",
+    "成长",
+    "叶",
     "自然",
     "植物",
-    "可持续"
+    "种子",
+    "春天",
+    "可持续性"
   ],
   "categories": [
     "nature",
@@ -27,7 +31,8 @@
         "seed",
         "spring",
         "sustainability"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

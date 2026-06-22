@@ -4,7 +4,8 @@
   "name": "双折角箭头左右",
   "tags": [
     "展开",
-    "水平"
+    "水平的",
+    "展开"
   ],
   "categories": [
     "arrows"
@@ -16,7 +17,8 @@
         "expand",
         "horizontal",
         "unfold"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

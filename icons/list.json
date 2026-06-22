@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "列表",
   "tags": [
-    "列表",
-    "清单",
-    "菜单"
+    "选项"
   ],
   "categories": [
     "text"
@@ -15,7 +13,8 @@
       "name": "list",
       "tags": [
         "options"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

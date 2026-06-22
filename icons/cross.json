@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "十字",
   "tags": [
-    "医疗",
-    "第一个aid"
+    "医疗保健",
+    "急救"
   ],
   "categories": [
     "shapes"
@@ -15,7 +15,8 @@
       "tags": [
         "healthcare",
         "first aid"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

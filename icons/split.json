@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "拆分",
   "tags": [
-    "除号",
-    "分支"
+    "打破",
+    "解散",
+    "划分",
+    "分开",
+    "分行",
+    "分裂"
   ],
   "categories": [
     "development",
@@ -20,7 +24,8 @@
         "separate",
         "branch",
         "disunite"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

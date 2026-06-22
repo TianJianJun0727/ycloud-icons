@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "面板顶部",
   "tags": [
-    "抽屉"
+    "抽屉",
+    "浏览器",
+    "网页"
   ],
   "categories": [
     "layout",
@@ -17,7 +19,8 @@
         "drawer",
         "browser",
         "webpage"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -23,7 +23,8 @@
       "name": "alarm clock plus",
       "tags": [
         "add"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

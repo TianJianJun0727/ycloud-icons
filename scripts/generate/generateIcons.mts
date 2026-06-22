@@ -33,6 +33,8 @@ const iconJsonTemplate = `{
     "en": {
       "name": "",
       "tags": [
+      ],
+      "use-cases": [
       ]
     }
   }

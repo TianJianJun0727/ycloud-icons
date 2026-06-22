@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "奖杯",
   "tags": [
-    "奖章",
-    "庆祝"
+    "奖品",
+    "体育",
+    "获胜者",
+    "成就",
+    "奖项",
+    "冠军",
+    "庆祝活动",
+    "胜利"
   ],
   "categories": [
     "sports",
@@ -22,7 +28,8 @@
         "champion",
         "celebration",
         "victory"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

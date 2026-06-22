@@ -5,6 +5,8 @@
   "tags": [
     "电视",
     "屏幕",
+    "显示",
+    "桌面",
     "下载"
   ],
   "categories": [
@@ -20,7 +22,8 @@
         "display",
         "desktop",
         "download"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

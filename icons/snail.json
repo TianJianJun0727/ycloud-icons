@@ -4,7 +4,11 @@
   "name": "蜗牛",
   "tags": [
     "动物",
-    "昆虫"
+    "昆虫",
+    "慢",
+    "速度",
+    "美味佳肴",
+    "螺旋"
   ],
   "categories": [
     "animals",
@@ -20,7 +24,8 @@
         "speed",
         "delicacy",
         "spiral"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

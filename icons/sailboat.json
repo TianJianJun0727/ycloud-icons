@@ -4,7 +4,10 @@
   "name": "帆船",
   "tags": [
     "船",
-    "停靠栏"
+    "船",
+    "港口",
+    "港口",
+    "码头"
   ],
   "categories": [
     "transportation",
@@ -19,7 +22,8 @@
         "harbor",
         "harbour",
         "dock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

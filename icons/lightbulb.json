@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "灯泡",
   "tags": [
-    "灯泡",
-    "灵感",
-    "想法"
+    "想法",
+    "明亮",
+    "灯"
   ],
   "categories": [
     "photography"
@@ -17,7 +17,8 @@
         "idea",
         "bright",
         "lights"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

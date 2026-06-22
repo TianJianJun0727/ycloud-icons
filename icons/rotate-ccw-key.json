@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "旋转逆时针钥匙",
   "tags": [
+    "密码",
     "钥匙",
-    "刷新"
+    "刷新",
+    "改变"
   ],
   "categories": [
     "security",
@@ -18,7 +20,8 @@
         "key",
         "refresh",
         "change"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

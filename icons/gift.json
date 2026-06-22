@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "礼物",
   "tags": [
+    "现在",
     "盒子",
-    "派对"
+    "生日",
+    "聚会"
   ],
   "categories": [
     "gaming",
@@ -18,7 +20,8 @@
         "box",
         "birthday",
         "party"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

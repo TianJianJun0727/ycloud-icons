@@ -5,7 +5,7 @@
   "tags": [
     "勾选",
     "已验证",
-    "未验证"
+    "未经验证"
   ],
   "categories": [
     "account",
@@ -19,7 +19,8 @@
         "check",
         "verified",
         "unverified"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

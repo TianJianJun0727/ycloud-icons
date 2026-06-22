@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "哑铃",
   "tags": [
-    "重量"
+    "杠铃",
+    "重量",
+    "锻炼",
+    "健身房"
   ],
   "categories": [
     "navigation",
@@ -17,7 +20,8 @@
         "weight",
         "workout",
         "gym"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

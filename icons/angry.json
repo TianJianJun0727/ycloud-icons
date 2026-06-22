@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "生气",
   "tags": [
-    "表情",
-    "情绪"
+    "表情符号",
+    "愤怒",
+    "脸",
+    "情感"
   ],
   "categories": [
     "emoji"
@@ -17,7 +19,8 @@
         "anger",
         "face",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

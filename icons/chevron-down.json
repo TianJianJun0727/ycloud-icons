@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "折角箭头下",
   "tags": [
-    "后退",
-    "反向"
+    "向后",
+    "反向",
+    "慢",
+    "下拉菜单"
   ],
   "categories": [
     "arrows",
@@ -18,7 +20,8 @@
         "reverse",
         "slow",
         "dropdown"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "衬衫",
   "tags": [
-    "t衬衫",
+    "T恤",
     "购物",
-    "商店"
+    "商店",
+    "服装",
+    "衣服"
   ],
   "categories": [
     "shopping"
@@ -19,7 +21,8 @@
         "store",
         "clothing",
         "clothes"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

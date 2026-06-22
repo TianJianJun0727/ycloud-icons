@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "圆形淡出加号",
   "tags": [
-    "圆形",
-    "淡出",
-    "添加"
+    "故事",
+    "社交媒体",
+    "Instagram",
+    "脸书",
+    "元",
+    "快照聊天",
+    "分享",
+    "内容"
   ],
   "categories": [
     "communication",
@@ -23,7 +28,8 @@
         "snapchat",
         "sharing",
         "content"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

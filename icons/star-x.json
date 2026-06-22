@@ -1,27 +1,34 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "remove from favorites",
-    "unstar item",
-    "reject favorite",
-    "exclude item",
-    "remove bookmark",
-    "disallow recommendation",
-    "remove featured status",
-    "dismiss saved item",
-    "block preferred content",
-    "clear favorite selection"
+    "从收藏中移除",
+    "取消星标项目",
+    "拒绝收藏项",
+    "排除项目",
+    "移除书签",
+    "禁止推荐",
+    "移除精选状态",
+    "移除已保存项目",
+    "屏蔽偏好内容",
+    "清除收藏选择"
   ],
   "name": "星标关闭",
   "tags": [
     "标记",
     "符号",
+    "形状",
     "矢量",
     "设计",
+    "图形",
     "书签",
+    "收藏",
+    "喜欢",
+    "评论",
+    "评级",
     "关闭",
-    "星标",
-    "形状"
+    "取消",
+    "拒绝",
+    "星标"
   ],
   "categories": [
     "account",
@@ -51,6 +58,18 @@
         "cancel",
         "reject",
         "star"
+      ],
+      "use-cases": [
+        "remove from favorites",
+        "unstar item",
+        "reject favorite",
+        "exclude item",
+        "remove bookmark",
+        "disallow recommendation",
+        "remove featured status",
+        "dismiss saved item",
+        "block preferred content",
+        "clear favorite selection"
       ]
     }
   }

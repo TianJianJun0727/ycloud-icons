@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "图表列大",
   "tags": [
-    "图形"
+    "统计",
+    "分析",
+    "图表",
+    "图"
   ],
   "categories": [
     "charts"
@@ -24,7 +27,8 @@
         "analytics",
         "diagram",
         "graph"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

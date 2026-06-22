@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "胶片",
   "tags": [
+    "电影",
     "视频",
+    "卷轴",
     "相机",
+    "电影院",
     "娱乐"
   ],
   "categories": [
@@ -21,7 +24,8 @@
         "camera",
         "cinema",
         "entertainment"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

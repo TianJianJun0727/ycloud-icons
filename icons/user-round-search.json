@@ -3,11 +3,13 @@
   "use-cases": [],
   "name": "用户圆形搜索",
   "tags": [
-    "人员",
-    "账号",
-    "联系人",
+    "人",
+    "帐户",
+    "联系方式",
+    "找到",
     "扫描",
-    "magnifying玻璃杯",
+    "放大镜",
+    "放大镜",
     "镜头"
   ],
   "categories": [
@@ -26,7 +28,8 @@
         "magnifier",
         "magnifying glass",
         "lens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

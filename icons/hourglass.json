@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "沙漏",
   "tags": [
-    "计时器",
-    "时间"
+    "定时器",
+    "时间",
+    "沙漏"
   ],
   "categories": [
     "time",
@@ -17,7 +18,8 @@
         "timer",
         "time",
         "sandglass"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

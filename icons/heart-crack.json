@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "爱心裂纹",
   "tags": [
-    "情绪"
+    "心碎",
+    "悲伤",
+    "情感"
   ],
   "categories": [
     "emoji"
@@ -15,7 +17,8 @@
         "heartbreak",
         "sadness",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

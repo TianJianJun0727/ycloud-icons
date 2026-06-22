@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "蓝牙关闭",
   "tags": [
-    "蓝牙",
-    "关闭",
-    "断开"
+    "迷失了"
   ],
   "categories": [
     "connectivity",
@@ -16,7 +14,8 @@
       "name": "bluetooth off",
       "tags": [
         "lost"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

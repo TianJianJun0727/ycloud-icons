@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "吸管",
   "tags": [
-    "眼睛dropper",
+    "滴管",
+    "颜色选择器",
+    "实验室",
     "化学"
   ],
   "categories": [
@@ -19,7 +21,8 @@
         "color picker",
         "lab",
         "chemistry"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

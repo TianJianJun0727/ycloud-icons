@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "圆形淡出箭头上",
   "tags": [
-    "上",
+    "北",
+    "向上",
     "升级",
+    "改善",
     "圆形",
-    "向上"
+    "按钮"
   ],
   "categories": [
     "arrows",
@@ -22,7 +24,8 @@
         "improve",
         "circle",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

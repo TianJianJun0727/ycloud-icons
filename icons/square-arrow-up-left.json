@@ -4,9 +4,11 @@
   "name": "方形箭头上左",
   "tags": [
     "方向",
+    "西北",
     "对角线",
     "标志",
-    "键盘"
+    "键盘",
+    "按钮"
   ],
   "categories": [
     "arrows"
@@ -29,7 +31,8 @@
         "sign",
         "keyboard",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

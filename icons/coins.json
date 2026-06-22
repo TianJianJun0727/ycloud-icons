@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "硬币",
   "tags": [
-    "金融"
+    "钱",
+    "现金",
+    "金融",
+    "赌博"
   ],
   "categories": [
     "gaming"
@@ -16,7 +19,8 @@
         "cash",
         "finance",
         "gamble"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

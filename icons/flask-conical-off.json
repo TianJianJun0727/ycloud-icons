@@ -4,9 +4,12 @@
   "name": "烧瓶圆锥关闭",
   "tags": [
     "烧杯",
-    "非toxic",
-    "测试",
-    "化学"
+    "埃伦迈耶",
+    "无毒",
+    "实验室",
+    "化学",
+    "实验",
+    "测试"
   ],
   "categories": [
     "science",
@@ -23,7 +26,8 @@
         "chemistry",
         "experiment",
         "test"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

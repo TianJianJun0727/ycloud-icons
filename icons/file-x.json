@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "文件关闭",
   "tags": [
+    "迷失了",
     "删除",
     "移除",
     "文档"
@@ -18,7 +19,8 @@
         "delete",
         "remove",
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

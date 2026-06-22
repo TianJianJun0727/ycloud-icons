@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "通风口",
   "tags": [
-    "climate控制"
+    "空调",
+    "空调",
+    "中央空调",
+    "冷却",
+    "气候控制"
   ],
   "categories": [
     "home"
@@ -17,7 +21,8 @@
         "central air",
         "cooling",
         "climate-control"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

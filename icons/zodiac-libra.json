@@ -3,7 +3,16 @@
   "use-cases": [],
   "name": "星座天秤座",
   "tags": [
-    "星标标志"
+    "鳞片",
+    "平衡",
+    "正义",
+    "空气",
+    "和谐",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -23,7 +32,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

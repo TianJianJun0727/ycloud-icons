@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "飞机起飞",
   "tags": [
+    "出发",
     "飞机",
-    "行程"
+    "旅行",
+    "飞机",
+    "起飞"
   ],
   "categories": [
     "transportation",
@@ -19,7 +22,8 @@
         "trip",
         "airplane",
         "takeoff"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

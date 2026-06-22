@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "胡萝卜",
   "tags": [
-    "食物"
+    "蔬菜",
+    "食物",
+    "吃"
   ],
   "categories": [
     "food-beverage"
@@ -15,7 +17,8 @@
         "vegetable",
         "food",
         "eat"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

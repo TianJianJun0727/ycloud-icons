@@ -5,6 +5,8 @@
   "tags": [
     "标记",
     "打印",
+    "克隆",
+    "忠诚度",
     "图书馆"
   ],
   "categories": [
@@ -21,7 +23,8 @@
         "clone",
         "loyalty",
         "library"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

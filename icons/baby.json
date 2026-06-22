@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "婴儿",
   "tags": [
+    "孩子",
+    "儿童防护",
     "儿童"
   ],
   "categories": [
@@ -16,7 +18,8 @@
         "child",
         "childproof",
         "children"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

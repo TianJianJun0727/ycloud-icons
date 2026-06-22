@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "笑脸",
   "tags": [
-    "表情",
-    "情绪"
+    "表情符号",
+    "脸",
+    "快乐",
+    "好",
+    "情感"
   ],
   "categories": [
     "emoji",
@@ -19,7 +22,8 @@
         "happy",
         "good",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

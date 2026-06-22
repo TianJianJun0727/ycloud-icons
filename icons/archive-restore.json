@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "归档恢复",
   "tags": [
+    "取消存档",
+    "指数",
     "备份",
-    "盒子"
+    "盒子",
+    "存储",
+    "记录"
   ],
   "categories": [
     "files",
@@ -20,7 +24,8 @@
         "box",
         "storage",
         "records"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

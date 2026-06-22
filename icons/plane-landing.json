@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "飞机降落",
   "tags": [
+    "到达",
     "飞机",
-    "降落",
-    "行程"
+    "旅行",
+    "飞机",
+    "着陆"
   ],
   "categories": [
     "transportation",
@@ -20,7 +22,8 @@
         "trip",
         "airplane",
         "landing"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

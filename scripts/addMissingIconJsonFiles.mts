@@ -27,6 +27,7 @@ iconNames.forEach((iconName) => {
           en: {
             name: iconName,
             tags: [],
+            'use-cases': [],
           },
         },
       },

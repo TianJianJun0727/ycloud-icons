@@ -4,7 +4,8 @@
   "name": "圆形等于",
   "tags": [
     "计算",
-    "形状"
+    "形状",
+    "="
   ],
   "categories": [
     "math"
@@ -16,7 +17,8 @@
         "calculate",
         "shape",
         "="
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

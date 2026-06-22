@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "保存全部",
   "tags": [
+    "软盘",
     "复制"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "floppy disks",
         "copy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,17 @@
   "use-cases": [],
   "name": "叉车",
   "tags": [
+    "机械",
+    "工业",
     "仓库",
-    "设备"
+    "起重",
+    "存储",
+    "设备",
+    "重型",
+    "移动",
+    "车辆",
+    "运输",
+    "物流"
   ],
   "categories": [
     "transportation"
@@ -24,7 +33,8 @@
         "vehicle",
         "transport",
         "logistics"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

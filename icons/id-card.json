@@ -4,7 +4,10 @@
   "name": "ID卡片",
   "tags": [
     "卡片",
-    "徽章"
+    "徽章",
+    "身份",
+    "认证",
+    "安全"
   ],
   "categories": [
     "security",
@@ -19,7 +22,8 @@
         "identity",
         "authentication",
         "secure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

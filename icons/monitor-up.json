@@ -5,8 +5,11 @@
   "tags": [
     "电视",
     "屏幕",
+    "显示",
     "上传",
-    "屏幕分享"
+    "连接",
+    "远程",
+    "屏幕共享"
   ],
   "categories": [
     "connectivity",
@@ -23,7 +26,8 @@
         "connect",
         "remote",
         "screen share"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

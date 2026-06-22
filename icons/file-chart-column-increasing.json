@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "文件图表列上升",
   "tags": [
-    "图形",
+    "统计",
+    "分析",
+    "图表",
+    "图",
     "演示",
-    "趋势上"
+    "趋势上升"
   ],
   "categories": [
     "files"
@@ -28,7 +31,8 @@
         "graph",
         "presentation",
         "trending up"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

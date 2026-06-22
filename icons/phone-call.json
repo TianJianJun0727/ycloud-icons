@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "电话通话",
   "tags": [
-    "响铃"
+    "戒指"
   ],
   "categories": [
     "connectivity",
@@ -15,7 +15,8 @@
       "name": "phone call",
       "tags": [
         "ring"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

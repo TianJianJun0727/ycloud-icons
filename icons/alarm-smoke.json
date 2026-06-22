@@ -3,10 +3,14 @@
   "use-cases": [],
   "name": "闹钟烟雾",
   "tags": [
-    "火焰",
+    "火",
     "告警",
     "警告",
-    "设备"
+    "探测器",
+    "一氧化碳",
+    "安全",
+    "设备",
+    "便利设施"
   ],
   "categories": [
     "home",
@@ -25,7 +29,8 @@
         "safety",
         "equipment",
         "amenities"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

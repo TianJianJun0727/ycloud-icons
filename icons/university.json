@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "大学",
   "tags": [
-    "建筑",
+    "建筑物",
+    "教育",
+    "童年",
     "学校",
-    "教育"
+    "学院",
+    "学院",
+    "研究所"
   ],
   "categories": [
     "buildings",
@@ -30,7 +34,8 @@
         "college",
         "academy",
         "institute"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "重量",
   "tags": [
-    "金属"
+    "质量",
+    "重",
+    "铅",
+    "金属",
+    "测量",
+    "几何学",
+    "鳞片",
+    "平衡"
   ],
   "categories": [
     "math"
@@ -20,7 +27,8 @@
         "geometry",
         "scales",
         "balance"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

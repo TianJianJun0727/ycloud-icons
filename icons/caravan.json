@@ -3,7 +3,15 @@
   "use-cases": [],
   "name": "房车",
   "tags": [
-    "mobile家居"
+    "拖车",
+    "拖曳",
+    "露营",
+    "露营地",
+    "移动房屋",
+    "假期",
+    "游牧的",
+    "荒野",
+    "户外"
   ],
   "categories": [
     "transportation",
@@ -23,7 +31,8 @@
         "nomadic",
         "wilderness",
         "outdoors"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "邮件",
   "tags": [
+    "邮箱",
     "消息",
-    "字母",
-    "邮箱"
+    "信",
+    "未读"
   ],
   "categories": [
     "text",
@@ -20,7 +21,8 @@
         "message",
         "letter",
         "unread"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

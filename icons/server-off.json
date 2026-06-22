@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "服务器关闭",
   "tags": [
-    "云"
+    "云",
+    "存储"
   ],
   "categories": [
     "development",
@@ -15,7 +16,8 @@
       "tags": [
         "cloud",
         "storage"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

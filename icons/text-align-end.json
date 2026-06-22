@@ -4,8 +4,8 @@
   "name": "文本对齐末端",
   "tags": [
     "文本",
-    "右",
-    "向右"
+    "对准",
+    "右"
   ],
   "categories": [
     "text"
@@ -25,7 +25,8 @@
         "text",
         "alignment",
         "right"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

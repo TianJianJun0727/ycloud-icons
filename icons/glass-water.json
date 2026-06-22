@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "玻璃杯水",
   "tags": [
-    "饮品",
-    "玻璃杯",
+    "饮料",
+    "喝",
+    "玻璃",
     "水"
   ],
   "categories": [
@@ -18,7 +19,8 @@
         "drink",
         "glass",
         "water"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

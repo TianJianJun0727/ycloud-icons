@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "圆形折角箭头上",
   "tags": [
-    "菜单"
+    "插入符",
+    "前面",
+    "菜单",
+    "^"
   ],
   "categories": [
     "arrows"
@@ -24,7 +27,8 @@
         "ahead",
         "menu",
         "^"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

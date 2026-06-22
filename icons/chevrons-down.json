@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "双折角箭头下",
   "tags": [
-    "后退",
-    "反向"
+    "向后",
+    "反向",
+    "较慢"
   ],
   "categories": [
     "arrows",
@@ -17,7 +18,8 @@
         "backwards",
         "reverse",
         "slower"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

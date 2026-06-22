@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "重复",
   "tags": [
+    "循环",
     "箭头"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "loop",
         "arrows"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

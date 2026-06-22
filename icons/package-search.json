@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "包搜索",
   "tags": [
+    "找到",
+    "产品工艺",
     "镜头"
   ],
   "categories": [
@@ -16,7 +18,8 @@
         "find",
         "product process",
         "lens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,13 +3,14 @@
   "use-cases": [],
   "name": "方形百分比",
   "tags": [
-    "促销",
+    "已验证",
+    "未经验证",
+    "销售",
     "折扣",
+    "报价",
     "营销",
     "贴纸",
-    "price标签",
-    "已验证",
-    "未验证"
+    "价格标签"
   ],
   "categories": [
     "social",
@@ -37,7 +38,8 @@
         "marketing",
         "sticker",
         "price tag"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

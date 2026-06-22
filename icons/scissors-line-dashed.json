@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "剪刀线条虚线",
   "tags": [
-    "切割",
+    "切到这里",
+    "沿着",
+    "剪断",
+    "砍",
     "文具",
-    "手工"
+    "工艺品",
+    "说明",
+    "图表"
   ],
   "categories": [
     "design",
@@ -23,7 +28,8 @@
         "crafts",
         "instructions",
         "diagram"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

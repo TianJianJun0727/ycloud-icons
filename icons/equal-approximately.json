@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "等于约等于",
   "tags": [
-    "计算"
+    "关于",
+    "计算",
+    "数学",
+    "操作员"
   ],
   "categories": [
     "math"
@@ -16,7 +19,8 @@
         "calculate",
         "math",
         "operater"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

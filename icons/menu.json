@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "菜单",
   "tags": [
+    "酒吧",
     "导航",
-    "汉堡"
+    "汉堡包",
+    "选项"
   ],
   "categories": [
     "layout",
@@ -18,7 +20,8 @@
         "navigation",
         "hamburger",
         "options"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

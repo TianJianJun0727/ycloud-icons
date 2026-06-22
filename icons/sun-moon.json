@@ -3,8 +3,15 @@
   "use-cases": [],
   "name": "太阳月亮",
   "tags": [
+    "黑暗",
+    "光",
     "月亮",
-    "太阳"
+    "太阳",
+    "亮度",
+    "主题",
+    "自动主题",
+    "系统主题",
+    "外观"
   ],
   "categories": [
     "accessibility"
@@ -22,7 +29,8 @@
         "auto theme",
         "system theme",
         "appearance"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,7 +4,11 @@
   "name": "三明治",
   "tags": [
     "食物",
-    "盘子"
+    "小吃",
+    "菜",
+    "餐厅",
+    "午餐",
+    "餐"
   ],
   "categories": [
     "food-beverage"
@@ -19,7 +23,8 @@
         "restaurant",
         "lunch",
         "meal"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "鸡蛋关闭",
   "tags": [
-    "鸡蛋free",
-    "素食",
-    "bad鸡蛋"
+    "无蛋",
+    "素食主义者",
+    "孵化的",
+    "坏蛋"
   ],
   "categories": [
     "food-beverage"
@@ -18,7 +19,8 @@
         "vegan",
         "hatched",
         "bad egg"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

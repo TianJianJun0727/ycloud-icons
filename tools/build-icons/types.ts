@@ -43,10 +43,12 @@ export type IconMetadataBase = {
   categories: string[];
   aliases?: (string | AliasDeprecation)[];
   tags: string[];
+  'use-cases': string[];
   i18n: {
     en: {
       name: string;
       tags: string[];
+      'use-cases': string[];
     };
   };
   deprecationReason?: IconDeprecationReason;

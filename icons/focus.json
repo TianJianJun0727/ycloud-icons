@@ -19,7 +19,8 @@
         "lens",
         "photo",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "缩放外部",
   "tags": [
-    "magnifying玻璃杯",
+    "放大镜",
     "加号"
   ],
   "categories": [
@@ -19,7 +19,8 @@
       "tags": [
         "magnifying glass",
         "plus"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

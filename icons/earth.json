@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "地球",
   "tags": [
-    "地球"
+    "世界",
+    "浏览器",
+    "语言",
+    "翻译",
+    "地球仪"
   ],
   "categories": [
     "navigation"
@@ -25,7 +29,8 @@
         "language",
         "translate",
         "globe"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

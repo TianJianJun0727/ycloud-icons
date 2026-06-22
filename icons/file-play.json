@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "文件播放",
   "tags": [
+    "电影",
     "视频",
-    "胶片"
+    "电影"
   ],
   "categories": [
     "files"
@@ -24,7 +25,8 @@
         "movie",
         "video",
         "film"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

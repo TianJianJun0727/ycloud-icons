@@ -3,8 +3,16 @@
   "use-cases": [],
   "name": "收据文本",
   "tags": [
+    "账单",
+    "优惠券",
+    "滑倒",
     "勾选",
-    "小打印"
+    "存根",
+    "详情",
+    "小字",
+    "条款",
+    "条件",
+    "合同"
   ],
   "categories": [
     "finance",
@@ -24,7 +32,8 @@
         "terms",
         "conditions",
         "contract"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

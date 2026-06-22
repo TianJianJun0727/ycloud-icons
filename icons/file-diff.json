@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "文件差异",
   "tags": [
-    "差异"
+    "差异",
+    "补丁"
   ],
   "categories": [
     "files",
@@ -15,7 +16,8 @@
       "tags": [
         "diff",
         "patch"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

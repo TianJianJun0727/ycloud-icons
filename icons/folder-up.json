@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "文件夹上",
   "tags": [
+    "目录",
     "上传",
     "导入",
-    "目录"
+    "导出"
   ],
   "categories": [
     "files",
@@ -19,7 +20,8 @@
         "upload",
         "import",
         "export"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

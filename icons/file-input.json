@@ -14,7 +14,8 @@
       "name": "file input",
       "tags": [
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -5,8 +5,10 @@
   "tags": [
     "前进",
     "方向",
+    "北",
     "标志",
-    "键盘"
+    "键盘",
+    "按钮"
   ],
   "categories": [
     "arrows"
@@ -29,7 +31,8 @@
         "sign",
         "keyboard",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

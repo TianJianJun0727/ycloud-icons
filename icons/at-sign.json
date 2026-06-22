@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "@标志",
   "tags": [
+    "提及",
+    "在",
+    "邮箱",
     "消息",
-    "邮箱"
+    "@"
   ],
   "categories": [
     "text",
@@ -19,7 +22,8 @@
         "email",
         "message",
         "@"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

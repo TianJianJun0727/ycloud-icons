@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "复制勾选",
   "tags": [
-    "完成"
+    "克隆",
+    "重复的",
+    "完成",
+    "多个"
   ],
   "categories": [
     "text",
@@ -17,7 +20,8 @@
         "duplicate",
         "done",
         "multiple"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "灯桌面",
   "tags": [
-    "桌面",
-    "家居"
+    "照明",
+    "家庭",
+    "办公室",
+    "书桌",
+    "首页",
+    "家具"
   ],
   "categories": [
     "home"
@@ -19,7 +23,8 @@
         "desk",
         "home",
         "furniture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

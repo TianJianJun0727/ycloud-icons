@@ -4,8 +4,8 @@
   "name": "对齐居中垂直",
   "tags": [
     "项目",
-    "弹性布局",
-    "对齐"
+    "弯曲",
+    "证明合理"
   ],
   "categories": [
     "layout"
@@ -17,7 +17,8 @@
         "items",
         "flex",
         "justify"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

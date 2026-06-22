@@ -5,7 +5,9 @@
   "tags": [
     "尺子",
     "皇冠",
-    "面板game"
+    "一块",
+    "棋盘游戏",
+    "僵局"
   ],
   "categories": [
     "gaming",
@@ -20,7 +22,8 @@
         "piece",
         "board game",
         "stalemate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

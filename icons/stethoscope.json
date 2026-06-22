@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "听诊器",
   "tags": [
+    "语音内窥镜",
     "医疗",
-    "爱心",
+    "心",
+    "肺",
     "声音"
   ],
   "categories": [
@@ -20,7 +22,8 @@
         "heart",
         "lungs",
         "sound"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

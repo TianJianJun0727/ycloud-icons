@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "火箭",
   "tags": [
-    "间距"
+    "释放",
+    "提升",
+    "发射",
+    "空间",
+    "版本"
   ],
   "categories": [
     "gaming",
@@ -18,7 +22,8 @@
         "launch",
         "space",
         "version"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

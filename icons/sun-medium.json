@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "太阳中等",
   "tags": [
+    "亮度",
     "中等"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "brightness",
         "medium"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

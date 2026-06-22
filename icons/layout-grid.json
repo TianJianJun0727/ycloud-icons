@@ -4,8 +4,8 @@
   "name": "布局网格",
   "tags": [
     "应用",
-    "家居",
-    "起始"
+    "首页",
+    "开始"
   ],
   "categories": [
     "design",
@@ -18,7 +18,8 @@
         "app",
         "home",
         "start"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

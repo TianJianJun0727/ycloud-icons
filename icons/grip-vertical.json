@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "握柄垂直",
   "tags": [
-    "抓取",
-    "移动"
+    "抢",
+    "点",
+    "手柄",
+    "移动",
+    "拖动"
   ],
   "categories": [
     "layout"
@@ -18,7 +21,8 @@
         "handle",
         "move",
         "drag"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

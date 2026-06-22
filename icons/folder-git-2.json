@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "文件夹Git2",
   "tags": [
+    "目录",
     "根",
     "项目",
-    "目录"
+    "Git",
+    "回购协议"
   ],
   "categories": [
     "files"
@@ -19,7 +21,8 @@
         "project",
         "git",
         "repo"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

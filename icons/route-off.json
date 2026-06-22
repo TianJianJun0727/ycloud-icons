@@ -3,8 +3,17 @@
   "use-cases": [],
   "name": "路线关闭",
   "tags": [
+    "路径",
+    "旅程",
+    "规划师",
+    "点",
+    "停止",
+    "车站",
     "重置",
-    "关闭"
+    "清除",
+    "取消",
+    "关闭",
+    "被阻止"
   ],
   "categories": [
     "navigation"
@@ -24,7 +33,8 @@
         "cancelled",
         "closed",
         "blocked"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

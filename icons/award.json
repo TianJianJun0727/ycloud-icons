@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "奖章",
   "tags": [
-    "徽章"
+    "成就",
+    "徽章",
+    "玫瑰花结",
+    "奖品",
+    "获胜者"
   ],
   "categories": [
     "account",
@@ -19,7 +23,8 @@
         "rosette",
         "prize",
         "winner"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

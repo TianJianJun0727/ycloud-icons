@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "字幕",
   "tags": [
-    "关闭字幕",
-    "无障碍"
+    "隐藏式字幕",
+    "字幕",
+    "小标题",
+    "转录",
+    "转录",
+    "对话",
+    "可达性"
   ],
   "categories": [
     "multimedia"
@@ -28,7 +33,8 @@
         "transcribe",
         "dialogue",
         "accessibility"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

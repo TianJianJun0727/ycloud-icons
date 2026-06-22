@@ -4,6 +4,7 @@
   "name": "下载",
   "tags": [
     "导入",
+    "导出",
     "保存"
   ],
   "categories": [
@@ -17,7 +18,8 @@
         "import",
         "export",
         "save"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

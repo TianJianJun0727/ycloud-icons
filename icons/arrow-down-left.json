@@ -4,6 +4,7 @@
   "name": "箭头下左",
   "tags": [
     "方向",
+    "西南",
     "对角线"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "direction",
         "south-west",
         "diagonal"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

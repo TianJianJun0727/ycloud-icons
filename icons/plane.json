@@ -4,7 +4,8 @@
   "name": "飞机",
   "tags": [
     "飞机",
-    "行程"
+    "旅行",
+    "飞机"
   ],
   "categories": [
     "transportation",
@@ -18,7 +19,8 @@
         "plane",
         "trip",
         "airplane"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "箭头大下短横线",
   "tags": [
+    "向后",
+    "反向",
+    "慢",
     "方向",
-    "下载",
-    "后退",
-    "反向"
+    "南",
+    "下载"
   ],
   "categories": [
     "arrows",
@@ -23,7 +25,8 @@
         "direction",
         "south",
         "download"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

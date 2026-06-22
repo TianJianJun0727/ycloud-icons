@@ -4,8 +4,10 @@
   "name": "Git图形",
   "tags": [
     "代码",
-    "version控制",
-    "提交图形"
+    "版本控制",
+    "提交图",
+    "提交",
+    "吉特伦斯"
   ],
   "categories": [
     "development"
@@ -19,7 +21,8 @@
         "commit graph",
         "commits",
         "gitlens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "矩形圆形",
   "tags": [
+    "作曲",
     "键盘",
-    "钥匙"
+    "钥匙",
+    "按钮"
   ],
   "categories": [
     "development",
@@ -18,7 +20,8 @@
         "keyboard",
         "key",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "随机",
   "tags": [
-    "音乐"
+    "音乐",
+    "随机的",
+    "重新排序"
   ],
   "categories": [
     "multimedia",
@@ -16,7 +18,8 @@
         "music",
         "random",
         "reorder"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

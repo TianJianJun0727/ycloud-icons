@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "Webhook回调关闭",
   "tags": [
-    "Webhook",
-    "关闭",
-    "断开"
+    "推送API",
+    "接口",
+    "回调"
   ],
   "categories": [
     "development",
@@ -19,7 +19,8 @@
         "push api",
         "interface",
         "callback"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

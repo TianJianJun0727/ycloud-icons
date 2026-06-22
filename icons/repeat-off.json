@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "重复关闭",
   "tags": [
-    "箭头"
+    "循环",
+    "箭头",
+    "反复出现的",
+    "再次"
   ],
   "categories": [
     "arrows",
@@ -17,7 +20,8 @@
         "arrows",
         "recurring",
         "again"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

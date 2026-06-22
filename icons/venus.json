@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "金星",
   "tags": [
-    "性别"
+    "性别",
+    "性别",
+    "女",
+    "女性化的",
+    "女人",
+    "女孩"
   ],
   "categories": [
     "medical"
@@ -18,7 +23,8 @@
         "feminine",
         "woman",
         "girl"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

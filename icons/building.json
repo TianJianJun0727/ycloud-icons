@@ -3,9 +3,8 @@
   "use-cases": [],
   "name": "建筑",
   "tags": [
-    "建筑",
-    "楼宇",
-    "办公楼"
+    "组织",
+    "组织"
   ],
   "categories": [
     "account",
@@ -17,7 +16,8 @@
       "tags": [
         "organisation",
         "organization"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "鱼",
   "tags": [
-    "盘子"
+    "菜",
+    "餐厅",
+    "课程",
+    "餐",
+    "海鲜",
+    "宠物",
+    "海",
+    "海洋"
   ],
   "categories": [
     "food-beverage",
@@ -21,7 +28,8 @@
         "pet",
         "sea",
         "marine"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

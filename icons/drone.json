@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "无人机",
   "tags": [
+    "四轴飞行器",
     "无人机",
-    "飞行器",
-    "航拍"
+    "天线",
+    "飞行",
+    "飞行",
+    "技术",
+    "空降的",
+    "机器人技术"
   ],
   "categories": [
     "transportation",
@@ -23,7 +28,8 @@
         "technology",
         "airborne",
         "robotics"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

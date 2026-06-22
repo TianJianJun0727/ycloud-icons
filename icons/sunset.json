@@ -4,7 +4,9 @@
   "name": "日落",
   "tags": [
     "天气",
-    "时间"
+    "时间",
+    "晚上",
+    "晚上"
   ],
   "categories": [
     "arrows",
@@ -18,7 +20,8 @@
         "time",
         "evening",
         "night"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

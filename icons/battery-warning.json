@@ -4,9 +4,11 @@
   "name": "电池警告",
   "tags": [
     "电源",
-    "感叹号标记",
     "电力",
-    "能源"
+    "能量",
+    "累加器",
+    "收费",
+    "感叹号"
   ],
   "categories": [
     "connectivity",
@@ -22,7 +24,8 @@
         "accumulator",
         "charge",
         "exclamation mark"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

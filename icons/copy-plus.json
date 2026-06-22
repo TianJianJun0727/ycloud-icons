@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "复制加号",
   "tags": [
+    "克隆",
+    "重复的",
     "添加",
-    "展开"
+    "多个",
+    "展开",
+    "+"
   ],
   "categories": [
     "text",
@@ -20,7 +24,8 @@
         "multiple",
         "expand",
         "+"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

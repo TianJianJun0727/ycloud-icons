@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "灯",
   "tags": [
-    "家居"
+    "照明",
+    "家庭",
+    "首页",
+    "家具"
   ],
   "categories": [
     "home"
@@ -16,7 +19,8 @@
         "household",
         "home",
         "furniture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,8 +4,12 @@
   "name": "监控",
   "tags": [
     "相机",
-    "胶片",
-    "录像带"
+    "监视",
+    "录音",
+    "电影",
+    "录像带",
+    "犯罪",
+    "观看"
   ],
   "categories": [
     "security",
@@ -25,7 +29,8 @@
         "videotape",
         "crime",
         "watching"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

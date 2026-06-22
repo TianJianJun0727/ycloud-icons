@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "玩具砖块",
   "tags": [
-    "积木",
-    "玩具",
-    "模块"
+    "乐高",
+    "屏蔽",
+    "插件",
+    "插件",
+    "整合"
   ],
   "categories": [
     "gaming",
@@ -20,7 +22,8 @@
         "addon",
         "plugin",
         "integration"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

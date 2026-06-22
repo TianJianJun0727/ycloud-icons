@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "图表无坐标轴组合",
   "tags": [
-    "图形",
-    "趋势上"
+    "统计",
+    "分析",
+    "图表",
+    "图",
+    "趋势上升"
   ],
   "categories": [
     "charts"
@@ -18,7 +21,8 @@
         "diagram",
         "graph",
         "trending up"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

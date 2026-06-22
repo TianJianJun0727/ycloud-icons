@@ -4,7 +4,12 @@
   "name": "雨伞关闭",
   "tags": [
     "雨",
-    "天气"
+    "天气",
+    "未覆盖的",
+    "没有保险的",
+    "防病毒软件",
+    "不受保护的",
+    "有风险的"
   ],
   "categories": [
     "weather"
@@ -20,7 +25,8 @@
         "antivirus",
         "unprotected",
         "risky"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "文件堆叠",
   "tags": [
+    "版本",
+    "多个",
     "复制",
-    "version控制",
+    "文件",
+    "修订",
+    "版本控制",
     "历史"
   ],
   "categories": [
@@ -22,7 +26,8 @@
         "revisions",
         "version control",
         "history"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

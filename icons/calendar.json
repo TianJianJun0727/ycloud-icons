@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "日历",
   "tags": [
-    "日期"
+    "日期",
+    "月",
+    "年",
+    "事件",
+    "生日",
+    "出生日期"
   ],
   "categories": [
     "time"
@@ -18,7 +23,8 @@
         "event",
         "birthday",
         "birthdate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

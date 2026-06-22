@@ -4,8 +4,9 @@
   "name": "音量关闭",
   "tags": [
     "音乐",
-    "扬声器",
-    "声音"
+    "声音",
+    "静音",
+    "扬声器"
   ],
   "categories": [
     "connectivity",
@@ -20,7 +21,8 @@
         "sound",
         "mute",
         "speaker"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

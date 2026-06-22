@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "圆形箭头外部上右",
   "tags": [
+    "向外",
     "方向",
+    "东北",
     "对角线"
   ],
   "categories": [
@@ -25,7 +27,8 @@
         "direction",
         "north-east",
         "diagonal"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

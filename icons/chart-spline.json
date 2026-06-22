@@ -3,8 +3,17 @@
   "use-cases": [],
   "name": "图表样条曲线",
   "tags": [
-    "图形",
-    "函数"
+    "统计",
+    "分析",
+    "图表",
+    "图",
+    "曲线",
+    "连续的",
+    "光滑",
+    "多项式",
+    "二次的",
+    "功能",
+    "插值法"
   ],
   "categories": [
     "charts"
@@ -24,7 +33,8 @@
         "quadratic",
         "function",
         "interpolation"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

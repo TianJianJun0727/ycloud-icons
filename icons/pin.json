@@ -6,7 +6,7 @@
     "保存",
     "地图",
     "锁定",
-    "锁"
+    "修复"
   ],
   "categories": [
     "navigation",
@@ -20,7 +20,8 @@
         "map",
         "lock",
         "fix"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

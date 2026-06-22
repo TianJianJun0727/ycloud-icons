@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "投屏",
   "tags": [
-    "隔空播放",
+    "铬铸",
+    "播放",
     "屏幕"
   ],
   "categories": [
@@ -17,7 +18,8 @@
         "chromecast",
         "airplay",
         "screen"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

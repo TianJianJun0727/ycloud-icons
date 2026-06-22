@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "地图图钉关闭",
   "tags": [
-    "移除",
-    "标记"
+    "位置",
+    "航路点",
+    "标记",
+    "移除"
   ],
   "categories": [
     "navigation",
@@ -18,7 +20,8 @@
         "waypoint",
         "marker",
         "remove"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

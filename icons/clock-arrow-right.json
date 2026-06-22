@@ -1,15 +1,16 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicating the end of a time range",
-    "unassign timing information"
+    "表示时间范围的结束",
+    "取消分配时间信息"
   ],
   "name": "时钟箭头右",
   "tags": [
     "时间",
     "手表",
     "闹钟",
-    "范围"
+    "范围",
+    "取消分配"
   ],
   "categories": [
     "time",
@@ -25,6 +26,10 @@
         "alarm",
         "range",
         "unassign"
+      ],
+      "use-cases": [
+        "indicating the end of a time range",
+        "unassign timing information"
       ]
     }
   }

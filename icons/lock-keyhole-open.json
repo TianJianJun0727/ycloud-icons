@@ -21,7 +21,8 @@
       "name": "lock keyhole open",
       "tags": [
         "security"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

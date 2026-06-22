@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "塔控制",
   "tags": [
+    "机场",
     "旅行",
     "塔",
-    "交通"
+    "交通",
+    "灯塔"
   ],
   "categories": [
     "travel",
@@ -20,7 +22,8 @@
         "tower",
         "transportation",
         "lighthouse"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

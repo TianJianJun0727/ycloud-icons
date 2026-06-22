@@ -14,7 +14,8 @@
       "name": "save",
       "tags": [
         "floppy disk"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

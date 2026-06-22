@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "导航2",
   "tags": [
+    "位置",
     "旅行"
   ],
   "categories": [
@@ -14,7 +15,8 @@
       "tags": [
         "location",
         "travel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,12 +4,15 @@
   "name": "缺陷关闭",
   "tags": [
     "问题",
-    "固定",
+    "固定的",
+    "已解决",
     "测试",
     "调试",
     "代码",
     "昆虫",
-    "pest控制"
+    "杀",
+    "消灭",
+    "害虫防治"
   ],
   "categories": [
     "development",
@@ -29,7 +32,8 @@
         "kill",
         "exterminate",
         "pest control"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

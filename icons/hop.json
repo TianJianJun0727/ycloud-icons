@@ -4,7 +4,8 @@
   "name": "啤酒花",
   "tags": [
     "啤酒",
-    "饮品"
+    "啤酒厂",
+    "喝"
   ],
   "categories": [
     "food-beverage"
@@ -16,7 +17,8 @@
         "beer",
         "brewery",
         "drink"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

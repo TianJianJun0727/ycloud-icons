@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "房屋插头",
   "tags": [
-    "家居",
-    "建筑",
-    "能源"
+    "首页",
+    "生活",
+    "建筑物",
+    "居住地",
+    "建筑学",
+    "自给自足",
+    "能量"
   ],
   "categories": [
     "buildings",
@@ -23,7 +27,8 @@
         "architecture",
         "autarky",
         "energy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

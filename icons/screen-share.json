@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "屏幕分享",
   "tags": [
+    "主机",
+    "桌面",
     "显示器"
   ],
   "categories": [
@@ -17,7 +19,8 @@
         "host",
         "desktop",
         "monitor"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

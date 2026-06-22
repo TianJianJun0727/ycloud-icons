@@ -4,7 +4,12 @@
   "name": "盾牌用户",
   "tags": [
     "盾牌",
-    "用户"
+    "用户",
+    "管理员",
+    "保护",
+    "受保护的",
+    "安全",
+    "守卫"
   ],
   "categories": [
     "account",
@@ -22,7 +27,8 @@
         "protected",
         "safety",
         "guard"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

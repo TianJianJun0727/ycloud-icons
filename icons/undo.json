@@ -4,6 +4,7 @@
   "name": "撤销",
   "tags": [
     "重做",
+    "重新运行",
     "历史"
   ],
   "categories": [
@@ -17,7 +18,8 @@
         "redo",
         "rerun",
         "history"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

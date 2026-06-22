@@ -3,6 +3,11 @@
   "use-cases": [],
   "name": "足迹",
   "tags": [
+    "步骤",
+    "步行",
+    "脚",
+    "脚",
+    "踪迹",
     "鞋"
   ],
   "categories": [
@@ -18,7 +23,8 @@
         "feet",
         "trail",
         "shoe"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

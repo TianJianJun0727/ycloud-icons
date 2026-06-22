@@ -5,8 +5,11 @@
   "tags": [
     "闹钟",
     "通知",
+    "沉默的",
+    "提醒",
     "删除",
-    "移除"
+    "移除",
+    "擦除"
   ],
   "categories": [
     "notifications"
@@ -22,7 +25,8 @@
         "delete",
         "remove",
         "erase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "替换",
   "tags": [
-    "搜索"
+    "搜索",
+    "替代品",
+    "交换",
+    "改变"
   ],
   "categories": [
     "text"
@@ -16,7 +19,8 @@
         "substitute",
         "swap",
         "change"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

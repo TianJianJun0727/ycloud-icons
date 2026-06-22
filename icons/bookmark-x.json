@@ -3,11 +3,15 @@
   "use-cases": [],
   "name": "书签关闭",
   "tags": [
+    "读",
+    "剪辑",
+    "标记",
     "标签",
+    "取消",
     "关闭",
     "删除",
     "移除",
-    "标记"
+    "清除"
   ],
   "categories": [
     "account"
@@ -25,7 +29,8 @@
         "delete",
         "remove",
         "clear"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

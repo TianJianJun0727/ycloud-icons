@@ -3,11 +3,20 @@
   "use-cases": [],
   "name": "图形处理器",
   "tags": [
+    "处理器",
+    "核心",
+    "技术",
     "电脑",
+    "芯片",
     "电路",
-    "graphicsprocessing单元",
-    "视频卡片",
-    "digital图片processing"
+    "规格",
+    "图形处理单元",
+    "视频卡",
+    "显示适配器",
+    "民主德国",
+    "渲染",
+    "数字图像处理",
+    "加密货币挖矿"
   ],
   "categories": [
     "devices",
@@ -31,7 +40,8 @@
         "rendering",
         "digital image processing",
         "crypto mining"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

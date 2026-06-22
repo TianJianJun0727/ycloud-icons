@@ -3,7 +3,16 @@
   "use-cases": [],
   "name": "手餐盘",
   "tags": [
-    "表格service"
+    "服务员",
+    "女服务员",
+    "餐厅",
+    "餐桌服务",
+    "服务",
+    "晚餐",
+    "餐饮",
+    "餐",
+    "课程",
+    "奢华"
   ],
   "categories": [
     "food-beverage",
@@ -23,7 +32,8 @@
         "meal",
         "course",
         "luxury"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

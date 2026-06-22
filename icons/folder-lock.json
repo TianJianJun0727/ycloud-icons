@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "文件夹锁定",
   "tags": [
-    "锁定",
-    "安全",
     "目录",
-    "锁"
+    "锁定",
+    "私人的",
+    "安全",
+    "受保护的"
   ],
   "categories": [
     "files",
@@ -21,7 +22,8 @@
         "private",
         "security",
         "protected"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

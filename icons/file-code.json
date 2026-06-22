@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "文件代码",
   "tags": [
-    "property列表",
+    "脚本",
     "文档",
+    "要点",
     "HTML",
-    "XML"
+    "XML",
+    "财产清单",
+    "列表"
   ],
   "categories": [
     "files",
@@ -23,7 +26,8 @@
         "xml",
         "property list",
         "plist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

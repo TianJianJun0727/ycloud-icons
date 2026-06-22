@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "列表视频",
   "tags": [
-    "视频"
+    "播放列表",
+    "视频",
+    "回放"
   ],
   "categories": [
     "multimedia"
@@ -15,7 +17,8 @@
         "playlist",
         "video",
         "playback"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

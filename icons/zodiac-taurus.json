@@ -3,8 +3,16 @@
   "use-cases": [],
   "name": "星座金牛座",
   "tags": [
+    "公牛",
+    "实力",
+    "稳定性",
     "地球",
-    "星标标志"
+    "耐力",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -24,7 +32,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

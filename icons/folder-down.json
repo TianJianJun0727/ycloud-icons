@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "文件夹下",
   "tags": [
+    "目录",
     "下载",
     "导入",
-    "目录"
+    "导出"
   ],
   "categories": [
     "files",
@@ -19,7 +20,8 @@
         "download",
         "import",
         "export"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "列表末端",
   "tags": [
+    "队列",
     "底部",
-    "末端"
+    "结束",
+    "播放列表"
   ],
   "categories": [
     "multimedia",
@@ -18,7 +20,8 @@
         "bottom",
         "end",
         "playlist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

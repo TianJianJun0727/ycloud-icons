@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "摩天轮轮",
   "tags": [
-    "大轮",
-    "daisy轮",
-    "娱乐"
+    "大轮子",
+    "菊花轮",
+    "观察",
+    "景点",
+    "娱乐",
+    "游乐园",
+    "主题公园",
+    "游乐场"
   ],
   "categories": [
     "navigation"
@@ -22,7 +27,8 @@
         "amusement park",
         "theme park",
         "funfair"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

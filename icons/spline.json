@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "样条曲线",
   "tags": [
+    "路径",
     "笔",
     "工具",
-    "形状"
+    "形状",
+    "曲线",
+    "画"
   ],
   "categories": [
     "design"
@@ -20,7 +23,8 @@
         "shape",
         "curve",
         "draw"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

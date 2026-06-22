@@ -5,7 +5,8 @@
   "tags": [
     "箭头",
     "方向",
-    "返回"
+    "返回",
+    "西"
   ],
   "categories": [
     "arrows"
@@ -18,7 +19,8 @@
         "direction",
         "back",
         "west"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "风扇",
   "tags": [
-    "风扇",
+    "空气",
+    "冷却器",
     "通风",
-    "散热"
+    "呼吸机",
+    "鼓风机"
   ],
   "categories": [
     "home"
@@ -19,7 +21,8 @@
         "ventilation",
         "ventilator",
         "blower"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

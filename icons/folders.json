@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "文件夹",
   "tags": [
-    "复制"
+    "多个",
+    "复制",
+    "目录"
   ],
   "categories": [
     "files"
@@ -15,7 +17,8 @@
         "multiple",
         "copy",
         "directories"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

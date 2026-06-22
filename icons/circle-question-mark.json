@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "圆形问题标记",
   "tags": [
-    "问题标记"
+    "问号"
   ],
   "categories": [
     "accessibility",
@@ -29,7 +29,8 @@
       "name": "circle question mark",
       "tags": [
         "question mark"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

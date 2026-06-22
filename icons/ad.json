@@ -1,12 +1,22 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "marking content as sponsored",
-    "linking to an advertise with us page"
+    "标记内容为赞助内容",
+    "链接到广告合作页面"
   ],
   "name": "广告",
   "tags": [
-    "营销"
+    "广告",
+    "附属机构",
+    "品牌",
+    "活动",
+    "商业",
+    "营销",
+    "货币化",
+    "付费的",
+    "合伙人",
+    "促销",
+    "赞助商"
   ],
   "categories": [
     "multimedia",
@@ -27,6 +37,10 @@
         "partner",
         "promo",
         "sponsor"
+      ],
+      "use-cases": [
+        "marking content as sponsored",
+        "linking to an advertise with us page"
       ]
     }
   }

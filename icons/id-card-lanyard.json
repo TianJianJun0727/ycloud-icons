@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "ID卡片挂绳",
   "tags": [
-    "ID卡片",
-    "ID卡片挂绳",
+    "身份证",
+    "身份证挂绳",
+    "身份",
+    "员工",
+    "门通行证",
     "徽章"
   ],
   "categories": [
@@ -21,7 +24,8 @@
         "employee",
         "gate-pass",
         "badge"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

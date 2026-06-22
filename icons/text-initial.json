@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "文本首字母",
   "tags": [
-    "drop帽子",
+    "首字下沉",
     "文本",
-    "字母",
-    "字号"
+    "格式",
+    "版式",
+    "信",
+    "字体大小"
   ],
   "categories": [
     "text"
@@ -29,7 +31,8 @@
         "typography",
         "letter",
         "font size"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

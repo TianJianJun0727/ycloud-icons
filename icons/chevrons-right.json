@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "双折角箭头右",
   "tags": [
+    "转",
     "角落"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "turn",
         "corner"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

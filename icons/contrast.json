@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "对比度",
   "tags": [
-    "无障碍"
+    "显示",
+    "可达性"
   ],
   "categories": [
     "photography",
@@ -16,7 +17,8 @@
       "tags": [
         "display",
         "accessibility"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

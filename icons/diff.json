@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "差异",
   "tags": [
+    "补丁",
+    "差异",
     "比较",
     "加号",
-    "减少",
-    "加号减少"
+    "减号",
+    "正负",
+    "数学"
   ],
   "categories": [
     "development",
@@ -23,7 +26,8 @@
         "minus",
         "plus-minus",
         "math"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

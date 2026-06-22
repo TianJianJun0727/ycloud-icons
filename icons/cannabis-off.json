@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "叶片关闭",
   "tags": [
-    "叶片",
-    "叶子"
+    "大麻",
+    "杂草",
+    "叶"
   ],
   "categories": [
     "nature"
@@ -16,7 +17,8 @@
         "cannabis",
         "weed",
         "leaf"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

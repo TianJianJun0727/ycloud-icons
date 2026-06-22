@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "鸟",
   "tags": [
-    "鸟",
-    "飞行",
-    "自然"
+    "和平",
+    "自由",
+    "翼",
+    "鸟类的",
+    "推特"
   ],
   "categories": [
     "animals"
@@ -19,7 +21,8 @@
         "wing",
         "avian",
         "tweet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

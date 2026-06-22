@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "鸟屋",
   "tags": [
-    "鸟屋",
+    "鸟舍",
     "鸟",
-    "家居",
-    "房屋"
+    "花园",
+    "首页",
+    "房子",
+    "木制品"
   ],
   "categories": [
     "nature",
@@ -24,7 +26,8 @@
         "home",
         "house",
         "woodwork"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "开关右",
   "tags": [
+    "上",
     "关闭",
-    "切换"
+    "开关",
+    "布尔值"
   ],
   "categories": [
     "layout",
@@ -19,7 +21,8 @@
         "off",
         "switch",
         "boolean"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

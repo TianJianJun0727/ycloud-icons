@@ -4,8 +4,12 @@
   "name": "啤酒花关闭",
   "tags": [
     "啤酒",
-    "饮品",
-    "啤酒花free"
+    "啤酒厂",
+    "喝",
+    "自由跳跃",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -21,7 +25,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

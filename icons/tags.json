@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "标签组",
   "tags": [
-    "票券",
-    "复制"
+    "标签",
+    "徽章",
+    "门票",
+    "标记",
+    "复制",
+    "多个"
   ],
   "categories": [
     "account"
@@ -19,7 +23,8 @@
         "marks",
         "copy",
         "multiple"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

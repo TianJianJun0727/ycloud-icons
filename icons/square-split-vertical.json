@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "方形拆分垂直",
   "tags": [
-    "拆分",
-    "除号"
+    "分裂",
+    "划分"
   ],
   "categories": [
     "layout"
@@ -23,7 +23,8 @@
       "tags": [
         "split",
         "divide"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

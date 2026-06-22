@@ -4,8 +4,8 @@
   "name": "音量1",
   "tags": [
     "音乐",
-    "扬声器",
-    "声音"
+    "声音",
+    "扬声器"
   ],
   "categories": [
     "connectivity",
@@ -19,7 +19,8 @@
         "music",
         "sound",
         "speaker"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

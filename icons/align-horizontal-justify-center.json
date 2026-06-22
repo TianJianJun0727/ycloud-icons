@@ -3,10 +3,10 @@
   "use-cases": [],
   "name": "对齐水平对齐居中",
   "tags": [
-    "居中",
+    "中心",
     "项目",
-    "弹性布局",
-    "对齐"
+    "弯曲",
+    "证明合理"
   ],
   "categories": [
     "layout"
@@ -19,7 +19,8 @@
         "items",
         "flex",
         "justify"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

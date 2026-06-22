@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "麦克风关闭",
   "tags": [
-    "声音"
+    "记录",
+    "声音",
+    "静音",
+    "麦克风"
   ],
   "categories": [
     "devices",
@@ -19,7 +22,8 @@
         "sound",
         "mute",
         "microphone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

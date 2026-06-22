@@ -4,7 +4,8 @@
   "name": "视频关闭",
   "tags": [
     "相机",
-    "胶片"
+    "电影",
+    "电影"
   ],
   "categories": [
     "devices",
@@ -19,7 +20,8 @@
         "camera",
         "movie",
         "film"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

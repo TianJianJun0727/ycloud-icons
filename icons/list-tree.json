@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "列表树",
   "tags": [
-    "树"
+    "树",
+    "浏览器"
   ],
   "categories": [
     "files",
@@ -16,7 +17,8 @@
       "tags": [
         "tree",
         "browser"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

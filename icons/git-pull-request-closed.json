@@ -4,7 +4,10 @@
   "name": "Git拉取请求关闭",
   "tags": [
     "代码",
-    "version控制",
+    "版本控制",
+    "被拒绝",
+    "关闭",
+    "取消",
     "关闭"
   ],
   "categories": [
@@ -20,7 +23,8 @@
         "closed",
         "cancelled",
         "x"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "公文包",
   "tags": [
+    "工作",
     "包",
     "行李",
     "文件夹"
@@ -18,7 +19,8 @@
         "bag",
         "baggage",
         "folder"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

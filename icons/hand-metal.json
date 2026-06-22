@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "手金属",
   "tags": [
-    "手势",
-    "摇滚",
-    "手掌"
+    "摇滚"
   ],
   "categories": [
     "emoji",
@@ -16,7 +14,8 @@
       "name": "hand metal",
       "tags": [
         "rock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

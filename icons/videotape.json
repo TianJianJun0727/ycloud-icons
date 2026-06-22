@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "录像带",
   "tags": [
-    "胶片",
-    "运动图片",
-    "磁带"
+    "录像带",
+    "电影",
+    "电影",
+    "录音",
+    "电影",
+    "演出影片",
+    "盒式磁带"
   ],
   "categories": [
     "devices",
@@ -25,7 +29,8 @@
         "motion picture",
         "showreel",
         "cassette"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

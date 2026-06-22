@@ -4,8 +4,9 @@
   "name": "无线网络笔",
   "tags": [
     "编辑",
-    "无线网络",
+    "Wi-Fi",
     "笔",
+    "改变",
     "网络"
   ],
   "categories": [
@@ -21,7 +22,8 @@
         "pen",
         "change",
         "network"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

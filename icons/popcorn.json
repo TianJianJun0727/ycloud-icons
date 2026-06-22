@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "爆米花",
   "tags": [
-    "糖果"
+    "电影院",
+    "电影",
+    "电影",
+    "盐腌的",
+    "甜甜的",
+    "糖",
+    "糖果",
+    "小吃"
   ],
   "categories": [
     "food-beverage",
@@ -21,7 +28,8 @@
         "sugar",
         "candy",
         "snack"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,7 +4,11 @@
   "name": "移动三维",
   "tags": [
     "箭头",
-    "轴"
+    "轴",
+    "小发明",
+    "坐标",
+    "变换",
+    "翻译"
   ],
   "categories": [
     "design"
@@ -27,7 +31,8 @@
         "coordinates",
         "transform",
         "translate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -18,7 +18,8 @@
         "fullscreen",
         "expand",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

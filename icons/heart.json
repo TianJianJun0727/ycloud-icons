@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "爱心",
   "tags": [
-    "情绪",
+    "喜欢",
+    "爱",
+    "情感",
+    "西装",
+    "玩",
     "卡片"
   ],
   "categories": [
@@ -24,7 +28,8 @@
         "suit",
         "playing",
         "cards"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

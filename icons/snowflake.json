@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "雪花",
   "tags": [
+    "冷",
     "天气",
-    "雪"
+    "冻结",
+    "雪",
+    "冬天"
   ],
   "categories": [
     "weather",
@@ -19,7 +22,8 @@
         "freeze",
         "snow",
         "winter"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

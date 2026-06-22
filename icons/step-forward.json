@@ -7,7 +7,7 @@
     "下一个",
     "音乐",
     "右",
-    "向右"
+    "继续"
   ],
   "categories": [
     "multimedia",
@@ -22,7 +22,8 @@
         "music",
         "right",
         "continue"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

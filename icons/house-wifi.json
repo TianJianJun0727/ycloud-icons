@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "房屋无线网络",
   "tags": [
-    "家居",
-    "建筑",
-    "无线网络",
-    "连接"
+    "首页",
+    "生活",
+    "建筑物",
+    "Wi-Fi",
+    "连接性"
   ],
   "categories": [
     "home",
@@ -22,7 +23,8 @@
         "building",
         "wifi",
         "connectivity"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

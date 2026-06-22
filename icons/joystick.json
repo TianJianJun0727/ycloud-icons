@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "摇杆",
   "tags": [
-    "控制手杖",
-    "游戏"
+    "游戏",
+    "控制台",
+    "控制杆"
   ],
   "categories": [
     "gaming",
@@ -17,7 +18,8 @@
         "game",
         "console",
         "control stick"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

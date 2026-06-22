@@ -3,8 +3,17 @@
   "use-cases": [],
   "name": "摩托车",
   "tags": [
-    "驱动器",
-    "行程"
+    "摩托",
+    "摩托车",
+    "运输",
+    "车辆",
+    "开车",
+    "骑",
+    "旅行",
+    "种族",
+    "赛车",
+    "旅程",
+    "交货"
   ],
   "categories": [
     "transportation"
@@ -24,7 +33,8 @@
         "racing",
         "journey",
         "delivery"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

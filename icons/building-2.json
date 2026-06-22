@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "建筑2",
   "tags": [
-    "商务"
+    "商业",
+    "公司",
+    "企业",
+    "摩天大楼",
+    "组织",
+    "组织",
+    "城市"
   ],
   "categories": [
     "account",
@@ -20,7 +26,8 @@
         "organisation",
         "organization",
         "city"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,13 @@
   "use-cases": [],
   "name": "花括号",
   "tags": [
+    "JSON",
     "代码",
-    "curly方括号"
+    "代币",
+    "大括号",
+    "数据",
+    "{",
+    "}"
   ],
   "categories": [
     "development",
@@ -29,7 +34,8 @@
         "data",
         "{",
         "}"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

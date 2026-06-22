@@ -12,6 +12,8 @@ if (files.length === 0) {
 
 const hasCjk = (value: string) => /[\u3400-\u9fff]/.test(value);
 const isSlugLike = (value: string) => /^[a-z0-9]+(?:[-_][a-z0-9]+)+$/.test(value.trim());
+const isStringArray = (value: unknown): value is string[] =>
+  Array.isArray(value) && value.every((item) => typeof item === 'string');
 const isMeaningfulArray = (value: unknown): value is string[] =>
   Array.isArray(value) && value.every((item) => typeof item === 'string') && value.length > 0;
 
@@ -20,6 +22,8 @@ const iconI18nSchema = z.object({
   nameEn: z.string(),
   tagsZh: z.array(z.string()),
   tagsEn: z.array(z.string()),
+  useCasesZh: z.array(z.string()),
+  useCasesEn: z.array(z.string()),
 });
 
 const categoryI18nSchema = z.object({
@@ -32,6 +36,13 @@ function needsIconAiFix(metadata: Record<string, any>) {
   const currentEnglishName = String(metadata.i18n?.en?.name ?? '');
   const currentTags = metadata.tags;
   const currentEnglishTags = metadata.i18n?.en?.tags;
+  const currentUseCases = metadata['use-cases'];
+  const currentEnglishUseCases = metadata.i18n?.en?.['use-cases'];
+  const isChineseUseCasesArray = isStringArray(currentUseCases);
+  const isEnglishUseCasesArray = isStringArray(currentEnglishUseCases);
+  const hasChineseUseCases = isMeaningfulArray(currentUseCases);
+  const hasEnglishUseCases = isMeaningfulArray(currentEnglishUseCases);
+  const hasAnyUseCases = hasChineseUseCases || hasEnglishUseCases;
 
   return {
     shouldFixName: !currentName || !hasCjk(currentName),
@@ -43,6 +54,15 @@ function needsIconAiFix(metadata: Record<string, any>) {
     shouldFixTags: !isMeaningfulArray(currentTags) || currentTags.every((tag) => !hasCjk(tag)),
     shouldFixEnglishTags:
       !isMeaningfulArray(currentEnglishTags) || currentEnglishTags.some((tag) => hasCjk(tag)),
+    shouldNormalizeEmptyUseCases:
+      !hasAnyUseCases && (!isChineseUseCasesArray || !isEnglishUseCasesArray),
+    shouldFixUseCases:
+      hasAnyUseCases &&
+      (!isChineseUseCasesArray ||
+        !isEnglishUseCasesArray ||
+        hasChineseUseCases !== hasEnglishUseCases ||
+        (hasChineseUseCases && currentUseCases.some((useCase) => !hasCjk(useCase))) ||
+        (hasEnglishUseCases && currentEnglishUseCases.some((useCase) => hasCjk(useCase)))),
   };
 }
 
@@ -79,6 +99,8 @@ async function completeIconMetadata(file: string, metadata: Record<string, any>)
     shouldFixEnglishName,
     shouldFixTags,
     shouldFixEnglishTags,
+    shouldNormalizeEmptyUseCases,
+    shouldFixUseCases,
   } = needsIconAiFix(metadata);
 
   const next = { ...metadata };
@@ -93,7 +115,18 @@ async function completeIconMetadata(file: string, metadata: Record<string, any>)
     delete next.i18n.en.categories;
   }
 
-  if (!shouldFixName && !shouldFixEnglishName && !shouldFixTags && !shouldFixEnglishTags) {
+  if (shouldNormalizeEmptyUseCases) {
+    next['use-cases'] = [];
+    next.i18n.en['use-cases'] = [];
+  }
+
+  if (
+    !shouldFixName &&
+    !shouldFixEnglishName &&
+    !shouldFixTags &&
+    !shouldFixEnglishTags &&
+    !shouldFixUseCases
+  ) {
     return next;
   }
 
@@ -104,8 +137,10 @@ async function completeIconMetadata(file: string, metadata: Record<string, any>)
     file: iconName,
     name: metadata.name ?? '',
     tags: metadata.tags ?? [],
+    useCases: metadata['use-cases'] ?? [],
     englishName: metadata.i18n?.en?.name ?? '',
     englishTags: metadata.i18n?.en?.tags ?? [],
+    englishUseCases: metadata.i18n?.en?.['use-cases'] ?? [],
   };
 
   const fixed = await ai.completeJson(
@@ -114,8 +149,13 @@ async function completeIconMetadata(file: string, metadata: Record<string, any>)
 Rules:
 - nameZh and tagsZh must be Simplified Chinese for UI display and search.
 - nameEn and tagsEn must be natural English.
+- If either language already has tags, translate them into the other language and keep the same length and order.
+- useCasesZh must be Simplified Chinese and useCasesEn must be English.
+- Empty use-cases are allowed only when both languages are empty.
+- If either language already has use-cases, translate them into the other language and keep the same length and order.
 - Do not include the word "icon".
 - Keep tags short and useful for search.
+- Keep use-cases short, concrete, and without trailing punctuation.
 - Preserve the meaning of the file name and current metadata.
 
 Current metadata:
@@ -140,15 +180,23 @@ ${JSON.stringify(current, null, 2)}`,
     next.i18n.en.tags = fixed.tagsEn;
   }
 
+  if (shouldFixUseCases) {
+    const currentUseCases = isStringArray(metadata['use-cases']) ? metadata['use-cases'] : [];
+    const currentEnglishUseCases = isStringArray(metadata.i18n?.en?.['use-cases'])
+      ? metadata.i18n.en['use-cases']
+      : [];
+    const bothEmpty = currentUseCases.length === 0 && currentEnglishUseCases.length === 0;
+
+    next['use-cases'] = bothEmpty ? [] : fixed.useCasesZh;
+    next.i18n.en['use-cases'] = bothEmpty ? [] : fixed.useCasesEn;
+  }
+
   return next;
 }
 
 async function completeCategoryMetadata(file: string, metadata: Record<string, any>) {
   const categoryName = path.basename(file, '.json');
-  const {
-    shouldFixTitle,
-    shouldFixEnglishTitle,
-  } = needsCategoryAiFix(metadata);
+  const { shouldFixTitle, shouldFixEnglishTitle } = needsCategoryAiFix(metadata);
 
   const next = { ...metadata };
   next.i18n = {

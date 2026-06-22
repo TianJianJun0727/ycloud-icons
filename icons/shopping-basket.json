@@ -4,8 +4,12 @@
   "name": "购物篮子",
   "tags": [
     "购物车",
+    "电子商务",
     "商店",
-    "项目"
+    "购买",
+    "产品",
+    "项目",
+    "成分"
   ],
   "categories": [
     "shopping"
@@ -21,7 +25,8 @@
         "products",
         "items",
         "ingredients"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

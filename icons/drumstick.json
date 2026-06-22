@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "鼓槌",
   "tags": [
-    "食物"
+    "食物",
+    "鸡",
+    "肉"
   ],
   "categories": [
     "food-beverage"
@@ -15,7 +17,8 @@
         "food",
         "chicken",
         "meat"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

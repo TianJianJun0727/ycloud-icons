@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "用户",
   "tags": [
-    "人员",
-    "账号",
-    "联系人"
+    "人",
+    "帐户",
+    "联系方式"
   ],
   "categories": [
     "account"
@@ -17,7 +17,8 @@
         "person",
         "account",
         "contact"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -5,7 +5,11 @@
   "tags": [
     "电子表格",
     "网格",
-    "除号"
+    "切",
+    "打破",
+    "划分",
+    "分开",
+    "段"
   ],
   "categories": [
     "text",
@@ -22,7 +26,8 @@
         "divide",
         "separate",
         "segment"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

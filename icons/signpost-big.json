@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "路标大",
   "tags": [
+    "双向",
     "左",
     "右",
-    "向左",
-    "向右"
+    "东",
+    "西"
   ],
   "categories": [
     "arrows",
@@ -23,7 +24,8 @@
         "right",
         "east",
         "west"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

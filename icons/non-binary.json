@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "非二进制",
   "tags": [
-    "性别"
+    "性别",
+    "非二元的",
+    "恩比"
   ],
   "categories": [
     "medical"
@@ -15,7 +17,8 @@
         "gender",
         "nonbinary",
         "enby"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

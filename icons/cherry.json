@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "樱桃",
   "tags": [
-    "食物",
-    "水果"
+    "水果",
+    "食物"
   ],
   "categories": [
     "food-beverage"
@@ -15,7 +15,8 @@
       "tags": [
         "fruit",
         "food"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

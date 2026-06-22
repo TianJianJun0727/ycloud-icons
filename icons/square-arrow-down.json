@@ -3,11 +3,13 @@
   "use-cases": [],
   "name": "方形箭头下",
   "tags": [
+    "向后",
+    "反向",
     "方向",
+    "南",
     "标志",
     "键盘",
-    "后退",
-    "反向"
+    "按钮"
   ],
   "categories": [
     "arrows",
@@ -32,7 +34,8 @@
         "sign",
         "keyboard",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

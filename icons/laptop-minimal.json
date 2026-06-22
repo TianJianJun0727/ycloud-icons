@@ -4,7 +4,8 @@
   "name": "笔记本电脑极简",
   "tags": [
     "电脑",
-    "屏幕"
+    "屏幕",
+    "远程"
   ],
   "categories": [
     "devices"
@@ -24,7 +25,8 @@
         "computer",
         "screen",
         "remote"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

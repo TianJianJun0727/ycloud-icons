@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "钱包",
   "tags": [
+    "钱",
     "金融",
     "口袋"
   ],
@@ -17,7 +18,8 @@
         "money",
         "finance",
         "pocket"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

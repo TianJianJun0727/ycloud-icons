@@ -14,7 +14,8 @@
       "name": "text cursor input",
       "tags": [
         "select"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

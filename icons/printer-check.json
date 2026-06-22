@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "打印机勾选",
   "tags": [
-    "设备"
+    "传真",
+    "办公室",
+    "装置",
+    "成功",
+    "印刷的"
   ],
   "categories": [
     "devices"
@@ -17,7 +21,8 @@
         "device",
         "success",
         "printed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

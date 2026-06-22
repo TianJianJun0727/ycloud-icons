@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "触控板",
   "tags": [
+    "触控板",
     "光标"
   ],
   "categories": [
@@ -14,7 +15,8 @@
       "tags": [
         "trackpad",
         "cursor"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

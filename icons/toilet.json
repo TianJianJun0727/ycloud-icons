@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "马桶",
   "tags": [
-    "马桶"
+    "厕所",
+    "便盆",
+    "浴室",
+    "洗手间"
   ],
   "categories": [
     "devices",
@@ -17,7 +20,8 @@
         "potty",
         "bathroom",
         "washroom"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

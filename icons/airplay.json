@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "隔空播放",
   "tags": [
-    "串流",
-    "投屏",
+    "流",
+    "演员表",
+    "镜像",
     "屏幕",
-    "显示器"
+    "显示器",
+    "macOS",
+    "OS X"
   ],
   "categories": [
     "multimedia",
@@ -23,7 +26,8 @@
         "monitor",
         "macos",
         "osx"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

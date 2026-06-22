@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "用户组",
   "tags": [
-    "组合"
+    "分组",
+    "人"
   ],
   "categories": [
     "account"
@@ -14,7 +15,8 @@
       "tags": [
         "group",
         "people"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "音乐2",
   "tags": [
-    "eighth便签",
-    "便签"
+    "颤抖",
+    "八分音符",
+    "注释"
   ],
   "categories": [
     "multimedia",
@@ -17,7 +18,8 @@
         "quaver",
         "eighth note",
         "note"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

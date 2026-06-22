@@ -4,8 +4,12 @@
   "name": "线轴",
   "tags": [
     "线轴",
-    "卷轴",
-    "缠绕"
+    "主轴",
+    "纱线",
+    "线程",
+    "字符串",
+    "缝纫",
+    "针线活"
   ],
   "categories": [
     "communication",
@@ -23,7 +27,8 @@
         "string",
         "sewing",
         "needlework"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

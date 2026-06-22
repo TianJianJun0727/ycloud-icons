@@ -5,7 +5,9 @@
   "tags": [
     "时间",
     "手表",
-    "闹钟"
+    "闹钟",
+    "中午",
+    "午夜"
   ],
   "categories": [
     "time"
@@ -19,7 +21,8 @@
         "alarm",
         "noon",
         "midnight"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

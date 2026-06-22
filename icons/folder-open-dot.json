@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "文件夹打开点",
   "tags": [
+    "目录",
     "根",
     "项目",
-    "定位",
-    "目录"
+    "活跃的",
+    "当前",
+    "固定的"
   ],
   "categories": [
     "files",
@@ -22,7 +24,8 @@
         "active",
         "current",
         "pinned"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

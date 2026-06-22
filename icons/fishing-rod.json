@@ -4,8 +4,10 @@
   "name": "钓鱼鱼竿",
   "tags": [
     "钓鱼",
-    "鱼竿",
-    "设备"
+    "杆",
+    "爱好",
+    "设备",
+    "卷轴"
   ],
   "categories": [
     "sports",
@@ -20,7 +22,8 @@
         "hobby",
         "equipment",
         "reel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

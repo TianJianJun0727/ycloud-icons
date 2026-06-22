@@ -4,8 +4,12 @@
   "name": "冰箱",
   "tags": [
     "冰箱",
-    "厨房",
-    "冷藏"
+    "冰箱",
+    "冰柜",
+    "冷却器",
+    "冰箱",
+    "冷水机",
+    "冷库"
   ],
   "categories": [
     "food-beverage",
@@ -22,7 +26,8 @@
         "icebox",
         "chiller",
         "cold storage"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

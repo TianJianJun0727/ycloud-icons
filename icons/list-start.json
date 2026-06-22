@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "列表起始",
   "tags": [
+    "队列",
     "顶部",
-    "起始",
-    "下一个"
+    "开始",
+    "下一个",
+    "播放列表"
   ],
   "categories": [
     "multimedia",
@@ -20,7 +22,8 @@
         "start",
         "next",
         "playlist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

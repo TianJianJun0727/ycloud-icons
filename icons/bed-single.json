@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "床单人",
   "tags": [
-    "酒店"
+    "睡觉",
+    "酒店",
+    "家具"
   ],
   "categories": [
     "home"
@@ -15,7 +17,8 @@
         "sleep",
         "hotel",
         "furniture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

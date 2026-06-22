@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "游戏手柄",
   "tags": [
-    "游戏手柄",
-    "游戏",
-    "控制器"
+    "控制台"
   ],
   "categories": [
     "gaming",
@@ -16,7 +14,8 @@
       "name": "gamepad",
       "tags": [
         "console"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

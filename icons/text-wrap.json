@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "文本换行",
   "tags": [
-    "线条"
+    "话",
+    "线",
+    "打破",
+    "段落"
   ],
   "categories": [
     "text",
@@ -25,7 +28,8 @@
         "lines",
         "break",
         "paragraph"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

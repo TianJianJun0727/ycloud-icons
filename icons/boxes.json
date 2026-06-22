@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "盒子组",
   "tags": [
-    "组合",
-    "单位"
+    "立方体",
+    "包",
+    "零件",
+    "分组",
+    "单位",
+    "收藏",
+    "集群",
+    "几何学"
   ],
   "categories": [
     "shapes",
@@ -23,7 +29,8 @@
         "collection",
         "cluster",
         "geometry"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

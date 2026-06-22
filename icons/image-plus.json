@@ -19,7 +19,8 @@
         "add",
         "create",
         "picture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

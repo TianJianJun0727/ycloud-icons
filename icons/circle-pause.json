@@ -25,7 +25,8 @@
         "music",
         "audio",
         "stop"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "硬盘帽子",
   "tags": [
-    "施工"
+    "头盔",
+    "建筑",
+    "安全",
+    "萨维提"
   ],
   "categories": [
     "tools"
@@ -16,7 +19,8 @@
         "construction",
         "safety",
         "savety"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

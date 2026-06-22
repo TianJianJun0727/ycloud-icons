@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "魔法棒",
   "tags": [
-    "魔法棒",
-    "闪光",
-    "增强"
+    "魔法",
+    "向导",
+    "魔术师"
   ],
   "categories": [
     "design",
@@ -28,7 +28,8 @@
         "magic",
         "wizard",
         "magician"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

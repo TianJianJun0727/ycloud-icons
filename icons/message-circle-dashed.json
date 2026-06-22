@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "消息圆形虚线",
   "tags": [
-    "语音bubble",
-    "草稿",
-    "聊天"
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡",
+    "草稿"
   ],
   "categories": [
     "social"
@@ -21,7 +25,8 @@
         "feedback",
         "speech bubble",
         "draft"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

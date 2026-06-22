@@ -3,10 +3,14 @@
   "use-cases": [],
   "name": "消息方形分享",
   "tags": [
-    "语音bubble",
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡",
     "网络",
-    "前进",
-    "聊天"
+    "前进"
   ],
   "categories": [
     "social"
@@ -23,7 +27,8 @@
         "speech bubble",
         "network",
         "forward"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

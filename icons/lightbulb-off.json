@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "灯泡关闭",
   "tags": [
-    "灯泡",
-    "关闭",
-    "灵感"
+    "灯"
   ],
   "categories": [
     "photography"
@@ -15,7 +13,8 @@
       "name": "lightbulb off",
       "tags": [
         "lights"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

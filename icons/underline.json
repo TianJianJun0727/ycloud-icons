@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "下划线",
   "tags": [
-    "文本"
+    "文本",
+    "格式"
   ],
   "categories": [
     "text"
@@ -14,7 +15,8 @@
       "tags": [
         "text",
         "format"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "铲子",
   "tags": [
-    "黑桃"
+    "挖",
+    "铲子",
+    "宝藏"
   ],
   "categories": [
     "nature",
@@ -17,7 +19,8 @@
         "dig",
         "spade",
         "treasure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

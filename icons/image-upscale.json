@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "图片放大",
   "tags": [
+    "调整大小",
     "图片",
+    "锐化",
     "增加"
   ],
   "categories": [
@@ -18,7 +20,8 @@
         "picture",
         "sharpen",
         "increase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

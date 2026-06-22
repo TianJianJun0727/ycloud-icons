@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "运动鞋",
   "tags": [
+    "鞋类",
+    "体育",
+    "跑步",
+    "运动的",
     "鞋",
+    "运动鞋",
+    "培训",
+    "锻炼",
     "健身"
   ],
   "categories": [
@@ -22,7 +29,8 @@
         "training",
         "exercise",
         "fitness"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

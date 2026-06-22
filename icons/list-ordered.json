@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "列表有序",
   "tags": [
-    "列表",
-    "排序",
-    "编号"
+    "数量",
+    "订单",
+    "队列"
   ],
   "categories": [
     "text"
@@ -17,7 +17,8 @@
         "number",
         "order",
         "queue"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

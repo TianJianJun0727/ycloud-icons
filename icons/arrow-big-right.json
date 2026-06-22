@@ -5,7 +5,9 @@
   "tags": [
     "下一个",
     "前进",
-    "方向"
+    "方向",
+    "东",
+    "指示转弯"
   ],
   "categories": [
     "arrows",
@@ -20,7 +22,8 @@
         "direction",
         "east",
         "indicate turn"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

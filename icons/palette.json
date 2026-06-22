@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "调色板",
   "tags": [
-    "绘制"
+    "颜色",
+    "颜色",
+    "主题",
+    "方案",
+    "油漆",
+    "水彩",
+    "水彩",
+    "艺术家"
   ],
   "categories": [
     "text",
@@ -22,7 +29,8 @@
         "watercolor",
         "watercolour",
         "artist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

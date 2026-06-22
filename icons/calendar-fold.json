@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "日历折叠",
   "tags": [
-    "日期"
+    "日期",
+    "月",
+    "年",
+    "事件",
+    "生日",
+    "出生日期",
+    "集成电路"
   ],
   "categories": [
     "time",
@@ -20,7 +26,8 @@
         "birthday",
         "birthdate",
         "ics"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

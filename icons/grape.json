@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "葡萄",
   "tags": [
-    "葡萄酒",
-    "食物",
-    "水果"
+    "水果",
+    "酒",
+    "食物"
   ],
   "categories": [
     "food-beverage"
@@ -17,7 +17,8 @@
         "fruit",
         "wine",
         "food"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

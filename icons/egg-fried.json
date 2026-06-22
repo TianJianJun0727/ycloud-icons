@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "鸡蛋煎",
   "tags": [
-    "食物"
+    "食物",
+    "早餐"
   ],
   "categories": [
     "food-beverage"
@@ -14,7 +15,8 @@
       "tags": [
         "food",
         "breakfast"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

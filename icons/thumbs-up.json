@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "赞同",
   "tags": [
-    "情绪"
+    "喜欢",
+    "好",
+    "情感"
   ],
   "categories": [
     "account",
@@ -17,7 +19,8 @@
         "like",
         "good",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

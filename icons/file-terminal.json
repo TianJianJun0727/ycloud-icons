@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "文件终端",
   "tags": [
-    "终端"
+    "终端",
+    "巴什",
+    "脚本",
+    "可执行文件"
   ],
   "categories": [
     "files",
@@ -17,7 +20,8 @@
         "bash",
         "script",
         "executable"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

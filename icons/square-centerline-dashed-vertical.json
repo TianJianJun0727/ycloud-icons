@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "方形中心线虚线垂直",
   "tags": [
-    "镜像",
+    "反映",
+    "镜子",
+    "对准",
     "虚线"
   ],
   "categories": [
@@ -26,7 +28,8 @@
         "mirror",
         "alignment",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

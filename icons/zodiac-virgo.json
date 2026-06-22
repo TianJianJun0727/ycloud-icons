@@ -3,8 +3,17 @@
   "use-cases": [],
   "name": "星座处女座",
   "tags": [
+    "处女",
+    "少女",
+    "收获",
+    "精度",
     "地球",
-    "星标标志"
+    "分析",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -25,7 +34,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

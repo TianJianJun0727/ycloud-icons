@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "圆形美元标志",
   "tags": [
+    "货币化",
     "营销",
     "货币",
-    "支付"
+    "钱",
+    "付款"
   ],
   "categories": [
     "finance"
@@ -19,7 +21,8 @@
         "currency",
         "money",
         "payment"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

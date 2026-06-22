@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "无障碍",
   "tags": [
-    "无障碍",
-    "禁用",
+    "残疾",
+    "残疾人",
+    "达达",
     "轮椅"
   ],
   "categories": [
@@ -19,7 +20,8 @@
         "disabled",
         "dda",
         "wheelchair"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

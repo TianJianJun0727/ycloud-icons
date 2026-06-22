@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "语言",
   "tags": [
-    "语言",
-    "翻译",
-    "本地化"
+    "翻译"
   ],
   "categories": [
     "text"
@@ -15,7 +13,8 @@
       "name": "languages",
       "tags": [
         "translate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

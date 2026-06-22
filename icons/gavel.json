@@ -3,7 +3,17 @@
   "use-cases": [],
   "name": "法槌",
   "tags": [
-    "锤子"
+    "正义",
+    "法律",
+    "法庭",
+    "判断力",
+    "合法的",
+    "手",
+    "处罚",
+    "决定",
+    "权威",
+    "锤子",
+    "木槌"
   ],
   "categories": [
     "navigation",
@@ -24,7 +34,8 @@
         "authority",
         "hammer",
         "mallet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

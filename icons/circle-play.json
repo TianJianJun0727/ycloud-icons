@@ -4,7 +4,8 @@
   "name": "圆形播放",
   "tags": [
     "音乐",
-    "起始"
+    "开始",
+    "跑"
   ],
   "categories": [
     "multimedia"
@@ -24,7 +25,8 @@
         "music",
         "start",
         "run"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "灯墙上",
   "tags": [
+    "照明",
+    "家庭",
     "墙",
-    "家居"
+    "首页",
+    "家具"
   ],
   "categories": [
     "home"
@@ -18,7 +21,8 @@
         "wall",
         "home",
         "furniture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

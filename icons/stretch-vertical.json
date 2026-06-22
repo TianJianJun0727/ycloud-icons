@@ -4,9 +4,9 @@
   "name": "拉伸垂直",
   "tags": [
     "项目",
-    "弹性布局",
-    "对齐",
-    "分布"
+    "弯曲",
+    "证明合理",
+    "分发"
   ],
   "categories": [
     "layout"
@@ -19,7 +19,8 @@
         "flex",
         "justify",
         "distribute"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

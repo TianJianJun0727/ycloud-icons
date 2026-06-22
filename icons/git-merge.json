@@ -4,7 +4,7 @@
   "name": "Git合并",
   "tags": [
     "代码",
-    "version控制"
+    "版本控制"
   ],
   "categories": [
     "development"
@@ -15,7 +15,8 @@
       "tags": [
         "code",
         "version control"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

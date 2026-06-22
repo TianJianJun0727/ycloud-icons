@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "贴纸",
   "tags": [
-    "情绪",
-    "笑脸"
+    "反应",
+    "情感",
+    "微笑",
+    "快乐",
+    "反馈"
   ],
   "categories": [
     "social"
@@ -18,7 +21,8 @@
         "smile",
         "happy",
         "feedback"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

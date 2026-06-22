@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "曲奇",
   "tags": [
+    "饼干",
+    "隐私",
+    "合法的",
     "食物"
   ],
   "categories": [
@@ -17,7 +20,8 @@
         "privacy",
         "legal",
         "food"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

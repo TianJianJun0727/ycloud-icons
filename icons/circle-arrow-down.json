@@ -3,10 +3,12 @@
   "use-cases": [],
   "name": "圆形箭头下",
   "tags": [
+    "向后",
+    "反向",
     "方向",
+    "南",
     "标志",
-    "后退",
-    "反向"
+    "按钮"
   ],
   "categories": [
     "arrows",
@@ -30,7 +32,8 @@
         "south",
         "sign",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

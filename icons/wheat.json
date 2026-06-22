@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "小麦",
   "tags": [
-    "小麦",
+    "玉米",
     "谷物",
-    "农业"
+    "谷物",
+    "麸质"
   ],
   "categories": [
     "food-beverage"
@@ -18,7 +19,8 @@
         "cereal",
         "grain",
         "gluten"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

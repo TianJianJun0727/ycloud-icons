@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "文件夹代码",
   "tags": [
-    "目录"
+    "目录",
+    "编码",
+    "发展",
+    "软件"
   ],
   "categories": [
     "files",
@@ -17,7 +20,8 @@
         "coding",
         "develop",
         "software"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

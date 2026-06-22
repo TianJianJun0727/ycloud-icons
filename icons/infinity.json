@@ -4,8 +4,9 @@
   "name": "无限",
   "tags": [
     "无限",
+    "永远",
     "循环",
-    "持续"
+    "数学"
   ],
   "categories": [
     "multimedia"
@@ -18,7 +19,8 @@
         "forever",
         "loop",
         "math"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

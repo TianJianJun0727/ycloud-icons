@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "钥匙",
   "tags": [
-    "钥匙响铃"
+    "密码",
+    "登录",
+    "认证",
+    "安全",
+    "解锁",
+    "钥匙扣",
+    "钥匙圈",
+    "离岸价"
   ],
   "categories": [
     "security",
@@ -21,7 +28,8 @@
         "keychain",
         "key ring",
         "fob"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

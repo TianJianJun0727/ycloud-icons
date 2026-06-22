@@ -3,10 +3,16 @@
   "use-cases": [],
   "name": "铅笔",
   "tags": [
+    "橡胶",
     "编辑",
     "创建",
+    "画",
+    "素描",
     "草稿",
-    "文具"
+    "作家",
+    "写作",
+    "文具",
+    "艺术家"
   ],
   "categories": [
     "design",
@@ -28,7 +34,8 @@
         "writing",
         "stationery",
         "artist"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

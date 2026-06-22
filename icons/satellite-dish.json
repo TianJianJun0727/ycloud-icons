@@ -5,7 +5,8 @@
   "tags": [
     "天线",
     "接收器",
-    "盘子aerial"
+    "碟形天线",
+    "碟子"
   ],
   "categories": [
     "connectivity",
@@ -20,7 +21,8 @@
         "receiver",
         "dish aerial",
         "saucer"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

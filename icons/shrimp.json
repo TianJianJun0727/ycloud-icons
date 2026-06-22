@@ -3,9 +3,16 @@
   "use-cases": [],
   "name": "虾",
   "tags": [
-    "虾",
     "海鲜",
-    "食物"
+    "贝类",
+    "甲壳类动物",
+    "虾",
+    "扇贝",
+    "青春痘",
+    "节肢动物",
+    "小颈",
+    "圆蛤",
+    "樱桃石"
   ],
   "categories": [
     "animals"
@@ -24,7 +31,8 @@
         "littleneck",
         "quahog",
         "cherrystone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

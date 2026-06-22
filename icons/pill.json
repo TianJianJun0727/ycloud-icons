@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "药丸",
   "tags": [
-    "平板"
+    "医学",
+    "药物治疗",
+    "药物",
+    "处方",
+    "平板电脑",
+    "药房"
   ],
   "categories": [
     "medical"
@@ -18,7 +23,8 @@
         "prescription",
         "tablet",
         "pharmacy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

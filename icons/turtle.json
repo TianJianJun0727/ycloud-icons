@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "海龟",
   "tags": [
-    "动物"
+    "动物",
+    "宠物",
+    "乌龟",
+    "慢",
+    "速度"
   ],
   "categories": [
     "animals"
@@ -17,7 +21,8 @@
         "tortoise",
         "slow",
         "speed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

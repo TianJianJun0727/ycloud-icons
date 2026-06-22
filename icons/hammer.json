@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "锤子",
   "tags": [
+    "木槌",
+    "指甲",
+    "DIY",
     "工具箱",
-    "施工"
+    "建造",
+    "建筑"
   ],
   "categories": [
     "tools",
@@ -20,7 +24,8 @@
         "toolbox",
         "build",
         "construction"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

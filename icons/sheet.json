@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "表格",
   "tags": [
-    "表格"
+    "电子表格",
+    "表格",
+    "卓越"
   ],
   "categories": [
     "text",
@@ -16,7 +18,8 @@
         "spreadsheets",
         "table",
         "excel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

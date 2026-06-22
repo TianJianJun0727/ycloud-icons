@@ -4,7 +4,9 @@
   "name": "铃铛关闭",
   "tags": [
     "闹钟",
-    "通知"
+    "通知",
+    "沉默的",
+    "提醒"
   ],
   "categories": [
     "notifications"
@@ -17,7 +19,8 @@
         "notification",
         "silent",
         "reminder"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

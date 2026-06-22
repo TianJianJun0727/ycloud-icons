@@ -4,7 +4,8 @@
   "name": "箭头上",
   "tags": [
     "前进",
-    "方向"
+    "方向",
+    "北"
   ],
   "categories": [
     "arrows"
@@ -16,7 +17,8 @@
         "forward",
         "direction",
         "north"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "取消组合",
   "tags": [
-    "单位"
+    "立方体",
+    "包",
+    "零件",
+    "单位",
+    "收藏",
+    "集群",
+    "分开"
   ],
   "categories": [
     "shapes",
@@ -20,7 +26,8 @@
         "collection",
         "cluster",
         "separate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -16,7 +16,8 @@
       "name": "phone",
       "tags": [
         "call"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

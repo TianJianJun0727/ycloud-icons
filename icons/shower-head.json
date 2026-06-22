@@ -4,7 +4,10 @@
   "name": "淋浴头部",
   "tags": [
     "淋浴",
-    "浴缸"
+    "洗澡",
+    "浴室",
+    "便利设施",
+    "服务"
   ],
   "categories": [
     "home",
@@ -19,7 +22,8 @@
         "bathroom",
         "amenities",
         "services"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

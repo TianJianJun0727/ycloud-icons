@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "停车仪表",
   "tags": [
-    "汽车park"
+    "驾驶",
+    "停车场",
+    "付钱",
+    "人行道",
+    "人行道"
   ],
   "categories": [
     "transportation",
@@ -18,7 +22,8 @@
         "pay",
         "sidewalk",
         "pavement"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

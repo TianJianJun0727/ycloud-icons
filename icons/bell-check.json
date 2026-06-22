@@ -5,7 +5,8 @@
   "tags": [
     "闹钟",
     "通知",
-    "声音"
+    "声音",
+    "提醒"
   ],
   "categories": [
     "account",
@@ -19,7 +20,8 @@
         "notification",
         "sound",
         "reminder"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "风箭头下",
   "tags": [
-    "天气"
+    "天气",
+    "空气",
+    "压力",
+    "吹"
   ],
   "categories": [
     "weather",
@@ -17,7 +20,8 @@
         "air",
         "pressure",
         "blow"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

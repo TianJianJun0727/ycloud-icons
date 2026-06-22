@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "公文包商务",
   "tags": [
+    "工作",
     "包",
     "行李",
-    "文件夹"
+    "文件夹",
+    "投资组合"
   ],
   "categories": [
     "transportation"
@@ -19,7 +21,8 @@
         "baggage",
         "folder",
         "portfolio"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

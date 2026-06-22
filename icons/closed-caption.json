@@ -4,9 +4,15 @@
   "name": "关闭字幕",
   "tags": [
     "电视",
+    "电影",
     "视频",
-    "关闭字幕",
-    "无障碍"
+    "隐藏式字幕",
+    "字幕",
+    "小标题",
+    "转录",
+    "转录",
+    "对话",
+    "可达性"
   ],
   "categories": [
     "accessibility",
@@ -26,7 +32,8 @@
         "transcribe",
         "dialogue",
         "accessibility"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

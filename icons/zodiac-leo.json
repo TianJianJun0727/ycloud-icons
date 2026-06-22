@@ -3,9 +3,16 @@
   "use-cases": [],
   "name": "星座狮子座",
   "tags": [
+    "狮子",
     "皇冠",
-    "火焰",
-    "星标标志"
+    "领导力",
+    "火",
+    "信心",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -25,7 +32,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

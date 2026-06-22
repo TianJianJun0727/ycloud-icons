@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "折纸",
   "tags": [
+    "纸",
     "鸟"
   ],
   "categories": [
@@ -15,7 +16,8 @@
       "tags": [
         "paper",
         "bird"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

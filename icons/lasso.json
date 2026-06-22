@@ -16,7 +16,8 @@
       "tags": [
         "select",
         "cursor"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

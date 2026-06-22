@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "礼宾铃铛",
   "tags": [
-    "铃铛"
+    "接待处",
+    "铃铛",
+    "搬运工"
   ],
   "categories": [
     "travel"
@@ -15,7 +17,8 @@
         "reception",
         "bell",
         "porter"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "方形斜杠",
   "tags": [
+    "Git",
     "差异",
-    "除号"
+    "被忽略",
+    "划分",
+    "师",
+    "捷径",
+    "或",
+    "/"
   ],
   "categories": [
     "development",
@@ -30,7 +36,8 @@
         "shortcut",
         "or",
         "/"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

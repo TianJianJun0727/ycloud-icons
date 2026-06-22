@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "牛奶关闭",
   "tags": [
+    "不含乳糖",
     "瓶子",
-    "饮品",
-    "水"
+    "饮料",
+    "喝",
+    "水",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -22,7 +27,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

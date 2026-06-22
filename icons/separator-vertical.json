@@ -4,7 +4,7 @@
   "name": "分隔符垂直",
   "tags": [
     "移动",
-    "拆分"
+    "分裂"
   ],
   "categories": [
     "text",
@@ -17,7 +17,8 @@
       "tags": [
         "move",
         "split"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -1,15 +1,17 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicates that autosave is active",
-    "indicates that file/document has been saved automatically"
+    "表示自动保存已开启",
+    "表示文件或文档已自动保存"
   ],
   "name": "保存勾选",
   "tags": [
     "保存",
-    "保存勾选",
+    "保存检查",
+    "软盘",
+    "已保存",
     "勾选",
-    "保存success"
+    "保存成功"
   ],
   "categories": [
     "text",
@@ -26,6 +28,10 @@
         "saved",
         "check",
         "save-success"
+      ],
+      "use-cases": [
+        "indicates that autosave is active",
+        "indicates that file/document has been saved automatically"
       ]
     }
   }

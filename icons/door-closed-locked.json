@@ -3,10 +3,15 @@
   "use-cases": [],
   "name": "门关闭锁定",
   "tags": [
+    "入口",
+    "条目",
     "退出",
-    "emergency退出",
-    "锁定",
-    "锁"
+    "入口",
+    "出口",
+    "门",
+    "网关",
+    "紧急出口",
+    "锁定"
   ],
   "categories": [
     "home",
@@ -26,7 +31,8 @@
         "gateway",
         "emergency exit",
         "lock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "消息方形代码",
   "tags": [
-    "语音bubble",
-    "代码review",
-    "聊天"
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡",
+    "代码审查",
+    "编码"
   ],
   "categories": [
     "development",
@@ -23,7 +28,8 @@
         "speech bubble",
         "code review",
         "coding"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

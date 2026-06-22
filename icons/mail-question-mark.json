@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "邮件问题标记",
   "tags": [
+    "邮箱",
     "消息",
-    "字母",
-    "邮箱"
+    "信",
+    "交货",
+    "未交付的"
   ],
   "categories": [
     "mail"
@@ -27,7 +29,8 @@
         "letter",
         "delivery",
         "undelivered"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

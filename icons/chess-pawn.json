@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "国际象棋兵",
   "tags": [
-    "面板game"
+    "一块",
+    "棋盘游戏"
   ],
   "categories": [
     "gaming",
@@ -15,7 +16,8 @@
       "tags": [
         "piece",
         "board game"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

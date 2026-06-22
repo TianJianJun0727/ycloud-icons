@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "狗",
   "tags": [
-    "动物"
+    "动物",
+    "宠物",
+    "小狗",
+    "猎犬",
+    "犬科动物"
   ],
   "categories": [
     "animals"
@@ -17,7 +21,8 @@
         "puppy",
         "hound",
         "canine"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

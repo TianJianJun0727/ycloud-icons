@@ -3,9 +3,8 @@
   "use-cases": [],
   "name": "幽灵",
   "tags": [
-    "幽灵",
-    "隐藏",
-    "透明"
+    "吃豆人",
+    "怪异的"
   ],
   "categories": [
     "gaming"
@@ -16,7 +15,8 @@
       "tags": [
         "pac-man",
         "spooky"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

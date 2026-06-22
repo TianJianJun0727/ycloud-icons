@@ -27,7 +27,8 @@
         "create",
         "new",
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

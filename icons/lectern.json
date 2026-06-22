@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "讲台",
   "tags": [
-    "领奖台"
+    "讲坛",
+    "讲台",
+    "站"
   ],
   "categories": [
     "communication",
@@ -16,7 +18,8 @@
         "pulpit",
         "podium",
         "stand"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

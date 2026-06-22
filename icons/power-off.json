@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "关机",
   "tags": [
+    "上",
     "关闭",
-    "设备",
-    "切换"
+    "装置",
+    "开关"
   ],
   "categories": [
     "connectivity"
@@ -18,7 +19,8 @@
         "off",
         "device",
         "switch"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

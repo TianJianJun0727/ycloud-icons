@@ -17,7 +17,8 @@
         "time",
         "watch",
         "alarm"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

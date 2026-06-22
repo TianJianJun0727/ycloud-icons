@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "云关闭",
   "tags": [
-    "断开"
+    "断开连接"
   ],
   "categories": [
     "connectivity",
@@ -14,7 +14,8 @@
       "name": "cloud off",
       "tags": [
         "disconnect"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

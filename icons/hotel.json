@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "酒店",
   "tags": [
-    "建筑"
+    "建筑物",
+    "宿舍",
+    "汽车旅馆",
+    "客栈"
   ],
   "categories": [
     "buildings",
@@ -18,7 +21,8 @@
         "hostel",
         "motel",
         "inn"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

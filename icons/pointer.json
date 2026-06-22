@@ -13,7 +13,8 @@
       "name": "pointer",
       "tags": [
         "mouse"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

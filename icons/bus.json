@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "公交车",
   "tags": [
-    "公交车",
-    "行程"
+    "巴士",
+    "车辆",
+    "运输",
+    "旅行"
   ],
   "categories": [
     "transportation"
@@ -17,7 +19,8 @@
         "vehicle",
         "transport",
         "trip"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

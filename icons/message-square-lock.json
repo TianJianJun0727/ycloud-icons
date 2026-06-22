@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "消息方形锁定",
   "tags": [
-    "语音bubble",
-    "聊天"
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡",
+    "安全",
+    "加密的"
   ],
   "categories": [
     "social"
@@ -21,7 +27,8 @@
         "speech bubble",
         "secure",
         "encrypted"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

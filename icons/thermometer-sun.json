@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "温度计太阳",
   "tags": [
-    "天气"
+    "温度",
+    "摄氏度",
+    "华氏度",
+    "天气",
+    "温暖",
+    "热"
   ],
   "categories": [
     "weather"
@@ -18,7 +23,8 @@
         "weather",
         "warm",
         "hot"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

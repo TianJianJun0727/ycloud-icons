@@ -5,7 +5,11 @@
   "tags": [
     "同步",
     "网络",
-    "完成"
+    "成功",
+    "完成",
+    "已完成",
+    "已保存",
+    "坚持"
   ],
   "categories": [
     "development"
@@ -21,7 +25,8 @@
         "completed",
         "saved",
         "persisted"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "糖果关闭",
   "tags": [
-    "食物"
+    "无糖",
+    "食物",
+    "甜甜的",
+    "过敏",
+    "不宽容",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -18,7 +23,8 @@
         "allergy",
         "intolerance",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

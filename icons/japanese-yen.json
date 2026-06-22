@@ -4,7 +4,8 @@
   "name": "日元日元",
   "tags": [
     "货币",
-    "支付"
+    "钱",
+    "付款"
   ],
   "categories": [
     "finance"
@@ -16,7 +17,8 @@
         "currency",
         "money",
         "payment"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "地图图钉减少",
   "tags": [
+    "位置",
+    "航路点",
+    "标记",
+    "掉落",
     "删除",
     "移除",
-    "标记"
+    "擦除"
   ],
   "categories": [
     "navigation",
@@ -23,7 +27,8 @@
         "delete",
         "remove",
         "erase"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

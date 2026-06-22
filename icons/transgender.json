@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "跨性别",
   "tags": [
-    "性别"
+    "性别",
+    "包容性"
   ],
   "categories": [
     "medical",
@@ -15,7 +16,8 @@
       "tags": [
         "gender",
         "inclusive"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

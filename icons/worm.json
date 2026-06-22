@@ -3,8 +3,16 @@
   "use-cases": [],
   "name": "蠕虫",
   "tags": [
-    "pest控制",
-    "电脑virus"
+    "无脊椎动物",
+    "幼虫",
+    "幼虫",
+    "蛇",
+    "爬行",
+    "摆动",
+    "滑行",
+    "害虫防治",
+    "计算机病毒",
+    "恶意软件"
   ],
   "categories": [
     "animals",
@@ -24,7 +32,8 @@
         "pest control",
         "computer virus",
         "malware"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

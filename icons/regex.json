@@ -18,7 +18,8 @@
         "search",
         "text",
         "code"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

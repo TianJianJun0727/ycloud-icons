@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "文本引用",
   "tags": [
+    "块引用",
+    "报价",
     "缩进",
-    "回复"
+    "回复",
+    "反应"
   ],
   "categories": [
     "text"
@@ -18,7 +21,8 @@
         "indent",
         "reply",
         "response"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

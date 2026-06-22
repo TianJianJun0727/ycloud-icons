@@ -1,17 +1,20 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "removing a database instance",
-    "deleting or detaching a database connection",
-    "reducing allocated database resources"
+    "移除数据库实例",
+    "删除或分离数据库连接",
+    "减少已分配的数据库资源"
   ],
   "name": "数据库减少",
   "tags": [
-    "内存",
+    "存储",
+    "记忆",
+    "字节",
     "服务器",
-    "减少",
+    "减号",
     "移除",
-    "删除"
+    "删除",
+    "减少"
   ],
   "categories": [
     "devices",
@@ -29,6 +32,11 @@
         "remove",
         "delete",
         "reduce"
+      ],
+      "use-cases": [
+        "removing a database instance",
+        "deleting or detaching a database connection",
+        "reducing allocated database resources"
       ]
     }
   }

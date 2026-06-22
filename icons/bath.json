@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "浴缸",
   "tags": [
+    "便利设施",
+    "服务",
+    "浴室",
     "淋浴"
   ],
   "categories": [
@@ -16,7 +19,8 @@
         "services",
         "bathroom",
         "shower"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

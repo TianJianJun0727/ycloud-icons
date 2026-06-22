@@ -1,18 +1,21 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "importing or uploading data into a database",
-    "restoring from a backup",
-    "pushing local data to a remote database"
+    "向数据库导入或上传数据",
+    "从备份恢复",
+    "将本地数据推送到远程数据库"
   ],
   "name": "数据库箭头上",
   "tags": [
-    "内存",
+    "存储",
+    "记忆",
+    "字节",
     "服务器",
     "导入",
     "上传",
     "备份",
-    "放大"
+    "推送",
+    "高档的"
   ],
   "categories": [
     "devices",
@@ -31,6 +34,11 @@
         "backup",
         "push",
         "upscale"
+      ],
+      "use-cases": [
+        "importing or uploading data into a database",
+        "restoring from a backup",
+        "pushing local data to a remote database"
       ]
     }
   }

@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "汽车出租车正面",
   "tags": [
-    "驱动器",
-    "行程"
+    "驾驶室",
+    "车辆",
+    "开车",
+    "旅行",
+    "旅程"
   ],
   "categories": [
     "transportation"
@@ -18,7 +21,8 @@
         "drive",
         "trip",
         "journey"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

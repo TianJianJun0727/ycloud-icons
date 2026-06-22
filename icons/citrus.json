@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "柑橘",
   "tags": [
+    "柠檬",
+    "橙色",
+    "柚子",
     "水果"
   ],
   "categories": [
@@ -16,7 +19,8 @@
         "orange",
         "grapefruit",
         "fruit"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

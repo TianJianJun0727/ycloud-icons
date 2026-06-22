@@ -3,7 +3,15 @@
   "use-cases": [],
   "name": "松鼠",
   "tags": [
-    "动物"
+    "动物",
+    "啮齿动物",
+    "宠物",
+    "害虫",
+    "坚果",
+    "检索",
+    "更新",
+    "存储",
+    "藏匿"
   ],
   "categories": [
     "animals"
@@ -21,7 +29,8 @@
         "updates",
         "storage",
         "stash"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

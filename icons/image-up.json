@@ -22,7 +22,8 @@
         "photo",
         "upload",
         "import"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

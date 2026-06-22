@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "手",
   "tags": [
+    "波",
     "移动",
     "鼠标",
-    "抓取"
+    "抢"
   ],
   "categories": [
     "cursors",
@@ -19,7 +20,8 @@
         "move",
         "mouse",
         "grab"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

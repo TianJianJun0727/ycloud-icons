@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "双折角箭头上",
   "tags": [
-    "前进"
+    "前进",
+    "前面",
+    "更快",
+    "速度",
+    "提升"
   ],
   "categories": [
     "arrows",
@@ -18,7 +22,8 @@
         "faster",
         "speed",
         "boost"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

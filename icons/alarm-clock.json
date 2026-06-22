@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "闹钟时钟",
   "tags": [
-    "闹钟",
-    "提醒",
-    "时间"
+    "早上"
   ],
   "categories": [
     "devices",
@@ -17,7 +15,8 @@
       "name": "alarm clock",
       "tags": [
         "morning"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

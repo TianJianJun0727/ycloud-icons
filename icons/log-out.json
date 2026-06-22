@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "日志外部",
   "tags": [
-    "标志外部",
+    "退出",
     "箭头",
-    "退出"
+    "退出",
+    "授权"
   ],
   "categories": [
     "arrows",
@@ -19,7 +20,8 @@
         "arrow",
         "exit",
         "auth"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "房屋",
   "tags": [
-    "家居",
-    "建筑"
+    "首页",
+    "生活",
+    "建筑物",
+    "居住地",
+    "建筑学"
   ],
   "categories": [
     "buildings",
@@ -28,7 +31,8 @@
         "building",
         "residence",
         "architecture"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

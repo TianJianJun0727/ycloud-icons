@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "翻转水平2",
   "tags": [
-    "镜像",
+    "反映",
+    "镜子",
+    "对准",
     "虚线"
   ],
   "categories": [
@@ -18,7 +20,8 @@
         "mirror",
         "alignment",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

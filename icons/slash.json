@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "斜杠",
   "tags": [
-    "除号"
+    "划分",
+    "师",
+    "或",
+    "/"
   ],
   "categories": [
     "development",
@@ -17,7 +20,8 @@
         "division",
         "or",
         "/"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

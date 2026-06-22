@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "标题6",
   "tags": [
+    "H6",
     "HTML",
-    "标记语言",
+    "标记",
     "Markdown"
   ],
   "categories": [
@@ -18,7 +19,8 @@
         "html",
         "markup",
         "markdown"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

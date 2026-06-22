@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "熊猫",
   "tags": [
-    "动物"
+    "动物",
+    "野生动物",
+    "熊",
+    "动物园",
+    "竹子"
   ],
   "categories": [
     "animals"
@@ -17,7 +21,8 @@
         "bear",
         "zoo",
         "bamboo"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

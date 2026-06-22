@@ -1,22 +1,27 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "add to favorites",
-    "star item",
-    "add bookmark",
-    "save item",
-    "mark as favorite",
-    "add featured item",
-    "add recommendation",
-    "follow preferred content",
-    "add to saved items",
-    "prioritize item"
+    "添加到收藏",
+    "星标项目",
+    "添加书签",
+    "保存项目",
+    "标记为收藏",
+    "添加精选项目",
+    "添加推荐项",
+    "关注偏好内容",
+    "添加到已保存项目",
+    "提升项目优先级"
   ],
   "name": "星标加号",
   "tags": [
     "书签",
+    "收藏",
+    "喜欢",
+    "评论",
+    "评级",
     "加号",
     "添加",
+    "加入",
     "星标"
   ],
   "categories": [
@@ -41,6 +46,18 @@
         "add",
         "join",
         "star"
+      ],
+      "use-cases": [
+        "add to favorites",
+        "star item",
+        "add bookmark",
+        "save item",
+        "mark as favorite",
+        "add featured item",
+        "add recommendation",
+        "follow preferred content",
+        "add to saved items",
+        "prioritize item"
       ]
     }
   }

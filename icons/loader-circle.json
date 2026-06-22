@@ -3,10 +3,14 @@
   "use-cases": [],
   "name": "加载器圆形",
   "tags": [
-    "圆形",
     "加载",
     "等待",
-    "忙碌"
+    "忙",
+    "进展",
+    "旋转器",
+    "纺纱",
+    "悸动者",
+    "圆形"
   ],
   "categories": [
     "cursors",
@@ -33,7 +37,8 @@
         "spinning",
         "throbber",
         "circle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "云冰雹",
   "tags": [
-    "天气"
+    "天气",
+    "降雨量"
   ],
   "categories": [
     "weather"
@@ -14,7 +15,8 @@
       "tags": [
         "weather",
         "rainfall"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

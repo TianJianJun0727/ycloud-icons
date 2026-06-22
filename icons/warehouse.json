@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "仓库",
   "tags": [
-    "建筑"
+    "存储",
+    "仓库",
+    "仓库",
+    "保管人",
+    "存储库",
+    "储藏室",
+    "物流",
+    "建筑物"
   ],
   "categories": [
     "buildings",
@@ -21,7 +28,8 @@
         "stockroom",
         "logistics",
         "building"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

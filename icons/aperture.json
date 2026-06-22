@@ -4,7 +4,10 @@
   "name": "光圈",
   "tags": [
     "相机",
-    "照片"
+    "照片",
+    "图片",
+    "快门",
+    "曝光"
   ],
   "categories": [
     "photography"
@@ -18,7 +21,8 @@
         "pictures",
         "shutter",
         "exposure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

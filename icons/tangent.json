@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "切线",
   "tags": [
+    "切向的",
+    "形状",
     "圆形",
-    "形状"
+    "几何学",
+    "三角学",
+    "贝塞尔曲线"
   ],
   "categories": [
     "shapes",
@@ -22,7 +26,8 @@
         "geometry",
         "trigonometry",
         "bezier curve"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

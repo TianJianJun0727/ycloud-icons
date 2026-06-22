@@ -3,9 +3,16 @@
   "use-cases": [],
   "name": "星座水瓶座",
   "tags": [
-    "水bearer",
+    "运水者",
     "波浪",
-    "星标标志"
+    "创新",
+    "空气",
+    "未来",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -25,7 +32,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

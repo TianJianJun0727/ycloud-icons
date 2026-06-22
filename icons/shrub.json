@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "灌木",
   "tags": [
+    "森林",
+    "灌木丛",
+    "公园",
     "自然"
   ],
   "categories": [
@@ -16,7 +19,8 @@
         "undergrowth",
         "park",
         "nature"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

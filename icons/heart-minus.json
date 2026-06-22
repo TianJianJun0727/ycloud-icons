@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "爱心减少",
   "tags": [
+    "不像",
+    "不喜欢的",
     "移除",
-    "删除"
+    "删除",
+    "损害"
   ],
   "categories": [
     "medical",
@@ -22,7 +25,8 @@
         "remove",
         "delete",
         "damage"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

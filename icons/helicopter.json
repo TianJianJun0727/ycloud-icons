@@ -3,7 +3,17 @@
   "use-cases": [],
   "name": "直升机",
   "tags": [
-    "直升机"
+    "运输",
+    "飞行",
+    "转子",
+    "航空",
+    "直升机停机坪",
+    "齿轮",
+    "传单",
+    "技术",
+    "直升机",
+    "飞机",
+    "车辆"
   ],
   "categories": [
     "transportation",
@@ -24,7 +34,8 @@
         "helicopter",
         "aircraft",
         "vehicle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

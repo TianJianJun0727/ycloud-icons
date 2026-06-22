@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "语音",
   "tags": [
-    "无障碍",
-    "禁用",
+    "残疾",
+    "残疾人",
+    "达达",
+    "人类的",
+    "可达性",
+    "人",
     "声音"
   ],
   "categories": [
@@ -22,7 +26,8 @@
         "accessibility",
         "people",
         "sound"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

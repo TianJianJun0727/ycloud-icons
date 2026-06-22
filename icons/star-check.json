@@ -1,20 +1,24 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "verified favorite",
-    "approved item",
-    "trusted content",
-    "featured content",
-    "recommended item",
-    "completed achievement",
-    "confirmed selection",
-    "verified bookmark",
-    "certified item",
-    "approved review"
+    "已验证收藏",
+    "已批准项目",
+    "可信内容",
+    "精选内容",
+    "推荐项目",
+    "已完成成就",
+    "已确认选择",
+    "已验证书签",
+    "已认证项目",
+    "已批准评价"
   ],
   "name": "星标勾选",
   "tags": [
     "书签",
+    "收藏",
+    "喜欢",
+    "评论",
+    "评级",
     "勾选",
     "星标"
   ],
@@ -38,6 +42,18 @@
         "rating",
         "check",
         "star"
+      ],
+      "use-cases": [
+        "verified favorite",
+        "approved item",
+        "trusted content",
+        "featured content",
+        "recommended item",
+        "completed achievement",
+        "confirmed selection",
+        "verified bookmark",
+        "certified item",
+        "approved review"
       ]
     }
   }

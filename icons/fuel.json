@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "燃料",
   "tags": [
-    "燃料",
-    "加油",
-    "能源"
+    "加油站",
+    "气体",
+    "汽油",
+    "坦克"
   ],
   "categories": [
     "transportation",
@@ -19,7 +20,8 @@
         "gas",
         "petrol",
         "tank"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

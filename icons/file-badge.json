@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "文件徽章",
   "tags": [
-    "奖章",
-    "徽章"
+    "奖项",
+    "成就",
+    "徽章",
+    "玫瑰花结",
+    "奖品",
+    "获胜者"
   ],
   "categories": [
     "files"
@@ -27,7 +31,8 @@
         "rosette",
         "prize",
         "winner"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

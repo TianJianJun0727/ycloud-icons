@@ -3,8 +3,14 @@
   "use-cases": [],
   "name": "炸弹",
   "tags": [
+    "致命的",
     "错误",
-    "崩溃"
+    "崩溃",
+    "重磅炸弹",
+    "我的",
+    "爆炸",
+    "爆炸",
+    "爆炸物"
   ],
   "categories": [
     "security",
@@ -22,7 +28,8 @@
         "explosion",
         "explode",
         "explosive"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -1,16 +1,26 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "indicating AI-assisted writing or editing features",
-    "representing automated writing or content generation tools"
+    "表示 AI 辅助写作或编辑功能",
+    "表示自动写作或内容生成工具"
   ],
   "name": "铅笔闪光",
   "tags": [
     "编辑",
-    "创建",
-    "草稿",
     "AI",
-    "文具"
+    "工具",
+    "聪明的",
+    "创建",
+    "画",
+    "素描",
+    "草稿",
+    "作家",
+    "写作",
+    "文具",
+    "艺术家",
+    "魔法",
+    "向导",
+    "魔术师"
   ],
   "categories": [
     "design",
@@ -38,6 +48,10 @@
         "magic",
         "wizard",
         "magician"
+      ],
+      "use-cases": [
+        "indicating AI-assisted writing or editing features",
+        "representing automated writing or content generation tools"
       ]
     }
   }

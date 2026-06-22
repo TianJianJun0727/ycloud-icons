@@ -1,18 +1,22 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "Indicates that a service or maintenance mode is disabled",
-    "Used on a button or toggle to turn service/maintenance mode off"
+    "表示服务或维护模式已禁用",
+    "用于关闭服务或维护模式的按钮或开关"
   ],
   "name": "扳手关闭",
   "tags": [
-    "账号",
+    "帐户",
     "设置",
+    "扳手",
+    "DIY",
     "工具箱",
-    "施工",
+    "建造",
+    "建筑",
     "关闭",
+    "服务",
     "维护",
-    "禁用"
+    "残疾人"
   ],
   "categories": [
     "account",
@@ -34,6 +38,10 @@
         "service",
         "maintenance",
         "disabled"
+      ],
+      "use-cases": [
+        "Indicates that a service or maintenance mode is disabled",
+        "Used on a button or toggle to turn service/maintenance mode off"
       ]
     }
   }

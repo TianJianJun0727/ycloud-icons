@@ -3,11 +3,15 @@
   "use-cases": [],
   "name": "圆锥",
   "tags": [
-    "圆锥",
+    "圆锥形的",
     "三角形",
+    "三角形的",
+    "几何学",
     "筛选",
     "漏斗",
-    "聚光灯"
+    "料斗",
+    "聚光灯",
+    "探照灯"
   ],
   "categories": [
     "shapes",
@@ -26,7 +30,8 @@
         "hopper",
         "spotlight",
         "searchlight"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "漏斗",
   "tags": [
-    "筛选"
+    "筛选",
+    "料斗"
   ],
   "categories": [
     "layout"
@@ -22,7 +23,8 @@
       "tags": [
         "filter",
         "hopper"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

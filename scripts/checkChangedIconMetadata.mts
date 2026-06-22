@@ -15,6 +15,71 @@ const knownCategories = new Set(categoryFiles.map((file) => path.basename(file, 
 let hasError = false;
 const hasCjk = (value: string) => /[\u3400-\u9fff]/.test(value);
 const isSlugLike = (value: string) => /^[a-z0-9]+(?:[-_][a-z0-9]+)+$/.test(value.trim());
+const allowedNonChineseTags = new Set([
+  '&',
+  '&&',
+  '*',
+  '+',
+  '-',
+  '---',
+  '->',
+  '<-',
+  '<-|',
+  '>',
+  'AI',
+  'API',
+  'CSS',
+  'DNA',
+  'Git',
+  'GitHub',
+  'GitLab',
+  'GIF',
+  'GPU',
+  'HDMI',
+  'HTML',
+  'ID',
+  'JSON',
+  'Markdown',
+  'NFC',
+  'OS X',
+  'PDF',
+  'RSS',
+  'SIM',
+  'SVG',
+  'USB',
+  'Webhook',
+  'Wi-Fi',
+  'XML',
+  'YAML',
+  'iOS',
+  'macOS',
+  '3D',
+  '2FA',
+  '4K',
+  '8K',
+  '720p',
+  '1080p',
+  'A-Z',
+  'DIY',
+  'DJ',
+  'DVD',
+  'EP',
+  'GSM',
+  'H1',
+  'H2',
+  'H3',
+  'H4',
+  'H5',
+  'H6',
+  'Instagram',
+  'LP',
+  'PHP',
+  'RCA',
+  'SaaS',
+  'VPN',
+  'grep',
+  'x̄',
+]);
 
 function report(file: string, message: string) {
   console.error(`${file}: ${message}`);
@@ -48,8 +113,16 @@ function assertChineseTags(file: string, field: string, value: unknown) {
     return;
   }
 
-  if (value.every((tag) => !hasCjk(tag))) {
-    report(file, `\`${field}\` must include Simplified Chinese tags.`);
+  const invalidTags = value.filter(
+    (tag) => !hasCjk(tag) && /[A-Za-z]/.test(tag) && !allowedNonChineseTags.has(tag),
+  );
+  if (invalidTags.length > 0) {
+    report(
+      file,
+      `\`${field}\` contains non-Chinese tags that are not allowed proper nouns: ${invalidTags.join(
+        ', ',
+      )}.`,
+    );
   }
 }
 
@@ -61,6 +134,58 @@ function assertEnglishTags(file: string, field: string, value: unknown) {
 
   if (value.some((tag) => hasCjk(tag))) {
     report(file, `\`${field}\` must not contain Chinese characters.`);
+  }
+}
+
+function assertChineseUseCases(file: string, field: string, value: unknown) {
+  if (!isStringArray(value)) {
+    report(file, `\`${field}\` must be an array of Simplified Chinese use cases.`);
+    return;
+  }
+
+  if (value.some((useCase) => useCase.trim().length > 0 && !hasCjk(useCase))) {
+    report(file, `\`${field}\` must contain Simplified Chinese use cases.`);
+  }
+}
+
+function assertEnglishUseCases(file: string, field: string, value: unknown) {
+  if (!isStringArray(value)) {
+    report(file, `\`${field}\` must be an array of English use cases.`);
+    return;
+  }
+
+  if (value.some((useCase) => hasCjk(useCase))) {
+    report(file, `\`${field}\` must not contain Chinese characters.`);
+  }
+}
+
+function assertBilingualUseCases(file: string, chineseValue: unknown, englishValue: unknown) {
+  if (!isStringArray(chineseValue) || !isStringArray(englishValue)) {
+    return;
+  }
+
+  if (chineseValue.length === 0 && englishValue.length === 0) {
+    return;
+  }
+
+  if (chineseValue.length === 0) {
+    report(
+      file,
+      '`use-cases` is empty but `i18n.en.use-cases` has values; add the matching Simplified Chinese translations.',
+    );
+    return;
+  }
+
+  if (englishValue.length === 0) {
+    report(
+      file,
+      '`i18n.en.use-cases` is empty but `use-cases` has values; add the matching English translations.',
+    );
+    return;
+  }
+
+  if (chineseValue.length !== englishValue.length) {
+    report(file, '`use-cases` and `i18n.en.use-cases` must have the same length and order.');
   }
 }
 
@@ -107,8 +232,20 @@ for (const file of files) {
 
   assertChineseText(file, 'name', metadata.name);
   assertChineseTags(file, 'tags', metadata.tags);
+  assertChineseUseCases(file, 'use-cases', metadata['use-cases']);
   assertEnglishText(file, 'i18n.en.name', englishMetadata?.name);
   assertEnglishTags(file, 'i18n.en.tags', englishMetadata?.tags);
+  assertEnglishUseCases(file, 'i18n.en.use-cases', englishMetadata?.['use-cases']);
+
+  if (
+    isStringArray(metadata.tags) &&
+    isStringArray(englishMetadata?.tags) &&
+    metadata.tags.length !== englishMetadata.tags.length
+  ) {
+    report(file, '`tags` and `i18n.en.tags` must have the same length and order.');
+  }
+
+  assertBilingualUseCases(file, metadata['use-cases'], englishMetadata?.['use-cases']);
 
   for (const category of categories) {
     if (!knownCategories.has(category)) {

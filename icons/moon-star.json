@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "月亮星标",
   "tags": [
+    "黑暗",
+    "晚上",
     "星标"
   ],
   "categories": [
@@ -16,7 +18,8 @@
         "dark",
         "night",
         "star"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

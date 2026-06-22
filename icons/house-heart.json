@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "房屋爱心",
   "tags": [
-    "家居sweet家居",
-    "建筑"
+    "甜蜜的家",
+    "住所",
+    "建筑物",
+    "居住地",
+    "健康生活",
+    "生活方式"
   ],
   "categories": [
     "home",
@@ -21,7 +25,8 @@
         "residence",
         "healthy living",
         "lifestyle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

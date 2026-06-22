@@ -3,9 +3,14 @@
   "use-cases": [],
   "name": "葡萄酒",
   "tags": [
-    "条形",
-    "饮品",
-    "玻璃杯"
+    "酒精",
+    "饮料",
+    "酒吧",
+    "喝",
+    "玻璃",
+    "侍酒师",
+    "葡萄园",
+    "酒厂"
   ],
   "categories": [
     "food-beverage"
@@ -22,7 +27,8 @@
         "sommelier",
         "vineyard",
         "winery"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "文件夹同步",
   "tags": [
+    "目录",
+    "同步",
+    "同步",
     "刷新",
-    "备份",
-    "目录"
+    "重新连接",
+    "转移",
+    "备份"
   ],
   "categories": [
     "files",
@@ -22,7 +26,8 @@
         "reconnect",
         "transfer",
         "backup"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

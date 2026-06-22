@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "云月亮雨",
   "tags": [
-    "天气"
+    "天气",
+    "部分地",
+    "晚上",
+    "降雨量"
   ],
   "categories": [
     "weather"
@@ -16,7 +19,8 @@
         "partly",
         "night",
         "rainfall"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

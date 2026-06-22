@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "消息方形文本",
   "tags": [
-    "语音bubble",
-    "聊天"
+    "评论",
+    "聊天",
+    "谈话",
+    "对话",
+    "反馈",
+    "讲话泡泡"
   ],
   "categories": [
     "social"
@@ -19,7 +23,8 @@
         "dialog",
         "feedback",
         "speech bubble"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

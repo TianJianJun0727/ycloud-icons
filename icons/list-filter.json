@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "列表筛选",
   "tags": [
-    "列表",
-    "筛选",
-    "过滤"
+    "选项"
   ],
   "categories": [
     "text"
@@ -15,7 +13,8 @@
       "name": "list filter",
       "tags": [
         "options"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

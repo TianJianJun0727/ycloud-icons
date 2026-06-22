@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "叶子",
   "tags": [
-    "可持续",
+    "可持续性",
     "自然",
-    "能源",
-    "植物"
+    "能量",
+    "植物",
+    "秋天"
   ],
   "categories": [
     "nature",
@@ -22,7 +23,8 @@
         "energy",
         "plant",
         "autumn"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,6 +4,9 @@
   "name": "雷达",
   "tags": [
     "扫描",
+    "声纳",
+    "检测",
+    "找到",
     "定位"
   ],
   "categories": [
@@ -20,7 +23,8 @@
         "detect",
         "find",
         "locate"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

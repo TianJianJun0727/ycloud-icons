@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "复制",
   "tags": [
-    "复制",
-    "副本",
-    "克隆"
+    "克隆",
+    "重复的",
+    "多个"
   ],
   "categories": [
     "text"
@@ -17,7 +17,8 @@
         "clone",
         "duplicate",
         "multiple"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

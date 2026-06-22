@@ -4,7 +4,9 @@
   "name": "信用卡片",
   "tags": [
     "银行",
-    "支付"
+    "购买",
+    "付款",
+    "抄送"
   ],
   "categories": [
     "account",
@@ -18,7 +20,8 @@
         "purchase",
         "payment",
         "cc"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

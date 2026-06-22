@@ -6,7 +6,11 @@
     "音频",
     "音乐",
     "麦克风",
-    "串流"
+    "谈话",
+    "声音",
+    "订阅",
+    "订阅",
+    "流"
   ],
   "categories": [
     "multimedia",
@@ -24,7 +28,8 @@
         "subscribe",
         "subscription",
         "stream"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

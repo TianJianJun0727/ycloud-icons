@@ -4,8 +4,11 @@
   "name": "公文包传送传送带",
   "tags": [
     "行李",
+    "行李",
     "旅行",
-    "传送"
+    "手提箱",
+    "输送机",
+    "旋转木马"
   ],
   "categories": [
     "travel",
@@ -21,7 +24,8 @@
         "suitcase",
         "conveyor",
         "carousel"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

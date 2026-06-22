@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "表格属性",
   "tags": [
-    "property列表",
+    "财产清单",
+    "列表",
     "电子表格",
     "网格",
-    "哈希"
+    "字典",
+    "对象",
+    "散列"
   ],
   "categories": [
     "text",
@@ -24,7 +27,8 @@
         "dictionary",
         "object",
         "hash"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

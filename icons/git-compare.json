@@ -4,7 +4,7 @@
   "name": "Git比较",
   "tags": [
     "代码",
-    "version控制",
+    "版本控制",
     "差异"
   ],
   "categories": [
@@ -17,7 +17,8 @@
         "code",
         "version control",
         "diff"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

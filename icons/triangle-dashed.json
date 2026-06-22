@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "三角形虚线",
   "tags": [
+    "等边的",
+    "三角洲",
+    "形状",
     "金字塔",
-    "虚线",
-    "形状"
+    "等级制度",
+    "虚线"
   ],
   "categories": [
     "shapes"
@@ -20,7 +23,8 @@
         "pyramid",
         "hierarchy",
         "dashed"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

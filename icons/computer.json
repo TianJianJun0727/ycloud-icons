@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "电脑",
   "tags": [
-    "电脑"
+    "电脑",
+    "底盘",
+    "代码空间",
+    "GitHub"
   ],
   "categories": [
     "devices",
@@ -18,7 +21,8 @@
         "chassis",
         "codespaces",
         "github"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "归档",
   "tags": [
+    "指数",
     "备份",
-    "盒子"
+    "盒子",
+    "存储",
+    "记录"
   ],
   "categories": [
     "files",
@@ -19,7 +22,8 @@
         "box",
         "storage",
         "records"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,9 +4,13 @@
   "name": "电钻",
   "tags": [
     "电源",
-    "头部",
+    "一点",
+    "头",
+    "洞",
+    "DIY",
     "工具箱",
-    "施工"
+    "建造",
+    "建筑"
   ],
   "categories": [
     "tools",
@@ -25,7 +29,8 @@
         "toolbox",
         "build",
         "construction"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

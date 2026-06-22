@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "火星描边",
   "tags": [
-    "跨性别",
-    "性别"
+    "性别",
+    "雌雄同体",
+    "跨性别"
   ],
   "categories": [
     "medical"
@@ -16,7 +17,8 @@
         "gender",
         "androgyne",
         "transgender"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

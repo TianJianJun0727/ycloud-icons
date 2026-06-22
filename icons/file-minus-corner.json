@@ -21,7 +21,8 @@
       "name": "file minus corner",
       "tags": [
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

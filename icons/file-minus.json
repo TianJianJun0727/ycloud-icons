@@ -5,6 +5,7 @@
   "tags": [
     "删除",
     "移除",
+    "擦除",
     "文档"
   ],
   "categories": [
@@ -18,7 +19,8 @@
         "remove",
         "erase",
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

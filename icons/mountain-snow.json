@@ -3,6 +3,8 @@
   "use-cases": [],
   "name": "山雪",
   "tags": [
+    "高山",
+    "攀登",
     "雪"
   ],
   "categories": [
@@ -15,7 +17,8 @@
         "alpine",
         "climb",
         "snow"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

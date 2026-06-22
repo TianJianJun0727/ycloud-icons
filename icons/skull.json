@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "头骨",
   "tags": [
-    "骨头"
+    "死亡",
+    "危险",
+    "骨"
   ],
   "categories": [
     "gaming"
@@ -15,7 +17,8 @@
         "death",
         "danger",
         "bone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

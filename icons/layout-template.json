@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "布局模板",
   "tags": [
-    "窗口",
-    "分节"
+    "窗户",
+    "网页",
+    "屏蔽",
+    "部分"
   ],
   "categories": [
     "layout"
@@ -17,7 +19,8 @@
         "webpage",
         "block",
         "section"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

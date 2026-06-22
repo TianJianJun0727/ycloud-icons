@@ -3,11 +3,11 @@
   "use-cases": [],
   "name": "邮件搜索",
   "tags": [
+    "邮箱",
     "消息",
-    "字母",
+    "信",
     "搜索",
-    "镜头",
-    "邮箱"
+    "镜头"
   ],
   "categories": [
     "mail"
@@ -21,7 +21,8 @@
         "letter",
         "search",
         "lens"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

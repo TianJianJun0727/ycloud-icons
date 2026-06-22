@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "趋势下",
   "tags": [
-    "趋势下降",
-    "下降",
-    "图表"
+    "统计"
   ],
   "categories": [
     "charts",
@@ -16,7 +14,8 @@
       "name": "trending down",
       "tags": [
         "statistics"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

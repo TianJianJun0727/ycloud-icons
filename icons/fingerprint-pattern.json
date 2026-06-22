@@ -3,6 +3,10 @@
   "use-cases": [],
   "name": "指纹图案",
   "tags": [
+    "2FA",
+    "认证",
+    "生物识别",
+    "身份",
     "安全"
   ],
   "categories": [
@@ -28,7 +32,8 @@
         "biometric",
         "identity",
         "security"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

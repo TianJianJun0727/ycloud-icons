@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "路线",
   "tags": [
-    "路线",
     "路径",
-    "导航"
+    "旅程",
+    "规划师",
+    "点",
+    "停止",
+    "车站"
   ],
   "categories": [
     "navigation"
@@ -20,7 +23,8 @@
         "points",
         "stops",
         "stations"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

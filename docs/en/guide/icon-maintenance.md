@@ -30,8 +30,9 @@ YCloud Icons is Chinese-first at the source-data level:
 
 - `name` is the Simplified Chinese icon name.
 - `tags` are Simplified Chinese search tags.
+- `use-cases` are Simplified Chinese usage phrases. Use an empty array when none are known.
 - `categories` are stable category slugs, not display text.
-- `i18n.en.name` and `i18n.en.tags` are required for English docs and English search. Category translations are maintained in `categories/*.json`.
+- `i18n.en.name`, `i18n.en.tags`, and `i18n.en.use-cases` are required for English docs and English search. Category translations are maintained in `categories/*.json`.
 
 Example:
 
@@ -45,7 +46,8 @@ Example:
   "i18n": {
     "en": {
       "name": "circle arrow up",
-      "tags": ["arrow", "up", "circle"]
+      "tags": ["arrow", "up", "circle"],
+      "use-cases": []
     }
   }
 }

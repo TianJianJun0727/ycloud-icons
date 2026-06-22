@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "准星",
   "tags": [
-    "瞄准",
+    "目标",
     "目标"
   ],
   "categories": [
@@ -15,7 +15,8 @@
       "tags": [
         "aim",
         "target"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

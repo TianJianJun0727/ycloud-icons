@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "回形针",
   "tags": [
+    "附件",
     "文件"
   ],
   "categories": [
@@ -17,7 +18,8 @@
       "tags": [
         "attachment",
         "file"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

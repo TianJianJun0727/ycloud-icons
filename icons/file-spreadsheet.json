@@ -4,6 +4,7 @@
   "name": "文件电子表格",
   "tags": [
     "电子表格",
+    "片材",
     "表格"
   ],
   "categories": [
@@ -16,7 +17,8 @@
         "spreadsheet",
         "sheet",
         "table"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

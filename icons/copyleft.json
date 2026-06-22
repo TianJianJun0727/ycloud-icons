@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "开放版权",
   "tags": [
-    "许可"
+    "许可证"
   ],
   "categories": [
     "text"
@@ -13,7 +13,8 @@
       "name": "copyleft",
       "tags": [
         "licence"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

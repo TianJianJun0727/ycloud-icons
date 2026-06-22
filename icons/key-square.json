@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "钥匙方形",
   "tags": [
-    "汽车钥匙"
+    "密码",
+    "登录",
+    "认证",
+    "安全",
+    "解锁",
+    "车钥匙"
   ],
   "categories": [
     "security",
@@ -19,7 +24,8 @@
         "secure",
         "unlock",
         "car key"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "链接2关闭",
   "tags": [
-    "解除链接",
-    "链接"
+    "解开束缚",
+    "链条"
   ],
   "categories": [
     "text"
@@ -15,7 +15,8 @@
       "tags": [
         "unchain",
         "chain"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "代码XML",
   "tags": [
-    "源码",
+    "来源",
     "编程",
     "HTML",
     "XML"
@@ -28,7 +28,8 @@
         "programming",
         "html",
         "xml"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

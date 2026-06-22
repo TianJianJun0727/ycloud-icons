@@ -20,7 +20,8 @@
         "skip",
         "next",
         "music"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

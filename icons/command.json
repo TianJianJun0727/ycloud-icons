@@ -4,7 +4,10 @@
   "name": "命令",
   "tags": [
     "键盘",
-    "钥匙"
+    "钥匙",
+    "麦克",
+    "指令",
+    "按钮"
   ],
   "categories": [
     "development"
@@ -18,7 +21,8 @@
         "mac",
         "cmd",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

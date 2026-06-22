@@ -4,7 +4,10 @@
   "name": "书籍下",
   "tags": [
     "代码",
-    "version控制",
+    "编码",
+    "版本控制",
+    "Git",
+    "存储库",
     "拉取"
   ],
   "categories": [
@@ -20,7 +23,8 @@
         "git",
         "repository",
         "pull"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

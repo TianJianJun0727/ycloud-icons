@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "素食",
   "tags": [
-    "动物rights"
+    "素食主义者",
+    "果食主义者",
+    "草食性的",
+    "动物权利",
+    "饮食"
   ],
   "categories": [
     "food-beverage",
@@ -18,7 +22,8 @@
         "herbivorous",
         "animal rights",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

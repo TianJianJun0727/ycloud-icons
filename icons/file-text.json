@@ -3,6 +3,9 @@
   "use-cases": [],
   "name": "文本文件",
   "tags": [
+    "数据",
+    "文本文件",
+    "PDF",
     "文档"
   ],
   "categories": [
@@ -17,7 +20,8 @@
         "txt",
         "pdf",
         "document"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,11 +3,13 @@
   "use-cases": [],
   "name": "插头闪电",
   "tags": [
+    "电力",
+    "能量",
+    "电子产品",
+    "收费",
     "充电",
     "电池",
-    "电力",
-    "能源",
-    "电子"
+    "连接"
   ],
   "categories": [
     "devices"
@@ -31,7 +33,8 @@
         "charging",
         "battery",
         "connect"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

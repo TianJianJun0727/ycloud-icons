@@ -17,7 +17,8 @@
         "send",
         "share",
         "email"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

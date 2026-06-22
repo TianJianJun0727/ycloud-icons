@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "花",
   "tags": [
-    "可持续",
+    "可持续性",
     "自然",
-    "植物"
+    "植物",
+    "春天"
   ],
   "categories": [
     "nature",
@@ -20,7 +21,8 @@
         "nature",
         "plant",
         "spring"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

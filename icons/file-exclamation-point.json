@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "文件感叹号点",
   "tags": [
+    "隐藏的",
     "警告",
     "告警",
-    "感叹号标记"
+    "危险",
+    "受保护的",
+    "感叹号"
   ],
   "categories": [
     "files",
@@ -29,7 +32,8 @@
         "danger",
         "protected",
         "exclamation mark"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

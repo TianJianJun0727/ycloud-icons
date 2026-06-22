@@ -3,8 +3,15 @@
   "use-cases": [],
   "name": "星号",
   "tags": [
+    "参考",
+    "次",
+    "乘以",
+    "乘法",
+    "操作员",
     "代码",
-    "glob图案"
+    "全局模式",
+    "通配符",
+    "*"
   ],
   "categories": [
     "text",
@@ -24,7 +31,8 @@
         "glob pattern",
         "wildcard",
         "*"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

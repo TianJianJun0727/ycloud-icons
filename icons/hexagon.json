@@ -4,6 +4,7 @@
   "name": "六边形",
   "tags": [
     "形状",
+    "节点.js",
     "标志"
   ],
   "categories": [
@@ -17,7 +18,8 @@
         "shape",
         "node.js",
         "logo"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "电脑箱包",
   "tags": [
-    "电脑"
+    "电脑",
+    "底盘"
   ],
   "categories": [
     "devices",
@@ -15,7 +16,8 @@
       "tags": [
         "computer",
         "chassis"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

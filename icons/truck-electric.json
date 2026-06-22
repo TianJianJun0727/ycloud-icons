@@ -3,8 +3,12 @@
   "use-cases": [],
   "name": "卡车电动",
   "tags": [
-    "厢式车",
-    "电动"
+    "交货",
+    "货车",
+    "运输",
+    "运输",
+    "卡车",
+    "电动的"
   ],
   "categories": [
     "transportation"
@@ -19,7 +23,8 @@
         "haulage",
         "lorry",
         "electric"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

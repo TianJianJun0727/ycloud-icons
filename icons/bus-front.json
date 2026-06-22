@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "公交车正面",
   "tags": [
-    "道路",
-    "行程"
+    "教练",
+    "车辆",
+    "旅行",
+    "路"
   ],
   "categories": [
     "transportation"
@@ -17,7 +19,8 @@
         "vehicle",
         "trip",
         "road"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

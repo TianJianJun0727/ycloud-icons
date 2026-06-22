@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "列表音乐",
   "tags": [
+    "播放列表",
+    "队列",
     "音乐",
-    "音频"
+    "音频",
+    "回放"
   ],
   "categories": [
     "multimedia"
@@ -18,7 +21,8 @@
         "music",
         "audio",
         "playback"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

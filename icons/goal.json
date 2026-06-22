@@ -3,7 +3,8 @@
   "use-cases": [],
   "name": "目标",
   "tags": [
-    "旗帜"
+    "旗帜",
+    "靶心"
   ],
   "categories": [
     "gaming"
@@ -14,7 +15,8 @@
       "tags": [
         "flag",
         "bullseye"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

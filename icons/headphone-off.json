@@ -5,8 +5,9 @@
   "tags": [
     "音乐",
     "音频",
-    "关闭",
-    "声音"
+    "声音",
+    "静音",
+    "关闭"
   ],
   "categories": [
     "multimedia",
@@ -24,7 +25,8 @@
         "sound",
         "mute",
         "off"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -4,7 +4,13 @@
   "name": "逆时针刷新",
   "tags": [
     "箭头",
-    "旋转"
+    "旋转",
+    "重新加载",
+    "重新运行",
+    "同步",
+    "同步",
+    "圆形",
+    "循环"
   ],
   "categories": [
     "arrows"
@@ -21,7 +27,8 @@
         "synchronize",
         "circular",
         "cycle"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

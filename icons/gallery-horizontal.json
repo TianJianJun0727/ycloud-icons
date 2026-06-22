@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "图库水平",
   "tags": [
+    "旋转木马",
+    "图片",
     "图片",
     "滚动",
-    "相册"
+    "滑动",
+    "专辑",
+    "投资组合"
   ],
   "categories": [
     "layout",
@@ -25,7 +29,8 @@
         "swipe",
         "album",
         "portfolio"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

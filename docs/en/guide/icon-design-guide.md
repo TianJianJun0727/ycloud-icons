@@ -43,8 +43,9 @@ Every icon needs a matching JSON metadata file. YCloud Icons is Chinese-first in
 
 - `name` is the Simplified Chinese display name.
 - `tags` are Simplified Chinese search tags.
+- `use-cases` are Simplified Chinese usage phrases. Use an empty array when none are known.
 - `categories` are stable category slugs used by build scripts and validation.
-- `i18n.en` is required and provides English icon names and search tags. Category translations live in `categories/*.json`.
+- `i18n.en` is required and provides English icon names, search tags, and English use cases. Category translations live in `categories/*.json`.
 
 Recommended structure:
 
@@ -58,7 +59,8 @@ Recommended structure:
   "i18n": {
     "en": {
       "name": "plus",
-      "tags": ["add", "create"]
+      "tags": ["add", "create"],
+      "use-cases": []
     }
   }
 }

@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "移动对角线2",
   "tags": [
-    "双人",
+    "双",
     "箭头"
   ],
   "categories": [
@@ -16,7 +16,8 @@
       "tags": [
         "double",
         "arrow"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

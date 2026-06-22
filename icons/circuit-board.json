@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "电路面板",
   "tags": [
+    "计算",
     "电力",
-    "电子"
+    "电子产品"
   ],
   "categories": [
     "science",
@@ -17,7 +18,8 @@
         "computing",
         "electricity",
         "electronics"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

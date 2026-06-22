@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "扫描文本",
   "tags": [
+    "认可",
+    "读",
+    "翻译",
     "复制",
-    "线条"
+    "线"
   ],
   "categories": [
     "text",
@@ -19,7 +22,8 @@
         "translate",
         "copy",
         "lines"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

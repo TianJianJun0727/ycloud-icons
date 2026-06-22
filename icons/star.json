@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "星标",
   "tags": [
-    "书签"
+    "书签",
+    "收藏",
+    "喜欢",
+    "评论",
+    "评级"
   ],
   "categories": [
     "account",
@@ -23,7 +27,8 @@
         "like",
         "review",
         "rating"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

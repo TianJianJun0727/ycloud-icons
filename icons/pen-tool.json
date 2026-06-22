@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "笔工具",
   "tags": [
-    "矢量"
+    "矢量",
+    "绘图",
+    "路径"
   ],
   "categories": [
     "text",
@@ -17,7 +19,8 @@
         "vector",
         "drawing",
         "path"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

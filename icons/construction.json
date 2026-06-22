@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "施工",
   "tags": [
-    "维护"
+    "道路施工",
+    "维护",
+    "封锁",
+    "路障"
   ],
   "categories": [
     "development"
@@ -16,7 +19,8 @@
         "maintenance",
         "blockade",
         "barricade"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

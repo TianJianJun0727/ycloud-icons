@@ -1,20 +1,25 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "remove from favorites",
-    "unstar item",
-    "remove bookmark",
-    "deselect favorite",
-    "remove featured item",
-    "lower priority item",
-    "remove recommendation",
-    "remove saved item"
+    "从收藏中移除",
+    "取消星标项目",
+    "移除书签",
+    "取消收藏选择",
+    "移除精选项目",
+    "降低项目优先级",
+    "移除推荐项",
+    "移除已保存项目"
   ],
   "name": "星标减少",
   "tags": [
     "书签",
-    "减少",
+    "收藏",
+    "喜欢",
+    "评论",
+    "评级",
+    "减号",
     "移除",
+    "取消选择",
     "星标"
   ],
   "categories": [
@@ -39,6 +44,16 @@
         "remove",
         "deselect",
         "star"
+      ],
+      "use-cases": [
+        "remove from favorites",
+        "unstar item",
+        "remove bookmark",
+        "deselect favorite",
+        "remove featured item",
+        "lower priority item",
+        "remove recommendation",
+        "remove saved item"
       ]
     }
   }

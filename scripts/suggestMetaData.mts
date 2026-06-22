@@ -29,8 +29,8 @@ if (!ai) {
   process.exit(0);
 }
 
-const ALL_METADATA_FIELDS = ['tags', 'categories', 'use-cases'] as const;
-const PORTAL_METADATA_FIELDS = ['tags', 'use-cases'] as const;
+const ALL_METADATA_FIELDS = ['tags', 'categories', 'use-cases', 'i18n.en.use-cases'] as const;
+const PORTAL_METADATA_FIELDS = ['tags', 'use-cases', 'i18n.en.use-cases'] as const;
 type MetadataField = (typeof ALL_METADATA_FIELDS)[number];
 
 // Load the allowed categories (name + human-readable title) straight from the
@@ -62,9 +62,15 @@ async function loadReferenceExamples(count = 8) {
   for (let i = 0; i < fileNames.length && examples.length < count; i += step) {
     try {
       const metadata = JSON.parse(await fs.readFile(path.join(iconsDir, fileNames[i]), 'utf-8'));
-      const isWellPopulated = ALL_METADATA_FIELDS.every(
-        (field) => Array.isArray(metadata[field]) && metadata[field].length > 0,
-      );
+      const isWellPopulated =
+        Array.isArray(metadata.tags) &&
+        metadata.tags.length > 0 &&
+        Array.isArray(metadata.categories) &&
+        metadata.categories.length > 0 &&
+        Array.isArray(metadata['use-cases']) &&
+        metadata['use-cases'].length > 0 &&
+        Array.isArray(metadata.i18n?.en?.['use-cases']) &&
+        metadata.i18n.en['use-cases'].length > 0;
 
       if (isWellPopulated) {
         examples.push({
@@ -72,6 +78,11 @@ async function loadReferenceExamples(count = 8) {
           tags: metadata.tags,
           categories: metadata.categories,
           'use-cases': metadata['use-cases'],
+          i18n: {
+            en: {
+              'use-cases': metadata.i18n?.en?.['use-cases'] ?? [],
+            },
+          },
         });
       }
     } catch {
@@ -123,6 +134,11 @@ const metadataSchema = z.object({
       }
     : {}),
   'use-cases': z.array(z.string()),
+  i18n: z.object({
+    en: z.object({
+      'use-cases': z.array(z.string()),
+    }),
+  }),
 });
 
 const hasUserReviews = reviews.some((review) => review.user?.login === username);
@@ -150,23 +166,30 @@ const categoriesContext = categories.map(({ name, title }) => `- ${name}: ${titl
 
 // Render an array property exactly as it should appear in the metadata JSON,
 // preserving the repo's 2-space indentation and the original trailing comma.
-function buildArrayBlock(field: MetadataField, values: string[], trailingComma: string) {
-  const indent = '  ';
-  const itemIndent = '    ';
+function buildArrayBlock(
+  field: MetadataField,
+  values: string[],
+  trailingComma: string,
+  indent = '  ',
+) {
+  const itemIndent = `${indent}  `;
+  const fieldName = field.split('.').at(-1) ?? field;
 
   if (values.length === 0) {
-    return `${indent}"${field}": []${trailingComma}`;
+    return `${indent}"${fieldName}": []${trailingComma}`;
   }
 
   const items = values.map((value) => `${itemIndent}${JSON.stringify(value)}`).join(',\n');
-  return `${indent}"${field}": [\n${items}\n${indent}]${trailingComma}`;
+  return `${indent}"${fieldName}": [\n${items}\n${indent}]${trailingComma}`;
 }
 
 // Locate the line range of an array property in the raw file so we can anchor a
 // GitHub suggestion to it. Handles both inline (`"use-cases": []`) and
 // multi-line arrays, and reports whether the closing line has a trailing comma.
-function findFieldBlock(lines: string[], field: MetadataField) {
-  const startIdx = lines.findIndex((line) => line.trimStart().startsWith(`"${field}":`));
+function findFieldBlock(lines: string[], field: string, startAt = 0) {
+  const startIdx = lines.findIndex(
+    (line, index) => index >= startAt && line.trimStart().startsWith(`"${field}":`),
+  );
   if (startIdx === -1) return null;
 
   let endIdx = startIdx;
@@ -179,6 +202,69 @@ function findFieldBlock(lines: string[], field: MetadataField) {
 
   const trailingComma = lines[endIdx].trim().endsWith(',') ? ',' : '';
   return { startLine: startIdx + 1, endLine: endIdx + 1, trailingComma };
+}
+
+function findMetadataFieldBlock(lines: string[], field: MetadataField) {
+  if (field !== 'i18n.en.use-cases') {
+    return { block: findFieldBlock(lines, field), indent: '  ' };
+  }
+
+  const englishMetadataIdx = lines.findIndex((line) => line.trimStart().startsWith('"en":'));
+  if (englishMetadataIdx === -1) {
+    return { block: null, indent: '      ' };
+  }
+
+  return { block: findFieldBlock(lines, 'use-cases', englishMetadataIdx + 1), indent: '      ' };
+}
+
+function getCurrentValues(metadata: any, field: MetadataField): string[] {
+  if (field === 'i18n.en.use-cases') {
+    return metadata.i18n?.en?.['use-cases'] ?? [];
+  }
+
+  return metadata[field] ?? [];
+}
+
+function getSuggestedValues(suggested: any, field: MetadataField): string[] {
+  if (field === 'i18n.en.use-cases') {
+    return suggested.i18n?.en?.['use-cases'] ?? [];
+  }
+
+  return suggested[field] ?? [];
+}
+
+function getUseCasesState(metadata: any) {
+  const chineseUseCases = Array.isArray(metadata['use-cases']) ? metadata['use-cases'] : [];
+  const englishUseCases = Array.isArray(metadata.i18n?.en?.['use-cases'])
+    ? metadata.i18n.en['use-cases']
+    : [];
+
+  return {
+    hasChineseUseCases: chineseUseCases.length > 0,
+    hasEnglishUseCases: englishUseCases.length > 0,
+  };
+}
+
+function shouldSuggestField(metadata: any, field: MetadataField) {
+  if (field !== 'use-cases' && field !== 'i18n.en.use-cases') {
+    return true;
+  }
+
+  const { hasChineseUseCases, hasEnglishUseCases } = getUseCasesState(metadata);
+
+  if (!hasChineseUseCases && !hasEnglishUseCases) {
+    return false;
+  }
+
+  if (!hasChineseUseCases) {
+    return field === 'use-cases';
+  }
+
+  if (!hasEnglishUseCases) {
+    return field === 'i18n.en.use-cases';
+  }
+
+  return true;
 }
 
 const suggestionsByFile = changedFiles.map(async ({ filename, raw_url }) => {
@@ -204,14 +290,20 @@ const suggestionsByFile = changedFiles.map(async ({ filename, raw_url }) => {
     tags: metadata.tags ?? [],
     categories: metadata.categories ?? [],
     'use-cases': metadata['use-cases'] ?? [],
+    i18n: {
+      en: {
+        'use-cases': metadata.i18n?.en?.['use-cases'] ?? [],
+      },
+    },
   };
 
-const input = `You are maintaining the metadata for the YCloud icon library. Suggest additional metadata for the \`${iconName}\` icon.
+  const input = `You are maintaining the metadata for the YCloud icon library. Suggest additional metadata for the \`${iconName}\` icon.
 
 Guidelines:
 - tags: Simplified Chinese search terms for the default Chinese metadata. Keep them short. Technical proper nouns are allowed when they are the common UI term. Never include the word "icon" or the icon's own name ("${iconName}").
 - categories: ${isPortalPullRequest ? 'do not suggest categories. This PR comes from the Figma submission flow, where categories are explicitly selected by the designer.' : 'only use values from the allowed categories listed below. Lowercase. Keep them relevant to the icon.'}
-- use-cases: short lowercase phrases describing concrete situations the icon represents (e.g. "indicating a disabled webcam"). No trailing punctuation.
+- use-cases: Simplified Chinese phrases describing concrete situations the icon represents (e.g. "表示摄像头已禁用"). No trailing punctuation.
+- i18n.en.use-cases: English lowercase phrases describing the same concrete situations (e.g. "indicating a disabled webcam"). No trailing punctuation.
 Only suggest NEW values that build on the current metadata, and prefer quality over quantity.
 
 Allowed categories:
@@ -232,13 +324,18 @@ ${JSON.stringify(referenceExamples, null, 2)}`;
   console.log(`Current metadata for ${iconName}:`, currentMetadata);
 
   const lines = fileContent.split('\n');
-  const chatGptQuery = `Suggest Simplified Chinese tags, categories and use-cases for a "${iconName}" icon in the YCloud icon library.`;
+  const chatGptQuery = `Suggest Simplified Chinese tags, categories, Simplified Chinese use-cases, and English i18n.en.use-cases for a "${iconName}" icon in the YCloud icon library.`;
 
   // Build one inline GitHub suggestion per field, deduped against the values
   // already present in the file.
   const comments = metadataFields.flatMap((field) => {
-    const current: string[] = currentMetadata[field];
-    const newValues = suggested[field].filter(
+    if (!shouldSuggestField(metadata, field)) {
+      console.log(`Skipping ${field} suggestion for ${iconName} based on current use-cases state.`);
+      return [];
+    }
+
+    const current = getCurrentValues(metadata, field);
+    const newValues = getSuggestedValues(suggested, field).filter(
       (value) => !current.includes(value) && value !== iconName,
     );
 
@@ -247,13 +344,18 @@ ${JSON.stringify(referenceExamples, null, 2)}`;
       return [];
     }
 
-    const block = findFieldBlock(lines, field);
+    const { block, indent } = findMetadataFieldBlock(lines, field);
     if (!block) {
       console.log(`Could not locate "${field}" in ${filename}. Skipping...`);
       return [];
     }
 
-    const suggestion = buildArrayBlock(field, [...current, ...newValues], block.trailingComma);
+    const suggestion = buildArrayBlock(
+      field,
+      [...current, ...newValues],
+      block.trailingComma,
+      indent,
+    );
 
     const body = `Suggested \`${field}\` for the \`${iconName}\` icon.
 \`\`\`suggestion
@@ -288,8 +390,8 @@ if (comments.length === 0) {
 }
 
 const reviewBody = `### Metadata suggestions
-I've asked AI for suggestions for \`tags\`, \`categories\` and \`use-cases\`.
-\`tags\` are Simplified Chinese because they belong to the default Chinese metadata.
+I've asked AI for suggestions for \`tags\`, \`categories\`, Simplified Chinese \`use-cases\`, and English \`i18n.en.use-cases\`.
+\`tags\` and top-level \`use-cases\` are Simplified Chinese because they belong to the default Chinese metadata.
 Please review them and apply any that you find useful.
 `;
 

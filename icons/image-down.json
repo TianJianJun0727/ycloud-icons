@@ -6,7 +6,8 @@
     "图片",
     "照片",
     "下载",
-    "保存"
+    "保存",
+    "导出"
   ],
   "categories": [
     "photography",
@@ -23,7 +24,8 @@
         "download",
         "save",
         "export"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

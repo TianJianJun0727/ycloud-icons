@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "啤酒",
   "tags": [
-    "条形",
-    "饮品"
+    "酒精",
+    "酒吧",
+    "饮料",
+    "啤酒厂",
+    "喝"
   ],
   "categories": [
     "food-beverage"
@@ -18,7 +21,8 @@
         "beverage",
         "brewery",
         "drink"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

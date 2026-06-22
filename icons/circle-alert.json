@@ -5,7 +5,8 @@
   "tags": [
     "警告",
     "告警",
-    "感叹号标记"
+    "危险",
+    "感叹号"
   ],
   "categories": [
     "notifications"
@@ -26,7 +27,8 @@
         "alert",
         "danger",
         "exclamation mark"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

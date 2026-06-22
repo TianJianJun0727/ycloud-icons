@@ -4,7 +4,9 @@
   "name": "Git 分支",
   "tags": [
     "代码",
-    "version控制"
+    "版本控制",
+    "版本控制",
+    "存储库"
   ],
   "categories": [
     "development"
@@ -17,7 +19,8 @@
         "version control",
         "vcs",
         "repository"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

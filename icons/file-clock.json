@@ -18,7 +18,8 @@
         "history",
         "log",
         "clock"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

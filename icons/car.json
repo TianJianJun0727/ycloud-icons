@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "汽车",
   "tags": [
-    "驱动器",
-    "行程"
+    "车辆",
+    "开车",
+    "旅行",
+    "旅程"
   ],
   "categories": [
     "transportation"
@@ -17,7 +19,8 @@
         "drive",
         "trip",
         "journey"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

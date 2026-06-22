@@ -3,7 +3,12 @@
   "use-cases": [],
   "name": "邮件",
   "tags": [
-    "mailing列表",
+    "电子邮件",
+    "消息",
+    "字母",
+    "多个",
+    "邮件列表",
+    "时事通讯",
     "复制"
   ],
   "categories": [
@@ -20,7 +25,8 @@
         "mailing list",
         "newsletter",
         "copy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

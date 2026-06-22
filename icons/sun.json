@@ -3,7 +3,10 @@
   "use-cases": [],
   "name": "太阳",
   "tags": [
-    "天气"
+    "亮度",
+    "天气",
+    "光",
+    "夏天"
   ],
   "categories": [
     "accessibility",
@@ -19,7 +22,8 @@
         "weather",
         "light",
         "summer"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

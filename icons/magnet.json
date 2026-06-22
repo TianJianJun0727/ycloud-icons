@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "磁铁",
   "tags": [
+    "马蹄铁",
     "锁定",
-    "锁"
+    "科学",
+    "快照"
   ],
   "categories": [
     "design"
@@ -17,7 +19,8 @@
         "lock",
         "science",
         "snap"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

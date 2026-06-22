@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "面板左",
   "tags": [
+    "小学",
     "抽屉"
   ],
   "categories": [
@@ -22,7 +23,8 @@
       "tags": [
         "primary",
         "drawer"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

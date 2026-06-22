@@ -3,8 +3,8 @@
   "use-cases": [],
   "name": "方形停车",
   "tags": [
-    "停车lot",
-    "汽车park"
+    "停车场",
+    "停车场"
   ],
   "categories": [
     "transportation",
@@ -24,7 +24,8 @@
       "tags": [
         "parking lot",
         "car park"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

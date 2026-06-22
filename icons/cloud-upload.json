@@ -22,7 +22,8 @@
       "name": "cloud upload",
       "tags": [
         "file"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

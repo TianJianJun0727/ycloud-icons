@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "温度计雪花",
   "tags": [
-    "天气"
+    "温度",
+    "摄氏度",
+    "华氏度",
+    "天气",
+    "冷",
+    "冻结",
+    "冻结"
   ],
   "categories": [
     "weather"
@@ -19,7 +25,8 @@
         "cold",
         "freeze",
         "freezing"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

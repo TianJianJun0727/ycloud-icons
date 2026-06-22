@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "绘制滚筒",
   "tags": [
-    "刷子"
+    "刷子",
+    "颜色",
+    "颜色",
+    "装饰",
+    "DIY"
   ],
   "categories": [
     "text",
@@ -20,7 +24,8 @@
         "colour",
         "decoration",
         "diy"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

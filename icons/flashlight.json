@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "手电筒",
   "tags": [
-    "工具"
+    "火炬",
+    "光",
+    "梁",
+    "紧急情况",
+    "安全",
+    "工具",
+    "明亮"
   ],
   "categories": [
     "photography",
@@ -20,7 +26,8 @@
         "safety",
         "tool",
         "bright"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,10 +3,13 @@
   "use-cases": [],
   "name": "扳手",
   "tags": [
-    "账号",
+    "帐户",
     "设置",
+    "扳手",
+    "DIY",
     "工具箱",
-    "施工"
+    "建造",
+    "建筑"
   ],
   "categories": [
     "account",
@@ -24,7 +27,8 @@
         "toolbox",
         "build",
         "construction"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

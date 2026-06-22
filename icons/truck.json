@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "卡车",
   "tags": [
-    "厢式车"
+    "交货",
+    "货车",
+    "运输",
+    "运输",
+    "卡车"
   ],
   "categories": [
     "transportation"
@@ -17,7 +21,8 @@
         "shipping",
         "haulage",
         "lorry"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

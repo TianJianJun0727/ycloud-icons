@@ -3,9 +3,10 @@
   "use-cases": [],
   "name": "文件夹符号链接",
   "tags": [
+    "目录",
     "符号链接",
-    "链接",
-    "目录"
+    "象征性的",
+    "链接"
   ],
   "categories": [
     "files"
@@ -18,7 +19,8 @@
         "symlink",
         "symbolic",
         "link"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

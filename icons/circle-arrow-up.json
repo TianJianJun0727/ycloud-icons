@@ -5,7 +5,9 @@
   "tags": [
     "前进",
     "方向",
-    "标志"
+    "北",
+    "标志",
+    "按钮"
   ],
   "categories": [
     "arrows",
@@ -28,7 +30,8 @@
         "north",
         "sign",
         "button"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

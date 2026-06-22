@@ -3,6 +3,11 @@
   "use-cases": [],
   "name": "扶手椅",
   "tags": [
+    "沙发",
+    "家具",
+    "休闲",
+    "休息室",
+    "双人沙发",
     "沙发"
   ],
   "categories": [
@@ -18,7 +23,8 @@
         "lounge",
         "loveseat",
         "couch"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,16 @@
   "use-cases": [],
   "name": "星座巨蟹座",
   "tags": [
+    "螃蟹",
     "外壳",
+    "保护",
     "水",
-    "星标标志"
+    "直觉",
+    "占星学",
+    "星座",
+    "星座运势",
+    "星座",
+    "天上的"
   ],
   "categories": [
     "social",
@@ -25,7 +32,8 @@
         "horoscope",
         "constellation",
         "celestial"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

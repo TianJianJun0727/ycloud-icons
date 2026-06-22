@@ -3,10 +3,10 @@
   "use-cases": [],
   "name": "鼠标关闭",
   "tags": [
-    "设备",
+    "装置",
     "滚动",
     "点击",
-    "禁用"
+    "残疾人"
   ],
   "categories": [
     "devices"
@@ -19,7 +19,8 @@
         "scroll",
         "click",
         "disabled"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

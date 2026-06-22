@@ -3,7 +3,15 @@
   "use-cases": [],
   "name": "重量波浪号",
   "tags": [
-    "比例尺"
+    "测量",
+    "规模",
+    "估计",
+    "负载",
+    "平衡",
+    "尺寸",
+    "测量",
+    "数量",
+    "质量"
   ],
   "categories": [
     "math"
@@ -21,7 +29,8 @@
         "measurement",
         "quantity",
         "mass"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

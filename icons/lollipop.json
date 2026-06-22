@@ -3,9 +3,13 @@
   "use-cases": [],
   "name": "棒棒糖",
   "tags": [
+    "棒棒糖",
     "糖果",
+    "糖",
     "食物",
-    "甜点"
+    "甜甜的",
+    "甜点",
+    "螺旋"
   ],
   "categories": [
     "food-beverage"
@@ -21,7 +25,8 @@
         "sweet",
         "dessert",
         "spiral"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

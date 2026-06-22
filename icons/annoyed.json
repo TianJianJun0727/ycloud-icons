@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "烦恼",
   "tags": [
-    "表情",
-    "情绪"
+    "表情符号",
+    "滋扰",
+    "脸",
+    "情感"
   ],
   "categories": [
     "emoji"
@@ -17,7 +19,8 @@
         "nuisance",
         "face",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

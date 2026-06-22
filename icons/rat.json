@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "老鼠",
   "tags": [
-    "鼠标"
+    "鼠标",
+    "老鼠",
+    "沙鼠",
+    "啮齿动物",
+    "宠物",
+    "害虫",
+    "瘟疫",
+    "疾病"
   ],
   "categories": [
     "animals"
@@ -20,7 +27,8 @@
         "pest",
         "plague",
         "disease"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

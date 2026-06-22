@@ -3,7 +3,13 @@
   "use-cases": [],
   "name": "工作流",
   "tags": [
+    "动作",
+    "持续集成",
+    "词",
+    "自动化",
+    "开发运营",
     "网络",
+    "节点",
     "连接"
   ],
   "categories": [
@@ -21,7 +27,8 @@
         "network",
         "node",
         "connection"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

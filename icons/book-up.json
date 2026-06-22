@@ -4,7 +4,11 @@
   "name": "书籍上",
   "tags": [
     "代码",
-    "version控制"
+    "编码",
+    "版本控制",
+    "Git",
+    "存储库",
+    "推送"
   ],
   "categories": [
     "development"
@@ -19,7 +23,8 @@
         "git",
         "repository",
         "push"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -5,8 +5,11 @@
   "tags": [
     "连接",
     "信号",
+    "无线",
+    "同步",
+    "重新连接",
     "重置",
-    "重启"
+    "重新启动"
   ],
   "categories": [
     "connectivity",
@@ -23,7 +26,8 @@
         "reconnect",
         "reset",
         "restart"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

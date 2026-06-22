@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "威尼斯面具",
   "tags": [
-    "面具"
+    "面具",
+    "化装舞会",
+    "冒充",
+    "秘密",
+    "隐姓埋名"
   ],
   "categories": [
     "account",
@@ -18,7 +22,8 @@
         "impersonate",
         "secret",
         "incognito"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

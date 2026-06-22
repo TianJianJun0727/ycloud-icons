@@ -4,6 +4,7 @@
   "name": "图片播放",
   "tags": [
     "图片",
+    "GIF",
     "照片"
   ],
   "categories": [
@@ -19,7 +20,8 @@
         "picture",
         "gif",
         "photo"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

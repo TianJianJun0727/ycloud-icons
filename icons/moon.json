@@ -3,9 +3,8 @@
   "use-cases": [],
   "name": "月亮",
   "tags": [
-    "月亮",
-    "夜间",
-    "深色模式"
+    "黑暗",
+    "晚上"
   ],
   "categories": [
     "accessibility"
@@ -16,7 +15,8 @@
       "tags": [
         "dark",
         "night"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

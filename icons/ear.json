@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "耳朵",
   "tags": [
+    "听力",
+    "噪音",
     "音频",
-    "无障碍"
+    "可达性"
   ],
   "categories": [
     "medical",
@@ -18,7 +20,8 @@
         "noise",
         "audio",
         "accessibility"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

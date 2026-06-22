@@ -3,6 +3,7 @@
   "use-cases": [],
   "name": "外部链接",
   "tags": [
+    "出境",
     "打开",
     "分享"
   ],
@@ -18,7 +19,8 @@
         "outbound",
         "open",
         "share"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,9 +3,9 @@
   "use-cases": [],
   "name": "文件夹关闭",
   "tags": [
+    "目录",
     "移除",
-    "删除",
-    "目录"
+    "删除"
   ],
   "categories": [
     "files"
@@ -17,7 +17,8 @@
         "directory",
         "remove",
         "delete"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

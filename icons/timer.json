@@ -4,7 +4,8 @@
   "name": "计时器",
   "tags": [
     "时间",
-    "计时器"
+    "定时器",
+    "秒表"
   ],
   "categories": [
     "time"
@@ -16,7 +17,8 @@
         "time",
         "timer",
         "stopwatch"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

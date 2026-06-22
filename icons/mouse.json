@@ -3,7 +3,7 @@
   "use-cases": [],
   "name": "鼠标",
   "tags": [
-    "设备",
+    "装置",
     "滚动",
     "点击"
   ],
@@ -17,7 +17,8 @@
         "device",
         "scroll",
         "click"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

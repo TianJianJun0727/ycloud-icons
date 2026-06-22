@@ -5,6 +5,8 @@
   "tags": [
     "医疗",
     "教育",
+    "科学",
+    "成像",
     "研究"
   ],
   "categories": [
@@ -20,7 +22,8 @@
         "science",
         "imaging",
         "research"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

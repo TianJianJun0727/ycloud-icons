@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "风",
   "tags": [
-    "天气"
+    "天气",
+    "空气",
+    "吹"
   ],
   "categories": [
     "weather",
@@ -16,7 +18,8 @@
         "weather",
         "air",
         "blow"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

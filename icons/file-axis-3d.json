@@ -3,8 +3,10 @@
   "use-cases": [],
   "name": "文件轴三维",
   "tags": [
-    "三维",
-    "轴"
+    "型号",
+    "3D",
+    "轴",
+    "坐标"
   ],
   "categories": [
     "design",
@@ -26,7 +28,8 @@
         "3d",
         "axis",
         "coordinates"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

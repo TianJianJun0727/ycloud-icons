@@ -5,6 +5,8 @@
   "tags": [
     "智能手机",
     "通知",
+    "隆隆声",
+    "触觉反馈",
     "屏幕"
   ],
   "categories": [
@@ -22,7 +24,8 @@
         "rumble",
         "haptic feedback",
         "screen"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

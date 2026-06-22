@@ -4,9 +4,11 @@
   "name": "拔出",
   "tags": [
     "电力",
-    "能源",
-    "电子",
-    "断开"
+    "能量",
+    "电子产品",
+    "插座",
+    "插座",
+    "断开连接"
   ],
   "categories": [
     "devices",
@@ -22,7 +24,8 @@
         "socket",
         "outlet",
         "disconnect"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

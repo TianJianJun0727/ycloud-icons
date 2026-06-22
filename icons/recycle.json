@@ -3,8 +3,9 @@
   "use-cases": [],
   "name": "回收",
   "tags": [
-    "箭头",
-    "可持续"
+    "可持续性",
+    "打捞",
+    "箭头"
   ],
   "categories": [
     "sustainability"
@@ -16,7 +17,8 @@
         "sustainability",
         "salvage",
         "arrows"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

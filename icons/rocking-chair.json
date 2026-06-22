@@ -3,7 +3,11 @@
   "use-cases": [],
   "name": "摇椅椅子",
   "tags": [
-    "椅子"
+    "椅子",
+    "家具",
+    "座位",
+    "舒适度",
+    "放松"
   ],
   "categories": [
     "home"
@@ -17,7 +21,8 @@
         "seat",
         "comfort",
         "relax"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "轨道",
   "tags": [
-    "间距",
-    "物理"
+    "行星",
+    "空间",
+    "物理学",
+    "卫星",
+    "卫星"
   ],
   "categories": [
     "science"
@@ -18,7 +21,8 @@
         "physics",
         "satellites",
         "moons"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

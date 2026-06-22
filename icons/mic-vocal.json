@@ -3,10 +3,16 @@
   "use-cases": [],
   "name": "麦克风人声",
   "tags": [
+    "歌词",
+    "声音",
+    "听",
+    "声音",
     "音乐",
     "收音机",
     "播客",
-    "声音"
+    "卡拉OK",
+    "唱歌",
+    "麦克风"
   ],
   "categories": [
     "devices",
@@ -34,7 +40,8 @@
         "karaoke",
         "singing",
         "microphone"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

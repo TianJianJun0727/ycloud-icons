@@ -3,9 +3,7 @@
   "use-cases": [],
   "name": "香烟",
   "tags": [
-    "香烟",
-    "吸烟",
-    "烟草"
+    "吸烟"
   ],
   "categories": [
     "travel",
@@ -17,7 +15,8 @@
       "name": "cigarette",
       "tags": [
         "smoking"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

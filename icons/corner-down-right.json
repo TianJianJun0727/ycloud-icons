@@ -4,7 +4,8 @@
   "name": "角落下右",
   "tags": [
     "箭头",
-    "缩进"
+    "缩进",
+    "选项卡"
   ],
   "categories": [
     "arrows",
@@ -18,7 +19,8 @@
         "arrow",
         "indent",
         "tab"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

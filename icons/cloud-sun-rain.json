@@ -3,7 +3,9 @@
   "use-cases": [],
   "name": "云太阳雨",
   "tags": [
-    "天气"
+    "天气",
+    "部分地",
+    "降雨量"
   ],
   "categories": [
     "weather"
@@ -15,7 +17,8 @@
         "weather",
         "partly",
         "rainfall"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

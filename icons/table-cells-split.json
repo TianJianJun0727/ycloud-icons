@@ -4,7 +4,8 @@
   "name": "表格单元格拆分",
   "tags": [
     "电子表格",
-    "网格"
+    "网格",
+    "行"
   ],
   "categories": [
     "text",
@@ -17,7 +18,8 @@
         "spreadsheet",
         "grid",
         "row"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

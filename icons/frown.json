@@ -3,8 +3,11 @@
   "use-cases": [],
   "name": "皱眉",
   "tags": [
-    "表情",
-    "情绪"
+    "表情符号",
+    "脸",
+    "坏",
+    "悲伤",
+    "情感"
   ],
   "categories": [
     "emoji",
@@ -19,7 +22,8 @@
         "bad",
         "sad",
         "emotion"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

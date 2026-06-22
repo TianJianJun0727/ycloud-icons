@@ -3,7 +3,14 @@
   "use-cases": [],
   "name": "日历",
   "tags": [
-    "日期"
+    "日期",
+    "月",
+    "年",
+    "事件",
+    "日期",
+    "月",
+    "年",
+    "事件"
   ],
   "categories": [
     "time"
@@ -20,7 +27,8 @@
         "months",
         "years",
         "events"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

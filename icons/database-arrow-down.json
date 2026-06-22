@@ -1,16 +1,20 @@
 {
   "$schema": "../icon.schema.json",
   "use-cases": [
-    "exporting or downloading data from a database",
-    "syncing data from a remote to a local environment"
+    "从数据库导出或下载数据",
+    "将数据从远程同步到本地环境"
   ],
   "name": "数据库箭头下",
   "tags": [
-    "内存",
+    "存储",
+    "记忆",
+    "字节",
     "服务器",
+    "导出",
     "下载",
     "备份",
-    "拉取"
+    "拉取",
+    "缩小规模"
   ],
   "categories": [
     "devices",
@@ -29,6 +33,10 @@
         "backup",
         "pull",
         "downsize"
+      ],
+      "use-cases": [
+        "exporting or downloading data from a database",
+        "syncing data from a remote to a local environment"
       ]
     }
   }

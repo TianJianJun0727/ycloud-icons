@@ -4,7 +4,9 @@
   "name": "向右移动",
   "tags": [
     "箭头",
-    "方向"
+    "方向",
+    "趋势平坦",
+    "东"
   ],
   "categories": [
     "arrows"
@@ -17,7 +19,8 @@
         "direction",
         "trend flat",
         "east"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

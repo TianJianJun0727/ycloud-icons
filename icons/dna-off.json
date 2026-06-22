@@ -4,9 +4,11 @@
   "name": "DNA链关闭",
   "tags": [
     "基因",
+    "无转基因",
     "螺旋",
     "遗传",
-    "染色体"
+    "染色体",
+    "核酸"
   ],
   "categories": [
     "medical",
@@ -22,7 +24,8 @@
         "heredity",
         "chromosome",
         "nucleic acid"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

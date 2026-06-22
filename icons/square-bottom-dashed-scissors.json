@@ -3,9 +3,11 @@
   "use-cases": [],
   "name": "方形底部虚线剪刀",
   "tags": [
-    "切割",
+    "切",
+    "片段",
+    "砍",
     "文具",
-    "手工"
+    "工艺品"
   ],
   "categories": [
     "text",
@@ -31,7 +33,8 @@
         "chop",
         "stationery",
         "crafts"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

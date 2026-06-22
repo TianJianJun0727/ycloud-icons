@@ -3,10 +3,11 @@
   "use-cases": [],
   "name": "用户锁定",
   "tags": [
-    "人员",
+    "人",
     "锁定",
-    "账号",
-    "锁"
+    "锁定",
+    "帐户",
+    "安全"
   ],
   "categories": [
     "account",
@@ -21,7 +22,8 @@
         "locked",
         "account",
         "secure"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }

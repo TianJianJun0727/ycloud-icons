@@ -3,9 +3,12 @@
   "use-cases": [],
   "name": "牛奶",
   "tags": [
+    "乳糖",
     "瓶子",
-    "饮品",
-    "水"
+    "饮料",
+    "喝",
+    "水",
+    "饮食"
   ],
   "categories": [
     "food-beverage"
@@ -20,7 +23,8 @@
         "drink",
         "water",
         "diet"
-      ]
+      ],
+      "use-cases": []
     }
   }
 }
