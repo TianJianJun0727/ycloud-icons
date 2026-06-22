@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "步骤式撤销",
-    "历史记录点",
-    "特定操作回退"
-  ],
+  "use-cases": ["步骤式撤销", "历史记录点", "特定操作回退"],
   "name": "撤销点",
-  "tags": [
-    "撤销",
-    "步骤",
-    "历史点",
-    "回退点"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["撤销", "步骤", "历史点", "回退点"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "undo dot",
-      "tags": [
-        "undo",
-        "step",
-        "history point",
-        "rollback point"
-      ],
-      "use-cases": [
-        "Step-based undo",
-        "History checkpoint",
-        "Specific action rollback"
-      ]
+      "tags": ["undo", "step", "history point", "rollback point"],
+      "use-cases": ["Step-based undo", "History checkpoint", "Specific action rollback"]
     }
   }
 }

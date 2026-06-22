@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "切换密码不可见",
-    "隐藏敏感内容",
-    "禁用预览模式",
-    "隐私设置"
-  ],
+  "use-cases": ["切换密码不可见", "隐藏敏感内容", "禁用预览模式", "隐私设置"],
   "name": "眼睛关闭",
-  "tags": [
-    "隐藏",
-    "不可见",
-    "屏蔽",
-    "隐私",
-    "关闭显示",
-    "禁用查看"
-  ],
-  "categories": [
-    "accessibility",
-    "photography",
-    "design",
-    "security"
-  ],
+  "tags": ["隐藏", "不可见", "屏蔽", "隐私", "关闭显示", "禁用查看"],
+  "categories": ["accessibility", "photography", "design", "security"],
   "i18n": {
     "en": {
       "name": "eye off",
-      "tags": [
-        "hide",
-        "invisible",
-        "mask",
-        "privacy",
-        "visibility off",
-        "disable view"
-      ],
-      "use-cases": [
-        "Toggle password visibility off",
-        "Hide sensitive content",
-        "Disable preview mode",
-        "Privacy settings"
-      ]
+      "tags": ["hide", "invisible", "mask", "privacy", "visibility off", "disable view"],
+      "use-cases": ["Toggle password visibility off", "Hide sensitive content", "Disable preview mode", "Privacy settings"]
     }
   }
 }

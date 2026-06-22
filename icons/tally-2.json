@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏计分",
-    "简单计数或正字标记",
-    "进度指示器"
-  ],
+  "use-cases": ["游戏计分", "简单计数或正字标记", "进度指示器"],
   "name": "计数2",
-  "tags": [
-    "计数",
-    "正字计数",
-    "计分",
-    "2",
-    "二",
-    "第二",
-    "双"
-  ],
-  "categories": [
-    "math",
-    "gaming"
-  ],
+  "tags": ["计数", "正字计数", "计分", "2", "二", "第二", "双"],
+  "categories": ["math", "gaming"],
   "i18n": {
     "en": {
       "name": "tally 2",
-      "tags": [
-        "tally",
-        "count",
-        "score",
-        "two",
-        "2",
-        "second",
-        "double"
-      ],
-      "use-cases": [
-        "scorekeeping in games",
-        "simple counting or tally marks",
-        "progress indicator"
-      ]
+      "tags": ["tally", "count", "score", "two", "2", "second", "double"],
+      "use-cases": ["scorekeeping in games", "simple counting or tally marks", "progress indicator"]
     }
   }
 }

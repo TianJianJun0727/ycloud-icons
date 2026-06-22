@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "大风降雨天气",
-    "暴风雨预警",
-    "恶劣天气提示"
-  ],
+  "use-cases": ["大风降雨天气", "暴风雨预警", "恶劣天气提示"],
   "name": "云雨风",
-  "tags": [
-    "天气",
-    "降雨",
-    "大风",
-    "暴风雨",
-    "恶劣天气"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "降雨", "大风", "暴风雨", "恶劣天气"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud rain wind",
-      "tags": [
-        "weather",
-        "rain",
-        "windy",
-        "storm",
-        "bad weather"
-      ],
-      "use-cases": [
-        "Windy rainy weather",
-        "Storm warning",
-        "Bad weather alert"
-      ]
+      "tags": ["weather", "rain", "windy", "storm", "bad weather"],
+      "use-cases": ["Windy rainy weather", "Storm warning", "Bad weather alert"]
     }
   }
 }

@@ -1,51 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用安全功能",
-    "显示不安全连接",
-    "指示防护已关闭",
-    "标记漏洞状态"
-  ],
+  "use-cases": ["禁用安全功能", "显示不安全连接", "指示防护已关闭", "标记漏洞状态"],
   "name": "盾牌关闭",
-  "tags": [
-    "安全",
-    "防护",
-    "禁用",
-    "关闭",
-    "不安全",
-    "漏洞",
-    "未保护",
-    "网络安全",
-    "失效",
-    "错误"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["安全", "防护", "禁用", "关闭", "不安全", "漏洞", "未保护", "网络安全", "失效", "错误"],
+  "categories": ["account", "security", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "shield off",
-      "tags": [
-        "security",
-        "protection",
-        "disabled",
-        "off",
-        "insecure",
-        "vulnerability",
-        "unprotected",
-        "cybersecurity",
-        "failed",
-        "error"
-      ],
-      "use-cases": [
-        "Disable security feature",
-        "Show insecure connection",
-        "Indicate protection is off",
-        "Mark vulnerability status"
-      ]
+      "tags": ["security", "protection", "disabled", "off", "insecure", "vulnerability", "unprotected", "cybersecurity", "failed", "error"],
+      "use-cases": ["Disable security feature", "Show insecure connection", "Indicate protection is off", "Mark vulnerability status"]
     }
   }
 }

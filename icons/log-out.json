@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户登出按钮",
-    "结束当前会话",
-    "切换账户选项"
-  ],
+  "use-cases": ["用户登出按钮", "结束当前会话", "切换账户选项"],
   "name": "日志外部",
-  "tags": [
-    "登出",
-    "退出",
-    "账号",
-    "注销",
-    "离开",
-    "关闭会话"
-  ],
-  "categories": [
-    "arrows",
-    "account"
-  ],
+  "tags": ["登出", "退出", "账号", "注销", "离开", "关闭会话"],
+  "categories": ["arrows", "account"],
   "i18n": {
     "en": {
       "name": "log out",
-      "tags": [
-        "logout",
-        "sign out",
-        "account",
-        "exit",
-        "leave",
-        "end session"
-      ],
-      "use-cases": [
-        "User logout button",
-        "End current session",
-        "Switch account option"
-      ]
+      "tags": ["logout", "sign out", "account", "exit", "leave", "end session"],
+      "use-cases": ["User logout button", "End current session", "Switch account option"]
     }
   }
 }

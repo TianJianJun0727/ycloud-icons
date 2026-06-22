@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示降低的音频电平或音量",
-    "指示下降的水位或低潮",
-    "表示信号强度衰减"
-  ],
+  "use-cases": ["显示降低的音频电平或音量", "指示下降的水位或低潮", "表示信号强度衰减"],
   "name": "波浪箭头下",
-  "tags": [
-    "波浪下降",
-    "水位下降",
-    "声波减弱",
-    "信号衰减",
-    "低潮"
-  ],
-  "categories": [
-    "weather",
-    "sustainability"
-  ],
+  "tags": ["波浪下降", "水位下降", "声波减弱", "信号衰减", "低潮"],
+  "categories": ["weather", "sustainability"],
   "i18n": {
     "en": {
       "name": "waves arrow down",
-      "tags": [
-        "waves down",
-        "water level falling",
-        "sound decreasing",
-        "signal attenuation",
-        "low tide"
-      ],
-      "use-cases": [
-        "Showing decreasing audio levels or volume",
-        "Indicating falling water levels or low tide",
-        "Representing signal strength degradation"
-      ]
+      "tags": ["waves down", "water level falling", "sound decreasing", "signal attenuation", "low tide"],
+      "use-cases": ["Showing decreasing audio levels or volume", "Indicating falling water levels or low tide", "Representing signal strength degradation"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git推送操作",
-    "代码仓库更新",
-    "版本控制提交"
-  ],
+  "use-cases": ["Git推送操作", "代码仓库更新", "版本控制提交"],
   "name": "书籍上",
-  "tags": [
-    "代码",
-    "版本控制",
-    "Git",
-    "推送",
-    "仓库",
-    "开发"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["代码", "版本控制", "Git", "推送", "仓库", "开发"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "book up",
-      "tags": [
-        "code",
-        "version control",
-        "git",
-        "push",
-        "repository",
-        "development"
-      ],
-      "use-cases": [
-        "Git push operation",
-        "Code repository update",
-        "Version control commit"
-      ]
+      "tags": ["code", "version control", "git", "push", "repository", "development"],
+      "use-cases": ["Git push operation", "Code repository update", "Version control commit"]
     }
   }
 }

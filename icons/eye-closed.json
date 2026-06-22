@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "隐私模式指示器",
-    "内容隐藏切换",
-    "安全功能控件",
-    "不可见状态"
-  ],
+  "use-cases": ["隐私模式指示器", "内容隐藏切换", "安全功能控件", "不可见状态"],
   "name": "眼睛关闭",
-  "tags": [
-    "眼睛关闭",
-    "隐藏",
-    "不可见",
-    "隐私",
-    "安全",
-    "屏蔽"
-  ],
-  "categories": [
-    "accessibility",
-    "photography",
-    "design",
-    "security"
-  ],
+  "tags": ["眼睛关闭", "隐藏", "不可见", "隐私", "安全", "屏蔽"],
+  "categories": ["accessibility", "photography", "design", "security"],
   "i18n": {
     "en": {
       "name": "eye closed",
-      "tags": [
-        "eye closed",
-        "hide",
-        "invisible",
-        "privacy",
-        "security",
-        "block"
-      ],
-      "use-cases": [
-        "Privacy mode indicators",
-        "Content hiding toggles",
-        "Security feature controls",
-        "Visibility off states"
-      ]
+      "tags": ["eye closed", "hide", "invisible", "privacy", "security", "block"],
+      "use-cases": ["Privacy mode indicators", "Content hiding toggles", "Security feature controls", "Visibility off states"]
     }
   }
 }

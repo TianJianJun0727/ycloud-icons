@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "聊天中的代码片段",
-    "技术支持讨论",
-    "代码审查评论"
-  ],
+  "use-cases": ["聊天中的代码片段", "技术支持讨论", "代码审查评论"],
   "name": "消息方形代码",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "代码",
-    "编程",
-    "开发",
-    "代码审查",
-    "技术讨论"
-  ],
-  "categories": [
-    "development",
-    "social"
-  ],
+  "tags": ["聊天", "对话", "评论", "代码", "编程", "开发", "代码审查", "技术讨论"],
+  "categories": ["development", "social"],
   "i18n": {
     "en": {
       "name": "message square code",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "code",
-        "programming",
-        "development",
-        "code review",
-        "technical"
-      ],
-      "use-cases": [
-        "Code snippet in chat",
-        "Technical support discussion",
-        "Code review comments"
-      ]
+      "tags": ["chat", "conversation", "comment", "code", "programming", "development", "code review", "technical"],
+      "use-cases": ["Code snippet in chat", "Technical support discussion", "Code review comments"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "采矿或资源收集游戏",
-    "建筑工具选择",
-    "合成制作界面"
-  ],
+  "use-cases": ["采矿或资源收集游戏", "建筑工具选择", "合成制作界面"],
   "name": "镐",
-  "tags": [
-    "镐",
-    "工具",
-    "采矿",
-    "挖掘",
-    "建造",
-    "资源",
-    "游戏"
-  ],
-  "categories": [
-    "tools",
-    "gaming"
-  ],
+  "tags": ["镐", "工具", "采矿", "挖掘", "建造", "资源", "游戏"],
+  "categories": ["tools", "gaming"],
   "i18n": {
     "en": {
       "name": "pickaxe",
-      "tags": [
-        "pickaxe",
-        "tool",
-        "mining",
-        "dig",
-        "construction",
-        "resource",
-        "gaming"
-      ],
-      "use-cases": [
-        "Mining or resource gathering game",
-        "Construction tool selection",
-        "Crafting interface"
-      ]
+      "tags": ["pickaxe", "tool", "mining", "dig", "construction", "resource", "gaming"],
+      "use-cases": ["Mining or resource gathering game", "Construction tool selection", "Crafting interface"]
     }
   }
 }

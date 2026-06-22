@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "访问设备进行维护",
-    "打开检修面板",
-    "检查内部组件"
-  ],
+  "use-cases": ["访问设备进行维护", "打开检修面板", "检查内部组件"],
   "name": "检查面板",
-  "tags": [
-    "检查面板",
-    "检修口",
-    "盖板",
-    "维护",
-    "访问面板"
-  ],
-  "categories": [
-    "tools"
-  ],
+  "tags": ["检查面板", "检修口", "盖板", "维护", "访问面板"],
+  "categories": ["tools"],
   "i18n": {
     "en": {
       "name": "inspection panel",
-      "tags": [
-        "inspection panel",
-        "access panel",
-        "maintenance hatch",
-        "cover",
-        "service panel"
-      ],
-      "use-cases": [
-        "Access equipment for maintenance",
-        "Open a service panel",
-        "Inspect internal components"
-      ]
+      "tags": ["inspection panel", "access panel", "maintenance hatch", "cover", "service panel"],
+      "use-cases": ["Access equipment for maintenance", "Open a service panel", "Inspect internal components"]
     }
   }
 }

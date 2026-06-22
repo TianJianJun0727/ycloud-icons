@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "邮件客户端的回复全部按钮",
-    "群组邮件的批量回复",
-    "团队协作邮件的响应"
-  ],
+  "use-cases": ["邮件客户端的回复全部按钮", "群组邮件的批量回复", "团队协作邮件的响应"],
   "name": "回复全部",
-  "tags": [
-    "回复全部",
-    "邮件回复",
-    "群发回复",
-    "电子邮件"
-  ],
-  "categories": [
-    "mail"
-  ],
+  "tags": ["回复全部", "邮件回复", "群发回复", "电子邮件"],
+  "categories": ["mail"],
   "i18n": {
     "en": {
       "name": "reply all",
-      "tags": [
-        "reply all",
-        "email reply",
-        "group reply",
-        "email"
-      ],
-      "use-cases": [
-        "Reply all button in email client",
-        "Bulk reply to group emails",
-        "Team collaboration email responses"
-      ]
+      "tags": ["reply all", "email reply", "group reply", "email"],
+      "use-cases": ["Reply all button in email client", "Bulk reply to group emails", "Team collaboration email responses"]
     }
   }
 }

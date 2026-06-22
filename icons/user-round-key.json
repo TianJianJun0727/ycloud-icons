@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户登录认证",
-    "管理用户权限",
-    "保护账户访问",
-    "验证用户身份"
-  ],
+  "use-cases": ["用户登录认证", "管理用户权限", "保护账户访问", "验证用户身份"],
   "name": "用户圆形钥匙",
-  "tags": [
-    "用户认证",
-    "登录安全",
-    "权限管理",
-    "账户保护",
-    "身份验证"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户认证", "登录安全", "权限管理", "账户保护", "身份验证"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "user round key",
-      "tags": [
-        "user authentication",
-        "login security",
-        "permission management",
-        "account protection",
-        "identity verification"
-      ],
-      "use-cases": [
-        "user login authentication",
-        "managing user permissions",
-        "securing account access",
-        "verifying user identity"
-      ]
+      "tags": ["user authentication", "login security", "permission management", "account protection", "identity verification"],
+      "use-cases": ["user login authentication", "managing user permissions", "securing account access", "verifying user identity"]
     }
   }
 }

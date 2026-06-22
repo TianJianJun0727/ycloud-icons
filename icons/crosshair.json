@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相机对焦",
-    "目标选择",
-    "定位工具",
-    "游戏瞄准"
-  ],
+  "use-cases": ["相机对焦", "目标选择", "定位工具", "游戏瞄准"],
   "name": "准星",
-  "tags": [
-    "准星",
-    "瞄准",
-    "目标",
-    "对焦",
-    "定位"
-  ],
-  "categories": [
-    "photography"
-  ],
+  "tags": ["准星", "瞄准", "目标", "对焦", "定位"],
+  "categories": ["photography"],
   "i18n": {
     "en": {
       "name": "crosshair",
-      "tags": [
-        "crosshair",
-        "aim",
-        "target",
-        "focus",
-        "positioning"
-      ],
-      "use-cases": [
-        "Camera focus",
-        "Target selection",
-        "Positioning tool",
-        "Game aiming"
-      ]
+      "tags": ["crosshair", "aim", "target", "focus", "positioning"],
+      "use-cases": ["Camera focus", "Target selection", "Positioning tool", "Game aiming"]
     }
   }
 }

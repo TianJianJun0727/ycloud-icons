@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "酒吧应用图标",
-    "活动策划工具",
-    "饮料菜单"
-  ],
+  "use-cases": ["酒吧应用图标", "活动策划工具", "饮料菜单"],
   "name": "啤酒",
-  "tags": [
-    "啤酒",
-    "酒精",
-    "酒吧",
-    "饮料",
-    "聚会"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["啤酒", "酒精", "酒吧", "饮料", "聚会"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "beer",
-      "tags": [
-        "beer",
-        "alcohol",
-        "bar",
-        "beverage",
-        "party"
-      ],
-      "use-cases": [
-        "Bar app icon",
-        "Event planning tool",
-        "Beverage menu"
-      ]
+      "tags": ["beer", "alcohol", "bar", "beverage", "party"],
+      "use-cases": ["Bar app icon", "Event planning tool", "Beverage menu"]
     }
   }
 }

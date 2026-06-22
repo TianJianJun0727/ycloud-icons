@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "圆形测量工具",
-    "设计软件半径控制",
-    "几何计算器"
-  ],
+  "use-cases": ["圆形测量工具", "设计软件半径控制", "几何计算器"],
   "name": "半径",
-  "tags": [
-    "半径",
-    "圆形",
-    "几何",
-    "测量",
-    "尺寸",
-    "设计"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "design",
-    "tools"
-  ],
+  "tags": ["半径", "圆形", "几何", "测量", "尺寸", "设计"],
+  "categories": ["shapes", "math", "design", "tools"],
   "i18n": {
     "en": {
       "name": "radius",
-      "tags": [
-        "radius",
-        "circle",
-        "geometry",
-        "measure",
-        "size",
-        "design"
-      ],
-      "use-cases": [
-        "Circle measurement tool",
-        "Design software radius control",
-        "Geometry calculator"
-      ]
+      "tags": ["radius", "circle", "geometry", "measure", "size", "design"],
+      "use-cases": ["Circle measurement tool", "Design software radius control", "Geometry calculator"]
     }
   }
 }

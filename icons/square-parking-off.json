@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停车限制标志",
-    "关闭停车场指示",
-    "交通禁止标记"
-  ],
+  "use-cases": ["停车限制标志", "关闭停车场指示", "交通禁止标记"],
   "name": "方形停车关闭",
-  "tags": [
-    "禁止停车",
-    "停车场关闭",
-    "无停车位",
-    "交通禁止"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["禁止停车", "停车场关闭", "无停车位", "交通禁止"],
+  "categories": ["transportation", "navigation"],
   "aliases": [
     {
       "name": "parking-square-off",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square parking off",
-      "tags": [
-        "no parking",
-        "parking closed",
-        "no parking space",
-        "traffic prohibition"
-      ],
-      "use-cases": [
-        "Parking restriction sign",
-        "Closed parking lot indicator",
-        "Traffic prohibition marker"
-      ]
+      "tags": ["no parking", "parking closed", "no parking space", "traffic prohibition"],
+      "use-cases": ["Parking restriction sign", "Closed parking lot indicator", "Traffic prohibition marker"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户验证状态",
-    "账号审核通过",
-    "身份验证确认"
-  ],
+  "use-cases": ["用户验证状态", "账号审核通过", "身份验证确认"],
   "name": "用户勾选",
-  "tags": [
-    "用户验证",
-    "账号确认",
-    "身份验证",
-    "审核通过",
-    "用户认证"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户验证", "账号确认", "身份验证", "审核通过", "用户认证"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "user check",
-      "tags": [
-        "user verification",
-        "account confirmation",
-        "authentication",
-        "approval",
-        "user authentication"
-      ],
-      "use-cases": [
-        "User verification status",
-        "Account approval indicator",
-        "Authentication confirmation"
-      ]
+      "tags": ["user verification", "account confirmation", "authentication", "approval", "user authentication"],
+      "use-cases": ["User verification status", "Account approval indicator", "Authentication confirmation"]
     }
   }
 }

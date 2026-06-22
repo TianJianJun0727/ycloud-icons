@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "未保存书签状态",
-    "禁用书签功能",
-    "移除书签指示器"
-  ],
+  "use-cases": ["未保存书签状态", "禁用书签功能", "移除书签指示器"],
   "name": "书签关闭",
-  "tags": [
-    "未保存",
-    "取消标记",
-    "禁用",
-    "移除",
-    "关闭",
-    "未读"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["未保存", "取消标记", "禁用", "移除", "关闭", "未读"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "bookmark off",
-      "tags": [
-        "unsaved",
-        "unmarked",
-        "disabled",
-        "removed",
-        "off",
-        "unread"
-      ],
-      "use-cases": [
-        "Unsaved bookmark state",
-        "Disabled bookmark feature",
-        "Remove bookmark indicator"
-      ]
+      "tags": ["unsaved", "unmarked", "disabled", "removed", "off", "unread"],
+      "use-cases": ["Unsaved bookmark state", "Disabled bookmark feature", "Remove bookmark indicator"]
     }
   }
 }

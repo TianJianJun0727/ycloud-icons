@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "法律或司法相关应用",
-    "比较或评估功能",
-    "称重或测量工具"
-  ],
+  "use-cases": ["法律或司法相关应用", "比较或评估功能", "称重或测量工具"],
   "name": "比例尺",
-  "tags": [
-    "天平",
-    "平衡",
-    "法律",
-    "公正",
-    "测量",
-    "比较",
-    "权衡"
-  ],
-  "categories": [
-    "navigation",
-    "science",
-    "finance"
-  ],
+  "tags": ["天平", "平衡", "法律", "公正", "测量", "比较", "权衡"],
+  "categories": ["navigation", "science", "finance"],
   "i18n": {
     "en": {
       "name": "scale",
-      "tags": [
-        "scale",
-        "balance",
-        "law",
-        "justice",
-        "measure",
-        "compare",
-        "weigh"
-      ],
-      "use-cases": [
-        "Legal or justice-related applications",
-        "Comparison or evaluation features",
-        "Weighing or measurement tools"
-      ]
+      "tags": ["scale", "balance", "law", "justice", "measure", "compare", "weigh"],
+      "use-cases": ["Legal or justice-related applications", "Comparison or evaluation features", "Weighing or measurement tools"]
     }
   }
 }

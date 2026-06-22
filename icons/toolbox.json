@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "工具存储界面",
-    "维护仪表板",
-    "维修工具包展示"
-  ],
+  "use-cases": ["工具存储界面", "维护仪表板", "维修工具包展示"],
   "name": "工具箱",
-  "tags": [
-    "工具箱",
-    "工具盒",
-    "维修箱",
-    "工具容器",
-    "工具套装"
-  ],
-  "categories": [
-    "tools",
-    "home"
-  ],
+  "tags": ["工具箱", "工具盒", "维修箱", "工具容器", "工具套装"],
+  "categories": ["tools", "home"],
   "i18n": {
     "en": {
       "name": "toolbox",
-      "tags": [
-        "toolbox",
-        "tool container",
-        "repair kit",
-        "tool storage",
-        "tool set"
-      ],
-      "use-cases": [
-        "Tool storage interface",
-        "Maintenance dashboard",
-        "Repair toolkit display"
-      ]
+      "tags": ["toolbox", "tool container", "repair kit", "tool storage", "tool set"],
+      "use-cases": ["Tool storage interface", "Maintenance dashboard", "Repair toolkit display"]
     }
   }
 }

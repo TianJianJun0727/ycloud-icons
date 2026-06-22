@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "竖屏视频标识",
-    "竖版图片占位",
-    "移动端界面设计",
-    "故事板或快拍格式"
-  ],
+  "use-cases": ["竖屏视频标识", "竖版图片占位", "移动端界面设计", "故事板或快拍格式"],
   "name": "矩形垂直",
-  "tags": [
-    "矩形",
-    "长方形",
-    "垂直",
-    "竖屏",
-    "9:16",
-    "竖版",
-    "形状"
-  ],
-  "categories": [
-    "shapes",
-    "design"
-  ],
+  "tags": ["矩形", "长方形", "垂直", "竖屏", "9:16", "竖版", "形状"],
+  "categories": ["shapes", "design"],
   "i18n": {
     "en": {
       "name": "rectangle vertical",
-      "tags": [
-        "rectangle",
-        "vertical",
-        "portrait",
-        "9:16",
-        "upright",
-        "shape"
-      ],
-      "use-cases": [
-        "Portrait video indicator",
-        "Portrait image placeholder",
-        "Mobile interface design",
-        "Story or snapshot format"
-      ]
+      "tags": ["rectangle", "vertical", "portrait", "9:16", "upright", "shape"],
+      "use-cases": ["Portrait video indicator", "Portrait image placeholder", "Mobile interface design", "Story or snapshot format"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "支付方式选择",
-    "钱包界面",
-    "卡片管理"
-  ],
+  "use-cases": ["支付方式选择", "钱包界面", "卡片管理"],
   "name": "钱包卡片",
-  "tags": [
-    "钱包",
-    "卡片",
-    "支付",
-    "信用卡",
-    "银行卡",
-    "金融"
-  ],
-  "categories": [
-    "account",
-    "finance"
-  ],
+  "tags": ["钱包", "卡片", "支付", "信用卡", "银行卡", "金融"],
+  "categories": ["account", "finance"],
   "i18n": {
     "en": {
       "name": "wallet cards",
-      "tags": [
-        "wallet",
-        "cards",
-        "payment",
-        "credit card",
-        "bank card",
-        "finance"
-      ],
-      "use-cases": [
-        "Payment method selection",
-        "Wallet interface",
-        "Card management"
-      ]
+      "tags": ["wallet", "cards", "payment", "credit card", "bank card", "finance"],
+      "use-cases": ["Payment method selection", "Wallet interface", "Card management"]
     }
   }
 }

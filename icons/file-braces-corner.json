@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "JSON配置文件",
-    "代码文件标识",
-    "开发文档标记",
-    "编程文件角落"
-  ],
+  "use-cases": ["JSON配置文件", "代码文件标识", "开发文档标记", "编程文件角落"],
   "name": "文件花括号角落",
-  "tags": [
-    "代码文件",
-    "JSON文件",
-    "大括号",
-    "编程文件",
-    "开发文档"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["代码文件", "JSON文件", "大括号", "编程文件", "开发文档"],
+  "categories": ["files", "development"],
   "aliases": [
     {
       "name": "file-json-2",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "file braces corner",
-      "tags": [
-        "code file",
-        "JSON file",
-        "curly braces",
-        "programming file",
-        "development document"
-      ],
-      "use-cases": [
-        "JSON configuration files",
-        "Code file identification",
-        "Development document markers",
-        "Programming file corners"
-      ]
+      "tags": ["code file", "JSON file", "curly braces", "programming file", "development document"],
+      "use-cases": ["JSON configuration files", "Code file identification", "Development document markers", "Programming file corners"]
     }
   }
 }

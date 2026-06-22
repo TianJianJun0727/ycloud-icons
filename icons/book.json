@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "阅读应用界面",
-    "文档库浏览器",
-    "教育内容展示"
-  ],
+  "use-cases": ["阅读应用界面", "文档库浏览器", "教育内容展示"],
   "name": "书籍",
-  "tags": [
-    "书籍",
-    "阅读",
-    "文档",
-    "知识",
-    "学习",
-    "图书馆",
-    "教育",
-    "文本"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["书籍", "阅读", "文档", "知识", "学习", "图书馆", "教育", "文本"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book",
-      "tags": [
-        "book",
-        "reading",
-        "document",
-        "knowledge",
-        "study",
-        "library",
-        "education",
-        "text"
-      ],
-      "use-cases": [
-        "Reading app interface",
-        "Document library browser",
-        "Educational content display"
-      ]
+      "tags": ["book", "reading", "document", "knowledge", "study", "library", "education", "text"],
+      "use-cases": ["Reading app interface", "Document library browser", "Educational content display"]
     }
   }
 }

@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "点赞评论",
-    "收藏消息指示器",
-    "积极反馈反应"
-  ],
+  "use-cases": ["点赞评论", "收藏消息指示器", "积极反馈反应"],
   "name": "消息方形爱心",
-  "tags": [
-    "喜欢",
-    "爱心",
-    "消息",
-    "点赞",
-    "收藏",
-    "聊天",
-    "好评",
-    "情感"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["喜欢", "爱心", "消息", "点赞", "收藏", "聊天", "好评", "情感"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square heart",
-      "tags": [
-        "like",
-        "heart",
-        "message",
-        "favorite",
-        "love",
-        "chat",
-        "positive",
-        "affection"
-      ],
-      "use-cases": [
-        "Liking a comment",
-        "Favorite message indicator",
-        "Positive feedback reaction"
-      ]
+      "tags": ["like", "heart", "message", "favorite", "love", "chat", "positive", "affection"],
+      "use-cases": ["Liking a comment", "Favorite message indicator", "Positive feedback reaction"]
     }
   }
 }

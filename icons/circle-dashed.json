@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "草稿状态指示器",
-    "进行中任务",
-    "占位符状态"
-  ],
+  "use-cases": ["草稿状态指示器", "进行中任务", "占位符状态"],
   "name": "圆形虚线",
-  "tags": [
-    "待定",
-    "草稿",
-    "进度",
-    "占位符",
-    "开发"
-  ],
-  "categories": [
-    "development",
-    "shapes"
-  ],
+  "tags": ["待定", "草稿", "进度", "占位符", "开发"],
+  "categories": ["development", "shapes"],
   "i18n": {
     "en": {
       "name": "circle dashed",
-      "tags": [
-        "pending",
-        "draft",
-        "progress",
-        "placeholder",
-        "development"
-      ],
-      "use-cases": [
-        "Draft status indicator",
-        "In progress task",
-        "Placeholder state"
-      ]
+      "tags": ["pending", "draft", "progress", "placeholder", "development"],
+      "use-cases": ["Draft status indicator", "In progress task", "Placeholder state"]
     }
   }
 }

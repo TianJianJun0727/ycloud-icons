@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "专辑收藏展示",
-    "音乐库整理",
-    "媒体目录"
-  ],
+  "use-cases": ["专辑收藏展示", "音乐库整理", "媒体目录"],
   "name": "光盘相册",
-  "tags": [
-    "光盘专辑",
-    "音乐",
-    "唱片",
-    "封面",
-    "收藏"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["光盘专辑", "音乐", "唱片", "封面", "收藏"],
+  "categories": ["devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "disc album",
-      "tags": [
-        "disc album",
-        "music",
-        "record",
-        "cover",
-        "collection"
-      ],
-      "use-cases": [
-        "Album collection display",
-        "Music library organization",
-        "Media catalog"
-      ]
+      "tags": ["disc album", "music", "record", "cover", "collection"],
+      "use-cases": ["Album collection display", "Music library organization", "Media catalog"]
     }
   }
 }

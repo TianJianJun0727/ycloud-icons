@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户生日指示器",
-    "庆祝或活动图标",
-    "外卖应用分类"
-  ],
+  "use-cases": ["用户生日指示器", "庆祝或活动图标", "外卖应用分类"],
   "name": "蛋糕",
-  "tags": [
-    "蛋糕",
-    "生日",
-    "庆祝",
-    "甜点",
-    "糕点",
-    "聚会",
-    "纪念日"
-  ],
-  "categories": [
-    "food-beverage",
-    "social",
-    "account"
-  ],
+  "tags": ["蛋糕", "生日", "庆祝", "甜点", "糕点", "聚会", "纪念日"],
+  "categories": ["food-beverage", "social", "account"],
   "i18n": {
     "en": {
       "name": "cake",
-      "tags": [
-        "cake",
-        "birthday",
-        "celebration",
-        "dessert",
-        "pastry",
-        "party",
-        "anniversary"
-      ],
-      "use-cases": [
-        "User birthday indicator",
-        "Celebration or event icon",
-        "Food delivery app category"
-      ]
+      "tags": ["cake", "birthday", "celebration", "dessert", "pastry", "party", "anniversary"],
+      "use-cases": ["User birthday indicator", "Celebration or event icon", "Food delivery app category"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "屏幕共享界面",
-    "远程桌面连接",
-    "上传显示内容"
-  ],
+  "use-cases": ["屏幕共享界面", "远程桌面连接", "上传显示内容"],
   "name": "显示器上",
-  "tags": [
-    "显示器",
-    "屏幕",
-    "上传",
-    "连接",
-    "远程",
-    "屏幕共享",
-    "设备"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["显示器", "屏幕", "上传", "连接", "远程", "屏幕共享", "设备"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor up",
-      "tags": [
-        "monitor",
-        "screen",
-        "upload",
-        "connect",
-        "remote",
-        "screen share",
-        "device"
-      ],
-      "use-cases": [
-        "Screen sharing interface",
-        "Remote desktop connection",
-        "Uploading display content"
-      ]
+      "tags": ["monitor", "screen", "upload", "connect", "remote", "screen share", "device"],
+      "use-cases": ["Screen sharing interface", "Remote desktop connection", "Uploading display content"]
     }
   }
 }

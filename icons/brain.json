@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "心理健康应用",
-    "教育学习平台",
-    "医疗诊断界面",
-    "认知功能测试"
-  ],
+  "use-cases": ["心理健康应用", "教育学习平台", "医疗诊断界面", "认知功能测试"],
   "name": "大脑",
-  "tags": [
-    "大脑",
-    "智力",
-    "思考",
-    "心理",
-    "医疗",
-    "神经科学"
-  ],
-  "categories": [
-    "medical",
-    "science"
-  ],
+  "tags": ["大脑", "智力", "思考", "心理", "医疗", "神经科学"],
+  "categories": ["medical", "science"],
   "i18n": {
     "en": {
       "name": "brain",
-      "tags": [
-        "brain",
-        "intellect",
-        "thinking",
-        "mental",
-        "medical",
-        "neuroscience"
-      ],
-      "use-cases": [
-        "Mental health application",
-        "Education learning platform",
-        "Medical diagnosis interface",
-        "Cognitive function testing"
-      ]
+      "tags": ["brain", "intellect", "thinking", "mental", "medical", "neuroscience"],
+      "use-cases": ["Mental health application", "Education learning platform", "Medical diagnosis interface", "Cognitive function testing"]
     }
   }
 }

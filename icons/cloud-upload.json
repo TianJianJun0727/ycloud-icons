@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件上传到云端",
-    "数据备份上传",
-    "云存储功能"
-  ],
+  "use-cases": ["文件上传到云端", "数据备份上传", "云存储功能"],
   "name": "云上传",
-  "tags": [
-    "上传",
-    "云上传",
-    "文件上传",
-    "数据上传",
-    "存储"
-  ],
-  "categories": [
-    "arrows",
-    "files"
-  ],
+  "tags": ["上传", "云上传", "文件上传", "数据上传", "存储"],
+  "categories": ["arrows", "files"],
   "aliases": [
     {
       "name": "upload-cloud",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "cloud upload",
-      "tags": [
-        "upload",
-        "cloud upload",
-        "file upload",
-        "data upload",
-        "storage"
-      ],
-      "use-cases": [
-        "File upload to cloud",
-        "Data backup upload",
-        "Cloud storage feature"
-      ]
+      "tags": ["upload", "cloud upload", "file upload", "data upload", "storage"],
+      "use-cases": ["File upload to cloud", "Data backup upload", "Cloud storage feature"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "AI功能入口",
-    "机器学习平台",
-    "智能系统控制面板",
-    "神经网络可视化"
-  ],
+  "use-cases": ["AI功能入口", "机器学习平台", "智能系统控制面板", "神经网络可视化"],
   "name": "大脑电路",
-  "tags": [
-    "人工智能",
-    "AI",
-    "深度学习",
-    "机器学习",
-    "神经网络",
-    "智能计算"
-  ],
-  "categories": [
-    "science",
-    "development"
-  ],
+  "tags": ["人工智能", "AI", "深度学习", "机器学习", "神经网络", "智能计算"],
+  "categories": ["science", "development"],
   "i18n": {
     "en": {
       "name": "brain circuit",
-      "tags": [
-        "artificial intelligence",
-        "ai",
-        "deep learning",
-        "machine learning",
-        "neural network",
-        "intelligent computing"
-      ],
-      "use-cases": [
-        "AI feature entry",
-        "Machine learning platform",
-        "Intelligent system control panel",
-        "Neural network visualization"
-      ]
+      "tags": ["artificial intelligence", "ai", "deep learning", "machine learning", "neural network", "intelligent computing"],
+      "use-cases": ["AI feature entry", "Machine learning platform", "Intelligent system control panel", "Neural network visualization"]
     }
   }
 }

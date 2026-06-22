@@ -1,29 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新项目按钮",
-    "增量计数器界面",
-    "瞄准光标",
-    "代码连接运算符"
-  ],
+  "use-cases": ["添加新项目按钮", "增量计数器界面", "瞄准光标", "代码连接运算符"],
   "name": "圆形加号",
-  "tags": [
-    "添加",
-    "新建",
-    "增加",
-    "加号",
-    "十字准星",
-    "目标",
-    "运算符",
-    "连接",
-    "代码"
-  ],
-  "categories": [
-    "math",
-    "development",
-    "cursors",
-    "gaming"
-  ],
+  "tags": ["添加", "新建", "增加", "加号", "十字准星", "目标", "运算符", "连接", "代码"],
+  "categories": ["math", "development", "cursors", "gaming"],
   "aliases": [
     {
       "name": "plus-circle",
@@ -35,23 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle plus",
-      "tags": [
-        "add",
-        "new",
-        "increase",
-        "plus",
-        "crosshair",
-        "target",
-        "operator",
-        "join",
-        "code"
-      ],
-      "use-cases": [
-        "Add new item button",
-        "Increment counter UI",
-        "Targeting cursor",
-        "Code concatenation operator"
-      ]
+      "tags": ["add", "new", "increase", "plus", "crosshair", "target", "operator", "join", "code"],
+      "use-cases": ["Add new item button", "Increment counter UI", "Targeting cursor", "Code concatenation operator"]
     }
   }
 }

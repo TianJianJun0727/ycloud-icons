@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "应用启动器或主屏幕网格",
-    "图片库网格视图",
-    "仪表盘小组件布局"
-  ],
+  "use-cases": ["应用启动器或主屏幕网格", "图片库网格视图", "仪表盘小组件布局"],
   "name": "布局网格",
-  "tags": [
-    "网格",
-    "布局",
-    "应用网格",
-    "首页",
-    "图标网格",
-    "平铺"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["网格", "布局", "应用网格", "首页", "图标网格", "平铺"],
+  "categories": ["design", "layout"],
   "i18n": {
     "en": {
       "name": "layout grid",
-      "tags": [
-        "grid",
-        "layout",
-        "app grid",
-        "home",
-        "icon grid",
-        "tile"
-      ],
-      "use-cases": [
-        "App launcher or home screen grid",
-        "Image gallery grid view",
-        "Dashboard widget layout"
-      ]
+      "tags": ["grid", "layout", "app grid", "home", "icon grid", "tile"],
+      "use-cases": ["App launcher or home screen grid", "Image gallery grid view", "Dashboard widget layout"]
     }
   }
 }

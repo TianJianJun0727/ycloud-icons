@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑器重做操作",
-    "表单操作恢复",
-    "步骤历史前进"
-  ],
+  "use-cases": ["编辑器重做操作", "表单操作恢复", "步骤历史前进"],
   "name": "重做2",
-  "tags": [
-    "重做",
-    "恢复",
-    "前进",
-    "历史操作",
-    "撤销重做"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["重做", "恢复", "前进", "历史操作", "撤销重做"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "redo 2",
-      "tags": [
-        "redo",
-        "restore",
-        "forward",
-        "history action",
-        "undo redo"
-      ],
-      "use-cases": [
-        "Editor redo action",
-        "Form action restoration",
-        "Step history forward"
-      ]
+      "tags": ["redo", "restore", "forward", "history action", "undo redo"],
+      "use-cases": ["Editor redo action", "Form action restoration", "Step history forward"]
     }
   }
 }

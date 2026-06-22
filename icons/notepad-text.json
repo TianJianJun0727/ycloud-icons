@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "快速笔记",
-    "文本编辑",
-    "笔记记录",
-    "文档创建"
-  ],
+  "use-cases": ["快速笔记", "文本编辑", "笔记记录", "文档创建"],
   "name": "记事本文本",
-  "tags": [
-    "记事本",
-    "笔记",
-    "文本",
-    "写作",
-    "记录",
-    "学习",
-    "文档",
-    "页面"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["记事本", "笔记", "文本", "写作", "记录", "学习", "文档", "页面"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "notepad text",
-      "tags": [
-        "notepad",
-        "notes",
-        "text",
-        "writing",
-        "recording",
-        "study",
-        "document",
-        "pages"
-      ],
-      "use-cases": [
-        "Quick notes",
-        "Text editing",
-        "Note taking",
-        "Document creation"
-      ]
+      "tags": ["notepad", "notes", "text", "writing", "recording", "study", "document", "pages"],
+      "use-cases": ["Quick notes", "Text editing", "Note taking", "Document creation"]
     }
   }
 }

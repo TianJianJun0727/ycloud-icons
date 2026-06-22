@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件扫描功能",
-    "二维码扫描",
-    "文档验证"
-  ],
+  "use-cases": ["文件扫描功能", "二维码扫描", "文档验证"],
   "name": "文件扫描",
-  "tags": [
-    "扫描",
-    "二维码",
-    "条码",
-    "检测",
-    "验证"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["扫描", "二维码", "条码", "检测", "验证"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file scan",
-      "tags": [
-        "scan",
-        "QR code",
-        "barcode",
-        "detect",
-        "verify"
-      ],
-      "use-cases": [
-        "File scanning feature",
-        "QR code scanning",
-        "Document verification"
-      ]
+      "tags": ["scan", "QR code", "barcode", "detect", "verify"],
+      "use-cases": ["File scanning feature", "QR code scanning", "Document verification"]
     }
   }
 }

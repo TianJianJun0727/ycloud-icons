@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "缩略图浏览",
-    "图片预览界面",
-    "相册管理"
-  ],
+  "use-cases": ["缩略图浏览", "图片预览界面", "相册管理"],
   "name": "图库缩略图",
-  "tags": [
-    "缩略图",
-    "图片",
-    "相册",
-    "预览",
-    "作品集"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development",
-    "photography",
-    "multimedia"
-  ],
+  "tags": ["缩略图", "图片", "相册", "预览", "作品集"],
+  "categories": ["layout", "design", "development", "photography", "multimedia"],
   "i18n": {
     "en": {
       "name": "gallery thumbnails",
-      "tags": [
-        "thumbnails",
-        "images",
-        "album",
-        "preview",
-        "portfolio"
-      ],
-      "use-cases": [
-        "Thumbnail browsing",
-        "Image preview interface",
-        "Album management"
-      ]
+      "tags": ["thumbnails", "images", "album", "preview", "portfolio"],
+      "use-cases": ["Thumbnail browsing", "Image preview interface", "Album management"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示模块化UI组件或代码块",
-    "指示构建或施工功能",
-    "显示插件或扩展市场部分"
-  ],
+  "use-cases": ["表示模块化UI组件或代码块", "指示构建或施工功能", "显示插件或扩展市场部分"],
   "name": "积木",
-  "tags": [
-    "积木",
-    "模块",
-    "组件",
-    "堆叠",
-    "构建",
-    "开发",
-    "插件",
-    "扩展"
-  ],
-  "categories": [
-    "development",
-    "layout",
-    "shapes"
-  ],
+  "tags": ["积木", "模块", "组件", "堆叠", "构建", "开发", "插件", "扩展"],
+  "categories": ["development", "layout", "shapes"],
   "i18n": {
     "en": {
       "name": "blocks",
-      "tags": [
-        "blocks",
-        "modules",
-        "components",
-        "stack",
-        "build",
-        "development",
-        "addon",
-        "extension"
-      ],
-      "use-cases": [
-        "Represent modular UI components or code blocks",
-        "Indicate a building or construction feature",
-        "Show plugin or extension marketplace sections"
-      ]
+      "tags": ["blocks", "modules", "components", "stack", "build", "development", "addon", "extension"],
+      "use-cases": ["Represent modular UI components or code blocks", "Indicate a building or construction feature", "Show plugin or extension marketplace sections"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "位置共享已关闭",
-    "导航模式已停用",
-    "离线地图状态"
-  ],
+  "use-cases": ["位置共享已关闭", "导航模式已停用", "离线地图状态"],
   "name": "导航关闭",
-  "tags": [
-    "导航关闭",
-    "定位关闭",
-    "方向禁用",
-    "旅行",
-    "地图服务禁用"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["导航关闭", "定位关闭", "方向禁用", "旅行", "地图服务禁用"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "navigation off",
-      "tags": [
-        "navigation off",
-        "location off",
-        "direction disabled",
-        "travel",
-        "map services disabled"
-      ],
-      "use-cases": [
-        "Location sharing disabled",
-        "Navigation mode deactivated",
-        "Offline map state"
-      ]
+      "tags": ["navigation off", "location off", "direction disabled", "travel", "map services disabled"],
+      "use-cases": ["Location sharing disabled", "Navigation mode deactivated", "Offline map state"]
     }
   }
 }

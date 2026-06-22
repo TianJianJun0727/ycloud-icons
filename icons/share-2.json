@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "内容分享选项",
-    "社交媒体分享",
-    "文件分发"
-  ],
+  "use-cases": ["内容分享选项", "社交媒体分享", "文件分发"],
   "name": "分享2",
-  "tags": [
-    "分享",
-    "共享",
-    "转发",
-    "发送",
-    "社交",
-    "连接",
-    "传播"
-  ],
-  "categories": [
-    "account",
-    "social"
-  ],
+  "tags": ["分享", "共享", "转发", "发送", "社交", "连接", "传播"],
+  "categories": ["account", "social"],
   "i18n": {
     "en": {
       "name": "share 2",
-      "tags": [
-        "share",
-        "sharing",
-        "forward",
-        "send",
-        "social",
-        "connection",
-        "distribution"
-      ],
-      "use-cases": [
-        "Content sharing options",
-        "Social media sharing",
-        "File distribution"
-      ]
+      "tags": ["share", "sharing", "forward", "send", "social", "connection", "distribution"],
+      "use-cases": ["Content sharing options", "Social media sharing", "File distribution"]
     }
   }
 }

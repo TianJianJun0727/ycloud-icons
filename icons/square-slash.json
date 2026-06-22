@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git忽略文件指示器",
-    "代码差异视图",
-    "除法运算"
-  ],
+  "use-cases": ["Git忽略文件指示器", "代码差异视图", "除法运算"],
   "name": "方形斜杠",
-  "tags": [
-    "忽略",
-    "Git忽略",
-    "差异",
-    "除法",
-    "或",
-    "排除"
-  ],
-  "categories": [
-    "development",
-    "math"
-  ],
+  "tags": ["忽略", "Git忽略", "差异", "除法", "或", "排除"],
+  "categories": ["development", "math"],
   "aliases": [
     {
       "name": "slash-square",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square slash",
-      "tags": [
-        "ignore",
-        "gitignore",
-        "diff",
-        "division",
-        "or",
-        "exclude"
-      ],
-      "use-cases": [
-        "Git ignore file indicator",
-        "Code diff view",
-        "Division operation"
-      ]
+      "tags": ["ignore", "gitignore", "diff", "division", "or", "exclude"],
+      "use-cases": ["Git ignore file indicator", "Code diff view", "Division operation"]
     }
   }
 }

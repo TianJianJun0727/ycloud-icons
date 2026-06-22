@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "最小化应用窗口",
-    "收起侧边栏",
-    "UI元素收缩"
-  ],
+  "use-cases": ["最小化应用窗口", "收起侧边栏", "UI元素收缩"],
   "name": "最小化",
-  "tags": [
-    "最小化",
-    "收缩",
-    "关闭",
-    "收起",
-    "窗口控制"
-  ],
-  "categories": [
-    "layout",
-    "design"
-  ],
+  "tags": ["最小化", "收缩", "关闭", "收起", "窗口控制"],
+  "categories": ["layout", "design"],
   "i18n": {
     "en": {
       "name": "minimize",
-      "tags": [
-        "minimize",
-        "shrink",
-        "close",
-        "collapse",
-        "window control"
-      ],
-      "use-cases": [
-        "Minimize application window",
-        "Collapse sidebar",
-        "UI element reduction"
-      ]
+      "tags": ["minimize", "shrink", "close", "collapse", "window control"],
+      "use-cases": ["Minimize application window", "Collapse sidebar", "UI element reduction"]
     }
   }
 }

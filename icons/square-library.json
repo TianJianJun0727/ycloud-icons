@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数字图书馆界面",
-    "资源收藏浏览器",
-    "媒体库管理器"
-  ],
+  "use-cases": ["数字图书馆界面", "资源收藏浏览器", "媒体库管理器"],
   "name": "方形图书馆",
-  "tags": [
-    "图书馆",
-    "书籍",
-    "收藏",
-    "资源",
-    "资料库",
-    "多媒体"
-  ],
-  "categories": [
-    "text",
-    "photography",
-    "multimedia",
-    "navigation",
-    "development"
-  ],
+  "tags": ["图书馆", "书籍", "收藏", "资源", "资料库", "多媒体"],
+  "categories": ["text", "photography", "multimedia", "navigation", "development"],
   "aliases": [
     {
       "name": "library-square",
@@ -32,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square library",
-      "tags": [
-        "library",
-        "books",
-        "collection",
-        "resources",
-        "repository",
-        "multimedia"
-      ],
-      "use-cases": [
-        "Digital library interface",
-        "Resource collection browser",
-        "Media library organizer"
-      ]
+      "tags": ["library", "books", "collection", "resources", "repository", "multimedia"],
+      "use-cases": ["Digital library interface", "Resource collection browser", "Media library organizer"]
     }
   }
 }

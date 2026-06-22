@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "客户服务反馈选项",
-    "表示沮丧的任务状态",
-    "界面中的轻度负面反应"
-  ],
+  "use-cases": ["客户服务反馈选项", "表示沮丧的任务状态", "界面中的轻度负面反应"],
   "name": "烦恼",
-  "tags": [
-    "烦恼",
-    "不耐烦",
-    "困扰",
-    "表情",
-    "情绪",
-    "轻微不满",
-    "厌烦"
-  ],
-  "categories": [
-    "emoji"
-  ],
+  "tags": ["烦恼", "不耐烦", "困扰", "表情", "情绪", "轻微不满", "厌烦"],
+  "categories": ["emoji"],
   "i18n": {
     "en": {
       "name": "annoyed",
-      "tags": [
-        "annoyed",
-        "impatient",
-        "bothered",
-        "emoji",
-        "emotion",
-        "irritated",
-        "frustrated"
-      ],
-      "use-cases": [
-        "Customer service feedback option",
-        "Task status indicating frustration",
-        "Lightweight negative reaction in UI"
-      ]
+      "tags": ["annoyed", "impatient", "bothered", "emoji", "emotion", "irritated", "frustrated"],
+      "use-cases": ["Customer service feedback option", "Task status indicating frustration", "Lightweight negative reaction in UI"]
     }
   }
 }

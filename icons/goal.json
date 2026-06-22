@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏计分界面",
-    "成就解锁指示器",
-    "用户界面中的目标选择",
-    "体育应用进球标记"
-  ],
+  "use-cases": ["游戏计分界面", "成就解锁指示器", "用户界面中的目标选择", "体育应用进球标记"],
   "name": "目标",
-  "tags": [
-    "靶心",
-    "旗帜",
-    "得分",
-    "胜利",
-    "终点",
-    "目的",
-    "游戏目标"
-  ],
-  "categories": [
-    "gaming"
-  ],
+  "tags": ["靶心", "旗帜", "得分", "胜利", "终点", "目的", "游戏目标"],
+  "categories": ["gaming"],
   "i18n": {
     "en": {
       "name": "goal",
-      "tags": [
-        "bullseye",
-        "flag",
-        "score",
-        "victory",
-        "finish",
-        "objective",
-        "gaming target"
-      ],
-      "use-cases": [
-        "Game scoring interface",
-        "Achievement unlocked indicator",
-        "Target selection in UI",
-        "Sports app goal marker"
-      ]
+      "tags": ["bullseye", "flag", "score", "victory", "finish", "objective", "gaming target"],
+      "use-cases": ["Game scoring interface", "Achievement unlocked indicator", "Target selection in UI", "Sports app goal marker"]
     }
   }
 }

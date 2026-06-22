@@ -1,51 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频编辑关键帧添加",
-    "计算器加法功能",
-    "增加数值的UI按钮",
-    "瞄准十字线或目标"
-  ],
+  "use-cases": ["视频编辑关键帧添加", "计算器加法功能", "增加数值的UI按钮", "瞄准十字线或目标"],
   "name": "菱形加号",
-  "tags": [
-    "关键帧",
-    "添加",
-    "新建",
-    "增加",
-    "计算",
-    "工具栏",
-    "十字线",
-    "目标",
-    "最大值",
-    "升级"
-  ],
-  "categories": [
-    "multimedia",
-    "photography",
-    "tools",
-    "devices"
-  ],
+  "tags": ["关键帧", "添加", "新建", "增加", "计算", "工具栏", "十字线", "目标", "最大值", "升级"],
+  "categories": ["multimedia", "photography", "tools", "devices"],
   "i18n": {
     "en": {
       "name": "diamond plus",
-      "tags": [
-        "keyframe",
-        "add",
-        "new",
-        "increase",
-        "calculate",
-        "toolbar",
-        "crosshair",
-        "aim",
-        "maximum",
-        "upgrade"
-      ],
-      "use-cases": [
-        "Video editing keyframe addition",
-        "Calculator add function",
-        "UI button for increasing a value",
-        "Aiming reticle or target"
-      ]
+      "tags": ["keyframe", "add", "new", "increase", "calculate", "toolbar", "crosshair", "aim", "maximum", "upgrade"],
+      "use-cases": ["Video editing keyframe addition", "Calculator add function", "UI button for increasing a value", "Aiming reticle or target"]
     }
   }
 }

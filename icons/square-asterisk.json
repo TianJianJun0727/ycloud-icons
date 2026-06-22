@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "密码字段",
-    "通配符搜索",
-    "必填字段指示"
-  ],
+  "use-cases": ["密码字段", "通配符搜索", "必填字段指示"],
   "name": "方形星号",
-  "tags": [
-    "密码",
-    "通配符",
-    "乘法",
-    "安全",
-    "必填"
-  ],
-  "categories": [
-    "text",
-    "security",
-    "math",
-    "development"
-  ],
+  "tags": ["密码", "通配符", "乘法", "安全", "必填"],
+  "categories": ["text", "security", "math", "development"],
   "aliases": [
     {
       "name": "asterisk-square",
@@ -30,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square asterisk",
-      "tags": [
-        "password",
-        "wildcard",
-        "multiplication",
-        "security",
-        "required"
-      ],
-      "use-cases": [
-        "Password field",
-        "Wildcard search",
-        "Required field indicator"
-      ]
+      "tags": ["password", "wildcard", "multiplication", "security", "required"],
+      "use-cases": ["Password field", "Wildcard search", "Required field indicator"]
     }
   }
 }

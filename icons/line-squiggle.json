@@ -1,48 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "绘图工具",
-    "数学图表",
-    "设计元素",
-    "手写注释"
-  ],
+  "use-cases": ["绘图工具", "数学图表", "设计元素", "手写注释"],
   "name": "线条波浪线",
-  "tags": [
-    "线条",
-    "波浪",
-    "曲线",
-    "涂鸦",
-    "手绘",
-    "设计",
-    "数学",
-    "波形",
-    "装饰"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "design"
-  ],
+  "tags": ["线条", "波浪", "曲线", "涂鸦", "手绘", "设计", "数学", "波形", "装饰"],
+  "categories": ["shapes", "math", "design"],
   "i18n": {
     "en": {
       "name": "line squiggle",
-      "tags": [
-        "line",
-        "squiggle",
-        "curve",
-        "doodle",
-        "hand-drawn",
-        "design",
-        "mathematics",
-        "wave",
-        "decoration"
-      ],
-      "use-cases": [
-        "Drawing tools",
-        "Mathematical graphs",
-        "Design elements",
-        "Freehand annotation"
-      ]
+      "tags": ["line", "squiggle", "curve", "doodle", "hand-drawn", "design", "mathematics", "wave", "decoration"],
+      "use-cases": ["Drawing tools", "Mathematical graphs", "Design elements", "Freehand annotation"]
     }
   }
 }

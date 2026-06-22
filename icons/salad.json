@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健康食品选项",
-    "素食餐选择",
-    "餐厅菜单项",
-    "营养显示"
-  ],
+  "use-cases": ["健康食品选项", "素食餐选择", "餐厅菜单项", "营养显示"],
   "name": "沙拉",
-  "tags": [
-    "沙拉",
-    "食物",
-    "健康",
-    "蔬菜",
-    "餐饮",
-    "素食"
-  ],
-  "categories": [
-    "food-beverage",
-    "emoji"
-  ],
+  "tags": ["沙拉", "食物", "健康", "蔬菜", "餐饮", "素食"],
+  "categories": ["food-beverage", "emoji"],
   "i18n": {
     "en": {
       "name": "salad",
-      "tags": [
-        "salad",
-        "food",
-        "healthy",
-        "vegetables",
-        "dining",
-        "vegetarian"
-      ],
-      "use-cases": [
-        "Healthy food option",
-        "Vegetarian meal selection",
-        "Restaurant menu item",
-        "Nutrition display"
-      ]
+      "tags": ["salad", "food", "healthy", "vegetables", "dining", "vegetarian"],
+      "use-cases": ["Healthy food option", "Vegetarian meal selection", "Restaurant menu item", "Nutrition display"]
     }
   }
 }

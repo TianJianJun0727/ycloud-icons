@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器第一首",
-    "导航到初始位置",
-    "列表起始指示器"
-  ],
+  "use-cases": ["媒体播放器第一首", "导航到初始位置", "列表起始指示器"],
   "name": "折角箭头第一个",
-  "tags": [
-    "第一个",
-    "起始",
-    "最前",
-    "开头",
-    "音乐播放",
-    "多媒体控制"
-  ],
-  "categories": [
-    "arrows",
-    "multimedia"
-  ],
+  "tags": ["第一个", "起始", "最前", "开头", "音乐播放", "多媒体控制"],
+  "categories": ["arrows", "multimedia"],
   "i18n": {
     "en": {
       "name": "chevron first",
-      "tags": [
-        "first",
-        "start",
-        "beginning",
-        "music",
-        "media control"
-      ],
-      "use-cases": [
-        "Media player first track",
-        "Navigation to initial position",
-        "Start of list indicator"
-      ]
+      "tags": ["first", "start", "beginning", "music", "media control"],
+      "use-cases": ["Media player first track", "Navigation to initial position", "Start of list indicator"]
     }
   }
 }

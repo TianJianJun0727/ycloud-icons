@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器段落指示器",
-    "文档格式化工具",
-    "右对齐文本标记"
-  ],
+  "use-cases": ["文本编辑器段落指示器", "文档格式化工具", "右对齐文本标记"],
   "name": "段落标记右",
-  "tags": [
-    "段落",
-    "标记",
-    "文本格式",
-    "排版",
-    "右对齐",
-    "符号"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["段落", "标记", "文本格式", "排版", "右对齐", "符号"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "pilcrow right",
-      "tags": [
-        "paragraph",
-        "mark",
-        "text formatting",
-        "typography",
-        "right align",
-        "symbol"
-      ],
-      "use-cases": [
-        "Text editor paragraph indicator",
-        "Document formatting tool",
-        "Right-aligned text marker"
-      ]
+      "tags": ["paragraph", "mark", "text formatting", "typography", "right align", "symbol"],
+      "use-cases": ["Text editor paragraph indicator", "Document formatting tool", "Right-aligned text marker"]
     }
   }
 }

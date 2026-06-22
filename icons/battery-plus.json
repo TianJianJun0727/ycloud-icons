@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加电池或电源操作",
-    "升级电源容量",
-    "增强充电功能"
-  ],
+  "use-cases": ["添加电池或电源操作", "升级电源容量", "增强充电功能"],
   "name": "电池加号",
-  "tags": [
-    "电池",
-    "增加电量",
-    "电源",
-    "充电",
-    "添加",
-    "升级"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["电池", "增加电量", "电源", "充电", "添加", "升级"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "battery plus",
-      "tags": [
-        "battery",
-        "plus",
-        "power",
-        "charge",
-        "add",
-        "upgrade"
-      ],
-      "use-cases": [
-        "Add battery or power action",
-        "Upgrade power capacity",
-        "Boost charge feature"
-      ]
+      "tags": ["battery", "plus", "power", "charge", "add", "upgrade"],
+      "use-cases": ["Add battery or power action", "Upgrade power capacity", "Boost charge feature"]
     }
   }
 }

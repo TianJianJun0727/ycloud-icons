@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "洗手间设施指示器",
-    "手部卫生站",
-    "清洁产品选择",
-    "液体分配器控制"
-  ],
+  "use-cases": ["洗手间设施指示器", "手部卫生站", "清洁产品选择", "液体分配器控制"],
   "name": "肥皂分配器水滴",
-  "tags": [
-    "洗手液",
-    "清洁",
-    "水滴",
-    "液体",
-    "洗涤",
-    "卫生",
-    "皂液"
-  ],
-  "categories": [
-    "home",
-    "travel"
-  ],
+  "tags": ["洗手液", "清洁", "水滴", "液体", "洗涤", "卫生", "皂液"],
+  "categories": ["home", "travel"],
   "i18n": {
     "en": {
       "name": "soap dispenser droplet",
-      "tags": [
-        "soap dispenser",
-        "clean",
-        "droplet",
-        "liquid",
-        "wash",
-        "hygiene",
-        "sanitizer"
-      ],
-      "use-cases": [
-        "Restroom facility indicator",
-        "Hand hygiene station",
-        "Cleaning product selection",
-        "Liquid dispenser control"
-      ]
+      "tags": ["soap dispenser", "clean", "droplet", "liquid", "wash", "hygiene", "sanitizer"],
+      "use-cases": ["Restroom facility indicator", "Hand hygiene station", "Cleaning product selection", "Liquid dispenser control"]
     }
   }
 }

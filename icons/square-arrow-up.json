@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向上滚动",
-    "上箭头键",
-    "前进导航"
-  ],
+  "use-cases": ["向上滚动", "上箭头键", "前进导航"],
   "name": "方形箭头上",
-  "tags": [
-    "前进",
-    "方向",
-    "按钮",
-    "向上"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["前进", "方向", "按钮", "向上"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-up-square",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow up",
-      "tags": [
-        "forward",
-        "direction",
-        "button",
-        "up"
-      ],
-      "use-cases": [
-        "Scroll up",
-        "Up arrow key",
-        "Forward navigation"
-      ]
+      "tags": ["forward", "direction", "button", "up"],
+      "use-cases": ["Scroll up", "Up arrow key", "Forward navigation"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "拒绝喜欢",
-    "移除收藏",
-    "清除选择",
-    "关闭通知"
-  ],
+  "use-cases": ["拒绝喜欢", "移除收藏", "清除选择", "关闭通知"],
   "name": "爱心关闭",
-  "tags": [
-    "拒绝喜欢",
-    "关闭",
-    "移除",
-    "删除",
-    "清除",
-    "解雇"
-  ],
-  "categories": [
-    "social",
-    "multimedia",
-    "design",
-    "shapes"
-  ],
+  "tags": ["拒绝喜欢", "关闭", "移除", "删除", "清除", "解雇"],
+  "categories": ["social", "multimedia", "design", "shapes"],
   "i18n": {
     "en": {
       "name": "heart X",
-      "tags": [
-        "reject",
-        "unlike",
-        "remove",
-        "delete",
-        "clear",
-        "dismiss"
-      ],
-      "use-cases": [
-        "Reject a like",
-        "Remove favorite",
-        "Clear selection",
-        "Dismiss notification"
-      ]
+      "tags": ["reject", "unlike", "remove", "delete", "clear", "dismiss"],
+      "use-cases": ["Reject a like", "Remove favorite", "Clear selection", "Dismiss notification"]
     }
   }
 }

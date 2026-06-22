@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电源插座指示器",
-    "充电端口显示",
-    "电气连接点"
-  ],
+  "use-cases": ["电源插座指示器", "充电端口显示", "电气连接点"],
   "name": "插头",
-  "tags": [
-    "插头",
-    "电源",
-    "充电",
-    "连接",
-    "电器"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["插头", "电源", "充电", "连接", "电器"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "plug",
-      "tags": [
-        "plug",
-        "power",
-        "charging",
-        "connect",
-        "electrical"
-      ],
-      "use-cases": [
-        "Power outlet indicator",
-        "Charging port display",
-        "Electrical connection point"
-      ]
+      "tags": ["plug", "power", "charging", "connect", "electrical"],
+      "use-cases": ["Power outlet indicator", "Charging port display", "Electrical connection point"]
     }
   }
 }

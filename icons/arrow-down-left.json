@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "导航至左下方",
-    "对角线方向指示",
-    "返回或退出操作"
-  ],
+  "use-cases": ["导航至左下方", "对角线方向指示", "返回或退出操作"],
   "name": "箭头下左",
-  "tags": [
-    "方向",
-    "左下",
-    "对角线",
-    "返回",
-    "退出",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "左下", "对角线", "返回", "退出", "导航"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow down left",
-      "tags": [
-        "direction",
-        "southwest",
-        "diagonal",
-        "back",
-        "exit",
-        "navigation"
-      ],
-      "use-cases": [
-        "Navigate to bottom-left",
-        "Diagonal direction indicator",
-        "Back or exit action"
-      ]
+      "tags": ["direction", "southwest", "diagonal", "back", "exit", "navigation"],
+      "use-cases": ["Navigate to bottom-left", "Diagonal direction indicator", "Back or exit action"]
     }
   }
 }

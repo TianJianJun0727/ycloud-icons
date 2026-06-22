@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "协议确认",
-    "商业合作",
-    "安全交易"
-  ],
+  "use-cases": ["协议确认", "商业合作", "安全交易"],
   "name": "握手",
-  "tags": [
-    "握手",
-    "协议",
-    "合作",
-    "商业",
-    "安全"
-  ],
-  "categories": [
-    "account",
-    "social",
-    "communication",
-    "finance",
-    "security"
-  ],
+  "tags": ["握手", "协议", "合作", "商业", "安全"],
+  "categories": ["account", "social", "communication", "finance", "security"],
   "i18n": {
     "en": {
       "name": "handshake",
-      "tags": [
-        "handshake",
-        "agreement",
-        "cooperation",
-        "business",
-        "security"
-      ],
-      "use-cases": [
-        "Agreement confirmation",
-        "Business partnerships",
-        "Secure transactions"
-      ]
+      "tags": ["handshake", "agreement", "cooperation", "business", "security"],
+      "use-cases": ["Agreement confirmation", "Business partnerships", "Secure transactions"]
     }
   }
 }

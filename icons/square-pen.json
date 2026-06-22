@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器工具栏",
-    "文档批注",
-    "绘图应用",
-    "笔记界面"
-  ],
+  "use-cases": ["文本编辑器工具栏", "文档批注", "绘图应用", "笔记界面"],
   "name": "方形笔",
-  "tags": [
-    "编辑",
-    "铅笔",
-    "书写",
-    "绘制",
-    "草图",
-    "修改",
-    "创作",
-    "标记"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["编辑", "铅笔", "书写", "绘制", "草图", "修改", "创作", "标记"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "pen-box",
@@ -43,22 +27,8 @@
   "i18n": {
     "en": {
       "name": "square pen",
-      "tags": [
-        "edit",
-        "pencil",
-        "writing",
-        "draw",
-        "sketch",
-        "modify",
-        "create",
-        "marker"
-      ],
-      "use-cases": [
-        "Text editor toolbar",
-        "Document annotation",
-        "Drawing application",
-        "Note-taking interface"
-      ]
+      "tags": ["edit", "pencil", "writing", "draw", "sketch", "modify", "create", "marker"],
+      "use-cases": ["Text editor toolbar", "Document annotation", "Drawing application", "Note-taking interface"]
     }
   }
 }

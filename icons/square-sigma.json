@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数学求和符号",
-    "统计总和计算",
-    "公式编辑器"
-  ],
+  "use-cases": ["数学求和符号", "统计总和计算", "公式编辑器"],
   "name": "方形西格玛",
-  "tags": [
-    "总和",
-    "求和",
-    "数学",
-    "公式",
-    "计算",
-    "统计"
-  ],
-  "categories": [
-    "text",
-    "math"
-  ],
+  "tags": ["总和", "求和", "数学", "公式", "计算", "统计"],
+  "categories": ["text", "math"],
   "aliases": [
     {
       "name": "sigma-square",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square sigma",
-      "tags": [
-        "sum",
-        "sigma",
-        "math",
-        "formula",
-        "calculation",
-        "statistics"
-      ],
-      "use-cases": [
-        "Mathematical summation symbol",
-        "Statistics total calculation",
-        "Formula editor"
-      ]
+      "tags": ["sum", "sigma", "math", "formula", "calculation", "statistics"],
+      "use-cases": ["Mathematical summation symbol", "Statistics total calculation", "Formula editor"]
     }
   }
 }

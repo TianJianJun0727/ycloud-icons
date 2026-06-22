@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "聊天中的输入指示器",
-    "更多消息选项菜单",
-    "未完成或进行中的对话"
-  ],
+  "use-cases": ["聊天中的输入指示器", "更多消息选项菜单", "未完成或进行中的对话"],
   "name": "消息圆形更多",
-  "tags": [
-    "正在输入",
-    "更多消息",
-    "聊天选项",
-    "省略号",
-    "未完成"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["正在输入", "更多消息", "聊天选项", "省略号", "未完成"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message circle more",
-      "tags": [
-        "typing",
-        "more messages",
-        "chat options",
-        "ellipsis",
-        "incomplete"
-      ],
-      "use-cases": [
-        "Typing indicator in chat",
-        "More message options menu",
-        "Incomplete or ongoing conversation"
-      ]
+      "tags": ["typing", "more messages", "chat options", "ellipsis", "incomplete"],
+      "use-cases": ["Typing indicator in chat", "More message options menu", "Incomplete or ongoing conversation"]
     }
   }
 }

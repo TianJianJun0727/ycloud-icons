@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码差异视图",
-    "文件比较",
-    "补丁文件"
-  ],
+  "use-cases": ["代码差异视图", "文件比较", "补丁文件"],
   "name": "文件差异",
-  "tags": [
-    "差异",
-    "对比",
-    "补丁",
-    "版本比较"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["差异", "对比", "补丁", "版本比较"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "file diff",
-      "tags": [
-        "diff",
-        "compare",
-        "patch",
-        "version compare"
-      ],
-      "use-cases": [
-        "Code difference view",
-        "File comparison",
-        "Patch file"
-      ]
+      "tags": ["diff", "compare", "patch", "version compare"],
+      "use-cases": ["Code difference view", "File comparison", "Patch file"]
     }
   }
 }

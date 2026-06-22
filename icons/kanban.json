@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "项目管理仪表板",
-    "任务跟踪板",
-    "敏捷工作流可视化"
-  ],
+  "use-cases": ["项目管理仪表板", "任务跟踪板", "敏捷工作流可视化"],
   "name": "看板",
-  "tags": [
-    "看板",
-    "项目管理",
-    "敏捷",
-    "任务板",
-    "工作流",
-    "进度",
-    "板"
-  ],
-  "categories": [
-    "charts",
-    "development",
-    "design"
-  ],
+  "tags": ["看板", "项目管理", "敏捷", "任务板", "工作流", "进度", "板"],
+  "categories": ["charts", "development", "design"],
   "i18n": {
     "en": {
       "name": "kanban",
-      "tags": [
-        "kanban",
-        "project management",
-        "agile",
-        "task board",
-        "workflow",
-        "progress",
-        "board"
-      ],
-      "use-cases": [
-        "Project management dashboard",
-        "Task tracking board",
-        "Agile workflow visualization"
-      ]
+      "tags": ["kanban", "project management", "agile", "task board", "workflow", "progress", "board"],
+      "use-cases": ["Project management dashboard", "Task tracking board", "Agile workflow visualization"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相册下载",
-    "图片导出功能",
-    "保存到设备",
-    "媒体下载"
-  ],
+  "use-cases": ["相册下载", "图片导出功能", "保存到设备", "媒体下载"],
   "name": "图片下",
-  "tags": [
-    "图片下载",
-    "保存图片",
-    "导出图像",
-    "下载照片"
-  ],
-  "categories": [
-    "photography",
-    "text",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["图片下载", "保存图片", "导出图像", "下载照片"],
+  "categories": ["photography", "text", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "image down",
-      "tags": [
-        "image download",
-        "save picture",
-        "export image",
-        "download photo"
-      ],
-      "use-cases": [
-        "Photo gallery download",
-        "Image export feature",
-        "Save to device",
-        "Media download"
-      ]
+      "tags": ["image download", "save picture", "export image", "download photo"],
+      "use-cases": ["Photo gallery download", "Image export feature", "Save to device", "Media download"]
     }
   }
 }

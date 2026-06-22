@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食品饮料菜单",
-    "餐厅咖啡馆界面",
-    "饮品点单系统"
-  ],
+  "use-cases": ["食品饮料菜单", "餐厅咖啡馆界面", "饮品点单系统"],
   "name": "杯子汽水",
-  "tags": [
-    "汽水",
-    "饮料",
-    "杯子",
-    "吸管",
-    "冷饮",
-    "碳酸饮料"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["汽水", "饮料", "杯子", "吸管", "冷饮", "碳酸饮料"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "cup soda",
-      "tags": [
-        "soda",
-        "beverage",
-        "cup",
-        "straw",
-        "cold drink",
-        "carbonated drink"
-      ],
-      "use-cases": [
-        "Food and beverage menus",
-        "Restaurant and cafe interfaces",
-        "Drink ordering systems"
-      ]
+      "tags": ["soda", "beverage", "cup", "straw", "cold drink", "carbonated drink"],
+      "use-cases": ["Food and beverage menus", "Restaurant and cafe interfaces", "Drink ordering systems"]
     }
   }
 }

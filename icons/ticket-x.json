@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "取消票券或预订",
-    "将优惠券标记为已使用或无效",
-    "显示已退款或被拒绝的入场许可"
-  ],
+  "use-cases": ["取消票券或预订", "将优惠券标记为已使用或无效", "显示已退款或被拒绝的入场许可"],
   "name": "票券关闭",
-  "tags": [
-    "票券",
-    "关闭",
-    "取消",
-    "作废",
-    "无效",
-    "删除",
-    "错误",
-    "拒绝"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["票券", "关闭", "取消", "作废", "无效", "删除", "错误", "拒绝"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "ticket X",
-      "tags": [
-        "ticket",
-        "close",
-        "cancel",
-        "void",
-        "invalid",
-        "delete",
-        "error",
-        "refuse"
-      ],
-      "use-cases": [
-        "Cancel a ticket or reservation",
-        "Mark a coupon as used or invalid",
-        "Show a refunded or denied entry"
-      ]
+      "tags": ["ticket", "close", "cancel", "void", "invalid", "delete", "error", "refuse"],
+      "use-cases": ["Cancel a ticket or reservation", "Mark a coupon as used or invalid", "Show a refunded or denied entry"]
     }
   }
 }

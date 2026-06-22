@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏计分",
-    "简单计数或正字标记",
-    "进度指示器"
-  ],
+  "use-cases": ["游戏计分", "简单计数或正字标记", "进度指示器"],
   "name": "计数1",
-  "tags": [
-    "计数",
-    "正字计数",
-    "计分",
-    "1",
-    "一",
-    "第一",
-    "标记"
-  ],
-  "categories": [
-    "math",
-    "gaming"
-  ],
+  "tags": ["计数", "正字计数", "计分", "1", "一", "第一", "标记"],
+  "categories": ["math", "gaming"],
   "i18n": {
     "en": {
       "name": "tally 1",
-      "tags": [
-        "tally",
-        "count",
-        "score",
-        "one",
-        "1",
-        "first",
-        "mark"
-      ],
-      "use-cases": [
-        "scorekeeping in games",
-        "simple counting or tally marks",
-        "progress indicator"
-      ]
+      "tags": ["tally", "count", "score", "one", "1", "first", "mark"],
+      "use-cases": ["scorekeeping in games", "simple counting or tally marks", "progress indicator"]
     }
   }
 }

@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭按钮",
-    "删除项目",
-    "取消操作",
-    "乘法符号"
-  ],
+  "use-cases": ["关闭按钮", "删除项目", "取消操作", "乘法符号"],
   "name": "方形关闭",
-  "tags": [
-    "取消",
-    "关闭",
-    "删除",
-    "清除",
-    "错误",
-    "乘法",
-    "数学"
-  ],
-  "categories": [
-    "math",
-    "notifications"
-  ],
+  "tags": ["取消", "关闭", "删除", "清除", "错误", "乘法", "数学"],
+  "categories": ["math", "notifications"],
   "aliases": [
     {
       "name": "x-square",
@@ -31,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "square X",
-      "tags": [
-        "cancel",
-        "close",
-        "delete",
-        "clear",
-        "error",
-        "multiply",
-        "math"
-      ],
-      "use-cases": [
-        "Close button",
-        "Delete item",
-        "Cancel operation",
-        "Multiplication symbol"
-      ]
+      "tags": ["cancel", "close", "delete", "clear", "error", "multiply", "math"],
+      "use-cases": ["Close button", "Delete item", "Cancel operation", "Multiplication symbol"]
     }
   }
 }

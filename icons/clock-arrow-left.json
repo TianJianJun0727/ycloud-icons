@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "指示时间范围的开始",
-    "分配开始时间",
-    "导航到上一个时间段"
-  ],
+  "use-cases": ["指示时间范围的开始", "分配开始时间", "导航到上一个时间段"],
   "name": "时钟箭头左",
-  "tags": [
-    "时间",
-    "开始时间",
-    "时间范围",
-    "分配时间",
-    "返回",
-    "上一项"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "开始时间", "时间范围", "分配时间", "返回", "上一项"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock arrow left",
-      "tags": [
-        "time",
-        "start time",
-        "time range",
-        "assign time",
-        "back",
-        "previous"
-      ],
-      "use-cases": [
-        "Indicate the start of a time range",
-        "Assign a start time",
-        "Navigate to a previous time slot"
-      ]
+      "tags": ["time", "start time", "time range", "assign time", "back", "previous"],
+      "use-cases": ["Indicate the start of a time range", "Assign a start time", "Navigate to a previous time slot"]
     }
   }
 }

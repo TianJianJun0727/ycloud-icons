@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "支付确认",
-    "费用跟踪",
-    "货币转换"
-  ],
+  "use-cases": ["支付确认", "费用跟踪", "货币转换"],
   "name": "收据美分",
-  "tags": [
-    "收据",
-    "美分",
-    "账单",
-    "支付",
-    "货币",
-    "交易"
-  ],
-  "categories": [
-    "finance",
-    "travel"
-  ],
+  "tags": ["收据", "美分", "账单", "支付", "货币", "交易"],
+  "categories": ["finance", "travel"],
   "i18n": {
     "en": {
       "name": "receipt cent",
-      "tags": [
-        "receipt",
-        "cent",
-        "bill",
-        "payment",
-        "currency",
-        "transaction"
-      ],
-      "use-cases": [
-        "Payment confirmation",
-        "Expense tracking",
-        "Currency conversion"
-      ]
+      "tags": ["receipt", "cent", "bill", "payment", "currency", "transaction"],
+      "use-cases": ["Payment confirmation", "Expense tracking", "Currency conversion"]
     }
   }
 }

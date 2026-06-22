@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "自然应用",
-    "动物保护网站",
-    "自由象征图标"
-  ],
+  "use-cases": ["自然应用", "动物保护网站", "自由象征图标"],
   "name": "鸟",
-  "tags": [
-    "鸟",
-    "动物",
-    "自然",
-    "飞行",
-    "自由"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["鸟", "动物", "自然", "飞行", "自由"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "bird",
-      "tags": [
-        "bird",
-        "animal",
-        "nature",
-        "flight",
-        "freedom"
-      ],
-      "use-cases": [
-        "Nature app",
-        "Animal conservation website",
-        "Freedom symbol icon"
-      ]
+      "tags": ["bird", "animal", "nature", "flight", "freedom"],
+      "use-cases": ["Nature app", "Animal conservation website", "Freedom symbol icon"]
     }
   }
 }

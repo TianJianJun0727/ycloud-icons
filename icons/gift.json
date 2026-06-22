@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "奖励或积分分发",
-    "生日或庆祝功能",
-    "电子商务礼品卡或促销"
-  ],
+  "use-cases": ["奖励或积分分发", "生日或庆祝功能", "电子商务礼品卡或促销"],
   "name": "礼物",
-  "tags": [
-    "礼物",
-    "礼品",
-    "赠送",
-    "奖励",
-    "生日",
-    "派对",
-    "惊喜"
-  ],
-  "categories": [
-    "gaming",
-    "account"
-  ],
+  "tags": ["礼物", "礼品", "赠送", "奖励", "生日", "派对", "惊喜"],
+  "categories": ["gaming", "account"],
   "i18n": {
     "en": {
       "name": "gift",
-      "tags": [
-        "gift",
-        "present",
-        "reward",
-        "giveaway",
-        "birthday",
-        "party",
-        "surprise"
-      ],
-      "use-cases": [
-        "Reward or bonus distribution",
-        "Birthday or celebration feature",
-        "E-commerce gift card or promo"
-      ]
+      "tags": ["gift", "present", "reward", "giveaway", "birthday", "party", "surprise"],
+      "use-cases": ["Reward or bonus distribution", "Birthday or celebration feature", "E-commerce gift card or promo"]
     }
   }
 }

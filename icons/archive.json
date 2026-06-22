@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "归档旧邮件",
-    "将文件压缩存储",
-    "创建数据备份"
-  ],
+  "use-cases": ["归档旧邮件", "将文件压缩存储", "创建数据备份"],
   "name": "归档",
-  "tags": [
-    "归档",
-    "压缩",
-    "存储",
-    "文件",
-    "邮件",
-    "备份",
-    "封存"
-  ],
-  "categories": [
-    "files",
-    "mail"
-  ],
+  "tags": ["归档", "压缩", "存储", "文件", "邮件", "备份", "封存"],
+  "categories": ["files", "mail"],
   "i18n": {
     "en": {
       "name": "archive",
-      "tags": [
-        "archive",
-        "compress",
-        "storage",
-        "file",
-        "mail",
-        "backup",
-        "store"
-      ],
-      "use-cases": [
-        "Archiving old emails",
-        "Compressing files into storage",
-        "Creating a data backup"
-      ]
+      "tags": ["archive", "compress", "storage", "file", "mail", "backup", "store"],
+      "use-cases": ["Archiving old emails", "Compressing files into storage", "Creating a data backup"]
     }
   }
 }

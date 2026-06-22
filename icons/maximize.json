@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "最大化窗口",
-    "切换全屏视图",
-    "将UI元素展开至全尺寸"
-  ],
+  "use-cases": ["最大化窗口", "切换全屏视图", "将UI元素展开至全尺寸"],
   "name": "最大化",
-  "tags": [
-    "最大化",
-    "全屏",
-    "展开",
-    "放大窗口",
-    "虚线框"
-  ],
-  "categories": [
-    "layout",
-    "design"
-  ],
+  "tags": ["最大化", "全屏", "展开", "放大窗口", "虚线框"],
+  "categories": ["layout", "design"],
   "i18n": {
     "en": {
       "name": "maximize",
-      "tags": [
-        "maximize",
-        "fullscreen",
-        "expand",
-        "enlarge window",
-        "dashed frame"
-      ],
-      "use-cases": [
-        "Maximize a window",
-        "Toggle fullscreen view",
-        "Expand UI element to full size"
-      ]
+      "tags": ["maximize", "fullscreen", "expand", "enlarge window", "dashed frame"],
+      "use-cases": ["Maximize a window", "Toggle fullscreen view", "Expand UI element to full size"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭日历事件详情",
-    "移除事件",
-    "拒绝会议邀请"
-  ],
+  "use-cases": ["关闭日历事件详情", "移除事件", "拒绝会议邀请"],
   "name": "日历关闭2",
-  "tags": [
-    "日历",
-    "日期",
-    "关闭",
-    "移除",
-    "删除",
-    "取消",
-    "拒绝"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "关闭", "移除", "删除", "取消", "拒绝"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar X 2",
-      "tags": [
-        "calendar",
-        "date",
-        "close",
-        "remove",
-        "delete",
-        "cancel",
-        "reject"
-      ],
-      "use-cases": [
-        "Close calendar event details",
-        "Remove an event",
-        "Reject a meeting invitation"
-      ]
+      "tags": ["calendar", "date", "close", "remove", "delete", "cancel", "reject"],
+      "use-cases": ["Close calendar event details", "Remove an event", "Reject a meeting invitation"]
     }
   }
 }

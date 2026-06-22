@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "列表最小化",
-    "节省空间",
-    "内容组织",
-    "界面简化"
-  ],
+  "use-cases": ["列表最小化", "节省空间", "内容组织", "界面简化"],
   "name": "列表折叠",
-  "tags": [
-    "列表",
-    "折叠",
-    "收缩",
-    "手风琴",
-    "隐藏",
-    "精简",
-    "展开"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["列表", "折叠", "收缩", "手风琴", "隐藏", "精简", "展开"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "list collapse",
-      "tags": [
-        "list",
-        "collapse",
-        "contract",
-        "accordion",
-        "hide",
-        "compact",
-        "expand"
-      ],
-      "use-cases": [
-        "List minimization",
-        "Space saving",
-        "Content organization",
-        "UI simplification"
-      ]
+      "tags": ["list", "collapse", "contract", "accordion", "hide", "compact", "expand"],
+      "use-cases": ["List minimization", "Space saving", "Content organization", "UI simplification"]
     }
   }
 }

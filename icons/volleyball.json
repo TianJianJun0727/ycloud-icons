@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "运动队伍选择",
-    "沙滩活动图标",
-    "比赛比分显示"
-  ],
+  "use-cases": ["运动队伍选择", "沙滩活动图标", "比赛比分显示"],
   "name": "排球",
-  "tags": [
-    "排球",
-    "运动",
-    "球类",
-    "比赛",
-    "沙滩排球",
-    "团队"
-  ],
-  "categories": [
-    "sports",
-    "gaming",
-    "travel"
-  ],
+  "tags": ["排球", "运动", "球类", "比赛", "沙滩排球", "团队"],
+  "categories": ["sports", "gaming", "travel"],
   "i18n": {
     "en": {
       "name": "volleyball",
-      "tags": [
-        "volleyball",
-        "sports",
-        "ball",
-        "game",
-        "beach volleyball",
-        "team"
-      ],
-      "use-cases": [
-        "Sports team selection",
-        "Beach activity icon",
-        "Game score display"
-      ]
+      "tags": ["volleyball", "sports", "ball", "game", "beach volleyball", "team"],
+      "use-cases": ["Sports team selection", "Beach activity icon", "Game score display"]
     }
   }
 }

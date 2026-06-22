@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家装应用",
-    "工具库存",
-    "建筑项目"
-  ],
+  "use-cases": ["家装应用", "工具库存", "建筑项目"],
   "name": "锤子",
-  "tags": [
-    "锤子",
-    "工具",
-    "维修",
-    "建造",
-    "DIY"
-  ],
-  "categories": [
-    "tools",
-    "home"
-  ],
+  "tags": ["锤子", "工具", "维修", "建造", "DIY"],
+  "categories": ["tools", "home"],
   "i18n": {
     "en": {
       "name": "hammer",
-      "tags": [
-        "hammer",
-        "tool",
-        "repair",
-        "construction",
-        "DIY"
-      ],
-      "use-cases": [
-        "Home improvement apps",
-        "Tool inventory",
-        "Construction projects"
-      ]
+      "tags": ["hammer", "tool", "repair", "construction", "DIY"],
+      "use-cases": ["Home improvement apps", "Tool inventory", "Construction projects"]
     }
   }
 }

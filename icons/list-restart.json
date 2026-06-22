@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从开头重新开始列表",
-    "重置播放列表",
-    "刷新列表顺序"
-  ],
+  "use-cases": ["从开头重新开始列表", "重置播放列表", "刷新列表顺序"],
   "name": "列表重启",
-  "tags": [
-    "列表",
-    "重启",
-    "重置",
-    "刷新",
-    "重新开始",
-    "播放列表"
-  ],
-  "categories": [
-    "multimedia",
-    "text"
-  ],
+  "tags": ["列表", "重启", "重置", "刷新", "重新开始", "播放列表"],
+  "categories": ["multimedia", "text"],
   "i18n": {
     "en": {
       "name": "list restart",
-      "tags": [
-        "list",
-        "restart",
-        "reset",
-        "refresh",
-        "replay",
-        "playlist"
-      ],
-      "use-cases": [
-        "Restart a list from the beginning",
-        "Reset a playlist",
-        "Refresh list order"
-      ]
+      "tags": ["list", "restart", "reset", "refresh", "replay", "playlist"],
+      "use-cases": ["Restart a list from the beginning", "Reset a playlist", "Refresh list order"]
     }
   }
 }

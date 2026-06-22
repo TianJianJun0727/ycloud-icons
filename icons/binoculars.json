@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "旅游应用",
-    "观察工具",
-    "监控系统界面"
-  ],
+  "use-cases": ["旅游应用", "观察工具", "监控系统界面"],
   "name": "双筒望远镜",
-  "tags": [
-    "望远镜",
-    "观察",
-    "探索",
-    "旅游",
-    "监控"
-  ],
-  "categories": [
-    "navigation",
-    "nature",
-    "photography",
-    "science",
-    "travel",
-    "development"
-  ],
+  "tags": ["望远镜", "观察", "探索", "旅游", "监控"],
+  "categories": ["navigation", "nature", "photography", "science", "travel", "development"],
   "i18n": {
     "en": {
       "name": "binoculars",
-      "tags": [
-        "binoculars",
-        "observation",
-        "exploration",
-        "travel",
-        "surveillance"
-      ],
-      "use-cases": [
-        "Travel app",
-        "Observation tool",
-        "Surveillance system interface"
-      ]
+      "tags": ["binoculars", "observation", "exploration", "travel", "surveillance"],
+      "use-cases": ["Travel app", "Observation tool", "Surveillance system interface"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "带测量的精确绘图工具",
-    "设计软件的测量模式",
-    "建筑制图图标"
-  ],
+  "use-cases": ["带测量的精确绘图工具", "设计软件的测量模式", "建筑制图图标"],
   "name": "铅笔尺子",
-  "tags": [
-    "测量",
-    "绘图",
-    "设计",
-    "尺子",
-    "草图",
-    "标注尺寸"
-  ],
-  "categories": [
-    "tools",
-    "design",
-    "layout",
-    "text"
-  ],
+  "tags": ["测量", "绘图", "设计", "尺子", "草图", "标注尺寸"],
+  "categories": ["tools", "design", "layout", "text"],
   "i18n": {
     "en": {
       "name": "pencil ruler",
-      "tags": [
-        "measure",
-        "drawing",
-        "design",
-        "ruler",
-        "sketch",
-        "dimension"
-      ],
-      "use-cases": [
-        "Precision drawing tool with measurement",
-        "Design software measurement mode",
-        "Architectural drafting icon"
-      ]
+      "tags": ["measure", "drawing", "design", "ruler", "sketch", "dimension"],
+      "use-cases": ["Precision drawing tool with measurement", "Design software measurement mode", "Architectural drafting icon"]
     }
   }
 }

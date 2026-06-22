@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "邮件验证成功状态",
-    "新闻订阅确认",
-    "任务完成通知"
-  ],
+  "use-cases": ["邮件验证成功状态", "新闻订阅确认", "任务完成通知"],
   "name": "邮件勾选",
-  "tags": [
-    "邮件确认",
-    "邮件已读",
-    "邮件送达",
-    "已验证邮件",
-    "订阅成功",
-    "任务完成"
-  ],
-  "categories": [
-    "mail"
-  ],
+  "tags": ["邮件确认", "邮件已读", "邮件送达", "已验证邮件", "订阅成功", "任务完成"],
+  "categories": ["mail"],
   "i18n": {
     "en": {
       "name": "mail check",
-      "tags": [
-        "mail check",
-        "email verified",
-        "message delivered",
-        "subscription confirmed",
-        "task completed",
-        "read receipt"
-      ],
-      "use-cases": [
-        "Email verification success status",
-        "Newsletter subscription confirmation",
-        "Task completion notification"
-      ]
+      "tags": ["mail check", "email verified", "message delivered", "subscription confirmed", "task completed", "read receipt"],
+      "use-cases": ["Email verification success status", "Newsletter subscription confirmation", "Task completion notification"]
     }
   }
 }

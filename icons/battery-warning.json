@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电池故障或错误警报",
-    "严重电源警告",
-    "设备电源问题指示"
-  ],
+  "use-cases": ["电池故障或错误警报", "严重电源警告", "设备电源问题指示"],
   "name": "电池警告",
-  "tags": [
-    "电池",
-    "警告",
-    "电源",
-    "故障",
-    "异常",
-    "警报"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["电池", "警告", "电源", "故障", "异常", "警报"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "battery warning",
-      "tags": [
-        "battery",
-        "warning",
-        "power",
-        "fault",
-        "alert",
-        "error"
-      ],
-      "use-cases": [
-        "Battery fault or error alert",
-        "Critical power warning",
-        "Device power issue indicator"
-      ]
+      "tags": ["battery", "warning", "power", "fault", "alert", "error"],
+      "use-cases": ["Battery fault or error alert", "Critical power warning", "Device power issue indicator"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "交换项目",
-    "交易流程",
-    "重新排序列表项"
-  ],
+  "use-cases": ["交换项目", "交易流程", "重新排序列表项"],
   "name": "箭头左右",
-  "tags": [
-    "交换",
-    "双向",
-    "交易",
-    "重新排序",
-    "水平移动"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["交换", "双向", "交易", "重新排序", "水平移动"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow left right",
-      "tags": [
-        "swap",
-        "bidirectional",
-        "transaction",
-        "reorder",
-        "horizontal move"
-      ],
-      "use-cases": [
-        "Swap items",
-        "Transaction flow",
-        "Reorder list items"
-      ]
+      "tags": ["swap", "bidirectional", "transaction", "reorder", "horizontal move"],
+      "use-cases": ["Swap items", "Transaction flow", "Reorder list items"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "邮件投递失败通知",
-    "邮件系统警告",
-    "警告消息指示器"
-  ],
+  "use-cases": ["邮件投递失败通知", "邮件系统警告", "警告消息指示器"],
   "name": "邮件警告",
-  "tags": [
-    "邮件警告",
-    "邮件错误",
-    "投递失败",
-    "异常邮件",
-    "邮件提醒",
-    "感叹号"
-  ],
-  "categories": [
-    "mail"
-  ],
+  "tags": ["邮件警告", "邮件错误", "投递失败", "异常邮件", "邮件提醒", "感叹号"],
+  "categories": ["mail"],
   "i18n": {
     "en": {
       "name": "mail warning",
-      "tags": [
-        "email warning",
-        "mail error",
-        "delivery failure",
-        "alert mail",
-        "exclamation mark"
-      ],
-      "use-cases": [
-        "Email delivery failure notification",
-        "Mail system alert",
-        "Warning message indicator"
-      ]
+      "tags": ["email warning", "mail error", "delivery failure", "alert mail", "exclamation mark"],
+      "use-cases": ["Email delivery failure notification", "Mail system alert", "Warning message indicator"]
     }
   }
 }

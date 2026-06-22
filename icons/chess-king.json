@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国际象棋游戏界面",
-    "排行榜图标",
-    "策略游戏",
-    "将军指示器"
-  ],
+  "use-cases": ["国际象棋游戏界面", "排行榜图标", "策略游戏", "将军指示器"],
   "name": "国际象棋国王",
-  "tags": [
-    "国际象棋",
-    "国王",
-    "棋子",
-    "棋盘游戏",
-    "策略",
-    "王冠",
-    "游戏"
-  ],
-  "categories": [
-    "gaming",
-    "emoji"
-  ],
+  "tags": ["国际象棋", "国王", "棋子", "棋盘游戏", "策略", "王冠", "游戏"],
+  "categories": ["gaming", "emoji"],
   "i18n": {
     "en": {
       "name": "chess king",
-      "tags": [
-        "chess",
-        "king",
-        "piece",
-        "board game",
-        "strategy",
-        "crown",
-        "gaming"
-      ],
-      "use-cases": [
-        "Chess game interface",
-        "Leaderboard icon",
-        "Strategy game",
-        "Checkmate indicator"
-      ]
+      "tags": ["chess", "king", "piece", "board game", "strategy", "crown", "gaming"],
+      "use-cases": ["Chess game interface", "Leaderboard icon", "Strategy game", "Checkmate indicator"]
     }
   }
 }

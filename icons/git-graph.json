@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git提交图谱可视化",
-    "版本历史时间线",
-    "代码仓库分析"
-  ],
+  "use-cases": ["Git提交图谱可视化", "版本历史时间线", "代码仓库分析"],
   "name": "Git图形",
-  "tags": [
-    "提交图",
-    "版本历史",
-    "Git",
-    "代码图谱",
-    "可视化"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["提交图", "版本历史", "Git", "代码图谱", "可视化"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git graph",
-      "tags": [
-        "commit graph",
-        "version history",
-        "Git",
-        "code graph",
-        "visualization"
-      ],
-      "use-cases": [
-        "Git commit graph visualization",
-        "Version history timeline",
-        "Code repository analytics"
-      ]
+      "tags": ["commit graph", "version history", "Git", "code graph", "visualization"],
+      "use-cases": ["Git commit graph visualization", "Version history timeline", "Code repository analytics"]
     }
   }
 }

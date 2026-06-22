@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据筛选界面",
-    "搜索过滤",
-    "内容过滤"
-  ],
+  "use-cases": ["数据筛选界面", "搜索过滤", "内容过滤"],
   "name": "漏斗",
-  "tags": [
-    "筛选",
-    "过滤",
-    "搜索",
-    "数据"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["筛选", "过滤", "搜索", "数据"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "filter",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "funnel",
-      "tags": [
-        "filter",
-        "funnel",
-        "search",
-        "data"
-      ],
-      "use-cases": [
-        "Data filtering interface",
-        "Search filtering",
-        "Content filtering"
-      ]
+      "tags": ["filter", "funnel", "search", "data"],
+      "use-cases": ["Data filtering interface", "Search filtering", "Content filtering"]
     }
   }
 }

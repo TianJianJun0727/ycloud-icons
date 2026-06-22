@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏内高级货币或奖励",
-    "珠宝类电子商务产品",
-    "特殊成就徽章"
-  ],
+  "use-cases": ["游戏内高级货币或奖励", "珠宝类电子商务产品", "特殊成就徽章"],
   "name": "宝石",
-  "tags": [
-    "宝石",
-    "钻石",
-    "水晶",
-    "珠宝",
-    "珍贵",
-    "奖励",
-    "稀有",
-    "游戏货币"
-  ],
-  "categories": [
-    "gaming",
-    "development",
-    "finance"
-  ],
+  "tags": ["宝石", "钻石", "水晶", "珠宝", "珍贵", "奖励", "稀有", "游戏货币"],
+  "categories": ["gaming", "development", "finance"],
   "i18n": {
     "en": {
       "name": "gem",
-      "tags": [
-        "gem",
-        "diamond",
-        "crystal",
-        "jewelry",
-        "precious",
-        "reward",
-        "rare",
-        "currency"
-      ],
-      "use-cases": [
-        "In-game premium currency or reward",
-        "E-commerce product for jewelry",
-        "Special achievement badge"
-      ]
+      "tags": ["gem", "diamond", "crystal", "jewelry", "precious", "reward", "rare", "currency"],
+      "use-cases": ["In-game premium currency or reward", "E-commerce product for jewelry", "Special achievement badge"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "高级乐谱标注",
-    "快速节奏指示器",
-    "音乐教育应用"
-  ],
+  "use-cases": ["高级乐谱标注", "快速节奏指示器", "音乐教育应用"],
   "name": "音乐4",
-  "tags": [
-    "音乐",
-    "音符",
-    "十六分音符",
-    "乐谱",
-    "快速节奏",
-    "旋律"
-  ],
-  "categories": [
-    "multimedia",
-    "files"
-  ],
+  "tags": ["音乐", "音符", "十六分音符", "乐谱", "快速节奏", "旋律"],
+  "categories": ["multimedia", "files"],
   "i18n": {
     "en": {
       "name": "music 4",
-      "tags": [
-        "music",
-        "note",
-        "sixteenth note",
-        "semiquaver",
-        "sheet music",
-        "fast rhythm"
-      ],
-      "use-cases": [
-        "Advanced music notation",
-        "Fast tempo indicator",
-        "Music education app"
-      ]
+      "tags": ["music", "note", "sixteenth note", "semiquaver", "sheet music", "fast rhythm"],
+      "use-cases": ["Advanced music notation", "Fast tempo indicator", "Music education app"]
     }
   }
 }

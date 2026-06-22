@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "前进导航按钮",
-    "下一页控件",
-    "命令行提示符"
-  ],
+  "use-cases": ["前进导航按钮", "下一页控件", "命令行提示符"],
   "name": "方形折角箭头右",
-  "tags": [
-    "前进",
-    "下一页",
-    "导航",
-    "箭头",
-    "终端"
-  ],
-  "categories": [
-    "arrows",
-    "navigation",
-    "development"
-  ],
+  "tags": ["前进", "下一页", "导航", "箭头", "终端"],
+  "categories": ["arrows", "navigation", "development"],
   "aliases": [
     {
       "name": "chevron-right-square",
@@ -29,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square chevron right",
-      "tags": [
-        "forward",
-        "next",
-        "navigation",
-        "arrow",
-        "terminal"
-      ],
-      "use-cases": [
-        "Forward navigation buttons",
-        "Next page controls",
-        "Command line prompts"
-      ]
+      "tags": ["forward", "next", "navigation", "arrow", "terminal"],
+      "use-cases": ["Forward navigation buttons", "Next page controls", "Command line prompts"]
     }
   }
 }

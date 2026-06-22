@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "幻灯片界面",
-    "商务会议演示"
-  ],
+  "use-cases": ["幻灯片界面", "商务会议演示"],
   "name": "演示",
-  "tags": [
-    "演示",
-    "幻灯片",
-    "会议",
-    "教育"
-  ],
-  "categories": [
-    "multimedia",
-    "photography",
-    "devices",
-    "communication",
-    "design"
-  ],
+  "tags": ["演示", "幻灯片", "会议", "教育"],
+  "categories": ["multimedia", "photography", "devices", "communication", "design"],
   "i18n": {
     "en": {
       "name": "presentation",
-      "tags": [
-        "presentation",
-        "slides",
-        "meeting",
-        "education"
-      ],
-      "use-cases": [
-        "Slide deck interface",
-        "Business meeting presentation"
-      ]
+      "tags": ["presentation", "slides", "meeting", "education"],
+      "use-cases": ["Slide deck interface", "Business meeting presentation"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用用户交互",
-    "显示非活动状态",
-    "指示不可点击元素"
-  ],
+  "use-cases": ["禁用用户交互", "显示非活动状态", "指示不可点击元素"],
   "name": "鼠标指针2关闭",
-  "tags": [
-    "指针",
-    "鼠标",
-    "光标",
-    "禁用",
-    "关闭",
-    "不可点击",
-    "非活动",
-    "禁用交互"
-  ],
-  "categories": [
-    "arrows",
-    "cursors"
-  ],
+  "tags": ["指针", "鼠标", "光标", "禁用", "关闭", "不可点击", "非活动", "禁用交互"],
+  "categories": ["arrows", "cursors"],
   "i18n": {
     "en": {
       "name": "mouse pointer 2 off",
-      "tags": [
-        "pointer",
-        "mouse",
-        "cursor",
-        "disabled",
-        "off",
-        "no-click",
-        "inactive",
-        "non-interactive"
-      ],
-      "use-cases": [
-        "Disable user interaction",
-        "Show inactive state",
-        "Indicate non-clickable element"
-      ]
+      "tags": ["pointer", "mouse", "cursor", "disabled", "off", "no-click", "inactive", "non-interactive"],
+      "use-cases": ["Disable user interaction", "Show inactive state", "Indicate non-clickable element"]
     }
   }
 }

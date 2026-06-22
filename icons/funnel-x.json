@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除筛选条件",
-    "关闭过滤器",
-    "清除筛选"
-  ],
+  "use-cases": ["移除筛选条件", "关闭过滤器", "清除筛选"],
   "name": "漏斗关闭",
-  "tags": [
-    "筛选",
-    "移除",
-    "删除",
-    "关闭",
-    "清除"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["筛选", "移除", "删除", "关闭", "清除"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "filter-x",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "funnel X",
-      "tags": [
-        "filter",
-        "remove",
-        "delete",
-        "close",
-        "clear"
-      ],
-      "use-cases": [
-        "Remove filter condition",
-        "Close filter",
-        "Clear filter"
-      ]
+      "tags": ["filter", "remove", "delete", "close", "clear"],
+      "use-cases": ["Remove filter condition", "Close filter", "Clear filter"]
     }
   }
 }

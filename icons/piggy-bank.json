@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "储蓄或预算应用",
-    "儿童银行功能",
-    "财务目标跟踪器"
-  ],
+  "use-cases": ["储蓄或预算应用", "儿童银行功能", "财务目标跟踪器"],
   "name": "储蓄罐银行",
-  "tags": [
-    "存钱罐",
-    "储蓄",
-    "理财",
-    "存款",
-    "零钱",
-    "资金",
-    "儿童"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["存钱罐", "储蓄", "理财", "存款", "零钱", "资金", "儿童"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "piggy bank",
-      "tags": [
-        "piggy bank",
-        "savings",
-        "finance",
-        "deposit",
-        "coins",
-        "money",
-        "kids"
-      ],
-      "use-cases": [
-        "Savings or budgeting app",
-        "Children's banking feature",
-        "Financial goals tracker"
-      ]
+      "tags": ["piggy bank", "savings", "finance", "deposit", "coins", "money", "kids"],
+      "use-cases": ["Savings or budgeting app", "Children's banking feature", "Financial goals tracker"]
     }
   }
 }

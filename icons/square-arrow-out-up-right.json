@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "分享内容",
-    "打开外部链接",
-    "社交媒体分享"
-  ],
+  "use-cases": ["分享内容", "打开外部链接", "社交媒体分享"],
   "name": "方形箭头外部上右",
-  "tags": [
-    "外部",
-    "方向",
-    "对角线",
-    "分享",
-    "打开",
-    "链接"
-  ],
-  "categories": [
-    "arrows",
-    "social"
-  ],
+  "tags": ["外部", "方向", "对角线", "分享", "打开", "链接"],
+  "categories": ["arrows", "social"],
   "aliases": [
     {
       "name": "arrow-up-right-from-square",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow out up right",
-      "tags": [
-        "outwards",
-        "direction",
-        "diagonal",
-        "share",
-        "open",
-        "external",
-        "link"
-      ],
-      "use-cases": [
-        "Share content",
-        "Open external link",
-        "Social media sharing"
-      ]
+      "tags": ["outwards", "direction", "diagonal", "share", "open", "external", "link"],
+      "use-cases": ["Share content", "Open external link", "Social media sharing"]
     }
   }
 }

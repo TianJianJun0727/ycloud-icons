@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外部链接指示器",
-    "内容分享操作",
-    "网站导航元素",
-    "跨平台引用"
-  ],
+  "use-cases": ["外部链接指示器", "内容分享操作", "网站导航元素", "跨平台引用"],
   "name": "外部链接",
-  "tags": [
-    "外部链接",
-    "打开",
-    "分享",
-    "跳转",
-    "网页"
-  ],
-  "categories": [
-    "arrows",
-    "text",
-    "social"
-  ],
+  "tags": ["外部链接", "打开", "分享", "跳转", "网页"],
+  "categories": ["arrows", "text", "social"],
   "i18n": {
     "en": {
       "name": "external link",
-      "tags": [
-        "external link",
-        "open",
-        "share",
-        "redirect",
-        "webpage"
-      ],
-      "use-cases": [
-        "Outbound link indicators",
-        "Content sharing actions",
-        "Website navigation elements",
-        "Cross-platform references"
-      ]
+      "tags": ["external link", "open", "share", "redirect", "webpage"],
+      "use-cases": ["Outbound link indicators", "Content sharing actions", "Website navigation elements", "Cross-platform references"]
     }
   }
 }

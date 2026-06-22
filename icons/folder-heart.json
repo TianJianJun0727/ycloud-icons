@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收藏文件夹",
-    "书签目录",
-    "快速访问文件夹"
-  ],
+  "use-cases": ["收藏文件夹", "书签目录", "快速访问文件夹"],
   "name": "文件夹爱心",
-  "tags": [
-    "目录",
-    "收藏",
-    "书签",
-    "喜爱",
-    "快速访问"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["目录", "收藏", "书签", "喜爱", "快速访问"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder heart",
-      "tags": [
-        "directory",
-        "favorite",
-        "bookmark",
-        "liked",
-        "quick access"
-      ],
-      "use-cases": [
-        "Favorite folder",
-        "Bookmarked directory",
-        "Quick link folder"
-      ]
+      "tags": ["directory", "favorite", "bookmark", "liked", "quick access"],
+      "use-cases": ["Favorite folder", "Bookmarked directory", "Quick link folder"]
     }
   }
 }

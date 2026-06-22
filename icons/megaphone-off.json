@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "静音公告或通知",
-    "禁用公共广播系统",
-    "关闭广播提醒"
-  ],
+  "use-cases": ["静音公告或通知", "禁用公共广播系统", "关闭广播提醒"],
   "name": "扩音器关闭",
-  "tags": [
-    "静音通知",
-    "禁用广播",
-    "关闭公告",
-    "无声",
-    "停止提醒"
-  ],
-  "categories": [
-    "multimedia",
-    "notifications"
-  ],
+  "tags": ["静音通知", "禁用广播", "关闭公告", "无声", "停止提醒"],
+  "categories": ["multimedia", "notifications"],
   "i18n": {
     "en": {
       "name": "megaphone off",
-      "tags": [
-        "mute notification",
-        "disable broadcast",
-        "turn off announcement",
-        "silent",
-        "stop alert"
-      ],
-      "use-cases": [
-        "Mute announcements or notifications",
-        "Disable public address system",
-        "Turn off broadcast alerts"
-      ]
+      "tags": ["mute notification", "disable broadcast", "turn off announcement", "silent", "stop alert"],
+      "use-cases": ["Mute announcements or notifications", "Disable public address system", "Turn off broadcast alerts"]
     }
   }
 }

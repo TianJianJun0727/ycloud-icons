@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直图片翻转",
-    "设计布局工具",
-    "照片方向控制"
-  ],
+  "use-cases": ["垂直图片翻转", "设计布局工具", "照片方向控制"],
   "name": "翻转垂直2",
-  "tags": [
-    "垂直翻转",
-    "镜像",
-    "对称",
-    "对齐",
-    "设计"
-  ],
-  "categories": [
-    "design",
-    "photography"
-  ],
+  "tags": ["垂直翻转", "镜像", "对称", "对齐", "设计"],
+  "categories": ["design", "photography"],
   "i18n": {
     "en": {
       "name": "flip vertical 2",
-      "tags": [
-        "flip vertical",
-        "mirror",
-        "symmetry",
-        "alignment",
-        "design"
-      ],
-      "use-cases": [
-        "Vertical image flip",
-        "Design layout tool",
-        "Photo orientation control"
-      ]
+      "tags": ["flip vertical", "mirror", "symmetry", "alignment", "design"],
+      "use-cases": ["Vertical image flip", "Design layout tool", "Photo orientation control"]
     }
   }
 }

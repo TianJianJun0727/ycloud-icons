@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下载操作按钮",
-    "向下滚动控制",
-    "地图上的方向指示器"
-  ],
+  "use-cases": ["下载操作按钮", "向下滚动控制", "地图上的方向指示器"],
   "name": "圆形箭头下",
-  "tags": [
-    "向下",
-    "下载",
-    "下降",
-    "方向",
-    "南",
-    "圆形按钮"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向下", "下载", "下降", "方向", "南", "圆形按钮"],
+  "categories": ["arrows", "gaming"],
   "aliases": [
     {
       "name": "arrow-down-circle",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle arrow down",
-      "tags": [
-        "down",
-        "download",
-        "descend",
-        "direction",
-        "south",
-        "circular button"
-      ],
-      "use-cases": [
-        "Download action button",
-        "Scroll down control",
-        "Directional indicator on a map"
-      ]
+      "tags": ["down", "download", "descend", "direction", "south", "circular button"],
+      "use-cases": ["Download action button", "Scroll down control", "Directional indicator on a map"]
     }
   }
 }

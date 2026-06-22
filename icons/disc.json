@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "光盘驱动器指示器",
-    "媒体存储图标",
-    "播放控制"
-  ],
+  "use-cases": ["光盘驱动器指示器", "媒体存储图标", "播放控制"],
   "name": "光盘",
-  "tags": [
-    "光盘",
-    "音乐",
-    "存储",
-    "媒体",
-    "唱片"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["光盘", "音乐", "存储", "媒体", "唱片"],
+  "categories": ["devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "disc",
-      "tags": [
-        "disc",
-        "music",
-        "storage",
-        "media",
-        "record"
-      ],
-      "use-cases": [
-        "Disc drive indicator",
-        "Media storage icon",
-        "Playback control"
-      ]
+      "tags": ["disc", "music", "storage", "media", "record"],
+      "use-cases": ["Disc drive indicator", "Media storage icon", "Playback control"]
     }
   }
 }

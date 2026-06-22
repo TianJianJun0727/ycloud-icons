@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "页面内容刷新",
-    "数据同步按钮",
-    "加载状态指示",
-    "手动更新触发"
-  ],
+  "use-cases": ["页面内容刷新", "数据同步按钮", "加载状态指示", "手动更新触发"],
   "name": "逆时针刷新",
-  "tags": [
-    "刷新",
-    "重新加载",
-    "旋转",
-    "同步",
-    "循环",
-    "更新"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["刷新", "重新加载", "旋转", "同步", "循环", "更新"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "refresh ccw",
-      "tags": [
-        "refresh",
-        "reload",
-        "rotate",
-        "sync",
-        "cycle",
-        "update"
-      ],
-      "use-cases": [
-        "Page content refresh",
-        "Data sync button",
-        "Loading state indicator",
-        "Manual update trigger"
-      ]
+      "tags": ["refresh", "reload", "rotate", "sync", "cycle", "update"],
+      "use-cases": ["Page content refresh", "Data sync button", "Loading state indicator", "Manual update trigger"]
     }
   }
 }

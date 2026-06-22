@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代表获得第一名",
-    "展示用户成就或等级",
-    "游戏或体育中的奖励徽章"
-  ],
+  "use-cases": ["代表获得第一名", "展示用户成就或等级", "游戏或体育中的奖励徽章"],
   "name": "奖牌",
-  "tags": [
-    "奖牌",
-    "奖项",
-    "成就",
-    "获胜者",
-    "荣誉",
-    "体育"
-  ],
-  "categories": [
-    "sports",
-    "gaming"
-  ],
+  "tags": ["奖牌", "奖项", "成就", "获胜者", "荣誉", "体育"],
+  "categories": ["sports", "gaming"],
   "i18n": {
     "en": {
       "name": "medal",
-      "tags": [
-        "medal",
-        "award",
-        "achievement",
-        "winner",
-        "honor",
-        "sports"
-      ],
-      "use-cases": [
-        "Represent winning first place",
-        "Show user achievement or rank",
-        "Award badge in gaming or sports"
-      ]
+      "tags": ["medal", "award", "achievement", "winner", "honor", "sports"],
+      "use-cases": ["Represent winning first place", "Show user achievement or rank", "Award badge in gaming or sports"]
     }
   }
 }

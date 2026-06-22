@@ -1,28 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "新建项目",
-    "添加按钮",
-    "计算器界面",
-    "工具栏操作"
-  ],
+  "use-cases": ["新建项目", "添加按钮", "计算器界面", "工具栏操作"],
   "name": "方形加号",
-  "tags": [
-    "添加",
-    "新建",
-    "增加",
-    "创建",
-    "按钮",
-    "操作符",
-    "合并",
-    "扩展"
-  ],
-  "categories": [
-    "math",
-    "tools",
-    "development",
-    "text"
-  ],
+  "tags": ["添加", "新建", "增加", "创建", "按钮", "操作符", "合并", "扩展"],
+  "categories": ["math", "tools", "development", "text"],
   "aliases": [
     {
       "name": "plus-square",
@@ -34,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square plus",
-      "tags": [
-        "add",
-        "new",
-        "increase",
-        "create",
-        "button",
-        "operator",
-        "merge",
-        "expand"
-      ],
-      "use-cases": [
-        "Create new item",
-        "Add button",
-        "Calculator interface",
-        "Toolbar action"
-      ]
+      "tags": ["add", "new", "increase", "create", "button", "operator", "merge", "expand"],
+      "use-cases": ["Create new item", "Add button", "Calculator interface", "Toolbar action"]
     }
   }
 }

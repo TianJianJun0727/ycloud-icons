@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除文件夹确认",
-    "移除目录按钮",
-    "关闭文件夹界面"
-  ],
+  "use-cases": ["删除文件夹确认", "移除目录按钮", "关闭文件夹界面"],
   "name": "文件夹关闭",
-  "tags": [
-    "删除文件夹",
-    "移除目录",
-    "关闭文件夹",
-    "删除",
-    "移除"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["删除文件夹", "移除目录", "关闭文件夹", "删除", "移除"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder X",
-      "tags": [
-        "delete folder",
-        "remove directory",
-        "close folder",
-        "delete",
-        "remove"
-      ],
-      "use-cases": [
-        "Delete folder confirmation",
-        "Remove directory button",
-        "Close folder interface"
-      ]
+      "tags": ["delete folder", "remove directory", "close folder", "delete", "remove"],
+      "use-cases": ["Delete folder confirmation", "Remove directory button", "Close folder interface"]
     }
   }
 }

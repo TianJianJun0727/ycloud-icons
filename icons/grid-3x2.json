@@ -43,5 +43,10 @@
         "Product grid display"
       ]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "grid-3-x-2"
+    }
+  ]
 }

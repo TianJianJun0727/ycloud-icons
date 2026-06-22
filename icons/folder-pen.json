@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件重命名界面",
-    "文档编辑工具栏",
-    "文件夹属性编辑器"
-  ],
+  "use-cases": ["文件重命名界面", "文档编辑工具栏", "文件夹属性编辑器"],
   "name": "文件夹笔",
-  "tags": [
-    "文件夹",
-    "目录",
-    "编辑",
-    "重命名",
-    "修改"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["文件夹", "目录", "编辑", "重命名", "修改"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "folder-edit",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "folder pen",
-      "tags": [
-        "directory",
-        "edit",
-        "rename",
-        "modify"
-      ],
-      "use-cases": [
-        "File renaming interface",
-        "Document editing toolbar",
-        "Folder properties editor"
-      ]
+      "tags": ["directory", "edit", "rename", "modify"],
+      "use-cases": ["File renaming interface", "Document editing toolbar", "Folder properties editor"]
     }
   }
 }

@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直设置控制",
-    "音频电平调节",
-    "参数滑块"
-  ],
+  "use-cases": ["垂直设置控制", "音频电平调节", "参数滑块"],
   "name": "滑块垂直",
-  "tags": [
-    "滑块",
-    "设置",
-    "调节",
-    "控制",
-    "垂直控制",
-    "参数调整"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["滑块", "设置", "调节", "控制", "垂直控制", "参数调整"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "sliders",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "sliders vertical",
-      "tags": [
-        "sliders",
-        "settings",
-        "adjust",
-        "control",
-        "vertical control",
-        "parameter adjustment"
-      ],
-      "use-cases": [
-        "Vertical settings control",
-        "Audio level adjustment",
-        "Parameter sliders"
-      ]
+      "tags": ["sliders", "settings", "adjust", "control", "vertical control", "parameter adjustment"],
+      "use-cases": ["Vertical settings control", "Audio level adjustment", "Parameter sliders"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "指示时间范围的结束",
-    "取消分配或清空时间段",
-    "导航到下一个或未来的时间段"
-  ],
+  "use-cases": ["指示时间范围的结束", "取消分配或清空时间段", "导航到下一个或未来的时间段"],
   "name": "时钟箭头右",
-  "tags": [
-    "时间",
-    "结束时间",
-    "时间范围",
-    "取消分配",
-    "下一项",
-    "前进"
-  ],
-  "categories": [
-    "time",
-    "people",
-    "arrows"
-  ],
+  "tags": ["时间", "结束时间", "时间范围", "取消分配", "下一项", "前进"],
+  "categories": ["time", "people", "arrows"],
   "i18n": {
     "en": {
       "name": "clock arrow right",
-      "tags": [
-        "time",
-        "end time",
-        "time range",
-        "unassign",
-        "next",
-        "forward"
-      ],
-      "use-cases": [
-        "Indicate the end of a time range",
-        "Unassign or clear a time slot",
-        "Navigate to a next or future time slot"
-      ]
+      "tags": ["time", "end time", "time range", "unassign", "next", "forward"],
+      "use-cases": ["Indicate the end of a time range", "Unassign or clear a time slot", "Navigate to a next or future time slot"]
     }
   }
 }

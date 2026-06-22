@@ -1,27 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "商品折扣徽章",
-    "已验证账户徽章",
-    "金融应用中的利率显示"
-  ],
+  "use-cases": ["商品折扣徽章", "已验证账户徽章", "金融应用中的利率显示"],
   "name": "圆形百分比",
-  "tags": [
-    "百分比",
-    "折扣",
-    "销售",
-    "优惠",
-    "验证",
-    "价格标签",
-    "利率",
-    "数学"
-  ],
-  "categories": [
-    "social",
-    "finance",
-    "shopping",
-    "math"
-  ],
+  "tags": ["百分比", "折扣", "销售", "优惠", "验证", "价格标签", "利率", "数学"],
+  "categories": ["social", "finance", "shopping", "math"],
   "aliases": [
     {
       "name": "percent-circle",
@@ -33,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle percent",
-      "tags": [
-        "percent",
-        "discount",
-        "sale",
-        "offer",
-        "verified",
-        "price tag",
-        "interest rate",
-        "mathematics"
-      ],
-      "use-cases": [
-        "Discount badge on product",
-        "Verified account badge",
-        "Interest rate display in finance app"
-      ]
+      "tags": ["percent", "discount", "sale", "offer", "verified", "price tag", "interest rate", "mathematics"],
+      "use-cases": ["Discount badge on product", "Verified account badge", "Interest rate display in finance app"]
     }
   }
 }

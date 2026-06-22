@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "存款确认",
-    "收入跟踪",
-    "收款通知"
-  ],
+  "use-cases": ["存款确认", "收入跟踪", "收款通知"],
   "name": "纸币箭头上",
-  "tags": [
-    "收入",
-    "存款",
-    "收款",
-    "充值",
-    "资金增加",
-    "交易",
-    "现金",
-    "收益"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["收入", "存款", "收款", "充值", "资金增加", "交易", "现金", "收益"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "banknote arrow up",
-      "tags": [
-        "income",
-        "deposit",
-        "payment received",
-        "top-up",
-        "increase",
-        "transaction",
-        "cash",
-        "earnings"
-      ],
-      "use-cases": [
-        "Deposit confirmation",
-        "Income tracking",
-        "Payment received notification"
-      ]
+      "tags": ["income", "deposit", "payment received", "top-up", "increase", "transaction", "cash", "earnings"],
+      "use-cases": ["Deposit confirmation", "Income tracking", "Payment received notification"]
     }
   }
 }

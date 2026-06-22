@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "魔法选择工具",
-    "设计软件界面",
-    "编辑工具图标"
-  ],
+  "use-cases": ["魔法选择工具", "设计软件界面", "编辑工具图标"],
   "name": "魔杖",
-  "tags": [
-    "魔法",
-    "选择",
-    "工具",
-    "光标",
-    "设计",
-    "编辑"
-  ],
-  "categories": [
-    "design",
-    "gaming",
-    "cursors",
-    "photography"
-  ],
+  "tags": ["魔法", "选择", "工具", "光标", "设计", "编辑"],
+  "categories": ["design", "gaming", "cursors", "photography"],
   "i18n": {
     "en": {
       "name": "wand",
-      "tags": [
-        "magic",
-        "selection",
-        "tool",
-        "cursor",
-        "design",
-        "editing"
-      ],
-      "use-cases": [
-        "Magic selection tool",
-        "Design software interface",
-        "Editing tool icon"
-      ]
+      "tags": ["magic", "selection", "tool", "cursor", "design", "editing"],
+      "use-cases": ["Magic selection tool", "Design software interface", "Editing tool icon"]
     }
   }
 }

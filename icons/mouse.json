@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算机外设",
-    "输入设备",
-    "指向设备"
-  ],
+  "use-cases": ["计算机外设", "输入设备", "指向设备"],
   "name": "鼠标",
-  "tags": [
-    "鼠标",
-    "设备",
-    "点击",
-    "滚动",
-    "输入设备",
-    "指针"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["鼠标", "设备", "点击", "滚动", "输入设备", "指针"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "mouse",
-      "tags": [
-        "mouse",
-        "device",
-        "click",
-        "scroll",
-        "input-device",
-        "pointer"
-      ],
-      "use-cases": [
-        "Computer peripherals",
-        "Input devices",
-        "Pointing devices"
-      ]
+      "tags": ["mouse", "device", "click", "scroll", "input-device", "pointer"],
+      "use-cases": ["Computer peripherals", "Input devices", "Pointing devices"]
     }
   }
 }

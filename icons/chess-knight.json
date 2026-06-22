@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国际象棋游戏界面",
-    "移动指示器",
-    "策略应用",
-    "中世纪主题"
-  ],
+  "use-cases": ["国际象棋游戏界面", "移动指示器", "策略应用", "中世纪主题"],
   "name": "国际象棋骑士",
-  "tags": [
-    "国际象棋",
-    "骑士",
-    "马",
-    "棋子",
-    "棋盘游戏",
-    "策略",
-    "游戏"
-  ],
-  "categories": [
-    "gaming",
-    "emoji"
-  ],
+  "tags": ["国际象棋", "骑士", "马", "棋子", "棋盘游戏", "策略", "游戏"],
+  "categories": ["gaming", "emoji"],
   "i18n": {
     "en": {
       "name": "chess knight",
-      "tags": [
-        "chess",
-        "knight",
-        "horse",
-        "piece",
-        "board game",
-        "strategy",
-        "gaming"
-      ],
-      "use-cases": [
-        "Chess game interface",
-        "Move indicator",
-        "Strategy app",
-        "Medieval theme"
-      ]
+      "tags": ["chess", "knight", "horse", "piece", "board game", "strategy", "gaming"],
+      "use-cases": ["Chess game interface", "Move indicator", "Strategy app", "Medieval theme"]
     }
   }
 }

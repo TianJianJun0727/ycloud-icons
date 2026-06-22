@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "查看月历",
-    "查看当月所有活动",
-    "每日日程",
-    "计划周议程"
-  ],
+  "use-cases": ["查看月历", "查看当月所有活动", "每日日程", "计划周议程"],
   "name": "日历天数",
-  "tags": [
-    "日期",
-    "日历",
-    "月视图",
-    "日程",
-    "事件",
-    "天",
-    "周"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日期", "日历", "月视图", "日程", "事件", "天", "周"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar days",
-      "tags": [
-        "date",
-        "calendar",
-        "month view",
-        "schedule",
-        "event",
-        "day",
-        "week"
-      ],
-      "use-cases": [
-        "View monthly calendar",
-        "See all events in a month",
-        "Day-by-day schedule",
-        "Plan weekly agenda"
-      ]
+      "tags": ["date", "calendar", "month view", "schedule", "event", "day", "week"],
+      "use-cases": ["View monthly calendar", "See all events in a month", "Day-by-day schedule", "Plan weekly agenda"]
     }
   }
 }

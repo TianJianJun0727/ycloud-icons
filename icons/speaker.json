@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频设备开关或设置",
-    "多媒体播放器控制",
-    "音响系统配置",
-    "音量调节界面"
-  ],
+  "use-cases": ["音频设备开关或设置", "多媒体播放器控制", "音响系统配置", "音量调节界面"],
   "name": "扬声器",
-  "tags": [
-    "声音",
-    "音频",
-    "扬声器",
-    "音乐",
-    "音响",
-    "设备",
-    "播放",
-    "音量"
-  ],
-  "categories": [
-    "multimedia",
-    "devices"
-  ],
+  "tags": ["声音", "音频", "扬声器", "音乐", "音响", "设备", "播放", "音量"],
+  "categories": ["multimedia", "devices"],
   "i18n": {
     "en": {
       "name": "speaker",
-      "tags": [
-        "sound",
-        "audio",
-        "speaker",
-        "music",
-        "sound system",
-        "device",
-        "playback",
-        "volume"
-      ],
-      "use-cases": [
-        "Audio device toggle or settings",
-        "Multimedia player controls",
-        "Sound system configuration",
-        "Volume adjustment UI"
-      ]
+      "tags": ["sound", "audio", "speaker", "music", "sound system", "device", "playback", "volume"],
+      "use-cases": ["Audio device toggle or settings", "Multimedia player controls", "Sound system configuration", "Volume adjustment UI"]
     }
   }
 }

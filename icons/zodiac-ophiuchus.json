@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "包含第十三个星座的占星应用",
-    "星座教育内容",
-    "另类星座运势图标"
-  ],
+  "use-cases": ["包含第十三个星座的占星应用", "星座教育内容", "另类星座运势图标"],
   "name": "星座蛇夫座",
-  "tags": [
-    "蛇夫座",
-    "星座",
-    "占星",
-    "蛇",
-    "治愈",
-    "知识",
-    "天文学",
-    "星座运势"
-  ],
-  "categories": [
-    "social",
-    "emoji"
-  ],
+  "tags": ["蛇夫座", "星座", "占星", "蛇", "治愈", "知识", "天文学", "星座运势"],
+  "categories": ["social", "emoji"],
   "i18n": {
     "en": {
       "name": "zodiac ophiuchus",
-      "tags": [
-        "ophiuchus",
-        "zodiac",
-        "astrology",
-        "serpent",
-        "healing",
-        "knowledge",
-        "astronomy",
-        "horoscope"
-      ],
-      "use-cases": [
-        "Astrology app for the 13th sign",
-        "Educational content on constellations",
-        "Alternative horoscope icon"
-      ]
+      "tags": ["ophiuchus", "zodiac", "astrology", "serpent", "healing", "knowledge", "astronomy", "horoscope"],
+      "use-cases": ["Astrology app for the 13th sign", "Educational content on constellations", "Alternative horoscope icon"]
     }
   }
 }

@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "支持功能",
-    "慈善活动",
-    "协议确认"
-  ],
+  "use-cases": ["支持功能", "慈善活动", "协议确认"],
   "name": "手帮扶",
-  "tags": [
-    "帮助",
-    "支持",
-    "慈善",
-    "援助",
-    "协议"
-  ],
-  "categories": [
-    "emoji"
-  ],
+  "tags": ["帮助", "支持", "慈善", "援助", "协议"],
+  "categories": ["emoji"],
   "aliases": [
     {
       "name": "helping-hand",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "hand helping",
-      "tags": [
-        "help",
-        "support",
-        "charity",
-        "assistance",
-        "agreement"
-      ],
-      "use-cases": [
-        "Support features",
-        "Charity campaigns",
-        "Agreement confirmation"
-      ]
+      "tags": ["help", "support", "charity", "assistance", "agreement"],
+      "use-cases": ["Support features", "Charity campaigns", "Agreement confirmation"]
     }
   }
 }

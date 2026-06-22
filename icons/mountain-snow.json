@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "冬季运动应用",
-    "山区天气",
-    "探险旅行"
-  ],
+  "use-cases": ["冬季运动应用", "山区天气", "探险旅行"],
   "name": "山雪",
-  "tags": [
-    "雪山",
-    "高山",
-    "雪景",
-    "冬季",
-    "登山"
-  ],
-  "categories": [
-    "nature"
-  ],
+  "tags": ["雪山", "高山", "雪景", "冬季", "登山"],
+  "categories": ["nature"],
   "i18n": {
     "en": {
       "name": "mountain snow",
-      "tags": [
-        "snow mountain",
-        "alpine",
-        "snowscape",
-        "winter",
-        "mountaineering"
-      ],
-      "use-cases": [
-        "Winter sports app",
-        "Mountain weather",
-        "Adventure travel"
-      ]
+      "tags": ["snow mountain", "alpine", "snowscape", "winter", "mountaineering"],
+      "use-cases": ["Winter sports app", "Mountain weather", "Adventure travel"]
     }
   }
 }

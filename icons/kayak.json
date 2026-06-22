@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "运动器材租赁页面",
-    "户外活动预订",
-    "探险旅游网站"
-  ],
+  "use-cases": ["运动器材租赁页面", "户外活动预订", "探险旅游网站"],
   "name": "皮划艇",
-  "tags": [
-    "皮划艇",
-    "船",
-    "划桨",
-    "水上运动",
-    "户外",
-    "休闲",
-    "冒险"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["皮划艇", "船", "划桨", "水上运动", "户外", "休闲", "冒险"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "kayak",
-      "tags": [
-        "kayak",
-        "boat",
-        "paddle",
-        "water sport",
-        "outdoors",
-        "recreation",
-        "adventure"
-      ],
-      "use-cases": [
-        "Sports equipment rental page",
-        "Outdoor activity booking",
-        "Adventure travel website"
-      ]
+      "tags": ["kayak", "boat", "paddle", "water sport", "outdoors", "recreation", "adventure"],
+      "use-cases": ["Sports equipment rental page", "Outdoor activity booking", "Adventure travel website"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "降雪天气预报",
-    "雪天应用图标",
-    "冬季天气提示"
-  ],
+  "use-cases": ["降雪天气预报", "雪天应用图标", "冬季天气提示"],
   "name": "云雪",
-  "tags": [
-    "天气",
-    "降雪",
-    "下雪",
-    "雪天",
-    "冰雪"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "降雪", "下雪", "雪天", "冰雪"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud snow",
-      "tags": [
-        "weather",
-        "snow",
-        "snowing",
-        "snowy day",
-        "ice snow"
-      ],
-      "use-cases": [
-        "Snowy weather forecast",
-        "Snow day app icon",
-        "Winter weather indicator"
-      ]
+      "tags": ["weather", "snow", "snowing", "snowy day", "ice snow"],
+      "use-cases": ["Snowy weather forecast", "Snow day app icon", "Winter weather indicator"]
     }
   }
 }

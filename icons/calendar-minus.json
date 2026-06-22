@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从日历中移除事件",
-    "取消预约",
-    "删除计划任务"
-  ],
+  "use-cases": ["从日历中移除事件", "取消预约", "删除计划任务"],
   "name": "日历减少",
-  "tags": [
-    "日历",
-    "日期",
-    "事件",
-    "删除",
-    "移除",
-    "取消",
-    "日程管理"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "事件", "删除", "移除", "取消", "日程管理"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar minus",
-      "tags": [
-        "calendar",
-        "date",
-        "event",
-        "delete",
-        "remove",
-        "cancel",
-        "schedule"
-      ],
-      "use-cases": [
-        "Remove an event from calendar",
-        "Cancel an appointment",
-        "Delete a scheduled task"
-      ]
+      "tags": ["calendar", "date", "event", "delete", "remove", "cancel", "schedule"],
+      "use-cases": ["Remove an event from calendar", "Cancel an appointment", "Delete a scheduled task"]
     }
   }
 }

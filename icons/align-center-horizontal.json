@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "元素水平居中",
-    "设计工具对齐",
-    "用户界面布局"
-  ],
+  "use-cases": ["元素水平居中", "设计工具对齐", "用户界面布局"],
   "name": "对齐居中水平",
-  "tags": [
-    "水平居中",
-    "居中",
-    "对齐",
-    "布局",
-    "中心"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["水平居中", "居中", "对齐", "布局", "中心"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align center horizontal",
-      "tags": [
-        "center horizontal",
-        "center",
-        "align",
-        "layout",
-        "middle"
-      ],
-      "use-cases": [
-        "Center an element horizontally",
-        "Design tool alignment",
-        "UI layout"
-      ]
+      "tags": ["center horizontal", "center", "align", "layout", "middle"],
+      "use-cases": ["Center an element horizontally", "Design tool alignment", "UI layout"]
     }
   }
 }

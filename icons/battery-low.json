@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "低电量警告指示",
-    "省电模式提示",
-    "设备电池状态"
-  ],
+  "use-cases": ["低电量警告指示", "省电模式提示", "设备电池状态"],
   "name": "电池低",
-  "tags": [
-    "电池",
-    "低电量",
-    "电源",
-    "电量不足",
-    "能量",
-    "警告"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["电池", "低电量", "电源", "电量不足", "能量", "警告"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "battery low",
-      "tags": [
-        "battery",
-        "low",
-        "power",
-        "electricity",
-        "energy",
-        "warning"
-      ],
-      "use-cases": [
-        "Low battery warning indicator",
-        "Power saving mode prompt",
-        "Device battery status"
-      ]
+      "tags": ["battery", "low", "power", "electricity", "energy", "warning"],
+      "use-cases": ["Low battery warning indicator", "Power saving mode prompt", "Device battery status"]
     }
   }
 }

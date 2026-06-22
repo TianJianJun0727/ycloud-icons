@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用的草图工具",
-    "锁定的草稿文档",
-    "仅查看的批注模式"
-  ],
+  "use-cases": ["禁用的草图工具", "锁定的草稿文档", "仅查看的批注模式"],
   "name": "铅笔关闭",
-  "tags": [
-    "铅笔禁用",
-    "编辑关闭",
-    "不可修改",
-    "只读模式",
-    "禁用草图",
-    "锁定草图"
-  ],
-  "categories": [
-    "design",
-    "cursors",
-    "tools",
-    "text"
-  ],
+  "tags": ["铅笔禁用", "编辑关闭", "不可修改", "只读模式", "禁用草图", "锁定草图"],
+  "categories": ["design", "cursors", "tools", "text"],
   "i18n": {
     "en": {
       "name": "pencil off",
-      "tags": [
-        "pencil disabled",
-        "edit off",
-        "unmodifiable",
-        "read-only mode",
-        "sketch disabled",
-        "locked sketch"
-      ],
-      "use-cases": [
-        "Disabled sketching tool",
-        "Locked draft document",
-        "View-only annotation mode"
-      ]
+      "tags": ["pencil disabled", "edit off", "unmodifiable", "read-only mode", "sketch disabled", "locked sketch"],
+      "use-cases": ["Disabled sketching tool", "Locked draft document", "View-only annotation mode"]
     }
   }
 }

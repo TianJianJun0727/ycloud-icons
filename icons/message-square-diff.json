@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码差异评论",
-    "Git提交讨论",
-    "线程中对比变更"
-  ],
+  "use-cases": ["代码差异评论", "Git提交讨论", "线程中对比变更"],
   "name": "消息方形差异",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "差异",
-    "对比",
-    "代码审查",
-    "Git",
-    "版本控制",
-    "变更"
-  ],
-  "categories": [
-    "development",
-    "files",
-    "social"
-  ],
+  "tags": ["聊天", "对话", "评论", "差异", "对比", "代码审查", "Git", "版本控制", "变更"],
+  "categories": ["development", "files", "social"],
   "i18n": {
     "en": {
       "name": "message square diff",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "diff",
-        "compare",
-        "code review",
-        "Git",
-        "version control",
-        "change"
-      ],
-      "use-cases": [
-        "Code diff comments",
-        "Git commit discussion",
-        "Compare changes in a thread"
-      ]
+      "tags": ["chat", "conversation", "comment", "diff", "compare", "code review", "Git", "version control", "change"],
+      "use-cases": ["Code diff comments", "Git commit discussion", "Compare changes in a thread"]
     }
   }
 }

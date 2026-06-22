@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络设置或状态",
-    "家庭互联网连接",
-    "设备连接仪表板"
-  ],
+  "use-cases": ["网络设置或状态", "家庭互联网连接", "设备连接仪表板"],
   "name": "路由器",
-  "tags": [
-    "路由器",
-    "网络",
-    "Wi-Fi",
-    "连接",
-    "网关",
-    "设备",
-    "互联网"
-  ],
-  "categories": [
-    "development",
-    "devices",
-    "connectivity",
-    "home"
-  ],
+  "tags": ["路由器", "网络", "Wi-Fi", "连接", "网关", "设备", "互联网"],
+  "categories": ["development", "devices", "connectivity", "home"],
   "i18n": {
     "en": {
       "name": "router",
-      "tags": [
-        "router",
-        "network",
-        "Wi-Fi",
-        "connectivity",
-        "gateway",
-        "device",
-        "internet"
-      ],
-      "use-cases": [
-        "Network settings or status",
-        "Home internet connectivity",
-        "Device connectivity dashboard"
-      ]
+      "tags": ["router", "network", "Wi-Fi", "connectivity", "gateway", "device", "internet"],
+      "use-cases": ["Network settings or status", "Home internet connectivity", "Device connectivity dashboard"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "举报滥用内容",
-    "标记危险消息",
-    "聊天中的警报"
-  ],
+  "use-cases": ["举报滥用内容", "标记危险消息", "聊天中的警报"],
   "name": "消息圆形警告",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "警告",
-    "危险",
-    "报告",
-    "举报",
-    "注意",
-    "警报"
-  ],
-  "categories": [
-    "social",
-    "notifications"
-  ],
+  "tags": ["聊天", "对话", "评论", "警告", "危险", "报告", "举报", "注意", "警报"],
+  "categories": ["social", "notifications"],
   "i18n": {
     "en": {
       "name": "message circle warning",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "warning",
-        "danger",
-        "report",
-        "alert",
-        "caution"
-      ],
-      "use-cases": [
-        "Report abusive content",
-        "Flag a dangerous message",
-        "Alert in a chat"
-      ]
+      "tags": ["chat", "conversation", "comment", "warning", "danger", "report", "alert", "caution"],
+      "use-cases": ["Report abusive content", "Flag a dangerous message", "Alert in a chat"]
     }
   }
 }

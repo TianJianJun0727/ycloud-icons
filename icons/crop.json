@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图片编辑器",
-    "照片裁剪工具",
-    "设计软件",
-    "图像处理"
-  ],
+  "use-cases": ["图片编辑器", "照片裁剪工具", "设计软件", "图像处理"],
   "name": "裁剪",
-  "tags": [
-    "裁剪",
-    "图片编辑",
-    "照片处理",
-    "修剪"
-  ],
-  "categories": [
-    "photography",
-    "design"
-  ],
+  "tags": ["裁剪", "图片编辑", "照片处理", "修剪"],
+  "categories": ["photography", "design"],
   "i18n": {
     "en": {
       "name": "crop",
-      "tags": [
-        "crop",
-        "image editing",
-        "photo processing",
-        "trim"
-      ],
-      "use-cases": [
-        "Image editor",
-        "Photo cropping tool",
-        "Design software",
-        "Image processing"
-      ]
+      "tags": ["crop", "image editing", "photo processing", "trim"],
+      "use-cases": ["Image editor", "Photo cropping tool", "Design software", "Image processing"]
     }
   }
 }

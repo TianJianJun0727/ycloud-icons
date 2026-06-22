@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "海鲜菜单分类",
-    "钓鱼游戏素材",
-    "宠物店或水族馆区域"
-  ],
+  "use-cases": ["海鲜菜单分类", "钓鱼游戏素材", "宠物店或水族馆区域"],
   "name": "鱼",
-  "tags": [
-    "鱼",
-    "海鲜",
-    "钓鱼",
-    "水生动物",
-    "宠物"
-  ],
-  "categories": [
-    "food-beverage",
-    "animals"
-  ],
+  "tags": ["鱼", "海鲜", "钓鱼", "水生动物", "宠物"],
+  "categories": ["food-beverage", "animals"],
   "i18n": {
     "en": {
       "name": "fish",
-      "tags": [
-        "fish",
-        "seafood",
-        "fishing",
-        "aquatic",
-        "pet"
-      ],
-      "use-cases": [
-        "Seafood menu category",
-        "Fishing game asset",
-        "Pet store or aquarium section"
-      ]
+      "tags": ["fish", "seafood", "fishing", "aquatic", "pet"],
+      "use-cases": ["Seafood menu category", "Fishing game asset", "Pet store or aquarium section"]
     }
   }
 }

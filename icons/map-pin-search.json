@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索位置",
-    "查找地图地点",
-    "位置查询"
-  ],
+  "use-cases": ["搜索位置", "查找地图地点", "位置查询"],
   "name": "地图图钉搜索",
-  "tags": [
-    "位置",
-    "搜索",
-    "查找",
-    "定位",
-    "导航",
-    "查询"
-  ],
-  "categories": [
-    "text",
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["位置", "搜索", "查找", "定位", "导航", "查询"],
+  "categories": ["text", "navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pin search",
-      "tags": [
-        "location",
-        "search",
-        "find",
-        "locate",
-        "navigate",
-        "query"
-      ],
-      "use-cases": [
-        "Search for location",
-        "Find place on map",
-        "Location lookup"
-      ]
+      "tags": ["location", "search", "find", "locate", "navigate", "query"],
+      "use-cases": ["Search for location", "Find place on map", "Location lookup"]
     }
   }
 }

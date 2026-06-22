@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除闹钟设置",
-    "取消日程提醒",
-    "关闭定时任务"
-  ],
+  "use-cases": ["删除闹钟设置", "取消日程提醒", "关闭定时任务"],
   "name": "减少闹钟",
-  "tags": [
-    "闹钟",
-    "减少",
-    "删除闹钟",
-    "取消提醒",
-    "关闭闹钟",
-    "移除"
-  ],
-  "categories": [
-    "devices",
-    "notifications",
-    "time"
-  ],
+  "tags": ["闹钟", "减少", "删除闹钟", "取消提醒", "关闭闹钟", "移除"],
+  "categories": ["devices", "notifications", "time"],
   "aliases": [
     {
       "name": "alarm-minus",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "alarm clock minus",
-      "tags": [
-        "alarm",
-        "decrease",
-        "remove alarm",
-        "cancel reminder",
-        "turn off alarm",
-        "delete"
-      ],
-      "use-cases": [
-        "deleting alarm settings",
-        "canceling schedule reminders",
-        "turning off timed tasks"
-      ]
+      "tags": ["alarm", "decrease", "remove alarm", "cancel reminder", "turn off alarm", "delete"],
+      "use-cases": ["deleting alarm settings", "canceling schedule reminders", "turning off timed tasks"]
     }
   }
 }

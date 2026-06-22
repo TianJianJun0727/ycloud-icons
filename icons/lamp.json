@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用灯光控制",
-    "智能家居设备状态",
-    "灯光开关切换"
-  ],
+  "use-cases": ["通用灯光控制", "智能家居设备状态", "灯光开关切换"],
   "name": "灯",
-  "tags": [
-    "灯",
-    "灯具",
-    "照明",
-    "灯泡",
-    "光源"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["灯", "灯具", "照明", "灯泡", "光源"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "lamp",
-      "tags": [
-        "lamp",
-        "light",
-        "lighting",
-        "light bulb",
-        "light source"
-      ],
-      "use-cases": [
-        "General lighting control",
-        "Smart home device status",
-        "Light on/off toggle"
-      ]
+      "tags": ["lamp", "light", "lighting", "light bulb", "light source"],
+      "use-cases": ["General lighting control", "Smart home device status", "Light on/off toggle"]
     }
   }
 }

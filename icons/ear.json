@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频设置控制",
-    "听力无障碍功能",
-    "声音级别指示",
-    "聆听模式选择"
-  ],
+  "use-cases": ["音频设置控制", "听力无障碍功能", "声音级别指示", "聆听模式选择"],
   "name": "耳朵",
-  "tags": [
-    "耳朵",
-    "听力",
-    "听觉",
-    "声音",
-    "音频",
-    "聆听",
-    "无障碍"
-  ],
-  "categories": [
-    "medical",
-    "accessibility"
-  ],
+  "tags": ["耳朵", "听力", "听觉", "声音", "音频", "聆听", "无障碍"],
+  "categories": ["medical", "accessibility"],
   "i18n": {
     "en": {
       "name": "ear",
-      "tags": [
-        "ear",
-        "hearing",
-        "auditory",
-        "sound",
-        "audio",
-        "listening",
-        "accessibility"
-      ],
-      "use-cases": [
-        "Audio settings controls",
-        "Hearing accessibility features",
-        "Sound level indicators",
-        "Listening mode selection"
-      ]
+      "tags": ["ear", "hearing", "auditory", "sound", "audio", "listening", "accessibility"],
+      "use-cases": ["Audio settings controls", "Hearing accessibility features", "Sound level indicators", "Listening mode selection"]
     }
   }
 }

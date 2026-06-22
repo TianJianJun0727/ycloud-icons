@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "管理多个目录",
-    "文件组织视图",
-    "批量文件操作"
-  ],
+  "use-cases": ["管理多个目录", "文件组织视图", "批量文件操作"],
   "name": "文件夹",
-  "tags": [
-    "多个文件夹",
-    "文件夹组",
-    "目录结构",
-    "批量管理"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["多个文件夹", "文件夹组", "目录结构", "批量管理"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folders",
-      "tags": [
-        "folders",
-        "multiple-folders",
-        "directory-structure",
-        "batch-management"
-      ],
-      "use-cases": [
-        "Managing multiple directories",
-        "File organization views",
-        "Bulk file operations"
-      ]
+      "tags": ["folders", "multiple-folders", "directory-structure", "batch-management"],
+      "use-cases": ["Managing multiple directories", "File organization views", "Bulk file operations"]
     }
   }
 }

@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打印任务成功状态",
-    "办公设备确认"
-  ],
+  "use-cases": ["打印任务成功状态", "办公设备确认"],
   "name": "打印机勾选",
-  "tags": [
-    "打印机",
-    "成功",
-    "确认",
-    "办公"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["打印机", "成功", "确认", "办公"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "printer check",
-      "tags": [
-        "printer",
-        "success",
-        "confirm",
-        "office"
-      ],
-      "use-cases": [
-        "Print job success status",
-        "Office equipment confirmation"
-      ]
+      "tags": ["printer", "success", "confirm", "office"],
+      "use-cases": ["Print job success status", "Office equipment confirmation"]
     }
   }
 }

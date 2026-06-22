@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI元素加载指示器",
-    "文件上传进度",
-    "数据获取状态",
-    "应用初始化"
-  ],
+  "use-cases": ["UI元素加载指示器", "文件上传进度", "数据获取状态", "应用初始化"],
   "name": "加载器",
-  "tags": [
-    "加载",
-    "等待",
-    "忙碌",
-    "进度",
-    "旋转",
-    "缓冲",
-    "处理中"
-  ],
-  "categories": [
-    "cursors",
-    "multimedia",
-    "layout",
-    "design"
-  ],
+  "tags": ["加载", "等待", "忙碌", "进度", "旋转", "缓冲", "处理中"],
+  "categories": ["cursors", "multimedia", "layout", "design"],
   "i18n": {
     "en": {
       "name": "loader",
-      "tags": [
-        "loading",
-        "wait",
-        "busy",
-        "progress",
-        "spinner",
-        "spinning",
-        "throbber"
-      ],
-      "use-cases": [
-        "Loading indicator for UI elements",
-        "File upload progress",
-        "Data fetching state",
-        "Application initialization"
-      ]
+      "tags": ["loading", "wait", "busy", "progress", "spinner", "spinning", "throbber"],
+      "use-cases": ["Loading indicator for UI elements", "File upload progress", "Data fetching state", "Application initialization"]
     }
   }
 }

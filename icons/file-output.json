@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件下载",
-    "导出数据",
-    "输出操作"
-  ],
+  "use-cases": ["文件下载", "导出数据", "输出操作"],
   "name": "文件输出",
-  "tags": [
-    "输出",
-    "下载",
-    "导出",
-    "文件",
-    "箭头"
-  ],
-  "categories": [
-    "files",
-    "arrows"
-  ],
+  "tags": ["输出", "下载", "导出", "文件", "箭头"],
+  "categories": ["files", "arrows"],
   "i18n": {
     "en": {
       "name": "file output",
-      "tags": [
-        "output",
-        "download",
-        "export",
-        "file",
-        "arrow"
-      ],
-      "use-cases": [
-        "File download",
-        "Export data",
-        "Output action"
-      ]
+      "tags": ["output", "download", "export", "file", "arrow"],
+      "use-cases": ["File download", "Export data", "Output action"]
     }
   }
 }

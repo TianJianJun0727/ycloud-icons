@@ -1,27 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户头像",
-    "联系人列表条目",
-    "社交媒体头像",
-    "账户管理"
-  ],
+  "use-cases": ["用户头像", "联系人列表条目", "社交媒体头像", "账户管理"],
   "name": "联系人圆形",
-  "tags": [
-    "联系人",
-    "用户",
-    "个人",
-    "社交",
-    "通讯录",
-    "好友",
-    "人脉"
-  ],
-  "categories": [
-    "account",
-    "connectivity",
-    "communication",
-    "social"
-  ],
+  "tags": ["联系人", "用户", "个人", "社交", "通讯录", "好友", "人脉"],
+  "categories": ["account", "connectivity", "communication", "social"],
   "aliases": [
     {
       "name": "contact-2",
@@ -33,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "contact round",
-      "tags": [
-        "contact",
-        "user",
-        "person",
-        "social",
-        "address book",
-        "friend",
-        "network"
-      ],
-      "use-cases": [
-        "User profile picture",
-        "Contact list entry",
-        "Social media avatar",
-        "Account management"
-      ]
+      "tags": ["contact", "user", "person", "social", "address book", "friend", "network"],
+      "use-cases": ["User profile picture", "Contact list entry", "Social media avatar", "Account management"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相机应用切换",
-    "视频会议",
-    "自拍模式切换",
-    "双摄像头控制"
-  ],
+  "use-cases": ["相机应用切换", "视频会议", "自拍模式切换", "双摄像头控制"],
   "name": "切换相机",
-  "tags": [
-    "切换相机",
-    "摄像头",
-    "前后镜头",
-    "拍照",
-    "视频通话"
-  ],
-  "categories": [
-    "communication",
-    "devices"
-  ],
+  "tags": ["切换相机", "摄像头", "前后镜头", "拍照", "视频通话"],
+  "categories": ["communication", "devices"],
   "i18n": {
     "en": {
       "name": "switch camera",
-      "tags": [
-        "switch camera",
-        "camera",
-        "front back",
-        "photo",
-        "video call"
-      ],
-      "use-cases": [
-        "Camera app toggle",
-        "Video conferencing",
-        "Selfie mode switch",
-        "Dual camera control"
-      ]
+      "tags": ["switch camera", "camera", "front back", "photo", "video call"],
+      "use-cases": ["Camera app toggle", "Video conferencing", "Selfie mode switch", "Dual camera control"]
     }
   }
 }

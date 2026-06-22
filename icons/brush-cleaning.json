@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家庭清洁",
-    "工具维护",
-    "卫生任务"
-  ],
+  "use-cases": ["家庭清洁", "工具维护", "卫生任务"],
   "name": "刷子清洁",
-  "tags": [
-    "刷子清洁",
-    "清洁工具",
-    "打扫",
-    "卫生",
-    "维护"
-  ],
-  "categories": [
-    "home",
-    "tools",
-    "design"
-  ],
+  "tags": ["刷子清洁", "清洁工具", "打扫", "卫生", "维护"],
+  "categories": ["home", "tools", "design"],
   "i18n": {
     "en": {
       "name": "brush cleaning",
-      "tags": [
-        "brush cleaning",
-        "cleaning tool",
-        "sweeping",
-        "hygiene",
-        "maintenance"
-      ],
-      "use-cases": [
-        "Household cleaning",
-        "Tool maintenance",
-        "Sanitation tasks"
-      ]
+      "tags": ["brush cleaning", "cleaning tool", "sweeping", "hygiene", "maintenance"],
+      "use-cases": ["Household cleaning", "Tool maintenance", "Sanitation tasks"]
     }
   }
 }

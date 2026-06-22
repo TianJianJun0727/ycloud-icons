@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "危险警告标识",
-    "实验室界面",
-    "安全提示"
-  ],
+  "use-cases": ["危险警告标识", "实验室界面", "安全提示"],
   "name": "生物危害",
-  "tags": [
-    "生物危害",
-    "危险",
-    "警告",
-    "科学",
-    "安全"
-  ],
-  "categories": [
-    "science"
-  ],
+  "tags": ["生物危害", "危险", "警告", "科学", "安全"],
+  "categories": ["science"],
   "i18n": {
     "en": {
       "name": "biohazard",
-      "tags": [
-        "biohazard",
-        "danger",
-        "warning",
-        "science",
-        "safety"
-      ],
-      "use-cases": [
-        "Hazard warning sign",
-        "Laboratory interface",
-        "Safety alert"
-      ]
+      "tags": ["biohazard", "danger", "warning", "science", "safety"],
+      "use-cases": ["Hazard warning sign", "Laboratory interface", "Safety alert"]
     }
   }
 }

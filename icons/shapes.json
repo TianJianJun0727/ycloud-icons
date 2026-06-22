@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图形设计工具",
-    "形状库",
-    "教育材料"
-  ],
+  "use-cases": ["图形设计工具", "形状库", "教育材料"],
   "name": "形状",
-  "tags": [
-    "形状",
-    "几何",
-    "图形",
-    "设计",
-    "元素",
-    "集合",
-    "分类"
-  ],
-  "categories": [
-    "shapes",
-    "gaming"
-  ],
+  "tags": ["形状", "几何", "图形", "设计", "元素", "集合", "分类"],
+  "categories": ["shapes", "gaming"],
   "i18n": {
     "en": {
       "name": "shapes",
-      "tags": [
-        "shapes",
-        "geometry",
-        "graphics",
-        "design",
-        "elements",
-        "collection",
-        "classification"
-      ],
-      "use-cases": [
-        "Graphic design tools",
-        "Shape libraries",
-        "Educational materials"
-      ]
+      "tags": ["shapes", "geometry", "graphics", "design", "elements", "collection", "classification"],
+      "use-cases": ["Graphic design tools", "Shape libraries", "Educational materials"]
     }
   }
 }

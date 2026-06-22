@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "将任务分配给当前用户",
-    "标记消息指向我",
-    "导航到用户资料页",
-    "将当前用户设为接收人",
-    "表示传入的用户请求"
-  ],
+  "use-cases": ["将任务分配给当前用户", "标记消息指向我", "导航到用户资料页", "将当前用户设为接收人", "表示传入的用户请求"],
   "name": "用户圆形箭头左",
-  "tags": [
-    "用户返回",
-    "分配给我",
-    "接收用户",
-    "传入请求",
-    "用户指派"
-  ],
-  "categories": [
-    "account",
-    "people",
-    "arrows"
-  ],
+  "tags": ["用户返回", "分配给我", "接收用户", "传入请求", "用户指派"],
+  "categories": ["account", "people", "arrows"],
   "i18n": {
     "en": {
       "name": "user round arrow left",
-      "tags": [
-        "assign to me",
-        "user return",
-        "incoming user",
-        "recipient",
-        "user assignment"
-      ],
-      "use-cases": [
-        "assigning a task to the current user",
-        "marking a message as directed to me",
-        "navigating to the user's profile",
-        "setting the current user as recipient",
-        "indicating an inbound user request"
-      ]
+      "tags": ["assign to me", "user return", "incoming user", "recipient", "user assignment"],
+      "use-cases": ["assigning a task to the current user", "marking a message as directed to me", "navigating to the user's profile", "setting the current user as recipient", "indicating an inbound user request"]
     }
   }
 }

@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "货运或物流",
-    "海上旅行预订",
-    "货物运输状态",
-    "舰队管理"
-  ],
+  "use-cases": ["货运或物流", "海上旅行预订", "货物运输状态", "舰队管理"],
   "name": "船",
-  "tags": [
-    "轮船",
-    "船舶",
-    "航行",
-    "运输",
-    "海运",
-    "货物",
-    "旅行",
-    "航海",
-    "舰队",
-    "出发"
-  ],
-  "categories": [
-    "transportation",
-    "navigation",
-    "travel"
-  ],
+  "tags": ["轮船", "船舶", "航行", "运输", "海运", "货物", "旅行", "航海", "舰队", "出发"],
+  "categories": ["transportation", "navigation", "travel"],
   "i18n": {
     "en": {
       "name": "ship",
-      "tags": [
-        "ship",
-        "vessel",
-        "sailing",
-        "transport",
-        "shipping",
-        "cargo",
-        "travel",
-        "navigation",
-        "fleet",
-        "departure"
-      ],
-      "use-cases": [
-        "Shipping or logistics",
-        "Maritime travel booking",
-        "Cargo transport status",
-        "Fleet management"
-      ]
+      "tags": ["ship", "vessel", "sailing", "transport", "shipping", "cargo", "travel", "navigation", "fleet", "departure"],
+      "use-cases": ["Shipping or logistics", "Maritime travel booking", "Cargo transport status", "Fleet management"]
     }
   }
 }

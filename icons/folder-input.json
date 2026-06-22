@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "导入文件夹",
-    "输入目录",
-    "上传位置"
-  ],
+  "use-cases": ["导入文件夹", "输入目录", "上传位置"],
   "name": "文件夹输入",
-  "tags": [
-    "目录",
-    "导入",
-    "输入",
-    "上传"
-  ],
-  "categories": [
-    "files",
-    "arrows"
-  ],
+  "tags": ["目录", "导入", "输入", "上传"],
+  "categories": ["files", "arrows"],
   "i18n": {
     "en": {
       "name": "folder input",
-      "tags": [
-        "directory",
-        "import",
-        "input",
-        "upload"
-      ],
-      "use-cases": [
-        "Import folder",
-        "Input directory",
-        "Upload location"
-      ]
+      "tags": ["directory", "import", "input", "upload"],
+      "use-cases": ["Import folder", "Input directory", "Upload location"]
     }
   }
 }

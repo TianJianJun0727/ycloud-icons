@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示4点时间",
-    "傍晚或凌晨时间",
-    "倒计时或预约时间"
-  ],
+  "use-cases": ["显示4点时间", "傍晚或凌晨时间", "倒计时或预约时间"],
   "name": "时钟4",
-  "tags": [
-    "时间",
-    "时钟",
-    "时刻",
-    "4点",
-    "下午",
-    "凌晨"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "时刻", "4点", "下午", "凌晨"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 4",
-      "tags": [
-        "time",
-        "clock",
-        "hour",
-        "4",
-        "four",
-        "o'clock"
-      ],
-      "use-cases": [
-        "Time display for 4:00",
-        "Late afternoon or early morning time",
-        "Countdown or appointment time"
-      ]
+      "tags": ["time", "clock", "hour", "4", "four", "o'clock"],
+      "use-cases": ["Time display for 4:00", "Late afternoon or early morning time", "Countdown or appointment time"]
     }
   }
 }

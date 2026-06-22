@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "调整图片比例",
-    "设置屏幕方向",
-    "响应式设计配置"
-  ],
+  "use-cases": ["调整图片比例", "设置屏幕方向", "响应式设计配置"],
   "name": "比例",
-  "tags": [
-    "宽高比",
-    "比例",
-    "尺寸",
-    "布局",
-    "响应式",
-    "屏幕",
-    "方向"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "photography",
-    "devices"
-  ],
+  "tags": ["宽高比", "比例", "尺寸", "布局", "响应式", "屏幕", "方向"],
+  "categories": ["layout", "design", "photography", "devices"],
   "i18n": {
     "en": {
       "name": "proportions",
-      "tags": [
-        "aspect ratio",
-        "proportion",
-        "size",
-        "layout",
-        "responsive",
-        "screen",
-        "orientation"
-      ],
-      "use-cases": [
-        "Adjusting image aspect ratio",
-        "Setting screen orientation",
-        "Responsive design configuration"
-      ]
+      "tags": ["aspect ratio", "proportion", "size", "layout", "responsive", "screen", "orientation"],
+      "use-cases": ["Adjusting image aspect ratio", "Setting screen orientation", "Responsive design configuration"]
     }
   }
 }

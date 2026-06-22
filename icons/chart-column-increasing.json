@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "业绩增长展示",
-    "数据上升分析",
-    "趋势监控面板"
-  ],
+  "use-cases": ["业绩增长展示", "数据上升分析", "趋势监控面板"],
   "name": "图表列上升",
-  "tags": [
-    "上升趋势",
-    "数据增长",
-    "柱状图",
-    "统计分析",
-    "正增长"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["上升趋势", "数据增长", "柱状图", "统计分析", "正增长"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-4",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart column increasing",
-      "tags": [
-        "increasing trend",
-        "data growth",
-        "column chart",
-        "statistical analysis",
-        "positive growth"
-      ],
-      "use-cases": [
-        "Performance growth display",
-        "Data increase analysis",
-        "Trend monitoring dashboard"
-      ]
+      "tags": ["increasing trend", "data growth", "column chart", "statistical analysis", "positive growth"],
+      "use-cases": ["Performance growth display", "Data increase analysis", "Trend monitoring dashboard"]
     }
   }
 }

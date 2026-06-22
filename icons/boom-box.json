@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放界面",
-    "音响设备控制",
-    "户外音乐活动"
-  ],
+  "use-cases": ["音乐播放界面", "音响设备控制", "户外音乐活动"],
   "name": "音箱盒子",
-  "tags": [
-    "音箱",
-    "扬声器",
-    "音乐播放器",
-    "音频设备",
-    "便携音响"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "social"
-  ],
+  "tags": ["音箱", "扬声器", "音乐播放器", "音频设备", "便携音响"],
+  "categories": ["devices", "multimedia", "social"],
   "i18n": {
     "en": {
       "name": "boom box",
-      "tags": [
-        "boombox",
-        "speaker",
-        "music player",
-        "audio device",
-        "portable stereo"
-      ],
-      "use-cases": [
-        "Music player interface",
-        "Audio equipment control",
-        "Outdoor music event"
-      ]
+      "tags": ["boombox", "speaker", "music player", "audio device", "portable stereo"],
+      "use-cases": ["Music player interface", "Audio equipment control", "Outdoor music event"]
     }
   }
 }

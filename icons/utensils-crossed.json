@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅列表",
-    "餐饮服务",
-    "用餐选项",
-    "餐食图标"
-  ],
+  "use-cases": ["餐厅列表", "餐饮服务", "用餐选项", "餐食图标"],
   "name": "餐具交叉",
-  "tags": [
-    "餐具",
-    "刀叉",
-    "餐厅",
-    "美食",
-    "餐饮",
-    "用餐",
-    "西餐"
-  ],
-  "categories": [
-    "food-beverage",
-    "travel",
-    "navigation"
-  ],
+  "tags": ["餐具", "刀叉", "餐厅", "美食", "餐饮", "用餐", "西餐"],
+  "categories": ["food-beverage", "travel", "navigation"],
   "aliases": [
     {
       "name": "fork-knife-crossed",
@@ -32,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "utensils crossed",
-      "tags": [
-        "utensils",
-        "fork and knife",
-        "restaurant",
-        "food",
-        "dining",
-        "meal",
-        "cutlery"
-      ],
-      "use-cases": [
-        "Restaurant listing",
-        "Food service",
-        "Dining options",
-        "Meal icon"
-      ]
+      "tags": ["utensils", "fork and knife", "restaurant", "food", "dining", "meal", "cutlery"],
+      "use-cases": ["Restaurant listing", "Food service", "Dining options", "Meal icon"]
     }
   }
 }

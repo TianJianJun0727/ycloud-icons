@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "边框样式",
-    "设计工具",
-    "界面定制",
-    "线条格式"
-  ],
+  "use-cases": ["边框样式", "设计工具", "界面定制", "线条格式"],
   "name": "线条样式",
-  "tags": [
-    "线条",
-    "样式",
-    "虚线",
-    "边框",
-    "描边",
-    "设计",
-    "工具"
-  ],
-  "categories": [
-    "design",
-    "tools"
-  ],
+  "tags": ["线条", "样式", "虚线", "边框", "描边", "设计", "工具"],
+  "categories": ["design", "tools"],
   "i18n": {
     "en": {
       "name": "line style",
-      "tags": [
-        "line",
-        "style",
-        "dashed",
-        "border",
-        "stroke",
-        "design",
-        "tools"
-      ],
-      "use-cases": [
-        "Border styling",
-        "Design tools",
-        "UI customization",
-        "Line formatting"
-      ]
+      "tags": ["line", "style", "dashed", "border", "stroke", "design", "tools"],
+      "use-cases": ["Border styling", "Design tools", "UI customization", "Line formatting"]
     }
   }
 }

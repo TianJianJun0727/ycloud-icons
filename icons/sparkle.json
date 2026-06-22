@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "高亮或功能徽章",
-    "庆祝动画元素",
-    "视觉效果滤镜",
-    "高级状态指示器"
-  ],
+  "use-cases": ["高亮或功能徽章", "庆祝动画元素", "视觉效果滤镜", "高级状态指示器"],
   "name": "闪光",
-  "tags": [
-    "闪光",
-    "星星",
-    "特效",
-    "闪耀",
-    "庆祝",
-    "魔法",
-    "光泽"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["闪光", "星星", "特效", "闪耀", "庆祝", "魔法", "光泽"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "sparkle",
-      "tags": [
-        "sparkle",
-        "star",
-        "effect",
-        "glitter",
-        "celebration",
-        "magic",
-        "shine"
-      ],
-      "use-cases": [
-        "Highlight or feature badge",
-        "Celebration animation element",
-        "Visual effect filter",
-        "Premium status indicator"
-      ]
+      "tags": ["sparkle", "star", "effect", "glitter", "celebration", "magic", "shine"],
+      "use-cases": ["Highlight or feature badge", "Celebration animation element", "Visual effect filter", "Premium status indicator"]
     }
   }
 }

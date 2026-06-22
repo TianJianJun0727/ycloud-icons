@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "输入框",
-    "导入数据",
-    "插入内容"
-  ],
+  "use-cases": ["输入框", "导入数据", "插入内容"],
   "name": "方形箭头右进入",
-  "tags": [
-    "输入",
-    "插入",
-    "导入",
-    "进入",
-    "方向"
-  ],
-  "categories": [
-    "arrows",
-    "shapes",
-    "layout",
-    "multimedia"
-  ],
+  "tags": ["输入", "插入", "导入", "进入", "方向"],
+  "categories": ["arrows", "shapes", "layout", "multimedia"],
   "i18n": {
     "en": {
       "name": "square arrow right enter",
-      "tags": [
-        "input",
-        "insert",
-        "import",
-        "enter",
-        "direction"
-      ],
-      "use-cases": [
-        "Input field",
-        "Import data",
-        "Insert content"
-      ]
+      "tags": ["input", "insert", "import", "enter", "direction"],
+      "use-cases": ["Input field", "Import data", "Insert content"]
     }
   }
 }

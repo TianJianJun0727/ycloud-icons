@@ -1,52 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "银行或金融机构界面",
-    "政府建筑标记",
-    "地图上的历史遗址",
-    "博物馆或美术馆位置",
-    "机构资料图标"
-  ],
+  "use-cases": ["银行或金融机构界面", "政府建筑标记", "地图上的历史遗址", "博物馆或美术馆位置", "机构资料图标"],
   "name": "地标",
-  "tags": [
-    "地标",
-    "建筑",
-    "银行",
-    "政府",
-    "纪念碑",
-    "历史建筑",
-    "博物馆",
-    "古典建筑",
-    "机构",
-    "金融"
-  ],
-  "categories": [
-    "finance",
-    "navigation",
-    "buildings"
-  ],
+  "tags": ["地标", "建筑", "银行", "政府", "纪念碑", "历史建筑", "博物馆", "古典建筑", "机构", "金融"],
+  "categories": ["finance", "navigation", "buildings"],
   "i18n": {
     "en": {
       "name": "landmark",
-      "tags": [
-        "landmark",
-        "building",
-        "bank",
-        "government",
-        "monument",
-        "historic",
-        "museum",
-        "classical",
-        "institution",
-        "finance"
-      ],
-      "use-cases": [
-        "Bank or financial institution UI",
-        "Government building marker",
-        "Historical site on a map",
-        "Museum or gallery location",
-        "Institution profile icon"
-      ]
+      "tags": ["landmark", "building", "bank", "government", "monument", "historic", "museum", "classical", "institution", "finance"],
+      "use-cases": ["Bank or financial institution UI", "Government building marker", "Historical site on a map", "Museum or gallery location", "Institution profile icon"]
     }
   }
 }

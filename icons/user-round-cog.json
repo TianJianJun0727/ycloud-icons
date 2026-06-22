@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "访问用户设置",
-    "配置账户偏好",
-    "编辑资料选项",
-    "管理用户配置"
-  ],
+  "use-cases": ["访问用户设置", "配置账户偏好", "编辑资料选项", "管理用户配置"],
   "name": "用户圆形齿轮",
-  "tags": [
-    "用户设置",
-    "账户配置",
-    "个人偏好",
-    "用户选项",
-    "资料设置"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户设置", "账户配置", "个人偏好", "用户选项", "资料设置"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "user-cog-2",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "user round cog",
-      "tags": [
-        "user settings",
-        "account configuration",
-        "personal preferences",
-        "user options",
-        "profile settings"
-      ],
-      "use-cases": [
-        "accessing user settings",
-        "configuring account preferences",
-        "editing profile options",
-        "managing user configuration"
-      ]
+      "tags": ["user settings", "account configuration", "personal preferences", "user options", "profile settings"],
+      "use-cases": ["accessing user settings", "configuring account preferences", "editing profile options", "managing user configuration"]
     }
   }
 }

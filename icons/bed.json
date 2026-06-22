@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家居应用图标",
-    "酒店预订系统",
-    "睡眠追踪应用"
-  ],
+  "use-cases": ["家居应用图标", "酒店预订系统", "睡眠追踪应用"],
   "name": "床",
-  "tags": [
-    "床",
-    "卧室",
-    "酒店",
-    "家具",
-    "睡眠"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["床", "卧室", "酒店", "家具", "睡眠"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "bed",
-      "tags": [
-        "bed",
-        "bedroom",
-        "hotel",
-        "furniture",
-        "sleep"
-      ],
-      "use-cases": [
-        "Home app icon",
-        "Hotel booking system",
-        "Sleep tracking application"
-      ]
+      "tags": ["bed", "bedroom", "hotel", "furniture", "sleep"],
+      "use-cases": ["Home app icon", "Hotel booking system", "Sleep tracking application"]
     }
   }
 }

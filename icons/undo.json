@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑操作撤销",
-    "操作历史管理",
-    "错误操作恢复"
-  ],
+  "use-cases": ["编辑操作撤销", "操作历史管理", "错误操作恢复"],
   "name": "撤销",
-  "tags": [
-    "撤销",
-    "重做",
-    "历史",
-    "回退"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["撤销", "重做", "历史", "回退"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "undo",
-      "tags": [
-        "undo",
-        "redo",
-        "history",
-        "rollback"
-      ],
-      "use-cases": [
-        "Edit operation undo",
-        "Action history management",
-        "Error operation recovery"
-      ]
+      "tags": ["undo", "redo", "history", "rollback"],
+      "use-cases": ["Edit operation undo", "Action history management", "Error operation recovery"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体库浏览器",
-    "代码仓库导航",
-    "文档收藏管理器"
-  ],
+  "use-cases": ["媒体库浏览器", "代码仓库导航", "文档收藏管理器"],
   "name": "图书馆大",
-  "tags": [
-    "图书馆",
-    "资料库",
-    "媒体库",
-    "收藏",
-    "书籍",
-    "专辑",
-    "代码库"
-  ],
-  "categories": [
-    "text",
-    "photography",
-    "multimedia",
-    "navigation",
-    "development"
-  ],
+  "tags": ["图书馆", "资料库", "媒体库", "收藏", "书籍", "专辑", "代码库"],
+  "categories": ["text", "photography", "multimedia", "navigation", "development"],
   "i18n": {
     "en": {
       "name": "library big",
-      "tags": [
-        "library",
-        "repository",
-        "media library",
-        "collection",
-        "books",
-        "albums",
-        "code library"
-      ],
-      "use-cases": [
-        "Media library browser",
-        "Code repository navigation",
-        "Document collection manager"
-      ]
+      "tags": ["library", "repository", "media library", "collection", "books", "albums", "code library"],
+      "use-cases": ["Media library browser", "Code repository navigation", "Document collection manager"]
     }
   }
 }

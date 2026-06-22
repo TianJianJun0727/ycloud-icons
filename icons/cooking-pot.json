@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食谱应用图标",
-    "烹饪教程步骤",
-    "食品配送服务",
-    "厨具产品列表"
-  ],
+  "use-cases": ["食谱应用图标", "烹饪教程步骤", "食品配送服务", "厨具产品列表"],
   "name": "烹饪锅",
-  "tags": [
-    "烹饪",
-    "锅",
-    "厨房",
-    "食物",
-    "食谱",
-    "厨师",
-    "餐饮"
-  ],
-  "categories": [
-    "food-beverage",
-    "home"
-  ],
+  "tags": ["烹饪", "锅", "厨房", "食物", "食谱", "厨师", "餐饮"],
+  "categories": ["food-beverage", "home"],
   "i18n": {
     "en": {
       "name": "cooking pot",
-      "tags": [
-        "cooking",
-        "pot",
-        "kitchen",
-        "food",
-        "recipe",
-        "chef",
-        "meal"
-      ],
-      "use-cases": [
-        "Recipe app icon",
-        "Cooking tutorial step",
-        "Food delivery service",
-        "Kitware product listing"
-      ]
+      "tags": ["cooking", "pot", "kitchen", "food", "recipe", "chef", "meal"],
+      "use-cases": ["Recipe app icon", "Cooking tutorial step", "Food delivery service", "Kitware product listing"]
     }
   }
 }

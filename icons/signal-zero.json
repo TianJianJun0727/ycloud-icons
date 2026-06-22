@@ -1,48 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "无网络连接状态",
-    "离线模式指示器",
-    "信号丢失警告"
-  ],
+  "use-cases": ["无网络连接状态", "离线模式指示器", "信号丢失警告"],
   "name": "信号零",
-  "tags": [
-    "信号",
-    "无线",
-    "连接",
-    "网络",
-    "无信号",
-    "丢失",
-    "断开",
-    "离线",
-    "蜂窝网络",
-    "移动网络",
-    "Wi-Fi"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["信号", "无线", "连接", "网络", "无信号", "丢失", "断开", "离线", "蜂窝网络", "移动网络", "Wi-Fi"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "signal zero",
-      "tags": [
-        "signal",
-        "wireless",
-        "connection",
-        "network",
-        "no signal",
-        "lost",
-        "disconnected",
-        "offline",
-        "cellular",
-        "mobile",
-        "wifi"
-      ],
-      "use-cases": [
-        "No network connection status",
-        "Offline mode indicator",
-        "Signal lost warning"
-      ]
+      "tags": ["signal", "wireless", "connection", "network", "no signal", "lost", "disconnected", "offline", "cellular", "mobile", "wifi"],
+      "use-cases": ["No network connection status", "Offline mode indicator", "Signal lost warning"]
     }
   }
 }

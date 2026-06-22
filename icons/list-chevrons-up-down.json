@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "可折叠列表",
-    "垂直导航",
-    "内容展开",
-    "界面扩展"
-  ],
+  "use-cases": ["可折叠列表", "垂直导航", "内容展开", "界面扩展"],
   "name": "列表双折角箭头上下",
-  "tags": [
-    "列表",
-    "折叠",
-    "展开",
-    "手风琴",
-    "垂直",
-    "切换",
-    "显示隐藏"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["列表", "折叠", "展开", "手风琴", "垂直", "切换", "显示隐藏"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "list chevrons up down",
-      "tags": [
-        "list",
-        "collapse",
-        "expand",
-        "accordion",
-        "vertical",
-        "toggle",
-        "show hide"
-      ],
-      "use-cases": [
-        "Collapsible lists",
-        "Vertical navigation",
-        "Content disclosure",
-        "UI expansion"
-      ]
+      "tags": ["list", "collapse", "expand", "accordion", "vertical", "toggle", "show hide"],
+      "use-cases": ["Collapsible lists", "Vertical navigation", "Content disclosure", "UI expansion"]
     }
   }
 }

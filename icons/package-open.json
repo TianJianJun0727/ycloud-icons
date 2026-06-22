@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开压缩文件",
-    "查看包裹内容",
-    "软件包已安装"
-  ],
+  "use-cases": ["打开压缩文件", "查看包裹内容", "软件包已安装"],
   "name": "包打开",
-  "tags": [
-    "打开",
-    "解压",
-    "已开封",
-    "已交付",
-    "查看内容",
-    "解包"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["打开", "解压", "已开封", "已交付", "查看内容", "解包"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "package open",
-      "tags": [
-        "open",
-        "unzip",
-        "unpack",
-        "delivered",
-        "view contents",
-        "extract"
-      ],
-      "use-cases": [
-        "Open archive file",
-        "View package contents",
-        "Software package installed"
-      ]
+      "tags": ["open", "unzip", "unpack", "delivered", "view contents", "extract"],
+      "use-cases": ["Open archive file", "View package contents", "Software package installed"]
     }
   }
 }

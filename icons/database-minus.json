@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据库实例移除",
-    "资源缩减",
-    "连接删除清理"
-  ],
+  "use-cases": ["数据库实例移除", "资源缩减", "连接删除清理"],
   "name": "数据库减少",
-  "tags": [
-    "数据库",
-    "删除",
-    "移除",
-    "缩减",
-    "卸载",
-    "资源管理"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["数据库", "删除", "移除", "缩减", "卸载", "资源管理"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "database minus",
-      "tags": [
-        "database",
-        "delete",
-        "remove",
-        "reduce",
-        "uninstall",
-        "resource management"
-      ],
-      "use-cases": [
-        "Database instance removal",
-        "Resource scaling down",
-        "Connection deletion and cleanup"
-      ]
+      "tags": ["database", "delete", "remove", "reduce", "uninstall", "resource management"],
+      "use-cases": ["Database instance removal", "Resource scaling down", "Connection deletion and cleanup"]
     }
   }
 }

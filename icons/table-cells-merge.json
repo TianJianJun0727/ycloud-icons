@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑器中合并表格单元格",
-    "电子表格单元格格式化",
-    "数据合并界面"
-  ],
+  "use-cases": ["编辑器中合并表格单元格", "电子表格单元格格式化", "数据合并界面"],
   "name": "表格单元格合并",
-  "tags": [
-    "合并单元格",
-    "表格",
-    "电子表格",
-    "单元格操作"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["合并单元格", "表格", "电子表格", "单元格操作"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "table cells merge",
-      "tags": [
-        "merge cells",
-        "table",
-        "spreadsheet",
-        "cell operation"
-      ],
-      "use-cases": [
-        "Merge table cells in an editor",
-        "Spreadsheet cell formatting",
-        "Data consolidation UI"
-      ]
+      "tags": ["merge cells", "table", "spreadsheet", "cell operation"],
+      "use-cases": ["Merge table cells in an editor", "Spreadsheet cell formatting", "Data consolidation UI"]
     }
   }
 }

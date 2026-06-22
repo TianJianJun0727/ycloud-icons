@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据统计面板",
-    "业务指标展示",
-    "销售业绩图表"
-  ],
+  "use-cases": ["数据统计面板", "业务指标展示", "销售业绩图表"],
   "name": "图表条形",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "条形图",
-    "数据可视化"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "条形图", "数据可视化"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-horizontal",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart bar",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "bar chart",
-        "data visualization"
-      ],
-      "use-cases": [
-        "Data statistics dashboard",
-        "Business metrics display",
-        "Sales performance chart"
-      ]
+      "tags": ["statistics", "analytics", "chart", "bar chart", "data visualization"],
+      "use-cases": ["Data statistics dashboard", "Business metrics display", "Sales performance chart"]
     }
   }
 }

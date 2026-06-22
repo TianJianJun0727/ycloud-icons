@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "刷新或重新同步Wi-Fi连接",
-    "网络重新连接过程"
-  ],
+  "use-cases": ["刷新或重新同步Wi-Fi连接", "网络重新连接过程"],
   "name": "无线网络同步",
-  "tags": [
-    "Wi-Fi同步",
-    "网络同步",
-    "重新连接",
-    "刷新网络",
-    "同步连接"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["Wi-Fi同步", "网络同步", "重新连接", "刷新网络", "同步连接"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi sync",
-      "tags": [
-        "wifi sync",
-        "network synchronization",
-        "reconnect",
-        "refresh network",
-        "sync connection"
-      ],
-      "use-cases": [
-        "Refreshing or re-syncing a Wi-Fi connection",
-        "Network reconnection process"
-      ]
+      "tags": ["wifi sync", "network synchronization", "reconnect", "refresh network", "sync connection"],
+      "use-cases": ["Refreshing or re-syncing a Wi-Fi connection", "Network reconnection process"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "符号链接指示器",
-    "快捷方式文件图标",
-    "链接资源引用"
-  ],
+  "use-cases": ["符号链接指示器", "快捷方式文件图标", "链接资源引用"],
   "name": "文件符号链接",
-  "tags": [
-    "符号链接",
-    "快捷方式",
-    "链接",
-    "引用",
-    "文件链接"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["符号链接", "快捷方式", "链接", "引用", "文件链接"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file symlink",
-      "tags": [
-        "symlink",
-        "shortcut",
-        "link",
-        "reference",
-        "file link"
-      ],
-      "use-cases": [
-        "Symbolic link indicator",
-        "Shortcut file icon",
-        "Linked resource reference"
-      ]
+      "tags": ["symlink", "shortcut", "link", "reference", "file link"],
+      "use-cases": ["Symbolic link indicator", "Shortcut file icon", "Linked resource reference"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除重复项目",
-    "从复制的集合中减去",
-    "取消复制操作"
-  ],
+  "use-cases": ["移除重复项目", "从复制的集合中减去", "取消复制操作"],
   "name": "复制减少",
-  "tags": [
-    "复制移除",
-    "复制删除",
-    "克隆减少",
-    "重复删除",
-    "减去",
-    "取消复制"
-  ],
-  "categories": [
-    "text",
-    "math"
-  ],
+  "tags": ["复制移除", "复制删除", "克隆减少", "重复删除", "减去", "取消复制"],
+  "categories": ["text", "math"],
   "i18n": {
     "en": {
       "name": "copy minus",
-      "tags": [
-        "copy remove",
-        "copy delete",
-        "clone minus",
-        "duplicate delete",
-        "subtract",
-        "cancel copy"
-      ],
-      "use-cases": [
-        "Remove a duplicated item",
-        "Subtract from a copied set",
-        "Cancel a copy operation"
-      ]
+      "tags": ["copy remove", "copy delete", "clone minus", "duplicate delete", "subtract", "cancel copy"],
+      "use-cases": ["Remove a duplicated item", "Subtract from a copied set", "Cancel a copy operation"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "商务应用图标",
-    "工作管理界面",
-    "职业资料展示",
-    "办公工具入口"
-  ],
+  "use-cases": ["商务应用图标", "工作管理界面", "职业资料展示", "办公工具入口"],
   "name": "公文包商务",
-  "tags": [
-    "商务",
-    "工作",
-    "公文包",
-    "办公",
-    "职业"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["商务", "工作", "公文包", "办公", "职业"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "briefcase business",
-      "tags": [
-        "business",
-        "work",
-        "briefcase",
-        "office",
-        "professional"
-      ],
-      "use-cases": [
-        "Business application icon",
-        "Work management interface",
-        "Professional profile display",
-        "Office tool entry"
-      ]
+      "tags": ["business", "work", "briefcase", "office", "professional"],
+      "use-cases": ["Business application icon", "Work management interface", "Professional profile display", "Office tool entry"]
     }
   }
 }

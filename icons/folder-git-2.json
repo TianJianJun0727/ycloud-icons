@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git仓库文件夹",
-    "版本控制目录",
-    "代码库位置"
-  ],
+  "use-cases": ["Git仓库文件夹", "版本控制目录", "代码库位置"],
   "name": "文件夹Git2",
-  "tags": [
-    "Git",
-    "版本控制",
-    "仓库",
-    "代码库",
-    "源代码管理"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["Git", "版本控制", "仓库", "代码库", "源代码管理"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder git 2",
-      "tags": [
-        "git",
-        "version control",
-        "repository",
-        "codebase",
-        "source control"
-      ],
-      "use-cases": [
-        "Git repository folder",
-        "Version control directory",
-        "Codebase location"
-      ]
+      "tags": ["git", "version control", "repository", "codebase", "source control"],
+      "use-cases": ["Git repository folder", "Version control directory", "Codebase location"]
     }
   }
 }

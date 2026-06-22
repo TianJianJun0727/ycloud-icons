@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "价格显示",
-    "支付方式",
-    "金融交易"
-  ],
+  "use-cases": ["价格显示", "支付方式", "金融交易"],
   "name": "圆形美元标志",
-  "tags": [
-    "美元",
-    "货币",
-    "支付",
-    "金融",
-    "价格"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["美元", "货币", "支付", "金融", "价格"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "circle dollar sign",
-      "tags": [
-        "dollar",
-        "currency",
-        "payment",
-        "finance",
-        "price"
-      ],
-      "use-cases": [
-        "Price display",
-        "Payment method",
-        "Financial transaction"
-      ]
+      "tags": ["dollar", "currency", "payment", "finance", "price"],
+      "use-cases": ["Price display", "Payment method", "Financial transaction"]
     }
   }
 }

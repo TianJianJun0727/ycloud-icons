@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器缩进",
-    "下一页导航",
-    "键盘Tab键表示"
-  ],
+  "use-cases": ["文本编辑器缩进", "下一页导航", "键盘Tab键表示"],
   "name": "箭头右到线条",
-  "tags": [
-    "下一个",
-    "前进",
-    "缩进",
-    "制表符",
-    "键盘快捷键",
-    "方向"
-  ],
-  "categories": [
-    "arrows",
-    "development"
-  ],
+  "tags": ["下一个", "前进", "缩进", "制表符", "键盘快捷键", "方向"],
+  "categories": ["arrows", "development"],
   "i18n": {
     "en": {
       "name": "arrow right to line",
-      "tags": [
-        "next",
-        "forward",
-        "indent",
-        "tab",
-        "keyboard shortcut",
-        "direction"
-      ],
-      "use-cases": [
-        "Text editor indent",
-        "Next page navigation",
-        "Keyboard tab key representation"
-      ]
+      "tags": ["next", "forward", "indent", "tab", "keyboard shortcut", "direction"],
+      "use-cases": ["Text editor indent", "Next page navigation", "Keyboard tab key representation"]
     }
   }
 }

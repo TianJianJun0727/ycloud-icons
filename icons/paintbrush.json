@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计软件工具",
-    "绘画应用",
-    "颜色自定义",
-    "创意工作区"
-  ],
+  "use-cases": ["设计软件工具", "绘画应用", "颜色自定义", "创意工作区"],
   "name": "画笔",
-  "tags": [
-    "画笔",
-    "设计",
-    "颜色",
-    "绘画",
-    "工具",
-    "装饰",
-    "创意"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "photography",
-    "home",
-    "tools"
-  ],
+  "tags": ["画笔", "设计", "颜色", "绘画", "工具", "装饰", "创意"],
+  "categories": ["text", "design", "photography", "home", "tools"],
   "i18n": {
     "en": {
       "name": "paintbrush",
-      "tags": [
-        "brush",
-        "paintbrush",
-        "design",
-        "color",
-        "painting",
-        "tool",
-        "decoration",
-        "creative"
-      ],
-      "use-cases": [
-        "Design software tools",
-        "Painting application",
-        "Color customization",
-        "Creative workspace"
-      ]
+      "tags": ["brush", "paintbrush", "design", "color", "painting", "tool", "decoration", "creative"],
+      "use-cases": ["Design software tools", "Painting application", "Color customization", "Creative workspace"]
     }
   }
 }

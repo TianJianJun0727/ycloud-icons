@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "购物车",
-    "时尚应用",
-    "旅行界面"
-  ],
+  "use-cases": ["购物车", "时尚应用", "旅行界面"],
   "name": "手提包",
-  "tags": [
-    "手提包",
-    "购物",
-    "时尚",
-    "旅行",
-    "行李"
-  ],
-  "categories": [
-    "shopping",
-    "transportation"
-  ],
+  "tags": ["手提包", "购物", "时尚", "旅行", "行李"],
+  "categories": ["shopping", "transportation"],
   "i18n": {
     "en": {
       "name": "handbag",
-      "tags": [
-        "handbag",
-        "shopping",
-        "fashion",
-        "travel",
-        "luggage"
-      ],
-      "use-cases": [
-        "Shopping carts",
-        "Fashion apps",
-        "Travel interfaces"
-      ]
+      "tags": ["handbag", "shopping", "fashion", "travel", "luggage"],
+      "use-cases": ["Shopping carts", "Fashion apps", "Travel interfaces"]
     }
   }
 }

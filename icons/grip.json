@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "拖放界面",
-    "UI操作控制",
-    "交互元素"
-  ],
+  "use-cases": ["拖放界面", "UI操作控制", "交互元素"],
   "name": "握柄",
-  "tags": [
-    "拖拽",
-    "手柄",
-    "移动",
-    "控制",
-    "操作点"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["拖拽", "手柄", "移动", "控制", "操作点"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "grip",
-      "tags": [
-        "drag",
-        "handle",
-        "move",
-        "control",
-        "manipulation points"
-      ],
-      "use-cases": [
-        "Drag and drop interfaces",
-        "UI manipulation controls",
-        "Interactive elements"
-      ]
+      "tags": ["drag", "handle", "move", "control", "manipulation points"],
+      "use-cases": ["Drag and drop interfaces", "UI manipulation controls", "Interactive elements"]
     }
   }
 }

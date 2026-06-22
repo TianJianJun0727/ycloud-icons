@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "环保功能标识",
-    "文件回收站",
-    "资源循环设置",
-    "可持续性倡议"
-  ],
+  "use-cases": ["环保功能标识", "文件回收站", "资源循环设置", "可持续性倡议"],
   "name": "回收",
-  "tags": [
-    "回收",
-    "循环",
-    "可持续",
-    "环保",
-    "再利用",
-    "箭头循环"
-  ],
-  "categories": [
-    "sustainability"
-  ],
+  "tags": ["回收", "循环", "可持续", "环保", "再利用", "箭头循环"],
+  "categories": ["sustainability"],
   "i18n": {
     "en": {
       "name": "recycle",
-      "tags": [
-        "recycle",
-        "cycle",
-        "sustainability",
-        "eco-friendly",
-        "reuse",
-        "arrow loop"
-      ],
-      "use-cases": [
-        "Eco-friendly feature indicator",
-        "File recycle bin",
-        "Resource cycling settings",
-        "Sustainability initiative"
-      ]
+      "tags": ["recycle", "cycle", "sustainability", "eco-friendly", "reuse", "arrow loop"],
+      "use-cases": ["Eco-friendly feature indicator", "File recycle bin", "Resource cycling settings", "Sustainability initiative"]
     }
   }
 }

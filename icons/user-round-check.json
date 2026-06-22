@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "确认用户关注状态",
-    "验证订阅",
-    "批准用户账户",
-    "完成用户相关任务"
-  ],
+  "use-cases": ["确认用户关注状态", "验证订阅", "批准用户账户", "完成用户相关任务"],
   "name": "用户圆形勾选",
-  "tags": [
-    "用户验证",
-    "关注完成",
-    "订阅确认",
-    "用户批准",
-    "任务完成"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户验证", "关注完成", "订阅确认", "用户批准", "任务完成"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "user-check-2",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "user round check",
-      "tags": [
-        "user verification",
-        "follow confirmed",
-        "subscription approved",
-        "user approved",
-        "task completed"
-      ],
-      "use-cases": [
-        "confirming user follow status",
-        "verifying subscription",
-        "approving user account",
-        "completing user-related task"
-      ]
+      "tags": ["user verification", "follow confirmed", "subscription approved", "user approved", "task completed"],
+      "use-cases": ["confirming user follow status", "verifying subscription", "approving user account", "completing user-related task"]
     }
   }
 }

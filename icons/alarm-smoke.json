@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家庭安全设置",
-    "火灾报警指示器",
-    "烟雾探测器状态"
-  ],
+  "use-cases": ["家庭安全设置", "火灾报警指示器", "烟雾探测器状态"],
   "name": "闹钟烟雾",
-  "tags": [
-    "烟雾报警器",
-    "火灾报警",
-    "安全",
-    "探测器",
-    "警报",
-    "家庭安全"
-  ],
-  "categories": [
-    "home",
-    "devices",
-    "travel"
-  ],
+  "tags": ["烟雾报警器", "火灾报警", "安全", "探测器", "警报", "家庭安全"],
+  "categories": ["home", "devices", "travel"],
   "i18n": {
     "en": {
       "name": "alarm smoke",
-      "tags": [
-        "smoke alarm",
-        "fire alarm",
-        "safety",
-        "detector",
-        "alert",
-        "home security"
-      ],
-      "use-cases": [
-        "Home safety settings",
-        "Fire alarm indicator",
-        "Smoke detector status"
-      ]
+      "tags": ["smoke alarm", "fire alarm", "safety", "detector", "alert", "home security"],
+      "use-cases": ["Home safety settings", "Fire alarm indicator", "Smoke detector status"]
     }
   }
 }

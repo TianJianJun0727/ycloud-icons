@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器或数学UI中的除法运算符",
-    "数学函数图标",
-    "公式编辑器"
-  ],
+  "use-cases": ["计算器或数学UI中的除法运算符", "数学函数图标", "公式编辑器"],
   "name": "方形除号",
-  "tags": [
-    "除号",
-    "除法",
-    "数学",
-    "计算",
-    "方形",
-    "运算符"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["除号", "除法", "数学", "计算", "方形", "运算符"],
+  "categories": ["math"],
   "aliases": [
     {
       "name": "divide-square",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square divide",
-      "tags": [
-        "divide",
-        "division",
-        "math",
-        "calculate",
-        "square",
-        "operator"
-      ],
-      "use-cases": [
-        "Division operator in a calculator or math UI",
-        "Mathematical function icon",
-        "Equation editor"
-      ]
+      "tags": ["divide", "division", "math", "calculate", "square", "operator"],
+      "use-cases": ["Division operator in a calculator or math UI", "Mathematical function icon", "Equation editor"]
     }
   }
 }

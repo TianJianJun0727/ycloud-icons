@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "低音量设置",
-    "媒体播放控制",
-    "声音级别指示"
-  ],
+  "use-cases": ["低音量设置", "媒体播放控制", "声音级别指示"],
   "name": "音量1",
-  "tags": [
-    "音量",
-    "低音量",
-    "声音",
-    "音频",
-    "扬声器",
-    "媒体"
-  ],
-  "categories": [
-    "connectivity",
-    "communication",
-    "multimedia"
-  ],
+  "tags": ["音量", "低音量", "声音", "音频", "扬声器", "媒体"],
+  "categories": ["connectivity", "communication", "multimedia"],
   "i18n": {
     "en": {
       "name": "volume 1",
-      "tags": [
-        "volume",
-        "low volume",
-        "sound",
-        "audio",
-        "speaker",
-        "media"
-      ],
-      "use-cases": [
-        "Low volume setting",
-        "Media playback control",
-        "Sound level indicator"
-      ]
+      "tags": ["volume", "low volume", "sound", "audio", "speaker", "media"],
+      "use-cases": ["Low volume setting", "Media playback control", "Sound level indicator"]
     }
   }
 }

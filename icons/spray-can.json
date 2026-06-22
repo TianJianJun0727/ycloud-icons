@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "涂鸦设计工具",
-    "喷漆应用界面",
-    "气雾剂产品图标",
-    "DIY装饰界面",
-    "美术用品目录"
-  ],
+  "use-cases": ["涂鸦设计工具", "喷漆应用界面", "气雾剂产品图标", "DIY装饰界面", "美术用品目录"],
   "name": "喷雾罐",
-  "tags": [
-    "喷雾罐",
-    "喷漆",
-    "涂鸦",
-    "设计",
-    "颜料",
-    "装饰",
-    "气雾剂",
-    "喷涂"
-  ],
-  "categories": [
-    "design",
-    "tools"
-  ],
+  "tags": ["喷雾罐", "喷漆", "涂鸦", "设计", "颜料", "装饰", "气雾剂", "喷涂"],
+  "categories": ["design", "tools"],
   "i18n": {
     "en": {
       "name": "spray can",
-      "tags": [
-        "spray can",
-        "spray paint",
-        "graffiti",
-        "design",
-        "paint",
-        "decoration",
-        "aerosol",
-        "spraying"
-      ],
-      "use-cases": [
-        "Graffiti design tool",
-        "Spray paint application",
-        "Aerosol product icon",
-        "DIY decoration interface",
-        "Art supply catalog"
-      ]
+      "tags": ["spray can", "spray paint", "graffiti", "design", "paint", "decoration", "aerosol", "spraying"],
+      "use-cases": ["Graffiti design tool", "Spray paint application", "Aerosol product icon", "DIY decoration interface", "Art supply catalog"]
     }
   }
 }

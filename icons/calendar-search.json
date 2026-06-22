@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在日历中搜索事件",
-    "查找特定日期",
-    "查询日历可用性"
-  ],
+  "use-cases": ["在日历中搜索事件", "查找特定日期", "查询日历可用性"],
   "name": "日历搜索",
-  "tags": [
-    "日历",
-    "日期",
-    "搜索",
-    "查找",
-    "查询",
-    "事件",
-    "日程"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "搜索", "查找", "查询", "事件", "日程"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar search",
-      "tags": [
-        "calendar",
-        "date",
-        "search",
-        "find",
-        "query",
-        "event",
-        "schedule"
-      ],
-      "use-cases": [
-        "Search for events in calendar",
-        "Find a specific date",
-        "Query calendar availability"
-      ]
+      "tags": ["calendar", "date", "search", "find", "query", "event", "schedule"],
+      "use-cases": ["Search for events in calendar", "Find a specific date", "Query calendar availability"]
     }
   }
 }

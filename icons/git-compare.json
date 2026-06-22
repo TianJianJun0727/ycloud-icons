@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码差异查看器",
-    "分支比较工具",
-    "文件版本差异"
-  ],
+  "use-cases": ["代码差异查看器", "分支比较工具", "文件版本差异"],
   "name": "Git比较",
-  "tags": [
-    "比较",
-    "差异",
-    "版本控制",
-    "Git",
-    "代码对比"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["比较", "差异", "版本控制", "Git", "代码对比"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git compare",
-      "tags": [
-        "compare",
-        "diff",
-        "version control",
-        "Git",
-        "code comparison"
-      ],
-      "use-cases": [
-        "Code diff viewer",
-        "Branch comparison tool",
-        "File version difference"
-      ]
+      "tags": ["compare", "diff", "version control", "Git", "code comparison"],
+      "use-cases": ["Code diff viewer", "Branch comparison tool", "File version difference"]
     }
   }
 }

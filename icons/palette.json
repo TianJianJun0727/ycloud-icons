@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "调色板选择",
-    "主题自定义",
-    "设计工具颜色选择器",
-    "艺术应用"
-  ],
+  "use-cases": ["调色板选择", "主题自定义", "设计工具颜色选择器", "艺术应用"],
   "name": "调色板",
-  "tags": [
-    "调色板",
-    "颜色",
-    "主题",
-    "设计",
-    "色彩方案",
-    "绘画",
-    "艺术"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "photography"
-  ],
+  "tags": ["调色板", "颜色", "主题", "设计", "色彩方案", "绘画", "艺术"],
+  "categories": ["text", "design", "photography"],
   "i18n": {
     "en": {
       "name": "palette",
-      "tags": [
-        "palette",
-        "colors",
-        "theme",
-        "design",
-        "color scheme",
-        "painting",
-        "art"
-      ],
-      "use-cases": [
-        "Color palette selection",
-        "Theme customization",
-        "Design tool color picker",
-        "Art application"
-      ]
+      "tags": ["palette", "colors", "theme", "design", "color scheme", "painting", "art"],
+      "use-cases": ["Color palette selection", "Theme customization", "Design tool color picker", "Art application"]
     }
   }
 }

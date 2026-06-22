@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安全设置面板",
-    "防护配置菜单",
-    "管理控制界面"
-  ],
+  "use-cases": ["安全设置面板", "防护配置菜单", "管理控制界面"],
   "name": "盾牌齿轮角落",
-  "tags": [
-    "安全设置",
-    "防护配置",
-    "齿轮盾牌",
-    "防御调整",
-    "管理控制"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming",
-    "shapes"
-  ],
+  "tags": ["安全设置", "防护配置", "齿轮盾牌", "防御调整", "管理控制"],
+  "categories": ["account", "security", "development", "gaming", "shapes"],
   "i18n": {
     "en": {
       "name": "shield cog corner",
-      "tags": [
-        "security settings",
-        "protection configuration",
-        "cog shield",
-        "defense adjustment",
-        "management control"
-      ],
-      "use-cases": [
-        "Security settings panel",
-        "Protection configuration menu",
-        "Admin control interface"
-      ]
+      "tags": ["security settings", "protection configuration", "cog shield", "defense adjustment", "management control"],
+      "use-cases": ["Security settings panel", "Protection configuration menu", "Admin control interface"]
     }
   }
 }

@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除用户",
-    "拉黑用户",
-    "取消账号",
-    "移除联系人"
-  ],
+  "use-cases": ["删除用户", "拉黑用户", "取消账号", "移除联系人"],
   "name": "用户关闭",
-  "tags": [
-    "用户",
-    "账号",
-    "删除",
-    "移除",
-    "禁用",
-    "取消",
-    "拒绝"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户", "账号", "删除", "移除", "禁用", "取消", "拒绝"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "user X",
-      "tags": [
-        "user",
-        "account",
-        "delete",
-        "remove",
-        "disable",
-        "cancel",
-        "reject"
-      ],
-      "use-cases": [
-        "Delete user",
-        "Block user",
-        "Cancel account",
-        "Remove contact"
-      ]
+      "tags": ["user", "account", "delete", "remove", "disable", "cancel", "reject"],
+      "use-cases": ["Delete user", "Block user", "Cancel account", "Remove contact"]
     }
   }
 }

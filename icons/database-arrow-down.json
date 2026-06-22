@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据库导出备份操作",
-    "数据同步过程",
-    "远程到本地数据传输"
-  ],
+  "use-cases": ["数据库导出备份操作", "数据同步过程", "远程到本地数据传输"],
   "name": "数据库箭头下",
-  "tags": [
-    "数据库",
-    "下载",
-    "导出",
-    "备份",
-    "同步",
-    "数据迁移"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["数据库", "下载", "导出", "备份", "同步", "数据迁移"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "database arrow down",
-      "tags": [
-        "database",
-        "download",
-        "export",
-        "backup",
-        "sync",
-        "data migration"
-      ],
-      "use-cases": [
-        "Database export and backup operations",
-        "Data synchronization processes",
-        "Remote to local data transfer"
-      ]
+      "tags": ["database", "download", "export", "backup", "sync", "data migration"],
+      "use-cases": ["Database export and backup operations", "Data synchronization processes", "Remote to local data transfer"]
     }
   }
 }

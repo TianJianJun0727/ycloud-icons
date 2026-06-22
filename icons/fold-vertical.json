@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直面板收起",
-    "侧边栏切换",
-    "布局调整"
-  ],
+  "use-cases": ["垂直面板收起", "侧边栏切换", "布局调整"],
   "name": "折叠垂直",
-  "tags": [
-    "垂直折叠",
-    "收起",
-    "展开",
-    "布局",
-    "箭头"
-  ],
-  "categories": [
-    "arrows",
-    "layout"
-  ],
+  "tags": ["垂直折叠", "收起", "展开", "布局", "箭头"],
+  "categories": ["arrows", "layout"],
   "i18n": {
     "en": {
       "name": "fold vertical",
-      "tags": [
-        "fold vertical",
-        "collapse",
-        "expand",
-        "layout",
-        "arrow"
-      ],
-      "use-cases": [
-        "Vertical panel collapse",
-        "Sidebar toggle",
-        "Layout adjustment"
-      ]
+      "tags": ["fold vertical", "collapse", "expand", "layout", "arrow"],
+      "use-cases": ["Vertical panel collapse", "Sidebar toggle", "Layout adjustment"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "部分可见或隐私模式",
-    "勿扰状态指示器",
-    "非活跃用户状态",
-    "视觉无障碍设置"
-  ],
+  "use-cases": ["部分可见或隐私模式", "勿扰状态指示器", "非活跃用户状态", "视觉无障碍设置"],
   "name": "眼睛虚线",
-  "tags": [
-    "眼睛虚线",
-    "部分可见",
-    "隐私",
-    "勿扰",
-    "隐藏",
-    "状态"
-  ],
-  "categories": [
-    "accessibility",
-    "photography",
-    "design",
-    "security"
-  ],
+  "tags": ["眼睛虚线", "部分可见", "隐私", "勿扰", "隐藏", "状态"],
+  "categories": ["accessibility", "photography", "design", "security"],
   "i18n": {
     "en": {
       "name": "eye dashed",
-      "tags": [
-        "eye dashed",
-        "partially visible",
-        "privacy",
-        "do not disturb",
-        "hidden",
-        "status"
-      ],
-      "use-cases": [
-        "Partial visibility or privacy modes",
-        "Do-not-disturb status indicators",
-        "Inactive user states",
-        "Accessibility settings for vision"
-      ]
+      "tags": ["eye dashed", "partially visible", "privacy", "do not disturb", "hidden", "status"],
+      "use-cases": ["Partial visibility or privacy modes", "Do-not-disturb status indicators", "Inactive user states", "Accessibility settings for vision"]
     }
   }
 }

@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "页面加载指示器",
-    "数据处理等待",
-    "操作进行中状态"
-  ],
+  "use-cases": ["页面加载指示器", "数据处理等待", "操作进行中状态"],
   "name": "加载器圆形",
-  "tags": [
-    "加载",
-    "等待",
-    "进度",
-    "旋转",
-    "圆形",
-    "缓冲",
-    "处理中"
-  ],
-  "categories": [
-    "cursors",
-    "multimedia",
-    "layout"
-  ],
+  "tags": ["加载", "等待", "进度", "旋转", "圆形", "缓冲", "处理中"],
+  "categories": ["cursors", "multimedia", "layout"],
   "aliases": [
     {
       "name": "loader-2",
@@ -31,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "loader circle",
-      "tags": [
-        "loading",
-        "wait",
-        "progress",
-        "spinning",
-        "circle",
-        "buffering",
-        "processing"
-      ],
-      "use-cases": [
-        "page loading indicator",
-        "data processing wait",
-        "operation in progress status"
-      ]
+      "tags": ["loading", "wait", "progress", "spinning", "circle", "buffering", "processing"],
+      "use-cases": ["page loading indicator", "data processing wait", "operation in progress status"]
     }
   }
 }

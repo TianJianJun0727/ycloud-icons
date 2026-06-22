@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下一步按钮",
-    "方向指示右转",
-    "游戏角色右转"
-  ],
+  "use-cases": ["下一步按钮", "方向指示右转", "游戏角色右转"],
   "name": "箭头大右",
-  "tags": [
-    "向右",
-    "前进",
-    "方向",
-    "东",
-    "转弯",
-    "指示",
-    "下一步"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向右", "前进", "方向", "东", "转弯", "指示", "下一步"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "arrow big right",
-      "tags": [
-        "right",
-        "forward",
-        "direction",
-        "east",
-        "turn",
-        "indicate",
-        "next"
-      ],
-      "use-cases": [
-        "Next step button",
-        "Direction indicator right",
-        "Game character turn right"
-      ]
+      "tags": ["right", "forward", "direction", "east", "turn", "indicate", "next"],
+      "use-cases": ["Next step button", "Direction indicator right", "Game character turn right"]
     }
   }
 }

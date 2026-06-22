@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "临时状态",
-    "进行中工作",
-    "开发阶段"
-  ],
+  "use-cases": ["临时状态", "进行中工作", "开发阶段"],
   "name": "圆形点虚线",
-  "tags": [
-    "进行中",
-    "临时",
-    "进度",
-    "开发",
-    "草稿"
-  ],
-  "categories": [
-    "development",
-    "shapes"
-  ],
+  "tags": ["进行中", "临时", "进度", "开发", "草稿"],
+  "categories": ["development", "shapes"],
   "i18n": {
     "en": {
       "name": "circle dot dashed",
-      "tags": [
-        "in progress",
-        "temporary",
-        "progress",
-        "development",
-        "draft"
-      ],
-      "use-cases": [
-        "Temporary status",
-        "Work in progress",
-        "Development phase"
-      ]
+      "tags": ["in progress", "temporary", "progress", "development", "draft"],
+      "use-cases": ["Temporary status", "Work in progress", "Development phase"]
     }
   }
 }

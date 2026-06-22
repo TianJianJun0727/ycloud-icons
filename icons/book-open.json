@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开文档",
-    "阅读指南或手册",
-    "访问知识库"
-  ],
+  "use-cases": ["打开文档", "阅读指南或手册", "访问知识库"],
   "name": "书籍打开",
-  "tags": [
-    "阅读",
-    "打开",
-    "文档",
-    "参考",
-    "学习",
-    "知识",
-    "信息",
-    "图书馆"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["阅读", "打开", "文档", "参考", "学习", "知识", "信息", "图书馆"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book open",
-      "tags": [
-        "reading",
-        "open",
-        "documentation",
-        "reference",
-        "study",
-        "knowledge",
-        "information",
-        "library"
-      ],
-      "use-cases": [
-        "Open documentation",
-        "Read a guide or manual",
-        "Access knowledge base"
-      ]
+      "tags": ["reading", "open", "documentation", "reference", "study", "knowledge", "information", "library"],
+      "use-cases": ["Open documentation", "Read a guide or manual", "Access knowledge base"]
     }
   }
 }

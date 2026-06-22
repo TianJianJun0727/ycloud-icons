@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直图片轮播末端",
-    "相册浏览",
-    "版本控制界面"
-  ],
+  "use-cases": ["垂直图片轮播末端", "相册浏览", "版本控制界面"],
   "name": "图库垂直末端",
-  "tags": [
-    "轮播图",
-    "图片",
-    "相册",
-    "滚动",
-    "滑动",
-    "历史",
-    "版本"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development",
-    "photography",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["轮播图", "图片", "相册", "滚动", "滑动", "历史", "版本"],
+  "categories": ["layout", "design", "development", "photography", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "gallery vertical end",
-      "tags": [
-        "carousel",
-        "images",
-        "album",
-        "scroll",
-        "swipe",
-        "history",
-        "versions"
-      ],
-      "use-cases": [
-        "Vertical image carousel end",
-        "Album browsing",
-        "Version control interface"
-      ]
+      "tags": ["carousel", "images", "album", "scroll", "swipe", "history", "versions"],
+      "use-cases": ["Vertical image carousel end", "Album browsing", "Version control interface"]
     }
   }
 }

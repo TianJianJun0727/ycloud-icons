@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新时间或日程",
-    "创建新闹钟或计时器",
-    "延长持续时间"
-  ],
+  "use-cases": ["添加新时间或日程", "创建新闹钟或计时器", "延长持续时间"],
   "name": "时钟加号",
-  "tags": [
-    "时间",
-    "添加",
-    "创建日程",
-    "增加时间",
-    "新闹钟",
-    "延长时间"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "添加", "创建日程", "增加时间", "新闹钟", "延长时间"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock plus",
-      "tags": [
-        "time",
-        "add",
-        "create schedule",
-        "add time",
-        "new alarm",
-        "extend time"
-      ],
-      "use-cases": [
-        "Add a new time or schedule",
-        "Create a new alarm or timer",
-        "Extend a time duration"
-      ]
+      "tags": ["time", "add", "create schedule", "add time", "new alarm", "extend time"],
+      "use-cases": ["Add a new time or schedule", "Create a new alarm or timer", "Extend a time duration"]
     }
   }
 }

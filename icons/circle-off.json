@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "切换开关关闭状态",
-    "无效或缺失数据指示器",
-    "取消或停止操作按钮"
-  ],
+  "use-cases": ["切换开关关闭状态", "无效或缺失数据指示器", "取消或停止操作按钮"],
   "name": "圆形关闭",
-  "tags": [
-    "禁用",
-    "关闭",
-    "无效",
-    "取消",
-    "禁止",
-    "错误",
-    "停止",
-    "空值",
-    "零"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["禁用", "关闭", "无效", "取消", "禁止", "错误", "停止", "空值", "零"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "circle off",
-      "tags": [
-        "disabled",
-        "off",
-        "invalid",
-        "cancel",
-        "forbidden",
-        "error",
-        "stop",
-        "null",
-        "zero"
-      ],
-      "use-cases": [
-        "Toggle switch off state",
-        "Invalid or missing data indicator",
-        "Cancel or stop action button"
-      ]
+      "tags": ["disabled", "off", "invalid", "cancel", "forbidden", "error", "stop", "null", "zero"],
+      "use-cases": ["Toggle switch off state", "Invalid or missing data indicator", "Cancel or stop action button"]
     }
   }
 }

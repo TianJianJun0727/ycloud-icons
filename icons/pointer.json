@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "界面中的鼠标光标",
-    "可点击元素指示器"
-  ],
+  "use-cases": ["界面中的鼠标光标", "可点击元素指示器"],
   "name": "指针",
-  "tags": [
-    "鼠标",
-    "光标",
-    "点击",
-    "选择"
-  ],
-  "categories": [
-    "cursors"
-  ],
+  "tags": ["鼠标", "光标", "点击", "选择"],
+  "categories": ["cursors"],
   "i18n": {
     "en": {
       "name": "pointer",
-      "tags": [
-        "mouse",
-        "cursor",
-        "click",
-        "select"
-      ],
-      "use-cases": [
-        "Mouse cursor in UI",
-        "Clickable element indicator"
-      ]
+      "tags": ["mouse", "cursor", "click", "select"],
+      "use-cases": ["Mouse cursor in UI", "Clickable element indicator"]
     }
   }
 }

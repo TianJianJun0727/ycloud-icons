@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直面板展开",
-    "下拉菜单",
-    "内容区域扩展"
-  ],
+  "use-cases": ["垂直面板展开", "下拉菜单", "内容区域扩展"],
   "name": "展开垂直",
-  "tags": [
-    "垂直展开",
-    "折叠",
-    "布局",
-    "箭头",
-    "扩展"
-  ],
-  "categories": [
-    "arrows",
-    "layout"
-  ],
+  "tags": ["垂直展开", "折叠", "布局", "箭头", "扩展"],
+  "categories": ["arrows", "layout"],
   "i18n": {
     "en": {
       "name": "unfold vertical",
-      "tags": [
-        "vertical unfold",
-        "collapse",
-        "layout",
-        "arrow",
-        "expand"
-      ],
-      "use-cases": [
-        "Vertical panel expansion",
-        "Dropdown menu",
-        "Content area expansion"
-      ]
+      "tags": ["vertical unfold", "collapse", "layout", "arrow", "expand"],
+      "use-cases": ["Vertical panel expansion", "Dropdown menu", "Content area expansion"]
     }
   }
 }

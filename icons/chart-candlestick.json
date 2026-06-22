@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "股票交易界面",
-    "金融数据分析",
-    "投资组合监控"
-  ],
+  "use-cases": ["股票交易界面", "金融数据分析", "投资组合监控"],
   "name": "图表蜡烛图",
-  "tags": [
-    "金融",
-    "交易",
-    "股票",
-    "K线图",
-    "价格走势",
-    "投资分析"
-  ],
-  "categories": [
-    "charts",
-    "finance"
-  ],
+  "tags": ["金融", "交易", "股票", "K线图", "价格走势", "投资分析"],
+  "categories": ["charts", "finance"],
   "aliases": [
     {
       "name": "candlestick-chart",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart candlestick",
-      "tags": [
-        "finance",
-        "trading",
-        "stocks",
-        "candlestick chart",
-        "price movement",
-        "investment analysis"
-      ],
-      "use-cases": [
-        "Stock trading interface",
-        "Financial data analysis",
-        "Portfolio monitoring"
-      ]
+      "tags": ["finance", "trading", "stocks", "candlestick chart", "price movement", "investment analysis"],
+      "use-cases": ["Stock trading interface", "Financial data analysis", "Portfolio monitoring"]
     }
   }
 }

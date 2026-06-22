@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "播放列表开始播放",
-    "队列中的第一个项目",
-    "返回到列表顶部"
-  ],
+  "use-cases": ["播放列表开始播放", "队列中的第一个项目", "返回到列表顶部"],
   "name": "列表起始",
-  "tags": [
-    "开始",
-    "起始",
-    "列表",
-    "队列",
-    "播放列表",
-    "顶部",
-    "第一个"
-  ],
-  "categories": [
-    "multimedia",
-    "text"
-  ],
+  "tags": ["开始", "起始", "列表", "队列", "播放列表", "顶部", "第一个"],
+  "categories": ["multimedia", "text"],
   "i18n": {
     "en": {
       "name": "list start",
-      "tags": [
-        "start",
-        "beginning",
-        "list",
-        "queue",
-        "playlist",
-        "top",
-        "first"
-      ],
-      "use-cases": [
-        "starting playback in a playlist",
-        "first item in a queue",
-        "returning to top of list"
-      ]
+      "tags": ["start", "beginning", "list", "queue", "playlist", "top", "first"],
+      "use-cases": ["starting playback in a playlist", "first item in a queue", "returning to top of list"]
     }
   }
 }

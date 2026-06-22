@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户账户安全设置",
-    "密码重置流程",
-    "物理或数字访问控制"
-  ],
+  "use-cases": ["用户账户安全设置", "密码重置流程", "物理或数字访问控制"],
   "name": "钥匙",
-  "tags": [
-    "钥匙",
-    "密码",
-    "登录",
-    "认证",
-    "安全",
-    "解锁",
-    "密钥",
-    "访问"
-  ],
-  "categories": [
-    "security",
-    "account"
-  ],
+  "tags": ["钥匙", "密码", "登录", "认证", "安全", "解锁", "密钥", "访问"],
+  "categories": ["security", "account"],
   "i18n": {
     "en": {
       "name": "key",
-      "tags": [
-        "key",
-        "password",
-        "login",
-        "authentication",
-        "security",
-        "unlock",
-        "access"
-      ],
-      "use-cases": [
-        "User account security settings",
-        "Password reset flow",
-        "Physical or digital access control"
-      ]
+      "tags": ["key", "password", "login", "authentication", "security", "unlock", "access"],
+      "use-cases": ["User account security settings", "Password reset flow", "Physical or digital access control"]
     }
   }
 }

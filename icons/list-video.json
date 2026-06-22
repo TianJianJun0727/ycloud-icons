@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频播放列表界面",
-    "媒体库管理",
-    "视频集合展示"
-  ],
+  "use-cases": ["视频播放列表界面", "媒体库管理", "视频集合展示"],
   "name": "列表视频",
-  "tags": [
-    "视频列表",
-    "播放列表",
-    "视频库",
-    "媒体库",
-    "回放"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["视频列表", "播放列表", "视频库", "媒体库", "回放"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "list video",
-      "tags": [
-        "video list",
-        "playlist",
-        "video library",
-        "media library",
-        "playback"
-      ],
-      "use-cases": [
-        "video playlist interface",
-        "media library management",
-        "video collection display"
-      ]
+      "tags": ["video list", "playlist", "video library", "media library", "playback"],
+      "use-cases": ["video playlist interface", "media library management", "video collection display"]
     }
   }
 }

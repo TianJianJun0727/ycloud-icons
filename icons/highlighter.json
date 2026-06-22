@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本高亮工具",
-    "文档注释",
-    "设计标记",
-    "笔记记录"
-  ],
+  "use-cases": ["文本高亮工具", "文档注释", "设计标记", "笔记记录"],
   "name": "荧光笔",
-  "tags": [
-    "荧光笔",
-    "标记",
-    "高亮",
-    "文本",
-    "注释",
-    "设计"
-  ],
-  "categories": [
-    "text",
-    "design"
-  ],
+  "tags": ["荧光笔", "标记", "高亮", "文本", "注释", "设计"],
+  "categories": ["text", "design"],
   "i18n": {
     "en": {
       "name": "highlighter",
-      "tags": [
-        "highlighter",
-        "mark",
-        "highlight",
-        "text",
-        "annotation",
-        "design"
-      ],
-      "use-cases": [
-        "Text highlighting tool",
-        "Document annotation",
-        "Design markup",
-        "Note-taking"
-      ]
+      "tags": ["highlighter", "mark", "highlight", "text", "annotation", "design"],
+      "use-cases": ["Text highlighting tool", "Document annotation", "Design markup", "Note-taking"]
     }
   }
 }

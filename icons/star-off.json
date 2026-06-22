@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭星标",
-    "移除评分",
-    "取消喜欢",
-    "清除收藏",
-    "取消选择星标"
-  ],
+  "use-cases": ["关闭星标", "移除评分", "取消喜欢", "清除收藏", "取消选择星标"],
   "name": "星标关闭",
-  "tags": [
-    "星标",
-    "关闭",
-    "取消",
-    "不喜欢",
-    "移除星标",
-    "未收藏"
-  ],
-  "categories": [
-    "multimedia",
-    "social"
-  ],
+  "tags": ["星标", "关闭", "取消", "不喜欢", "移除星标", "未收藏"],
+  "categories": ["multimedia", "social"],
   "i18n": {
     "en": {
       "name": "star off",
-      "tags": [
-        "star",
-        "off",
-        "cancel",
-        "dislike",
-        "remove star",
-        "unfavorite"
-      ],
-      "use-cases": [
-        "Turn off star",
-        "Remove rating",
-        "Unlike content",
-        "Clear favorite",
-        "Deselect star"
-      ]
+      "tags": ["star", "off", "cancel", "dislike", "remove star", "unfavorite"],
+      "use-cases": ["Turn off star", "Remove rating", "Unlike content", "Clear favorite", "Deselect star"]
     }
   }
 }

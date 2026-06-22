@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图形设计取色",
-    "科学测量工具",
-    "UI设计颜色采样"
-  ],
+  "use-cases": ["图形设计取色", "科学测量工具", "UI设计颜色采样"],
   "name": "吸管",
-  "tags": [
-    "吸管",
-    "颜色选择器",
-    "取色",
-    "设计工具",
-    "实验室"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "science"
-  ],
+  "tags": ["吸管", "颜色选择器", "取色", "设计工具", "实验室"],
+  "categories": ["text", "design", "science"],
   "i18n": {
     "en": {
       "name": "pipette",
-      "tags": [
-        "pipette",
-        "color picker",
-        "color selection",
-        "design tool",
-        "laboratory"
-      ],
-      "use-cases": [
-        "Graphic design color picking",
-        "Scientific measurement tool",
-        "UI design color sampling"
-      ]
+      "tags": ["pipette", "color picker", "color selection", "design tool", "laboratory"],
+      "use-cases": ["Graphic design color picking", "Scientific measurement tool", "UI design color sampling"]
     }
   }
 }

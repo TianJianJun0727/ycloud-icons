@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "旅行预订界面",
-    "机场行李提取",
-    "酒店入住流程"
-  ],
+  "use-cases": ["旅行预订界面", "机场行李提取", "酒店入住流程"],
   "name": "行李",
-  "tags": [
-    "行李",
-    "行李箱",
-    "旅行箱",
-    "手提箱",
-    "出差",
-    "托运"
-  ],
-  "categories": [
-    "travel",
-    "transportation"
-  ],
+  "tags": ["行李", "行李箱", "旅行箱", "手提箱", "出差", "托运"],
+  "categories": ["travel", "transportation"],
   "i18n": {
     "en": {
       "name": "luggage",
-      "tags": [
-        "luggage",
-        "suitcase",
-        "baggage",
-        "travel",
-        "trip",
-        "check-in"
-      ],
-      "use-cases": [
-        "Travel booking interface",
-        "Airport luggage claim",
-        "Hotel check-in process"
-      ]
+      "tags": ["luggage", "suitcase", "baggage", "travel", "trip", "check-in"],
+      "use-cases": ["Travel booking interface", "Airport luggage claim", "Hotel check-in process"]
     }
   }
 }

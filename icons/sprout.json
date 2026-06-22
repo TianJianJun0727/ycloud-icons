@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "植物生长跟踪",
-    "环保产品标签",
-    "园艺应用图标",
-    "可持续性仪表板",
-    "春季主题设计"
-  ],
+  "use-cases": ["植物生长跟踪", "环保产品标签", "园艺应用图标", "可持续性仪表板", "春季主题设计"],
   "name": "幼苗",
-  "tags": [
-    "幼苗",
-    "生长",
-    "植物",
-    "自然",
-    "生态",
-    "春天",
-    "可持续",
-    "发芽",
-    "绿色"
-  ],
-  "categories": [
-    "nature",
-    "gaming",
-    "sustainability"
-  ],
+  "tags": ["幼苗", "生长", "植物", "自然", "生态", "春天", "可持续", "发芽", "绿色"],
+  "categories": ["nature", "gaming", "sustainability"],
   "i18n": {
     "en": {
       "name": "sprout",
-      "tags": [
-        "sprout",
-        "growth",
-        "plant",
-        "nature",
-        "eco",
-        "spring",
-        "sustainability",
-        "germination",
-        "green"
-      ],
-      "use-cases": [
-        "Plant growth tracking",
-        "Eco-friendly product labeling",
-        "Gardening app icon",
-        "Sustainability dashboard",
-        "Spring season design"
-      ]
+      "tags": ["sprout", "growth", "plant", "nature", "eco", "spring", "sustainability", "germination", "green"],
+      "use-cases": ["Plant growth tracking", "Eco-friendly product labeling", "Gardening app icon", "Sustainability dashboard", "Spring season design"]
     }
   }
 }

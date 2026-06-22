@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "未读消息指示器",
-    "聊天通知徽章",
-    "高亮显示新反馈"
-  ],
+  "use-cases": ["未读消息指示器", "聊天通知徽章", "高亮显示新反馈"],
   "name": "消息方形点",
-  "tags": [
-    "未读",
-    "消息",
-    "通知",
-    "聊天",
-    "评论",
-    "对话",
-    "新消息",
-    "提示"
-  ],
-  "categories": [
-    "social",
-    "notifications"
-  ],
+  "tags": ["未读", "消息", "通知", "聊天", "评论", "对话", "新消息", "提示"],
+  "categories": ["social", "notifications"],
   "i18n": {
     "en": {
       "name": "message square dot",
-      "tags": [
-        "unread",
-        "message",
-        "notification",
-        "chat",
-        "comment",
-        "conversation",
-        "new",
-        "alert"
-      ],
-      "use-cases": [
-        "Unread message indicator",
-        "Notification badge on a chat",
-        "Highlighting new feedback"
-      ]
+      "tags": ["unread", "message", "notification", "chat", "comment", "conversation", "new", "alert"],
+      "use-cases": ["Unread message indicator", "Notification badge on a chat", "Highlighting new feedback"]
     }
   }
 }

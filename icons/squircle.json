@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "现代UI元素",
-    "iOS风格图标框架"
-  ],
+  "use-cases": ["现代UI元素", "iOS风格图标框架"],
   "name": "圆角方形",
-  "tags": [
-    "圆角方形",
-    "形状",
-    "iOS风格",
-    "现代设计"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["圆角方形", "形状", "iOS风格", "现代设计"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "squircle",
-      "tags": [
-        "squircle",
-        "shape",
-        "iOS style",
-        "modern design"
-      ],
-      "use-cases": [
-        "Modern UI element",
-        "iOS-style icon frame"
-      ]
+      "tags": ["squircle", "shape", "iOS style", "modern design"],
+      "use-cases": ["Modern UI element", "iOS-style icon frame"]
     }
   }
 }

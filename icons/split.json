@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码编辑器分屏视图",
-    "UI中划分内容或面板",
-    "分支逻辑或工作流",
-    "文件或数据分离功能"
-  ],
+  "use-cases": ["代码编辑器分屏视图", "UI中划分内容或面板", "分支逻辑或工作流", "文件或数据分离功能"],
   "name": "拆分",
-  "tags": [
-    "拆分",
-    "分割",
-    "划分",
-    "分离",
-    "分支",
-    "代码拆分",
-    "分屏"
-  ],
-  "categories": [
-    "development",
-    "arrows"
-  ],
+  "tags": ["拆分", "分割", "划分", "分离", "分支", "代码拆分", "分屏"],
+  "categories": ["development", "arrows"],
   "i18n": {
     "en": {
       "name": "split",
-      "tags": [
-        "split",
-        "divide",
-        "partition",
-        "separate",
-        "branch",
-        "code splitting",
-        "split screen"
-      ],
-      "use-cases": [
-        "Code editor split view",
-        "Dividing content or panels in UI",
-        "Branching logic or workflow",
-        "File or data separation feature"
-      ]
+      "tags": ["split", "divide", "partition", "separate", "branch", "code splitting", "split screen"],
+      "use-cases": ["Code editor split view", "Dividing content or panels in UI", "Branching logic or workflow", "File or data separation feature"]
     }
   }
 }

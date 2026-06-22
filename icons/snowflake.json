@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用状况",
-    "空调制冷模式",
-    "冬季选择器",
-    "冰冻温度警告"
-  ],
+  "use-cases": ["天气应用状况", "空调制冷模式", "冬季选择器", "冰冻温度警告"],
   "name": "雪花",
-  "tags": [
-    "雪花",
-    "冬天",
-    "寒冷",
-    "冰雪",
-    "降温",
-    "季节",
-    "冷冻"
-  ],
-  "categories": [
-    "weather",
-    "seasons"
-  ],
+  "tags": ["雪花", "冬天", "寒冷", "冰雪", "降温", "季节", "冷冻"],
+  "categories": ["weather", "seasons"],
   "i18n": {
     "en": {
       "name": "snowflake",
-      "tags": [
-        "snowflake",
-        "winter",
-        "cold",
-        "ice",
-        "freezing",
-        "season",
-        "frost"
-      ],
-      "use-cases": [
-        "Weather app condition",
-        "Air conditioner cold mode",
-        "Winter season selector",
-        "Freezing temperature warning"
-      ]
+      "tags": ["snowflake", "winter", "cold", "ice", "freezing", "season", "frost"],
+      "use-cases": ["Weather app condition", "Air conditioner cold mode", "Winter season selector", "Freezing temperature warning"]
     }
   }
 }

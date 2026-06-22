@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "联系人管理界面",
-    "用户个人资料通讯录",
-    "社交网络联系人"
-  ],
+  "use-cases": ["联系人管理界面", "用户个人资料通讯录", "社交网络联系人"],
   "name": "书籍用户",
-  "tags": [
-    "联系人",
-    "地址簿",
-    "用户",
-    "个人资料",
-    "社交",
-    "网络",
-    "通讯录"
-  ],
-  "categories": [
-    "account",
-    "connectivity",
-    "communication",
-    "social"
-  ],
+  "tags": ["联系人", "地址簿", "用户", "个人资料", "社交", "网络", "通讯录"],
+  "categories": ["account", "connectivity", "communication", "social"],
   "i18n": {
     "en": {
       "name": "book user",
-      "tags": [
-        "contacts",
-        "address book",
-        "user",
-        "profile",
-        "social",
-        "network",
-        "directory"
-      ],
-      "use-cases": [
-        "Contact management interface",
-        "User profile address book",
-        "Social networking contacts"
-      ]
+      "tags": ["contacts", "address book", "user", "profile", "social", "network", "directory"],
+      "use-cases": ["Contact management interface", "User profile address book", "Social networking contacts"]
     }
   }
 }

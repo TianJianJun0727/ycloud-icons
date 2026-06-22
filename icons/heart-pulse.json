@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "心率监测器",
-    "健身追踪器",
-    "医疗仪表盘",
-    "生命体征显示"
-  ],
+  "use-cases": ["心率监测器", "健身追踪器", "医疗仪表盘", "生命体征显示"],
   "name": "心率",
-  "tags": [
-    "心率",
-    "心跳",
-    "脉搏",
-    "健康监测",
-    "医疗",
-    "生命体征"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["心率", "心跳", "脉搏", "健康监测", "医疗", "生命体征"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "heart pulse",
-      "tags": [
-        "heart rate",
-        "heartbeat",
-        "pulse",
-        "health monitoring",
-        "medical",
-        "vital signs"
-      ],
-      "use-cases": [
-        "Heart rate monitor",
-        "Fitness tracker",
-        "Medical dashboard",
-        "Vital signs display"
-      ]
+      "tags": ["heart rate", "heartbeat", "pulse", "health monitoring", "medical", "vital signs"],
+      "use-cases": ["Heart rate monitor", "Fitness tracker", "Medical dashboard", "Vital signs display"]
     }
   }
 }

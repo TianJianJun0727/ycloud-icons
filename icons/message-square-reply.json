@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "回复消息",
-    "评论回复按钮",
-    "回应反馈"
-  ],
+  "use-cases": ["回复消息", "评论回复按钮", "回应反馈"],
   "name": "消息方形回复",
-  "tags": [
-    "回复",
-    "消息",
-    "应答",
-    "聊天",
-    "评论",
-    "反馈",
-    "回应",
-    "答复"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["回复", "消息", "应答", "聊天", "评论", "反馈", "回应", "答复"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square reply",
-      "tags": [
-        "reply",
-        "message",
-        "respond",
-        "chat",
-        "comment",
-        "feedback",
-        "answer",
-        "return"
-      ],
-      "use-cases": [
-        "Replying to a message",
-        "Comment reply button",
-        "Responding to feedback"
-      ]
+      "tags": ["reply", "message", "respond", "chat", "comment", "feedback", "answer", "return"],
+      "use-cases": ["Replying to a message", "Comment reply button", "Responding to feedback"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向上导航",
-    "方向指示器",
-    "向上滚动按钮"
-  ],
+  "use-cases": ["向上导航", "方向指示器", "向上滚动按钮"],
   "name": "箭头上",
-  "tags": [
-    "方向",
-    "向上",
-    "北",
-    "前进",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "向上", "北", "前进", "导航"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow up",
-      "tags": [
-        "direction",
-        "up",
-        "north",
-        "forward",
-        "navigation"
-      ],
-      "use-cases": [
-        "Upward navigation",
-        "Direction indicator",
-        "Scroll up button"
-      ]
+      "tags": ["direction", "up", "north", "forward", "navigation"],
+      "use-cases": ["Upward navigation", "Direction indicator", "Scroll up button"]
     }
   }
 }

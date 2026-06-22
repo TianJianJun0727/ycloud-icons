@@ -1,33 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器中的删除或退格功能",
-    "清除表单输入或内容"
-  ],
+  "use-cases": ["文本编辑器中的删除或退格功能", "清除表单输入或内容"],
   "name": "删除",
-  "tags": [
-    "删除",
-    "退格",
-    "移除",
-    "清除"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["删除", "退格", "移除", "清除"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "delete",
-      "tags": [
-        "delete",
-        "backspace",
-        "remove",
-        "clear"
-      ],
-      "use-cases": [
-        "delete or backspace function in text editors",
-        "clearing form input or content"
-      ]
+      "tags": ["delete", "backspace", "remove", "clear"],
+      "use-cases": ["delete or backspace function in text editors", "clearing form input or content"]
     }
   }
 }

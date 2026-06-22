@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用闹钟",
-    "静音通知",
-    "关闭计时器"
-  ],
+  "use-cases": ["禁用闹钟", "静音通知", "关闭计时器"],
   "name": "闹钟时钟关闭",
-  "tags": [
-    "闹钟",
-    "关闭",
-    "静音",
-    "禁用",
-    "停止",
-    "时间",
-    "提醒"
-  ],
-  "categories": [
-    "devices",
-    "notifications",
-    "time"
-  ],
+  "tags": ["闹钟", "关闭", "静音", "禁用", "停止", "时间", "提醒"],
+  "categories": ["devices", "notifications", "time"],
   "i18n": {
     "en": {
       "name": "alarm clock off",
-      "tags": [
-        "alarm",
-        "off",
-        "mute",
-        "disable",
-        "stop",
-        "time",
-        "reminder"
-      ],
-      "use-cases": [
-        "Disable an alarm",
-        "Silence a notification",
-        "Turn off a timer"
-      ]
+      "tags": ["alarm", "off", "mute", "disable", "stop", "time", "reminder"],
+      "use-cases": ["Disable an alarm", "Silence a notification", "Turn off a timer"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "车辆选择界面",
-    "交通服务",
-    "驾驶模式指示器",
-    "停车或车库应用"
-  ],
+  "use-cases": ["车辆选择界面", "交通服务", "驾驶模式指示器", "停车或车库应用"],
   "name": "汽车正面",
-  "tags": [
-    "汽车",
-    "车辆",
-    "正面",
-    "驾驶",
-    "交通",
-    "出行"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["汽车", "车辆", "正面", "驾驶", "交通", "出行"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "car front",
-      "tags": [
-        "car",
-        "vehicle",
-        "front",
-        "drive",
-        "transportation",
-        "travel"
-      ],
-      "use-cases": [
-        "Vehicle selection UI",
-        "Transportation service",
-        "Driving mode indicator",
-        "Parking or garage app"
-      ]
+      "tags": ["car", "vehicle", "front", "drive", "transportation", "travel"],
+      "use-cases": ["Vehicle selection UI", "Transportation service", "Driving mode indicator", "Parking or garage app"]
     }
   }
 }

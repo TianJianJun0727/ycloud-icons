@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除书签项目",
-    "从阅读列表移除",
-    "取消文档操作"
-  ],
+  "use-cases": ["删除书签项目", "从阅读列表移除", "取消文档操作"],
   "name": "书籍关闭",
-  "tags": [
-    "删除",
-    "移除",
-    "关闭",
-    "错误",
-    "禁止",
-    "取消",
-    "版本控制"
-  ],
-  "categories": [
-    "text",
-    "gaming"
-  ],
+  "tags": ["删除", "移除", "关闭", "错误", "禁止", "取消", "版本控制"],
+  "categories": ["text", "gaming"],
   "i18n": {
     "en": {
       "name": "book X",
-      "tags": [
-        "delete",
-        "remove",
-        "close",
-        "error",
-        "forbidden",
-        "cancel",
-        "version control"
-      ],
-      "use-cases": [
-        "Delete bookmarked item",
-        "Remove from reading list",
-        "Cancel document operation"
-      ]
+      "tags": ["delete", "remove", "close", "error", "forbidden", "cancel", "version control"],
+      "use-cases": ["Delete bookmarked item", "Remove from reading list", "Cancel document operation"]
     }
   }
 }

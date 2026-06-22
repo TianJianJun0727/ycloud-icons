@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数学符号",
-    "零值指示器",
-    "直径符号",
-    "除法运算"
-  ],
+  "use-cases": ["数学符号", "零值指示器", "直径符号", "除法运算"],
   "name": "圆形斜杠2",
-  "tags": [
-    "直径",
-    "零",
-    "空值",
-    "数学",
-    "除法",
-    "平均值"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "development"
-  ],
+  "tags": ["直径", "零", "空值", "数学", "除法", "平均值"],
+  "categories": ["shapes", "math", "development"],
   "aliases": [
     {
       "name": "circle-slashed",
@@ -31,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle slash 2",
-      "tags": [
-        "diameter",
-        "zero",
-        "null",
-        "math",
-        "division",
-        "average"
-      ],
-      "use-cases": [
-        "Mathematical notation",
-        "Zero value indicator",
-        "Diameter symbol",
-        "Division operation"
-      ]
+      "tags": ["diameter", "zero", "null", "math", "division", "average"],
+      "use-cases": ["Mathematical notation", "Zero value indicator", "Diameter symbol", "Division operation"]
     }
   }
 }

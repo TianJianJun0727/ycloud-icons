@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "单选按钮选择",
-    "进度指示器",
-    "状态标记"
-  ],
+  "use-cases": ["单选按钮选择", "进度指示器", "状态标记"],
   "name": "圆形点",
-  "tags": [
-    "选中",
-    "进度",
-    "状态",
-    "开发",
-    "单选"
-  ],
-  "categories": [
-    "development",
-    "shapes"
-  ],
+  "tags": ["选中", "进度", "状态", "开发", "单选"],
+  "categories": ["development", "shapes"],
   "i18n": {
     "en": {
       "name": "circle dot",
-      "tags": [
-        "selected",
-        "progress",
-        "status",
-        "development",
-        "radio"
-      ],
-      "use-cases": [
-        "Radio button selection",
-        "Progress indicator",
-        "Status marker"
-      ]
+      "tags": ["selected", "progress", "status", "development", "radio"],
+      "use-cases": ["Radio button selection", "Progress indicator", "Status marker"]
     }
   }
 }

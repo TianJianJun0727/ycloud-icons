@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用复制功能",
-    "指示复制错误或失败",
-    "取消复制过程"
-  ],
+  "use-cases": ["禁用复制功能", "指示复制错误或失败", "取消复制过程"],
   "name": "复制斜杠",
-  "tags": [
-    "复制禁止",
-    "复制取消",
-    "克隆错误",
-    "重复无效",
-    "停止复制",
-    "禁用复制"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "math"
-  ],
+  "tags": ["复制禁止", "复制取消", "克隆错误", "重复无效", "停止复制", "禁用复制"],
+  "categories": ["text", "development", "math"],
   "i18n": {
     "en": {
       "name": "copy slash",
-      "tags": [
-        "copy forbidden",
-        "copy cancel",
-        "clone error",
-        "duplicate invalid",
-        "stop copy",
-        "disable copy"
-      ],
-      "use-cases": [
-        "Disable copy functionality",
-        "Indicate copy error or failure",
-        "Cancel a duplication process"
-      ]
+      "tags": ["copy forbidden", "copy cancel", "clone error", "duplicate invalid", "stop copy", "disable copy"],
+      "use-cases": ["Disable copy functionality", "Indicate copy error or failure", "Cancel a duplication process"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "返回导航",
-    "上一个项目",
-    "展开侧边栏"
-  ],
+  "use-cases": ["返回导航", "上一个项目", "展开侧边栏"],
   "name": "箭头左从线条",
-  "tags": [
-    "返回",
-    "上一个",
-    "方向",
-    "西",
-    "展开",
-    "水平"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["返回", "上一个", "方向", "西", "展开", "水平"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow left from line",
-      "tags": [
-        "back",
-        "previous",
-        "direction",
-        "west",
-        "expand",
-        "horizontal"
-      ],
-      "use-cases": [
-        "Back navigation",
-        "Previous item",
-        "Expand sidebar"
-      ]
+      "tags": ["back", "previous", "direction", "west", "expand", "horizontal"],
+      "use-cases": ["Back navigation", "Previous item", "Expand sidebar"]
     }
   }
 }

@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "冰淇淋摊",
-    "夏季促销",
-    "餐车",
-    "零食菜单"
-  ],
+  "use-cases": ["冰淇淋摊", "夏季促销", "餐车", "零食菜单"],
   "name": "冰冰淇淋圆锥",
-  "tags": [
-    "冰淇淋",
-    "甜筒",
-    "冷饮",
-    "零食",
-    "甜品"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["冰淇淋", "甜筒", "冷饮", "零食", "甜品"],
+  "categories": ["food-beverage"],
   "aliases": [
     {
       "name": "ice-cream",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "ice cream cone",
-      "tags": [
-        "ice cream",
-        "cone",
-        "cold treat",
-        "snack",
-        "dessert"
-      ],
-      "use-cases": [
-        "Ice cream stand",
-        "Summer promotion",
-        "Food truck",
-        "Snack menu"
-      ]
+      "tags": ["ice cream", "cone", "cold treat", "snack", "dessert"],
+      "use-cases": ["Ice cream stand", "Summer promotion", "Food truck", "Snack menu"]
     }
   }
 }

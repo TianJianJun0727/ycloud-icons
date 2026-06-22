@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏手柄向下键",
-    "向下滚动导航",
-    "光标下移"
-  ],
+  "use-cases": ["游戏手柄向下键", "向下滚动导航", "光标下移"],
   "name": "箭头大下",
-  "tags": [
-    "向下",
-    "后退",
-    "方向",
-    "南",
-    "游戏控制",
-    "导航",
-    "下移"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向下", "后退", "方向", "南", "游戏控制", "导航", "下移"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "arrow big down",
-      "tags": [
-        "down",
-        "backwards",
-        "direction",
-        "south",
-        "gaming control",
-        "navigation",
-        "move down"
-      ],
-      "use-cases": [
-        "Gamepad down button",
-        "Scroll down navigation",
-        "Move cursor downwards"
-      ]
+      "tags": ["down", "backwards", "direction", "south", "gaming control", "navigation", "move down"],
+      "use-cases": ["Gamepad down button", "Scroll down navigation", "Move cursor downwards"]
     }
   }
 }

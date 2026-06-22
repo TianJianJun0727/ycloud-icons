@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图像搜索工具",
-    "视觉内容发现",
-    "模式匹配系统"
-  ],
+  "use-cases": ["图像搜索工具", "视觉内容发现", "模式匹配系统"],
   "name": "扫描搜索",
-  "tags": [
-    "视觉搜索",
-    "图像识别",
-    "内容查找",
-    "视觉检测",
-    "模式识别",
-    "智能搜索"
-  ],
-  "categories": [
-    "photography",
-    "multimedia",
-    "accessibility"
-  ],
+  "tags": ["视觉搜索", "图像识别", "内容查找", "视觉检测", "模式识别", "智能搜索"],
+  "categories": ["photography", "multimedia", "accessibility"],
   "i18n": {
     "en": {
       "name": "scan search",
-      "tags": [
-        "visual search",
-        "image recognition",
-        "content finding",
-        "visual detection",
-        "pattern recognition",
-        "smart search"
-      ],
-      "use-cases": [
-        "Image search tools",
-        "Visual content discovery",
-        "Pattern matching systems"
-      ]
+      "tags": ["visual search", "image recognition", "content finding", "visual detection", "pattern recognition", "smart search"],
+      "use-cases": ["Image search tools", "Visual content discovery", "Pattern matching systems"]
     }
   }
 }

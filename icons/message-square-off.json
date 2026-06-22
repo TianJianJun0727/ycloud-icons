@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "静音对话",
-    "禁用评论",
-    "关闭反馈线程"
-  ],
+  "use-cases": ["静音对话", "禁用评论", "关闭反馈线程"],
   "name": "消息方形关闭",
-  "tags": [
-    "关闭",
-    "静音",
-    "禁用",
-    "消息",
-    "隐藏",
-    "聊天",
-    "取消",
-    "清除"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["关闭", "静音", "禁用", "消息", "隐藏", "聊天", "取消", "清除"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square off",
-      "tags": [
-        "off",
-        "mute",
-        "disable",
-        "message",
-        "hide",
-        "chat",
-        "cancel",
-        "clear"
-      ],
-      "use-cases": [
-        "Muting a conversation",
-        "Disabling comments",
-        "Closing a feedback thread"
-      ]
+      "tags": ["off", "mute", "disable", "message", "hide", "chat", "cancel", "clear"],
+      "use-cases": ["Muting a conversation", "Disabling comments", "Closing a feedback thread"]
     }
   }
 }

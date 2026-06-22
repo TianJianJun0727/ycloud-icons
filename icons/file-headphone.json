@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频文件",
-    "音乐曲目",
-    "录音文件"
-  ],
+  "use-cases": ["音频文件", "音乐曲目", "录音文件"],
   "name": "文件耳机",
-  "tags": [
-    "音频",
-    "音乐",
-    "声音文件",
-    "媒体"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["音频", "音乐", "声音文件", "媒体"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-audio",
@@ -32,17 +21,8 @@
   "i18n": {
     "en": {
       "name": "file headphone",
-      "tags": [
-        "audio",
-        "music",
-        "sound file",
-        "media"
-      ],
-      "use-cases": [
-        "Audio file",
-        "Music track",
-        "Sound recording"
-      ]
+      "tags": ["audio", "music", "sound file", "media"],
+      "use-cases": ["Audio file", "Music track", "Sound recording"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "标记赞助内容",
-    "链接到广告合作页面"
-  ],
+  "use-cases": ["标记赞助内容", "链接到广告合作页面"],
   "name": "广告",
-  "tags": [
-    "广告",
-    "营销",
-    "赞助",
-    "商业",
-    "推广",
-    "付费内容",
-    "品牌合作"
-  ],
-  "categories": [
-    "multimedia",
-    "notifications"
-  ],
+  "tags": ["广告", "营销", "赞助", "商业", "推广", "付费内容", "品牌合作"],
+  "categories": ["multimedia", "notifications"],
   "i18n": {
     "en": {
       "name": "ad",
-      "tags": [
-        "ad",
-        "marketing",
-        "sponsor",
-        "commercial",
-        "promotion",
-        "paid",
-        "partner"
-      ],
-      "use-cases": [
-        "marking content as sponsored",
-        "linking to an advertise with us page"
-      ]
+      "tags": ["ad", "marketing", "sponsor", "commercial", "promotion", "paid", "partner"],
+      "use-cases": ["marking content as sponsored", "linking to an advertise with us page"]
     }
   }
 }

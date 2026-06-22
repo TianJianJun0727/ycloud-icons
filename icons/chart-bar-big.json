@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数值比较",
-    "数据可视化",
-    "报表图表"
-  ],
+  "use-cases": ["数值比较", "数据可视化", "报表图表"],
   "name": "图表条形大",
-  "tags": [
-    "柱状图",
-    "条形图",
-    "图表",
-    "数据",
-    "统计"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["柱状图", "条形图", "图表", "数据", "统计"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-horizontal-big",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart bar big",
-      "tags": [
-        "bar chart",
-        "chart",
-        "data",
-        "statistics",
-        "graph"
-      ],
-      "use-cases": [
-        "Compare values",
-        "Data visualization",
-        "Report charts"
-      ]
+      "tags": ["bar chart", "chart", "data", "statistics", "graph"],
+      "use-cases": ["Compare values", "Data visualization", "Report charts"]
     }
   }
 }

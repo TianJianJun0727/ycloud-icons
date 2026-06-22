@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "企业账户资料",
-    "商业地点选择",
-    "企业仪表板标题"
-  ],
+  "use-cases": ["企业账户资料", "商业地点选择", "企业仪表板标题"],
   "name": "建筑2",
-  "tags": [
-    "商业",
-    "公司",
-    "企业",
-    "摩天大楼",
-    "组织",
-    "城市",
-    "办公楼",
-    "机构"
-  ],
-  "categories": [
-    "account",
-    "buildings"
-  ],
+  "tags": ["商业", "公司", "企业", "摩天大楼", "组织", "城市", "办公楼", "机构"],
+  "categories": ["account", "buildings"],
   "i18n": {
     "en": {
       "name": "building 2",
-      "tags": [
-        "business",
-        "company",
-        "enterprise",
-        "skyscraper",
-        "organization",
-        "city",
-        "office",
-        "institution"
-      ],
-      "use-cases": [
-        "Corporate account profile",
-        "Business location selection",
-        "Enterprise dashboard header"
-      ]
+      "tags": ["business", "company", "enterprise", "skyscraper", "organization", "city", "office", "institution"],
+      "use-cases": ["Corporate account profile", "Business location selection", "Enterprise dashboard header"]
     }
   }
 }

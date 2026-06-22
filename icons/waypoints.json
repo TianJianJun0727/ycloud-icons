@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络路由或VPN配置",
-    "包含多个站点的旅程规划",
-    "间接连接或代理服务"
-  ],
+  "use-cases": ["网络路由或VPN配置", "包含多个站点的旅程规划", "间接连接或代理服务"],
   "name": "路径点",
-  "tags": [
-    "路径点",
-    "中转站",
-    "VPN",
-    "代理",
-    "路由",
-    "节点"
-  ],
-  "categories": [
-    "security",
-    "account",
-    "navigation",
-    "development",
-    "social"
-  ],
+  "tags": ["路径点", "中转站", "VPN", "代理", "路由", "节点"],
+  "categories": ["security", "account", "navigation", "development", "social"],
   "i18n": {
     "en": {
       "name": "waypoints",
-      "tags": [
-        "waypoints",
-        "stops",
-        "VPN",
-        "proxy",
-        "routing",
-        "nodes"
-      ],
-      "use-cases": [
-        "Network routing or VPN configuration",
-        "Journey planning with multiple stops",
-        "Indirect connection or proxy services"
-      ]
+      "tags": ["waypoints", "stops", "VPN", "proxy", "routing", "nodes"],
+      "use-cases": ["Network routing or VPN configuration", "Journey planning with multiple stops", "Indirect connection or proxy services"]
     }
   }
 }

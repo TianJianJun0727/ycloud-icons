@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git分支可视化",
-    "时间线或进度指示器",
-    "导航终点标记"
-  ],
+  "use-cases": ["Git分支可视化", "时间线或进度指示器", "导航终点标记"],
   "name": "线条点右水平",
-  "tags": [
-    "右点线",
-    "水平线",
-    "终点",
-    "停止",
-    "航点",
-    "版本控制",
-    "结束"
-  ],
-  "categories": [
-    "development",
-    "navigation"
-  ],
+  "tags": ["右点线", "水平线", "终点", "停止", "航点", "版本控制", "结束"],
+  "categories": ["development", "navigation"],
   "i18n": {
     "en": {
       "name": "line dot right horizontal",
-      "tags": [
-        "right dot line",
-        "horizontal line",
-        "endpoint",
-        "stop",
-        "waypoint",
-        "version control",
-        "end"
-      ],
-      "use-cases": [
-        "Git branch visualization",
-        "Timeline or progress indicator",
-        "Navigation endpoint marker"
-      ]
+      "tags": ["right dot line", "horizontal line", "endpoint", "stop", "waypoint", "version control", "end"],
+      "use-cases": ["Git branch visualization", "Timeline or progress indicator", "Navigation endpoint marker"]
     }
   }
 }

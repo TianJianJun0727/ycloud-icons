@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安全警告通知",
-    "漏洞扫描警报",
-    "账户验证失败"
-  ],
+  "use-cases": ["安全警告通知", "漏洞扫描警报", "账户验证失败"],
   "name": "盾牌告警",
-  "tags": [
-    "安全警告",
-    "威胁检测",
-    "漏洞",
-    "未验证",
-    "紧急",
-    "防护警报"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "notifications",
-    "gaming"
-  ],
+  "tags": ["安全警告", "威胁检测", "漏洞", "未验证", "紧急", "防护警报"],
+  "categories": ["account", "security", "development", "notifications", "gaming"],
   "i18n": {
     "en": {
       "name": "shield alert",
-      "tags": [
-        "security alert",
-        "threat detection",
-        "vulnerability",
-        "unverified",
-        "urgent",
-        "protection warning"
-      ],
-      "use-cases": [
-        "Security warning notification",
-        "Vulnerability scan alert",
-        "Account verification failed"
-      ]
+      "tags": ["security alert", "threat detection", "vulnerability", "unverified", "urgent", "protection warning"],
+      "use-cases": ["Security warning notification", "Vulnerability scan alert", "Account verification failed"]
     }
   }
 }

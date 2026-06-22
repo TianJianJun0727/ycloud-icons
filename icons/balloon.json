@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "派对或活动装饰",
-    "生日庆祝元素",
-    "节日UI点缀"
-  ],
+  "use-cases": ["派对或活动装饰", "生日庆祝元素", "节日UI点缀"],
   "name": "气球",
-  "tags": [
-    "气球",
-    "庆祝",
-    "派对",
-    "生日",
-    "装饰",
-    "节日"
-  ],
-  "categories": [
-    "emoji"
-  ],
+  "tags": ["气球", "庆祝", "派对", "生日", "装饰", "节日"],
+  "categories": ["emoji"],
   "i18n": {
     "en": {
       "name": "balloon",
-      "tags": [
-        "balloon",
-        "celebration",
-        "party",
-        "birthday",
-        "decoration",
-        "festival"
-      ],
-      "use-cases": [
-        "Party or event decoration",
-        "Birthday celebration element",
-        "Festive UI accent"
-      ]
+      "tags": ["balloon", "celebration", "party", "birthday", "decoration", "festival"],
+      "use-cases": ["Party or event decoration", "Birthday celebration element", "Festive UI accent"]
     }
   }
 }

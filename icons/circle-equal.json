@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相等比较",
-    "数学运算",
-    "平衡指示器"
-  ],
+  "use-cases": ["相等比较", "数学运算", "平衡指示器"],
   "name": "圆形等于",
-  "tags": [
-    "等于",
-    "数学",
-    "相等",
-    "计算"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["等于", "数学", "相等", "计算"],
+  "categories": ["math"],
   "i18n": {
     "en": {
       "name": "circle equal",
-      "tags": [
-        "equal",
-        "math",
-        "equality",
-        "calculate"
-      ],
-      "use-cases": [
-        "Equality comparison",
-        "Math operation",
-        "Balance indicator"
-      ]
+      "tags": ["equal", "math", "equality", "calculate"],
+      "use-cases": ["Equality comparison", "Math operation", "Balance indicator"]
     }
   }
 }

@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图形设计工具选择",
-    "UI元素调整大小手柄",
-    "CAD或矢量编辑软件",
-    "测量和尺寸工具"
-  ],
+  "use-cases": ["图形设计工具选择", "UI元素调整大小手柄", "CAD或矢量编辑软件", "测量和尺寸工具"],
   "name": "矢量方形",
-  "tags": [
-    "矢量方形",
-    "形状",
-    "图形",
-    "设计",
-    "几何",
-    "选择框",
-    "尺寸"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "design",
-    "tools"
-  ],
+  "tags": ["矢量方形", "形状", "图形", "设计", "几何", "选择框", "尺寸"],
+  "categories": ["shapes", "math", "design", "tools"],
   "i18n": {
     "en": {
       "name": "vector square",
-      "tags": [
-        "vector",
-        "square",
-        "shape",
-        "graphics",
-        "design",
-        "geometry",
-        "bounding box"
-      ],
-      "use-cases": [
-        "Graphic design tool selection",
-        "UI element resizing handles",
-        "CAD or vector editing software",
-        "Measurement and dimension tools"
-      ]
+      "tags": ["vector", "square", "shape", "graphics", "design", "geometry", "bounding box"],
+      "use-cases": ["Graphic design tool selection", "UI element resizing handles", "CAD or vector editing software", "Measurement and dimension tools"]
     }
   }
 }

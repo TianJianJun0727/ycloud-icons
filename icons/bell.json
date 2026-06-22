@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通知中心图标",
-    "账号警报指示器",
-    "通用提醒符号"
-  ],
+  "use-cases": ["通知中心图标", "账号警报指示器", "通用提醒符号"],
   "name": "铃铛",
-  "tags": [
-    "通知",
-    "提醒",
-    "铃铛",
-    "警报",
-    "消息",
-    "账号通知"
-  ],
-  "categories": [
-    "account",
-    "notifications"
-  ],
+  "tags": ["通知", "提醒", "铃铛", "警报", "消息", "账号通知"],
+  "categories": ["account", "notifications"],
   "i18n": {
     "en": {
       "name": "bell",
-      "tags": [
-        "notification",
-        "reminder",
-        "bell",
-        "alarm",
-        "message",
-        "account alert"
-      ],
-      "use-cases": [
-        "Notification center icon",
-        "Account alert indicator",
-        "General reminder symbol"
-      ]
+      "tags": ["notification", "reminder", "bell", "alarm", "message", "account alert"],
+      "use-cases": ["Notification center icon", "Account alert indicator", "General reminder symbol"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Shift键指示器",
-    "向上移动或增加控制",
-    "文本大写功能"
-  ],
+  "use-cases": ["Shift键指示器", "向上移动或增加控制", "文本大写功能"],
   "name": "箭头大上",
-  "tags": [
-    "Shift键",
-    "键盘",
-    "按钮",
-    "方向",
-    "向上",
-    "大写",
-    "快捷键"
-  ],
-  "categories": [
-    "arrows",
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["Shift键", "键盘", "按钮", "方向", "向上", "大写", "快捷键"],
+  "categories": ["arrows", "text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "arrow big up",
-      "tags": [
-        "shift",
-        "keyboard",
-        "button",
-        "direction",
-        "up",
-        "capitalize",
-        "shortcut"
-      ],
-      "use-cases": [
-        "Shift key indicator",
-        "Move up or increase control",
-        "Capitalize text function"
-      ]
+      "tags": ["shift", "keyboard", "button", "direction", "up", "capitalize", "shortcut"],
+      "use-cases": ["Shift key indicator", "Move up or increase control", "Capitalize text function"]
     }
   }
 }

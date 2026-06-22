@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数学教育",
-    "物理符号",
-    "工程图表"
-  ],
+  "use-cases": ["数学教育", "物理符号", "工程图表"],
   "name": "欧米伽",
-  "tags": [
-    "希腊字母",
-    "数学符号",
-    "科学",
-    "电阻",
-    "角频率"
-  ],
-  "categories": [
-    "math",
-    "development",
-    "text",
-    "science"
-  ],
+  "tags": ["希腊字母", "数学符号", "科学", "电阻", "角频率"],
+  "categories": ["math", "development", "text", "science"],
   "i18n": {
     "en": {
       "name": "omega",
-      "tags": [
-        "greek letter",
-        "mathematical symbol",
-        "science",
-        "resistance",
-        "angular frequency"
-      ],
-      "use-cases": [
-        "Mathematics education",
-        "Physics notation",
-        "Engineering diagrams"
-      ]
+      "tags": ["greek letter", "mathematical symbol", "science", "resistance", "angular frequency"],
+      "use-cases": ["Mathematics education", "Physics notation", "Engineering diagrams"]
     }
   }
 }

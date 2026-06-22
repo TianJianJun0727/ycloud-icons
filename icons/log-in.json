@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户登录按钮",
-    "账户验证",
-    "访问受限区域"
-  ],
+  "use-cases": ["用户登录按钮", "账户验证", "访问受限区域"],
   "name": "日志进入",
-  "tags": [
-    "登录",
-    "登入",
-    "账号",
-    "授权",
-    "访问",
-    "进入",
-    "验证"
-  ],
-  "categories": [
-    "arrows",
-    "account"
-  ],
+  "tags": ["登录", "登入", "账号", "授权", "访问", "进入", "验证"],
+  "categories": ["arrows", "account"],
   "i18n": {
     "en": {
       "name": "log in",
-      "tags": [
-        "login",
-        "sign in",
-        "account",
-        "auth",
-        "access",
-        "enter",
-        "authentication"
-      ],
-      "use-cases": [
-        "User login button",
-        "Account authentication",
-        "Access restricted area"
-      ]
+      "tags": ["login", "sign in", "account", "auth", "access", "enter", "authentication"],
+      "use-cases": ["User login button", "Account authentication", "Access restricted area"]
     }
   }
 }

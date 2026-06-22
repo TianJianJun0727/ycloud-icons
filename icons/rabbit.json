@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "宠物相关应用",
-    "生肖标识",
-    "速度或跳跃的隐喻"
-  ],
+  "use-cases": ["宠物相关应用", "生肖标识", "速度或跳跃的隐喻"],
   "name": "兔子",
-  "tags": [
-    "兔子",
-    "动物",
-    "宠物",
-    "快速",
-    "跳跃",
-    "生肖"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["兔子", "动物", "宠物", "快速", "跳跃", "生肖"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "rabbit",
-      "tags": [
-        "rabbit",
-        "animal",
-        "pet",
-        "fast",
-        "hop",
-        "zodiac"
-      ],
-      "use-cases": [
-        "Pet-related applications",
-        "Zodiac sign indicator",
-        "Metaphor for speed or hopping"
-      ]
+      "tags": ["rabbit", "animal", "pet", "fast", "hop", "zodiac"],
+      "use-cases": ["Pet-related applications", "Zodiac sign indicator", "Metaphor for speed or hopping"]
     }
   }
 }

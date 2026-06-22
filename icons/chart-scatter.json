@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相关性分析",
-    "数据点分布"
-  ],
+  "use-cases": ["相关性分析", "数据点分布"],
   "name": "图表散点",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "散点图",
-    "相关性"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "散点图", "相关性"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "scatter-chart",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart scatter",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "scatter plot",
-        "correlation"
-      ],
-      "use-cases": [
-        "Correlation analysis",
-        "Data point distribution"
-      ]
+      "tags": ["statistics", "analytics", "chart", "scatter plot", "correlation"],
+      "use-cases": ["Correlation analysis", "Data point distribution"]
     }
   }
 }

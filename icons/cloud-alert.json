@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "云服务错误通知",
-    "网络同步失败告警",
-    "系统警告指示器"
-  ],
+  "use-cases": ["云服务错误通知", "网络同步失败告警", "系统警告指示器"],
   "name": "云告警",
-  "tags": [
-    "告警",
-    "警告",
-    "错误",
-    "危险",
-    "云服务",
-    "网络",
-    "同步",
-    "异常"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["告警", "警告", "错误", "危险", "云服务", "网络", "同步", "异常"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "cloud alert",
-      "tags": [
-        "alert",
-        "warning",
-        "error",
-        "danger",
-        "cloud",
-        "network",
-        "sync",
-        "failure"
-      ],
-      "use-cases": [
-        "Cloud service error notification",
-        "Network sync failure alert",
-        "System warning indicator"
-      ]
+      "tags": ["alert", "warning", "error", "danger", "cloud", "network", "sync", "failure"],
+      "use-cases": ["Cloud service error notification", "Network sync failure alert", "System warning indicator"]
     }
   }
 }

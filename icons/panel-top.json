@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户界面中的固定顶部面板",
-    "浏览器顶部栏表示",
-    "网页标题布局"
-  ],
+  "use-cases": ["用户界面中的固定顶部面板", "浏览器顶部栏表示", "网页标题布局"],
   "name": "面板顶部",
-  "tags": [
-    "顶部面板",
-    "抽屉",
-    "浏览器",
-    "网页",
-    "布局"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development"
-  ],
+  "tags": ["顶部面板", "抽屉", "浏览器", "网页", "布局"],
+  "categories": ["layout", "design", "development"],
   "i18n": {
     "en": {
       "name": "panel top",
-      "tags": [
-        "top panel",
-        "drawer",
-        "browser",
-        "webpage",
-        "layout"
-      ],
-      "use-cases": [
-        "Fixed top panel in a UI",
-        "Browser top bar representation",
-        "Webpage header layout"
-      ]
+      "tags": ["top panel", "drawer", "browser", "webpage", "layout"],
+      "use-cases": ["Fixed top panel in a UI", "Browser top bar representation", "Webpage header layout"]
     }
   }
 }

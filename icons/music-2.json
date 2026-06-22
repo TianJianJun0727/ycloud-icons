@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器界面",
-    "音频文件指示器",
-    "乐谱编辑器"
-  ],
+  "use-cases": ["音乐播放器界面", "音频文件指示器", "乐谱编辑器"],
   "name": "音乐2",
-  "tags": [
-    "音乐",
-    "音符",
-    "八分音符",
-    "乐谱",
-    "音频",
-    "声音"
-  ],
-  "categories": [
-    "multimedia",
-    "files"
-  ],
+  "tags": ["音乐", "音符", "八分音符", "乐谱", "音频", "声音"],
+  "categories": ["multimedia", "files"],
   "i18n": {
     "en": {
       "name": "music 2",
-      "tags": [
-        "music",
-        "note",
-        "eighth note",
-        "quaver",
-        "sheet music",
-        "audio"
-      ],
-      "use-cases": [
-        "Music player interface",
-        "Audio file indicator",
-        "Sheet music editor"
-      ]
+      "tags": ["music", "note", "eighth note", "quaver", "sheet music", "audio"],
+      "use-cases": ["Music player interface", "Audio file indicator", "Sheet music editor"]
     }
   }
 }

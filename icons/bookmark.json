@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "保存网页链接",
-    "收藏重要内容",
-    "标记阅读位置"
-  ],
+  "use-cases": ["保存网页链接", "收藏重要内容", "标记阅读位置"],
   "name": "书签",
-  "tags": [
-    "书签",
-    "收藏",
-    "保存",
-    "标记",
-    "标签"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["书签", "收藏", "保存", "标记", "标签"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "bookmark",
-      "tags": [
-        "bookmark",
-        "favorite",
-        "save",
-        "mark",
-        "label"
-      ],
-      "use-cases": [
-        "Save webpage link",
-        "Favorite important content",
-        "Mark reading position"
-      ]
+      "tags": ["bookmark", "favorite", "save", "mark", "label"],
+      "use-cases": ["Save webpage link", "Favorite important content", "Mark reading position"]
     }
   }
 }

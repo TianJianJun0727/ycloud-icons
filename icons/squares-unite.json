@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "路径查找器合并操作",
-    "矢量形状合并"
-  ],
+  "use-cases": ["路径查找器合并操作", "矢量形状合并"],
   "name": "方块合并",
-  "tags": [
-    "合并",
-    "联合",
-    "路径查找",
-    "形状运算",
-    "矢量设计"
-  ],
-  "categories": [
-    "design"
-  ],
+  "tags": ["合并", "联合", "路径查找", "形状运算", "矢量设计"],
+  "categories": ["design"],
   "i18n": {
     "en": {
       "name": "squares unite",
-      "tags": [
-        "unite",
-        "union",
-        "pathfinder",
-        "shape operation",
-        "vector design"
-      ],
-      "use-cases": [
-        "Pathfinder unite operation",
-        "Vector shape merging"
-      ]
+      "tags": ["unite", "union", "pathfinder", "shape operation", "vector design"],
+      "use-cases": ["Pathfinder unite operation", "Vector shape merging"]
     }
   }
 }

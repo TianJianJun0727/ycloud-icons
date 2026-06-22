@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "联系人管理",
-    "通讯录",
-    "人员目录",
-    "网络组织"
-  ],
+  "use-cases": ["联系人管理", "通讯录", "人员目录", "网络组织"],
   "name": "笔记本标签页",
-  "tags": [
-    "通讯录",
-    "联系人",
-    "目录",
-    "地址簿",
-    "人脉",
-    "组织",
-    "分类"
-  ],
-  "categories": [
-    "account",
-    "communication",
-    "social"
-  ],
+  "tags": ["通讯录", "联系人", "目录", "地址簿", "人脉", "组织", "分类"],
+  "categories": ["account", "communication", "social"],
   "i18n": {
     "en": {
       "name": "notebook tabs",
-      "tags": [
-        "address book",
-        "contacts",
-        "directory",
-        "people",
-        "organization",
-        "categorization"
-      ],
-      "use-cases": [
-        "Contact management",
-        "Address book",
-        "People directory",
-        "Network organization"
-      ]
+      "tags": ["address book", "contacts", "directory", "people", "organization", "categorization"],
+      "use-cases": ["Contact management", "Address book", "People directory", "Network organization"]
     }
   }
 }

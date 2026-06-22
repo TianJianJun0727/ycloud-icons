@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "多个笔记或评论视图",
-    "批注集合",
-    "分组提醒或任务"
-  ],
+  "use-cases": ["多个笔记或评论视图", "批注集合", "分组提醒或任务"],
   "name": "便签便签",
-  "tags": [
-    "便利贴",
-    "多个",
-    "笔记集",
-    "集合",
-    "分组",
-    "堆叠",
-    "文档"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["便利贴", "多个", "笔记集", "集合", "分组", "堆叠", "文档"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "sticky notes",
-      "tags": [
-        "sticky notes",
-        "multiple",
-        "collection",
-        "group",
-        "stack",
-        "documents",
-        "notes"
-      ],
-      "use-cases": [
-        "Multiple notes or comments view",
-        "Collection of annotations",
-        "Grouped reminders or tasks"
-      ]
+      "tags": ["sticky notes", "multiple", "collection", "group", "stack", "documents", "notes"],
+      "use-cases": ["Multiple notes or comments view", "Collection of annotations", "Grouped reminders or tasks"]
     }
   }
 }

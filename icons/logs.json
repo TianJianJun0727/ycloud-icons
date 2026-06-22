@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "系统事件历史查看器",
-    "应用程序调试控制台",
-    "审计追踪显示"
-  ],
+  "use-cases": ["系统事件历史查看器", "应用程序调试控制台", "审计追踪显示"],
   "name": "日志",
-  "tags": [
-    "日志",
-    "记录",
-    "历史",
-    "控制台",
-    "调试",
-    "事件"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["日志", "记录", "历史", "控制台", "调试", "事件"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "logs",
-      "tags": [
-        "logs",
-        "records",
-        "history",
-        "console",
-        "debug",
-        "events"
-      ],
-      "use-cases": [
-        "System event history viewer",
-        "Application debug console",
-        "Audit trail display"
-      ]
+      "tags": ["logs", "records", "history", "console", "debug", "events"],
+      "use-cases": ["System event history viewer", "Application debug console", "Audit trail display"]
     }
   }
 }

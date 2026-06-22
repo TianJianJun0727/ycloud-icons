@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "财务分析",
-    "市场波动",
-    "风险评估",
-    "数据监控"
-  ],
+  "use-cases": ["财务分析", "市场波动", "风险评估", "数据监控"],
   "name": "趋势上下",
-  "tags": [
-    "波动趋势",
-    "数据波动",
-    "不确定性",
-    "预测",
-    "变量"
-  ],
-  "categories": [
-    "charts",
-    "arrows"
-  ],
+  "tags": ["波动趋势", "数据波动", "不确定性", "预测", "变量"],
+  "categories": ["charts", "arrows"],
   "i18n": {
     "en": {
       "name": "trending up down",
-      "tags": [
-        "trending",
-        "fluctuation",
-        "uncertainty",
-        "forecast",
-        "variable"
-      ],
-      "use-cases": [
-        "Financial analysis",
-        "Market volatility",
-        "Risk assessment",
-        "Data monitoring"
-      ]
+      "tags": ["trending", "fluctuation", "uncertainty", "forecast", "variable"],
+      "use-cases": ["Financial analysis", "Market volatility", "Risk assessment", "Data monitoring"]
     }
   }
 }

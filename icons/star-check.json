@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已验证收藏",
-    "已批准评分",
-    "精选内容",
-    "已确认书签",
-    "已完成成就"
-  ],
+  "use-cases": ["已验证收藏", "已批准评分", "精选内容", "已确认书签", "已完成成就"],
   "name": "星标勾选",
-  "tags": [
-    "星标",
-    "勾选",
-    "已验证",
-    "收藏",
-    "评分",
-    "精选",
-    "已批准"
-  ],
-  "categories": [
-    "account",
-    "social",
-    "shapes",
-    "multimedia",
-    "weather",
-    "emoji",
-    "gaming"
-  ],
+  "tags": ["星标", "勾选", "已验证", "收藏", "评分", "精选", "已批准"],
+  "categories": ["account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"],
   "i18n": {
     "en": {
       "name": "star check",
-      "tags": [
-        "star",
-        "check",
-        "verified",
-        "favorite",
-        "rating",
-        "featured",
-        "approved"
-      ],
-      "use-cases": [
-        "Verified favorite",
-        "Approved rating",
-        "Featured content",
-        "Confirmed bookmark",
-        "Completed achievement"
-      ]
+      "tags": ["star", "check", "verified", "favorite", "rating", "featured", "approved"],
+      "use-cases": ["Verified favorite", "Approved rating", "Featured content", "Confirmed bookmark", "Completed achievement"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI元素拖拽",
-    "可调整组件",
-    "布局调整手柄"
-  ],
+  "use-cases": ["UI元素拖拽", "可调整组件", "布局调整手柄"],
   "name": "握柄水平",
-  "tags": [
-    "拖拽",
-    "手柄",
-    "移动",
-    "调整",
-    "控制点"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["拖拽", "手柄", "移动", "调整", "控制点"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "grip horizontal",
-      "tags": [
-        "drag",
-        "handle",
-        "move",
-        "adjust",
-        "control points"
-      ],
-      "use-cases": [
-        "UI element dragging",
-        "Resizable components",
-        "Layout adjustment handles"
-      ]
+      "tags": ["drag", "handle", "move", "adjust", "control points"],
+      "use-cases": ["UI element dragging", "Resizable components", "Layout adjustment handles"]
     }
   }
 }

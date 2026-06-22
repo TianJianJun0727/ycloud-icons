@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器格式工具栏",
-    "富文本编辑器样式切换",
-    "文档格式控制"
-  ],
+  "use-cases": ["文本编辑器格式工具栏", "富文本编辑器样式切换", "文档格式控制"],
   "name": "斜体",
-  "tags": [
-    "斜体",
-    "文本",
-    "格式",
-    "字体",
-    "排版",
-    "强调"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["斜体", "文本", "格式", "字体", "排版", "强调"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "italic",
-      "tags": [
-        "italic",
-        "oblique",
-        "text",
-        "format",
-        "font",
-        "emphasis"
-      ],
-      "use-cases": [
-        "Text editor formatting toolbar",
-        "Rich text editor style toggle",
-        "Document formatting controls"
-      ]
+      "tags": ["italic", "oblique", "text", "format", "font", "emphasis"],
+      "use-cases": ["Text editor formatting toolbar", "Rich text editor style toggle", "Document formatting controls"]
     }
   }
 }

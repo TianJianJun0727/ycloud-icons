@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "中等信号强度指示器",
-    "一般 Wi-Fi 连接",
-    "平均网络状态"
-  ],
+  "use-cases": ["中等信号强度指示器", "一般 Wi-Fi 连接", "平均网络状态"],
   "name": "信号中等",
-  "tags": [
-    "信号",
-    "无线",
-    "连接",
-    "网络",
-    "强度",
-    "中等",
-    "两格",
-    "三格",
-    "蜂窝网络",
-    "移动网络",
-    "Wi-Fi"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["信号", "无线", "连接", "网络", "强度", "中等", "两格", "三格", "蜂窝网络", "移动网络", "Wi-Fi"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "signal medium",
-      "tags": [
-        "signal",
-        "wireless",
-        "connection",
-        "network",
-        "strength",
-        "medium",
-        "moderate",
-        "cellular",
-        "mobile",
-        "wifi"
-      ],
-      "use-cases": [
-        "Medium signal strength indicator",
-        "Moderate Wi-Fi connection",
-        "Average network status"
-      ]
+      "tags": ["signal", "wireless", "connection", "network", "strength", "medium", "moderate", "cellular", "mobile", "wifi"],
+      "use-cases": ["Medium signal strength indicator", "Moderate Wi-Fi connection", "Average network status"]
     }
   }
 }

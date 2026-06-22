@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "营业中",
-    "入口点",
-    "欢迎屏幕",
-    "允许进入"
-  ],
+  "use-cases": ["营业中", "入口点", "欢迎屏幕", "允许进入"],
   "name": "门打开",
-  "tags": [
-    "门",
-    "打开",
-    "入口",
-    "出口",
-    "进入",
-    "欢迎"
-  ],
-  "categories": [
-    "home",
-    "travel",
-    "security"
-  ],
+  "tags": ["门", "打开", "入口", "出口", "进入", "欢迎"],
+  "categories": ["home", "travel", "security"],
   "i18n": {
     "en": {
       "name": "door open",
-      "tags": [
-        "door",
-        "open",
-        "entrance",
-        "exit",
-        "enter",
-        "welcome"
-      ],
-      "use-cases": [
-        "Open for business",
-        "Entry point",
-        "Welcome screen",
-        "Access granted"
-      ]
+      "tags": ["door", "open", "entrance", "exit", "enter", "welcome"],
+      "use-cases": ["Open for business", "Entry point", "Welcome screen", "Access granted"]
     }
   }
 }

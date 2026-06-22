@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器界面",
-    "数学公式编辑器",
-    "编程运算符"
-  ],
+  "use-cases": ["计算器界面", "数学公式编辑器", "编程运算符"],
   "name": "除号",
-  "tags": [
-    "除法",
-    "数学",
-    "运算符",
-    "计算",
-    "代码"
-  ],
-  "categories": [
-    "math",
-    "development"
-  ],
+  "tags": ["除法", "数学", "运算符", "计算", "代码"],
+  "categories": ["math", "development"],
   "i18n": {
     "en": {
       "name": "divide",
-      "tags": [
-        "division",
-        "math",
-        "operator",
-        "calculation",
-        "code"
-      ],
-      "use-cases": [
-        "Calculator interface",
-        "Math equation editor",
-        "Programming operator"
-      ]
+      "tags": ["division", "math", "operator", "calculation", "code"],
+      "use-cases": ["Calculator interface", "Math equation editor", "Programming operator"]
     }
   }
 }

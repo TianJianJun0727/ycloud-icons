@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本缩进或制表符操作",
-    "右下方向指示",
-    "代码格式化或缩进"
-  ],
+  "use-cases": ["文本缩进或制表符操作", "右下方向指示", "代码格式化或缩进"],
   "name": "角落下右",
-  "tags": [
-    "箭头",
-    "缩进",
-    "制表符",
-    "右下",
-    "方向"
-  ],
-  "categories": [
-    "arrows",
-    "text",
-    "development"
-  ],
+  "tags": ["箭头", "缩进", "制表符", "右下", "方向"],
+  "categories": ["arrows", "text", "development"],
   "i18n": {
     "en": {
       "name": "corner down right",
-      "tags": [
-        "arrow",
-        "indent",
-        "tab",
-        "down right",
-        "direction"
-      ],
-      "use-cases": [
-        "Text indent or tab action",
-        "Down-right directional indicator",
-        "Code formatting or indentation"
-      ]
+      "tags": ["arrow", "indent", "tab", "down right", "direction"],
+      "use-cases": ["Text indent or tab action", "Down-right directional indicator", "Code formatting or indentation"]
     }
   }
 }

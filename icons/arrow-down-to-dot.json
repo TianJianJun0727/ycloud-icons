@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "将选择移动到特定点",
-    "向下步骤至目标",
-    "聚焦于细节"
-  ],
+  "use-cases": ["将选择移动到特定点", "向下步骤至目标", "聚焦于细节"],
   "name": "箭头下到点",
-  "tags": [
-    "方向",
-    "向下",
-    "定位",
-    "目标",
-    "步骤",
-    "选择",
-    "聚焦"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "向下", "定位", "目标", "步骤", "选择", "聚焦"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow down to dot",
-      "tags": [
-        "direction",
-        "down",
-        "position",
-        "target",
-        "step",
-        "select",
-        "focus"
-      ],
-      "use-cases": [
-        "Move selection to a specific point",
-        "Step down to a target",
-        "Focus on a detail"
-      ]
+      "tags": ["direction", "down", "position", "target", "step", "select", "focus"],
+      "use-cases": ["Move selection to a specific point", "Step down to a target", "Focus on a detail"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频文件播放",
-    "音乐库",
-    "多媒体内容"
-  ],
+  "use-cases": ["音频文件播放", "音乐库", "多媒体内容"],
   "name": "文件音乐",
-  "tags": [
-    "音乐",
-    "音频",
-    "文件",
-    "播放",
-    "多媒体"
-  ],
-  "categories": [
-    "files",
-    "multimedia"
-  ],
+  "tags": ["音乐", "音频", "文件", "播放", "多媒体"],
+  "categories": ["files", "multimedia"],
   "i18n": {
     "en": {
       "name": "file music",
-      "tags": [
-        "music",
-        "audio",
-        "file",
-        "playback",
-        "multimedia"
-      ],
-      "use-cases": [
-        "Audio file playback",
-        "Music library",
-        "Multimedia content"
-      ]
+      "tags": ["music", "audio", "file", "playback", "multimedia"],
+      "use-cases": ["Audio file playback", "Music library", "Multimedia content"]
     }
   }
 }

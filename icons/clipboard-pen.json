@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档签名确认",
-    "批准剪贴板内容",
-    "书写确认"
-  ],
+  "use-cases": ["文档签名确认", "批准剪贴板内容", "书写确认"],
   "name": "剪贴板笔",
-  "tags": [
-    "签名",
-    "批准",
-    "确认",
-    "文档",
-    "书写"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["签名", "批准", "确认", "文档", "书写"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "clipboard-edit",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "clipboard pen",
-      "tags": [
-        "signature",
-        "approve",
-        "confirm",
-        "document",
-        "write"
-      ],
-      "use-cases": [
-        "Document signature confirmation",
-        "Approve clipboard content",
-        "Write confirmation"
-      ]
+      "tags": ["signature", "approve", "confirm", "document", "write"],
+      "use-cases": ["Document signature confirmation", "Approve clipboard content", "Write confirmation"]
     }
   }
 }

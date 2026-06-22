@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "RSS源订阅",
-    "新闻内容更新",
-    "博客文章聚合",
-    "播客节目提醒"
-  ],
+  "use-cases": ["RSS源订阅", "新闻内容更新", "博客文章聚合", "播客节目提醒"],
   "name": "RSS订阅",
-  "tags": [
-    "RSS",
-    "订阅",
-    "新闻",
-    "更新",
-    "内容",
-    "博客",
-    "播客",
-    "资讯",
-    "源"
-  ],
-  "categories": [
-    "development",
-    "social"
-  ],
+  "tags": ["RSS", "订阅", "新闻", "更新", "内容", "博客", "播客", "资讯", "源"],
+  "categories": ["development", "social"],
   "i18n": {
     "en": {
       "name": "rss",
-      "tags": [
-        "RSS",
-        "subscribe",
-        "news",
-        "updates",
-        "content",
-        "blog",
-        "podcast",
-        "feed",
-        "syndication"
-      ],
-      "use-cases": [
-        "RSS feed subscription",
-        "News content updates",
-        "Blog post syndication",
-        "Podcast episode alerts"
-      ]
+      "tags": ["RSS", "subscribe", "news", "updates", "content", "blog", "podcast", "feed", "syndication"],
+      "use-cases": ["RSS feed subscription", "News content updates", "Blog post syndication", "Podcast episode alerts"]
     }
   }
 }

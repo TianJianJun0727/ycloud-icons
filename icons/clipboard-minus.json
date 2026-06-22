@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除剪贴板内容",
-    "移除医疗报告项目",
-    "清除文档数据"
-  ],
+  "use-cases": ["删除剪贴板内容", "移除医疗报告项目", "清除文档数据"],
   "name": "剪贴板减少",
-  "tags": [
-    "剪贴板",
-    "删除",
-    "移除",
-    "清除",
-    "文档",
-    "医疗",
-    "报告",
-    "医生"
-  ],
-  "categories": [
-    "text",
-    "medical"
-  ],
+  "tags": ["剪贴板", "删除", "移除", "清除", "文档", "医疗", "报告", "医生"],
+  "categories": ["text", "medical"],
   "i18n": {
     "en": {
       "name": "clipboard minus",
-      "tags": [
-        "clipboard",
-        "delete",
-        "remove",
-        "clear",
-        "document",
-        "medical",
-        "report",
-        "doctor"
-      ],
-      "use-cases": [
-        "Delete clipboard content",
-        "Remove medical report item",
-        "Clear document data"
-      ]
+      "tags": ["clipboard", "delete", "remove", "clear", "document", "medical", "report", "doctor"],
+      "use-cases": ["Delete clipboard content", "Remove medical report item", "Clear document data"]
     }
   }
 }

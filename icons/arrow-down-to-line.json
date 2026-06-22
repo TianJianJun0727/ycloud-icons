@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下载按钮",
-    "保存文件操作",
-    "Git 拉取命令",
-    "折叠面板"
-  ],
+  "use-cases": ["下载按钮", "保存文件操作", "Git 拉取命令", "折叠面板"],
   "name": "箭头下到线条",
-  "tags": [
-    "下载",
-    "保存",
-    "拉取",
-    "Git",
-    "版本控制",
-    "方向",
-    "向下",
-    "垂直"
-  ],
-  "categories": [
-    "arrows",
-    "files",
-    "development"
-  ],
+  "tags": ["下载", "保存", "拉取", "Git", "版本控制", "方向", "向下", "垂直"],
+  "categories": ["arrows", "files", "development"],
   "i18n": {
     "en": {
       "name": "arrow down to line",
-      "tags": [
-        "download",
-        "save",
-        "pull",
-        "git",
-        "version control",
-        "direction",
-        "down",
-        "vertical"
-      ],
-      "use-cases": [
-        "Download button",
-        "Save file action",
-        "Git pull command",
-        "Collapse panel"
-      ]
+      "tags": ["download", "save", "pull", "git", "version control", "direction", "down", "vertical"],
+      "use-cases": ["Download button", "Save file action", "Git pull command", "Collapse panel"]
     }
   }
 }

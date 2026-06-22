@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "花店商品展示",
-    "情人节礼物图标",
-    "浪漫场景装饰元素"
-  ],
+  "use-cases": ["花店商品展示", "情人节礼物图标", "浪漫场景装饰元素"],
   "name": "玫瑰",
-  "tags": [
-    "玫瑰",
-    "鲜花",
-    "浪漫",
-    "礼物",
-    "情人节"
-  ],
-  "categories": [
-    "nature",
-    "seasons",
-    "sustainability",
-    "home",
-    "social"
-  ],
+  "tags": ["玫瑰", "鲜花", "浪漫", "礼物", "情人节"],
+  "categories": ["nature", "seasons", "sustainability", "home", "social"],
   "i18n": {
     "en": {
       "name": "rose",
-      "tags": [
-        "rose",
-        "flower",
-        "romance",
-        "gift",
-        "valentine"
-      ],
-      "use-cases": [
-        "Florist product display",
-        "Valentine's day gift icon",
-        "Romantic scene decorative element"
-      ]
+      "tags": ["rose", "flower", "romance", "gift", "valentine"],
+      "use-cases": ["Florist product display", "Valentine's day gift icon", "Romantic scene decorative element"]
     }
   }
 }

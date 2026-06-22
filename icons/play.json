@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器控制",
-    "开始操作按钮",
-    "音频/视频播放触发器"
-  ],
+  "use-cases": ["媒体播放器控制", "开始操作按钮", "音频/视频播放触发器"],
   "name": "播放",
-  "tags": [
-    "播放",
-    "开始",
-    "媒体",
-    "音频",
-    "视频"
-  ],
-  "categories": [
-    "arrows",
-    "multimedia"
-  ],
+  "tags": ["播放", "开始", "媒体", "音频", "视频"],
+  "categories": ["arrows", "multimedia"],
   "i18n": {
     "en": {
       "name": "play",
-      "tags": [
-        "play",
-        "start",
-        "media",
-        "audio",
-        "video"
-      ],
-      "use-cases": [
-        "Media player controls",
-        "Start action button",
-        "Audio/video playback trigger"
-      ]
+      "tags": ["play", "start", "media", "audio", "video"],
+      "use-cases": ["Media player controls", "Start action button", "Audio/video playback trigger"]
     }
   }
 }

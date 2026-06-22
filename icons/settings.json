@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用设置菜单",
-    "应用配置",
-    "系统偏好设置"
-  ],
+  "use-cases": ["通用设置菜单", "应用配置", "系统偏好设置"],
   "name": "设置",
-  "tags": [
-    "设置",
-    "配置",
-    "偏好",
-    "齿轮",
-    "调整",
-    "控制",
-    "选项"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["设置", "配置", "偏好", "齿轮", "调整", "控制", "选项"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "settings",
-      "tags": [
-        "settings",
-        "configuration",
-        "preferences",
-        "gear",
-        "adjustment",
-        "control",
-        "options"
-      ],
-      "use-cases": [
-        "General settings menu",
-        "Application configuration",
-        "System preferences"
-      ]
+      "tags": ["settings", "configuration", "preferences", "gear", "adjustment", "control", "options"],
+      "use-cases": ["General settings menu", "Application configuration", "System preferences"]
     }
   }
 }

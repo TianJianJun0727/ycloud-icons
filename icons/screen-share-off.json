@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频会议停止共享",
-    "远程桌面断开连接",
-    "演示结束屏幕共享",
-    "协作工具共享控制"
-  ],
+  "use-cases": ["视频会议停止共享", "远程桌面断开连接", "演示结束屏幕共享", "协作工具共享控制"],
   "name": "屏幕分享关闭",
-  "tags": [
-    "屏幕共享关闭",
-    "停止分享",
-    "断开屏幕",
-    "结束共享",
-    "屏幕断开"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "communication"
-  ],
+  "tags": ["屏幕共享关闭", "停止分享", "断开屏幕", "结束共享", "屏幕断开"],
+  "categories": ["connectivity", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "screen share off",
-      "tags": [
-        "screen share off",
-        "stop sharing",
-        "disconnect screen",
-        "end share",
-        "screen disconnect"
-      ],
-      "use-cases": [
-        "Video conference stop sharing",
-        "Remote desktop disconnect",
-        "Presentation end screen share",
-        "Collaboration tool sharing control"
-      ]
+      "tags": ["screen share off", "stop sharing", "disconnect screen", "end share", "screen disconnect"],
+      "use-cases": ["Video conference stop sharing", "Remote desktop disconnect", "Presentation end screen share", "Collaboration tool sharing control"]
     }
   }
 }

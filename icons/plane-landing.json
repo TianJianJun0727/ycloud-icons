@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "航班状态到达显示",
-    "旅行行程",
-    "机场信息系统"
-  ],
+  "use-cases": ["航班状态到达显示", "旅行行程", "机场信息系统"],
   "name": "飞机降落",
-  "tags": [
-    "飞机降落",
-    "到达",
-    "航空",
-    "旅行",
-    "交通"
-  ],
-  "categories": [
-    "transportation",
-    "travel"
-  ],
+  "tags": ["飞机降落", "到达", "航空", "旅行", "交通"],
+  "categories": ["transportation", "travel"],
   "i18n": {
     "en": {
       "name": "plane landing",
-      "tags": [
-        "plane landing",
-        "arrival",
-        "aviation",
-        "travel",
-        "transportation"
-      ],
-      "use-cases": [
-        "Flight status arrival display",
-        "Travel itinerary",
-        "Airport information system"
-      ]
+      "tags": ["plane landing", "arrival", "aviation", "travel", "transportation"],
+      "use-cases": ["Flight status arrival display", "Travel itinerary", "Airport information system"]
     }
   }
 }

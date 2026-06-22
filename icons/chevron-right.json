@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "前进导航",
-    "下一个项目选择",
-    "数学大于符号",
-    "命令行提示符",
-    "代码编辑器导航"
-  ],
+  "use-cases": ["前进导航", "下一个项目选择", "数学大于符号", "命令行提示符", "代码编辑器导航"],
   "name": "折角箭头右",
-  "tags": [
-    "右箭头",
-    "前进",
-    "下一个",
-    "大于",
-    "菜单",
-    "代码",
-    "命令行"
-  ],
-  "categories": [
-    "arrows",
-    "math",
-    "development"
-  ],
+  "tags": ["右箭头", "前进", "下一个", "大于", "菜单", "代码", "命令行"],
+  "categories": ["arrows", "math", "development"],
   "i18n": {
     "en": {
       "name": "chevron right",
-      "tags": [
-        "right arrow",
-        "forward",
-        "next",
-        "greater than",
-        "menu",
-        "code",
-        "command line"
-      ],
-      "use-cases": [
-        "Forward navigation",
-        "Next item selection",
-        "Mathematical greater than symbol",
-        "Command line prompt",
-        "Code editor navigation"
-      ]
+      "tags": ["right arrow", "forward", "next", "greater than", "menu", "code", "command line"],
+      "use-cases": ["Forward navigation", "Next item selection", "Mathematical greater than symbol", "Command line prompt", "Code editor navigation"]
     }
   }
 }

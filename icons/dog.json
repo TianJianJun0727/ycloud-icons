@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "宠物护理应用",
-    "动物收容所网站",
-    "兽医服务",
-    "遛狗服务"
-  ],
+  "use-cases": ["宠物护理应用", "动物收容所网站", "兽医服务", "遛狗服务"],
   "name": "狗",
-  "tags": [
-    "狗",
-    "宠物",
-    "动物",
-    "犬",
-    "小狗"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["狗", "宠物", "动物", "犬", "小狗"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "dog",
-      "tags": [
-        "dog",
-        "pet",
-        "animal",
-        "canine",
-        "puppy"
-      ],
-      "use-cases": [
-        "Pet care app",
-        "Animal shelter website",
-        "Veterinary service",
-        "Dog walking service"
-      ]
+      "tags": ["dog", "pet", "animal", "canine", "puppy"],
+      "use-cases": ["Pet care app", "Animal shelter website", "Veterinary service", "Dog walking service"]
     }
   }
 }

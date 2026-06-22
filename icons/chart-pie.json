@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据分布可视化",
-    "市场份额分析"
-  ],
+  "use-cases": ["数据分布可视化", "市场份额分析"],
   "name": "图表饼图",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "饼图",
-    "占比"
-  ],
-  "categories": [
-    "charts",
-    "files"
-  ],
+  "tags": ["统计", "分析", "图表", "饼图", "占比"],
+  "categories": ["charts", "files"],
   "aliases": [
     {
       "name": "pie-chart",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart pie",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "pie chart",
-        "percentage"
-      ],
-      "use-cases": [
-        "Data distribution visualization",
-        "Market share analysis"
-      ]
+      "tags": ["statistics", "analytics", "chart", "pie chart", "percentage"],
+      "use-cases": ["Data distribution visualization", "Market share analysis"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "缩小或最小化界面控件",
-    "布局调整工具",
-    "媒体播放器缩放按钮"
-  ],
+  "use-cases": ["缩小或最小化界面控件", "布局调整工具", "媒体播放器缩放按钮"],
   "name": "收缩",
-  "tags": [
-    "收缩",
-    "缩小",
-    "缩放",
-    "布局",
-    "箭头",
-    "最小化",
-    "调整大小"
-  ],
-  "categories": [
-    "layout",
-    "arrows"
-  ],
+  "tags": ["收缩", "缩小", "缩放", "布局", "箭头", "最小化", "调整大小"],
+  "categories": ["layout", "arrows"],
   "i18n": {
     "en": {
       "name": "shrink",
-      "tags": [
-        "shrink",
-        "minimize",
-        "zoom out",
-        "scale",
-        "layout",
-        "arrow",
-        "resize"
-      ],
-      "use-cases": [
-        "Zoom out or minimize UI control",
-        "Layout adjustment tool",
-        "Media player resize button"
-      ]
+      "tags": ["shrink", "minimize", "zoom out", "scale", "layout", "arrow", "resize"],
+      "use-cases": ["Zoom out or minimize UI control", "Layout adjustment tool", "Media player resize button"]
     }
   }
 }

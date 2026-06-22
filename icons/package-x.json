@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除包裹",
-    "交付失败",
-    "安装错误",
-    "取消操作"
-  ],
+  "use-cases": ["删除包裹", "交付失败", "安装错误", "取消操作"],
   "name": "包关闭",
-  "tags": [
-    "删除",
-    "关闭",
-    "错误",
-    "失败",
-    "取消"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["删除", "关闭", "错误", "失败", "取消"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "package X",
-      "tags": [
-        "delete",
-        "close",
-        "error",
-        "failure",
-        "cancel"
-      ],
-      "use-cases": [
-        "Delete package",
-        "Delivery failed",
-        "Installation error",
-        "Cancel operation"
-      ]
+      "tags": ["delete", "close", "error", "failure", "cancel"],
+      "use-cases": ["Delete package", "Delivery failed", "Installation error", "Cancel operation"]
     }
   }
 }

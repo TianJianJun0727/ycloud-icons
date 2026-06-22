@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "厨房应用",
-    "食谱软件",
-    "家电控制界面"
-  ],
+  "use-cases": ["厨房应用", "食谱软件", "家电控制界面"],
   "name": "搅拌机",
-  "tags": [
-    "搅拌机",
-    "厨房电器",
-    "食物",
-    "混合",
-    "饮料"
-  ],
-  "categories": [
-    "food-beverage",
-    "home"
-  ],
+  "tags": ["搅拌机", "厨房电器", "食物", "混合", "饮料"],
+  "categories": ["food-beverage", "home"],
   "i18n": {
     "en": {
       "name": "blender",
-      "tags": [
-        "blender",
-        "kitchen appliance",
-        "food",
-        "mix",
-        "beverage"
-      ],
-      "use-cases": [
-        "Kitchen app",
-        "Recipe software",
-        "Appliance control interface"
-      ]
+      "tags": ["blender", "kitchen appliance", "food", "mix", "beverage"],
+      "use-cases": ["Kitchen app", "Recipe software", "Appliance control interface"]
     }
   }
 }

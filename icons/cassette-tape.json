@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器复古模式",
-    "音频录制应用",
-    "怀旧或复古主题界面",
-    "旧格式媒体库"
-  ],
+  "use-cases": ["音乐播放器复古模式", "音频录制应用", "怀旧或复古主题界面", "旧格式媒体库"],
   "name": "磁带磁带",
-  "tags": [
-    "磁带",
-    "录音带",
-    "音乐",
-    "复古",
-    "音频",
-    "播放"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "multimedia",
-    "communication",
-    "files"
-  ],
+  "tags": ["磁带", "录音带", "音乐", "复古", "音频", "播放"],
+  "categories": ["connectivity", "devices", "multimedia", "communication", "files"],
   "i18n": {
     "en": {
       "name": "cassette tape",
-      "tags": [
-        "cassette tape",
-        "music",
-        "retro",
-        "audio",
-        "playback",
-        "recording"
-      ],
-      "use-cases": [
-        "Music player vintage mode",
-        "Audio recording app",
-        "Nostalgia or retro-themed UI",
-        "Media library for old formats"
-      ]
+      "tags": ["cassette tape", "music", "retro", "audio", "playback", "recording"],
+      "use-cases": ["Music player vintage mode", "Audio recording app", "Nostalgia or retro-themed UI", "Media library for old formats"]
     }
   }
 }

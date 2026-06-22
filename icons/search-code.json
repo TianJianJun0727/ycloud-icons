@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码搜索界面",
-    "文件内查找功能",
-    "集成开发环境搜索工具"
-  ],
+  "use-cases": ["代码搜索界面", "文件内查找功能", "集成开发环境搜索工具"],
   "name": "搜索代码",
-  "tags": [
-    "搜索",
-    "查找",
-    "代码",
-    "grep",
-    "放大镜",
-    "定位",
-    "开发",
-    "调试"
-  ],
-  "categories": [
-    "text",
-    "social",
-    "development"
-  ],
+  "tags": ["搜索", "查找", "代码", "grep", "放大镜", "定位", "开发", "调试"],
+  "categories": ["text", "social", "development"],
   "i18n": {
     "en": {
       "name": "search code",
-      "tags": [
-        "search",
-        "find",
-        "code",
-        "grep",
-        "magnifier",
-        "locate",
-        "development",
-        "debug"
-      ],
-      "use-cases": [
-        "Code search interface",
-        "Find in files feature",
-        "IDE search tool"
-      ]
+      "tags": ["search", "find", "code", "grep", "magnifier", "locate", "development", "debug"],
+      "use-cases": ["Code search interface", "Find in files feature", "IDE search tool"]
     }
   }
 }

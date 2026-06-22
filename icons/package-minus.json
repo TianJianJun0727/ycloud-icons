@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从包裹中移除物品",
-    "卸载软件包",
-    "减少库存"
-  ],
+  "use-cases": ["从包裹中移除物品", "卸载软件包", "减少库存"],
   "name": "包减少",
-  "tags": [
-    "删除",
-    "移除",
-    "减少",
-    "卸载"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["删除", "移除", "减少", "卸载"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "package minus",
-      "tags": [
-        "delete",
-        "remove",
-        "minus",
-        "uninstall"
-      ],
-      "use-cases": [
-        "Remove item from package",
-        "Uninstall software package",
-        "Reduce inventory"
-      ]
+      "tags": ["delete", "remove", "minus", "uninstall"],
+      "use-cases": ["Remove item from package", "Uninstall software package", "Reduce inventory"]
     }
   }
 }

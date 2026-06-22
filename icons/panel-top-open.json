@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "可展开的顶部面板控件",
-    "顶部导航抽屉的开关",
-    "显示/隐藏顶部菜单栏"
-  ],
+  "use-cases": ["可展开的顶部面板控件", "顶部导航抽屉的开关", "显示/隐藏顶部菜单栏"],
   "name": "面板顶部打开",
-  "tags": [
-    "展开",
-    "抽屉",
-    "菜单栏",
-    "显示",
-    "向下箭头",
-    "布局"
-  ],
-  "categories": [
-    "layout",
-    "arrows"
-  ],
+  "tags": ["展开", "抽屉", "菜单栏", "显示", "向下箭头", "布局"],
+  "categories": ["layout", "arrows"],
   "i18n": {
     "en": {
       "name": "panel top open",
-      "tags": [
-        "expand",
-        "drawer",
-        "menu bar",
-        "show",
-        "chevron down",
-        "layout"
-      ],
-      "use-cases": [
-        "Expandable top panel control",
-        "Toggle for a top navigation drawer",
-        "Show/hide a top menu bar"
-      ]
+      "tags": ["expand", "drawer", "menu bar", "show", "chevron down", "layout"],
+      "use-cases": ["Expandable top panel control", "Toggle for a top navigation drawer", "Show/hide a top menu bar"]
     }
   }
 }

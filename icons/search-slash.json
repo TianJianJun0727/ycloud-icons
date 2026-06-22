@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "取消搜索操作",
-    "禁用搜索过滤器",
-    "清空搜索输入框"
-  ],
+  "use-cases": ["取消搜索操作", "禁用搜索过滤器", "清空搜索输入框"],
   "name": "搜索斜杠",
-  "tags": [
-    "搜索",
-    "停止",
-    "清除",
-    "取消",
-    "禁用",
-    "斜杠",
-    "放大镜"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["搜索", "停止", "清除", "取消", "禁用", "斜杠", "放大镜"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "search slash",
-      "tags": [
-        "search",
-        "stop",
-        "clear",
-        "cancel",
-        "disable",
-        "slash",
-        "magnifier"
-      ],
-      "use-cases": [
-        "Cancel search action",
-        "Disable search filter",
-        "Clear search input"
-      ]
+      "tags": ["search", "stop", "clear", "cancel", "disable", "slash", "magnifier"],
+      "use-cases": ["Cancel search action", "Disable search filter", "Clear search input"]
     }
   }
 }

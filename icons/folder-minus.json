@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除文件夹操作",
-    "删除目录",
-    "文件夹删除"
-  ],
+  "use-cases": ["移除文件夹操作", "删除目录", "文件夹删除"],
   "name": "文件夹减少",
-  "tags": [
-    "目录",
-    "移除",
-    "删除",
-    "减少"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["目录", "移除", "删除", "减少"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder minus",
-      "tags": [
-        "directory",
-        "remove",
-        "delete",
-        "minus"
-      ],
-      "use-cases": [
-        "Remove folder action",
-        "Delete directory",
-        "Folder deletion"
-      ]
+      "tags": ["directory", "remove", "delete", "minus"],
+      "use-cases": ["Remove folder action", "Delete directory", "Folder deletion"]
     }
   }
 }

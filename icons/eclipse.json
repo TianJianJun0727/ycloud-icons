@@ -1,53 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "深色/浅色模式切换",
-    "无障碍对比度设置",
-    "天文应用功能",
-    "CSS主题切换"
-  ],
+  "use-cases": ["深色/浅色模式切换", "无障碍对比度设置", "天文应用功能", "CSS主题切换"],
   "name": "日食",
-  "tags": [
-    "日食",
-    "月食",
-    "太阳",
-    "月亮",
-    "黑暗模式",
-    "切换",
-    "亮度",
-    "对比度",
-    "天文",
-    "CSS"
-  ],
-  "categories": [
-    "science",
-    "design",
-    "development",
-    "accessibility",
-    "photography"
-  ],
+  "tags": ["日食", "月食", "太阳", "月亮", "黑暗模式", "切换", "亮度", "对比度", "天文", "CSS"],
+  "categories": ["science", "design", "development", "accessibility", "photography"],
   "i18n": {
     "en": {
       "name": "eclipse",
-      "tags": [
-        "eclipse",
-        "solar",
-        "lunar",
-        "sun",
-        "moon",
-        "dark mode",
-        "toggle",
-        "brightness",
-        "contrast",
-        "astronomy",
-        "css"
-      ],
-      "use-cases": [
-        "Dark/light mode toggle",
-        "Accessibility contrast settings",
-        "Astronomy app feature",
-        "CSS theme switch"
-      ]
+      "tags": ["eclipse", "solar", "lunar", "sun", "moon", "dark mode", "toggle", "brightness", "contrast", "astronomy", "css"],
+      "use-cases": ["Dark/light mode toggle", "Accessibility contrast settings", "Astronomy app feature", "CSS theme switch"]
     }
   }
 }

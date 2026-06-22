@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新文档",
-    "创建仓库",
-    "发布指南"
-  ],
+  "use-cases": ["添加新文档", "创建仓库", "发布指南"],
   "name": "书籍加号",
-  "tags": [
-    "代码",
-    "版本控制",
-    "Git",
-    "添加",
-    "创建",
-    "发布",
-    "学习",
-    "知识",
-    "升级"
-  ],
-  "categories": [
-    "development",
-    "text",
-    "gaming"
-  ],
+  "tags": ["代码", "版本控制", "Git", "添加", "创建", "发布", "学习", "知识", "升级"],
+  "categories": ["development", "text", "gaming"],
   "i18n": {
     "en": {
       "name": "book plus",
-      "tags": [
-        "code",
-        "version control",
-        "git",
-        "add",
-        "create",
-        "publish",
-        "study",
-        "knowledge",
-        "upgrade"
-      ],
-      "use-cases": [
-        "Add new documentation",
-        "Create a repository",
-        "Publish a guide"
-      ]
+      "tags": ["code", "version control", "git", "add", "create", "publish", "study", "knowledge", "upgrade"],
+      "use-cases": ["Add new documentation", "Create a repository", "Publish a guide"]
     }
   }
 }

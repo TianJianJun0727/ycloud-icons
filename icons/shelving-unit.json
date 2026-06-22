@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家庭储物整理",
-    "零售商品展示",
-    "仓库库存管理"
-  ],
+  "use-cases": ["家庭储物整理", "零售商品展示", "仓库库存管理"],
   "name": "货架单元",
-  "tags": [
-    "货架",
-    "存储",
-    "家具",
-    "展示",
-    "组织",
-    "仓库",
-    "零售"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["货架", "存储", "家具", "展示", "组织", "仓库", "零售"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "shelving unit",
-      "tags": [
-        "shelving",
-        "storage",
-        "furniture",
-        "display",
-        "organize",
-        "warehouse",
-        "retail"
-      ],
-      "use-cases": [
-        "Home storage organization",
-        "Retail product display",
-        "Warehouse inventory management"
-      ]
+      "tags": ["shelving", "storage", "furniture", "display", "organize", "warehouse", "retail"],
+      "use-cases": ["Home storage organization", "Retail product display", "Warehouse inventory management"]
     }
   }
 }

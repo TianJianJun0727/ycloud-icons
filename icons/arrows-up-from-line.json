@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "包裹方向标签",
-    "易碎品处理",
-    "运输方向指示器"
-  ],
+  "use-cases": ["包裹方向标签", "易碎品处理", "运输方向指示器"],
   "name": "箭头上从线条",
-  "tags": [
-    "运输",
-    "包裹",
-    "向上方向",
-    "易碎品",
-    "邮寄"
-  ],
-  "categories": [
-    "arrows",
-    "transportation",
-    "mail"
-  ],
+  "tags": ["运输", "包裹", "向上方向", "易碎品", "邮寄"],
+  "categories": ["arrows", "transportation", "mail"],
   "i18n": {
     "en": {
       "name": "arrows up from line",
-      "tags": [
-        "shipping",
-        "package",
-        "up direction",
-        "fragile",
-        "postage"
-      ],
-      "use-cases": [
-        "Package orientation label",
-        "Fragile item handling",
-        "Shipping direction indicator"
-      ]
+      "tags": ["shipping", "package", "up direction", "fragile", "postage"],
+      "use-cases": ["Package orientation label", "Fragile item handling", "Shipping direction indicator"]
     }
   }
 }

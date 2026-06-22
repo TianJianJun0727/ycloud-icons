@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码编辑器或IDE功能",
-    "函数参数设置",
-    "数学公式编辑器",
-    "编程教程内容"
-  ],
+  "use-cases": ["代码编辑器或IDE功能", "函数参数设置", "数学公式编辑器", "编程教程内容"],
   "name": "变量",
-  "tags": [
-    "变量",
-    "代码",
-    "编程",
-    "参数",
-    "代数",
-    "数学",
-    "符号"
-  ],
-  "categories": [
-    "development",
-    "math"
-  ],
+  "tags": ["变量", "代码", "编程", "参数", "代数", "数学", "符号"],
+  "categories": ["development", "math"],
   "i18n": {
     "en": {
       "name": "variable",
-      "tags": [
-        "variable",
-        "code",
-        "programming",
-        "parameter",
-        "algebra",
-        "math",
-        "symbol"
-      ],
-      "use-cases": [
-        "Code editor or IDE features",
-        "Function parameter settings",
-        "Mathematical equation editors",
-        "Programming tutorial content"
-      ]
+      "tags": ["variable", "code", "programming", "parameter", "algebra", "math", "symbol"],
+      "use-cases": ["Code editor or IDE features", "Function parameter settings", "Mathematical equation editors", "Programming tutorial content"]
     }
   }
 }

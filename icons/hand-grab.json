@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "拖放界面",
-    "光标状态",
-    "UI元素选择"
-  ],
+  "use-cases": ["拖放界面", "光标状态", "UI元素选择"],
   "name": "手抓取",
-  "tags": [
-    "抓取",
-    "光标",
-    "拖拽",
-    "选择",
-    "交互设计"
-  ],
-  "categories": [
-    "cursors",
-    "design",
-    "layout"
-  ],
+  "tags": ["抓取", "光标", "拖拽", "选择", "交互设计"],
+  "categories": ["cursors", "design", "layout"],
   "aliases": [
     {
       "name": "grab",
@@ -29,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "hand grab",
-      "tags": [
-        "grab",
-        "cursor",
-        "drag",
-        "select",
-        "interaction design"
-      ],
-      "use-cases": [
-        "Drag and drop interfaces",
-        "Cursor states",
-        "UI element selection"
-      ]
+      "tags": ["grab", "cursor", "drag", "select", "interaction design"],
+      "use-cases": ["Drag and drop interfaces", "Cursor states", "UI element selection"]
     }
   }
 }

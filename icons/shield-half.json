@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "部分防护状态",
-    "团队安全徽章",
-    "进度等级指示器"
-  ],
+  "use-cases": ["部分防护状态", "团队安全徽章", "进度等级指示器"],
   "name": "盾牌一半",
-  "tags": [
-    "半防护",
-    "部分安全",
-    "团队盾牌",
-    "等级标识",
-    "进度显示"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["半防护", "部分安全", "团队盾牌", "等级标识", "进度显示"],
+  "categories": ["account", "security", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "shield half",
-      "tags": [
-        "half protection",
-        "partial security",
-        "team shield",
-        "rank indicator",
-        "progress display"
-      ],
-      "use-cases": [
-        "Partial protection status",
-        "Team security badge",
-        "Progress level indicator"
-      ]
+      "tags": ["half protection", "partial security", "team shield", "rank indicator", "progress display"],
+      "use-cases": ["Partial protection status", "Team security badge", "Progress level indicator"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在日历上标记任务完成",
-    "确认预约",
-    "日程完成",
-    "活动出席确认"
-  ],
+  "use-cases": ["在日历上标记任务完成", "确认预约", "日程完成", "活动出席确认"],
   "name": "日历勾选2",
-  "tags": [
-    "日期",
-    "日历",
-    "确认",
-    "完成",
-    "任务",
-    "待办事项",
-    "日程",
-    "勾选"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日期", "日历", "确认", "完成", "任务", "待办事项", "日程", "勾选"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar check 2",
-      "tags": [
-        "date",
-        "calendar",
-        "confirm",
-        "done",
-        "task",
-        "todo",
-        "schedule",
-        "tick"
-      ],
-      "use-cases": [
-        "Mark task as done on calendar",
-        "Confirm appointment",
-        "Schedule completion",
-        "Event attendance confirmation"
-      ]
+      "tags": ["date", "calendar", "confirm", "done", "task", "todo", "schedule", "tick"],
+      "use-cases": ["Mark task as done on calendar", "Confirm appointment", "Schedule completion", "Event attendance confirmation"]
     }
   }
 }

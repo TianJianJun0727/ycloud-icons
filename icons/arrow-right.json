@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下一步按钮",
-    "向右导航箭头",
-    "前进方向指示器"
-  ],
+  "use-cases": ["下一步按钮", "向右导航箭头", "前进方向指示器"],
   "name": "箭头右",
-  "tags": [
-    "前进",
-    "下一个",
-    "方向",
-    "东",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["前进", "下一个", "方向", "东", "导航"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow right",
-      "tags": [
-        "forward",
-        "next",
-        "direction",
-        "east",
-        "navigation"
-      ],
-      "use-cases": [
-        "Next step button",
-        "Right navigation arrow",
-        "Forward direction indicator"
-      ]
+      "tags": ["forward", "next", "direction", "east", "navigation"],
+      "use-cases": ["Next step button", "Right navigation arrow", "Forward direction indicator"]
     }
   }
 }

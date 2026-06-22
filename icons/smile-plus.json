@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加反应功能",
-    "积极反馈按钮",
-    "表情选择"
-  ],
+  "use-cases": ["添加反应功能", "积极反馈按钮", "表情选择"],
   "name": "笑脸加号",
-  "tags": [
-    "笑脸",
-    "表情",
-    "添加",
-    "喜欢",
-    "积极反馈",
-    "情感反应"
-  ],
-  "categories": [
-    "emoji",
-    "social",
-    "notifications",
-    "communication"
-  ],
+  "tags": ["笑脸", "表情", "添加", "喜欢", "积极反馈", "情感反应"],
+  "categories": ["emoji", "social", "notifications", "communication"],
   "i18n": {
     "en": {
       "name": "smile plus",
-      "tags": [
-        "smile",
-        "emoji",
-        "add",
-        "like",
-        "positive feedback",
-        "emotional reaction"
-      ],
-      "use-cases": [
-        "Add reaction feature",
-        "Positive feedback button",
-        "Emoji selection"
-      ]
+      "tags": ["smile", "emoji", "add", "like", "positive feedback", "emotional reaction"],
+      "use-cases": ["Add reaction feature", "Positive feedback button", "Emoji selection"]
     }
   }
 }

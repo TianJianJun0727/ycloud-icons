@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本消息预览",
-    "聊天内容视图",
-    "评论详情"
-  ],
+  "use-cases": ["文本消息预览", "聊天内容视图", "评论详情"],
   "name": "消息方形文本",
-  "tags": [
-    "消息",
-    "文本",
-    "聊天",
-    "内容",
-    "对话",
-    "评论",
-    "详情",
-    "文档"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["消息", "文本", "聊天", "内容", "对话", "评论", "详情", "文档"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square text",
-      "tags": [
-        "message",
-        "text",
-        "chat",
-        "content",
-        "conversation",
-        "comment",
-        "details",
-        "document"
-      ],
-      "use-cases": [
-        "Text message preview",
-        "Chat content view",
-        "Comment details"
-      ]
+      "tags": ["message", "text", "chat", "content", "conversation", "comment", "details", "document"],
+      "use-cases": ["Text message preview", "Chat content view", "Comment details"]
     }
   }
 }

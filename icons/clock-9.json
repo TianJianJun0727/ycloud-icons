@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示9点时间",
-    "上午会议时间或深夜",
-    "时间轴和日程图标"
-  ],
+  "use-cases": ["显示9点时间", "上午会议时间或深夜", "时间轴和日程图标"],
   "name": "时钟9",
-  "tags": [
-    "时间",
-    "时钟",
-    "时刻",
-    "9点",
-    "上午",
-    "晚上"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "时刻", "9点", "上午", "晚上"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 9",
-      "tags": [
-        "time",
-        "clock",
-        "hour",
-        "9",
-        "nine",
-        "o'clock"
-      ],
-      "use-cases": [
-        "Time display for 9:00",
-        "Morning meeting time or late night",
-        "Timeline and schedule icons"
-      ]
+      "tags": ["time", "clock", "hour", "9", "nine", "o'clock"],
+      "use-cases": ["Time display for 9:00", "Morning meeting time or late night", "Timeline and schedule icons"]
     }
   }
 }

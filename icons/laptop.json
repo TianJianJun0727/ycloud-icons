@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用电脑表示",
-    "工作设备图标",
-    "技术板块",
-    "硬件列表"
-  ],
+  "use-cases": ["通用电脑表示", "工作设备图标", "技术板块", "硬件列表"],
   "name": "笔记本电脑",
-  "tags": [
-    "笔记本电脑",
-    "电脑",
-    "设备",
-    "工作",
-    "技术"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["笔记本电脑", "电脑", "设备", "工作", "技术"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "laptop",
-      "tags": [
-        "laptop",
-        "computer",
-        "device",
-        "work",
-        "technology"
-      ],
-      "use-cases": [
-        "General computer representation",
-        "Work device icon",
-        "Technology section",
-        "Hardware listing"
-      ]
+      "tags": ["laptop", "computer", "device", "work", "technology"],
+      "use-cases": ["General computer representation", "Work device icon", "Technology section", "Hardware listing"]
     }
   }
 }

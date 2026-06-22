@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "宽屏视频标识",
-    "横版图片占位",
-    "界面布局设计",
-    "宽高比选择"
-  ],
+  "use-cases": ["宽屏视频标识", "横版图片占位", "界面布局设计", "宽高比选择"],
   "name": "矩形水平",
-  "tags": [
-    "矩形",
-    "长方形",
-    "水平",
-    "宽屏",
-    "16:9",
-    "横版",
-    "形状"
-  ],
-  "categories": [
-    "shapes",
-    "design"
-  ],
+  "tags": ["矩形", "长方形", "水平", "宽屏", "16:9", "横版", "形状"],
+  "categories": ["shapes", "design"],
   "i18n": {
     "en": {
       "name": "rectangle horizontal",
-      "tags": [
-        "rectangle",
-        "horizontal",
-        "widescreen",
-        "16:9",
-        "landscape",
-        "shape"
-      ],
-      "use-cases": [
-        "Widescreen video indicator",
-        "Landscape image placeholder",
-        "UI layout design",
-        "Aspect ratio selection"
-      ]
+      "tags": ["rectangle", "horizontal", "widescreen", "16:9", "landscape", "shape"],
+      "use-cases": ["Widescreen video indicator", "Landscape image placeholder", "UI layout design", "Aspect ratio selection"]
     }
   }
 }

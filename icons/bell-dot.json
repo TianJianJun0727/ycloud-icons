@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "应用通知角标",
-    "未读消息提示",
-    "新提醒界面"
-  ],
+  "use-cases": ["应用通知角标", "未读消息提示", "新提醒界面"],
   "name": "铃铛点",
-  "tags": [
-    "未读通知",
-    "新提醒",
-    "消息提示",
-    "红点提醒"
-  ],
-  "categories": [
-    "account",
-    "notifications"
-  ],
+  "tags": ["未读通知", "新提醒", "消息提示", "红点提醒"],
+  "categories": ["account", "notifications"],
   "i18n": {
     "en": {
       "name": "bell dot",
-      "tags": [
-        "unread notification",
-        "new alert",
-        "message prompt",
-        "red dot reminder"
-      ],
-      "use-cases": [
-        "App notification badge",
-        "Unread message prompt",
-        "New alert interface"
-      ]
+      "tags": ["unread notification", "new alert", "message prompt", "red dot reminder"],
+      "use-cases": ["App notification badge", "Unread message prompt", "New alert interface"]
     }
   }
 }

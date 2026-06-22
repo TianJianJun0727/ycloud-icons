@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频播放器静音按钮",
-    "收音机应用禁用状态",
-    "信号关闭指示器"
-  ],
+  "use-cases": ["音频播放器静音按钮", "收音机应用禁用状态", "信号关闭指示器"],
   "name": "收音机关闭",
-  "tags": [
-    "收音机",
-    "关闭",
-    "信号",
-    "广播",
-    "静音",
-    "断开"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "social"
-  ],
+  "tags": ["收音机", "关闭", "信号", "广播", "静音", "断开"],
+  "categories": ["devices", "multimedia", "social"],
   "i18n": {
     "en": {
       "name": "radio off",
-      "tags": [
-        "radio",
-        "off",
-        "signal",
-        "broadcast",
-        "mute",
-        "disconnect"
-      ],
-      "use-cases": [
-        "Audio player mute button",
-        "Radio app disabled state",
-        "Signal off indicator"
-      ]
+      "tags": ["radio", "off", "signal", "broadcast", "mute", "disconnect"],
+      "use-cases": ["Audio player mute button", "Radio app disabled state", "Signal off indicator"]
     }
   }
 }

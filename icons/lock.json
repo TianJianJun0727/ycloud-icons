@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安全登录或账户",
-    "锁定私人文档",
-    "加密状态指示器"
-  ],
+  "use-cases": ["安全登录或账户", "锁定私人文档", "加密状态指示器"],
   "name": "锁",
-  "tags": [
-    "锁定",
-    "安全",
-    "保护",
-    "密码",
-    "隐私",
-    "加密"
-  ],
-  "categories": [
-    "security"
-  ],
+  "tags": ["锁定", "安全", "保护", "密码", "隐私", "加密"],
+  "categories": ["security"],
   "i18n": {
     "en": {
       "name": "lock",
-      "tags": [
-        "lock",
-        "security",
-        "protect",
-        "password",
-        "privacy",
-        "encryption"
-      ],
-      "use-cases": [
-        "Secure login or account",
-        "Lock private documents",
-        "Encryption status indicator"
-      ]
+      "tags": ["lock", "security", "protect", "password", "privacy", "encryption"],
+      "use-cases": ["Secure login or account", "Lock private documents", "Encryption status indicator"]
     }
   }
 }

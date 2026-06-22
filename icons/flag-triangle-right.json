@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码问题标记",
-    "时间线里程碑指示",
-    "导航或地图标记替代"
-  ],
+  "use-cases": ["代码问题标记", "时间线里程碑指示", "导航或地图标记替代"],
   "name": "旗帜三角形右",
-  "tags": [
-    "标记",
-    "报告",
-    "时间线",
-    "定位",
-    "开发标记"
-  ],
-  "categories": [
-    "development",
-    "navigation"
-  ],
+  "tags": ["标记", "报告", "时间线", "定位", "开发标记"],
+  "categories": ["development", "navigation"],
   "i18n": {
     "en": {
       "name": "flag triangle right",
-      "tags": [
-        "marker",
-        "report",
-        "timeline",
-        "pin",
-        "development flag"
-      ],
-      "use-cases": [
-        "Mark an issue in code",
-        "Timeline milestone indicator",
-        "Navigation or map pin alternative"
-      ]
+      "tags": ["marker", "report", "timeline", "pin", "development flag"],
+      "use-cases": ["Mark an issue in code", "Timeline milestone indicator", "Navigation or map pin alternative"]
     }
   }
 }

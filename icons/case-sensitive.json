@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索过滤器开关",
-    "代码搜索选项",
-    "密码或输入验证",
-    "文本比较工具"
-  ],
+  "use-cases": ["搜索过滤器开关", "代码搜索选项", "密码或输入验证", "文本比较工具"],
   "name": "箱包敏感",
-  "tags": [
-    "区分大小写",
-    "文本匹配",
-    "搜索",
-    "代码",
-    "设置"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["区分大小写", "文本匹配", "搜索", "代码", "设置"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "case sensitive",
-      "tags": [
-        "case-sensitive",
-        "text matching",
-        "search",
-        "code",
-        "settings"
-      ],
-      "use-cases": [
-        "Search filter toggle",
-        "Code search option",
-        "Password or input validation",
-        "Text comparison tool"
-      ]
+      "tags": ["case-sensitive", "text matching", "search", "code", "settings"],
+      "use-cases": ["Search filter toggle", "Code search option", "Password or input validation", "Text comparison tool"]
     }
   }
 }

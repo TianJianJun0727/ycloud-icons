@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "除法运算符号",
-    "代码注释语法",
-    "选项分隔符"
-  ],
+  "use-cases": ["除法运算符号", "代码注释语法", "选项分隔符"],
   "name": "斜杠",
-  "tags": [
-    "斜杠",
-    "除号",
-    "或",
-    "分隔符",
-    "代码符号",
-    "数学运算"
-  ],
-  "categories": [
-    "development",
-    "math"
-  ],
+  "tags": ["斜杠", "除号", "或", "分隔符", "代码符号", "数学运算"],
+  "categories": ["development", "math"],
   "i18n": {
     "en": {
       "name": "slash",
-      "tags": [
-        "slash",
-        "divide",
-        "or",
-        "separator",
-        "code symbol",
-        "mathematical operation"
-      ],
-      "use-cases": [
-        "Division operation symbol",
-        "Code comment syntax",
-        "Option separator"
-      ]
+      "tags": ["slash", "divide", "or", "separator", "code symbol", "mathematical operation"],
+      "use-cases": ["Division operation symbol", "Code comment syntax", "Option separator"]
     }
   }
 }

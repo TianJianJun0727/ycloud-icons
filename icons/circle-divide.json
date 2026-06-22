@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器功能",
-    "数学运算",
-    "除号符号"
-  ],
+  "use-cases": ["计算器功能", "数学运算", "除号符号"],
   "name": "圆形除号",
-  "tags": [
-    "除号",
-    "数学",
-    "计算",
-    "除法"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["除号", "数学", "计算", "除法"],
+  "categories": ["math"],
   "aliases": [
     {
       "name": "divide-circle",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle divide",
-      "tags": [
-        "divide",
-        "math",
-        "calculate",
-        "division"
-      ],
-      "use-cases": [
-        "Calculator function",
-        "Math operation",
-        "Division symbol"
-      ]
+      "tags": ["divide", "math", "calculate", "division"],
+      "use-cases": ["Calculator function", "Math operation", "Division symbol"]
     }
   }
 }

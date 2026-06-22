@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用无雨状态",
-    "保险状态显示",
-    "保护功能关闭"
-  ],
+  "use-cases": ["天气应用无雨状态", "保险状态显示", "保护功能关闭"],
   "name": "雨伞关闭",
-  "tags": [
-    "雨伞关闭",
-    "无保护",
-    "雨天",
-    "天气",
-    "风险"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["雨伞关闭", "无保护", "雨天", "天气", "风险"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "umbrella off",
-      "tags": [
-        "umbrella off",
-        "unprotected",
-        "rainy",
-        "weather",
-        "risk"
-      ],
-      "use-cases": [
-        "Weather app no rain state",
-        "Insurance status display",
-        "Protection feature off"
-      ]
+      "tags": ["umbrella off", "unprotected", "rainy", "weather", "risk"],
+      "use-cases": ["Weather app no rain state", "Insurance status display", "Protection feature off"]
     }
   }
 }

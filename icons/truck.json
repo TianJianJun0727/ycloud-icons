@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "运输物流仪表板",
-    "配送跟踪状态",
-    "车队管理界面"
-  ],
+  "use-cases": ["运输物流仪表板", "配送跟踪状态", "车队管理界面"],
   "name": "卡车",
-  "tags": [
-    "卡车",
-    "货车",
-    "运输",
-    "配送",
-    "物流"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["卡车", "货车", "运输", "配送", "物流"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "truck",
-      "tags": [
-        "delivery",
-        "van",
-        "shipping",
-        "lorry",
-        "transport",
-        "vehicle"
-      ],
-      "use-cases": [
-        "Shipping and logistics dashboard",
-        "Delivery tracking status",
-        "Fleet management interface"
-      ]
+      "tags": ["delivery", "van", "shipping", "lorry", "transport", "vehicle"],
+      "use-cases": ["Shipping and logistics dashboard", "Delivery tracking status", "Fleet management interface"]
     }
   }
 }

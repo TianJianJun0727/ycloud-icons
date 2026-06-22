@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "有雾天气状况",
-    "低能见度警告",
-    "雾蒙蒙的预报显示"
-  ],
+  "use-cases": ["有雾天气状况", "低能见度警告", "雾蒙蒙的预报显示"],
   "name": "云雾",
-  "tags": [
-    "雾",
-    "薄雾",
-    "能见度低",
-    "天气",
-    "朦胧",
-    "阴霾"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["雾", "薄雾", "能见度低", "天气", "朦胧", "阴霾"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud fog",
-      "tags": [
-        "fog",
-        "mist",
-        "low visibility",
-        "weather",
-        "haze",
-        "overcast"
-      ],
-      "use-cases": [
-        "Foggy weather condition",
-        "Low visibility warning",
-        "Misty forecast display"
-      ]
+      "tags": ["fog", "mist", "low visibility", "weather", "haze", "overcast"],
+      "use-cases": ["Foggy weather condition", "Low visibility warning", "Misty forecast display"]
     }
   }
 }

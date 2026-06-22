@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器控制",
-    "导航指示器",
-    "UI方向提示",
-    "几何设计"
-  ],
+  "use-cases": ["媒体播放器控制", "导航指示器", "UI方向提示", "几何设计"],
   "name": "三角形右",
-  "tags": [
-    "右三角形",
-    "播放",
-    "控制",
-    "方向",
-    "几何"
-  ],
-  "categories": [
-    "shapes",
-    "math"
-  ],
+  "tags": ["右三角形", "播放", "控制", "方向", "几何"],
+  "categories": ["shapes", "math"],
   "i18n": {
     "en": {
       "name": "triangle right",
-      "tags": [
-        "right",
-        "triangle",
-        "play",
-        "control",
-        "direction",
-        "geometry"
-      ],
-      "use-cases": [
-        "Media player controls",
-        "Navigation indicator",
-        "UI direction cues",
-        "Geometric design"
-      ]
+      "tags": ["right", "triangle", "play", "control", "direction", "geometry"],
+      "use-cases": ["Media player controls", "Navigation indicator", "UI direction cues", "Geometric design"]
     }
   }
 }

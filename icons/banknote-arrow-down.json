@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "取款交易",
-    "支出跟踪",
-    "退款状态"
-  ],
+  "use-cases": ["取款交易", "支出跟踪", "退款状态"],
   "name": "纸币箭头下",
-  "tags": [
-    "支出",
-    "取款",
-    "付款",
-    "退款",
-    "扣款",
-    "资金减少",
-    "交易",
-    "现金"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["支出", "取款", "付款", "退款", "扣款", "资金减少", "交易", "现金"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "banknote arrow down",
-      "tags": [
-        "expense",
-        "withdrawal",
-        "payment",
-        "refund",
-        "debit",
-        "decrease",
-        "transaction",
-        "cash"
-      ],
-      "use-cases": [
-        "Withdrawal transaction",
-        "Expense tracking",
-        "Refund status"
-      ]
+      "tags": ["expense", "withdrawal", "payment", "refund", "debit", "decrease", "transaction", "cash"],
+      "use-cases": ["Withdrawal transaction", "Expense tracking", "Refund status"]
     }
   }
 }

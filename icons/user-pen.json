@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑用户资料",
-    "修改账户设置",
-    "更新联系信息",
-    "更改用户详情"
-  ],
+  "use-cases": ["编辑用户资料", "修改账户设置", "更新联系信息", "更改用户详情"],
   "name": "用户笔",
-  "tags": [
-    "编辑用户",
-    "修改资料",
-    "用户设置",
-    "个人信息",
-    "账户编辑"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["编辑用户", "修改资料", "用户设置", "个人信息", "账户编辑"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "user pen",
-      "tags": [
-        "edit",
-        "profile",
-        "settings",
-        "user edit",
-        "account management"
-      ],
-      "use-cases": [
-        "editing user profile",
-        "modifying account settings",
-        "updating contact information",
-        "changing user details"
-      ]
+      "tags": ["edit", "profile", "settings", "user edit", "account management"],
+      "use-cases": ["editing user profile", "modifying account settings", "updating contact information", "changing user details"]
     }
   }
 }

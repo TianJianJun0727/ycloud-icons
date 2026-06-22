@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计应用中的自由形状对象选择",
-    "图像编辑套索工具",
-    "自定义区域选择界面"
-  ],
+  "use-cases": ["设计应用中的自由形状对象选择", "图像编辑套索工具", "自定义区域选择界面"],
   "name": "套索选择",
-  "tags": [
-    "套索选择",
-    "选区",
-    "设计工具",
-    "自由选择",
-    "光标",
-    "图形选择"
-  ],
-  "categories": [
-    "arrows",
-    "design",
-    "cursors"
-  ],
+  "tags": ["套索选择", "选区", "设计工具", "自由选择", "光标", "图形选择"],
+  "categories": ["arrows", "design", "cursors"],
   "i18n": {
     "en": {
       "name": "lasso select",
-      "tags": [
-        "lasso select",
-        "selection",
-        "design tool",
-        "freeform select",
-        "cursor",
-        "graphic selection"
-      ],
-      "use-cases": [
-        "Freeform object selection in design apps",
-        "Image editing lasso tool",
-        "Custom area selection UI"
-      ]
+      "tags": ["lasso select", "selection", "design tool", "freeform select", "cursor", "graphic selection"],
+      "use-cases": ["Freeform object selection in design apps", "Image editing lasso tool", "Custom area selection UI"]
     }
   }
 }

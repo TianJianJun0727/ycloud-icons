@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "自然主题设计",
-    "可持续产品标识",
-    "季节装饰"
-  ],
+  "use-cases": ["自然主题设计", "可持续产品标识", "季节装饰"],
   "name": "花2",
-  "tags": [
-    "花朵",
-    "植物",
-    "自然",
-    "可持续",
-    "装饰"
-  ],
-  "categories": [
-    "nature",
-    "sustainability",
-    "seasons"
-  ],
+  "tags": ["花朵", "植物", "自然", "可持续", "装饰"],
+  "categories": ["nature", "sustainability", "seasons"],
   "i18n": {
     "en": {
       "name": "flower 2",
-      "tags": [
-        "flower",
-        "plant",
-        "nature",
-        "sustainability",
-        "decoration"
-      ],
-      "use-cases": [
-        "Nature themed design",
-        "Sustainable product badge",
-        "Seasonal decoration"
-      ]
+      "tags": ["flower", "plant", "nature", "sustainability", "decoration"],
+      "use-cases": ["Nature themed design", "Sustainable product badge", "Seasonal decoration"]
     }
   }
 }

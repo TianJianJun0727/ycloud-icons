@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器右对齐按钮",
-    "文档格式化工具栏",
-    "将内容对齐到右侧的用户界面"
-  ],
+  "use-cases": ["文本编辑器右对齐按钮", "文档格式化工具栏", "将内容对齐到右侧的用户界面"],
   "name": "文本对齐末端",
-  "tags": [
-    "文本",
-    "对齐",
-    "右对齐",
-    "末尾",
-    "排版",
-    "格式"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["文本", "对齐", "右对齐", "末尾", "排版", "格式"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "align-right",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "text align end",
-      "tags": [
-        "text",
-        "alignment",
-        "right",
-        "end",
-        "typography",
-        "format"
-      ],
-      "use-cases": [
-        "Text editor right alignment button",
-        "Document formatting toolbar",
-        "UI for aligning content to the right"
-      ]
+      "tags": ["text", "alignment", "right", "end", "typography", "format"],
+      "use-cases": ["Text editor right alignment button", "Document formatting toolbar", "UI for aligning content to the right"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开照片画廊",
-    "查看图片集",
-    "浏览幻灯片"
-  ],
+  "use-cases": ["打开照片画廊", "查看图片集", "浏览幻灯片"],
   "name": "图片",
-  "tags": [
-    "多图",
-    "图片集",
-    "画廊",
-    "相册",
-    "幻灯片"
-  ],
-  "categories": [
-    "photography",
-    "text",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["多图", "图片集", "画廊", "相册", "幻灯片"],
+  "categories": ["photography", "text", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "images",
-      "tags": [
-        "multiple images",
-        "gallery",
-        "album",
-        "collection",
-        "slideshow"
-      ],
-      "use-cases": [
-        "Open a photo gallery",
-        "View an image collection",
-        "Navigate a slideshow"
-      ]
+      "tags": ["multiple images", "gallery", "album", "collection", "slideshow"],
+      "use-cases": ["Open a photo gallery", "View an image collection", "Navigate a slideshow"]
     }
   }
 }

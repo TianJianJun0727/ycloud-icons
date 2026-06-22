@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "折叠的文件夹视图",
-    "隐藏目录",
-    "最小化导航"
-  ],
+  "use-cases": ["折叠的文件夹视图", "隐藏目录", "最小化导航"],
   "name": "文件夹关闭",
-  "tags": [
-    "关闭",
-    "隐藏",
-    "最小化",
-    "折叠",
-    "未展开"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["关闭", "隐藏", "最小化", "折叠", "未展开"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder closed",
-      "tags": [
-        "closed",
-        "hidden",
-        "minimized",
-        "collapsed",
-        "unexpanded"
-      ],
-      "use-cases": [
-        "Collapsed folder view",
-        "Hidden directory",
-        "Minimized navigation"
-      ]
+      "tags": ["closed", "hidden", "minimized", "collapsed", "unexpanded"],
+      "use-cases": ["Collapsed folder view", "Hidden directory", "Minimized navigation"]
     }
   }
 }

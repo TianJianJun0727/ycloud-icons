@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "印度卢比折扣徽章",
-    "印度卢比价格标签",
-    "印度购物促销"
-  ],
+  "use-cases": ["印度卢比折扣徽章", "印度卢比价格标签", "印度购物促销"],
   "name": "徽章印度卢比",
-  "tags": [
-    "折扣",
-    "优惠",
-    "价格",
-    "印度卢比",
-    "促销",
-    "金融",
-    "购物",
-    "交易"
-  ],
-  "categories": [
-    "shopping",
-    "finance"
-  ],
+  "tags": ["折扣", "优惠", "价格", "印度卢比", "促销", "金融", "购物", "交易"],
+  "categories": ["shopping", "finance"],
   "i18n": {
     "en": {
       "name": "badge indian rupee",
-      "tags": [
-        "discount",
-        "offer",
-        "price",
-        "inr",
-        "sale",
-        "finance",
-        "shopping",
-        "transaction"
-      ],
-      "use-cases": [
-        "Discount badge in Indian rupee",
-        "INR price tag",
-        "India shopping promotion"
-      ]
+      "tags": ["discount", "offer", "price", "inr", "sale", "finance", "shopping", "transaction"],
+      "use-cases": ["Discount badge in Indian rupee", "INR price tag", "India shopping promotion"]
     }
   }
 }

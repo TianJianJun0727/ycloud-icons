@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "简约钱包界面",
-    "支付概览",
-    "金融应用图标"
-  ],
+  "use-cases": ["简约钱包界面", "支付概览", "金融应用图标"],
   "name": "钱包极简",
-  "tags": [
-    "钱包",
-    "简约",
-    "支付",
-    "金融",
-    "货币"
-  ],
-  "categories": [
-    "account",
-    "finance"
-  ],
+  "tags": ["钱包", "简约", "支付", "金融", "货币"],
+  "categories": ["account", "finance"],
   "aliases": [
     {
       "name": "wallet-2",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "wallet minimal",
-      "tags": [
-        "wallet",
-        "minimal",
-        "payment",
-        "finance",
-        "currency"
-      ],
-      "use-cases": [
-        "Simple wallet interface",
-        "Payment overview",
-        "Financial app icon"
-      ]
+      "tags": ["wallet", "minimal", "payment", "finance", "currency"],
+      "use-cases": ["Simple wallet interface", "Payment overview", "Financial app icon"]
     }
   }
 }

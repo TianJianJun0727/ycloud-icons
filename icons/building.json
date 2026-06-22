@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "组织资料图标",
-    "地图中的建筑选择",
-    "公司目录"
-  ],
+  "use-cases": ["组织资料图标", "地图中的建筑选择", "公司目录"],
   "name": "建筑",
-  "tags": [
-    "建筑",
-    "组织",
-    "公司",
-    "大楼",
-    "机构"
-  ],
-  "categories": [
-    "account",
-    "buildings"
-  ],
+  "tags": ["建筑", "组织", "公司", "大楼", "机构"],
+  "categories": ["account", "buildings"],
   "i18n": {
     "en": {
       "name": "building",
-      "tags": [
-        "building",
-        "organization",
-        "company",
-        "structure",
-        "institution"
-      ],
-      "use-cases": [
-        "Organization profile icon",
-        "Building selection in maps",
-        "Company directory"
-      ]
+      "tags": ["building", "organization", "company", "structure", "institution"],
+      "use-cases": ["Organization profile icon", "Building selection in maps", "Company directory"]
     }
   }
 }

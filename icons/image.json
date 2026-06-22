@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在页面中插入图片",
-    "查看照片",
-    "代表媒体文件"
-  ],
+  "use-cases": ["在页面中插入图片", "查看照片", "代表媒体文件"],
   "name": "图片",
-  "tags": [
-    "图片",
-    "照片",
-    "图像",
-    "媒体"
-  ],
-  "categories": [
-    "photography",
-    "text",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["图片", "照片", "图像", "媒体"],
+  "categories": ["photography", "text", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "image",
-      "tags": [
-        "picture",
-        "photo",
-        "graphic",
-        "media"
-      ],
-      "use-cases": [
-        "Insert an image into a page",
-        "View a photo",
-        "Represent a media file"
-      ]
+      "tags": ["picture", "photo", "graphic", "media"],
+      "use-cases": ["Insert an image into a page", "View a photo", "Represent a media file"]
     }
   }
 }

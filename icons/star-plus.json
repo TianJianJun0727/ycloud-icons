@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加到收藏",
-    "星标项目",
-    "添加书签",
-    "保存项目",
-    "标记为收藏"
-  ],
+  "use-cases": ["添加到收藏", "星标项目", "添加书签", "保存项目", "标记为收藏"],
   "name": "星标加号",
-  "tags": [
-    "星标",
-    "加号",
-    "添加",
-    "收藏",
-    "评分",
-    "加入",
-    "标记"
-  ],
-  "categories": [
-    "account",
-    "social",
-    "shapes",
-    "multimedia",
-    "weather",
-    "emoji",
-    "gaming"
-  ],
+  "tags": ["星标", "加号", "添加", "收藏", "评分", "加入", "标记"],
+  "categories": ["account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"],
   "i18n": {
     "en": {
       "name": "star plus",
-      "tags": [
-        "star",
-        "plus",
-        "add",
-        "favorite",
-        "rating",
-        "join",
-        "mark"
-      ],
-      "use-cases": [
-        "Add to favorites",
-        "Star item",
-        "Add bookmark",
-        "Save item",
-        "Mark as favorite"
-      ]
+      "tags": ["star", "plus", "add", "favorite", "rating", "join", "mark"],
+      "use-cases": ["Add to favorites", "Star item", "Add bookmark", "Save item", "Mark as favorite"]
     }
   }
 }

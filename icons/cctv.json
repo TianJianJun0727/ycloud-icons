@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安防系统界面",
-    "实时摄像头画面",
-    "监控仪表盘"
-  ],
+  "use-cases": ["安防系统界面", "实时摄像头画面", "监控仪表盘"],
   "name": "监控",
-  "tags": [
-    "监控",
-    "摄像头",
-    "安防",
-    "监视",
-    "录像"
-  ],
-  "categories": [
-    "security",
-    "devices",
-    "communication",
-    "connectivity",
-    "photography"
-  ],
+  "tags": ["监控", "摄像头", "安防", "监视", "录像"],
+  "categories": ["security", "devices", "communication", "connectivity", "photography"],
   "i18n": {
     "en": {
       "name": "cctv",
-      "tags": [
-        "cctv",
-        "camera",
-        "surveillance",
-        "security",
-        "recording"
-      ],
-      "use-cases": [
-        "Security system UI",
-        "Live camera feed",
-        "Monitoring dashboard"
-      ]
+      "tags": ["cctv", "camera", "surveillance", "security", "recording"],
+      "use-cases": ["Security system UI", "Live camera feed", "Monitoring dashboard"]
     }
   }
 }

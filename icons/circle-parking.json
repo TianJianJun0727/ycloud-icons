@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停车位置查找器",
-    "停车场地图图钉",
-    "启用停车功能切换"
-  ],
+  "use-cases": ["停车位置查找器", "停车场地图图钉", "启用停车功能切换"],
   "name": "圆形停车",
-  "tags": [
-    "停车场",
-    "停车位",
-    "泊车",
-    "交通",
-    "地图标记"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["停车场", "停车位", "泊车", "交通", "地图标记"],
+  "categories": ["transportation", "navigation"],
   "aliases": [
     {
       "name": "parking-circle",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle parking",
-      "tags": [
-        "parking",
-        "parking lot",
-        "parking space",
-        "transportation",
-        "map marker"
-      ],
-      "use-cases": [
-        "Parking location finder",
-        "Map pin for parking garage",
-        "Enable parking feature toggle"
-      ]
+      "tags": ["parking", "parking lot", "parking space", "transportation", "map marker"],
+      "use-cases": ["Parking location finder", "Map pin for parking garage", "Enable parking feature toggle"]
     }
   }
 }

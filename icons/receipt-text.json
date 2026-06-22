@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "带条款的详细发票",
-    "合同或协议摘要",
-    "附带条件的支付收据"
-  ],
+  "use-cases": ["带条款的详细发票", "合同或协议摘要", "附带条件的支付收据"],
   "name": "收据文本",
-  "tags": [
-    "收据",
-    "账单",
-    "详情",
-    "条款",
-    "合同",
-    "文本",
-    "发票",
-    "细则"
-  ],
-  "categories": [
-    "finance",
-    "travel"
-  ],
+  "tags": ["收据", "账单", "详情", "条款", "合同", "文本", "发票", "细则"],
+  "categories": ["finance", "travel"],
   "i18n": {
     "en": {
       "name": "receipt text",
-      "tags": [
-        "receipt",
-        "bill",
-        "details",
-        "terms",
-        "contract",
-        "text",
-        "invoice",
-        "fine print"
-      ],
-      "use-cases": [
-        "Detailed invoice with terms",
-        "Contract or agreement summary",
-        "Payment receipt with conditions"
-      ]
+      "tags": ["receipt", "bill", "details", "terms", "contract", "text", "invoice", "fine print"],
+      "use-cases": ["Detailed invoice with terms", "Contract or agreement summary", "Payment receipt with conditions"]
     }
   }
 }

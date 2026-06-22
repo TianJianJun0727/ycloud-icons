@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器",
-    "文档格式化",
-    "重点内容标记"
-  ],
+  "use-cases": ["文本编辑器", "文档格式化", "重点内容标记"],
   "name": "下划线",
-  "tags": [
-    "下划线",
-    "文本格式",
-    "强调",
-    "文字装饰"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["下划线", "文本格式", "强调", "文字装饰"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "underline",
-      "tags": [
-        "underline",
-        "text format",
-        "emphasis",
-        "text decoration"
-      ],
-      "use-cases": [
-        "Text editor",
-        "Document formatting",
-        "Important content marking"
-      ]
+      "tags": ["underline", "text format", "emphasis", "text decoration"],
+      "use-cases": ["Text editor", "Document formatting", "Important content marking"]
     }
   }
 }

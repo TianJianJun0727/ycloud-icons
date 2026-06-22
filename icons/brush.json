@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数字绘画工具",
-    "颜色应用",
-    "设计软件"
-  ],
+  "use-cases": ["数字绘画工具", "颜色应用", "设计软件"],
   "name": "刷子",
-  "tags": [
-    "刷子",
-    "绘画",
-    "油漆",
-    "颜色",
-    "设计"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "tools"
-  ],
+  "tags": ["刷子", "绘画", "油漆", "颜色", "设计"],
+  "categories": ["text", "design", "tools"],
   "i18n": {
     "en": {
       "name": "brush",
-      "tags": [
-        "brush",
-        "painting",
-        "paint",
-        "color",
-        "design"
-      ],
-      "use-cases": [
-        "Digital painting tools",
-        "Color application",
-        "Design software"
-      ]
+      "tags": ["brush", "painting", "paint", "color", "design"],
+      "use-cases": ["Digital painting tools", "Color application", "Design software"]
     }
   }
 }

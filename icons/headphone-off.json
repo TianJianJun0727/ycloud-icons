@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频播放器静音状态",
-    "耳机断开连接",
-    "关闭音频设备"
-  ],
+  "use-cases": ["音频播放器静音状态", "耳机断开连接", "关闭音频设备"],
   "name": "耳机关闭",
-  "tags": [
-    "耳机",
-    "静音",
-    "关闭",
-    "音频",
-    "音乐",
-    "设备"
-  ],
-  "categories": [
-    "multimedia",
-    "connectivity",
-    "communication",
-    "devices",
-    "gaming"
-  ],
+  "tags": ["耳机", "静音", "关闭", "音频", "音乐", "设备"],
+  "categories": ["multimedia", "connectivity", "communication", "devices", "gaming"],
   "i18n": {
     "en": {
       "name": "headphone off",
-      "tags": [
-        "headphones",
-        "mute",
-        "off",
-        "audio",
-        "music",
-        "device"
-      ],
-      "use-cases": [
-        "Audio player mute state",
-        "Headphones disconnected",
-        "Audio device turned off"
-      ]
+      "tags": ["headphones", "mute", "off", "audio", "music", "device"],
+      "use-cases": ["Audio player mute state", "Headphones disconnected", "Audio device turned off"]
     }
   }
 }

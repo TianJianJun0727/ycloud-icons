@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "户外装备界面",
-    "林业应用",
-    "生存工具",
-    "游戏武器选择"
-  ],
+  "use-cases": ["户外装备界面", "林业应用", "生存工具", "游戏武器选择"],
   "name": "斧头",
-  "tags": [
-    "斧头",
-    "工具",
-    "砍伐",
-    "武器",
-    "林业",
-    "伐木",
-    "户外",
-    "生存"
-  ],
-  "categories": [
-    "tools",
-    "gaming"
-  ],
+  "tags": ["斧头", "工具", "砍伐", "武器", "林业", "伐木", "户外", "生存"],
+  "categories": ["tools", "gaming"],
   "i18n": {
     "en": {
       "name": "axe",
-      "tags": [
-        "axe",
-        "tool",
-        "chopping",
-        "weapon",
-        "forestry",
-        "logging",
-        "outdoor",
-        "survival"
-      ],
-      "use-cases": [
-        "Outdoor equipment interfaces",
-        "Forestry applications",
-        "Survival tools",
-        "Gaming weapon selection"
-      ]
+      "tags": ["axe", "tool", "chopping", "weapon", "forestry", "logging", "outdoor", "survival"],
+      "use-cases": ["Outdoor equipment interfaces", "Forestry applications", "Survival tools", "Gaming weapon selection"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频或媒体播放器控件",
-    "图像或文档预览切换",
-    "仪表板或演示文稿视图模式"
-  ],
+  "use-cases": ["视频或媒体播放器控件", "图像或文档预览切换", "仪表板或演示文稿视图模式"],
   "name": "全屏",
-  "tags": [
-    "全屏",
-    "最大化",
-    "展开视图",
-    "沉浸模式",
-    "媒体播放"
-  ],
-  "categories": [
-    "layout",
-    "multimedia",
-    "design",
-    "photography"
-  ],
+  "tags": ["全屏", "最大化", "展开视图", "沉浸模式", "媒体播放"],
+  "categories": ["layout", "multimedia", "design", "photography"],
   "i18n": {
     "en": {
       "name": "fullscreen",
-      "tags": [
-        "fullscreen",
-        "maximize",
-        "expand-view",
-        "immersive-mode",
-        "media-playback"
-      ],
-      "use-cases": [
-        "Video or media player controls",
-        "Image or document preview toggles",
-        "Dashboard or presentation view modes"
-      ]
+      "tags": ["fullscreen", "maximize", "expand-view", "immersive-mode", "media-playback"],
+      "use-cases": ["Video or media player controls", "Image or document preview toggles", "Dashboard or presentation view modes"]
     }
   }
 }

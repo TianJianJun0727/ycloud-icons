@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "活动门票验证成功",
-    "已确认的预订",
-    "入场通行证核验"
-  ],
+  "use-cases": ["活动门票验证成功", "已确认的预订", "入场通行证核验"],
   "name": "票券勾选",
-  "tags": [
-    "票务",
-    "验票",
-    "已核验",
-    "入场券",
-    "通过",
-    "活动",
-    "已使用"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["票务", "验票", "已核验", "入场券", "通过", "活动", "已使用"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "ticket check",
-      "tags": [
-        "ticket",
-        "check",
-        "validated",
-        "admission",
-        "pass",
-        "event",
-        "used"
-      ],
-      "use-cases": [
-        "Event ticket validation success",
-        "Confirmed booking or reservation",
-        "Entry pass verification"
-      ]
+      "tags": ["ticket", "check", "validated", "admission", "pass", "event", "used"],
+      "use-cases": ["Event ticket validation success", "Confirmed booking or reservation", "Entry pass verification"]
     }
   }
 }

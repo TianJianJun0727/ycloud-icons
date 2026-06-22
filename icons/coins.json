@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "货币显示",
-    "游戏奖励",
-    "金融界面"
-  ],
+  "use-cases": ["货币显示", "游戏奖励", "金融界面"],
   "name": "硬币",
-  "tags": [
-    "硬币",
-    "货币",
-    "游戏",
-    "金融",
-    "奖励"
-  ],
-  "categories": [
-    "gaming"
-  ],
+  "tags": ["硬币", "货币", "游戏", "金融", "奖励"],
+  "categories": ["gaming"],
   "i18n": {
     "en": {
       "name": "coins",
-      "tags": [
-        "coins",
-        "currency",
-        "gaming",
-        "finance",
-        "reward"
-      ],
-      "use-cases": [
-        "Currency display",
-        "Gaming rewards",
-        "Financial UI"
-      ]
+      "tags": ["coins", "currency", "gaming", "finance", "reward"],
+      "use-cases": ["Currency display", "Gaming rewards", "Financial UI"]
     }
   }
 }

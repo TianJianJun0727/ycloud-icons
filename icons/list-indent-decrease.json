@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "减少列表缩进级别",
-    "在编辑器中减少文本缩进",
-    "在大纲视图中左移列表项"
-  ],
+  "use-cases": ["减少列表缩进级别", "在编辑器中减少文本缩进", "在大纲视图中左移列表项"],
   "name": "列表缩进减少",
-  "tags": [
-    "列表",
-    "缩进",
-    "减少",
-    "左移",
-    "文本",
-    "代码"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["列表", "缩进", "减少", "左移", "文本", "代码"],
+  "categories": ["text", "development"],
   "aliases": [
     {
       "name": "outdent",
@@ -35,19 +21,8 @@
   "i18n": {
     "en": {
       "name": "list indent decrease",
-      "tags": [
-        "list",
-        "indent",
-        "decrease",
-        "outdent",
-        "text",
-        "code"
-      ],
-      "use-cases": [
-        "Decrease indent level in a list",
-        "Outdent text in an editor",
-        "Move list item left in outline view"
-      ]
+      "tags": ["list", "indent", "decrease", "outdent", "text", "code"],
+      "use-cases": ["Decrease indent level in a list", "Outdent text in an editor", "Move list item left in outline view"]
     }
   }
 }

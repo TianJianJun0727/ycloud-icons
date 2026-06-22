@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "占星应用星座符号",
-    "社交媒体个人资料星座",
-    "星座运势网站图标"
-  ],
+  "use-cases": ["占星应用星座符号", "社交媒体个人资料星座", "星座运势网站图标"],
   "name": "星座金牛座",
-  "tags": [
-    "金牛座",
-    "星座",
-    "占星",
-    "公牛",
-    "土象",
-    "稳定",
-    "耐力",
-    "星座运势"
-  ],
-  "categories": [
-    "social",
-    "emoji"
-  ],
+  "tags": ["金牛座", "星座", "占星", "公牛", "土象", "稳定", "耐力", "星座运势"],
+  "categories": ["social", "emoji"],
   "i18n": {
     "en": {
       "name": "zodiac taurus",
-      "tags": [
-        "taurus",
-        "zodiac",
-        "astrology",
-        "bull",
-        "earth sign",
-        "stability",
-        "endurance",
-        "horoscope"
-      ],
-      "use-cases": [
-        "Astrology app zodiac sign",
-        "Social media profile birth sign",
-        "Horoscope website icon"
-      ]
+      "tags": ["taurus", "zodiac", "astrology", "bull", "earth sign", "stability", "endurance", "horoscope"],
+      "use-cases": ["Astrology app zodiac sign", "Social media profile birth sign", "Horoscope website icon"]
     }
   }
 }

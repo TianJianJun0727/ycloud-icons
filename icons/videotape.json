@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代表旧式视频媒体",
-    "视频存档符号",
-    "复古录制图标"
-  ],
+  "use-cases": ["代表旧式视频媒体", "视频存档符号", "复古录制图标"],
   "name": "录像带",
-  "tags": [
-    "录像带",
-    "复古",
-    "视频",
-    "录制",
-    "媒体",
-    "存档"
-  ],
-  "categories": [
-    "devices",
-    "communication",
-    "connectivity",
-    "photography",
-    "files"
-  ],
+  "tags": ["录像带", "复古", "视频", "录制", "媒体", "存档"],
+  "categories": ["devices", "communication", "connectivity", "photography", "files"],
   "i18n": {
     "en": {
       "name": "videotape",
-      "tags": [
-        "videotape",
-        "retro",
-        "video",
-        "recording",
-        "media",
-        "archive"
-      ],
-      "use-cases": [
-        "Represent old video media",
-        "Video archive symbol",
-        "Retro recording icon"
-      ]
+      "tags": ["videotape", "retro", "video", "recording", "media", "archive"],
+      "use-cases": ["Represent old video media", "Video archive symbol", "Retro recording icon"]
     }
   }
 }

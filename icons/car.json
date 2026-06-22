@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "车辆租赁服务",
-    "交通图标",
-    "驾驶应用",
-    "停车或物流界面"
-  ],
+  "use-cases": ["车辆租赁服务", "交通图标", "驾驶应用", "停车或物流界面"],
   "name": "汽车",
-  "tags": [
-    "汽车",
-    "车辆",
-    "驾驶",
-    "交通",
-    "出行",
-    "轿车"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["汽车", "车辆", "驾驶", "交通", "出行", "轿车"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "car",
-      "tags": [
-        "car",
-        "vehicle",
-        "automobile",
-        "drive",
-        "transportation",
-        "travel"
-      ],
-      "use-cases": [
-        "Vehicle rental service",
-        "Transportation icon",
-        "Driving app",
-        "Parking or logistics interface"
-      ]
+      "tags": ["car", "vehicle", "automobile", "drive", "transportation", "travel"],
+      "use-cases": ["Vehicle rental service", "Transportation icon", "Driving app", "Parking or logistics interface"]
     }
   }
 }

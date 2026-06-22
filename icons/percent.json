@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "折扣或促销价格显示",
-    "数学模运算",
-    "金融百分比计算"
-  ],
+  "use-cases": ["折扣或促销价格显示", "数学模运算", "金融百分比计算"],
   "name": "百分比",
-  "tags": [
-    "百分比",
-    "折扣",
-    "销售",
-    "模运算",
-    "数学",
-    "金融"
-  ],
-  "categories": [
-    "math",
-    "development",
-    "finance",
-    "shopping"
-  ],
+  "tags": ["百分比", "折扣", "销售", "模运算", "数学", "金融"],
+  "categories": ["math", "development", "finance", "shopping"],
   "i18n": {
     "en": {
       "name": "percent",
-      "tags": [
-        "percent",
-        "discount",
-        "sale",
-        "modulo",
-        "math",
-        "finance"
-      ],
-      "use-cases": [
-        "Discount or sale pricing display",
-        "Mathematical modulo operations",
-        "Financial percentage calculations"
-      ]
+      "tags": ["percent", "discount", "sale", "modulo", "math", "finance"],
+      "use-cases": ["Discount or sale pricing display", "Mathematical modulo operations", "Financial percentage calculations"]
     }
   }
 }

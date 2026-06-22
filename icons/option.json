@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "键盘快捷键",
-    "软件选项",
-    "菜单选择"
-  ],
+  "use-cases": ["键盘快捷键", "软件选项", "菜单选择"],
   "name": "选项",
-  "tags": [
-    "选项",
-    "键盘键",
-    "Alt键",
-    "选择",
-    "设置"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["选项", "键盘键", "Alt键", "选择", "设置"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "option",
-      "tags": [
-        "option",
-        "keyboard key",
-        "alt key",
-        "choice",
-        "settings"
-      ],
-      "use-cases": [
-        "Keyboard shortcuts",
-        "Software options",
-        "Menu selections"
-      ]
+      "tags": ["option", "keyboard key", "alt key", "choice", "settings"],
+      "use-cases": ["Keyboard shortcuts", "Software options", "Menu selections"]
     }
   }
 }

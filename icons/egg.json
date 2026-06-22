@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "早餐食谱图标",
-    "复活节节日设计",
-    "农场或动物应用",
-    "杂货购物清单"
-  ],
+  "use-cases": ["早餐食谱图标", "复活节节日设计", "农场或动物应用", "杂货购物清单"],
   "name": "鸡蛋",
-  "tags": [
-    "鸡蛋",
-    "早餐",
-    "复活节",
-    "孵化",
-    "鸟类",
-    "巢",
-    "食物",
-    "食材"
-  ],
-  "categories": [
-    "food-beverage",
-    "animals"
-  ],
+  "tags": ["鸡蛋", "早餐", "复活节", "孵化", "鸟类", "巢", "食物", "食材"],
+  "categories": ["food-beverage", "animals"],
   "i18n": {
     "en": {
       "name": "egg",
-      "tags": [
-        "egg",
-        "breakfast",
-        "easter",
-        "hatch",
-        "bird",
-        "nest",
-        "food",
-        "ingredient"
-      ],
-      "use-cases": [
-        "Breakfast recipe icon",
-        "Easter holiday design",
-        "Farm or animal app",
-        "Grocery shopping list"
-      ]
+      "tags": ["egg", "breakfast", "easter", "hatch", "bird", "nest", "food", "ingredient"],
+      "use-cases": ["Breakfast recipe icon", "Easter holiday design", "Farm or animal app", "Grocery shopping list"]
     }
   }
 }

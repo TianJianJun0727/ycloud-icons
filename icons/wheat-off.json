@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "无麸质饮食筛选器",
-    "过敏原警告指示器",
-    "食物偏好设置",
-    "成分排除开关"
-  ],
+  "use-cases": ["无麸质饮食筛选器", "过敏原警告指示器", "食物偏好设置", "成分排除开关"],
   "name": "小麦关闭",
-  "tags": [
-    "小麦",
-    "禁用",
-    "无麸质",
-    "过敏",
-    "饮食限制",
-    "谷物",
-    "不含"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["小麦", "禁用", "无麸质", "过敏", "饮食限制", "谷物", "不含"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "wheat off",
-      "tags": [
-        "wheat",
-        "disabled",
-        "gluten-free",
-        "allergy",
-        "dietary restriction",
-        "grain",
-        "excluded"
-      ],
-      "use-cases": [
-        "Gluten-free diet filter",
-        "Allergen warning indicator",
-        "Food preference settings",
-        "Ingredient exclusion toggle"
-      ]
+      "tags": ["wheat", "disabled", "gluten-free", "allergy", "dietary restriction", "grain", "excluded"],
+      "use-cases": ["Gluten-free diet filter", "Allergen warning indicator", "Food preference settings", "Ingredient exclusion toggle"]
     }
   }
 }

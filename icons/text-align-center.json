@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器工具栏",
-    "文档格式控制",
-    "UI设计对齐工具"
-  ],
+  "use-cases": ["文本编辑器工具栏", "文档格式控制", "UI设计对齐工具"],
   "name": "文本对齐居中",
-  "tags": [
-    "文本居中",
-    "对齐",
-    "排版",
-    "文字格式"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["文本居中", "对齐", "排版", "文字格式"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "align-center",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "text align center",
-      "tags": [
-        "text align center",
-        "alignment",
-        "typography",
-        "text formatting"
-      ],
-      "use-cases": [
-        "Text editor toolbar",
-        "Document formatting controls",
-        "UI design alignment tool"
-      ]
+      "tags": ["text align center", "alignment", "typography", "text formatting"],
+      "use-cases": ["Text editor toolbar", "Document formatting controls", "UI design alignment tool"]
     }
   }
 }

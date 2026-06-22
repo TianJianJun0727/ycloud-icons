@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "智能门铃应用",
-    "安全警报系统",
-    "学校时间表界面"
-  ],
+  "use-cases": ["智能门铃应用", "安全警报系统", "学校时间表界面"],
   "name": "铃铛电动",
-  "tags": [
-    "门铃",
-    "警报器",
-    "紧急通知",
-    "安全设备",
-    "学校铃声"
-  ],
-  "categories": [
-    "devices",
-    "notifications",
-    "home"
-  ],
+  "tags": ["门铃", "警报器", "紧急通知", "安全设备", "学校铃声"],
+  "categories": ["devices", "notifications", "home"],
   "i18n": {
     "en": {
       "name": "bell electric",
-      "tags": [
-        "doorbell",
-        "alarm",
-        "emergency alert",
-        "safety device",
-        "school bell"
-      ],
-      "use-cases": [
-        "Smart doorbell application",
-        "Security alarm system",
-        "School timetable interface"
-      ]
+      "tags": ["doorbell", "alarm", "emergency alert", "safety device", "school bell"],
+      "use-cases": ["Smart doorbell application", "Security alarm system", "School timetable interface"]
     }
   }
 }

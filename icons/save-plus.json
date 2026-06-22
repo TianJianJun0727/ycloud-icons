@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "保存当前文件的新副本",
-    "从当前工作创建新项目",
-    "添加并保存新条目"
-  ],
+  "use-cases": ["保存当前文件的新副本", "从当前工作创建新项目", "添加并保存新条目"],
   "name": "保存加号",
-  "tags": [
-    "保存为新",
-    "创建副本",
-    "添加保存",
-    "新建保存",
-    "增量保存"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["保存为新", "创建副本", "添加保存", "新建保存", "增量保存"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "save plus",
-      "tags": [
-        "save as new",
-        "create copy",
-        "add and save",
-        "new save",
-        "incremental save"
-      ],
-      "use-cases": [
-        "Save a new copy of the current file",
-        "Create a new item from current work",
-        "Add and save a new entry"
-      ]
+      "tags": ["save as new", "create copy", "add and save", "new save", "incremental save"],
+      "use-cases": ["Save a new copy of the current file", "Create a new item from current work", "Add and save a new entry"]
     }
   }
 }

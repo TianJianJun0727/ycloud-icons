@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "活动票务或入场",
-    "优惠券或代金券展示",
-    "访问通行证或入场许可"
-  ],
+  "use-cases": ["活动票务或入场", "优惠券或代金券展示", "访问通行证或入场许可"],
   "name": "票券",
-  "tags": [
-    "票券",
-    "门票",
-    "入场券",
-    "优惠券",
-    "通行证",
-    "活动"
-  ],
-  "categories": [
-    "account",
-    "transportation"
-  ],
+  "tags": ["票券", "门票", "入场券", "优惠券", "通行证", "活动"],
+  "categories": ["account", "transportation"],
   "i18n": {
     "en": {
       "name": "ticket",
-      "tags": [
-        "ticket",
-        "admission",
-        "voucher",
-        "pass",
-        "coupon",
-        "event"
-      ],
-      "use-cases": [
-        "Event ticketing or admission",
-        "Coupon or voucher display",
-        "Access pass or entry permit"
-      ]
+      "tags": ["ticket", "admission", "voucher", "pass", "coupon", "event"],
+      "use-cases": ["Event ticketing or admission", "Coupon or voucher display", "Access pass or entry permit"]
     }
   }
 }

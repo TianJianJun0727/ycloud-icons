@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "顶部面板布局参考线",
-    "顶栏间距指示器",
-    "界面设计线框图"
-  ],
+  "use-cases": ["顶部面板布局参考线", "顶栏间距指示器", "界面设计线框图"],
   "name": "面板顶部虚线",
-  "tags": [
-    "顶栏",
-    "布局",
-    "参考线",
-    "边距",
-    "填充",
-    "设计",
-    "分隔",
-    "虚线",
-    "顶部"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["顶栏", "布局", "参考线", "边距", "填充", "设计", "分隔", "虚线", "顶部"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "panel-top-inactive",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "panel top dashed",
-      "tags": [
-        "header",
-        "layout",
-        "guide",
-        "margin",
-        "padding",
-        "design",
-        "separator",
-        "dashed",
-        "top"
-      ],
-      "use-cases": [
-        "Layout guides for top panel",
-        "Header spacing indicators",
-        "UI design wireframe"
-      ]
+      "tags": ["header", "layout", "guide", "margin", "padding", "design", "separator", "dashed", "top"],
+      "use-cases": ["Layout guides for top panel", "Header spacing indicators", "UI design wireframe"]
     }
   }
 }

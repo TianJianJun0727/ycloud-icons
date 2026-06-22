@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "机场行李领取区",
-    "行李提取指示器",
-    "旅行物流"
-  ],
+  "use-cases": ["机场行李领取区", "行李提取指示器", "旅行物流"],
   "name": "行李领取",
-  "tags": [
-    "行李",
-    "领取",
-    "机场",
-    "旅行",
-    "手推车"
-  ],
-  "categories": [
-    "transportation",
-    "travel"
-  ],
+  "tags": ["行李", "领取", "机场", "旅行", "手推车"],
+  "categories": ["transportation", "travel"],
   "i18n": {
     "en": {
       "name": "baggage claim",
-      "tags": [
-        "baggage",
-        "claim",
-        "airport",
-        "travel",
-        "cart"
-      ],
-      "use-cases": [
-        "Airport baggage claim area",
-        "Luggage pickup indicator",
-        "Travel logistics"
-      ]
+      "tags": ["baggage", "claim", "airport", "travel", "cart"],
+      "use-cases": ["Airport baggage claim area", "Luggage pickup indicator", "Travel logistics"]
     }
   }
 }

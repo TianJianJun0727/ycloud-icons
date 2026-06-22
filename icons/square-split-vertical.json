@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直布局分割",
-    "分屏界面",
-    "面板分离"
-  ],
+  "use-cases": ["垂直布局分割", "分屏界面", "面板分离"],
   "name": "方形拆分垂直",
-  "tags": [
-    "垂直分割",
-    "布局",
-    "拆分",
-    "分屏",
-    "上下分割"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["垂直分割", "布局", "拆分", "分屏", "上下分割"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "split-square-vertical",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square split vertical",
-      "tags": [
-        "vertical split",
-        "layout",
-        "split",
-        "split screen",
-        "top bottom"
-      ],
-      "use-cases": [
-        "Vertical layout division",
-        "Split screen interface",
-        "Panel separation"
-      ]
+      "tags": ["vertical split", "layout", "split", "split screen", "top bottom"],
+      "use-cases": ["Vertical layout division", "Split screen interface", "Panel separation"]
     }
   }
 }

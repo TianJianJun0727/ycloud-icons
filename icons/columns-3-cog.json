@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "布局自定义",
-    "设置面板",
-    "网格配置"
-  ],
+  "use-cases": ["布局自定义", "设置面板", "网格配置"],
   "name": "列3齿轮",
-  "tags": [
-    "列",
-    "设置",
-    "布局",
-    "配置",
-    "自定义"
-  ],
-  "categories": [
-    "layout",
-    "design"
-  ],
+  "tags": ["列", "设置", "布局", "配置", "自定义"],
+  "categories": ["layout", "design"],
   "aliases": [
     {
       "name": "columns-settings",
@@ -34,18 +21,8 @@
   "i18n": {
     "en": {
       "name": "columns 3 cog",
-      "tags": [
-        "columns",
-        "settings",
-        "layout",
-        "configuration",
-        "customize"
-      ],
-      "use-cases": [
-        "Layout customization",
-        "Settings panel",
-        "Grid configuration"
-      ]
+      "tags": ["columns", "settings", "layout", "configuration", "customize"],
+      "use-cases": ["Layout customization", "Settings panel", "Grid configuration"]
     }
   }
 }

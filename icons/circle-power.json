@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电源按钮",
-    "设备切换开关",
-    "重启控制",
-    "二进制状态指示器"
-  ],
+  "use-cases": ["电源按钮", "设备切换开关", "重启控制", "二进制状态指示器"],
   "name": "圆形电源",
-  "tags": [
-    "电源",
-    "开关",
-    "开关机",
-    "重启",
-    "按钮",
-    "设备控制"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["电源", "开关", "开关机", "重启", "按钮", "设备控制"],
+  "categories": ["connectivity"],
   "aliases": [
     {
       "name": "power-circle",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle power",
-      "tags": [
-        "power",
-        "switch",
-        "on-off",
-        "reboot",
-        "button",
-        "device control"
-      ],
-      "use-cases": [
-        "Power button",
-        "Device toggle switch",
-        "Restart control",
-        "Binary state indicator"
-      ]
+      "tags": ["power", "switch", "on-off", "reboot", "button", "device control"],
+      "use-cases": ["Power button", "Device toggle switch", "Restart control", "Binary state indicator"]
     }
   }
 }

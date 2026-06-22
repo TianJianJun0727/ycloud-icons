@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "智能家居控制",
-    "室内设计软件",
-    "窗帘控制界面"
-  ],
+  "use-cases": ["智能家居控制", "室内设计软件", "窗帘控制界面"],
   "name": "百叶窗",
-  "tags": [
-    "百叶窗",
-    "窗帘",
-    "窗户",
-    "家居",
-    "遮光"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["百叶窗", "窗帘", "窗户", "家居", "遮光"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "blinds",
-      "tags": [
-        "blinds",
-        "curtain",
-        "window",
-        "home",
-        "shading"
-      ],
-      "use-cases": [
-        "Smart home control",
-        "Interior design software",
-        "Blind control interface"
-      ]
+      "tags": ["blinds", "curtain", "window", "home", "shading"],
+      "use-cases": ["Smart home control", "Interior design software", "Blind control interface"]
     }
   }
 }

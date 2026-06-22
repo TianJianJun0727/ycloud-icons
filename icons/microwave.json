@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食物加热控制",
-    "厨房电器界面",
-    "智能家居设置"
-  ],
+  "use-cases": ["食物加热控制", "厨房电器界面", "智能家居设置"],
   "name": "微波炉",
-  "tags": [
-    "微波炉",
-    "厨房电器",
-    "加热",
-    "烹饪",
-    "家用电器"
-  ],
-  "categories": [
-    "food-beverage",
-    "home"
-  ],
+  "tags": ["微波炉", "厨房电器", "加热", "烹饪", "家用电器"],
+  "categories": ["food-beverage", "home"],
   "i18n": {
     "en": {
       "name": "microwave",
-      "tags": [
-        "microwave",
-        "oven",
-        "appliance",
-        "heat",
-        "cook"
-      ],
-      "use-cases": [
-        "Food heating controls",
-        "Kitchen appliance UI",
-        "Smart home settings"
-      ]
+      "tags": ["microwave", "oven", "appliance", "heat", "cook"],
+      "use-cases": ["Food heating controls", "Kitchen appliance UI", "Smart home settings"]
     }
   }
 }

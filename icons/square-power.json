@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电源按钮",
-    "设备控制",
-    "切换开关",
-    "系统重启"
-  ],
+  "use-cases": ["电源按钮", "设备控制", "切换开关", "系统重启"],
   "name": "方形电源",
-  "tags": [
-    "电源",
-    "开关",
-    "启动",
-    "关闭",
-    "重启",
-    "按钮",
-    "控制",
-    "状态"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["电源", "开关", "启动", "关闭", "重启", "按钮", "控制", "状态"],
+  "categories": ["connectivity"],
   "aliases": [
     {
       "name": "power-square",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square power",
-      "tags": [
-        "power",
-        "switch",
-        "on",
-        "off",
-        "reboot",
-        "button",
-        "control",
-        "state"
-      ],
-      "use-cases": [
-        "Power button",
-        "Device control",
-        "Toggle switch",
-        "System reboot"
-      ]
+      "tags": ["power", "switch", "on", "off", "reboot", "button", "control", "state"],
+      "use-cases": ["Power button", "Device control", "Toggle switch", "System reboot"]
     }
   }
 }

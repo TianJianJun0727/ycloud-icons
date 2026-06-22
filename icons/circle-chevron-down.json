@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "展开下拉菜单",
-    "收起已展开部分",
-    "向下滚动指示器"
-  ],
+  "use-cases": ["展开下拉菜单", "收起已展开部分", "向下滚动指示器"],
   "name": "圆形折角箭头下",
-  "tags": [
-    "向下",
-    "展开",
-    "下拉",
-    "菜单",
-    "收起",
-    "返回"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["向下", "展开", "下拉", "菜单", "收起", "返回"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "chevron-down-circle",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle chevron down",
-      "tags": [
-        "down",
-        "expand",
-        "dropdown",
-        "menu",
-        "collapse",
-        "back"
-      ],
-      "use-cases": [
-        "Expand a dropdown menu",
-        "Collapse an open section",
-        "Scroll down indicator"
-      ]
+      "tags": ["down", "expand", "dropdown", "menu", "collapse", "back"],
+      "use-cases": ["Expand a dropdown menu", "Collapse an open section", "Scroll down indicator"]
     }
   }
 }

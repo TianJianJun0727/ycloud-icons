@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "错误解决状态",
-    "调试完成",
-    "问题追踪"
-  ],
+  "use-cases": ["错误解决状态", "调试完成", "问题追踪"],
   "name": "缺陷关闭",
-  "tags": [
-    "错误修复",
-    "调试完成",
-    "问题解决",
-    "测试通过"
-  ],
-  "categories": [
-    "development",
-    "animals"
-  ],
+  "tags": ["错误修复", "调试完成", "问题解决", "测试通过"],
+  "categories": ["development", "animals"],
   "i18n": {
     "en": {
       "name": "bug off",
-      "tags": [
-        "bug fix",
-        "debugging complete",
-        "issue resolved",
-        "test passed"
-      ],
-      "use-cases": [
-        "Bug resolution status",
-        "Debugging completion",
-        "Issue tracking"
-      ]
+      "tags": ["bug fix", "debugging complete", "issue resolved", "test passed"],
+      "use-cases": ["Bug resolution status", "Debugging completion", "Issue tracking"]
     }
   }
 }

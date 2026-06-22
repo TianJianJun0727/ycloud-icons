@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除用户账号",
-    "禁用用户访问",
-    "取消用户邀请",
-    "拒绝好友请求"
-  ],
+  "use-cases": ["移除用户账号", "禁用用户访问", "取消用户邀请", "拒绝好友请求"],
   "name": "用户圆形关闭",
-  "tags": [
-    "用户",
-    "账号",
-    "删除",
-    "移除",
-    "禁用",
-    "取消",
-    "拒绝"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户", "账号", "删除", "移除", "禁用", "取消", "拒绝"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "user-x-2",
@@ -30,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "user round X",
-      "tags": [
-        "user",
-        "account",
-        "delete",
-        "remove",
-        "disable",
-        "cancel",
-        "reject"
-      ],
-      "use-cases": [
-        "Remove user account",
-        "Disable user access",
-        "Cancel user invitation",
-        "Reject friend request"
-      ]
+      "tags": ["user", "account", "delete", "remove", "disable", "cancel", "reject"],
+      "use-cases": ["Remove user account", "Disable user access", "Cancel user invitation", "Reject friend request"]
     }
   }
 }

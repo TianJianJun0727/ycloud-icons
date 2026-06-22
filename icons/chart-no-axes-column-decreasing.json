@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示指标下降的仪表板",
-    "带有负面趋势的性能报告"
-  ],
+  "use-cases": ["显示指标下降的仪表板", "带有负面趋势的性能报告"],
   "name": "图表无坐标轴列下降",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "柱状图",
-    "下降",
-    "趋势下降"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "柱状图", "下降", "趋势下降"],
+  "categories": ["charts"],
   "i18n": {
     "en": {
       "name": "chart no axes column decreasing",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "column chart",
-        "decreasing",
-        "trending down"
-      ],
-      "use-cases": [
-        "Dashboard showing declining metrics",
-        "Performance report with negative trend"
-      ]
+      "tags": ["statistics", "analytics", "chart", "column chart", "decreasing", "trending down"],
+      "use-cases": ["Dashboard showing declining metrics", "Performance report with negative trend"]
     }
   }
 }

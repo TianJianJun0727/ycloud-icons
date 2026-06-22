@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络中断指示",
-    "离线模式状态",
-    "连接问题显示"
-  ],
+  "use-cases": ["网络中断指示", "离线模式状态", "连接问题显示"],
   "name": "地球关闭",
-  "tags": [
-    "地球",
-    "离线",
-    "断开",
-    "无网络",
-    "不可用",
-    "禁用",
-    "关闭",
-    "连接失败"
-  ],
-  "categories": [
-    "navigation",
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["地球", "离线", "断开", "无网络", "不可用", "禁用", "关闭", "连接失败"],
+  "categories": ["navigation", "connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "globe off",
-      "tags": [
-        "globe",
-        "offline",
-        "disconnected",
-        "no network",
-        "unavailable",
-        "disabled",
-        "off",
-        "connection failure"
-      ],
-      "use-cases": [
-        "Network outage indication",
-        "Offline mode status",
-        "Connectivity issues display"
-      ]
+      "tags": ["globe", "offline", "disconnected", "no network", "unavailable", "disabled", "off", "connection failure"],
+      "use-cases": ["Network outage indication", "Offline mode status", "Connectivity issues display"]
     }
   }
 }

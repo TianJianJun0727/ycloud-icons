@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐作曲工具",
-    "节奏指示器",
-    "音频编辑软件"
-  ],
+  "use-cases": ["音乐作曲工具", "节奏指示器", "音频编辑软件"],
   "name": "音乐3",
-  "tags": [
-    "音乐",
-    "音符",
-    "四分音符",
-    "二分音符",
-    "乐谱",
-    "节奏"
-  ],
-  "categories": [
-    "multimedia",
-    "files"
-  ],
+  "tags": ["音乐", "音符", "四分音符", "二分音符", "乐谱", "节奏"],
+  "categories": ["multimedia", "files"],
   "i18n": {
     "en": {
       "name": "music 3",
-      "tags": [
-        "music",
-        "note",
-        "quarter note",
-        "half note",
-        "crotchet",
-        "minim",
-        "rhythm"
-      ],
-      "use-cases": [
-        "Music composition tool",
-        "Rhythm indicator",
-        "Audio editing software"
-      ]
+      "tags": ["music", "note", "quarter note", "half note", "crotchet", "minim", "rhythm"],
+      "use-cases": ["Music composition tool", "Rhythm indicator", "Audio editing software"]
     }
   }
 }

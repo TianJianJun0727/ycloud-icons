@@ -1,53 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "词典或参考应用",
-    "教育内容版块",
-    "图书馆或书店界面",
-    "阅读列表功能"
-  ],
+  "use-cases": ["词典或参考应用", "教育内容版块", "图书馆或书店界面", "阅读列表功能"],
   "name": "书籍A",
-  "tags": [
-    "字典",
-    "定义",
-    "同义词",
-    "百科全书",
-    "阅读",
-    "图书馆",
-    "写作",
-    "作者",
-    "故事",
-    "知识",
-    "教育",
-    "学习"
-  ],
-  "categories": [
-    "text",
-    "gaming"
-  ],
+  "tags": ["字典", "定义", "同义词", "百科全书", "阅读", "图书馆", "写作", "作者", "故事", "知识", "教育", "学习"],
+  "categories": ["text", "gaming"],
   "i18n": {
     "en": {
       "name": "book A",
-      "tags": [
-        "dictionary",
-        "define",
-        "thesaurus",
-        "encyclopedia",
-        "reading",
-        "library",
-        "writing",
-        "author",
-        "story",
-        "knowledge",
-        "education",
-        "study"
-      ],
-      "use-cases": [
-        "Dictionary or reference app",
-        "Educational content section",
-        "Library or bookstore UI",
-        "Reading list feature"
-      ]
+      "tags": ["dictionary", "define", "thesaurus", "encyclopedia", "reading", "library", "writing", "author", "story", "knowledge", "education", "study"],
+      "use-cases": ["Dictionary or reference app", "Educational content section", "Library or bookstore UI", "Reading list feature"]
     }
   }
 }

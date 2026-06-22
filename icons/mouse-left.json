@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "左键点击操作",
-    "鼠标选择",
-    "光标控制"
-  ],
+  "use-cases": ["左键点击操作", "鼠标选择", "光标控制"],
   "name": "鼠标左",
-  "tags": [
-    "鼠标",
-    "左键",
-    "点击",
-    "选择",
-    "光标",
-    "输入设备"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["鼠标", "左键", "点击", "选择", "光标", "输入设备"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "mouse left",
-      "tags": [
-        "mouse",
-        "left click",
-        "click",
-        "select",
-        "cursor",
-        "input device"
-      ],
-      "use-cases": [
-        "Left click action",
-        "Mouse selection",
-        "Cursor control"
-      ]
+      "tags": ["mouse", "left click", "click", "select", "cursor", "input device"],
+      "use-cases": ["Left click action", "Mouse selection", "Cursor control"]
     }
   }
 }

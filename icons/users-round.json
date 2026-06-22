@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "团队管理",
-    "群组成员",
-    "用户集合",
-    "共享账号"
-  ],
+  "use-cases": ["团队管理", "群组成员", "用户集合", "共享账号"],
   "name": "用户组圆形",
-  "tags": [
-    "用户组",
-    "团队",
-    "群组",
-    "成员",
-    "多人",
-    "集体"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户组", "团队", "群组", "成员", "多人", "集体"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "users-2",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "users round",
-      "tags": [
-        "user group",
-        "team",
-        "group",
-        "members",
-        "multiple people",
-        "collective"
-      ],
-      "use-cases": [
-        "Team management",
-        "Group members",
-        "User collection",
-        "Shared account"
-      ]
+      "tags": ["user group", "team", "group", "members", "multiple people", "collective"],
+      "use-cases": ["Team management", "Group members", "User collection", "Shared account"]
     }
   }
 }

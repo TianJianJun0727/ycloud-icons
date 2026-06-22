@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用通话功能",
-    "静音通话",
-    "显示离线状态",
-    "拒接来电"
-  ],
+  "use-cases": ["禁用通话功能", "静音通话", "显示离线状态", "拒接来电"],
   "name": "电话关闭",
-  "tags": [
-    "通话",
-    "静音",
-    "禁用",
-    "关闭",
-    "拒接",
-    "离线",
-    "无信号"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "communication"
-  ],
+  "tags": ["通话", "静音", "禁用", "关闭", "拒接", "离线", "无信号"],
+  "categories": ["connectivity", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "phone off",
-      "tags": [
-        "call",
-        "mute",
-        "disable",
-        "off",
-        "reject",
-        "offline",
-        "no signal"
-      ],
-      "use-cases": [
-        "Disable calling feature",
-        "Mute a call",
-        "Show offline status",
-        "Reject an incoming call"
-      ]
+      "tags": ["call", "mute", "disable", "off", "reject", "offline", "no signal"],
+      "use-cases": ["Disable calling feature", "Mute a call", "Show offline status", "Reject an incoming call"]
     }
   }
 }

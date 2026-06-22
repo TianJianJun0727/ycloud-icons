@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电动汽车配送服务",
-    "可持续物流仪表板",
-    "电动货车车队管理"
-  ],
+  "use-cases": ["电动汽车配送服务", "可持续物流仪表板", "电动货车车队管理"],
   "name": "卡车电动",
-  "tags": [
-    "电动卡车",
-    "货车",
-    "运输",
-    "配送",
-    "物流",
-    "新能源"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["电动卡车", "货车", "运输", "配送", "物流", "新能源"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "truck electric",
-      "tags": [
-        "delivery",
-        "van",
-        "shipping",
-        "lorry",
-        "electric",
-        "vehicle",
-        "transport"
-      ],
-      "use-cases": [
-        "EV delivery service",
-        "Sustainable logistics dashboard",
-        "Fleet management for electric vans"
-      ]
+      "tags": ["delivery", "van", "shipping", "lorry", "electric", "vehicle", "transport"],
+      "use-cases": ["EV delivery service", "Sustainable logistics dashboard", "Fleet management for electric vans"]
     }
   }
 }

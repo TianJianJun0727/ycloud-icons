@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音量控制滑块",
-    "音频设置",
-    "媒体播放界面"
-  ],
+  "use-cases": ["音量控制滑块", "音频设置", "媒体播放界面"],
   "name": "音量",
-  "tags": [
-    "音量",
-    "声音",
-    "扬声器",
-    "音频",
-    "控制",
-    "调节"
-  ],
-  "categories": [
-    "connectivity",
-    "communication",
-    "multimedia"
-  ],
+  "tags": ["音量", "声音", "扬声器", "音频", "控制", "调节"],
+  "categories": ["connectivity", "communication", "multimedia"],
   "i18n": {
     "en": {
       "name": "volume",
-      "tags": [
-        "volume",
-        "sound",
-        "speaker",
-        "audio",
-        "control",
-        "adjust"
-      ],
-      "use-cases": [
-        "Volume control slider",
-        "Audio settings",
-        "Media playback interface"
-      ]
+      "tags": ["volume", "sound", "speaker", "audio", "control", "adjust"],
+      "use-cases": ["Volume control slider", "Audio settings", "Media playback interface"]
     }
   }
 }

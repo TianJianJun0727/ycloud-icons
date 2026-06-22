@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "服务器错误状态",
-    "系统故障警报",
-    "事件报告"
-  ],
+  "use-cases": ["服务器错误状态", "系统故障警报", "事件报告"],
   "name": "服务器崩溃",
-  "tags": [
-    "服务器",
-    "故障",
-    "错误",
-    "宕机",
-    "崩溃",
-    "问题诊断",
-    "运维"
-  ],
-  "categories": [
-    "development",
-    "devices"
-  ],
+  "tags": ["服务器", "故障", "错误", "宕机", "崩溃", "问题诊断", "运维"],
+  "categories": ["development", "devices"],
   "i18n": {
     "en": {
       "name": "server crash",
-      "tags": [
-        "server",
-        "failure",
-        "error",
-        "downtime",
-        "crash",
-        "troubleshooting",
-        "maintenance"
-      ],
-      "use-cases": [
-        "Server error status",
-        "System failure alerts",
-        "Incident reporting"
-      ]
+      "tags": ["server", "failure", "error", "downtime", "crash", "troubleshooting", "maintenance"],
+      "use-cases": ["Server error status", "System failure alerts", "Incident reporting"]
     }
   }
 }

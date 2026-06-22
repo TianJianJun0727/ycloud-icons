@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "锁定文档",
-    "私有仓库",
-    "加密知识库"
-  ],
+  "use-cases": ["锁定文档", "私有仓库", "加密知识库"],
   "name": "书籍锁定",
-  "tags": [
-    "代码",
-    "版本控制",
-    "Git",
-    "仓库",
-    "私密",
-    "锁定",
-    "加密",
-    "保护",
-    "知识库"
-  ],
-  "categories": [
-    "development",
-    "security",
-    "gaming"
-  ],
+  "tags": ["代码", "版本控制", "Git", "仓库", "私密", "锁定", "加密", "保护", "知识库"],
+  "categories": ["development", "security", "gaming"],
   "i18n": {
     "en": {
       "name": "book lock",
-      "tags": [
-        "code",
-        "version control",
-        "git",
-        "repository",
-        "private",
-        "lock",
-        "encrypt",
-        "protect",
-        "knowledge base"
-      ],
-      "use-cases": [
-        "Locked documentation",
-        "Private repository",
-        "Encrypted knowledge base"
-      ]
+      "tags": ["code", "version control", "git", "repository", "private", "lock", "encrypt", "protect", "knowledge base"],
+      "use-cases": ["Locked documentation", "Private repository", "Encrypted knowledge base"]
     }
   }
 }

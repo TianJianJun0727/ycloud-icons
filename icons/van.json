@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "配送跟踪界面",
-    "搬家公司服务",
-    "交通工具选择",
-    "旅行和租赁预订"
-  ],
+  "use-cases": ["配送跟踪界面", "搬家公司服务", "交通工具选择", "旅行和租赁预订"],
   "name": "厢式车",
-  "tags": [
-    "厢式货车",
-    "货车",
-    "运输",
-    "配送",
-    "车辆",
-    "物流",
-    "旅行"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["厢式货车", "货车", "运输", "配送", "车辆", "物流", "旅行"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "van",
-      "tags": [
-        "van",
-        "minivan",
-        "delivery",
-        "transport",
-        "vehicle",
-        "logistics",
-        "moving"
-      ],
-      "use-cases": [
-        "Delivery tracking interface",
-        "Moving company services",
-        "Transportation selection",
-        "Travel and rental bookings"
-      ]
+      "tags": ["van", "minivan", "delivery", "transport", "vehicle", "logistics", "moving"],
+      "use-cases": ["Delivery tracking interface", "Moving company services", "Transportation selection", "Travel and rental bookings"]
     }
   }
 }

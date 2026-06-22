@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网站施工中",
-    "维护或停机通知",
-    "功能开发中",
-    "路障或警告"
-  ],
+  "use-cases": ["网站施工中", "维护或停机通知", "功能开发中", "路障或警告"],
   "name": "施工",
-  "tags": [
-    "施工",
-    "维护",
-    "建设中",
-    "路障",
-    "开发",
-    "警告",
-    "维修"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["施工", "维护", "建设中", "路障", "开发", "警告", "维修"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "construction",
-      "tags": [
-        "construction",
-        "maintenance",
-        "work in progress",
-        "barricade",
-        "development",
-        "warning",
-        "repair"
-      ],
-      "use-cases": [
-        "Site under construction",
-        "Maintenance or downtime notice",
-        "Feature in development",
-        "Roadblock or warning"
-      ]
+      "tags": ["construction", "maintenance", "work in progress", "barricade", "development", "warning", "repair"],
+      "use-cases": ["Site under construction", "Maintenance or downtime notice", "Feature in development", "Roadblock or warning"]
     }
   }
 }

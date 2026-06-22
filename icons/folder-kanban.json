@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "看板项目文件夹",
-    "任务管理目录",
-    "敏捷工作流文件夹"
-  ],
+  "use-cases": ["看板项目文件夹", "任务管理目录", "敏捷工作流文件夹"],
   "name": "文件夹看板",
-  "tags": [
-    "目录",
-    "看板",
-    "项目管理",
-    "任务",
-    "敏捷",
-    "工作流"
-  ],
-  "categories": [
-    "charts",
-    "development",
-    "design",
-    "files"
-  ],
+  "tags": ["目录", "看板", "项目管理", "任务", "敏捷", "工作流"],
+  "categories": ["charts", "development", "design", "files"],
   "i18n": {
     "en": {
       "name": "folder kanban",
-      "tags": [
-        "directory",
-        "kanban",
-        "project management",
-        "tasks",
-        "agile",
-        "workflow"
-      ],
-      "use-cases": [
-        "Kanban project folder",
-        "Task management directory",
-        "Agile workflow folder"
-      ]
+      "tags": ["directory", "kanban", "project management", "tasks", "agile", "workflow"],
+      "use-cases": ["Kanban project folder", "Task management directory", "Agile workflow folder"]
     }
   }
 }

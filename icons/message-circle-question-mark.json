@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "帮助聊天",
-    "线程中的问题",
-    "支持询问"
-  ],
+  "use-cases": ["帮助聊天", "线程中的问题", "支持询问"],
   "name": "消息圆形问题标记",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "帮助",
-    "疑问",
-    "询问",
-    "支持",
-    "问题"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["聊天", "对话", "评论", "帮助", "疑问", "询问", "支持", "问题"],
+  "categories": ["social"],
   "aliases": [
     {
       "name": "message-circle-question",
@@ -30,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "message circle question mark",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "help",
-        "question",
-        "ask",
-        "support",
-        "inquiry"
-      ],
-      "use-cases": [
-        "Help chat",
-        "Question in a thread",
-        "Support inquiry"
-      ]
+      "tags": ["chat", "conversation", "comment", "help", "question", "ask", "support", "inquiry"],
+      "use-cases": ["Help chat", "Question in a thread", "Support inquiry"]
     }
   }
 }

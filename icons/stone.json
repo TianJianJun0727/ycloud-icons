@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "自然或地质主题设计",
-    "强度或耐久性指示器",
-    "游戏中的资源资产"
-  ],
+  "use-cases": ["自然或地质主题设计", "强度或耐久性指示器", "游戏中的资源资产"],
   "name": "石头",
-  "tags": [
-    "石头",
-    "岩石",
-    "矿物",
-    "自然",
-    "地质",
-    "坚固",
-    "卵石"
-  ],
-  "categories": [
-    "nature"
-  ],
+  "tags": ["石头", "岩石", "矿物", "自然", "地质", "坚固", "卵石"],
+  "categories": ["nature"],
   "i18n": {
     "en": {
       "name": "stone",
-      "tags": [
-        "stone",
-        "rock",
-        "mineral",
-        "nature",
-        "geology",
-        "solid",
-        "pebble"
-      ],
-      "use-cases": [
-        "Nature or geology themed design",
-        "Strength or durability indicator",
-        "Game asset for resources"
-      ]
+      "tags": ["stone", "rock", "mineral", "nature", "geology", "solid", "pebble"],
+      "use-cases": ["Nature or geology themed design", "Strength or durability indicator", "Game asset for resources"]
     }
   }
 }

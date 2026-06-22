@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "复制到剪贴板确认",
-    "带验证的重复项目",
-    "文本粘贴成功指示器"
-  ],
+  "use-cases": ["复制到剪贴板确认", "带验证的重复项目", "文本粘贴成功指示器"],
   "name": "复制勾选",
-  "tags": [
-    "复制成功",
-    "复制完成",
-    "克隆",
-    "重复",
-    "确认",
-    "校对"
-  ],
-  "categories": [
-    "text",
-    "notifications"
-  ],
+  "tags": ["复制成功", "复制完成", "克隆", "重复", "确认", "校对"],
+  "categories": ["text", "notifications"],
   "i18n": {
     "en": {
       "name": "copy check",
-      "tags": [
-        "copy success",
-        "copy done",
-        "clone",
-        "duplicate",
-        "confirm",
-        "verify"
-      ],
-      "use-cases": [
-        "Copy to clipboard confirmation",
-        "Duplicate item with verification",
-        "Text paste success indicator"
-      ]
+      "tags": ["copy success", "copy done", "clone", "duplicate", "confirm", "verify"],
+      "use-cases": ["Copy to clipboard confirmation", "Duplicate item with verification", "Text paste success indicator"]
     }
   }
 }

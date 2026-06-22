@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表格列升序排序",
-    "数据筛选升序",
-    "文本大小增加控制"
-  ],
+  "use-cases": ["表格列升序排序", "数据筛选升序", "文本大小增加控制"],
   "name": "箭头上窄宽",
-  "tags": [
-    "排序",
-    "升序",
-    "筛选",
-    "增加",
-    "文本格式",
-    "布局"
-  ],
-  "categories": [
-    "text",
-    "layout",
-    "arrows"
-  ],
+  "tags": ["排序", "升序", "筛选", "增加", "文本格式", "布局"],
+  "categories": ["text", "layout", "arrows"],
   "aliases": [
     {
       "name": "sort-asc",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "arrow up narrow wide",
-      "tags": [
-        "sort",
-        "ascending",
-        "filter",
-        "increasing",
-        "text formatting",
-        "layout"
-      ],
-      "use-cases": [
-        "Table column sort ascending",
-        "Data filter ascending order",
-        "Text size increase control"
-      ]
+      "tags": ["sort", "ascending", "filter", "increasing", "text formatting", "layout"],
+      "use-cases": ["Table column sort ascending", "Data filter ascending order", "Text size increase control"]
     }
   }
 }

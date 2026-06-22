@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "钱包界面",
-    "支付处理",
-    "财务管理"
-  ],
+  "use-cases": ["钱包界面", "支付处理", "财务管理"],
   "name": "钱包",
-  "tags": [
-    "钱包",
-    "支付",
-    "金融",
-    "货币",
-    "资金"
-  ],
-  "categories": [
-    "account",
-    "finance"
-  ],
+  "tags": ["钱包", "支付", "金融", "货币", "资金"],
+  "categories": ["account", "finance"],
   "i18n": {
     "en": {
       "name": "wallet",
-      "tags": [
-        "wallet",
-        "payment",
-        "finance",
-        "currency",
-        "funds"
-      ],
-      "use-cases": [
-        "Wallet interface",
-        "Payment processing",
-        "Financial management"
-      ]
+      "tags": ["wallet", "payment", "finance", "currency", "funds"],
+      "use-cases": ["Wallet interface", "Payment processing", "Financial management"]
     }
   }
 }

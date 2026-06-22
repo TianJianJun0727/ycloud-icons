@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "日记应用",
-    "笔记保存",
-    "个人组织",
-    "写作工具"
-  ],
+  "use-cases": ["日记应用", "笔记保存", "个人组织", "写作工具"],
   "name": "笔记本",
-  "tags": [
-    "笔记本",
-    "记事本",
-    "日记",
-    "记录",
-    "写作",
-    "学习",
-    "文具",
-    "组织"
-  ],
-  "categories": [
-    "text",
-    "communication",
-    "social",
-    "design"
-  ],
+  "tags": ["笔记本", "记事本", "日记", "记录", "写作", "学习", "文具", "组织"],
+  "categories": ["text", "communication", "social", "design"],
   "i18n": {
     "en": {
       "name": "notebook",
-      "tags": [
-        "notebook",
-        "notepad",
-        "diary",
-        "recording",
-        "writing",
-        "study",
-        "stationery",
-        "organization"
-      ],
-      "use-cases": [
-        "Journal app",
-        "Note keeping",
-        "Personal organizer",
-        "Writing tool"
-      ]
+      "tags": ["notebook", "notepad", "diary", "recording", "writing", "study", "stationery", "organization"],
+      "use-cases": ["Journal app", "Note keeping", "Personal organizer", "Writing tool"]
     }
   }
 }

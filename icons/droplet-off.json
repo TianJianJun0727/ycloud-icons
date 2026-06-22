@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "湿度控制设置",
-    "水功能禁用",
-    "干燥条件指示",
-    "天气应用控制"
-  ],
+  "use-cases": ["湿度控制设置", "水功能禁用", "干燥条件指示", "天气应用控制"],
   "name": "水滴关闭",
-  "tags": [
-    "无水",
-    "干燥",
-    "关闭水滴",
-    "禁用液体",
-    "天气",
-    "湿度控制"
-  ],
-  "categories": [
-    "weather",
-    "gaming"
-  ],
+  "tags": ["无水", "干燥", "关闭水滴", "禁用液体", "天气", "湿度控制"],
+  "categories": ["weather", "gaming"],
   "i18n": {
     "en": {
       "name": "droplet off",
-      "tags": [
-        "no water",
-        "dry",
-        "droplet disabled",
-        "liquid off",
-        "weather",
-        "humidity control"
-      ],
-      "use-cases": [
-        "Humidity control settings",
-        "Water feature disable",
-        "Dry condition indicators",
-        "Weather app controls"
-      ]
+      "tags": ["no water", "dry", "droplet disabled", "liquid off", "weather", "humidity control"],
+      "use-cases": ["Humidity control settings", "Water feature disable", "Dry condition indicators", "Weather app controls"]
     }
   }
 }

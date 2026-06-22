@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "共享出行应用车辆图标",
-    "交通服务选择",
-    "城市出行平台",
-    "配送服务踏板车"
-  ],
+  "use-cases": ["共享出行应用车辆图标", "交通服务选择", "城市出行平台", "配送服务踏板车"],
   "name": "踏板车",
-  "tags": [
-    "踏板车",
-    "电动车",
-    "滑板车",
-    "代步工具",
-    "城市交通",
-    "骑行"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["踏板车", "电动车", "滑板车", "代步工具", "城市交通", "骑行"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "scooter",
-      "tags": [
-        "scooter",
-        "electric scooter",
-        "kick scooter",
-        "transportation",
-        "urban mobility",
-        "riding"
-      ],
-      "use-cases": [
-        "Ride-sharing app vehicle icon",
-        "Transportation service selection",
-        "Urban mobility platform",
-        "Delivery service scooter"
-      ]
+      "tags": ["scooter", "electric scooter", "kick scooter", "transportation", "urban mobility", "riding"],
+      "use-cases": ["Ride-sharing app vehicle icon", "Transportation service selection", "Urban mobility platform", "Delivery service scooter"]
     }
   }
 }

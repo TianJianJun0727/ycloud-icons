@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示Wi-Fi信号完全丢失",
-    "网络中断或断开连接状态"
-  ],
+  "use-cases": ["表示Wi-Fi信号完全丢失", "网络中断或断开连接状态"],
   "name": "无线网络零",
-  "tags": [
-    "无Wi-Fi信号",
-    "信号丢失",
-    "网络中断",
-    "连接丢失",
-    "零信号"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["无Wi-Fi信号", "信号丢失", "网络中断", "连接丢失", "零信号"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi zero",
-      "tags": [
-        "no wifi signal",
-        "signal lost",
-        "network outage",
-        "connection lost",
-        "zero signal"
-      ],
-      "use-cases": [
-        "Indicating complete loss of Wi-Fi signal",
-        "Network outage or disconnection state"
-      ]
+      "tags": ["no wifi signal", "signal lost", "network outage", "connection lost", "zero signal"],
+      "use-cases": ["Indicating complete loss of Wi-Fi signal", "Network outage or disconnection state"]
     }
   }
 }

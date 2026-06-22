@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "药品管理界面",
-    "药房或医疗应用",
-    "处方详情"
-  ],
+  "use-cases": ["药品管理界面", "药房或医疗应用", "处方详情"],
   "name": "药片",
-  "tags": [
-    "药片",
-    "药品",
-    "药物",
-    "药丸",
-    "医疗",
-    "处方",
-    "药房",
-    "健康"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["药片", "药品", "药物", "药丸", "医疗", "处方", "药房", "健康"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "tablets",
-      "tags": [
-        "tablets",
-        "pills",
-        "medication",
-        "medicine",
-        "pharmacy",
-        "prescription",
-        "medical",
-        "health"
-      ],
-      "use-cases": [
-        "medication management interface",
-        "pharmacy or healthcare app",
-        "prescription details"
-      ]
+      "tags": ["tablets", "pills", "medication", "medicine", "pharmacy", "prescription", "medical", "health"],
+      "use-cases": ["medication management interface", "pharmacy or healthcare app", "prescription details"]
     }
   }
 }

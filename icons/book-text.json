@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本密集的文档",
-    "内容页面",
-    "故事或脚本查看器"
-  ],
+  "use-cases": ["文本密集的文档", "内容页面", "故事或脚本查看器"],
   "name": "书籍文本",
-  "tags": [
-    "阅读",
-    "文档",
-    "文本",
-    "内容",
-    "写作",
-    "故事",
-    "信息",
-    "参考"
-  ],
-  "categories": [
-    "text",
-    "gaming"
-  ],
+  "tags": ["阅读", "文档", "文本", "内容", "写作", "故事", "信息", "参考"],
+  "categories": ["text", "gaming"],
   "i18n": {
     "en": {
       "name": "book text",
-      "tags": [
-        "reading",
-        "documentation",
-        "text",
-        "content",
-        "writing",
-        "story",
-        "information",
-        "reference"
-      ],
-      "use-cases": [
-        "Text-heavy documentation",
-        "Content page",
-        "Story or script viewer"
-      ]
+      "tags": ["reading", "documentation", "text", "content", "writing", "story", "information", "reference"],
+      "use-cases": ["Text-heavy documentation", "Content page", "Story or script viewer"]
     }
   }
 }

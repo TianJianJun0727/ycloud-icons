@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "路径查找器排除操作",
-    "矢量形状编辑"
-  ],
+  "use-cases": ["路径查找器排除操作", "矢量形状编辑"],
   "name": "方块排除",
-  "tags": [
-    "排除",
-    "异或",
-    "路径查找",
-    "形状运算",
-    "矢量设计"
-  ],
-  "categories": [
-    "design"
-  ],
+  "tags": ["排除", "异或", "路径查找", "形状运算", "矢量设计"],
+  "categories": ["design"],
   "i18n": {
     "en": {
       "name": "squares exclude",
-      "tags": [
-        "exclude",
-        "xor",
-        "pathfinder",
-        "shape operation",
-        "vector design"
-      ],
-      "use-cases": [
-        "Pathfinder exclude operation",
-        "Vector shape editing"
-      ]
+      "tags": ["exclude", "xor", "pathfinder", "shape operation", "vector design"],
+      "use-cases": ["Pathfinder exclude operation", "Vector shape editing"]
     }
   }
 }

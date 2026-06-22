@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地铁站地图标记",
-    "交通导航图标",
-    "城市交通系统界面"
-  ],
+  "use-cases": ["地铁站地图标记", "交通导航图标", "城市交通系统界面"],
   "name": "方形米",
-  "tags": [
-    "地铁",
-    "轨道交通",
-    "地铁站",
-    "交通标志"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["地铁", "轨道交通", "地铁站", "交通标志"],
+  "categories": ["transportation", "navigation"],
   "aliases": [
     {
       "name": "m-square",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square M",
-      "tags": [
-        "metro",
-        "subway",
-        "rail transit",
-        "transportation sign"
-      ],
-      "use-cases": [
-        "Metro station map marker",
-        "Transportation navigation icon",
-        "Urban transit system interface"
-      ]
+      "tags": ["metro", "subway", "rail transit", "transportation sign"],
+      "use-cases": ["Metro station map marker", "Transportation navigation icon", "Urban transit system interface"]
     }
   }
 }

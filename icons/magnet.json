@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具对齐网格功能",
-    "磁性附着指示器",
-    "物理模拟界面"
-  ],
+  "use-cases": ["设计工具对齐网格功能", "磁性附着指示器", "物理模拟界面"],
   "name": "磁铁",
-  "tags": [
-    "磁铁",
-    "磁性",
-    "吸附",
-    "吸引",
-    "磁力",
-    "U型磁铁"
-  ],
-  "categories": [
-    "design"
-  ],
+  "tags": ["磁铁", "磁性", "吸附", "吸引", "磁力", "U型磁铁"],
+  "categories": ["design"],
   "i18n": {
     "en": {
       "name": "magnet",
-      "tags": [
-        "magnet",
-        "magnetic",
-        "attract",
-        "adhesion",
-        "force",
-        "horseshoe"
-      ],
-      "use-cases": [
-        "Design tool snap-to-grid feature",
-        "Magnetic attachment indicator",
-        "Physics simulation interface"
-      ]
+      "tags": ["magnet", "magnetic", "attract", "adhesion", "force", "horseshoe"],
+      "use-cases": ["Design tool snap-to-grid feature", "Magnetic attachment indicator", "Physics simulation interface"]
     }
   }
 }

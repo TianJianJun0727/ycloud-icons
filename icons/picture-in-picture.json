@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频播放器的画中画模式",
-    "多任务处理界面",
-    "浮动媒体窗口"
-  ],
+  "use-cases": ["视频播放器的画中画模式", "多任务处理界面", "浮动媒体窗口"],
   "name": "图片进入图片",
-  "tags": [
-    "画中画",
-    "视频",
-    "播放",
-    "窗口",
-    "多任务",
-    "浮动",
-    "小窗"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["画中画", "视频", "播放", "窗口", "多任务", "浮动", "小窗"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "picture in picture",
-      "tags": [
-        "picture in picture",
-        "video",
-        "play",
-        "window",
-        "multitask",
-        "float",
-        "pip"
-      ],
-      "use-cases": [
-        "Video player with PiP mode",
-        "Multitasking interface",
-        "Floating media window"
-      ]
+      "tags": ["picture in picture", "video", "play", "window", "multitask", "float", "pip"],
+      "use-cases": ["Video player with PiP mode", "Multitasking interface", "Floating media window"]
     }
   }
 }

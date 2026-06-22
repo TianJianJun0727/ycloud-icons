@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "选框选择工具",
-    "区域选择指示器",
-    "设计或编辑工具"
-  ],
+  "use-cases": ["选框选择工具", "区域选择指示器", "设计或编辑工具"],
   "name": "方形虚线",
-  "tags": [
-    "选择框",
-    "虚线框",
-    "方形",
-    "选框工具",
-    "选择区域"
-  ],
-  "categories": [
-    "text",
-    "design"
-  ],
+  "tags": ["选择框", "虚线框", "方形", "选框工具", "选择区域"],
+  "categories": ["text", "design"],
   "aliases": [
     {
       "name": "box-select",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square dashed",
-      "tags": [
-        "selection box",
-        "dashed box",
-        "square",
-        "marquee tool",
-        "selection area"
-      ],
-      "use-cases": [
-        "Marquee selection tool",
-        "Area selection indicator",
-        "Design or editing tool"
-      ]
+      "tags": ["selection box", "dashed box", "square", "marquee tool", "selection area"],
+      "use-cases": ["Marquee selection tool", "Area selection indicator", "Design or editing tool"]
     }
   }
 }

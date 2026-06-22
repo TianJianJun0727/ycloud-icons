@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频静音切换",
-    "声音控制界面",
-    "媒体播放器控制"
-  ],
+  "use-cases": ["音频静音切换", "声音控制界面", "媒体播放器控制"],
   "name": "音量关闭",
-  "tags": [
-    "静音",
-    "音量",
-    "声音",
-    "扬声器",
-    "音频",
-    "关闭"
-  ],
-  "categories": [
-    "connectivity",
-    "communication",
-    "multimedia"
-  ],
+  "tags": ["静音", "音量", "声音", "扬声器", "音频", "关闭"],
+  "categories": ["connectivity", "communication", "multimedia"],
   "i18n": {
     "en": {
       "name": "volume X",
-      "tags": [
-        "mute",
-        "volume",
-        "sound",
-        "speaker",
-        "audio",
-        "off"
-      ],
-      "use-cases": [
-        "Audio mute toggle",
-        "Sound control interface",
-        "Media player controls"
-      ]
+      "tags": ["mute", "volume", "sound", "speaker", "audio", "off"],
+      "use-cases": ["Audio mute toggle", "Sound control interface", "Media player controls"]
     }
   }
 }

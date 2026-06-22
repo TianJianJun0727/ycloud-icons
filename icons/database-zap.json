@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示数据库快速操作或缓存刷新",
-    "数据库性能监控或重启功能"
-  ],
+  "use-cases": ["表示数据库快速操作或缓存刷新", "数据库性能监控或重启功能"],
   "name": "数据库闪电",
-  "tags": [
-    "数据库",
-    "存储",
-    "服务器",
-    "闪电",
-    "快速",
-    "缓存",
-    "性能",
-    "刷新",
-    "重启"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["数据库", "存储", "服务器", "闪电", "快速", "缓存", "性能", "刷新", "重启"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "database zap",
-      "tags": [
-        "database",
-        "storage",
-        "server",
-        "lightning",
-        "fast",
-        "cache",
-        "performance",
-        "refresh",
-        "restart"
-      ],
-      "use-cases": [
-        "indicating fast database operations or cache refresh",
-        "database performance monitoring or restart functionality"
-      ]
+      "tags": ["database", "storage", "server", "lightning", "fast", "cache", "performance", "refresh", "restart"],
+      "use-cases": ["indicating fast database operations or cache refresh", "database performance monitoring or restart functionality"]
     }
   }
 }

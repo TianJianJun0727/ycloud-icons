@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "卫浴设施",
-    "卫生间位置",
-    "卫生服务"
-  ],
+  "use-cases": ["卫浴设施", "卫生间位置", "卫生服务"],
   "name": "马桶",
-  "tags": [
-    "马桶",
-    "卫生间",
-    "洗手间",
-    "厕所",
-    "卫浴"
-  ],
-  "categories": [
-    "devices",
-    "home"
-  ],
+  "tags": ["马桶", "卫生间", "洗手间", "厕所", "卫浴"],
+  "categories": ["devices", "home"],
   "i18n": {
     "en": {
       "name": "toilet",
-      "tags": [
-        "toilet",
-        "bathroom",
-        "restroom",
-        "washroom",
-        "lavatory"
-      ],
-      "use-cases": [
-        "Bathroom facilities",
-        "Restroom location",
-        "Sanitation services"
-      ]
+      "tags": ["toilet", "bathroom", "restroom", "washroom", "lavatory"],
+      "use-cases": ["Bathroom facilities", "Restroom location", "Sanitation services"]
     }
   }
 }

@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器减法按钮",
-    "移除项目的UI控件",
-    "表单中减少数量"
-  ],
+  "use-cases": ["计算器减法按钮", "移除项目的UI控件", "表单中减少数量"],
   "name": "圆形减少",
-  "tags": [
-    "减去",
-    "移除",
-    "减少",
-    "计算",
-    "操作符",
-    "最小化",
-    "降级",
-    "删除",
-    "负号"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["减去", "移除", "减少", "计算", "操作符", "最小化", "降级", "删除", "负号"],
+  "categories": ["math"],
   "aliases": [
     {
       "name": "minus-circle",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle minus",
-      "tags": [
-        "subtract",
-        "remove",
-        "decrease",
-        "calculate",
-        "operator",
-        "minimize",
-        "downgrade",
-        "delete",
-        "negative"
-      ],
-      "use-cases": [
-        "Calculator subtraction button",
-        "UI control to remove an item",
-        "Decrease quantity in a form"
-      ]
+      "tags": ["subtract", "remove", "decrease", "calculate", "operator", "minimize", "downgrade", "delete", "negative"],
+      "use-cases": ["Calculator subtraction button", "UI control to remove an item", "Decrease quantity in a form"]
     }
   }
 }

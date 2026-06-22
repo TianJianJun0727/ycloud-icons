@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置中的设备列表",
-    "远程工作指示器",
-    "极简电脑表示",
-    "科技产品目录"
-  ],
+  "use-cases": ["设置中的设备列表", "远程工作指示器", "极简电脑表示", "科技产品目录"],
   "name": "笔记本电脑极简",
-  "tags": [
-    "笔记本电脑",
-    "设备",
-    "电脑",
-    "远程",
-    "极简"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["笔记本电脑", "设备", "电脑", "远程", "极简"],
+  "categories": ["devices"],
   "aliases": [
     {
       "name": "laptop-2",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "laptop minimal",
-      "tags": [
-        "laptop",
-        "device",
-        "computer",
-        "remote",
-        "minimal"
-      ],
-      "use-cases": [
-        "Device list in settings",
-        "Remote work indicator",
-        "Minimal computer representation",
-        "Tech product catalog"
-      ]
+      "tags": ["laptop", "device", "computer", "remote", "minimal"],
+      "use-cases": ["Device list in settings", "Remote work indicator", "Minimal computer representation", "Tech product catalog"]
     }
   }
 }

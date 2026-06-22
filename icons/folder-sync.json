@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "云同步状态",
-    "文件夹同步",
-    "备份过程指示器"
-  ],
+  "use-cases": ["云同步状态", "文件夹同步", "备份过程指示器"],
   "name": "文件夹同步",
-  "tags": [
-    "文件夹同步",
-    "目录同步",
-    "数据同步",
-    "备份",
-    "刷新"
-  ],
-  "categories": [
-    "files",
-    "arrows"
-  ],
+  "tags": ["文件夹同步", "目录同步", "数据同步", "备份", "刷新"],
+  "categories": ["files", "arrows"],
   "i18n": {
     "en": {
       "name": "folder sync",
-      "tags": [
-        "folder sync",
-        "directory sync",
-        "data sync",
-        "backup",
-        "refresh"
-      ],
-      "use-cases": [
-        "Cloud sync status",
-        "Folder synchronization",
-        "Backup process indicator"
-      ]
+      "tags": ["folder sync", "directory sync", "data sync", "backup", "refresh"],
+      "use-cases": ["Cloud sync status", "Folder synchronization", "Backup process indicator"]
     }
   }
 }

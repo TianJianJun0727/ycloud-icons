@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "卫星通信状态",
-    "太空或天文相关界面",
-    "GPS或定位服务"
-  ],
+  "use-cases": ["卫星通信状态", "太空或天文相关界面", "GPS或定位服务"],
   "name": "卫星",
-  "tags": [
-    "卫星",
-    "通信",
-    "太空",
-    "轨道",
-    "信号",
-    "航天"
-  ],
-  "categories": [
-    "connectivity",
-    "science"
-  ],
+  "tags": ["卫星", "通信", "太空", "轨道", "信号", "航天"],
+  "categories": ["connectivity", "science"],
   "i18n": {
     "en": {
       "name": "satellite",
-      "tags": [
-        "satellite",
-        "communication",
-        "space",
-        "orbit",
-        "signal",
-        "aerospace"
-      ],
-      "use-cases": [
-        "Satellite communication status",
-        "Space or astronomy-related UI",
-        "GPS or location services"
-      ]
+      "tags": ["satellite", "communication", "space", "orbit", "signal", "aerospace"],
+      "use-cases": ["Satellite communication status", "Space or astronomy-related UI", "GPS or location services"]
     }
   }
 }

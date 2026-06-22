@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收起右侧边栏",
-    "关闭详情面板",
-    "隐藏次要抽屉"
-  ],
+  "use-cases": ["收起右侧边栏", "关闭详情面板", "隐藏次要抽屉"],
   "name": "面板右关闭",
-  "tags": [
-    "侧边栏",
-    "收起",
-    "抽屉",
-    "隐藏",
-    "导航",
-    "布局",
-    "箭头",
-    "关闭"
-  ],
-  "categories": [
-    "layout",
-    "arrows"
-  ],
+  "tags": ["侧边栏", "收起", "抽屉", "隐藏", "导航", "布局", "箭头", "关闭"],
+  "categories": ["layout", "arrows"],
   "i18n": {
     "en": {
       "name": "panel right close",
-      "tags": [
-        "sidebar",
-        "collapse",
-        "drawer",
-        "hide",
-        "navigation",
-        "layout",
-        "chevron",
-        "close"
-      ],
-      "use-cases": [
-        "Collapse right sidebar",
-        "Close details panel",
-        "Hide secondary drawer"
-      ]
+      "tags": ["sidebar", "collapse", "drawer", "hide", "navigation", "layout", "chevron", "close"],
+      "use-cases": ["Collapse right sidebar", "Close details panel", "Hide secondary drawer"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示音乐播放列表",
-    "显示音频队列",
-    "管理歌曲列表"
-  ],
+  "use-cases": ["表示音乐播放列表", "显示音频队列", "管理歌曲列表"],
   "name": "列表音乐",
-  "tags": [
-    "播放列表",
-    "音乐",
-    "队列",
-    "音频",
-    "歌曲",
-    "曲目"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["播放列表", "音乐", "队列", "音频", "歌曲", "曲目"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "list music",
-      "tags": [
-        "playlist",
-        "music",
-        "queue",
-        "audio",
-        "song",
-        "track"
-      ],
-      "use-cases": [
-        "Represent a music playlist",
-        "Show an audio queue",
-        "Manage song lists"
-      ]
+      "tags": ["playlist", "music", "queue", "audio", "song", "track"],
+      "use-cases": ["Represent a music playlist", "Show an audio queue", "Manage song lists"]
     }
   }
 }

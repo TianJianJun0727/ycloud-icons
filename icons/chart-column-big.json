@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "大数据展示",
-    "对比分析界面",
-    "报表可视化"
-  ],
+  "use-cases": ["大数据展示", "对比分析界面", "报表可视化"],
   "name": "图表列大",
-  "tags": [
-    "统计",
-    "分析",
-    "柱状图",
-    "数据对比",
-    "大型图表"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "柱状图", "数据对比", "大型图表"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-big",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart column big",
-      "tags": [
-        "statistics",
-        "analytics",
-        "column chart",
-        "data comparison",
-        "large chart"
-      ],
-      "use-cases": [
-        "Big data display",
-        "Comparative analysis interface",
-        "Report visualization"
-      ]
+      "tags": ["statistics", "analytics", "column chart", "data comparison", "large chart"],
+      "use-cases": ["Big data display", "Comparative analysis interface", "Report visualization"]
     }
   }
 }

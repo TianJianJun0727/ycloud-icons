@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "可排序表格列",
-    "货币兑换界面",
-    "两种状态间切换"
-  ],
+  "use-cases": ["可排序表格列", "货币兑换界面", "两种状态间切换"],
   "name": "箭头右左",
-  "tags": [
-    "交换",
-    "切换",
-    "双向",
-    "交易",
-    "重新排序",
-    "移动"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["交换", "切换", "双向", "交易", "重新排序", "移动"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow right left",
-      "tags": [
-        "swap",
-        "switch",
-        "bidirectional",
-        "transaction",
-        "reorder",
-        "move"
-      ],
-      "use-cases": [
-        "Sortable table columns",
-        "Currency exchange interface",
-        "Toggle between two states"
-      ]
+      "tags": ["swap", "switch", "bidirectional", "transaction", "reorder", "move"],
+      "use-cases": ["Sortable table columns", "Currency exchange interface", "Toggle between two states"]
     }
   }
 }

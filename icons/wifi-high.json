@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络连接强度指示器",
-    "Wi-Fi状态显示",
-    "设备连接仪表盘",
-    "信号质量监视器"
-  ],
+  "use-cases": ["网络连接强度指示器", "Wi-Fi状态显示", "设备连接仪表盘", "信号质量监视器"],
   "name": "无线网络高",
-  "tags": [
-    "Wi-Fi",
-    "无线网络",
-    "信号强",
-    "连接",
-    "满格",
-    "网络状态",
-    "高速"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["Wi-Fi", "无线网络", "信号强", "连接", "满格", "网络状态", "高速"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi high",
-      "tags": [
-        "Wi-Fi",
-        "wireless",
-        "strong signal",
-        "connection",
-        "full bars",
-        "network status",
-        "high speed"
-      ],
-      "use-cases": [
-        "Network connection strength indicator",
-        "Wi-Fi status display",
-        "Device connectivity dashboard",
-        "Signal quality monitor"
-      ]
+      "tags": ["Wi-Fi", "wireless", "strong signal", "connection", "full bars", "network status", "high speed"],
+      "use-cases": ["Network connection strength indicator", "Wi-Fi status display", "Device connectivity dashboard", "Signal quality monitor"]
     }
   }
 }

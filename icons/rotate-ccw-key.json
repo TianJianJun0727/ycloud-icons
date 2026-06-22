@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "轮换API密钥或密钥",
-    "刷新访问令牌",
-    "更改账户密码"
-  ],
+  "use-cases": ["轮换API密钥或密钥", "刷新访问令牌", "更改账户密码"],
   "name": "旋转逆时针钥匙",
-  "tags": [
-    "密钥轮换",
-    "刷新密钥",
-    "更改密码",
-    "安全密钥",
-    "访问控制",
-    "重新生成"
-  ],
-  "categories": [
-    "security",
-    "account"
-  ],
+  "tags": ["密钥轮换", "刷新密钥", "更改密码", "安全密钥", "访问控制", "重新生成"],
+  "categories": ["security", "account"],
   "i18n": {
     "en": {
       "name": "rotate ccw key",
-      "tags": [
-        "key rotation",
-        "refresh key",
-        "change password",
-        "security key",
-        "access control",
-        "regenerate"
-      ],
-      "use-cases": [
-        "Rotate API keys or secrets",
-        "Refresh access token",
-        "Change account password"
-      ]
+      "tags": ["key rotation", "refresh key", "change password", "security key", "access control", "regenerate"],
+      "use-cases": ["Rotate API keys or secrets", "Refresh access token", "Change account password"]
     }
   }
 }

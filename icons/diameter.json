@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具中的圆形尺寸测量",
-    "几何计算或数学应用"
-  ],
+  "use-cases": ["设计工具中的圆形尺寸测量", "几何计算或数学应用"],
   "name": "直径",
-  "tags": [
-    "直径",
-    "圆形",
-    "几何",
-    "测量",
-    "尺寸",
-    "宽度",
-    "计算"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "design",
-    "tools"
-  ],
+  "tags": ["直径", "圆形", "几何", "测量", "尺寸", "宽度", "计算"],
+  "categories": ["shapes", "math", "design", "tools"],
   "i18n": {
     "en": {
       "name": "diameter",
-      "tags": [
-        "diameter",
-        "circle",
-        "geometry",
-        "measure",
-        "size",
-        "width",
-        "calculate"
-      ],
-      "use-cases": [
-        "measuring circular dimensions in design tools",
-        "geometry calculations or math applications"
-      ]
+      "tags": ["diameter", "circle", "geometry", "measure", "size", "width", "calculate"],
+      "use-cases": ["measuring circular dimensions in design tools", "geometry calculations or math applications"]
     }
   }
 }

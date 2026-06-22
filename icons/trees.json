@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "环保网站",
-    "公园导航",
-    "林业管理",
-    "自然保护"
-  ],
+  "use-cases": ["环保网站", "公园导航", "林业管理", "自然保护"],
   "name": "树木",
-  "tags": [
-    "树木",
-    "森林",
-    "公园",
-    "自然",
-    "绿化",
-    "林地"
-  ],
-  "categories": [
-    "nature",
-    "sustainability"
-  ],
+  "tags": ["树木", "森林", "公园", "自然", "绿化", "林地"],
+  "categories": ["nature", "sustainability"],
   "i18n": {
     "en": {
       "name": "trees",
-      "tags": [
-        "tree",
-        "forest",
-        "park",
-        "nature",
-        "greenery",
-        "woodland"
-      ],
-      "use-cases": [
-        "Environmental website",
-        "Park navigation",
-        "Forestry management",
-        "Nature conservation"
-      ]
+      "tags": ["tree", "forest", "park", "nature", "greenery", "woodland"],
+      "use-cases": ["Environmental website", "Park navigation", "Forestry management", "Nature conservation"]
     }
   }
 }

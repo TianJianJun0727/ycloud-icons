@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用",
-    "防晒提示",
-    "保护状态显示"
-  ],
+  "use-cases": ["天气应用", "防晒提示", "保护状态显示"],
   "name": "雨伞",
-  "tags": [
-    "雨伞",
-    "雨天",
-    "保护",
-    "天气",
-    "遮阳"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["雨伞", "雨天", "保护", "天气", "遮阳"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "umbrella",
-      "tags": [
-        "umbrella",
-        "rainy",
-        "protection",
-        "weather",
-        "sunshade"
-      ],
-      "use-cases": [
-        "Weather app",
-        "Sun protection reminder",
-        "Protection status display"
-      ]
+      "tags": ["umbrella", "rainy", "protection", "weather", "sunshade"],
+      "use-cases": ["Weather app", "Sun protection reminder", "Protection status display"]
     }
   }
 }

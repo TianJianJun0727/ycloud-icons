@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "流媒体服务播放按钮",
-    "智能电视界面控制",
-    "视频内容启动图标"
-  ],
+  "use-cases": ["流媒体服务播放按钮", "智能电视界面控制", "视频内容启动图标"],
   "name": "电视极简播放",
-  "tags": [
-    "电视播放",
-    "流媒体",
-    "视频",
-    "开始",
-    "娱乐",
-    "智能电视"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["电视播放", "流媒体", "视频", "开始", "娱乐", "智能电视"],
+  "categories": ["devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "tv minimal play",
-      "tags": [
-        "television",
-        "stream",
-        "video",
-        "play",
-        "start",
-        "entertainment",
-        "smart tv"
-      ],
-      "use-cases": [
-        "Streaming service play button",
-        "Smart TV interface control",
-        "Video content launch icon"
-      ]
+      "tags": ["television", "stream", "video", "play", "start", "entertainment", "smart tv"],
+      "use-cases": ["Streaming service play button", "Smart TV interface control", "Video content launch icon"]
     }
   }
 }

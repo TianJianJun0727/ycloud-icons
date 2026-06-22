@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "固定位置显示",
-    "固定地图标记",
-    "选定位置"
-  ],
+  "use-cases": ["固定位置显示", "固定地图标记", "选定位置"],
   "name": "地图定位",
-  "tags": [
-    "位置",
-    "固定",
-    "已标记",
-    "已定位",
-    "选定",
-    "锚点"
-  ],
-  "categories": [
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["位置", "固定", "已标记", "已定位", "选定", "锚点"],
+  "categories": ["navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pinned",
-      "tags": [
-        "location",
-        "pinned",
-        "marked",
-        "positioned",
-        "selected",
-        "anchor"
-      ],
-      "use-cases": [
-        "Pinned location display",
-        "Fixed map marker",
-        "Selected position"
-      ]
+      "tags": ["location", "pinned", "marked", "positioned", "selected", "anchor"],
+      "use-cases": ["Pinned location display", "Fixed map marker", "Selected position"]
     }
   }
 }

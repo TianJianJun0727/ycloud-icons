@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打印任务错误状态",
-    "打印机故障排除"
-  ],
+  "use-cases": ["打印任务错误状态", "打印机故障排除"],
   "name": "打印机关闭",
-  "tags": [
-    "打印机",
-    "错误",
-    "取消",
-    "故障"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["打印机", "错误", "取消", "故障"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "printer X",
-      "tags": [
-        "printer",
-        "error",
-        "cancel",
-        "failure"
-      ],
-      "use-cases": [
-        "Print job error status",
-        "Printer troubleshooting"
-      ]
+      "tags": ["printer", "error", "cancel", "failure"],
+      "use-cases": ["Print job error status", "Printer troubleshooting"]
     }
   }
 }

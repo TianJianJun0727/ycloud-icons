@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备连接状态",
-    "音频/视频设置",
-    "网络连接设置"
-  ],
+  "use-cases": ["设备连接状态", "音频/视频设置", "网络连接设置"],
   "name": "线缆",
-  "tags": [
-    "线缆",
-    "电线",
-    "连接",
-    "连接器",
-    "数据线",
-    "电源线",
-    "接口",
-    "信号"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["线缆", "电线", "连接", "连接器", "数据线", "电源线", "接口", "信号"],
+  "categories": ["connectivity", "devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "cable",
-      "tags": [
-        "cable",
-        "wire",
-        "cord",
-        "connector",
-        "connection",
-        "data cable",
-        "power cord",
-        "interface",
-        "signal"
-      ],
-      "use-cases": [
-        "Device connection status",
-        "Audio/video setup",
-        "Network connectivity settings"
-      ]
+      "tags": ["cable", "wire", "cord", "connector", "connection", "data cable", "power cord", "interface", "signal"],
+      "use-cases": ["Device connection status", "Audio/video setup", "Network connectivity settings"]
     }
   }
 }

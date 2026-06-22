@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "纸牌花色符号",
-    "几何形状选择",
-    "宝石或钻石图形",
-    "游戏棋盘元素"
-  ],
+  "use-cases": ["纸牌花色符号", "几何形状选择", "宝石或钻石图形", "游戏棋盘元素"],
   "name": "菱形",
-  "tags": [
-    "菱形",
-    "形状",
-    "方块",
-    "纸牌",
-    "游戏",
-    "钻石",
-    "斜方形"
-  ],
-  "categories": [
-    "shapes",
-    "gaming"
-  ],
+  "tags": ["菱形", "形状", "方块", "纸牌", "游戏", "钻石", "斜方形"],
+  "categories": ["shapes", "gaming"],
   "i18n": {
     "en": {
       "name": "diamond",
-      "tags": [
-        "diamond",
-        "shape",
-        "square",
-        "cards",
-        "gaming",
-        "gem",
-        "rhombus"
-      ],
-      "use-cases": [
-        "Playing card suit symbol",
-        "Geometric shape selection",
-        "Gem or diamond graphic",
-        "Game board element"
-      ]
+      "tags": ["diamond", "shape", "square", "cards", "gaming", "gem", "rhombus"],
+      "use-cases": ["Playing card suit symbol", "Geometric shape selection", "Gem or diamond graphic", "Game board element"]
     }
   }
 }

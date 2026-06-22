@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图片裁剪工具",
-    "响应式设计设置",
-    "视频宽高比控制"
-  ],
+  "use-cases": ["图片裁剪工具", "响应式设计设置", "视频宽高比控制"],
   "name": "比例",
-  "tags": [
-    "比例",
-    "宽高比",
-    "尺寸",
-    "布局",
-    "响应式",
-    "设计"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "photography"
-  ],
+  "tags": ["比例", "宽高比", "尺寸", "布局", "响应式", "设计"],
+  "categories": ["layout", "design", "photography"],
   "i18n": {
     "en": {
       "name": "ratio",
-      "tags": [
-        "ratio",
-        "aspect ratio",
-        "size",
-        "layout",
-        "responsive",
-        "design"
-      ],
-      "use-cases": [
-        "Image cropping tool",
-        "Responsive design settings",
-        "Video aspect ratio control"
-      ]
+      "tags": ["ratio", "aspect ratio", "size", "layout", "responsive", "design"],
+      "use-cases": ["Image cropping tool", "Responsive design settings", "Video aspect ratio control"]
     }
   }
 }

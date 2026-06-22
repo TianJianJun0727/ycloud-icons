@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在表格顶部插入行",
-    "在布局中添加垂直间距",
-    "将元素对齐到顶部"
-  ],
+  "use-cases": ["在表格顶部插入行", "在布局中添加垂直间距", "将元素对齐到顶部"],
   "name": "两端垂直末端",
-  "tags": [
-    "布局",
-    "插入",
-    "顶部",
-    "间距",
-    "网格",
-    "表格",
-    "行",
-    "对齐"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "tools"
-  ],
+  "tags": ["布局", "插入", "顶部", "间距", "网格", "表格", "行", "对齐"],
+  "categories": ["layout", "design", "tools"],
   "i18n": {
     "en": {
       "name": "between vertical end",
-      "tags": [
-        "layout",
-        "insert",
-        "top",
-        "spacing",
-        "grid",
-        "table",
-        "row",
-        "alignment"
-      ],
-      "use-cases": [
-        "Insert row at the top in a table",
-        "Add vertical space in a layout",
-        "Align elements to the top"
-      ]
+      "tags": ["layout", "insert", "top", "spacing", "grid", "table", "row", "alignment"],
+      "use-cases": ["Insert row at the top in a table", "Add vertical space in a layout", "Align elements to the top"]
     }
   }
 }

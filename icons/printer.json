@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打印设置",
-    "文档打印",
-    "办公设备管理"
-  ],
+  "use-cases": ["打印设置", "文档打印", "办公设备管理"],
   "name": "打印机",
-  "tags": [
-    "打印",
-    "设备",
-    "办公",
-    "文档",
-    "输出"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["打印", "设备", "办公", "文档", "输出"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "printer",
-      "tags": [
-        "print",
-        "device",
-        "office",
-        "document",
-        "output"
-      ],
-      "use-cases": [
-        "Print settings",
-        "Document printing",
-        "Office device management"
-      ]
+      "tags": ["print", "device", "office", "document", "output"],
+      "use-cases": ["Print settings", "Document printing", "Office device management"]
     }
   }
 }

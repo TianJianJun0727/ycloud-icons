@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示自动保存已开启",
-    "确认文档已保存",
-    "保存操作成功完成"
-  ],
+  "use-cases": ["表示自动保存已开启", "确认文档已保存", "保存操作成功完成"],
   "name": "保存勾选",
-  "tags": [
-    "保存成功",
-    "已保存",
-    "确认保存",
-    "自动保存",
-    "完成保存"
-  ],
-  "categories": [
-    "text",
-    "files",
-    "development"
-  ],
+  "tags": ["保存成功", "已保存", "确认保存", "自动保存", "完成保存"],
+  "categories": ["text", "files", "development"],
   "i18n": {
     "en": {
       "name": "save check",
-      "tags": [
-        "save success",
-        "saved",
-        "save confirmed",
-        "autosave",
-        "save complete"
-      ],
-      "use-cases": [
-        "Indicates autosave is active",
-        "Confirms a document has been saved",
-        "Save operation completed successfully"
-      ]
+      "tags": ["save success", "saved", "save confirmed", "autosave", "save complete"],
+      "use-cases": ["Indicates autosave is active", "Confirms a document has been saved", "Save operation completed successfully"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "基因研究界面",
-    "生物学教育",
-    "医学诊断"
-  ],
+  "use-cases": ["基因研究界面", "生物学教育", "医学诊断"],
   "name": "DNA链",
-  "tags": [
-    "DNA",
-    "基因",
-    "遗传学",
-    "生物",
-    "科学"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["DNA", "基因", "遗传学", "生物", "科学"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "dna",
-      "tags": [
-        "dna",
-        "gene",
-        "genetics",
-        "biology",
-        "science"
-      ],
-      "use-cases": [
-        "Genetic research interface",
-        "Biology education",
-        "Medical diagnostics"
-      ]
+      "tags": ["dna", "gene", "genetics", "biology", "science"],
+      "use-cases": ["Genetic research interface", "Biology education", "Medical diagnostics"]
     }
   }
 }

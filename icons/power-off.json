@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备关机按钮",
-    "电源控制开关"
-  ],
+  "use-cases": ["设备关机按钮", "电源控制开关"],
   "name": "关机",
-  "tags": [
-    "关机",
-    "电源",
-    "关闭",
-    "设备"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["关机", "电源", "关闭", "设备"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "power off",
-      "tags": [
-        "power off",
-        "shutdown",
-        "turn off",
-        "device"
-      ],
-      "use-cases": [
-        "Device shutdown button",
-        "Power control toggle"
-      ]
+      "tags": ["power off", "shutdown", "turn off", "device"],
+      "use-cases": ["Device shutdown button", "Power control toggle"]
     }
   }
 }

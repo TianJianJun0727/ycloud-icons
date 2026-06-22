@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅网站",
-    "烹饪应用个人资料",
-    "食品配送服务",
-    "美食博客"
-  ],
+  "use-cases": ["餐厅网站", "烹饪应用个人资料", "食品配送服务", "美食博客"],
   "name": "厨师帽子",
-  "tags": [
-    "厨师",
-    "烹饪",
-    "厨房",
-    "餐厅",
-    "美食",
-    "帽子",
-    "餐饮"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["厨师", "烹饪", "厨房", "餐厅", "美食", "帽子", "餐饮"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "chef hat",
-      "tags": [
-        "chef",
-        "cooking",
-        "kitchen",
-        "restaurant",
-        "cuisine",
-        "hat",
-        "culinary"
-      ],
-      "use-cases": [
-        "Restaurant website",
-        "Cooking app profile",
-        "Food delivery service",
-        "Culinary blog"
-      ]
+      "tags": ["chef", "cooking", "kitchen", "restaurant", "cuisine", "hat", "culinary"],
+      "use-cases": ["Restaurant website", "Cooking app profile", "Food delivery service", "Culinary blog"]
     }
   }
 }

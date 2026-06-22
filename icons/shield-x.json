@@ -1,30 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "阻止安全威胁",
-    "拒绝访问权限",
-    "显示安全错误",
-    "取消防护"
-  ],
+  "use-cases": ["阻止安全威胁", "拒绝访问权限", "显示安全错误", "取消防护"],
   "name": "盾牌关闭",
-  "tags": [
-    "安全",
-    "防护",
-    "拒绝",
-    "阻止",
-    "错误",
-    "失败",
-    "警告",
-    "关闭",
-    "取消",
-    "威胁"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["安全", "防护", "拒绝", "阻止", "错误", "失败", "警告", "关闭", "取消", "威胁"],
+  "categories": ["account", "security", "development", "gaming"],
   "aliases": [
     {
       "name": "shield-close",
@@ -36,24 +15,8 @@
   "i18n": {
     "en": {
       "name": "shield X",
-      "tags": [
-        "security",
-        "protection",
-        "deny",
-        "block",
-        "error",
-        "failure",
-        "warning",
-        "close",
-        "cancel",
-        "threat"
-      ],
-      "use-cases": [
-        "Block security threat",
-        "Deny access permission",
-        "Show security error",
-        "Cancel protection"
-      ]
+      "tags": ["security", "protection", "deny", "block", "error", "failure", "warning", "close", "cancel", "threat"],
+      "use-cases": ["Block security threat", "Deny access permission", "Show security error", "Cancel protection"]
     }
   }
 }

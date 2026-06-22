@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "错误通知",
-    "安全警告",
-    "关键警报"
-  ],
+  "use-cases": ["错误通知", "安全警告", "关键警报"],
   "name": "八边形告警",
-  "tags": [
-    "警告",
-    "危险",
-    "警报",
-    "停止",
-    "注意"
-  ],
-  "categories": [
-    "notifications",
-    "shapes"
-  ],
+  "tags": ["警告", "危险", "警报", "停止", "注意"],
+  "categories": ["notifications", "shapes"],
   "aliases": [
     {
       "name": "alert-octagon",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "octagon alert",
-      "tags": [
-        "warning",
-        "danger",
-        "alert",
-        "stop",
-        "caution"
-      ],
-      "use-cases": [
-        "Error notifications",
-        "Safety warnings",
-        "Critical alerts"
-      ]
+      "tags": ["warning", "danger", "alert", "stop", "caution"],
+      "use-cases": ["Error notifications", "Safety warnings", "Critical alerts"]
     }
   }
 }

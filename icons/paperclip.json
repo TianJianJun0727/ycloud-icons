@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "邮件附件指示器",
-    "表单中的文件附加操作",
-    "文档链接符号"
-  ],
+  "use-cases": ["邮件附件指示器", "表单中的文件附加操作", "文档链接符号"],
   "name": "回形针",
-  "tags": [
-    "附件",
-    "文件",
-    "回形针",
-    "邮件",
-    "链接"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "files",
-    "mail"
-  ],
+  "tags": ["附件", "文件", "回形针", "邮件", "链接"],
+  "categories": ["text", "design", "files", "mail"],
   "i18n": {
     "en": {
       "name": "paperclip",
-      "tags": [
-        "attachment",
-        "file",
-        "paperclip",
-        "mail",
-        "link"
-      ],
-      "use-cases": [
-        "Email attachment indicator",
-        "File attach action in a form",
-        "Document linking symbol"
-      ]
+      "tags": ["attachment", "file", "paperclip", "mail", "link"],
+      "use-cases": ["Email attachment indicator", "File attach action in a form", "Document linking symbol"]
     }
   }
 }

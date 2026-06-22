@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "硬件设置",
-    "电子项目",
-    "计算机组件可视化"
-  ],
+  "use-cases": ["硬件设置", "电子项目", "计算机组件可视化"],
   "name": "电路面板",
-  "tags": [
-    "电路板",
-    "硬件",
-    "电子",
-    "计算",
-    "主板",
-    "芯片"
-  ],
-  "categories": [
-    "science",
-    "development"
-  ],
+  "tags": ["电路板", "硬件", "电子", "计算", "主板", "芯片"],
+  "categories": ["science", "development"],
   "i18n": {
     "en": {
       "name": "circuit board",
-      "tags": [
-        "circuit board",
-        "hardware",
-        "electronics",
-        "computing",
-        "motherboard",
-        "chip"
-      ],
-      "use-cases": [
-        "Hardware settings",
-        "Electronics project",
-        "Computer component visualization"
-      ]
+      "tags": ["circuit board", "hardware", "electronics", "computing", "motherboard", "chip"],
+      "use-cases": ["Hardware settings", "Electronics project", "Computer component visualization"]
     }
   }
 }

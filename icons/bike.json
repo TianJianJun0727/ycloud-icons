@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "共享单车应用",
-    "运动健身界面",
-    "交通出行图标"
-  ],
+  "use-cases": ["共享单车应用", "运动健身界面", "交通出行图标"],
   "name": "自行车",
-  "tags": [
-    "自行车",
-    "骑行",
-    "交通",
-    "出行",
-    "运动"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["自行车", "骑行", "交通", "出行", "运动"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "bike",
-      "tags": [
-        "bicycle",
-        "transport",
-        "travel",
-        "cycling",
-        "sports"
-      ],
-      "use-cases": [
-        "Bike sharing app",
-        "Sports fitness interface",
-        "Transportation icon"
-      ]
+      "tags": ["bicycle", "transport", "travel", "cycling", "sports"],
+      "use-cases": ["Bike sharing app", "Sports fitness interface", "Transportation icon"]
     }
   }
 }

@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "带警告的API文档",
-    "帮助文档中的错误或告警",
-    "手册中的重要通知",
-    "危险操作指南"
-  ],
+  "use-cases": ["带警告的API文档", "帮助文档中的错误或告警", "手册中的重要通知", "危险操作指南"],
   "name": "书籍告警",
-  "tags": [
-    "文档警告",
-    "告警",
-    "危险",
-    "错误文档",
-    "阅读",
-    "知识",
-    "教育",
-    "研究",
-    "注意",
-    "感叹号"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["文档警告", "告警", "危险", "错误文档", "阅读", "知识", "教育", "研究", "注意", "感叹号"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book alert",
-      "tags": [
-        "documentation warning",
-        "alert",
-        "danger",
-        "error documentation",
-        "reading",
-        "knowledge",
-        "education",
-        "research",
-        "attention",
-        "exclamation mark"
-      ],
-      "use-cases": [
-        "API documentation with warnings",
-        "Error or alert in help docs",
-        "Important notice in a manual",
-        "Dangerous operation guide"
-      ]
+      "tags": ["documentation warning", "alert", "danger", "error documentation", "reading", "knowledge", "education", "research", "attention", "exclamation mark"],
+      "use-cases": ["API documentation with warnings", "Error or alert in help docs", "Important notice in a manual", "Dangerous operation guide"]
     }
   }
 }

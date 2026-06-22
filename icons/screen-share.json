@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频会议屏幕共享",
-    "远程桌面连接",
-    "在线演示模式",
-    "协作工具共享"
-  ],
+  "use-cases": ["视频会议屏幕共享", "远程桌面连接", "在线演示模式", "协作工具共享"],
   "name": "屏幕分享",
-  "tags": [
-    "屏幕共享",
-    "分享屏幕",
-    "桌面共享",
-    "远程演示",
-    "屏幕分享"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "communication"
-  ],
+  "tags": ["屏幕共享", "分享屏幕", "桌面共享", "远程演示", "屏幕分享"],
+  "categories": ["connectivity", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "screen share",
-      "tags": [
-        "screen share",
-        "share screen",
-        "desktop sharing",
-        "remote presentation",
-        "screen sharing"
-      ],
-      "use-cases": [
-        "Video conference screen sharing",
-        "Remote desktop connection",
-        "Online presentation mode",
-        "Collaboration tool sharing"
-      ]
+      "tags": ["screen share", "share screen", "desktop sharing", "remote presentation", "screen sharing"],
+      "use-cases": ["Video conference screen sharing", "Remote desktop connection", "Online presentation mode", "Collaboration tool sharing"]
     }
   }
 }

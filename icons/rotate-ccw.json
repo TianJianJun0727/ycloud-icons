@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "刷新或重新加载页面内容",
-    "撤销操作",
-    "重试失败的操作",
-    "媒体播放器倒回"
-  ],
+  "use-cases": ["刷新或重新加载页面内容", "撤销操作", "重试失败的操作", "媒体播放器倒回"],
   "name": "旋转逆时针",
-  "tags": [
-    "逆时针",
-    "向左旋转",
-    "刷新",
-    "重新加载",
-    "撤销",
-    "重试",
-    "重启",
-    "倒回"
-  ],
-  "categories": [
-    "arrows",
-    "design",
-    "photography"
-  ],
+  "tags": ["逆时针", "向左旋转", "刷新", "重新加载", "撤销", "重试", "重启", "倒回"],
+  "categories": ["arrows", "design", "photography"],
   "i18n": {
     "en": {
       "name": "rotate ccw",
-      "tags": [
-        "counterclockwise",
-        "rotate left",
-        "refresh",
-        "reload",
-        "undo",
-        "retry",
-        "restart",
-        "rewind"
-      ],
-      "use-cases": [
-        "Refresh or reload page content",
-        "Undo an action",
-        "Retry a failed operation",
-        "Media player rewind"
-      ]
+      "tags": ["counterclockwise", "rotate left", "refresh", "reload", "undo", "retry", "restart", "rewind"],
+      "use-cases": ["Refresh or reload page content", "Undo an action", "Retry a failed operation", "Media player rewind"]
     }
   }
 }

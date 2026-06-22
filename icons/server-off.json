@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "服务器关机状态",
-    "服务禁用状态",
-    "维护模式"
-  ],
+  "use-cases": ["服务器关机状态", "服务禁用状态", "维护模式"],
   "name": "服务器关闭",
-  "tags": [
-    "服务器",
-    "关机",
-    "停止",
-    "离线",
-    "禁用",
-    "维护",
-    "云服务"
-  ],
-  "categories": [
-    "development",
-    "devices"
-  ],
+  "tags": ["服务器", "关机", "停止", "离线", "禁用", "维护", "云服务"],
+  "categories": ["development", "devices"],
   "i18n": {
     "en": {
       "name": "server off",
-      "tags": [
-        "server",
-        "shutdown",
-        "stop",
-        "offline",
-        "disabled",
-        "maintenance",
-        "cloud service"
-      ],
-      "use-cases": [
-        "Server shutdown state",
-        "Service disabled status",
-        "Maintenance mode"
-      ]
+      "tags": ["server", "shutdown", "stop", "offline", "disabled", "maintenance", "cloud service"],
+      "use-cases": ["Server shutdown state", "Service disabled status", "Maintenance mode"]
     }
   }
 }

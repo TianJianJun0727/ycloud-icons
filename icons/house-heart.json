@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "房地产收藏",
-    "家庭护理服务",
-    "家庭健康应用"
-  ],
+  "use-cases": ["房地产收藏", "家庭护理服务", "家庭健康应用"],
   "name": "房屋爱心",
-  "tags": [
-    "爱心房屋",
-    "温馨家园",
-    "住宅",
-    "家庭",
-    "关爱",
-    "健康生活"
-  ],
-  "categories": [
-    "home",
-    "buildings",
-    "medical"
-  ],
+  "tags": ["爱心房屋", "温馨家园", "住宅", "家庭", "关爱", "健康生活"],
+  "categories": ["home", "buildings", "medical"],
   "i18n": {
     "en": {
       "name": "house heart",
-      "tags": [
-        "heart home",
-        "cozy home",
-        "residence",
-        "family",
-        "care",
-        "healthy living"
-      ],
-      "use-cases": [
-        "Real estate favorites",
-        "Home care services",
-        "Family wellness applications"
-      ]
+      "tags": ["heart home", "cozy home", "residence", "family", "care", "healthy living"],
+      "use-cases": ["Real estate favorites", "Home care services", "Family wellness applications"]
     }
   }
 }

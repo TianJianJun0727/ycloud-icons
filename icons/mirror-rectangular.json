@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "浴室梳妆镜图标",
-    "反射模拟",
-    "家居装饰物品",
-    "光学工具"
-  ],
+  "use-cases": ["浴室梳妆镜图标", "反射模拟", "家居装饰物品", "光学工具"],
   "name": "镜像矩形",
-  "tags": [
-    "镜子",
-    "反射",
-    "矩形镜",
-    "梳妆镜",
-    "光学"
-  ],
-  "categories": [
-    "science",
-    "home",
-    "tools"
-  ],
+  "tags": ["镜子", "反射", "矩形镜", "梳妆镜", "光学"],
+  "categories": ["science", "home", "tools"],
   "i18n": {
     "en": {
       "name": "mirror rectangular",
-      "tags": [
-        "mirror",
-        "reflection",
-        "rectangular mirror",
-        "vanity mirror",
-        "optics"
-      ],
-      "use-cases": [
-        "Bathroom vanity icon",
-        "Reflection simulation",
-        "Home decor item",
-        "Optics tool"
-      ]
+      "tags": ["mirror", "reflection", "rectangular mirror", "vanity mirror", "optics"],
+      "use-cases": ["Bathroom vanity icon", "Reflection simulation", "Home decor item", "Optics tool"]
     }
   }
 }

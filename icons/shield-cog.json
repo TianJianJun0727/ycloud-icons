@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安全配置图标",
-    "防护管理工具",
-    "设置控制界面"
-  ],
+  "use-cases": ["安全配置图标", "防护管理工具", "设置控制界面"],
   "name": "盾牌齿轮",
-  "tags": [
-    "安全齿轮",
-    "防护设置",
-    "配置盾牌",
-    "管理防护",
-    "控制面板"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming",
-    "shapes"
-  ],
+  "tags": ["安全齿轮", "防护设置", "配置盾牌", "管理防护", "控制面板"],
+  "categories": ["account", "security", "development", "gaming", "shapes"],
   "i18n": {
     "en": {
       "name": "shield cog",
-      "tags": [
-        "security cog",
-        "protection settings",
-        "configure shield",
-        "manage protection",
-        "control panel"
-      ],
-      "use-cases": [
-        "Security configuration icon",
-        "Protection management tool",
-        "Settings control interface"
-      ]
+      "tags": ["security cog", "protection settings", "configure shield", "manage protection", "control panel"],
+      "use-cases": ["Security configuration icon", "Protection management tool", "Settings control interface"]
     }
   }
 }

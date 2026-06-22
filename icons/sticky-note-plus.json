@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新笔记或评论",
-    "创建待办事项",
-    "插入批注按钮"
-  ],
+  "use-cases": ["添加新笔记或评论", "创建待办事项", "插入批注按钮"],
   "name": "便签便签加号",
-  "tags": [
-    "便利贴",
-    "添加",
-    "新建",
-    "创建",
-    "加号",
-    "笔记",
-    "任务"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["便利贴", "添加", "新建", "创建", "加号", "笔记", "任务"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "sticky note plus",
-      "tags": [
-        "sticky note",
-        "add",
-        "new",
-        "create",
-        "plus",
-        "note",
-        "task"
-      ],
-      "use-cases": [
-        "Add a new note or comment",
-        "Create a to-do item",
-        "Insert annotation button"
-      ]
+      "tags": ["sticky note", "add", "new", "create", "plus", "note", "task"],
+      "use-cases": ["Add a new note or comment", "Create a to-do item", "Insert annotation button"]
     }
   }
 }

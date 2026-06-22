@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据统计界面",
-    "业务分析图表",
-    "报表展示"
-  ],
+  "use-cases": ["数据统计界面", "业务分析图表", "报表展示"],
   "name": "图表列",
-  "tags": [
-    "统计",
-    "分析",
-    "柱状图",
-    "数据可视化",
-    "比较分析"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "柱状图", "数据可视化", "比较分析"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-3",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart column",
-      "tags": [
-        "statistics",
-        "analytics",
-        "column chart",
-        "data visualization",
-        "comparative analysis"
-      ],
-      "use-cases": [
-        "Data statistics interface",
-        "Business analysis chart",
-        "Report display"
-      ]
+      "tags": ["statistics", "analytics", "column chart", "data visualization", "comparative analysis"],
+      "use-cases": ["Data statistics interface", "Business analysis chart", "Report display"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向上导航",
-    "下拉菜单展开",
-    "数学幂运算",
-    "游戏控制向上方向"
-  ],
+  "use-cases": ["向上导航", "下拉菜单展开", "数学幂运算", "游戏控制向上方向"],
   "name": "上箭头",
-  "tags": [
-    "上箭头",
-    "向上",
-    "展开",
-    "指数",
-    "幂运算",
-    "游戏控制",
-    "下拉菜单"
-  ],
-  "categories": [
-    "arrows",
-    "math",
-    "gaming"
-  ],
+  "tags": ["上箭头", "向上", "展开", "指数", "幂运算", "游戏控制", "下拉菜单"],
+  "categories": ["arrows", "math", "gaming"],
   "i18n": {
     "en": {
       "name": "chevron up",
-      "tags": [
-        "up arrow",
-        "upward",
-        "expand",
-        "exponent",
-        "power",
-        "gaming control",
-        "dropdown"
-      ],
-      "use-cases": [
-        "Upward navigation",
-        "Dropdown menu expansion",
-        "Mathematical exponentiation",
-        "Game control up direction"
-      ]
+      "tags": ["up arrow", "upward", "expand", "exponent", "power", "gaming control", "dropdown"],
+      "use-cases": ["Upward navigation", "Dropdown menu expansion", "Mathematical exponentiation", "Game control up direction"]
     }
   }
 }

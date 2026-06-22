@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户反馈评分",
-    "聊天中的中性情绪",
-    "情绪选择"
-  ],
+  "use-cases": ["用户反馈评分", "聊天中的中性情绪", "情绪选择"],
   "name": "无表情",
-  "tags": [
-    "表情",
-    "中性",
-    "平淡",
-    "无感",
-    "情绪"
-  ],
-  "categories": [
-    "emoji"
-  ],
+  "tags": ["表情", "中性", "平淡", "无感", "情绪"],
+  "categories": ["emoji"],
   "i18n": {
     "en": {
       "name": "meh",
-      "tags": [
-        "emoji",
-        "face",
-        "neutral",
-        "indifferent",
-        "emotion"
-      ],
-      "use-cases": [
-        "User feedback rating",
-        "Neutral sentiment in chat",
-        "Emotion selection"
-      ]
+      "tags": ["emoji", "face", "neutral", "indifferent", "emotion"],
+      "use-cases": ["User feedback rating", "Neutral sentiment in chat", "Emotion selection"]
     }
   }
 }

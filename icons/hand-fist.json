@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "庆祝胜利",
-    "展示力量",
-    "社交媒体反应",
-    "体育成就"
-  ],
+  "use-cases": ["庆祝胜利", "展示力量", "社交媒体反应", "体育成就"],
   "name": "手拳头",
-  "tags": [
-    "拳头",
-    "力量",
-    "团结",
-    "胜利",
-    "战斗",
-    "支持",
-    "反抗",
-    "社交表情"
-  ],
-  "categories": [
-    "social",
-    "emoji",
-    "communication",
-    "sports"
-  ],
+  "tags": ["拳头", "力量", "团结", "胜利", "战斗", "支持", "反抗", "社交表情"],
+  "categories": ["social", "emoji", "communication", "sports"],
   "i18n": {
     "en": {
       "name": "hand fist",
-      "tags": [
-        "fist",
-        "strength",
-        "unity",
-        "victory",
-        "fight",
-        "support",
-        "rebellion",
-        "social emoji"
-      ],
-      "use-cases": [
-        "Celebrating victory",
-        "Showing strength",
-        "Social media reactions",
-        "Sports achievements"
-      ]
+      "tags": ["fist", "strength", "unity", "victory", "fight", "support", "rebellion", "social emoji"],
+      "use-cases": ["Celebrating victory", "Showing strength", "Social media reactions", "Sports achievements"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "动物百科条目",
-    "宠物护理应用",
-    "速度设置指示器（慢速模式）"
-  ],
+  "use-cases": ["动物百科条目", "宠物护理应用", "速度设置指示器（慢速模式）"],
   "name": "海龟",
-  "tags": [
-    "乌龟",
-    "海龟",
-    "动物",
-    "宠物",
-    "缓慢",
-    "爬行动物"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["乌龟", "海龟", "动物", "宠物", "缓慢", "爬行动物"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "turtle",
-      "tags": [
-        "turtle",
-        "animal",
-        "pet",
-        "slow",
-        "reptile",
-        "tortoise"
-      ],
-      "use-cases": [
-        "Animal encyclopedia entry",
-        "Pet care application",
-        "Speed setting indicator (slow mode)"
-      ]
+      "tags": ["turtle", "animal", "pet", "slow", "reptile", "tortoise"],
+      "use-cases": ["Animal encyclopedia entry", "Pet care application", "Speed setting indicator (slow mode)"]
     }
   }
 }

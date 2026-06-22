@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "访问语音信箱收件箱",
-    "带有留言的未接来电指示",
-    "音频消息播放"
-  ],
+  "use-cases": ["访问语音信箱收件箱", "带有留言的未接来电指示", "音频消息播放"],
   "name": "语音信箱",
-  "tags": [
-    "语音信箱",
-    "电话",
-    "留言",
-    "音频消息",
-    "未接来电"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "social"
-  ],
+  "tags": ["语音信箱", "电话", "留言", "音频消息", "未接来电"],
+  "categories": ["connectivity", "devices", "social"],
   "i18n": {
     "en": {
       "name": "voicemail",
-      "tags": [
-        "voicemail",
-        "phone",
-        "message",
-        "audio message",
-        "missed call"
-      ],
-      "use-cases": [
-        "Access voicemail inbox",
-        "Missed call with message indicator",
-        "Audio message playback"
-      ]
+      "tags": ["voicemail", "phone", "message", "audio message", "missed call"],
+      "use-cases": ["Access voicemail inbox", "Missed call with message indicator", "Audio message playback"]
     }
   }
 }

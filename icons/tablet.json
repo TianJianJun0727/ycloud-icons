@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "平板设备设置或选择",
-    "移动应用界面表示",
-    "硬件库存图标"
-  ],
+  "use-cases": ["平板设备设置或选择", "移动应用界面表示", "硬件库存图标"],
   "name": "平板",
-  "tags": [
-    "平板电脑",
-    "设备",
-    "移动设备",
-    "屏幕"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["平板电脑", "设备", "移动设备", "屏幕"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "tablet",
-      "tags": [
-        "tablet",
-        "device",
-        "mobile device",
-        "screen"
-      ],
-      "use-cases": [
-        "Tablet device setting or selection",
-        "Mobile app interface representation",
-        "Hardware inventory icon"
-      ]
+      "tags": ["tablet", "device", "mobile device", "screen"],
+      "use-cases": ["Tablet device setting or selection", "Mobile app interface representation", "Hardware inventory icon"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "版本历史面板",
-    "文件备份列表",
-    "文档修订视图"
-  ],
+  "use-cases": ["版本历史面板", "文件备份列表", "文档修订视图"],
   "name": "文件堆叠",
-  "tags": [
-    "文件",
-    "版本",
-    "历史",
-    "多个",
-    "版本控制",
-    "修订",
-    "文档",
-    "备份"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["文件", "版本", "历史", "多个", "版本控制", "修订", "文档", "备份"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "file stack",
-      "tags": [
-        "file",
-        "version",
-        "history",
-        "multiple",
-        "version control",
-        "revision",
-        "document",
-        "backup"
-      ],
-      "use-cases": [
-        "Version history panel",
-        "File backup list",
-        "Document revisions view"
-      ]
+      "tags": ["file", "version", "history", "multiple", "version control", "revision", "document", "backup"],
+      "use-cases": ["Version history panel", "File backup list", "Document revisions view"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "语言选择菜单",
-    "翻译功能开关",
-    "国际化设置",
-    "内容本地化指示器"
-  ],
+  "use-cases": ["语言选择菜单", "翻译功能开关", "国际化设置", "内容本地化指示器"],
   "name": "语言",
-  "tags": [
-    "语言",
-    "翻译",
-    "国际化",
-    "本地化",
-    "多语言"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["语言", "翻译", "国际化", "本地化", "多语言"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "languages",
-      "tags": [
-        "language",
-        "translate",
-        "internationalization",
-        "localization",
-        "multilingual"
-      ],
-      "use-cases": [
-        "Language selection menu",
-        "Translation feature toggle",
-        "Internationalization settings",
-        "Content localization indicator"
-      ]
+      "tags": ["language", "translate", "internationalization", "localization", "multilingual"],
+      "use-cases": ["Language selection menu", "Translation feature toggle", "Internationalization settings", "Content localization indicator"]
     }
   }
 }

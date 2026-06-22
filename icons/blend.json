@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计软件",
-    "图片编辑工具",
-    "透明度调节界面"
-  ],
+  "use-cases": ["设计软件", "图片编辑工具", "透明度调节界面"],
   "name": "混合",
-  "tags": [
-    "混合",
-    "透明度",
-    "颜色",
-    "设计",
-    "滤镜"
-  ],
-  "categories": [
-    "design",
-    "photography",
-    "tools",
-    "development"
-  ],
+  "tags": ["混合", "透明度", "颜色", "设计", "滤镜"],
+  "categories": ["design", "photography", "tools", "development"],
   "i18n": {
     "en": {
       "name": "blend",
-      "tags": [
-        "blend",
-        "transparency",
-        "color",
-        "design",
-        "filter"
-      ],
-      "use-cases": [
-        "Design software",
-        "Image editing tool",
-        "Transparency adjustment interface"
-      ]
+      "tags": ["blend", "transparency", "color", "design", "filter"],
+      "use-cases": ["Design software", "Image editing tool", "Transparency adjustment interface"]
     }
   }
 }

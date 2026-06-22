@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "铁路地图覆盖层",
-    "基础设施规划工具",
-    "路线可视化"
-  ],
+  "use-cases": ["铁路地图覆盖层", "基础设施规划工具", "路线可视化"],
   "name": "火车轨道",
-  "tags": [
-    "铁轨",
-    "轨道",
-    "铁路",
-    "线路",
-    "轨道交通"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["铁轨", "轨道", "铁路", "线路", "轨道交通"],
+  "categories": ["transportation", "navigation"],
   "i18n": {
     "en": {
       "name": "train track",
-      "tags": [
-        "rail",
-        "track",
-        "railway",
-        "line",
-        "railroad"
-      ],
-      "use-cases": [
-        "Railway map overlay",
-        "Infrastructure planning tool",
-        "Route visualization"
-      ]
+      "tags": ["rail", "track", "railway", "line", "railroad"],
+      "use-cases": ["Railway map overlay", "Infrastructure planning tool", "Route visualization"]
     }
   }
 }

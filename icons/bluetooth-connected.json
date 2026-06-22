@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示蓝牙已连接状态",
-    "指示已配对的音频或输入设备"
-  ],
+  "use-cases": ["显示蓝牙已连接状态", "指示已配对的音频或输入设备"],
   "name": "蓝牙已连接",
-  "tags": [
-    "蓝牙",
-    "已连接",
-    "配对成功",
-    "无线",
-    "设备",
-    "链接"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["蓝牙", "已连接", "配对成功", "无线", "设备", "链接"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "bluetooth connected",
-      "tags": [
-        "bluetooth",
-        "connected",
-        "paired",
-        "wireless",
-        "device",
-        "link"
-      ],
-      "use-cases": [
-        "Show active Bluetooth connection status",
-        "Indicate a paired audio or input device"
-      ]
+      "tags": ["bluetooth", "connected", "paired", "wireless", "device", "link"],
+      "use-cases": ["Show active Bluetooth connection status", "Indicate a paired audio or input device"]
     }
   }
 }

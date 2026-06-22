@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "业绩下滑展示",
-    "数据下降分析",
-    "趋势监控面板"
-  ],
+  "use-cases": ["业绩下滑展示", "数据下降分析", "趋势监控面板"],
   "name": "图表列下降",
-  "tags": [
-    "下降趋势",
-    "数据减少",
-    "柱状图",
-    "统计分析",
-    "负增长"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["下降趋势", "数据减少", "柱状图", "统计分析", "负增长"],
+  "categories": ["charts"],
   "i18n": {
     "en": {
       "name": "chart column decreasing",
-      "tags": [
-        "decreasing trend",
-        "data decline",
-        "column chart",
-        "statistical analysis",
-        "negative growth"
-      ],
-      "use-cases": [
-        "Performance decline display",
-        "Data decrease analysis",
-        "Trend monitoring dashboard"
-      ]
+      "tags": ["decreasing trend", "data decline", "column chart", "statistical analysis", "negative growth"],
+      "use-cases": ["Performance decline display", "Data decrease analysis", "Trend monitoring dashboard"]
     }
   }
 }

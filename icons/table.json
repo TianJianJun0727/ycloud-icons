@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用数据表格表示",
-    "编辑器中的插入表格按钮",
-    "数据库或数据集可视化"
-  ],
+  "use-cases": ["通用数据表格表示", "编辑器中的插入表格按钮", "数据库或数据集可视化"],
   "name": "表格",
-  "tags": [
-    "表格",
-    "电子表格",
-    "网格",
-    "数据表"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["表格", "电子表格", "网格", "数据表"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "table",
-      "tags": [
-        "table",
-        "spreadsheet",
-        "grid",
-        "datasheet"
-      ],
-      "use-cases": [
-        "General data table representation",
-        "Insert table button in an editor",
-        "Database or dataset visualization"
-      ]
+      "tags": ["table", "spreadsheet", "grid", "datasheet"],
+      "use-cases": ["General data table representation", "Insert table button in an editor", "Database or dataset visualization"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "夜间有雨预报",
-    "傍晚降水天气",
-    "多云夜晚降雨图标"
-  ],
+  "use-cases": ["夜间有雨预报", "傍晚降水天气", "多云夜晚降雨图标"],
   "name": "云月亮雨",
-  "tags": [
-    "夜雨",
-    "多云有雨",
-    "夜晚",
-    "降水",
-    "天气",
-    "夜间"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["夜雨", "多云有雨", "夜晚", "降水", "天气", "夜间"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud moon rain",
-      "tags": [
-        "night rain",
-        "cloudy rain",
-        "night",
-        "precipitation",
-        "weather",
-        "nocturnal"
-      ],
-      "use-cases": [
-        "Nighttime rainy forecast",
-        "Evening weather with precipitation",
-        "Cloudy night with rain icon"
-      ]
+      "tags": ["night rain", "cloudy rain", "night", "precipitation", "weather", "nocturnal"],
+      "use-cases": ["Nighttime rainy forecast", "Evening weather with precipitation", "Cloudy night with rain icon"]
     }
   }
 }

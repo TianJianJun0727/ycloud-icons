@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健康食谱",
-    "蔬菜选择",
-    "营养追踪"
-  ],
+  "use-cases": ["健康食谱", "蔬菜选择", "营养追踪"],
   "name": "西兰花",
-  "tags": [
-    "西兰花",
-    "蔬菜",
-    "健康",
-    "营养",
-    "素食"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["西兰花", "蔬菜", "健康", "营养", "素食"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "broccoli",
-      "tags": [
-        "broccoli",
-        "vegetable",
-        "healthy",
-        "nutrition",
-        "vegan"
-      ],
-      "use-cases": [
-        "Healthy food recipes",
-        "Vegetable selection",
-        "Nutrition tracking"
-      ]
+      "tags": ["broccoli", "vegetable", "healthy", "nutrition", "vegan"],
+      "use-cases": ["Healthy food recipes", "Vegetable selection", "Nutrition tracking"]
     }
   }
 }

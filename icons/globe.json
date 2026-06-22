@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网站语言选择器",
-    "国际化设置",
-    "全球网络状态",
-    "世界地图界面"
-  ],
+  "use-cases": ["网站语言选择器", "国际化设置", "全球网络状态", "世界地图界面"],
   "name": "地球",
-  "tags": [
-    "世界",
-    "全球",
-    "网络",
-    "互联网",
-    "语言",
-    "翻译",
-    "浏览器",
-    "地点"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["世界", "全球", "网络", "互联网", "语言", "翻译", "浏览器", "地点"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "globe",
-      "tags": [
-        "world",
-        "global",
-        "network",
-        "internet",
-        "language",
-        "translate",
-        "browser",
-        "location"
-      ],
-      "use-cases": [
-        "Website language selector",
-        "Internationalization settings",
-        "Global network status",
-        "World map interface"
-      ]
+      "tags": ["world", "global", "network", "internet", "language", "translate", "browser", "location"],
+      "use-cases": ["Website language selector", "Internationalization settings", "Global network status", "World map interface"]
     }
   }
 }

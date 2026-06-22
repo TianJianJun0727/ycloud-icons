@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "触控板设置",
-    "输入设备控制",
-    "笔记本电脑界面"
-  ],
+  "use-cases": ["触控板设置", "输入设备控制", "笔记本电脑界面"],
   "name": "触控板关闭",
-  "tags": [
-    "触控板关闭",
-    "触摸板禁用",
-    "触控板停用",
-    "光标控制"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["触控板关闭", "触摸板禁用", "触控板停用", "光标控制"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "touchpad off",
-      "tags": [
-        "touchpad off",
-        "trackpad disabled",
-        "touchpad deactivated",
-        "cursor control"
-      ],
-      "use-cases": [
-        "Touchpad settings",
-        "Input device control",
-        "Laptop interface"
-      ]
+      "tags": ["touchpad off", "trackpad disabled", "touchpad deactivated", "cursor control"],
+      "use-cases": ["Touchpad settings", "Input device control", "Laptop interface"]
     }
   }
 }

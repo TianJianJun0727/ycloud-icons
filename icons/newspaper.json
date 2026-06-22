@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "新闻网站",
-    "媒体平台",
-    "文章列表",
-    "头条展示"
-  ],
+  "use-cases": ["新闻网站", "媒体平台", "文章列表", "头条展示"],
   "name": "报纸",
-  "tags": [
-    "新闻",
-    "报刊",
-    "杂志",
-    "文章",
-    "头条",
-    "媒体",
-    "资讯",
-    "阅读"
-  ],
-  "categories": [
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["新闻", "报刊", "杂志", "文章", "头条", "媒体", "资讯", "阅读"],
+  "categories": ["multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "newspaper",
-      "tags": [
-        "news",
-        "magazine",
-        "article",
-        "headline",
-        "media",
-        "information",
-        "reading"
-      ],
-      "use-cases": [
-        "News website",
-        "Media platform",
-        "Article listing",
-        "Headline display"
-      ]
+      "tags": ["news", "magazine", "article", "headline", "media", "information", "reading"],
+      "use-cases": ["News website", "Media platform", "Article listing", "Headline display"]
     }
   }
 }

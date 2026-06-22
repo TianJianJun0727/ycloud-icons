@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外卖应用",
-    "餐厅菜单",
-    "烹饪食谱展示"
-  ],
+  "use-cases": ["外卖应用", "餐厅菜单", "烹饪食谱展示"],
   "name": "披萨",
-  "tags": [
-    "披萨",
-    "食物",
-    "餐饮",
-    "意大利菜",
-    "外卖"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["披萨", "食物", "餐饮", "意大利菜", "外卖"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "pizza",
-      "tags": [
-        "pizza",
-        "food",
-        "dining",
-        "Italian cuisine",
-        "delivery"
-      ],
-      "use-cases": [
-        "Food delivery app",
-        "Restaurant menu",
-        "Cooking recipe display"
-      ]
+      "tags": ["pizza", "food", "dining", "Italian cuisine", "delivery"],
+      "use-cases": ["Food delivery app", "Restaurant menu", "Cooking recipe display"]
     }
   }
 }

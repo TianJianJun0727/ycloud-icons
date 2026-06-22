@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户资料显示",
-    "账户管理",
-    "联系人卡片"
-  ],
+  "use-cases": ["用户资料显示", "账户管理", "联系人卡片"],
   "name": "方形用户圆形",
-  "tags": [
-    "用户",
-    "账户",
-    "个人资料",
-    "联系人",
-    "头像"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户", "账户", "个人资料", "联系人", "头像"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "user-square-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square user round",
-      "tags": [
-        "user",
-        "account",
-        "profile",
-        "contact",
-        "avatar"
-      ],
-      "use-cases": [
-        "User profile display",
-        "Account management",
-        "Contact card"
-      ]
+      "tags": ["user", "account", "profile", "contact", "avatar"],
+      "use-cases": ["User profile display", "Account management", "Contact card"]
     }
   }
 }

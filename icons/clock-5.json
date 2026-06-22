@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示5点时间",
-    "下班时间或清晨",
-    "表单中的时间选择"
-  ],
+  "use-cases": ["显示5点时间", "下班时间或清晨", "表单中的时间选择"],
   "name": "时钟5",
-  "tags": [
-    "时间",
-    "时钟",
-    "时刻",
-    "5点",
-    "下午",
-    "清晨"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "时刻", "5点", "下午", "清晨"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 5",
-      "tags": [
-        "time",
-        "clock",
-        "hour",
-        "5",
-        "five",
-        "o'clock"
-      ],
-      "use-cases": [
-        "Time display for 5:00",
-        "End of workday or early morning",
-        "Time selection in forms"
-      ]
+      "tags": ["time", "clock", "hour", "5", "five", "o'clock"],
+      "use-cases": ["Time display for 5:00", "End of workday or early morning", "Time selection in forms"]
     }
   }
 }

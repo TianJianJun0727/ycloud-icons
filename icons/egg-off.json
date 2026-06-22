@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食品应用中的过敏原过滤",
-    "素食饮食指示",
-    "禁用鸡蛋成分",
-    "饮食限制设置"
-  ],
+  "use-cases": ["食品应用中的过敏原过滤", "素食饮食指示", "禁用鸡蛋成分", "饮食限制设置"],
   "name": "鸡蛋关闭",
-  "tags": [
-    "无蛋",
-    "素食",
-    "过敏原",
-    "禁用",
-    "不含",
-    "排除"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["无蛋", "素食", "过敏原", "禁用", "不含", "排除"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "egg off",
-      "tags": [
-        "egg free",
-        "vegan",
-        "allergen",
-        "disabled",
-        "exclude",
-        "no egg"
-      ],
-      "use-cases": [
-        "Allergen filter in food app",
-        "Vegan diet indicator",
-        "Disable egg ingredient",
-        "Dietary restriction setting"
-      ]
+      "tags": ["egg free", "vegan", "allergen", "disabled", "exclude", "no egg"],
+      "use-cases": ["Allergen filter in food app", "Vegan diet indicator", "Disable egg ingredient", "Dietary restriction setting"]
     }
   }
 }

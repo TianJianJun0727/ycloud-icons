@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在数据表中禁用自动刷新",
-    "停止同步进程",
-    "取消待定的重新加载操作"
-  ],
+  "use-cases": ["在数据表中禁用自动刷新", "停止同步进程", "取消待定的重新加载操作"],
   "name": "刷新顺时针关闭",
-  "tags": [
-    "刷新",
-    "重新加载",
-    "同步",
-    "取消",
-    "停止",
-    "禁用",
-    "错误",
-    "断开连接"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["刷新", "重新加载", "同步", "取消", "停止", "禁用", "错误", "断开连接"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "refresh cw off",
-      "tags": [
-        "refresh",
-        "reload",
-        "synchronize",
-        "cancel",
-        "stop",
-        "disable",
-        "error",
-        "disconnect"
-      ],
-      "use-cases": [
-        "Disable auto-refresh in a data table",
-        "Stop a synchronization process",
-        "Cancel a pending reload operation"
-      ]
+      "tags": ["refresh", "reload", "synchronize", "cancel", "stop", "disable", "error", "disconnect"],
+      "use-cases": ["Disable auto-refresh in a data table", "Stop a synchronization process", "Cancel a pending reload operation"]
     }
   }
 }

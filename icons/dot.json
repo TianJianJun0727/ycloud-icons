@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "列表项指示器",
-    "状态点",
-    "分页",
-    "焦点"
-  ],
+  "use-cases": ["列表项指示器", "状态点", "分页", "焦点"],
   "name": "点",
-  "tags": [
-    "点",
-    "圆点",
-    "标记",
-    "指示器",
-    "项目符号",
-    "句号"
-  ],
-  "categories": [
-    "shapes",
-    "text"
-  ],
+  "tags": ["点", "圆点", "标记", "指示器", "项目符号", "句号"],
+  "categories": ["shapes", "text"],
   "i18n": {
     "en": {
       "name": "dot",
-      "tags": [
-        "dot",
-        "point",
-        "marker",
-        "indicator",
-        "bullet",
-        "period"
-      ],
-      "use-cases": [
-        "List item indicator",
-        "Status dot",
-        "Pagination",
-        "Focus point"
-      ]
+      "tags": ["dot", "point", "marker", "indicator", "bullet", "period"],
+      "use-cases": ["List item indicator", "Status dot", "Pagination", "Focus point"]
     }
   }
 }

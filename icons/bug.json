@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "调试代码问题",
-    "报告软件缺陷",
-    "测试与故障排查"
-  ],
+  "use-cases": ["调试代码问题", "报告软件缺陷", "测试与故障排查"],
   "name": "缺陷",
-  "tags": [
-    "错误",
-    "缺陷",
-    "调试",
-    "测试",
-    "问题"
-  ],
-  "categories": [
-    "development",
-    "animals"
-  ],
+  "tags": ["错误", "缺陷", "调试", "测试", "问题"],
+  "categories": ["development", "animals"],
   "i18n": {
     "en": {
       "name": "bug",
-      "tags": [
-        "bug",
-        "error",
-        "debug",
-        "testing",
-        "issue"
-      ],
-      "use-cases": [
-        "Debugging code issues",
-        "Reporting software defects",
-        "Testing and troubleshooting"
-      ]
+      "tags": ["bug", "error", "debug", "testing", "issue"],
+      "use-cases": ["Debugging code issues", "Reporting software defects", "Testing and troubleshooting"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用日历视图",
-    "隐藏日历事件",
-    "取消日历订阅"
-  ],
+  "use-cases": ["禁用日历视图", "隐藏日历事件", "取消日历订阅"],
   "name": "日历关闭",
-  "tags": [
-    "日历",
-    "日期",
-    "禁用",
-    "关闭",
-    "不可用",
-    "隐藏",
-    "取消订阅"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "禁用", "关闭", "不可用", "隐藏", "取消订阅"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar off",
-      "tags": [
-        "calendar",
-        "date",
-        "disable",
-        "off",
-        "unavailable",
-        "hide",
-        "unsubscribe"
-      ],
-      "use-cases": [
-        "Disable calendar view",
-        "Hide calendar events",
-        "Unsubscribe from a calendar feed"
-      ]
+      "tags": ["calendar", "date", "disable", "off", "unavailable", "hide", "unsubscribe"],
+      "use-cases": ["Disable calendar view", "Hide calendar events", "Unsubscribe from a calendar feed"]
     }
   }
 }

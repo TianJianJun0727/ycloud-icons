@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭通知振动",
-    "静音模式切换",
-    "触觉反馈设置"
-  ],
+  "use-cases": ["关闭通知振动", "静音模式切换", "触觉反馈设置"],
   "name": "振动关闭",
-  "tags": [
-    "振动",
-    "静音",
-    "通知",
-    "触觉反馈",
-    "手机",
-    "设备",
-    "关闭"
-  ],
-  "categories": [
-    "devices",
-    "connectivity",
-    "account"
-  ],
+  "tags": ["振动", "静音", "通知", "触觉反馈", "手机", "设备", "关闭"],
+  "categories": ["devices", "connectivity", "account"],
   "i18n": {
     "en": {
       "name": "vibrate off",
-      "tags": [
-        "vibrate",
-        "mute",
-        "notification",
-        "haptic feedback",
-        "phone",
-        "device",
-        "off"
-      ],
-      "use-cases": [
-        "Disable vibration for notifications",
-        "Silent mode toggle",
-        "Haptic feedback settings"
-      ]
+      "tags": ["vibrate", "mute", "notification", "haptic feedback", "phone", "device", "off"],
+      "use-cases": ["Disable vibration for notifications", "Silent mode toggle", "Haptic feedback settings"]
     }
   }
 }

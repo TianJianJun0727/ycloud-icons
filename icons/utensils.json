@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅菜单项",
-    "食品配送服务",
-    "用餐预订系统",
-    "厨房与烹饪应用"
-  ],
+  "use-cases": ["餐厅菜单项", "食品配送服务", "用餐预订系统", "厨房与烹饪应用"],
   "name": "餐具",
-  "tags": [
-    "餐具",
-    "刀叉",
-    "餐厅",
-    "食物",
-    "餐饮",
-    "用餐",
-    "银器"
-  ],
-  "categories": [
-    "food-beverage",
-    "travel",
-    "navigation"
-  ],
+  "tags": ["餐具", "刀叉", "餐厅", "食物", "餐饮", "用餐", "银器"],
+  "categories": ["food-beverage", "travel", "navigation"],
   "aliases": [
     {
       "name": "fork-knife",
@@ -32,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "utensils",
-      "tags": [
-        "fork",
-        "knife",
-        "cutlery",
-        "silverware",
-        "food",
-        "restaurant",
-        "meal",
-        "dining"
-      ],
-      "use-cases": [
-        "Restaurant menu items",
-        "Food delivery service",
-        "Dining reservation system",
-        "Kitchen and cooking apps"
-      ]
+      "tags": ["fork", "knife", "cutlery", "silverware", "food", "restaurant", "meal", "dining"],
+      "use-cases": ["Restaurant menu items", "Food delivery service", "Dining reservation system", "Kitchen and cooking apps"]
     }
   }
 }

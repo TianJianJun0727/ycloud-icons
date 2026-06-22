@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "趋势分析可视化",
-    "平滑数据表示"
-  ],
+  "use-cases": ["趋势分析可视化", "平滑数据表示"],
   "name": "图表样条曲线",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "曲线图",
-    "趋势",
-    "平滑"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "曲线图", "趋势", "平滑"],
+  "categories": ["charts"],
   "i18n": {
     "en": {
       "name": "chart spline",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "curve",
-        "trend",
-        "smooth"
-      ],
-      "use-cases": [
-        "Trend analysis visualization",
-        "Smooth data representation"
-      ]
+      "tags": ["statistics", "analytics", "chart", "curve", "trend", "smooth"],
+      "use-cases": ["Trend analysis visualization", "Smooth data representation"]
     }
   }
 }

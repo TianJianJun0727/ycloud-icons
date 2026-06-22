@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "复制文本或内容",
-    "复制项目",
-    "克隆选中项",
-    "复制到剪贴板"
-  ],
+  "use-cases": ["复制文本或内容", "复制项目", "克隆选中项", "复制到剪贴板"],
   "name": "复制",
-  "tags": [
-    "复制",
-    "克隆",
-    "重复",
-    "拷贝",
-    "粘贴"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["复制", "克隆", "重复", "拷贝", "粘贴"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "copy",
-      "tags": [
-        "copy",
-        "clone",
-        "duplicate",
-        "paste"
-      ],
-      "use-cases": [
-        "Copy text or content",
-        "Duplicate an item",
-        "Clone selection",
-        "Copy to clipboard"
-      ]
+      "tags": ["copy", "clone", "duplicate", "paste"],
+      "use-cases": ["Copy text or content", "Duplicate an item", "Clone selection", "Copy to clipboard"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件搜索界面",
-    "目录浏览器搜索",
-    "文件夹内查找功能"
-  ],
+  "use-cases": ["文件搜索界面", "目录浏览器搜索", "文件夹内查找功能"],
   "name": "文件夹搜索",
-  "tags": [
-    "文件夹搜索",
-    "目录查找",
-    "文件检索",
-    "搜索",
-    "查找"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["文件夹搜索", "目录查找", "文件检索", "搜索", "查找"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder search",
-      "tags": [
-        "folder search",
-        "directory find",
-        "file search",
-        "search",
-        "find"
-      ],
-      "use-cases": [
-        "File search interface",
-        "Directory browser search",
-        "Find in folder feature"
-      ]
+      "tags": ["folder search", "directory find", "file search", "search", "find"],
+      "use-cases": ["File search interface", "Directory browser search", "Find in folder feature"]
     }
   }
 }

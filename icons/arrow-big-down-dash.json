@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "快速下载操作",
-    "游戏向下移动控制",
-    "文件向下传输"
-  ],
+  "use-cases": ["快速下载操作", "游戏向下移动控制", "文件向下传输"],
   "name": "箭头大下短横线",
-  "tags": [
-    "向下",
-    "下载",
-    "方向",
-    "游戏",
-    "文件",
-    "箭头",
-    "快速"
-  ],
-  "categories": [
-    "arrows",
-    "gaming",
-    "files"
-  ],
+  "tags": ["向下", "下载", "方向", "游戏", "文件", "箭头", "快速"],
+  "categories": ["arrows", "gaming", "files"],
   "i18n": {
     "en": {
       "name": "arrow big down dash",
-      "tags": [
-        "down",
-        "download",
-        "direction",
-        "gaming",
-        "file",
-        "arrow",
-        "quick"
-      ],
-      "use-cases": [
-        "Quick download action",
-        "Game control for down movement",
-        "File transfer downwards"
-      ]
+      "tags": ["down", "download", "direction", "gaming", "file", "arrow", "quick"],
+      "use-cases": ["Quick download action", "Game control for down movement", "File transfer downwards"]
     }
   }
 }

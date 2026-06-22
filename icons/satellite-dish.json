@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "卫星通信界面",
-    "信号接收显示",
-    "广播设备",
-    "连接设备"
-  ],
+  "use-cases": ["卫星通信界面", "信号接收显示", "广播设备", "连接设备"],
   "name": "卫星盘子",
-  "tags": [
-    "卫星天线",
-    "接收器",
-    "通信",
-    "信号",
-    "设备",
-    "广播"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["卫星天线", "接收器", "通信", "信号", "设备", "广播"],
+  "categories": ["connectivity", "devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "satellite dish",
-      "tags": [
-        "satellite dish",
-        "receiver",
-        "communication",
-        "signal",
-        "device",
-        "broadcast"
-      ],
-      "use-cases": [
-        "Satellite communication interface",
-        "Signal reception display",
-        "Broadcasting equipment",
-        "Connectivity device"
-      ]
+      "tags": ["satellite dish", "receiver", "communication", "signal", "device", "broadcast"],
+      "use-cases": ["Satellite communication interface", "Signal reception display", "Broadcasting equipment", "Connectivity device"]
     }
   }
 }

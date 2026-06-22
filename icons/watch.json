@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "时间追踪与显示",
-    "健身或智能手表功能",
-    "日程安排与提醒"
-  ],
+  "use-cases": ["时间追踪与显示", "健身或智能手表功能", "日程安排与提醒"],
   "name": "手表",
-  "tags": [
-    "手表",
-    "时间",
-    "时钟",
-    "计时",
-    "腕表"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["手表", "时间", "时钟", "计时", "腕表"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "watch",
-      "tags": [
-        "watch",
-        "time",
-        "clock",
-        "timer",
-        "wristwatch"
-      ],
-      "use-cases": [
-        "Time tracking and display",
-        "Fitness or smartwatch features",
-        "Scheduling and reminders"
-      ]
+      "tags": ["watch", "time", "clock", "timer", "wristwatch"],
+      "use-cases": ["Time tracking and display", "Fitness or smartwatch features", "Scheduling and reminders"]
     }
   }
 }

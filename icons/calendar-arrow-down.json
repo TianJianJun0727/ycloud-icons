@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "导出日历事件",
-    "下载日程表",
-    "导入日期",
-    "按日期降序排序事件"
-  ],
+  "use-cases": ["导出日历事件", "下载日程表", "导入日期", "按日期降序排序事件"],
   "name": "日历箭头下",
-  "tags": [
-    "日期",
-    "日历",
-    "事件",
-    "下载",
-    "导入",
-    "导出",
-    "排序降序",
-    "时间"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日期", "日历", "事件", "下载", "导入", "导出", "排序降序", "时间"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar arrow down",
-      "tags": [
-        "date",
-        "calendar",
-        "event",
-        "download",
-        "import",
-        "export",
-        "sort descending",
-        "time"
-      ],
-      "use-cases": [
-        "Export calendar events",
-        "Download schedule",
-        "Import dates",
-        "Sort events by date descending"
-      ]
+      "tags": ["date", "calendar", "event", "download", "import", "export", "sort descending", "time"],
+      "use-cases": ["Export calendar events", "Download schedule", "Import dates", "Sort events by date descending"]
     }
   }
 }

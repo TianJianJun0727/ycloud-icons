@@ -1,33 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电影院零食选择",
-    "娱乐食品图标"
-  ],
+  "use-cases": ["电影院零食选择", "娱乐食品图标"],
   "name": "爆米花",
-  "tags": [
-    "爆米花",
-    "零食",
-    "电影院",
-    "娱乐"
-  ],
-  "categories": [
-    "food-beverage",
-    "multimedia"
-  ],
+  "tags": ["爆米花", "零食", "电影院", "娱乐"],
+  "categories": ["food-beverage", "multimedia"],
   "i18n": {
     "en": {
       "name": "popcorn",
-      "tags": [
-        "popcorn",
-        "snack",
-        "cinema",
-        "entertainment"
-      ],
-      "use-cases": [
-        "Movie theater snack selection",
-        "Entertainment food icon"
-      ]
+      "tags": ["popcorn", "snack", "cinema", "entertainment"],
+      "use-cases": ["Movie theater snack selection", "Entertainment food icon"]
     }
   }
 }

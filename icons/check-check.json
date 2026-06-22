@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "双重确认状态",
-    "已完成任务指示器"
-  ],
+  "use-cases": ["双重确认状态", "已完成任务指示器"],
   "name": "勾选勾选",
-  "tags": [
-    "完成",
-    "确认",
-    "双勾",
-    "任务",
-    "已验证"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["完成", "确认", "双勾", "任务", "已验证"],
+  "categories": ["notifications"],
   "i18n": {
     "en": {
       "name": "check check",
-      "tags": [
-        "done",
-        "confirmed",
-        "double check",
-        "task",
-        "verified"
-      ],
-      "use-cases": [
-        "Double confirmation status",
-        "Completed task indicator"
-      ]
+      "tags": ["done", "confirmed", "double check", "task", "verified"],
+      "use-cases": ["Double confirmation status", "Completed task indicator"]
     }
   }
 }

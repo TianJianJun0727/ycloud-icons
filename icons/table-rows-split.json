@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "界面中拆分行",
-    "数据行分离工具",
-    "电子表格行管理"
-  ],
+  "use-cases": ["界面中拆分行", "数据行分离工具", "电子表格行管理"],
   "name": "表格行拆分",
-  "tags": [
-    "拆分行",
-    "表格",
-    "电子表格",
-    "行操作",
-    "分割"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["拆分行", "表格", "电子表格", "行操作", "分割"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "table rows split",
-      "tags": [
-        "split rows",
-        "table",
-        "spreadsheet",
-        "row operation",
-        "divide"
-      ],
-      "use-cases": [
-        "Split a table row in a UI",
-        "Data row separation tool",
-        "Spreadsheet row management"
-      ]
+      "tags": ["split rows", "table", "spreadsheet", "row operation", "divide"],
+      "use-cases": ["Split a table row in a UI", "Data row separation tool", "Spreadsheet row management"]
     }
   }
 }

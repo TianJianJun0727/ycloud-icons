@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "酒店预订平台",
-    "旅行住宿搜索",
-    "基于位置的服务"
-  ],
+  "use-cases": ["酒店预订平台", "旅行住宿搜索", "基于位置的服务"],
   "name": "酒店",
-  "tags": [
-    "酒店",
-    "住宿",
-    "旅馆",
-    "建筑",
-    "旅行",
-    "宾馆"
-  ],
-  "categories": [
-    "buildings",
-    "navigation",
-    "travel"
-  ],
+  "tags": ["酒店", "住宿", "旅馆", "建筑", "旅行", "宾馆"],
+  "categories": ["buildings", "navigation", "travel"],
   "i18n": {
     "en": {
       "name": "hotel",
-      "tags": [
-        "hotel",
-        "accommodation",
-        "lodging",
-        "building",
-        "travel",
-        "inn"
-      ],
-      "use-cases": [
-        "Hotel booking platforms",
-        "Travel accommodation search",
-        "Location-based services"
-      ]
+      "tags": ["hotel", "accommodation", "lodging", "building", "travel", "inn"],
+      "use-cases": ["Hotel booking platforms", "Travel accommodation search", "Location-based services"]
     }
   }
 }

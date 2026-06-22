@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表格降序排序",
-    "筛选结果视图",
-    "减小字体大小"
-  ],
+  "use-cases": ["表格降序排序", "筛选结果视图", "减小字体大小"],
   "name": "箭头下宽窄",
-  "tags": [
-    "排序",
-    "筛选",
-    "降序",
-    "减少",
-    "布局调整",
-    "文本格式"
-  ],
-  "categories": [
-    "text",
-    "layout",
-    "arrows"
-  ],
+  "tags": ["排序", "筛选", "降序", "减少", "布局调整", "文本格式"],
+  "categories": ["text", "layout", "arrows"],
   "aliases": [
     {
       "name": "sort-desc",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "arrow down wide narrow",
-      "tags": [
-        "sort",
-        "filter",
-        "descending",
-        "decrease",
-        "layout adjustment",
-        "text formatting"
-      ],
-      "use-cases": [
-        "Table sort descending",
-        "Filter results view",
-        "Decrease font size"
-      ]
+      "tags": ["sort", "filter", "descending", "decrease", "layout adjustment", "text formatting"],
+      "use-cases": ["Table sort descending", "Filter results view", "Decrease font size"]
     }
   }
 }

@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "左转指示",
-    "方向改变控制",
-    "游戏向左移动"
-  ],
+  "use-cases": ["左转指示", "方向改变控制", "游戏向左移动"],
   "name": "双折角箭头左",
-  "tags": [
-    "左转",
-    "拐角",
-    "方向改变",
-    "游戏控制"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["左转", "拐角", "方向改变", "游戏控制"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "chevrons left",
-      "tags": [
-        "left turn",
-        "corner",
-        "direction change",
-        "gaming control"
-      ],
-      "use-cases": [
-        "Left turn indication",
-        "Direction change control",
-        "Game left movement"
-      ]
+      "tags": ["left turn", "corner", "direction change", "gaming control"],
+      "use-cases": ["Left turn indication", "Direction change control", "Game left movement"]
     }
   }
 }

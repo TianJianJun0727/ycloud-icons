@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外部链接指示器",
-    "出口方向标志",
-    "对角线向外移动",
-    "导航到外部内容",
-    "西南方向标记"
-  ],
+  "use-cases": ["外部链接指示器", "出口方向标志", "对角线向外移动", "导航到外部内容", "西南方向标记"],
   "name": "方形箭头外部下左",
-  "tags": [
-    "外左下箭头",
-    "方向",
-    "对角线",
-    "出口",
-    "外部",
-    "西南",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["外左下箭头", "方向", "对角线", "出口", "外部", "西南", "导航"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-down-left-from-square",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow out down left",
-      "tags": [
-        "out down-left arrow",
-        "direction",
-        "diagonal",
-        "exit",
-        "external",
-        "southwest",
-        "navigation"
-      ],
-      "use-cases": [
-        "External link indicator",
-        "Exit direction sign",
-        "Diagonal outward movement",
-        "Navigation to external content",
-        "Southwest direction marker"
-      ]
+      "tags": ["out down-left arrow", "direction", "diagonal", "exit", "external", "southwest", "navigation"],
+      "use-cases": ["External link indicator", "Exit direction sign", "Diagonal outward movement", "Navigation to external content", "Southwest direction marker"]
     }
   }
 }

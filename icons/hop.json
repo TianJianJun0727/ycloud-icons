@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "酿造配方界面",
-    "啤酒原料列表",
-    "饮品生产应用"
-  ],
+  "use-cases": ["酿造配方界面", "啤酒原料列表", "饮品生产应用"],
   "name": "啤酒花",
-  "tags": [
-    "啤酒花",
-    "酿造",
-    "啤酒",
-    "饮品",
-    "原料"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["啤酒花", "酿造", "啤酒", "饮品", "原料"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "hop",
-      "tags": [
-        "hops",
-        "brewing",
-        "beer",
-        "beverage",
-        "ingredient"
-      ],
-      "use-cases": [
-        "Brewing recipe interfaces",
-        "Beer ingredient lists",
-        "Beverage production apps"
-      ]
+      "tags": ["hops", "brewing", "beer", "beverage", "ingredient"],
+      "use-cases": ["Brewing recipe interfaces", "Beer ingredient lists", "Beverage production apps"]
     }
   }
 }

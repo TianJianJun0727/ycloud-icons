@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停车场位置标记",
-    "停车位可用性",
-    "导航应用停车图标"
-  ],
+  "use-cases": ["停车场位置标记", "停车位可用性", "导航应用停车图标"],
   "name": "方形停车",
-  "tags": [
-    "停车场",
-    "停车位",
-    "泊车",
-    "交通设施"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["停车场", "停车位", "泊车", "交通设施"],
+  "categories": ["transportation", "navigation"],
   "aliases": [
     {
       "name": "parking-square",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square parking",
-      "tags": [
-        "parking lot",
-        "parking space",
-        "parking",
-        "transportation facility"
-      ],
-      "use-cases": [
-        "Parking lot location marker",
-        "Parking space availability",
-        "Navigation app parking icon"
-      ]
+      "tags": ["parking lot", "parking space", "parking", "transportation facility"],
+      "use-cases": ["Parking lot location marker", "Parking space availability", "Navigation app parking icon"]
     }
   }
 }

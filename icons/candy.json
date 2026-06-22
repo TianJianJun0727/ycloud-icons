@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "糖果商店标识",
-    "甜品菜单",
-    "食品包装设计",
-    "儿童应用界面"
-  ],
+  "use-cases": ["糖果商店标识", "甜品菜单", "食品包装设计", "儿童应用界面"],
   "name": "糖果",
-  "tags": [
-    "糖果",
-    "甜食",
-    "零食",
-    "甜品"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["糖果", "甜食", "零食", "甜品"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "candy",
-      "tags": [
-        "candy",
-        "sweets",
-        "snack",
-        "dessert"
-      ],
-      "use-cases": [
-        "Candy store branding",
-        "Dessert menu",
-        "Food packaging design",
-        "Children's app interface"
-      ]
+      "tags": ["candy", "sweets", "snack", "dessert"],
+      "use-cases": ["Candy store branding", "Dessert menu", "Food packaging design", "Children's app interface"]
     }
   }
 }

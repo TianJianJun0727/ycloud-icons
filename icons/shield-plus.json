@@ -1,52 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加安全权限",
-    "启用防护功能",
-    "授予访问授权",
-    "升级安全等级"
-  ],
+  "use-cases": ["添加安全权限", "启用防护功能", "授予访问授权", "升级安全等级"],
   "name": "盾牌加号",
-  "tags": [
-    "安全",
-    "防护",
-    "添加",
-    "增强",
-    "启用",
-    "授权",
-    "升级",
-    "网络安全",
-    "信任",
-    "验证"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming",
-    "medical"
-  ],
+  "tags": ["安全", "防护", "添加", "增强", "启用", "授权", "升级", "网络安全", "信任", "验证"],
+  "categories": ["account", "security", "development", "gaming", "medical"],
   "i18n": {
     "en": {
       "name": "shield plus",
-      "tags": [
-        "security",
-        "protection",
-        "add",
-        "enhance",
-        "enable",
-        "authorize",
-        "upgrade",
-        "cybersecurity",
-        "trust",
-        "verify"
-      ],
-      "use-cases": [
-        "Add security permission",
-        "Enable protection feature",
-        "Grant access authorization",
-        "Upgrade security level"
-      ]
+      "tags": ["security", "protection", "add", "enhance", "enable", "authorize", "upgrade", "cybersecurity", "trust", "verify"],
+      "use-cases": ["Add security permission", "Enable protection feature", "Grant access authorization", "Upgrade security level"]
     }
   }
 }

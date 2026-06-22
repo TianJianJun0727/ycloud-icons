@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器界面",
-    "专辑展示",
-    "媒体库"
-  ],
+  "use-cases": ["音乐播放器界面", "专辑展示", "媒体库"],
   "name": "光盘3",
-  "tags": [
-    "光盘",
-    "音乐",
-    "专辑",
-    "唱片",
-    "多媒体"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["光盘", "音乐", "专辑", "唱片", "多媒体"],
+  "categories": ["devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "disc 3",
-      "tags": [
-        "disc",
-        "music",
-        "album",
-        "record",
-        "multimedia"
-      ],
-      "use-cases": [
-        "Music player interface",
-        "Album display",
-        "Media library"
-      ]
+      "tags": ["disc", "music", "album", "record", "multimedia"],
+      "use-cases": ["Music player interface", "Album display", "Media library"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示设置",
-    "桌面界面",
-    "虚拟机显示"
-  ],
+  "use-cases": ["显示设置", "桌面界面", "虚拟机显示"],
   "name": "显示器",
-  "tags": [
-    "显示器",
-    "屏幕",
-    "显示设备",
-    "桌面",
-    "虚拟机"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["显示器", "屏幕", "显示设备", "桌面", "虚拟机"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor",
-      "tags": [
-        "monitor",
-        "screen",
-        "display",
-        "desktop",
-        "virtual machine"
-      ],
-      "use-cases": [
-        "Display settings",
-        "Desktop interface",
-        "Virtual machine display"
-      ]
+      "tags": ["monitor", "screen", "display", "desktop", "virtual machine"],
+      "use-cases": ["Display settings", "Desktop interface", "Virtual machine display"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档分节符",
-    "法律文件标记",
-    "文本格式设置"
-  ],
+  "use-cases": ["文档分节符", "法律文件标记", "文本格式设置"],
   "name": "分节",
-  "tags": [
-    "章节",
-    "段落",
-    "分节符",
-    "文本",
-    "排版",
-    "标记"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["章节", "段落", "分节符", "文本", "排版", "标记"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "section",
-      "tags": [
-        "chapter",
-        "paragraph",
-        "section break",
-        "text",
-        "typography",
-        "mark"
-      ],
-      "use-cases": [
-        "Document section break",
-        "Legal document marker",
-        "Text formatting"
-      ]
+      "tags": ["chapter", "paragraph", "section break", "text", "typography", "mark"],
+      "use-cases": ["Document section break", "Legal document marker", "Text formatting"]
     }
   }
 }

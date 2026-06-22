@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "道路封闭通知",
-    "施工现场地图",
-    "安全警告指示器"
-  ],
+  "use-cases": ["道路封闭通知", "施工现场地图", "安全警告指示器"],
   "name": "交通圆锥",
-  "tags": [
-    "道路施工",
-    "安全警示",
-    "交通管制",
-    "路障",
-    "施工区"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["道路施工", "安全警示", "交通管制", "路障", "施工区"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "traffic cone",
-      "tags": [
-        "roadworks",
-        "construction",
-        "safety",
-        "warning",
-        "barrier"
-      ],
-      "use-cases": [
-        "Road closure notification",
-        "Construction site map",
-        "Safety warning indicator"
-      ]
+      "tags": ["roadworks", "construction", "safety", "warning", "barrier"],
+      "use-cases": ["Road closure notification", "Construction site map", "Safety warning indicator"]
     }
   }
 }

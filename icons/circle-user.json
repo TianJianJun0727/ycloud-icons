@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户头像",
-    "账户设置",
-    "登录/认证界面"
-  ],
+  "use-cases": ["用户头像", "账户设置", "登录/认证界面"],
   "name": "圆形用户",
-  "tags": [
-    "用户",
-    "账户",
-    "个人资料",
-    "头像",
-    "登录",
-    "联系人"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户", "账户", "个人资料", "头像", "登录", "联系人"],
+  "categories": ["account"],
   "aliases": [
     {
       "name": "user-circle",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle user",
-      "tags": [
-        "user",
-        "account",
-        "profile",
-        "avatar",
-        "login",
-        "contact"
-      ],
-      "use-cases": [
-        "User profile picture",
-        "Account settings",
-        "Login/authentication UI"
-      ]
+      "tags": ["user", "account", "profile", "avatar", "login", "contact"],
+      "use-cases": ["User profile picture", "Account settings", "Login/authentication UI"]
     }
   }
 }

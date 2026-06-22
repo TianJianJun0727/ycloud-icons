@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健身或运动应用的产品图标",
-    "运动装备选择",
-    "跑步或训练活动界面",
-    "体育零售和电子商务"
-  ],
+  "use-cases": ["健身或运动应用的产品图标", "运动装备选择", "跑步或训练活动界面", "体育零售和电子商务"],
   "name": "运动鞋",
-  "tags": [
-    "运动鞋",
-    "跑步鞋",
-    "运动装备",
-    "健身",
-    "训练",
-    "体育用品",
-    "鞋类"
-  ],
-  "categories": [
-    "sports"
-  ],
+  "tags": ["运动鞋", "跑步鞋", "运动装备", "健身", "训练", "体育用品", "鞋类"],
+  "categories": ["sports"],
   "i18n": {
     "en": {
       "name": "sport shoe",
-      "tags": [
-        "sport shoe",
-        "running shoe",
-        "sports equipment",
-        "fitness",
-        "training",
-        "sports gear",
-        "footwear"
-      ],
-      "use-cases": [
-        "Fitness or sports app product icon",
-        "Athletic gear and equipment selection",
-        "Running or training activity interface",
-        "Sports retail and e-commerce"
-      ]
+      "tags": ["sport shoe", "running shoe", "sports equipment", "fitness", "training", "sports gear", "footwear"],
+      "use-cases": ["Fitness or sports app product icon", "Athletic gear and equipment selection", "Running or training activity interface", "Sports retail and e-commerce"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示器设置面板",
-    "系统配置界面",
-    "设备偏好菜单"
-  ],
+  "use-cases": ["显示器设置面板", "系统配置界面", "设备偏好菜单"],
   "name": "显示器齿轮",
-  "tags": [
-    "显示器设置",
-    "屏幕配置",
-    "系统偏好",
-    "控制面板",
-    "设备设置",
-    "网络设置",
-    "虚拟机配置"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["显示器设置", "屏幕配置", "系统偏好", "控制面板", "设备设置", "网络设置", "虚拟机配置"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor cog",
-      "tags": [
-        "monitor settings",
-        "screen configuration",
-        "system preferences",
-        "control panel",
-        "device settings",
-        "network settings",
-        "virtual machine configuration"
-      ],
-      "use-cases": [
-        "Display settings panel",
-        "System configuration interface",
-        "Device preferences menu"
-      ]
+      "tags": ["monitor settings", "screen configuration", "system preferences", "control panel", "device settings", "network settings", "virtual machine configuration"],
+      "use-cases": ["Display settings panel", "System configuration interface", "Device preferences menu"]
     }
   }
 }

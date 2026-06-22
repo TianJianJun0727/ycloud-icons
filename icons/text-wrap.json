@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑器中的文本换行切换",
-    "控制容器中的文本溢出",
-    "格式化长文本行"
-  ],
+  "use-cases": ["编辑器中的文本换行切换", "控制容器中的文本溢出", "格式化长文本行"],
   "name": "文本换行",
-  "tags": [
-    "换行",
-    "文本",
-    "自动换行",
-    "段落",
-    "排版",
-    "格式",
-    "溢出"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["换行", "文本", "自动换行", "段落", "排版", "格式", "溢出"],
+  "categories": ["text", "arrows"],
   "aliases": [
     {
       "name": "wrap-text",
@@ -30,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "text wrap",
-      "tags": [
-        "wrap",
-        "text",
-        "word wrap",
-        "paragraph",
-        "typography",
-        "format",
-        "overflow"
-      ],
-      "use-cases": [
-        "Text wrapping toggle in editors",
-        "Controlling text overflow in containers",
-        "Formatting long lines of text"
-      ]
+      "tags": ["wrap", "text", "word wrap", "paragraph", "typography", "format", "overflow"],
+      "use-cases": ["Text wrapping toggle in editors", "Controlling text overflow in containers", "Formatting long lines of text"]
     }
   }
 }

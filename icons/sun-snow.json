@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用界面",
-    "季节转换",
-    "温度显示",
-    "气候信息"
-  ],
+  "use-cases": ["天气应用界面", "季节转换", "温度显示", "气候信息"],
   "name": "太阳雪",
-  "tags": [
-    "天气",
-    "季节",
-    "温度变化",
-    "冷暖交替",
-    "气象",
-    "气候"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "季节", "温度变化", "冷暖交替", "气象", "气候"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "sun snow",
-      "tags": [
-        "weather",
-        "seasons",
-        "temperature change",
-        "hot cold transition",
-        "meteorology",
-        "climate"
-      ],
-      "use-cases": [
-        "Weather app interface",
-        "Seasonal transitions",
-        "Temperature display",
-        "Climate information"
-      ]
+      "tags": ["weather", "seasons", "temperature change", "hot cold transition", "meteorology", "climate"],
+      "use-cases": ["Weather app interface", "Seasonal transitions", "Temperature display", "Climate information"]
     }
   }
 }

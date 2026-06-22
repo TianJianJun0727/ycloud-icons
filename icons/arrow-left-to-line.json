@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "返回起始点",
-    "折叠面板",
-    "上一页导航"
-  ],
+  "use-cases": ["返回起始点", "折叠面板", "上一页导航"],
   "name": "箭头左到线条",
-  "tags": [
-    "返回",
-    "上一个",
-    "方向",
-    "西",
-    "折叠",
-    "水平"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["返回", "上一个", "方向", "西", "折叠", "水平"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow left to line",
-      "tags": [
-        "back",
-        "previous",
-        "direction",
-        "west",
-        "collapse",
-        "horizontal"
-      ],
-      "use-cases": [
-        "Back to start",
-        "Collapse panel",
-        "Previous page navigation"
-      ]
+      "tags": ["back", "previous", "direction", "west", "collapse", "horizontal"],
+      "use-cases": ["Back to start", "Collapse panel", "Previous page navigation"]
     }
   }
 }

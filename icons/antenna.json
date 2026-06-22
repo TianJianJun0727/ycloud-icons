@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置中的信号强度指示器",
-    "广播或流媒体服务界面",
-    "网络连接状态"
-  ],
+  "use-cases": ["设置中的信号强度指示器", "广播或流媒体服务界面", "网络连接状态"],
   "name": "天线",
-  "tags": [
-    "天线",
-    "信号",
-    "接收",
-    "广播",
-    "电视",
-    "无线",
-    "连接",
-    "通讯"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["天线", "信号", "接收", "广播", "电视", "无线", "连接", "通讯"],
+  "categories": ["devices", "multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "antenna",
-      "tags": [
-        "antenna",
-        "signal",
-        "reception",
-        "broadcast",
-        "tv",
-        "wireless",
-        "connection",
-        "communication"
-      ],
-      "use-cases": [
-        "Signal strength indicator in settings",
-        "Broadcast or streaming service UI",
-        "Network connectivity status"
-      ]
+      "tags": ["antenna", "signal", "reception", "broadcast", "tv", "wireless", "connection", "communication"],
+      "use-cases": ["Signal strength indicator in settings", "Broadcast or streaming service UI", "Network connectivity status"]
     }
   }
 }

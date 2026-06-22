@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "阻止用户操作",
-    "加载状态",
-    "忙碌指示器"
-  ],
+  "use-cases": ["阻止用户操作", "加载状态", "忙碌指示器"],
   "name": "鼠标指针禁止",
-  "tags": [
-    "指针",
-    "鼠标",
-    "光标",
-    "禁止",
-    "阻止",
-    "等待",
-    "加载",
-    "忙"
-  ],
-  "categories": [
-    "arrows",
-    "cursors"
-  ],
+  "tags": ["指针", "鼠标", "光标", "禁止", "阻止", "等待", "加载", "忙"],
+  "categories": ["arrows", "cursors"],
   "i18n": {
     "en": {
       "name": "mouse pointer ban",
-      "tags": [
-        "pointer",
-        "mouse",
-        "cursor",
-        "ban",
-        "blocked",
-        "wait",
-        "loading",
-        "busy"
-      ],
-      "use-cases": [
-        "Blocked user actions",
-        "Loading states",
-        "Busy indicators"
-      ]
+      "tags": ["pointer", "mouse", "cursor", "ban", "blocked", "wait", "loading", "busy"],
+      "use-cases": ["Blocked user actions", "Loading states", "Busy indicators"]
     }
   }
 }

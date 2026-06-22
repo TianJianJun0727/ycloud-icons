@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "火车进隧道时刻表",
-    "地铁线路图",
-    "交通导航"
-  ],
+  "use-cases": ["火车进隧道时刻表", "地铁线路图", "交通导航"],
   "name": "火车正面隧道",
-  "tags": [
-    "火车",
-    "铁路",
-    "隧道",
-    "地铁",
-    "高速铁路",
-    "轨道交通"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["火车", "铁路", "隧道", "地铁", "高速铁路", "轨道交通"],
+  "categories": ["transportation", "navigation"],
   "i18n": {
     "en": {
       "name": "train front tunnel",
-      "tags": [
-        "train",
-        "railway",
-        "tunnel",
-        "subway",
-        "high-speed rail",
-        "transit"
-      ],
-      "use-cases": [
-        "Train schedule entering tunnel",
-        "Subway line map",
-        "Transportation navigation"
-      ]
+      "tags": ["train", "railway", "tunnel", "subway", "high-speed rail", "transit"],
+      "use-cases": ["Train schedule entering tunnel", "Subway line map", "Transportation navigation"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "页面内查找功能",
-    "在文档或PDF中搜索",
-    "文本密集型应用中的内容查找"
-  ],
+  "use-cases": ["页面内查找功能", "在文档或PDF中搜索", "文本密集型应用中的内容查找"],
   "name": "文本搜索",
-  "tags": [
-    "搜索",
-    "查找",
-    "文本",
-    "内容",
-    "文档",
-    "PDF",
-    "关键字"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["搜索", "查找", "文本", "内容", "文档", "PDF", "关键字"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "text search",
-      "tags": [
-        "search",
-        "find",
-        "text",
-        "content",
-        "document",
-        "PDF",
-        "keyword"
-      ],
-      "use-cases": [
-        "Find-in-page functionality",
-        "Searching within a document or PDF",
-        "Content lookup in text-heavy applications"
-      ]
+      "tags": ["search", "find", "text", "content", "document", "PDF", "keyword"],
+      "use-cases": ["Find-in-page functionality", "Searching within a document or PDF", "Content lookup in text-heavy applications"]
     }
   }
 }

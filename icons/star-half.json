@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "部分评分",
-    "半星评价",
-    "未完成收藏",
-    "中等分数"
-  ],
+  "use-cases": ["部分评分", "半星评价", "未完成收藏", "中等分数"],
   "name": "星标一半",
-  "tags": [
-    "星标",
-    "一半",
-    "评分",
-    "收藏",
-    "部分",
-    "评级"
-  ],
-  "categories": [
-    "social",
-    "multimedia"
-  ],
+  "tags": ["星标", "一半", "评分", "收藏", "部分", "评级"],
+  "categories": ["social", "multimedia"],
   "i18n": {
     "en": {
       "name": "star half",
-      "tags": [
-        "star",
-        "half",
-        "rating",
-        "favorite",
-        "partial",
-        "review"
-      ],
-      "use-cases": [
-        "Partial rating",
-        "Half-star review",
-        "Incomplete favorite",
-        "Mid-level score"
-      ]
+      "tags": ["star", "half", "rating", "favorite", "partial", "review"],
+      "use-cases": ["Partial rating", "Half-star review", "Incomplete favorite", "Mid-level score"]
     }
   }
 }

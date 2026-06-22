@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器的快退按钮",
-    "视频播放器的倒带功能",
-    "播客应用的重新播放"
-  ],
+  "use-cases": ["音乐播放器的快退按钮", "视频播放器的倒带功能", "播客应用的重新播放"],
   "name": "快退",
-  "tags": [
-    "快退",
-    "倒带",
-    "媒体控制",
-    "音频视频",
-    "后退"
-  ],
-  "categories": [
-    "arrows",
-    "multimedia"
-  ],
+  "tags": ["快退", "倒带", "媒体控制", "音频视频", "后退"],
+  "categories": ["arrows", "multimedia"],
   "i18n": {
     "en": {
       "name": "rewind",
-      "tags": [
-        "rewind",
-        "fast backward",
-        "media control",
-        "audio video",
-        "back"
-      ],
-      "use-cases": [
-        "Rewind button in music player",
-        "Fast backward in video player",
-        "Replay in podcast app"
-      ]
+      "tags": ["rewind", "fast backward", "media control", "audio video", "back"],
+      "use-cases": ["Rewind button in music player", "Fast backward in video player", "Replay in podcast app"]
     }
   }
 }

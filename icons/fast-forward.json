@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频播放器快进",
-    "音频播放快进",
-    "媒体控制按钮"
-  ],
+  "use-cases": ["视频播放器快进", "音频播放快进", "媒体控制按钮"],
   "name": "快速前进",
-  "tags": [
-    "快进",
-    "跳过",
-    "加速",
-    "下一曲",
-    "媒体控制",
-    "前进"
-  ],
-  "categories": [
-    "multimedia",
-    "arrows"
-  ],
+  "tags": ["快进", "跳过", "加速", "下一曲", "媒体控制", "前进"],
+  "categories": ["multimedia", "arrows"],
   "i18n": {
     "en": {
       "name": "fast forward",
-      "tags": [
-        "fast forward",
-        "skip",
-        "accelerate",
-        "next track",
-        "media control",
-        "forward"
-      ],
-      "use-cases": [
-        "Skip forward in video player",
-        "Fast forward audio playback",
-        "Media control button"
-      ]
+      "tags": ["fast forward", "skip", "accelerate", "next track", "media control", "forward"],
+      "use-cases": ["Skip forward in video player", "Fast forward audio playback", "Media control button"]
     }
   }
 }

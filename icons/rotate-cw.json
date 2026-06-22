@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "刷新或重新加载页面内容",
-    "重做操作",
-    "继续流程",
-    "媒体播放器快进"
-  ],
+  "use-cases": ["刷新或重新加载页面内容", "重做操作", "继续流程", "媒体播放器快进"],
   "name": "顺时针旋转",
-  "tags": [
-    "顺时针",
-    "向右旋转",
-    "刷新",
-    "重新加载",
-    "重做",
-    "继续",
-    "快进"
-  ],
-  "categories": [
-    "arrows",
-    "design",
-    "photography"
-  ],
+  "tags": ["顺时针", "向右旋转", "刷新", "重新加载", "重做", "继续", "快进"],
+  "categories": ["arrows", "design", "photography"],
   "i18n": {
     "en": {
       "name": "rotate cw",
-      "tags": [
-        "clockwise",
-        "rotate right",
-        "refresh",
-        "reload",
-        "redo",
-        "continue",
-        "fast forward"
-      ],
-      "use-cases": [
-        "Refresh or reload page content",
-        "Redo an action",
-        "Continue a process",
-        "Media player fast-forward"
-      ]
+      "tags": ["clockwise", "rotate right", "refresh", "reload", "redo", "continue", "fast forward"],
+      "use-cases": ["Refresh or reload page content", "Redo an action", "Continue a process", "Media player fast-forward"]
     }
   }
 }

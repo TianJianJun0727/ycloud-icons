@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "娱乐应用",
-    "剧院网站",
-    "演出排期",
-    "艺术分类"
-  ],
+  "use-cases": ["娱乐应用", "剧院网站", "演出排期", "艺术分类"],
   "name": "戏剧",
-  "tags": [
-    "戏剧",
-    "面具",
-    "表演",
-    "娱乐",
-    "剧院"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["戏剧", "面具", "表演", "娱乐", "剧院"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "drama",
-      "tags": [
-        "drama",
-        "masks",
-        "performance",
-        "entertainment",
-        "theater"
-      ],
-      "use-cases": [
-        "Entertainment app",
-        "Theater website",
-        "Performance schedule",
-        "Arts category"
-      ]
+      "tags": ["drama", "masks", "performance", "entertainment", "theater"],
+      "use-cases": ["Entertainment app", "Theater website", "Performance schedule", "Arts category"]
     }
   }
 }

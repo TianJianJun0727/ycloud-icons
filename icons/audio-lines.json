@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频编辑软件",
-    "音乐播放器控制",
-    "声音电平指示器",
-    "广播界面"
-  ],
+  "use-cases": ["音频编辑软件", "音乐播放器控制", "声音电平指示器", "广播界面"],
   "name": "音频线条",
-  "tags": [
-    "音频",
-    "声波",
-    "频率",
-    "均衡器",
-    "音量",
-    "音乐",
-    "广播",
-    "录音"
-  ],
-  "categories": [
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["音频", "声波", "频率", "均衡器", "音量", "音乐", "广播", "录音"],
+  "categories": ["multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "audio lines",
-      "tags": [
-        "audio",
-        "sound waves",
-        "frequency",
-        "equalizer",
-        "volume",
-        "music",
-        "broadcast",
-        "recording"
-      ],
-      "use-cases": [
-        "Audio editing software",
-        "Music player controls",
-        "Sound level indicators",
-        "Broadcast interfaces"
-      ]
+      "tags": ["audio", "sound waves", "frequency", "equalizer", "volume", "music", "broadcast", "recording"],
+      "use-cases": ["Audio editing software", "Music player controls", "Sound level indicators", "Broadcast interfaces"]
     }
   }
 }

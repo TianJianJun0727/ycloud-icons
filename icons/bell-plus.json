@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "创建新通知规则",
-    "订阅警报",
-    "添加提醒"
-  ],
+  "use-cases": ["创建新通知规则", "订阅警报", "添加提醒"],
   "name": "铃铛加号",
-  "tags": [
-    "通知",
-    "提醒",
-    "添加",
-    "创建",
-    "订阅",
-    "新提醒"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["通知", "提醒", "添加", "创建", "订阅", "新提醒"],
+  "categories": ["notifications"],
   "i18n": {
     "en": {
       "name": "bell plus",
-      "tags": [
-        "notification",
-        "reminder",
-        "add",
-        "create",
-        "subscribe",
-        "new alert"
-      ],
-      "use-cases": [
-        "Create a new notification rule",
-        "Subscribe to alerts",
-        "Add a reminder"
-      ]
+      "tags": ["notification", "reminder", "add", "create", "subscribe", "new alert"],
+      "use-cases": ["Create a new notification rule", "Subscribe to alerts", "Add a reminder"]
     }
   }
 }

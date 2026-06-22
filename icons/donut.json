@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外卖应用",
-    "烘焙坊网站",
-    "甜点菜单",
-    "咖啡馆图标"
-  ],
+  "use-cases": ["外卖应用", "烘焙坊网站", "甜点菜单", "咖啡馆图标"],
   "name": "甜甜圈",
-  "tags": [
-    "甜甜圈",
-    "甜点",
-    "零食",
-    "糕点",
-    "小吃"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["甜甜圈", "甜点", "零食", "糕点", "小吃"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "donut",
-      "tags": [
-        "donut",
-        "doughnut",
-        "dessert",
-        "snack",
-        "pastry",
-        "sweet"
-      ],
-      "use-cases": [
-        "Food delivery app",
-        "Bakery website",
-        "Dessert menu",
-        "Cafe icon"
-      ]
+      "tags": ["donut", "doughnut", "dessert", "snack", "pastry", "sweet"],
+      "use-cases": ["Food delivery app", "Bakery website", "Dessert menu", "Cafe icon"]
     }
   }
 }

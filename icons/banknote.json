@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示货币金额",
-    "支付方式选择",
-    "财务摘要"
-  ],
+  "use-cases": ["显示货币金额", "支付方式选择", "财务摘要"],
   "name": "纸币",
-  "tags": [
-    "货币",
-    "现金",
-    "钞票",
-    "付款",
-    "资金",
-    "交易",
-    "金融"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["货币", "现金", "钞票", "付款", "资金", "交易", "金融"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "banknote",
-      "tags": [
-        "currency",
-        "cash",
-        "banknote",
-        "payment",
-        "funds",
-        "transaction",
-        "finance"
-      ],
-      "use-cases": [
-        "Display currency amount",
-        "Payment method selection",
-        "Financial summary"
-      ]
+      "tags": ["currency", "cash", "banknote", "payment", "funds", "transaction", "finance"],
+      "use-cases": ["Display currency amount", "Payment method selection", "Financial summary"]
     }
   }
 }

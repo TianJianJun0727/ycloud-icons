@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向日历添加新事件",
-    "创建预约",
-    "订阅日历"
-  ],
+  "use-cases": ["向日历添加新事件", "创建预约", "订阅日历"],
   "name": "日历加号",
-  "tags": [
-    "日历",
-    "日期",
-    "事件",
-    "添加",
-    "创建",
-    "新建",
-    "订阅",
-    "安排"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "事件", "添加", "创建", "新建", "订阅", "安排"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar plus",
-      "tags": [
-        "calendar",
-        "date",
-        "event",
-        "add",
-        "create",
-        "new",
-        "subscribe",
-        "schedule"
-      ],
-      "use-cases": [
-        "Add a new event to calendar",
-        "Create an appointment",
-        "Subscribe to a calendar"
-      ]
+      "tags": ["calendar", "date", "event", "add", "create", "new", "subscribe", "schedule"],
+      "use-cases": ["Add a new event to calendar", "Create an appointment", "Subscribe to a calendar"]
     }
   }
 }

@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电源开关切换",
-    "设备控制面板"
-  ],
+  "use-cases": ["电源开关切换", "设备控制面板"],
   "name": "电源",
-  "tags": [
-    "电源",
-    "开关",
-    "重启",
-    "设备"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["电源", "开关", "重启", "设备"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "power",
-      "tags": [
-        "power",
-        "switch",
-        "reboot",
-        "device"
-      ],
-      "use-cases": [
-        "Power on/off toggle",
-        "Device control panel"
-      ]
+      "tags": ["power", "switch", "reboot", "device"],
+      "use-cases": ["Power on/off toggle", "Device control panel"]
     }
   }
 }

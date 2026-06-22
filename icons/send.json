@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "发送邮件按钮",
-    "提交表单操作",
-    "在聊天中发布消息"
-  ],
+  "use-cases": ["发送邮件按钮", "提交表单操作", "在聊天中发布消息"],
   "name": "发送",
-  "tags": [
-    "发送",
-    "消息",
-    "邮件",
-    "提交",
-    "纸飞机"
-  ],
-  "categories": [
-    "mail",
-    "communication",
-    "connectivity"
-  ],
+  "tags": ["发送", "消息", "邮件", "提交", "纸飞机"],
+  "categories": ["mail", "communication", "connectivity"],
   "i18n": {
     "en": {
       "name": "send",
-      "tags": [
-        "send",
-        "message",
-        "mail",
-        "submit",
-        "paper airplane"
-      ],
-      "use-cases": [
-        "Send email button",
-        "Submit form action",
-        "Post message in chat"
-      ]
+      "tags": ["send", "message", "mail", "submit", "paper airplane"],
+      "use-cases": ["Send email button", "Submit form action", "Post message in chat"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "邮件列表退订",
-    "从对话中移除邮件",
-    "删除消息操作"
-  ],
+  "use-cases": ["邮件列表退订", "从对话中移除邮件", "删除消息操作"],
   "name": "邮件减少",
-  "tags": [
-    "删除邮件",
-    "移除邮件",
-    "取消订阅",
-    "退订",
-    "邮件减少"
-  ],
-  "categories": [
-    "mail"
-  ],
+  "tags": ["删除邮件", "移除邮件", "取消订阅", "退订", "邮件减少"],
+  "categories": ["mail"],
   "i18n": {
     "en": {
       "name": "mail minus",
-      "tags": [
-        "mail minus",
-        "delete email",
-        "remove message",
-        "unsubscribe",
-        "reduce mail"
-      ],
-      "use-cases": [
-        "Unsubscribe from mailing list",
-        "Remove email from thread",
-        "Delete message action"
-      ]
+      "tags": ["mail minus", "delete email", "remove message", "unsubscribe", "reduce mail"],
+      "use-cases": ["Unsubscribe from mailing list", "Remove email from thread", "Delete message action"]
     }
   }
 }

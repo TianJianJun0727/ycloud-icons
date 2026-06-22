@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用Wi-Fi或无线连接",
-    "网络状态和连接指示器"
-  ],
+  "use-cases": ["通用Wi-Fi或无线连接", "网络状态和连接指示器"],
   "name": "无线网络",
-  "tags": [
-    "无线网络",
-    "Wi-Fi",
-    "无线连接",
-    "网络",
-    "互联网"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["无线网络", "Wi-Fi", "无线连接", "网络", "互联网"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi",
-      "tags": [
-        "wifi",
-        "wireless",
-        "wireless connection",
-        "network",
-        "internet"
-      ],
-      "use-cases": [
-        "General Wi-Fi or wireless connectivity",
-        "Network status and connectivity indicators"
-      ]
+      "tags": ["wifi", "wireless", "wireless connection", "network", "internet"],
+      "use-cases": ["General Wi-Fi or wireless connectivity", "Network status and connectivity indicators"]
     }
   }
 }

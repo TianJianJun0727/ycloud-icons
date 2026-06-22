@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图片文件预览",
-    "照片库",
-    "图形内容显示"
-  ],
+  "use-cases": ["图片文件预览", "照片库", "图形内容显示"],
   "name": "文件图片",
-  "tags": [
-    "图片",
-    "图像",
-    "照片",
-    "图形",
-    "文件"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["图片", "图像", "照片", "图形", "文件"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file image",
-      "tags": [
-        "image",
-        "graphics",
-        "photo"
-      ],
-      "use-cases": [
-        "Image file preview",
-        "Photo gallery",
-        "Graphic content display"
-      ]
+      "tags": ["image", "graphics", "photo"],
+      "use-cases": ["Image file preview", "Photo gallery", "Graphic content display"]
     }
   }
 }

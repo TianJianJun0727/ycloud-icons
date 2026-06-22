@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备规格显示",
-    "系统信息",
-    "性能监控",
-    "硬件配置"
-  ],
+  "use-cases": ["设备规格显示", "系统信息", "性能监控", "硬件配置"],
   "name": "处理器",
-  "tags": [
-    "处理器",
-    "芯片",
-    "核心",
-    "计算机",
-    "硬件",
-    "性能"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["处理器", "芯片", "核心", "计算机", "硬件", "性能"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "cpu",
-      "tags": [
-        "processor",
-        "chip",
-        "core",
-        "computer",
-        "hardware",
-        "performance"
-      ],
-      "use-cases": [
-        "Device specifications",
-        "System information",
-        "Performance monitoring",
-        "Hardware configuration"
-      ]
+      "tags": ["processor", "chip", "core", "computer", "hardware", "performance"],
+      "use-cases": ["Device specifications", "System information", "Performance monitoring", "Hardware configuration"]
     }
   }
 }

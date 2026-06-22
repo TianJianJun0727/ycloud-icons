@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "查看新邮件",
-    "查看未读消息",
-    "访问收到的通讯"
-  ],
+  "use-cases": ["查看新邮件", "查看未读消息", "访问收到的通讯"],
   "name": "收件箱",
-  "tags": [
-    "收件箱",
-    "邮件",
-    "收信",
-    "消息"
-  ],
-  "categories": [
-    "account",
-    "mail"
-  ],
+  "tags": ["收件箱", "邮件", "收信", "消息"],
+  "categories": ["account", "mail"],
   "i18n": {
     "en": {
       "name": "inbox",
-      "tags": [
-        "inbox",
-        "email",
-        "messages",
-        "mail"
-      ],
-      "use-cases": [
-        "Check new emails",
-        "View unread messages",
-        "Access received communications"
-      ]
+      "tags": ["inbox", "email", "messages", "mail"],
+      "use-cases": ["Check new emails", "View unread messages", "Access received communications"]
     }
   }
 }

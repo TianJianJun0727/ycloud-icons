@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git仓库文件夹",
-    "带Git的项目目录",
-    "版本控制文件夹"
-  ],
+  "use-cases": ["Git仓库文件夹", "带Git的项目目录", "版本控制文件夹"],
   "name": "文件夹Git",
-  "tags": [
-    "目录",
-    "项目",
-    "Git",
-    "仓库",
-    "版本控制",
-    "代码"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["目录", "项目", "Git", "仓库", "版本控制", "代码"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder git",
-      "tags": [
-        "directory",
-        "project",
-        "git",
-        "repo",
-        "version control",
-        "code"
-      ],
-      "use-cases": [
-        "Git repository folder",
-        "Project directory with Git",
-        "Version controlled folder"
-      ]
+      "tags": ["directory", "project", "git", "repo", "version control", "code"],
+      "use-cases": ["Git repository folder", "Project directory with Git", "Version controlled folder"]
     }
   }
 }

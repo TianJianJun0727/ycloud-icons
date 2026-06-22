@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "建议或提示指示器",
-    "创意模式切换",
-    "灵感或想法开启"
-  ],
+  "use-cases": ["建议或提示指示器", "创意模式切换", "灵感或想法开启"],
   "name": "灯泡",
-  "tags": [
-    "灯泡",
-    "想法",
-    "灵感",
-    "创意",
-    "提示",
-    "明亮",
-    "开启"
-  ],
-  "categories": [
-    "photography"
-  ],
+  "tags": ["灯泡", "想法", "灵感", "创意", "提示", "明亮", "开启"],
+  "categories": ["photography"],
   "i18n": {
     "en": {
       "name": "lightbulb",
-      "tags": [
-        "lightbulb",
-        "idea",
-        "inspiration",
-        "creative",
-        "hint",
-        "bright",
-        "on"
-      ],
-      "use-cases": [
-        "Suggestion or tip indicator",
-        "Creative mode toggle",
-        "Inspiration or idea on"
-      ]
+      "tags": ["lightbulb", "idea", "inspiration", "creative", "hint", "bright", "on"],
+      "use-cases": ["Suggestion or tip indicator", "Creative mode toggle", "Inspiration or idea on"]
     }
   }
 }

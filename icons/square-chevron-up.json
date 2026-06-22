@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收起内容控件",
-    "向上导航",
-    "数学运算"
-  ],
+  "use-cases": ["收起内容控件", "向上导航", "数学运算"],
   "name": "方形折角箭头上",
-  "tags": [
-    "收起",
-    "向上",
-    "导航",
-    "箭头",
-    "数学"
-  ],
-  "categories": [
-    "arrows",
-    "navigation",
-    "math"
-  ],
+  "tags": ["收起", "向上", "导航", "箭头", "数学"],
+  "categories": ["arrows", "navigation", "math"],
   "aliases": [
     {
       "name": "chevron-up-square",
@@ -29,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square chevron up",
-      "tags": [
-        "collapse",
-        "up",
-        "navigation",
-        "arrow",
-        "mathematics"
-      ],
-      "use-cases": [
-        "Collapse content controls",
-        "Upward navigation",
-        "Mathematical operations"
-      ]
+      "tags": ["collapse", "up", "navigation", "arrow", "mathematics"],
+      "use-cases": ["Collapse content controls", "Upward navigation", "Mathematical operations"]
     }
   }
 }

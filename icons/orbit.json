@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天文应用",
-    "物理教育",
-    "空间科学"
-  ],
+  "use-cases": ["天文应用", "物理教育", "空间科学"],
   "name": "轨道",
-  "tags": [
-    "轨道",
-    "行星",
-    "太空",
-    "物理学",
-    "卫星"
-  ],
-  "categories": [
-    "science"
-  ],
+  "tags": ["轨道", "行星", "太空", "物理学", "卫星"],
+  "categories": ["science"],
   "i18n": {
     "en": {
       "name": "orbit",
-      "tags": [
-        "orbit",
-        "planet",
-        "space",
-        "physics",
-        "satellite"
-      ],
-      "use-cases": [
-        "Astronomy apps",
-        "Physics education",
-        "Space science"
-      ]
+      "tags": ["orbit", "planet", "space", "physics", "satellite"],
+      "use-cases": ["Astronomy apps", "Physics education", "Space science"]
     }
   }
 }

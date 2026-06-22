@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除文件或文件夹",
-    "清空回收站",
-    "从列表中移除项目"
-  ],
+  "use-cases": ["删除文件或文件夹", "清空回收站", "从列表中移除项目"],
   "name": "垃圾桶",
-  "tags": [
-    "垃圾桶",
-    "删除",
-    "清空",
-    "垃圾",
-    "回收"
-  ],
-  "categories": [
-    "files",
-    "mail"
-  ],
+  "tags": ["垃圾桶", "删除", "清空", "垃圾", "回收"],
+  "categories": ["files", "mail"],
   "i18n": {
     "en": {
       "name": "trash",
-      "tags": [
-        "trash can",
-        "delete",
-        "empty",
-        "garbage",
-        "recycle"
-      ],
-      "use-cases": [
-        "Delete file or folder",
-        "Empty recycle bin",
-        "Remove item from list"
-      ]
+      "tags": ["trash can", "delete", "empty", "garbage", "recycle"],
+      "use-cases": ["Delete file or folder", "Empty recycle bin", "Remove item from list"]
     }
   }
 }

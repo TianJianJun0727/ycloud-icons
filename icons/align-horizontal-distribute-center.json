@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "均匀分布对象",
-    "设计工具间距",
-    "用户界面布局排列"
-  ],
+  "use-cases": ["均匀分布对象", "设计工具间距", "用户界面布局排列"],
   "name": "对齐水平分布居中",
-  "tags": [
-    "水平分布",
-    "居中分布",
-    "均匀分布",
-    "布局",
-    "间距"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["水平分布", "居中分布", "均匀分布", "布局", "间距"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align horizontal distribute center",
-      "tags": [
-        "distribute horizontal",
-        "center distribute",
-        "even spacing",
-        "layout",
-        "spacing"
-      ],
-      "use-cases": [
-        "Distribute objects evenly",
-        "Design tool spacing",
-        "UI layout arrangement"
-      ]
+      "tags": ["distribute horizontal", "center distribute", "even spacing", "layout", "spacing"],
+      "use-cases": ["Distribute objects evenly", "Design tool spacing", "UI layout arrangement"]
     }
   }
 }

@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计测量工具",
-    "尺寸线标注",
-    "布局间距测量",
-    "单位比例参考"
-  ],
+  "use-cases": ["设计测量工具", "尺寸线标注", "布局间距测量", "单位比例参考"],
   "name": "尺子尺寸线条",
-  "tags": [
-    "尺子",
-    "测量",
-    "尺寸",
-    "长度",
-    "设计",
-    "标注",
-    "线条",
-    "单位"
-  ],
-  "categories": [
-    "tools",
-    "design",
-    "layout"
-  ],
+  "tags": ["尺子", "测量", "尺寸", "长度", "设计", "标注", "线条", "单位"],
+  "categories": ["tools", "design", "layout"],
   "i18n": {
     "en": {
       "name": "ruler dimension line",
-      "tags": [
-        "ruler",
-        "measurement",
-        "dimension",
-        "length",
-        "design",
-        "annotation",
-        "line",
-        "units"
-      ],
-      "use-cases": [
-        "Design measurement tool",
-        "Dimension line annotation",
-        "Layout spacing measurement",
-        "Unit scale reference"
-      ]
+      "tags": ["ruler", "measurement", "dimension", "length", "design", "annotation", "line", "units"],
+      "use-cases": ["Design measurement tool", "Dimension line annotation", "Layout spacing measurement", "Unit scale reference"]
     }
   }
 }

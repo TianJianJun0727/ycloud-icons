@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用药提醒",
-    "药房产品图标",
-    "健康应用药物追踪"
-  ],
+  "use-cases": ["用药提醒", "药房产品图标", "健康应用药物追踪"],
   "name": "药丸",
-  "tags": [
-    "药丸",
-    "药物",
-    "处方",
-    "医疗",
-    "药片"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["药丸", "药物", "处方", "医疗", "药片"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "pill",
-      "tags": [
-        "pill",
-        "medicine",
-        "prescription",
-        "medical",
-        "tablet"
-      ],
-      "use-cases": [
-        "Medication reminder",
-        "Pharmacy product icon",
-        "Health app medication tracking"
-      ]
+      "tags": ["pill", "medicine", "prescription", "medical", "tablet"],
+      "use-cases": ["Medication reminder", "Pharmacy product icon", "Health app medication tracking"]
     }
   }
 }

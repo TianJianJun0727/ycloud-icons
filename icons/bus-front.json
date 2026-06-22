@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "公共交通预订",
-    "旅行行程",
-    "车队管理"
-  ],
+  "use-cases": ["公共交通预订", "旅行行程", "车队管理"],
   "name": "公交车正面",
-  "tags": [
-    "公交车",
-    "巴士",
-    "车辆",
-    "交通",
-    "客运",
-    "旅行",
-    "正面"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["公交车", "巴士", "车辆", "交通", "客运", "旅行", "正面"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "bus front",
-      "tags": [
-        "bus",
-        "coach",
-        "vehicle",
-        "transportation",
-        "public transit",
-        "travel",
-        "front"
-      ],
-      "use-cases": [
-        "Public transport booking",
-        "Travel itinerary",
-        "Vehicle fleet management"
-      ]
+      "tags": ["bus", "coach", "vehicle", "transportation", "public transit", "travel", "front"],
+      "use-cases": ["Public transport booking", "Travel itinerary", "Vehicle fleet management"]
     }
   }
 }

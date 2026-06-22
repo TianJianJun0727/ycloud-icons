@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索用户",
-    "查找团队成员",
-    "查询联系人",
-    "发现人员"
-  ],
+  "use-cases": ["搜索用户", "查找团队成员", "查询联系人", "发现人员"],
   "name": "用户搜索",
-  "tags": [
-    "用户",
-    "账号",
-    "查找",
-    "搜索",
-    "联系人",
-    "发现",
-    "人员"
-  ],
-  "categories": [
-    "account",
-    "social"
-  ],
+  "tags": ["用户", "账号", "查找", "搜索", "联系人", "发现", "人员"],
+  "categories": ["account", "social"],
   "i18n": {
     "en": {
       "name": "user search",
-      "tags": [
-        "user",
-        "account",
-        "find",
-        "search",
-        "contact",
-        "discover",
-        "person"
-      ],
-      "use-cases": [
-        "Search for a user",
-        "Find team member",
-        "Lookup contact",
-        "Discover people"
-      ]
+      "tags": ["user", "account", "find", "search", "contact", "discover", "person"],
+      "use-cases": ["Search for a user", "Find team member", "Lookup contact", "Discover people"]
     }
   }
 }

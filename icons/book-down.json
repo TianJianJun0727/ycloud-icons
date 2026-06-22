@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git拉取或下载仓库",
-    "同步文档更新",
-    "下载电子书或手册",
-    "从远程获取代码"
-  ],
+  "use-cases": ["Git拉取或下载仓库", "同步文档更新", "下载电子书或手册", "从远程获取代码"],
   "name": "书籍下",
-  "tags": [
-    "下载",
-    "拉取",
-    "获取",
-    "代码",
-    "版本控制",
-    "Git",
-    "存储库",
-    "同步"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["下载", "拉取", "获取", "代码", "版本控制", "Git", "存储库", "同步"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "book down",
-      "tags": [
-        "download",
-        "pull",
-        "fetch",
-        "code",
-        "version control",
-        "Git",
-        "repository",
-        "sync"
-      ],
-      "use-cases": [
-        "Git pull or download repository",
-        "Sync documentation updates",
-        "Download an ebook or manual",
-        "Fetch code from remote"
-      ]
+      "tags": ["download", "pull", "fetch", "code", "version control", "Git", "repository", "sync"],
+      "use-cases": ["Git pull or download repository", "Sync documentation updates", "Download an ebook or manual", "Fetch code from remote"]
     }
   }
 }

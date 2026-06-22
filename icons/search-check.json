@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索结果确认",
-    "成功查找指示器",
-    "数据验证搜索",
-    "匹配找到通知"
-  ],
+  "use-cases": ["搜索结果确认", "成功查找指示器", "数据验证搜索", "匹配找到通知"],
   "name": "搜索勾选",
-  "tags": [
-    "搜索成功",
-    "查找完成",
-    "搜索确认",
-    "找到结果",
-    "搜索正确",
-    "验证搜索"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["搜索成功", "查找完成", "搜索确认", "找到结果", "搜索正确", "验证搜索"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "search check",
-      "tags": [
-        "search success",
-        "find complete",
-        "search confirmation",
-        "result found",
-        "search correct",
-        "verified search"
-      ],
-      "use-cases": [
-        "Search result confirmation",
-        "Successful lookup indicator",
-        "Data validation search",
-        "Match found notification"
-      ]
+      "tags": ["search success", "find complete", "search confirmation", "result found", "search correct", "verified search"],
+      "use-cases": ["Search result confirmation", "Successful lookup indicator", "Data validation search", "Match found notification"]
     }
   }
 }

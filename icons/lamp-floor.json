@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "客厅灯光控制",
-    "氛围灯设置",
-    "家具装饰应用"
-  ],
+  "use-cases": ["客厅灯光控制", "氛围灯设置", "家具装饰应用"],
   "name": "灯地板",
-  "tags": [
-    "落地灯",
-    "立灯",
-    "客厅灯",
-    "氛围灯",
-    "装饰灯"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["落地灯", "立灯", "客厅灯", "氛围灯", "装饰灯"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "lamp floor",
-      "tags": [
-        "floor lamp",
-        "standing lamp",
-        "living room light",
-        "ambient light",
-        "decorative light"
-      ],
-      "use-cases": [
-        "Living room lighting control",
-        "Ambient lighting settings",
-        "Furniture and decor app"
-      ]
+      "tags": ["floor lamp", "standing lamp", "living room light", "ambient light", "decorative light"],
+      "use-cases": ["Living room lighting control", "Ambient lighting settings", "Furniture and decor app"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI元素大小调整",
-    "设计缩放控件",
-    "响应式布局工具"
-  ],
+  "use-cases": ["UI元素大小调整", "设计缩放控件", "响应式布局工具"],
   "name": "缩放",
-  "tags": [
-    "缩放",
-    "调整大小",
-    "比例",
-    "设计工具",
-    "界面布局"
-  ],
-  "categories": [
-    "design"
-  ],
+  "tags": ["缩放", "调整大小", "比例", "设计工具", "界面布局"],
+  "categories": ["design"],
   "i18n": {
     "en": {
       "name": "scaling",
-      "tags": [
-        "scale",
-        "resize",
-        "proportion",
-        "design tool",
-        "layout"
-      ],
-      "use-cases": [
-        "UI element resizing",
-        "Design scaling controls",
-        "Responsive layout tools"
-      ]
+      "tags": ["scale", "resize", "proportion", "design tool", "layout"],
+      "use-cases": ["UI element resizing", "Design scaling controls", "Responsive layout tools"]
     }
   }
 }

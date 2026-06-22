@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件删除操作",
-    "邮件垃圾文件夹",
-    "清除列表项"
-  ],
+  "use-cases": ["文件删除操作", "邮件垃圾文件夹", "清除列表项"],
   "name": "删除",
-  "tags": [
-    "删除",
-    "垃圾箱",
-    "移除",
-    "清空",
-    "回收站"
-  ],
-  "categories": [
-    "files",
-    "mail"
-  ],
+  "tags": ["删除", "垃圾箱", "移除", "清空", "回收站"],
+  "categories": ["files", "mail"],
   "i18n": {
     "en": {
       "name": "trash 2",
-      "tags": [
-        "delete",
-        "trash",
-        "remove",
-        "empty",
-        "recycle bin"
-      ],
-      "use-cases": [
-        "File deletion action",
-        "Email junk folder",
-        "Clear list item"
-      ]
+      "tags": ["delete", "trash", "remove", "empty", "recycle bin"],
+      "use-cases": ["File deletion action", "Email junk folder", "Clear list item"]
     }
   }
 }

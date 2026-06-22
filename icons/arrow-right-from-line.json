@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下一页",
-    "导出操作",
-    "展开菜单"
-  ],
+  "use-cases": ["下一页", "导出操作", "展开菜单"],
   "name": "箭头右从线条",
-  "tags": [
-    "下一个",
-    "前进",
-    "方向",
-    "东",
-    "导出",
-    "展开"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["下一个", "前进", "方向", "东", "导出", "展开"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow right from line",
-      "tags": [
-        "next",
-        "forward",
-        "direction",
-        "east",
-        "export",
-        "expand"
-      ],
-      "use-cases": [
-        "Next page",
-        "Export action",
-        "Expand menu"
-      ]
+      "tags": ["next", "forward", "direction", "east", "export", "expand"],
+      "use-cases": ["Next page", "Export action", "Expand menu"]
     }
   }
 }

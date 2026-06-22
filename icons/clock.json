@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示当前时间或时间戳",
-    "设置闹钟或计时器",
-    "代表日程安排或日历"
-  ],
+  "use-cases": ["显示当前时间或时间戳", "设置闹钟或计时器", "代表日程安排或日历"],
   "name": "时钟",
-  "tags": [
-    "时间",
-    "钟表",
-    "闹钟",
-    "计时",
-    "日程",
-    "时刻"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "钟表", "闹钟", "计时", "日程", "时刻"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock",
-      "tags": [
-        "time",
-        "clock",
-        "alarm",
-        "timer",
-        "schedule",
-        "moment"
-      ],
-      "use-cases": [
-        "Show current time or a timestamp",
-        "Set an alarm or timer",
-        "Represent scheduling or calendars"
-      ]
+      "tags": ["time", "clock", "alarm", "timer", "schedule", "moment"],
+      "use-cases": ["Show current time or a timestamp", "Set an alarm or timer", "Represent scheduling or calendars"]
     }
   }
 }

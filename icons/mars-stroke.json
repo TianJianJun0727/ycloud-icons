@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代表跨性别身份",
-    "指示性别多样性选项",
-    "非二元性别的符号"
-  ],
+  "use-cases": ["代表跨性别身份", "指示性别多样性选项", "非二元性别的符号"],
   "name": "火星描边",
-  "tags": [
-    "跨性别",
-    "性别多元",
-    "性别符号",
-    "中性",
-    "非二元性别"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["跨性别", "性别多元", "性别符号", "中性", "非二元性别"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "mars stroke",
-      "tags": [
-        "transgender",
-        "gender diverse",
-        "gender symbol",
-        "neutral",
-        "non-binary"
-      ],
-      "use-cases": [
-        "Represent transgender identity",
-        "Indicate gender diversity options",
-        "Symbol for non-binary gender"
-      ]
+      "tags": ["transgender", "gender diverse", "gender symbol", "neutral", "non-binary"],
+      "use-cases": ["Represent transgender identity", "Indicate gender diversity options", "Symbol for non-binary gender"]
     }
   }
 }

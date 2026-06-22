@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "群组消息界面",
-    "查看消息线程",
-    "团队讨论板"
-  ],
+  "use-cases": ["群组消息界面", "查看消息线程", "团队讨论板"],
   "name": "方形消息",
-  "tags": [
-    "消息",
-    "聊天",
-    "对话",
-    "群聊",
-    "讨论",
-    "评论",
-    "多个",
-    "沟通"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["消息", "聊天", "对话", "群聊", "讨论", "评论", "多个", "沟通"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "messages square",
-      "tags": [
-        "messages",
-        "chat",
-        "conversation",
-        "group chat",
-        "discussion",
-        "comments",
-        "multiple",
-        "communication"
-      ],
-      "use-cases": [
-        "Group messaging interface",
-        "Viewing a message thread",
-        "Team discussion board"
-      ]
+      "tags": ["messages", "chat", "conversation", "group chat", "discussion", "comments", "multiple", "communication"],
+      "use-cases": ["Group messaging interface", "Viewing a message thread", "Team discussion board"]
     }
   }
 }

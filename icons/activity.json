@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健身追踪",
-    "心率监测",
-    "活动测量"
-  ],
+  "use-cases": ["健身追踪", "心率监测", "活动测量"],
   "name": "活动",
-  "tags": [
-    "活动",
-    "心率",
-    "脉搏",
-    "运动",
-    "健身",
-    "医疗",
-    "监测"
-  ],
-  "categories": [
-    "medical",
-    "account",
-    "social",
-    "science",
-    "multimedia"
-  ],
+  "tags": ["活动", "心率", "脉搏", "运动", "健身", "医疗", "监测"],
+  "categories": ["medical", "account", "social", "science", "multimedia"],
   "i18n": {
     "en": {
       "name": "activity",
-      "tags": [
-        "activity",
-        "heart rate",
-        "pulse",
-        "exercise",
-        "fitness",
-        "medical",
-        "monitor"
-      ],
-      "use-cases": [
-        "fitness tracking",
-        "heart rate monitoring",
-        "activity measurement"
-      ]
+      "tags": ["activity", "heart rate", "pulse", "exercise", "fitness", "medical", "monitor"],
+      "use-cases": ["fitness tracking", "heart rate monitoring", "activity measurement"]
     }
   }
 }

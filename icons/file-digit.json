@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数字数据文件",
-    "统计文档",
-    "数值记录"
-  ],
+  "use-cases": ["数字数据文件", "统计文档", "数值记录"],
   "name": "文件数字",
-  "tags": [
-    "数字",
-    "数据文件",
-    "统计",
-    "数值文档"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["数字", "数据文件", "统计", "数值文档"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "file digit",
-      "tags": [
-        "number",
-        "data file",
-        "statistics",
-        "numeric document"
-      ],
-      "use-cases": [
-        "Data file with numbers",
-        "Statistical document",
-        "Numeric record"
-      ]
+      "tags": ["number", "data file", "statistics", "numeric document"],
+      "use-cases": ["Data file with numbers", "Statistical document", "Numeric record"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "晴雨交替天气",
-    "阵雨预报",
-    "多变天气图标"
-  ],
+  "use-cases": ["晴雨交替天气", "阵雨预报", "多变天气图标"],
   "name": "云太阳雨",
-  "tags": [
-    "天气",
-    "晴雨",
-    "太阳雨",
-    "阵雨",
-    "多变天气"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "晴雨", "太阳雨", "阵雨", "多变天气"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud sun rain",
-      "tags": [
-        "weather",
-        "sun rain",
-        "sunshower",
-        "shower",
-        "changeable weather"
-      ],
-      "use-cases": [
-        "Sunny with rain weather",
-        "Shower forecast",
-        "Changeable weather icon"
-      ]
+      "tags": ["weather", "sun rain", "sunshower", "shower", "changeable weather"],
+      "use-cases": ["Sunny with rain weather", "Shower forecast", "Changeable weather icon"]
     }
   }
 }

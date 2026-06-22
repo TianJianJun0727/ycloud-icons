@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "航班预订界面",
-    "旅行行程显示",
-    "机场或航空公司应用"
-  ],
+  "use-cases": ["航班预订界面", "旅行行程显示", "机场或航空公司应用"],
   "name": "飞机",
-  "tags": [
-    "飞机",
-    "飞行",
-    "旅行",
-    "航空",
-    "交通工具"
-  ],
-  "categories": [
-    "transportation",
-    "travel",
-    "navigation"
-  ],
+  "tags": ["飞机", "飞行", "旅行", "航空", "交通工具"],
+  "categories": ["transportation", "travel", "navigation"],
   "i18n": {
     "en": {
       "name": "plane",
-      "tags": [
-        "plane",
-        "flight",
-        "travel",
-        "aviation",
-        "transport"
-      ],
-      "use-cases": [
-        "Flight booking interface",
-        "Travel itinerary display",
-        "Airport or airline app"
-      ]
+      "tags": ["plane", "flight", "travel", "aviation", "transport"],
+      "use-cases": ["Flight booking interface", "Travel itinerary display", "Airport or airline app"]
     }
   }
 }

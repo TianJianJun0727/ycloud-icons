@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "垂直调整大小光标",
-    "上下移动对象",
-    "调整行高",
-    "垂直滚动指示器"
-  ],
+  "use-cases": ["垂直调整大小光标", "上下移动对象", "调整行高", "垂直滚动指示器"],
   "name": "移动垂直",
-  "tags": [
-    "双箭头",
-    "垂直",
-    "上下",
-    "调整大小",
-    "移动",
-    "光标",
-    "拖动"
-  ],
-  "categories": [
-    "arrows",
-    "cursors"
-  ],
+  "tags": ["双箭头", "垂直", "上下", "调整大小", "移动", "光标", "拖动"],
+  "categories": ["arrows", "cursors"],
   "i18n": {
     "en": {
       "name": "move vertical",
-      "tags": [
-        "double arrow",
-        "vertical",
-        "up-down",
-        "resize",
-        "move",
-        "cursor",
-        "drag"
-      ],
-      "use-cases": [
-        "Vertical resize cursor",
-        "Move object up or down",
-        "Adjust row height",
-        "Vertical scrolling indicator"
-      ]
+      "tags": ["double arrow", "vertical", "up-down", "resize", "move", "cursor", "drag"],
+      "use-cases": ["Vertical resize cursor", "Move object up or down", "Adjust row height", "Vertical scrolling indicator"]
     }
   }
 }

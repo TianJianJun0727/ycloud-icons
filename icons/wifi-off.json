@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在设置中关闭Wi-Fi",
-    "表示无可用网络连接"
-  ],
+  "use-cases": ["在设置中关闭Wi-Fi", "表示无可用网络连接"],
   "name": "无线网络关闭",
-  "tags": [
-    "无线网络关闭",
-    "Wi-Fi关闭",
-    "断开连接",
-    "禁用网络",
-    "无网络"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["无线网络关闭", "Wi-Fi关闭", "断开连接", "禁用网络", "无网络"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi off",
-      "tags": [
-        "wifi off",
-        "wireless disabled",
-        "disconnected",
-        "network disabled",
-        "no connection"
-      ],
-      "use-cases": [
-        "Turning Wi-Fi off in settings",
-        "Indicating no network connection available"
-      ]
+      "tags": ["wifi off", "wireless disabled", "disconnected", "network disabled", "no connection"],
+      "use-cases": ["Turning Wi-Fi off in settings", "Indicating no network connection available"]
     }
   }
 }

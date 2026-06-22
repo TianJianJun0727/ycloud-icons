@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "糖果店产品图标",
-    "甜点选择",
-    "甜品菜单项"
-  ],
+  "use-cases": ["糖果店产品图标", "甜点选择", "甜品菜单项"],
   "name": "棒棒糖",
-  "tags": [
-    "棒棒糖",
-    "糖果",
-    "甜食",
-    "零食",
-    "甜品",
-    "螺旋糖"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["棒棒糖", "糖果", "甜食", "零食", "甜品", "螺旋糖"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "lollipop",
-      "tags": [
-        "lollipop",
-        "candy",
-        "sweet",
-        "treat",
-        "dessert",
-        "spiral"
-      ],
-      "use-cases": [
-        "Candy store product icon",
-        "Sweet treat selection",
-        "Dessert menu item"
-      ]
+      "tags": ["lollipop", "candy", "sweet", "treat", "dessert", "spiral"],
+      "use-cases": ["Candy store product icon", "Sweet treat selection", "Dessert menu item"]
     }
   }
 }

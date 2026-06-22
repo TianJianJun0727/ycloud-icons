@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "目标跟踪仪表盘",
-    "项目管理进度",
-    "游戏瞄准界面"
-  ],
+  "use-cases": ["目标跟踪仪表盘", "项目管理进度", "游戏瞄准界面"],
   "name": "目标",
-  "tags": [
-    "目标",
-    "靶心",
-    "项目",
-    "截止日期",
-    "游戏",
-    "生产力"
-  ],
-  "categories": [
-    "gaming"
-  ],
+  "tags": ["目标", "靶心", "项目", "截止日期", "游戏", "生产力"],
+  "categories": ["gaming"],
   "i18n": {
     "en": {
       "name": "target",
-      "tags": [
-        "target",
-        "bullseye",
-        "goal",
-        "project",
-        "deadline",
-        "gaming",
-        "productivity"
-      ],
-      "use-cases": [
-        "Goal tracking dashboard",
-        "Project management progress",
-        "Gaming UI for aiming"
-      ]
+      "tags": ["target", "bullseye", "goal", "project", "deadline", "gaming", "productivity"],
+      "use-cases": ["Goal tracking dashboard", "Project management progress", "Gaming UI for aiming"]
     }
   }
 }

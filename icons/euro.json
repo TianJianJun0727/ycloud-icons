@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "金融应用中的货币选择",
-    "支付方式指示器",
-    "欧洲语境下的价格显示",
-    "金融交易界面"
-  ],
+  "use-cases": ["金融应用中的货币选择", "支付方式指示器", "欧洲语境下的价格显示", "金融交易界面"],
   "name": "欧元",
-  "tags": [
-    "欧元",
-    "货币",
-    "金融",
-    "支付",
-    "钱"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["欧元", "货币", "金融", "支付", "钱"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "euro",
-      "tags": [
-        "euro",
-        "currency",
-        "finance",
-        "payment",
-        "money"
-      ],
-      "use-cases": [
-        "Currency selection in finance apps",
-        "Payment method indicators",
-        "Price displays in European contexts",
-        "Financial transaction interfaces"
-      ]
+      "tags": ["euro", "currency", "finance", "payment", "money"],
+      "use-cases": ["Currency selection in finance apps", "Payment method indicators", "Price displays in European contexts", "Financial transaction interfaces"]
     }
   }
 }

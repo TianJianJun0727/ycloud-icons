@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "机场行李托运",
-    "旅行应用界面",
-    "行李追踪系统",
-    "传送带状态显示"
-  ],
+  "use-cases": ["机场行李托运", "旅行应用界面", "行李追踪系统", "传送带状态显示"],
   "name": "公文包传送传送带",
-  "tags": [
-    "行李",
-    "旅行",
-    "传送带",
-    "机场",
-    "托运"
-  ],
-  "categories": [
-    "travel",
-    "transportation"
-  ],
+  "tags": ["行李", "旅行", "传送带", "机场", "托运"],
+  "categories": ["travel", "transportation"],
   "i18n": {
     "en": {
       "name": "briefcase conveyor belt",
-      "tags": [
-        "luggage",
-        "travel",
-        "conveyor belt",
-        "airport",
-        "check-in"
-      ],
-      "use-cases": [
-        "Airport luggage check-in",
-        "Travel application interface",
-        "Luggage tracking system",
-        "Conveyor belt status display"
-      ]
+      "tags": ["luggage", "travel", "conveyor belt", "airport", "check-in"],
+      "use-cases": ["Airport luggage check-in", "Travel application interface", "Luggage tracking system", "Conveyor belt status display"]
     }
   }
 }

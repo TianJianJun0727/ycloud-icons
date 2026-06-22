@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "新建文件夹按钮",
-    "添加目录界面",
-    "文件管理器新建项"
-  ],
+  "use-cases": ["新建文件夹按钮", "添加目录界面", "文件管理器新建项"],
   "name": "文件夹加号",
-  "tags": [
-    "文件夹",
-    "目录",
-    "新建",
-    "添加",
-    "创建"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["文件夹", "目录", "新建", "添加", "创建"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder plus",
-      "tags": [
-        "directory",
-        "new",
-        "add",
-        "create"
-      ],
-      "use-cases": [
-        "Create new folder button",
-        "Add directory interface",
-        "File manager new item"
-      ]
+      "tags": ["directory", "new", "add", "create"],
+      "use-cases": ["Create new folder button", "Add directory interface", "File manager new item"]
     }
   }
 }

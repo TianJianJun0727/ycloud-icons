@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示器状态指示器",
-    "桌面应用运行中",
-    "虚拟机活动检查",
-    "显示连接已验证"
-  ],
+  "use-cases": ["显示器状态指示器", "桌面应用运行中", "虚拟机活动检查", "显示连接已验证"],
   "name": "显示器勾选",
-  "tags": [
-    "显示器",
-    "检查",
-    "运行中",
-    "桌面",
-    "状态正常"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["显示器", "检查", "运行中", "桌面", "状态正常"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor check",
-      "tags": [
-        "monitor",
-        "check",
-        "running",
-        "desktop",
-        "status ok"
-      ],
-      "use-cases": [
-        "Monitor status indicator",
-        "Desktop application running",
-        "VM active check",
-        "Display connectivity verified"
-      ]
+      "tags": ["monitor", "check", "running", "desktop", "status ok"],
+      "use-cases": ["Monitor status indicator", "Desktop application running", "VM active check", "Display connectivity verified"]
     }
   }
 }

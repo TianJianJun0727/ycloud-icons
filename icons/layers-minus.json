@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计应用中的移除图层功能",
-    "简化堆叠结构",
-    "删除重复或不必要的图层"
-  ],
+  "use-cases": ["设计应用中的移除图层功能", "简化堆叠结构", "删除重复或不必要的图层"],
   "name": "图层减少",
-  "tags": [
-    "图层减少",
-    "移除图层",
-    "删除层级",
-    "堆叠管理",
-    "简化"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["图层减少", "移除图层", "删除层级", "堆叠管理", "简化"],
+  "categories": ["design", "layout"],
   "i18n": {
     "en": {
       "name": "layers minus",
-      "tags": [
-        "layers minus",
-        "remove layer",
-        "delete hierarchy",
-        "stack management",
-        "simplify"
-      ],
-      "use-cases": [
-        "Remove layer function in design apps",
-        "Simplify stacked structure",
-        "Delete duplicate or unnecessary layer"
-      ]
+      "tags": ["layers minus", "remove layer", "delete hierarchy", "stack management", "simplify"],
+      "use-cases": ["Remove layer function in design apps", "Simplify stacked structure", "Delete duplicate or unnecessary layer"]
     }
   }
 }

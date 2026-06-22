@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "清空搜索框",
-    "关闭搜索面板",
-    "取消搜索操作"
-  ],
+  "use-cases": ["清空搜索框", "关闭搜索面板", "取消搜索操作"],
   "name": "搜索关闭",
-  "tags": [
-    "搜索",
-    "关闭",
-    "清除",
-    "取消",
-    "删除",
-    "放大镜"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["搜索", "关闭", "清除", "取消", "删除", "放大镜"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "search X",
-      "tags": [
-        "search",
-        "close",
-        "clear",
-        "cancel",
-        "delete",
-        "magnifier"
-      ],
-      "use-cases": [
-        "Clear search box",
-        "Close search panel",
-        "Cancel search operation"
-      ]
+      "tags": ["search", "close", "clear", "cancel", "delete", "magnifier"],
+      "use-cases": ["Clear search box", "Close search panel", "Cancel search operation"]
     }
   }
 }

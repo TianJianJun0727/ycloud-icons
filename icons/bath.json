@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "酒店房间设施列表",
-    "浴室设施指示",
-    "清洁服务"
-  ],
+  "use-cases": ["酒店房间设施列表", "浴室设施指示", "清洁服务"],
   "name": "浴缸",
-  "tags": [
-    "浴缸",
-    "浴室",
-    "淋浴",
-    "设施",
-    "酒店",
-    "卫浴",
-    "清洁"
-  ],
-  "categories": [
-    "travel"
-  ],
+  "tags": ["浴缸", "浴室", "淋浴", "设施", "酒店", "卫浴", "清洁"],
+  "categories": ["travel"],
   "i18n": {
     "en": {
       "name": "bath",
-      "tags": [
-        "bathtub",
-        "bathroom",
-        "shower",
-        "amenity",
-        "hotel",
-        "bath",
-        "clean"
-      ],
-      "use-cases": [
-        "Hotel room amenities listing",
-        "Bathroom facility indicator",
-        "Cleaning service"
-      ]
+      "tags": ["bathtub", "bathroom", "shower", "amenity", "hotel", "bath", "clean"],
+      "use-cases": ["Hotel room amenities listing", "Bathroom facility indicator", "Cleaning service"]
     }
   }
 }

@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "标记不当聊天消息",
-    "重要未读消息警告",
-    "举报对话中的滥用或垃圾信息"
-  ],
+  "use-cases": ["标记不当聊天消息", "重要未读消息警告", "举报对话中的滥用或垃圾信息"],
   "name": "消息方形警告",
-  "tags": [
-    "警告",
-    "告警",
-    "危险",
-    "反馈",
-    "报告",
-    "聊天",
-    "对话",
-    "评论",
-    "通知",
-    "感叹号"
-  ],
-  "categories": [
-    "social",
-    "notifications"
-  ],
+  "tags": ["警告", "告警", "危险", "反馈", "报告", "聊天", "对话", "评论", "通知", "感叹号"],
+  "categories": ["social", "notifications"],
   "i18n": {
     "en": {
       "name": "message square warning",
-      "tags": [
-        "warning",
-        "alert",
-        "danger",
-        "feedback",
-        "report",
-        "chat",
-        "conversation",
-        "comment",
-        "notification",
-        "exclamation"
-      ],
-      "use-cases": [
-        "Flagging inappropriate chat messages",
-        "Warning for unread important messages",
-        "Report abuse or spam in a conversation"
-      ]
+      "tags": ["warning", "alert", "danger", "feedback", "report", "chat", "conversation", "comment", "notification", "exclamation"],
+      "use-cases": ["Flagging inappropriate chat messages", "Warning for unread important messages", "Report abuse or spam in a conversation"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "锁定文件夹",
-    "安全目录",
-    "受保护文件夹"
-  ],
+  "use-cases": ["锁定文件夹", "安全目录", "受保护文件夹"],
   "name": "文件夹锁定",
-  "tags": [
-    "目录",
-    "锁定",
-    "私有",
-    "安全",
-    "保护"
-  ],
-  "categories": [
-    "files",
-    "security"
-  ],
+  "tags": ["目录", "锁定", "私有", "安全", "保护"],
+  "categories": ["files", "security"],
   "i18n": {
     "en": {
       "name": "folder lock",
-      "tags": [
-        "directory",
-        "lock",
-        "private",
-        "security",
-        "protected"
-      ],
-      "use-cases": [
-        "Locked folder",
-        "Secure directory",
-        "Protected folder"
-      ]
+      "tags": ["directory", "lock", "private", "security", "protected"],
+      "use-cases": ["Locked folder", "Secure directory", "Protected folder"]
     }
   }
 }

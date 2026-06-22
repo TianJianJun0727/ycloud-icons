@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表格列降序排序",
-    "数据筛选降序",
-    "文本大小减少控制"
-  ],
+  "use-cases": ["表格列降序排序", "数据筛选降序", "文本大小减少控制"],
   "name": "箭头上宽窄",
-  "tags": [
-    "排序",
-    "降序",
-    "筛选",
-    "减少",
-    "文本格式",
-    "布局"
-  ],
-  "categories": [
-    "text",
-    "layout",
-    "arrows"
-  ],
+  "tags": ["排序", "降序", "筛选", "减少", "文本格式", "布局"],
+  "categories": ["text", "layout", "arrows"],
   "i18n": {
     "en": {
       "name": "arrow up wide narrow",
-      "tags": [
-        "sort",
-        "descending",
-        "filter",
-        "decreasing",
-        "text formatting",
-        "layout"
-      ],
-      "use-cases": [
-        "Table column sort descending",
-        "Data filter descending order",
-        "Text size decrease control"
-      ]
+      "tags": ["sort", "descending", "filter", "decreasing", "text formatting", "layout"],
+      "use-cases": ["Table column sort descending", "Data filter descending order", "Text size decrease control"]
     }
   }
 }

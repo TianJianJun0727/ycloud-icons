@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器控制",
-    "音频暂停按钮",
-    "视频播放"
-  ],
+  "use-cases": ["媒体播放器控制", "音频暂停按钮", "视频播放"],
   "name": "八边形暂停",
-  "tags": [
-    "暂停",
-    "停止",
-    "媒体控制",
-    "音频"
-  ],
-  "categories": [
-    "multimedia",
-    "shapes"
-  ],
+  "tags": ["暂停", "停止", "媒体控制", "音频"],
+  "categories": ["multimedia", "shapes"],
   "aliases": [
     {
       "name": "pause-octagon",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "octagon pause",
-      "tags": [
-        "pause",
-        "stop",
-        "media control",
-        "audio"
-      ],
-      "use-cases": [
-        "Media player controls",
-        "Audio pause button",
-        "Video playback"
-      ]
+      "tags": ["pause", "stop", "media control", "audio"],
+      "use-cases": ["Media player controls", "Audio pause button", "Video playback"]
     }
   }
 }

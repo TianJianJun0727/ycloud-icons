@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "帮助图标",
-    "工具提示触发",
-    "常见问题部分",
-    "信息弹窗"
-  ],
+  "use-cases": ["帮助图标", "工具提示触发", "常见问题部分", "信息弹窗"],
   "name": "圆形问题标记",
-  "tags": [
-    "问号",
-    "帮助",
-    "疑问",
-    "提示",
-    "说明"
-  ],
-  "categories": [
-    "accessibility",
-    "text",
-    "notifications"
-  ],
+  "tags": ["问号", "帮助", "疑问", "提示", "说明"],
+  "categories": ["accessibility", "text", "notifications"],
   "aliases": [
     {
       "name": "help-circle",
@@ -36,19 +21,8 @@
   "i18n": {
     "en": {
       "name": "circle question mark",
-      "tags": [
-        "question",
-        "help",
-        "query",
-        "hint",
-        "information"
-      ],
-      "use-cases": [
-        "Help icon",
-        "Tooltip trigger",
-        "FAQ section",
-        "Information popup"
-      ]
+      "tags": ["question", "help", "query", "hint", "information"],
+      "use-cases": ["Help icon", "Tooltip trigger", "FAQ section", "Information popup"]
     }
   }
 }

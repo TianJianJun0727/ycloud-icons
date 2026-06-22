@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "系统错误通知",
-    "重要警告信息",
-    "关键警报对话框"
-  ],
+  "use-cases": ["系统错误通知", "重要警告信息", "关键警报对话框"],
   "name": "圆形告警",
-  "tags": [
-    "警告",
-    "警报",
-    "错误",
-    "危险",
-    "注意",
-    "圆形感叹号"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["警告", "警报", "错误", "危险", "注意", "圆形感叹号"],
+  "categories": ["notifications"],
   "aliases": [
     {
       "name": "alert-circle",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle alert",
-      "tags": [
-        "warning",
-        "alert",
-        "error",
-        "danger",
-        "attention",
-        "circle exclamation"
-      ],
-      "use-cases": [
-        "System error notification",
-        "Important warning message",
-        "Critical alert dialog"
-      ]
+      "tags": ["warning", "alert", "error", "danger", "attention", "circle exclamation"],
+      "use-cases": ["System error notification", "Important warning message", "Critical alert dialog"]
     }
   }
 }

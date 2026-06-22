@@ -1,51 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "喜欢按钮",
-    "收藏指示器",
-    "爱心表情",
-    "健康应用",
-    "纸牌花色",
-    "装饰形状"
-  ],
+  "use-cases": ["喜欢按钮", "收藏指示器", "爱心表情", "健康应用", "纸牌花色", "装饰形状"],
   "name": "爱心",
-  "tags": [
-    "喜欢",
-    "爱",
-    "情感",
-    "收藏",
-    "健康",
-    "纸牌",
-    "形状"
-  ],
-  "categories": [
-    "medical",
-    "social",
-    "multimedia",
-    "emoji",
-    "gaming",
-    "shapes"
-  ],
+  "tags": ["喜欢", "爱", "情感", "收藏", "健康", "纸牌", "形状"],
+  "categories": ["medical", "social", "multimedia", "emoji", "gaming", "shapes"],
   "i18n": {
     "en": {
       "name": "heart",
-      "tags": [
-        "like",
-        "love",
-        "emotion",
-        "favorite",
-        "health",
-        "cards",
-        "shape"
-      ],
-      "use-cases": [
-        "Like button",
-        "Favorite indicator",
-        "Love emotion",
-        "Health app",
-        "Playing card suit",
-        "Decorative shape"
-      ]
+      "tags": ["like", "love", "emotion", "favorite", "health", "cards", "shape"],
+      "use-cases": ["Like button", "Favorite indicator", "Love emotion", "Health app", "Playing card suit", "Decorative shape"]
     }
   }
 }

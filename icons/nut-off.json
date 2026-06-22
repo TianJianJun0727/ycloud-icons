@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "过敏警告",
-    "饮食限制",
-    "食品标签",
-    "过敏原信息"
-  ],
+  "use-cases": ["过敏警告", "饮食限制", "食品标签", "过敏原信息"],
   "name": "螺母关闭",
-  "tags": [
-    "坚果过敏",
-    "无坚果",
-    "饮食限制",
-    "过敏原",
-    "食品安全",
-    "禁忌"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["坚果过敏", "无坚果", "饮食限制", "过敏原", "食品安全", "禁忌"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "nut off",
-      "tags": [
-        "nut allergy",
-        "nut-free",
-        "dietary restriction",
-        "allergen",
-        "food safety",
-        "avoidance"
-      ],
-      "use-cases": [
-        "Allergy warning",
-        "Dietary restrictions",
-        "Food labeling",
-        "Allergen information"
-      ]
+      "tags": ["nut allergy", "nut-free", "dietary restriction", "allergen", "food safety", "avoidance"],
+      "use-cases": ["Allergy warning", "Dietary restrictions", "Food labeling", "Allergen information"]
     }
   }
 }

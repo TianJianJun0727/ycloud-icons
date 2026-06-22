@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "创建编号列表",
-    "显示有序步骤",
-    "展示顺序列表"
-  ],
+  "use-cases": ["创建编号列表", "显示有序步骤", "展示顺序列表"],
   "name": "列表有序",
-  "tags": [
-    "列表",
-    "有序",
-    "编号",
-    "顺序",
-    "数字"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["列表", "有序", "编号", "顺序", "数字"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "list ordered",
-      "tags": [
-        "list",
-        "ordered",
-        "numbered",
-        "sequence",
-        "numbers"
-      ],
-      "use-cases": [
-        "Create a numbered list",
-        "Show ordered steps",
-        "Display a sequential list"
-      ]
+      "tags": ["list", "ordered", "numbered", "sequence", "numbers"],
+      "use-cases": ["Create a numbered list", "Show ordered steps", "Display a sequential list"]
     }
   }
 }

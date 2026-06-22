@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "化学实验模拟器",
-    "实验室设备库存",
-    "科学教育应用"
-  ],
+  "use-cases": ["化学实验模拟器", "实验室设备库存", "科学教育应用"],
   "name": "试管",
-  "tags": [
-    "试管",
-    "实验",
-    "化学",
-    "科学",
-    "测试",
-    "实验室"
-  ],
-  "categories": [
-    "science"
-  ],
+  "tags": ["试管", "实验", "化学", "科学", "测试", "实验室"],
+  "categories": ["science"],
   "aliases": [
     {
       "name": "test-tube-2",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "test tube diagonal",
-      "tags": [
-        "test tube",
-        "experiment",
-        "chemistry",
-        "science",
-        "test",
-        "lab"
-      ],
-      "use-cases": [
-        "Chemistry experiment simulator",
-        "Lab equipment inventory",
-        "Science education app"
-      ]
+      "tags": ["test tube", "experiment", "chemistry", "science", "test", "lab"],
+      "use-cases": ["Chemistry experiment simulator", "Lab equipment inventory", "Science education app"]
     }
   }
 }

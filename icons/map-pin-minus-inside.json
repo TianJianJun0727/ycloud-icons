@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从地图移除位置图钉",
-    "删除导航标记",
-    "取消目的地标记"
-  ],
+  "use-cases": ["从地图移除位置图钉", "删除导航标记", "取消目的地标记"],
   "name": "地图图钉减少内部",
-  "tags": [
-    "删除位置",
-    "移除标记",
-    "取消图钉",
-    "减少地点",
-    "导航删除"
-  ],
-  "categories": [
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["删除位置", "移除标记", "取消图钉", "减少地点", "导航删除"],
+  "categories": ["navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pin minus inside",
-      "tags": [
-        "delete location",
-        "remove marker",
-        "cancel pin",
-        "reduce place",
-        "navigation delete"
-      ],
-      "use-cases": [
-        "Remove location pin from map",
-        "Delete navigation marker",
-        "Cancel destination point"
-      ]
+      "tags": ["delete location", "remove marker", "cancel pin", "reduce place", "navigation delete"],
+      "use-cases": ["Remove location pin from map", "Delete navigation marker", "Cancel destination point"]
     }
   }
 }

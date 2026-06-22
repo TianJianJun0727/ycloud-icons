@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "演示文稿软件",
-    "活动管理仪表板",
-    "演讲者个人资料页"
-  ],
+  "use-cases": ["演示文稿软件", "活动管理仪表板", "演讲者个人资料页"],
   "name": "讲台",
-  "tags": [
-    "讲台",
-    "演讲台",
-    "主持台",
-    "发言台",
-    "多媒体讲台"
-  ],
-  "categories": [
-    "communication",
-    "multimedia"
-  ],
+  "tags": ["讲台", "演讲台", "主持台", "发言台", "多媒体讲台"],
+  "categories": ["communication", "multimedia"],
   "i18n": {
     "en": {
       "name": "lectern",
-      "tags": [
-        "pulpit",
-        "podium",
-        "stand",
-        "speaker",
-        "presentation"
-      ],
-      "use-cases": [
-        "Presentation software",
-        "Event management dashboard",
-        "Speaker profile page"
-      ]
+      "tags": ["pulpit", "podium", "stand", "speaker", "presentation"],
+      "use-cases": ["Presentation software", "Event management dashboard", "Speaker profile page"]
     }
   }
 }

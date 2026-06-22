@@ -1,53 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "舞台灯光控制",
-    "突出显示特色内容",
-    "剧院表演界面",
-    "演唱会活动设计",
-    "摄影灯光设置"
-  ],
+  "use-cases": ["舞台灯光控制", "突出显示特色内容", "剧院表演界面", "演唱会活动设计", "摄影灯光设置"],
   "name": "聚光灯",
-  "tags": [
-    "聚光灯",
-    "舞台",
-    "表演",
-    "焦点",
-    "灯光",
-    "剧院",
-    "娱乐",
-    "突出显示",
-    "演唱会",
-    "镜头"
-  ],
-  "categories": [
-    "devices",
-    "photography",
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["聚光灯", "舞台", "表演", "焦点", "灯光", "剧院", "娱乐", "突出显示", "演唱会", "镜头"],
+  "categories": ["devices", "photography", "multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "spotlight",
-      "tags": [
-        "spotlight",
-        "stage",
-        "performance",
-        "focus",
-        "light",
-        "theatre",
-        "entertainment",
-        "highlight",
-        "concert",
-        "lens"
-      ],
-      "use-cases": [
-        "Stage lighting control",
-        "Highlighting featured content",
-        "Theater performance UI",
-        "Concert event design",
-        "Photography lighting setup"
-      ]
+      "tags": ["spotlight", "stage", "performance", "focus", "light", "theatre", "entertainment", "highlight", "concert", "lens"],
+      "use-cases": ["Stage lighting control", "Highlighting featured content", "Theater performance UI", "Concert event design", "Photography lighting setup"]
     }
   }
 }

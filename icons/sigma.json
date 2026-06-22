@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数学或科学符号",
-    "统计与求和功能",
-    "公式编辑器工具栏"
-  ],
+  "use-cases": ["数学或科学符号", "统计与求和功能", "公式编辑器工具栏"],
   "name": "西格玛",
-  "tags": [
-    "西格玛",
-    "求和",
-    "数学",
-    "公式",
-    "计算",
-    "统计",
-    "科学"
-  ],
-  "categories": [
-    "text",
-    "math",
-    "science"
-  ],
+  "tags": ["西格玛", "求和", "数学", "公式", "计算", "统计", "科学"],
+  "categories": ["text", "math", "science"],
   "i18n": {
     "en": {
       "name": "sigma",
-      "tags": [
-        "sigma",
-        "sum",
-        "mathematics",
-        "formula",
-        "calculate",
-        "statistics",
-        "science"
-      ],
-      "use-cases": [
-        "Mathematical or scientific notation",
-        "Statistics and summation functions",
-        "Formula editor toolbar"
-      ]
+      "tags": ["sigma", "sum", "mathematics", "formula", "calculate", "statistics", "science"],
+      "use-cases": ["Mathematical or scientific notation", "Statistics and summation functions", "Formula editor toolbar"]
     }
   }
 }

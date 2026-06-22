@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频可视化",
-    "录音界面",
-    "信号分析工具",
-    "音频工程应用"
-  ],
+  "use-cases": ["音频可视化", "录音界面", "信号分析工具", "音频工程应用"],
   "name": "音频波形",
-  "tags": [
-    "波形",
-    "音频",
-    "声波",
-    "频率",
-    "录音",
-    "声音",
-    "信号",
-    "分析"
-  ],
-  "categories": [
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["波形", "音频", "声波", "频率", "录音", "声音", "信号", "分析"],
+  "categories": ["multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "audio waveform",
-      "tags": [
-        "waveform",
-        "audio",
-        "sound waves",
-        "frequency",
-        "recording",
-        "sound",
-        "signal",
-        "analysis"
-      ],
-      "use-cases": [
-        "Audio visualization",
-        "Sound recording interfaces",
-        "Signal analysis tools",
-        "Audio engineering applications"
-      ]
+      "tags": ["waveform", "audio", "sound waves", "frequency", "recording", "sound", "signal", "analysis"],
+      "use-cases": ["Audio visualization", "Sound recording interfaces", "Signal analysis tools", "Audio engineering applications"]
     }
   }
 }

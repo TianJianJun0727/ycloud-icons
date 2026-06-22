@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移动信号弱指示器",
-    "Wi-Fi 连接差状态",
-    "低连接性警告"
-  ],
+  "use-cases": ["移动信号弱指示器", "Wi-Fi 连接差状态", "低连接性警告"],
   "name": "信号低",
-  "tags": [
-    "信号",
-    "无线",
-    "连接",
-    "网络",
-    "强度",
-    "弱",
-    "一格",
-    "蜂窝网络",
-    "移动网络",
-    "Wi-Fi"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["信号", "无线", "连接", "网络", "强度", "弱", "一格", "蜂窝网络", "移动网络", "Wi-Fi"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "signal low",
-      "tags": [
-        "signal",
-        "wireless",
-        "connection",
-        "network",
-        "strength",
-        "weak",
-        "low",
-        "cellular",
-        "mobile",
-        "wifi"
-      ],
-      "use-cases": [
-        "Weak mobile signal indicator",
-        "Poor Wi-Fi connection status",
-        "Low connectivity warning"
-      ]
+      "tags": ["signal", "wireless", "connection", "network", "strength", "weak", "low", "cellular", "mobile", "wifi"],
+      "use-cases": ["Weak mobile signal indicator", "Poor Wi-Fi connection status", "Low connectivity warning"]
     }
   }
 }

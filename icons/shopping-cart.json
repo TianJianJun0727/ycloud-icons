@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电商购物车图标",
-    "结账流程",
-    "加入购物车功能"
-  ],
+  "use-cases": ["电商购物车图标", "结账流程", "加入购物车功能"],
   "name": "购物车",
-  "tags": [
-    "购物车",
-    "手推车",
-    "电子商务",
-    "商店",
-    "购买",
-    "商品",
-    "结账"
-  ],
-  "categories": [
-    "shopping"
-  ],
+  "tags": ["购物车", "手推车", "电子商务", "商店", "购买", "商品", "结账"],
+  "categories": ["shopping"],
   "i18n": {
     "en": {
       "name": "shopping cart",
-      "tags": [
-        "cart",
-        "trolley",
-        "e-commerce",
-        "store",
-        "purchase",
-        "products",
-        "checkout"
-      ],
-      "use-cases": [
-        "E-commerce shopping cart icon",
-        "Checkout process",
-        "Add to cart functionality"
-      ]
+      "tags": ["cart", "trolley", "e-commerce", "store", "purchase", "products", "checkout"],
+      "use-cases": ["E-commerce shopping cart icon", "Checkout process", "Add to cart functionality"]
     }
   }
 }

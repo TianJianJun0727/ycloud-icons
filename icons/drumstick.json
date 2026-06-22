@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食品菜单项",
-    "餐厅点餐系统",
-    "食谱配料",
-    "外卖应用"
-  ],
+  "use-cases": ["食品菜单项", "餐厅点餐系统", "食谱配料", "外卖应用"],
   "name": "鼓槌",
-  "tags": [
-    "鸡腿",
-    "鼓槌",
-    "食物",
-    "鸡肉",
-    "餐饮",
-    "快餐",
-    "肉类"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["鸡腿", "鼓槌", "食物", "鸡肉", "餐饮", "快餐", "肉类"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "drumstick",
-      "tags": [
-        "drumstick",
-        "chicken leg",
-        "food",
-        "poultry",
-        "dining",
-        "fast food",
-        "meat"
-      ],
-      "use-cases": [
-        "Food menu items",
-        "Restaurant ordering systems",
-        "Recipe ingredients",
-        "Food delivery apps"
-      ]
+      "tags": ["drumstick", "chicken leg", "food", "poultry", "dining", "fast food", "meat"],
+      "use-cases": ["Food menu items", "Restaurant ordering systems", "Recipe ingredients", "Food delivery apps"]
     }
   }
 }

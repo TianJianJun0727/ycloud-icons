@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "辅助侧边栏或面板",
-    "右下方工具面板",
-    "附加信息抽屉"
-  ],
+  "use-cases": ["辅助侧边栏或面板", "右下方工具面板", "附加信息抽屉"],
   "name": "面板右底部",
-  "tags": [
-    "侧边栏",
-    "抽屉",
-    "辅助面板",
-    "布局",
-    "右下方"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["侧边栏", "抽屉", "辅助面板", "布局", "右下方"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "panels right bottom",
-      "tags": [
-        "sidebar",
-        "drawer",
-        "secondary panel",
-        "layout",
-        "bottom right"
-      ],
-      "use-cases": [
-        "Secondary sidebar or panel",
-        "Right-bottom utility panel",
-        "Additional information drawer"
-      ]
+      "tags": ["sidebar", "drawer", "secondary panel", "layout", "bottom right"],
+      "use-cases": ["Secondary sidebar or panel", "Right-bottom utility panel", "Additional information drawer"]
     }
   }
 }

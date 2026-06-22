@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "发送消息按钮",
-    "邮件提交操作",
-    "聊天界面发送"
-  ],
+  "use-cases": ["发送消息按钮", "邮件提交操作", "聊天界面发送"],
   "name": "发送水平",
-  "tags": [
-    "发送",
-    "消息",
-    "邮件",
-    "提交",
-    "纸飞机",
-    "水平"
-  ],
-  "categories": [
-    "mail",
-    "communication",
-    "connectivity"
-  ],
+  "tags": ["发送", "消息", "邮件", "提交", "纸飞机", "水平"],
+  "categories": ["mail", "communication", "connectivity"],
   "aliases": [
     {
       "name": "send-horizonal",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "send horizontal",
-      "tags": [
-        "send",
-        "message",
-        "mail",
-        "submit",
-        "paper airplane",
-        "horizontal"
-      ],
-      "use-cases": [
-        "Send message button",
-        "Email submit action",
-        "Chat interface send"
-      ]
+      "tags": ["send", "message", "mail", "submit", "paper airplane", "horizontal"],
+      "use-cases": ["Send message button", "Email submit action", "Chat interface send"]
     }
   }
 }

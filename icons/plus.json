@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "创建新项目按钮",
-    "添加到购物车功能",
-    "扩展内容区域"
-  ],
+  "use-cases": ["创建新项目按钮", "添加到购物车功能", "扩展内容区域"],
   "name": "加号",
-  "tags": [
-    "添加",
-    "新建",
-    "增加",
-    "创建",
-    "扩展"
-  ],
-  "categories": [
-    "math",
-    "tools",
-    "development",
-    "text",
-    "cursors",
-    "gaming"
-  ],
+  "tags": ["添加", "新建", "增加", "创建", "扩展"],
+  "categories": ["math", "tools", "development", "text", "cursors", "gaming"],
   "i18n": {
     "en": {
       "name": "plus",
-      "tags": [
-        "add",
-        "new",
-        "increase",
-        "create",
-        "expand"
-      ],
-      "use-cases": [
-        "Create new item button",
-        "Add to cart functionality",
-        "Expand content section"
-      ]
+      "tags": ["add", "new", "increase", "create", "expand"],
+      "use-cases": ["Create new item button", "Add to cart functionality", "Expand content section"]
     }
   }
 }

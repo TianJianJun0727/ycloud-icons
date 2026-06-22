@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭所有通知",
-    "开启勿扰模式",
-    "禁用警报声音"
-  ],
+  "use-cases": ["关闭所有通知", "开启勿扰模式", "禁用警报声音"],
   "name": "铃铛关闭",
-  "tags": [
-    "通知",
-    "静音",
-    "提醒",
-    "关闭",
-    "禁用",
-    "勿扰"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["通知", "静音", "提醒", "关闭", "禁用", "勿扰"],
+  "categories": ["notifications"],
   "i18n": {
     "en": {
       "name": "bell off",
-      "tags": [
-        "notification",
-        "silent",
-        "reminder",
-        "off",
-        "disable",
-        "do not disturb"
-      ],
-      "use-cases": [
-        "Turn off all notifications",
-        "Enable do not disturb mode",
-        "Disable alert sounds"
-      ]
+      "tags": ["notification", "silent", "reminder", "off", "disable", "do not disturb"],
+      "use-cases": ["Turn off all notifications", "Enable do not disturb mode", "Disable alert sounds"]
     }
   }
 }

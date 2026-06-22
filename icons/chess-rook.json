@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国际象棋游戏界面",
-    "王车易位移动",
-    "策略应用",
-    "中世纪堡垒主题"
-  ],
+  "use-cases": ["国际象棋游戏界面", "王车易位移动", "策略应用", "中世纪堡垒主题"],
   "name": "国际象棋城堡",
-  "tags": [
-    "国际象棋",
-    "城堡",
-    "车",
-    "棋子",
-    "棋盘游戏",
-    "策略",
-    "塔楼",
-    "游戏"
-  ],
-  "categories": [
-    "gaming",
-    "emoji"
-  ],
+  "tags": ["国际象棋", "城堡", "车", "棋子", "棋盘游戏", "策略", "塔楼", "游戏"],
+  "categories": ["gaming", "emoji"],
   "i18n": {
     "en": {
       "name": "chess rook",
-      "tags": [
-        "chess",
-        "rook",
-        "castle",
-        "piece",
-        "board game",
-        "strategy",
-        "tower",
-        "gaming"
-      ],
-      "use-cases": [
-        "Chess game interface",
-        "Castling move",
-        "Strategy app",
-        "Medieval fortress theme"
-      ]
+      "tags": ["chess", "rook", "castle", "piece", "board game", "strategy", "tower", "gaming"],
+      "use-cases": ["Chess game interface", "Castling move", "Strategy app", "Medieval fortress theme"]
     }
   }
 }

@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "医疗机构定位",
-    "医疗预约系统",
-    "紧急服务界面"
-  ],
+  "use-cases": ["医疗机构定位", "医疗预约系统", "紧急服务界面"],
   "name": "医院",
-  "tags": [
-    "医院",
-    "医疗",
-    "急诊",
-    "诊所",
-    "医疗机构",
-    "医生",
-    "建筑",
-    "健康"
-  ],
-  "categories": [
-    "medical",
-    "buildings",
-    "navigation",
-    "travel"
-  ],
+  "tags": ["医院", "医疗", "急诊", "诊所", "医疗机构", "医生", "建筑", "健康"],
+  "categories": ["medical", "buildings", "navigation", "travel"],
   "i18n": {
     "en": {
       "name": "hospital",
-      "tags": [
-        "hospital",
-        "medical",
-        "emergency",
-        "clinic",
-        "healthcare",
-        "doctor",
-        "building",
-        "health"
-      ],
-      "use-cases": [
-        "Healthcare facility locators",
-        "Medical appointment booking",
-        "Emergency services interfaces"
-      ]
+      "tags": ["hospital", "medical", "emergency", "clinic", "healthcare", "doctor", "building", "health"],
+      "use-cases": ["Healthcare facility locators", "Medical appointment booking", "Emergency services interfaces"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "时间显示",
-    "时钟界面",
-    "特定时刻指示"
-  ],
+  "use-cases": ["时间显示", "时钟界面", "特定时刻指示"],
   "name": "时钟1",
-  "tags": [
-    "时间",
-    "时钟",
-    "计时",
-    "时刻",
-    "一点钟"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "计时", "时刻", "一点钟"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 1",
-      "tags": [
-        "time",
-        "clock",
-        "timing",
-        "moment",
-        "one o'clock"
-      ],
-      "use-cases": [
-        "Time display",
-        "Clock interface",
-        "Specific time indication"
-      ]
+      "tags": ["time", "clock", "timing", "moment", "one o'clock"],
+      "use-cases": ["Time display", "Clock interface", "Specific time indication"]
     }
   }
 }

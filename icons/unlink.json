@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "富文本编辑器工具栏",
-    "移除超链接操作",
-    "文档编辑界面"
-  ],
+  "use-cases": ["富文本编辑器工具栏", "移除超链接操作", "文档编辑界面"],
   "name": "取消链接",
-  "tags": [
-    "取消链接",
-    "断开连接",
-    "移除超链接",
-    "文本编辑",
-    "网址移除"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["取消链接", "断开连接", "移除超链接", "文本编辑", "网址移除"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "unlink",
-      "tags": [
-        "unlink",
-        "disconnect",
-        "remove hyperlink",
-        "text editing",
-        "URL remove"
-      ],
-      "use-cases": [
-        "Rich text editor toolbar",
-        "Remove hyperlink action",
-        "Document editing interface"
-      ]
+      "tags": ["unlink", "disconnect", "remove hyperlink", "text editing", "URL remove"],
+      "use-cases": ["Rich text editor toolbar", "Remove hyperlink action", "Document editing interface"]
     }
   }
 }

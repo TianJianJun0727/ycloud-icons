@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "占星应用星座符号",
-    "社交媒体个人资料星座",
-    "星座运势网站图标"
-  ],
+  "use-cases": ["占星应用星座符号", "社交媒体个人资料星座", "星座运势网站图标"],
   "name": "星座双子座",
-  "tags": [
-    "双子座",
-    "星座",
-    "占星",
-    "双胞胎",
-    "风象",
-    "沟通",
-    "二元性",
-    "星座运势"
-  ],
-  "categories": [
-    "social",
-    "emoji"
-  ],
+  "tags": ["双子座", "星座", "占星", "双胞胎", "风象", "沟通", "二元性", "星座运势"],
+  "categories": ["social", "emoji"],
   "i18n": {
     "en": {
       "name": "zodiac gemini",
-      "tags": [
-        "gemini",
-        "zodiac",
-        "astrology",
-        "twins",
-        "air sign",
-        "communication",
-        "duality",
-        "horoscope"
-      ],
-      "use-cases": [
-        "Astrology app zodiac sign",
-        "Social media profile birth sign",
-        "Horoscope website icon"
-      ]
+      "tags": ["gemini", "zodiac", "astrology", "twins", "air sign", "communication", "duality", "horoscope"],
+      "use-cases": ["Astrology app zodiac sign", "Social media profile birth sign", "Horoscope website icon"]
     }
   }
 }

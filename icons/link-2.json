@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "创建超链接",
-    "网址引用",
-    "文本格式",
-    "账号连接"
-  ],
+  "use-cases": ["创建超链接", "网址引用", "文本格式", "账号连接"],
   "name": "链接2",
-  "tags": [
-    "链接",
-    "关联",
-    "网址",
-    "超链接",
-    "连接",
-    "文本格式"
-  ],
-  "categories": [
-    "text",
-    "account"
-  ],
+  "tags": ["链接", "关联", "网址", "超链接", "连接", "文本格式"],
+  "categories": ["text", "account"],
   "i18n": {
     "en": {
       "name": "link 2",
-      "tags": [
-        "link",
-        "connection",
-        "url",
-        "hyperlink",
-        "chain",
-        "text formatting"
-      ],
-      "use-cases": [
-        "Creating hyperlinks",
-        "URL references",
-        "Text formatting",
-        "Account connections"
-      ]
+      "tags": ["link", "connection", "url", "hyperlink", "chain", "text formatting"],
+      "use-cases": ["Creating hyperlinks", "URL references", "Text formatting", "Account connections"]
     }
   }
 }

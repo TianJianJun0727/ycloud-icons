@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器停止按钮",
-    "音频控制",
-    "视频播放停止",
-    "录制停止控制"
-  ],
+  "use-cases": ["媒体播放器停止按钮", "音频控制", "视频播放停止", "录制停止控制"],
   "name": "圆形停止",
-  "tags": [
-    "停止",
-    "暂停",
-    "媒体控制",
-    "音乐停止"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["停止", "暂停", "媒体控制", "音乐停止"],
+  "categories": ["multimedia"],
   "aliases": [
     {
       "name": "stop-circle",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle stop",
-      "tags": [
-        "stop",
-        "pause",
-        "media control",
-        "music stop"
-      ],
-      "use-cases": [
-        "Media player stop button",
-        "Audio control",
-        "Video playback stop",
-        "Recording stop control"
-      ]
+      "tags": ["stop", "pause", "media control", "music stop"],
+      "use-cases": ["Media player stop button", "Audio control", "Video playback stop", "Recording stop control"]
     }
   }
 }

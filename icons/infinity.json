@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置无限播放",
-    "表示无限滚动",
-    "象征无限可能"
-  ],
+  "use-cases": ["设置无限播放", "表示无限滚动", "象征无限可能"],
   "name": "无限",
-  "tags": [
-    "无限",
-    "无穷",
-    "循环",
-    "永久"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["无限", "无穷", "循环", "永久"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "infinity",
-      "tags": [
-        "infinity",
-        "unlimited",
-        "endless",
-        "loop"
-      ],
-      "use-cases": [
-        "Set unlimited playback",
-        "Indicate endless scrolling",
-        "Symbol for infinite possibilities"
-      ]
+      "tags": ["infinity", "unlimited", "endless", "loop"],
+      "use-cases": ["Set unlimited playback", "Indicate endless scrolling", "Symbol for infinite possibilities"]
     }
   }
 }

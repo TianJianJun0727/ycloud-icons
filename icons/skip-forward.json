@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器跳过按钮",
-    "下一曲选择",
-    "视频播放控制"
-  ],
+  "use-cases": ["媒体播放器跳过按钮", "下一曲选择", "视频播放控制"],
   "name": "跳过前进",
-  "tags": [
-    "跳过",
-    "快进",
-    "下一曲",
-    "媒体控制",
-    "音乐播放",
-    "视频控制"
-  ],
-  "categories": [
-    "multimedia",
-    "arrows"
-  ],
+  "tags": ["跳过", "快进", "下一曲", "媒体控制", "音乐播放", "视频控制"],
+  "categories": ["multimedia", "arrows"],
   "i18n": {
     "en": {
       "name": "skip forward",
-      "tags": [
-        "skip",
-        "fast forward",
-        "next track",
-        "media control",
-        "music player",
-        "video control"
-      ],
-      "use-cases": [
-        "Media player skip button",
-        "Next track selection",
-        "Video playback controls"
-      ]
+      "tags": ["skip", "fast forward", "next track", "media control", "music player", "video control"],
+      "use-cases": ["Media player skip button", "Next track selection", "Video playback controls"]
     }
   }
 }

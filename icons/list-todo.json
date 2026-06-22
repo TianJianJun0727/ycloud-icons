@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "任务管理界面",
-    "待办事项清单",
-    "项目完成状态"
-  ],
+  "use-cases": ["任务管理界面", "待办事项清单", "项目完成状态"],
   "name": "列表待办",
-  "tags": [
-    "待办事项",
-    "任务列表",
-    "清单",
-    "完成",
-    "勾选",
-    "项目",
-    "待处理"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["待办事项", "任务列表", "清单", "完成", "勾选", "项目", "待处理"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "list todo",
-      "tags": [
-        "todo",
-        "task list",
-        "checklist",
-        "done",
-        "check",
-        "items",
-        "pending"
-      ],
-      "use-cases": [
-        "task management interface",
-        "todo checklist",
-        "item completion status"
-      ]
+      "tags": ["todo", "task list", "checklist", "done", "check", "items", "pending"],
+      "use-cases": ["task management interface", "todo checklist", "item completion status"]
     }
   }
 }

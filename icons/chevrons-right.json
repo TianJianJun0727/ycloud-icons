@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体快进",
-    "导航到下一页",
-    "游戏向右移动控制"
-  ],
+  "use-cases": ["媒体快进", "导航到下一页", "游戏向右移动控制"],
   "name": "双折角箭头右",
-  "tags": [
-    "前进",
-    "下一页",
-    "方向",
-    "向右",
-    "双箭头",
-    "游戏控制"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["前进", "下一页", "方向", "向右", "双箭头", "游戏控制"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "chevrons right",
-      "tags": [
-        "forward",
-        "next",
-        "direction",
-        "right",
-        "double arrow",
-        "gaming control"
-      ],
-      "use-cases": [
-        "Fast forward media",
-        "Navigate to next page",
-        "Game right movement control"
-      ]
+      "tags": ["forward", "next", "direction", "right", "double arrow", "gaming control"],
+      "use-cases": ["Fast forward media", "Navigate to next page", "Game right movement control"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收音机应用图标",
-    "音频流媒体服务",
-    "广播播放器"
-  ],
+  "use-cases": ["收音机应用图标", "音频流媒体服务", "广播播放器"],
   "name": "收音机",
-  "tags": [
-    "收音机",
-    "广播",
-    "音频",
-    "调频",
-    "音乐",
-    "电台"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "social"
-  ],
+  "tags": ["收音机", "广播", "音频", "调频", "音乐", "电台"],
+  "categories": ["devices", "multimedia", "social"],
   "i18n": {
     "en": {
       "name": "radio",
-      "tags": [
-        "radio",
-        "broadcast",
-        "audio",
-        "FM",
-        "music",
-        "station"
-      ],
-      "use-cases": [
-        "Radio app icon",
-        "Audio streaming service",
-        "Broadcast player"
-      ]
+      "tags": ["radio", "broadcast", "audio", "FM", "music", "station"],
+      "use-cases": ["Radio app icon", "Audio streaming service", "Broadcast player"]
     }
   }
 }

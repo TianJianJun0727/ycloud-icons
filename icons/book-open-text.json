@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开带文本的文档",
-    "阅读参考资料",
-    "内容预览"
-  ],
+  "use-cases": ["打开带文本的文档", "阅读参考资料", "内容预览"],
   "name": "书籍打开文本",
-  "tags": [
-    "阅读",
-    "文档",
-    "文本",
-    "内容",
-    "参考",
-    "学习",
-    "信息",
-    "知识"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["阅读", "文档", "文本", "内容", "参考", "学习", "信息", "知识"],
+  "categories": ["text", "development"],
   "i18n": {
     "en": {
       "name": "book open text",
-      "tags": [
-        "reading",
-        "documentation",
-        "text",
-        "content",
-        "reference",
-        "study",
-        "information",
-        "knowledge"
-      ],
-      "use-cases": [
-        "Open documentation with text",
-        "Reading reference material",
-        "Content preview"
-      ]
+      "tags": ["reading", "documentation", "text", "content", "reference", "study", "information", "knowledge"],
+      "use-cases": ["Open documentation with text", "Reading reference material", "Content preview"]
     }
   }
 }

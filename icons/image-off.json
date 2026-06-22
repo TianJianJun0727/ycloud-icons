@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用图片",
-    "低带宽模式",
-    "隐藏媒体",
-    "图片切换"
-  ],
+  "use-cases": ["禁用图片", "低带宽模式", "隐藏媒体", "图片切换"],
   "name": "图片关闭",
-  "tags": [
-    "图片禁用",
-    "隐藏图片",
-    "无图模式",
-    "图像关闭"
-  ],
-  "categories": [
-    "photography",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["图片禁用", "隐藏图片", "无图模式", "图像关闭"],
+  "categories": ["photography", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "image off",
-      "tags": [
-        "image disabled",
-        "hide image",
-        "no image mode",
-        "image off"
-      ],
-      "use-cases": [
-        "Disable images",
-        "Low bandwidth mode",
-        "Hide media",
-        "Image toggle"
-      ]
+      "tags": ["image disabled", "hide image", "no image mode", "image off"],
+      "use-cases": ["Disable images", "Low bandwidth mode", "Hide media", "Image toggle"]
     }
   }
 }

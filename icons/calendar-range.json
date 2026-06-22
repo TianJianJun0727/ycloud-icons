@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在日历中选择日期范围",
-    "查看特定期间的事件",
-    "设置事件持续时间"
-  ],
+  "use-cases": ["在日历中选择日期范围", "查看特定期间的事件", "设置事件持续时间"],
   "name": "日历范围",
-  "tags": [
-    "日历",
-    "日期",
-    "范围",
-    "期间",
-    "时间段",
-    "选择",
-    "日程"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "范围", "期间", "时间段", "选择", "日程"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar range",
-      "tags": [
-        "calendar",
-        "date",
-        "range",
-        "period",
-        "duration",
-        "select",
-        "schedule"
-      ],
-      "use-cases": [
-        "Select a date range in calendar",
-        "View events for a specific period",
-        "Set a duration for an event"
-      ]
+      "tags": ["calendar", "date", "range", "period", "duration", "select", "schedule"],
+      "use-cases": ["Select a date range in calendar", "View events for a specific period", "Set a duration for an event"]
     }
   }
 }

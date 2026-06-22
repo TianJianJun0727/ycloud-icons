@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "基因检测界面",
-    "生物信息学工具",
-    "医学研究展示"
-  ],
+  "use-cases": ["基因检测界面", "生物信息学工具", "医学研究展示"],
   "name": "DNA链关闭",
-  "tags": [
-    "DNA关闭",
-    "基因",
-    "遗传学",
-    "生物",
-    "禁用"
-  ],
-  "categories": [
-    "medical",
-    "food-beverage"
-  ],
+  "tags": ["DNA关闭", "基因", "遗传学", "生物", "禁用"],
+  "categories": ["medical", "food-beverage"],
   "i18n": {
     "en": {
       "name": "dna off",
-      "tags": [
-        "dna off",
-        "gene",
-        "genetics",
-        "biology",
-        "disabled"
-      ],
-      "use-cases": [
-        "Genetic testing interface",
-        "Bioinformatics tool",
-        "Medical research display"
-      ]
+      "tags": ["dna off", "gene", "genetics", "biology", "disabled"],
+      "use-cases": ["Genetic testing interface", "Bioinformatics tool", "Medical research display"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除文件",
-    "移除项目",
-    "减法操作"
-  ],
+  "use-cases": ["删除文件", "移除项目", "减法操作"],
   "name": "文件减少",
-  "tags": [
-    "删除",
-    "移除",
-    "文件",
-    "减少",
-    "操作"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["删除", "移除", "文件", "减少", "操作"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file minus",
-      "tags": [
-        "delete",
-        "remove",
-        "file",
-        "minus",
-        "action"
-      ],
-      "use-cases": [
-        "Delete file",
-        "Remove item",
-        "Subtraction operation"
-      ]
+      "tags": ["delete", "remove", "file", "minus", "action"],
+      "use-cases": ["Delete file", "Remove item", "Subtraction operation"]
     }
   }
 }

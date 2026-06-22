@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "跨设备同步日历",
-    "刷新日历数据",
-    "设置重复事件"
-  ],
+  "use-cases": ["跨设备同步日历", "刷新日历数据", "设置重复事件"],
   "name": "日历同步",
-  "tags": [
-    "日历",
-    "同步",
-    "刷新",
-    "更新",
-    "备份",
-    "重复事件",
-    "自动",
-    "订阅"
-  ],
-  "categories": [
-    "arrows",
-    "time"
-  ],
+  "tags": ["日历", "同步", "刷新", "更新", "备份", "重复事件", "自动", "订阅"],
+  "categories": ["arrows", "time"],
   "i18n": {
     "en": {
       "name": "calendar sync",
-      "tags": [
-        "calendar",
-        "sync",
-        "refresh",
-        "update",
-        "backup",
-        "recurring",
-        "automatic",
-        "subscribe"
-      ],
-      "use-cases": [
-        "Sync calendar across devices",
-        "Refresh calendar data",
-        "Set up recurring events"
-      ]
+      "tags": ["calendar", "sync", "refresh", "update", "backup", "recurring", "automatic", "subscribe"],
+      "use-cases": ["Sync calendar across devices", "Refresh calendar data", "Set up recurring events"]
     }
   }
 }

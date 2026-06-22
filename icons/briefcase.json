@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "商务旅行",
-    "办公室工作",
-    "文件存储"
-  ],
+  "use-cases": ["商务旅行", "办公室工作", "文件存储"],
   "name": "公文包",
-  "tags": [
-    "公文包",
-    "工作",
-    "行李",
-    "文件夹",
-    "商务"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["公文包", "工作", "行李", "文件夹", "商务"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "briefcase",
-      "tags": [
-        "briefcase",
-        "work",
-        "baggage",
-        "folder",
-        "business"
-      ],
-      "use-cases": [
-        "Business travel",
-        "Office work",
-        "Document storage"
-      ]
+      "tags": ["briefcase", "work", "baggage", "folder", "business"],
+      "use-cases": ["Business travel", "Office work", "Document storage"]
     }
   }
 }

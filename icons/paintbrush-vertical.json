@@ -1,28 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具选择",
-    "垂直画笔工具",
-    "颜色选择器界面",
-    "绘图应用工具栏"
-  ],
+  "use-cases": ["设计工具选择", "垂直画笔工具", "颜色选择器界面", "绘图应用工具栏"],
   "name": "画笔垂直",
-  "tags": [
-    "画笔",
-    "垂直",
-    "设计",
-    "颜色",
-    "绘画",
-    "工具",
-    "装饰"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "photography",
-    "home",
-    "tools"
-  ],
+  "tags": ["画笔", "垂直", "设计", "颜色", "绘画", "工具", "装饰"],
+  "categories": ["text", "design", "photography", "home", "tools"],
   "aliases": [
     {
       "name": "paintbrush-2",
@@ -34,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "paintbrush vertical",
-      "tags": [
-        "brush",
-        "paintbrush",
-        "vertical",
-        "design",
-        "color",
-        "painting",
-        "tool",
-        "decoration"
-      ],
-      "use-cases": [
-        "Design tool selection",
-        "Vertical brush tool",
-        "Color picker interface",
-        "Drawing application toolbar"
-      ]
+      "tags": ["brush", "paintbrush", "vertical", "design", "color", "painting", "tool", "decoration"],
+      "use-cases": ["Design tool selection", "Vertical brush tool", "Color picker interface", "Drawing application toolbar"]
     }
   }
 }

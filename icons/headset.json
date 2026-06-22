@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏语音聊天",
-    "客服通话设备",
-    "语音会议耳机"
-  ],
+  "use-cases": ["游戏语音聊天", "客服通话设备", "语音会议耳机"],
   "name": "耳麦",
-  "tags": [
-    "耳麦",
-    "游戏",
-    "通话",
-    "音频",
-    "设备",
-    "语音"
-  ],
-  "categories": [
-    "multimedia",
-    "connectivity",
-    "devices",
-    "files",
-    "gaming"
-  ],
+  "tags": ["耳麦", "游戏", "通话", "音频", "设备", "语音"],
+  "categories": ["multimedia", "connectivity", "devices", "files", "gaming"],
   "i18n": {
     "en": {
       "name": "headset",
-      "tags": [
-        "headset",
-        "gaming",
-        "call",
-        "audio",
-        "device",
-        "voice"
-      ],
-      "use-cases": [
-        "Gaming voice chat",
-        "Customer service call device",
-        "Voice conference headset"
-      ]
+      "tags": ["headset", "gaming", "call", "audio", "device", "voice"],
+      "use-cases": ["Gaming voice chat", "Customer service call device", "Voice conference headset"]
     }
   }
 }

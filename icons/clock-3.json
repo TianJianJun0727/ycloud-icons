@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示3点时间",
-    "下午三点指示器",
-    "日程与计时界面"
-  ],
+  "use-cases": ["显示3点时间", "下午三点指示器", "日程与计时界面"],
   "name": "时钟3",
-  "tags": [
-    "时间",
-    "时钟",
-    "时刻",
-    "3点",
-    "下午",
-    "凌晨"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "时刻", "3点", "下午", "凌晨"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 3",
-      "tags": [
-        "time",
-        "clock",
-        "hour",
-        "3",
-        "three",
-        "o'clock"
-      ],
-      "use-cases": [
-        "Time display for 3:00",
-        "Mid-afternoon indicator",
-        "Scheduling and timing UI"
-      ]
+      "tags": ["time", "clock", "hour", "3", "three", "o'clock"],
+      "use-cases": ["Time display for 3:00", "Mid-afternoon indicator", "Scheduling and timing UI"]
     }
   }
 }

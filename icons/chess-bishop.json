@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国际象棋游戏界面",
-    "策略应用",
-    "解谜游戏",
-    "游戏头像"
-  ],
+  "use-cases": ["国际象棋游戏界面", "策略应用", "解谜游戏", "游戏头像"],
   "name": "国际象棋主教",
-  "tags": [
-    "国际象棋",
-    "主教",
-    "棋子",
-    "棋盘游戏",
-    "策略",
-    "游戏"
-  ],
-  "categories": [
-    "gaming",
-    "emoji"
-  ],
+  "tags": ["国际象棋", "主教", "棋子", "棋盘游戏", "策略", "游戏"],
+  "categories": ["gaming", "emoji"],
   "i18n": {
     "en": {
       "name": "chess bishop",
-      "tags": [
-        "chess",
-        "bishop",
-        "piece",
-        "board game",
-        "strategy",
-        "gaming"
-      ],
-      "use-cases": [
-        "Chess game interface",
-        "Strategy app",
-        "Puzzle game",
-        "Gaming avatar"
-      ]
+      "tags": ["chess", "bishop", "piece", "board game", "strategy", "gaming"],
+      "use-cases": ["Chess game interface", "Strategy app", "Puzzle game", "Gaming avatar"]
     }
   }
 }

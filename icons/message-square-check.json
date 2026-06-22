@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "批准评论",
-    "标记消息为已读/完成",
-    "审核线程"
-  ],
+  "use-cases": ["批准评论", "标记消息为已读/完成", "审核线程"],
   "name": "消息方形勾选",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "勾选",
-    "完成",
-    "确认",
-    "批准",
-    "审核",
-    "已验证"
-  ],
-  "categories": [
-    "social",
-    "account"
-  ],
+  "tags": ["聊天", "对话", "评论", "勾选", "完成", "确认", "批准", "审核", "已验证"],
+  "categories": ["social", "account"],
   "i18n": {
     "en": {
       "name": "message square check",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "check",
-        "done",
-        "confirm",
-        "approve",
-        "moderate",
-        "verified"
-      ],
-      "use-cases": [
-        "Approve a comment",
-        "Mark message as read/done",
-        "Moderate a thread"
-      ]
+      "tags": ["chat", "conversation", "comment", "check", "done", "confirm", "approve", "moderate", "verified"],
+      "use-cases": ["Approve a comment", "Mark message as read/done", "Moderate a thread"]
     }
   }
 }

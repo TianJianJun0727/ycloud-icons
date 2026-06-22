@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "切换密码可见",
-    "预览内容",
-    "查看详情",
-    "监控状态"
-  ],
+  "use-cases": ["切换密码可见", "预览内容", "查看详情", "监控状态"],
   "name": "眼睛",
-  "tags": [
-    "查看",
-    "可见",
-    "显示",
-    "预览",
-    "监控",
-    "阅读"
-  ],
-  "categories": [
-    "accessibility",
-    "photography",
-    "design",
-    "security"
-  ],
+  "tags": ["查看", "可见", "显示", "预览", "监控", "阅读"],
+  "categories": ["accessibility", "photography", "design", "security"],
   "i18n": {
     "en": {
       "name": "eye",
-      "tags": [
-        "view",
-        "visible",
-        "show",
-        "preview",
-        "monitor",
-        "read"
-      ],
-      "use-cases": [
-        "Toggle password visibility",
-        "Preview content",
-        "View details",
-        "Monitor status"
-      ]
+      "tags": ["view", "visible", "show", "preview", "monitor", "read"],
+      "use-cases": ["Toggle password visibility", "Preview content", "View details", "Monitor status"]
     }
   }
 }

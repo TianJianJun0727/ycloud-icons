@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "取消喜欢帖子",
-    "从收藏夹移除",
-    "减少健康指标",
-    "撤销账号访问权限"
-  ],
+  "use-cases": ["取消喜欢帖子", "从收藏夹移除", "减少健康指标", "撤销账号访问权限"],
   "name": "爱心减少",
-  "tags": [
-    "取消喜欢",
-    "移除收藏",
-    "减少",
-    "不喜欢",
-    "医疗减少",
-    "账号移除"
-  ],
-  "categories": [
-    "medical",
-    "account",
-    "multimedia",
-    "gaming",
-    "social"
-  ],
+  "tags": ["取消喜欢", "移除收藏", "减少", "不喜欢", "医疗减少", "账号移除"],
+  "categories": ["medical", "account", "multimedia", "gaming", "social"],
   "i18n": {
     "en": {
       "name": "heart minus",
-      "tags": [
-        "unlike",
-        "unfavorite",
-        "remove",
-        "decrease",
-        "medical",
-        "account"
-      ],
-      "use-cases": [
-        "Unlike a post",
-        "Remove from favorites",
-        "Decrease health metric",
-        "Revoke account access"
-      ]
+      "tags": ["unlike", "unfavorite", "remove", "decrease", "medical", "account"],
+      "use-cases": ["Unlike a post", "Remove from favorites", "Decrease health metric", "Revoke account access"]
     }
   }
 }

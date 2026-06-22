@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在表格左侧插入列",
-    "在网格布局中添加间距",
-    "将元素对齐到左边缘"
-  ],
+  "use-cases": ["在表格左侧插入列", "在网格布局中添加间距", "将元素对齐到左边缘"],
   "name": "两端水平末端",
-  "tags": [
-    "布局",
-    "插入",
-    "左侧",
-    "间距",
-    "网格",
-    "表格",
-    "单元格",
-    "对齐"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "tools"
-  ],
+  "tags": ["布局", "插入", "左侧", "间距", "网格", "表格", "单元格", "对齐"],
+  "categories": ["layout", "design", "tools"],
   "aliases": [
     {
       "name": "between-horizonal-end",
@@ -32,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "between horizontal end",
-      "tags": [
-        "layout",
-        "insert",
-        "left",
-        "spacing",
-        "grid",
-        "table",
-        "cell",
-        "alignment"
-      ],
-      "use-cases": [
-        "Insert column to the left in a table",
-        "Add space in a grid layout",
-        "Align elements to the left edge"
-      ]
+      "tags": ["layout", "insert", "left", "spacing", "grid", "table", "cell", "alignment"],
+      "use-cases": ["Insert column to the left in a table", "Add space in a grid layout", "Align elements to the left edge"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "配送服务",
-    "交通应用",
-    "共享骑行"
-  ],
+  "use-cases": ["配送服务", "交通应用", "共享骑行"],
   "name": "摩托车",
-  "tags": [
-    "摩托车",
-    "机车",
-    "交通工具",
-    "运输",
-    "配送",
-    "骑行"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["摩托车", "机车", "交通工具", "运输", "配送", "骑行"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "motorbike",
-      "tags": [
-        "motorbike",
-        "motorcycle",
-        "transportation",
-        "delivery",
-        "riding",
-        "vehicle"
-      ],
-      "use-cases": [
-        "Delivery service",
-        "Transportation app",
-        "Ride sharing"
-      ]
+      "tags": ["motorbike", "motorcycle", "transportation", "delivery", "riding", "vehicle"],
+      "use-cases": ["Delivery service", "Transportation app", "Ride sharing"]
     }
   }
 }

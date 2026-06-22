@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "卫浴设施",
-    "酒店设备",
-    "水疗器材"
-  ],
+  "use-cases": ["卫浴设施", "酒店设备", "水疗器材"],
   "name": "毛巾架子",
-  "tags": [
-    "毛巾架",
-    "浴室配件",
-    "卫浴用品",
-    "悬挂架"
-  ],
-  "categories": [
-    "home",
-    "travel"
-  ],
+  "tags": ["毛巾架", "浴室配件", "卫浴用品", "悬挂架"],
+  "categories": ["home", "travel"],
   "i18n": {
     "en": {
       "name": "towel rack",
-      "tags": [
-        "towel rack",
-        "bathroom accessory",
-        "bathroom fixture",
-        "hanging rack"
-      ],
-      "use-cases": [
-        "Bathroom amenities",
-        "Hotel facilities",
-        "Spa equipment"
-      ]
+      "tags": ["towel rack", "bathroom accessory", "bathroom fixture", "hanging rack"],
+      "use-cases": ["Bathroom amenities", "Hotel facilities", "Spa equipment"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游乐园位置标记",
-    "娱乐场所图标",
-    "旅游景点标识"
-  ],
+  "use-cases": ["游乐园位置标记", "娱乐场所图标", "旅游景点标识"],
   "name": "摩天轮轮",
-  "tags": [
-    "摩天轮",
-    "游乐场",
-    "景点",
-    "娱乐",
-    "观景",
-    "主题公园"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["摩天轮", "游乐场", "景点", "娱乐", "观景", "主题公园"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "ferris wheel",
-      "tags": [
-        "ferris wheel",
-        "amusement park",
-        "attraction",
-        "entertainment",
-        "observation",
-        "theme park"
-      ],
-      "use-cases": [
-        "Amusement park location pin",
-        "Entertainment venue icon",
-        "Tourist attraction marker"
-      ]
+      "tags": ["ferris wheel", "amusement park", "attraction", "entertainment", "observation", "theme park"],
+      "use-cases": ["Amusement park location pin", "Entertainment venue icon", "Tourist attraction marker"]
     }
   }
 }

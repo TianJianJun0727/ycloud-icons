@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除消息",
-    "关闭聊天",
-    "静音对话",
-    "屏蔽用户"
-  ],
+  "use-cases": ["删除消息", "关闭聊天", "静音对话", "屏蔽用户"],
   "name": "消息圆形关闭",
-  "tags": [
-    "聊天",
-    "对话",
-    "评论",
-    "关闭",
-    "删除",
-    "清除",
-    "取消",
-    "静音",
-    "屏蔽"
-  ],
-  "categories": [
-    "account",
-    "social"
-  ],
+  "tags": ["聊天", "对话", "评论", "关闭", "删除", "清除", "取消", "静音", "屏蔽"],
+  "categories": ["account", "social"],
   "i18n": {
     "en": {
       "name": "message circle X",
-      "tags": [
-        "chat",
-        "conversation",
-        "comment",
-        "close",
-        "delete",
-        "clear",
-        "cancel",
-        "mute",
-        "block"
-      ],
-      "use-cases": [
-        "Delete a message",
-        "Close a chat",
-        "Mute a conversation",
-        "Block a user"
-      ]
+      "tags": ["chat", "conversation", "comment", "close", "delete", "clear", "cancel", "mute", "block"],
+      "use-cases": ["Delete a message", "Close a chat", "Mute a conversation", "Block a user"]
     }
   }
 }

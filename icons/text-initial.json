@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "段落首字母样式设计",
-    "书籍或杂志版面设计",
-    "出版中的装饰性文本格式化"
-  ],
+  "use-cases": ["段落首字母样式设计", "书籍或杂志版面设计", "出版中的装饰性文本格式化"],
   "name": "文本首字母",
-  "tags": [
-    "首字下沉",
-    "文本",
-    "排版",
-    "装饰",
-    "字母",
-    "章节",
-    "格式"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["首字下沉", "文本", "排版", "装饰", "字母", "章节", "格式"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "letter-text",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "text initial",
-      "tags": [
-        "drop cap",
-        "text",
-        "typography",
-        "decorative",
-        "letter",
-        "chapter",
-        "format"
-      ],
-      "use-cases": [
-        "Styling the first letter of a paragraph",
-        "Book or magazine layout design",
-        "Decorative text formatting in publishing"
-      ]
+      "tags": ["drop cap", "text", "typography", "decorative", "letter", "chapter", "format"],
+      "use-cases": ["Styling the first letter of a paragraph", "Book or magazine layout design", "Decorative text formatting in publishing"]
     }
   }
 }

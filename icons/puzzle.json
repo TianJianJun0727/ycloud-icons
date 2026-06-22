@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "功能模块集成",
-    "插件管理",
-    "益智游戏界面"
-  ],
+  "use-cases": ["功能模块集成", "插件管理", "益智游戏界面"],
   "name": "拼图",
-  "tags": [
-    "拼图",
-    "组件",
-    "模块",
-    "集成",
-    "游戏",
-    "插件"
-  ],
-  "categories": [
-    "development",
-    "gaming"
-  ],
+  "tags": ["拼图", "组件", "模块", "集成", "游戏", "插件"],
+  "categories": ["development", "gaming"],
   "i18n": {
     "en": {
       "name": "puzzle",
-      "tags": [
-        "puzzle",
-        "component",
-        "module",
-        "integration",
-        "gaming",
-        "plugin"
-      ],
-      "use-cases": [
-        "Feature module integration",
-        "Plugin management",
-        "Puzzle game interface"
-      ]
+      "tags": ["puzzle", "component", "module", "integration", "gaming", "plugin"],
+      "use-cases": ["Feature module integration", "Plugin management", "Puzzle game interface"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备电池中等电量",
-    "部分充电指示",
-    "电源状态显示"
-  ],
+  "use-cases": ["设备电池中等电量", "部分充电指示", "电源状态显示"],
   "name": "电池中等",
-  "tags": [
-    "电池",
-    "中等电量",
-    "电源",
-    "电量",
-    "能量",
-    "部分"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["电池", "中等电量", "电源", "电量", "能量", "部分"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "battery medium",
-      "tags": [
-        "battery",
-        "medium",
-        "power",
-        "electricity",
-        "energy",
-        "partial"
-      ],
-      "use-cases": [
-        "Device battery medium level",
-        "Partial charge indicator",
-        "Power status display"
-      ]
+      "tags": ["battery", "medium", "power", "electricity", "energy", "partial"],
+      "use-cases": ["Device battery medium level", "Partial charge indicator", "Power status display"]
     }
   }
 }

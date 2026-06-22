@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "使用模式规则进行输入验证",
-    "高级文本搜索与替换",
-    "代码编辑器语法高亮"
-  ],
+  "use-cases": ["使用模式规则进行输入验证", "高级文本搜索与替换", "代码编辑器语法高亮"],
   "name": "正则",
-  "tags": [
-    "正则表达式",
-    "模式匹配",
-    "文本搜索",
-    "代码",
-    "开发"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["正则表达式", "模式匹配", "文本搜索", "代码", "开发"],
+  "categories": ["text", "development"],
   "i18n": {
     "en": {
       "name": "regex",
-      "tags": [
-        "regex",
-        "regular expression",
-        "pattern matching",
-        "text search",
-        "code",
-        "development"
-      ],
-      "use-cases": [
-        "Input validation with pattern rules",
-        "Advanced text search and replace",
-        "Code editor syntax highlighting"
-      ]
+      "tags": ["regex", "regular expression", "pattern matching", "text search", "code", "development"],
+      "use-cases": ["Input validation with pattern rules", "Advanced text search and replace", "Code editor syntax highlighting"]
     }
   }
 }

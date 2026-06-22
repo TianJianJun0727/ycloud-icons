@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "花园设计应用",
-    "家居装饰",
-    "自然保护网站"
-  ],
+  "use-cases": ["花园设计应用", "家居装饰", "自然保护网站"],
   "name": "鸟屋",
-  "tags": [
-    "鸟屋",
-    "鸟舍",
-    "花园",
-    "家居",
-    "自然"
-  ],
-  "categories": [
-    "nature",
-    "animals",
-    "navigation",
-    "home"
-  ],
+  "tags": ["鸟屋", "鸟舍", "花园", "家居", "自然"],
+  "categories": ["nature", "animals", "navigation", "home"],
   "i18n": {
     "en": {
       "name": "birdhouse",
-      "tags": [
-        "birdhouse",
-        "aviary",
-        "garden",
-        "home",
-        "nature"
-      ],
-      "use-cases": [
-        "Garden design app",
-        "Home decoration",
-        "Nature conservation website"
-      ]
+      "tags": ["birdhouse", "aviary", "garden", "home", "nature"],
+      "use-cases": ["Garden design app", "Home decoration", "Nature conservation website"]
     }
   }
 }

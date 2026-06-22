@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "可点击界面元素",
-    "选择控件",
-    "交互式组件"
-  ],
+  "use-cases": ["可点击界面元素", "选择控件", "交互式组件"],
   "name": "鼠标指针2",
-  "tags": [
-    "指针",
-    "鼠标",
-    "光标",
-    "点击",
-    "选择",
-    "交互",
-    "悬停"
-  ],
-  "categories": [
-    "arrows",
-    "cursors"
-  ],
+  "tags": ["指针", "鼠标", "光标", "点击", "选择", "交互", "悬停"],
+  "categories": ["arrows", "cursors"],
   "i18n": {
     "en": {
       "name": "mouse pointer 2",
-      "tags": [
-        "pointer",
-        "mouse",
-        "cursor",
-        "click",
-        "select",
-        "interaction",
-        "hover"
-      ],
-      "use-cases": [
-        "Clickable interface elements",
-        "Selection controls",
-        "Interactive components"
-      ]
+      "tags": ["pointer", "mouse", "cursor", "click", "select", "interaction", "hover"],
+      "use-cases": ["Clickable interface elements", "Selection controls", "Interactive components"]
     }
   }
 }

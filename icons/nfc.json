@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "非接触支付",
-    "移动钱包",
-    "NFC配对",
-    "近场检测"
-  ],
+  "use-cases": ["非接触支付", "移动钱包", "NFC配对", "近场检测"],
   "name": "NFC近场通信",
-  "tags": [
-    "NFC",
-    "近场通信",
-    "非接触支付",
-    "无线传输",
-    "移动支付",
-    "感应支付"
-  ],
-  "categories": [
-    "communication",
-    "finance",
-    "devices"
-  ],
+  "tags": ["NFC", "近场通信", "非接触支付", "无线传输", "移动支付", "感应支付"],
+  "categories": ["communication", "finance", "devices"],
   "i18n": {
     "en": {
       "name": "nfc",
-      "tags": [
-        "NFC",
-        "contactless",
-        "payment",
-        "wireless",
-        "mobile payment",
-        "proximity"
-      ],
-      "use-cases": [
-        "Contactless payment",
-        "Mobile wallet",
-        "NFC pairing",
-        "Proximity detection"
-      ]
+      "tags": ["NFC", "contactless", "payment", "wireless", "mobile payment", "proximity"],
+      "use-cases": ["Contactless payment", "Mobile wallet", "NFC pairing", "Proximity detection"]
     }
   }
 }

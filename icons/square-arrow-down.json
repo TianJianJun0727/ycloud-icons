@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下拉菜单触发器",
-    "向下滚动指示器",
-    "键盘导航",
-    "方向控制",
-    "界面展开按钮"
-  ],
+  "use-cases": ["下拉菜单触发器", "向下滚动指示器", "键盘导航", "方向控制", "界面展开按钮"],
   "name": "方形箭头下",
-  "tags": [
-    "向下箭头",
-    "方向",
-    "键盘",
-    "按钮",
-    "南",
-    "导航",
-    "下拉"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向下箭头", "方向", "键盘", "按钮", "南", "导航", "下拉"],
+  "categories": ["arrows", "gaming"],
   "aliases": [
     {
       "name": "arrow-down-square",
@@ -32,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow down",
-      "tags": [
-        "down arrow",
-        "direction",
-        "keyboard",
-        "button",
-        "south",
-        "navigation",
-        "dropdown"
-      ],
-      "use-cases": [
-        "Dropdown menu trigger",
-        "Scroll down indicator",
-        "Keyboard navigation",
-        "Directional control",
-        "UI expansion button"
-      ]
+      "tags": ["down arrow", "direction", "keyboard", "button", "south", "navigation", "dropdown"],
+      "use-cases": ["Dropdown menu trigger", "Scroll down indicator", "Keyboard navigation", "Directional control", "UI expansion button"]
     }
   }
 }

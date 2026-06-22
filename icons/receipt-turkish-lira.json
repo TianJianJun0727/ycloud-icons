@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "土耳其费用报销",
-    "土耳其里拉支付收据",
-    "带里拉符号的金融交易"
-  ],
+  "use-cases": ["土耳其费用报销", "土耳其里拉支付收据", "带里拉符号的金融交易"],
   "name": "收据土耳其里拉",
-  "tags": [
-    "收据",
-    "账单",
-    "土耳其里拉",
-    "货币",
-    "支付",
-    "发票",
-    "财务",
-    "旅行"
-  ],
-  "categories": [
-    "finance",
-    "travel"
-  ],
+  "tags": ["收据", "账单", "土耳其里拉", "货币", "支付", "发票", "财务", "旅行"],
+  "categories": ["finance", "travel"],
   "i18n": {
     "en": {
       "name": "receipt turkish lira",
-      "tags": [
-        "receipt",
-        "bill",
-        "turkish lira",
-        "currency",
-        "payment",
-        "invoice",
-        "finance",
-        "travel"
-      ],
-      "use-cases": [
-        "Expense report for Turkey",
-        "Payment receipt in TRY",
-        "Financial transaction with lira"
-      ]
+      "tags": ["receipt", "bill", "turkish lira", "currency", "payment", "invoice", "finance", "travel"],
+      "use-cases": ["Expense report for Turkey", "Payment receipt in TRY", "Financial transaction with lira"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件分组",
-    "对象集合",
-    "批量操作"
-  ],
+  "use-cases": ["文件分组", "对象集合", "批量操作"],
   "name": "组合",
-  "tags": [
-    "组合",
-    "集合",
-    "分组",
-    "文件组",
-    "集群"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["组合", "集合", "分组", "文件组", "集群"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "group",
-      "tags": [
-        "group",
-        "collection",
-        "cluster",
-        "file group",
-        "bundle"
-      ],
-      "use-cases": [
-        "File grouping",
-        "Object collection",
-        "Batch operations"
-      ]
+      "tags": ["group", "collection", "cluster", "file group", "bundle"],
+      "use-cases": ["File grouping", "Object collection", "Batch operations"]
     }
   }
 }

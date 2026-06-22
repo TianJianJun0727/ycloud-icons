@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏开发",
-    "构建界面",
-    "模块化设计"
-  ],
+  "use-cases": ["游戏开发", "构建界面", "模块化设计"],
   "name": "玩具砖块",
-  "tags": [
-    "积木",
-    "玩具砖",
-    "构建块",
-    "乐高",
-    "模块"
-  ],
-  "categories": [
-    "gaming",
-    "development"
-  ],
+  "tags": ["积木", "玩具砖", "构建块", "乐高", "模块"],
+  "categories": ["gaming", "development"],
   "i18n": {
     "en": {
       "name": "toy brick",
-      "tags": [
-        "building block",
-        "toy brick",
-        "construction block",
-        "lego",
-        "module"
-      ],
-      "use-cases": [
-        "Game development",
-        "Building interface",
-        "Modular design"
-      ]
+      "tags": ["building block", "toy brick", "construction block", "lego", "module"],
+      "use-cases": ["Game development", "Building interface", "Modular design"]
     }
   }
 }

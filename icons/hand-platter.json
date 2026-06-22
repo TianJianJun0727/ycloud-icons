@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐饮服务界面",
-    "餐厅应用",
-    "用餐体验"
-  ],
+  "use-cases": ["餐饮服务界面", "餐厅应用", "用餐体验"],
   "name": "手餐盘",
-  "tags": [
-    "餐盘",
-    "服务",
-    "餐厅",
-    "餐饮",
-    "奢华"
-  ],
-  "categories": [
-    "food-beverage",
-    "people"
-  ],
+  "tags": ["餐盘", "服务", "餐厅", "餐饮", "奢华"],
+  "categories": ["food-beverage", "people"],
   "i18n": {
     "en": {
       "name": "hand platter",
-      "tags": [
-        "platter",
-        "service",
-        "restaurant",
-        "dining",
-        "luxury"
-      ],
-      "use-cases": [
-        "Food service UI",
-        "Restaurant apps",
-        "Dining experiences"
-      ]
+      "tags": ["platter", "service", "restaurant", "dining", "luxury"],
+      "use-cases": ["Food service UI", "Restaurant apps", "Dining experiences"]
     }
   }
 }

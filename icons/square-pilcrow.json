@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文字处理器工具栏",
-    "文本格式菜单",
-    "文档编辑器",
-    "排版界面"
-  ],
+  "use-cases": ["文字处理器工具栏", "文本格式菜单", "文档编辑器", "排版界面"],
   "name": "方形段落标记",
-  "tags": [
-    "段落",
-    "标记",
-    "排版",
-    "文本",
-    "符号",
-    "编辑",
-    "格式",
-    "分隔符"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["段落", "标记", "排版", "文本", "符号", "编辑", "格式", "分隔符"],
+  "categories": ["text"],
   "aliases": [
     {
       "name": "pilcrow-square",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square pilcrow",
-      "tags": [
-        "paragraph",
-        "mark",
-        "typography",
-        "text",
-        "symbol",
-        "edit",
-        "format",
-        "separator"
-      ],
-      "use-cases": [
-        "Word processor toolbar",
-        "Text formatting menu",
-        "Document editor",
-        "Type setting interface"
-      ]
+      "tags": ["paragraph", "mark", "typography", "text", "symbol", "edit", "format", "separator"],
+      "use-cases": ["Word processor toolbar", "Text formatting menu", "Document editor", "Type setting interface"]
     }
   }
 }

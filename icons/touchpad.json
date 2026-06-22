@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "笔记本电脑界面",
-    "触控板设置",
-    "光标导航"
-  ],
+  "use-cases": ["笔记本电脑界面", "触控板设置", "光标导航"],
   "name": "触控板",
-  "tags": [
-    "触控板",
-    "触摸板",
-    "光标控制",
-    "输入设备"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["触控板", "触摸板", "光标控制", "输入设备"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "touchpad",
-      "tags": [
-        "touchpad",
-        "trackpad",
-        "cursor control",
-        "input device"
-      ],
-      "use-cases": [
-        "Laptop interface",
-        "Touchpad settings",
-        "Cursor navigation"
-      ]
+      "tags": ["touchpad", "trackpad", "cursor control", "input device"],
+      "use-cases": ["Laptop interface", "Touchpad settings", "Cursor navigation"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用电池或电源符号",
-    "设备电源指示",
-    "能量水平显示"
-  ],
+  "use-cases": ["通用电池或电源符号", "设备电源指示", "能量水平显示"],
   "name": "电池",
-  "tags": [
-    "电池",
-    "电源",
-    "电量",
-    "能量",
-    "设备"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["电池", "电源", "电量", "能量", "设备"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "battery",
-      "tags": [
-        "battery",
-        "power",
-        "electricity",
-        "energy",
-        "device"
-      ],
-      "use-cases": [
-        "Generic battery or power symbol",
-        "Device power source indicator",
-        "Energy level display"
-      ]
+      "tags": ["battery", "power", "electricity", "energy", "device"],
+      "use-cases": ["Generic battery or power symbol", "Device power source indicator", "Energy level display"]
     }
   }
 }

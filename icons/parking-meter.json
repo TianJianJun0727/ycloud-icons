@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停车支付应用界面",
-    "街道停车位查找器",
-    "城市交通服务"
-  ],
+  "use-cases": ["停车支付应用界面", "街道停车位查找器", "城市交通服务"],
   "name": "停车仪表",
-  "tags": [
-    "停车收费器",
-    "停车",
-    "支付",
-    "交通",
-    "街道"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["停车收费器", "停车", "支付", "交通", "街道"],
+  "categories": ["transportation", "navigation"],
   "i18n": {
     "en": {
       "name": "parking meter",
-      "tags": [
-        "parking meter",
-        "parking",
-        "payment",
-        "transportation",
-        "street"
-      ],
-      "use-cases": [
-        "Parking payment app interface",
-        "Street parking location finder",
-        "Urban transportation service"
-      ]
+      "tags": ["parking meter", "parking", "payment", "transportation", "street"],
+      "use-cases": ["Parking payment app interface", "Street parking location finder", "Urban transportation service"]
     }
   }
 }

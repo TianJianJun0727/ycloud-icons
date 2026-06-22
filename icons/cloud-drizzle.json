@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "小雨天气预报",
-    "毛毛雨状况指示器",
-    "天气应用降水图标"
-  ],
+  "use-cases": ["小雨天气预报", "毛毛雨状况指示器", "天气应用降水图标"],
   "name": "云毛毛雨",
-  "tags": [
-    "小雨",
-    "毛毛雨",
-    "降水",
-    "天气",
-    "阴雨",
-    "潮湿"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["小雨", "毛毛雨", "降水", "天气", "阴雨", "潮湿"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud drizzle",
-      "tags": [
-        "drizzle",
-        "light rain",
-        "precipitation",
-        "weather",
-        "rainy",
-        "damp"
-      ],
-      "use-cases": [
-        "Light rain weather forecast",
-        "Drizzle condition indicator",
-        "Weather app precipitation icon"
-      ]
+      "tags": ["drizzle", "light rain", "precipitation", "weather", "rainy", "damp"],
+      "use-cases": ["Light rain weather forecast", "Drizzle condition indicator", "Weather app precipitation icon"]
     }
   }
 }

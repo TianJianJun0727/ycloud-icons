@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在文本编辑器中将文本格式设置为粗体",
-    "在富文本控件中切换粗体样式"
-  ],
+  "use-cases": ["在文本编辑器中将文本格式设置为粗体", "在富文本控件中切换粗体样式"],
   "name": "加粗",
-  "tags": [
-    "加粗",
-    "粗体",
-    "文本",
-    "字体",
-    "格式",
-    "强调"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["加粗", "粗体", "文本", "字体", "格式", "强调"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "bold",
-      "tags": [
-        "bold",
-        "text",
-        "font",
-        "format",
-        "emphasis",
-        "strong"
-      ],
-      "use-cases": [
-        "Format text to bold in a text editor",
-        "Toggle bold styling in rich text controls"
-      ]
+      "tags": ["bold", "text", "font", "format", "emphasis", "strong"],
+      "use-cases": ["Format text to bold in a text editor", "Toggle bold styling in rich text controls"]
     }
   }
 }

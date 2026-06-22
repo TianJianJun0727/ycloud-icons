@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "急救箱物品",
-    "医疗处理状态",
-    "健康与保健功能"
-  ],
+  "use-cases": ["急救箱物品", "医疗处理状态", "健康与保健功能"],
   "name": "绷带",
-  "tags": [
-    "绷带",
-    "创可贴",
-    "急救",
-    "医疗",
-    "伤口",
-    "护理",
-    "治疗",
-    "愈合"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["绷带", "创可贴", "急救", "医疗", "伤口", "护理", "治疗", "愈合"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "bandage",
-      "tags": [
-        "bandage",
-        "band-aid",
-        "first aid",
-        "medical",
-        "wound",
-        "care",
-        "treatment",
-        "healing"
-      ],
-      "use-cases": [
-        "First aid kit contents",
-        "Medical treatment status",
-        "Health and wellness features"
-      ]
+      "tags": ["bandage", "band-aid", "first aid", "medical", "wound", "care", "treatment", "healing"],
+      "use-cases": ["First aid kit contents", "Medical treatment status", "Health and wellness features"]
     }
   }
 }

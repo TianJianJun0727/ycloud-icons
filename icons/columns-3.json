@@ -1,29 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "多列页面布局",
-    "仪表板网格设计",
-    "内容分割视图",
-    "侧边栏排列"
-  ],
+  "use-cases": ["多列页面布局", "仪表板网格设计", "内容分割视图", "侧边栏排列"],
   "name": "列3",
-  "tags": [
-    "布局",
-    "列",
-    "分栏",
-    "三列",
-    "网格",
-    "排版",
-    "分割",
-    "对齐",
-    "侧边栏",
-    "页面"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "text"
-  ],
+  "tags": ["布局", "列", "分栏", "三列", "网格", "排版", "分割", "对齐", "侧边栏", "页面"],
+  "categories": ["layout", "design", "text"],
   "aliases": [
     {
       "name": "panels-left-right",
@@ -35,24 +15,8 @@
   "i18n": {
     "en": {
       "name": "columns 3",
-      "tags": [
-        "layout",
-        "columns",
-        "grid",
-        "three",
-        "split",
-        "alignment",
-        "sidebar",
-        "pages",
-        "typography",
-        "gutter"
-      ],
-      "use-cases": [
-        "Multi-column page layout",
-        "Dashboard grid design",
-        "Content split view",
-        "Sidebar arrangement"
-      ]
+      "tags": ["layout", "columns", "grid", "three", "split", "alignment", "sidebar", "pages", "typography", "gutter"],
+      "use-cases": ["Multi-column page layout", "Dashboard grid design", "Content split view", "Sidebar arrangement"]
     }
   }
 }

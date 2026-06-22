@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下一页导航",
-    "前进按钮",
-    "右箭头键"
-  ],
+  "use-cases": ["下一页导航", "前进按钮", "右箭头键"],
   "name": "方形箭头右",
-  "tags": [
-    "下一个",
-    "前进",
-    "方向",
-    "按钮"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["下一个", "前进", "方向", "按钮"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-right-square",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow right",
-      "tags": [
-        "next",
-        "forward",
-        "direction",
-        "button"
-      ],
-      "use-cases": [
-        "Next page navigation",
-        "Forward button",
-        "Right arrow key"
-      ]
+      "tags": ["next", "forward", "direction", "button"],
+      "use-cases": ["Next page navigation", "Forward button", "Right arrow key"]
     }
   }
 }

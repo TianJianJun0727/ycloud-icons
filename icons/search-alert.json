@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索结果错误状态",
-    "未找到结果警告",
-    "搜索系统警报",
-    "数据查找失败"
-  ],
+  "use-cases": ["搜索结果错误状态", "未找到结果警告", "搜索系统警报", "数据查找失败"],
   "name": "搜索告警",
-  "tags": [
-    "搜索警告",
-    "搜索错误",
-    "查找异常",
-    "搜索警报",
-    "未找到",
-    "搜索问题"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["搜索警告", "搜索错误", "查找异常", "搜索警报", "未找到", "搜索问题"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "search alert",
-      "tags": [
-        "search warning",
-        "search error",
-        "find anomaly",
-        "search alert",
-        "not found",
-        "search issue"
-      ],
-      "use-cases": [
-        "Search result error state",
-        "No results found warning",
-        "Search system alert",
-        "Data lookup failure"
-      ]
+      "tags": ["search warning", "search error", "find anomaly", "search alert", "not found", "search issue"],
+      "use-cases": ["Search result error state", "No results found warning", "Search system alert", "Data lookup failure"]
     }
   }
 }

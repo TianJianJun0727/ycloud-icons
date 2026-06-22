@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数学等式显示",
-    "估算或取整功能",
-    "计算器应用函数",
-    "数据近似指示器"
-  ],
+  "use-cases": ["数学等式显示", "估算或取整功能", "计算器应用函数", "数据近似指示器"],
   "name": "等于约等于",
-  "tags": [
-    "约等于",
-    "近似",
-    "数学",
-    "运算符",
-    "计算",
-    "估算"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["约等于", "近似", "数学", "运算符", "计算", "估算"],
+  "categories": ["math"],
   "i18n": {
     "en": {
       "name": "equal approximately",
-      "tags": [
-        "approximately equal",
-        "approximate",
-        "math",
-        "operator",
-        "calculate",
-        "estimate"
-      ],
-      "use-cases": [
-        "Mathematical equation display",
-        "Estimation or rounding feature",
-        "Calculator app function",
-        "Data approximation indicator"
-      ]
+      "tags": ["approximately equal", "approximate", "math", "operator", "calculate", "estimate"],
+      "use-cases": ["Mathematical equation display", "Estimation or rounding feature", "Calculator app function", "Data approximation indicator"]
     }
   }
 }

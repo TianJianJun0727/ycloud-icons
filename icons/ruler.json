@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "测量工具界面",
-    "设计比例参考",
-    "长度测量显示",
-    "单位转换工具"
-  ],
+  "use-cases": ["测量工具界面", "设计比例参考", "长度测量显示", "单位转换工具"],
   "name": "尺子",
-  "tags": [
-    "尺子",
-    "测量",
-    "长度",
-    "设计",
-    "工具",
-    "刻度",
-    "单位",
-    "尺寸"
-  ],
-  "categories": [
-    "tools",
-    "design",
-    "layout"
-  ],
+  "tags": ["尺子", "测量", "长度", "设计", "工具", "刻度", "单位", "尺寸"],
+  "categories": ["tools", "design", "layout"],
   "i18n": {
     "en": {
       "name": "ruler",
-      "tags": [
-        "ruler",
-        "measurement",
-        "length",
-        "design",
-        "tool",
-        "scale",
-        "units",
-        "dimension"
-      ],
-      "use-cases": [
-        "Measurement tool interface",
-        "Design scale reference",
-        "Length measurement display",
-        "Unit conversion tool"
-      ]
+      "tags": ["ruler", "measurement", "length", "design", "tool", "scale", "units", "dimension"],
+      "use-cases": ["Measurement tool interface", "Design scale reference", "Length measurement display", "Unit conversion tool"]
     }
   }
 }

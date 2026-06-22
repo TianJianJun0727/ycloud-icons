@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "活动项目文件夹",
-    "选中目录",
-    "当前工作区"
-  ],
+  "use-cases": ["活动项目文件夹", "选中目录", "当前工作区"],
   "name": "文件夹点",
-  "tags": [
-    "当前",
-    "活动",
-    "选中",
-    "焦点",
-    "状态指示"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["当前", "活动", "选中", "焦点", "状态指示"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "folder dot",
-      "tags": [
-        "current",
-        "active",
-        "selected",
-        "focused",
-        "status indicator"
-      ],
-      "use-cases": [
-        "Active project folder",
-        "Selected directory",
-        "Current workspace"
-      ]
+      "tags": ["current", "active", "selected", "focused", "status indicator"],
+      "use-cases": ["Active project folder", "Selected directory", "Current workspace"]
     }
   }
 }

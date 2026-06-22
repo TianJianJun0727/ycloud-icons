@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器光标",
-    "指示可编辑文本区域",
-    "输入框的焦点状态"
-  ],
+  "use-cases": ["文本编辑器光标", "指示可编辑文本区域", "输入框的焦点状态"],
   "name": "文本光标",
-  "tags": [
-    "光标",
-    "文本",
-    "插入符",
-    "输入",
-    "编辑",
-    "打字",
-    "选择",
-    "插入点"
-  ],
-  "categories": [
-    "text",
-    "cursors"
-  ],
+  "tags": ["光标", "文本", "插入符", "输入", "编辑", "打字", "选择", "插入点"],
+  "categories": ["text", "cursors"],
   "i18n": {
     "en": {
       "name": "text cursor",
-      "tags": [
-        "cursor",
-        "text",
-        "caret",
-        "input",
-        "edit",
-        "typing",
-        "select",
-        "insertion point"
-      ],
-      "use-cases": [
-        "Text editor cursor",
-        "Indicating editable text area",
-        "Input field focus state"
-      ]
+      "tags": ["cursor", "text", "caret", "input", "edit", "typing", "select", "insertion point"],
+      "use-cases": ["Text editor cursor", "Indicating editable text area", "Input field focus state"]
     }
   }
 }

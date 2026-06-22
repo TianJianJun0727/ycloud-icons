@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器控制",
-    "视频界面",
-    "音频播放",
-    "开始按钮"
-  ],
+  "use-cases": ["媒体播放器控制", "视频界面", "音频播放", "开始按钮"],
   "name": "方形播放",
-  "tags": [
-    "播放",
-    "开始",
-    "视频",
-    "音频",
-    "多媒体",
-    "运行",
-    "控制",
-    "触发器"
-  ],
-  "categories": [
-    "arrows",
-    "multimedia"
-  ],
+  "tags": ["播放", "开始", "视频", "音频", "多媒体", "运行", "控制", "触发器"],
+  "categories": ["arrows", "multimedia"],
   "aliases": [
     {
       "name": "play-square",
@@ -32,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square play",
-      "tags": [
-        "play",
-        "start",
-        "video",
-        "audio",
-        "multimedia",
-        "run",
-        "control",
-        "trigger"
-      ],
-      "use-cases": [
-        "Media player control",
-        "Video interface",
-        "Audio playback",
-        "Start button"
-      ]
+      "tags": ["play", "start", "video", "audio", "multimedia", "run", "control", "trigger"],
+      "use-cases": ["Media player control", "Video interface", "Audio playback", "Start button"]
     }
   }
 }

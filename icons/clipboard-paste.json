@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "粘贴文本内容",
-    "复制粘贴操作",
-    "插入剪贴板数据"
-  ],
+  "use-cases": ["粘贴文本内容", "复制粘贴操作", "插入剪贴板数据"],
   "name": "剪贴板粘贴",
-  "tags": [
-    "粘贴",
-    "复制",
-    "内容",
-    "文本",
-    "插入"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["粘贴", "复制", "内容", "文本", "插入"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "clipboard paste",
-      "tags": [
-        "paste",
-        "copy",
-        "content",
-        "text",
-        "insert"
-      ],
-      "use-cases": [
-        "Paste text content",
-        "Copy paste operation",
-        "Insert clipboard data"
-      ]
+      "tags": ["paste", "copy", "content", "text", "insert"],
+      "use-cases": ["Paste text content", "Copy paste operation", "Insert clipboard data"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏应用程序控制",
-    "控制器设置菜单",
-    "设备连接状态"
-  ],
+  "use-cases": ["游戏应用程序控制", "控制器设置菜单", "设备连接状态"],
   "name": "摇杆",
-  "tags": [
-    "摇杆",
-    "游戏",
-    "控制器",
-    "手柄",
-    "控制台",
-    "设备"
-  ],
-  "categories": [
-    "gaming",
-    "devices"
-  ],
+  "tags": ["摇杆", "游戏", "控制器", "手柄", "控制台", "设备"],
+  "categories": ["gaming", "devices"],
   "i18n": {
     "en": {
       "name": "joystick",
-      "tags": [
-        "joystick",
-        "game",
-        "controller",
-        "gaming",
-        "console",
-        "device"
-      ],
-      "use-cases": [
-        "Gaming application controls",
-        "Controller settings menu",
-        "Device connection status"
-      ]
+      "tags": ["joystick", "game", "controller", "gaming", "console", "device"],
+      "use-cases": ["Gaming application controls", "Controller settings menu", "Device connection status"]
     }
   }
 }

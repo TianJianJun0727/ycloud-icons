@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收起部分",
-    "滚动到顶部",
-    "下拉菜单"
-  ],
+  "use-cases": ["收起部分", "滚动到顶部", "下拉菜单"],
   "name": "圆形折角箭头上",
-  "tags": [
-    "上箭头",
-    "收起",
-    "向上",
-    "菜单",
-    "插入符"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["上箭头", "收起", "向上", "菜单", "插入符"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "chevron-up-circle",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle chevron up",
-      "tags": [
-        "up arrow",
-        "collapse",
-        "up",
-        "menu",
-        "caret"
-      ],
-      "use-cases": [
-        "Collapse section",
-        "Scroll to top",
-        "Dropdown menu"
-      ]
+      "tags": ["up arrow", "collapse", "up", "menu", "caret"],
+      "use-cases": ["Collapse section", "Scroll to top", "Dropdown menu"]
     }
   }
 }

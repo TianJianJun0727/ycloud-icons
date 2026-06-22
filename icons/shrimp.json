@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "海鲜餐厅菜单",
-    "烹饪或食谱应用",
-    "海洋生物内容"
-  ],
+  "use-cases": ["海鲜餐厅菜单", "烹饪或食谱应用", "海洋生物内容"],
   "name": "虾",
-  "tags": [
-    "虾",
-    "海鲜",
-    "甲壳类",
-    "食物",
-    "水产",
-    "烹饪",
-    "动物"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["虾", "海鲜", "甲壳类", "食物", "水产", "烹饪", "动物"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "shrimp",
-      "tags": [
-        "shrimp",
-        "seafood",
-        "crustacean",
-        "food",
-        "aquatic",
-        "cooking",
-        "animal"
-      ],
-      "use-cases": [
-        "Seafood restaurant menu",
-        "Cooking or recipe app",
-        "Marine life content"
-      ]
+      "tags": ["shrimp", "seafood", "crustacean", "food", "aquatic", "cooking", "animal"],
+      "use-cases": ["Seafood restaurant menu", "Cooking or recipe app", "Marine life content"]
     }
   }
 }

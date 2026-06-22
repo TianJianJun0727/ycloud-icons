@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "深色主题切换",
-    "夜间模式设置",
-    "时间指示器"
-  ],
+  "use-cases": ["深色主题切换", "夜间模式设置", "时间指示器"],
   "name": "月亮",
-  "tags": [
-    "月亮",
-    "夜晚",
-    "黑暗模式",
-    "夜间"
-  ],
-  "categories": [
-    "accessibility"
-  ],
+  "tags": ["月亮", "夜晚", "黑暗模式", "夜间"],
+  "categories": ["accessibility"],
   "i18n": {
     "en": {
       "name": "moon",
-      "tags": [
-        "moon",
-        "night",
-        "dark mode",
-        "evening"
-      ],
-      "use-cases": [
-        "Dark theme toggle",
-        "Night mode setting",
-        "Time of day indicator"
-      ]
+      "tags": ["moon", "night", "dark mode", "evening"],
+      "use-cases": ["Dark theme toggle", "Night mode setting", "Time of day indicator"]
     }
   }
 }

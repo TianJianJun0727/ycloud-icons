@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移动应用导航菜单",
-    "设置面板切换",
-    "网站汉堡菜单"
-  ],
+  "use-cases": ["移动应用导航菜单", "设置面板切换", "网站汉堡菜单"],
   "name": "方形菜单",
-  "tags": [
-    "菜单",
-    "导航",
-    "选项",
-    "面板",
-    "汉堡菜单"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["菜单", "导航", "选项", "面板", "汉堡菜单"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "menu-square",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square menu",
-      "tags": [
-        "menu",
-        "navigation",
-        "options",
-        "panel",
-        "hamburger menu"
-      ],
-      "use-cases": [
-        "Mobile app navigation menu",
-        "Settings panel toggle",
-        "Website hamburger menu"
-      ]
+      "tags": ["menu", "navigation", "options", "panel", "hamburger menu"],
+      "use-cases": ["Mobile app navigation menu", "Settings panel toggle", "Website hamburger menu"]
     }
   }
 }

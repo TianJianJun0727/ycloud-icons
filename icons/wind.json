@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气预报和风力状况",
-    "可再生能源风力发电指示器"
-  ],
+  "use-cases": ["天气预报和风力状况", "可再生能源风力发电指示器"],
   "name": "风",
-  "tags": [
-    "风",
-    "风力",
-    "风速",
-    "气流",
-    "天气"
-  ],
-  "categories": [
-    "weather",
-    "sustainability"
-  ],
+  "tags": ["风", "风力", "风速", "气流", "天气"],
+  "categories": ["weather", "sustainability"],
   "i18n": {
     "en": {
       "name": "wind",
-      "tags": [
-        "wind",
-        "wind power",
-        "wind speed",
-        "airflow",
-        "weather"
-      ],
-      "use-cases": [
-        "Weather forecasts and wind conditions",
-        "Renewable energy wind power indicators"
-      ]
+      "tags": ["wind", "wind power", "wind speed", "airflow", "weather"],
+      "use-cases": ["Weather forecasts and wind conditions", "Renewable energy wind power indicators"]
     }
   }
 }

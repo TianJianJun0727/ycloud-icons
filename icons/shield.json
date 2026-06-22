@@ -1,52 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用安全功能",
-    "数据保护指示器",
-    "验证徽章",
-    "信任与安全符号"
-  ],
+  "use-cases": ["通用安全功能", "数据保护指示器", "验证徽章", "信任与安全符号"],
   "name": "盾牌",
-  "tags": [
-    "安全",
-    "防护",
-    "防御",
-    "保护",
-    "盾牌",
-    "网络安全",
-    "验证",
-    "信任",
-    "授权",
-    "保险"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming",
-    "shapes"
-  ],
+  "tags": ["安全", "防护", "防御", "保护", "盾牌", "网络安全", "验证", "信任", "授权", "保险"],
+  "categories": ["account", "security", "development", "gaming", "shapes"],
   "i18n": {
     "en": {
       "name": "shield",
-      "tags": [
-        "security",
-        "protection",
-        "defense",
-        "guard",
-        "shield",
-        "cybersecurity",
-        "verification",
-        "trust",
-        "authorization",
-        "insurance"
-      ],
-      "use-cases": [
-        "General security feature",
-        "Data protection indicator",
-        "Verification badge",
-        "Trust and safety symbol"
-      ]
+      "tags": ["security", "protection", "defense", "guard", "shield", "cybersecurity", "verification", "trust", "authorization", "insurance"],
+      "use-cases": ["General security feature", "Data protection indicator", "Verification badge", "Trust and safety symbol"]
     }
   }
 }

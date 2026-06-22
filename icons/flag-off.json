@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "内容审核中取消标记",
-    "关闭报告或通知",
-    "清除状态标记"
-  ],
+  "use-cases": ["内容审核中取消标记", "关闭报告或通知", "清除状态标记"],
   "name": "旗帜关闭",
-  "tags": [
-    "取消标记",
-    "取消报告",
-    "忽略",
-    "清除标记",
-    "关闭旗帜"
-  ],
-  "categories": [
-    "account",
-    "social"
-  ],
+  "tags": ["取消标记", "取消报告", "忽略", "清除标记", "关闭旗帜"],
+  "categories": ["account", "social"],
   "i18n": {
     "en": {
       "name": "flag off",
-      "tags": [
-        "unflag",
-        "unreport",
-        "dismiss",
-        "clear marker",
-        "remove flag"
-      ],
-      "use-cases": [
-        "Unflag content in moderation",
-        "Dismiss a report or notification",
-        "Clear a status marker"
-      ]
+      "tags": ["unflag", "unreport", "dismiss", "clear marker", "remove flag"],
+      "use-cases": ["Unflag content in moderation", "Dismiss a report or notification", "Clear a status marker"]
     }
   }
 }

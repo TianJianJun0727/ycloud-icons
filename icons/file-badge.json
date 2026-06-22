@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户成就徽章",
-    "认证文件标识",
-    "奖励文件标记",
-    "验证状态显示"
-  ],
+  "use-cases": ["用户成就徽章", "认证文件标识", "奖励文件标记", "验证状态显示"],
   "name": "文件徽章",
-  "tags": [
-    "徽章",
-    "认证",
-    "成就",
-    "奖励",
-    "标识",
-    "验证"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["徽章", "认证", "成就", "奖励", "标识", "验证"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-badge-2",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "file badge",
-      "tags": [
-        "badge",
-        "certification",
-        "achievement",
-        "reward",
-        "identifier",
-        "verification"
-      ],
-      "use-cases": [
-        "User achievement badges",
-        "Certified file identification",
-        "Reward file markers",
-        "Verification status display"
-      ]
+      "tags": ["badge", "certification", "achievement", "reward", "identifier", "verification"],
+      "use-cases": ["User achievement badges", "Certified file identification", "Reward file markers", "Verification status display"]
     }
   }
 }

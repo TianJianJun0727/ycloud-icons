@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地图应用的道路显示",
-    "交通导航界面",
-    "物流运输路线图"
-  ],
+  "use-cases": ["地图应用的道路显示", "交通导航界面", "物流运输路线图"],
   "name": "道路",
-  "tags": [
-    "道路",
-    "路线",
-    "交通",
-    "地图",
-    "导航"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["道路", "路线", "交通", "地图", "导航"],
+  "categories": ["transportation"],
   "i18n": {
     "en": {
       "name": "road",
-      "tags": [
-        "road",
-        "route",
-        "traffic",
-        "map",
-        "navigation"
-      ],
-      "use-cases": [
-        "Road display in map application",
-        "Traffic navigation interface",
-        "Logistics transport route map"
-      ]
+      "tags": ["road", "route", "traffic", "map", "navigation"],
+      "use-cases": ["Road display in map application", "Traffic navigation interface", "Logistics transport route map"]
     }
   }
 }

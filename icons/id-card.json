@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户资料",
-    "实名认证",
-    "访问控制",
-    "身份确认"
-  ],
+  "use-cases": ["用户资料", "实名认证", "访问控制", "身份确认"],
   "name": "ID卡片",
-  "tags": [
-    "身份证",
-    "证件",
-    "认证",
-    "身份验证",
-    "安全"
-  ],
-  "categories": [
-    "security",
-    "account"
-  ],
+  "tags": ["身份证", "证件", "认证", "身份验证", "安全"],
+  "categories": ["security", "account"],
   "i18n": {
     "en": {
       "name": "id card",
-      "tags": [
-        "ID card",
-        "identification",
-        "authentication",
-        "verification",
-        "security"
-      ],
-      "use-cases": [
-        "User profile",
-        "KYC verification",
-        "Access control",
-        "Identity confirmation"
-      ]
+      "tags": ["ID card", "identification", "authentication", "verification", "security"],
+      "use-cases": ["User profile", "KYC verification", "Access control", "Identity confirmation"]
     }
   }
 }

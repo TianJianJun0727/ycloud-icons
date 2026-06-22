@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向右下角展开面板",
-    "斜向退出或最小化视图",
-    "指向东南的方向指示器"
-  ],
+  "use-cases": ["向右下角展开面板", "斜向退出或最小化视图", "指向东南的方向指示器"],
   "name": "圆形箭头外部下右",
-  "tags": [
-    "向外",
-    "方向",
-    "东南",
-    "对角线",
-    "箭头",
-    "扩展",
-    "离开"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["向外", "方向", "东南", "对角线", "箭头", "扩展", "离开"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-down-right-from-circle",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle arrow out down right",
-      "tags": [
-        "outwards",
-        "direction",
-        "southeast",
-        "diagonal",
-        "arrow",
-        "expand",
-        "exit"
-      ],
-      "use-cases": [
-        "Expand a panel to the lower right",
-        "Exit or minimize a view diagonally",
-        "Directional indicator for southeast"
-      ]
+      "tags": ["outwards", "direction", "southeast", "diagonal", "arrow", "expand", "exit"],
+      "use-cases": ["Expand a panel to the lower right", "Exit or minimize a view diagonally", "Directional indicator for southeast"]
     }
   }
 }

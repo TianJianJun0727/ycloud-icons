@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "冰雹天气警报",
-    "强降水警告",
-    "风暴状况指示器"
-  ],
+  "use-cases": ["冰雹天气警报", "强降水警告", "风暴状况指示器"],
   "name": "云冰雹",
-  "tags": [
-    "冰雹",
-    "雹暴",
-    "恶劣天气",
-    "降水",
-    "天气",
-    "风暴"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["冰雹", "雹暴", "恶劣天气", "降水", "天气", "风暴"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud hail",
-      "tags": [
-        "hail",
-        "hailstorm",
-        "severe weather",
-        "precipitation",
-        "weather",
-        "storm"
-      ],
-      "use-cases": [
-        "Hailstorm weather alert",
-        "Severe precipitation warning",
-        "Storm condition indicator"
-      ]
+      "tags": ["hail", "hailstorm", "severe weather", "precipitation", "weather", "storm"],
+      "use-cases": ["Hailstorm weather alert", "Severe precipitation warning", "Storm condition indicator"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下载文件夹",
-    "导入目录",
-    "文件接收位置"
-  ],
+  "use-cases": ["下载文件夹", "导入目录", "文件接收位置"],
   "name": "文件夹下",
-  "tags": [
-    "下载",
-    "导入",
-    "接收",
-    "下拉",
-    "获取"
-  ],
-  "categories": [
-    "files",
-    "arrows"
-  ],
+  "tags": ["下载", "导入", "接收", "下拉", "获取"],
+  "categories": ["files", "arrows"],
   "i18n": {
     "en": {
       "name": "folder down",
-      "tags": [
-        "download",
-        "import",
-        "receive",
-        "dropdown",
-        "fetch"
-      ],
-      "use-cases": [
-        "Download folder",
-        "Import directory",
-        "File reception location"
-      ]
+      "tags": ["download", "import", "receive", "dropdown", "fetch"],
+      "use-cases": ["Download folder", "Import directory", "File reception location"]
     }
   }
 }

@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "3D建模和几何应用",
-    "包装和容器设计",
-    "建筑和施工图表"
-  ],
+  "use-cases": ["3D建模和几何应用", "包装和容器设计", "建筑和施工图表"],
   "name": "长方体",
-  "tags": [
-    "长方体",
-    "立方体",
-    "盒子",
-    "容器",
-    "几何",
-    "3D",
-    "砖块",
-    "包装"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "food-beverage"
-  ],
+  "tags": ["长方体", "立方体", "盒子", "容器", "几何", "3D", "砖块", "包装"],
+  "categories": ["shapes", "math", "food-beverage"],
   "i18n": {
     "en": {
       "name": "cuboid",
-      "tags": [
-        "cuboid",
-        "cube",
-        "box",
-        "container",
-        "geometry",
-        "3d",
-        "brick",
-        "package"
-      ],
-      "use-cases": [
-        "3D modeling and geometry applications",
-        "Packaging and container design",
-        "Architectural and construction diagrams"
-      ]
+      "tags": ["cuboid", "cube", "box", "container", "geometry", "3d", "brick", "package"],
+      "use-cases": ["3D modeling and geometry applications", "Packaging and container design", "Architectural and construction diagrams"]
     }
   }
 }

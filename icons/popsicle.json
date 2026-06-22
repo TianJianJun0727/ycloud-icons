@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "冰淇淋店菜单",
-    "夏季冷饮图标"
-  ],
+  "use-cases": ["冰淇淋店菜单", "夏季冷饮图标"],
   "name": "冰棍",
-  "tags": [
-    "冰棍",
-    "冰淇淋",
-    "冷饮",
-    "甜品"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["冰棍", "冰淇淋", "冷饮", "甜品"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "popsicle",
-      "tags": [
-        "popsicle",
-        "ice cream",
-        "cold treat",
-        "dessert"
-      ],
-      "use-cases": [
-        "Ice cream shop menu",
-        "Summer treat icon"
-      ]
+      "tags": ["popsicle", "ice cream", "cold treat", "dessert"],
+      "use-cases": ["Ice cream shop menu", "Summer treat icon"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "动物插图",
-    "存储隐喻",
-    "宠物相关内容"
-  ],
+  "use-cases": ["动物插图", "存储隐喻", "宠物相关内容"],
   "name": "松鼠",
-  "tags": [
-    "松鼠",
-    "动物",
-    "啮齿动物",
-    "存储",
-    "收集",
-    "宠物"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["松鼠", "动物", "啮齿动物", "存储", "收集", "宠物"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "squirrel",
-      "tags": [
-        "squirrel",
-        "animal",
-        "rodent",
-        "storage",
-        "collection",
-        "pet"
-      ],
-      "use-cases": [
-        "Animal illustration",
-        "Storage metaphor",
-        "Pet-related content"
-      ]
+      "tags": ["squirrel", "animal", "rodent", "storage", "collection", "pet"],
+      "use-cases": ["Animal illustration", "Storage metaphor", "Pet-related content"]
     }
   }
 }

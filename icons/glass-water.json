@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "饮水消耗跟踪",
-    "饮料菜单项",
-    "补水提醒界面"
-  ],
+  "use-cases": ["饮水消耗跟踪", "饮料菜单项", "补水提醒界面"],
   "name": "玻璃杯水",
-  "tags": [
-    "玻璃杯",
-    "水",
-    "饮料",
-    "饮用水",
-    "喝水",
-    "饮品",
-    "透明",
-    "解渴"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["玻璃杯", "水", "饮料", "饮用水", "喝水", "饮品", "透明", "解渴"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "glass water",
-      "tags": [
-        "glass",
-        "water",
-        "beverage",
-        "drinking water",
-        "hydrate",
-        "drink",
-        "transparent",
-        "thirst"
-      ],
-      "use-cases": [
-        "Water consumption tracking",
-        "Beverage menu items",
-        "Hydration reminder UI"
-      ]
+      "tags": ["glass", "water", "beverage", "drinking water", "hydrate", "drink", "transparent", "thirst"],
+      "use-cases": ["Water consumption tracking", "Beverage menu items", "Hydration reminder UI"]
     }
   }
 }

@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "未接来电通知",
-    "通话记录条目"
-  ],
+  "use-cases": ["未接来电通知", "通话记录条目"],
   "name": "电话未接",
-  "tags": [
-    "未接来电",
-    "错过通话",
-    "通话记录"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "communication"
-  ],
+  "tags": ["未接来电", "错过通话", "通话记录"],
+  "categories": ["connectivity", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "phone missed",
-      "tags": [
-        "phone missed",
-        "missed call",
-        "call history"
-      ],
-      "use-cases": [
-        "Missed call notification",
-        "Call history log entry"
-      ]
+      "tags": ["phone missed", "missed call", "call history"],
+      "use-cases": ["Missed call notification", "Call history log entry"]
     }
   }
 }

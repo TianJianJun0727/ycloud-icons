@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "分步指南起点",
-    "从某点出发的导航",
-    "从原点出发的方向指示器"
-  ],
+  "use-cases": ["分步指南起点", "从某点出发的导航", "从原点出发的方向指示器"],
   "name": "箭头上从点",
-  "tags": [
-    "方向",
-    "北",
-    "步骤",
-    "起点",
-    "出发"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "北", "步骤", "起点", "出发"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow up from dot",
-      "tags": [
-        "direction",
-        "north",
-        "step",
-        "starting point",
-        "depart"
-      ],
-      "use-cases": [
-        "Step-by-step guide start",
-        "Navigation from a point",
-        "Direction indicator from origin"
-      ]
+      "tags": ["direction", "north", "step", "starting point", "depart"],
+      "use-cases": ["Step-by-step guide start", "Navigation from a point", "Direction indicator from origin"]
     }
   }
 }

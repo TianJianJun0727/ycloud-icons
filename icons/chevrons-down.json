@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "向下导航",
-    "反向移动",
-    "减速控制",
-    "游戏向下移动"
-  ],
+  "use-cases": ["向下导航", "反向移动", "减速控制", "游戏向下移动"],
   "name": "双折角箭头下",
-  "tags": [
-    "向下",
-    "后退",
-    "反向",
-    "减速",
-    "游戏控制"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向下", "后退", "反向", "减速", "游戏控制"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "chevrons down",
-      "tags": [
-        "down",
-        "backward",
-        "reverse",
-        "slow down",
-        "gaming control"
-      ],
-      "use-cases": [
-        "Downward navigation",
-        "Reverse direction",
-        "Speed reduction control",
-        "Game downward movement"
-      ]
+      "tags": ["down", "backward", "reverse", "slow down", "gaming control"],
+      "use-cases": ["Downward navigation", "Reverse direction", "Speed reduction control", "Game downward movement"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放器快进",
-    "转到下一步",
-    "向前导航",
-    "向前跳过"
-  ],
+  "use-cases": ["媒体播放器快进", "转到下一步", "向前导航", "向前跳过"],
   "name": "步骤前进",
-  "tags": [
-    "前进",
-    "下一步",
-    "继续",
-    "音乐",
-    "媒体",
-    "箭头",
-    "跳过"
-  ],
-  "categories": [
-    "multimedia",
-    "arrows"
-  ],
+  "tags": ["前进", "下一步", "继续", "音乐", "媒体", "箭头", "跳过"],
+  "categories": ["multimedia", "arrows"],
   "i18n": {
     "en": {
       "name": "step forward",
-      "tags": [
-        "forward",
-        "next",
-        "continue",
-        "music",
-        "media",
-        "arrow",
-        "skip"
-      ],
-      "use-cases": [
-        "Media player forward",
-        "Go to next step",
-        "Forward navigation",
-        "Skip ahead"
-      ]
+      "tags": ["forward", "next", "continue", "music", "media", "arrow", "skip"],
+      "use-cases": ["Media player forward", "Go to next step", "Forward navigation", "Skip ahead"]
     }
   }
 }

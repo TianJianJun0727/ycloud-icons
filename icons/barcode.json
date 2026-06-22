@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "结账时扫描商品",
-    "库存管理",
-    "价格查询"
-  ],
+  "use-cases": ["结账时扫描商品", "库存管理", "价格查询"],
   "name": "条码",
-  "tags": [
-    "条形码",
-    "扫描",
-    "商品",
-    "零售",
-    "结账",
-    "库存",
-    "产品"
-  ],
-  "categories": [
-    "shopping"
-  ],
+  "tags": ["条形码", "扫描", "商品", "零售", "结账", "库存", "产品"],
+  "categories": ["shopping"],
   "i18n": {
     "en": {
       "name": "barcode",
-      "tags": [
-        "barcode",
-        "scan",
-        "product",
-        "retail",
-        "checkout",
-        "inventory",
-        "item"
-      ],
-      "use-cases": [
-        "Product scanning at checkout",
-        "Inventory management",
-        "Price lookup"
-      ]
+      "tags": ["barcode", "scan", "product", "retail", "checkout", "inventory", "item"],
+      "use-cases": ["Product scanning at checkout", "Inventory management", "Price lookup"]
     }
   }
 }

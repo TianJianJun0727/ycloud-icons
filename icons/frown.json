@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户反馈或评分界面",
-    "个人资料中的情绪状态选择",
-    "UI中的错误或警告状态"
-  ],
+  "use-cases": ["用户反馈或评分界面", "个人资料中的情绪状态选择", "UI中的错误或警告状态"],
   "name": "皱眉",
-  "tags": [
-    "皱眉",
-    "悲伤",
-    "不满意",
-    "表情",
-    "负面反馈"
-  ],
-  "categories": [
-    "emoji",
-    "account"
-  ],
+  "tags": ["皱眉", "悲伤", "不满意", "表情", "负面反馈"],
+  "categories": ["emoji", "account"],
   "i18n": {
     "en": {
       "name": "frown",
-      "tags": [
-        "frown",
-        "sad",
-        "dissatisfied",
-        "expression",
-        "negative-feedback"
-      ],
-      "use-cases": [
-        "User feedback or rating interfaces",
-        "Emotional state selection in profiles",
-        "Error or warning states in UI"
-      ]
+      "tags": ["frown", "sad", "dissatisfied", "expression", "negative-feedback"],
+      "use-cases": ["User feedback or rating interfaces", "Emotional state selection in profiles", "Error or warning states in UI"]
     }
   }
 }

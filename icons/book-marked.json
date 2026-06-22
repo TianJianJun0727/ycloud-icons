@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已书签的文档页面",
-    "保存的代码参考",
-    "常用访问指南"
-  ],
+  "use-cases": ["已书签的文档页面", "保存的代码参考", "常用访问指南"],
   "name": "书籍已标记",
-  "tags": [
-    "阅读",
-    "书签",
-    "标记",
-    "参考",
-    "文档",
-    "保存",
-    "学习",
-    "代码",
-    "Git"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["阅读", "书签", "标记", "参考", "文档", "保存", "学习", "代码", "Git"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book marked",
-      "tags": [
-        "reading",
-        "bookmark",
-        "marked",
-        "reference",
-        "documentation",
-        "saved",
-        "study",
-        "code",
-        "git"
-      ],
-      "use-cases": [
-        "Bookmarked documentation page",
-        "Saved code reference",
-        "Frequently accessed guide"
-      ]
+      "tags": ["reading", "bookmark", "marked", "reference", "documentation", "saved", "study", "code", "git"],
+      "use-cases": ["Bookmarked documentation page", "Saved code reference", "Frequently accessed guide"]
     }
   }
 }

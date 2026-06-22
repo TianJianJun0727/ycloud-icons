@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络安全设置",
-    "防火墙配置",
-    "安全策略管理",
-    "网络防护界面"
-  ],
+  "use-cases": ["网络安全设置", "防火墙配置", "安全策略管理", "网络防护界面"],
   "name": "砖块墙火焰",
-  "tags": [
-    "防火墙",
-    "网络安全",
-    "安全防护",
-    "防火墙规则"
-  ],
-  "categories": [
-    "security",
-    "home",
-    "connectivity"
-  ],
+  "tags": ["防火墙", "网络安全", "安全防护", "防火墙规则"],
+  "categories": ["security", "home", "connectivity"],
   "i18n": {
     "en": {
       "name": "brick wall fire",
-      "tags": [
-        "firewall",
-        "network security",
-        "security protection",
-        "firewall rules",
-        "cybersecurity"
-      ],
-      "use-cases": [
-        "Network security settings",
-        "Firewall configuration",
-        "Security policy management",
-        "Network protection interface"
-      ]
+      "tags": ["firewall", "network security", "security protection", "firewall rules", "cybersecurity"],
+      "use-cases": ["Network security settings", "Firewall configuration", "Security policy management", "Network protection interface"]
     }
   }
 }

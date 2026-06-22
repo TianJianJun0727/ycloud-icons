@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏掷骰子界面",
-    "随机选择界面",
-    "棋盘游戏应用"
-  ],
+  "use-cases": ["游戏掷骰子界面", "随机选择界面", "棋盘游戏应用"],
   "name": "骰子组",
-  "tags": [
-    "骰子",
-    "随机",
-    "桌面游戏",
-    "棋盘游戏",
-    "游戏"
-  ],
-  "categories": [
-    "gaming"
-  ],
+  "tags": ["骰子", "随机", "桌面游戏", "棋盘游戏", "游戏"],
+  "categories": ["gaming"],
   "i18n": {
     "en": {
       "name": "dices",
-      "tags": [
-        "dice",
-        "random",
-        "tabletop",
-        "board",
-        "game"
-      ],
-      "use-cases": [
-        "Game dice roll interface",
-        "Random selection UI",
-        "Board game application"
-      ]
+      "tags": ["dice", "random", "tabletop", "board", "game"],
+      "use-cases": ["Game dice roll interface", "Random selection UI", "Board game application"]
     }
   }
 }

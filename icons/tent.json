@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "露营装备电商",
-    "旅行住宿选择器",
-    "可持续与户外生活"
-  ],
+  "use-cases": ["露营装备电商", "旅行住宿选择器", "可持续与户外生活"],
   "name": "帐篷",
-  "tags": [
-    "帐篷",
-    "露营",
-    "户外",
-    "旅行",
-    "原住民",
-    "可持续"
-  ],
-  "categories": [
-    "travel",
-    "nature",
-    "sustainability"
-  ],
+  "tags": ["帐篷", "露营", "户外", "旅行", "原住民", "可持续"],
+  "categories": ["travel", "nature", "sustainability"],
   "i18n": {
     "en": {
       "name": "tent",
-      "tags": [
-        "tent",
-        "camping",
-        "outdoors",
-        "travel",
-        "tipi",
-        "sustainability"
-      ],
-      "use-cases": [
-        "Camping gear e-commerce",
-        "Travel accommodation selector",
-        "Sustainability and outdoor living"
-      ]
+      "tags": ["tent", "camping", "outdoors", "travel", "tipi", "sustainability"],
+      "use-cases": ["Camping gear e-commerce", "Travel accommodation selector", "Sustainability and outdoor living"]
     }
   }
 }

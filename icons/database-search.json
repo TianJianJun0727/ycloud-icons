@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在数据库中搜索或查询数据",
-    "数据库管理工具中的查找功能"
-  ],
+  "use-cases": ["在数据库中搜索或查询数据", "数据库管理工具中的查找功能"],
   "name": "数据库搜索",
-  "tags": [
-    "数据库",
-    "存储",
-    "服务器",
-    "搜索",
-    "查询",
-    "查找",
-    "数据检索"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["数据库", "存储", "服务器", "搜索", "查询", "查找", "数据检索"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "database search",
-      "tags": [
-        "database",
-        "storage",
-        "server",
-        "search",
-        "query",
-        "find",
-        "data retrieval"
-      ],
-      "use-cases": [
-        "searching or querying data within a database",
-        "find functionality in database management tools"
-      ]
+      "tags": ["database", "storage", "server", "search", "query", "find", "data retrieval"],
+      "use-cases": ["searching or querying data within a database", "find functionality in database management tools"]
     }
   }
 }

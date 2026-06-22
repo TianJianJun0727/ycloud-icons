@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收音机调谐器界面",
-    "音频接收设备",
-    "广播设备"
-  ],
+  "use-cases": ["收音机调谐器界面", "音频接收设备", "广播设备"],
   "name": "收音机接收器",
-  "tags": [
-    "收音机",
-    "接收器",
-    "设备",
-    "音频",
-    "调频",
-    "广播"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["收音机", "接收器", "设备", "音频", "调频", "广播"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "radio receiver",
-      "tags": [
-        "radio",
-        "receiver",
-        "device",
-        "audio",
-        "FM",
-        "broadcast"
-      ],
-      "use-cases": [
-        "Radio tuner interface",
-        "Audio receiver device",
-        "Broadcast equipment"
-      ]
+      "tags": ["radio", "receiver", "device", "audio", "FM", "broadcast"],
+      "use-cases": ["Radio tuner interface", "Audio receiver device", "Broadcast equipment"]
     }
   }
 }

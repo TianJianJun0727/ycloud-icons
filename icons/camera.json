@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "拍照应用界面",
-    "视频会议应用",
-    "直播平台",
-    "相机设置页面"
-  ],
+  "use-cases": ["拍照应用界面", "视频会议应用", "直播平台", "相机设置页面"],
   "name": "相机",
-  "tags": [
-    "摄影",
-    "拍照",
-    "摄像头",
-    "录像",
-    "直播",
-    "视频通话"
-  ],
-  "categories": [
-    "photography",
-    "devices",
-    "communication"
-  ],
+  "tags": ["摄影", "拍照", "摄像头", "录像", "直播", "视频通话"],
+  "categories": ["photography", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "camera",
-      "tags": [
-        "photography",
-        "photo",
-        "camera",
-        "recording",
-        "live streaming",
-        "video call"
-      ],
-      "use-cases": [
-        "Photo app interface",
-        "Video conferencing app",
-        "Live streaming platform",
-        "Camera settings page"
-      ]
+      "tags": ["photography", "photo", "camera", "recording", "live streaming", "video call"],
+      "use-cases": ["Photo app interface", "Video conferencing app", "Live streaming platform", "Camera settings page"]
     }
   }
 }

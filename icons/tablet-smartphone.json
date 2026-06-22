@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "响应式设计预览切换",
-    "设备兼容性测试工具",
-    "多屏幕应用仪表盘"
-  ],
+  "use-cases": ["响应式设计预览切换", "设备兼容性测试工具", "多屏幕应用仪表盘"],
   "name": "平板智能手机",
-  "tags": [
-    "平板手机",
-    "响应式设计",
-    "多设备",
-    "屏幕",
-    "移动端"
-  ],
-  "categories": [
-    "devices",
-    "design",
-    "development",
-    "tools"
-  ],
+  "tags": ["平板手机", "响应式设计", "多设备", "屏幕", "移动端"],
+  "categories": ["devices", "design", "development", "tools"],
   "i18n": {
     "en": {
       "name": "tablet smartphone",
-      "tags": [
-        "tablet smartphone",
-        "responsive design",
-        "multi-device",
-        "screens",
-        "mobile"
-      ],
-      "use-cases": [
-        "Responsive design preview toggle",
-        "Device compatibility testing tool",
-        "Multi-screen application dashboard"
-      ]
+      "tags": ["tablet smartphone", "responsive design", "multi-device", "screens", "mobile"],
+      "use-cases": ["Responsive design preview toggle", "Device compatibility testing tool", "Multi-screen application dashboard"]
     }
   }
 }

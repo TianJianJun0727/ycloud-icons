@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "版本控制分支管理",
-    "代码仓库导航",
-    "功能分支指示器"
-  ],
+  "use-cases": ["版本控制分支管理", "代码仓库导航", "功能分支指示器"],
   "name": "Git 分支",
-  "tags": [
-    "Git分支",
-    "版本控制",
-    "代码",
-    "分支",
-    "仓库",
-    "Git"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["Git分支", "版本控制", "代码", "分支", "仓库", "Git"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git branch",
-      "tags": [
-        "Git branch",
-        "version control",
-        "code",
-        "branch",
-        "repository",
-        "Git"
-      ],
-      "use-cases": [
-        "Version control branch management",
-        "Code repository navigation",
-        "Feature branch indicator"
-      ]
+      "tags": ["Git branch", "version control", "code", "branch", "repository", "Git"],
+      "use-cases": ["Version control branch management", "Code repository navigation", "Feature branch indicator"]
     }
   }
 }

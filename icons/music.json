@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐库图标",
-    "播放列表指示器",
-    "声音设置开关"
-  ],
+  "use-cases": ["音乐库图标", "播放列表指示器", "声音设置开关"],
   "name": "音乐",
-  "tags": [
-    "音乐",
-    "音符",
-    "八分音符",
-    "乐谱",
-    "旋律",
-    "播放"
-  ],
-  "categories": [
-    "multimedia",
-    "files"
-  ],
+  "tags": ["音乐", "音符", "八分音符", "乐谱", "旋律", "播放"],
+  "categories": ["multimedia", "files"],
   "i18n": {
     "en": {
       "name": "music",
-      "tags": [
-        "music",
-        "note",
-        "eighth note",
-        "quaver",
-        "melody",
-        "play"
-      ],
-      "use-cases": [
-        "Music library icon",
-        "Playlist indicator",
-        "Sound settings toggle"
-      ]
+      "tags": ["music", "note", "eighth note", "quaver", "melody", "play"],
+      "use-cases": ["Music library icon", "Playlist indicator", "Sound settings toggle"]
     }
   }
 }

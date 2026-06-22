@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "排行榜显示",
-    "比赛结果",
-    "成就认可"
-  ],
+  "use-cases": ["排行榜显示", "比赛结果", "成就认可"],
   "name": "领奖台",
-  "tags": [
-    "领奖台",
-    "排名",
-    "获胜者",
-    "奖项",
-    "比赛"
-  ],
-  "categories": [
-    "sports",
-    "gaming"
-  ],
+  "tags": ["领奖台", "排名", "获胜者", "奖项", "比赛"],
+  "categories": ["sports", "gaming"],
   "i18n": {
     "en": {
       "name": "podium",
-      "tags": [
-        "podium",
-        "ranking",
-        "winner",
-        "award",
-        "competition"
-      ],
-      "use-cases": [
-        "Leaderboard display",
-        "Competition results",
-        "Achievement recognition"
-      ]
+      "tags": ["podium", "ranking", "winner", "award", "competition"],
+      "use-cases": ["Leaderboard display", "Competition results", "Achievement recognition"]
     }
   }
 }

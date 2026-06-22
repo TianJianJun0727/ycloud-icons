@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健康饮食应用",
-    "过敏提示标识",
-    "无糖产品标签",
-    "饮食限制设置"
-  ],
+  "use-cases": ["健康饮食应用", "过敏提示标识", "无糖产品标签", "饮食限制设置"],
   "name": "糖果关闭",
-  "tags": [
-    "无糖",
-    "禁糖",
-    "过敏提示",
-    "饮食限制",
-    "健康食品"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["无糖", "禁糖", "过敏提示", "饮食限制", "健康食品"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "candy off",
-      "tags": [
-        "sugar free",
-        "no candy",
-        "allergy warning",
-        "diet restriction",
-        "healthy food"
-      ],
-      "use-cases": [
-        "Healthy diet app",
-        "Allergy warning label",
-        "Sugar-free product labeling",
-        "Diet restriction settings"
-      ]
+      "tags": ["sugar free", "no candy", "allergy warning", "diet restriction", "healthy food"],
+      "use-cases": ["Healthy diet app", "Allergy warning label", "Sugar-free product labeling", "Diet restriction settings"]
     }
   }
 }

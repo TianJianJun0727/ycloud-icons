@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频文件图标",
-    "媒体库中的电影剪辑",
-    "摄像机录制文件"
-  ],
+  "use-cases": ["视频文件图标", "媒体库中的电影剪辑", "摄像机录制文件"],
   "name": "文件视频相机",
-  "tags": [
-    "视频",
-    "电影",
-    "媒体文件",
-    "摄像机",
-    "录像"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["视频", "电影", "媒体文件", "摄像机", "录像"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-video-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file video camera",
-      "tags": [
-        "video",
-        "movie",
-        "media file",
-        "camera",
-        "recording"
-      ],
-      "use-cases": [
-        "Video file icon",
-        "Movie clip in media library",
-        "Camera recording file"
-      ]
+      "tags": ["video", "movie", "media file", "camera", "recording"],
+      "use-cases": ["Video file icon", "Movie clip in media library", "Camera recording file"]
     }
   }
 }

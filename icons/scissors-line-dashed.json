@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计软件裁剪参考线",
-    "印刷布局裁切标记",
-    "手工艺图案裁剪线",
-    "文档编辑剪切指示"
-  ],
+  "use-cases": ["设计软件裁剪参考线", "印刷布局裁切标记", "手工艺图案裁剪线", "文档编辑剪切指示"],
   "name": "剪刀线条虚线",
-  "tags": [
-    "裁剪线",
-    "虚线",
-    "切割标记",
-    "设计工具",
-    "剪裁指示",
-    "虚线剪刀"
-  ],
-  "categories": [
-    "design",
-    "tools"
-  ],
+  "tags": ["裁剪线", "虚线", "切割标记", "设计工具", "剪裁指示", "虚线剪刀"],
+  "categories": ["design", "tools"],
   "i18n": {
     "en": {
       "name": "scissors line dashed",
-      "tags": [
-        "cut line",
-        "dashed line",
-        "cutting mark",
-        "design tool",
-        "trim indicator",
-        "dashed scissors"
-      ],
-      "use-cases": [
-        "Design software cut guides",
-        "Print layout trim marks",
-        "Craft pattern cutting lines",
-        "Document editing cut indicators"
-      ]
+      "tags": ["cut line", "dashed line", "cutting mark", "design tool", "trim indicator", "dashed scissors"],
+      "use-cases": ["Design software cut guides", "Print layout trim marks", "Craft pattern cutting lines", "Document editing cut indicators"]
     }
   }
 }

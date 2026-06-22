@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器减法按钮",
-    "音量控制减小",
-    "列表项移除控件"
-  ],
+  "use-cases": ["计算器减法按钮", "音量控制减小", "列表项移除控件"],
   "name": "方形减少",
-  "tags": [
-    "减少",
-    "减去",
-    "缩小",
-    "按钮",
-    "计算器",
-    "分隔线"
-  ],
-  "categories": [
-    "math",
-    "development",
-    "text",
-    "tools",
-    "devices"
-  ],
+  "tags": ["减少", "减去", "缩小", "按钮", "计算器", "分隔线"],
+  "categories": ["math", "development", "text", "tools", "devices"],
   "aliases": [
     {
       "name": "minus-square",
@@ -32,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square minus",
-      "tags": [
-        "decrease",
-        "subtract",
-        "minimize",
-        "button",
-        "calculator",
-        "divider"
-      ],
-      "use-cases": [
-        "Calculator subtraction button",
-        "Volume control decrease",
-        "List item removal control"
-      ]
+      "tags": ["decrease", "subtract", "minimize", "button", "calculator", "divider"],
+      "use-cases": ["Calculator subtraction button", "Volume control decrease", "List item removal control"]
     }
   }
 }

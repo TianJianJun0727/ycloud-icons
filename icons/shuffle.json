@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐或媒体播放器随机播放按钮",
-    "随机化列表顺序",
-    "播放列表管理"
-  ],
+  "use-cases": ["音乐或媒体播放器随机播放按钮", "随机化列表顺序", "播放列表管理"],
   "name": "随机",
-  "tags": [
-    "随机",
-    "乱序",
-    "音乐",
-    "播放",
-    "重新排序",
-    "多媒体",
-    "箭头"
-  ],
-  "categories": [
-    "multimedia",
-    "arrows"
-  ],
+  "tags": ["随机", "乱序", "音乐", "播放", "重新排序", "多媒体", "箭头"],
+  "categories": ["multimedia", "arrows"],
   "i18n": {
     "en": {
       "name": "shuffle",
-      "tags": [
-        "shuffle",
-        "random",
-        "music",
-        "playback",
-        "reorder",
-        "multimedia",
-        "arrow"
-      ],
-      "use-cases": [
-        "Music or media player shuffle button",
-        "Randomize list order",
-        "Playlist management"
-      ]
+      "tags": ["shuffle", "random", "music", "playback", "reorder", "multimedia", "arrow"],
+      "use-cases": ["Music or media player shuffle button", "Randomize list order", "Playlist management"]
     }
   }
 }

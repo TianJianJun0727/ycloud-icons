@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通话中静音麦克风",
-    "禁用音频输入",
-    "停止录音"
-  ],
+  "use-cases": ["通话中静音麦克风", "禁用音频输入", "停止录音"],
   "name": "麦克风关闭",
-  "tags": [
-    "麦克风",
-    "静音",
-    "关闭",
-    "禁用",
-    "录音",
-    "音频",
-    "通话"
-  ],
-  "categories": [
-    "devices",
-    "communication",
-    "connectivity",
-    "multimedia"
-  ],
+  "tags": ["麦克风", "静音", "关闭", "禁用", "录音", "音频", "通话"],
+  "categories": ["devices", "communication", "connectivity", "multimedia"],
   "i18n": {
     "en": {
       "name": "mic off",
-      "tags": [
-        "microphone",
-        "mute",
-        "off",
-        "disable",
-        "record",
-        "audio",
-        "call"
-      ],
-      "use-cases": [
-        "Mute microphone during a call",
-        "Disable audio input",
-        "Stop recording"
-      ]
+      "tags": ["microphone", "mute", "off", "disable", "record", "audio", "call"],
+      "use-cases": ["Mute microphone during a call", "Disable audio input", "Stop recording"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "菜单无鱼类标识",
-    "饮食偏好筛选",
-    "过敏警告标签"
-  ],
+  "use-cases": ["菜单无鱼类标识", "饮食偏好筛选", "过敏警告标签"],
   "name": "鱼关闭",
-  "tags": [
-    "无鱼",
-    "鱼类禁用",
-    "海鲜过敏",
-    "素食",
-    "饮食限制"
-  ],
-  "categories": [
-    "food-beverage",
-    "animals"
-  ],
+  "tags": ["无鱼", "鱼类禁用", "海鲜过敏", "素食", "饮食限制"],
+  "categories": ["food-beverage", "animals"],
   "i18n": {
     "en": {
       "name": "fish off",
-      "tags": [
-        "no fish",
-        "fish disabled",
-        "seafood allergy",
-        "vegetarian",
-        "dietary restriction"
-      ],
-      "use-cases": [
-        "Menu item indicating no fish",
-        "Dietary preference filter",
-        "Allergy warning label"
-      ]
+      "tags": ["no fish", "fish disabled", "seafood allergy", "vegetarian", "dietary restriction"],
+      "use-cases": ["Menu item indicating no fish", "Dietary preference filter", "Allergy warning label"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频质量设置",
-    "显示分辨率指示",
-    "媒体播放器控制"
-  ],
+  "use-cases": ["视频质量设置", "显示分辨率指示", "媒体播放器控制"],
   "name": "高清",
-  "tags": [
-    "高清",
-    "分辨率",
-    "视频",
-    "电视",
-    "1080p",
-    "720p"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["高清", "分辨率", "视频", "电视", "1080p", "720p"],
+  "categories": ["devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "hd",
-      "tags": [
-        "hd",
-        "resolution",
-        "video",
-        "tv",
-        "1080p",
-        "720p"
-      ],
-      "use-cases": [
-        "Video quality setting",
-        "Display resolution indicator",
-        "Media player controls"
-      ]
+      "tags": ["hd", "resolution", "video", "tv", "1080p", "720p"],
+      "use-cases": ["Video quality setting", "Display resolution indicator", "Media player controls"]
     }
   }
 }

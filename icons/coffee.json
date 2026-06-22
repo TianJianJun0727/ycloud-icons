@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "咖啡馆菜单",
-    "饮料选择",
-    "餐饮界面"
-  ],
+  "use-cases": ["咖啡馆菜单", "饮料选择", "餐饮界面"],
   "name": "咖啡",
-  "tags": [
-    "咖啡",
-    "饮料",
-    "餐饮",
-    "热饮",
-    "休闲"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["咖啡", "饮料", "餐饮", "热饮", "休闲"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "coffee",
-      "tags": [
-        "coffee",
-        "beverage",
-        "food",
-        "hot drink",
-        "cafe"
-      ],
-      "use-cases": [
-        "Cafe menu",
-        "Beverage selection",
-        "Food and drink UI"
-      ]
+      "tags": ["coffee", "beverage", "food", "hot drink", "cafe"],
+      "use-cases": ["Cafe menu", "Beverage selection", "Food and drink UI"]
     }
   }
 }

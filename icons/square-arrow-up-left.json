@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "对角线导航",
-    "键盘快捷键",
-    "界面方向指示"
-  ],
+  "use-cases": ["对角线导航", "键盘快捷键", "界面方向指示"],
   "name": "方形箭头上左",
-  "tags": [
-    "方向",
-    "对角线",
-    "按钮",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "对角线", "按钮", "导航"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-up-left-square",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow up left",
-      "tags": [
-        "direction",
-        "diagonal",
-        "button",
-        "navigation"
-      ],
-      "use-cases": [
-        "Diagonal navigation",
-        "Keyboard shortcut",
-        "UI direction indicator"
-      ]
+      "tags": ["direction", "diagonal", "button", "navigation"],
+      "use-cases": ["Diagonal navigation", "Keyboard shortcut", "UI direction indicator"]
     }
   }
 }

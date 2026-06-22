@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "阻止访问通知",
-    "安全功能已禁用",
-    "证书吊销"
-  ],
+  "use-cases": ["阻止访问通知", "安全功能已禁用", "证书吊销"],
   "name": "盾牌禁止",
-  "tags": [
-    "禁止防护",
-    "安全阻止",
-    "取消验证",
-    "禁用",
-    "拦截"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["禁止防护", "安全阻止", "取消验证", "禁用", "拦截"],
+  "categories": ["account", "security", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "shield ban",
-      "tags": [
-        "protection ban",
-        "security block",
-        "verification canceled",
-        "disabled",
-        "intercepted"
-      ],
-      "use-cases": [
-        "Blocked access notification",
-        "Security feature disabled",
-        "Certificate revocation"
-      ]
+      "tags": ["protection ban", "security block", "verification canceled", "disabled", "intercepted"],
+      "use-cases": ["Blocked access notification", "Security feature disabled", "Certificate revocation"]
     }
   }
 }

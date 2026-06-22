@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "商品折扣徽章",
-    "美元价格标签",
-    "购物车促销"
-  ],
+  "use-cases": ["商品折扣徽章", "美元价格标签", "购物车促销"],
   "name": "徽章美元标志",
-  "tags": [
-    "折扣",
-    "优惠",
-    "价格",
-    "美元",
-    "促销",
-    "金融",
-    "购物",
-    "交易"
-  ],
-  "categories": [
-    "shopping",
-    "finance"
-  ],
+  "tags": ["折扣", "优惠", "价格", "美元", "促销", "金融", "购物", "交易"],
+  "categories": ["shopping", "finance"],
   "i18n": {
     "en": {
       "name": "badge dollar sign",
-      "tags": [
-        "discount",
-        "offer",
-        "price",
-        "usd",
-        "sale",
-        "finance",
-        "shopping",
-        "transaction"
-      ],
-      "use-cases": [
-        "Discount badge on product",
-        "Price tag in USD",
-        "Shopping cart promotion"
-      ]
+      "tags": ["discount", "offer", "price", "usd", "sale", "finance", "shopping", "transaction"],
+      "use-cases": ["Discount badge on product", "Price tag in USD", "Shopping cart promotion"]
     }
   }
 }

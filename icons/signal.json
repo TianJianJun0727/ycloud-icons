@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用信号或连接图标",
-    "网络状态切换",
-    "连接设置"
-  ],
+  "use-cases": ["通用信号或连接图标", "网络状态切换", "连接设置"],
   "name": "信号",
-  "tags": [
-    "信号",
-    "无线",
-    "连接",
-    "网络",
-    "强度",
-    "蜂窝网络",
-    "移动网络",
-    "Wi-Fi",
-    "天线"
-  ],
-  "categories": [
-    "connectivity"
-  ],
+  "tags": ["信号", "无线", "连接", "网络", "强度", "蜂窝网络", "移动网络", "Wi-Fi", "天线"],
+  "categories": ["connectivity"],
   "i18n": {
     "en": {
       "name": "signal",
-      "tags": [
-        "signal",
-        "wireless",
-        "connection",
-        "network",
-        "strength",
-        "cellular",
-        "mobile",
-        "wifi",
-        "antenna"
-      ],
-      "use-cases": [
-        "Generic signal or connectivity icon",
-        "Network status toggle",
-        "Connection settings"
-      ]
+      "tags": ["signal", "wireless", "connection", "network", "strength", "cellular", "mobile", "wifi", "antenna"],
+      "use-cases": ["Generic signal or connectivity icon", "Network status toggle", "Connection settings"]
     }
   }
 }

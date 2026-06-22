@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "云服务配置",
-    "服务器管理设置",
-    "自动化控制面板"
-  ],
+  "use-cases": ["云服务配置", "服务器管理设置", "自动化控制面板"],
   "name": "云齿轮",
-  "tags": [
-    "设置",
-    "配置",
-    "管理",
-    "云服务",
-    "服务器",
-    "控制",
-    "自动化"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["设置", "配置", "管理", "云服务", "服务器", "控制", "自动化"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "cloud cog",
-      "tags": [
-        "settings",
-        "configure",
-        "manage",
-        "cloud",
-        "server",
-        "control",
-        "automation"
-      ],
-      "use-cases": [
-        "Cloud service configuration",
-        "Server management settings",
-        "Automation control panel"
-      ]
+      "tags": ["settings", "configure", "manage", "cloud", "server", "control", "automation"],
+      "use-cases": ["Cloud service configuration", "Server management settings", "Automation control panel"]
     }
   }
 }

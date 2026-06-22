@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用光标状态",
-    "指针交互",
-    "导航控件"
-  ],
+  "use-cases": ["通用光标状态", "指针交互", "导航控件"],
   "name": "鼠标指针",
-  "tags": [
-    "指针",
-    "鼠标",
-    "光标",
-    "点击",
-    "选择",
-    "交互",
-    "导航"
-  ],
-  "categories": [
-    "arrows",
-    "cursors"
-  ],
+  "tags": ["指针", "鼠标", "光标", "点击", "选择", "交互", "导航"],
+  "categories": ["arrows", "cursors"],
   "i18n": {
     "en": {
       "name": "mouse pointer",
-      "tags": [
-        "pointer",
-        "mouse",
-        "cursor",
-        "click",
-        "select",
-        "interaction",
-        "navigation"
-      ],
-      "use-cases": [
-        "General cursor states",
-        "Pointer interactions",
-        "Navigation controls"
-      ]
+      "tags": ["pointer", "mouse", "cursor", "click", "select", "interaction", "navigation"],
+      "use-cases": ["General cursor states", "Pointer interactions", "Navigation controls"]
     }
   }
 }

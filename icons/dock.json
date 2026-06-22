@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "桌面应用停靠栏",
-    "任务栏界面",
-    "应用启动器设计"
-  ],
+  "use-cases": ["桌面应用停靠栏", "任务栏界面", "应用启动器设计"],
   "name": "停靠栏",
-  "tags": [
-    "停靠栏",
-    "桌面",
-    "应用启动器",
-    "菜单栏",
-    "界面布局"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development",
-    "files"
-  ],
+  "tags": ["停靠栏", "桌面", "应用启动器", "菜单栏", "界面布局"],
+  "categories": ["layout", "design", "development", "files"],
   "i18n": {
     "en": {
       "name": "dock",
-      "tags": [
-        "dock",
-        "desktop",
-        "application launcher",
-        "menu bar",
-        "interface layout"
-      ],
-      "use-cases": [
-        "Desktop application dock",
-        "Taskbar interface",
-        "App launcher design"
-      ]
+      "tags": ["dock", "desktop", "application launcher", "menu bar", "interface layout"],
+      "use-cases": ["Desktop application dock", "Taskbar interface", "App launcher design"]
     }
   }
 }

@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "返回导航按钮",
-    "上一首媒体曲目",
-    "地图上的方向指示器"
-  ],
+  "use-cases": ["返回导航按钮", "上一首媒体曲目", "地图上的方向指示器"],
   "name": "圆形箭头左",
-  "tags": [
-    "向左",
-    "返回",
-    "上一页",
-    "方向",
-    "西",
-    "圆形按钮"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向左", "返回", "上一页", "方向", "西", "圆形按钮"],
+  "categories": ["arrows", "gaming"],
   "aliases": [
     {
       "name": "arrow-left-circle",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle arrow left",
-      "tags": [
-        "left",
-        "back",
-        "previous",
-        "direction",
-        "west",
-        "circular button"
-      ],
-      "use-cases": [
-        "Back navigation button",
-        "Previous media track",
-        "Directional indicator on a map"
-      ]
+      "tags": ["left", "back", "previous", "direction", "west", "circular button"],
+      "use-cases": ["Back navigation button", "Previous media track", "Directional indicator on a map"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐练习工具",
-    "设置播放速度",
-    "音频制作定时"
-  ],
+  "use-cases": ["音乐练习工具", "设置播放速度", "音频制作定时"],
   "name": "节拍器",
-  "tags": [
-    "节拍器",
-    "节奏",
-    "节拍",
-    "音乐",
-    "练习",
-    "定时",
-    "速度",
-    "音频"
-  ],
-  "categories": [
-    "multimedia",
-    "time"
-  ],
+  "tags": ["节拍器", "节奏", "节拍", "音乐", "练习", "定时", "速度", "音频"],
+  "categories": ["multimedia", "time"],
   "i18n": {
     "en": {
       "name": "metronome",
-      "tags": [
-        "metronome",
-        "tempo",
-        "beat",
-        "music",
-        "practice",
-        "timing",
-        "bpm",
-        "audio"
-      ],
-      "use-cases": [
-        "Music practice tool",
-        "Setting playback tempo",
-        "Audio production timing"
-      ]
+      "tags": ["metronome", "tempo", "beat", "music", "practice", "timing", "bpm", "audio"],
+      "use-cases": ["Music practice tool", "Setting playback tempo", "Audio production timing"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "存储设备状态",
-    "服务器硬件指示器",
-    "数据容量显示"
-  ],
+  "use-cases": ["存储设备状态", "服务器硬件指示器", "数据容量显示"],
   "name": "硬盘驱动器",
-  "tags": [
-    "硬盘",
-    "存储",
-    "数据",
-    "服务器",
-    "硬件",
-    "备份",
-    "固态硬盘",
-    "磁盘"
-  ],
-  "categories": [
-    "development",
-    "devices"
-  ],
+  "tags": ["硬盘", "存储", "数据", "服务器", "硬件", "备份", "固态硬盘", "磁盘"],
+  "categories": ["development", "devices"],
   "i18n": {
     "en": {
       "name": "hard drive",
-      "tags": [
-        "hard drive",
-        "storage",
-        "data",
-        "server",
-        "hardware",
-        "backup",
-        "ssd",
-        "disk"
-      ],
-      "use-cases": [
-        "Storage device status",
-        "Server hardware indicator",
-        "Data capacity display"
-      ]
+      "tags": ["hard drive", "storage", "data", "server", "hardware", "backup", "ssd", "disk"],
+      "use-cases": ["Storage device status", "Server hardware indicator", "Data capacity display"]
     }
   }
 }

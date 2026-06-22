@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已验证的文档",
-    "已完成的教程",
-    "通过考试或测试"
-  ],
+  "use-cases": ["已验证的文档", "已完成的教程", "通过考试或测试"],
   "name": "书籍打开勾选",
-  "tags": [
-    "阅读",
-    "验证",
-    "检查",
-    "完成",
-    "作业",
-    "测试",
-    "通过",
-    "学习",
-    "文档"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["阅读", "验证", "检查", "完成", "作业", "测试", "通过", "学习", "文档"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book open check",
-      "tags": [
-        "reading",
-        "verify",
-        "check",
-        "done",
-        "homework",
-        "test",
-        "pass",
-        "study",
-        "documentation"
-      ],
-      "use-cases": [
-        "Verified documentation",
-        "Completed tutorial",
-        "Passed exam or test"
-      ]
+      "tags": ["reading", "verify", "check", "done", "homework", "test", "pass", "study", "documentation"],
+      "use-cases": ["Verified documentation", "Completed tutorial", "Passed exam or test"]
     }
   }
 }

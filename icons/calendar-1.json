@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "单一事件日期选择器",
-    "预约安排",
-    "每日议程视图"
-  ],
+  "use-cases": ["单一事件日期选择器", "预约安排", "每日议程视图"],
   "name": "日历1",
-  "tags": [
-    "日历",
-    "日期",
-    "事件",
-    "日程",
-    "月历",
-    "单日",
-    "计划"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日历", "日期", "事件", "日程", "月历", "单日", "计划"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar 1",
-      "tags": [
-        "calendar",
-        "date",
-        "event",
-        "schedule",
-        "month",
-        "single day",
-        "planning"
-      ],
-      "use-cases": [
-        "Single event date picker",
-        "Appointment scheduling",
-        "Daily agenda view"
-      ]
+      "tags": ["calendar", "date", "event", "schedule", "month", "single day", "planning"],
+      "use-cases": ["Single event date picker", "Appointment scheduling", "Daily agenda view"]
     }
   }
 }

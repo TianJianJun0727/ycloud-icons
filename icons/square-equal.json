@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "计算器或数学UI中的等于运算符",
-    "数学等式图标",
-    "比较功能"
-  ],
+  "use-cases": ["计算器或数学UI中的等于运算符", "数学等式图标", "比较功能"],
   "name": "方形等于",
-  "tags": [
-    "等于号",
-    "等式",
-    "数学",
-    "计算",
-    "方形",
-    "运算符"
-  ],
-  "categories": [
-    "math"
-  ],
+  "tags": ["等于号", "等式", "数学", "计算", "方形", "运算符"],
+  "categories": ["math"],
   "aliases": [
     {
       "name": "equal-square",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square equal",
-      "tags": [
-        "equal",
-        "equality",
-        "math",
-        "calculate",
-        "square",
-        "operator"
-      ],
-      "use-cases": [
-        "Equality operator in a calculator or math UI",
-        "Mathematical equation icon",
-        "Comparison function"
-      ]
+      "tags": ["equal", "equality", "math", "calculate", "square", "operator"],
+      "use-cases": ["Equality operator in a calculator or math UI", "Mathematical equation icon", "Comparison function"]
     }
   }
 }

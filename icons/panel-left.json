@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "左侧边栏面板",
-    "固定导航区域",
-    "界面布局容器"
-  ],
+  "use-cases": ["左侧边栏面板", "固定导航区域", "界面布局容器"],
   "name": "面板左",
-  "tags": [
-    "侧边栏",
-    "面板",
-    "布局",
-    "容器",
-    "区域",
-    "左侧"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["侧边栏", "面板", "布局", "容器", "区域", "左侧"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "sidebar",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "panel left",
-      "tags": [
-        "sidebar",
-        "panel",
-        "layout",
-        "container",
-        "area",
-        "left"
-      ],
-      "use-cases": [
-        "Left sidebar panel",
-        "Fixed navigation area",
-        "UI layout container"
-      ]
+      "tags": ["sidebar", "panel", "layout", "container", "area", "left"],
+      "use-cases": ["Left sidebar panel", "Fixed navigation area", "UI layout container"]
     }
   }
 }

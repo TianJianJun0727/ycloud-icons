@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据可视化仪表板",
-    "统计分析界面"
-  ],
+  "use-cases": ["数据可视化仪表板", "统计分析界面"],
   "name": "图表无坐标轴列",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "柱状图",
-    "数据"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "柱状图", "数据"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "bar-chart-2",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart no axes column",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "column chart",
-        "data"
-      ],
-      "use-cases": [
-        "Data visualization dashboard",
-        "Statistical analysis interface"
-      ]
+      "tags": ["statistics", "analytics", "chart", "column chart", "data"],
+      "use-cases": ["Data visualization dashboard", "Statistical analysis interface"]
     }
   }
 }

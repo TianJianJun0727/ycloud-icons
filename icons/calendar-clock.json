@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安排具体时间",
-    "设置活动提醒",
-    "预约时间",
-    "有时间限制的日历条目"
-  ],
+  "use-cases": ["安排具体时间", "设置活动提醒", "预约时间", "有时间限制的日历条目"],
   "name": "日历时钟",
-  "tags": [
-    "日期",
-    "日历",
-    "时间",
-    "时钟",
-    "日程",
-    "事件",
-    "提醒",
-    "约会"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日期", "日历", "时间", "时钟", "日程", "事件", "提醒", "约会"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar clock",
-      "tags": [
-        "date",
-        "calendar",
-        "time",
-        "clock",
-        "schedule",
-        "event",
-        "reminder",
-        "appointment"
-      ],
-      "use-cases": [
-        "Schedule with specific time",
-        "Set event reminder",
-        "Appointment time",
-        "Time-bound calendar entry"
-      ]
+      "tags": ["date", "calendar", "time", "clock", "schedule", "event", "reminder", "appointment"],
+      "use-cases": ["Schedule with specific time", "Set event reminder", "Appointment time", "Time-bound calendar entry"]
     }
   }
 }

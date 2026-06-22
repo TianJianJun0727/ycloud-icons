@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开设置或配置菜单",
-    "表示维护或工具功能",
-    "用户账户管理入口"
-  ],
+  "use-cases": ["打开设置或配置菜单", "表示维护或工具功能", "用户账户管理入口"],
   "name": "扳手",
-  "tags": [
-    "设置",
-    "工具",
-    "维护",
-    "配置",
-    "账户",
-    "扳手",
-    "调整"
-  ],
-  "categories": [
-    "account",
-    "development",
-    "tools"
-  ],
+  "tags": ["设置", "工具", "维护", "配置", "账户", "扳手", "调整"],
+  "categories": ["account", "development", "tools"],
   "i18n": {
     "en": {
       "name": "wrench",
-      "tags": [
-        "settings",
-        "tool",
-        "maintenance",
-        "configuration",
-        "account",
-        "wrench",
-        "adjust"
-      ],
-      "use-cases": [
-        "Opening settings or configuration menu",
-        "Representing maintenance or tool functionality",
-        "User account management entry point"
-      ]
+      "tags": ["settings", "tool", "maintenance", "configuration", "account", "wrench", "adjust"],
+      "use-cases": ["Opening settings or configuration menu", "Representing maintenance or tool functionality", "User account management entry point"]
     }
   }
 }

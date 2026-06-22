@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表单必填字段标记",
-    "代码通配符运算符",
-    "乘法符号"
-  ],
+  "use-cases": ["表单必填字段标记", "代码通配符运算符", "乘法符号"],
   "name": "星号",
-  "tags": [
-    "通配符",
-    "乘法",
-    "运算符",
-    "代码",
-    "必填字段"
-  ],
-  "categories": [
-    "text",
-    "math",
-    "development"
-  ],
+  "tags": ["通配符", "乘法", "运算符", "代码", "必填字段"],
+  "categories": ["text", "math", "development"],
   "i18n": {
     "en": {
       "name": "asterisk",
-      "tags": [
-        "wildcard",
-        "multiplication",
-        "operator",
-        "code",
-        "required field"
-      ],
-      "use-cases": [
-        "Form required field marker",
-        "Code wildcard operator",
-        "Multiplication symbol"
-      ]
+      "tags": ["wildcard", "multiplication", "operator", "code", "required field"],
+      "use-cases": ["Form required field marker", "Code wildcard operator", "Multiplication symbol"]
     }
   }
 }

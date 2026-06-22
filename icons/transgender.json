@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户资料性别选择",
-    "多样性与包容性内容",
-    "医疗保健表单选项"
-  ],
+  "use-cases": ["用户资料性别选择", "多样性与包容性内容", "医疗保健表单选项"],
   "name": "跨性别",
-  "tags": [
-    "跨性别",
-    "性别认同",
-    "多样性",
-    "包容性",
-    "平等"
-  ],
-  "categories": [
-    "medical",
-    "accessibility"
-  ],
+  "tags": ["跨性别", "性别认同", "多样性", "包容性", "平等"],
+  "categories": ["medical", "accessibility"],
   "i18n": {
     "en": {
       "name": "transgender",
-      "tags": [
-        "transgender",
-        "gender identity",
-        "diversity",
-        "inclusion",
-        "equality"
-      ],
-      "use-cases": [
-        "User profile gender selection",
-        "Diversity and inclusion content",
-        "Healthcare form options"
-      ]
+      "tags": ["transgender", "gender identity", "diversity", "inclusion", "equality"],
+      "use-cases": ["User profile gender selection", "Diversity and inclusion content", "Healthcare form options"]
     }
   }
 }

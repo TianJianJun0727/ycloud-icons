@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已完成任务文件夹",
-    "已验证文档",
-    "审批状态"
-  ],
+  "use-cases": ["已完成任务文件夹", "已验证文档", "审批状态"],
   "name": "文件夹勾选",
-  "tags": [
-    "完成",
-    "验证",
-    "通过",
-    "确认",
-    "任务完成"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["完成", "验证", "通过", "确认", "任务完成"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder check",
-      "tags": [
-        "done",
-        "verified",
-        "approved",
-        "confirmed",
-        "task completion"
-      ],
-      "use-cases": [
-        "Completed tasks folder",
-        "Verified documents",
-        "Approval status"
-      ]
+      "tags": ["done", "verified", "approved", "confirmed", "task completion"],
+      "use-cases": ["Completed tasks folder", "Verified documents", "Approval status"]
     }
   }
 }

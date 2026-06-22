@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "可展开菜单切换",
-    "显示更多内容",
-    "手风琴式区域",
-    "降序排序"
-  ],
+  "use-cases": ["可展开菜单切换", "显示更多内容", "手风琴式区域", "降序排序"],
   "name": "折角箭头下",
-  "tags": [
-    "向下",
-    "展开",
-    "下拉",
-    "箭头",
-    "折叠",
-    "菜单",
-    "更多"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向下", "展开", "下拉", "箭头", "折叠", "菜单", "更多"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "chevron down",
-      "tags": [
-        "down",
-        "expand",
-        "dropdown",
-        "arrow",
-        "collapse",
-        "menu",
-        "more"
-      ],
-      "use-cases": [
-        "Expandable menu toggle",
-        "Show more content",
-        "Accordion section",
-        "Sort descending"
-      ]
+      "tags": ["down", "expand", "dropdown", "arrow", "collapse", "menu", "more"],
+      "use-cases": ["Expandable menu toggle", "Show more content", "Accordion section", "Sort descending"]
     }
   }
 }

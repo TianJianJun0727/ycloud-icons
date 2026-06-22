@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置目录",
-    "配置文件",
-    "系统偏好文件夹"
-  ],
+  "use-cases": ["设置目录", "配置文件", "系统偏好文件夹"],
   "name": "文件夹齿轮",
-  "tags": [
-    "设置",
-    "配置",
-    "偏好",
-    "系统",
-    "管理"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["设置", "配置", "偏好", "系统", "管理"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "folder-cog-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "folder cog",
-      "tags": [
-        "settings",
-        "configuration",
-        "preferences",
-        "system",
-        "management"
-      ],
-      "use-cases": [
-        "Settings directory",
-        "Configuration files",
-        "System preferences folder"
-      ]
+      "tags": ["settings", "configuration", "preferences", "system", "management"],
+      "use-cases": ["Settings directory", "Configuration files", "System preferences folder"]
     }
   }
 }

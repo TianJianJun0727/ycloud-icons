@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用的媒体播放器按钮",
-    "内容限制指示器",
-    "播放被阻止状态"
-  ],
+  "use-cases": ["禁用的媒体播放器按钮", "内容限制指示器", "播放被阻止状态"],
   "name": "播放关闭",
-  "tags": [
-    "播放禁用",
-    "暂停",
-    "阻止",
-    "不可用",
-    "媒体控制"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["播放禁用", "暂停", "阻止", "不可用", "媒体控制"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "play off",
-      "tags": [
-        "playback disabled",
-        "pause",
-        "blocked",
-        "unavailable",
-        "media control"
-      ],
-      "use-cases": [
-        "Disabled media player button",
-        "Content restriction indicator",
-        "Playback blocked state"
-      ]
+      "tags": ["playback disabled", "pause", "blocked", "unavailable", "media control"],
+      "use-cases": ["Disabled media player button", "Content restriction indicator", "Playback blocked state"]
     }
   }
 }

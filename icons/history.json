@@ -1,49 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "浏览器历史导航",
-    "版本控制界面",
-    "撤销/重做功能",
-    "时间筛选功能"
-  ],
+  "use-cases": ["浏览器历史导航", "版本控制界面", "撤销/重做功能", "时间筛选功能"],
   "name": "历史",
-  "tags": [
-    "时间",
-    "历史记录",
-    "撤销",
-    "重做",
-    "时间线",
-    "版本控制",
-    "备份",
-    "回退",
-    "旋转",
-    "逆时针"
-  ],
-  "categories": [
-    "arrows",
-    "time"
-  ],
+  "tags": ["时间", "历史记录", "撤销", "重做", "时间线", "版本控制", "备份", "回退", "旋转", "逆时针"],
+  "categories": ["arrows", "time"],
   "i18n": {
     "en": {
       "name": "history",
-      "tags": [
-        "time",
-        "history",
-        "undo",
-        "redo",
-        "timeline",
-        "version control",
-        "backup",
-        "rewind",
-        "rotate",
-        "counterclockwise"
-      ],
-      "use-cases": [
-        "Browser history navigation",
-        "Version control interface",
-        "Undo/redo functionality",
-        "Time-based filtering"
-      ]
+      "tags": ["time", "history", "undo", "redo", "timeline", "version control", "backup", "rewind", "rotate", "counterclockwise"],
+      "use-cases": ["Browser history navigation", "Version control interface", "Undo/redo functionality", "Time-based filtering"]
     }
   }
 }

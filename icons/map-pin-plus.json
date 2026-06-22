@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加位置图钉",
-    "创建地图标记",
-    "固定新位置"
-  ],
+  "use-cases": ["添加位置图钉", "创建地图标记", "固定新位置"],
   "name": "地图图钉加号",
-  "tags": [
-    "位置",
-    "标记",
-    "添加",
-    "创建",
-    "新增",
-    "固定位置"
-  ],
-  "categories": [
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["位置", "标记", "添加", "创建", "新增", "固定位置"],
+  "categories": ["navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pin plus",
-      "tags": [
-        "location",
-        "marker",
-        "add",
-        "create",
-        "new",
-        "pin"
-      ],
-      "use-cases": [
-        "Add location pin",
-        "Create map marker",
-        "Pin new location"
-      ]
+      "tags": ["location", "marker", "add", "create", "new", "pin"],
+      "use-cases": ["Add location pin", "Create map marker", "Pin new location"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "危险物质警告",
-    "科学实验界面",
-    "核能相关设置"
-  ],
+  "use-cases": ["危险物质警告", "科学实验界面", "核能相关设置"],
   "name": "辐射",
-  "tags": [
-    "辐射",
-    "放射性",
-    "核",
-    "危险",
-    "警告",
-    "科学"
-  ],
-  "categories": [
-    "science"
-  ],
+  "tags": ["辐射", "放射性", "核", "危险", "警告", "科学"],
+  "categories": ["science"],
   "i18n": {
     "en": {
       "name": "radiation",
-      "tags": [
-        "radiation",
-        "radioactive",
-        "nuclear",
-        "danger",
-        "warning",
-        "science"
-      ],
-      "use-cases": [
-        "Hazardous material warning",
-        "Science experiment interface",
-        "Nuclear energy related settings"
-      ]
+      "tags": ["radiation", "radioactive", "nuclear", "danger", "warning", "science"],
+      "use-cases": ["Hazardous material warning", "Science experiment interface", "Nuclear energy related settings"]
     }
   }
 }

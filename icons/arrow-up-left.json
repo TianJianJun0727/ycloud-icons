@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "对角线导航",
-    "最小化窗口",
-    "移动到左上角"
-  ],
+  "use-cases": ["对角线导航", "最小化窗口", "移动到左上角"],
   "name": "箭头上左",
-  "tags": [
-    "方向",
-    "西北",
-    "对角线",
-    "返回",
-    "退出"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "西北", "对角线", "返回", "退出"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow up left",
-      "tags": [
-        "direction",
-        "northwest",
-        "diagonal",
-        "back",
-        "exit"
-      ],
-      "use-cases": [
-        "Diagonal navigation",
-        "Minimize window",
-        "Move to top-left corner"
-      ]
+      "tags": ["direction", "northwest", "diagonal", "back", "exit"],
+      "use-cases": ["Diagonal navigation", "Minimize window", "Move to top-left corner"]
     }
   }
 }

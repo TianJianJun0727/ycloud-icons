@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "搜索文件包",
-    "查找软件模块",
-    "定位数据归档"
-  ],
+  "use-cases": ["搜索文件包", "查找软件模块", "定位数据归档"],
   "name": "包搜索",
-  "tags": [
-    "搜索",
-    "查找",
-    "定位",
-    "查询",
-    "检索"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["搜索", "查找", "定位", "查询", "检索"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "package search",
-      "tags": [
-        "search",
-        "find",
-        "locate",
-        "query",
-        "retrieve"
-      ],
-      "use-cases": [
-        "Search for file package",
-        "Find software module",
-        "Locate data archive"
-      ]
+      "tags": ["search", "find", "locate", "query", "retrieve"],
+      "use-cases": ["Search for file package", "Find software module", "Locate data archive"]
     }
   }
 }

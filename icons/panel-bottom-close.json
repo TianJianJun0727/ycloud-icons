@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "底部面板收起",
-    "UI抽屉关闭",
-    "界面最小化",
-    "布局控制"
-  ],
+  "use-cases": ["底部面板收起", "UI抽屉关闭", "界面最小化", "布局控制"],
   "name": "面板底部关闭",
-  "tags": [
-    "面板",
-    "底部",
-    "关闭",
-    "隐藏",
-    "折叠",
-    "UI控件",
-    "抽屉"
-  ],
-  "categories": [
-    "layout",
-    "arrows"
-  ],
+  "tags": ["面板", "底部", "关闭", "隐藏", "折叠", "UI控件", "抽屉"],
+  "categories": ["layout", "arrows"],
   "i18n": {
     "en": {
       "name": "panel bottom close",
-      "tags": [
-        "panel",
-        "bottom",
-        "close",
-        "hide",
-        "collapse",
-        "UI control",
-        "drawer"
-      ],
-      "use-cases": [
-        "Bottom panel collapse",
-        "UI drawer closing",
-        "Interface minimization",
-        "Layout control"
-      ]
+      "tags": ["panel", "bottom", "close", "hide", "collapse", "UI control", "drawer"],
+      "use-cases": ["Bottom panel collapse", "UI drawer closing", "Interface minimization", "Layout control"]
     }
   }
 }

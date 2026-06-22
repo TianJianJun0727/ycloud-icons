@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "切换播放列表的循环模式",
-    "循环播放视频或动画",
-    "持续重试某个操作"
-  ],
+  "use-cases": ["切换播放列表的循环模式", "循环播放视频或动画", "持续重试某个操作"],
   "name": "重复",
-  "tags": [
-    "重复",
-    "循环",
-    "重播",
-    "箭头"
-  ],
-  "categories": [
-    "arrows",
-    "multimedia"
-  ],
+  "tags": ["重复", "循环", "重播", "箭头"],
+  "categories": ["arrows", "multimedia"],
   "i18n": {
     "en": {
       "name": "repeat",
-      "tags": [
-        "repeat",
-        "loop",
-        "replay",
-        "arrows"
-      ],
-      "use-cases": [
-        "Toggle repeat mode for a playlist",
-        "Loop a video or animation",
-        "Retry an operation continuously"
-      ]
+      "tags": ["repeat", "loop", "replay", "arrows"],
+      "use-cases": ["Toggle repeat mode for a playlist", "Loop a video or animation", "Retry an operation continuously"]
     }
   }
 }

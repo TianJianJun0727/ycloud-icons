@@ -1,48 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从收藏中移除",
-    "取消星标项目",
-    "降低评分",
-    "取消收藏选择",
-    "移除书签"
-  ],
+  "use-cases": ["从收藏中移除", "取消星标项目", "降低评分", "取消收藏选择", "移除书签"],
   "name": "星标减少",
-  "tags": [
-    "星标",
-    "减号",
-    "移除",
-    "取消收藏",
-    "降低评分",
-    "取消星标"
-  ],
-  "categories": [
-    "account",
-    "social",
-    "shapes",
-    "multimedia",
-    "weather",
-    "emoji",
-    "gaming"
-  ],
+  "tags": ["星标", "减号", "移除", "取消收藏", "降低评分", "取消星标"],
+  "categories": ["account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"],
   "i18n": {
     "en": {
       "name": "star minus",
-      "tags": [
-        "star",
-        "minus",
-        "remove",
-        "unfavorite",
-        "lower rating",
-        "unstar"
-      ],
-      "use-cases": [
-        "Remove from favorites",
-        "Unstar item",
-        "Lower rating",
-        "Deselect favorite",
-        "Remove bookmark"
-      ]
+      "tags": ["star", "minus", "remove", "unfavorite", "lower rating", "unstar"],
+      "use-cases": ["Remove from favorites", "Unstar item", "Lower rating", "Deselect favorite", "Remove bookmark"]
     }
   }
 }

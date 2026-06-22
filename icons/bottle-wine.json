@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅酒水菜单",
-    "酒吧饮品选择",
-    "葡萄酒商店"
-  ],
+  "use-cases": ["餐厅酒水菜单", "酒吧饮品选择", "葡萄酒商店"],
   "name": "瓶子葡萄酒",
-  "tags": [
-    "葡萄酒",
-    "酒瓶",
-    "饮品",
-    "酒精饮料",
-    "红酒"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["葡萄酒", "酒瓶", "饮品", "酒精饮料", "红酒"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "bottle wine",
-      "tags": [
-        "wine",
-        "bottle",
-        "drink",
-        "alcoholic beverage",
-        "red wine"
-      ],
-      "use-cases": [
-        "Restaurant drink menu",
-        "Bar beverage selection",
-        "Wine store"
-      ]
+      "tags": ["wine", "bottle", "drink", "alcoholic beverage", "red wine"],
+      "use-cases": ["Restaurant drink menu", "Bar beverage selection", "Wine store"]
     }
   }
 }

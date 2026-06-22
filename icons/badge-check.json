@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户资料验证徽章",
-    "社交媒体认证账户",
-    "身份确认"
-  ],
+  "use-cases": ["用户资料验证徽章", "社交媒体认证账户", "身份确认"],
   "name": "徽章勾选",
-  "tags": [
-    "已验证",
-    "认证",
-    "勾选",
-    "确认",
-    "社交认证"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["已验证", "认证", "勾选", "确认", "社交认证"],
+  "categories": ["social"],
   "aliases": [
     {
       "name": "verified",
@@ -27,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "badge check",
-      "tags": [
-        "verified",
-        "check",
-        "confirmation",
-        "social"
-      ],
-      "use-cases": [
-        "User profile verification badge",
-        "Social media verified account",
-        "Identity confirmation"
-      ]
+      "tags": ["verified", "check", "confirmation", "social"],
+      "use-cases": ["User profile verification badge", "Social media verified account", "Identity confirmation"]
     }
   }
 }

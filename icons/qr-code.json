@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "扫码支付",
-    "分享链接",
-    "产品信息识别"
-  ],
+  "use-cases": ["扫码支付", "分享链接", "产品信息识别"],
   "name": "二维码代码",
-  "tags": [
-    "二维码",
-    "扫描",
-    "链接",
-    "支付",
-    "分享",
-    "条形码"
-  ],
-  "categories": [
-    "development",
-    "social"
-  ],
+  "tags": ["二维码", "扫描", "链接", "支付", "分享", "条形码"],
+  "categories": ["development", "social"],
   "i18n": {
     "en": {
       "name": "qr code",
-      "tags": [
-        "QR code",
-        "scan",
-        "link",
-        "payment",
-        "share",
-        "barcode"
-      ],
-      "use-cases": [
-        "Scan to pay",
-        "Sharing a link",
-        "Product information identification"
-      ]
+      "tags": ["QR code", "scan", "link", "payment", "share", "barcode"],
+      "use-cases": ["Scan to pay", "Sharing a link", "Product information identification"]
     }
   }
 }

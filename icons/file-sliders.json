@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "配置文件编辑器",
-    "设置面板",
-    "系统偏好设置"
-  ],
+  "use-cases": ["配置文件编辑器", "设置面板", "系统偏好设置"],
   "name": "文件滑块",
-  "tags": [
-    "配置文件",
-    "设置",
-    "选项",
-    "控制",
-    "系统"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["配置文件", "设置", "选项", "控制", "系统"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "file sliders",
-      "tags": [
-        "configuration file",
-        "settings",
-        "options",
-        "controls",
-        "system"
-      ],
-      "use-cases": [
-        "Configuration file editor",
-        "Settings panel",
-        "System preferences"
-      ]
+      "tags": ["configuration file", "settings", "options", "controls", "system"],
+      "use-cases": ["Configuration file editor", "Settings panel", "System preferences"]
     }
   }
 }

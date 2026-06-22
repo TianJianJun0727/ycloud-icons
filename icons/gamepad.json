@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频游戏界面控制",
-    "游戏配件设置",
-    "设备连接状态"
-  ],
+  "use-cases": ["视频游戏界面控制", "游戏配件设置", "设备连接状态"],
   "name": "游戏手柄",
-  "tags": [
-    "游戏手柄",
-    "控制器",
-    "游戏",
-    "设备",
-    "控制台",
-    "手柄"
-  ],
-  "categories": [
-    "gaming",
-    "devices"
-  ],
+  "tags": ["游戏手柄", "控制器", "游戏", "设备", "控制台", "手柄"],
+  "categories": ["gaming", "devices"],
   "i18n": {
     "en": {
       "name": "gamepad",
-      "tags": [
-        "gamepad",
-        "controller",
-        "gaming",
-        "console",
-        "device"
-      ],
-      "use-cases": [
-        "Video game UI controls",
-        "Gaming accessory settings",
-        "Device connection status"
-      ]
+      "tags": ["gamepad", "controller", "gaming", "console", "device"],
+      "use-cases": ["Video game UI controls", "Gaming accessory settings", "Device connection status"]
     }
   }
 }

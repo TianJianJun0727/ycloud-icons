@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "趋势分析面板",
-    "数据走势监控",
-    "时间序列图表"
-  ],
+  "use-cases": ["趋势分析面板", "数据走势监控", "时间序列图表"],
   "name": "图表线条",
-  "tags": [
-    "折线图",
-    "趋势分析",
-    "数据走势",
-    "统计分析",
-    "时间序列"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["折线图", "趋势分析", "数据走势", "统计分析", "时间序列"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "line-chart",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart line",
-      "tags": [
-        "line chart",
-        "trend analysis",
-        "data trend",
-        "statistical analysis",
-        "time series"
-      ],
-      "use-cases": [
-        "Trend analysis dashboard",
-        "Data trend monitoring",
-        "Time series chart"
-      ]
+      "tags": ["line chart", "trend analysis", "data trend", "statistical analysis", "time series"],
+      "use-cases": ["Trend analysis dashboard", "Data trend monitoring", "Time series chart"]
     }
   }
 }

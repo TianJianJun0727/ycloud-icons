@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在文档内搜索",
-    "查找参考资料",
-    "研究某个主题"
-  ],
+  "use-cases": ["在文档内搜索", "查找参考资料", "研究某个主题"],
   "name": "书籍搜索",
-  "tags": [
-    "搜索",
-    "查找",
-    "文档",
-    "研究",
-    "知识",
-    "浏览",
-    "查询",
-    "图书馆"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["搜索", "查找", "文档", "研究", "知识", "浏览", "查询", "图书馆"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book search",
-      "tags": [
-        "search",
-        "find",
-        "documentation",
-        "research",
-        "knowledge",
-        "browse",
-        "query",
-        "library"
-      ],
-      "use-cases": [
-        "Search within documentation",
-        "Look up a reference",
-        "Research a topic"
-      ]
+      "tags": ["search", "find", "documentation", "research", "knowledge", "browse", "query", "library"],
+      "use-cases": ["Search within documentation", "Look up a reference", "Research a topic"]
     }
   }
 }

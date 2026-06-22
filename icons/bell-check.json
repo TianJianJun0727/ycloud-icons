@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "消息已读状态",
-    "任务完成提醒",
-    "通知确认界面"
-  ],
+  "use-cases": ["消息已读状态", "任务完成提醒", "通知确认界面"],
   "name": "铃铛勾选",
-  "tags": [
-    "通知确认",
-    "提醒完成",
-    "已读提醒",
-    "任务完成"
-  ],
-  "categories": [
-    "account",
-    "notifications"
-  ],
+  "tags": ["通知确认", "提醒完成", "已读提醒", "任务完成"],
+  "categories": ["account", "notifications"],
   "i18n": {
     "en": {
       "name": "bell check",
-      "tags": [
-        "notification confirmed",
-        "reminder completed",
-        "read alert",
-        "task done"
-      ],
-      "use-cases": [
-        "Message read status",
-        "Task completion reminder",
-        "Notification confirmation interface"
-      ]
+      "tags": ["notification confirmed", "reminder completed", "read alert", "task done"],
+      "use-cases": ["Message read status", "Task completion reminder", "Notification confirmation interface"]
     }
   }
 }

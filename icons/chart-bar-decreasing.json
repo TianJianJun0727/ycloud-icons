@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示下降指标",
-    "负面趋势可视化",
-    "性能下降"
-  ],
+  "use-cases": ["显示下降指标", "负面趋势可视化", "性能下降"],
   "name": "图表条形下降",
-  "tags": [
-    "下降柱状图",
-    "图表",
-    "减少",
-    "趋势下降",
-    "数据"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["下降柱状图", "图表", "减少", "趋势下降", "数据"],
+  "categories": ["charts"],
   "i18n": {
     "en": {
       "name": "chart bar decreasing",
-      "tags": [
-        "decreasing bar chart",
-        "chart",
-        "decrease",
-        "trend down",
-        "data"
-      ],
-      "use-cases": [
-        "Show declining metrics",
-        "Negative trend visualization",
-        "Performance drop"
-      ]
+      "tags": ["decreasing bar chart", "chart", "decrease", "trend down", "data"],
+      "use-cases": ["Show declining metrics", "Negative trend visualization", "Performance drop"]
     }
   }
 }

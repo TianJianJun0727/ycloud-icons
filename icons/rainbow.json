@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用降水显示",
-    "调色板选择器",
-    "多样性与包容性"
-  ],
+  "use-cases": ["天气应用降水显示", "调色板选择器", "多样性与包容性"],
   "name": "彩虹",
-  "tags": [
-    "彩虹",
-    "颜色",
-    "光谱",
-    "天气",
-    "多彩",
-    "希望"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["彩虹", "颜色", "光谱", "天气", "多彩", "希望"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "rainbow",
-      "tags": [
-        "rainbow",
-        "colors",
-        "spectrum",
-        "weather",
-        "colorful",
-        "hope"
-      ],
-      "use-cases": [
-        "Weather app precipitation",
-        "Color palette selector",
-        "Diversity and inclusion"
-      ]
+      "tags": ["rainbow", "colors", "spectrum", "weather", "colorful", "hope"],
+      "use-cases": ["Weather app precipitation", "Color palette selector", "Diversity and inclusion"]
     }
   }
 }

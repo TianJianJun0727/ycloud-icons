@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档签名",
-    "编辑批准",
-    "签名字段"
-  ],
+  "use-cases": ["文档签名", "编辑批准", "签名字段"],
   "name": "文件笔",
-  "tags": [
-    "签名",
-    "编辑",
-    "文件",
-    "书写",
-    "批准"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["签名", "编辑", "文件", "书写", "批准"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-edit",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file pen",
-      "tags": [
-        "signature",
-        "edit",
-        "file",
-        "writing",
-        "approval"
-      ],
-      "use-cases": [
-        "Document signing",
-        "Edit approval",
-        "Signature field"
-      ]
+      "tags": ["signature", "edit", "file", "writing", "approval"],
+      "use-cases": ["Document signing", "Edit approval", "Signature field"]
     }
   }
 }

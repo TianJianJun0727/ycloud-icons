@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "光标状态",
-    "无障碍功能",
-    "交互元素"
-  ],
+  "use-cases": ["光标状态", "无障碍功能", "交互元素"],
   "name": "手",
-  "tags": [
-    "手",
-    "光标",
-    "移动",
-    "交互",
-    "无障碍"
-  ],
-  "categories": [
-    "cursors",
-    "accessibility"
-  ],
+  "tags": ["手", "光标", "移动", "交互", "无障碍"],
+  "categories": ["cursors", "accessibility"],
   "i18n": {
     "en": {
       "name": "hand",
-      "tags": [
-        "hand",
-        "cursor",
-        "move",
-        "interaction",
-        "accessibility"
-      ],
-      "use-cases": [
-        "Cursor states",
-        "Accessibility features",
-        "Interactive elements"
-      ]
+      "tags": ["hand", "cursor", "move", "interaction", "accessibility"],
+      "use-cases": ["Cursor states", "Accessibility features", "Interactive elements"]
     }
   }
 }

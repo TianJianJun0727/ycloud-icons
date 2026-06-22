@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "空调控制界面",
-    "通风系统设置",
-    "温度调节面板"
-  ],
+  "use-cases": ["空调控制界面", "通风系统设置", "温度调节面板"],
   "name": "通风口",
-  "tags": [
-    "通风",
-    "空调",
-    "出风口",
-    "制冷",
-    "温控",
-    "换气"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["通风", "空调", "出风口", "制冷", "温控", "换气"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "air vent",
-      "tags": [
-        "ventilation",
-        "air conditioner",
-        "vent",
-        "cooling",
-        "climate control",
-        "airflow"
-      ],
-      "use-cases": [
-        "AC control interface",
-        "ventilation system settings",
-        "temperature adjustment panel"
-      ]
+      "tags": ["ventilation", "air conditioner", "vent", "cooling", "climate control", "airflow"],
+      "use-cases": ["AC control interface", "ventilation system settings", "temperature adjustment panel"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "以指定名称或位置保存文件",
-    "以不同格式导出文档",
-    "重命名并保存副本"
-  ],
+  "use-cases": ["以指定名称或位置保存文件", "以不同格式导出文档", "重命名并保存副本"],
   "name": "保存笔",
-  "tags": [
-    "另存为",
-    "重命名保存",
-    "编辑保存",
-    "指定保存",
-    "导出"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["另存为", "重命名保存", "编辑保存", "指定保存", "导出"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "save pen",
-      "tags": [
-        "save as",
-        "rename and save",
-        "edit save",
-        "save specific",
-        "export"
-      ],
-      "use-cases": [
-        "Save file with a specific name or location",
-        "Export document with different format",
-        "Rename and save a copy"
-      ]
+      "tags": ["save as", "rename and save", "edit save", "save specific", "export"],
+      "use-cases": ["Save file with a specific name or location", "Export document with different format", "Rename and save a copy"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "点餐应用",
-    "餐厅菜单",
-    "快餐服务"
-  ],
+  "use-cases": ["点餐应用", "餐厅菜单", "快餐服务"],
   "name": "汉堡",
-  "tags": [
-    "汉堡",
-    "快餐",
-    "食品",
-    "餐厅",
-    "美食"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["汉堡", "快餐", "食品", "餐厅", "美食"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "hamburger",
-      "tags": [
-        "burger",
-        "fast food",
-        "food",
-        "restaurant",
-        "meal"
-      ],
-      "use-cases": [
-        "Food ordering apps",
-        "Restaurant menus",
-        "Fast food services"
-      ]
+      "tags": ["burger", "fast food", "food", "restaurant", "meal"],
+      "use-cases": ["Food ordering apps", "Restaurant menus", "Fast food services"]
     }
   }
 }

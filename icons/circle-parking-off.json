@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁止停车区地图图标",
-    "停车场关闭标志",
-    "应用中停车功能禁用"
-  ],
+  "use-cases": ["禁止停车区地图图标", "停车场关闭标志", "应用中停车功能禁用"],
   "name": "圆形停车关闭",
-  "tags": [
-    "禁止停车",
-    "无停车位",
-    "停车场关闭",
-    "交通标志",
-    "不可停车"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["禁止停车", "无停车位", "停车场关闭", "交通标志", "不可停车"],
+  "categories": ["transportation", "navigation"],
   "aliases": [
     {
       "name": "parking-circle-off",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle parking off",
-      "tags": [
-        "no parking",
-        "parking prohibited",
-        "parking lot closed",
-        "traffic sign",
-        "parking unavailable"
-      ],
-      "use-cases": [
-        "No parking zone map icon",
-        "Parking facility closed sign",
-        "Disabled parking feature in app"
-      ]
+      "tags": ["no parking", "parking prohibited", "parking lot closed", "traffic sign", "parking unavailable"],
+      "use-cases": ["No parking zone map icon", "Parking facility closed sign", "Disabled parking feature in app"]
     }
   }
 }

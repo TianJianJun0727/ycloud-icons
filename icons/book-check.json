@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已完成的阅读列表",
-    "已验证的文档",
-    "作业或任务跟踪器",
-    "学习应用中的检查清单"
-  ],
+  "use-cases": ["已完成的阅读列表", "已验证的文档", "作业或任务跟踪器", "学习应用中的检查清单"],
   "name": "书籍勾选",
-  "tags": [
-    "已验证",
-    "已检查",
-    "完成",
-    "任务完成",
-    "作业",
-    "学习",
-    "研究",
-    "文档",
-    "正确",
-    "打勾"
-  ],
-  "categories": [
-    "text",
-    "development",
-    "gaming"
-  ],
+  "tags": ["已验证", "已检查", "完成", "任务完成", "作业", "学习", "研究", "文档", "正确", "打勾"],
+  "categories": ["text", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "book check",
-      "tags": [
-        "verified",
-        "checked",
-        "completed",
-        "task done",
-        "homework",
-        "study",
-        "research",
-        "documentation",
-        "correct",
-        "tick"
-      ],
-      "use-cases": [
-        "Completed reading list",
-        "Verified documentation",
-        "Homework or assignment tracker",
-        "Checklist in a study app"
-      ]
+      "tags": ["verified", "checked", "completed", "task done", "homework", "study", "research", "documentation", "correct", "tick"],
+      "use-cases": ["Completed reading list", "Verified documentation", "Homework or assignment tracker", "Checklist in a study app"]
     }
   }
 }

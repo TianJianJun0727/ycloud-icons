@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅菜单图标",
-    "食品配送应用",
-    "食谱应用"
-  ],
+  "use-cases": ["餐厅菜单图标", "食品配送应用", "食谱应用"],
   "name": "牛肉",
-  "tags": [
-    "牛肉",
-    "肉类",
-    "餐饮",
-    "烧烤",
-    "牛排"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["牛肉", "肉类", "餐饮", "烧烤", "牛排"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "beef",
-      "tags": [
-        "beef",
-        "meat",
-        "dining",
-        "bbq",
-        "steak"
-      ],
-      "use-cases": [
-        "Restaurant menu icon",
-        "Food delivery app",
-        "Recipe application"
-      ]
+      "tags": ["beef", "meat", "dining", "bbq", "steak"],
+      "use-cases": ["Restaurant menu icon", "Food delivery app", "Recipe application"]
     }
   }
 }

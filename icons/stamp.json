@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档批准",
-    "认证徽章",
-    "官方印章",
-    "标记为已验证",
-    "设计工具"
-  ],
+  "use-cases": ["文档批准", "认证徽章", "官方印章", "标记为已验证", "设计工具"],
   "name": "印章",
-  "tags": [
-    "印章",
-    "标记",
-    "盖章",
-    "批准",
-    "认证",
-    "确认",
-    "工具"
-  ],
-  "categories": [
-    "design",
-    "cursors",
-    "tools"
-  ],
+  "tags": ["印章", "标记", "盖章", "批准", "认证", "确认", "工具"],
+  "categories": ["design", "cursors", "tools"],
   "i18n": {
     "en": {
       "name": "stamp",
-      "tags": [
-        "stamp",
-        "mark",
-        "seal",
-        "approve",
-        "certify",
-        "confirm",
-        "tool"
-      ],
-      "use-cases": [
-        "Document approval",
-        "Certification badge",
-        "Official seal",
-        "Mark as verified",
-        "Design tool"
-      ]
+      "tags": ["stamp", "mark", "seal", "approve", "certify", "confirm", "tool"],
+      "use-cases": ["Document approval", "Certification badge", "Official seal", "Mark as verified", "Design tool"]
     }
   }
 }

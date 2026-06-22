@@ -1,29 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "心率监测显示",
-    "健身追踪器界面",
-    "医疗生命体征仪表板",
-    "运动活动指示器",
-    "医院病人监护仪"
-  ],
+  "use-cases": ["心率监测显示", "健身追踪器界面", "医疗生命体征仪表板", "运动活动指示器", "医院病人监护仪"],
   "name": "方形活动",
-  "tags": [
-    "活动监测",
-    "脉搏",
-    "心率",
-    "医疗",
-    "健身",
-    "生命体征",
-    "运动",
-    "心电图"
-  ],
-  "categories": [
-    "medical",
-    "social",
-    "science",
-    "multimedia"
-  ],
+  "tags": ["活动监测", "脉搏", "心率", "医疗", "健身", "生命体征", "运动", "心电图"],
+  "categories": ["medical", "social", "science", "multimedia"],
   "aliases": [
     {
       "name": "activity-square",
@@ -35,23 +15,8 @@
   "i18n": {
     "en": {
       "name": "square activity",
-      "tags": [
-        "activity monitor",
-        "pulse",
-        "heart rate",
-        "medical",
-        "fitness",
-        "vital signs",
-        "exercise",
-        "ECG"
-      ],
-      "use-cases": [
-        "Heart rate monitoring display",
-        "Fitness tracker interface",
-        "Medical vital signs dashboard",
-        "Exercise activity indicator",
-        "Hospital patient monitor"
-      ]
+      "tags": ["activity monitor", "pulse", "heart rate", "medical", "fitness", "vital signs", "exercise", "ECG"],
+      "use-cases": ["Heart rate monitoring display", "Fitness tracker interface", "Medical vital signs dashboard", "Exercise activity indicator", "Hospital patient monitor"]
     }
   }
 }

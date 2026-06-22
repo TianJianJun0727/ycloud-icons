@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "隐私浏览模式",
-    "匿名用户头像",
-    "安全与隐私功能"
-  ],
+  "use-cases": ["隐私浏览模式", "匿名用户头像", "安全与隐私功能"],
   "name": "帽子眼镜",
-  "tags": [
-    "匿名",
-    "隐私",
-    "伪装",
-    "隐身",
-    "侦探",
-    "身份隐藏"
-  ],
-  "categories": [
-    "social",
-    "account",
-    "security"
-  ],
+  "tags": ["匿名", "隐私", "伪装", "隐身", "侦探", "身份隐藏"],
+  "categories": ["social", "account", "security"],
   "i18n": {
     "en": {
       "name": "hat glasses",
-      "tags": [
-        "incognito",
-        "privacy",
-        "disguise",
-        "stealth",
-        "detective",
-        "identity concealment"
-      ],
-      "use-cases": [
-        "Private browsing mode",
-        "Anonymous user avatar",
-        "Security and privacy features"
-      ]
+      "tags": ["incognito", "privacy", "disguise", "stealth", "detective", "identity concealment"],
+      "use-cases": ["Private browsing mode", "Anonymous user avatar", "Security and privacy features"]
     }
   }
 }

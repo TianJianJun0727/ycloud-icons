@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从收藏中移除",
-    "拒绝项目",
-    "取消星标",
-    "删除评分",
-    "从精选排除"
-  ],
+  "use-cases": ["从收藏中移除", "拒绝项目", "取消星标", "删除评分", "从精选排除"],
   "name": "星标关闭",
-  "tags": [
-    "星标",
-    "关闭",
-    "取消",
-    "拒绝",
-    "移除",
-    "错误",
-    "删除"
-  ],
-  "categories": [
-    "account",
-    "social",
-    "shapes",
-    "multimedia",
-    "weather",
-    "emoji",
-    "gaming"
-  ],
+  "tags": ["星标", "关闭", "取消", "拒绝", "移除", "错误", "删除"],
+  "categories": ["account", "social", "shapes", "multimedia", "weather", "emoji", "gaming"],
   "i18n": {
     "en": {
       "name": "star X",
-      "tags": [
-        "star",
-        "x",
-        "cancel",
-        "reject",
-        "remove",
-        "error",
-        "delete"
-      ],
-      "use-cases": [
-        "Remove from favorites",
-        "Reject item",
-        "Cancel star",
-        "Delete rating",
-        "Exclude from featured"
-      ]
+      "tags": ["star", "x", "cancel", "reject", "remove", "error", "delete"],
+      "use-cases": ["Remove from favorites", "Reject item", "Cancel star", "Delete rating", "Exclude from featured"]
     }
   }
 }

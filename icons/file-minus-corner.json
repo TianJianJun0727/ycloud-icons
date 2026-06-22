@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除文件操作",
-    "删除选项",
-    "文件管理"
-  ],
+  "use-cases": ["移除文件操作", "删除选项", "文件管理"],
   "name": "文件减少角落",
-  "tags": [
-    "删除",
-    "移除",
-    "文件",
-    "角落",
-    "操作"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["删除", "移除", "文件", "角落", "操作"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-minus-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file minus corner",
-      "tags": [
-        "delete",
-        "remove",
-        "file",
-        "corner",
-        "action"
-      ],
-      "use-cases": [
-        "Remove file action",
-        "Delete option",
-        "File management"
-      ]
+      "tags": ["delete", "remove", "file", "corner", "action"],
+      "use-cases": ["Remove file action", "Delete option", "File management"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "员工工牌",
-    "会议通行证",
-    "安全门禁",
-    "访客识别"
-  ],
+  "use-cases": ["员工工牌", "会议通行证", "安全门禁", "访客识别"],
   "name": "ID卡片挂绳",
-  "tags": [
-    "工牌",
-    "挂绳",
-    "员工证",
-    "门禁卡",
-    "身份标识"
-  ],
-  "categories": [
-    "security",
-    "account"
-  ],
+  "tags": ["工牌", "挂绳", "员工证", "门禁卡", "身份标识"],
+  "categories": ["security", "account"],
   "i18n": {
     "en": {
       "name": "id card lanyard",
-      "tags": [
-        "badge",
-        "lanyard",
-        "employee ID",
-        "access card",
-        "identification"
-      ],
-      "use-cases": [
-        "Employee badge",
-        "Conference pass",
-        "Security access",
-        "Visitor identification"
-      ]
+      "tags": ["badge", "lanyard", "employee ID", "access card", "identification"],
+      "use-cases": ["Employee badge", "Conference pass", "Security access", "Visitor identification"]
     }
   }
 }

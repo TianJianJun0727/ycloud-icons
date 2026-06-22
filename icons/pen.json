@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本批注工具",
-    "文档签署界面",
-    "笔记应用图标"
-  ],
+  "use-cases": ["文本批注工具", "文档签署界面", "笔记应用图标"],
   "name": "笔",
-  "tags": [
-    "笔",
-    "书写",
-    "编辑",
-    "注释",
-    "签字",
-    "文具"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "tools"
-  ],
+  "tags": ["笔", "书写", "编辑", "注释", "签字", "文具"],
+  "categories": ["text", "design", "tools"],
   "aliases": [
     {
       "name": "edit-2",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "pen",
-      "tags": [
-        "pen",
-        "write",
-        "edit",
-        "annotate",
-        "sign",
-        "stationery"
-      ],
-      "use-cases": [
-        "Text annotation tool",
-        "Document signing interface",
-        "Note-taking app icon"
-      ]
+      "tags": ["pen", "write", "edit", "annotate", "sign", "stationery"],
+      "use-cases": ["Text annotation tool", "Document signing interface", "Note-taking app icon"]
     }
   }
 }

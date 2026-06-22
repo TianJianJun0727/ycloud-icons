@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户个人资料中的星座显示",
-    "占星或运势应用",
-    "代表活力或主动性"
-  ],
+  "use-cases": ["用户个人资料中的星座显示", "占星或运势应用", "代表活力或主动性"],
   "name": "星座白羊座",
-  "tags": [
-    "白羊座",
-    "星座",
-    "占星",
-    "公羊",
-    "火象",
-    "活力"
-  ],
-  "categories": [
-    "social",
-    "emoji"
-  ],
+  "tags": ["白羊座", "星座", "占星", "公羊", "火象", "活力"],
+  "categories": ["social", "emoji"],
   "i18n": {
     "en": {
       "name": "zodiac aries",
-      "tags": [
-        "aries",
-        "zodiac",
-        "astrology",
-        "ram",
-        "fire sign",
-        "energy"
-      ],
-      "use-cases": [
-        "Zodiac sign display in user profiles",
-        "Astrology or horoscope applications",
-        "Representing energy or initiative"
-      ]
+      "tags": ["aries", "zodiac", "astrology", "ram", "fire sign", "energy"],
+      "use-cases": ["Zodiac sign display in user profiles", "Astrology or horoscope applications", "Representing energy or initiative"]
     }
   }
 }

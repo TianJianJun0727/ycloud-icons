@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计应用中的草图工具",
-    "草稿模式指示器",
-    "手绘图标"
-  ],
+  "use-cases": ["设计应用中的草图工具", "草稿模式指示器", "手绘图标"],
   "name": "铅笔线条",
-  "tags": [
-    "铅笔",
-    "素描",
-    "草图",
-    "绘图",
-    "手绘",
-    "草稿"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "tools"
-  ],
+  "tags": ["铅笔", "素描", "草图", "绘图", "手绘", "草稿"],
+  "categories": ["text", "design", "tools"],
   "i18n": {
     "en": {
       "name": "pencil line",
-      "tags": [
-        "pencil",
-        "sketch",
-        "draft",
-        "drawing",
-        "hand-drawn",
-        "rough"
-      ],
-      "use-cases": [
-        "Sketching tool in design app",
-        "Drafting mode indicator",
-        "Freehand drawing icon"
-      ]
+      "tags": ["pencil", "sketch", "draft", "drawing", "hand-drawn", "rough"],
+      "use-cases": ["Sketching tool in design app", "Drafting mode indicator", "Freehand drawing icon"]
     }
   }
 }

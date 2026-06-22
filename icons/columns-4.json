@@ -1,51 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "四列网格布局",
-    "数据表格结构",
-    "图库或作品集网格",
-    "表单布局"
-  ],
+  "use-cases": ["四列网格布局", "数据表格结构", "图库或作品集网格", "表单布局"],
   "name": "列4",
-  "tags": [
-    "布局",
-    "列",
-    "分栏",
-    "四列",
-    "网格",
-    "排版",
-    "分割",
-    "对齐",
-    "表格",
-    "页面"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "text",
-    "security"
-  ],
+  "tags": ["布局", "列", "分栏", "四列", "网格", "排版", "分割", "对齐", "表格", "页面"],
+  "categories": ["layout", "design", "text", "security"],
   "i18n": {
     "en": {
       "name": "columns 4",
-      "tags": [
-        "layout",
-        "columns",
-        "grid",
-        "four",
-        "split",
-        "alignment",
-        "table",
-        "pages",
-        "typography",
-        "gutter"
-      ],
-      "use-cases": [
-        "Four-column grid layout",
-        "Data table structure",
-        "Gallery or portfolio grid",
-        "Form layout"
-      ]
+      "tags": ["layout", "columns", "grid", "four", "split", "alignment", "table", "pages", "typography", "gutter"],
+      "use-cases": ["Four-column grid layout", "Data table structure", "Gallery or portfolio grid", "Form layout"]
     }
   }
 }

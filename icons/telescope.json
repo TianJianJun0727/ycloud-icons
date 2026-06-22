@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天文应用",
-    "代码探索工具",
-    "科学观测界面"
-  ],
+  "use-cases": ["天文应用", "代码探索工具", "科学观测界面"],
   "name": "望远镜",
-  "tags": [
-    "望远镜",
-    "天文",
-    "观察",
-    "探索",
-    "科学",
-    "开发",
-    "聚焦"
-  ],
-  "categories": [
-    "science",
-    "development",
-    "tools"
-  ],
+  "tags": ["望远镜", "天文", "观察", "探索", "科学", "开发", "聚焦"],
+  "categories": ["science", "development", "tools"],
   "i18n": {
     "en": {
       "name": "telescope",
-      "tags": [
-        "telescope",
-        "astronomy",
-        "observation",
-        "exploration",
-        "science",
-        "development",
-        "focus"
-      ],
-      "use-cases": [
-        "Astronomy app",
-        "Code exploration tool",
-        "Scientific observation interface"
-      ]
+      "tags": ["telescope", "astronomy", "observation", "exploration", "science", "development", "focus"],
+      "use-cases": ["Astronomy app", "Code exploration tool", "Scientific observation interface"]
     }
   }
 }

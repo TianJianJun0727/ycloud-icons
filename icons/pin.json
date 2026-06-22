@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地图位置固定",
-    "聊天消息置顶",
-    "文档保存"
-  ],
+  "use-cases": ["地图位置固定", "聊天消息置顶", "文档保存"],
   "name": "图钉",
-  "tags": [
-    "固定",
-    "保存",
-    "锁定",
-    "地图",
-    "导航"
-  ],
-  "categories": [
-    "navigation",
-    "account"
-  ],
+  "tags": ["固定", "保存", "锁定", "地图", "导航"],
+  "categories": ["navigation", "account"],
   "i18n": {
     "en": {
       "name": "pin",
-      "tags": [
-        "pin",
-        "save",
-        "lock",
-        "map",
-        "navigation"
-      ],
-      "use-cases": [
-        "Map location pinning",
-        "Chat message pinning",
-        "Document saving"
-      ]
+      "tags": ["pin", "save", "lock", "map", "navigation"],
+      "use-cases": ["Map location pinning", "Chat message pinning", "Document saving"]
     }
   }
 }

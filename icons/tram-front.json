@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "城市电车路线图",
-    "城市交通应用",
-    "旅游交通指南"
-  ],
+  "use-cases": ["城市电车路线图", "城市交通应用", "旅游交通指南"],
   "name": "有轨电车正面",
-  "tags": [
-    "有轨电车",
-    "电车",
-    "轻轨",
-    "轨道交通",
-    "公共交通"
-  ],
-  "categories": [
-    "transportation"
-  ],
+  "tags": ["有轨电车", "电车", "轻轨", "轨道交通", "公共交通"],
+  "categories": ["transportation"],
   "aliases": [
     {
       "name": "train",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "tram front",
-      "tags": [
-        "tram",
-        "streetcar",
-        "light rail",
-        "transit",
-        "public transport"
-      ],
-      "use-cases": [
-        "City tram route map",
-        "Urban transit app",
-        "Tourist transportation guide"
-      ]
+      "tags": ["tram", "streetcar", "light rail", "transit", "public transport"],
+      "use-cases": ["City tram route map", "Urban transit app", "Tourist transportation guide"]
     }
   }
 }

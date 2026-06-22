@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地图位置取消固定",
-    "聊天消息取消置顶",
-    "文档取消保存"
-  ],
+  "use-cases": ["地图位置取消固定", "聊天消息取消置顶", "文档取消保存"],
   "name": "图钉关闭",
-  "tags": [
-    "取消固定",
-    "取消保存",
-    "移除",
-    "解锁",
-    "导航"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["取消固定", "取消保存", "移除", "解锁", "导航"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "pin off",
-      "tags": [
-        "unpin",
-        "unsave",
-        "remove",
-        "unlock",
-        "navigation"
-      ],
-      "use-cases": [
-        "Map location unpinning",
-        "Chat message unpinning",
-        "Document unsaving"
-      ]
+      "tags": ["unpin", "unsave", "remove", "unlock", "navigation"],
+      "use-cases": ["Map location unpinning", "Chat message unpinning", "Document unsaving"]
     }
   }
 }

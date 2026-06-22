@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "播客应用图标",
-    "音频内容平台",
-    "订阅服务指示器"
-  ],
+  "use-cases": ["播客应用图标", "音频内容平台", "订阅服务指示器"],
   "name": "播客",
-  "tags": [
-    "播客",
-    "音频",
-    "节目",
-    "订阅",
-    "广播"
-  ],
-  "categories": [
-    "multimedia",
-    "social"
-  ],
+  "tags": ["播客", "音频", "节目", "订阅", "广播"],
+  "categories": ["multimedia", "social"],
   "i18n": {
     "en": {
       "name": "podcast",
-      "tags": [
-        "podcast",
-        "audio",
-        "program",
-        "subscribe",
-        "broadcast"
-      ],
-      "use-cases": [
-        "Podcast app icon",
-        "Audio content platform",
-        "Subscription service indicator"
-      ]
+      "tags": ["podcast", "audio", "program", "subscribe", "broadcast"],
+      "use-cases": ["Podcast app icon", "Audio content platform", "Subscription service indicator"]
     }
   }
 }

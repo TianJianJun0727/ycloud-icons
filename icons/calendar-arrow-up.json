@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "上传到日历",
-    "提交活动日期",
-    "安排预约",
-    "按日期升序排序事件"
-  ],
+  "use-cases": ["上传到日历", "提交活动日期", "安排预约", "按日期升序排序事件"],
   "name": "日历箭头上",
-  "tags": [
-    "日期",
-    "日历",
-    "事件",
-    "上传",
-    "提交",
-    "排序升序",
-    "时间"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["日期", "日历", "事件", "上传", "提交", "排序升序", "时间"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "calendar arrow up",
-      "tags": [
-        "date",
-        "calendar",
-        "event",
-        "upload",
-        "submit",
-        "sort ascending",
-        "time"
-      ],
-      "use-cases": [
-        "Upload to calendar",
-        "Submit event date",
-        "Schedule an appointment",
-        "Sort events by date ascending"
-      ]
+      "tags": ["date", "calendar", "event", "upload", "submit", "sort ascending", "time"],
+      "use-cases": ["Upload to calendar", "Submit event date", "Schedule an appointment", "Sort events by date ascending"]
     }
   }
 }

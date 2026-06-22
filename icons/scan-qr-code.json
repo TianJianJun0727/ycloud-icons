@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移动支付系统",
-    "二维码认证",
-    "数字信息传输"
-  ],
+  "use-cases": ["移动支付系统", "二维码认证", "数字信息传输"],
   "name": "扫描二维码代码",
-  "tags": [
-    "二维码扫描",
-    "快速响应码",
-    "数字识别",
-    "移动支付",
-    "网址跳转",
-    "信息读取"
-  ],
-  "categories": [
-    "account",
-    "shopping",
-    "devices",
-    "security"
-  ],
+  "tags": ["二维码扫描", "快速响应码", "数字识别", "移动支付", "网址跳转", "信息读取"],
+  "categories": ["account", "shopping", "devices", "security"],
   "i18n": {
     "en": {
       "name": "scan qr code",
-      "tags": [
-        "QR code scanning",
-        "quick response code",
-        "digital identification",
-        "mobile payment",
-        "URL redirection",
-        "information reading"
-      ],
-      "use-cases": [
-        "Mobile payment systems",
-        "QR code authentication",
-        "Digital information transfer"
-      ]
+      "tags": ["QR code scanning", "quick response code", "digital identification", "mobile payment", "URL redirection", "information reading"],
+      "use-cases": ["Mobile payment systems", "QR code authentication", "Digital information transfer"]
     }
   }
 }

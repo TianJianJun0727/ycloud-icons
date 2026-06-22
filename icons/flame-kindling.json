@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "露营或户外应用",
-    "生火主题",
-    "社交或游戏热门话题指示"
-  ],
+  "use-cases": ["露营或户外应用", "生火主题", "社交或游戏热门话题指示"],
   "name": "火焰引火物",
-  "tags": [
-    "篝火",
-    "引火",
-    "露营",
-    "户外",
-    "生火",
-    "温暖"
-  ],
-  "categories": [
-    "nature",
-    "social",
-    "gaming"
-  ],
+  "tags": ["篝火", "引火", "露营", "户外", "生火", "温暖"],
+  "categories": ["nature", "social", "gaming"],
   "i18n": {
     "en": {
       "name": "flame kindling",
-      "tags": [
-        "campfire",
-        "kindling",
-        "camping",
-        "outdoors",
-        "ignite",
-        "warmth"
-      ],
-      "use-cases": [
-        "Camping or outdoor app",
-        "Starting a fire theme",
-        "Social or game hot topic indicator"
-      ]
+      "tags": ["campfire", "kindling", "camping", "outdoors", "ignite", "warmth"],
+      "use-cases": ["Camping or outdoor app", "Starting a fire theme", "Social or game hot topic indicator"]
     }
   }
 }

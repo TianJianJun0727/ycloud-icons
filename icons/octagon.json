@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停止标志",
-    "几何形状",
-    "UI指示器"
-  ],
+  "use-cases": ["停止标志", "几何形状", "UI指示器"],
   "name": "八边形",
-  "tags": [
-    "停止",
-    "形状",
-    "八边形",
-    "标志"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["停止", "形状", "八边形", "标志"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "octagon",
-      "tags": [
-        "stop",
-        "shape",
-        "octagon",
-        "sign"
-      ],
-      "use-cases": [
-        "Stop signs",
-        "Geometric shapes",
-        "UI indicators"
-      ]
+      "tags": ["stop", "shape", "octagon", "sign"],
+      "use-cases": ["Stop signs", "Geometric shapes", "UI indicators"]
     }
   }
 }

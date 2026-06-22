@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示硬件设置或紧固工具",
-    "指示DIY或施工功能"
-  ],
+  "use-cases": ["表示硬件设置或紧固工具", "指示DIY或施工功能"],
   "name": "螺栓",
-  "tags": [
-    "螺栓",
-    "螺丝",
-    "螺母",
-    "紧固",
-    "工具",
-    "维修",
-    "DIY",
-    "零件"
-  ],
-  "categories": [
-    "tools",
-    "home"
-  ],
+  "tags": ["螺栓", "螺丝", "螺母", "紧固", "工具", "维修", "DIY", "零件"],
+  "categories": ["tools", "home"],
   "i18n": {
     "en": {
       "name": "bolt",
-      "tags": [
-        "bolt",
-        "screw",
-        "nut",
-        "fastener",
-        "tool",
-        "repair",
-        "diy",
-        "hardware"
-      ],
-      "use-cases": [
-        "Represent hardware settings or fastening tools",
-        "Indicate DIY or construction features"
-      ]
+      "tags": ["bolt", "screw", "nut", "fastener", "tool", "repair", "diy", "hardware"],
+      "use-cases": ["Represent hardware settings or fastening tools", "Indicate DIY or construction features"]
     }
   }
 }

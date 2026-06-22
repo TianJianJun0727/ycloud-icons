@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从列表中移除项目",
-    "从播放列表中删除歌曲",
-    "将项目移出队列"
-  ],
+  "use-cases": ["从列表中移除项目", "从播放列表中删除歌曲", "将项目移出队列"],
   "name": "列表减少",
-  "tags": [
-    "列表",
-    "移除",
-    "删除",
-    "减少",
-    "播放列表",
-    "队列"
-  ],
-  "categories": [
-    "multimedia",
-    "text"
-  ],
+  "tags": ["列表", "移除", "删除", "减少", "播放列表", "队列"],
+  "categories": ["multimedia", "text"],
   "i18n": {
     "en": {
       "name": "list minus",
-      "tags": [
-        "list",
-        "remove",
-        "delete",
-        "minus",
-        "playlist",
-        "queue"
-      ],
-      "use-cases": [
-        "Remove an item from a list",
-        "Delete a song from a playlist",
-        "Dequeue an item"
-      ]
+      "tags": ["list", "remove", "delete", "minus", "playlist", "queue"],
+      "use-cases": ["Remove an item from a list", "Delete a song from a playlist", "Dequeue an item"]
     }
   }
 }

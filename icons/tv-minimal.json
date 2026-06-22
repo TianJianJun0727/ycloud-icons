@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备状态指示器（电视）",
-    "娱乐系统仪表板",
-    "流媒体应用设备选择"
-  ],
+  "use-cases": ["设备状态指示器（电视）", "娱乐系统仪表板", "流媒体应用设备选择"],
   "name": "电视极简",
-  "tags": [
-    "电视",
-    "显示器",
-    "流媒体",
-    "娱乐",
-    "智能电视",
-    "家庭影院"
-  ],
-  "categories": [
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["电视", "显示器", "流媒体", "娱乐", "智能电视", "家庭影院"],
+  "categories": ["devices", "multimedia"],
   "aliases": [
     {
       "name": "tv-2",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "tv minimal",
-      "tags": [
-        "television",
-        "display",
-        "stream",
-        "entertainment",
-        "smart tv",
-        "home cinema"
-      ],
-      "use-cases": [
-        "Device status indicator (TV)",
-        "Entertainment system dashboard",
-        "Streaming app device selection"
-      ]
+      "tags": ["television", "display", "stream", "entertainment", "smart tv", "home cinema"],
+      "use-cases": ["Device status indicator (TV)", "Entertainment system dashboard", "Streaming app device selection"]
     }
   }
 }

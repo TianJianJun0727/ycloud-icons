@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "草稿指示器",
-    "代码审查状态",
-    "进行中工作"
-  ],
+  "use-cases": ["草稿指示器", "代码审查状态", "进行中工作"],
   "name": "圆角方形虚线",
-  "tags": [
-    "圆角方形",
-    "虚线",
-    "草稿",
-    "进行中",
-    "代码",
-    "版本控制"
-  ],
-  "categories": [
-    "development",
-    "shapes",
-    "design"
-  ],
+  "tags": ["圆角方形", "虚线", "草稿", "进行中", "代码", "版本控制"],
+  "categories": ["development", "shapes", "design"],
   "i18n": {
     "en": {
       "name": "squircle dashed",
-      "tags": [
-        "squircle",
-        "dashed",
-        "draft",
-        "in progress",
-        "code",
-        "version control"
-      ],
-      "use-cases": [
-        "Draft indicator",
-        "Code review status",
-        "Work in progress"
-      ]
+      "tags": ["squircle", "dashed", "draft", "in progress", "code", "version control"],
+      "use-cases": ["Draft indicator", "Code review status", "Work in progress"]
     }
   }
 }

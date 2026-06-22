@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已确认的消息或评论",
-    "审核通过指示器",
-    "已完成的聊天任务"
-  ],
+  "use-cases": ["已确认的消息或评论", "审核通过指示器", "已完成的聊天任务"],
   "name": "消息圆形勾选",
-  "tags": [
-    "消息已读",
-    "确认回复",
-    "审核通过",
-    "聊天完成",
-    "已验证"
-  ],
-  "categories": [
-    "social",
-    "account"
-  ],
+  "tags": ["消息已读", "确认回复", "审核通过", "聊天完成", "已验证"],
+  "categories": ["social", "account"],
   "i18n": {
     "en": {
       "name": "message circle check",
-      "tags": [
-        "message read",
-        "confirmed reply",
-        "moderation approved",
-        "chat completed",
-        "verified"
-      ],
-      "use-cases": [
-        "Confirmed message or comment",
-        "Moderation approval indicator",
-        "Completed chat task"
-      ]
+      "tags": ["message read", "confirmed reply", "moderation approved", "chat completed", "verified"],
+      "use-cases": ["Confirmed message or comment", "Moderation approval indicator", "Completed chat task"]
     }
   }
 }

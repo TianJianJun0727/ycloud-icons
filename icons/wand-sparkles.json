@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "魔法效果界面",
-    "特效工具",
-    "游戏增强图标"
-  ],
+  "use-cases": ["魔法效果界面", "特效工具", "游戏增强图标"],
   "name": "魔法棒",
-  "tags": [
-    "魔法",
-    "特效",
-    "闪光",
-    "装饰",
-    "游戏",
-    "设计"
-  ],
-  "categories": [
-    "design",
-    "gaming",
-    "cursors",
-    "photography"
-  ],
+  "tags": ["魔法", "特效", "闪光", "装饰", "游戏", "设计"],
+  "categories": ["design", "gaming", "cursors", "photography"],
   "aliases": [
     {
       "name": "wand-2",
@@ -31,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "wand sparkles",
-      "tags": [
-        "magic",
-        "effects",
-        "sparkles",
-        "decoration",
-        "gaming",
-        "design"
-      ],
-      "use-cases": [
-        "Magic effects interface",
-        "Special effects tool",
-        "Game power-up icon"
-      ]
+      "tags": ["magic", "effects", "sparkles", "decoration", "gaming", "design"],
+      "use-cases": ["Magic effects interface", "Special effects tool", "Game power-up icon"]
     }
   }
 }

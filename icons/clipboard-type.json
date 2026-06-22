@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本格式设置",
-    "内容排版",
-    "样式调整"
-  ],
+  "use-cases": ["文本格式设置", "内容排版", "样式调整"],
   "name": "剪贴板文字",
-  "tags": [
-    "文本",
-    "格式",
-    "排版",
-    "内容",
-    "样式"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["文本", "格式", "排版", "内容", "样式"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "clipboard type",
-      "tags": [
-        "text",
-        "format",
-        "typesetting",
-        "content",
-        "style"
-      ],
-      "use-cases": [
-        "Text formatting",
-        "Content typesetting",
-        "Style adjustment"
-      ]
+      "tags": ["text", "format", "typesetting", "content", "style"],
+      "use-cases": ["Text formatting", "Content typesetting", "Style adjustment"]
     }
   }
 }

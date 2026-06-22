@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "深色模式切换",
-    "夜间显示",
-    "天文应用"
-  ],
+  "use-cases": ["深色模式切换", "夜间显示", "天文应用"],
   "name": "月亮星标",
-  "tags": [
-    "月亮",
-    "星星",
-    "夜晚",
-    "黑暗模式",
-    "天文"
-  ],
-  "categories": [
-    "accessibility",
-    "weather"
-  ],
+  "tags": ["月亮", "星星", "夜晚", "黑暗模式", "天文"],
+  "categories": ["accessibility", "weather"],
   "i18n": {
     "en": {
       "name": "moon star",
-      "tags": [
-        "moon",
-        "star",
-        "night",
-        "dark mode",
-        "astronomy"
-      ],
-      "use-cases": [
-        "Dark mode toggle",
-        "Night time display",
-        "Astronomy app"
-      ]
+      "tags": ["moon", "star", "night", "dark mode", "astronomy"],
+      "use-cases": ["Dark mode toggle", "Night time display", "Astronomy app"]
     }
   }
 }

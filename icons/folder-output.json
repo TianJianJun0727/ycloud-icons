@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "导出文件夹",
-    "输出目录",
-    "下载位置"
-  ],
+  "use-cases": ["导出文件夹", "输出目录", "下载位置"],
   "name": "文件夹输出",
-  "tags": [
-    "目录",
-    "导出",
-    "输出",
-    "下载"
-  ],
-  "categories": [
-    "files",
-    "arrows"
-  ],
+  "tags": ["目录", "导出", "输出", "下载"],
+  "categories": ["files", "arrows"],
   "i18n": {
     "en": {
       "name": "folder output",
-      "tags": [
-        "directory",
-        "export",
-        "output",
-        "download"
-      ],
-      "use-cases": [
-        "Export folder",
-        "Output directory",
-        "Download location"
-      ]
+      "tags": ["directory", "export", "output", "download"],
+      "use-cases": ["Export folder", "Output directory", "Download location"]
     }
   }
 }

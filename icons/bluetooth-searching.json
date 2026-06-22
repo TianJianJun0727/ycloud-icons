@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "指示蓝牙正在扫描设备",
-    "显示配对或连接正在进行中"
-  ],
+  "use-cases": ["指示蓝牙正在扫描设备", "显示配对或连接正在进行中"],
   "name": "蓝牙搜索中",
-  "tags": [
-    "蓝牙",
-    "搜索中",
-    "正在配对",
-    "扫描",
-    "发现设备",
-    "连接中"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["蓝牙", "搜索中", "正在配对", "扫描", "发现设备", "连接中"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "bluetooth searching",
-      "tags": [
-        "bluetooth",
-        "searching",
-        "scanning",
-        "pairing",
-        "discovering",
-        "connecting"
-      ],
-      "use-cases": [
-        "Indicate Bluetooth is scanning for devices",
-        "Show pairing or connection in progress"
-      ]
+      "tags": ["bluetooth", "searching", "scanning", "pairing", "discovering", "connecting"],
+      "use-cases": ["Indicate Bluetooth is scanning for devices", "Show pairing or connection in progress"]
     }
   }
 }

@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "闹钟完成确认",
-    "任务提醒完成",
-    "日程提醒确认"
-  ],
+  "use-cases": ["闹钟完成确认", "任务提醒完成", "日程提醒确认"],
   "name": "闹钟完成",
-  "tags": [
-    "闹钟",
-    "完成",
-    "任务完成",
-    "提醒确认",
-    "待办事项",
-    "已提醒"
-  ],
-  "categories": [
-    "devices",
-    "notifications",
-    "time"
-  ],
+  "tags": ["闹钟", "完成", "任务完成", "提醒确认", "待办事项", "已提醒"],
+  "categories": ["devices", "notifications", "time"],
   "aliases": [
     {
       "name": "alarm-check",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "alarm clock check",
-      "tags": [
-        "alarm",
-        "completed",
-        "task done",
-        "reminder confirmation",
-        "todo",
-        "acknowledged"
-      ],
-      "use-cases": [
-        "alarm completion confirmation",
-        "task reminder done",
-        "schedule reminder acknowledged"
-      ]
+      "tags": ["alarm", "completed", "task done", "reminder confirmation", "todo", "acknowledged"],
+      "use-cases": ["alarm completion confirmation", "task reminder done", "schedule reminder acknowledged"]
     }
   }
 }

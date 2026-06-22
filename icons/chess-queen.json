@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国际象棋游戏界面",
-    "强力棋子指示器",
-    "策略游戏",
-    "女性领导者图标"
-  ],
+  "use-cases": ["国际象棋游戏界面", "强力棋子指示器", "策略游戏", "女性领导者图标"],
   "name": "国际象棋皇后",
-  "tags": [
-    "国际象棋",
-    "皇后",
-    "女王",
-    "棋子",
-    "棋盘游戏",
-    "策略",
-    "王冠",
-    "游戏"
-  ],
-  "categories": [
-    "gaming",
-    "emoji"
-  ],
+  "tags": ["国际象棋", "皇后", "女王", "棋子", "棋盘游戏", "策略", "王冠", "游戏"],
+  "categories": ["gaming", "emoji"],
   "i18n": {
     "en": {
       "name": "chess queen",
-      "tags": [
-        "chess",
-        "queen",
-        "piece",
-        "board game",
-        "strategy",
-        "crown",
-        "gaming"
-      ],
-      "use-cases": [
-        "Chess game interface",
-        "Powerful piece indicator",
-        "Strategy game",
-        "Female leader icon"
-      ]
+      "tags": ["chess", "queen", "piece", "board game", "strategy", "crown", "gaming"],
+      "use-cases": ["Chess game interface", "Powerful piece indicator", "Strategy game", "Female leader icon"]
     }
   }
 }

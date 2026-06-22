@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI元素展开控件",
-    "全屏模式切换",
-    "内容缩放界面",
-    "布局调整操作"
-  ],
+  "use-cases": ["UI元素展开控件", "全屏模式切换", "内容缩放界面", "布局调整操作"],
   "name": "展开",
-  "tags": [
-    "展开",
-    "放大",
-    "全屏",
-    "最大化",
-    "缩放"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["展开", "放大", "全屏", "最大化", "缩放"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "expand",
-      "tags": [
-        "expand",
-        "enlarge",
-        "fullscreen",
-        "maximize",
-        "zoom"
-      ],
-      "use-cases": [
-        "UI element expansion controls",
-        "Fullscreen mode toggles",
-        "Content zoom interfaces",
-        "Layout resizing actions"
-      ]
+      "tags": ["expand", "enlarge", "fullscreen", "maximize", "zoom"],
+      "use-cases": ["UI element expansion controls", "Fullscreen mode toggles", "Content zoom interfaces", "Layout resizing actions"]
     }
   }
 }

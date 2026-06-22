@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "多指标仪表板",
-    "比较分析视图"
-  ],
+  "use-cases": ["多指标仪表板", "比较分析视图"],
   "name": "图表无坐标轴组合",
-  "tags": [
-    "统计",
-    "分析",
-    "图表",
-    "组合图",
-    "趋势"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["统计", "分析", "图表", "组合图", "趋势"],
+  "categories": ["charts"],
   "i18n": {
     "en": {
       "name": "chart no axes combined",
-      "tags": [
-        "statistics",
-        "analytics",
-        "chart",
-        "combined chart",
-        "trend"
-      ],
-      "use-cases": [
-        "Multi-metric dashboard",
-        "Comparative analysis view"
-      ]
+      "tags": ["statistics", "analytics", "chart", "combined chart", "trend"],
+      "use-cases": ["Multi-metric dashboard", "Comparative analysis view"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档格式化工具栏",
-    "HTML编辑器",
-    "内容层级显示"
-  ],
+  "use-cases": ["文档格式化工具栏", "HTML编辑器", "内容层级显示"],
   "name": "标题1",
-  "tags": [
-    "标题",
-    "H1",
-    "HTML",
-    "Markdown",
-    "一级标题"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["标题", "H1", "HTML", "Markdown", "一级标题"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "heading 1",
-      "tags": [
-        "heading",
-        "h1",
-        "html",
-        "markdown",
-        "level 1 heading"
-      ],
-      "use-cases": [
-        "Document formatting toolbar",
-        "HTML editor",
-        "Content hierarchy display"
-      ]
+      "tags": ["heading", "h1", "html", "markdown", "level 1 heading"],
+      "use-cases": ["Document formatting toolbar", "HTML editor", "Content hierarchy display"]
     }
   }
 }

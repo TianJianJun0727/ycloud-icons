@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "支付方式已验证",
-    "发票已支付确认",
-    "交易成功回执"
-  ],
+  "use-cases": ["支付方式已验证", "发票已支付确认", "交易成功回执"],
   "name": "纸币勾选",
-  "tags": [
-    "付款成功",
-    "已验证",
-    "账单核对",
-    "交易完成",
-    "确认支付",
-    "金融",
-    "货币"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["付款成功", "已验证", "账单核对", "交易完成", "确认支付", "金融", "货币"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "banknote check",
-      "tags": [
-        "payment successful",
-        "verified",
-        "bill check",
-        "transaction complete",
-        "payment confirmed",
-        "finance",
-        "currency"
-      ],
-      "use-cases": [
-        "Payment method verified",
-        "Invoice paid confirmation",
-        "Successful transaction receipt"
-      ]
+      "tags": ["payment successful", "verified", "bill check", "transaction complete", "payment confirmed", "finance", "currency"],
+      "use-cases": ["Payment method verified", "Invoice paid confirmation", "Successful transaction receipt"]
     }
   }
 }

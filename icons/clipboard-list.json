@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "剪贴板历史列表",
-    "从文档复制的任务列表",
-    "多项目粘贴选择"
-  ],
+  "use-cases": ["剪贴板历史列表", "从文档复制的任务列表", "多项目粘贴选择"],
   "name": "剪贴板列表",
-  "tags": [
-    "剪贴板",
-    "列表",
-    "任务",
-    "项目",
-    "清单",
-    "内容"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["剪贴板", "列表", "任务", "项目", "清单", "内容"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "clipboard list",
-      "tags": [
-        "clipboard",
-        "list",
-        "tasks",
-        "items",
-        "checklist",
-        "content"
-      ],
-      "use-cases": [
-        "Clipboard history list",
-        "Task list copied from document",
-        "Multi-item paste selection"
-      ]
+      "tags": ["clipboard", "list", "tasks", "items", "checklist", "content"],
+      "use-cases": ["Clipboard history list", "Task list copied from document", "Multi-item paste selection"]
     }
   }
 }

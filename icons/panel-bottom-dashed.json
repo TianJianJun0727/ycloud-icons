@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "布局参考线",
-    "设计边距指示",
-    "UI间距参考",
-    "线框设计"
-  ],
+  "use-cases": ["布局参考线", "设计边距指示", "UI间距参考", "线框设计"],
   "name": "面板底部虚线",
-  "tags": [
-    "面板",
-    "底部",
-    "虚线",
-    "布局",
-    "参考线",
-    "边距",
-    "设计"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["面板", "底部", "虚线", "布局", "参考线", "边距", "设计"],
+  "categories": ["layout"],
   "aliases": [
     {
       "name": "panel-bottom-inactive",
@@ -30,21 +15,8 @@
   "i18n": {
     "en": {
       "name": "panel bottom dashed",
-      "tags": [
-        "panel",
-        "bottom",
-        "dashed",
-        "layout",
-        "guide",
-        "margin",
-        "design"
-      ],
-      "use-cases": [
-        "Layout guidelines",
-        "Design margin indicators",
-        "UI spacing reference",
-        "Wireframe design"
-      ]
+      "tags": ["panel", "bottom", "dashed", "layout", "guide", "margin", "design"],
+      "use-cases": ["Layout guidelines", "Design margin indicators", "UI spacing reference", "Wireframe design"]
     }
   }
 }

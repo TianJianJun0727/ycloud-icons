@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "移除个人资料徽章",
-    "删除项目指示器",
-    "减法操作"
-  ],
+  "use-cases": ["移除个人资料徽章", "删除项目指示器", "减法操作"],
   "name": "徽章减少",
-  "tags": [
-    "移除",
-    "删除",
-    "减少",
-    "撤销",
-    "取消"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["移除", "删除", "减少", "撤销", "取消"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "badge minus",
-      "tags": [
-        "remove",
-        "delete",
-        "subtract",
-        "undo",
-        "cancel"
-      ],
-      "use-cases": [
-        "Remove badge from profile",
-        "Delete item indicator",
-        "Subtraction operation"
-      ]
+      "tags": ["remove", "delete", "subtract", "undo", "cancel"],
+      "use-cases": ["Remove badge from profile", "Delete item indicator", "Subtraction operation"]
     }
   }
 }

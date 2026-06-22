@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "食品标签",
-    "营养应用",
-    "杂货店图标"
-  ],
+  "use-cases": ["食品标签", "营养应用", "杂货店图标"],
   "name": "螺母",
-  "tags": [
-    "坚果",
-    "食物",
-    "零食",
-    "健康食品"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["坚果", "食物", "零食", "健康食品"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "nut",
-      "tags": [
-        "nut",
-        "food",
-        "snack",
-        "healthy"
-      ],
-      "use-cases": [
-        "Food product labeling",
-        "Nutrition apps",
-        "Grocery store icons"
-      ]
+      "tags": ["nut", "food", "snack", "healthy"],
+      "use-cases": ["Food product labeling", "Nutrition apps", "Grocery store icons"]
     }
   }
 }

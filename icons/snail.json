@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "速度设置指示器",
-    "食品菜单项",
-    "慢速任务进度条",
-    "动物主题内容"
-  ],
+  "use-cases": ["速度设置指示器", "食品菜单项", "慢速任务进度条", "动物主题内容"],
   "name": "蜗牛",
-  "tags": [
-    "蜗牛",
-    "动物",
-    "缓慢",
-    "低速",
-    "美食",
-    "螺旋",
-    "爬行"
-  ],
-  "categories": [
-    "animals",
-    "food-beverage"
-  ],
+  "tags": ["蜗牛", "动物", "缓慢", "低速", "美食", "螺旋", "爬行"],
+  "categories": ["animals", "food-beverage"],
   "i18n": {
     "en": {
       "name": "snail",
-      "tags": [
-        "snail",
-        "animal",
-        "slow",
-        "low speed",
-        "delicacy",
-        "spiral",
-        "crawl"
-      ],
-      "use-cases": [
-        "Speed setting indicator",
-        "Food menu item",
-        "Progress bar for slow tasks",
-        "Animal-themed content"
-      ]
+      "tags": ["snail", "animal", "slow", "low speed", "delicacy", "spiral", "crawl"],
+      "use-cases": ["Speed setting indicator", "Food menu item", "Progress bar for slow tasks", "Animal-themed content"]
     }
   }
 }

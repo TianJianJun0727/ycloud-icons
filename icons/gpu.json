@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电脑硬件规格面板",
-    "软件中的图形设置",
-    "挖矿设备状态指示器",
-    "3D渲染应用程序"
-  ],
+  "use-cases": ["电脑硬件规格面板", "软件中的图形设置", "挖矿设备状态指示器", "3D渲染应用程序"],
   "name": "图形处理器",
-  "tags": [
-    "显卡",
-    "芯片",
-    "处理器",
-    "渲染",
-    "计算",
-    "硬件",
-    "游戏",
-    "图形"
-  ],
-  "categories": [
-    "devices",
-    "gaming"
-  ],
+  "tags": ["显卡", "芯片", "处理器", "渲染", "计算", "硬件", "游戏", "图形"],
+  "categories": ["devices", "gaming"],
   "i18n": {
     "en": {
       "name": "gpu",
-      "tags": [
-        "graphics card",
-        "chip",
-        "processor",
-        "rendering",
-        "computing",
-        "hardware",
-        "gaming",
-        "graphics"
-      ],
-      "use-cases": [
-        "PC hardware specification panel",
-        "Graphics settings in software",
-        "Mining rig status indicator",
-        "3D rendering application"
-      ]
+      "tags": ["graphics card", "chip", "processor", "rendering", "computing", "hardware", "gaming", "graphics"],
+      "use-cases": ["PC hardware specification panel", "Graphics settings in software", "Mining rig status indicator", "3D rendering application"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "活跃项目文件夹",
-    "当前目录",
-    "固定文件夹"
-  ],
+  "use-cases": ["活跃项目文件夹", "当前目录", "固定文件夹"],
   "name": "文件夹打开点",
-  "tags": [
-    "目录",
-    "项目",
-    "活跃",
-    "当前",
-    "固定"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["目录", "项目", "活跃", "当前", "固定"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "folder open dot",
-      "tags": [
-        "directory",
-        "project",
-        "active",
-        "current",
-        "pinned"
-      ],
-      "use-cases": [
-        "Active project folder",
-        "Current directory",
-        "Pinned folder"
-      ]
+      "tags": ["directory", "project", "active", "current", "pinned"],
+      "use-cases": ["Active project folder", "Current directory", "Pinned folder"]
     }
   }
 }

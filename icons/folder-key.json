@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "带密钥的安全文件夹",
-    "私有目录",
-    "加密文件夹"
-  ],
+  "use-cases": ["带密钥的安全文件夹", "私有目录", "加密文件夹"],
   "name": "文件夹钥匙",
-  "tags": [
-    "目录",
-    "密钥",
-    "私有",
-    "安全",
-    "加密"
-  ],
-  "categories": [
-    "files",
-    "security"
-  ],
+  "tags": ["目录", "密钥", "私有", "安全", "加密"],
+  "categories": ["files", "security"],
   "i18n": {
     "en": {
       "name": "folder key",
-      "tags": [
-        "directory",
-        "key",
-        "private",
-        "security",
-        "encrypted"
-      ],
-      "use-cases": [
-        "Secure folder with key",
-        "Private directory",
-        "Encrypted folder"
-      ]
+      "tags": ["directory", "key", "private", "security", "encrypted"],
+      "use-cases": ["Secure folder with key", "Private directory", "Encrypted folder"]
     }
   }
 }

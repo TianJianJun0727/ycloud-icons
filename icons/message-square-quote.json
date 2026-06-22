@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "引用消息",
-    "聊天中的块引用",
-    "引用之前的评论"
-  ],
+  "use-cases": ["引用消息", "聊天中的块引用", "引用之前的评论"],
   "name": "消息方形引用",
-  "tags": [
-    "引用",
-    "回复",
-    "消息",
-    "块引用",
-    "聊天",
-    "引述",
-    "文本",
-    "标注"
-  ],
-  "categories": [
-    "social",
-    "text"
-  ],
+  "tags": ["引用", "回复", "消息", "块引用", "聊天", "引述", "文本", "标注"],
+  "categories": ["social", "text"],
   "i18n": {
     "en": {
       "name": "message square quote",
-      "tags": [
-        "quote",
-        "reply",
-        "message",
-        "blockquote",
-        "chat",
-        "citation",
-        "text",
-        "reference"
-      ],
-      "use-cases": [
-        "Quoting a message",
-        "Block quote in chat",
-        "Referencing previous comment"
-      ]
+      "tags": ["quote", "reply", "message", "blockquote", "chat", "citation", "text", "reference"],
+      "use-cases": ["Quoting a message", "Block quote in chat", "Referencing previous comment"]
     }
   }
 }

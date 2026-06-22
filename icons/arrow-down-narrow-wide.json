@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "按宽度降序排序",
-    "布局从窄到宽排列",
-    "按大小确定数据优先级"
-  ],
+  "use-cases": ["按宽度降序排序", "布局从窄到宽排列", "按大小确定数据优先级"],
   "name": "箭头下窄宽",
-  "tags": [
-    "排序",
-    "降序",
-    "宽度",
-    "布局",
-    "数据",
-    "列表",
-    "优先级"
-  ],
-  "categories": [
-    "text",
-    "layout",
-    "arrows"
-  ],
+  "tags": ["排序", "降序", "宽度", "布局", "数据", "列表", "优先级"],
+  "categories": ["text", "layout", "arrows"],
   "i18n": {
     "en": {
       "name": "arrow down narrow wide",
-      "tags": [
-        "sort",
-        "descending",
-        "width",
-        "layout",
-        "data",
-        "list",
-        "priority"
-      ],
-      "use-cases": [
-        "Sort by width descending",
-        "Arrange layout from narrow to wide",
-        "Prioritize data by size"
-      ]
+      "tags": ["sort", "descending", "width", "layout", "data", "list", "priority"],
+      "use-cases": ["Sort by width descending", "Arrange layout from narrow to wide", "Prioritize data by size"]
     }
   }
 }

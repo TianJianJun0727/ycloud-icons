@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "房车租赁平台",
-    "露营与户外旅行应用",
-    "假日与冒险预订",
-    "移动房屋服务"
-  ],
+  "use-cases": ["房车租赁平台", "露营与户外旅行应用", "假日与冒险预订", "移动房屋服务"],
   "name": "房车",
-  "tags": [
-    "房车",
-    "露营车",
-    "拖车",
-    "旅行",
-    "户外",
-    "度假"
-  ],
-  "categories": [
-    "transportation",
-    "travel",
-    "nature"
-  ],
+  "tags": ["房车", "露营车", "拖车", "旅行", "户外", "度假"],
+  "categories": ["transportation", "travel", "nature"],
   "i18n": {
     "en": {
       "name": "caravan",
-      "tags": [
-        "caravan",
-        "RV",
-        "camper",
-        "trailer",
-        "travel",
-        "camping"
-      ],
-      "use-cases": [
-        "RV rental platform",
-        "Camping and outdoor travel app",
-        "Holiday and adventure booking",
-        "Mobile home services"
-      ]
+      "tags": ["caravan", "RV", "camper", "trailer", "travel", "camping"],
+      "use-cases": ["RV rental platform", "Camping and outdoor travel app", "Holiday and adventure booking", "Mobile home services"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "防护等级降低",
-    "安全功能移除",
-    "防御降级通知"
-  ],
+  "use-cases": ["防护等级降低", "安全功能移除", "防御降级通知"],
   "name": "盾牌减少",
-  "tags": [
-    "减少防护",
-    "安全降级",
-    "解除保护",
-    "禁用安全",
-    "削弱防御"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["减少防护", "安全降级", "解除保护", "禁用安全", "削弱防御"],
+  "categories": ["account", "security", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "shield minus",
-      "tags": [
-        "reduce protection",
-        "security downgrade",
-        "remove protection",
-        "disable security",
-        "weaken defense"
-      ],
-      "use-cases": [
-        "Protection level decreased",
-        "Security feature removed",
-        "Defense downgrade notification"
-      ]
+      "tags": ["reduce protection", "security downgrade", "remove protection", "disable security", "weaken defense"],
+      "use-cases": ["Protection level decreased", "Security feature removed", "Defense downgrade notification"]
     }
   }
 }

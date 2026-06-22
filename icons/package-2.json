@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件压缩包",
-    "软件模块",
-    "数据归档",
-    "未开封包裹"
-  ],
+  "use-cases": ["文件压缩包", "软件模块", "数据归档", "未开封包裹"],
   "name": "包2",
-  "tags": [
-    "盒子",
-    "容器",
-    "存储",
-    "打包",
-    "压缩",
-    "模块",
-    "归档",
-    "未开封"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["盒子", "容器", "存储", "打包", "压缩", "模块", "归档", "未开封"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "package 2",
-      "tags": [
-        "box",
-        "container",
-        "storage",
-        "packed",
-        "zip",
-        "module",
-        "archive",
-        "unopened"
-      ],
-      "use-cases": [
-        "File archive",
-        "Software module",
-        "Data storage",
-        "Unopened package"
-      ]
+      "tags": ["box", "container", "storage", "packed", "zip", "module", "archive", "unopened"],
+      "use-cases": ["File archive", "Software module", "Data storage", "Unopened package"]
     }
   }
 }

@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "发起或接听电话",
-    "通话功能按钮"
-  ],
+  "use-cases": ["发起或接听电话", "通话功能按钮"],
   "name": "电话通话",
-  "tags": [
-    "电话",
-    "通话",
-    "呼叫",
-    "铃声",
-    "沟通"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "communication"
-  ],
+  "tags": ["电话", "通话", "呼叫", "铃声", "沟通"],
+  "categories": ["connectivity", "devices", "communication"],
   "i18n": {
     "en": {
       "name": "phone call",
-      "tags": [
-        "phone",
-        "call",
-        "ring",
-        "communication"
-      ],
-      "use-cases": [
-        "Initiating or receiving a phone call",
-        "Call feature buttons"
-      ]
+      "tags": ["phone", "call", "ring", "communication"],
+      "use-cases": ["Initiating or receiving a phone call", "Call feature buttons"]
     }
   }
 }

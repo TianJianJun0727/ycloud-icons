@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "购买确认",
-    "费用跟踪",
-    "支付凭证"
-  ],
+  "use-cases": ["购买确认", "费用跟踪", "支付凭证"],
   "name": "收据",
-  "tags": [
-    "收据",
-    "账单",
-    "支付",
-    "发票",
-    "凭证",
-    "财务",
-    "交易",
-    "购物"
-  ],
-  "categories": [
-    "finance",
-    "travel"
-  ],
+  "tags": ["收据", "账单", "支付", "发票", "凭证", "财务", "交易", "购物"],
+  "categories": ["finance", "travel"],
   "i18n": {
     "en": {
       "name": "receipt",
-      "tags": [
-        "receipt",
-        "bill",
-        "payment",
-        "invoice",
-        "voucher",
-        "finance",
-        "transaction",
-        "shopping"
-      ],
-      "use-cases": [
-        "Purchase confirmation",
-        "Expense tracking",
-        "Payment proof"
-      ]
+      "tags": ["receipt", "bill", "payment", "invoice", "voucher", "finance", "transaction", "shopping"],
+      "use-cases": ["Purchase confirmation", "Expense tracking", "Payment proof"]
     }
   }
 }

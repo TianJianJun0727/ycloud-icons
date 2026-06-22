@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "风扇速度控制",
-    "通风系统状态",
-    "冷却设备开关"
-  ],
+  "use-cases": ["风扇速度控制", "通风系统状态", "冷却设备开关"],
   "name": "风扇",
-  "tags": [
-    "通风",
-    "冷却",
-    "风扇",
-    "排气",
-    "空调",
-    "空气循环"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["通风", "冷却", "风扇", "排气", "空调", "空气循环"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "fan",
-      "tags": [
-        "ventilation",
-        "cooling",
-        "fan",
-        "exhaust",
-        "air conditioning",
-        "air circulation"
-      ],
-      "use-cases": [
-        "Fan speed control",
-        "Ventilation system status",
-        "Cooling device toggle"
-      ]
+      "tags": ["ventilation", "cooling", "fan", "exhaust", "air conditioning", "air circulation"],
+      "use-cases": ["Fan speed control", "Ventilation system status", "Cooling device toggle"]
     }
   }
 }

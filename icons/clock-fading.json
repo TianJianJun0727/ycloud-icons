@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示时间用完或到期",
-    "代表记忆或过去事件",
-    "指示逐渐消失的计时器"
-  ],
+  "use-cases": ["显示时间用完或到期", "代表记忆或过去事件", "指示逐渐消失的计时器"],
   "name": "时钟淡出",
-  "tags": [
-    "时间",
-    "消失",
-    "淡出",
-    "时间结束",
-    "记忆",
-    "历史"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "消失", "淡出", "时间结束", "记忆", "历史"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock fading",
-      "tags": [
-        "time",
-        "disappear",
-        "fade out",
-        "time ending",
-        "memory",
-        "history"
-      ],
-      "use-cases": [
-        "Show time running out or expiring",
-        "Represent a memory or past event",
-        "Indicate a fading or disappearing timer"
-      ]
+      "tags": ["time", "disappear", "fade out", "time ending", "memory", "history"],
+      "use-cases": ["Show time running out or expiring", "Represent a memory or past event", "Indicate a fading or disappearing timer"]
     }
   }
 }

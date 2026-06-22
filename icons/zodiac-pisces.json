@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "占星应用星座符号",
-    "社交媒体个人资料星座",
-    "星座运势网站图标"
-  ],
+  "use-cases": ["占星应用星座符号", "社交媒体个人资料星座", "星座运势网站图标"],
   "name": "星座双鱼座",
-  "tags": [
-    "双鱼座",
-    "星座",
-    "占星",
-    "鱼",
-    "水象",
-    "梦想",
-    "同理心",
-    "星座运势"
-  ],
-  "categories": [
-    "social",
-    "emoji"
-  ],
+  "tags": ["双鱼座", "星座", "占星", "鱼", "水象", "梦想", "同理心", "星座运势"],
+  "categories": ["social", "emoji"],
   "i18n": {
     "en": {
       "name": "zodiac pisces",
-      "tags": [
-        "pisces",
-        "zodiac",
-        "astrology",
-        "fish",
-        "water sign",
-        "dreams",
-        "empathy",
-        "horoscope"
-      ],
-      "use-cases": [
-        "Astrology app zodiac sign",
-        "Social media profile birth sign",
-        "Horoscope website icon"
-      ]
+      "tags": ["pisces", "zodiac", "astrology", "fish", "water sign", "dreams", "empathy", "horoscope"],
+      "use-cases": ["Astrology app zodiac sign", "Social media profile birth sign", "Horoscope website icon"]
     }
   }
 }

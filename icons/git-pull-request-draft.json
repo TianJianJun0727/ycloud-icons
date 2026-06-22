@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "草稿拉取请求状态",
-    "进行中的代码审查",
-    "临时合并请求"
-  ],
+  "use-cases": ["草稿拉取请求状态", "进行中的代码审查", "临时合并请求"],
   "name": "Git拉取请求草稿",
-  "tags": [
-    "Git",
-    "拉取请求",
-    "草稿",
-    "代码",
-    "版本控制",
-    "未完成",
-    "暂存",
-    "预览"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["Git", "拉取请求", "草稿", "代码", "版本控制", "未完成", "暂存", "预览"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git pull request draft",
-      "tags": [
-        "Git",
-        "pull request",
-        "draft",
-        "code",
-        "version control",
-        "unfinished",
-        "staging",
-        "preview"
-      ],
-      "use-cases": [
-        "Draft pull request status",
-        "Work in progress code review",
-        "Temporary merge request"
-      ]
+      "tags": ["Git", "pull request", "draft", "code", "version control", "unfinished", "staging", "preview"],
+      "use-cases": ["Draft pull request status", "Work in progress code review", "Temporary merge request"]
     }
   }
 }

@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从文件导入数据",
-    "加载外部资源",
-    "将素材引入项目"
-  ],
+  "use-cases": ["从文件导入数据", "加载外部资源", "将素材引入项目"],
   "name": "导入",
-  "tags": [
-    "导入",
-    "加载",
-    "引入",
-    "上传"
-  ],
-  "categories": [
-    "arrows",
-    "files"
-  ],
+  "tags": ["导入", "加载", "引入", "上传"],
+  "categories": ["arrows", "files"],
   "i18n": {
     "en": {
       "name": "import",
-      "tags": [
-        "import",
-        "load",
-        "bring in",
-        "upload"
-      ],
-      "use-cases": [
-        "Import data from a file",
-        "Load external resources",
-        "Bring assets into a project"
-      ]
+      "tags": ["import", "load", "bring in", "upload"],
+      "use-cases": ["Import data from a file", "Load external resources", "Bring assets into a project"]
     }
   }
 }

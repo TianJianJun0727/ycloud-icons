@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "用户账户停用",
-    "内容限制指示器",
-    "错误或无效状态"
-  ],
+  "use-cases": ["用户账户停用", "内容限制指示器", "错误或无效状态"],
   "name": "禁止",
-  "tags": [
-    "禁止",
-    "取消",
-    "无效",
-    "错误",
-    "限制",
-    "停用"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["禁止", "取消", "无效", "错误", "限制", "停用"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "ban",
-      "tags": [
-        "ban",
-        "prohibit",
-        "invalid",
-        "error",
-        "restrict",
-        "disable"
-      ],
-      "use-cases": [
-        "User account suspension",
-        "Content restriction indicator",
-        "Error or invalid state"
-      ]
+      "tags": ["ban", "prohibit", "invalid", "error", "restrict", "disable"],
+      "use-cases": ["User account suspension", "Content restriction indicator", "Error or invalid state"]
     }
   }
 }

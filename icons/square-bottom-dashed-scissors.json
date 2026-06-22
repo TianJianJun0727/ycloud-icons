@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "编辑器剪切工具",
-    "代码片段",
-    "图片裁剪"
-  ],
+  "use-cases": ["编辑器剪切工具", "代码片段", "图片裁剪"],
   "name": "方形底部虚线剪刀",
-  "tags": [
-    "剪切",
-    "片段",
-    "裁剪",
-    "工具",
-    "设计"
-  ],
-  "categories": [
-    "text",
-    "design",
-    "tools",
-    "files",
-    "development"
-  ],
+  "tags": ["剪切", "片段", "裁剪", "工具", "设计"],
+  "categories": ["text", "design", "tools", "files", "development"],
   "aliases": [
     {
       "name": "scissors-square-dashed-bottom",
@@ -31,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square bottom dashed scissors",
-      "tags": [
-        "cut",
-        "snippet",
-        "crop",
-        "tool",
-        "design"
-      ],
-      "use-cases": [
-        "Cut tool in editor",
-        "Code snippet",
-        "Image cropping"
-      ]
+      "tags": ["cut", "snippet", "crop", "tool", "design"],
+      "use-cases": ["Cut tool in editor", "Code snippet", "Image cropping"]
     }
   }
 }

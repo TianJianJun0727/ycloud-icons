@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "媒体播放停止",
-    "系统关机屏幕",
-    "虚拟机终止"
-  ],
+  "use-cases": ["媒体播放停止", "系统关机屏幕", "虚拟机终止"],
   "name": "显示器停止",
-  "tags": [
-    "停止",
-    "视频停止",
-    "关机",
-    "虚拟机停止",
-    "结束运行"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "multimedia"
-  ],
+  "tags": ["停止", "视频停止", "关机", "虚拟机停止", "结束运行"],
+  "categories": ["connectivity", "devices", "multimedia"],
   "i18n": {
     "en": {
       "name": "monitor stop",
-      "tags": [
-        "stop",
-        "video stop",
-        "shutdown",
-        "virtual machine stop",
-        "end running"
-      ],
-      "use-cases": [
-        "Media playback stop",
-        "System shutdown screen",
-        "Virtual machine termination"
-      ]
+      "tags": ["stop", "video stop", "shutdown", "virtual machine stop", "end running"],
+      "use-cases": ["Media playback stop", "System shutdown screen", "Virtual machine termination"]
     }
   }
 }

@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "语言选择器",
-    "国际化网站",
-    "全局设置",
-    "世界地图功能"
-  ],
+  "use-cases": ["语言选择器", "国际化网站", "全局设置", "世界地图功能"],
   "name": "地球",
-  "tags": [
-    "世界",
-    "全球",
-    "地球仪",
-    "语言",
-    "翻译",
-    "国际",
-    "地点",
-    "网络"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["世界", "全球", "地球仪", "语言", "翻译", "国际", "地点", "网络"],
+  "categories": ["navigation"],
   "aliases": [
     {
       "name": "globe-2",
@@ -31,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "earth",
-      "tags": [
-        "world",
-        "global",
-        "globe",
-        "language",
-        "translation",
-        "international",
-        "location",
-        "web"
-      ],
-      "use-cases": [
-        "Language selector",
-        "International website",
-        "Global settings",
-        "World map feature"
-      ]
+      "tags": ["world", "global", "globe", "language", "translation", "international", "location", "web"],
+      "use-cases": ["Language selector", "International website", "Global settings", "World map feature"]
     }
   }
 }

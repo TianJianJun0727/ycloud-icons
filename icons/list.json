@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "项目列表显示",
-    "选项菜单",
-    "内容目录"
-  ],
+  "use-cases": ["项目列表显示", "选项菜单", "内容目录"],
   "name": "列表",
-  "tags": [
-    "列表",
-    "项目",
-    "选项",
-    "菜单",
-    "目录",
-    "清单"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["列表", "项目", "选项", "菜单", "目录", "清单"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "list",
-      "tags": [
-        "list",
-        "items",
-        "options",
-        "menu",
-        "directory",
-        "checklist"
-      ],
-      "use-cases": [
-        "item list display",
-        "options menu",
-        "content directory"
-      ]
+      "tags": ["list", "items", "options", "menu", "directory", "checklist"],
+      "use-cases": ["item list display", "options menu", "content directory"]
     }
   }
 }

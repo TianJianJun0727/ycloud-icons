@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "日元折扣徽章",
-    "日元价格标签",
-    "日本购物促销"
-  ],
+  "use-cases": ["日元折扣徽章", "日元价格标签", "日本购物促销"],
   "name": "徽章日元日元",
-  "tags": [
-    "折扣",
-    "优惠",
-    "价格",
-    "日元",
-    "促销",
-    "金融",
-    "购物",
-    "交易"
-  ],
-  "categories": [
-    "shopping",
-    "finance"
-  ],
+  "tags": ["折扣", "优惠", "价格", "日元", "促销", "金融", "购物", "交易"],
+  "categories": ["shopping", "finance"],
   "i18n": {
     "en": {
       "name": "badge japanese yen",
-      "tags": [
-        "discount",
-        "offer",
-        "price",
-        "jpy",
-        "sale",
-        "finance",
-        "shopping",
-        "transaction"
-      ],
-      "use-cases": [
-        "Discount badge with yen symbol",
-        "Japanese price tag",
-        "Japan shopping promotion"
-      ]
+      "tags": ["discount", "offer", "price", "jpy", "sale", "finance", "shopping", "transaction"],
+      "use-cases": ["Discount badge with yen symbol", "Japanese price tag", "Japan shopping promotion"]
     }
   }
 }

@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "快速向前跳过",
-    "游戏右转控制",
-    "快进操作"
-  ],
+  "use-cases": ["快速向前跳过", "游戏右转控制", "快进操作"],
   "name": "箭头大右短横线",
-  "tags": [
-    "向右",
-    "前进",
-    "方向",
-    "东",
-    "转弯",
-    "快速",
-    "跳过"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["向右", "前进", "方向", "东", "转弯", "快速", "跳过"],
+  "categories": ["arrows", "gaming"],
   "i18n": {
     "en": {
       "name": "arrow big right dash",
-      "tags": [
-        "right",
-        "forward",
-        "direction",
-        "east",
-        "turn",
-        "quick",
-        "skip"
-      ],
-      "use-cases": [
-        "Quick forward skip",
-        "Game control for right turn",
-        "Fast forward action"
-      ]
+      "tags": ["right", "forward", "direction", "east", "turn", "quick", "skip"],
+      "use-cases": ["Quick forward skip", "Game control for right turn", "Fast forward action"]
     }
   }
 }

@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "历史或博物馆网站内容",
-    "酒类或油类产品标签",
-    "古代文化教育材料"
-  ],
+  "use-cases": ["历史或博物馆网站内容", "酒类或油类产品标签", "古代文化教育材料"],
   "name": "双耳瓶",
-  "tags": [
-    "双耳瓶",
-    "陶器",
-    "文物",
-    "酒器",
-    "油罐",
-    "考古",
-    "博物馆",
-    "古希腊",
-    "罗马"
-  ],
-  "categories": [
-    "food-beverage",
-    "gaming"
-  ],
+  "tags": ["双耳瓶", "陶器", "文物", "酒器", "油罐", "考古", "博物馆", "古希腊", "罗马"],
+  "categories": ["food-beverage", "gaming"],
   "i18n": {
     "en": {
       "name": "amphora",
-      "tags": [
-        "amphora",
-        "pottery",
-        "artifact",
-        "vase",
-        "ceramics",
-        "wine",
-        "oil",
-        "archaeology",
-        "museum",
-        "ancient"
-      ],
-      "use-cases": [
-        "Historical or museum website content",
-        "Wine or oil product labeling",
-        "Educational material about ancient cultures"
-      ]
+      "tags": ["amphora", "pottery", "artifact", "vase", "ceramics", "wine", "oil", "archaeology", "museum", "ancient"],
+      "use-cases": ["Historical or museum website content", "Wine or oil product labeling", "Educational material about ancient cultures"]
     }
   }
 }

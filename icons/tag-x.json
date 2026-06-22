@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从项目中移除标签",
-    "删除带标签的产品或条目"
-  ],
+  "use-cases": ["从项目中移除标签", "删除带标签的产品或条目"],
   "name": "标签关闭",
-  "tags": [
-    "标签",
-    "移除标签",
-    "删除标签",
-    "关闭标签",
-    "标记",
-    "清除",
-    "徽章"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["标签", "移除标签", "删除标签", "关闭标签", "标记", "清除", "徽章"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "tag X",
-      "tags": [
-        "tag",
-        "label",
-        "remove tag",
-        "delete tag",
-        "badge",
-        "clear",
-        "close"
-      ],
-      "use-cases": [
-        "removing a tag from an item",
-        "deleting a labeled product or entry"
-      ]
+      "tags": ["tag", "label", "remove tag", "delete tag", "badge", "clear", "close"],
+      "use-cases": ["removing a tag from an item", "deleting a labeled product or entry"]
     }
   }
 }

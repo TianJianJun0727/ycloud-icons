@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件存储管理",
-    "文档归档收纳",
-    "资料整理盒子",
-    "文件收纳容器"
-  ],
+  "use-cases": ["文件存储管理", "文档归档收纳", "资料整理盒子", "文件收纳容器"],
   "name": "文件盒",
-  "tags": [
-    "文件盒",
-    "收纳盒",
-    "存储盒",
-    "文档盒",
-    "归档盒"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["文件盒", "收纳盒", "存储盒", "文档盒", "归档盒"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file box",
-      "tags": [
-        "file box",
-        "storage box",
-        "document box",
-        "archive box",
-        "organizer"
-      ],
-      "use-cases": [
-        "File storage management",
-        "Document archiving organization",
-        "Material organization box",
-        "File storage container"
-      ]
+      "tags": ["file box", "storage box", "document box", "archive box", "organizer"],
+      "use-cases": ["File storage management", "Document archiving organization", "Material organization box", "File storage container"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本对齐设置",
-    "排版设计工具",
-    "编辑器中的格式指示器"
-  ],
+  "use-cases": ["文本对齐设置", "排版设计工具", "编辑器中的格式指示器"],
   "name": "基线",
-  "tags": [
-    "文本基线",
-    "对齐",
-    "排版",
-    "字体",
-    "设计",
-    "格式"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["文本基线", "对齐", "排版", "字体", "设计", "格式"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "baseline",
-      "tags": [
-        "text baseline",
-        "alignment",
-        "typography",
-        "font",
-        "design",
-        "formatting"
-      ],
-      "use-cases": [
-        "Text alignment settings",
-        "Typography design tool",
-        "Formatting indicator in editor"
-      ]
+      "tags": ["text baseline", "alignment", "typography", "font", "design", "formatting"],
+      "use-cases": ["Text alignment settings", "Typography design tool", "Formatting indicator in editor"]
     }
   }
 }

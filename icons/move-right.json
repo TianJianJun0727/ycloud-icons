@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "将对象向右移动",
-    "导航到下一页",
-    "地图上的东方",
-    "媒体快进"
-  ],
+  "use-cases": ["将对象向右移动", "导航到下一页", "地图上的东方", "媒体快进"],
   "name": "向右移动",
-  "tags": [
-    "箭头",
-    "方向",
-    "向右",
-    "移动",
-    "东",
-    "前进",
-    "下一步"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["箭头", "方向", "向右", "移动", "东", "前进", "下一步"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "move right",
-      "tags": [
-        "arrow",
-        "direction",
-        "right",
-        "move",
-        "east",
-        "forward",
-        "next"
-      ],
-      "use-cases": [
-        "Move object right",
-        "Navigate to next page",
-        "East direction on map",
-        "Fast-forward media"
-      ]
+      "tags": ["arrow", "direction", "right", "move", "east", "forward", "next"],
+      "use-cases": ["Move object right", "Navigate to next page", "East direction on map", "Fast-forward media"]
     }
   }
 }

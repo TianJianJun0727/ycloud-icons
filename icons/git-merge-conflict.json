@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "合并冲突解决界面",
-    "版本控制错误状态",
-    "代码集成问题"
-  ],
+  "use-cases": ["合并冲突解决界面", "版本控制错误状态", "代码集成问题"],
   "name": "Git合并冲突",
-  "tags": [
-    "合并冲突",
-    "错误",
-    "版本控制",
-    "Git",
-    "代码冲突",
-    "解决"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["合并冲突", "错误", "版本控制", "Git", "代码冲突", "解决"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git merge conflict",
-      "tags": [
-        "merge conflict",
-        "error",
-        "version control",
-        "Git",
-        "code conflict",
-        "resolve"
-      ],
-      "use-cases": [
-        "Merge conflict resolution interface",
-        "Version control error state",
-        "Code integration issue"
-      ]
+      "tags": ["merge conflict", "error", "version control", "Git", "code conflict", "resolve"],
+      "use-cases": ["Merge conflict resolution interface", "Version control error state", "Code integration issue"]
     }
   }
 }

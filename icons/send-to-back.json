@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具中的图层排序",
-    "将对象移至其他对象后方",
-    "界面元素堆叠"
-  ],
+  "use-cases": ["设计工具中的图层排序", "将对象移至其他对象后方", "界面元素堆叠"],
   "name": "发送到返回",
-  "tags": [
-    "置于底层",
-    "图层",
-    "顺序",
-    "后移",
-    "设计",
-    "布局"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["置于底层", "图层", "顺序", "后移", "设计", "布局"],
+  "categories": ["design", "layout"],
   "i18n": {
     "en": {
       "name": "send to back",
-      "tags": [
-        "send to back",
-        "layer",
-        "order",
-        "move backward",
-        "design",
-        "layout"
-      ],
-      "use-cases": [
-        "Layer ordering in design tools",
-        "Move object behind others",
-        "UI element stacking"
-      ]
+      "tags": ["send to back", "layer", "order", "move backward", "design", "layout"],
+      "use-cases": ["Layer ordering in design tools", "Move object behind others", "UI element stacking"]
     }
   }
 }

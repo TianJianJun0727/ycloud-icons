@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件压缩界面",
-    "备份存储位置",
-    "下载归档文件夹"
-  ],
+  "use-cases": ["文件压缩界面", "备份存储位置", "下载归档文件夹"],
   "name": "文件夹归档",
-  "tags": [
-    "归档",
-    "压缩",
-    "打包",
-    "备份",
-    "文件管理"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["归档", "压缩", "打包", "备份", "文件管理"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder archive",
-      "tags": [
-        "archive",
-        "zip",
-        "package",
-        "backup",
-        "file management"
-      ],
-      "use-cases": [
-        "File compression interface",
-        "Backup storage location",
-        "Download archive folder"
-      ]
+      "tags": ["archive", "zip", "package", "backup", "file management"],
+      "use-cases": ["File compression interface", "Backup storage location", "Download archive folder"]
     }
   }
 }

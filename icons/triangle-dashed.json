@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图表标注",
-    "设计元素",
-    "导航标记",
-    "视觉指南"
-  ],
+  "use-cases": ["图表标注", "设计元素", "导航标记", "视觉指南"],
   "name": "三角形虚线",
-  "tags": [
-    "虚线三角形",
-    "形状",
-    "几何",
-    "指示",
-    "标记"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["虚线三角形", "形状", "几何", "指示", "标记"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "triangle dashed",
-      "tags": [
-        "dashed",
-        "triangle",
-        "shape",
-        "geometry",
-        "indicator"
-      ],
-      "use-cases": [
-        "Diagram annotation",
-        "Design element",
-        "Navigation marker",
-        "Visual guide"
-      ]
+      "tags": ["dashed", "triangle", "shape", "geometry", "indicator"],
+      "use-cases": ["Diagram annotation", "Design element", "Navigation marker", "Visual guide"]
     }
   }
 }

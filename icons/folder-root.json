@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "项目根目录指示器",
-    "Git仓库根目录",
-    "源代码主文件夹"
-  ],
+  "use-cases": ["项目根目录指示器", "Git仓库根目录", "源代码主文件夹"],
   "name": "文件夹根",
-  "tags": [
-    "根目录",
-    "项目根",
-    "主文件夹",
-    "Git",
-    "源码"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["根目录", "项目根", "主文件夹", "Git", "源码"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "folder root",
-      "tags": [
-        "root directory",
-        "project root",
-        "main folder",
-        "git",
-        "source code"
-      ],
-      "use-cases": [
-        "Project root directory indicator",
-        "Git repository root",
-        "Source code main folder"
-      ]
+      "tags": ["root directory", "project root", "main folder", "git", "source code"],
+      "use-cases": ["Project root directory indicator", "Git repository root", "Source code main folder"]
     }
   }
 }

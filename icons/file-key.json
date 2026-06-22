@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "加密文件访问",
-    "安全设置",
-    "权限管理"
-  ],
+  "use-cases": ["加密文件访问", "安全设置", "权限管理"],
   "name": "文件钥匙",
-  "tags": [
-    "密钥",
-    "加密",
-    "安全",
-    "文件",
-    "权限"
-  ],
-  "categories": [
-    "files",
-    "security"
-  ],
+  "tags": ["密钥", "加密", "安全", "文件", "权限"],
+  "categories": ["files", "security"],
   "aliases": [
     {
       "name": "file-key-2",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file key",
-      "tags": [
-        "key",
-        "encryption",
-        "security",
-        "file",
-        "access"
-      ],
-      "use-cases": [
-        "Encrypted file access",
-        "Security settings",
-        "Permission management"
-      ]
+      "tags": ["key", "encryption", "security", "file", "access"],
+      "use-cases": ["Encrypted file access", "Security settings", "Permission management"]
     }
   }
 }

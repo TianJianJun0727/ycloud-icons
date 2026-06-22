@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档安全与删除",
-    "数据隐私功能",
-    "文件销毁确认"
-  ],
+  "use-cases": ["文档安全与删除", "数据隐私功能", "文件销毁确认"],
   "name": "碎纸机",
-  "tags": [
-    "碎纸机",
-    "销毁",
-    "文件",
-    "安全",
-    "删除",
-    "保密",
-    "数据"
-  ],
-  "categories": [
-    "mail",
-    "files"
-  ],
+  "tags": ["碎纸机", "销毁", "文件", "安全", "删除", "保密", "数据"],
+  "categories": ["mail", "files"],
   "i18n": {
     "en": {
       "name": "shredder",
-      "tags": [
-        "shredder",
-        "destroy",
-        "document",
-        "security",
-        "delete",
-        "confidential",
-        "data"
-      ],
-      "use-cases": [
-        "Document security and deletion",
-        "Data privacy features",
-        "File destruction confirmation"
-      ]
+      "tags": ["shredder", "destroy", "document", "security", "delete", "confidential", "data"],
+      "use-cases": ["Document security and deletion", "Data privacy features", "File destruction confirmation"]
     }
   }
 }

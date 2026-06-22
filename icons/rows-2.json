@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "双面板的分屏视图界面",
-    "显示两行的列表或网格",
-    "具有两个并行段落的文本编辑器"
-  ],
+  "use-cases": ["双面板的分屏视图界面", "显示两行的列表或网格", "具有两个并行段落的文本编辑器"],
   "name": "行2",
-  "tags": [
-    "两行",
-    "行布局",
-    "分栏",
-    "垂直分割",
-    "面板",
-    "列表视图",
-    "并行"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "text"
-  ],
+  "tags": ["两行", "行布局", "分栏", "垂直分割", "面板", "列表视图", "并行"],
+  "categories": ["layout", "design", "text"],
   "aliases": [
     {
       "name": "rows",
@@ -31,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "rows 2",
-      "tags": [
-        "two rows",
-        "row layout",
-        "split view",
-        "vertical split",
-        "panels",
-        "list view",
-        "parallel"
-      ],
-      "use-cases": [
-        "Split view interface with two panels",
-        "List or grid display with two rows",
-        "Text editor with two parallel paragraphs"
-      ]
+      "tags": ["two rows", "row layout", "split view", "vertical split", "panels", "list view", "parallel"],
+      "use-cases": ["Split view interface with two panels", "List or grid display with two rows", "Text editor with two parallel paragraphs"]
     }
   }
 }

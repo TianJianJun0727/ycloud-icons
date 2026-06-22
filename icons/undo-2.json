@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "多步撤销操作",
-    "编辑历史导航",
-    "操作回退"
-  ],
+  "use-cases": ["多步撤销操作", "编辑历史导航", "操作回退"],
   "name": "撤销2",
-  "tags": [
-    "撤销",
-    "重做",
-    "历史",
-    "返回",
-    "反向"
-  ],
-  "categories": [
-    "text",
-    "arrows"
-  ],
+  "tags": ["撤销", "重做", "历史", "返回", "反向"],
+  "categories": ["text", "arrows"],
   "i18n": {
     "en": {
       "name": "undo 2",
-      "tags": [
-        "undo",
-        "redo",
-        "history",
-        "back",
-        "reverse"
-      ],
-      "use-cases": [
-        "Multi-step undo",
-        "Edit history navigation",
-        "Action rollback"
-      ]
+      "tags": ["undo", "redo", "history", "back", "reverse"],
+      "use-cases": ["Multi-step undo", "Edit history navigation", "Action rollback"]
     }
   }
 }

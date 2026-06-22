@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频播放器界面",
-    "电影库分类",
-    "多媒体编辑工具"
-  ],
+  "use-cases": ["视频播放器界面", "电影库分类", "多媒体编辑工具"],
   "name": "胶片",
-  "tags": [
-    "电影",
-    "视频",
-    "胶片",
-    "摄像机",
-    "影院",
-    "多媒体"
-  ],
-  "categories": [
-    "photography",
-    "multimedia"
-  ],
+  "tags": ["电影", "视频", "胶片", "摄像机", "影院", "多媒体"],
+  "categories": ["photography", "multimedia"],
   "i18n": {
     "en": {
       "name": "film",
-      "tags": [
-        "movie",
-        "video",
-        "film",
-        "camera",
-        "cinema",
-        "multimedia"
-      ],
-      "use-cases": [
-        "Video player interface",
-        "Movie library category",
-        "Multimedia editing tool"
-      ]
+      "tags": ["movie", "video", "film", "camera", "cinema", "multimedia"],
+      "use-cases": ["Video player interface", "Movie library category", "Multimedia editing tool"]
     }
   }
 }

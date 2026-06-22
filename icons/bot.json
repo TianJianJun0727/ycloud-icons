@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "自动化流程界面",
-    "AI助手功能",
-    "机器人控制面板"
-  ],
+  "use-cases": ["自动化流程界面", "AI助手功能", "机器人控制面板"],
   "name": "机器人",
-  "tags": [
-    "机器人",
-    "AI",
-    "自动化",
-    "智能助手",
-    "聊天机器人"
-  ],
-  "categories": [
-    "development",
-    "social"
-  ],
+  "tags": ["机器人", "AI", "自动化", "智能助手", "聊天机器人"],
+  "categories": ["development", "social"],
   "i18n": {
     "en": {
       "name": "bot",
-      "tags": [
-        "bot",
-        "AI",
-        "automation",
-        "smart assistant",
-        "chatbot"
-      ],
-      "use-cases": [
-        "Automation workflow interface",
-        "AI assistant functionality",
-        "Bot control panel"
-      ]
+      "tags": ["bot", "AI", "automation", "smart assistant", "chatbot"],
+      "use-cases": ["Automation workflow interface", "AI assistant functionality", "Bot control panel"]
     }
   }
 }

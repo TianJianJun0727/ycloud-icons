@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "图像切片工具",
-    "设计软件功能",
-    "内容分割"
-  ],
+  "use-cases": ["图像切片工具", "设计软件功能", "内容分割"],
   "name": "切片",
-  "tags": [
-    "切片",
-    "切割",
-    "分割",
-    "设计工具",
-    "裁剪",
-    "编辑"
-  ],
-  "categories": [
-    "design"
-  ],
+  "tags": ["切片", "切割", "分割", "设计工具", "裁剪", "编辑"],
+  "categories": ["design"],
   "i18n": {
     "en": {
       "name": "slice",
-      "tags": [
-        "slice",
-        "cut",
-        "divide",
-        "design tool",
-        "crop",
-        "edit"
-      ],
-      "use-cases": [
-        "Image slicing tool",
-        "Design software function",
-        "Content division"
-      ]
+      "tags": ["slice", "cut", "divide", "design tool", "crop", "edit"],
+      "use-cases": ["Image slicing tool", "Design software function", "Content division"]
     }
   }
 }

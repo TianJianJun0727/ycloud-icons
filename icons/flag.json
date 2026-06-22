@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "举报不当内容",
-    "标记里程碑或目标",
-    "引起对项目的关注"
-  ],
+  "use-cases": ["举报不当内容", "标记里程碑或目标", "引起对项目的关注"],
   "name": "旗帜",
-  "tags": [
-    "标记",
-    "报告",
-    "通知",
-    "里程碑",
-    "目标",
-    "关注"
-  ],
-  "categories": [
-    "account",
-    "social"
-  ],
+  "tags": ["标记", "报告", "通知", "里程碑", "目标", "关注"],
+  "categories": ["account", "social"],
   "i18n": {
     "en": {
       "name": "flag",
-      "tags": [
-        "flag",
-        "report",
-        "notification",
-        "milestone",
-        "goal",
-        "attention"
-      ],
-      "use-cases": [
-        "Report inappropriate content",
-        "Mark a milestone or goal",
-        "Draw attention to an item"
-      ]
+      "tags": ["flag", "report", "notification", "milestone", "goal", "attention"],
+      "use-cases": ["Report inappropriate content", "Mark a milestone or goal", "Draw attention to an item"]
     }
   }
 }

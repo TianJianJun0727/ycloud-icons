@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "屏幕亮度控制",
-    "默认亮度设置",
-    "无障碍设置",
-    "显示偏好"
-  ],
+  "use-cases": ["屏幕亮度控制", "默认亮度设置", "无障碍设置", "显示偏好"],
   "name": "太阳中等",
-  "tags": [
-    "亮度中等",
-    "适中亮度",
-    "普通亮度",
-    "亮度调节",
-    "无障碍"
-  ],
-  "categories": [
-    "accessibility",
-    "weather"
-  ],
+  "tags": ["亮度中等", "适中亮度", "普通亮度", "亮度调节", "无障碍"],
+  "categories": ["accessibility", "weather"],
   "i18n": {
     "en": {
       "name": "sun medium",
-      "tags": [
-        "medium brightness",
-        "moderate brightness",
-        "normal brightness",
-        "brightness adjustment",
-        "accessibility"
-      ],
-      "use-cases": [
-        "Screen brightness control",
-        "Default brightness setting",
-        "Accessibility settings",
-        "Display preferences"
-      ]
+      "tags": ["medium brightness", "moderate brightness", "normal brightness", "brightness adjustment", "accessibility"],
+      "use-cases": ["Screen brightness control", "Default brightness setting", "Accessibility settings", "Display preferences"]
     }
   }
 }

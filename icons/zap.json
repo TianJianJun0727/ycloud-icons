@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示快速操作或快捷方式",
-    "电源或能量状态",
-    "相机闪光灯开启"
-  ],
+  "use-cases": ["表示快速操作或快捷方式", "电源或能量状态", "相机闪光灯开启"],
   "name": "闪电",
-  "tags": [
-    "闪电",
-    "快速",
-    "能量",
-    "电源",
-    "闪光灯",
-    "灵感"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "photography",
-    "weather"
-  ],
+  "tags": ["闪电", "快速", "能量", "电源", "闪光灯", "灵感"],
+  "categories": ["connectivity", "devices", "photography", "weather"],
   "i18n": {
     "en": {
       "name": "zap",
-      "tags": [
-        "lightning",
-        "quick",
-        "energy",
-        "power",
-        "flash",
-        "inspiration"
-      ],
-      "use-cases": [
-        "Representing a quick action or shortcut",
-        "Power or energy status",
-        "Camera flash turned on"
-      ]
+      "tags": ["lightning", "quick", "energy", "power", "flash", "inspiration"],
+      "use-cases": ["Representing a quick action or shortcut", "Power or energy status", "Camera flash turned on"]
     }
   }
 }

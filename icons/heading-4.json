@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档编辑器中的四级标题",
-    "网页内容层级结构",
-    "Markdown 标题标记"
-  ],
+  "use-cases": ["文档编辑器中的四级标题", "网页内容层级结构", "Markdown 标题标记"],
   "name": "标题4",
-  "tags": [
-    "H4",
-    "HTML",
-    "标记",
-    "Markdown",
-    "标题",
-    "文档",
-    "编辑"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["H4", "HTML", "标记", "Markdown", "标题", "文档", "编辑"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "heading 4",
-      "tags": [
-        "h4",
-        "html",
-        "markup",
-        "markdown",
-        "heading",
-        "document",
-        "editor"
-      ],
-      "use-cases": [
-        "Fourth-level heading in document editor",
-        "Web content hierarchy",
-        "Markdown heading markup"
-      ]
+      "tags": ["h4", "html", "markup", "markdown", "heading", "document", "editor"],
+      "use-cases": ["Fourth-level heading in document editor", "Web content hierarchy", "Markdown heading markup"]
     }
   }
 }

@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "分页下一页按钮",
-    "可展开菜单项",
-    "前进导航"
-  ],
+  "use-cases": ["分页下一页按钮", "可展开菜单项", "前进导航"],
   "name": "圆形折角箭头右",
-  "tags": [
-    "右箭头",
-    "前进",
-    "下一步",
-    "展开",
-    "菜单",
-    "大于"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["右箭头", "前进", "下一步", "展开", "菜单", "大于"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "chevron-right-circle",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle chevron right",
-      "tags": [
-        "right arrow",
-        "forward",
-        "next",
-        "expand",
-        "menu",
-        "greater than"
-      ],
-      "use-cases": [
-        "Pagination next button",
-        "Expandable menu item",
-        "Forward navigation"
-      ]
+      "tags": ["right arrow", "forward", "next", "expand", "menu", "greater than"],
+      "use-cases": ["Pagination next button", "Expandable menu item", "Forward navigation"]
     }
   }
 }

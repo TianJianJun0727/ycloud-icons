@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码编辑器功能按钮",
-    "数学公式显示",
-    "自动化工具界面"
-  ],
+  "use-cases": ["代码编辑器功能按钮", "数学公式显示", "自动化工具界面"],
   "name": "方形函数",
-  "tags": [
-    "编程",
-    "代码",
-    "函数",
-    "数学",
-    "计算",
-    "自动化"
-  ],
-  "categories": [
-    "development",
-    "math"
-  ],
+  "tags": ["编程", "代码", "函数", "数学", "计算", "自动化"],
+  "categories": ["development", "math"],
   "aliases": [
     {
       "name": "function-square",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square function",
-      "tags": [
-        "programming",
-        "code",
-        "function",
-        "math",
-        "calculation",
-        "automation"
-      ],
-      "use-cases": [
-        "Code editor function button",
-        "Math equation display",
-        "Automation tool interface"
-      ]
+      "tags": ["programming", "code", "function", "math", "calculation", "automation"],
+      "use-cases": ["Code editor function button", "Math equation display", "Automation tool interface"]
     }
   }
 }

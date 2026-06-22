@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "徒步应用",
-    "户外活动",
-    "山区导航"
-  ],
+  "use-cases": ["徒步应用", "户外活动", "山区导航"],
   "name": "山",
-  "tags": [
-    "山",
-    "山脉",
-    "登山",
-    "徒步",
-    "自然",
-    "户外"
-  ],
-  "categories": [
-    "nature",
-    "gaming"
-  ],
+  "tags": ["山", "山脉", "登山", "徒步", "自然", "户外"],
+  "categories": ["nature", "gaming"],
   "i18n": {
     "en": {
       "name": "mountain",
-      "tags": [
-        "mountain",
-        "mountains",
-        "climbing",
-        "hiking",
-        "nature",
-        "outdoors"
-      ],
-      "use-cases": [
-        "Hiking app",
-        "Outdoor activity",
-        "Mountain navigation"
-      ]
+      "tags": ["mountain", "mountains", "climbing", "hiking", "nature", "outdoors"],
+      "use-cases": ["Hiking app", "Outdoor activity", "Mountain navigation"]
     }
   }
 }

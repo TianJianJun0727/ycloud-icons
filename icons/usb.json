@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备连接状态",
-    "USB接口指示",
-    "外设设备管理"
-  ],
+  "use-cases": ["设备连接状态", "USB接口指示", "外设设备管理"],
   "name": "USB接口",
-  "tags": [
-    "USB",
-    "接口",
-    "连接器",
-    "数据传输",
-    "外接设备"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "home"
-  ],
+  "tags": ["USB", "接口", "连接器", "数据传输", "外接设备"],
+  "categories": ["devices", "multimedia", "home"],
   "i18n": {
     "en": {
       "name": "usb",
-      "tags": [
-        "USB",
-        "interface",
-        "connector",
-        "data transfer",
-        "peripheral device"
-      ],
-      "use-cases": [
-        "Device connection status",
-        "USB port indicator",
-        "Peripheral device management"
-      ]
+      "tags": ["USB", "interface", "connector", "data transfer", "peripheral device"],
+      "use-cases": ["Device connection status", "USB port indicator", "Peripheral device management"]
     }
   }
 }

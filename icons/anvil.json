@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏界面中的制作系统",
-    "工具或车间相关应用",
-    "重量或耐久度指示器"
-  ],
+  "use-cases": ["游戏界面中的制作系统", "工具或车间相关应用", "重量或耐久度指示器"],
   "name": "铁砧",
-  "tags": [
-    "铁砧",
-    "锻造",
-    "铁匠",
-    "工具",
-    "金属加工",
-    "重量",
-    "游戏道具",
-    "制作"
-  ],
-  "categories": [
-    "buildings",
-    "tools",
-    "gaming"
-  ],
+  "tags": ["铁砧", "锻造", "铁匠", "工具", "金属加工", "重量", "游戏道具", "制作"],
+  "categories": ["buildings", "tools", "gaming"],
   "i18n": {
     "en": {
       "name": "anvil",
-      "tags": [
-        "anvil",
-        "forge",
-        "blacksmith",
-        "tool",
-        "metalworking",
-        "weight",
-        "crafting",
-        "gaming"
-      ],
-      "use-cases": [
-        "Crafting system in game interfaces",
-        "Tool or workshop related applications",
-        "Weight or durability indicator"
-      ]
+      "tags": ["anvil", "forge", "blacksmith", "tool", "metalworking", "weight", "crafting", "gaming"],
+      "use-cases": ["Crafting system in game interfaces", "Tool or workshop related applications", "Weight or durability indicator"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设备状态指示",
-    "电源管理界面",
-    "断开连接操作"
-  ],
+  "use-cases": ["设备状态指示", "电源管理界面", "断开连接操作"],
   "name": "拔出",
-  "tags": [
-    "拔插头",
-    "断开连接",
-    "电源断开",
-    "设备离线",
-    "断电"
-  ],
-  "categories": [
-    "devices",
-    "development"
-  ],
+  "tags": ["拔插头", "断开连接", "电源断开", "设备离线", "断电"],
+  "categories": ["devices", "development"],
   "i18n": {
     "en": {
       "name": "unplug",
-      "tags": [
-        "unplug",
-        "disconnect",
-        "power off",
-        "device offline",
-        "power disconnect"
-      ],
-      "use-cases": [
-        "Device status indicator",
-        "Power management interface",
-        "Disconnect operation"
-      ]
+      "tags": ["unplug", "disconnect", "power off", "device offline", "power disconnect"],
+      "use-cases": ["Device status indicator", "Power management interface", "Disconnect operation"]
     }
   }
 }

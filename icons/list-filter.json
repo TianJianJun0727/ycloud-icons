@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "筛选列表中的项目",
-    "对列表应用搜索条件",
-    "切换列表视图选项"
-  ],
+  "use-cases": ["筛选列表中的项目", "对列表应用搜索条件", "切换列表视图选项"],
   "name": "列表筛选",
-  "tags": [
-    "列表",
-    "筛选",
-    "过滤",
-    "选项",
-    "条件"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["列表", "筛选", "过滤", "选项", "条件"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "list filter",
-      "tags": [
-        "list",
-        "filter",
-        "options",
-        "criteria"
-      ],
-      "use-cases": [
-        "Filter items in a list",
-        "Apply search criteria to a list",
-        "Toggle list view options"
-      ]
+      "tags": ["list", "filter", "options", "criteria"],
+      "use-cases": ["Filter items in a list", "Apply search criteria to a list", "Toggle list view options"]
     }
   }
 }

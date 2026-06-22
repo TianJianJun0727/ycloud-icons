@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用",
-    "预报显示",
-    "气候仪表板"
-  ],
+  "use-cases": ["天气应用", "预报显示", "气候仪表板"],
   "name": "多云",
-  "tags": [
-    "天气",
-    "多云",
-    "云",
-    "气象",
-    "阴天"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "多云", "云", "气象", "阴天"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloudy",
-      "tags": [
-        "weather",
-        "clouds",
-        "cloudy",
-        "meteorology",
-        "overcast"
-      ],
-      "use-cases": [
-        "Weather app",
-        "Forecast display",
-        "Climate dashboard"
-      ]
+      "tags": ["weather", "clouds", "cloudy", "meteorology", "overcast"],
+      "use-cases": ["Weather app", "Forecast display", "Climate dashboard"]
     }
   }
 }

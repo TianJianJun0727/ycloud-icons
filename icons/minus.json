@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "减少数量按钮",
-    "移除项目控制",
-    "数学减法",
-    "文本水平分隔线"
-  ],
+  "use-cases": ["减少数量按钮", "移除项目控制", "数学减法", "文本水平分隔线"],
   "name": "减少",
-  "tags": [
-    "减号",
-    "减去",
-    "减少",
-    "移除",
-    "分隔线",
-    "负号"
-  ],
-  "categories": [
-    "math",
-    "development",
-    "text",
-    "tools"
-  ],
+  "tags": ["减号", "减去", "减少", "移除", "分隔线", "负号"],
+  "categories": ["math", "development", "text", "tools"],
   "i18n": {
     "en": {
       "name": "minus",
-      "tags": [
-        "minus",
-        "subtract",
-        "decrease",
-        "remove",
-        "divider",
-        "negative"
-      ],
-      "use-cases": [
-        "Decrease quantity button",
-        "Remove item control",
-        "Mathematical subtraction",
-        "Horizontal rule in text"
-      ]
+      "tags": ["minus", "subtract", "decrease", "remove", "divider", "negative"],
+      "use-cases": ["Decrease quantity button", "Remove item control", "Mathematical subtraction", "Horizontal rule in text"]
     }
   }
 }

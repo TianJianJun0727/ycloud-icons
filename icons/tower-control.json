@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "机场导航",
-    "飞行控制",
-    "交通管理"
-  ],
+  "use-cases": ["机场导航", "飞行控制", "交通管理"],
   "name": "塔控制",
-  "tags": [
-    "控制塔",
-    "机场塔台",
-    "交通控制",
-    "航空管制"
-  ],
-  "categories": [
-    "travel",
-    "transportation"
-  ],
+  "tags": ["控制塔", "机场塔台", "交通控制", "航空管制"],
+  "categories": ["travel", "transportation"],
   "i18n": {
     "en": {
       "name": "tower control",
-      "tags": [
-        "control tower",
-        "airport tower",
-        "traffic control",
-        "air traffic control"
-      ],
-      "use-cases": [
-        "Airport navigation",
-        "Flight control",
-        "Transportation management"
-      ]
+      "tags": ["control tower", "airport tower", "traffic control", "air traffic control"],
+      "use-cases": ["Airport navigation", "Flight control", "Transportation management"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "欧元折扣徽章",
-    "欧洲价格标签",
-    "欧元区购物促销"
-  ],
+  "use-cases": ["欧元折扣徽章", "欧洲价格标签", "欧元区购物促销"],
   "name": "徽章欧元",
-  "tags": [
-    "折扣",
-    "优惠",
-    "价格",
-    "欧元",
-    "促销",
-    "金融",
-    "购物",
-    "交易"
-  ],
-  "categories": [
-    "shopping",
-    "finance"
-  ],
+  "tags": ["折扣", "优惠", "价格", "欧元", "促销", "金融", "购物", "交易"],
+  "categories": ["shopping", "finance"],
   "i18n": {
     "en": {
       "name": "badge euro",
-      "tags": [
-        "discount",
-        "offer",
-        "price",
-        "euro",
-        "sale",
-        "finance",
-        "shopping",
-        "transaction"
-      ],
-      "use-cases": [
-        "Discount badge with euro symbol",
-        "European price tag",
-        "Eurozone shopping promotion"
-      ]
+      "tags": ["discount", "offer", "price", "euro", "sale", "finance", "shopping", "transaction"],
+      "use-cases": ["Discount badge with euro symbol", "European price tag", "Eurozone shopping promotion"]
     }
   }
 }

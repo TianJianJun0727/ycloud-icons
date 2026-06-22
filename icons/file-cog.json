@@ -1,20 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "配置文件",
-    "可执行设置",
-    "系统偏好"
-  ],
+  "use-cases": ["配置文件", "可执行设置", "系统偏好"],
   "name": "文件齿轮",
-  "tags": [
-    "设置",
-    "配置",
-    "可执行文件",
-    "系统文件"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["设置", "配置", "可执行文件", "系统文件"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-cog-2",
@@ -26,17 +15,8 @@
   "i18n": {
     "en": {
       "name": "file cog",
-      "tags": [
-        "settings",
-        "config",
-        "executable",
-        "system file"
-      ],
-      "use-cases": [
-        "Configuration file",
-        "Executable settings",
-        "System preferences"
-      ]
+      "tags": ["settings", "config", "executable", "system file"],
+      "use-cases": ["Configuration file", "Executable settings", "System preferences"]
     }
   }
 }

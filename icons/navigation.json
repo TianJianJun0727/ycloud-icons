@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "活动导航指示器",
-    "地图方向箭头",
-    "路线规划功能"
-  ],
+  "use-cases": ["活动导航指示器", "地图方向箭头", "路线规划功能"],
   "name": "导航",
-  "tags": [
-    "导航",
-    "定位",
-    "方向",
-    "指南针",
-    "旅行",
-    "路线",
-    "地图"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["导航", "定位", "方向", "指南针", "旅行", "路线", "地图"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "navigation",
-      "tags": [
-        "navigation",
-        "location",
-        "direction",
-        "compass",
-        "travel",
-        "route",
-        "map"
-      ],
-      "use-cases": [
-        "Active navigation indicator",
-        "Map direction arrow",
-        "Route planning feature"
-      ]
+      "tags": ["navigation", "location", "direction", "compass", "travel", "route", "map"],
+      "use-cases": ["Active navigation indicator", "Map direction arrow", "Route planning feature"]
     }
   }
 }

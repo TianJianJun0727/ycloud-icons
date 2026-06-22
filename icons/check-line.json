@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "任务完成状态",
-    "批准指示器"
-  ],
+  "use-cases": ["任务完成状态", "批准指示器"],
   "name": "勾选线条",
-  "tags": [
-    "完成",
-    "确认",
-    "勾选",
-    "任务",
-    "通过"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["完成", "确认", "勾选", "任务", "通过"],
+  "categories": ["notifications"],
   "i18n": {
     "en": {
       "name": "check line",
-      "tags": [
-        "done",
-        "confirmed",
-        "check",
-        "task",
-        "approved"
-      ],
-      "use-cases": [
-        "Task completion status",
-        "Approval indicator"
-      ]
+      "tags": ["done", "confirmed", "check", "task", "approved"],
+      "use-cases": ["Task completion status", "Approval indicator"]
     }
   }
 }

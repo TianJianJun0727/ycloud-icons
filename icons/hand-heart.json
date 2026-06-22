@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "社交媒体点赞",
-    "表达情感",
-    "关怀支持功能"
-  ],
+  "use-cases": ["社交媒体点赞", "表达情感", "关怀支持功能"],
   "name": "手爱心",
-  "tags": [
-    "爱心",
-    "喜欢",
-    "情感",
-    "社交",
-    "关怀"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["爱心", "喜欢", "情感", "社交", "关怀"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "hand heart",
-      "tags": [
-        "heart",
-        "like",
-        "emotion",
-        "social",
-        "care"
-      ],
-      "use-cases": [
-        "Social media likes",
-        "Expressing affection",
-        "Care and support features"
-      ]
+      "tags": ["heart", "like", "emotion", "social", "care"],
+      "use-cases": ["Social media likes", "Expressing affection", "Care and support features"]
     }
   }
 }

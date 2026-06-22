@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "便携化妆镜",
-    "界面中的反射",
-    "装饰性圆镜",
-    "科学光学图示"
-  ],
+  "use-cases": ["便携化妆镜", "界面中的反射", "装饰性圆镜", "科学光学图示"],
   "name": "镜像圆形",
-  "tags": [
-    "镜子",
-    "反射",
-    "圆形镜",
-    "化妆镜",
-    "光学"
-  ],
-  "categories": [
-    "science",
-    "home",
-    "tools"
-  ],
+  "tags": ["镜子", "反射", "圆形镜", "化妆镜", "光学"],
+  "categories": ["science", "home", "tools"],
   "i18n": {
     "en": {
       "name": "mirror round",
-      "tags": [
-        "mirror",
-        "reflection",
-        "round mirror",
-        "makeup mirror",
-        "optics"
-      ],
-      "use-cases": [
-        "Compact makeup mirror",
-        "Reflection in UI",
-        "Decorative round mirror",
-        "Science optics diagram"
-      ]
+      "tags": ["mirror", "reflection", "round mirror", "makeup mirror", "optics"],
+      "use-cases": ["Compact makeup mirror", "Reflection in UI", "Decorative round mirror", "Science optics diagram"]
     }
   }
 }

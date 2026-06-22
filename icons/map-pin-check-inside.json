@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "位置验证成功",
-    "完成的路径点标记",
-    "确认的目的地图钉"
-  ],
+  "use-cases": ["位置验证成功", "完成的路径点标记", "确认的目的地图钉"],
   "name": "地图图钉勾选内部",
-  "tags": [
-    "位置确认",
-    "标记完成",
-    "地点验证",
-    "任务完成",
-    "导航确认"
-  ],
-  "categories": [
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["位置确认", "标记完成", "地点验证", "任务完成", "导航确认"],
+  "categories": ["navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pin check inside",
-      "tags": [
-        "location confirmation",
-        "marker complete",
-        "place verification",
-        "task done",
-        "navigation confirm"
-      ],
-      "use-cases": [
-        "Location verification success",
-        "Completed waypoint marker",
-        "Confirmed destination pin"
-      ]
+      "tags": ["location confirmation", "marker complete", "place verification", "task done", "navigation confirm"],
+      "use-cases": ["Location verification success", "Completed waypoint marker", "Confirmed destination pin"]
     }
   }
 }

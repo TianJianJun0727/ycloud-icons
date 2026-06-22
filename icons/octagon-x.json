@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除操作",
-    "关闭对话框",
-    "错误指示器"
-  ],
+  "use-cases": ["删除操作", "关闭对话框", "错误指示器"],
   "name": "八边形关闭",
-  "tags": [
-    "删除",
-    "关闭",
-    "取消",
-    "错误",
-    "清除"
-  ],
-  "categories": [
-    "math",
-    "notifications"
-  ],
+  "tags": ["删除", "关闭", "取消", "错误", "清除"],
+  "categories": ["math", "notifications"],
   "aliases": [
     {
       "name": "x-octagon",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "octagon X",
-      "tags": [
-        "delete",
-        "close",
-        "cancel",
-        "error",
-        "clear"
-      ],
-      "use-cases": [
-        "Delete actions",
-        "Close dialogs",
-        "Error indicators"
-      ]
+      "tags": ["delete", "close", "cancel", "error", "clear"],
+      "use-cases": ["Delete actions", "Close dialogs", "Error indicators"]
     }
   }
 }

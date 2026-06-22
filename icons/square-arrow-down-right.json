@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "键盘快捷键指示器",
-    "方向导航控制",
-    "游戏控制器按钮",
-    "对角线移动图标",
-    "界面导航元素"
-  ],
+  "use-cases": ["键盘快捷键指示器", "方向导航控制", "游戏控制器按钮", "对角线移动图标", "界面导航元素"],
   "name": "方形箭头下右",
-  "tags": [
-    "右下箭头",
-    "方向",
-    "对角线",
-    "键盘",
-    "按钮",
-    "东南",
-    "导航"
-  ],
-  "categories": [
-    "arrows",
-    "gaming"
-  ],
+  "tags": ["右下箭头", "方向", "对角线", "键盘", "按钮", "东南", "导航"],
+  "categories": ["arrows", "gaming"],
   "aliases": [
     {
       "name": "arrow-down-right-square",
@@ -32,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow down right",
-      "tags": [
-        "down-right arrow",
-        "direction",
-        "diagonal",
-        "keyboard",
-        "button",
-        "southeast",
-        "navigation"
-      ],
-      "use-cases": [
-        "Keyboard shortcut indicator",
-        "Directional navigation control",
-        "Game controller button",
-        "Diagonal movement icon",
-        "UI navigation element"
-      ]
+      "tags": ["down-right arrow", "direction", "diagonal", "keyboard", "button", "southeast", "navigation"],
+      "use-cases": ["Keyboard shortcut indicator", "Directional navigation control", "Game controller button", "Diagonal movement icon", "UI navigation element"]
     }
   }
 }

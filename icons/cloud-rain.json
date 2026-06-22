@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "降雨天气预报",
-    "雨天应用图标",
-    "降水指示"
-  ],
+  "use-cases": ["降雨天气预报", "雨天应用图标", "降水指示"],
   "name": "云雨",
-  "tags": [
-    "天气",
-    "降雨",
-    "下雨",
-    "雨天",
-    "降水"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["天气", "降雨", "下雨", "雨天", "降水"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "cloud rain",
-      "tags": [
-        "weather",
-        "rain",
-        "raining",
-        "rainy day",
-        "precipitation"
-      ],
-      "use-cases": [
-        "Rainy weather forecast",
-        "Rainy day app icon",
-        "Precipitation indicator"
-      ]
+      "tags": ["weather", "rain", "raining", "rainy day", "precipitation"],
+      "use-cases": ["Rainy weather forecast", "Rainy day app icon", "Precipitation indicator"]
     }
   }
 }

@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "支付被拒通知",
-    "交易失败提醒",
-    "取消支付请求"
-  ],
+  "use-cases": ["支付被拒通知", "交易失败提醒", "取消支付请求"],
   "name": "纸币关闭",
-  "tags": [
-    "付款失败",
-    "交易拒绝",
-    "取消支付",
-    "错误账单",
-    "金融错误",
-    "货币",
-    "删除交易"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["付款失败", "交易拒绝", "取消支付", "错误账单", "金融错误", "货币", "删除交易"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "banknote X",
-      "tags": [
-        "payment failed",
-        "transaction declined",
-        "payment canceled",
-        "billing error",
-        "finance error",
-        "currency",
-        "delete transaction"
-      ],
-      "use-cases": [
-        "Payment declined notification",
-        "Failed transaction alert",
-        "Cancel a payment request"
-      ]
+      "tags": ["payment failed", "transaction declined", "payment canceled", "billing error", "finance error", "currency", "delete transaction"],
+      "use-cases": ["Payment declined notification", "Failed transaction alert", "Cancel a payment request"]
     }
   }
 }

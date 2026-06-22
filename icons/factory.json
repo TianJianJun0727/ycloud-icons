@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地图上的工厂位置",
-    "工业企业资料",
-    "制造流程步骤"
-  ],
+  "use-cases": ["地图上的工厂位置", "工业企业资料", "制造流程步骤"],
   "name": "工厂",
-  "tags": [
-    "工业",
-    "制造",
-    "厂房",
-    "生产",
-    "企业",
-    "设施"
-  ],
-  "categories": [
-    "buildings",
-    "navigation"
-  ],
+  "tags": ["工业", "制造", "厂房", "生产", "企业", "设施"],
+  "categories": ["buildings", "navigation"],
   "i18n": {
     "en": {
       "name": "factory",
-      "tags": [
-        "industry",
-        "manufacturing",
-        "plant",
-        "production",
-        "business",
-        "facility"
-      ],
-      "use-cases": [
-        "Factory location on map",
-        "Industrial business profile",
-        "Manufacturing process step"
-      ]
+      "tags": ["industry", "manufacturing", "plant", "production", "business", "facility"],
+      "use-cases": ["Factory location on map", "Industrial business profile", "Manufacturing process step"]
     }
   }
 }

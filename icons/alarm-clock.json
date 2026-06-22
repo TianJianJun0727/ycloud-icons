@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置起床闹钟",
-    "安排提醒",
-    "启动计时器"
-  ],
+  "use-cases": ["设置起床闹钟", "安排提醒", "启动计时器"],
   "name": "闹钟时钟",
-  "tags": [
-    "闹钟",
-    "时间",
-    "提醒",
-    "闹铃",
-    "定时",
-    "唤醒",
-    "时钟"
-  ],
-  "categories": [
-    "devices",
-    "notifications",
-    "time"
-  ],
+  "tags": ["闹钟", "时间", "提醒", "闹铃", "定时", "唤醒", "时钟"],
+  "categories": ["devices", "notifications", "time"],
   "i18n": {
     "en": {
       "name": "alarm clock",
-      "tags": [
-        "alarm",
-        "time",
-        "reminder",
-        "bell",
-        "timer",
-        "wake",
-        "clock"
-      ],
-      "use-cases": [
-        "Set a wake-up alarm",
-        "Schedule a reminder",
-        "Start a timer"
-      ]
+      "tags": ["alarm", "time", "reminder", "bell", "timer", "wake", "clock"],
+      "use-cases": ["Set a wake-up alarm", "Schedule a reminder", "Start a timer"]
     }
   }
 }

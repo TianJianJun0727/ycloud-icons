@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示附加信息",
-    "提供上下文帮助",
-    "显示工具提示"
-  ],
+  "use-cases": ["显示附加信息", "提供上下文帮助", "显示工具提示"],
   "name": "信息",
-  "tags": [
-    "信息",
-    "详情",
-    "帮助",
-    "提示",
-    "说明"
-  ],
-  "categories": [
-    "accessibility",
-    "notifications"
-  ],
+  "tags": ["信息", "详情", "帮助", "提示", "说明"],
+  "categories": ["accessibility", "notifications"],
   "i18n": {
     "en": {
       "name": "info",
-      "tags": [
-        "information",
-        "details",
-        "help",
-        "hint",
-        "tooltip"
-      ],
-      "use-cases": [
-        "Show additional information",
-        "Provide context help",
-        "Display a tooltip"
-      ]
+      "tags": ["information", "details", "help", "hint", "tooltip"],
+      "use-cases": ["Show additional information", "Provide context help", "Display a tooltip"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文章引用标注",
-    "名言展示",
-    "文本格式设置"
-  ],
+  "use-cases": ["文章引用标注", "名言展示", "文本格式设置"],
   "name": "引用",
-  "tags": [
-    "引用",
-    "引文",
-    "语录",
-    "文本",
-    "标注"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["引用", "引文", "语录", "文本", "标注"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "quote",
-      "tags": [
-        "quote",
-        "quotation",
-        "citation",
-        "text",
-        "annotation"
-      ],
-      "use-cases": [
-        "Article citation markup",
-        "Famous quote display",
-        "Text formatting settings"
-      ]
+      "tags": ["quote", "quotation", "citation", "text", "annotation"],
+      "use-cases": ["Article citation markup", "Famous quote display", "Text formatting settings"]
     }
   }
 }

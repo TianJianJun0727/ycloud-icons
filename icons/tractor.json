@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "农场管理仪表板",
-    "农产品页面",
-    "可持续发展报告"
-  ],
+  "use-cases": ["农场管理仪表板", "农产品页面", "可持续发展报告"],
   "name": "拖拉机",
-  "tags": [
-    "农业",
-    "农场",
-    "农用机械",
-    "耕作",
-    "收获",
-    "车辆"
-  ],
-  "categories": [
-    "transportation",
-    "sustainability",
-    "food-beverage"
-  ],
+  "tags": ["农业", "农场", "农用机械", "耕作", "收获", "车辆"],
+  "categories": ["transportation", "sustainability", "food-beverage"],
   "i18n": {
     "en": {
       "name": "tractor",
-      "tags": [
-        "farming",
-        "agriculture",
-        "farm",
-        "harvest",
-        "vehicle",
-        "equipment"
-      ],
-      "use-cases": [
-        "Farm management dashboard",
-        "Agricultural product page",
-        "Sustainability report"
-      ]
+      "tags": ["farming", "agriculture", "farm", "harvest", "vehicle", "equipment"],
+      "use-cases": ["Farm management dashboard", "Agricultural product page", "Sustainability report"]
     }
   }
 }

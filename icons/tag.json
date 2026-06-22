@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "项目分类",
-    "内容标记或打标签",
-    "徽章展示"
-  ],
+  "use-cases": ["项目分类", "内容标记或打标签", "徽章展示"],
   "name": "标签",
-  "tags": [
-    "标签",
-    "标记",
-    "徽章",
-    "分类",
-    "标识",
-    "票"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["标签", "标记", "徽章", "分类", "标识", "票"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "tag",
-      "tags": [
-        "tag",
-        "label",
-        "badge",
-        "mark",
-        "ticket",
-        "category"
-      ],
-      "use-cases": [
-        "item categorization",
-        "labeling or tagging content",
-        "badge display"
-      ]
+      "tags": ["tag", "label", "badge", "mark", "ticket", "category"],
+      "use-cases": ["item categorization", "labeling or tagging content", "badge display"]
     }
   }
 }

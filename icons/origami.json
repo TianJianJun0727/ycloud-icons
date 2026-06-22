@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "手工项目",
-    "艺术教育",
-    "创意设计"
-  ],
+  "use-cases": ["手工项目", "艺术教育", "创意设计"],
   "name": "折纸",
-  "tags": [
-    "折纸",
-    "手工",
-    "艺术",
-    "纸艺",
-    "创意"
-  ],
-  "categories": [
-    "animals",
-    "design"
-  ],
+  "tags": ["折纸", "手工", "艺术", "纸艺", "创意"],
+  "categories": ["animals", "design"],
   "i18n": {
     "en": {
       "name": "origami",
-      "tags": [
-        "origami",
-        "craft",
-        "art",
-        "paper art",
-        "creativity"
-      ],
-      "use-cases": [
-        "Craft projects",
-        "Art education",
-        "Creative design"
-      ]
+      "tags": ["origami", "craft", "art", "paper art", "creativity"],
+      "use-cases": ["Craft projects", "Art education", "Creative design"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "右键操作",
-    "上下文菜单",
-    "辅助鼠标功能"
-  ],
+  "use-cases": ["右键操作", "上下文菜单", "辅助鼠标功能"],
   "name": "鼠标右",
-  "tags": [
-    "鼠标",
-    "右键",
-    "设备",
-    "点击",
-    "上下文菜单",
-    "辅助点击"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["鼠标", "右键", "设备", "点击", "上下文菜单", "辅助点击"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "mouse right",
-      "tags": [
-        "mouse",
-        "right-click",
-        "device",
-        "click",
-        "context-menu",
-        "secondary-click"
-      ],
-      "use-cases": [
-        "Right-click actions",
-        "Context menus",
-        "Secondary mouse functions"
-      ]
+      "tags": ["mouse", "right-click", "device", "click", "context-menu", "secondary-click"],
+      "use-cases": ["Right-click actions", "Context menus", "Secondary mouse functions"]
     }
   }
 }

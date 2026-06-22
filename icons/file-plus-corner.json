@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新文件按钮",
-    "创建文档操作",
-    "上传文件界面"
-  ],
+  "use-cases": ["添加新文件按钮", "创建文档操作", "上传文件界面"],
   "name": "文件加号角落",
-  "tags": [
-    "添加文件",
-    "新建",
-    "创建",
-    "上传",
-    "文档"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["添加文件", "新建", "创建", "上传", "文档"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-plus-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file plus corner",
-      "tags": [
-        "add file",
-        "new",
-        "create",
-        "upload",
-        "document"
-      ],
-      "use-cases": [
-        "Add new file button",
-        "Create document action",
-        "Upload file interface"
-      ]
+      "tags": ["add file", "new", "create", "upload", "document"],
+      "use-cases": ["Add new file button", "Create document action", "Upload file interface"]
     }
   }
 }

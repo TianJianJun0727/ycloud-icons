@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "返回按钮",
-    "上一步",
-    "向左导航"
-  ],
+  "use-cases": ["返回按钮", "上一步", "向左导航"],
   "name": "箭头左",
-  "tags": [
-    "返回",
-    "上一个",
-    "方向",
-    "西",
-    "后退"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["返回", "上一个", "方向", "西", "后退"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow left",
-      "tags": [
-        "back",
-        "previous",
-        "direction",
-        "west",
-        "backward"
-      ],
-      "use-cases": [
-        "Back button",
-        "Previous step",
-        "Left navigation"
-      ]
+      "tags": ["back", "previous", "direction", "west", "backward"],
+      "use-cases": ["Back button", "Previous step", "Left navigation"]
     }
   }
 }

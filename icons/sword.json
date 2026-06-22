@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏战斗界面",
-    "RPG角色装备",
-    "战斗游戏图标",
-    "挑战指示器"
-  ],
+  "use-cases": ["游戏战斗界面", "RPG角色装备", "战斗游戏图标", "挑战指示器"],
   "name": "剑",
-  "tags": [
-    "剑",
-    "武器",
-    "游戏",
-    "战斗",
-    "冒险",
-    "挑战"
-  ],
-  "categories": [
-    "gaming",
-    "tools"
-  ],
+  "tags": ["剑", "武器", "游戏", "战斗", "冒险", "挑战"],
+  "categories": ["gaming", "tools"],
   "i18n": {
     "en": {
       "name": "sword",
-      "tags": [
-        "sword",
-        "weapon",
-        "gaming",
-        "battle",
-        "adventure",
-        "challenge"
-      ],
-      "use-cases": [
-        "Game combat interface",
-        "RPG character equipment",
-        "Battle game icon",
-        "Challenge indicator"
-      ]
+      "tags": ["sword", "weapon", "gaming", "battle", "adventure", "challenge"],
+      "use-cases": ["Game combat interface", "RPG character equipment", "Battle game icon", "Challenge indicator"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "壁挂式灯光控制",
-    "走廊重点照明",
-    "家居装饰应用"
-  ],
+  "use-cases": ["壁挂式灯光控制", "走廊重点照明", "家居装饰应用"],
   "name": "灯墙下",
-  "tags": [
-    "壁灯",
-    "向下壁灯",
-    "墙灯",
-    "洗墙灯",
-    "装饰照明"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["壁灯", "向下壁灯", "墙灯", "洗墙灯", "装饰照明"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "lamp wall down",
-      "tags": [
-        "wall sconce",
-        "downlight",
-        "wall lamp",
-        "wall wash light",
-        "decorative lighting"
-      ],
-      "use-cases": [
-        "Wall-mounted lighting control",
-        "Accent lighting in hallway",
-        "Home decor app"
-      ]
+      "tags": ["wall sconce", "downlight", "wall lamp", "wall wash light", "decorative lighting"],
+      "use-cases": ["Wall-mounted lighting control", "Accent lighting in hallway", "Home decor app"]
     }
   }
 }

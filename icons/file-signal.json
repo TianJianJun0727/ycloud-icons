@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频文件指示器",
-    "声音设置",
-    "音乐文件浏览器"
-  ],
+  "use-cases": ["音频文件指示器", "声音设置", "音乐文件浏览器"],
   "name": "文件信号",
-  "tags": [
-    "音频文件",
-    "声音",
-    "音量",
-    "音乐",
-    "波形"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["音频文件", "声音", "音量", "音乐", "波形"],
+  "categories": ["files"],
   "aliases": [
     {
       "name": "file-volume-2",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file signal",
-      "tags": [
-        "audio file",
-        "sound",
-        "volume",
-        "music",
-        "waveform"
-      ],
-      "use-cases": [
-        "Audio file indicator",
-        "Sound settings",
-        "Music file browser"
-      ]
+      "tags": ["audio file", "sound", "volume", "music", "waveform"],
+      "use-cases": ["Audio file indicator", "Sound settings", "Music file browser"]
     }
   }
 }

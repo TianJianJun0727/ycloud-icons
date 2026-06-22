@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开聊天界面",
-    "查看帖子评论",
-    "发送反馈"
-  ],
+  "use-cases": ["打开聊天界面", "查看帖子评论", "发送反馈"],
   "name": "消息方形",
-  "tags": [
-    "消息",
-    "聊天",
-    "对话",
-    "评论",
-    "反馈",
-    "通知",
-    "沟通"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["消息", "聊天", "对话", "评论", "反馈", "通知", "沟通"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square",
-      "tags": [
-        "message",
-        "chat",
-        "conversation",
-        "comment",
-        "feedback",
-        "notification",
-        "communication"
-      ],
-      "use-cases": [
-        "Open a chat interface",
-        "View comments on a post",
-        "Send feedback"
-      ]
+      "tags": ["message", "chat", "conversation", "comment", "feedback", "notification", "communication"],
+      "use-cases": ["Open a chat interface", "View comments on a post", "Send feedback"]
     }
   }
 }

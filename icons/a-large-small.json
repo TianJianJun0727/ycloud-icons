@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本大小对比",
-    "标题和正文文本",
-    "排版控件"
-  ],
+  "use-cases": ["文本大小对比", "标题和正文文本", "排版控件"],
   "name": "大小写与字号",
-  "tags": [
-    "字体大小",
-    "对比",
-    "文本",
-    "字号",
-    "标题正文",
-    "排版"
-  ],
-  "categories": [
-    "text",
-    "design"
-  ],
+  "tags": ["字体大小", "对比", "文本", "字号", "标题正文", "排版"],
+  "categories": ["text", "design"],
   "i18n": {
     "en": {
       "name": "A large small",
-      "tags": [
-        "font size",
-        "contrast",
-        "text",
-        "typography",
-        "heading body",
-        "formatting"
-      ],
-      "use-cases": [
-        "text size comparison",
-        "heading and body text",
-        "typography controls"
-      ]
+      "tags": ["font size", "contrast", "text", "typography", "heading body", "formatting"],
+      "use-cases": ["text size comparison", "heading and body text", "typography controls"]
     }
   }
 }

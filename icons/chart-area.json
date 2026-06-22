@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示累积数据",
-    "展示时间趋势",
-    "分析仪表盘"
-  ],
+  "use-cases": ["显示累积数据", "展示时间趋势", "分析仪表盘"],
   "name": "图表区域",
-  "tags": [
-    "面积图",
-    "图表",
-    "统计",
-    "数据可视化",
-    "趋势"
-  ],
-  "categories": [
-    "charts"
-  ],
+  "tags": ["面积图", "图表", "统计", "数据可视化", "趋势"],
+  "categories": ["charts"],
   "aliases": [
     {
       "name": "area-chart",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "chart area",
-      "tags": [
-        "area chart",
-        "chart",
-        "statistics",
-        "data visualization",
-        "trend"
-      ],
-      "use-cases": [
-        "Display cumulative data",
-        "Show trends over time",
-        "Analytics dashboard"
-      ]
+      "tags": ["area chart", "chart", "statistics", "data visualization", "trend"],
+      "use-cases": ["Display cumulative data", "Show trends over time", "Analytics dashboard"]
     }
   }
 }

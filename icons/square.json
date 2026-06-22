@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "停止按钮",
-    "视频播放器控制",
-    "方形形状指示器"
-  ],
+  "use-cases": ["停止按钮", "视频播放器控制", "方形形状指示器"],
   "name": "方形",
-  "tags": [
-    "方形",
-    "停止",
-    "播放控制",
-    "视频",
-    "音频",
-    "形状",
-    "1:1比例"
-  ],
-  "categories": [
-    "shapes",
-    "multimedia"
-  ],
+  "tags": ["方形", "停止", "播放控制", "视频", "音频", "形状", "1:1比例"],
+  "categories": ["shapes", "multimedia"],
   "i18n": {
     "en": {
       "name": "square",
-      "tags": [
-        "square",
-        "stop",
-        "playback",
-        "video",
-        "audio",
-        "shape",
-        "1:1 ratio"
-      ],
-      "use-cases": [
-        "Stop button",
-        "Video player controls",
-        "Square shape indicator"
-      ]
+      "tags": ["square", "stop", "playback", "video", "audio", "shape", "1:1 ratio"],
+      "use-cases": ["Stop button", "Video player controls", "Square shape indicator"]
     }
   }
 }

@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "多列布局",
-    "内容组织",
-    "界面设计"
-  ],
+  "use-cases": ["多列布局", "内容组织", "界面设计"],
   "name": "列2",
-  "tags": [
-    "列",
-    "布局",
-    "分栏",
-    "设计",
-    "网格"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "text"
-  ],
+  "tags": ["列", "布局", "分栏", "设计", "网格"],
+  "categories": ["layout", "design", "text"],
   "aliases": [
     {
       "name": "columns",
@@ -29,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "columns 2",
-      "tags": [
-        "columns",
-        "layout",
-        "split",
-        "design",
-        "grid"
-      ],
-      "use-cases": [
-        "Multi-column layout",
-        "Content organization",
-        "UI design"
-      ]
+      "tags": ["columns", "layout", "split", "design", "grid"],
+      "use-cases": ["Multi-column layout", "Content organization", "UI design"]
     }
   }
 }

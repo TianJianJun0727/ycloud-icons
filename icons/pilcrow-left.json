@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器段落格式",
-    "显示段落标记",
-    "切换格式符号"
-  ],
+  "use-cases": ["文本编辑器段落格式", "显示段落标记", "切换格式符号"],
   "name": "段落标记左",
-  "tags": [
-    "段落符号",
-    "¶",
-    "文本",
-    "格式",
-    "排版",
-    "左对齐",
-    "标记"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["段落符号", "¶", "文本", "格式", "排版", "左对齐", "标记"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "pilcrow left",
-      "tags": [
-        "pilcrow",
-        "paragraph",
-        "text",
-        "format",
-        "typography",
-        "left align",
-        "symbol"
-      ],
-      "use-cases": [
-        "Text editor paragraph formatting",
-        "Show paragraph marks",
-        "Toggle formatting symbols"
-      ]
+      "tags": ["pilcrow", "paragraph", "text", "format", "typography", "left align", "symbol"],
+      "use-cases": ["Text editor paragraph formatting", "Show paragraph marks", "Toggle formatting symbols"]
     }
   }
 }

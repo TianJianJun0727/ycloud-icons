@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "纸牌游戏界面",
-    "游戏符号",
-    "形状设计"
-  ],
+  "use-cases": ["纸牌游戏界面", "游戏符号", "形状设计"],
   "name": "梅花",
-  "tags": [
-    "梅花",
-    "扑克",
-    "游戏",
-    "形状",
-    "卡片"
-  ],
-  "categories": [
-    "shapes",
-    "gaming"
-  ],
+  "tags": ["梅花", "扑克", "游戏", "形状", "卡片"],
+  "categories": ["shapes", "gaming"],
   "i18n": {
     "en": {
       "name": "club",
-      "tags": [
-        "club",
-        "poker",
-        "gaming",
-        "shape",
-        "cards"
-      ],
-      "use-cases": [
-        "Card game interface",
-        "Gaming symbols",
-        "Shape design"
-      ]
+      "tags": ["club", "poker", "gaming", "shape", "cards"],
+      "use-cases": ["Card game interface", "Gaming symbols", "Shape design"]
     }
   }
 }

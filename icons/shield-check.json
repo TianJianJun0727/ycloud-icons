@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "安全扫描完成",
-    "账户验证成功",
-    "防护启用确认"
-  ],
+  "use-cases": ["安全扫描完成", "账户验证成功", "防护启用确认"],
   "name": "盾牌勾选",
-  "tags": [
-    "安全验证",
-    "防护完成",
-    "已认证",
-    "检测通过",
-    "激活保护"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "development",
-    "gaming"
-  ],
+  "tags": ["安全验证", "防护完成", "已认证", "检测通过", "激活保护"],
+  "categories": ["account", "security", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "shield check",
-      "tags": [
-        "security verified",
-        "protection active",
-        "certified",
-        "scan passed",
-        "activated protection"
-      ],
-      "use-cases": [
-        "Security scan completed",
-        "Account verified successfully",
-        "Protection enabled confirmation"
-      ]
+      "tags": ["security verified", "protection active", "certified", "scan passed", "activated protection"],
+      "use-cases": ["Security scan completed", "Account verified successfully", "Protection enabled confirmation"]
     }
   }
 }

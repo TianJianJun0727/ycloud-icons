@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示Wi-Fi信号强度弱",
-    "网络连接状态不佳的指示器"
-  ],
+  "use-cases": ["表示Wi-Fi信号强度弱", "网络连接状态不佳的指示器"],
   "name": "无线网络低",
-  "tags": [
-    "无线网络",
-    "Wi-Fi",
-    "信号弱",
-    "连接差",
-    "网络状态"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["无线网络", "Wi-Fi", "信号弱", "连接差", "网络状态"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "wifi low",
-      "tags": [
-        "wifi",
-        "wireless",
-        "low signal",
-        "weak connection",
-        "network status"
-      ],
-      "use-cases": [
-        "Indicating poor Wi-Fi signal strength",
-        "Network status indicator for low connectivity"
-      ]
+      "tags": ["wifi", "wireless", "low signal", "weak connection", "network status"],
+      "use-cases": ["Indicating poor Wi-Fi signal strength", "Network status indicator for low connectivity"]
     }
   }
 }

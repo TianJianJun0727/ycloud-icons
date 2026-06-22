@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "GIF预览",
-    "动态内容",
-    "媒体播放器",
-    "图片幻灯片"
-  ],
+  "use-cases": ["GIF预览", "动态内容", "媒体播放器", "图片幻灯片"],
   "name": "图片播放",
-  "tags": [
-    "GIF播放",
-    "动态图片",
-    "图片动画",
-    "媒体播放"
-  ],
-  "categories": [
-    "photography",
-    "text",
-    "multimedia",
-    "files"
-  ],
+  "tags": ["GIF播放", "动态图片", "图片动画", "媒体播放"],
+  "categories": ["photography", "text", "multimedia", "files"],
   "i18n": {
     "en": {
       "name": "image play",
-      "tags": [
-        "GIF play",
-        "animated image",
-        "image animation",
-        "media play"
-      ],
-      "use-cases": [
-        "GIF preview",
-        "Animated content",
-        "Media player",
-        "Image slideshow"
-      ]
+      "tags": ["GIF play", "animated image", "image animation", "media play"],
+      "use-cases": ["GIF preview", "Animated content", "Media player", "Image slideshow"]
     }
   }
 }

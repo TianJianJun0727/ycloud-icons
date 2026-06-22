@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示 AI 辅助写作或编辑功能",
-    "表示自动内容生成工具"
-  ],
+  "use-cases": ["表示 AI 辅助写作或编辑功能", "表示自动内容生成工具"],
   "name": "铅笔闪光",
-  "tags": [
-    "编辑",
-    "AI",
-    "智能",
-    "写作",
-    "创作",
-    "魔法",
-    "自动生成",
-    "内容生成"
-  ],
-  "categories": [
-    "design",
-    "cursors",
-    "tools",
-    "text",
-    "photography"
-  ],
+  "tags": ["编辑", "AI", "智能", "写作", "创作", "魔法", "自动生成", "内容生成"],
+  "categories": ["design", "cursors", "tools", "text", "photography"],
   "i18n": {
     "en": {
       "name": "pencil sparkles",
-      "tags": [
-        "edit",
-        "ai",
-        "smart",
-        "writing",
-        "create",
-        "magic",
-        "auto-generate",
-        "content generation"
-      ],
-      "use-cases": [
-        "AI-assisted writing or editing features",
-        "Automated content generation tools"
-      ]
+      "tags": ["edit", "ai", "smart", "writing", "create", "magic", "auto-generate", "content generation"],
+      "use-cases": ["AI-assisted writing or editing features", "Automated content generation tools"]
     }
   }
 }

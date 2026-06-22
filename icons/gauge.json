@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "车辆仪表盘显示",
-    "速度或压力监控",
-    "测量仪器面板"
-  ],
+  "use-cases": ["车辆仪表盘显示", "速度或压力监控", "测量仪器面板"],
   "name": "仪表",
-  "tags": [
-    "仪表",
-    "仪表盘",
-    "速度表",
-    "压力表",
-    "测量",
-    "刻度",
-    "水平"
-  ],
-  "categories": [
-    "transportation",
-    "sports",
-    "science"
-  ],
+  "tags": ["仪表", "仪表盘", "速度表", "压力表", "测量", "刻度", "水平"],
+  "categories": ["transportation", "sports", "science"],
   "i18n": {
     "en": {
       "name": "gauge",
-      "tags": [
-        "gauge",
-        "dashboard",
-        "meter",
-        "speedometer",
-        "pressure",
-        "measurement",
-        "dial",
-        "level"
-      ],
-      "use-cases": [
-        "Vehicle dashboard display",
-        "Speed or pressure monitoring",
-        "Measurement instrument panel"
-      ]
+      "tags": ["gauge", "dashboard", "meter", "speedometer", "pressure", "measurement", "dial", "level"],
+      "use-cases": ["Vehicle dashboard display", "Speed or pressure monitoring", "Measurement instrument panel"]
     }
   }
 }

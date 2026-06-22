@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "消息草稿指示器",
-    "未保存的聊天评论",
-    "离线或待发送消息状态"
-  ],
+  "use-cases": ["消息草稿指示器", "未保存的聊天评论", "离线或待发送消息状态"],
   "name": "消息圆形虚线",
-  "tags": [
-    "消息草稿",
-    "未发送",
-    "临时消息",
-    "离线状态",
-    "编辑中"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["消息草稿", "未发送", "临时消息", "离线状态", "编辑中"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message circle dashed",
-      "tags": [
-        "message draft",
-        "unsent",
-        "temporary message",
-        "offline status",
-        "editing"
-      ],
-      "use-cases": [
-        "Draft message indicator",
-        "Unsaved chat comment",
-        "Offline or pending message state"
-      ]
+      "tags": ["message draft", "unsent", "temporary message", "offline status", "editing"],
+      "use-cases": ["Draft message indicator", "Unsaved chat comment", "Offline or pending message state"]
     }
   }
 }

@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "将对象向下移动",
-    "向下滚动内容",
-    "打开下拉菜单",
-    "地图上的南方"
-  ],
+  "use-cases": ["将对象向下移动", "向下滚动内容", "打开下拉菜单", "地图上的南方"],
   "name": "移动下",
-  "tags": [
-    "箭头",
-    "方向",
-    "向下",
-    "移动",
-    "南",
-    "展开",
-    "下拉"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["箭头", "方向", "向下", "移动", "南", "展开", "下拉"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "move down",
-      "tags": [
-        "arrow",
-        "direction",
-        "down",
-        "move",
-        "south",
-        "expand",
-        "dropdown"
-      ],
-      "use-cases": [
-        "Move object downward",
-        "Scroll down content",
-        "Open dropdown menu",
-        "South direction on map"
-      ]
+      "tags": ["arrow", "direction", "down", "move", "south", "expand", "dropdown"],
+      "use-cases": ["Move object downward", "Scroll down content", "Open dropdown menu", "South direction on map"]
     }
   }
 }

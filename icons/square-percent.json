@@ -1,28 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "价格标签显示",
-    "折扣徽章",
-    "金融计算器",
-    "促销贴纸"
-  ],
+  "use-cases": ["价格标签显示", "折扣徽章", "金融计算器", "促销贴纸"],
   "name": "方形百分比",
-  "tags": [
-    "折扣",
-    "百分比",
-    "促销",
-    "优惠",
-    "销售",
-    "数学",
-    "利率",
-    "比率"
-  ],
-  "categories": [
-    "social",
-    "finance",
-    "shopping",
-    "math"
-  ],
+  "tags": ["折扣", "百分比", "促销", "优惠", "销售", "数学", "利率", "比率"],
+  "categories": ["social", "finance", "shopping", "math"],
   "aliases": [
     {
       "name": "percent-square",
@@ -34,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "square percent",
-      "tags": [
-        "discount",
-        "percent",
-        "sale",
-        "offer",
-        "marketing",
-        "math",
-        "rate",
-        "ratio"
-      ],
-      "use-cases": [
-        "Price tag display",
-        "Discount badge",
-        "Financial calculator",
-        "Promotional sticker"
-      ]
+      "tags": ["discount", "percent", "sale", "offer", "marketing", "math", "rate", "ratio"],
+      "use-cases": ["Price tag display", "Discount badge", "Financial calculator", "Promotional sticker"]
     }
   }
 }

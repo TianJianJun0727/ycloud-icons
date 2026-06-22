@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家居家具目录",
-    "客厅设计工具",
-    "放松模式切换",
-    "座位安排规划器"
-  ],
+  "use-cases": ["家居家具目录", "客厅设计工具", "放松模式切换", "座位安排规划器"],
   "name": "沙发",
-  "tags": [
-    "沙发",
-    "家具",
-    "客厅",
-    "休息",
-    "座椅",
-    "家居",
-    "休闲"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["沙发", "家具", "客厅", "休息", "座椅", "家居", "休闲"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "sofa",
-      "tags": [
-        "sofa",
-        "furniture",
-        "living room",
-        "rest",
-        "seat",
-        "home",
-        "lounge"
-      ],
-      "use-cases": [
-        "Home furniture catalog",
-        "Living room design tool",
-        "Relaxation mode toggle",
-        "Seating arrangement planner"
-      ]
+      "tags": ["sofa", "furniture", "living room", "rest", "seat", "home", "lounge"],
+      "use-cases": ["Home furniture catalog", "Living room design tool", "Relaxation mode toggle", "Seating arrangement planner"]
     }
   }
 }

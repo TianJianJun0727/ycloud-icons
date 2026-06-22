@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "国家公园网站",
-    "冬季运动应用",
-    "森林保护",
-    "户外休闲"
-  ],
+  "use-cases": ["国家公园网站", "冬季运动应用", "森林保护", "户外休闲"],
   "name": "树松树",
-  "tags": [
-    "松树",
-    "森林",
-    "公园",
-    "自然",
-    "针叶树",
-    "冬季"
-  ],
-  "categories": [
-    "nature",
-    "sustainability"
-  ],
+  "tags": ["松树", "森林", "公园", "自然", "针叶树", "冬季"],
+  "categories": ["nature", "sustainability"],
   "i18n": {
     "en": {
       "name": "tree pine",
-      "tags": [
-        "tree",
-        "pine",
-        "forest",
-        "park",
-        "nature",
-        "conifer",
-        "winter"
-      ],
-      "use-cases": [
-        "National park website",
-        "Winter sports app",
-        "Forest conservation",
-        "Outdoor recreation"
-      ]
+      "tags": ["tree", "pine", "forest", "park", "nature", "conifer", "winter"],
+      "use-cases": ["National park website", "Winter sports app", "Forest conservation", "Outdoor recreation"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "欧洲旅行费用报销",
-    "欧元电商结账",
-    "金融交易摘要"
-  ],
+  "use-cases": ["欧洲旅行费用报销", "欧元电商结账", "金融交易摘要"],
   "name": "收据欧元",
-  "tags": [
-    "收据",
-    "账单",
-    "欧元",
-    "货币",
-    "支付",
-    "发票",
-    "财务",
-    "旅行"
-  ],
-  "categories": [
-    "finance",
-    "travel"
-  ],
+  "tags": ["收据", "账单", "欧元", "货币", "支付", "发票", "财务", "旅行"],
+  "categories": ["finance", "travel"],
   "i18n": {
     "en": {
       "name": "receipt euro",
-      "tags": [
-        "receipt",
-        "bill",
-        "euro",
-        "currency",
-        "payment",
-        "invoice",
-        "finance",
-        "travel"
-      ],
-      "use-cases": [
-        "Expense report for European travel",
-        "E-commerce checkout with EUR",
-        "Financial transaction summary"
-      ]
+      "tags": ["receipt", "bill", "euro", "currency", "payment", "invoice", "finance", "travel"],
+      "use-cases": ["Expense report for European travel", "E-commerce checkout with EUR", "Financial transaction summary"]
     }
   }
 }

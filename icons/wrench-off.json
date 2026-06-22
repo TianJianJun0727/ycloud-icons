@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表示设置或维护功能已禁用",
-    "账户或服务停用状态",
-    "工具功能关闭的开关"
-  ],
+  "use-cases": ["表示设置或维护功能已禁用", "账户或服务停用状态", "工具功能关闭的开关"],
   "name": "扳手关闭",
-  "tags": [
-    "设置禁用",
-    "维护关闭",
-    "工具不可用",
-    "账户锁定",
-    "停用"
-  ],
-  "categories": [
-    "account",
-    "development",
-    "tools"
-  ],
+  "tags": ["设置禁用", "维护关闭", "工具不可用", "账户锁定", "停用"],
+  "categories": ["account", "development", "tools"],
   "i18n": {
     "en": {
       "name": "wrench off",
-      "tags": [
-        "settings disabled",
-        "maintenance off",
-        "tool unavailable",
-        "account locked",
-        "deactivated"
-      ],
-      "use-cases": [
-        "Indicates settings or maintenance features are disabled",
-        "Account or service deactivated state",
-        "Toggle for turning tool functionality off"
-      ]
+      "tags": ["settings disabled", "maintenance off", "tool unavailable", "account locked", "deactivated"],
+      "use-cases": ["Indicates settings or maintenance features are disabled", "Account or service deactivated state", "Toggle for turning tool functionality off"]
     }
   }
 }

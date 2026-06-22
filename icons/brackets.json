@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数组操作界面",
-    "代码编辑器符号",
-    "数据结构展示",
-    "配置文件语法"
-  ],
+  "use-cases": ["数组操作界面", "代码编辑器符号", "数据结构展示", "配置文件语法"],
   "name": "方括号",
-  "tags": [
-    "代码",
-    "方括号",
-    "数组",
-    "列表",
-    "编程",
-    "开发"
-  ],
-  "categories": [
-    "development",
-    "files"
-  ],
+  "tags": ["代码", "方括号", "数组", "列表", "编程", "开发"],
+  "categories": ["development", "files"],
   "i18n": {
     "en": {
       "name": "brackets",
-      "tags": [
-        "code",
-        "brackets",
-        "array",
-        "list",
-        "programming",
-        "development"
-      ],
-      "use-cases": [
-        "Array operation interface",
-        "Code editor symbols",
-        "Data structure display",
-        "Configuration file syntax"
-      ]
+      "tags": ["code", "brackets", "array", "list", "programming", "development"],
+      "use-cases": ["Array operation interface", "Code editor symbols", "Data structure display", "Configuration file syntax"]
     }
   }
 }

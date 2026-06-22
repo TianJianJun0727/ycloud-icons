@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "货币汇率显示",
-    "国际支付网关",
-    "土耳其市场金融应用"
-  ],
+  "use-cases": ["货币汇率显示", "国际支付网关", "土耳其市场金融应用"],
   "name": "土耳其里拉",
-  "tags": [
-    "土耳其里拉",
-    "货币",
-    "外汇",
-    "金融",
-    "付款"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["土耳其里拉", "货币", "外汇", "金融", "付款"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "turkish lira",
-      "tags": [
-        "currency",
-        "money",
-        "payment",
-        "forex",
-        "lira"
-      ],
-      "use-cases": [
-        "Currency exchange rate display",
-        "International payment gateway",
-        "Finance app for Turkish market"
-      ]
+      "tags": ["currency", "money", "payment", "forex", "lira"],
+      "use-cases": ["Currency exchange rate display", "International payment gateway", "Finance app for Turkish market"]
     }
   }
 }

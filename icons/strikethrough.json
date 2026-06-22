@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器格式",
-    "标记已完成项",
-    "价格折扣显示",
-    "文档编辑"
-  ],
+  "use-cases": ["文本编辑器格式", "标记已完成项", "价格折扣显示", "文档编辑"],
   "name": "删除线",
-  "tags": [
-    "删除线",
-    "文本格式",
-    "划线",
-    "标记删除",
-    "文字装饰"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["删除线", "文本格式", "划线", "标记删除", "文字装饰"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "strikethrough",
-      "tags": [
-        "strikethrough",
-        "text formatting",
-        "line through",
-        "mark deleted",
-        "text decoration"
-      ],
-      "use-cases": [
-        "Text editor formatting",
-        "Marking completed items",
-        "Price discount display",
-        "Document editing"
-      ]
+      "tags": ["strikethrough", "text formatting", "line through", "mark deleted", "text decoration"],
+      "use-cases": ["Text editor formatting", "Marking completed items", "Price discount display", "Document editing"]
     }
   }
 }

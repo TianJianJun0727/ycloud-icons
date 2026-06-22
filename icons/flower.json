@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "春季指示器",
-    "花园应用图标",
-    "自然主题界面"
-  ],
+  "use-cases": ["春季指示器", "花园应用图标", "自然主题界面"],
   "name": "花",
-  "tags": [
-    "花朵",
-    "植物",
-    "自然",
-    "春天",
-    "花园"
-  ],
-  "categories": [
-    "nature",
-    "gaming",
-    "sustainability"
-  ],
+  "tags": ["花朵", "植物", "自然", "春天", "花园"],
+  "categories": ["nature", "gaming", "sustainability"],
   "i18n": {
     "en": {
       "name": "flower",
-      "tags": [
-        "flower",
-        "plant",
-        "nature",
-        "spring",
-        "garden"
-      ],
-      "use-cases": [
-        "Spring season indicator",
-        "Garden app icon",
-        "Nature themed UI"
-      ]
+      "tags": ["flower", "plant", "nature", "spring", "garden"],
+      "use-cases": ["Spring season indicator", "Garden app icon", "Nature themed UI"]
     }
   }
 }

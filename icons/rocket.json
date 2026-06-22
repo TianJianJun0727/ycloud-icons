@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "软件版本发布图标",
-    "产品上线启动按钮",
-    "性能加速功能标识"
-  ],
+  "use-cases": ["软件版本发布图标", "产品上线启动按钮", "性能加速功能标识"],
   "name": "火箭",
-  "tags": [
-    "火箭",
-    "发布",
-    "启动",
-    "版本发布",
-    "加速"
-  ],
-  "categories": [
-    "gaming",
-    "development"
-  ],
+  "tags": ["火箭", "发布", "启动", "版本发布", "加速"],
+  "categories": ["gaming", "development"],
   "i18n": {
     "en": {
       "name": "rocket",
-      "tags": [
-        "rocket",
-        "release",
-        "launch",
-        "version release",
-        "boost"
-      ],
-      "use-cases": [
-        "Software version release icon",
-        "Product launch button",
-        "Performance boost feature indicator"
-      ]
+      "tags": ["rocket", "release", "launch", "version release", "boost"],
+      "use-cases": ["Software version release icon", "Product launch button", "Performance boost feature indicator"]
     }
   }
 }

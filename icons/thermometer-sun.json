@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气应用显示高温",
-    "供暖系统控制",
-    "炎热气候或夏季指示器"
-  ],
+  "use-cases": ["天气应用显示高温", "供暖系统控制", "炎热气候或夏季指示器"],
   "name": "温度计太阳",
-  "tags": [
-    "温度",
-    "高温",
-    "炎热",
-    "天气",
-    "摄氏度",
-    "华氏度",
-    "温暖",
-    "热度"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["温度", "高温", "炎热", "天气", "摄氏度", "华氏度", "温暖", "热度"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "thermometer sun",
-      "tags": [
-        "temperature",
-        "hot",
-        "warm",
-        "weather",
-        "celsius",
-        "fahrenheit",
-        "heat",
-        "high"
-      ],
-      "use-cases": [
-        "Weather app showing high temperature",
-        "Heating system control",
-        "Hot climate or summer indicator"
-      ]
+      "tags": ["temperature", "hot", "warm", "weather", "celsius", "fahrenheit", "heat", "high"],
+      "use-cases": ["Weather app showing high temperature", "Heating system control", "Hot climate or summer indicator"]
     }
   }
 }

@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "游戏控制器界面",
-    "游戏设备设置",
-    "操控面板"
-  ],
+  "use-cases": ["游戏控制器界面", "游戏设备设置", "操控面板"],
   "name": "游戏手柄2",
-  "tags": [
-    "游戏手柄",
-    "控制器",
-    "游戏",
-    "设备",
-    "操控"
-  ],
-  "categories": [
-    "gaming",
-    "devices"
-  ],
+  "tags": ["游戏手柄", "控制器", "游戏", "设备", "操控"],
+  "categories": ["gaming", "devices"],
   "i18n": {
     "en": {
       "name": "gamepad 2",
-      "tags": [
-        "gamepad",
-        "controller",
-        "gaming",
-        "device",
-        "control"
-      ],
-      "use-cases": [
-        "Game controller interface",
-        "Gaming device settings",
-        "Control panel"
-      ]
+      "tags": ["gamepad", "controller", "gaming", "device", "control"],
+      "use-cases": ["Game controller interface", "Gaming device settings", "Control panel"]
     }
   }
 }

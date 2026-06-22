@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "宠物应用图标",
-    "动物分类",
-    "个人头像"
-  ],
+  "use-cases": ["宠物应用图标", "动物分类", "个人头像"],
   "name": "猫",
-  "tags": [
-    "猫",
-    "宠物",
-    "动物",
-    "小猫",
-    "猫咪"
-  ],
-  "categories": [
-    "animals"
-  ],
+  "tags": ["猫", "宠物", "动物", "小猫", "猫咪"],
+  "categories": ["animals"],
   "i18n": {
     "en": {
       "name": "cat",
-      "tags": [
-        "cat",
-        "pet",
-        "animal",
-        "kitten",
-        "feline"
-      ],
-      "use-cases": [
-        "Pet app icon",
-        "Animal category",
-        "Profile picture"
-      ]
+      "tags": ["cat", "pet", "animal", "kitten", "feline"],
+      "use-cases": ["Pet app icon", "Animal category", "Profile picture"]
     }
   }
 }

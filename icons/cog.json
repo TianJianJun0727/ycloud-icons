@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设置菜单",
-    "配置面板",
-    "控制界面"
-  ],
+  "use-cases": ["设置菜单", "配置面板", "控制界面"],
   "name": "齿轮",
-  "tags": [
-    "齿轮",
-    "设置",
-    "配置",
-    "控制",
-    "偏好"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["齿轮", "设置", "配置", "控制", "偏好"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "cog",
-      "tags": [
-        "cog",
-        "settings",
-        "configuration",
-        "controls",
-        "preferences"
-      ],
-      "use-cases": [
-        "Settings menu",
-        "Configuration panel",
-        "Control interface"
-      ]
+      "tags": ["cog", "settings", "configuration", "controls", "preferences"],
+      "use-cases": ["Settings menu", "Configuration panel", "Control interface"]
     }
   }
 }

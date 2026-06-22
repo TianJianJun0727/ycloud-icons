@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "法律或法庭应用",
-    "规则执行的管理面板",
-    "拍卖或决策界面"
-  ],
+  "use-cases": ["法律或法庭应用", "规则执行的管理面板", "拍卖或决策界面"],
   "name": "法槌",
-  "tags": [
-    "法槌",
-    "法律",
-    "法庭",
-    "判决",
-    "正义",
-    "权威",
-    "裁决"
-  ],
-  "categories": [
-    "navigation",
-    "tools"
-  ],
+  "tags": ["法槌", "法律", "法庭", "判决", "正义", "权威", "裁决"],
+  "categories": ["navigation", "tools"],
   "i18n": {
     "en": {
       "name": "gavel",
-      "tags": [
-        "gavel",
-        "law",
-        "court",
-        "judgment",
-        "justice",
-        "authority",
-        "verdict",
-        "hammer"
-      ],
-      "use-cases": [
-        "Legal or court application",
-        "Admin panel for rule enforcement",
-        "Auction or decision interface"
-      ]
+      "tags": ["gavel", "law", "court", "judgment", "justice", "authority", "verdict", "hammer"],
+      "use-cases": ["Legal or court application", "Admin panel for rule enforcement", "Auction or decision interface"]
     }
   }
 }

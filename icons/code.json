@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码片段显示",
-    "编程工具",
-    "开发者界面"
-  ],
+  "use-cases": ["代码片段显示", "编程工具", "开发者界面"],
   "name": "代码",
-  "tags": [
-    "代码",
-    "编程",
-    "开发",
-    "源代码",
-    "标记"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["代码", "编程", "开发", "源代码", "标记"],
+  "categories": ["text", "development"],
   "i18n": {
     "en": {
       "name": "code",
-      "tags": [
-        "code",
-        "programming",
-        "development",
-        "source",
-        "markup"
-      ],
-      "use-cases": [
-        "Code snippet display",
-        "Programming tools",
-        "Developer UI"
-      ]
+      "tags": ["code", "programming", "development", "source", "markup"],
+      "use-cases": ["Code snippet display", "Programming tools", "Developer UI"]
     }
   }
 }

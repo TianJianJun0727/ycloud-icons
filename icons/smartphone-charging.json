@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电池充电指示器",
-    "移动设备状态",
-    "电源管理"
-  ],
+  "use-cases": ["电池充电指示器", "移动设备状态", "电源管理"],
   "name": "智能手机充电",
-  "tags": [
-    "智能手机",
-    "充电",
-    "电池",
-    "移动设备",
-    "电源",
-    "充电状态"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["智能手机", "充电", "电池", "移动设备", "电源", "充电状态"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "smartphone charging",
-      "tags": [
-        "smartphone",
-        "charging",
-        "battery",
-        "mobile device",
-        "power",
-        "charging status"
-      ],
-      "use-cases": [
-        "Battery charging indicator",
-        "Mobile device status",
-        "Power management"
-      ]
+      "tags": ["smartphone", "charging", "battery", "mobile device", "power", "charging status"],
+      "use-cases": ["Battery charging indicator", "Mobile device status", "Power management"]
     }
   }
 }

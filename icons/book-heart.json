@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收藏的书籍或阅读列表",
-    "个人日记或日志应用",
-    "浪漫小说分类",
-    "书籍或产品心愿单"
-  ],
+  "use-cases": ["收藏的书籍或阅读列表", "个人日记或日志应用", "浪漫小说分类", "书籍或产品心愿单"],
   "name": "书籍爱心",
-  "tags": [
-    "收藏",
-    "喜欢",
-    "日记",
-    "浪漫",
-    "情感",
-    "个人",
-    "笔记",
-    "最爱",
-    "书签",
-    "心愿单"
-  ],
-  "categories": [
-    "social",
-    "text",
-    "gaming"
-  ],
+  "tags": ["收藏", "喜欢", "日记", "浪漫", "情感", "个人", "笔记", "最爱", "书签", "心愿单"],
+  "categories": ["social", "text", "gaming"],
   "i18n": {
     "en": {
       "name": "book heart",
-      "tags": [
-        "favorite",
-        "like",
-        "diary",
-        "romance",
-        "emotion",
-        "personal",
-        "notes",
-        "favourite",
-        "bookmark",
-        "wishlist"
-      ],
-      "use-cases": [
-        "Favorite books or reading list",
-        "Personal diary or journal app",
-        "Romance novel category",
-        "Wishlist for books or products"
-      ]
+      "tags": ["favorite", "like", "diary", "romance", "emotion", "personal", "notes", "favourite", "bookmark", "wishlist"],
+      "use-cases": ["Favorite books or reading list", "Personal diary or journal app", "Romance novel category", "Wishlist for books or products"]
     }
   }
 }

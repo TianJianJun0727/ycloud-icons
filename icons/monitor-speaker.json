@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频输出设置",
-    "带音频的投屏",
-    "设备声音配置"
-  ],
+  "use-cases": ["音频输出设置", "带音频的投屏", "设备声音配置"],
   "name": "显示器扬声器",
-  "tags": [
-    "扬声器",
-    "音频输出",
-    "声音设置",
-    "设备连接",
-    "投屏音频"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["扬声器", "音频输出", "声音设置", "设备连接", "投屏音频"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor speaker",
-      "tags": [
-        "speaker",
-        "audio output",
-        "sound settings",
-        "device connection",
-        "casting audio"
-      ],
-      "use-cases": [
-        "Audio output settings",
-        "Screen casting with audio",
-        "Device sound configuration"
-      ]
+      "tags": ["speaker", "audio output", "sound settings", "device connection", "casting audio"],
+      "use-cases": ["Audio output settings", "Screen casting with audio", "Device sound configuration"]
     }
   }
 }

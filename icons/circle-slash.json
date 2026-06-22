@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁止指示器",
-    "取消操作",
-    "错误状态",
-    "无效输入标记"
-  ],
+  "use-cases": ["禁止指示器", "取消操作", "错误状态", "无效输入标记"],
   "name": "圆形斜杠",
-  "tags": [
-    "禁止",
-    "取消",
-    "错误",
-    "无效",
-    "停止",
-    "否定"
-  ],
-  "categories": [
-    "development",
-    "math"
-  ],
+  "tags": ["禁止", "取消", "错误", "无效", "停止", "否定"],
+  "categories": ["development", "math"],
   "i18n": {
     "en": {
       "name": "circle slash",
-      "tags": [
-        "prohibit",
-        "cancel",
-        "error",
-        "invalid",
-        "stop",
-        "negation"
-      ],
-      "use-cases": [
-        "Prohibition indicator",
-        "Cancel operation",
-        "Error state",
-        "Invalid input marker"
-      ]
+      "tags": ["prohibit", "cancel", "error", "invalid", "stop", "negation"],
+      "use-cases": ["Prohibition indicator", "Cancel operation", "Error state", "Invalid input marker"]
     }
   }
 }

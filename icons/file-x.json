@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "删除文件",
-    "关闭出错文档",
-    "移除附件"
-  ],
+  "use-cases": ["删除文件", "关闭出错文档", "移除附件"],
   "name": "文件关闭",
-  "tags": [
-    "删除",
-    "移除",
-    "关闭",
-    "错误",
-    "无效"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["删除", "移除", "关闭", "错误", "无效"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file X",
-      "tags": [
-        "delete",
-        "remove",
-        "close",
-        "error",
-        "invalid"
-      ],
-      "use-cases": [
-        "Deleting a file",
-        "Closing a document with an error",
-        "Removing an attachment"
-      ]
+      "tags": ["delete", "remove", "close", "error", "invalid"],
+      "use-cases": ["Deleting a file", "Closing a document with an error", "Removing an attachment"]
     }
   }
 }

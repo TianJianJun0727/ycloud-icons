@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "警告文件",
-    "受保护文档",
-    "错误日志"
-  ],
+  "use-cases": ["警告文件", "受保护文档", "错误日志"],
   "name": "文件感叹号点",
-  "tags": [
-    "警告",
-    "错误",
-    "危险",
-    "受保护",
-    "重要"
-  ],
-  "categories": [
-    "files",
-    "notifications"
-  ],
+  "tags": ["警告", "错误", "危险", "受保护", "重要"],
+  "categories": ["files", "notifications"],
   "aliases": [
     {
       "name": "file-warning",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "file exclamation point",
-      "tags": [
-        "warning",
-        "error",
-        "danger",
-        "protected",
-        "important"
-      ],
-      "use-cases": [
-        "Warning file",
-        "Protected document",
-        "Error log"
-      ]
+      "tags": ["warning", "error", "danger", "protected", "important"],
+      "use-cases": ["Warning file", "Protected document", "Error log"]
     }
   }
 }

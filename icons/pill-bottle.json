@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "药房药物展示",
-    "处方管理",
-    "医疗用品库存"
-  ],
+  "use-cases": ["药房药物展示", "处方管理", "医疗用品库存"],
   "name": "药丸瓶子",
-  "tags": [
-    "药瓶",
-    "药物",
-    "处方",
-    "医疗",
-    "保健品",
-    "容器"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["药瓶", "药物", "处方", "医疗", "保健品", "容器"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "pill bottle",
-      "tags": [
-        "pill bottle",
-        "medicine",
-        "prescription",
-        "medical",
-        "supplement",
-        "container"
-      ],
-      "use-cases": [
-        "Pharmacy medication display",
-        "Prescription management",
-        "Medical supply inventory"
-      ]
+      "tags": ["pill bottle", "medicine", "prescription", "medical", "supplement", "container"],
+      "use-cases": ["Pharmacy medication display", "Prescription management", "Medical supply inventory"]
     }
   }
 }

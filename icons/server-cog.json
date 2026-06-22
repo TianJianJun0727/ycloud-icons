@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "服务器配置面板",
-    "云管理界面",
-    "系统管理工具"
-  ],
+  "use-cases": ["服务器配置面板", "云管理界面", "系统管理工具"],
   "name": "服务器齿轮",
-  "tags": [
-    "服务器",
-    "配置",
-    "设置",
-    "管理",
-    "运维",
-    "数据中心",
-    "云服务"
-  ],
-  "categories": [
-    "development",
-    "devices"
-  ],
+  "tags": ["服务器", "配置", "设置", "管理", "运维", "数据中心", "云服务"],
+  "categories": ["development", "devices"],
   "i18n": {
     "en": {
       "name": "server cog",
-      "tags": [
-        "server",
-        "configuration",
-        "settings",
-        "management",
-        "maintenance",
-        "data center",
-        "cloud service"
-      ],
-      "use-cases": [
-        "Server configuration panel",
-        "Cloud management interface",
-        "System administration tools"
-      ]
+      "tags": ["server", "configuration", "settings", "management", "maintenance", "data center", "cloud service"],
+      "use-cases": ["Server configuration panel", "Cloud management interface", "System administration tools"]
     }
   }
 }

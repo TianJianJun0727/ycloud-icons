@@ -1,54 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "相册或图片库",
-    "产品目录或宣传册",
-    "杂志或数字出版物",
-    "作品集或艺术品收藏"
-  ],
+  "use-cases": ["相册或图片库", "产品目录或宣传册", "杂志或数字出版物", "作品集或艺术品收藏"],
   "name": "书籍图片",
-  "tags": [
-    "相册",
-    "图片集",
-    "杂志",
-    "目录",
-    "画册",
-    "浏览",
-    "画廊",
-    "照片",
-    "收藏",
-    "图库"
-  ],
-  "categories": [
-    "photography",
-    "text",
-    "multimedia",
-    "files",
-    "social",
-    "shopping",
-    "travel"
-  ],
+  "tags": ["相册", "图片集", "杂志", "目录", "画册", "浏览", "画廊", "照片", "收藏", "图库"],
+  "categories": ["photography", "text", "multimedia", "files", "social", "shopping", "travel"],
   "i18n": {
     "en": {
       "name": "book image",
-      "tags": [
-        "photo album",
-        "image collection",
-        "magazine",
-        "catalog",
-        "picture book",
-        "browse",
-        "gallery",
-        "photos",
-        "collection",
-        "image gallery"
-      ],
-      "use-cases": [
-        "Photo album or image gallery",
-        "Product catalog or brochure",
-        "Magazine or digital publication",
-        "Portfolio or artwork collection"
-      ]
+      "tags": ["photo album", "image collection", "magazine", "catalog", "picture book", "browse", "gallery", "photos", "collection", "image gallery"],
+      "use-cases": ["Photo album or image gallery", "Product catalog or brochure", "Magazine or digital publication", "Portfolio or artwork collection"]
     }
   }
 }

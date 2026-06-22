@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示12点时间",
-    "中午或午夜指示器",
-    "截止时间或正午隐喻"
-  ],
+  "use-cases": ["显示12点时间", "中午或午夜指示器", "截止时间或正午隐喻"],
   "name": "时钟十二",
-  "tags": [
-    "时间",
-    "时钟",
-    "12点",
-    "中午",
-    "午夜",
-    "正午"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "时钟", "12点", "中午", "午夜", "正午"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock 12",
-      "tags": [
-        "time",
-        "clock",
-        "hour",
-        "12",
-        "twelve",
-        "noon",
-        "midnight"
-      ],
-      "use-cases": [
-        "Time display for 12:00",
-        "Noon or midnight indicator",
-        "Deadline or high noon metaphor"
-      ]
+      "tags": ["time", "clock", "hour", "12", "twelve", "noon", "midnight"],
+      "use-cases": ["Time display for 12:00", "Noon or midnight indicator", "Deadline or high noon metaphor"]
     }
   }
 }

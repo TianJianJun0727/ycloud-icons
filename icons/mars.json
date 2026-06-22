@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代表男性性别",
-    "指示男性板块或个人资料",
-    "阳刚之气的符号"
-  ],
+  "use-cases": ["代表男性性别", "指示男性板块或个人资料", "阳刚之气的符号"],
   "name": "火星",
-  "tags": [
-    "男性",
-    "性别符号",
-    "男士",
-    "男孩",
-    "阳刚"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["男性", "性别符号", "男士", "男孩", "阳刚"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "mars",
-      "tags": [
-        "male",
-        "gender symbol",
-        "man",
-        "boy",
-        "masculine"
-      ],
-      "use-cases": [
-        "Represent male gender",
-        "Indicate men's section or profile",
-        "Symbol for masculinity"
-      ]
+      "tags": ["male", "gender symbol", "man", "boy", "masculine"],
+      "use-cases": ["Represent male gender", "Indicate men's section or profile", "Symbol for masculinity"]
     }
   }
 }

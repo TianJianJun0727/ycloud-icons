@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "全球服务状态",
-    "网络连接验证",
-    "国际可用性检查"
-  ],
+  "use-cases": ["全球服务状态", "网络连接验证", "国际可用性检查"],
   "name": "地球勾选",
-  "tags": [
-    "地球",
-    "验证",
-    "全球",
-    "网络",
-    "互联网",
-    "可用性",
-    "在线",
-    "状态确认"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["地球", "验证", "全球", "网络", "互联网", "可用性", "在线", "状态确认"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "globe check",
-      "tags": [
-        "globe",
-        "verified",
-        "global",
-        "network",
-        "internet",
-        "availability",
-        "online",
-        "status confirmation"
-      ],
-      "use-cases": [
-        "Global service status",
-        "Network connectivity verification",
-        "International availability check"
-      ]
+      "tags": ["globe", "verified", "global", "network", "internet", "availability", "online", "status confirmation"],
+      "use-cases": ["Global service status", "Network connectivity verification", "International availability check"]
     }
   }
 }

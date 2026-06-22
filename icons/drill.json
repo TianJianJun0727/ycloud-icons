@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "建筑设备选择",
-    "DIY项目工具",
-    "五金店库存",
-    "工具租赁服务"
-  ],
+  "use-cases": ["建筑设备选择", "DIY项目工具", "五金店库存", "工具租赁服务"],
   "name": "电钻",
-  "tags": [
-    "电钻",
-    "工具",
-    "钻孔",
-    "DIY",
-    "建筑",
-    "装修",
-    "电动工具",
-    "工具箱"
-  ],
-  "categories": [
-    "tools",
-    "home",
-    "devices"
-  ],
+  "tags": ["电钻", "工具", "钻孔", "DIY", "建筑", "装修", "电动工具", "工具箱"],
+  "categories": ["tools", "home", "devices"],
   "i18n": {
     "en": {
       "name": "drill",
-      "tags": [
-        "drill",
-        "tool",
-        "drilling",
-        "DIY",
-        "construction",
-        "renovation",
-        "power tool",
-        "toolbox"
-      ],
-      "use-cases": [
-        "Construction equipment selection",
-        "DIY project tools",
-        "Hardware store inventory",
-        "Tool rental service"
-      ]
+      "tags": ["drill", "tool", "drilling", "DIY", "construction", "renovation", "power tool", "toolbox"],
+      "use-cases": ["Construction equipment selection", "DIY project tools", "Hardware store inventory", "Tool rental service"]
     }
   }
 }

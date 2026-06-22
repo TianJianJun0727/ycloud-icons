@@ -1,26 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭按钮",
-    "取消操作",
-    "删除确认",
-    "错误状态",
-    "乘法符号"
-  ],
+  "use-cases": ["关闭按钮", "取消操作", "删除确认", "错误状态", "乘法符号"],
   "name": "圆形关闭",
-  "tags": [
-    "关闭",
-    "取消",
-    "删除",
-    "错误",
-    "失败",
-    "乘法",
-    "清除"
-  ],
-  "categories": [
-    "math",
-    "development"
-  ],
+  "tags": ["关闭", "取消", "删除", "错误", "失败", "乘法", "清除"],
+  "categories": ["math", "development"],
   "aliases": [
     {
       "name": "x-circle",
@@ -32,22 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle X",
-      "tags": [
-        "close",
-        "cancel",
-        "delete",
-        "error",
-        "failure",
-        "multiply",
-        "clear"
-      ],
-      "use-cases": [
-        "Close button",
-        "Cancel operation",
-        "Delete confirmation",
-        "Error state",
-        "Multiplication symbol"
-      ]
+      "tags": ["close", "cancel", "delete", "error", "failure", "multiply", "clear"],
+      "use-cases": ["Close button", "Cancel operation", "Delete confirmation", "Error state", "Multiplication symbol"]
     }
   }
 }

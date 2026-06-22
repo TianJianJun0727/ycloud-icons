@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件版本历史",
-    "审计日志文件",
-    "时间戳文档"
-  ],
+  "use-cases": ["文件版本历史", "审计日志文件", "时间戳文档"],
   "name": "文件时钟",
-  "tags": [
-    "历史",
-    "日志",
-    "时间",
-    "记录",
-    "存档"
-  ],
-  "categories": [
-    "files",
-    "time"
-  ],
+  "tags": ["历史", "日志", "时间", "记录", "存档"],
+  "categories": ["files", "time"],
   "i18n": {
     "en": {
       "name": "file clock",
-      "tags": [
-        "history",
-        "log",
-        "time",
-        "record",
-        "archive"
-      ],
-      "use-cases": [
-        "File version history",
-        "Audit log file",
-        "Time-stamped document"
-      ]
+      "tags": ["history", "log", "time", "record", "archive"],
+      "use-cases": ["File version history", "Audit log file", "Time-stamped document"]
     }
   }
 }

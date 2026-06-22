@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具图层管理",
-    "UI元素排序",
-    "重叠对象控制"
-  ],
+  "use-cases": ["设计工具图层管理", "UI元素排序", "重叠对象控制"],
   "name": "置于到正面",
-  "tags": [
-    "置于顶层",
-    "图层顺序",
-    "前置",
-    "重叠",
-    "布局"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["置于顶层", "图层顺序", "前置", "重叠", "布局"],
+  "categories": ["design", "layout"],
   "i18n": {
     "en": {
       "name": "bring to front",
-      "tags": [
-        "bring to front",
-        "layer order",
-        "front",
-        "overlap",
-        "layout"
-      ],
-      "use-cases": [
-        "Design tool layer management",
-        "UI element ordering",
-        "Overlapping object control"
-      ]
+      "tags": ["bring to front", "layer order", "front", "overlap", "layout"],
+      "use-cases": ["Design tool layer management", "UI element ordering", "Overlapping object control"]
     }
   }
 }

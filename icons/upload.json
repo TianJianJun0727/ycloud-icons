@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文件上传按钮",
-    "云存储界面",
-    "数据导入功能"
-  ],
+  "use-cases": ["文件上传按钮", "云存储界面", "数据导入功能"],
   "name": "上传",
-  "tags": [
-    "上传",
-    "文件上传",
-    "数据导入",
-    "云上传",
-    "提交文件"
-  ],
-  "categories": [
-    "arrows",
-    "files"
-  ],
+  "tags": ["上传", "文件上传", "数据导入", "云上传", "提交文件"],
+  "categories": ["arrows", "files"],
   "i18n": {
     "en": {
       "name": "upload",
-      "tags": [
-        "upload",
-        "file upload",
-        "data import",
-        "cloud upload",
-        "submit file"
-      ],
-      "use-cases": [
-        "File upload button",
-        "Cloud storage interface",
-        "Data import feature"
-      ]
+      "tags": ["upload", "file upload", "data import", "cloud upload", "submit file"],
+      "use-cases": ["File upload button", "Cloud storage interface", "Data import feature"]
     }
   }
 }

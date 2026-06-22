@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下拉菜单触发器",
-    "可展开内容指示器",
-    "导航控件"
-  ],
+  "use-cases": ["下拉菜单触发器", "可展开内容指示器", "导航控件"],
   "name": "方形折角箭头下",
-  "tags": [
-    "下拉",
-    "展开",
-    "菜单",
-    "导航",
-    "箭头"
-  ],
-  "categories": [
-    "arrows",
-    "navigation"
-  ],
+  "tags": ["下拉", "展开", "菜单", "导航", "箭头"],
+  "categories": ["arrows", "navigation"],
   "aliases": [
     {
       "name": "chevron-down-square",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square chevron down",
-      "tags": [
-        "dropdown",
-        "expand",
-        "menu",
-        "navigation",
-        "arrow"
-      ],
-      "use-cases": [
-        "Dropdown menu triggers",
-        "Expandable content indicators",
-        "Navigation controls"
-      ]
+      "tags": ["dropdown", "expand", "menu", "navigation", "arrow"],
+      "use-cases": ["Dropdown menu triggers", "Expandable content indicators", "Navigation controls"]
     }
   }
 }

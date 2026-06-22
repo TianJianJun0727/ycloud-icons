@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家居商场的摇椅展示",
-    "休息区舒适座椅图标",
-    "老年用品家具标识"
-  ],
+  "use-cases": ["家居商场的摇椅展示", "休息区舒适座椅图标", "老年用品家具标识"],
   "name": "摇椅椅子",
-  "tags": [
-    "摇椅",
-    "家具",
-    "休息",
-    "舒适",
-    "家居"
-  ],
-  "categories": [
-    "home"
-  ],
+  "tags": ["摇椅", "家具", "休息", "舒适", "家居"],
+  "categories": ["home"],
   "i18n": {
     "en": {
       "name": "rocking chair",
-      "tags": [
-        "rocking chair",
-        "furniture",
-        "rest",
-        "comfort",
-        "home"
-      ],
-      "use-cases": [
-        "Rocking chair display in furniture store",
-        "Comfortable seating icon in rest area",
-        "Senior care furniture indicator"
-      ]
+      "tags": ["rocking chair", "furniture", "rest", "comfort", "home"],
+      "use-cases": ["Rocking chair display in furniture store", "Comfortable seating icon in rest area", "Senior care furniture indicator"]
     }
   }
 }

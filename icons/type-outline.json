@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计工具中的字体样式预览",
-    "文本效果选择界面",
-    "排版编辑界面"
-  ],
+  "use-cases": ["设计工具中的字体样式预览", "文本效果选择界面", "排版编辑界面"],
   "name": "文字轮廓",
-  "tags": [
-    "文字轮廓",
-    "字体",
-    "排版",
-    "文本",
-    "描边",
-    "字形"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["文字轮廓", "字体", "排版", "文本", "描边", "字形"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "type outline",
-      "tags": [
-        "text",
-        "font",
-        "typography",
-        "outline",
-        "stroke",
-        "glyph"
-      ],
-      "use-cases": [
-        "Font style preview in design tool",
-        "Text effect selection UI",
-        "Typography editing interface"
-      ]
+      "tags": ["text", "font", "typography", "outline", "stroke", "glyph"],
+      "use-cases": ["Font style preview in design tool", "Text effect selection UI", "Typography editing interface"]
     }
   }
 }

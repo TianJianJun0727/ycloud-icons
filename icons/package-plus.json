@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加新包裹",
-    "创建软件包",
-    "增加库存"
-  ],
+  "use-cases": ["添加新包裹", "创建软件包", "增加库存"],
   "name": "包加号",
-  "tags": [
-    "添加",
-    "新建",
-    "创建",
-    "增加",
-    "安装"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["添加", "新建", "创建", "增加", "安装"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "package plus",
-      "tags": [
-        "add",
-        "new",
-        "create",
-        "plus",
-        "install"
-      ],
-      "use-cases": [
-        "Add new package",
-        "Create software package",
-        "Increase inventory"
-      ]
+      "tags": ["add", "new", "create", "plus", "install"],
+      "use-cases": ["Add new package", "Create software package", "Increase inventory"]
     }
   }
 }

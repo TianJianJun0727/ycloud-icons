@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "天气状况显示",
-    "空气质量指示",
-    "能见度警告"
-  ],
+  "use-cases": ["天气状况显示", "空气质量指示", "能见度警告"],
   "name": "雾霾",
-  "tags": [
-    "雾霾",
-    "薄雾",
-    "天气",
-    "能见度低",
-    "污染"
-  ],
-  "categories": [
-    "weather"
-  ],
+  "tags": ["雾霾", "薄雾", "天气", "能见度低", "污染"],
+  "categories": ["weather"],
   "i18n": {
     "en": {
       "name": "haze",
-      "tags": [
-        "haze",
-        "mist",
-        "weather",
-        "low visibility",
-        "pollution"
-      ],
-      "use-cases": [
-        "Weather condition display",
-        "Air quality indicator",
-        "Visibility warning"
-      ]
+      "tags": ["haze", "mist", "weather", "low visibility", "pollution"],
+      "use-cases": ["Weather condition display", "Air quality indicator", "Visibility warning"]
     }
   }
 }

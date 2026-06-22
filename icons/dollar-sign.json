@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "价格标签",
-    "支付按钮",
-    "金融仪表盘",
-    "电商结账"
-  ],
+  "use-cases": ["价格标签", "支付按钮", "金融仪表盘", "电商结账"],
   "name": "美元标志",
-  "tags": [
-    "美元",
-    "货币",
-    "金钱",
-    "支付",
-    "价格",
-    "金融"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["美元", "货币", "金钱", "支付", "价格", "金融"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "dollar sign",
-      "tags": [
-        "dollar",
-        "currency",
-        "money",
-        "payment",
-        "price",
-        "finance"
-      ],
-      "use-cases": [
-        "Price tag",
-        "Payment button",
-        "Financial dashboard",
-        "E-commerce checkout"
-      ]
+      "tags": ["dollar", "currency", "money", "payment", "price", "finance"],
+      "use-cases": ["Price tag", "Payment button", "Financial dashboard", "E-commerce checkout"]
     }
   }
 }

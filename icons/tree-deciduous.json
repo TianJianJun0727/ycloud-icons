@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "公园或花园地图",
-    "环境网站",
-    "自然保护活动"
-  ],
+  "use-cases": ["公园或花园地图", "环境网站", "自然保护活动"],
   "name": "树落叶树",
-  "tags": [
-    "树",
-    "落叶树",
-    "森林",
-    "自然",
-    "公园",
-    "植物"
-  ],
-  "categories": [
-    "nature",
-    "sustainability"
-  ],
+  "tags": ["树", "落叶树", "森林", "自然", "公园", "植物"],
+  "categories": ["nature", "sustainability"],
   "i18n": {
     "en": {
       "name": "tree deciduous",
-      "tags": [
-        "tree",
-        "deciduous",
-        "forest",
-        "nature",
-        "park",
-        "plant"
-      ],
-      "use-cases": [
-        "Park or garden map",
-        "Environmental website",
-        "Nature conservation campaign"
-      ]
+      "tags": ["tree", "deciduous", "forest", "nature", "park", "plant"],
+      "use-cases": ["Park or garden map", "Environmental website", "Nature conservation campaign"]
     }
   }
 }

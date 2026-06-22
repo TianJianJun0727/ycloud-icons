@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "面板收起控制",
-    "布局管理",
-    "可展开菜单"
-  ],
+  "use-cases": ["面板收起控制", "布局管理", "可展开菜单"],
   "name": "折叠水平",
-  "tags": [
-    "水平折叠",
-    "收起",
-    "展开",
-    "布局",
-    "箭头"
-  ],
-  "categories": [
-    "arrows",
-    "layout"
-  ],
+  "tags": ["水平折叠", "收起", "展开", "布局", "箭头"],
+  "categories": ["arrows", "layout"],
   "i18n": {
     "en": {
       "name": "fold horizontal",
-      "tags": [
-        "fold horizontal",
-        "collapse",
-        "expand",
-        "layout",
-        "arrow"
-      ],
-      "use-cases": [
-        "Panel collapse control",
-        "Layout management",
-        "Expandable menu"
-      ]
+      "tags": ["fold horizontal", "collapse", "expand", "layout", "arrow"],
+      "use-cases": ["Panel collapse control", "Layout management", "Expandable menu"]
     }
   }
 }

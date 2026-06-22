@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "直播电视流界面",
-    "频道指南与选择",
-    "信号强度指示器"
-  ],
+  "use-cases": ["直播电视流界面", "频道指南与选择", "信号强度指示器"],
   "name": "电视",
-  "tags": [
-    "电视",
-    "广播电视",
-    "频道",
-    "直播",
-    "信号",
-    "娱乐",
-    "显示器"
-  ],
-  "categories": [
-    "devices",
-    "multimedia",
-    "communication"
-  ],
+  "tags": ["电视", "广播电视", "频道", "直播", "信号", "娱乐", "显示器"],
+  "categories": ["devices", "multimedia", "communication"],
   "i18n": {
     "en": {
       "name": "tv",
-      "tags": [
-        "television",
-        "broadcast",
-        "channels",
-        "live",
-        "signal",
-        "entertainment",
-        "display"
-      ],
-      "use-cases": [
-        "Live TV streaming interface",
-        "Channel guide and selection",
-        "Signal strength indicator"
-      ]
+      "tags": ["television", "broadcast", "channels", "live", "signal", "entertainment", "display"],
+      "use-cases": ["Live TV streaming interface", "Channel guide and selection", "Signal strength indicator"]
     }
   }
 }

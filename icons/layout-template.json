@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "选择页面布局模板",
-    "网站区块模板",
-    "用户界面框架结构"
-  ],
+  "use-cases": ["选择页面布局模板", "网站区块模板", "用户界面框架结构"],
   "name": "布局模板",
-  "tags": [
-    "模板",
-    "布局",
-    "区块",
-    "页面结构",
-    "窗口",
-    "框架"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["模板", "布局", "区块", "页面结构", "窗口", "框架"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "layout template",
-      "tags": [
-        "template",
-        "layout",
-        "block",
-        "page structure",
-        "window",
-        "frame"
-      ],
-      "use-cases": [
-        "Select a page layout template",
-        "Website section block template",
-        "UI framework structure"
-      ]
+      "tags": ["template", "layout", "block", "page structure", "window", "frame"],
+      "use-cases": ["Select a page layout template", "Website section block template", "UI framework structure"]
     }
   }
 }

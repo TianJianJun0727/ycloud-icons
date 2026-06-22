@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "分支合并操作",
-    "代码集成流程",
-    "版本控制工作流"
-  ],
+  "use-cases": ["分支合并操作", "代码集成流程", "版本控制工作流"],
   "name": "Git合并",
-  "tags": [
-    "合并",
-    "版本控制",
-    "Git",
-    "代码集成",
-    "分支"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["合并", "版本控制", "Git", "代码集成", "分支"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git merge",
-      "tags": [
-        "merge",
-        "version control",
-        "Git",
-        "code integration",
-        "branch"
-      ],
-      "use-cases": [
-        "Branch merging action",
-        "Code integration process",
-        "Version control workflow"
-      ]
+      "tags": ["merge", "version control", "Git", "code integration", "branch"],
+      "use-cases": ["Branch merging action", "Code integration process", "Version control workflow"]
     }
   }
 }

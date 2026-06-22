@@ -1,55 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频编辑关键帧移除",
-    "计算器减法功能",
-    "减少数值的UI按钮",
-    "Markdown水平线元素"
-  ],
+  "use-cases": ["视频编辑关键帧移除", "计算器减法功能", "减少数值的UI按钮", "Markdown水平线元素"],
   "name": "菱形减少",
-  "tags": [
-    "关键帧",
-    "减去",
-    "移除",
-    "减少",
-    "计算器",
-    "按钮",
-    "分隔线",
-    "水平线",
-    "HTML",
-    "标记",
-    "工具栏",
-    "运算符"
-  ],
-  "categories": [
-    "multimedia",
-    "photography",
-    "tools",
-    "devices"
-  ],
+  "tags": ["关键帧", "减去", "移除", "减少", "计算器", "按钮", "分隔线", "水平线", "HTML", "标记", "工具栏", "运算符"],
+  "categories": ["multimedia", "photography", "tools", "devices"],
   "i18n": {
     "en": {
       "name": "diamond minus",
-      "tags": [
-        "keyframe",
-        "subtract",
-        "remove",
-        "decrease",
-        "calculator",
-        "button",
-        "divider",
-        "horizontal rule",
-        "html",
-        "markup",
-        "toolbar",
-        "operator"
-      ],
-      "use-cases": [
-        "Video editing keyframe removal",
-        "Calculator subtract function",
-        "UI button for decreasing a value",
-        "Markdown horizontal rule element"
-      ]
+      "tags": ["keyframe", "subtract", "remove", "decrease", "calculator", "button", "divider", "horizontal rule", "html", "markup", "toolbar", "operator"],
+      "use-cases": ["Video editing keyframe removal", "Calculator subtract function", "UI button for decreasing a value", "Markdown horizontal rule element"]
     }
   }
 }

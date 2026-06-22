@@ -1,24 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "旅行预订",
-    "度假村网站",
-    "度假租赁",
-    "旅游推广"
-  ],
+  "use-cases": ["旅行预订", "度假村网站", "度假租赁", "旅游推广"],
   "name": "树棕榈",
-  "tags": [
-    "棕榈树",
-    "度假",
-    "岛屿",
-    "热带",
-    "海滩",
-    "休闲"
-  ],
-  "categories": [
-    "nature",
-    "sustainability"
-  ],
+  "tags": ["棕榈树", "度假", "岛屿", "热带", "海滩", "休闲"],
+  "categories": ["nature", "sustainability"],
   "aliases": [
     {
       "name": "palmtree",
@@ -30,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "tree palm",
-      "tags": [
-        "vacation",
-        "leisure",
-        "island",
-        "tropical",
-        "beach"
-      ],
-      "use-cases": [
-        "Travel booking",
-        "Resort website",
-        "Vacation rental",
-        "Tourism promotion"
-      ]
+      "tags": ["vacation", "leisure", "island", "tropical", "beach"],
+      "use-cases": ["Travel booking", "Resort website", "Vacation rental", "Tourism promotion"]
     }
   }
 }

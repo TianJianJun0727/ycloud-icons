@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁烟区指示器",
-    "吸烟禁止开关",
-    "健康政策合规图标"
-  ],
+  "use-cases": ["禁烟区指示器", "吸烟禁止开关", "健康政策合规图标"],
   "name": "香烟关闭",
-  "tags": [
-    "禁烟",
-    "无烟区",
-    "禁止吸烟",
-    "健康",
-    "关闭",
-    "禁用"
-  ],
-  "categories": [
-    "travel",
-    "transportation",
-    "medical"
-  ],
+  "tags": ["禁烟", "无烟区", "禁止吸烟", "健康", "关闭", "禁用"],
+  "categories": ["travel", "transportation", "medical"],
   "i18n": {
     "en": {
       "name": "cigarette off",
-      "tags": [
-        "no smoking",
-        "smoke-free",
-        "smoking ban",
-        "health",
-        "off",
-        "disabled"
-      ],
-      "use-cases": [
-        "No smoking zone indicator",
-        "Smoking prohibition toggle",
-        "Health policy compliance icon"
-      ]
+      "tags": ["no smoking", "smoke-free", "smoking ban", "health", "off", "disabled"],
+      "use-cases": ["No smoking zone indicator", "Smoking prohibition toggle", "Health policy compliance icon"]
     }
   }
 }

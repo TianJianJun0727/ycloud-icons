@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "展开右侧边栏",
-    "打开详情面板",
-    "显示次要导航"
-  ],
+  "use-cases": ["展开右侧边栏", "打开详情面板", "显示次要导航"],
   "name": "面板右打开",
-  "tags": [
-    "侧边栏",
-    "展开",
-    "抽屉",
-    "显示",
-    "导航",
-    "布局",
-    "箭头",
-    "向左"
-  ],
-  "categories": [
-    "layout",
-    "arrows"
-  ],
+  "tags": ["侧边栏", "展开", "抽屉", "显示", "导航", "布局", "箭头", "向左"],
+  "categories": ["layout", "arrows"],
   "i18n": {
     "en": {
       "name": "panel right open",
-      "tags": [
-        "sidebar",
-        "expand",
-        "drawer",
-        "show",
-        "navigation",
-        "layout",
-        "chevron",
-        "left"
-      ],
-      "use-cases": [
-        "Expand right sidebar",
-        "Open details panel",
-        "Show secondary navigation"
-      ]
+      "tags": ["sidebar", "expand", "drawer", "show", "navigation", "layout", "chevron", "left"],
+      "use-cases": ["Expand right sidebar", "Open details panel", "Show secondary navigation"]
     }
   }
 }

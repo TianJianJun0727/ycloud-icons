@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "教育平台导航",
-    "校园信息展示",
-    "学术机构标识"
-  ],
+  "use-cases": ["教育平台导航", "校园信息展示", "学术机构标识"],
   "name": "大学",
-  "tags": [
-    "大学",
-    "教育机构",
-    "学院",
-    "学术",
-    "教学楼",
-    "高等教育"
-  ],
-  "categories": [
-    "buildings",
-    "navigation"
-  ],
+  "tags": ["大学", "教育机构", "学院", "学术", "教学楼", "高等教育"],
+  "categories": ["buildings", "navigation"],
   "aliases": [
     {
       "name": "school-2",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "university",
-      "tags": [
-        "building",
-        "education",
-        "school",
-        "college",
-        "institute",
-        "academic"
-      ],
-      "use-cases": [
-        "Education platform navigation",
-        "Campus information display",
-        "Academic institution branding"
-      ]
+      "tags": ["building", "education", "school", "college", "institute", "academic"],
+      "use-cases": ["Education platform navigation", "Campus information display", "Academic institution branding"]
     }
   }
 }

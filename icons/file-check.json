@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已完成文件标记",
-    "审核通过文档",
-    "验证完成文件",
-    "任务完成标识"
-  ],
+  "use-cases": ["已完成文件标记", "审核通过文档", "验证完成文件", "任务完成标识"],
   "name": "文件勾选",
-  "tags": [
-    "完成文件",
-    "已验证",
-    "审核通过",
-    "确认文件",
-    "任务完成"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["完成文件", "已验证", "审核通过", "确认文件", "任务完成"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file check",
-      "tags": [
-        "completed file",
-        "verified",
-        "approved",
-        "confirmed file",
-        "task completed"
-      ],
-      "use-cases": [
-        "Completed file markers",
-        "Approved documents",
-        "Verified completed files",
-        "Task completion identifiers"
-      ]
+      "tags": ["completed file", "verified", "approved", "confirmed file", "task completed"],
+      "use-cases": ["Completed file markers", "Approved documents", "Verified completed files", "Task completion identifiers"]
     }
   }
 }

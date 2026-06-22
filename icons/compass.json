@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "地图导航界面",
-    "方向或方位指示器",
-    "旅行或探索应用",
-    "浏览器图标"
-  ],
+  "use-cases": ["地图导航界面", "方向或方位指示器", "旅行或探索应用", "浏览器图标"],
   "name": "指南针",
-  "tags": [
-    "指南针",
-    "方向",
-    "导航",
-    "定位",
-    "旅行",
-    "地图",
-    "浏览器"
-  ],
-  "categories": [
-    "navigation",
-    "travel"
-  ],
+  "tags": ["指南针", "方向", "导航", "定位", "旅行", "地图", "浏览器"],
+  "categories": ["navigation", "travel"],
   "i18n": {
     "en": {
       "name": "compass",
-      "tags": [
-        "compass",
-        "direction",
-        "navigation",
-        "orientation",
-        "travel",
-        "map",
-        "browser"
-      ],
-      "use-cases": [
-        "Map navigation interface",
-        "Direction or bearing indicator",
-        "Travel or exploration app",
-        "Browser icon"
-      ]
+      "tags": ["compass", "direction", "navigation", "orientation", "travel", "map", "browser"],
+      "use-cases": ["Map navigation interface", "Direction or bearing indicator", "Travel or exploration app", "Browser icon"]
     }
   }
 }

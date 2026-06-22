@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "菲律宾货币选择",
-    "面向菲律宾的金融应用"
-  ],
+  "use-cases": ["菲律宾货币选择", "面向菲律宾的金融应用"],
   "name": "菲律宾比索",
-  "tags": [
-    "菲律宾比索",
-    "货币",
-    "PHP",
-    "金融",
-    "钱"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["菲律宾比索", "货币", "PHP", "金融", "钱"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "philippine peso",
-      "tags": [
-        "Philippine peso",
-        "currency",
-        "PHP",
-        "finance",
-        "money"
-      ],
-      "use-cases": [
-        "Philippine currency selection",
-        "Financial applications for the Philippines"
-      ]
+      "tags": ["Philippine peso", "currency", "PHP", "finance", "money"],
+      "use-cases": ["Philippine currency selection", "Financial applications for the Philippines"]
     }
   }
 }

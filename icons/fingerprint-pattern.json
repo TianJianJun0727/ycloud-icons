@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "生物识别登录界面",
-    "设备安全设置",
-    "身份验证步骤"
-  ],
+  "use-cases": ["生物识别登录界面", "设备安全设置", "身份验证步骤"],
   "name": "指纹图案",
-  "tags": [
-    "指纹",
-    "生物识别",
-    "安全",
-    "身份验证",
-    "解锁",
-    "隐私"
-  ],
-  "categories": [
-    "account",
-    "security",
-    "medical",
-    "devices"
-  ],
+  "tags": ["指纹", "生物识别", "安全", "身份验证", "解锁", "隐私"],
+  "categories": ["account", "security", "medical", "devices"],
   "aliases": [
     {
       "name": "fingerprint",
@@ -31,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "fingerprint pattern",
-      "tags": [
-        "fingerprint",
-        "biometric",
-        "security",
-        "authentication",
-        "unlock",
-        "privacy"
-      ],
-      "use-cases": [
-        "Biometric login screen",
-        "Device security settings",
-        "Identity verification step"
-      ]
+      "tags": ["fingerprint", "biometric", "security", "authentication", "unlock", "privacy"],
+      "use-cases": ["Biometric login screen", "Device security settings", "Identity verification step"]
     }
   }
 }

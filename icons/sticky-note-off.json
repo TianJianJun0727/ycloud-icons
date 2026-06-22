@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用或隐藏的笔记",
-    "已归档或静音的评论",
-    "不活跃的提醒"
-  ],
+  "use-cases": ["禁用或隐藏的笔记", "已归档或静音的评论", "不活跃的提醒"],
   "name": "便签便签关闭",
-  "tags": [
-    "便利贴",
-    "禁用",
-    "隐藏",
-    "关闭",
-    "无效",
-    "静音",
-    "不活跃"
-  ],
-  "categories": [
-    "text",
-    "social"
-  ],
+  "tags": ["便利贴", "禁用", "隐藏", "关闭", "无效", "静音", "不活跃"],
+  "categories": ["text", "social"],
   "i18n": {
     "en": {
       "name": "sticky note off",
-      "tags": [
-        "sticky note",
-        "disabled",
-        "hidden",
-        "off",
-        "inactive",
-        "mute",
-        "invisible"
-      ],
-      "use-cases": [
-        "Disabled or hidden note",
-        "Archived or muted comment",
-        "Inactive reminder"
-      ]
+      "tags": ["sticky note", "disabled", "hidden", "off", "inactive", "mute", "invisible"],
+      "use-cases": ["Disabled or hidden note", "Archived or muted comment", "Inactive reminder"]
     }
   }
 }

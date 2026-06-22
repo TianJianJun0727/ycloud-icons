@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "表格列排序切换",
-    "数据传输状态",
-    "交换列表中的项目"
-  ],
+  "use-cases": ["表格列排序切换", "数据传输状态", "交换列表中的项目"],
   "name": "箭头上下",
-  "tags": [
-    "排序",
-    "交换",
-    "双向",
-    "切换",
-    "网络",
-    "移动数据"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["排序", "交换", "双向", "切换", "网络", "移动数据"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow up down",
-      "tags": [
-        "sort",
-        "swap",
-        "bidirectional",
-        "switch",
-        "network",
-        "mobile data"
-      ],
-      "use-cases": [
-        "Table column sort toggle",
-        "Data transfer status",
-        "Swap items in list"
-      ]
+      "tags": ["sort", "swap", "bidirectional", "switch", "network", "mobile data"],
+      "use-cases": ["Table column sort toggle", "Data transfer status", "Swap items in list"]
     }
   }
 }

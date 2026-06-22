@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据备份到云端",
-    "文件同步与保存",
-    "系统还原点"
-  ],
+  "use-cases": ["数据备份到云端", "文件同步与保存", "系统还原点"],
   "name": "云备份",
-  "tags": [
-    "备份",
-    "存储",
-    "数据",
-    "同步",
-    "上传",
-    "保存",
-    "恢复",
-    "归档"
-  ],
-  "categories": [
-    "arrows",
-    "files"
-  ],
+  "tags": ["备份", "存储", "数据", "同步", "上传", "保存", "恢复", "归档"],
+  "categories": ["arrows", "files"],
   "i18n": {
     "en": {
       "name": "cloud backup",
-      "tags": [
-        "backup",
-        "storage",
-        "data",
-        "sync",
-        "upload",
-        "save",
-        "restore",
-        "archive"
-      ],
-      "use-cases": [
-        "Data backup to cloud",
-        "File sync and save",
-        "System restore point"
-      ]
+      "tags": ["backup", "storage", "data", "sync", "upload", "save", "restore", "archive"],
+      "use-cases": ["Data backup to cloud", "File sync and save", "System restore point"]
     }
   }
 }

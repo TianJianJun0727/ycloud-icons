@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "旅行应用",
-    "户外装备界面",
-    "学校用品",
-    "冒险规划"
-  ],
+  "use-cases": ["旅行应用", "户外装备界面", "学校用品", "冒险规划"],
   "name": "背包",
-  "tags": [
-    "背包",
-    "旅行",
-    "户外",
-    "徒步",
-    "学校",
-    "装备",
-    "冒险",
-    "存储"
-  ],
-  "categories": [
-    "gaming",
-    "photography",
-    "travel"
-  ],
+  "tags": ["背包", "旅行", "户外", "徒步", "学校", "装备", "冒险", "存储"],
+  "categories": ["gaming", "photography", "travel"],
   "i18n": {
     "en": {
       "name": "backpack",
-      "tags": [
-        "backpack",
-        "travel",
-        "outdoor",
-        "hiking",
-        "school",
-        "equipment",
-        "adventure",
-        "storage"
-      ],
-      "use-cases": [
-        "Travel applications",
-        "Outdoor gear interfaces",
-        "School supplies",
-        "Adventure planning"
-      ]
+      "tags": ["backpack", "travel", "outdoor", "hiking", "school", "equipment", "adventure", "storage"],
+      "use-cases": ["Travel applications", "Outdoor gear interfaces", "School supplies", "Adventure planning"]
     }
   }
 }

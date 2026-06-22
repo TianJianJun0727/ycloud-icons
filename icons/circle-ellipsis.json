@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "更多选项菜单",
-    "加载指示器",
-    "溢出菜单"
-  ],
+  "use-cases": ["更多选项菜单", "加载指示器", "溢出菜单"],
   "name": "圆形省略号",
-  "tags": [
-    "省略号",
-    "更多",
-    "菜单",
-    "选项",
-    "加载"
-  ],
-  "categories": [
-    "layout",
-    "development"
-  ],
+  "tags": ["省略号", "更多", "菜单", "选项", "加载"],
+  "categories": ["layout", "development"],
   "i18n": {
     "en": {
       "name": "circle ellipsis",
-      "tags": [
-        "ellipsis",
-        "more",
-        "menu",
-        "options",
-        "loading"
-      ],
-      "use-cases": [
-        "More options menu",
-        "Loading indicator",
-        "Overflow menu"
-      ]
+      "tags": ["ellipsis", "more", "menu", "options", "loading"],
+      "use-cases": ["More options menu", "Loading indicator", "Overflow menu"]
     }
   }
 }

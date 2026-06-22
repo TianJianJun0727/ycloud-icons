@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "餐厅菜单标注",
-    "饮食偏好设置",
-    "过敏原提示"
-  ],
+  "use-cases": ["餐厅菜单标注", "饮食偏好设置", "过敏原提示"],
   "name": "牛肉关闭",
-  "tags": [
-    "无牛肉",
-    "素食",
-    "餐饮",
-    "菜单",
-    "过敏"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["无牛肉", "素食", "餐饮", "菜单", "过敏"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "beef off",
-      "tags": [
-        "no beef",
-        "vegetarian",
-        "dining",
-        "menu",
-        "allergy"
-      ],
-      "use-cases": [
-        "Restaurant menu labeling",
-        "Dietary preference settings",
-        "Allergen alerts"
-      ]
+      "tags": ["no beef", "vegetarian", "dining", "menu", "allergy"],
+      "use-cases": ["Restaurant menu labeling", "Dietary preference settings", "Allergen alerts"]
     }
   }
 }

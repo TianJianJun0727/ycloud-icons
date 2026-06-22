@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "右侧边栏面板",
-    "详情或属性面板",
-    "界面布局容器"
-  ],
+  "use-cases": ["右侧边栏面板", "详情或属性面板", "界面布局容器"],
   "name": "面板右",
-  "tags": [
-    "侧边栏",
-    "面板",
-    "布局",
-    "容器",
-    "区域",
-    "右侧"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["侧边栏", "面板", "布局", "容器", "区域", "右侧"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "panel right",
-      "tags": [
-        "sidebar",
-        "panel",
-        "layout",
-        "container",
-        "area",
-        "right"
-      ],
-      "use-cases": [
-        "Right sidebar panel",
-        "Details or properties panel",
-        "UI layout container"
-      ]
+      "tags": ["sidebar", "panel", "layout", "container", "area", "right"],
+      "use-cases": ["Right sidebar panel", "Details or properties panel", "UI layout container"]
     }
   }
 }

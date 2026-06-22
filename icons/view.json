@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "切换视图模式",
-    "预览内容",
-    "显示/隐藏详情"
-  ],
+  "use-cases": ["切换视图模式", "预览内容", "显示/隐藏详情"],
   "name": "视图",
-  "tags": [
-    "视图",
-    "查看",
-    "预览",
-    "眼睛",
-    "显示",
-    "可见性"
-  ],
-  "categories": [
-    "design",
-    "photography"
-  ],
+  "tags": ["视图", "查看", "预览", "眼睛", "显示", "可见性"],
+  "categories": ["design", "photography"],
   "i18n": {
     "en": {
       "name": "view",
-      "tags": [
-        "view",
-        "preview",
-        "eye",
-        "display",
-        "visibility",
-        "look"
-      ],
-      "use-cases": [
-        "Toggle view mode",
-        "Preview content",
-        "Show/hide details"
-      ]
+      "tags": ["view", "preview", "eye", "display", "visibility", "look"],
+      "use-cases": ["Toggle view mode", "Preview content", "Show/hide details"]
     }
   }
 }

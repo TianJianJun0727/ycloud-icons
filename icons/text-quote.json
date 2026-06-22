@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文章中的块引用格式化",
-    "回复或引用消息",
-    "突出显示重要的文本段落"
-  ],
+  "use-cases": ["文章中的块引用格式化", "回复或引用消息", "突出显示重要的文本段落"],
   "name": "文本引用",
-  "tags": [
-    "引用",
-    "引文",
-    "块引用",
-    "语录",
-    "回复",
-    "标注",
-    "缩进"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["引用", "引文", "块引用", "语录", "回复", "标注", "缩进"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "text quote",
-      "tags": [
-        "quote",
-        "quotation",
-        "blockquote",
-        "citation",
-        "reply",
-        "highlight",
-        "indent"
-      ],
-      "use-cases": [
-        "Block quote formatting in articles",
-        "Replying to or citing a message",
-        "Highlighting a notable text passage"
-      ]
+      "tags": ["quote", "quotation", "blockquote", "citation", "reply", "highlight", "indent"],
+      "use-cases": ["Block quote formatting in articles", "Replying to or citing a message", "Highlighting a notable text passage"]
     }
   }
 }

@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在设计工具中切换图层可见性",
-    "管理文档页面",
-    "查看堆叠元素"
-  ],
+  "use-cases": ["在设计工具中切换图层可见性", "管理文档页面", "查看堆叠元素"],
   "name": "图层",
-  "tags": [
-    "图层",
-    "叠加",
-    "堆叠",
-    "页面",
-    "层级",
-    "副本"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["图层", "叠加", "堆叠", "页面", "层级", "副本"],
+  "categories": ["design", "layout"],
   "aliases": [
     {
       "name": "layers-3",
@@ -29,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "layers",
-      "tags": [
-        "layers",
-        "stack",
-        "overlay",
-        "pages",
-        "levels",
-        "copy"
-      ],
-      "use-cases": [
-        "Toggle layer visibility in design tools",
-        "Manage document pages",
-        "View stacked elements"
-      ]
+      "tags": ["layers", "stack", "overlay", "pages", "levels", "copy"],
+      "use-cases": ["Toggle layer visibility in design tools", "Manage document pages", "View stacked elements"]
     }
   }
 }

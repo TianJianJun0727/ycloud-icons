@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档编辑器中的五级标题",
-    "网页内容层级结构",
-    "Markdown 标题标记"
-  ],
+  "use-cases": ["文档编辑器中的五级标题", "网页内容层级结构", "Markdown 标题标记"],
   "name": "标题5",
-  "tags": [
-    "H5",
-    "HTML",
-    "标记",
-    "Markdown",
-    "标题",
-    "文档",
-    "编辑"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["H5", "HTML", "标记", "Markdown", "标题", "文档", "编辑"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "heading 5",
-      "tags": [
-        "h5",
-        "html",
-        "markup",
-        "markdown",
-        "heading",
-        "document",
-        "editor"
-      ],
-      "use-cases": [
-        "Fifth-level heading in document editor",
-        "Web content hierarchy",
-        "Markdown heading markup"
-      ]
+      "tags": ["h5", "html", "markup", "markdown", "heading", "document", "editor"],
+      "use-cases": ["Fifth-level heading in document editor", "Web content hierarchy", "Markdown heading markup"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "确认时间或日程",
-    "标记定时任务已完成",
-    "指示预约已确认"
-  ],
+  "use-cases": ["确认时间或日程", "标记定时任务已完成", "指示预约已确认"],
   "name": "时钟勾选",
-  "tags": [
-    "时间",
-    "完成",
-    "确认",
-    "计划完成",
-    "准时",
-    "已验证时间"
-  ],
-  "categories": [
-    "time"
-  ],
+  "tags": ["时间", "完成", "确认", "计划完成", "准时", "已验证时间"],
+  "categories": ["time"],
   "i18n": {
     "en": {
       "name": "clock check",
-      "tags": [
-        "time",
-        "done",
-        "confirm",
-        "scheduled completion",
-        "on time",
-        "verified time"
-      ],
-      "use-cases": [
-        "Confirm a time or schedule",
-        "Mark a timed task as complete",
-        "Indicate an appointment is confirmed"
-      ]
+      "tags": ["time", "done", "confirm", "scheduled completion", "on time", "verified time"],
+      "use-cases": ["Confirm a time or schedule", "Mark a timed task as complete", "Indicate an appointment is confirmed"]
     }
   }
 }

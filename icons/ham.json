@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外卖应用",
-    "食谱食材",
-    "食品购物"
-  ],
+  "use-cases": ["外卖应用", "食谱食材", "食品购物"],
   "name": "火腿",
-  "tags": [
-    "火腿",
-    "肉类",
-    "食品",
-    "猪肉",
-    "熟食"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["火腿", "肉类", "食品", "猪肉", "熟食"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "ham",
-      "tags": [
-        "ham",
-        "meat",
-        "food",
-        "pork",
-        "deli"
-      ],
-      "use-cases": [
-        "Food delivery apps",
-        "Recipe ingredients",
-        "Grocery shopping"
-      ]
+      "tags": ["ham", "meat", "food", "pork", "deli"],
+      "use-cases": ["Food delivery apps", "Recipe ingredients", "Grocery shopping"]
     }
   }
 }

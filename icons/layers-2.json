@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "设计软件中的图层面板",
-    "堆叠的文档或页面",
-    "重复内容指示器",
-    "层级结构"
-  ],
+  "use-cases": ["设计软件中的图层面板", "堆叠的文档或页面", "重复内容指示器", "层级结构"],
   "name": "图层2",
-  "tags": [
-    "图层",
-    "堆叠",
-    "层级",
-    "页面",
-    "副本",
-    "设计",
-    "布局"
-  ],
-  "categories": [
-    "design",
-    "layout"
-  ],
+  "tags": ["图层", "堆叠", "层级", "页面", "副本", "设计", "布局"],
+  "categories": ["design", "layout"],
   "i18n": {
     "en": {
       "name": "layers 2",
-      "tags": [
-        "layers",
-        "stack",
-        "hierarchy",
-        "pages",
-        "copies",
-        "design",
-        "layout"
-      ],
-      "use-cases": [
-        "Layer panel in design software",
-        "Stacked documents or pages",
-        "Duplicate content indicator",
-        "Hierarchical structure"
-      ]
+      "tags": ["layers", "stack", "hierarchy", "pages", "copies", "design", "layout"],
+      "use-cases": ["Layer panel in design software", "Stacked documents or pages", "Duplicate content indicator", "Hierarchical structure"]
     }
   }
 }

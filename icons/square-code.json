@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "代码片段指示器",
-    "源代码切换按钮",
-    "编程上下文标记"
-  ],
+  "use-cases": ["代码片段指示器", "源代码切换按钮", "编程上下文标记"],
   "name": "方形代码",
-  "tags": [
-    "代码",
-    "编程",
-    "源代码",
-    "HTML",
-    "开发"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["代码", "编程", "源代码", "HTML", "开发"],
+  "categories": ["text", "development"],
   "aliases": [
     {
       "name": "code-square",
@@ -28,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square code",
-      "tags": [
-        "code",
-        "programming",
-        "source",
-        "HTML",
-        "development"
-      ],
-      "use-cases": [
-        "Code snippet indicators",
-        "Source code toggle buttons",
-        "Programming context markers"
-      ]
+      "tags": ["code", "programming", "source", "HTML", "development"],
+      "use-cases": ["Code snippet indicators", "Source code toggle buttons", "Programming context markers"]
     }
   }
 }

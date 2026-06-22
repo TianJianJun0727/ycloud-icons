@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "从书签移除",
-    "删除保存项目",
-    "减少书签数量"
-  ],
+  "use-cases": ["从书签移除", "删除保存项目", "减少书签数量"],
   "name": "书签减少",
-  "tags": [
-    "删除",
-    "移除",
-    "减少",
-    "书签",
-    "取消"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["删除", "移除", "减少", "书签", "取消"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "bookmark minus",
-      "tags": [
-        "delete",
-        "remove",
-        "reduce",
-        "bookmark",
-        "cancel"
-      ],
-      "use-cases": [
-        "Remove from bookmarks",
-        "Delete saved item",
-        "Reduce bookmark count"
-      ]
+      "tags": ["delete", "remove", "reduce", "bookmark", "cancel"],
+      "use-cases": ["Remove from bookmarks", "Delete saved item", "Reduce bookmark count"]
     }
   }
 }

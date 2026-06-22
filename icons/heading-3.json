@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档编辑器中的三级标题",
-    "网页内容层级结构",
-    "Markdown 标题标记"
-  ],
+  "use-cases": ["文档编辑器中的三级标题", "网页内容层级结构", "Markdown 标题标记"],
   "name": "标题3",
-  "tags": [
-    "H3",
-    "HTML",
-    "标记",
-    "Markdown",
-    "标题",
-    "文档",
-    "编辑"
-  ],
-  "categories": [
-    "text"
-  ],
+  "tags": ["H3", "HTML", "标记", "Markdown", "标题", "文档", "编辑"],
+  "categories": ["text"],
   "i18n": {
     "en": {
       "name": "heading 3",
-      "tags": [
-        "h3",
-        "html",
-        "markup",
-        "markdown",
-        "heading",
-        "document",
-        "editor"
-      ],
-      "use-cases": [
-        "Third-level heading in document editor",
-        "Web content hierarchy",
-        "Markdown heading markup"
-      ]
+      "tags": ["h3", "html", "markup", "markdown", "heading", "document", "editor"],
+      "use-cases": ["Third-level heading in document editor", "Web content hierarchy", "Markdown heading markup"]
     }
   }
 }

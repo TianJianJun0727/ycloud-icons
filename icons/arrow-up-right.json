@@ -1,34 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外部链接指示器",
-    "对角线导航",
-    "方向指针"
-  ],
+  "use-cases": ["外部链接指示器", "对角线导航", "方向指针"],
   "name": "箭头上右",
-  "tags": [
-    "方向",
-    "对角线",
-    "东北",
-    "导航"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["方向", "对角线", "东北", "导航"],
+  "categories": ["arrows"],
   "i18n": {
     "en": {
       "name": "arrow up right",
-      "tags": [
-        "direction",
-        "diagonal",
-        "north-east",
-        "navigation"
-      ],
-      "use-cases": [
-        "External link indicator",
-        "Diagonal navigation",
-        "Directional pointer"
-      ]
+      "tags": ["direction", "diagonal", "north-east", "navigation"],
+      "use-cases": ["External link indicator", "Diagonal navigation", "Directional pointer"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "实验室结果显示",
-    "化学分析工具",
-    "医学检测界面"
-  ],
+  "use-cases": ["实验室结果显示", "化学分析工具", "医学检测界面"],
   "name": "测试管",
-  "tags": [
-    "试管",
-    "实验",
-    "化学",
-    "科学",
-    "测试",
-    "实验室"
-  ],
-  "categories": [
-    "science"
-  ],
+  "tags": ["试管", "实验", "化学", "科学", "测试", "实验室"],
+  "categories": ["science"],
   "i18n": {
     "en": {
       "name": "test tube",
-      "tags": [
-        "test tube",
-        "experiment",
-        "chemistry",
-        "science",
-        "test",
-        "lab"
-      ],
-      "use-cases": [
-        "Lab results display",
-        "Chemical analysis tool",
-        "Medical testing interface"
-      ]
+      "tags": ["test tube", "experiment", "chemistry", "science", "test", "lab"],
+      "use-cases": ["Lab results display", "Chemical analysis tool", "Medical testing interface"]
     }
   }
 }

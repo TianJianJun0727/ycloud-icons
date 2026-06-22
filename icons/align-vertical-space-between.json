@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在Flex容器中应用垂直两端对齐分布",
-    "均匀分布元素，两端无间隙"
-  ],
+  "use-cases": ["在Flex容器中应用垂直两端对齐分布", "均匀分布元素，两端无间隙"],
   "name": "对齐垂直间距两端",
-  "tags": [
-    "垂直分布",
-    "两端对齐",
-    "Flex布局",
-    "CSS间距",
-    "垂直对齐",
-    "UI设计"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["垂直分布", "两端对齐", "Flex布局", "CSS间距", "垂直对齐", "UI设计"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align vertical space between",
-      "tags": [
-        "vertical distribute",
-        "space between",
-        "flexbox",
-        "CSS spacing",
-        "vertical alignment",
-        "UI design"
-      ],
-      "use-cases": [
-        "Applying vertical space-between distribution in a flex container",
-        "Evenly spacing elements with no gap at the ends"
-      ]
+      "tags": ["vertical distribute", "space between", "flexbox", "CSS spacing", "vertical alignment", "UI design"],
+      "use-cases": ["Applying vertical space-between distribution in a flex container", "Evenly spacing elements with no gap at the ends"]
     }
   }
 }

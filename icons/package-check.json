@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "任务完成确认",
-    "包裹已送达",
-    "软件包验证通过"
-  ],
+  "use-cases": ["任务完成确认", "包裹已送达", "软件包验证通过"],
   "name": "包勾选",
-  "tags": [
-    "确认",
-    "已验证",
-    "完成",
-    "任务",
-    "交付",
-    "检查",
-    "勾选"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["确认", "已验证", "完成", "任务", "交付", "检查", "勾选"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "package check",
-      "tags": [
-        "confirm",
-        "verified",
-        "done",
-        "task",
-        "delivered",
-        "check",
-        "tick"
-      ],
-      "use-cases": [
-        "Task completion confirmation",
-        "Package delivered",
-        "Software package verified"
-      ]
+      "tags": ["confirm", "verified", "done", "task", "delivered", "check", "tick"],
+      "use-cases": ["Task completion confirmation", "Package delivered", "Software package verified"]
     }
   }
 }

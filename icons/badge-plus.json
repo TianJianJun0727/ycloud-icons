@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "添加个人资料徽章",
-    "创建新项目",
-    "增加数量"
-  ],
+  "use-cases": ["添加个人资料徽章", "创建新项目", "增加数量"],
   "name": "徽章加号",
-  "tags": [
-    "添加",
-    "创建",
-    "增加",
-    "新建",
-    "扩展"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["添加", "创建", "增加", "新建", "扩展"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "badge plus",
-      "tags": [
-        "add",
-        "create",
-        "increase",
-        "new",
-        "expand"
-      ],
-      "use-cases": [
-        "Add badge to profile",
-        "Create new item",
-        "Increase quantity"
-      ]
+      "tags": ["add", "create", "increase", "new", "expand"],
+      "use-cases": ["Add badge to profile", "Create new item", "Increase quantity"]
     }
   }
 }

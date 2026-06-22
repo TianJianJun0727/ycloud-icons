@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "关闭显示窗口",
-    "断开远程桌面连接",
-    "移除显示器"
-  ],
+  "use-cases": ["关闭显示窗口", "断开远程桌面连接", "移除显示器"],
   "name": "显示器关闭",
-  "tags": [
-    "显示器",
-    "屏幕",
-    "关闭",
-    "停止",
-    "移除",
-    "断开连接",
-    "设备"
-  ],
-  "categories": [
-    "connectivity",
-    "devices"
-  ],
+  "tags": ["显示器", "屏幕", "关闭", "停止", "移除", "断开连接", "设备"],
+  "categories": ["connectivity", "devices"],
   "i18n": {
     "en": {
       "name": "monitor X",
-      "tags": [
-        "monitor",
-        "screen",
-        "close",
-        "stop",
-        "remove",
-        "disconnect",
-        "device"
-      ],
-      "use-cases": [
-        "Closing a display window",
-        "Disconnecting from remote desktop",
-        "Removing a monitor"
-      ]
+      "tags": ["monitor", "screen", "close", "stop", "remove", "disconnect", "device"],
+      "use-cases": ["Closing a display window", "Disconnecting from remote desktop", "Removing a monitor"]
     }
   }
 }

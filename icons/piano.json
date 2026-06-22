@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器界面",
-    "声音设置",
-    "乐器选择"
-  ],
+  "use-cases": ["音乐播放器界面", "声音设置", "乐器选择"],
   "name": "钢琴",
-  "tags": [
-    "钢琴",
-    "音乐",
-    "乐器",
-    "键盘",
-    "演奏",
-    "音频",
-    "声音"
-  ],
-  "categories": [
-    "multimedia",
-    "devices"
-  ],
+  "tags": ["钢琴", "音乐", "乐器", "键盘", "演奏", "音频", "声音"],
+  "categories": ["multimedia", "devices"],
   "i18n": {
     "en": {
       "name": "piano",
-      "tags": [
-        "piano",
-        "music",
-        "instrument",
-        "keyboard",
-        "play",
-        "audio",
-        "sound"
-      ],
-      "use-cases": [
-        "Music player interface",
-        "Sound settings",
-        "Instrument selection"
-      ]
+      "tags": ["piano", "music", "instrument", "keyboard", "play", "audio", "sound"],
+      "use-cases": ["Music player interface", "Sound settings", "Instrument selection"]
     }
   }
 }

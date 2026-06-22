@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "语音输出的无障碍功能",
-    "语音通信界面",
-    "屏幕阅读器或文本转语音控制",
-    "辅助技术指示器"
-  ],
+  "use-cases": ["语音输出的无障碍功能", "语音通信界面", "屏幕阅读器或文本转语音控制", "辅助技术指示器"],
   "name": "语音",
-  "tags": [
-    "语音",
-    "无障碍",
-    "沟通",
-    "辅助功能",
-    "发言",
-    "对话",
-    "朗读"
-  ],
-  "categories": [
-    "accessibility",
-    "communication"
-  ],
+  "tags": ["语音", "无障碍", "沟通", "辅助功能", "发言", "对话", "朗读"],
+  "categories": ["accessibility", "communication"],
   "i18n": {
     "en": {
       "name": "speech",
-      "tags": [
-        "speech",
-        "accessibility",
-        "communication",
-        "assistive technology",
-        "talk",
-        "conversation",
-        "read aloud"
-      ],
-      "use-cases": [
-        "Accessibility features for speech output",
-        "Voice communication interface",
-        "Screen reader or text-to-speech controls",
-        "Assistive technology indicators"
-      ]
+      "tags": ["speech", "accessibility", "communication", "assistive technology", "talk", "conversation", "read aloud"],
+      "use-cases": ["Accessibility features for speech output", "Voice communication interface", "Screen reader or text-to-speech controls", "Assistive technology indicators"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已加星标的文件夹",
-    "保存项目位置",
-    "收藏夹内容"
-  ],
+  "use-cases": ["已加星标的文件夹", "保存项目位置", "收藏夹内容"],
   "name": "文件夹书签",
-  "tags": [
-    "书签",
-    "收藏",
-    "保存",
-    "标记",
-    "重要文件"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["书签", "收藏", "保存", "标记", "重要文件"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder bookmark",
-      "tags": [
-        "bookmark",
-        "favorite",
-        "save",
-        "mark",
-        "important files"
-      ],
-      "use-cases": [
-        "Bookmarked folders",
-        "Saved items location",
-        "Favorites collection"
-      ]
+      "tags": ["bookmark", "favorite", "save", "mark", "important files"],
+      "use-cases": ["Bookmarked folders", "Saved items location", "Favorites collection"]
     }
   }
 }

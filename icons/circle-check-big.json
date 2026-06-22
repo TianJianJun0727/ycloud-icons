@@ -1,23 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "任务完成状态",
-    "成功通知徽章",
-    "批准确认"
-  ],
+  "use-cases": ["任务完成状态", "成功通知徽章", "批准确认"],
   "name": "圆形勾选大",
-  "tags": [
-    "完成",
-    "成功",
-    "确认",
-    "勾选",
-    "通过",
-    "批准",
-    "通知"
-  ],
-  "categories": [
-    "notifications"
-  ],
+  "tags": ["完成", "成功", "确认", "勾选", "通过", "批准", "通知"],
+  "categories": ["notifications"],
   "aliases": [
     {
       "name": "check-circle",
@@ -29,20 +15,8 @@
   "i18n": {
     "en": {
       "name": "circle check big",
-      "tags": [
-        "done",
-        "success",
-        "confirm",
-        "checkmark",
-        "pass",
-        "approve",
-        "notification"
-      ],
-      "use-cases": [
-        "Task completion status",
-        "Success notification badge",
-        "Approval confirmation"
-      ]
+      "tags": ["done", "success", "confirm", "checkmark", "pass", "approve", "notification"],
+      "use-cases": ["Task completion status", "Success notification badge", "Approval confirmation"]
     }
   }
 }

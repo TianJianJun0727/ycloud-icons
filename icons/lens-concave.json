@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "光学模拟界面",
-    "科学教育应用",
-    "相机镜头设置"
-  ],
+  "use-cases": ["光学模拟界面", "科学教育应用", "相机镜头设置"],
   "name": "镜头凹面",
-  "tags": [
-    "凹透镜",
-    "发散透镜",
-    "光学",
-    "物理",
-    "科学",
-    "镜头"
-  ],
-  "categories": [
-    "science",
-    "tools",
-    "shapes"
-  ],
+  "tags": ["凹透镜", "发散透镜", "光学", "物理", "科学", "镜头"],
+  "categories": ["science", "tools", "shapes"],
   "i18n": {
     "en": {
       "name": "lens concave",
-      "tags": [
-        "concave lens",
-        "diverging lens",
-        "optics",
-        "physics",
-        "science",
-        "lens"
-      ],
-      "use-cases": [
-        "Optics simulation interface",
-        "Science education app",
-        "Camera lens settings"
-      ]
+      "tags": ["concave lens", "diverging lens", "optics", "physics", "science", "lens"],
+      "use-cases": ["Optics simulation interface", "Science education app", "Camera lens settings"]
     }
   }
 }

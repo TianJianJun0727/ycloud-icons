@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "沙拉相关的食物或食谱应用",
-    "健康饮食或素食生活方式功能",
-    "杂货店农产品区"
-  ],
+  "use-cases": ["沙拉相关的食物或食谱应用", "健康饮食或素食生活方式功能", "杂货店农产品区"],
   "name": "绿叶绿色",
-  "tags": [
-    "绿叶",
-    "蔬菜",
-    "沙拉",
-    "生菜",
-    "健康饮食",
-    "素食"
-  ],
-  "categories": [
-    "food-beverage",
-    "emoji",
-    "sustainability"
-  ],
+  "tags": ["绿叶", "蔬菜", "沙拉", "生菜", "健康饮食", "素食"],
+  "categories": ["food-beverage", "emoji", "sustainability"],
   "i18n": {
     "en": {
       "name": "leafy green",
-      "tags": [
-        "leafy green",
-        "vegetable",
-        "salad",
-        "lettuce",
-        "healthy eating",
-        "vegan"
-      ],
-      "use-cases": [
-        "Food or recipe app for salads",
-        "Healthy eating or vegan lifestyle feature",
-        "Grocery store produce section"
-      ]
+      "tags": ["leafy green", "vegetable", "salad", "lettuce", "healthy eating", "vegan"],
+      "use-cases": ["Food or recipe app for salads", "Healthy eating or vegan lifestyle feature", "Grocery store produce section"]
     }
   }
 }

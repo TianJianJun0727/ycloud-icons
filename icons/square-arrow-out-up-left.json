@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "外部链接导航",
-    "在新窗口打开",
-    "退出应用"
-  ],
+  "use-cases": ["外部链接导航", "在新窗口打开", "退出应用"],
   "name": "方形箭头外部上左",
-  "tags": [
-    "外部",
-    "方向",
-    "对角线",
-    "退出",
-    "链接"
-  ],
-  "categories": [
-    "arrows"
-  ],
+  "tags": ["外部", "方向", "对角线", "退出", "链接"],
+  "categories": ["arrows"],
   "aliases": [
     {
       "name": "arrow-up-left-from-square",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square arrow out up left",
-      "tags": [
-        "outwards",
-        "direction",
-        "diagonal",
-        "exit",
-        "link"
-      ],
-      "use-cases": [
-        "External link navigation",
-        "Open in new window",
-        "Exit application"
-      ]
+      "tags": ["outwards", "direction", "diagonal", "exit", "link"],
+      "use-cases": ["External link navigation", "Open in new window", "Exit application"]
     }
   }
 }

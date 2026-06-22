@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健康饮食或营养应用内容",
-    "杂货或食品配送服务界面",
-    "健康相关产品的品牌标识"
-  ],
+  "use-cases": ["健康饮食或营养应用内容", "杂货或食品配送服务界面", "健康相关产品的品牌标识"],
   "name": "苹果",
-  "tags": [
-    "苹果",
-    "水果",
-    "食物",
-    "健康",
-    "营养",
-    "零食",
-    "品牌",
-    "新鲜"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["苹果", "水果", "食物", "健康", "营养", "零食", "品牌", "新鲜"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "apple",
-      "tags": [
-        "apple",
-        "fruit",
-        "food",
-        "healthy",
-        "nutrition",
-        "snack",
-        "brand",
-        "fresh"
-      ],
-      "use-cases": [
-        "Healthy eating or nutrition app content",
-        "Grocery or food delivery service UI",
-        "Branding for health-related products"
-      ]
+      "tags": ["apple", "fruit", "food", "healthy", "nutrition", "snack", "brand", "fresh"],
+      "use-cases": ["Healthy eating or nutrition app content", "Grocery or food delivery service UI", "Branding for health-related products"]
     }
   }
 }

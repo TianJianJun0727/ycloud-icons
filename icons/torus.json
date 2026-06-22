@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "几何设计",
-    "3D建模",
-    "环形图表",
-    "圆环可视化"
-  ],
+  "use-cases": ["几何设计", "3D建模", "环形图表", "圆环可视化"],
   "name": "圆环",
-  "tags": [
-    "圆环",
-    "环形",
-    "甜甜圈",
-    "几何形状",
-    "3D形状"
-  ],
-  "categories": [
-    "shapes",
-    "design",
-    "tools",
-    "food-beverage"
-  ],
+  "tags": ["圆环", "环形", "甜甜圈", "几何形状", "3D形状"],
+  "categories": ["shapes", "design", "tools", "food-beverage"],
   "i18n": {
     "en": {
       "name": "torus",
-      "tags": [
-        "torus",
-        "ring",
-        "donut",
-        "geometric shape",
-        "3d shape"
-      ],
-      "use-cases": [
-        "Geometric design",
-        "3D modeling",
-        "Donut chart",
-        "Ring visualization"
-      ]
+      "tags": ["torus", "ring", "donut", "geometric shape", "3d shape"],
+      "use-cases": ["Geometric design", "3D modeling", "Donut chart", "Ring visualization"]
     }
   }
 }

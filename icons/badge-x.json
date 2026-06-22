@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "未验证账户指示器",
-    "错误状态徽章",
-    "移除或删除徽章"
-  ],
+  "use-cases": ["未验证账户指示器", "错误状态徽章", "移除或删除徽章"],
   "name": "徽章关闭",
-  "tags": [
-    "未验证",
-    "错误",
-    "关闭",
-    "删除",
-    "徽章",
-    "移除"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["未验证", "错误", "关闭", "删除", "徽章", "移除"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "badge X",
-      "tags": [
-        "unverified",
-        "error",
-        "close",
-        "delete",
-        "badge",
-        "remove"
-      ],
-      "use-cases": [
-        "Unverified account indicator",
-        "Error status badge",
-        "Remove or delete badge"
-      ]
+      "tags": ["unverified", "error", "close", "delete", "badge", "remove"],
+      "use-cases": ["Unverified account indicator", "Error status badge", "Remove or delete badge"]
     }
   }
 }

@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频编辑软件",
-    "电影库",
-    "内容创作工具"
-  ],
+  "use-cases": ["视频编辑软件", "电影库", "内容创作工具"],
   "name": "场记板",
-  "tags": [
-    "场记板",
-    "电影",
-    "视频",
-    "拍摄",
-    "导演",
-    "娱乐"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["场记板", "电影", "视频", "拍摄", "导演", "娱乐"],
+  "categories": ["multimedia"],
   "i18n": {
     "en": {
       "name": "clapperboard",
-      "tags": [
-        "clapperboard",
-        "movie",
-        "video",
-        "filming",
-        "director",
-        "entertainment"
-      ],
-      "use-cases": [
-        "Video editing software",
-        "Movie library",
-        "Content creation tools"
-      ]
+      "tags": ["clapperboard", "movie", "video", "filming", "director", "entertainment"],
+      "use-cases": ["Video editing software", "Movie library", "Content creation tools"]
     }
   }
 }

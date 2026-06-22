@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "新消息按钮",
-    "添加评论",
-    "编写聊天"
-  ],
+  "use-cases": ["新消息按钮", "添加评论", "编写聊天"],
   "name": "消息方形加号",
-  "tags": [
-    "添加",
-    "新建",
-    "消息",
-    "创建",
-    "聊天",
-    "评论",
-    "加号",
-    "发起"
-  ],
-  "categories": [
-    "social"
-  ],
+  "tags": ["添加", "新建", "消息", "创建", "聊天", "评论", "加号", "发起"],
+  "categories": ["social"],
   "i18n": {
     "en": {
       "name": "message square plus",
-      "tags": [
-        "add",
-        "new",
-        "message",
-        "create",
-        "chat",
-        "comment",
-        "plus",
-        "compose"
-      ],
-      "use-cases": [
-        "New message button",
-        "Add a comment",
-        "Compose a chat"
-      ]
+      "tags": ["add", "new", "message", "create", "chat", "comment", "plus", "compose"],
+      "use-cases": ["New message button", "Add a comment", "Compose a chat"]
     }
   }
 }

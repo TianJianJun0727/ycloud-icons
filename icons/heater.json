@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家庭温控器",
-    "供暖控制",
-    "家电图标",
-    "旅行便利设施"
-  ],
+  "use-cases": ["家庭温控器", "供暖控制", "家电图标", "旅行便利设施"],
   "name": "加热器",
-  "tags": [
-    "加热器",
-    "供暖",
-    "温暖",
-    "暖气",
-    "设备",
-    "家居"
-  ],
-  "categories": [
-    "home",
-    "devices",
-    "travel"
-  ],
+  "tags": ["加热器", "供暖", "温暖", "暖气", "设备", "家居"],
+  "categories": ["home", "devices", "travel"],
   "i18n": {
     "en": {
       "name": "heater",
-      "tags": [
-        "heater",
-        "heating",
-        "warmth",
-        "radiator",
-        "device",
-        "home"
-      ],
-      "use-cases": [
-        "Home thermostat",
-        "Heating control",
-        "Appliance icon",
-        "Travel amenity"
-      ]
+      "tags": ["heater", "heating", "warmth", "radiator", "device", "home"],
+      "use-cases": ["Home thermostat", "Heating control", "Appliance icon", "Travel amenity"]
     }
   }
 }

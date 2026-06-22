@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电动汽车充电站",
-    "能源管理界面",
-    "交通基础设施地图",
-    "电源指示器"
-  ],
+  "use-cases": ["电动汽车充电站", "能源管理界面", "交通基础设施地图", "电源指示器"],
   "name": "电动车充电器",
-  "tags": [
-    "电动车充电器",
-    "充电",
-    "电动汽车",
-    "能源",
-    "插座",
-    "车站"
-  ],
-  "categories": [
-    "transportation",
-    "navigation"
-  ],
+  "tags": ["电动车充电器", "充电", "电动汽车", "能源", "插座", "车站"],
+  "categories": ["transportation", "navigation"],
   "i18n": {
     "en": {
       "name": "ev charger",
-      "tags": [
-        "EV charger",
-        "charging",
-        "electric vehicle",
-        "energy",
-        "socket",
-        "station"
-      ],
-      "use-cases": [
-        "Electric vehicle charging stations",
-        "Energy management interfaces",
-        "Transportation infrastructure maps",
-        "Power supply indicators"
-      ]
+      "tags": ["EV charger", "charging", "electric vehicle", "energy", "socket", "station"],
+      "use-cases": ["Electric vehicle charging stations", "Energy management interfaces", "Transportation infrastructure maps", "Power supply indicators"]
     }
   }
 }

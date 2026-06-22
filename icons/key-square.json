@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "访问控制界面",
-    "API密钥管理",
-    "数字安全设置"
-  ],
+  "use-cases": ["访问控制界面", "API密钥管理", "数字安全设置"],
   "name": "钥匙方形",
-  "tags": [
-    "钥匙",
-    "密码",
-    "登录",
-    "认证",
-    "安全",
-    "解锁",
-    "方形"
-  ],
-  "categories": [
-    "security",
-    "account"
-  ],
+  "tags": ["钥匙", "密码", "登录", "认证", "安全", "解锁", "方形"],
+  "categories": ["security", "account"],
   "i18n": {
     "en": {
       "name": "key square",
-      "tags": [
-        "key",
-        "password",
-        "login",
-        "authentication",
-        "security",
-        "unlock",
-        "square"
-      ],
-      "use-cases": [
-        "Access control interface",
-        "API key management",
-        "Digital security settings"
-      ]
+      "tags": ["key", "password", "login", "authentication", "security", "unlock", "square"],
+      "use-cases": ["Access control interface", "API key management", "Digital security settings"]
     }
   }
 }

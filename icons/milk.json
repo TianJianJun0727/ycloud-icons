@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "乳制品图标",
-    "饮料菜单项",
-    "营养信息显示"
-  ],
+  "use-cases": ["乳制品图标", "饮料菜单项", "营养信息显示"],
   "name": "牛奶",
-  "tags": [
-    "牛奶",
-    "乳制品",
-    "饮料",
-    "营养",
-    "早餐"
-  ],
-  "categories": [
-    "food-beverage"
-  ],
+  "tags": ["牛奶", "乳制品", "饮料", "营养", "早餐"],
+  "categories": ["food-beverage"],
   "i18n": {
     "en": {
       "name": "milk",
-      "tags": [
-        "milk",
-        "dairy",
-        "beverage",
-        "nutrition",
-        "breakfast"
-      ],
-      "use-cases": [
-        "Dairy product icon",
-        "Beverage menu item",
-        "Nutritional info display"
-      ]
+      "tags": ["milk", "dairy", "beverage", "nutrition", "breakfast"],
+      "use-cases": ["Dairy product icon", "Beverage menu item", "Nutritional info display"]
     }
   }
 }

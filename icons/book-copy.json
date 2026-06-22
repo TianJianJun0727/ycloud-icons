@@ -1,50 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Git仓库克隆操作",
-    "复制文档或书籍",
-    "代码库或片段复制",
-    "知识库复制"
-  ],
+  "use-cases": ["Git仓库克隆操作", "复制文档或书籍", "代码库或片段复制", "知识库复制"],
   "name": "书籍复制",
-  "tags": [
-    "复制",
-    "克隆",
-    "版本控制",
-    "Git",
-    "存储库",
-    "副本",
-    "代码",
-    "文档",
-    "知识库",
-    "重复"
-  ],
-  "categories": [
-    "development",
-    "text",
-    "gaming"
-  ],
+  "tags": ["复制", "克隆", "版本控制", "Git", "存储库", "副本", "代码", "文档", "知识库", "重复"],
+  "categories": ["development", "text", "gaming"],
   "i18n": {
     "en": {
       "name": "book copy",
-      "tags": [
-        "copy",
-        "clone",
-        "version control",
-        "Git",
-        "repository",
-        "duplicate",
-        "code",
-        "documentation",
-        "knowledge base",
-        "multiple"
-      ],
-      "use-cases": [
-        "Git repository clone action",
-        "Duplicate a document or book",
-        "Code library or snippet copy",
-        "Knowledge base replication"
-      ]
+      "tags": ["copy", "clone", "version control", "Git", "repository", "duplicate", "code", "documentation", "knowledge base", "multiple"],
+      "use-cases": ["Git repository clone action", "Duplicate a document or book", "Code library or snippet copy", "Knowledge base replication"]
     }
   }
 }

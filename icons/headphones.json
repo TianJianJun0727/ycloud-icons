@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放器界面",
-    "音频设备连接",
-    "个人收听设备"
-  ],
+  "use-cases": ["音乐播放器界面", "音频设备连接", "个人收听设备"],
   "name": "耳机",
-  "tags": [
-    "耳机",
-    "音频",
-    "音乐",
-    "设备",
-    "收听",
-    "声音"
-  ],
-  "categories": [
-    "multimedia",
-    "connectivity",
-    "devices",
-    "files",
-    "gaming"
-  ],
+  "tags": ["耳机", "音频", "音乐", "设备", "收听", "声音"],
+  "categories": ["multimedia", "connectivity", "devices", "files", "gaming"],
   "i18n": {
     "en": {
       "name": "headphones",
-      "tags": [
-        "headphones",
-        "audio",
-        "music",
-        "device",
-        "listening",
-        "sound"
-      ],
-      "use-cases": [
-        "Music player interface",
-        "Audio device connection",
-        "Personal listening device"
-      ]
+      "tags": ["headphones", "audio", "music", "device", "listening", "sound"],
+      "use-cases": ["Music player interface", "Audio device connection", "Personal listening device"]
     }
   }
 }

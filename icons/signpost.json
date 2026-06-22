@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "导航与寻路界面",
-    "应用中的位置指示器",
-    "UI 中的方向提示"
-  ],
+  "use-cases": ["导航与寻路界面", "应用中的位置指示器", "UI 中的方向提示"],
   "name": "路标",
-  "tags": [
-    "路标",
-    "指示牌",
-    "方向",
-    "导航",
-    "指引",
-    "箭头",
-    "路径",
-    "地点",
-    "标记"
-  ],
-  "categories": [
-    "arrows",
-    "navigation",
-    "development",
-    "gaming"
-  ],
+  "tags": ["路标", "指示牌", "方向", "导航", "指引", "箭头", "路径", "地点", "标记"],
+  "categories": ["arrows", "navigation", "development", "gaming"],
   "i18n": {
     "en": {
       "name": "signpost",
-      "tags": [
-        "signpost",
-        "sign",
-        "direction",
-        "navigation",
-        "guide",
-        "arrow",
-        "path",
-        "location",
-        "marker"
-      ],
-      "use-cases": [
-        "Navigation and wayfinding interface",
-        "Location indicator in apps",
-        "Directional cue in UI"
-      ]
+      "tags": ["signpost", "sign", "direction", "navigation", "guide", "arrow", "path", "location", "marker"],
+      "use-cases": ["Navigation and wayfinding interface", "Location indicator in apps", "Directional cue in UI"]
     }
   }
 }

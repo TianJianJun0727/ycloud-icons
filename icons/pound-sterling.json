@@ -1,32 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "英国货币选择",
-    "金融汇率显示"
-  ],
+  "use-cases": ["英国货币选择", "金融汇率显示"],
   "name": "英镑英镑",
-  "tags": [
-    "英镑",
-    "货币",
-    "英国",
-    "金融"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["英镑", "货币", "英国", "金融"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "pound sterling",
-      "tags": [
-        "pound",
-        "currency",
-        "UK",
-        "finance"
-      ],
-      "use-cases": [
-        "British currency selection",
-        "Financial exchange rates"
-      ]
+      "tags": ["pound", "currency", "UK", "finance"],
+      "use-cases": ["British currency selection", "Financial exchange rates"]
     }
   }
 }

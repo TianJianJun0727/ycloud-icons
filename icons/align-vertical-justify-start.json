@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "将元素垂直对齐到顶部",
-    "在Flex布局中将内容垂直对齐到起始"
-  ],
+  "use-cases": ["将元素垂直对齐到顶部", "在Flex布局中将内容垂直对齐到起始"],
   "name": "对齐垂直对齐起始",
-  "tags": [
-    "垂直对齐",
-    "顶部对齐",
-    "Flex布局",
-    "CSS布局",
-    "垂直分布",
-    "UI设计"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["垂直对齐", "顶部对齐", "Flex布局", "CSS布局", "垂直分布", "UI设计"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align vertical justify start",
-      "tags": [
-        "vertical alignment",
-        "top align",
-        "flexbox",
-        "CSS layout",
-        "vertical distribute",
-        "UI design"
-      ],
-      "use-cases": [
-        "Vertically aligning elements to the top",
-        "Justifying content to the start in a flex layout"
-      ]
+      "tags": ["vertical alignment", "top align", "flexbox", "CSS layout", "vertical distribute", "UI design"],
+      "use-cases": ["Vertically aligning elements to the top", "Justifying content to the start in a flex layout"]
     }
   }
 }

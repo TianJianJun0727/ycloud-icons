@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "层级结构图",
-    "几何教学",
-    "旅游地标标识"
-  ],
+  "use-cases": ["层级结构图", "几何教学", "旅游地标标识"],
   "name": "金字塔",
-  "tags": [
-    "金字塔",
-    "三角形",
-    "几何",
-    "结构",
-    "层级",
-    "地标"
-  ],
-  "categories": [
-    "shapes",
-    "math",
-    "travel"
-  ],
+  "tags": ["金字塔", "三角形", "几何", "结构", "层级", "地标"],
+  "categories": ["shapes", "math", "travel"],
   "i18n": {
     "en": {
       "name": "pyramid",
-      "tags": [
-        "pyramid",
-        "triangle",
-        "geometry",
-        "structure",
-        "hierarchy",
-        "landmark"
-      ],
-      "use-cases": [
-        "Hierarchy chart",
-        "Geometry teaching",
-        "Travel landmark indicator"
-      ]
+      "tags": ["pyramid", "triangle", "geometry", "structure", "hierarchy", "landmark"],
+      "use-cases": ["Hierarchy chart", "Geometry teaching", "Travel landmark indicator"]
     }
   }
 }
