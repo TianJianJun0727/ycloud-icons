@@ -20,18 +20,22 @@ const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ??
 
 const tags = computed(() => {
   if (!props.icon) return '';
-  const displayTags =
-    props.icon.displayTags ?? (isEnglish.value ? props.icon.englishTags : props.icon.tags);
+  const displayTags = isEnglish.value
+    ? props.icon.englishTags
+    : (props.icon.displayTags ?? props.icon.tags);
   return displayTags?.join(' • ') ?? '';
 });
 
-const displayName = computed(
-  () => props.icon.displayName ?? (isEnglish.value ? props.icon.englishName : props.icon.name),
+const displayName = computed(() =>
+  isEnglish.value
+    ? (props.icon.englishName ?? props.icon.name)
+    : (props.icon.displayName ?? props.icon.name),
 );
 
-const displayCategories = computed(
-  () =>
-    props.icon.displayCategories ?? (isEnglish.value ? props.icon.englishCategories : undefined),
+const displayCategories = computed(() =>
+  isEnglish.value
+    ? (props.icon.englishCategories ?? props.icon.categories)
+    : (props.icon.displayCategories ?? props.icon.categories),
 );
 
 const deprecatedTitle = computed(() => {
@@ -44,6 +48,14 @@ const deprecatedTitle = computed(() => {
 });
 
 const detailPath = computed(() => `${isEnglish.value ? '/en' : ''}/icons/${props.icon.name}`);
+
+const isCurrentDetail = computed(() => {
+  const relativePath = page.value.relativePath;
+  return (
+    relativePath?.startsWith?.(`icons/${props.icon.name}`) ||
+    relativePath?.startsWith?.(`en/icons/${props.icon.name}`)
+  );
+});
 
 function openDetail(event: MouseEvent) {
   event.preventDefault();
@@ -95,7 +107,7 @@ function openDetail(event: MouseEvent) {
 
     <div class="group buttons">
       <VPButton
-        v-if="!page?.relativePath?.startsWith?.(`icons/${icon.name}`)"
+        v-if="!isCurrentDetail"
         :href="detailPath"
         :text="isEnglish ? 'See details' : '查看详情'"
         @click="openDetail"
