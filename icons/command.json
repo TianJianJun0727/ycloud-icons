@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "键盘快捷键指示器",
-    "Mac命令键",
-    "终端命令提示符",
-    "命令面板UI"
-  ],
+  "use-cases": ["键盘快捷键指示器", "Mac命令键", "终端命令提示符", "命令面板UI"],
   "name": "命令",
-  "tags": [
-    "命令",
-    "键盘",
-    "快捷键",
-    "Mac",
-    "终端",
-    "控制",
-    "按键"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["命令", "键盘", "快捷键", "Mac", "终端", "控制", "按键"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "command",
-      "tags": [
-        "command",
-        "keyboard",
-        "shortcut",
-        "Mac",
-        "terminal",
-        "control",
-        "key"
-      ],
-      "use-cases": [
-        "Keyboard shortcut indicator",
-        "Mac command key",
-        "Terminal command prompt",
-        "UI for command palette"
-      ]
+      "tags": ["command", "keyboard", "shortcut", "Mac", "terminal", "control", "key"],
+      "use-cases": ["Keyboard shortcut indicator", "Mac command key", "Terminal command prompt", "UI for command palette"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文档扫描应用",
-    "文字识别软件",
-    "翻译工具"
-  ],
+  "use-cases": ["文档扫描应用", "文字识别软件", "翻译工具"],
   "name": "扫描文本",
-  "tags": [
-    "文字识别",
-    "OCR",
-    "文本扫描",
-    "文档数字化",
-    "文字提取",
-    "翻译辅助"
-  ],
-  "categories": [
-    "text",
-    "devices"
-  ],
+  "tags": ["文字识别", "OCR", "文本扫描", "文档数字化", "文字提取", "翻译辅助"],
+  "categories": ["text", "devices"],
   "i18n": {
     "en": {
       "name": "scan text",
-      "tags": [
-        "text recognition",
-        "OCR",
-        "document scanning",
-        "digitization",
-        "text extraction",
-        "translation aid"
-      ],
-      "use-cases": [
-        "Document scanning apps",
-        "Text recognition software",
-        "Translation tools"
-      ]
+      "tags": ["text recognition", "OCR", "document scanning", "digitization", "text extraction", "translation aid"],
+      "use-cases": ["Document scanning apps", "Text recognition software", "Translation tools"]
     }
   }
 }

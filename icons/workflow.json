@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "自动化任务流程配置",
-    "CI/CD 管道可视化",
-    "业务流程管理界面"
-  ],
+  "use-cases": ["自动化任务流程配置", "CI/CD 管道可视化", "业务流程管理界面"],
   "name": "工作流",
-  "tags": [
-    "工作流",
-    "自动化",
-    "持续集成",
-    "CI",
-    "DevOps",
-    "节点",
-    "连接",
-    "管道"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["工作流", "自动化", "持续集成", "CI", "DevOps", "节点", "连接", "管道"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "workflow",
-      "tags": [
-        "workflow",
-        "automation",
-        "continuous integration",
-        "ci",
-        "devops",
-        "node",
-        "connection",
-        "pipeline"
-      ],
-      "use-cases": [
-        "Automated task flow configuration",
-        "CI/CD pipeline visualization",
-        "Business process management interface"
-      ]
+      "tags": ["workflow", "automation", "continuous integration", "ci", "devops", "node", "connection", "pipeline"],
+      "use-cases": ["Automated task flow configuration", "CI/CD pipeline visualization", "Business process management interface"]
     }
   }
 }

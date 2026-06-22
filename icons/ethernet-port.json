@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "网络设备连接",
-    "互联网连接设置",
-    "硬件接口指示器",
-    "数据传输状态"
-  ],
+  "use-cases": ["网络设备连接", "互联网连接设置", "硬件接口指示器", "数据传输状态"],
   "name": "以太网接口",
-  "tags": [
-    "以太网",
-    "网络",
-    "连接",
-    "端口",
-    "路由器",
-    "数据",
-    "LAN"
-  ],
-  "categories": [
-    "communication",
-    "devices",
-    "multimedia",
-    "gaming"
-  ],
+  "tags": ["以太网", "网络", "连接", "端口", "路由器", "数据", "LAN"],
+  "categories": ["communication", "devices", "multimedia", "gaming"],
   "i18n": {
     "en": {
       "name": "ethernet port",
-      "tags": [
-        "ethernet",
-        "network",
-        "connection",
-        "port",
-        "router",
-        "data",
-        "LAN"
-      ],
-      "use-cases": [
-        "Network device connections",
-        "Internet connectivity settings",
-        "Hardware interface indicators",
-        "Data transfer status"
-      ]
+      "tags": ["ethernet", "network", "connection", "port", "router", "data", "LAN"],
+      "use-cases": ["Network device connections", "Internet connectivity settings", "Hardware interface indicators", "Data transfer status"]
     }
   }
 }

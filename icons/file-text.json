@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本文档图标",
-    "PDF文件预览",
-    "文件资源管理器中的数据文件"
-  ],
+  "use-cases": ["文本文档图标", "PDF文件预览", "文件资源管理器中的数据文件"],
   "name": "文本文件",
-  "tags": [
-    "文本",
-    "文档",
-    "TXT",
-    "PDF",
-    "数据",
-    "内容"
-  ],
-  "categories": [
-    "files",
-    "text"
-  ],
+  "tags": ["文本", "文档", "TXT", "PDF", "数据", "内容"],
+  "categories": ["files", "text"],
   "i18n": {
     "en": {
       "name": "file text",
-      "tags": [
-        "text",
-        "document",
-        "txt",
-        "pdf",
-        "data",
-        "content"
-      ],
-      "use-cases": [
-        "Text document icon",
-        "PDF file preview",
-        "Data file in file explorer"
-      ]
+      "tags": ["text", "document", "txt", "pdf", "data", "content"],
+      "use-cases": ["Text document icon", "PDF file preview", "Data file in file explorer"]
     }
   }
 }

@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI设计工具",
-    "CSS弹性盒对齐",
-    "右对齐",
-    "布局配置"
-  ],
+  "use-cases": ["UI设计工具", "CSS弹性盒对齐", "右对齐", "布局配置"],
   "name": "对齐水平对齐末端",
-  "tags": [
-    "右对齐",
-    "水平对齐",
-    "布局",
-    "Flex",
-    "对齐",
-    "设计工具",
-    "UI布局"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["右对齐", "水平对齐", "布局", "Flex", "对齐", "设计工具", "UI布局"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align horizontal justify end",
-      "tags": [
-        "right align",
-        "horizontal justify",
-        "layout",
-        "flex",
-        "right",
-        "alignment",
-        "design",
-        "UI layout"
-      ],
-      "use-cases": [
-        "UI design tools",
-        "CSS flexbox alignment",
-        "Right alignment",
-        "Layout configuration"
-      ]
+      "tags": ["right align", "horizontal justify", "layout", "flex", "right", "alignment", "design", "UI layout"],
+      "use-cases": ["UI design tools", "CSS flexbox alignment", "Right alignment", "Layout configuration"]
     }
   }
 }

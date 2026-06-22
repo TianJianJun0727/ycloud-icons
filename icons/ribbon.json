@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "公益活动宣传丝带",
-    "医疗 awareness 标志",
-    "礼品包装装饰丝带"
-  ],
+  "use-cases": ["公益活动宣传丝带", "医疗 awareness 标志", "礼品包装装饰丝带"],
   "name": "丝带",
-  "tags": [
-    "丝带",
-    "awareness",
-    "装饰",
-    "纪念",
-    "医疗丝带"
-  ],
-  "categories": [
-    "social",
-    "medical",
-    "emoji"
-  ],
+  "tags": ["丝带", "公益意识", "装饰", "纪念", "医疗丝带"],
+  "categories": ["social", "medical", "emoji"],
   "i18n": {
     "en": {
       "name": "ribbon",
-      "tags": [
-        "ribbon",
-        "awareness",
-        "decorative",
-        "memorial",
-        "medical ribbon"
-      ],
-      "use-cases": [
-        "Awareness ribbon for social causes",
-        "Medical awareness symbol",
-        "Gift wrapping decorative ribbon"
-      ]
+      "tags": ["ribbon", "awareness", "decorative", "memorial", "medical ribbon"],
+      "use-cases": ["Awareness ribbon for social causes", "Medical awareness symbol", "Gift wrapping decorative ribbon"]
     }
   }
 }

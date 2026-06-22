@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电脑硬件规格",
-    "游戏机组装",
-    "设备存储容量"
-  ],
+  "use-cases": ["电脑硬件规格", "游戏机组装", "设备存储容量"],
   "name": "内存手杖",
-  "tags": [
-    "内存",
-    "RAM",
-    "硬件",
-    "电脑",
-    "存储",
-    "容量",
-    "GB"
-  ],
-  "categories": [
-    "devices",
-    "gaming"
-  ],
+  "tags": ["内存", "RAM", "硬件", "电脑", "存储", "容量", "GB"],
+  "categories": ["devices", "gaming"],
   "i18n": {
     "en": {
       "name": "memory stick",
-      "tags": [
-        "ram",
-        "memory",
-        "hardware",
-        "computer",
-        "storage",
-        "capacity",
-        "gb"
-      ],
-      "use-cases": [
-        "PC hardware specs",
-        "Gaming rig component",
-        "Device storage capacity"
-      ]
+      "tags": ["ram", "memory", "hardware", "computer", "storage", "capacity", "gb"],
+      "use-cases": ["PC hardware specs", "Gaming rig component", "Device storage capacity"]
     }
   }
 }

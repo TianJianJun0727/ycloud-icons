@@ -1,25 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "元素选择工具",
-    "浏览器检查器光标",
-    "点击目标指示器"
-  ],
+  "use-cases": ["元素选择工具", "浏览器检查器光标", "点击目标指示器"],
   "name": "方形鼠标指针",
-  "tags": [
-    "鼠标指针",
-    "选择",
-    "点击",
-    "元素",
-    "检查器",
-    "DOM"
-  ],
-  "categories": [
-    "arrows",
-    "cursors",
-    "development",
-    "tools"
-  ],
+  "tags": ["鼠标指针", "选择", "点击", "元素", "检查器", "DOM"],
+  "categories": ["arrows", "cursors", "development", "tools"],
   "aliases": [
     {
       "name": "inspect",
@@ -31,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "square mouse pointer",
-      "tags": [
-        "mouse pointer",
-        "selection",
-        "click",
-        "element",
-        "inspector",
-        "DOM"
-      ],
-      "use-cases": [
-        "Element selection tool",
-        "Browser inspector cursor",
-        "Click target indicator"
-      ]
+      "tags": ["mouse pointer", "selection", "click", "element", "inspector", "DOM"],
+      "use-cases": ["Element selection tool", "Browser inspector cursor", "Click target indicator"]
     }
   }
 }

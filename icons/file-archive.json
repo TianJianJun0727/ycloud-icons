@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "下载压缩包",
-    "文件打包操作",
-    "归档文件夹表示"
-  ],
+  "use-cases": ["下载压缩包", "文件打包操作", "归档文件夹表示"],
   "name": "文件归档",
-  "tags": [
-    "压缩文件",
-    "ZIP",
-    "归档",
-    "打包",
-    "存档",
-    "文件包"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["压缩文件", "ZIP", "归档", "打包", "存档", "文件包"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file archive",
-      "tags": [
-        "compressed file",
-        "ZIP",
-        "archive",
-        "package",
-        "storage",
-        "file bundle"
-      ],
-      "use-cases": [
-        "Download compressed archive",
-        "File packaging action",
-        "Archive folder representation"
-      ]
+      "tags": ["compressed file", "ZIP", "archive", "package", "storage", "file bundle"],
+      "use-cases": ["Download compressed archive", "File packaging action", "Archive folder representation"]
     }
   }
 }

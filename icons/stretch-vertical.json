@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "CSS flexbox align-items",
-    "垂直间距控制",
-    "布局对齐工具",
-    "UI元素分布"
-  ],
+  "use-cases": ["CSS Flexbox 交叉轴对齐", "垂直间距控制", "布局对齐工具", "UI元素分布"],
   "name": "拉伸垂直",
-  "tags": [
-    "垂直拉伸",
-    "垂直分布",
-    "垂直对齐",
-    "布局",
-    "间距",
-    "弹性布局"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["垂直拉伸", "垂直分布", "垂直对齐", "布局", "间距", "弹性布局"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "stretch vertical",
-      "tags": [
-        "vertical stretch",
-        "vertical distribute",
-        "vertical align",
-        "layout",
-        "spacing",
-        "flexbox"
-      ],
-      "use-cases": [
-        "CSS flexbox align-items",
-        "Vertical spacing controls",
-        "Layout alignment tools",
-        "UI element distribution"
-      ]
+      "tags": ["vertical stretch", "vertical distribute", "vertical align", "layout", "spacing", "flexbox"],
+      "use-cases": ["CSS flexbox align-items", "Vertical spacing controls", "Layout alignment tools", "UI element distribution"]
     }
   }
 }

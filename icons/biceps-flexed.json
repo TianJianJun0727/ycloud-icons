@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "健身应用成就徽章",
-    "个人资料中的力量指示器",
-    "表示力量或努力的emoji"
-  ],
+  "use-cases": ["健身应用成就徽章", "个人资料中的力量指示器", "表示力量或努力的emoji"],
   "name": "肱二头肌弯曲",
-  "tags": [
-    "肌肉",
-    "强壮",
-    "健身",
-    "运动",
-    "力量",
-    "表情",
-    "emoji"
-  ],
-  "categories": [
-    "emoji"
-  ],
+  "tags": ["肌肉", "强壮", "健身", "运动", "力量", "表情", "表情符号"],
+  "categories": ["emoji"],
   "i18n": {
     "en": {
       "name": "biceps flexed",
-      "tags": [
-        "muscle",
-        "strong",
-        "fitness",
-        "workout",
-        "strength",
-        "emoji",
-        "flex"
-      ],
-      "use-cases": [
-        "Fitness app achievement badge",
-        "Strength indicator in a profile",
-        "Emoji for power or effort"
-      ]
+      "tags": ["muscle", "strong", "fitness", "workout", "strength", "emoji", "flex"],
+      "use-cases": ["Fitness app achievement badge", "Strength indicator in a profile", "Emoji for power or effort"]
     }
   }
 }

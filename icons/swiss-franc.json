@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "货币转换器",
-    "银行应用",
-    "金融交易",
-    "汇率显示"
-  ],
+  "use-cases": ["货币转换器", "银行应用", "金融交易", "汇率显示"],
   "name": "瑞士法郎",
-  "tags": [
-    "瑞士法郎",
-    "货币",
-    "金融",
-    "CHF",
-    "外汇",
-    "支付"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["瑞士法郎", "货币", "金融", "CHF", "外汇", "支付"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "swiss franc",
-      "tags": [
-        "swiss franc",
-        "currency",
-        "finance",
-        "CHF",
-        "foreign exchange",
-        "payment"
-      ],
-      "use-cases": [
-        "Currency converter",
-        "Banking app",
-        "Financial transactions",
-        "Exchange rates"
-      ]
+      "tags": ["swiss franc", "currency", "finance", "CHF", "foreign exchange", "payment"],
+      "use-cases": ["Currency converter", "Banking app", "Financial transactions", "Exchange rates"]
     }
   }
 }

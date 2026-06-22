@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "通用应用窗口表示",
-    "界面布局设计工具",
-    "软件开发环境图标"
-  ],
+  "use-cases": ["通用应用窗口表示", "界面布局设计工具", "软件开发环境图标"],
   "name": "应用窗口",
-  "tags": [
-    "应用窗口",
-    "界面",
-    "设计",
-    "开发",
-    "窗格",
-    "软件",
-    "桌面",
-    "UI"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development",
-    "files"
-  ],
+  "tags": ["应用窗口", "界面", "设计", "开发", "窗格", "软件", "桌面", "UI"],
+  "categories": ["layout", "design", "development", "files"],
   "i18n": {
     "en": {
       "name": "app window",
-      "tags": [
-        "app window",
-        "interface",
-        "design",
-        "development",
-        "pane",
-        "software",
-        "desktop",
-        "UI"
-      ],
-      "use-cases": [
-        "Generic application window representation",
-        "UI layout design tools",
-        "Software development environment icons"
-      ]
+      "tags": ["app window", "interface", "design", "development", "pane", "software", "desktop", "UI"],
+      "use-cases": ["Generic application window representation", "UI layout design tools", "Software development environment icons"]
     }
   }
 }

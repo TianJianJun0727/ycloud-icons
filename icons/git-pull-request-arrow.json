@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "打开拉取请求操作",
-    "代码审查发起",
-    "Git协作工作流"
-  ],
+  "use-cases": ["打开拉取请求操作", "代码审查发起", "Git协作工作流"],
   "name": "Git拉取请求箭头",
-  "tags": [
-    "拉取请求",
-    "PR",
-    "版本控制",
-    "Git",
-    "代码审查",
-    "打开"
-  ],
-  "categories": [
-    "development",
-    "arrows"
-  ],
+  "tags": ["拉取请求", "PR", "版本控制", "Git", "代码审查", "打开"],
+  "categories": ["development", "arrows"],
   "i18n": {
     "en": {
       "name": "git pull request arrow",
-      "tags": [
-        "pull request",
-        "PR",
-        "version control",
-        "Git",
-        "code review",
-        "open"
-      ],
-      "use-cases": [
-        "Open pull request action",
-        "Code review initiation",
-        "Git collaboration workflow"
-      ]
+      "tags": ["pull request", "PR", "version control", "Git", "code review", "open"],
+      "use-cases": ["Open pull request action", "Code review initiation", "Git collaboration workflow"]
     }
   }
 }

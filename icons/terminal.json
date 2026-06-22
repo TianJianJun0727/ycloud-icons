@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "IDE终端面板",
-    "服务器命令界面",
-    "开发者工具仪表盘"
-  ],
+  "use-cases": ["IDE终端面板", "服务器命令界面", "开发者工具仪表盘"],
   "name": "终端",
-  "tags": [
-    "终端",
-    "命令行",
-    "代码",
-    "开发",
-    "Shell"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["终端", "命令行", "代码", "开发", "Shell"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "terminal",
-      "tags": [
-        "terminal",
-        "command line",
-        "code",
-        "development",
-        "shell"
-      ],
-      "use-cases": [
-        "IDE terminal panel",
-        "Server command interface",
-        "Developer tools dashboard"
-      ]
+      "tags": ["terminal", "command line", "code", "development", "shell"],
+      "use-cases": ["IDE terminal panel", "Server command interface", "Developer tools dashboard"]
     }
   }
 }

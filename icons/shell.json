@@ -1,52 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "海滩度假网站",
-    "海洋生物学应用",
-    "命令行界面",
-    "螺旋加载动画"
-  ],
+  "use-cases": ["海滩度假网站", "海洋生物学应用", "命令行界面", "螺旋加载动画"],
   "name": "外壳",
-  "tags": [
-    "贝壳",
-    "海滩",
-    "海洋生物",
-    "化石",
-    "终端",
-    "命令行",
-    "Bash",
-    "Zsh",
-    "螺旋"
-  ],
-  "categories": [
-    "animals",
-    "development",
-    "nature",
-    "science",
-    "travel",
-    "food-beverage",
-    "home"
-  ],
+  "tags": ["贝壳", "海滩", "海洋生物", "化石", "终端", "命令行", "Bash", "Zsh", "螺旋"],
+  "categories": ["animals", "development", "nature", "science", "travel", "food-beverage", "home"],
   "i18n": {
     "en": {
       "name": "shell",
-      "tags": [
-        "shell",
-        "beach",
-        "sealife",
-        "fossil",
-        "terminal",
-        "command line",
-        "bash",
-        "zsh",
-        "spiral"
-      ],
-      "use-cases": [
-        "Beach vacation website",
-        "Marine biology app",
-        "Command line interface",
-        "Spiral loading animation"
-      ]
+      "tags": ["shell", "beach", "sealife", "fossil", "terminal", "command line", "bash", "zsh", "spiral"],
+      "use-cases": ["Beach vacation website", "Marine biology app", "Command line interface", "Spiral loading animation"]
     }
   }
 }

@@ -1,48 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "服装店商品",
-    "时尚电商",
-    "衣物尺码选择",
-    "衣柜管理"
-  ],
+  "use-cases": ["服装店商品", "时尚电商", "衣物尺码选择", "衣柜管理"],
   "name": "衬衫",
-  "tags": [
-    "衬衫",
-    "T恤",
-    "服装",
-    "衣物",
-    "时尚",
-    "购物",
-    "穿着",
-    "apparel",
-    "上衣",
-    "款式"
-  ],
-  "categories": [
-    "shopping"
-  ],
+  "tags": ["衬衫", "T恤", "服装", "衣物", "时尚", "购物", "穿着", "服饰", "上衣", "款式"],
+  "categories": ["shopping"],
   "i18n": {
     "en": {
       "name": "shirt",
-      "tags": [
-        "shirt",
-        "t-shirt",
-        "clothing",
-        "apparel",
-        "fashion",
-        "shopping",
-        "wear",
-        "garment",
-        "top",
-        "style"
-      ],
-      "use-cases": [
-        "Clothing store product",
-        "Fashion e-commerce",
-        "Apparel size selection",
-        "Wardrobe management"
-      ]
+      "tags": ["shirt", "t-shirt", "clothing", "apparel", "fashion", "shopping", "wear", "garment", "top", "style"],
+      "use-cases": ["Clothing store product", "Fashion e-commerce", "Apparel size selection", "Wardrobe management"]
     }
   }
 }

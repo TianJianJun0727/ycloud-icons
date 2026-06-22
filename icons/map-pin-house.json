@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "家庭位置标记",
-    "住宅地址图钉",
-    "房产位置导航"
-  ],
+  "use-cases": ["家庭位置标记", "住宅地址图钉", "房产位置导航"],
   "name": "地图图钉房屋",
-  "tags": [
-    "家庭位置",
-    "住宅标记",
-    "家庭地址",
-    "房屋定位",
-    "居住地导航"
-  ],
-  "categories": [
-    "navigation",
-    "travel",
-    "account"
-  ],
+  "tags": ["家庭位置", "住宅标记", "家庭地址", "房屋定位", "居住地导航"],
+  "categories": ["navigation", "travel", "account"],
   "i18n": {
     "en": {
       "name": "map pin house",
-      "tags": [
-        "home location",
-        "residence marker",
-        "house address",
-        "property定位",
-        "residence navigation"
-      ],
-      "use-cases": [
-        "Home location marker",
-        "Residential address pin",
-        "Property location navigation"
-      ]
+      "tags": ["home location", "residence marker", "house address", "property location", "residence navigation"],
+      "use-cases": ["Home location marker", "Residential address pin", "Property location navigation"]
     }
   }
 }

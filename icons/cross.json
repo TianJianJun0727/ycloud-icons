@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "医疗应用",
-    "取消按钮",
-    "关闭图标",
-    "急救标识"
-  ],
+  "use-cases": ["医疗应用", "取消按钮", "关闭图标", "急救标识"],
   "name": "十字",
-  "tags": [
-    "十字",
-    "医疗",
-    "急救",
-    "取消",
-    "关闭"
-  ],
-  "categories": [
-    "shapes"
-  ],
+  "tags": ["十字", "医疗", "急救", "取消", "关闭"],
+  "categories": ["shapes"],
   "i18n": {
     "en": {
       "name": "cross",
-      "tags": [
-        "cross",
-        "medical",
-        "first aid",
-        "cancel",
-        "close"
-      ],
-      "use-cases": [
-        "Medical application",
-        "Cancel button",
-        "Close icon",
-        "First aid标识"
-      ]
+      "tags": ["cross", "medical", "first aid", "cancel", "close"],
+      "use-cases": ["Medical application", "Cancel button", "Close icon", "First aid sign"]
     }
   }
 }

@@ -1,36 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音频文件图标",
-    "播放列表中的音乐曲目",
-    "音量设置文件"
-  ],
+  "use-cases": ["音频文件图标", "播放列表中的音乐曲目", "音量设置文件"],
   "name": "文件音量",
-  "tags": [
-    "音频",
-    "音乐",
-    "音量",
-    "声音文件",
-    "MP3"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["音频", "音乐", "音量", "声音文件", "MP3"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "file volume",
-      "tags": [
-        "audio",
-        "music",
-        "volume",
-        "sound file",
-        "mp3"
-      ],
-      "use-cases": [
-        "Audio file icon",
-        "Music track in playlist",
-        "Volume settings file"
-      ]
+      "tags": ["audio", "music", "volume", "sound file", "mp3"],
+      "use-cases": ["Audio file icon", "Music track in playlist", "Volume settings file"]
     }
   }
 }

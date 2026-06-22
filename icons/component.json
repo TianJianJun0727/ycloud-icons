@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI组件库",
-    "设计系统元素",
-    "代码模块或包",
-    "拖放构建器"
-  ],
+  "use-cases": ["UI组件库", "设计系统元素", "代码模块或包", "拖放构建器"],
   "name": "组件",
-  "tags": [
-    "组件",
-    "模块",
-    "元素",
-    "设计系统",
-    "UI",
-    "部件",
-    "开发"
-  ],
-  "categories": [
-    "design",
-    "development"
-  ],
+  "tags": ["组件", "模块", "元素", "设计系统", "UI", "部件", "开发"],
+  "categories": ["design", "development"],
   "i18n": {
     "en": {
       "name": "component",
-      "tags": [
-        "component",
-        "module",
-        "element",
-        "design system",
-        "UI",
-        "part",
-        "development"
-      ],
-      "use-cases": [
-        "UI component library",
-        "Design system element",
-        "Code module or package",
-        "Drag-and-drop builder"
-      ]
+      "tags": ["component", "module", "element", "design system", "UI", "part", "development"],
+      "use-cases": ["UI component library", "Design system element", "Code module or package", "Drag-and-drop builder"]
     }
   }
 }

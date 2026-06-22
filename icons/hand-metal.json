@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "音乐播放控制",
-    "多媒体手势",
-    "表情反应"
-  ],
+  "use-cases": ["音乐播放控制", "多媒体手势", "表情反应"],
   "name": "手金属",
-  "tags": [
-    "摇滚",
-    "手势",
-    "音乐",
-    "多媒体",
-    "emoji"
-  ],
-  "categories": [
-    "emoji",
-    "multimedia"
-  ],
+  "tags": ["摇滚", "手势", "音乐", "多媒体", "表情符号"],
+  "categories": ["emoji", "multimedia"],
   "i18n": {
     "en": {
       "name": "hand metal",
-      "tags": [
-        "rock",
-        "gesture",
-        "music",
-        "multimedia",
-        "emoji"
-      ],
-      "use-cases": [
-        "Music player controls",
-        "Multimedia gestures",
-        "Emoji reactions"
-      ]
+      "tags": ["rock", "gesture", "music", "multimedia", "emoji"],
+      "use-cases": ["Music player controls", "Multimedia gestures", "Emoji reactions"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "数据备份界面",
-    "服务器管理",
-    "文件下载操作"
-  ],
+  "use-cases": ["数据备份界面", "服务器管理", "文件下载操作"],
   "name": "硬盘驱动器下载",
-  "tags": [
-    "硬盘下载",
-    "数据存储",
-    "服务器",
-    "文件保存",
-    "SSD"
-  ],
-  "categories": [
-    "development",
-    "devices",
-    "arrows",
-    "files"
-  ],
+  "tags": ["硬盘下载", "数据存储", "服务器", "文件保存", "SSD"],
+  "categories": ["development", "devices", "arrows", "files"],
   "i18n": {
     "en": {
       "name": "hard drive download",
-      "tags": [
-        "hard drive download",
-        "data storage",
-        "server",
-        "file save",
-        "SSD"
-      ],
-      "use-cases": [
-        "Data backup interfaces",
-        "Server management",
-        "File download actions"
-      ]
+      "tags": ["hard drive download", "data storage", "server", "file save", "SSD"],
+      "use-cases": ["Data backup interfaces", "Server management", "File download actions"]
     }
   }
 }

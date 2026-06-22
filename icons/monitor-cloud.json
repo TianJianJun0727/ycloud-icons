@@ -1,47 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "云桌面服务",
-    "虚拟机管理",
-    "远程工作界面"
-  ],
+  "use-cases": ["云桌面服务", "虚拟机管理", "远程工作界面"],
   "name": "显示器云",
-  "tags": [
-    "云桌面",
-    "虚拟机",
-    "远程桌面",
-    "VDI",
-    "云计算",
-    "远程工作",
-    "监控",
-    "基础设施",
-    "SaaS",
-    "工作站"
-  ],
-  "categories": [
-    "connectivity",
-    "devices",
-    "development"
-  ],
+  "tags": ["云桌面", "虚拟机", "远程桌面", "VDI", "云计算", "远程工作", "监控", "基础设施", "SaaS", "工作站"],
+  "categories": ["connectivity", "devices", "development"],
   "i18n": {
     "en": {
       "name": "monitor cloud",
-      "tags": [
-        "virtual machine",
-        "virtual desktop",
-        "VDI",
-        "cloud computing",
-        "remote work",
-        "monitoring",
-        "infrastructure",
-        "SaaS",
-        "workstation"
-      ],
-      "use-cases": [
-        "Cloud desktop service",
-        "Virtual machine management",
-        "Remote work interface"
-      ]
+      "tags": ["virtual machine", "virtual desktop", "VDI", "cloud computing", "remote work", "monitoring", "infrastructure", "SaaS", "workstation"],
+      "use-cases": ["Cloud desktop service", "Virtual machine management", "Remote work interface"]
     }
   }
 }

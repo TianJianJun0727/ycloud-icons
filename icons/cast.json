@@ -1,37 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频投屏到电视",
-    "共享屏幕到设备",
-    "无线显示控制"
-  ],
+  "use-cases": ["视频投屏到电视", "共享屏幕到设备", "无线显示控制"],
   "name": "投屏",
-  "tags": [
-    "投屏",
-    "屏幕共享",
-    "无线显示",
-    "Chromecast",
-    "AirPlay"
-  ],
-  "categories": [
-    "devices",
-    "connectivity"
-  ],
+  "tags": ["投屏", "屏幕共享", "无线显示", "Chromecast", "AirPlay"],
+  "categories": ["devices", "connectivity"],
   "i18n": {
     "en": {
       "name": "cast",
-      "tags": [
-        "chromecast",
-        "airplay",
-        "screen",
-        "display",
-        "wireless"
-      ],
-      "use-cases": [
-        "Stream video to TV",
-        "Share screen to device",
-        "Wireless display control"
-      ]
+      "tags": ["chromecast", "airplay", "screen", "display", "wireless"],
+      "use-cases": ["Stream video to TV", "Share screen to device", "Wireless display control"]
     }
   }
 }

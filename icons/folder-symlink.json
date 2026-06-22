@@ -1,35 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "符号链接创建",
-    "快捷方式文件夹指示",
-    "链接目录显示"
-  ],
+  "use-cases": ["符号链接创建", "快捷方式文件夹指示", "链接目录显示"],
   "name": "文件夹符号链接",
-  "tags": [
-    "符号链接",
-    "软链接",
-    "快捷方式",
-    "目录链接",
-    "symlink"
-  ],
-  "categories": [
-    "files"
-  ],
+  "tags": ["符号链接", "软链接", "快捷方式", "目录链接"],
+  "categories": ["files"],
   "i18n": {
     "en": {
       "name": "folder symlink",
-      "tags": [
-        "symlink",
-        "symbolic link",
-        "shortcut",
-        "directory link"
-      ],
-      "use-cases": [
-        "Symbolic link creation",
-        "Shortcut folder indicator",
-        "Linked directory display"
-      ]
+      "tags": ["symlink", "symbolic link", "shortcut", "directory link"],
+      "use-cases": ["Symbolic link creation", "Shortcut folder indicator", "Linked directory display"]
     }
   }
 }

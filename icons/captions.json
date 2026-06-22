@@ -1,22 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频播放器字幕",
-    "无障碍功能标识",
-    "多语言视频平台",
-    "字幕设置界面"
-  ],
+  "use-cases": ["视频播放器字幕", "无障碍功能标识", "多语言视频平台", "字幕设置界面"],
   "name": "字幕",
-  "tags": [
-    "字幕",
-    "closed captions",
-    "无障碍",
-    "视频字幕",
-    "多语言"
-  ],
-  "categories": [
-    "multimedia"
-  ],
+  "tags": ["字幕", "隐藏字幕", "无障碍", "视频字幕", "多语言"],
+  "categories": ["multimedia"],
   "aliases": [
     {
       "name": "subtitles",
@@ -28,19 +15,8 @@
   "i18n": {
     "en": {
       "name": "captions",
-      "tags": [
-        "captions",
-        "subtitles",
-        "accessibility",
-        "video captions",
-        "multilingual"
-      ],
-      "use-cases": [
-        "Video player captions",
-        "Accessibility feature labeling",
-        "Multilingual video platforms",
-        "Caption settings interface"
-      ]
+      "tags": ["captions", "subtitles", "accessibility", "video captions", "multilingual"],
+      "use-cases": ["Video player captions", "Accessibility feature labeling", "Multilingual video platforms", "Caption settings interface"]
     }
   }
 }

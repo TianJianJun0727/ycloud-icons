@@ -1,46 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Docker 容器状态",
-    "货运物流跟踪",
-    "应用运行时环境",
-    "代码部署"
-  ],
+  "use-cases": ["Docker 容器状态", "货运物流跟踪", "应用运行时环境", "代码部署"],
   "name": "容器",
-  "tags": [
-    "容器",
-    "Docker",
-    "部署",
-    "环境",
-    "开发",
-    "运维",
-    "货运",
-    "存储"
-  ],
-  "categories": [
-    "development",
-    "transportation",
-    "mail"
-  ],
+  "tags": ["容器", "Docker", "部署", "环境", "开发", "运维", "货运", "存储"],
+  "categories": ["development", "transportation", "mail"],
   "i18n": {
     "en": {
       "name": "container",
-      "tags": [
-        "container",
-        "Docker",
-        "deployment",
-        "environment",
-        "development",
-        "devops",
-        "shipping",
-        "storage"
-      ],
-      "use-cases": [
-        "Docker container status",
-        "Shipping logistics tracking",
-        "Application runtime environment",
-        "Code deployment"
-      ]
+      "tags": ["container", "Docker", "deployment", "environment", "development", "devops", "shipping", "storage"],
+      "use-cases": ["Docker container status", "Shipping logistics tracking", "Application runtime environment", "Code deployment"]
     }
   }
 }

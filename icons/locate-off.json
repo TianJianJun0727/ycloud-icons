@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "禁用位置跟踪",
-    "关闭GPS",
-    "隐藏用户位置"
-  ],
+  "use-cases": ["禁用位置跟踪", "关闭GPS", "隐藏用户位置"],
   "name": "定位关闭",
-  "tags": [
-    "地图",
-    "GPS",
-    "定位",
-    "位置",
-    "关闭",
-    "禁用",
-    "导航"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["地图", "GPS", "定位", "位置", "关闭", "禁用", "导航"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "locate off",
-      "tags": [
-        "map",
-        "gps",
-        "location",
-        "off",
-        "disable",
-        "stop",
-        "navigation"
-      ],
-      "use-cases": [
-        "Disable location tracking",
-        "Turn off GPS",
-        "Hide user location"
-      ]
+      "tags": ["map", "gps", "location", "off", "disable", "stop", "navigation"],
+      "use-cases": ["Disable location tracking", "Turn off GPS", "Hide user location"]
     }
   }
 }

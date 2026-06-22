@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "视频投屏功能",
-    "无线显示设置",
-    "屏幕共享选项"
-  ],
+  "use-cases": ["视频投屏功能", "无线显示设置", "屏幕共享选项"],
   "name": "隔空播放",
-  "tags": [
-    "投屏",
-    "屏幕镜像",
-    "无线显示",
-    "流媒体",
-    "屏幕共享",
-    "AirPlay"
-  ],
-  "categories": [
-    "multimedia",
-    "connectivity"
-  ],
+  "tags": ["投屏", "屏幕镜像", "无线显示", "流媒体", "屏幕共享", "AirPlay"],
+  "categories": ["multimedia", "connectivity"],
   "i18n": {
     "en": {
       "name": "airplay",
-      "tags": [
-        "screen mirroring",
-        "casting",
-        "wireless display",
-        "streaming",
-        "display sharing",
-        "AirPlay"
-      ],
-      "use-cases": [
-        "video casting feature",
-        "wireless display settings",
-        "screen sharing options"
-      ]
+      "tags": ["screen mirroring", "casting", "wireless display", "streaming", "display sharing", "AirPlay"],
+      "use-cases": ["video casting feature", "wireless display settings", "screen sharing options"]
     }
   }
 }

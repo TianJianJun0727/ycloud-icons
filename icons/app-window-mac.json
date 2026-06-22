@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "macOS应用界面原型",
-    "窗口管理功能图标",
-    "桌面应用的设计系统组件"
-  ],
+  "use-cases": ["macOS应用界面原型", "窗口管理功能图标", "桌面应用的设计系统组件"],
   "name": "应用窗口Mac",
-  "tags": [
-    "应用窗口",
-    "macOS",
-    "界面",
-    "设计",
-    "开发",
-    "桌面",
-    "操作系统",
-    "UI"
-  ],
-  "categories": [
-    "layout",
-    "design",
-    "development",
-    "files"
-  ],
+  "tags": ["应用窗口", "macOS", "界面", "设计", "开发", "桌面", "操作系统", "UI"],
+  "categories": ["layout", "design", "development", "files"],
   "i18n": {
     "en": {
       "name": "app window mac",
-      "tags": [
-        "app window",
-        "macOS",
-        "interface",
-        "design",
-        "development",
-        "desktop",
-        "operating system",
-        "UI"
-      ],
-      "use-cases": [
-        "macOS application UI mockups",
-        "Window management feature icons",
-        "Design system components for desktop apps"
-      ]
+      "tags": ["app window", "macOS", "interface", "design", "development", "desktop", "operating system", "UI"],
+      "use-cases": ["macOS application UI mockups", "Window management feature icons", "Design system components for desktop apps"]
     }
   }
 }

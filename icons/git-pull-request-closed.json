@@ -1,38 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "已关闭或拒绝的拉取请求",
-    "代码审查完成",
-    "合并请求状态"
-  ],
+  "use-cases": ["已关闭或拒绝的拉取请求", "代码审查完成", "合并请求状态"],
   "name": "Git拉取请求关闭",
-  "tags": [
-    "拉取请求",
-    "PR",
-    "版本控制",
-    "Git",
-    "关闭",
-    "拒绝"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["拉取请求", "PR", "版本控制", "Git", "关闭", "拒绝"],
+  "categories": ["development"],
   "i18n": {
     "en": {
       "name": "git pull request closed",
-      "tags": [
-        "pull request",
-        "PR",
-        "version control",
-        "Git",
-        "closed",
-        "rejected"
-      ],
-      "use-cases": [
-        "Closed or rejected pull request",
-        "Code review completion",
-        "Merge request status"
-      ]
+      "tags": ["pull request", "PR", "version control", "Git", "closed", "rejected"],
+      "use-cases": ["Closed or rejected pull request", "Code review completion", "Merge request status"]
     }
   }
 }

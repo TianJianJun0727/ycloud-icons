@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "在地图上显示当前位置",
-    "GPS跟踪界面",
-    "位置共享功能"
-  ],
+  "use-cases": ["在地图上显示当前位置", "GPS跟踪界面", "位置共享功能"],
   "name": "定位固定",
-  "tags": [
-    "地图",
-    "GPS",
-    "定位",
-    "位置",
-    "固定",
-    "坐标",
-    "导航"
-  ],
-  "categories": [
-    "navigation"
-  ],
+  "tags": ["地图", "GPS", "定位", "位置", "固定", "坐标", "导航"],
+  "categories": ["navigation"],
   "i18n": {
     "en": {
       "name": "locate fixed",
-      "tags": [
-        "map",
-        "gps",
-        "location",
-        "pin",
-        "fixed",
-        "coordinates",
-        "navigation"
-      ],
-      "use-cases": [
-        "Show current location on a map",
-        "GPS tracking interface",
-        "Location sharing feature"
-      ]
+      "tags": ["map", "gps", "location", "pin", "fixed", "coordinates", "navigation"],
+      "use-cases": ["Show current location on a map", "GPS tracking interface", "Location sharing feature"]
     }
   }
 }

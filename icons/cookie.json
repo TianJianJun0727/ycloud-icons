@@ -1,43 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "Cookie 同意横幅",
-    "隐私政策设置",
-    "网站数据偏好",
-    "食品食谱应用"
-  ],
+  "use-cases": ["Cookie 同意横幅", "隐私政策设置", "网站数据偏好", "食品食谱应用"],
   "name": "曲奇",
-  "tags": [
-    "Cookie",
-    "隐私",
-    "同意",
-    "数据",
-    "网站",
-    "设置",
-    "饼干"
-  ],
-  "categories": [
-    "account",
-    "food-beverage"
-  ],
+  "tags": ["Cookie", "隐私", "同意", "数据", "网站", "设置", "饼干"],
+  "categories": ["account", "food-beverage"],
   "i18n": {
     "en": {
       "name": "cookie",
-      "tags": [
-        "cookie",
-        "privacy",
-        "consent",
-        "data",
-        "website",
-        "settings",
-        "biscuit"
-      ],
-      "use-cases": [
-        "Cookie consent banner",
-        "Privacy policy settings",
-        "Website data preferences",
-        "Food recipe app"
-      ]
+      "tags": ["cookie", "privacy", "consent", "data", "website", "settings", "biscuit"],
+      "use-cases": ["Cookie consent banner", "Privacy policy settings", "Website data preferences", "Food recipe app"]
     }
   }
 }

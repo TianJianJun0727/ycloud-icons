@@ -1,44 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "UI设计工具",
-    "CSS弹性盒对齐",
-    "元素分布",
-    "布局配置"
-  ],
+  "use-cases": ["UI设计工具", "CSS弹性盒对齐", "元素分布", "布局配置"],
   "name": "对齐水平分布末端",
-  "tags": [
-    "右对齐",
-    "水平分布",
-    "布局",
-    "Flex",
-    "间距",
-    "对齐",
-    "设计工具",
-    "UI布局"
-  ],
-  "categories": [
-    "layout"
-  ],
+  "tags": ["右对齐", "水平分布", "布局", "Flex", "间距", "对齐", "设计工具", "UI布局"],
+  "categories": ["layout"],
   "i18n": {
     "en": {
       "name": "align horizontal distribute end",
-      "tags": [
-        "right align",
-        "horizontal distribute",
-        "layout",
-        "flex",
-        "spacing",
-        "alignment",
-        "design",
-        "UI layout"
-      ],
-      "use-cases": [
-        "UI design tools",
-        "CSS flexbox alignment",
-        "Element distribution",
-        "Layout configuration"
-      ]
+      "tags": ["right align", "horizontal distribute", "layout", "flex", "spacing", "alignment", "design", "UI layout"],
+      "use-cases": ["UI design tools", "CSS flexbox alignment", "Element distribution", "Layout configuration"]
     }
   }
 }

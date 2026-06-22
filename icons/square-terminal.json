@@ -1,21 +1,9 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "终端界面",
-    "命令行工具",
-    "开发环境"
-  ],
+  "use-cases": ["终端界面", "命令行工具", "开发环境"],
   "name": "方形终端",
-  "tags": [
-    "终端",
-    "命令行",
-    "代码",
-    "开发",
-    "Shell"
-  ],
-  "categories": [
-    "development"
-  ],
+  "tags": ["终端", "命令行", "代码", "开发", "Shell"],
+  "categories": ["development"],
   "aliases": [
     {
       "name": "terminal-square",
@@ -27,18 +15,8 @@
   "i18n": {
     "en": {
       "name": "square terminal",
-      "tags": [
-        "terminal",
-        "command line",
-        "code",
-        "development",
-        "shell"
-      ],
-      "use-cases": [
-        "Terminal interface",
-        "Command line tool",
-        "Development environment"
-      ]
+      "tags": ["terminal", "command line", "code", "development", "shell"],
+      "use-cases": ["Terminal interface", "Command line tool", "Development environment"]
     }
   }
 }

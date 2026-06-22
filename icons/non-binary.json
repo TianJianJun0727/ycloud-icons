@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "性别选择",
-    "个人资料设置",
-    "包容性表单",
-    "多样性展示"
-  ],
+  "use-cases": ["性别选择", "个人资料设置", "包容性表单", "多样性展示"],
   "name": "非二进制",
-  "tags": [
-    "非二元",
-    "性别认同",
-    "性别多样性",
-    "性别包容",
-    "LGBTQ+",
-    "性别平等"
-  ],
-  "categories": [
-    "medical"
-  ],
+  "tags": ["非二元", "性别认同", "性别多样性", "性别包容", "LGBTQ+", "性别平等"],
+  "categories": ["medical"],
   "i18n": {
     "en": {
       "name": "non binary",
-      "tags": [
-        "nonbinary",
-        "gender identity",
-        "diversity",
-        "inclusion",
-        "LGBTQ+",
-        "equality"
-      ],
-      "use-cases": [
-        "Gender selection",
-        "Profile settings",
-        "Inclusive forms",
-        "Diversity representation"
-      ]
+      "tags": ["nonbinary", "gender identity", "diversity", "inclusion", "LGBTQ+", "equality"],
+      "use-cases": ["Gender selection", "Profile settings", "Inclusive forms", "Diversity representation"]
     }
   }
 }

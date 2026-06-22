@@ -1,41 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "电子表格应用",
-    "数据表格",
-    "财务报表"
-  ],
+  "use-cases": ["电子表格应用", "数据表格", "财务报表"],
   "name": "表格",
-  "tags": [
-    "表格",
-    "电子表格",
-    "数据表",
-    "Excel",
-    "计算",
-    "统计",
-    "报表"
-  ],
-  "categories": [
-    "text",
-    "files"
-  ],
+  "tags": ["表格", "电子表格", "数据表", "Excel", "计算", "统计", "报表"],
+  "categories": ["text", "files"],
   "i18n": {
     "en": {
       "name": "sheet",
-      "tags": [
-        "sheet",
-        "spreadsheet",
-        "table",
-        "Excel",
-        "calculation",
-        "statistics",
-        "report"
-      ],
-      "use-cases": [
-        "Spreadsheet applications",
-        "Data tables",
-        "Financial reports"
-      ]
+      "tags": ["sheet", "spreadsheet", "table", "Excel", "calculation", "statistics", "report"],
+      "use-cases": ["Spreadsheet applications", "Data tables", "Financial reports"]
     }
   }
 }

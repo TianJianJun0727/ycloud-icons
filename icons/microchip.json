@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "显示设备规格",
-    "硬件设置页面",
-    "技术或计算上下文"
-  ],
+  "use-cases": ["显示设备规格", "硬件设置页面", "技术或计算上下文"],
   "name": "芯片",
-  "tags": [
-    "芯片",
-    "处理器",
-    "硬件",
-    "技术",
-    "电脑",
-    "集成电路",
-    "CPU",
-    "GPU"
-  ],
-  "categories": [
-    "devices"
-  ],
+  "tags": ["芯片", "处理器", "硬件", "技术", "电脑", "集成电路", "CPU", "GPU"],
+  "categories": ["devices"],
   "i18n": {
     "en": {
       "name": "microchip",
-      "tags": [
-        "chip",
-        "processor",
-        "hardware",
-        "technology",
-        "computer",
-        "integrated circuit",
-        "CPU",
-        "GPU"
-      ],
-      "use-cases": [
-        "Display device specifications",
-        "Hardware settings page",
-        "Technology or computing context"
-      ]
+      "tags": ["chip", "processor", "hardware", "technology", "computer", "integrated circuit", "CPU", "GPU"],
+      "use-cases": ["Display device specifications", "Hardware settings page", "Technology or computing context"]
     }
   }
 }

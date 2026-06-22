@@ -1,45 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "文本编辑器拼写和语法检查",
-    "代码检查或静态分析工具",
-    "文档校对功能",
-    "输入验证错误高亮"
-  ],
+  "use-cases": ["文本编辑器拼写和语法检查", "代码检查或静态分析工具", "文档校对功能", "输入验证错误高亮"],
   "name": "拼写勾选",
-  "tags": [
-    "拼写检查",
-    "语法",
-    "纠错",
-    "校对",
-    "文本",
-    "错误",
-    "代码检查",
-    "Lint"
-  ],
-  "categories": [
-    "text",
-    "development"
-  ],
+  "tags": ["拼写检查", "语法", "纠错", "校对", "文本", "错误", "代码检查"],
+  "categories": ["text", "development"],
   "i18n": {
     "en": {
       "name": "spell check",
-      "tags": [
-        "spell check",
-        "grammar",
-        "correction",
-        "proofread",
-        "text",
-        "error",
-        "code linting",
-        "linter"
-      ],
-      "use-cases": [
-        "Text editor spelling and grammar check",
-        "Code linter or static analysis tool",
-        "Document proofreading feature",
-        "Input validation error highlighting"
-      ]
+      "tags": ["spell check", "grammar", "correction", "proofread", "text", "error", "code linting", "linter"],
+      "use-cases": ["Text editor spelling and grammar check", "Code linter or static analysis tool", "Document proofreading feature", "Input validation error highlighting"]
     }
   }
 }

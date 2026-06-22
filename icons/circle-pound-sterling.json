@@ -1,40 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "货币选择",
-    "支付方式",
-    "英国价格显示",
-    "金融应用"
-  ],
+  "use-cases": ["货币选择", "支付方式", "英国价格显示", "金融应用"],
   "name": "圆形英镑英镑",
-  "tags": [
-    "英镑",
-    "货币",
-    "金钱",
-    "支付",
-    "英国货币",
-    "GBP"
-  ],
-  "categories": [
-    "finance"
-  ],
+  "tags": ["英镑", "货币", "金钱", "支付", "英国货币", "GBP"],
+  "categories": ["finance"],
   "i18n": {
     "en": {
       "name": "circle pound sterling",
-      "tags": [
-        "pound",
-        "currency",
-        "money",
-        "payment",
-        "british currency",
-        "GBP"
-      ],
-      "use-cases": [
-        "Currency selection",
-        "Payment methods",
-        "UK pricing display",
-        "Financial applications"
-      ]
+      "tags": ["pound", "currency", "money", "payment", "british currency", "GBP"],
+      "use-cases": ["Currency selection", "Payment methods", "UK pricing display", "Financial applications"]
     }
   }
 }

@@ -1,39 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "脚本文件图标",
-    "终端配置文件",
-    "IDE中的可执行文件"
-  ],
+  "use-cases": ["脚本文件图标", "终端配置文件", "IDE中的可执行文件"],
   "name": "文件终端",
-  "tags": [
-    "终端",
-    "脚本",
-    "命令行",
-    "可执行文件",
-    "Shell",
-    "Bash"
-  ],
-  "categories": [
-    "files",
-    "development"
-  ],
+  "tags": ["终端", "脚本", "命令行", "可执行文件", "Shell", "Bash"],
+  "categories": ["files", "development"],
   "i18n": {
     "en": {
       "name": "file terminal",
-      "tags": [
-        "terminal",
-        "script",
-        "command line",
-        "executable",
-        "shell",
-        "bash"
-      ],
-      "use-cases": [
-        "Script file icon",
-        "Terminal configuration file",
-        "Executable file in IDE"
-      ]
+      "tags": ["terminal", "script", "command line", "executable", "shell", "bash"],
+      "use-cases": ["Script file icon", "Terminal configuration file", "Executable file in IDE"]
     }
   }
 }

@@ -1,42 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [
-    "收藏联系人",
-    "星标用户",
-    "管理员账号",
-    "VIP用户徽章"
-  ],
+  "use-cases": ["收藏联系人", "星标用户", "管理员账号", "VIP用户徽章"],
   "name": "用户星标",
-  "tags": [
-    "用户",
-    "账号",
-    "收藏",
-    "星标",
-    "重要",
-    "管理员",
-    "VIP"
-  ],
-  "categories": [
-    "account"
-  ],
+  "tags": ["用户", "账号", "收藏", "星标", "重要", "管理员", "VIP"],
+  "categories": ["account"],
   "i18n": {
     "en": {
       "name": "user star",
-      "tags": [
-        "user",
-        "account",
-        "favorite",
-        "starred",
-        "important",
-        "admin",
-        "VIP"
-      ],
-      "use-cases": [
-        "Favorite contact",
-        "Starred user",
-        "Admin account",
-        "VIP user badge"
-      ]
+      "tags": ["user", "account", "favorite", "starred", "important", "admin", "VIP"],
+      "use-cases": ["Favorite contact", "Starred user", "Admin account", "VIP user badge"]
     }
   }
 }
