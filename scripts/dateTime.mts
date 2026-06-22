@@ -5,6 +5,8 @@
  * 输出：`Asia/Shanghai` 时区下的 `YYYY-MM-DD HH:mm:ss` 格式。
  *
  * 适用场景：生成 changelog、GitHub Release notes 和文档侧边栏时保持发布日期展示一致。
+ * 调用位置：`writeChangelog.mts` 和 `syncGitHubReleaseNotes.mts`。
+ * 调用时机：生成或同步版本日志时调用，不单独作为命令运行。
  */
 export function formatShanghaiDateTime(isoDateTime: string) {
   const parts = new Intl.DateTimeFormat('zh-CN', {

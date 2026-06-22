@@ -8,6 +8,8 @@
  * - 遍历 packages 目录下各子包的 package.json，把所有包版本同步到同一个版本。
  *
  * 适用场景：Release Packages 工作流发布成功后，把仓库内版本号回写到 main。
+ * 调用位置：根 `package.json` 的 `pnpm sync:package-versions`，`.github/workflows/ci.yml` 和 `.github/workflows/release.yml`。
+ * 调用时机：发布流程确定目标版本后运行，确保根包和 packages 下所有包版本一致。
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';

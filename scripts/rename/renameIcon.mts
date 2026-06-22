@@ -6,6 +6,9 @@
  * - 从参数中提取不带扩展名的旧名称和新名称。
  * - 定位 `icons` 目录。
  * - 调用 `renameIcon.function.mts` 完成 SVG、JSON、alias 和引用更新。
+ *
+ * 调用位置：根 `package.json` 的 `pnpm rename`。
+ * 调用时机：人工重命名单个图标时手动运行。
  */
 import path from 'path';
 import { getCurrentDirPath } from '../../tools/build-helpers/helpers.ts';

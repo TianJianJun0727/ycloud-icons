@@ -8,6 +8,8 @@
  * - 默认 `name` 使用图标文件名，`categories` 暂放到 `text`，方便后续人工或 AI 修正。
  *
  * 适用场景：批量导入 SVG 后，先保证每个图标都有可被 schema 和构建流程识别的元数据文件。
+ * 调用位置：根 `package.json` 的 `pnpm addjsons`。
+ * 调用时机：人工批量导入 SVG 后手动运行，不属于默认 CI 流程。
  */
 import path from 'path';
 import {

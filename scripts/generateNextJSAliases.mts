@@ -7,6 +7,9 @@
  * - 按 Next.js modularize imports 的 kebab-case 规则转换组件名。
  * - 对与标准图标名不同的转换结果生成别名。
  * - 让用户在 Next.js 项目中使用自动模块化导入时仍能命中正确图标。
+ *
+ * 调用位置：根 `package.json` 的 `pnpm generate:nextJSAliases`，以及 `lint-staged.config.mjs`。
+ * 调用时机：提交 SVG 源文件时自动刷新；也可在批量改名或新增图标后手动运行。
  */
 import path from 'path';
 import { promises as fs } from 'fs';

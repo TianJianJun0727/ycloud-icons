@@ -8,6 +8,9 @@
  * - 顶层 `use-cases` 写入中文使用场景；`i18n.en.use-cases` 写入英文使用场景。
  * - 使用内置翻译表处理已知历史文案，未知文案原样保留，后续再交给 AI 修复脚本润色。
  * - 输出时会去重英文来源，避免迁移后出现重复使用场景。
+ *
+ * 调用位置：当前没有挂到默认 npm script 或 CI，作为一次性迁移脚本保留。
+ * 调用时机：旧版 `use-cases` 结构需要重新迁移到当前中英文结构时手动运行。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';

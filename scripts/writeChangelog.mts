@@ -12,6 +12,8 @@
  * - `changelogs/releases/v*.json` 持久化双语版本说明。
  *
  * 规则：AI 模式只为当前目标版本生成摘要，不重新生成全部历史版本。
+ * 调用位置：根 `package.json` 的 `pnpm generate:changelog` / `pnpm generate:changelog:md`，`docs/package.json` 的 `prebuild:changelog`，以及 `.github/workflows/release.yml`。
+ * 调用时机：文档构建前生成页面用 changelog；release 流程中生成并持久化当前版本双语 release notes。
  */
 import { execSync } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';

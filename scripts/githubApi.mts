@@ -6,6 +6,8 @@
  * 输出：返回解析后的 JSON。
  *
  * 注意：这是历史脚本的轻量封装，新流程优先使用 GitHub CLI 或 Octokit。
+ * 调用位置：当前主流程没有直接调用，保留给历史/临时脚本复用。
+ * 调用时机：需要用简单 fetch 读取 GitHub REST API 时手动引入。
  */
 const githubApi = async (endpoint: string) => {
   const headers = new Headers();

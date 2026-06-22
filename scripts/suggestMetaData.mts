@@ -6,6 +6,9 @@
  * - 为新增图标建议中文名、英文名、标签、分类和 use-cases。
  * - 使用已有分类说明和高质量样例作为 few-shot 上下文，减少随意发明分类。
  * - 输出建议内容供 PR 评论或后续修复脚本参考，不直接替代校验流程。
+ *
+ * 调用位置：根 `package.json` 的 `pnpm suggest:metadata` / `pnpm suggest:metadata:watch`，以及 `.github/workflows/pull-request-metadata-suggestions.yml`。
+ * 调用时机：新增图标 PR 需要辅助生成元数据建议时运行；建议结果仍需要校验脚本把关。
  */
 import 'dotenv/config';
 import { Octokit } from '@octokit/rest';

@@ -15,6 +15,8 @@
  * - `i18n.en.title` 缺失、含中文、等于中文标题或像 slug 时，生成英文分类标题。
  *
  * 约束：英文元数据是语义来源，中文结果用于 UI 展示和中文搜索；标签会去重，use-cases 会保持中英文成对。
+ * 调用位置：`.github/workflows/fix-icon-source.yml` 的 `Complete changed metadata i18n` 步骤。
+ * 调用时机：PR 修改 `icons/*.json` 或 `categories/*.json` 后，在格式化和最终校验前尝试补齐缺失/异常的双语字段。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';

@@ -4,7 +4,9 @@
  * 输入：命令行传入的 `icons/*.json` 或 `categories/*.json` 文件列表。
  * 图标规则：
  * - 顶层 `name` 必须是简体中文；`i18n.en.name` 必须是自然英文，不能是 slug。
- * - 顶层 `tags` 必须是非空中文搜索词数组；`i18n.en.tags` 必须是非空英文搜索词数组。
+ * - 顶层 `tags` 必须是非空中文搜索词数组；经审核确认适合中文搜索场景保留的英文品牌、
+ *   标准、缩写、技术术语等例外词可保留在 `allowedNonChineseTags` 中，其余英文词应按图标语义翻译为中文。
+ * - `i18n.en.tags` 必须是非空英文搜索词数组。
  * - `tags`、`i18n.en.tags`、`categories` 都不能包含重复值。
  * - `use-cases` 和 `i18n.en.use-cases` 必须都是数组；双空允许，但只要一侧有值，另一侧也必须有值。
  * - 非空的 `use-cases` 必须是中文，非空的 `i18n.en.use-cases` 必须是英文，并且两侧长度和顺序一致。
@@ -13,6 +15,9 @@
  * 分类规则：
  * - 顶层 `title` 必须是简体中文。
  * - `i18n.en.title` 必须是自然英文，不能包含中文，也不能是 kebab-case/snake_case slug。
+ *
+ * 调用位置：`.github/workflows/fix-icon-source.yml` 的 `Validate changed icon source` 步骤。
+ * 调用时机：PR 中图标源文件经过 SVG 清洗、AI 元数据补全和格式化后，对本次变更 JSON 做最后一道增量校验。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -31,6 +36,10 @@ const knownCategories = new Set(categoryFiles.map((file) => path.basename(file, 
 let hasError = false;
 const hasCjk = (value: string) => /[\u3400-\u9fff]/.test(value);
 const isSlugLike = (value: string) => /^[a-z0-9]+(?:[-_][a-z0-9]+)+$/.test(value.trim());
+// English terms that have been reviewed and are intentionally kept in Chinese tags
+// because users commonly search for these brands, standards, abbreviations, or
+// technical terms as-is. Unreviewed English words should be translated into
+// natural Chinese tags based on icon context instead of being added mechanically.
 const allowedNonChineseTags = new Set([
   '&',
   '&&',
@@ -192,7 +201,7 @@ function assertChineseTags(file: string, field: string, value: unknown) {
   if (invalidTags.length > 0) {
     report(
       file,
-      `\`${field}\` contains non-Chinese tags that are not allowed proper nouns: ${invalidTags.join(
+      `\`${field}\` contains English tags that have not been reviewed as allowed Chinese-search terms: ${invalidTags.join(
         ', ',
       )}.`,
     );

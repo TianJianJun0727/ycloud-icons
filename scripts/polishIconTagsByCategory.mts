@@ -10,6 +10,8 @@
  * - use-cases 需要中英文成对，缺失时按图标主语义补齐。
  *
  * 适用场景：导入大量图标后，按分类分批提升中文搜索和展示质量。
+ * 调用位置：根 `package.json` 的 `pnpm polish:tags`。
+ * 调用时机：人工配置 AI 环境变量后，按分类分批执行中文元数据润色；不属于默认 CI 流程。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';

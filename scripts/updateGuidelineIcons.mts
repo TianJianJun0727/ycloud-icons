@@ -7,6 +7,8 @@
  * - 保持 icon design guide 中示例图的描边、颜色和尺寸风格一致。
  *
  * 注意：这个脚本只面向文档示例资源，不处理 `icons/*.svg` 源图标。
+ * 调用位置：当前没有挂到默认 npm script 或 CI。
+ * 调用时机：人工调整 icon design guide 的 SVG 示例样式时手动运行。
  */
 import path from 'path';
 import { readdirSync, readFileSync, writeFileSync } from 'fs';

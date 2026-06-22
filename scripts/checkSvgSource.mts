@@ -9,6 +9,8 @@
  * - 任意标签不能出现重复属性，例如重复 `fill`、`stroke` 或 `width`。
  *
  * 注意：这个脚本只做结构和规范校验；SVG 文本格式化仍由 Prettier 的 `html` parser 负责。
+ * 调用位置：根 `package.json` 的 `pnpm lint:svg`，以及 `.github/workflows/fix-icon-source.yml`。
+ * 调用时机：本地 lint、CI lint、PR 自动修复后的源 SVG 校验阶段都会运行。
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';

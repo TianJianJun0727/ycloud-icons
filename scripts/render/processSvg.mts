@@ -9,6 +9,8 @@
  * - 最后使用 Prettier `html` parser 格式化 SVG 文本。
  *
  * 注意：这是当前仓库保留 Prettier 的主要原因；非 SVG 代码格式化由 Oxfmt/Oxlint 负责。
+ * 调用位置：`optimizeSvgs.mts` 和 `optimizeStagedSvgs.mts`。
+ * 调用时机：全量或增量 SVG 清洗时调用，不直接作为命令运行。
  */
 import { optimize } from 'svgo';
 import * as prettier from 'prettier';

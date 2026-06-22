@@ -8,6 +8,8 @@
  * - 将结果写回 `icons` 目录。
  *
  * 适用场景：大规模 SVG 迁移、SVGO 配置调整或源图标规范升级后运行。
+ * 调用位置：根 `package.json` 的 `pnpm optimize`。
+ * 调用时机：人工需要全量重写源 SVG 时手动运行；不建议在普通 PR 中频繁执行。
  */
 import fs from 'fs';
 import path from 'path';

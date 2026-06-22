@@ -8,6 +8,8 @@
  * - 用于 `pull_request_icon_preview` / comment 类 workflow，帮助评审人快速看新增或修改图标。
  *
  * 注意：该脚本只生成评论内容，不修改图标源文件或元数据。
+ * 调用位置：`.github/workflows/pull-request-icon-preview.yml`。
+ * 调用时机：图标 PR 更新后，生成 GitHub 评论里的图标视觉预览。
  */
 import fs from 'fs';
 import path from 'path';

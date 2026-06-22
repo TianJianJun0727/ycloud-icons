@@ -6,6 +6,9 @@
  * 规则：
  * - 只在文件不存在时写入，避免覆盖已有源图标。
  * - 生成的是占位骨架，真实图形、元数据和分类仍需要后续补充。
+ *
+ * 调用位置：根 `package.json` 的 `pnpm gi`。
+ * 调用时机：人工需要快速创建一个或多个图标 SVG 占位文件时手动运行。
  */
 import path from 'path';
 import { getCurrentDirPath, writeFileIfNotExists } from '../../tools/build-helpers/helpers.ts';

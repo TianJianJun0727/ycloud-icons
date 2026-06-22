@@ -8,6 +8,8 @@
  * - 可把最新版本标记为 latest。
  *
  * 适用场景：修复历史 Release 内容，或把本地 changelog 数据重新同步到 GitHub。
+ * 调用位置：根 `package.json` 的 `pnpm sync:github-release-notes`。
+ * 调用时机：人工需要把本地 `changelogs/releases` 重新写回 GitHub Releases 时手动运行。
  */
 import { execFileSync } from 'node:child_process';
 import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';

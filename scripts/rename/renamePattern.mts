@@ -8,6 +8,8 @@
  * - 对每个匹配项计算新名称，并调用通用重命名逻辑。
  *
  * 适用场景：批量修正命名模式，例如前缀、后缀或拼写规则迁移。
+ * 调用位置：根 `package.json` 的 `pnpm renamePattern`。
+ * 调用时机：人工需要按规则批量重命名图标时手动运行。
  */
 import path from 'path';
 import { getCurrentDirPath, readSvgDirectory } from '../../tools/build-helpers/helpers.ts';

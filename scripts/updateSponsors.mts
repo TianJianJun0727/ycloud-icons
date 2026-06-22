@@ -7,6 +7,8 @@
  * - 用根 README 的内容覆盖，保持多包文档一致。
  *
  * 注意：当前项目已弱化赞助相关内容，该脚本主要保留历史兼容用途。
+ * 调用位置：根 `package.json` 的 `pnpm generate:sponsors`。
+ * 调用时机：根 README 的 Sponsors 区块变化后，人工同步到各包 README 时运行。
  */
 import { readdirSync } from 'node:fs';
 import { join } from 'node:path';

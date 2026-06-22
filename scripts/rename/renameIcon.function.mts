@@ -9,6 +9,8 @@
  * - 通过 git 操作保留文件重命名语义。
  *
  * 供 `renameIcon.mts` 和 `renamePattern.mts` 复用。
+ * 调用位置：`renameIcon.mts` 和 `renamePattern.mts`。
+ * 调用时机：单个或批量图标重命名时由命令入口调用，不直接作为 CLI 运行。
  */
 import path from 'path';
 import fs from 'fs';

@@ -5,6 +5,8 @@
  * 行为：当模块 specifier 是 `typescript` 时，返回 `@typescript/typescript6` 的实际路径。
  *
  * 适用场景：Svelte、Angular、dts 打包等工具链尚未完全兼容 TypeScript 7 RC 时，局部降级工具内部使用的 TypeScript。
+ * 调用位置：多个 packages 子包 package.json 的 build 命令通过 `NODE_OPTIONS --experimental-loader` 引入。
+ * 调用时机：框架包构建时自动启用，不需要人工单独运行。
  */
 import { createRequire } from 'node:module';
 import { pathToFileURL } from 'node:url';

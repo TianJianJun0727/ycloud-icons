@@ -9,6 +9,8 @@
  * - 转换为 GitHub Actions 可识别的 annotation 格式。
  *
  * 适用场景：CI 中把传统命令行 lint 结果变成可点击的 PR 检查注释。
+ * 调用位置：`.github/workflows/linting-icons.yml`。
+ * 调用时机：图标 lint workflow 运行后，把本次变更文件相关的问题输出为 GitHub annotation。
  */
 import path from 'path';
 import fs from 'fs';
