@@ -1,18 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [],
-  "name": "",
-  "tags": [],
-  "categories": [
-    "emoji",
-    "development",
-    "security"
-  ],
+  "use-cases": ["在UI中表示矩形区域", "作为内容或图片的容器框", "在图表中绘制矩形元素"],
+  "name": "矩形",
+  "tags": ["矩形", "形状", "框", "区域", "容器"],
+  "categories": ["emoji", "development", "security"],
   "i18n": {
     "en": {
       "name": "rectangle",
-      "tags": [],
-      "use-cases": []
+      "tags": ["rectangle", "shape", "box", "area", "container"],
+      "use-cases": ["Representing a rectangular area in UI", "As a container box for content or images", "Drawing rectangle elements in charts"]
     }
   }
 }
