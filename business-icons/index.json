@@ -152,6 +152,396 @@
       "name": "wait",
       "path": "business-icons/chatbot/wait.svg",
       "componentName": "Wait"
+    },
+    {
+      "name": "1",
+      "category": "inbox",
+      "path": "business-icons/inbox/1.svg",
+      "componentName": "Business1"
+    },
+    {
+      "name": "actionwebsite",
+      "category": "inbox",
+      "path": "business-icons/inbox/actionwebsite.svg",
+      "componentName": "Actionwebsite"
+    },
+    {
+      "name": "advanced",
+      "category": "inbox",
+      "path": "business-icons/inbox/advanced.svg",
+      "componentName": "Advanced"
+    },
+    {
+      "name": "assign",
+      "category": "inbox",
+      "path": "business-icons/inbox/assign.svg",
+      "componentName": "Assign"
+    },
+    {
+      "name": "chat-records",
+      "category": "inbox",
+      "path": "business-icons/inbox/chat-records.svg",
+      "componentName": "ChatRecords"
+    },
+    {
+      "name": "chatbot-filled",
+      "category": "inbox",
+      "path": "business-icons/inbox/chatbot-filled.svg",
+      "componentName": "ChatbotFilled"
+    },
+    {
+      "name": "close",
+      "category": "inbox",
+      "path": "business-icons/inbox/close.svg",
+      "componentName": "Close"
+    },
+    {
+      "name": "condition",
+      "category": "inbox",
+      "path": "business-icons/inbox/condition.svg",
+      "componentName": "Condition"
+    },
+    {
+      "name": "copyoffercode",
+      "category": "inbox",
+      "path": "business-icons/inbox/copyoffercode.svg",
+      "componentName": "Copyoffercode"
+    },
+    {
+      "name": "icon-ic-add-a-photo",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-add-a-photo.svg",
+      "componentName": "IconIcAddAPhoto"
+    },
+    {
+      "name": "icon-ic-book",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-book.svg",
+      "componentName": "IconIcBook"
+    },
+    {
+      "name": "icon-ic-collections",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-collections.svg",
+      "componentName": "IconIcCollections"
+    },
+    {
+      "name": "icon-ic-pdf-download",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-pdf-download.svg",
+      "componentName": "IconIcPdfDownload"
+    },
+    {
+      "name": "icon-ic-replace",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-replace.svg",
+      "componentName": "IconIcReplace"
+    },
+    {
+      "name": "icon-ic-videocam",
+      "category": "inbox",
+      "path": "business-icons/inbox/icon-ic-videocam.svg",
+      "componentName": "IconIcVideocam"
+    },
+    {
+      "name": "inbox-all",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-all.svg",
+      "componentName": "InboxAll"
+    },
+    {
+      "name": "inbox-assigned",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-assigned.svg",
+      "componentName": "InboxAssigned"
+    },
+    {
+      "name": "inbox-call-in",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-call-in.svg",
+      "componentName": "InboxCallIn"
+    },
+    {
+      "name": "inbox-call-out",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-call-out.svg",
+      "componentName": "InboxCallOut"
+    },
+    {
+      "name": "inbox-closed",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-closed.svg",
+      "componentName": "InboxClosed"
+    },
+    {
+      "name": "inbox-delivered",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-delivered.svg",
+      "componentName": "InboxDelivered"
+    },
+    {
+      "name": "inbox-failed",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-failed.svg",
+      "componentName": "InboxFailed"
+    },
+    {
+      "name": "inbox-lable",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-lable.svg",
+      "componentName": "InboxLable"
+    },
+    {
+      "name": "inbox-open",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-open.svg",
+      "componentName": "InboxOpen"
+    },
+    {
+      "name": "inbox-read",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-read.svg",
+      "componentName": "InboxRead"
+    },
+    {
+      "name": "inbox-star",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-star.svg",
+      "componentName": "InboxStar"
+    },
+    {
+      "name": "inbox-starfilled",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-starfilled.svg",
+      "componentName": "InboxStarfilled"
+    },
+    {
+      "name": "inbox-template",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-template.svg",
+      "componentName": "InboxTemplate"
+    },
+    {
+      "name": "inbox-unassigned",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-unassigned.svg",
+      "componentName": "InboxUnassigned"
+    },
+    {
+      "name": "inbox-voice-call",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-voice-call.svg",
+      "componentName": "InboxVoiceCall"
+    },
+    {
+      "name": "inbox-whats-app",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox-whats-app.svg",
+      "componentName": "InboxWhatsApp"
+    },
+    {
+      "name": "inbox",
+      "category": "inbox",
+      "path": "business-icons/inbox/inbox.svg",
+      "componentName": "Inbox"
+    },
+    {
+      "name": "inboxassign",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxassign.svg",
+      "componentName": "Inboxassign"
+    },
+    {
+      "name": "inboxaudio",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxaudio.svg",
+      "componentName": "Inboxaudio"
+    },
+    {
+      "name": "inboxcamera",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxcamera.svg",
+      "componentName": "Inboxcamera"
+    },
+    {
+      "name": "inboxchat",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxchat.svg",
+      "componentName": "Inboxchat"
+    },
+    {
+      "name": "inboxchathistory",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxchathistory.svg",
+      "componentName": "Inboxchathistory"
+    },
+    {
+      "name": "inboxcontact",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxcontact.svg",
+      "componentName": "Inboxcontact"
+    },
+    {
+      "name": "inboxdocument",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxdocument.svg",
+      "componentName": "Inboxdocument"
+    },
+    {
+      "name": "inboxedit",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxedit.svg",
+      "componentName": "Inboxedit"
+    },
+    {
+      "name": "inboxemail",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxemail.svg",
+      "componentName": "Inboxemail"
+    },
+    {
+      "name": "inboxemoji",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxemoji.svg",
+      "componentName": "Inboxemoji"
+    },
+    {
+      "name": "inboxfile",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxfile.svg",
+      "componentName": "Inboxfile"
+    },
+    {
+      "name": "inboxfilter-close",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxfilter-close.svg",
+      "componentName": "InboxfilterClose"
+    },
+    {
+      "name": "inboxfilter",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxfilter.svg",
+      "componentName": "Inboxfilter"
+    },
+    {
+      "name": "inboxhistory",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxhistory.svg",
+      "componentName": "Inboxhistory"
+    },
+    {
+      "name": "inboximage",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboximage.svg",
+      "componentName": "Inboximage"
+    },
+    {
+      "name": "inboxlayout",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxlayout.svg",
+      "componentName": "Inboxlayout"
+    },
+    {
+      "name": "inboxlocation",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxlocation.svg",
+      "componentName": "Inboxlocation"
+    },
+    {
+      "name": "inboxlogout",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxlogout.svg",
+      "componentName": "Inboxlogout"
+    },
+    {
+      "name": "inboxmusic",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxmusic.svg",
+      "componentName": "Inboxmusic"
+    },
+    {
+      "name": "inboxpicture",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxpicture.svg",
+      "componentName": "Inboxpicture"
+    },
+    {
+      "name": "inboxplay",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxplay.svg",
+      "componentName": "Inboxplay"
+    },
+    {
+      "name": "inboxsend",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxsend.svg",
+      "componentName": "Inboxsend"
+    },
+    {
+      "name": "inboxsolved",
+      "category": "inbox",
+      "path": "business-icons/inbox/inboxsolved.svg",
+      "componentName": "Inboxsolved"
+    },
+    {
+      "name": "keyboard-voice",
+      "category": "inbox",
+      "path": "business-icons/inbox/keyboard-voice.svg",
+      "componentName": "KeyboardVoice"
+    },
+    {
+      "name": "language-filled",
+      "category": "inbox",
+      "path": "business-icons/inbox/language-filled.svg",
+      "componentName": "LanguageFilled"
+    },
+    {
+      "name": "last-handle-agent",
+      "category": "inbox",
+      "path": "business-icons/inbox/last-handle-agent.svg",
+      "componentName": "LastHandleAgent"
+    },
+    {
+      "name": "outbound-message",
+      "category": "inbox",
+      "path": "business-icons/inbox/outbound-message.svg",
+      "componentName": "OutboundMessage"
+    },
+    {
+      "name": "owner",
+      "category": "inbox",
+      "path": "business-icons/inbox/owner.svg",
+      "componentName": "Owner"
+    },
+    {
+      "name": "quickreply",
+      "category": "inbox",
+      "path": "business-icons/inbox/quickreply.svg",
+      "componentName": "Quickreply"
+    },
+    {
+      "name": "time",
+      "category": "inbox",
+      "path": "business-icons/inbox/time.svg",
+      "componentName": "Time"
+    },
+    {
+      "name": "translate",
+      "category": "inbox",
+      "path": "business-icons/inbox/translate.svg",
+      "componentName": "Translate"
+    },
+    {
+      "name": "wait2",
+      "category": "inbox",
+      "path": "business-icons/inbox/wait2.svg",
+      "componentName": "Wait2"
+    },
+    {
+      "name": "whatsapplist",
+      "category": "inbox",
+      "path": "business-icons/inbox/whatsapplist.svg",
+      "componentName": "Whatsapplist"
     }
   ]
 }
