@@ -31,6 +31,15 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Get changed generic icon files
+        id: changed-generic-icons
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            icons/*.svg
+            icons/*.json
+            categories/*.json
+
       - name: Get changed business icon files
         id: changed-business-icons
         uses: tj-actions/changed-files@v47
@@ -43,8 +52,25 @@ jobs:
         run: |
           pnpm lint:es
           pnpm lint:format
-          pnpm lint:svg:icons
+
+          if [[ "${{ steps.changed-generic-icons.outputs.any_changed }}" == "true" ]]; then
+            ADDED_FILES="${{ steps.changed-generic-icons.outputs.added_files }}" pnpm checkIcons
+          fi
+
+          generic_svg_files=()
+          for file in ${{ steps.changed-generic-icons.outputs.added_files }} ${{ steps.changed-generic-icons.outputs.modified_files }} ${{ steps.changed-generic-icons.outputs.renamed_files }}; do
+            if [[ "$file" == icons/*.svg && -f "$file" ]]; then
+              generic_svg_files+=("$file")
+            fi
+          done
+
+          if (( ${#generic_svg_files[@]} > 0 )); then
+            node ./scripts/checkSvgSource.mts "${generic_svg_files[@]}"
+            pnpm exec prettier --parser html --check "${generic_svg_files[@]}"
+          fi
+
           if [[ "${{ steps.changed-business-icons.outputs.any_changed }}" == "true" ]]; then
             pnpm lint:svg:business
           fi
+
           pnpm lint:json
