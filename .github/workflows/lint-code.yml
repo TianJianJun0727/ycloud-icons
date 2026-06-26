@@ -31,5 +31,32 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Get changed generic icon files
+        id: changed-generic-icons
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            icons/*.svg
+            icons/*.json
+            categories/*.json
+
+      - name: Get changed business icon files
+        id: changed-business-icons
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            business-icons/**/*.svg
+            business-icons/**/*.json
+
       - name: Run Linter
-        run: pnpm lint
+        run: |
+          pnpm lint:es
+          pnpm lint:format
+          if [[ "${{ steps.changed-generic-icons.outputs.any_changed }}" == "true" ]]; then
+            pnpm lint:svg:icons
+            ADDED_FILES="${{ steps.changed-generic-icons.outputs.added_files }}" pnpm checkIcons
+          fi
+          if [[ "${{ steps.changed-business-icons.outputs.any_changed }}" == "true" ]]; then
+            pnpm lint:svg:business
+          fi
+          pnpm lint:json
