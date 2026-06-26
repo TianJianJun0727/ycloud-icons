@@ -8,46 +8,6 @@ interface TreeItem {
   sha: string;
 }
 
-type GitHubContentFile = {
-  content: string;
-  encoding: string;
-};
-
-type BusinessIconIndex = {
-  categories?: string[];
-  icons?: Array<{
-    name: string;
-    category: string;
-    path: string;
-    componentName: string;
-  }>;
-};
-
-const BUSINESS_CATEGORY_OPTIONS = [
-  'inbox',
-  'menu',
-  'chatbot',
-  'outlined',
-  'filled',
-  'basic',
-  'filter',
-];
-
-const toPascalCase = (value: string) =>
-  value
-    .split(/[^a-zA-Z0-9]+/)
-    .filter(Boolean)
-    .map((part) => `${part.charAt(0).toUpperCase()}${part.slice(1)}`)
-    .join('');
-
-const getBusinessIconComponentName = (name: string) => {
-  const pascal = toPascalCase(name);
-  if (/^[a-zA-Z_$]/.test(pascal)) {
-    return pascal;
-  }
-  return `Business${pascal}`;
-};
-
 function uniqueList<T>(items: T[]): T[] {
   return items.filter((item, index, list) => list.indexOf(item) === index);
 }
@@ -106,40 +66,6 @@ function buildBusinessIconFiles(
   });
 }
 
-function buildBusinessIconIndexFile(
-  icons: Record<string, YCloudIconData>,
-  metadata: YCloudMetadataOptions,
-  existingIndex: BusinessIconIndex,
-) {
-  const businessCategory = toKebabCase(metadata.businessCategory || 'uncategorized');
-  const nextIconByName = new Map<string, NonNullable<BusinessIconIndex['icons']>[number]>();
-
-  for (const icon of existingIndex.icons ?? []) {
-    nextIconByName.set(icon.name, icon);
-  }
-
-  for (const [key, icon] of Object.entries(icons)) {
-    const name = toKebabCase(icon.name || key);
-    nextIconByName.set(name, {
-      name,
-      category: businessCategory,
-      path: `business-icons/${businessCategory}/${name}.svg`,
-      componentName: getBusinessIconComponentName(name),
-    });
-  }
-
-  const nextIndex: BusinessIconIndex = {
-    categories: BUSINESS_CATEGORY_OPTIONS,
-    icons: Array.from(nextIconByName.values()).sort((left, right) =>
-      left.path.localeCompare(right.path),
-    ),
-  };
-
-  return {
-    path: 'business-icons/index.json',
-    content: `${JSON.stringify(nextIndex, null, 2)}\n`,
-  };
-}
 function buildReviewNotes(icons: Record<string, YCloudIconData>) {
   const notes: string[] = [];
   Object.entries(icons).forEach(([key, icon]) => {
@@ -252,23 +178,6 @@ export function createGithubClient(
       }),
     });
   }
-  async function getTextFile(path: string, branch: string) {
-    const response = await fetch(`${API_URL}/contents/${path}?ref=${branch}`, {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'X-GitHub-Api-Version': GITHUB_API_VERSION,
-        Accept: 'application/vnd.github+json',
-      },
-    });
-    if (response.status === 404) {
-      return null;
-    }
-    if (!response.ok) {
-      throw new Error(`GitHub 请求失败：${response.status} ${response.statusText}`);
-    }
-    const file = (await response.json()) as GitHubContentFile;
-    return atob(file.content.replace(/\s/g, ''));
-  }
   async function createDeployPR(
     icons: Record<string, YCloudIconData>,
     metadata: YCloudMetadataOptions,
@@ -276,16 +185,9 @@ export function createGithubClient(
   ) {
     const baseBranch = 'main';
     const newBranch = `figma-plugin/${Date.now()}`;
-    const existingBusinessIconIndex =
-      sourceType === 'business'
-        ? JSON.parse((await getTextFile('business-icons/index.json', baseBranch)) ?? '{"icons":[]}')
-        : undefined;
     const files =
       sourceType === 'business'
-        ? [
-            ...buildBusinessIconFiles(icons, metadata),
-            buildBusinessIconIndexFile(icons, metadata, existingBusinessIconIndex ?? {}),
-          ]
+        ? buildBusinessIconFiles(icons, metadata)
         : buildYCloudFiles(icons, metadata);
     const reviewNotes = sourceType === 'business' ? [] : buildReviewNotes(icons);
     const iconCount = Object.keys(icons).length;
