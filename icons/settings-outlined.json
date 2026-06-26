@@ -1,16 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": [],
-  "name": "",
-  "tags": [],
-  "categories": [
-    "sports"
-  ],
+  "use-cases": ["系统设置界面", "应用偏好配置", "设备参数调整"],
+  "name": "设置",
+  "tags": ["设置", "配置", "偏好", "齿轮"],
+  "categories": ["sports"],
   "i18n": {
     "en": {
       "name": "SettingsOutlined",
-      "tags": [],
-      "use-cases": []
+      "tags": ["settings", "configuration", "preferences", "gear"],
+      "use-cases": ["System settings interface", "Application preferences configuration", "Device parameter adjustment"]
     }
   }
 }
