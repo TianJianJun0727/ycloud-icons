@@ -8,22 +8,6 @@ on:
       - icons/**/*.svg
       - business-icons/**/*.svg
 
-  workflow_dispatch:
-    inputs:
-      version:
-        description: Version
-        required: true
-      tag:
-        required: true
-        description: NPM tag
-        default: 'latest'
-        type: choice
-        options:
-          - latest
-          - next
-          - beta
-          - alpha
-
 permissions:
   id-token: write # Required for OIDC
   contents: write
@@ -301,12 +285,3 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
-
-  dispatch-release:
-    if: github.event_name == 'workflow_dispatch'
-    uses: './.github/workflows/release.yml'
-    secrets: inherit
-    with:
-      version: ${{ inputs.version }}
-      tag: ${{ inputs.tag }}
-      ref: v${{ inputs.version }}
