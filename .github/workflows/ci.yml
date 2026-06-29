@@ -195,9 +195,13 @@ jobs:
           YCLOUD_AI_CHANGELOG: '1'
           YCLOUD_AI_CHANGELOG_VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
         run: |
+          set -euo pipefail
+
           release_branch="release/v${VERSION}"
+          remote_branch_exists="false"
 
           if git ls-remote --exit-code --heads origin "$release_branch" >/dev/null 2>&1; then
+            remote_branch_exists="true"
             git fetch origin "$release_branch"
             git switch "$release_branch"
             git reset --hard "origin/$release_branch"
@@ -216,12 +220,17 @@ jobs:
           if git diff --cached --quiet; then
             echo "No release preparation changes to commit."
           else
-            git config user.name "ycloud-icons-source-bot[bot]"
-            git config user.email "ycloud-icons-source-bot[bot]@users.noreply.github.com"
+            bot_login="$(gh api user --jq '.login')"
+            git config user.name "$bot_login"
+            git config user.email "${bot_login}@users.noreply.github.com"
             HUSKY=0 git commit -m "chore(release): prepare v${VERSION}"
           fi
 
-          git push --force-with-lease origin "$release_branch"
+          if [[ "$remote_branch_exists" == "true" ]]; then
+            git push --force-with-lease origin "$release_branch"
+          else
+            git push -u origin "$release_branch"
+          fi
 
           pr_number="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$release_branch" --state open --json number --jq '.[0].number // empty')"
           if [[ -z "$pr_number" ]]; then
@@ -246,10 +255,13 @@ jobs:
 
       - name: Wait for release PR and push tag
         run: |
+          set -euo pipefail
+
           pr_number="${{ steps.release-pr.outputs.number }}"
           merge_commit=""
 
-          for attempt in {1..80}; do
+          echo "Waiting for release preparation PR #${pr_number} to merge (max ${MAX_WAIT_ATTEMPTS} attempts)."
+          for attempt in $(seq 1 "$MAX_WAIT_ATTEMPTS"); do
             pr_json="$(gh pr view "$pr_number" --repo "$GITHUB_REPOSITORY" --json state,mergeCommit)"
             state="$(jq -r '.state' <<< "$pr_json")"
 
@@ -263,12 +275,13 @@ jobs:
               exit 1
             fi
 
-            echo "Waiting for release preparation PR #${pr_number} to merge... (${attempt}/80)"
-            sleep 30
+            echo "Waiting for release preparation PR #${pr_number} to merge... (${attempt}/${MAX_WAIT_ATTEMPTS})"
+            sleep "$WAIT_INTERVAL_SECONDS"
           done
 
           if [[ -z "$merge_commit" || "$merge_commit" == "null" ]]; then
-            echo "Timed out waiting for release preparation PR #${pr_number} to merge after 40 minutes." >&2
+            timeout_minutes=$((MAX_WAIT_ATTEMPTS * WAIT_INTERVAL_SECONDS / 60))
+            echo "Timed out waiting for release preparation PR #${pr_number} to merge after ${timeout_minutes} minutes." >&2
             echo "Check the PR for failing status checks or missing reviews:" >&2
             echo "  https://github.com/${GITHUB_REPOSITORY}/pull/${pr_number}" >&2
             exit 1
@@ -285,3 +298,5 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
+          MAX_WAIT_ATTEMPTS: 30
+          WAIT_INTERVAL_SECONDS: 30
