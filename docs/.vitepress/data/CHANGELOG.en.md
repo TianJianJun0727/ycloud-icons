@@ -2,6 +2,14 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.0 - 2026-06-29
+
+- Added categorized business icons with 89 new icons
+- Removed several icons including settings-outlined and business icons
+- Introduced Figma plugin for icon synchronization
+- Optimized build toolchain with Vite upgrade
+- Improved CI/CD workflows for more stable releases
+
 ## v0.1.12 - 2026-06-21
 
 - Improved the Astro example test container configuration to avoid default-container warnings.
