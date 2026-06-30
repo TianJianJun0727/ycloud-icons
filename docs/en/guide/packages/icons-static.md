@@ -45,7 +45,7 @@ No framework peer dependency.
 
 ```html
 <img
-  src="./node_modules/@ycloud-web/icons-static/business-icons/menu/billing.svg"
+  src="./node_modules/@ycloud-web/icons-static/business-icons/mono/billing.svg"
   alt="Billing"
 />
 ```

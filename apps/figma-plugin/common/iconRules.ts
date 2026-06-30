@@ -120,12 +120,54 @@ export function sanitizeSvg(svg: string) {
   return `${normalized}\n`;
 }
 
-export function sanitizeBusinessSvg(svg: string) {
+type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+
+function normalizeBusinessSvgColor(value: string, colorMode: BusinessIconColorMode) {
+  if (value === 'none' || value.startsWith('var(')) {
+    return value;
+  }
+  if (colorMode === 'multicolor') {
+    return value;
+  }
+  if (colorMode === 'mono') {
+    return 'currentColor';
+  }
+  if (value === 'currentColor') {
+    return 'var(--business-icon-primary-color)';
+  }
+  return isWhiteColor(value)
+    ? 'var(--business-icon-secondary-color)'
+    : 'var(--business-icon-primary-color)';
+}
+
+function isWhiteColor(value: string) {
+  const normalizedValue = value.trim().toLowerCase().replace(/\s+/g, '');
+  return (
+    normalizedValue === 'white' ||
+    normalizedValue === '#fff' ||
+    normalizedValue === '#ffffff' ||
+    normalizedValue === '#ffffffff' ||
+    normalizedValue === 'rgb(255,255,255)' ||
+    normalizedValue === 'rgba(255,255,255,1)'
+  );
+}
+
+export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMode = 'mono') {
   const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
   if (!openTag) return svg.trim();
+  const cleanedOpenTag =
+    colorMode === 'multicolor' || /\sfill="/i.test(openTag)
+      ? openTag
+      : openTag.replace(
+          /<svg\b/i,
+          colorMode === 'duotone'
+            ? '<svg fill="var(--business-icon-primary-color)"'
+            : '<svg fill="currentColor"',
+        );
   const referencedIds = new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
 
   const normalized = svg
+    .replace(openTag, cleanedOpenTag)
     .replace(
       /<\s*(?:script|foreignObject)\b[^>]*>[\s\S]*?<\s*\/\s*(?:script|foreignObject)\s*>/gi,
       '',
@@ -136,7 +178,10 @@ export function sanitizeBusinessSvg(svg: string) {
     .replace(/\sdata-[^\s=]+="[^"]*"/gi, '')
     .replace(/\sid="([^"]*)"/gi, (match, id) => (referencedIds.has(id) ? match : ''))
     .replace(/\s(?:href|xlink:href)="javascript:[^"]*"/gi, '')
-    .replace(/\s(fill|stroke)="(?!none\b|currentColor\b)[^"]+"/gi, ' $1="currentColor"')
+    .replace(/\s(fill|stroke)="([^"]+)"/gi, (_match, attr, value) => {
+      const normalizedColor = normalizeBusinessSvgColor(value, colorMode);
+      return ` ${attr}="${normalizedColor}"`;
+    })
     .replace(/>\s*</g, '>\n  <')
     .replace(/\s*\/>/g, ' />')
     .trim();

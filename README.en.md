@@ -11,7 +11,7 @@ It provides consistent icon source data, tree-shakable component packages, stati
 The repository maintains two icon asset families:
 
 - **Generic icons**: stored in `icons/`, using 24x24 linear SVGs, `icons/*.json` metadata, and the generic category system.
-- **Business icons**: stored in `business-icons/`, grouped by first-level business folders, preserving business-specific geometry, and exported through each package's `business` subpath plus `business-icons/` and `business-font/` in the static package.
+- **Business icons**: stored in `business-icons/`, grouped by first-level color-mode folders (`mono`, `duotone`, and `multicolor`), preserving business-specific geometry, and exported through each package's `business` subpath plus `business-icons/` and `business-font/` in the static package.
 
 ## Packages
 

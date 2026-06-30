@@ -7,7 +7,7 @@ description: Source, validation, and submission rules for business-specific SVG 
 
 `business-icons/` stores business-specific SVGs that should not enter the generic icon library.
 
-Generic icons live in `icons/` and follow the 24x24 linear `currentColor` rules with `stroke-width="2"` and metadata. Business icons use minimal cleanup instead: fixed colors, styles, and design-tool noise are removed, while size, stroke details, and geometry are preserved. They also do not enter the generic category and metadata system.
+Generic icons live in `icons/` and follow the 24x24 linear `currentColor` rules with `stroke-width="2"` and metadata. Business icons are split by color mode into mono, duotone, and multicolor sources. They use dedicated cleanup and validation rules, and they do not enter the generic category and metadata system.
 
 ## When to use it
 
@@ -22,46 +22,46 @@ If the artwork can become a generic linear icon, keep it in `icons/`.
 ## Directory
 
 ```text
-business-icons/<business-category>/<icon-name>.svg
-business-icons/<business-category>/index.json
+business-icons/<color-mode>/<icon-name>.svg
+business-icons/<color-mode>/index.json
 business-icons/index.json
 ```
 
-Business categories are represented by first-level folders. Each folder keeps its Chinese title, English title, and sort weight in `business-icons/<business-category>/index.json`. The root `business-icons/index.json` is generated for validation, the Figma plugin, docs, package generation, and duplicate-name checks.
+Business icon first-level folders now represent color modes instead of business categories. Each folder keeps its Chinese and English display title in `business-icons/<color-mode>/index.json`. The root `business-icons/index.json` is generated for validation, the Figma plugin, docs, package generation, and duplicate-name checks.
 
 The current allowed folders are:
 
 ```text
-inbox
-menu
-chatbot
-outlined
-filled
-basic
-filter
+mono
+duotone
+multicolor
 ```
 
-Business icons do not need per-SVG metadata JSON and are not included in the generic icon metadata system. They are generated into `business` subpath entries in the existing packages instead of being mixed into the generic default entries. Package component exports are still based on the SVG file name and do not include the category name, so SVG file names must remain unique across categories.
+Business icons do not need per-SVG metadata JSON and are not included in the generic icon metadata system. They are generated into `business` subpath entries in the existing packages instead of being mixed into the generic default entries. Package component exports are still based on the SVG file name and do not include the color mode, so SVG file names must remain unique across color-mode folders.
 
 ## Cleanup And Validation
 
-Business icons run through a dedicated business SVG cleanup pipeline. It does not reuse the generic 24x24 linear icon normalization rules; it only performs minimal cleanup.
+Business icons run through a dedicated business SVG cleanup pipeline. It does not reuse the generic 24x24 linear icon normalization rules, and it does not rewrite size, stroke details, or geometry.
 
 Business cleanup will:
 
 - remove `<script>`, `<foreignObject>`, event attributes, and `javascript:` URLs
 - remove design-tool noise such as `style`, `class`, unreferenced `id`, and `data-*`
-- convert hardcoded `fill` and `stroke` to `currentColor` or keep `none`
+- `mono`: convert hardcoded `fill` and `stroke` to `currentColor`, or keep `none`
+- `duotone`: convert white fills/strokes to `var(--business-icon-secondary-color)` and all other colors to `var(--business-icon-primary-color)`, without relying on path order
+- `multicolor`: keep fixed colors from the source SVG
 - preserve original `width`, `height`, `viewBox`, `stroke-width`, `stroke-linecap`, `stroke-linejoin`, and geometry
 
 Only baseline structure and safety checks run:
 
-- paths must use `business-icons/<business-category>/<icon-name>.svg`
-- business category folders must include `business-icons/<business-category>/index.json`
+- paths must use `business-icons/<color-mode>/<icon-name>.svg`
+- color-mode folders must include `business-icons/<color-mode>/index.json`
 - root `business-icons/index.json` must match `node ./scripts/writeBusinessIconIndex.mts`
 - file names must be lowercase kebab-case
 - the root element must be `<svg>`
-- `fill` and `stroke` may only be `currentColor` or `none`
+- `mono` `fill` and `stroke` may only be `currentColor` or `none`
+- `duotone` `fill` and `stroke` may only be `var(--business-icon-primary-color)`, `var(--business-icon-secondary-color)`, or `none`
+- `multicolor` may keep fixed colors, but still runs through the safety checks
 - style and design-tool attributes such as `style`, `class`, and `data-*` are not allowed
 - `<script>` and `<foreignObject>` are not allowed
 - event attributes such as `onclick` are not allowed
@@ -79,8 +79,8 @@ node ./scripts/checkBusinessSvgSource.mts
 
 When “Business icons” is selected in the Figma plugin, the plugin will:
 
-- choose a business category from a single-select dropdown
-- submit files to `business-icons/<business-category>/*.svg`
+- choose Mono, Duotone, or Multicolor
+- submit files to `business-icons/<color-mode>/*.svg`
 - clean SVGs with the business SVG rules before submission
 - skip `icons/*.json` generation
 - skip generic multi-category, tag, and use-case requirements
@@ -103,13 +103,13 @@ pnpm add @ycloud-web/icons
 ```ts
 import {
   businessIcons,
-  whatsappBusinessDataUri,
-  whatsappBusinessSvg,
+  billingDataUri,
+  billingSvg,
 } from '@ycloud-web/icons/business';
 
-const svg = whatsappBusinessSvg;
-const imageSrc = whatsappBusinessDataUri;
-const icon = businessIcons['whatsapp-business'];
+const svg = billingSvg;
+const imageSrc = billingDataUri;
+const icon = businessIcons['billing'];
 ```
 
 ### React package
@@ -121,30 +121,49 @@ pnpm add @ycloud-web/icons-react
 ```
 
 ```tsx
-import { WhatsappBusiness } from '@ycloud-web/icons-react/business';
+import { Billing } from '@ycloud-web/icons-react/business';
 
 export function ChannelIcon() {
-  return <WhatsappBusiness size={24} />;
+  return (
+    <Billing
+      size={24}
+      color="#111827"
+    />
+  );
 }
 ```
 
-React components render an `<img>` backed by the cleaned business SVG data URI.
+React business icon components render inline `<svg>`. `mono` and `duotone` support `size` and `color`; `duotone` also supports `secondaryColor`, defaulting to `#fff`. `multicolor` keeps fixed source colors and only supports size changes.
+
+```tsx
+import { Shopify } from '@ycloud-web/icons-react/business';
+
+export function DuotoneIcon() {
+  return (
+    <Shopify
+      size={24}
+      color="#111827"
+      secondaryColor="#fff"
+    />
+  );
+}
+```
 
 Other framework packages use the same `business` subpath pattern:
 
 ```ts
-import { WhatsappBusiness } from '@ycloud-web/icons-preact/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-vue/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-solid/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-svelte/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-astro/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-react-native/business';
+import { Billing } from '@ycloud-web/icons-preact/business';
+import { Billing } from '@ycloud-web/icons-vue/business';
+import { Billing } from '@ycloud-web/icons-solid/business';
+import { Billing } from '@ycloud-web/icons-svelte/business';
+import { Billing } from '@ycloud-web/icons-astro/business';
+import { Billing } from '@ycloud-web/icons-react-native/business';
 ```
 
 The Angular package exports business icon definitions for direct data URI binding:
 
 ```ts
-import { whatsappBusinessDataUri } from '@ycloud-web/icons-angular';
+import { billingDataUri } from '@ycloud-web/icons-angular';
 ```
 
 ### Static package
@@ -156,7 +175,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import whatsappBusinessIconUrl from '@ycloud-web/icons-static/business-icons/inbox/whatsapp-business.svg';
+import billingIconUrl from '@ycloud-web/icons-static/business-icons/mono/billing.svg';
 ```
 
 Business icons also generate a separate icon font. It is not mixed into the generic `font/ycloud.css` output:
@@ -166,7 +185,7 @@ Business icons also generate a separate icon font. It is not mixed into the gene
 ```
 
 ```html
-<div class="business-icon-whatsapp-business"></div>
+<div class="business-icon-billing"></div>
 ```
 
-Business icons only clear fixed colors, styles, and design-tool noise; size, stroke details, and geometry are not rewritten.
+Static SVGs and data packages keep the cleaned color tokens. During React package generation, duotone primary and secondary tokens are converted to `color` and `secondaryColor` props; multicolor icons always keep their fixed source colors.

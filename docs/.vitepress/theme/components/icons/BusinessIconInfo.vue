@@ -36,6 +36,8 @@ const isCurrentDetail = computed(() => {
 });
 
 const svgFileName = computed(() => props.icon.path.split('/').at(-1) ?? `${props.icon.name}.svg`);
+const isMulticolor = computed(() => props.icon.colorMode === 'multicolor');
+const supportsPrimaryColor = computed(() => !isMulticolor.value);
 
 function getCustomizedSvg() {
   const parser = new DOMParser();
@@ -47,12 +49,24 @@ function getCustomizedSvg() {
   svg.setAttribute('width', normalizedSize);
   svg.setAttribute('height', normalizedSize);
 
-  if (normalizedColor !== 'currentColor') {
+  if (supportsPrimaryColor.value && normalizedColor !== 'currentColor') {
     svg.querySelectorAll('[fill="currentColor"]').forEach((node) => {
       node.setAttribute('fill', normalizedColor);
     });
     svg.querySelectorAll('[stroke="currentColor"]').forEach((node) => {
       node.setAttribute('stroke', normalizedColor);
+    });
+    svg.querySelectorAll('[fill="var(--business-icon-primary-color)"]').forEach((node) => {
+      node.setAttribute('fill', normalizedColor);
+    });
+    svg.querySelectorAll('[stroke="var(--business-icon-primary-color)"]').forEach((node) => {
+      node.setAttribute('stroke', normalizedColor);
+    });
+    svg.querySelectorAll('[fill="var(--business-icon-secondary-color)"]').forEach((node) => {
+      node.setAttribute('fill', '#fff');
+    });
+    svg.querySelectorAll('[stroke="var(--business-icon-secondary-color)"]').forEach((node) => {
+      node.setAttribute('stroke', '#fff');
     });
   }
 
@@ -107,8 +121,8 @@ function copyJSX() {
     attrs.push(`size={${size.value}}`);
   }
 
-  if (color.value && color.value !== 'currentColor') {
-    attrs.push(`style={{ color: '${color.value}' }}`);
+  if (supportsPrimaryColor.value && color.value && color.value !== 'currentColor') {
+    attrs.push(`color="${color.value}"`);
   }
 
   navigator.clipboard.writeText(`<${props.icon.componentName}${attrs.join(' ')} />`);
@@ -121,10 +135,6 @@ function copyVue() {
     attrs.push(`:size="${size.value}"`);
   }
 
-  if (color.value && color.value !== 'currentColor') {
-    attrs.push(`:style="{ color: '${color.value}' }"`);
-  }
-
   navigator.clipboard.writeText(`<${props.icon.componentName}${attrs.join(' ')} />`);
 }
 
@@ -135,10 +145,6 @@ function copySvelte() {
     attrs.push(`size={${size.value}}`);
   }
 
-  if (color.value && color.value !== 'currentColor') {
-    attrs.push(`style="color: ${color.value}"`);
-  }
-
   navigator.clipboard.writeText(`<${props.icon.componentName}${attrs.join(' ')} />`);
 }
 
@@ -147,10 +153,6 @@ function copyAngular() {
 
   if (size.value && size.value !== 24) {
     attrs.push(`[size]="${size.value}"`);
-  }
-
-  if (color.value && color.value !== 'currentColor') {
-    attrs.push(`[style.color]="'${color.value}'"`);
   }
 
   navigator.clipboard.writeText(`<${props.icon.componentName}${attrs.join(' ')} />`);
@@ -185,11 +187,18 @@ function openDetail(event: MouseEvent) {
     </div>
 
     <div class="business-icon-description">
-      {{ isEnglish ? 'Business-specific SVG icon' : '业务专有 SVG 图标' }}
+      {{
+        isEnglish
+          ? `${icon.englishCategoryTitle} business SVG icon`
+          : `${icon.categoryTitle}业务 SVG 图标`
+      }}
     </div>
 
     <div class="group">
-      <Badge :href="`${isEnglish ? '/en' : ''}/business-icons/#${icon.category}`">
+      <Badge
+        :href="`${isEnglish ? '/en' : ''}/business-icons/#${icon.category}`"
+        :title="isEnglish ? 'Color mode' : '颜色类型'"
+      >
         {{ isEnglish ? icon.englishCategoryTitle : icon.categoryTitle }}
       </Badge>
       <Badge :title="isEnglish ? 'Component export name' : '组件导出名'">

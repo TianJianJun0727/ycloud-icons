@@ -44,6 +44,7 @@ async function sendStorageData() {
       fileName: 'icons',
       ycloud: storedYCloudMetadata || {
         categories: [],
+        businessColorMode: 'mono',
         businessCategory: '',
         tagsZh: [],
         useCasesZh: [],

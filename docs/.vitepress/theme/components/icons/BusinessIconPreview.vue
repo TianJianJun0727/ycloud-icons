@@ -21,6 +21,8 @@ defineProps<{
   width: var(--business-preview-size, calc(var(--customize-size, 24) * 1px));
   height: var(--business-preview-size, calc(var(--customize-size, 24) * 1px));
   color: var(--customize-color, var(--vp-c-text-1));
+  --business-icon-primary-color: var(--customize-color, var(--vp-c-text-1));
+  --business-icon-secondary-color: #fff;
 }
 
 .business-icon-preview :deep(svg) {

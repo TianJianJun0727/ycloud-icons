@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const BUSINESS_ICONS_DIR = 'business-icons';
 const BUSINESS_ICON_INDEX_FILE = path.join(BUSINESS_ICONS_DIR, 'index.json');
 const BUSINESS_CATEGORY_CONFIG_FILE = 'index.json';
+const BUSINESS_ICON_COLOR_MODES = ['mono', 'duotone', 'multicolor'] as const;
 
 type BusinessCategoryConfig = {
   $schema?: string;
@@ -37,7 +38,13 @@ async function readBusinessCategories() {
     const entries = await fs.readdir(BUSINESS_ICONS_DIR, { withFileTypes: true });
     const categories = await Promise.all(
       entries
-        .filter((entry) => entry.isDirectory())
+        .filter(
+          (entry) =>
+            entry.isDirectory() &&
+            BUSINESS_ICON_COLOR_MODES.includes(
+              entry.name as (typeof BUSINESS_ICON_COLOR_MODES)[number],
+            ),
+        )
         .map(async (entry) => {
           const configPath = path.join(
             BUSINESS_ICONS_DIR,

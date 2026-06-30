@@ -56,12 +56,17 @@ function buildBusinessIconFiles(
   icons: Record<string, YCloudIconData>,
   metadata: YCloudMetadataOptions,
 ) {
-  const businessCategory = toKebabCase(metadata.businessCategory || 'uncategorized');
+  const businessColorMode =
+    metadata.businessColorMode === 'multicolor' || metadata.businessCategory === 'multicolor'
+      ? 'multicolor'
+      : metadata.businessColorMode === 'duotone' || metadata.businessCategory === 'duotone'
+        ? 'duotone'
+        : 'mono';
   return Object.entries(icons).map(([key, icon]) => {
     const name = toKebabCase(icon.name || key);
     return {
-      path: `business-icons/${businessCategory}/${name}.svg`,
-      content: sanitizeBusinessSvg(icon.sourceSvg ?? icon.svg),
+      path: `business-icons/${businessColorMode}/${name}.svg`,
+      content: sanitizeBusinessSvg(icon.sourceSvg ?? icon.svg, businessColorMode),
     };
   });
 }
@@ -222,7 +227,7 @@ export function createGithubClient(
         '来源：Figma 插件',
         '',
         sourceType === 'business'
-          ? `本次提交 ${iconCount} 个业务图标，分类目录为 \`business-icons/${toKebabCase(metadata.businessCategory)}/\`。SVG 已按业务规则轻量清洗。`
+          ? `本次提交 ${iconCount} 个业务图标，颜色类型为 \`business-icons/${metadata.businessColorMode || 'mono'}/\`。SVG 已按业务规则轻量清洗。`
           : `本次提交 ${iconCount} 个图标。SVG 已按图标库规范自动清洗。`,
         '',
         '变更文件：',

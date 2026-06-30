@@ -36,6 +36,7 @@ export interface PngOptionPayload {
 }
 export interface YCloudMetadataOptions {
   categories: string[];
+  businessColorMode: 'mono' | 'duotone' | 'multicolor';
   businessCategory: string;
   tagsZh: string[];
   useCasesZh: string[];

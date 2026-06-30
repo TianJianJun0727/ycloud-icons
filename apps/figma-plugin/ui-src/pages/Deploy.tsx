@@ -12,7 +12,7 @@ import {
   sanitizeSvg,
   toKebabCase,
 } from '../../common/iconRules';
-import type { BusinessIconCategory, IconSourceType, YCloudIconData } from '../../common/types';
+import type { IconSourceType, YCloudIconData } from '../../common/types';
 import { useAppDispatch, useAppState } from '../contexts/AppContext';
 import styles from './Deploy.module.css';
 
@@ -49,7 +49,15 @@ type GitHubTree = {
 };
 
 type BusinessIconIndex = {
-  categories: BusinessIconCategory[];
+  categories: Array<{
+    name: string;
+    title: string;
+    i18n: {
+      en: {
+        title: string;
+      };
+    };
+  }>;
   icons?: Array<{
     name?: string;
     category?: string;
@@ -59,6 +67,11 @@ type BusinessIconIndex = {
 };
 
 const GITHUB_API_VERSION = '2022-11-28';
+const businessColorModes = [
+  { value: 'mono', label: '单色', description: 'business-icons/mono' },
+  { value: 'duotone', label: '双色', description: 'business-icons/duotone' },
+  { value: 'multicolor', label: '多色', description: 'business-icons/multicolor' },
+] as const;
 
 const getPreviewTooltip = (
   name: string,
@@ -107,7 +120,6 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     deployResult,
   } = useAppState();
   const [categories, setCategories] = useState<Category[]>([]);
-  const [businessCategories, setBusinessCategories] = useState<BusinessIconCategory[]>([]);
   const [existingGenericIconNames, setExistingGenericIconNames] = useState<string[]>([]);
   const [existingBusinessIconNames, setExistingBusinessIconNames] = useState<string[]>([]);
   const [categoryQuery, setCategoryQuery] = useState('');
@@ -163,7 +175,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       iconQualityByName,
       selectedIcons,
       sourceType,
-      ycloudMetadata.businessCategory,
+      ycloudMetadata.businessColorMode,
     ],
   );
   const skippedExistingIconCount = selectedIcons.length - deployableSelectedIcons.length;
@@ -177,12 +189,12 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             ...data,
             svg:
               sourceType === 'business'
-                ? sanitizeBusinessSvg(data.sourceSvg ?? data.svg)
+                ? sanitizeBusinessSvg(data.sourceSvg ?? data.svg, ycloudMetadata.businessColorMode)
                 : sanitizeSvg(data.svg),
           },
         ]),
       ),
-    [deployableSelectedIcons, sourceType],
+    [deployableSelectedIcons, sourceType, ycloudMetadata.businessColorMode],
   );
 
   useEffect(() => {
@@ -217,7 +229,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     iconPreview,
     iconQualityByName,
     sourceType,
-    ycloudMetadata.businessCategory,
+    ycloudMetadata.businessColorMode,
   ]);
 
   const updateMetadata = (patch: Partial<typeof ycloudMetadata>) => {
@@ -339,11 +351,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       setCategories(
         nextCategories.sort((left, right) => left.title.localeCompare(right.title, 'zh-Hans-CN')),
       );
-      setBusinessCategories(businessIndex.categories);
       setExistingGenericIconNames(nextExistingIconNames);
       setExistingBusinessIconNames(nextExistingBusinessIconNames);
       setCategoryMessage(
-        `已同步 ${nextCategories.length} 个已有分类、${businessIndex.categories.length} 个业务分类、${nextExistingIconNames.length} 个通用图标、${nextExistingBusinessIconNames.length} 个业务图标。`,
+        `已同步 ${nextCategories.length} 个已有分类、${nextExistingIconNames.length} 个通用图标、${nextExistingBusinessIconNames.length} 个业务图标。`,
       );
     } catch (error) {
       setCategoryMessage(
@@ -358,7 +369,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     if (
       hasAutoLoadedCategories.current ||
       isLoadingCategories ||
-      (categories.length > 0 && businessCategories.length > 0) ||
+      categories.length > 0 ||
       !githubData.owner ||
       !githubData.name ||
       !githubApiKey
@@ -367,14 +378,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     }
     hasAutoLoadedCategories.current = true;
     void loadCategories();
-  }, [
-    businessCategories.length,
-    categories.length,
-    githubApiKey,
-    githubData.name,
-    githubData.owner,
-    isLoadingCategories,
-  ]);
+  }, [categories.length, githubApiKey, githubData.name, githubData.owner, isLoadingCategories]);
 
   const allCategoryOptions = useMemo(
     () =>
@@ -401,14 +405,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     icons.length === 0 ? '图标源' : '',
     deployableSelectedIcons.length === 0 ? '本次提交图标' : '',
     sourceType === 'generic' && ycloudMetadata.categories.length === 0 ? '分类' : '',
-    sourceType === 'business' && ycloudMetadata.businessCategory === '' ? '业务分类' : '',
+    sourceType === 'business' && ycloudMetadata.businessColorMode === undefined ? '颜色类型' : '',
   ].filter(Boolean);
   const canDeploy =
     githubApiKey !== '' &&
     githubRepositoryUrl !== '' &&
     deployableSelectedIcons.length > 0 &&
     (sourceType === 'business'
-      ? ycloudMetadata.businessCategory !== ''
+      ? ycloudMetadata.businessColorMode !== undefined
       : ycloudMetadata.categories.length > 0) &&
     !isDeploying;
 
@@ -472,16 +476,16 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         </div>
         <p className={styles.sourceHint}>
           {sourceType === 'business'
-            ? '当前提交到 business-icons/<分类>/*.svg，不需要通用元数据。'
+            ? '当前提交到 business-icons/<颜色类型>/*.svg，不需要通用元数据。'
             : '当前提交到 icons/*.svg，需要分类和通用元数据。'}
         </p>
       </section>
 
       {sourceType === 'business' && (
         <section className={styles.card}>
-          <h2 className={styles.title}>业务分类</h2>
+          <h2 className={styles.title}>颜色类型</h2>
           <div className={styles.row}>
-            <p className={styles.muted}>选择 business-icons 下已配置的目录。</p>
+            <p className={styles.muted}>选择业务图标需要几个可传入颜色。</p>
             <button
               className={styles.secondaryButton}
               type="button"
@@ -502,21 +506,23 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             </p>
           )}
           <div className={styles.fieldGroup}>
-            <span className={styles.label}>目标目录</span>
+            <span className={styles.label}>颜色类型</span>
             <select
               className={styles.input}
-              value={ycloudMetadata.businessCategory}
+              value={ycloudMetadata.businessColorMode}
               onChange={(event) => {
-                updateMetadata({ businessCategory: event.currentTarget.value });
+                updateMetadata({
+                  businessColorMode: event.currentTarget.value as 'mono' | 'duotone' | 'multicolor',
+                  businessCategory: event.currentTarget.value,
+                });
               }}
             >
-              <option value="">请选择业务分类</option>
-              {businessCategories.map((category) => (
+              {businessColorModes.map((mode) => (
                 <option
-                  key={category.name}
-                  value={category.name}
+                  key={mode.value}
+                  value={mode.value}
                 >
-                  {category.title} / {category.i18n.en.title}
+                  {mode.label} / {mode.description}
                 </option>
               ))}
             </select>
@@ -524,7 +530,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               图标将提交到{' '}
               <strong>
                 business-icons/
-                {ycloudMetadata.businessCategory || '<分类>'}/
+                {ycloudMetadata.businessColorMode}/
               </strong>
               目录。
             </p>
@@ -739,7 +745,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               sourceType,
             );
             const previewSvg =
-              sourceType === 'business' ? sanitizeBusinessSvg(data.sourceSvg ?? svg) : svg;
+              sourceType === 'business'
+                ? sanitizeBusinessSvg(data.sourceSvg ?? svg, ycloudMetadata.businessColorMode)
+                : svg;
             return (
               <label
                 className={styles.previewItem}
@@ -839,7 +847,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         ) : (
           <p className={styles.footerHint}>
             {sourceType === 'business'
-              ? `将提交到 business-icons/${ycloudMetadata.businessCategory || '<分类>'}/，并执行业务 SVG 轻量清洗。`
+              ? `将提交到 business-icons/${ycloudMetadata.businessColorMode}/，并执行业务 SVG 轻量清洗。`
               : '将提交 SVG、图标信息和必要的分类信息。'}
           </p>
         )}

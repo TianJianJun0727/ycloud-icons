@@ -35,6 +35,7 @@ export interface BusinessIconEntity {
   name: string;
   displayName: string;
   category: string;
+  colorMode: string;
   categoryTitle: string;
   englishCategoryTitle: string;
   componentName: string;
