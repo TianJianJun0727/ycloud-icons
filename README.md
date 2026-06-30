@@ -11,7 +11,7 @@ YCloud Icons 是 YCloud 的多框架 SVG 图标组件库，面向产品前端、
 仓库同时维护两类图标资产：
 
 - **通用图标**：位于 `icons/`，使用 24x24 线性 SVG、`icons/*.json` 元数据和通用分类体系。
-- **业务图标**：位于 `business-icons/`，按一级目录区分业务分类，保留业务图形自身几何结构，通过各包的 `business` 子入口和静态包的 `business-icons/`、`business-font/` 输出。
+- **业务图标**：位于 `business-icons/`，按 `mono`、`duotone`、`multicolor` 一级目录区分颜色模式，保留业务图形自身几何结构，通过各包的 `business` 子入口和静态包的 `business-icons/`、`business-font/` 输出。
 
 ## 包
 

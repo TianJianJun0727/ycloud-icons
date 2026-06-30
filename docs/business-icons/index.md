@@ -3,7 +3,7 @@ title: 业务图标
 description: 浏览全部 YCloud Icons 业务图标。
 layout: page
 outline: 2
-outlineTitle: 分类
+outlineTitle: 颜色类型
 sidebar: true
 head:
   - - link

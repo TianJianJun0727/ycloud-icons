@@ -3,7 +3,7 @@ title: Business icons
 description: Browse all YCloud Icons business icons.
 layout: page
 outline: 2
-outlineTitle: Categories
+outlineTitle: Color modes
 sidebar: true
 head:
   - - link

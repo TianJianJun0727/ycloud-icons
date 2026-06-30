@@ -73,6 +73,7 @@ export default {
 
             return {
               category,
+              colorMode: category,
               categoryTitle: categoryByName.get(category)?.title ?? category,
               englishCategoryTitle: categoryByName.get(category)?.englishTitle ?? category,
               name,

@@ -6,32 +6,9 @@ type CodeExampleType = {
   code: string;
 }[];
 
-const getBusinessIconCodes = (): CodeExampleType => [
-  {
-    language: 'html',
-    title: 'Vanilla',
-    code: `<script type="module">
-import { $CamelCaseDataUri } from '@ycloud-web/icons/business';
+type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
 
-document.querySelector('#$Name').src = $CamelCaseDataUri;
-</script>
-
-<img id="$Name" alt="" width="24" height="24">`,
-  },
-  {
-    language: 'tsx',
-    title: 'React',
-    code: `import { $PascalCase } from '@ycloud-web/icons-react/business';
-
-const App = () => {
-  return (
-    <$PascalCase size={24} />
-  );
-};
-
-export default App;
-`,
-  },
+const getSharedImageComponentCodes = (): CodeExampleType => [
   {
     language: 'vue',
     title: 'Vue',
@@ -93,26 +70,142 @@ iconSrc = $CamelCaseDataUri;
 <!-- app.component.html -->
 <img [src]="iconSrc" alt="" width="24" height="24">`,
   },
+];
+
+const getMonoBusinessIconCodes = (): CodeExampleType => [
+  {
+    language: 'html',
+    title: 'Vanilla',
+    code: `<script type="module">
+import { $CamelCaseSvg } from '@ycloud-web/icons/business';
+
+const icon = document.querySelector('#$Name');
+icon.innerHTML = $CamelCaseSvg;
+icon.style.color = '#128C7E';
+</script>
+
+<span id="$Name" aria-hidden="true"></span>`,
+  },
+  {
+    language: 'tsx',
+    title: 'React',
+    code: `import { $PascalCase } from '@ycloud-web/icons-react/business';
+
+const App = () => {
+  return (
+    <$PascalCase size={24} color="#128C7E" />
+  );
+};
+
+export default App;
+`,
+  },
+  ...getSharedImageComponentCodes(),
   {
     language: 'html',
     title: 'Icon font',
-    code: `<div class="business-icon-$Name"></div>`,
+    code: `<i class="business-icon-$Name" style="color: #128C7E;"></i>`,
   },
 ];
 
+const getDuotoneBusinessIconCodes = (): CodeExampleType => [
+  {
+    language: 'html',
+    title: 'Vanilla',
+    code: `<script type="module">
+import { $CamelCaseSvg } from '@ycloud-web/icons/business';
+
+const icon = document.querySelector('#$Name');
+icon.innerHTML = $CamelCaseSvg;
+icon.style.setProperty('--business-icon-primary-color', '#128C7E');
+icon.style.setProperty('--business-icon-secondary-color', '#FFFFFF');
+</script>
+
+<span id="$Name" aria-hidden="true"></span>`,
+  },
+  {
+    language: 'tsx',
+    title: 'React',
+    code: `import { $PascalCase } from '@ycloud-web/icons-react/business';
+
+const App = () => {
+  return (
+    <$PascalCase
+      size={24}
+      color="#128C7E"
+      secondaryColor="#FFFFFF"
+    />
+  );
+};
+
+export default App;
+`,
+  },
+  ...getSharedImageComponentCodes(),
+];
+
+const getMulticolorBusinessIconCodes = (): CodeExampleType => [
+  {
+    language: 'html',
+    title: 'Vanilla',
+    code: `<script type="module">
+import { $CamelCaseDataUri } from '@ycloud-web/icons/business';
+
+document.querySelector('#$Name').src = $CamelCaseDataUri;
+</script>
+
+<img id="$Name" alt="" width="24" height="24">`,
+  },
+  {
+    language: 'tsx',
+    title: 'React',
+    code: `import { $PascalCase } from '@ycloud-web/icons-react/business';
+
+const App = () => {
+  return (
+    <$PascalCase size={24} />
+  );
+};
+
+export default App;
+`,
+  },
+  ...getSharedImageComponentCodes(),
+];
+
+const getBusinessIconCodes = (colorMode: BusinessIconColorMode): CodeExampleType => {
+  if (colorMode === 'duotone') {
+    return getDuotoneBusinessIconCodes();
+  }
+
+  if (colorMode === 'multicolor') {
+    return getMulticolorBusinessIconCodes();
+  }
+
+  return getMonoBusinessIconCodes();
+};
+
 export default async function createBusinessCodeExamples() {
-  const codes = getBusinessIconCodes();
+  const codeExampleEntries = await Promise.all(
+    (['mono', 'duotone', 'multicolor'] as const).map(async (colorMode) => {
+      const codes = getBusinessIconCodes(colorMode);
 
-  const codeExamplePromises = codes.map(async ({ title, language, code }, index) => {
-    const isFirst = index === 0;
-    const codeString = await highLightCode(code, language, isFirst);
+      const codeExamples = await Promise.all(
+        codes.map(async ({ title, language, code }, index) => {
+          const isFirst = index === 0;
+          const codeString = await highLightCode(code, language, isFirst);
 
-    return {
-      title,
-      language,
-      code: codeString,
-    };
-  });
+          return {
+            title,
+            language,
+            code: codeString,
+          };
+        }),
+      );
 
-  return Promise.all(codeExamplePromises);
+      return [colorMode, codeExamples] as const;
+    }),
+  );
+
+  return Object.fromEntries(codeExampleEntries) as Record<BusinessIconColorMode, CodeExampleType>;
 }

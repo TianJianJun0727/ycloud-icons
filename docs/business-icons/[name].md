@@ -18,11 +18,17 @@ import { data } from './codeExamples.data'
 
 const { params } = useData()
 
-const tabs = computed(() => data.codeExamples?.map(
+const codeExamples = computed(() => {
+  const colorMode = params.value.colorMode ?? 'mono'
+
+  return data.codeExamples?.[colorMode] ?? data.codeExamples?.mono ?? []
+})
+
+const tabs = computed(() => codeExamples.value.map(
   (codeExample) => codeExample.title) ?? []
 )
 
-const codeExample = computed(() => data.codeExamples?.map(
+const codeExample = computed(() => codeExamples.value.map(
     (codeExample) => {
       const pascalCaseName = params.value.componentName
       const camelCaseName = `${pascalCaseName.charAt(0).toLowerCase()}${pascalCaseName.slice(1)}`

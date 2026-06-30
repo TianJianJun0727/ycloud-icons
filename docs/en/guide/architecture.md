@@ -15,7 +15,7 @@ The main flow looks like this:
 
 ```text
 icons/*.svg + icons/*.json
-business-icons/<category>/*.svg + business-icons/<category>/index.json
+business-icons/<color-mode>/*.svg + business-icons/<color-mode>/index.json
   -> validation and SVG optimization
   -> package generation for each framework
   -> documentation data generation
@@ -39,11 +39,11 @@ business-icons/
 - `icons/*.svg`: the icon artwork
 - `icons/*.json`: icon metadata, such as categories, tags, and localized display data
 - `categories/*.json`: category definitions, Chinese titles, and English titles
-- `business-icons/<category>/*.svg`: business-specific icon artwork
-- `business-icons/<category>/index.json`: localized business category titles and sort order
+- `business-icons/<color-mode>/*.svg`: business-specific icon artwork; the first-level folder must be `mono`, `duotone`, or `multicolor`
+- `business-icons/<color-mode>/index.json`: localized business color-mode titles
 - `business-icons/index.json`: generated index consumed by validation, the Figma plugin, docs, and package generation
 
-The icon shape and the icon meaning are both stored in source control instead of being scattered through documentation or framework components. Generic icons have per-icon metadata. Business icons keep category metadata only, and package export names are still derived from file names.
+The icon shape and the icon meaning are both stored in source control instead of being scattered through documentation or framework components. Generic icons have per-icon metadata. Business icons keep color-mode folder metadata only, and package export names are still derived from file names.
 
 ### 2. Generation And Validation
 
@@ -119,12 +119,12 @@ It has a few practical benefits:
 Business icons use a different model:
 
 ```text
-business-icons/<category>/<name>.svg
-business-icons/<category>/index.json
+business-icons/<color-mode>/<name>.svg
+business-icons/<color-mode>/index.json
 business-icons/index.json
 ```
 
-Business icons do not keep a JSON file next to every SVG. The category comes from the first-level folder, localized category titles come from the folder `index.json`, and the root `business-icons/index.json` is generated for the Figma plugin, docs, duplicate-name checks, and package generation.
+Business icons do not keep a JSON file next to every SVG. The first-level folder represents the color mode: `mono` converts fixed colors to `currentColor`, `duotone` maps white to the secondary token and all other colors to the primary token, and `multicolor` keeps fixed colors. The root `business-icons/index.json` is generated for the Figma plugin color-mode selector, docs, duplicate-name checks, and package generation.
 
 ## Package Structure
 
@@ -203,7 +203,7 @@ Documentation scripts generate:
 - icon node data
 - icon detail data
 - category metadata
-- business icon category and detail data
+- business icon color-mode and detail data
 - related icon relationships
 - release metadata
 - changelog content

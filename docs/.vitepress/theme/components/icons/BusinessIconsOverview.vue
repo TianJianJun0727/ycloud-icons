@@ -21,7 +21,7 @@ const activeIcon = ref<BusinessIconEntity | null>(null);
 
 const categoryOptions = computed(() => [
   {
-    name: isEnglish.value ? 'All categories' : '全部分类',
+    name: isEnglish.value ? 'All color modes' : '全部颜色类型',
     value: 'all',
   },
   ...props.categories.map((category) => ({
@@ -105,7 +105,7 @@ const groupedIcons = computed(() =>
           :aria-label="
             isEnglish
               ? `Permalink to &quot;${group.category.englishTitle}&quot;`
-              : `跳转到“${group.category.title}”分类`
+              : `跳转到“${group.category.title}”颜色类型`
           "
           >&ZeroWidthSpace;</a
         >

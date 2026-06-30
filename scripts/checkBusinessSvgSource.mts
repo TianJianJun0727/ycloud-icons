@@ -13,6 +13,7 @@ import { buildBusinessIconIndex } from './writeBusinessIconIndex.mts';
 const BUSINESS_ICONS_DIR = 'business-icons';
 const BUSINESS_ICON_INDEX_FILE = path.join(BUSINESS_ICONS_DIR, 'index.json');
 const SVG_FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*\.svg$/;
+const BUSINESS_ICON_COLOR_MODES = ['mono', 'duotone', 'multicolor'] as const;
 
 type BusinessIconIndex = {
   categories: Array<{
@@ -49,9 +50,9 @@ export function validateBusinessSvgFileName(file: string, categoryNames: Set<str
   const errors: string[] = [];
 
   if (segments.length !== 2) {
-    errors.push(`Business SVG must be stored as "business-icons/<category>/<icon-name>.svg".`);
+    errors.push(`Business SVG must be stored as "business-icons/<color-mode>/<icon-name>.svg".`);
   } else if (!categoryNames.has(segments[0])) {
-    errors.push(`Business SVG category must be one of: ${Array.from(categoryNames).join(', ')}.`);
+    errors.push(`Business SVG color mode must be one of: ${BUSINESS_ICON_COLOR_MODES.join(', ')}.`);
   }
 
   if (!SVG_FILENAME_PATTERN.test(fileName)) {
@@ -83,7 +84,7 @@ function collectReferencedIds(svg: string) {
   return new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
 }
 
-function walk(errors: string[], node: INode, referencedIds: Set<string>) {
+function walk(errors: string[], node: INode, referencedIds: Set<string>, colorMode: string) {
   const name = node.name.toLowerCase();
   const attributes = node.attributes ?? {};
 
@@ -108,8 +109,14 @@ function walk(errors: string[], node: INode, referencedIds: Set<string>) {
       errors.push(`<${node.name}> must not use event handler attribute "${attr}".`);
     }
 
-    if (/^(fill|stroke)$/i.test(attr) && value !== 'none' && value !== 'currentColor') {
-      errors.push(`<${node.name}> must use "${attr}" as "currentColor" or "none".`);
+    if (colorMode !== 'multicolor' && /^(fill|stroke)$/i.test(attr)) {
+      const validColorValues =
+        colorMode === 'duotone'
+          ? ['none', 'var(--business-icon-primary-color)', 'var(--business-icon-secondary-color)']
+          : ['none', 'currentColor'];
+      if (!validColorValues.includes(String(value))) {
+        errors.push(`<${node.name}> must use "${attr}" as ${validColorValues.join(' or ')}.`);
+      }
     }
 
     if (typeof value === 'string' && /javascript\s*:/i.test(value)) {
@@ -119,7 +126,7 @@ function walk(errors: string[], node: INode, referencedIds: Set<string>) {
 
   for (const child of node.children ?? []) {
     if (typeof child !== 'string') {
-      walk(errors, child, referencedIds);
+      walk(errors, child, referencedIds, colorMode);
     }
   }
 }
@@ -130,7 +137,7 @@ function checkRoot(errors: string[], root: INode) {
   }
 }
 
-export function validateBusinessSvgSource(svg: string) {
+export function validateBusinessSvgSource(svg: string, colorMode = 'mono') {
   const errors: string[] = [];
   const referencedIds = collectReferencedIds(svg);
   checkDuplicatedAttributes(errors, svg);
@@ -138,7 +145,7 @@ export function validateBusinessSvgSource(svg: string) {
   try {
     const root = parseSync(svg);
     checkRoot(errors, root);
-    walk(errors, root, referencedIds);
+    walk(errors, root, referencedIds, colorMode);
   } catch (error) {
     errors.push(error instanceof Error ? error.message : String(error));
   }
@@ -148,9 +155,18 @@ export function validateBusinessSvgSource(svg: string) {
 
 export async function validateBusinessSvgSourceFile(file: string, categoryNames: Set<string>) {
   const fileNameErrors = validateBusinessSvgFileName(file, categoryNames);
+  const normalizedFile = file.split(path.sep).join('/');
+  const colorMode = normalizedFile.includes(`${BUSINESS_ICONS_DIR}/duotone/`)
+    ? 'duotone'
+    : normalizedFile.includes(`${BUSINESS_ICONS_DIR}/multicolor/`)
+      ? 'multicolor'
+      : 'mono';
 
   try {
-    return [...fileNameErrors, ...validateBusinessSvgSource(await fs.readFile(file, 'utf-8'))];
+    return [
+      ...fileNameErrors,
+      ...validateBusinessSvgSource(await fs.readFile(file, 'utf-8'), colorMode),
+    ];
   } catch (error) {
     return [
       ...fileNameErrors,
@@ -267,8 +283,8 @@ async function main() {
   let hasError = false;
 
   try {
-    const expectedIndex = await buildBusinessIconIndex();
-    categoryNames = new Set(expectedIndex.categories.map((category) => category.name));
+    await buildBusinessIconIndex();
+    categoryNames = new Set(BUSINESS_ICON_COLOR_MODES);
   } catch (error) {
     console.error(
       `cannot read ${BUSINESS_ICON_INDEX_FILE}: ${

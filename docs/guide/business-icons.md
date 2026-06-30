@@ -7,7 +7,7 @@ description: 业务专有 SVG 图标的存放、校验和提交规则。
 
 `business-icons/` 用于存放不适合进入通用图标库的业务专有 SVG。
 
-通用图标位于 `icons/`，要求保持 24x24、线性风格、`currentColor`、`stroke-width="2"` 和统一元数据。业务图标只做轻量清洗：清除固定颜色、样式和设计工具冗余属性，不归一尺寸、描边细节或几何结构，也不需要进入通用分类和元数据体系。
+通用图标位于 `icons/`，要求保持 24x24、线性风格、`currentColor`、`stroke-width="2"` 和统一元数据。业务图标按颜色模式拆分为单色、双色和多色，使用独立清洗与校验规则，不需要进入通用分类和元数据体系。
 
 ## 适用场景
 
@@ -22,48 +22,48 @@ description: 业务专有 SVG 图标的存放、校验和提交规则。
 ## 目录规则
 
 ```text
-business-icons/<business-category>/<icon-name>.svg
-business-icons/<business-category>/index.json
+business-icons/<color-mode>/<icon-name>.svg
+business-icons/<color-mode>/index.json
 business-icons/index.json
 ```
 
-业务分类直接由一级目录决定，目录的中文名、英文名和排序权重维护在 `business-icons/<business-category>/index.json`。根 `business-icons/index.json` 是生成产物，用于给校验、Figma 插件、文档站和包生成流程消费。
+业务图标的一级目录是颜色模式，不再表达业务分类。目录的中文名、英文名维护在 `business-icons/<color-mode>/index.json`。根 `business-icons/index.json` 是生成产物，用于给校验、Figma 插件、文档站和包生成流程消费。
 
 当前允许目录：
 
 ```text
-inbox
-menu
-chatbot
-outlined
-filled
-basic
-filter
+mono
+duotone
+multicolor
 ```
 
-业务图标不需要每个 SVG 配一份同名 JSON 元数据，也不会进入通用图标分类元数据。`business-icons/<business-category>/index.json` 只维护业务分类配置；根 `business-icons/index.json` 由脚本生成业务分类、多语言显示名和图标索引，用于校验、Figma 插件下拉选择、文档分类展示和重复检测。
+业务图标不需要每个 SVG 配一份同名 JSON 元数据，也不会进入通用图标分类元数据。`business-icons/<color-mode>/index.json` 只维护颜色模式显示配置；根 `business-icons/index.json` 由脚本生成颜色模式、多语言显示名和图标索引，用于校验、Figma 插件下拉选择、文档展示和重复检测。
 
-它会生成到现有包的 `business` 子入口，不混入通用图标默认入口。包内组件导出名仍按文件名生成，不拼接分类名，因此不同分类下也不能出现同名 SVG。
+它会生成到现有包的 `business` 子入口，不混入通用图标默认入口。包内组件导出名仍按文件名生成，不拼接颜色模式名，因此不同颜色模式目录下也不能出现同名 SVG。
 
 ## 清洗和校验规则
 
-业务图标会执行独立的业务 SVG 清洗。它不复用通用图标的 24x24 线性图标归一规则，只做轻量清理。
+业务图标会执行独立的业务 SVG 清洗。它不复用通用图标的 24x24 线性图标归一规则，也不会改写尺寸、描边细节或几何结构。
 
 业务清洗会：
 
 - 移除 `<script>`、`<foreignObject>`、事件属性和 `javascript:` URL
 - 移除 `style`、`class`、未被引用的 `id`、`data-*` 这类设计工具噪声
-- 将写死的 `fill`、`stroke` 转为 `currentColor` 或保留 `none`
+- `mono`：将写死的 `fill`、`stroke` 转为 `currentColor` 或保留 `none`
+- `duotone`：将白色填充/描边转为 `var(--business-icon-secondary-color)`，其他颜色转为 `var(--business-icon-primary-color)`，不按路径顺序判断
+- `multicolor`：不清洗固定颜色，保留源 SVG 的多色视觉
 - 保留原始 `width`、`height`、`viewBox`、`stroke-width`、`stroke-linecap`、`stroke-linejoin` 和几何结构
 
 提交时只做基础安全和结构校验：
 
-- 文件路径必须是 `business-icons/<business-category>/<icon-name>.svg`
-- 业务分类目录必须有 `business-icons/<business-category>/index.json`
+- 文件路径必须是 `business-icons/<color-mode>/<icon-name>.svg`
+- 颜色模式目录必须有 `business-icons/<color-mode>/index.json`
 - 根 `business-icons/index.json` 必须由 `node ./scripts/writeBusinessIconIndex.mts` 生成并保持同步
 - 文件名必须是小写 kebab-case
 - 根节点必须是 `<svg>`
-- `fill`、`stroke` 只能是 `currentColor` 或 `none`
+- `mono` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
+- `duotone` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
+- `multicolor` 允许固定颜色，但仍执行安全检查
 - 禁止 `style`、`class`、`data-*` 这类样式和设计工具属性
 - 禁止 `<script>` 和 `<foreignObject>`
 - 禁止 `onclick` 等事件属性
@@ -81,8 +81,8 @@ node ./scripts/checkBusinessSvgSource.mts
 
 在 Figma 插件中选择“业务图标”后，插件会：
 
-- 通过单选下拉选择业务分类
-- 提交到 `business-icons/<business-category>/*.svg`
+- 通过单选控件选择单色、双色或多色
+- 提交到 `business-icons/<color-mode>/*.svg`
 - 按业务 SVG 规则清洗后提交
 - 不生成 `icons/*.json`
 - 不要求通用图标的多选分类、标签或使用场景
@@ -105,13 +105,13 @@ pnpm add @ycloud-web/icons
 ```ts
 import {
   businessIcons,
-  whatsappBusinessDataUri,
-  whatsappBusinessSvg,
+  billingDataUri,
+  billingSvg,
 } from '@ycloud-web/icons/business';
 
-const svg = whatsappBusinessSvg;
-const imageSrc = whatsappBusinessDataUri;
-const icon = businessIcons['whatsapp-business'];
+const svg = billingSvg;
+const imageSrc = billingDataUri;
+const icon = businessIcons['billing'];
 ```
 
 ### React 包
@@ -123,30 +123,49 @@ pnpm add @ycloud-web/icons-react
 ```
 
 ```tsx
-import { WhatsappBusiness } from '@ycloud-web/icons-react/business';
+import { Billing } from '@ycloud-web/icons-react/business';
 
 export function ChannelIcon() {
-  return <WhatsappBusiness size={24} />;
+  return (
+    <Billing
+      size={24}
+      color="#111827"
+    />
+  );
 }
 ```
 
-React 组件底层渲染为 `<img>`，默认使用清洗后的业务 SVG data URI。
+React 业务图标组件底层渲染为内联 `<svg>`。`mono` 和 `duotone` 支持 `size`、`color`；`duotone` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color`，仅支持调整尺寸。
+
+```tsx
+import { Shopify } from '@ycloud-web/icons-react/business';
+
+export function DuotoneIcon() {
+  return (
+    <Shopify
+      size={24}
+      color="#111827"
+      secondaryColor="#fff"
+    />
+  );
+}
+```
 
 其他框架包同样使用现有包的 `business` 子入口：
 
 ```ts
-import { WhatsappBusiness } from '@ycloud-web/icons-preact/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-vue/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-solid/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-svelte/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-astro/business';
-import { WhatsappBusiness } from '@ycloud-web/icons-react-native/business';
+import { Billing } from '@ycloud-web/icons-preact/business';
+import { Billing } from '@ycloud-web/icons-vue/business';
+import { Billing } from '@ycloud-web/icons-solid/business';
+import { Billing } from '@ycloud-web/icons-svelte/business';
+import { Billing } from '@ycloud-web/icons-astro/business';
+import { Billing } from '@ycloud-web/icons-react-native/business';
 ```
 
 Angular 包导出业务图标定义，可直接用 data URI 绑定图片：
 
 ```ts
-import { whatsappBusinessDataUri } from '@ycloud-web/icons-angular';
+import { billingDataUri } from '@ycloud-web/icons-angular';
 ```
 
 ### Static 包
@@ -158,7 +177,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import whatsappBusinessIconUrl from '@ycloud-web/icons-static/business-icons/inbox/whatsapp-business.svg';
+import billingIconUrl from '@ycloud-web/icons-static/business-icons/mono/billing.svg';
 ```
 
 业务图标也会生成独立 Icon Font，不和通用 `font/ycloud.css` 混在一起：
@@ -168,7 +187,7 @@ import whatsappBusinessIconUrl from '@ycloud-web/icons-static/business-icons/inb
 ```
 
 ```html
-<div class="business-icon-whatsapp-business"></div>
+<div class="business-icon-billing"></div>
 ```
 
-业务图标只会清除固定颜色、样式和设计工具冗余属性，不会改写尺寸、描边细节或几何结构。
+静态 SVG 与数据包会保留清洗后的颜色 token。使用 `duotone` 源时，打包到 React 组件阶段会把 primary/secondary token 转为 `color` 和 `secondaryColor` props；多色图标始终保留源 SVG 固定色。

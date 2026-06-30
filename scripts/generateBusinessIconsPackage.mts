@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parseSync, type INode } from 'svgson';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const businessIconsDir = path.join(repoRoot, 'business-icons');
@@ -44,7 +45,10 @@ type BusinessIconSource = {
   name: string;
   sourcePath: string;
   staticPath: string;
+  colorMode: BusinessIconColorMode;
 };
+type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+type BusinessIconExportSource = string | { name: string; colorMode: BusinessIconColorMode };
 
 const toPascalCase = (value: string) =>
   value
@@ -73,16 +77,120 @@ export function getBusinessIconComponentName(name: string) {
 const toStringLiteral = (value: string) => `'${value.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
 const toTemplateLiteral = (value: string) =>
   `\`${value.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${')}\``;
+const reactAttributeNameMap: Record<string, string> = {
+  'clip-rule': 'clipRule',
+  'fill-rule': 'fillRule',
+  'stroke-linecap': 'strokeLinecap',
+  'stroke-linejoin': 'strokeLinejoin',
+  'stroke-width': 'strokeWidth',
+  'stroke-miterlimit': 'strokeMiterlimit',
+  'stroke-dasharray': 'strokeDasharray',
+  'stroke-dashoffset': 'strokeDashoffset',
+  'xlink:href': 'xlinkHref',
+};
+const primaryColorToken = 'var(--business-icon-primary-color)';
+const secondaryColorToken = 'var(--business-icon-secondary-color)';
 
-export function buildBusinessIconModule(name: string, svg: string) {
+function buildBusinessIconDataUri(svg: string) {
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function normalizeBusinessIconSource(source: BusinessIconExportSource): {
+  name: string;
+  colorMode: BusinessIconColorMode;
+} {
+  return typeof source === 'string' ? { name: source, colorMode: 'mono' } : source;
+}
+
+function toReactAttributeName(name: string) {
+  return reactAttributeNameMap[name] ?? name;
+}
+
+function buildReactAttribute(name: string, value: string) {
+  const reactName = toReactAttributeName(name);
+  if (value === primaryColorToken) {
+    return `${reactName}={color}`;
+  }
+  if (value === secondaryColorToken) {
+    return `${reactName}={secondaryColor}`;
+  }
+  return `${reactName}=${JSON.stringify(value)}`;
+}
+
+function buildReactSvgNode(node: INode, indent = 6): string[] {
+  const spacing = ' '.repeat(indent);
+  const attributes = Object.entries(node.attributes ?? {})
+    .map(([name, value]) => buildReactAttribute(name, String(value)))
+    .join(' ');
+  const openTag = attributes ? `<${node.name} ${attributes}` : `<${node.name}`;
+  const children = (node.children ?? []).filter((child) => typeof child !== 'string') as INode[];
+
+  if (children.length === 0) {
+    return [`${spacing}${openTag} />`];
+  }
+
+  return [
+    `${spacing}${openTag}>`,
+    ...children.flatMap((child) => buildReactSvgNode(child, indent + 2)),
+    `${spacing}</${node.name}>`,
+  ];
+}
+
+function buildReactSvgElement(
+  svg: string,
+  componentName: string,
+  colorMode: BusinessIconColorMode,
+) {
+  const root = parseSync(svg);
+  const rootAttributes = Object.entries(root.attributes ?? {})
+    .filter(([name]) => name !== 'width' && name !== 'height')
+    .map(([name, value]) => buildReactAttribute(name, String(value)));
+  const children = (root.children ?? []).filter((child) => typeof child !== 'string') as INode[];
+  const propsType = colorMode === 'mono' ? 'BusinessIconImageProps' : `${componentName}Props`;
+  const propsPattern =
+    colorMode === 'duotone'
+      ? "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', style, ...props }"
+      : colorMode === 'mono'
+        ? "{ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }"
+        : "{ size = 24, width, height, alt = '', style, ...props }";
+  const styleExpression =
+    colorMode === 'multicolor' ? 'style={style}' : 'style={{ color, ...style }}';
+
+  return [
+    `const ${componentName} = forwardRef<SVGSVGElement, ${propsType}>(`,
+    `  (${propsPattern}, ref) => (`,
+    '    <svg',
+    '      ref={ref}',
+    ...rootAttributes.map((attribute) => `      ${attribute}`),
+    '      width={width ?? size}',
+    '      height={height ?? size}',
+    "      role={alt ? 'img' : undefined}",
+    '      aria-label={alt || undefined}',
+    '      aria-hidden={alt ? undefined : true}',
+    `      ${styleExpression}`,
+    '      {...props}',
+    '    >',
+    ...children.flatMap((child) => buildReactSvgNode(child, 6)),
+    '    </svg>',
+    '  ),',
+    ');',
+  ];
+}
+
+export function buildBusinessIconModule(
+  name: string,
+  svg: string,
+  colorMode: BusinessIconColorMode = 'mono',
+) {
   const exportBase = getBusinessIconExportBase(name);
-  const encodedSvg = encodeURIComponent(svg);
+  const dataUri = buildBusinessIconDataUri(svg);
 
   return [
     `export const ${exportBase}Svg = ${toTemplateLiteral(svg)};`,
-    `export const ${exportBase}DataUri = ${toStringLiteral(`data:image/svg+xml;utf8,${encodedSvg}`)};`,
+    `export const ${exportBase}DataUri = ${toStringLiteral(dataUri)};`,
     `export const ${exportBase}Icon = {`,
     `  name: ${toStringLiteral(name)},`,
+    `  colorMode: ${toStringLiteral(colorMode)},`,
     `  svg: ${exportBase}Svg,`,
     `  dataUri: ${exportBase}DataUri,`,
     `} as const;`,
@@ -92,13 +200,16 @@ export function buildBusinessIconModule(name: string, svg: string) {
   ].join('\n');
 }
 
-export function buildBusinessIconsIndex(names: string[]) {
-  const sortedNames = [...names].sort((left, right) => left.localeCompare(right));
-  const imports = sortedNames.map((name) => {
+export function buildBusinessIconsIndex(sources: BusinessIconExportSource[]) {
+  const sortedSources = sources
+    .map(normalizeBusinessIconSource)
+    .sort((left, right) => left.name.localeCompare(right.name));
+  const sortedNames = sortedSources.map((source) => source.name);
+  const imports = sortedSources.map(({ name }) => {
     const exportBase = getBusinessIconExportBase(name);
     return `import { ${exportBase}Icon } from './business-icons/${name}';`;
   });
-  const exports = sortedNames.map((name) => `export * from './business-icons/${name}';`);
+  const exports = sortedSources.map(({ name }) => `export * from './business-icons/${name}';`);
   const namesLiteral = sortedNames.map((name) => toStringLiteral(name)).join(', ');
   const iconEntries = sortedNames.map((name) => {
     const exportBase = getBusinessIconExportBase(name);
@@ -112,6 +223,7 @@ export function buildBusinessIconsIndex(names: string[]) {
     '',
     'export interface BusinessIconDefinition {',
     '  name: string;',
+    "  colorMode: 'mono' | 'duotone' | 'multicolor';",
     '  svg: string;',
     '  dataUri: string;',
     '}',
@@ -130,27 +242,53 @@ export function buildBusinessIconsIndex(names: string[]) {
   ].join('\n');
 }
 
-export function buildBusinessReactIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
+export function buildBusinessReactIconModule(
+  name: string,
+  colorMode: BusinessIconColorMode = 'mono',
+  svg = '<svg fill="currentColor" viewBox="0 0 24 24" />',
+) {
   const componentName = getBusinessIconComponentName(name);
+  const componentSource = buildReactSvgElement(svg, componentName, colorMode);
+
+  if (colorMode === 'mono') {
+    return [
+      "import { forwardRef } from 'react';",
+      "import type { BusinessIconImageProps } from '../businessTypes';",
+      '',
+      ...componentSource,
+      '',
+      `${componentName}.displayName = '${componentName}';`,
+      '',
+      `export default ${componentName};`,
+      '',
+    ].join('\n');
+  }
+
+  if (colorMode === 'duotone') {
+    return [
+      "import { forwardRef } from 'react';",
+      "import type { BusinessIconImageProps } from '../businessTypes';",
+      '',
+      `type ${componentName}Props = BusinessIconImageProps & {`,
+      '  secondaryColor?: string;',
+      '};',
+      '',
+      ...componentSource,
+      '',
+      `${componentName}.displayName = '${componentName}';`,
+      '',
+      `export default ${componentName};`,
+      '',
+    ].join('\n');
+  }
 
   return [
     "import { forwardRef } from 'react';",
     "import type { BusinessIconImageProps } from '../businessTypes';",
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
     '',
-    `const ${componentName} = forwardRef<HTMLImageElement, BusinessIconImageProps>(`,
-    "  ({ size = 24, width, height, alt = '', ...props }, ref) => (",
-    '    <img',
-    '      ref={ref}',
-    `      src={${exportBase}DataUri}`,
-    '      alt={alt}',
-    '      width={width ?? size}',
-    '      height={height ?? size}',
-    '      {...props}',
-    '    />',
-    '  ),',
-    ');',
+    `type ${componentName}Props = Omit<BusinessIconImageProps, 'color'>;`,
+    '',
+    ...componentSource,
     '',
     `${componentName}.displayName = '${componentName}';`,
     '',
@@ -173,63 +311,67 @@ export function buildBusinessReactIconsIndex(names: string[]) {
 
 function buildBusinessReactTypes() {
   return [
-    "import type { ImgHTMLAttributes } from 'react';",
+    "import type { SVGProps } from 'react';",
     '',
-    'export interface BusinessIconImageProps extends ImgHTMLAttributes<HTMLImageElement> {',
+    "export interface BusinessIconImageProps extends Omit<SVGProps<SVGSVGElement>, 'color' | 'width' | 'height'> {",
     '  size?: number | string;',
+    '  width?: number | string;',
+    '  height?: number | string;',
+    '  alt?: string;',
+    '  color?: string;',
     '}',
     '',
   ].join('\n');
 }
 
-export function buildBusinessPreactIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
+export function buildBusinessPreactIconModule(name: string, dataUri: string) {
   const componentName = getBusinessIconComponentName(name);
 
   return [
     "import { h } from 'preact';",
     "import type { BusinessIconImageProps } from '../businessTypes';",
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
+    '',
+    `const dataUri = ${toStringLiteral(dataUri)};`,
     '',
     `const ${componentName} = ({ size = 24, width, height, alt = '', ...props }: BusinessIconImageProps) =>`,
-    `  h('img', { ...props, src: ${exportBase}DataUri, alt, width: width ?? size, height: height ?? size });`,
+    "  h('img', { ...props, src: dataUri, alt, width: width ?? size, height: height ?? size });",
     '',
     `export default ${componentName};`,
     '',
   ].join('\n');
 }
 
-export function buildBusinessVueIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
+export function buildBusinessVueIconModule(name: string, dataUri: string) {
   const componentName = getBusinessIconComponentName(name);
 
   return [
     "import { h, type FunctionalComponent } from 'vue';",
     "import type { BusinessIconImageProps } from '../businessTypes';",
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
+    '',
+    `const dataUri = ${toStringLiteral(dataUri)};`,
     '',
     `const ${componentName}: FunctionalComponent<BusinessIconImageProps> = ({ size = 24, width, height, alt = '', ...props }) =>`,
-    `  h('img', { ...props, src: ${exportBase}DataUri, alt, width: width ?? size, height: height ?? size });`,
+    "  h('img', { ...props, src: dataUri, alt, width: width ?? size, height: height ?? size });",
     '',
     `export default ${componentName};`,
     '',
   ].join('\n');
 }
 
-export function buildBusinessSolidIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
+export function buildBusinessSolidIconModule(name: string, dataUri: string) {
   const componentName = getBusinessIconComponentName(name);
 
   return [
     "import type { BusinessIconImageProps } from '../businessTypes';",
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
+    '',
+    `const dataUri = ${toStringLiteral(dataUri)};`,
     '',
     `const ${componentName} = (props: BusinessIconImageProps) => {`,
     '  const size = () => props.size ?? 24;',
     '',
     '  return (',
     '    <img',
-    `      src={${exportBase}DataUri}`,
+    '      src={dataUri}',
     "      alt={props.alt ?? ''}",
     '      width={props.width ?? size()}',
     '      height={props.height ?? size()}',
@@ -243,19 +385,19 @@ export function buildBusinessSolidIconModule(name: string) {
   ].join('\n');
 }
 
-export function buildBusinessReactNativeIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
+export function buildBusinessReactNativeIconModule(name: string, dataUri: string) {
   const componentName = getBusinessIconComponentName(name);
 
   return [
     "import { Image } from 'react-native';",
     "import type { BusinessIconImageProps } from '../businessTypes';",
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
+    '',
+    `const dataUri = ${toStringLiteral(dataUri)};`,
     '',
     `const ${componentName} = ({ size = 24, width, height, source, ...props }: BusinessIconImageProps) => (`,
     '  <Image',
     '    {...props}',
-    `    source={source ?? { uri: ${exportBase}DataUri }}`,
+    '    source={source ?? { uri: dataUri }}',
     '    style={[{ width: width ?? size, height: height ?? size }, props.style]}',
     '  />',
     ');',
@@ -265,18 +407,15 @@ export function buildBusinessReactNativeIconModule(name: string) {
   ].join('\n');
 }
 
-export function buildBusinessSvelteIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
-
+export function buildBusinessSvelteIconModule(_name: string, dataUri: string) {
   return [
     '<script lang="ts">',
-    `  import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
-    '',
+    `  const dataUri = ${toStringLiteral(dataUri)};`,
     "  const { size = 24, width, height, alt = '', ...props } = $props();",
     '</script>',
     '',
     '<img',
-    `  src={${exportBase}DataUri}`,
+    '  src={dataUri}',
     '  {alt}',
     '  width={width ?? size}',
     '  height={height ?? size}',
@@ -286,18 +425,16 @@ export function buildBusinessSvelteIconModule(name: string) {
   ].join('\n');
 }
 
-export function buildBusinessAstroIconModule(name: string) {
-  const exportBase = getBusinessIconExportBase(name);
-
+export function buildBusinessAstroIconModule(_name: string, dataUri: string) {
   return [
     '---',
-    `import { ${exportBase}DataUri } from '@ycloud-web/icons/business';`,
+    `const dataUri = ${toStringLiteral(dataUri)};`,
     '',
     "const { size = 24, width, height, alt = '', ...props } = Astro.props;",
     '---',
     '',
     '<img',
-    `  src={${exportBase}DataUri}`,
+    '  src={dataUri}',
     '  alt={alt}',
     '  width={width ?? size}',
     '  height={height ?? size}',
@@ -447,6 +584,12 @@ async function readBusinessIconSources() {
           name: parsed.name,
           sourcePath,
           staticPath: sourcePath,
+          colorMode:
+            sourcePath.split(path.sep)[0] === 'duotone'
+              ? 'duotone'
+              : sourcePath.split(path.sep)[0] === 'multicolor'
+                ? 'multicolor'
+                : 'mono',
         };
       })
       .sort((left, right) => left.name.localeCompare(right.name));
@@ -475,13 +618,14 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
     sources.map(async (source) => {
       const { name } = source;
       const svg = await fs.readFile(path.join(businessIconsDir, source.sourcePath), 'utf-8');
+      const dataUri = buildBusinessIconDataUri(svg);
       const writes: Promise<unknown>[] = [];
 
       if (hasTarget(targets, 'core')) {
         writes.push(
           fs.writeFile(
             path.join(corePackageIconsDir, `${name}.ts`),
-            buildBusinessIconModule(name, svg),
+            buildBusinessIconModule(name, svg, source.colorMode),
           ),
         );
       }
@@ -490,7 +634,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(iconsDataPackageIconsDir, `${name}.ts`),
-            buildBusinessIconModule(name, svg),
+            buildBusinessIconModule(name, svg, source.colorMode),
           ),
         );
       }
@@ -499,7 +643,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(reactPackageIconsDir, `${name}.tsx`),
-            buildBusinessReactIconModule(name),
+            buildBusinessReactIconModule(name, source.colorMode, svg),
           ),
         );
       }
@@ -519,7 +663,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(preactPackageIconsDir, `${name}.ts`),
-            buildBusinessPreactIconModule(name),
+            buildBusinessPreactIconModule(name, dataUri),
           ),
         );
       }
@@ -528,7 +672,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(vuePackageIconsDir, `${name}.ts`),
-            buildBusinessVueIconModule(name),
+            buildBusinessVueIconModule(name, dataUri),
           ),
         );
       }
@@ -537,7 +681,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(solidPackageIconsDir, `${name}.tsx`),
-            buildBusinessSolidIconModule(name),
+            buildBusinessSolidIconModule(name, dataUri),
           ),
         );
       }
@@ -546,7 +690,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(reactNativePackageIconsDir, `${name}.tsx`),
-            buildBusinessReactNativeIconModule(name),
+            buildBusinessReactNativeIconModule(name, dataUri),
           ),
         );
       }
@@ -555,7 +699,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(sveltePackageIconsDir, `${name}.svelte`),
-            buildBusinessSvelteIconModule(name),
+            buildBusinessSvelteIconModule(name, dataUri),
           ),
         );
       }
@@ -564,7 +708,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(astroPackageIconsDir, `${name}.astro`),
-            buildBusinessAstroIconModule(name),
+            buildBusinessAstroIconModule(name, dataUri),
           ),
         );
       }
@@ -573,7 +717,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
         writes.push(
           fs.writeFile(
             path.join(angularPackageIconsDir, `${name}.ts`),
-            buildBusinessIconModule(name, svg),
+            buildBusinessIconModule(name, svg, source.colorMode),
           ),
         );
       }
@@ -583,13 +727,16 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
   );
 
   if (hasTarget(targets, 'core')) {
-    await fs.writeFile(path.join(corePackageSrcDir, 'business.ts'), buildBusinessIconsIndex(names));
+    await fs.writeFile(
+      path.join(corePackageSrcDir, 'business.ts'),
+      buildBusinessIconsIndex(sources),
+    );
   }
 
   if (hasTarget(targets, 'data')) {
     await fs.writeFile(
       path.join(iconsDataPackageSrcDir, 'business.ts'),
-      buildBusinessIconsIndex(names),
+      buildBusinessIconsIndex(sources),
     );
   }
 
@@ -673,7 +820,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
   if (hasTarget(targets, 'angular')) {
     await fs.writeFile(
       path.join(angularPackageSrcDir, 'business.ts'),
-      buildBusinessIconsIndex(names),
+      buildBusinessIconsIndex(sources),
     );
   }
 }
