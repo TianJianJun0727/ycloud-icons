@@ -342,6 +342,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Ensure release tag points to published ref
+        run: |
+          git tag --force "v${VERSION}" HEAD
+          git push origin "refs/tags/v${VERSION}" --force
+        env:
+          VERSION: ${{ needs.prepare.outputs.version }}
+
       - name: Generate bilingual release notes
         run: node ./scripts/writeChangelog.mts
         env:
@@ -358,6 +365,7 @@ jobs:
           tag_name: v${{ needs.prepare.outputs.version }}
           name: Version ${{ needs.prepare.outputs.version }}
           body_path: .release-notes.md
+          target_commitish: ${{ needs.prepare.outputs.ref }}
 
   # Temporarily disable automatic docs deployment after package releases.
   # Keep this job for quick restoration when release-driven docs publishing is needed again.
