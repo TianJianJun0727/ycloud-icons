@@ -91,11 +91,11 @@
     "@ycloud-web/build-icons": "workspace:*",
     "@ycloud-web/rollup-plugins": "workspace:*",
     "@ycloud-web/shared": "workspace:*",
-    "rollup": "^4.62.0",
+    "rollup": "^4.62.2",
     "rollup-plugin-dts": "^6.4.1",
     "typescript": "7.0.1-rc",
-    "vite": "^8.1.0",
-    "vue": "^3.4.21"
+    "vite": "^8.1.2",
+    "vue": "^3.5.39"
   },
   "peerDependencies": {
     "vue": ">=3.0.1"

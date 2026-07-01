@@ -93,10 +93,10 @@
     "@ycloud-web/rollup-plugins": "workspace:*",
     "@ycloud-web/shared": "workspace:*",
     "jest-serializer-html": "^7.1.0",
-    "rollup": "^4.62.0",
+    "rollup": "^4.62.2",
     "rollup-plugin-dts": "^6.4.1",
     "typescript": "7.0.1-rc",
-    "vite": "^8.1.0"
+    "vite": "^8.1.2"
   },
   "amdName": "ycloud",
   "main:umd": "dist/umd/icons.js"
