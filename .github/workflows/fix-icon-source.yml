@@ -107,6 +107,7 @@ jobs:
 
           if (( ${#svg_files[@]} > 0 )); then
             node ./scripts/optimizeStagedSvgs.mts "${svg_files[@]}"
+            pnpm exec prettier --parser html --write "${svg_files[@]}"
           fi
 
           business_svg_files=()

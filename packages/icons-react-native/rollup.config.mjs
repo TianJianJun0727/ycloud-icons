@@ -7,13 +7,24 @@ const outputFileName = 'icons';
 const outputDir = 'dist';
 const businessInput = 'src/business.ts';
 const illustrationInput = 'src/illustration.ts';
-const inputs = ['src/ycloud-react-native.ts', 'src/icons/index.ts', businessInput, illustrationInput];
+const inputs = [
+  'src/ycloud-react-native.ts',
+  'src/icons/index.ts',
+  businessInput,
+  illustrationInput,
+];
 const entryFileNameMap = {
   'ycloud-react-native': 'icons',
   business: 'business-icons',
   illustration: 'illustration-icons',
 };
-const runtimeEntryNames = new Set(['Icon', 'context', 'createYCloudIcon', 'defaultAttributes', 'types']);
+const runtimeEntryNames = new Set([
+  'Icon',
+  'context',
+  'createYCloudIcon',
+  'defaultAttributes',
+  'types',
+]);
 const getEntryFileName = (chunkInfo, extension) => {
   const entryName = entryFileNameMap[chunkInfo.name];
 
@@ -52,11 +63,11 @@ const configs = bundles
       output: {
         name: packageName,
         ...(preserveModules
-            ? {
-                dir: `${outputDir}/${format}`,
-                exports: format === 'cjs' ? 'named' : undefined,
-                entryFileNames: (chunkInfo) => getEntryFileName(chunkInfo, extension),
-              }
+          ? {
+              dir: `${outputDir}/${format}`,
+              exports: format === 'cjs' ? 'named' : undefined,
+              entryFileNames: (chunkInfo) => getEntryFileName(chunkInfo, extension),
+            }
           : {
               file: `${outputDir}/${format}/${outputFileName}.${extension}`,
             }),

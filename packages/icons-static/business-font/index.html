@@ -1,141 +1,934 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>YCloud</title>
-  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-  
-    <meta name="description" content="YCloud icons as TTF/EOT/WOFF/WOFF2/SVG.">
-  
-    <meta name="keywords" content="YCloud,TTF,EOT,WOFF,WOFF2,SVG">
-  
-  
-  
-    <link rel="stylesheet" href="ycloud-business.css" />
-  
-  <style>
-    *{margin: 0;padding: 0;list-style: none;}
-    body { color: #696969; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; }
-    a { color: #333; text-decoration: underline; }
-    a:hover { color: rgb(9, 73, 209); }
-    .header { color: #333; text-align: center; padding: 80px 0 60px 0; min-height: 153px; font-size: 14px; }
-    .header .logo svg { height: 120px; width: 120px; }
-    .header h1 { font-size: 42px; padding: 26px 0 10px 0; }
-    .header sup {font-size: 14px; margin: 8px 0 0 8px; position: absolute; color: #7b7b7b; }
-    .info {
-      color: #999;
-      font-weight: normal;
-      max-width: 346px;
-      margin: 0 auto;
-      padding: 20px 0;
-      font-size: 14px;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <title>YCloud</title>
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
 
-    .icons { max-width: 1190px; margin: 0 auto; }
-    .icons ul { text-align: center; }
-    .icons ul li {
-      vertical-align: top;
-      width: 120px;
-      display: inline-block;
-      text-align: center;
-      background-color: rgba(0,0,0,.02);
-      border-radius: 3px;
-      padding: 29px 0 10px 0;
-      margin-right: 10px;
-      margin-top: 10px;
-      transition: all 0.6s ease;
-    }
-    .icons ul li:hover { background-color: rgba(0,0,0,.06); }
-    .icons ul li:hover span { color: #3c75e4; opacity: 1; }
-    .icons ul li .unicode { color: #8c8c8c; opacity: 0.3; }
-    .icons ul li h4 {
-      font-weight: normal;
-      padding: 10px 0 5px 0;
-      display: block;
-      color: #8c8c8c;
-      font-size: 14px;
-      line-height: 12px;
-      opacity: 0.8;
-    }
-    .icons ul li:hover h4 { opacity: 1; }
-    .icons ul li svg { width: 24px; height: 24px; }
-    .icons ul li:hover { color: #3c75e4; }
-    .footer { text-align: center; padding: 10px 0 90px 0; }
-    .footer a { text-align: center; padding: 10px 0 90px 0; color: #696969;}
-    .footer a:hover { color: #0949d1; }
-    .links { text-align: center; padding: 50px 0 0 0; font-size: 14px; }
-    
-    .icons ul li.class-icon { font-size: 21px; line-height: 21px; padding-bottom: 20px; }
-    .icons ul li.class-icon p{ font-size: 12px; }
-    .icons ul li.class-icon [class^="business-icon-"]{ font-size: 26px; }
-    .icons ul li.class-icon [class^="business-icon-"] [class^="path"]::before {
-      font-family: 'ycloud-business' !important;
-    }
-    
-    
-    .github-corner:hover .octo-arm { animation: octocat-wave 560ms ease-in-out; }
-    .github-corner svg { position: fixed; z-index: 999; border: 0px; top: 0px; right: 0px;}
-    @keyframes octocat-wave{
-      0%, 100% { transform: rotate(0); }
-      20%, 60% { transform: rotate(-25deg); }
-      40%, 80% { transform: rotate(10deg); }
-    }
-    @media (max-width:500px){
-      .github-corner:hover .octo-arm { animation: none; }
-      .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
-    }
-    
-  </style>
-</head>
+    <meta
+      name="description"
+      content="YCloud icons as TTF/EOT/WOFF/WOFF2/SVG."
+    />
 
-<body>
-  
-    <a href="https://github.com/TianJianJun0727/ycloud-icons" target="__blank" class="github-corner">
-      <svg width="62" height="62" viewBox="0 0 250 250" aria-hidden="true" style="fill: #dc3545; color: rgb(255, 255, 255); ">
+    <meta
+      name="keywords"
+      content="YCloud,TTF,EOT,WOFF,WOFF2,SVG"
+    />
+
+    <link
+      rel="stylesheet"
+      href="ycloud-business.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        color: #696969;
+        font:
+          12px/1.5 tahoma,
+          arial,
+          \5b8b\4f53,
+          sans-serif;
+      }
+      a {
+        color: #333;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: rgb(9, 73, 209);
+      }
+      .header {
+        color: #333;
+        text-align: center;
+        padding: 80px 0 60px 0;
+        min-height: 153px;
+        font-size: 14px;
+      }
+      .header .logo svg {
+        height: 120px;
+        width: 120px;
+      }
+      .header h1 {
+        font-size: 42px;
+        padding: 26px 0 10px 0;
+      }
+      .header sup {
+        font-size: 14px;
+        margin: 8px 0 0 8px;
+        position: absolute;
+        color: #7b7b7b;
+      }
+      .info {
+        color: #999;
+        font-weight: normal;
+        max-width: 346px;
+        margin: 0 auto;
+        padding: 20px 0;
+        font-size: 14px;
+      }
+
+      .icons {
+        max-width: 1190px;
+        margin: 0 auto;
+      }
+      .icons ul {
+        text-align: center;
+      }
+      .icons ul li {
+        vertical-align: top;
+        width: 120px;
+        display: inline-block;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.02);
+        border-radius: 3px;
+        padding: 29px 0 10px 0;
+        margin-right: 10px;
+        margin-top: 10px;
+        transition: all 0.6s ease;
+      }
+      .icons ul li:hover {
+        background-color: rgba(0, 0, 0, 0.06);
+      }
+      .icons ul li:hover span {
+        color: #3c75e4;
+        opacity: 1;
+      }
+      .icons ul li .unicode {
+        color: #8c8c8c;
+        opacity: 0.3;
+      }
+      .icons ul li h4 {
+        font-weight: normal;
+        padding: 10px 0 5px 0;
+        display: block;
+        color: #8c8c8c;
+        font-size: 14px;
+        line-height: 12px;
+        opacity: 0.8;
+      }
+      .icons ul li:hover h4 {
+        opacity: 1;
+      }
+      .icons ul li svg {
+        width: 24px;
+        height: 24px;
+      }
+      .icons ul li:hover {
+        color: #3c75e4;
+      }
+      .footer {
+        text-align: center;
+        padding: 10px 0 90px 0;
+      }
+      .footer a {
+        text-align: center;
+        padding: 10px 0 90px 0;
+        color: #696969;
+      }
+      .footer a:hover {
+        color: #0949d1;
+      }
+      .links {
+        text-align: center;
+        padding: 50px 0 0 0;
+        font-size: 14px;
+      }
+
+      .icons ul li.class-icon {
+        font-size: 21px;
+        line-height: 21px;
+        padding-bottom: 20px;
+      }
+      .icons ul li.class-icon p {
+        font-size: 12px;
+      }
+      .icons ul li.class-icon [class^='business-icon-'] {
+        font-size: 26px;
+      }
+      .icons ul li.class-icon [class^='business-icon-'] [class^='path']::before {
+        font-family: 'ycloud-business' !important;
+      }
+
+      .github-corner:hover .octo-arm {
+        animation: octocat-wave 560ms ease-in-out;
+      }
+      .github-corner svg {
+        position: fixed;
+        z-index: 999;
+        border: 0px;
+        top: 0px;
+        right: 0px;
+      }
+      @keyframes octocat-wave {
+        0%,
+        100% {
+          transform: rotate(0);
+        }
+        20%,
+        60% {
+          transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+          transform: rotate(10deg);
+        }
+      }
+      @media (max-width: 500px) {
+        .github-corner:hover .octo-arm {
+          animation: none;
+        }
+        .github-corner .octo-arm {
+          animation: octocat-wave 560ms ease-in-out;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <a
+      href="https://github.com/TianJianJun0727/ycloud-icons"
+      target="__blank"
+      class="github-corner"
+    >
+      <svg
+        width="62"
+        height="62"
+        viewBox="0 0 250 250"
+        aria-hidden="true"
+        style="fill: #dc3545; color: rgb(255, 255, 255)"
+      >
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" class="octo-arm" style="transform-origin: 130px 106px;"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor"
+          class="octo-arm"
+          style="transform-origin: 130px 106px"
+        ></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor"
+          class="octo-body"
+        ></path>
       </svg>
     </a>
-  
-  <div class="header">
-    
-    <h1>YCloud<sup>1.0.0</sup></h1>
-    <div class="info">
-      
-    </div>
-    <p>
-      
-        <a href="https://github.com/TianJianJun0727/ycloud-icons">GitHub</a> · 
-      
-        <a href="https://github.com/TianJianJun0727/ycloud-icons/issues">Feedback</a> · 
-      
-        <a href="index.html">Font Class</a> · 
-      
-        <a href="unicode.html">Unicode</a>
-      
-    </p>
-  </div>
-  <div class="icons">
-    <ul>
-      <li class="class-icon"><i class="business-icon-acquire-more-leads"></i><p class="name">acquire-more-leads</p></li><li class="class-icon"><i class="business-icon-add-nick"></i><p class="name">add-nick</p></li><li class="class-icon"><i class="business-icon-add-tags"></i><p class="name">add-tags</p></li><li class="class-icon"><i class="business-icon-advertising-filled"></i><p class="name">advertising-filled</p></li><li class="class-icon"><i class="business-icon-advertising-outlined"></i><p class="name">advertising-outlined</p></li><li class="class-icon"><i class="business-icon-agent-guide-filled"></i><p class="name">agent-guide-filled</p></li><li class="class-icon"><i class="business-icon-agent-permission-filled"></i><p class="name">agent-permission-filled</p></li><li class="class-icon"><i class="business-icon-agent-with-time"></i><p class="name">agent-with-time</p></li><li class="class-icon"><i class="business-icon-agent"></i><p class="name">agent</p></li><li class="class-icon"><i class="business-icon-alipay"></i><p class="name">alipay</p></li><li class="class-icon"><i class="business-icon-analytics-filled"></i><p class="name">analytics-filled</p></li><li class="class-icon"><i class="business-icon-api-docs"></i><p class="name">api-docs</p></li><li class="class-icon"><i class="business-icon-ask-question"></i><p class="name">ask-question</p></li><li class="class-icon"><i class="business-icon-assign"></i><p class="name">assign</p></li><li class="class-icon"><i class="business-icon-authentication-filled"></i><p class="name">authentication-filled</p></li><li class="class-icon"><i class="business-icon-balance"></i><p class="name">balance</p></li><li class="class-icon"><i class="business-icon-benefit-analytics"></i><p class="name">benefit-analytics</p></li><li class="class-icon"><i class="business-icon-benefit-global"></i><p class="name">benefit-global</p></li><li class="class-icon"><i class="business-icon-benefit-languages"></i><p class="name">benefit-languages</p></li><li class="class-icon"><i class="business-icon-benefit-payments"></i><p class="name">benefit-payments</p></li><li class="class-icon"><i class="business-icon-benefit-restriction"></i><p class="name">benefit-restriction</p></li><li class="class-icon"><i class="business-icon-benefit-security"></i><p class="name">benefit-security</p></li><li class="class-icon"><i class="business-icon-benefit-sender"></i><p class="name">benefit-sender</p></li><li class="class-icon"><i class="business-icon-benefit-simple"></i><p class="name">benefit-simple</p></li><li class="class-icon"><i class="business-icon-benefit-smile"></i><p class="name">benefit-smile</p></li><li class="class-icon"><i class="business-icon-benefit-statistical"></i><p class="name">benefit-statistical</p></li><li class="class-icon"><i class="business-icon-benefit-template"></i><p class="name">benefit-template</p></li><li class="class-icon"><i class="business-icon-billing-filled"></i><p class="name">billing-filled</p></li><li class="class-icon"><i class="business-icon-billing"></i><p class="name">billing</p></li><li class="class-icon"><i class="business-icon-block"></i><p class="name">block</p></li><li class="class-icon"><i class="business-icon-blog"></i><p class="name">blog</p></li><li class="class-icon"><i class="business-icon-bot-outlined"></i><p class="name">bot-outlined</p></li><li class="class-icon"><i class="business-icon-botfilled"></i><p class="name">botfilled</p></li><li class="class-icon"><i class="business-icon-branch"></i><p class="name">branch</p></li><li class="class-icon"><i class="business-icon-business-icon"></i><p class="name">business-icon</p></li><li class="class-icon"><i class="business-icon-call-api"></i><p class="name">call-api</p></li><li class="class-icon"><i class="business-icon-call-in"></i><p class="name">call-in</p></li><li class="class-icon"><i class="business-icon-call-out"></i><p class="name">call-out</p></li><li class="class-icon"><i class="business-icon-calling-filled"></i><p class="name">calling-filled</p></li><li class="class-icon"><i class="business-icon-calling-outlined"></i><p class="name">calling-outlined</p></li><li class="class-icon"><i class="business-icon-campaign-filled"></i><p class="name">campaign-filled</p></li><li class="class-icon"><i class="business-icon-campaign-outlined"></i><p class="name">campaign-outlined</p></li><li class="class-icon"><i class="business-icon-canned-response-check"></i><p class="name">canned-response-check</p></li><li class="class-icon"><i class="business-icon-category-filled"></i><p class="name">category-filled</p></li><li class="class-icon"><i class="business-icon-chat-loading-icon"></i><p class="name">chat-loading-icon</p></li><li class="class-icon"><i class="business-icon-check-cancel-filled"></i><p class="name">check-cancel-filled</p></li><li class="class-icon"><i class="business-icon-check"></i><p class="name">check</p></li><li class="class-icon"><i class="business-icon-circular-right-arrow"></i><p class="name">circular-right-arrow</p></li><li class="class-icon"><i class="business-icon-clock-outlined"></i><p class="name">clock-outlined</p></li><li class="class-icon"><i class="business-icon-code-filled"></i><p class="name">code-filled</p></li><li class="class-icon"><i class="business-icon-code-mark"></i><p class="name">code-mark</p></li><li class="class-icon"><i class="business-icon-code-outlined"></i><p class="name">code-outlined</p></li><li class="class-icon"><i class="business-icon-code-text"></i><p class="name">code-text</p></li><li class="class-icon"><i class="business-icon-coding-filled"></i><p class="name">coding-filled</p></li><li class="class-icon"><i class="business-icon-coming-soon"></i><p class="name">coming-soon</p></li><li class="class-icon"><i class="business-icon-company"></i><p class="name">company</p></li><li class="class-icon"><i class="business-icon-compass-filled"></i><p class="name">compass-filled</p></li><li class="class-icon"><i class="business-icon-composite-trigger-icon"></i><p class="name">composite-trigger-icon</p></li><li class="class-icon"><i class="business-icon-contact-filled"></i><p class="name">contact-filled</p></li><li class="class-icon"><i class="business-icon-contact-outlined"></i><p class="name">contact-outlined</p></li><li class="class-icon"><i class="business-icon-conversation-unsubscribe"></i><p class="name">conversation-unsubscribe</p></li><li class="class-icon"><i class="business-icon-coupon-code"></i><p class="name">coupon-code</p></li><li class="class-icon"><i class="business-icon-coupon-filled"></i><p class="name">coupon-filled</p></li><li class="class-icon"><i class="business-icon-create-tickets-icon"></i><p class="name">create-tickets-icon</p></li><li class="class-icon"><i class="business-icon-credit-card-icon"></i><p class="name">credit-card-icon</p></li><li class="class-icon"><i class="business-icon-ctwa-system-keyword-event"></i><p class="name">ctwa-system-keyword-event</p></li><li class="class-icon"><i class="business-icon-date-time"></i><p class="name">date-time</p></li><li class="class-icon"><i class="business-icon-delivered-icon"></i><p class="name">delivered-icon</p></li><li class="class-icon"><i class="business-icon-direction-filled"></i><p class="name">direction-filled</p></li><li class="class-icon"><i class="business-icon-discount"></i><p class="name">discount</p></li><li class="class-icon"><i class="business-icon-doc-csv-filled"></i><p class="name">doc-csv-filled</p></li><li class="class-icon"><i class="business-icon-document-filled"></i><p class="name">document-filled</p></li><li class="class-icon"><i class="business-icon-double-check"></i><p class="name">double-check</p></li><li class="class-icon"><i class="business-icon-edit-title"></i><p class="name">edit-title</p></li><li class="class-icon"><i class="business-icon-exchange"></i><p class="name">exchange</p></li><li class="class-icon"><i class="business-icon-expand-icon"></i><p class="name">expand-icon</p></li><li class="class-icon"><i class="business-icon-export-filled"></i><p class="name">export-filled</p></li><li class="class-icon"><i class="business-icon-file-attach"></i><p class="name">file-attach</p></li><li class="class-icon"><i class="business-icon-filter-event"></i><p class="name">filter-event</p></li><li class="class-icon"><i class="business-icon-flow"></i><p class="name">flow</p></li><li class="class-icon"><i class="business-icon-gift"></i><p class="name">gift</p></li><li class="class-icon"><i class="business-icon-global"></i><p class="name">global</p></li><li class="class-icon"><i class="business-icon-handle"></i><p class="name">handle</p></li><li class="class-icon"><i class="business-icon-hub-spot"></i><p class="name">hub-spot</p></li><li class="class-icon"><i class="business-icon-journey-filled"></i><p class="name">journey-filled</p></li><li class="class-icon"><i class="business-icon-journey-outlined"></i><p class="name">journey-outlined</p></li><li class="class-icon"><i class="business-icon-language"></i><p class="name">language</p></li><li class="class-icon"><i class="business-icon-lightning-filled"></i><p class="name">lightning-filled</p></li><li class="class-icon"><i class="business-icon-line-simple"></i><p class="name">line-simple</p></li><li class="class-icon"><i class="business-icon-link-action"></i><p class="name">link-action</p></li><li class="class-icon"><i class="business-icon-link-circle-filled"></i><p class="name">link-circle-filled</p></li><li class="class-icon"><i class="business-icon-link"></i><p class="name">link</p></li><li class="class-icon"><i class="business-icon-location"></i><p class="name">location</p></li><li class="class-icon"><i class="business-icon-logout"></i><p class="name">logout</p></li><li class="class-icon"><i class="business-icon-map-outlined"></i><p class="name">map-outlined</p></li><li class="class-icon"><i class="business-icon-menu-open"></i><p class="name">menu-open</p></li><li class="class-icon"><i class="business-icon-message-bubble-filled"></i><p class="name">message-bubble-filled</p></li><li class="class-icon"><i class="business-icon-message-bubble-outlined"></i><p class="name">message-bubble-outlined</p></li><li class="class-icon"><i class="business-icon-message-filled"></i><p class="name">message-filled</p></li><li class="class-icon"><i class="business-icon-meta-filled"></i><p class="name">meta-filled</p></li><li class="class-icon"><i class="business-icon-migrate-outlined"></i><p class="name">migrate-outlined</p></li><li class="class-icon"><i class="business-icon-mobile-phone"></i><p class="name">mobile-phone</p></li><li class="class-icon"><i class="business-icon-more-horiz"></i><p class="name">more-horiz</p></li><li class="class-icon"><i class="business-icon-more-price"></i><p class="name">more-price</p></li><li class="class-icon"><i class="business-icon-more-restriction"></i><p class="name">more-restriction</p></li><li class="class-icon"><i class="business-icon-more-sender-name"></i><p class="name">more-sender-name</p></li><li class="class-icon"><i class="business-icon-more-sender"></i><p class="name">more-sender</p></li><li class="class-icon"><i class="business-icon-more-vert"></i><p class="name">more-vert</p></li><li class="class-icon"><i class="business-icon-mouse-filled"></i><p class="name">mouse-filled</p></li><li class="class-icon"><i class="business-icon-music"></i><p class="name">music</p></li><li class="class-icon"><i class="business-icon-new-tag-filled"></i><p class="name">new-tag-filled</p></li><li class="class-icon"><i class="business-icon-note-filled"></i><p class="name">note-filled</p></li><li class="class-icon"><i class="business-icon-online-chat-outline"></i><p class="name">online-chat-outline</p></li><li class="class-icon"><i class="business-icon-order-event-filled"></i><p class="name">order-event-filled</p></li><li class="class-icon"><i class="business-icon-order-outlined"></i><p class="name">order-outlined</p></li><li class="class-icon"><i class="business-icon-partners-outlined"></i><p class="name">partners-outlined</p></li><li class="class-icon"><i class="business-icon-payments-filled"></i><p class="name">payments-filled</p></li><li class="class-icon"><i class="business-icon-play-circle-filled"></i><p class="name">play-circle-filled</p></li><li class="class-icon"><i class="business-icon-progressomg"></i><p class="name">progressomg</p></li><li class="class-icon"><i class="business-icon-push-pin-filled"></i><p class="name">push-pin-filled</p></li><li class="class-icon"><i class="business-icon-push-pin-outlined"></i><p class="name">push-pin-outlined</p></li><li class="class-icon"><i class="business-icon-qmai-event"></i><p class="name">qmai-event</p></li><li class="class-icon"><i class="business-icon-qr-code"></i><p class="name">qr-code</p></li><li class="class-icon"><i class="business-icon-record-filled"></i><p class="name">record-filled</p></li><li class="class-icon"><i class="business-icon-redo"></i><p class="name">redo</p></li><li class="class-icon"><i class="business-icon-route"></i><p class="name">route</p></li><li class="class-icon"><i class="business-icon-sand-clock"></i><p class="name">sand-clock</p></li><li class="class-icon"><i class="business-icon-scroll-to-bottom"></i><p class="name">scroll-to-bottom</p></li><li class="class-icon"><i class="business-icon-security-filled"></i><p class="name">security-filled</p></li><li class="class-icon"><i class="business-icon-segment"></i><p class="name">segment</p></li><li class="class-icon"><i class="business-icon-send-message-mark"></i><p class="name">send-message-mark</p></li><li class="class-icon"><i class="business-icon-send-message"></i><p class="name">send-message</p></li><li class="class-icon"><i class="business-icon-setting-filled"></i><p class="name">setting-filled</p></li><li class="class-icon"><i class="business-icon-setting-outlined"></i><p class="name">setting-outlined</p></li><li class="class-icon"><i class="business-icon-share"></i><p class="name">share</p></li><li class="class-icon"><i class="business-icon-shop-assistant"></i><p class="name">shop-assistant</p></li><li class="class-icon"><i class="business-icon-shop-check-bag-filled"></i><p class="name">shop-check-bag-filled</p></li><li class="class-icon"><i class="business-icon-shop-menu-filled"></i><p class="name">shop-menu-filled</p></li><li class="class-icon"><i class="business-icon-shop-menu-outlined"></i><p class="name">shop-menu-outlined</p></li><li class="class-icon"><i class="business-icon-shopify"></i><p class="name">shopify</p></li><li class="class-icon"><i class="business-icon-show-side-bar"></i><p class="name">show-side-bar</p></li><li class="class-icon"><i class="business-icon-side-bar"></i><p class="name">side-bar</p></li><li class="class-icon"><i class="business-icon-star"></i><p class="name">star</p></li><li class="class-icon"><i class="business-icon-start-arrow"></i><p class="name">start-arrow</p></li><li class="class-icon"><i class="business-icon-status-filled"></i><p class="name">status-filled</p></li><li class="class-icon"><i class="business-icon-sync"></i><p class="name">sync</p></li><li class="class-icon"><i class="business-icon-table-setting"></i><p class="name">table-setting</p></li><li class="class-icon"><i class="business-icon-tag"></i><p class="name">tag</p></li><li class="class-icon"><i class="business-icon-task-complete"></i><p class="name">task-complete</p></li><li class="class-icon"><i class="business-icon-task-menu-filled"></i><p class="name">task-menu-filled</p></li><li class="class-icon"><i class="business-icon-team"></i><p class="name">team</p></li><li class="class-icon"><i class="business-icon-template-filled"></i><p class="name">template-filled</p></li><li class="class-icon"><i class="business-icon-time-clock"></i><p class="name">time-clock</p></li><li class="class-icon"><i class="business-icon-title-edit-icon"></i><p class="name">title-edit-icon</p></li><li class="class-icon"><i class="business-icon-tool-filled"></i><p class="name">tool-filled</p></li><li class="class-icon"><i class="business-icon-trigger"></i><p class="name">trigger</p></li><li class="class-icon"><i class="business-icon-trophy"></i><p class="name">trophy</p></li><li class="class-icon"><i class="business-icon-undo"></i><p class="name">undo</p></li><li class="class-icon"><i class="business-icon-unsubscribe"></i><p class="name">unsubscribe</p></li><li class="class-icon"><i class="business-icon-upgrade-diamond-filled"></i><p class="name">upgrade-diamond-filled</p></li><li class="class-icon"><i class="business-icon-upload-file"></i><p class="name">upload-file</p></li><li class="class-icon"><i class="business-icon-user-filled"></i><p class="name">user-filled</p></li><li class="class-icon"><i class="business-icon-wechat-filled"></i><p class="name">wechat-filled</p></li><li class="class-icon"><i class="business-icon-whatsapp-business-outlined"></i><p class="name">whatsapp-business-outlined</p></li><li class="class-icon"><i class="business-icon-whatsapp-notch-outlined"></i><p class="name">whatsapp-notch-outlined</p></li><li class="class-icon"><i class="business-icon-whatsapp-phone-filled"></i><p class="name">whatsapp-phone-filled</p></li><li class="class-icon"><i class="business-icon-whatsapp-phone-outlined"></i><p class="name">whatsapp-phone-outlined</p></li><li class="class-icon"><i class="business-icon-widgets-filled"></i><p class="name">widgets-filled</p></li><li class="class-icon"><i class="business-icon-widgets-outlined"></i><p class="name">widgets-outlined</p></li>
-    </ul>
-  </div>
-  <p class="links">
-    
-      <a href="https://github.com/TianJianJun0727/ycloud-icons">GitHub</a> · 
-    
-      <a href="https://github.com/TianJianJun0727/ycloud-icons/issues">Feedback</a> · 
-    
-      <a href="index.html">Font Class</a> · 
-    
-      <a href="unicode.html">Unicode</a>
-    
-  </p>
-  <div class="footer">
-    
-    <div><a target="_blank" href="https://github.com/jaywcjlove/svgtofont">Created By svgtofont</a></div>
-  </div>
-</body>
 
+    <div class="header">
+      <h1>YCloud<sup>1.0.0</sup></h1>
+      <div class="info"></div>
+      <p>
+        <a href="https://github.com/TianJianJun0727/ycloud-icons">GitHub</a> ·
+
+        <a href="https://github.com/TianJianJun0727/ycloud-icons/issues">Feedback</a> ·
+
+        <a href="index.html">Font Class</a> ·
+
+        <a href="unicode.html">Unicode</a>
+      </p>
+    </div>
+    <div class="icons">
+      <ul>
+        <li class="class-icon">
+          <i class="business-icon-acquire-more-leads"></i>
+          <p class="name">acquire-more-leads</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-add-nick"></i>
+          <p class="name">add-nick</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-add-tags"></i>
+          <p class="name">add-tags</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-advertising-filled"></i>
+          <p class="name">advertising-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-advertising-outlined"></i>
+          <p class="name">advertising-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-agent-guide-filled"></i>
+          <p class="name">agent-guide-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-agent-permission-filled"></i>
+          <p class="name">agent-permission-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-agent-with-time"></i>
+          <p class="name">agent-with-time</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-agent"></i>
+          <p class="name">agent</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-alipay"></i>
+          <p class="name">alipay</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-analytics-filled"></i>
+          <p class="name">analytics-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-api-docs"></i>
+          <p class="name">api-docs</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-ask-question"></i>
+          <p class="name">ask-question</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-assign"></i>
+          <p class="name">assign</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-authentication-filled"></i>
+          <p class="name">authentication-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-balance"></i>
+          <p class="name">balance</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-analytics"></i>
+          <p class="name">benefit-analytics</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-global"></i>
+          <p class="name">benefit-global</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-languages"></i>
+          <p class="name">benefit-languages</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-payments"></i>
+          <p class="name">benefit-payments</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-restriction"></i>
+          <p class="name">benefit-restriction</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-security"></i>
+          <p class="name">benefit-security</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-sender"></i>
+          <p class="name">benefit-sender</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-simple"></i>
+          <p class="name">benefit-simple</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-smile"></i>
+          <p class="name">benefit-smile</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-statistical"></i>
+          <p class="name">benefit-statistical</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-benefit-template"></i>
+          <p class="name">benefit-template</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-billing-filled"></i>
+          <p class="name">billing-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-billing"></i>
+          <p class="name">billing</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-block"></i>
+          <p class="name">block</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-blog"></i>
+          <p class="name">blog</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-bot-outlined"></i>
+          <p class="name">bot-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-botfilled"></i>
+          <p class="name">botfilled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-branch"></i>
+          <p class="name">branch</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-business-icon"></i>
+          <p class="name">business-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-call-api"></i>
+          <p class="name">call-api</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-call-in"></i>
+          <p class="name">call-in</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-call-out"></i>
+          <p class="name">call-out</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-calling-filled"></i>
+          <p class="name">calling-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-calling-outlined"></i>
+          <p class="name">calling-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-campaign-filled"></i>
+          <p class="name">campaign-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-campaign-outlined"></i>
+          <p class="name">campaign-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-canned-response-check"></i>
+          <p class="name">canned-response-check</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-category-filled"></i>
+          <p class="name">category-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-chat-loading-icon"></i>
+          <p class="name">chat-loading-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-check-cancel-filled"></i>
+          <p class="name">check-cancel-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-check"></i>
+          <p class="name">check</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-circular-right-arrow"></i>
+          <p class="name">circular-right-arrow</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-clock-outlined"></i>
+          <p class="name">clock-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-code-filled"></i>
+          <p class="name">code-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-code-mark"></i>
+          <p class="name">code-mark</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-code-outlined"></i>
+          <p class="name">code-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-code-text"></i>
+          <p class="name">code-text</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-coding-filled"></i>
+          <p class="name">coding-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-coming-soon"></i>
+          <p class="name">coming-soon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-company"></i>
+          <p class="name">company</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-compass-filled"></i>
+          <p class="name">compass-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-composite-trigger-icon"></i>
+          <p class="name">composite-trigger-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-contact-filled"></i>
+          <p class="name">contact-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-contact-outlined"></i>
+          <p class="name">contact-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-conversation-unsubscribe"></i>
+          <p class="name">conversation-unsubscribe</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-coupon-code"></i>
+          <p class="name">coupon-code</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-coupon-filled"></i>
+          <p class="name">coupon-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-create-tickets-icon"></i>
+          <p class="name">create-tickets-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-credit-card-icon"></i>
+          <p class="name">credit-card-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-ctwa-system-keyword-event"></i>
+          <p class="name">ctwa-system-keyword-event</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-date-time"></i>
+          <p class="name">date-time</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-delivered-icon"></i>
+          <p class="name">delivered-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-direction-filled"></i>
+          <p class="name">direction-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-discount"></i>
+          <p class="name">discount</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-doc-csv-filled"></i>
+          <p class="name">doc-csv-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-document-filled"></i>
+          <p class="name">document-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-double-check"></i>
+          <p class="name">double-check</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-edit-title"></i>
+          <p class="name">edit-title</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-exchange"></i>
+          <p class="name">exchange</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-expand-icon"></i>
+          <p class="name">expand-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-export-filled"></i>
+          <p class="name">export-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-file-attach"></i>
+          <p class="name">file-attach</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-filter-event"></i>
+          <p class="name">filter-event</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-flow"></i>
+          <p class="name">flow</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-gift"></i>
+          <p class="name">gift</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-global"></i>
+          <p class="name">global</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-handle"></i>
+          <p class="name">handle</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-hub-spot"></i>
+          <p class="name">hub-spot</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-journey-filled"></i>
+          <p class="name">journey-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-journey-outlined"></i>
+          <p class="name">journey-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-language"></i>
+          <p class="name">language</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-lightning-filled"></i>
+          <p class="name">lightning-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-line-simple"></i>
+          <p class="name">line-simple</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-link-action"></i>
+          <p class="name">link-action</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-link-circle-filled"></i>
+          <p class="name">link-circle-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-link"></i>
+          <p class="name">link</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-location"></i>
+          <p class="name">location</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-logout"></i>
+          <p class="name">logout</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-map-outlined"></i>
+          <p class="name">map-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-menu-open"></i>
+          <p class="name">menu-open</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-message-bubble-filled"></i>
+          <p class="name">message-bubble-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-message-bubble-outlined"></i>
+          <p class="name">message-bubble-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-message-filled"></i>
+          <p class="name">message-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-meta-filled"></i>
+          <p class="name">meta-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-migrate-outlined"></i>
+          <p class="name">migrate-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-mobile-phone"></i>
+          <p class="name">mobile-phone</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-horiz"></i>
+          <p class="name">more-horiz</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-price"></i>
+          <p class="name">more-price</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-restriction"></i>
+          <p class="name">more-restriction</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-sender-name"></i>
+          <p class="name">more-sender-name</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-sender"></i>
+          <p class="name">more-sender</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-more-vert"></i>
+          <p class="name">more-vert</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-mouse-filled"></i>
+          <p class="name">mouse-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-music"></i>
+          <p class="name">music</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-new-tag-filled"></i>
+          <p class="name">new-tag-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-note-filled"></i>
+          <p class="name">note-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-online-chat-outline"></i>
+          <p class="name">online-chat-outline</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-order-event-filled"></i>
+          <p class="name">order-event-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-order-outlined"></i>
+          <p class="name">order-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-partners-outlined"></i>
+          <p class="name">partners-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-payments-filled"></i>
+          <p class="name">payments-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-play-circle-filled"></i>
+          <p class="name">play-circle-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-progressomg"></i>
+          <p class="name">progressomg</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-push-pin-filled"></i>
+          <p class="name">push-pin-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-push-pin-outlined"></i>
+          <p class="name">push-pin-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-qmai-event"></i>
+          <p class="name">qmai-event</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-qr-code"></i>
+          <p class="name">qr-code</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-record-filled"></i>
+          <p class="name">record-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-redo"></i>
+          <p class="name">redo</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-route"></i>
+          <p class="name">route</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-sand-clock"></i>
+          <p class="name">sand-clock</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-scroll-to-bottom"></i>
+          <p class="name">scroll-to-bottom</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-security-filled"></i>
+          <p class="name">security-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-segment"></i>
+          <p class="name">segment</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-send-message-mark"></i>
+          <p class="name">send-message-mark</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-send-message"></i>
+          <p class="name">send-message</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-setting-filled"></i>
+          <p class="name">setting-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-setting-outlined"></i>
+          <p class="name">setting-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-share"></i>
+          <p class="name">share</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-shop-assistant"></i>
+          <p class="name">shop-assistant</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-shop-check-bag-filled"></i>
+          <p class="name">shop-check-bag-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-shop-menu-filled"></i>
+          <p class="name">shop-menu-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-shop-menu-outlined"></i>
+          <p class="name">shop-menu-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-shopify"></i>
+          <p class="name">shopify</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-show-side-bar"></i>
+          <p class="name">show-side-bar</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-side-bar"></i>
+          <p class="name">side-bar</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-star"></i>
+          <p class="name">star</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-start-arrow"></i>
+          <p class="name">start-arrow</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-status-filled"></i>
+          <p class="name">status-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-sync"></i>
+          <p class="name">sync</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-table-setting"></i>
+          <p class="name">table-setting</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-tag"></i>
+          <p class="name">tag</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-task-complete"></i>
+          <p class="name">task-complete</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-task-menu-filled"></i>
+          <p class="name">task-menu-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-team"></i>
+          <p class="name">team</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-template-filled"></i>
+          <p class="name">template-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-time-clock"></i>
+          <p class="name">time-clock</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-title-edit-icon"></i>
+          <p class="name">title-edit-icon</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-tool-filled"></i>
+          <p class="name">tool-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-trigger"></i>
+          <p class="name">trigger</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-trophy"></i>
+          <p class="name">trophy</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-undo"></i>
+          <p class="name">undo</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-unsubscribe"></i>
+          <p class="name">unsubscribe</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-upgrade-diamond-filled"></i>
+          <p class="name">upgrade-diamond-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-upload-file"></i>
+          <p class="name">upload-file</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-user-filled"></i>
+          <p class="name">user-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-wechat-filled"></i>
+          <p class="name">wechat-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-whatsapp-business-outlined"></i>
+          <p class="name">whatsapp-business-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-whatsapp-notch-outlined"></i>
+          <p class="name">whatsapp-notch-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-whatsapp-phone-filled"></i>
+          <p class="name">whatsapp-phone-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-whatsapp-phone-outlined"></i>
+          <p class="name">whatsapp-phone-outlined</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-widgets-filled"></i>
+          <p class="name">widgets-filled</p>
+        </li>
+        <li class="class-icon">
+          <i class="business-icon-widgets-outlined"></i>
+          <p class="name">widgets-outlined</p>
+        </li>
+      </ul>
+    </div>
+    <p class="links">
+      <a href="https://github.com/TianJianJun0727/ycloud-icons">GitHub</a> ·
+
+      <a href="https://github.com/TianJianJun0727/ycloud-icons/issues">Feedback</a> ·
+
+      <a href="index.html">Font Class</a> ·
+
+      <a href="unicode.html">Unicode</a>
+    </p>
+    <div class="footer">
+      <div>
+        <a
+          target="_blank"
+          href="https://github.com/jaywcjlove/svgtofont"
+          >Created By svgtofont</a
+        >
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,29 +1,34 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-const StartArrow: FunctionalComponent<BusinessIconImageProps> = ({ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }) =>
+const StartArrow: FunctionalComponent<BusinessIconImageProps> = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  style,
+  ...props
+}) =>
   h(
     'svg',
     {
-    xmlns: 'http://www.w3.org/2000/svg',
-    viewBox: '0 0 37 12',
-    fill: 'currentColor',
-    width: width ?? size,
-    height: height ?? size,
-    role: alt ? 'img' : undefined,
-    'aria-label': alt || undefined,
-    'aria-hidden': alt ? undefined : true,
-    color,
-    style,
-    ...props,
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 37 12',
+      fill: 'currentColor',
+      width: width ?? size,
+      height: height ?? size,
+      role: alt ? 'img' : undefined,
+      'aria-label': alt || undefined,
+      'aria-hidden': alt ? undefined : true,
+      color,
+      style,
+      ...props,
     },
     [
-      h(
-        'path',
-        {
-          d: 'M1 5.04688C0.447715 5.04688 -4.82823e-08 5.49459 0 6.04688C4.82823e-08 6.59916 0.447715 7.04688 1 7.04688L1 5.04688ZM36.481 6.04687L26.481 0.27337L26.481 11.8204L36.481 6.04687ZM1 7.04688L27.481 7.04687L27.481 5.04687L1 5.04688L1 7.04688Z',
-        },
-      ),
+      h('path', {
+        d: 'M1 5.04688C0.447715 5.04688 -4.82823e-08 5.49459 0 6.04688C4.82823e-08 6.59916 0.447715 7.04688 1 7.04688L1 5.04688ZM36.481 6.04687L26.481 0.27337L26.481 11.8204L36.481 6.04687ZM1 7.04688L27.481 7.04687L27.481 5.04687L1 5.04688L1 7.04688Z',
+      }),
     ],
   );
 

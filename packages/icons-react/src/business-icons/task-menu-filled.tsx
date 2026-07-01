@@ -21,7 +21,11 @@ const TaskMenuFilled = forwardRef<SVGSVGElement, BusinessIconImageProps>(
       </g>
       <defs>
         <clipPath id="clip0_7774_12737">
-          <rect width="24" height="24" fill="currentColor" />
+          <rect
+            width="24"
+            height="24"
+            fill="currentColor"
+          />
         </clipPath>
       </defs>
     </svg>

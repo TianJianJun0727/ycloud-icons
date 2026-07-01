@@ -13,7 +13,13 @@ const entryFileNameMap = {
   business: 'business-icons',
   illustration: 'illustration-icons',
 };
-const runtimeEntryNames = new Set(['Icon', 'context', 'createYCloudIcon', 'defaultAttributes', 'types']);
+const runtimeEntryNames = new Set([
+  'Icon',
+  'context',
+  'createYCloudIcon',
+  'defaultAttributes',
+  'types',
+]);
 const getEntryFileName = (chunkInfo, extension) => {
   const entryName = entryFileNameMap[chunkInfo.name];
 
@@ -126,8 +132,7 @@ const configs = bundles
                 dir: outputDir,
                 exports: format === 'cjs' ? 'named' : undefined,
                 entryFileNames:
-                  entryFileNames ??
-                  ((chunkInfo) => getEntryFileName(chunkInfo, extension)),
+                  entryFileNames ?? ((chunkInfo) => getEntryFileName(chunkInfo, extension)),
               }
             : {
                 file: outputFile ?? `${outputDir}/${outputFileName}.${extension}`,

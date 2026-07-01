@@ -51,7 +51,7 @@
     "lint:svg:icons": "node ./scripts/checkSvgSource.mts && prettier --parser html --check 'icons/*.svg'",
     "lint:svg:business": "node ./scripts/checkBusinessSvgSource.mts",
     "lint:svg": "pnpm lint:svg:icons && pnpm lint:svg:business && pnpm lint:svg:illustration",
-    "lint:json:icons": "ajv --spec=draft2020 -s icon.schema.json -d 'icons/*.json' > /dev/null",
+    "lint:json:icons": "ajv --spec=draft2020 -s icon.schema.json -d 'icons/!(package).json' > /dev/null",
     "lint:json:categories": "ajv --spec=draft2020 -s category.schema.json -d 'categories/*.json' > /dev/null",
     "lint:json": "pnpm run lint:json:icons && pnpm run lint:json:categories",
     "lint": "pnpm lint:es && pnpm lint:format && pnpm lint:svg && pnpm lint:json",

@@ -1,58 +1,45 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-const Share = ({ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }: BusinessIconImageProps) =>
+const Share = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  style,
+  ...props
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {
-    xmlns: 'http://www.w3.org/2000/svg',
-    viewBox: '0 0 21 20',
-    fill: 'currentColor',
-    width: width ?? size,
-    height: height ?? size,
-    role: alt ? 'img' : undefined,
-    'aria-label': alt || undefined,
-    'aria-hidden': alt ? undefined : true,
-    color,
-    style,
-    ...props,
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 21 20',
+      fill: 'currentColor',
+      width: width ?? size,
+      height: height ?? size,
+      role: alt ? 'img' : undefined,
+      'aria-label': alt || undefined,
+      'aria-hidden': alt ? undefined : true,
+      color,
+      style,
+      ...props,
     },
     [
-      h(
-        'g',
-        {
-        },
-        [
-          h(
-            'path',
-            {
-              d: 'M16.2279 15.8333H4.5612V4.16667H10.3945V2.5H4.5612C3.6362 2.5 2.89453 3.25 2.89453 4.16667V15.8333C2.89453 16.75 3.6362 17.5 4.5612 17.5H16.2279C17.1445 17.5 17.8945 16.75 17.8945 15.8333V10H16.2279V15.8333ZM12.0612 2.5V4.16667H15.0529L6.8612 12.3583L8.0362 13.5333L16.2279 5.34167V8.33333H17.8945V2.5H12.0612Z',
-            },
-          ),
-        ],
-      ),
-      h(
-        'defs',
-        {
-        },
-        [
-          h(
-            'clipPath',
-            {
-            },
-            [
-              h(
-                'rect',
-                {
-                  width: '20',
-                  height: '20',
-                  transform: 'translate(0.394531)',
-                },
-              ),
-            ],
-          ),
-        ],
-      ),
+      h('g', {}, [
+        h('path', {
+          d: 'M16.2279 15.8333H4.5612V4.16667H10.3945V2.5H4.5612C3.6362 2.5 2.89453 3.25 2.89453 4.16667V15.8333C2.89453 16.75 3.6362 17.5 4.5612 17.5H16.2279C17.1445 17.5 17.8945 16.75 17.8945 15.8333V10H16.2279V15.8333ZM12.0612 2.5V4.16667H15.0529L6.8612 12.3583L8.0362 13.5333L16.2279 5.34167V8.33333H17.8945V2.5H12.0612Z',
+        }),
+      ]),
+      h('defs', {}, [
+        h('clipPath', {}, [
+          h('rect', {
+            width: '20',
+            height: '20',
+            transform: 'translate(0.394531)',
+          }),
+        ]),
+      ]),
     ],
   );
 

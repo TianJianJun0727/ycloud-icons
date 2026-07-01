@@ -73,11 +73,15 @@ for (const fileName of ['icons.js', 'icons.d.ts']) {
 }
 
 for (const fileName of ['business-icons.js', 'business-icons.d.ts']) {
-  replaceInFile(path.join(distDir, fileName), [["'./businessTypes.js'", "'./runtime/businessTypes.js'"]]);
+  replaceInFile(path.join(distDir, fileName), [
+    ["'./businessTypes.js'", "'./runtime/businessTypes.js'"],
+  ]);
 }
 
 for (const fileName of ['illustration-icons.js', 'illustration-icons.d.ts']) {
-  replaceInFile(path.join(distDir, fileName), [["'./illustrationTypes.js'", "'./runtime/illustrationTypes.js'"]]);
+  replaceInFile(path.join(distDir, fileName), [
+    ["'./illustrationTypes.js'", "'./runtime/illustrationTypes.js'"],
+  ]);
 }
 
 walkFiles(path.join(distDir, 'icons'), (filePath) => {

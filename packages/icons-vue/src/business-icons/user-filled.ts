@@ -1,29 +1,34 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-const UserFilled: FunctionalComponent<BusinessIconImageProps> = ({ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }) =>
+const UserFilled: FunctionalComponent<BusinessIconImageProps> = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  style,
+  ...props
+}) =>
   h(
     'svg',
     {
-    xmlns: 'http://www.w3.org/2000/svg',
-    viewBox: '0 0 33 33',
-    fill: 'currentColor',
-    width: width ?? size,
-    height: height ?? size,
-    role: alt ? 'img' : undefined,
-    'aria-label': alt || undefined,
-    'aria-hidden': alt ? undefined : true,
-    color,
-    style,
-    ...props,
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 33 33',
+      fill: 'currentColor',
+      width: width ?? size,
+      height: height ?? size,
+      role: alt ? 'img' : undefined,
+      'aria-label': alt || undefined,
+      'aria-hidden': alt ? undefined : true,
+      color,
+      style,
+      ...props,
     },
     [
-      h(
-        'path',
-        {
-          d: 'M16.7527 18.1656C19.5368 18.1656 22.1066 15.7333 22.3946 12.176C22.6958 8.45395 20.224 4.94336 16.7527 4.94336C13.2816 4.94336 10.8095 8.45395 11.111 12.176C11.3989 15.7333 13.9687 18.1656 16.7527 18.1656ZM16.7023 20.0856C10.4709 20.0856 5.41943 22.5636 5.41943 25.6203C5.41943 26.6656 6.38035 27.0685 9.20638 27.3739C11.3911 27.61 13.9993 27.61 16.7528 27.61C19.5731 27.61 22.3702 27.61 24.338 27.3739C27.1217 27.0399 28.0861 26.6656 28.0861 25.6203C28.0861 22.5636 22.9334 20.0856 16.7023 20.0856Z',
-        },
-      ),
+      h('path', {
+        d: 'M16.7527 18.1656C19.5368 18.1656 22.1066 15.7333 22.3946 12.176C22.6958 8.45395 20.224 4.94336 16.7527 4.94336C13.2816 4.94336 10.8095 8.45395 11.111 12.176C11.3989 15.7333 13.9687 18.1656 16.7527 18.1656ZM16.7023 20.0856C10.4709 20.0856 5.41943 22.5636 5.41943 25.6203C5.41943 26.6656 6.38035 27.0685 9.20638 27.3739C11.3911 27.61 13.9993 27.61 16.7528 27.61C19.5731 27.61 22.3702 27.61 24.338 27.3739C27.1217 27.0399 28.0861 26.6656 28.0861 25.6203C28.0861 22.5636 22.9334 20.0856 16.7023 20.0856Z',
+      }),
     ],
   );
 
