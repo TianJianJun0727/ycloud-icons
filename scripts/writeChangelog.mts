@@ -87,12 +87,16 @@ function getTagDateTime(tag: string) {
   return run(`git log -1 --format=%cI ${tag}`);
 }
 
-function getCommits(currentTag: string, previousTag?: string) {
+function getRefDate(ref: string) {
+  return run(`git log -1 --format=%cs ${ref}`);
+}
+
+function getCommits(currentRef: string, previousTag?: string) {
   if (!previousTag) {
     return ['首个正式版本发布。'];
   }
 
-  const output = run(`git log --no-merges --format=%s ${previousTag}..${currentTag}`);
+  const output = run(`git log --no-merges --format=%s ${previousTag}..${currentRef}`);
   const commits = output
     .split('\n')
     .map((line) => line.trim())
@@ -102,12 +106,12 @@ function getCommits(currentTag: string, previousTag?: string) {
   return commits.length ? Array.from(new Set(commits)) : ['本版本没有记录到额外提交说明。'];
 }
 
-function getChangedFiles(currentTag: string, previousTag?: string) {
+function getChangedFiles(currentRef: string, previousTag?: string) {
   if (!previousTag) {
     return [];
   }
 
-  const output = run(`git diff --name-status ${previousTag}..${currentTag}`);
+  const output = run(`git diff --name-status ${previousTag}..${currentRef}`);
 
   return output
     .split('\n')
@@ -147,6 +151,34 @@ function buildEntries(tags: string[]): ReleaseEntry[] {
       },
     };
   });
+}
+
+function buildPendingReleaseEntry(tags: string[]): ReleaseEntry | undefined {
+  const targetVersion = aiChangelogVersion?.replace(/^v/, '');
+  if (!targetVersion) {
+    return undefined;
+  }
+
+  const targetTag = `v${targetVersion}`;
+  if (tags.includes(targetTag)) {
+    return undefined;
+  }
+
+  const previousTag = tags[0];
+  const commits = getCommits('HEAD', previousTag);
+  const previousTagExists = Boolean(previousTag);
+
+  return {
+    version: targetVersion,
+    tag: targetTag,
+    date: getRefDate('HEAD'),
+    commits,
+    changedFiles: getChangedFiles('HEAD', previousTag),
+    notes: {
+      zh: commits,
+      en: getEnglishFallbackNotes(commits, previousTagExists),
+    },
+  };
 }
 
 function getChangelogAnchor(version: string, date: string) {
@@ -296,12 +328,10 @@ async function applyAiGeneratedNotes(entries: ReleaseEntry[]) {
     return entriesWithPersistedNotes;
   }
 
-  const { notes, generated } = await generateAiNotes(targetEntry);
+  const { notes } = await generateAiNotes(targetEntry);
   const updatedTargetEntry = { ...targetEntry, notes };
 
-  if (generated) {
-    await writePersistedNotes(updatedTargetEntry);
-  }
+  await writePersistedNotes(updatedTargetEntry);
 
   return entriesWithPersistedNotes.map((entry) =>
     entry.tag === targetEntry.tag ? updatedTargetEntry : entry,
@@ -369,7 +399,11 @@ async function main() {
     return;
   }
 
-  const entries = await applyAiGeneratedNotes(buildEntries(tags));
+  const pendingReleaseEntry = buildPendingReleaseEntry(tags);
+  const rawEntries = pendingReleaseEntry
+    ? [pendingReleaseEntry, ...buildEntries(tags)]
+    : buildEntries(tags);
+  const entries = await applyAiGeneratedNotes(rawEntries);
   const markdown = toMarkdown(entries, 'zh');
   const englishMarkdown = toMarkdown(entries, 'en');
   const targetVersion = aiChangelogVersion
