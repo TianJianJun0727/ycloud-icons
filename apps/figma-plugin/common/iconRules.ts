@@ -218,3 +218,26 @@ export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMod
 
   return `${normalized}\n`;
 }
+
+export function sanitizeIllustrationSvg(svg: string) {
+  const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
+  if (!openTag) return svg.trim();
+  const referencedIds = new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+
+  const normalized = svg
+    .replace(
+      /<\s*(?:script|foreignObject)\b[^>]*>[\s\S]*?<\s*\/\s*(?:script|foreignObject)\s*>/gi,
+      '',
+    )
+    .replace(/<\s*(?:script|foreignObject)\b[^>]*\/\s*>/gi, '')
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, '')
+    .replace(/\s(?:style|class)="[^"]*"/gi, '')
+    .replace(/\sdata-[^\s=]+="[^"]*"/gi, '')
+    .replace(/\sid="([^"]*)"/gi, (match, id) => (referencedIds.has(id) ? match : ''))
+    .replace(/\s(?:href|xlink:href)="javascript:[^"]*"/gi, '')
+    .replace(/>\s*</g, '>\n  <')
+    .replace(/\s*\/>/g, ' />')
+    .trim();
+
+  return `${normalized}\n`;
+}

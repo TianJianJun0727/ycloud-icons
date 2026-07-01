@@ -1,4 +1,9 @@
-import { sanitizeBusinessSvg, sanitizeSvg, toKebabCase } from '../common/iconRules';
+import {
+  sanitizeBusinessSvg,
+  sanitizeIllustrationSvg,
+  sanitizeSvg,
+  toKebabCase,
+} from '../common/iconRules';
 import type { IconSourceType, YCloudIconData, YCloudMetadataOptions } from '../common/types';
 const GITHUB_API_VERSION = '2022-11-28';
 interface TreeItem {
@@ -66,7 +71,7 @@ function buildBusinessIconFiles(
     const name = toKebabCase(icon.name || key);
     return {
       path: `business-icons/${businessColorMode}/${name}.svg`,
-      content: sanitizeBusinessSvg(icon.sourceSvg ?? icon.svg, businessColorMode),
+      content: sanitizeBusinessSvg(icon.svg, businessColorMode),
     };
   });
 }
@@ -75,7 +80,7 @@ function buildIllustrationFiles(icons: Record<string, YCloudIconData>) {
     const name = toKebabCase(icon.name || key);
     return {
       path: `illustration-icons/${name}.svg`,
-      content: icon.sourceSvg ?? icon.svg,
+      content: sanitizeIllustrationSvg(icon.svg),
     };
   });
 }
@@ -246,7 +251,7 @@ export function createGithubClient(
         sourceType === 'business'
           ? `本次提交 ${iconCount} 个业务图标，颜色类型为 \`business-icons/${metadata.businessColorMode || 'mono'}/\`。SVG 已按业务规则轻量清洗。`
           : sourceType === 'illustration'
-            ? `本次提交 ${iconCount} 个插画。SVG 保留原始颜色和尺寸属性。`
+            ? `本次提交 ${iconCount} 个插画。SVG 已做安全轻量清洗，并保留原始颜色和尺寸属性。`
             : `本次提交 ${iconCount} 个图标。SVG 已按图标库规范自动清洗。`,
         '',
         '变更文件：',

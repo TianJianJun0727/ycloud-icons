@@ -10,6 +10,7 @@ import {
   getIllustrationSvgIssues,
   getSvgIssues,
   sanitizeBusinessSvg,
+  sanitizeIllustrationSvg,
   sanitizeSvg,
   toKebabCase,
 } from '../../common/iconRules';
@@ -135,7 +136,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     return new Map(
       icons.map(([name, data]) => {
         const sourceName = getSourceIconName(name, data);
-        const svg = sourceType === 'generic' ? data.svg : (data.sourceSvg ?? data.svg);
+        const svg = data.svg;
         const cleanedSvg = sanitizeSvg(svg);
         const issues =
           sourceType === 'business'
@@ -196,9 +197,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             ...data,
             svg:
               sourceType === 'business'
-                ? sanitizeBusinessSvg(data.sourceSvg ?? data.svg, ycloudMetadata.businessColorMode)
+                ? sanitizeBusinessSvg(data.svg, ycloudMetadata.businessColorMode)
                 : sourceType === 'illustration'
-                  ? (data.sourceSvg ?? data.svg)
+                  ? sanitizeIllustrationSvg(data.svg)
                   : sanitizeSvg(data.svg),
           },
         ]),
@@ -521,7 +522,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           {sourceType === 'business'
             ? '当前提交到 business-icons/<颜色类型>/*.svg，不需要通用元数据。'
             : sourceType === 'illustration'
-              ? '当前提交到 illustration-icons/*.svg，保留原始颜色和尺寸属性。'
+              ? '当前提交到 illustration-icons/*.svg，轻量清洗后保留原始颜色和尺寸属性。'
               : '当前提交到 icons/*.svg，需要分类和通用元数据。'}
         </p>
       </section>
@@ -784,10 +785,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             ];
             const previewSvg =
               sourceType === 'business'
-                ? sanitizeBusinessSvg(data.sourceSvg ?? svg, ycloudMetadata.businessColorMode)
+                ? sanitizeBusinessSvg(svg, ycloudMetadata.businessColorMode)
                 : sourceType === 'illustration'
-                  ? (data.sourceSvg ?? svg)
-                  : svg;
+                  ? sanitizeIllustrationSvg(svg)
+                  : sanitizeSvg(svg);
             const previewLabel = getSourceIconName(name, data);
             return (
               <div
@@ -944,12 +945,12 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                 __html:
                   sourceType === 'business'
                     ? sanitizeBusinessSvg(
-                        previewDialogIcon[1].sourceSvg ?? previewDialogIcon[1].svg,
+                        previewDialogIcon[1].svg,
                         ycloudMetadata.businessColorMode,
                       )
                     : sourceType === 'illustration'
-                      ? (previewDialogIcon[1].sourceSvg ?? previewDialogIcon[1].svg)
-                      : previewDialogIcon[1].svg,
+                      ? sanitizeIllustrationSvg(previewDialogIcon[1].svg)
+                      : sanitizeSvg(previewDialogIcon[1].svg),
               }}
             />
           </section>
@@ -999,7 +1000,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             {sourceType === 'business'
               ? `将提交到 business-icons/${ycloudMetadata.businessColorMode}/，并执行业务 SVG 轻量清洗。`
               : sourceType === 'illustration'
-                ? '将提交到 illustration-icons/，保留 SVG 原始颜色和尺寸属性。'
+                ? '将提交到 illustration-icons/，清理危险和无关属性，保留 SVG 原始颜色和尺寸属性。'
                 : '将提交 SVG、图标信息和必要的分类信息。'}
           </p>
         )}

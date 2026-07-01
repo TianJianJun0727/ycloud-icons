@@ -2,7 +2,6 @@ type Base64Data = string;
 export interface ExportedIconData {
   name: string;
   svg: string;
-  sourceSvg?: string;
   png: {
     '1x': Base64Data | null;
     '2x': Base64Data | null;
