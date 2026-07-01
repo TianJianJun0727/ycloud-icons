@@ -7,5 +7,6 @@ export * from './ycloud-icon-template';
 export * from './ycloud-icons';
 export * from './types';
 export * from './business';
+export * from './illustration';
 export * from './icons/ycloud-angular';
 export { icons };

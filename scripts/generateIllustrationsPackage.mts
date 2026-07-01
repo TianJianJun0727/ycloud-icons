@@ -134,7 +134,13 @@ function buildDataIndex(sources: IllustrationSource[]) {
     const exportBase = getIllustrationExportBase(name);
     return `import { ${exportBase}Illustration } from './${illustrationPackageDirName}/${name}';`;
   });
-  const exports = sorted.map(({ name }) => `export * from './${illustrationPackageDirName}/${name}';`);
+  const exports = sorted.flatMap(({ name }) => {
+    const componentName = getIllustrationComponentName(name);
+    return [
+      `export * from './${illustrationPackageDirName}/${name}';`,
+      `export { default as ${componentName}, default as ${componentName}Icon, default as YCloud${componentName} } from './${illustrationPackageDirName}/${name}';`,
+    ];
+  });
   const names = sorted.map(({ name }) => toStringLiteral(name)).join(', ');
   const entries = sorted.map(({ name }) => {
     const exportBase = getIllustrationExportBase(name);
@@ -146,13 +152,13 @@ function buildDataIndex(sources: IllustrationSource[]) {
     ...exports,
     '',
     'export type IllustrationDefinitionNode =',
-    '  | [tag: string, attrs: Record<string, string>]',
-    '  | [tag: string, attrs: Record<string, string>, children: IllustrationDefinitionNode[]];',
+    '  | readonly [tag: string, attrs: Record<string, string>]',
+    '  | readonly [tag: string, attrs: Record<string, string>, children: readonly IllustrationDefinitionNode[]];',
     '',
     'export interface IllustrationDefinition {',
     '  name: string;',
     '  attrs: Record<string, string>;',
-    '  node: IllustrationDefinitionNode[];',
+    '  node: readonly IllustrationDefinitionNode[];',
     '}',
     '',
     `export const illustrationNames = [${names}] as const;`,
@@ -340,7 +346,7 @@ function buildComponentIndex(names: string[], extension = '', typeImportExtensio
   return [
     ...sorted.map((name) => {
       const componentName = getIllustrationComponentName(name);
-      return `export { default as ${componentName} } from './${illustrationPackageDirName}/${name}${extension}';`;
+      return `export { default as ${componentName}, default as ${componentName}Icon, default as YCloud${componentName} } from './${illustrationPackageDirName}/${name}${extension}';`;
     }),
     `export type { IllustrationProps } from './illustrationTypes${typeImportExtension}';`,
     '',
@@ -514,11 +520,11 @@ export async function generateIllustrationsPackage(targets: Target[] = [...allTa
     await fs.writeFile(path.join(packageDirs.reactNative, 'illustrationTypes.ts'), buildReactNativeTypes());
   }
   if (targets.includes('svelte')) {
-    await fs.writeFile(path.join(packageDirs.svelte, 'illustration.ts'), buildComponentIndex(names, '.svelte', '.js'));
+    await fs.writeFile(path.join(packageDirs.svelte, 'illustration-icons.ts'), buildComponentIndex(names, '.svelte', '.js'));
     await fs.writeFile(path.join(packageDirs.svelte, 'illustrationTypes.ts'), buildHtmlTypes());
   }
   if (targets.includes('astro')) {
-    await fs.writeFile(path.join(packageDirs.astro, 'illustration.ts'), buildComponentIndex(names, '.astro'));
+    await fs.writeFile(path.join(packageDirs.astro, 'illustration-icons.ts'), buildComponentIndex(names, '.astro'));
     await fs.writeFile(path.join(packageDirs.astro, 'illustrationTypes.ts'), buildHtmlTypes());
   }
 }

@@ -104,7 +104,7 @@ async function writeFamily(family: AssetFamily) {
       );
 
       await fs.writeFile(path.join(family.moduleDir, `${name}.ts`), buildModule(name, exportName, svg));
-      exports.push(`export { default as ${exportName} } from './${name}';`);
+      exports.push(`export { default as ${exportName}, default as ${exportName}Icon, default as YCloud${exportName} } from './${name}';`);
     }),
   );
 

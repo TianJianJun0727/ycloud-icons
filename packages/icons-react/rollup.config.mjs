@@ -2,20 +2,44 @@ import plugins from '@ycloud-web/rollup-plugins';
 import preserveDirectives from 'rollup-plugin-preserve-directives';
 import pkg from './package.json' with { type: 'json' };
 import dts from 'rollup-plugin-dts';
-import getAliasesEntryNames from './scripts/getAliasesEntryNames.mts';
-
-const aliasesEntries = await getAliasesEntryNames();
 
 const packageName = 'YCloudReact';
-const outputFileName = 'ycloud-react';
-const inputs = [`src/ycloud-react.ts`];
+const outputFileName = 'icons';
 const businessInput = 'src/business.ts';
 const illustrationInput = 'src/illustration.ts';
+const inputs = [`src/ycloud-react.ts`, businessInput, illustrationInput];
+const entryFileNameMap = {
+  'ycloud-react': 'icons',
+  business: 'business-icons',
+  illustration: 'illustration-icons',
+};
+const runtimeEntryNames = new Set(['Icon', 'context', 'createYCloudIcon', 'defaultAttributes', 'types']);
+const getEntryFileName = (chunkInfo, extension) => {
+  const entryName = entryFileNameMap[chunkInfo.name];
+
+  if (entryName) {
+    return `${entryName}.${extension}`;
+  }
+
+  if (runtimeEntryNames.has(chunkInfo.name)) {
+    return `runtime/${chunkInfo.name}.${extension}`;
+  }
+
+  return `${chunkInfo.name}.${extension}`;
+};
+const getExternalModulePath = (modulePath, prefix = './') => {
+  if (runtimeEntryNames.has(modulePath)) {
+    return `${prefix}runtime/${modulePath}.mjs`;
+  }
+
+  return `${prefix}${modulePath}.mjs`;
+};
 const bundles = [
   {
     format: 'cjs',
     inputs,
     outputDir: 'dist/cjs',
+    preserveModules: true,
     extension: 'js',
   },
   {
@@ -27,7 +51,7 @@ const bundles = [
   },
   {
     format: 'esm',
-    inputs: ['src/dynamicIconImports.ts', 'src/DynamicIcon.ts', ...aliasesEntries],
+    inputs: ['src/dynamicIconImports.ts', 'src/DynamicIcon.ts'],
     outputDir: 'dist/esm',
     external: [/src/],
     preserveModules: true,
@@ -36,7 +60,7 @@ const bundles = [
       if (id.match(/src/)) {
         const [, modulePath] = id.match(/src\/(.*)\.ts/);
 
-        return `./${modulePath}.mjs`;
+        return getExternalModulePath(modulePath);
       }
     },
   },
@@ -50,7 +74,7 @@ const bundles = [
       if (id.match(/src/)) {
         const [, modulePath] = id.match(/src\/(.*)\.ts/);
 
-        return `dist/esm/${modulePath}.mjs`;
+        return getExternalModulePath(modulePath, 'dist/esm/');
       }
     },
   },
@@ -64,7 +88,7 @@ const bundles = [
       if (id.match(/src/)) {
         const [, modulePath] = id.match(/src\/(.*)\.ts/);
 
-        return `dist/esm/${modulePath}.mjs`;
+        return getExternalModulePath(modulePath, 'dist/esm/');
       }
     },
   },
@@ -100,7 +124,10 @@ const configs = bundles
           ...(preserveModules
             ? {
                 dir: outputDir,
-                entryFileNames: entryFileNames ?? `[name].${extension}`,
+                exports: format === 'cjs' ? 'named' : undefined,
+                entryFileNames:
+                  entryFileNames ??
+                  ((chunkInfo) => getEntryFileName(chunkInfo, extension)),
               }
             : {
                 file: outputFile ?? `${outputDir}/${outputFileName}.${extension}`,
@@ -127,11 +154,6 @@ export default [
         file: `dynamicIconImports.d.ts`,
         format: 'es',
       },
-      // Extra declaration file with .d.mts extension for better compatibility with ESM environments
-      {
-        file: `dynamicIconImports.d.mts`,
-        format: 'es',
-      },
     ],
     plugins: [dts()],
   },
@@ -140,11 +162,6 @@ export default [
     output: [
       {
         file: `dynamic.d.ts`,
-        format: 'es',
-      },
-      // Extra declaration file with .d.mts extension for better compatibility with ESM environments
-      {
-        file: `dynamic.d.mts`,
         format: 'es',
       },
     ],
@@ -161,34 +178,10 @@ export default [
     plugins: [dts()],
   },
   {
-    input: `src/${outputFileName}.suffixed.ts`,
-    output: [
-      {
-        file: `dist/${outputFileName}.suffixed.d.ts`,
-        format: 'es',
-      },
-    ],
-    plugins: [dts()],
-  },
-  {
-    input: `src/${outputFileName}.prefixed.ts`,
-    output: [
-      {
-        file: `dist/${outputFileName}.prefixed.d.ts`,
-        format: 'es',
-      },
-    ],
-    plugins: [dts()],
-  },
-  {
     input: businessInput,
     output: [
       {
-        file: `business.d.ts`,
-        format: 'es',
-      },
-      {
-        file: `business.d.mts`,
+        file: `dist/business-icons.d.ts`,
         format: 'es',
       },
     ],
@@ -198,75 +191,11 @@ export default [
     input: illustrationInput,
     output: [
       {
-        file: `illustration.d.ts`,
-        format: 'es',
-      },
-      {
-        file: `illustration.d.mts`,
+        file: `dist/illustration-icons.d.ts`,
         format: 'es',
       },
     ],
     plugins: [dts()],
-  },
-  {
-    input: businessInput,
-    plugins: plugins({ pkg }),
-    external: ['react', '@ycloud-web/icons/business'],
-    output: {
-      name: `${packageName}Business`,
-      file: 'business.js',
-      format: 'cjs',
-      sourcemap: true,
-      globals: {
-        react: 'react',
-        '@ycloud-web/icons/business': 'YCloudBusinessIcons',
-      },
-    },
-  },
-  {
-    input: businessInput,
-    plugins: plugins({ pkg }),
-    external: ['react', '@ycloud-web/icons/business'],
-    output: {
-      name: `${packageName}Business`,
-      file: 'business.mjs',
-      format: 'esm',
-      sourcemap: true,
-      globals: {
-        react: 'react',
-        '@ycloud-web/icons/business': 'YCloudBusinessIcons',
-      },
-    },
-  },
-  {
-    input: illustrationInput,
-    plugins: plugins({ pkg }),
-    external: ['react', '@ycloud-web/icons/illustration'],
-    output: {
-      name: `${packageName}Illustration`,
-      file: 'illustration.js',
-      format: 'cjs',
-      sourcemap: true,
-      globals: {
-        react: 'react',
-        '@ycloud-web/icons/illustration': 'YCloudIllustrations',
-      },
-    },
-  },
-  {
-    input: illustrationInput,
-    plugins: plugins({ pkg }),
-    external: ['react', '@ycloud-web/icons/illustration'],
-    output: {
-      name: `${packageName}Illustration`,
-      file: 'illustration.mjs',
-      format: 'esm',
-      sourcemap: true,
-      globals: {
-        react: 'react',
-        '@ycloud-web/icons/illustration': 'YCloudIllustrations',
-      },
-    },
   },
   ...configs,
 ];

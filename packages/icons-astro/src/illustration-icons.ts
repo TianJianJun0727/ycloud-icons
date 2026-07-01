@@ -1,4 +1,3 @@
-export { default as Illustration404 } from './illustration-icons/404.astro';
 export { default as AccountUnbound } from './illustration-icons/account-unbound.astro';
 export { default as DataImporting } from './illustration-icons/data-importing.astro';
 export { default as EmptyList } from './illustration-icons/empty-list.astro';
@@ -8,6 +7,7 @@ export { default as EmptySearch } from './illustration-icons/empty-search.astro'
 export { default as LoadFailed } from './illustration-icons/load-failed.astro';
 export { default as NetworkDisconnected } from './illustration-icons/network-disconnected.astro';
 export { default as NoPermission } from './illustration-icons/no-permission.astro';
+export { default as NotFound } from './illustration-icons/not-found.astro';
 export { default as PaymentMethodDisabled } from './illustration-icons/payment-method-disabled.astro';
 export { default as WaitingStatus } from './illustration-icons/waiting-status.astro';
 export type { IllustrationProps } from './illustrationTypes';

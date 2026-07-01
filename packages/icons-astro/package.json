@@ -29,31 +29,35 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./src/ycloud-astro.ts"
-    },
-    "./icons": {
-      "import": "./src/ycloud-astro.ts"
-    },
-    "./icons/*": {
-      "import": "./src/icons/*.ts"
+      "import": "./src/icons.ts",
+      "default": "./src/icons.ts"
     },
     "./business": {
-      "import": "./src/business.ts"
+      "import": "./src/business-icons.ts",
+      "default": "./src/business-icons.ts"
     },
     "./illustration": {
-      "import": "./src/illustration.ts"
+      "import": "./src/illustration-icons.ts",
+      "default": "./src/illustration-icons.ts"
+    },
+    "./icons/*": {
+      "import": "./src/icons/*.ts",
+      "default": "./src/icons/*.ts"
     },
     "./business-icons/*": {
-      "import": "./src/business-icons/*.astro"
+      "import": "./src/business-icons/*.astro",
+      "default": "./src/business-icons/*.astro"
     },
     "./illustration-icons/*": {
-      "import": "./src/illustration-icons/*.astro"
-    }
+      "import": "./src/illustration-icons/*.astro",
+      "default": "./src/illustration-icons/*.astro"
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "build": "pnpm clean && pnpm copy:license && pnpm copy:utils && pnpm build:icons",
     "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --renderUniqueKey --withAliases --aliasesFileExtension=.ts --iconFileExtension=.ts --exportFileName=index.ts --pretty=false && node ../../scripts/generateBusinessIconsPackage.mts astro && node ../../scripts/generateIllustrationsPackage.mts astro",
-    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.ts && rm -rf ./src/illustration-icons && rm -f ./src/illustration.ts ./src/illustrationTypes.ts",
+    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.ts && rm -rf ./src/business-icons ./src/illustration-icons && rm -f ./src/business.ts ./src/business-icons.ts ./src/businessTypes.ts ./src/illustration.ts ./src/illustration-icons.ts ./src/illustrationTypes.ts",
     "copy:license": "cp ../../LICENSE ./LICENSE",
     "copy:utils": "mkdir -p ./src/utils && for f in hasA11yProp toKebabCase mergeClasses; do cp -f ../../packages/icons-shared/src/utils/$f.ts ./src/utils/; done",
     "test": "pnpm copy:utils && pnpm build:icons && vitest run",

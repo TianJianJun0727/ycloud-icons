@@ -105,6 +105,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     deployResult,
   } = useAppState();
   const [categories, setCategories] = useState<Category[]>([]);
+  const [businessCategories, setBusinessCategories] = useState<BusinessIconIndex['categories']>([]);
   const [existingGenericIconNames, setExistingGenericIconNames] = useState<string[]>([]);
   const [existingBusinessIconNames, setExistingBusinessIconNames] = useState<string[]>([]);
   const [existingIllustrationNames, setExistingIllustrationNames] = useState<string[]>([]);
@@ -125,6 +126,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       : sourceType === 'illustration'
         ? existingIllustrationNames
         : existingGenericIconNames;
+  const syncStatusMessage =
+    categoryMessage === 'synced'
+      ? sourceType === 'business'
+        ? `已同步 ${businessCategories.length} 个业务分类、${existingBusinessIconNames.length} 个业务图标。`
+        : sourceType === 'illustration'
+          ? `已同步 ${existingIllustrationNames.length} 个插画。`
+          : `已同步 ${categories.length} 个已有分类、${existingGenericIconNames.length} 个通用图标。`
+      : categoryMessage;
   const existingIconSet = useMemo(() => new Set(existingIconNames), [existingIconNames]);
   const getTargetIconKey = (name: string) => toKebabCase(name);
   const selectedIconSet = useMemo(() => new Set(selectedIconNames), [selectedIconNames]);
@@ -340,8 +349,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         )
         .map((item) => item.path.replace(/^business-icons\/[^/]+\//, '').replace(/\.svg$/, ''));
       const nextExistingIllustrationNames = tree.tree
-        .filter((item) => item.type === 'blob' && /^illustration\/[^/]+\.svg$/.test(item.path))
-        .map((item) => item.path.replace(/^illustration\//, '').replace(/\.svg$/, ''));
+        .filter(
+          (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
+        )
+        .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, ''));
       const businessIndex = businessIndexResponse.ok
         ? decodeBase64Json<BusinessIconIndex>(
             ((await businessIndexResponse.json()) as GitHubContentFile).content,
@@ -383,11 +394,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         nextCategories.sort((left, right) => left.title.localeCompare(right.title, 'zh-Hans-CN')),
       );
       setExistingGenericIconNames(nextExistingIconNames);
+      setBusinessCategories(businessIndex.categories ?? []);
       setExistingBusinessIconNames(nextExistingBusinessIconNames);
       setExistingIllustrationNames(nextExistingIllustrationNames);
-      setCategoryMessage(
-        `已同步 ${nextCategories.length} 个已有分类、${nextExistingIconNames.length} 个通用图标、${nextExistingBusinessIconNames.length} 个业务图标、${nextExistingIllustrationNames.length} 个插画。`,
-      );
+      setCategoryMessage('synced');
     } catch (error) {
       setCategoryMessage(
         error instanceof Error ? `同步数据失败：${error.message}` : '同步数据失败。',
@@ -541,14 +551,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               {isLoadingCategories ? '刷新中' : '刷新分类'}
             </button>
           </div>
-          {categoryMessage && (
+          {syncStatusMessage && (
             <p
               className={[
                 styles.message,
                 categoryMessage.includes('失败') ? styles.messageError : '',
               ].join(' ')}
             >
-              {categoryMessage}
+              {syncStatusMessage}
             </p>
           )}
           <div className={styles.fieldGroup}>
@@ -600,14 +610,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               {isLoadingCategories ? '刷新中' : '刷新分类'}
             </button>
           </div>
-          {categoryMessage && (
+          {syncStatusMessage && (
             <p
               className={[
                 styles.message,
                 categoryMessage.includes('失败') ? styles.messageError : '',
               ].join(' ')}
             >
-              {categoryMessage}
+              {syncStatusMessage}
             </p>
           )}
           <div className={styles.fieldGroup}>

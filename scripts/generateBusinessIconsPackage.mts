@@ -431,7 +431,13 @@ export function buildBusinessIconsIndex(sources: BusinessIconExportSource[]) {
     const exportBase = getBusinessIconExportBase(name);
     return `import { ${exportBase}Icon } from './business-icons/${name}';`;
   });
-  const exports = sortedSources.map(({ name }) => `export * from './business-icons/${name}';`);
+  const exports = sortedSources.flatMap(({ name }) => {
+    const componentName = getBusinessIconComponentName(name);
+    return [
+      `export * from './business-icons/${name}';`,
+      `export { default as ${componentName}, default as ${componentName}Icon, default as YCloud${componentName} } from './business-icons/${name}';`,
+    ];
+  });
   const namesLiteral = sortedNames.map((name) => toStringLiteral(name)).join(', ');
   const iconEntries = sortedNames.map((name) => {
     const exportBase = getBusinessIconExportBase(name);
@@ -444,14 +450,14 @@ export function buildBusinessIconsIndex(sources: BusinessIconExportSource[]) {
     ...exports,
     '',
     'export type BusinessIconDefinitionNode =',
-    '  | [tag: string, attrs: Record<string, string>]',
-    '  | [tag: string, attrs: Record<string, string>, children: BusinessIconDefinitionNode[]];',
+    '  | readonly [tag: string, attrs: Record<string, string>]',
+    '  | readonly [tag: string, attrs: Record<string, string>, children: readonly BusinessIconDefinitionNode[]];',
     '',
     'export interface BusinessIconDefinition {',
     '  name: string;',
     "  colorMode: 'mono' | 'duotone' | 'multicolor';",
     '  attrs: Record<string, string>;',
-    '  node: BusinessIconDefinitionNode[];',
+    '  node: readonly BusinessIconDefinitionNode[];',
     '}',
     '',
     `export const businessIconNames = [${namesLiteral}] as const;`,
@@ -528,7 +534,7 @@ export function buildBusinessReactIconsIndex(names: string[]) {
   return [
     ...sortedNames.map((name) => {
       const componentName = getBusinessIconComponentName(name);
-      return `export { default as ${componentName} } from './business-icons/${name}';`;
+      return `export { default as ${componentName}, default as ${componentName}Icon, default as YCloud${componentName} } from './business-icons/${name}';`;
     }),
     "export type { BusinessIconImageProps } from './businessTypes';",
     '',
@@ -706,7 +712,7 @@ export function buildBusinessIconsComponentIndex(
   return [
     ...sortedNames.map((name) => {
       const componentName = getBusinessIconComponentName(name);
-      return `export { default as ${componentName} } from './business-icons/${name}${extension}';`;
+      return `export { default as ${componentName}, default as ${componentName}Icon, default as YCloud${componentName} } from './business-icons/${name}${extension}';`;
     }),
     `export type { BusinessIconImageProps } from './businessTypes${typeImportExtension}';`,
     '',
@@ -1058,7 +1064,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
 
   if (hasTarget(targets, 'svelte')) {
     await fs.writeFile(
-      path.join(sveltePackageSrcDir, 'business.ts'),
+      path.join(sveltePackageSrcDir, 'business-icons.ts'),
       buildBusinessIconsComponentIndex(names, '.svelte', '.js'),
     );
     await fs.writeFile(
@@ -1069,7 +1075,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
 
   if (hasTarget(targets, 'astro')) {
     await fs.writeFile(
-      path.join(astroPackageSrcDir, 'business.ts'),
+      path.join(astroPackageSrcDir, 'business-icons.ts'),
       buildBusinessIconsComponentIndex(names, '.astro'),
     );
     await fs.writeFile(

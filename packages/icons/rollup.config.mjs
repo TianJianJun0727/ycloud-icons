@@ -16,14 +16,33 @@ const entryOutputNames = {
   business: 'business-icons',
   illustration: 'illustration-icons',
 };
+const runtimeEntryNames = new Set([
+  'createElement',
+  'defaultAttributes',
+  'iconsAndAliases',
+  'replaceElement',
+  'replaceElementUtils',
+  'types',
+]);
 const umdOutputNames = {
   ycloud: umdName,
   business: 'ycloudBusinessIcons',
   illustration: 'ycloudIllustrationIcons',
 };
 const getEntryName = (input) => input.replace(/^src\//, '').replace(/\.[^.]+$/, '');
-const getEntryFileName = (extension) => (chunkInfo) =>
-  `${entryOutputNames[chunkInfo.name] ?? chunkInfo.name}.${extension}`;
+const getEntryFileName = (extension) => (chunkInfo) => {
+  const entryName = entryOutputNames[chunkInfo.name];
+
+  if (entryName) {
+    return `${entryName}.${extension}`;
+  }
+
+  if (runtimeEntryNames.has(chunkInfo.name)) {
+    return `runtime/${chunkInfo.name}.${extension}`;
+  }
+
+  return `${chunkInfo.name}.${extension}`;
+};
 const bundles = [
   {
     format: 'umd',

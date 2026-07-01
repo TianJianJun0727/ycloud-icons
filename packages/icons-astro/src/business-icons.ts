@@ -93,6 +93,7 @@ export { default as LinkCircleFilled } from './business-icons/link-circle-filled
 export { default as Location } from './business-icons/location.astro';
 export { default as Logout } from './business-icons/logout.astro';
 export { default as MapOutlined } from './business-icons/map-outlined.astro';
+export { default as MenuOpen } from './business-icons/menu-open.astro';
 export { default as MessageBubbleFilled } from './business-icons/message-bubble-filled.astro';
 export { default as MessageBubbleOutlined } from './business-icons/message-bubble-outlined.astro';
 export { default as MessageFilled } from './business-icons/message-filled.astro';

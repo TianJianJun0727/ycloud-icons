@@ -12,8 +12,6 @@ const secondaryInputs = [
 ];
 const entryOutputNames = {
   'ycloud-icons': 'icons',
-  'ycloud-icons.prefixed': 'icons.prefixed',
-  'ycloud-icons.suffixed': 'icons.suffixed',
   business: 'business-icons',
   illustration: 'illustration-icons',
 };
@@ -21,8 +19,6 @@ const getEntryFileName = (extension) => (chunkInfo) =>
   `${entryOutputNames[chunkInfo.name] ?? chunkInfo.name}.${extension}`;
 const dtsEntries = [
   ['ycloud-icons', 'icons'],
-  ['ycloud-icons.prefixed', 'icons.prefixed'],
-  ['ycloud-icons.suffixed', 'icons.suffixed'],
   ['dynamic', 'dynamic'],
   ['build', 'build'],
   ['business', 'business-icons'],

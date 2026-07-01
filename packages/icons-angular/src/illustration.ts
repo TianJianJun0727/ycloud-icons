@@ -1,4 +1,3 @@
-import { illustration404Illustration } from './illustration-icons/404';
 import { accountUnboundIllustration } from './illustration-icons/account-unbound';
 import { dataImportingIllustration } from './illustration-icons/data-importing';
 import { emptyListIllustration } from './illustration-icons/empty-list';
@@ -8,10 +7,10 @@ import { emptySearchIllustration } from './illustration-icons/empty-search';
 import { loadFailedIllustration } from './illustration-icons/load-failed';
 import { networkDisconnectedIllustration } from './illustration-icons/network-disconnected';
 import { noPermissionIllustration } from './illustration-icons/no-permission';
+import { notFoundIllustration } from './illustration-icons/not-found';
 import { paymentMethodDisabledIllustration } from './illustration-icons/payment-method-disabled';
 import { waitingStatusIllustration } from './illustration-icons/waiting-status';
 
-export * from './illustration-icons/404';
 export * from './illustration-icons/account-unbound';
 export * from './illustration-icons/data-importing';
 export * from './illustration-icons/empty-list';
@@ -21,37 +20,24 @@ export * from './illustration-icons/empty-search';
 export * from './illustration-icons/load-failed';
 export * from './illustration-icons/network-disconnected';
 export * from './illustration-icons/no-permission';
+export * from './illustration-icons/not-found';
 export * from './illustration-icons/payment-method-disabled';
 export * from './illustration-icons/waiting-status';
 
 export type IllustrationDefinitionNode =
-  | [tag: string, attrs: Record<string, string>]
-  | [tag: string, attrs: Record<string, string>, children: IllustrationDefinitionNode[]];
+  | readonly [tag: string, attrs: Record<string, string>]
+  | readonly [tag: string, attrs: Record<string, string>, children: readonly IllustrationDefinitionNode[]];
 
 export interface IllustrationDefinition {
   name: string;
   attrs: Record<string, string>;
-  node: IllustrationDefinitionNode[];
+  node: readonly IllustrationDefinitionNode[];
 }
 
-export const illustrationNames = [
-  '404',
-  'account-unbound',
-  'data-importing',
-  'empty-list',
-  'empty-orders',
-  'empty-page',
-  'empty-search',
-  'load-failed',
-  'network-disconnected',
-  'no-permission',
-  'payment-method-disabled',
-  'waiting-status',
-] as const;
+export const illustrationNames = ['account-unbound', 'data-importing', 'empty-list', 'empty-orders', 'empty-page', 'empty-search', 'load-failed', 'network-disconnected', 'no-permission', 'not-found', 'payment-method-disabled', 'waiting-status'] as const;
 export type IllustrationName = (typeof illustrationNames)[number];
 
 export const illustrations = {
-  '404': illustration404Illustration,
   'account-unbound': accountUnboundIllustration,
   'data-importing': dataImportingIllustration,
   'empty-list': emptyListIllustration,
@@ -61,6 +47,7 @@ export const illustrations = {
   'load-failed': loadFailedIllustration,
   'network-disconnected': networkDisconnectedIllustration,
   'no-permission': noPermissionIllustration,
+  'not-found': notFoundIllustration,
   'payment-method-disabled': paymentMethodDisabledIllustration,
   'waiting-status': waitingStatusIllustration,
 } as const satisfies Record<string, IllustrationDefinition>;
