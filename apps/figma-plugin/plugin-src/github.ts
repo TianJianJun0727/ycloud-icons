@@ -70,6 +70,15 @@ function buildBusinessIconFiles(
     };
   });
 }
+function buildIllustrationFiles(icons: Record<string, YCloudIconData>) {
+  return Object.entries(icons).map(([key, icon]) => {
+    const name = toKebabCase(icon.name || key);
+    return {
+      path: `illustration-icons/${name}.svg`,
+      content: icon.sourceSvg ?? icon.svg,
+    };
+  });
+}
 
 function buildReviewNotes(icons: Record<string, YCloudIconData>) {
   const notes: string[] = [];
@@ -193,13 +202,21 @@ export function createGithubClient(
     const files =
       sourceType === 'business'
         ? buildBusinessIconFiles(icons, metadata)
-        : buildYCloudFiles(icons, metadata);
-    const reviewNotes = sourceType === 'business' ? [] : buildReviewNotes(icons);
+        : sourceType === 'illustration'
+          ? buildIllustrationFiles(icons)
+          : buildYCloudFiles(icons, metadata);
+    const reviewNotes = sourceType === 'generic' ? buildReviewNotes(icons) : [];
     const iconCount = Object.keys(icons).length;
+    const scope =
+      sourceType === 'business'
+        ? 'business-icons'
+        : sourceType === 'illustration'
+          ? 'illustration'
+          : 'icons';
     const commitTitle =
       iconCount === 1
-        ? `feat(${sourceType === 'business' ? 'business-icons' : 'icons'}): add ${Object.keys(icons)[0]}`
-        : `feat(${sourceType === 'business' ? 'business-icons' : 'icons'}): add ${iconCount} icons`;
+        ? `feat(${scope}): add ${Object.keys(icons)[0]}`
+        : `feat(${scope}): add ${iconCount} icons`;
     const head = await getHead(baseBranch);
     const baseCommit = await getCommit(head.object.sha);
     const treeBody = await Promise.all(
@@ -228,7 +245,9 @@ export function createGithubClient(
         '',
         sourceType === 'business'
           ? `本次提交 ${iconCount} 个业务图标，颜色类型为 \`business-icons/${metadata.businessColorMode || 'mono'}/\`。SVG 已按业务规则轻量清洗。`
-          : `本次提交 ${iconCount} 个图标。SVG 已按图标库规范自动清洗。`,
+          : sourceType === 'illustration'
+            ? `本次提交 ${iconCount} 个插画。SVG 保留原始颜色和尺寸属性。`
+            : `本次提交 ${iconCount} 个图标。SVG 已按图标库规范自动清洗。`,
         '',
         '变更文件：',
         ...files.map((file) => `- \`${file.path}\``),

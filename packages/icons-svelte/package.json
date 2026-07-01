@@ -49,18 +49,28 @@
       "svelte": "./dist/business.js",
       "default": "./dist/business.js"
     },
+    "./illustration": {
+      "types": "./dist/illustration.d.ts",
+      "svelte": "./dist/illustration.js",
+      "default": "./dist/illustration.js"
+    },
     "./business-icons/*": {
       "types": "./dist/business-icons/*.svelte.d.ts",
       "svelte": "./dist/business-icons/*.js",
       "default": "./dist/business-icons/*.js"
+    },
+    "./illustration-icons/*": {
+      "types": "./dist/illustration-icons/*.svelte.d.ts",
+      "svelte": "./dist/illustration-icons/*.js",
+      "default": "./dist/illustration-icons/*.js"
     }
   },
   "scripts": {
     "build": "pnpm clean && pnpm copy:license && pnpm copy:utils && pnpm build:icons && pnpm build:package && pnpm build:license",
     "copy:license": "cp ../../LICENSE ./LICENSE",
     "copy:utils": "mkdir -p ./src/utils && cp -rf ../../packages/icons-shared/src/utils/hasA11yProp.ts ./src/utils/",
-    "clean": "rm -rf dist stats ./src/icons/*.{ts,svelte} ./src/aliases/{aliases,prefixed,suffixed}.ts",
-    "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --exportFileName=index.ts --iconFileExtension=.svelte --importImportFileExtension=.svelte --separateIconFileExport --separateIconFileExportExtension=.ts --withAliases --aliasesFileExtension=.ts --separateAliasesFile  --separateAliasesFileExtension=.ts --aliasImportFileExtension=.js --pretty=false && node ../../scripts/generateBusinessIconsPackage.mts svelte",
+    "clean": "rm -rf dist stats ./src/icons/*.{ts,svelte} ./src/aliases/{aliases,prefixed,suffixed}.ts && rm -rf ./src/illustration-icons && rm -f ./src/illustration.ts ./src/illustrationTypes.ts",
+    "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --exportFileName=index.ts --iconFileExtension=.svelte --importImportFileExtension=.svelte --separateIconFileExport --separateIconFileExportExtension=.ts --withAliases --aliasesFileExtension=.ts --separateAliasesFile  --separateAliasesFileExtension=.ts --aliasImportFileExtension=.js --pretty=false && node ../../scripts/generateBusinessIconsPackage.mts svelte && node ../../scripts/generateIllustrationsPackage.mts svelte",
     "build:package": "NODE_OPTIONS='--require=../../scripts/useTypeScript6Register.cjs --experimental-loader=../../scripts/useTypeScript6Loader.mjs --no-warnings' svelte-package --input ./src",
     "build:license": "node ./scripts/appendBlockComments.mts",
     "test": "pnpm copy:license && pnpm copy:utils && pnpm build:icons && vitest run",

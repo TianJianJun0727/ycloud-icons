@@ -10,7 +10,8 @@ const packageName = 'YCloudSolid';
 const outputFileName = 'ycloud-solid';
 const outputDir = 'dist';
 const businessInput = 'src/business.ts';
-const inputs = ['src/ycloud-solid.ts', businessInput];
+const illustrationInput = 'src/illustration.ts';
+const inputs = ['src/ycloud-solid.ts', businessInput, illustrationInput];
 
 const bundles = [
   {
@@ -95,7 +96,7 @@ const configs = bundles
                 });
 
                 // Generate types
-                const program = ts.createProgram([pkg.source, businessInput], {
+                const program = ts.createProgram([pkg.source, businessInput, illustrationInput], {
                   target: ts.ScriptTarget.ESNext,
                   module: ts.ModuleKind.ESNext,
                   moduleResolution: ts.ModuleResolutionKind.NodeJs,

@@ -59,16 +59,23 @@
       "import": "./dist/esm/business.mjs",
       "browser": "./dist/esm/business.mjs",
       "require": "./dist/cjs/business.js"
+    },
+    "./illustration": {
+      "types": "./dist/types/illustration.d.ts",
+      "solid": "./dist/source/illustration.jsx",
+      "import": "./dist/esm/illustration.mjs",
+      "browser": "./dist/esm/illustration.mjs",
+      "require": "./dist/cjs/illustration.js"
     }
   },
   "scripts": {
     "build": "pnpm clean && pnpm copy:license && pnpm build:icons && pnpm build:bundle",
     "copy:license": "cp ../../LICENSE ./LICENSE",
-    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.ts",
+    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons/*.ts && rm -rf ./src/illustration-icons && rm -f ./src/illustration.ts ./src/illustrationTypes.ts",
     "build:transpile": "tsc --jsx preserve -t es2020 --rootDir src --outDir dist --noEmit false",
     "build:version": "node ./scripts/replaceVersion.mjs",
     "build:bundle": "NODE_OPTIONS='--require=../../scripts/useTypeScript6Register.cjs --experimental-loader=../../scripts/useTypeScript6Loader.mjs --no-warnings' rollup -c rollup.config.mjs",
-    "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --renderUniqueKey --withAliases --separateAliasesFile --separateAliasesFileIgnore=fingerprint --aliasesFileExtension=.ts --iconFileExtension=.tsx --exportFileName=index.ts && node ../../scripts/generateBusinessIconsPackage.mts solid",
+    "build:icons": "build-icons --output=./src --templateSrc=./scripts/exportTemplate.mts --renderUniqueKey --withAliases --separateAliasesFile --separateAliasesFileIgnore=fingerprint --aliasesFileExtension=.ts --iconFileExtension=.tsx --exportFileName=index.ts && node ../../scripts/generateBusinessIconsPackage.mts solid && node ../../scripts/generateIllustrationsPackage.mts solid",
     "typecheck": "tsc",
     "typecheck:watch": "tsc -w",
     "test": "pnpm build:icons && vitest run",

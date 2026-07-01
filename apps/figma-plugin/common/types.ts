@@ -16,7 +16,7 @@ export interface ExportedIconData {
     description?: string;
   };
 }
-export type IconSourceType = 'generic' | 'business';
+export type IconSourceType = 'generic' | 'business' | 'illustration';
 export interface GithubData {
   owner: string;
   name: string;

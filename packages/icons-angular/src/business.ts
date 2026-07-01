@@ -93,6 +93,7 @@ import { linkCircleFilledIcon } from './business-icons/link-circle-filled';
 import { locationIcon } from './business-icons/location';
 import { logoutIcon } from './business-icons/logout';
 import { mapOutlinedIcon } from './business-icons/map-outlined';
+import { menuOpenIcon } from './business-icons/menu-open';
 import { messageBubbleFilledIcon } from './business-icons/message-bubble-filled';
 import { messageBubbleOutlinedIcon } from './business-icons/message-bubble-outlined';
 import { messageFilledIcon } from './business-icons/message-filled';
@@ -262,6 +263,7 @@ export * from './business-icons/link-circle-filled';
 export * from './business-icons/location';
 export * from './business-icons/logout';
 export * from './business-icons/map-outlined';
+export * from './business-icons/menu-open';
 export * from './business-icons/message-bubble-filled';
 export * from './business-icons/message-bubble-outlined';
 export * from './business-icons/message-filled';
@@ -336,11 +338,15 @@ export * from './business-icons/whatsapp-phone-outlined';
 export * from './business-icons/widgets-filled';
 export * from './business-icons/widgets-outlined';
 
+export type BusinessIconDefinitionNode =
+  | [tag: string, attrs: Record<string, string>]
+  | [tag: string, attrs: Record<string, string>, children: BusinessIconDefinitionNode[]];
+
 export interface BusinessIconDefinition {
   name: string;
   colorMode: 'mono' | 'duotone' | 'multicolor';
-  svg: string;
-  dataUri: string;
+  attrs: Record<string, string>;
+  node: BusinessIconDefinitionNode[];
 }
 
 export const businessIconNames = [
@@ -439,6 +445,7 @@ export const businessIconNames = [
   'location',
   'logout',
   'map-outlined',
+  'menu-open',
   'message-bubble-filled',
   'message-bubble-outlined',
   'message-filled',
@@ -611,6 +618,7 @@ export const businessIcons = {
   location: locationIcon,
   logout: logoutIcon,
   'map-outlined': mapOutlinedIcon,
+  'menu-open': menuOpenIcon,
   'message-bubble-filled': messageBubbleFilledIcon,
   'message-bubble-outlined': messageBubbleOutlinedIcon,
   'message-filled': messageFilledIcon,

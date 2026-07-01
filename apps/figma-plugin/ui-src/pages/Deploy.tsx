@@ -7,6 +7,7 @@ import {
   getBusinessIconNameIssues,
   getIconNameIssues,
   getIconNameWarnings,
+  getIllustrationSvgIssues,
   getSvgIssues,
   sanitizeBusinessSvg,
   sanitizeSvg,
@@ -105,6 +106,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [existingGenericIconNames, setExistingGenericIconNames] = useState<string[]>([]);
   const [existingBusinessIconNames, setExistingBusinessIconNames] = useState<string[]>([]);
+  const [existingIllustrationNames, setExistingIllustrationNames] = useState<string[]>([]);
   const [categoryQuery, setCategoryQuery] = useState('');
   const [isLoadingCategories, setIsLoadingCategories] = useState(false);
   const [categoryMessage, setCategoryMessage] = useState('');
@@ -117,7 +119,11 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
   const previousSourceTypeRef = useRef<IconSourceType>(sourceType);
   const icons = Object.entries(iconPreview);
   const existingIconNames =
-    sourceType === 'business' ? existingBusinessIconNames : existingGenericIconNames;
+    sourceType === 'business'
+      ? existingBusinessIconNames
+      : sourceType === 'illustration'
+        ? existingIllustrationNames
+        : existingGenericIconNames;
   const existingIconSet = useMemo(() => new Set(existingIconNames), [existingIconNames]);
   const getTargetIconKey = (name: string) => toKebabCase(name);
   const selectedIconSet = useMemo(() => new Set(selectedIconNames), [selectedIconNames]);
@@ -129,14 +135,18 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     return new Map(
       icons.map(([name, data]) => {
         const sourceName = getSourceIconName(name, data);
-        const svg = sourceType === 'business' ? (data.sourceSvg ?? data.svg) : data.svg;
+        const svg = sourceType === 'generic' ? data.svg : (data.sourceSvg ?? data.svg);
         const cleanedSvg = sanitizeSvg(svg);
         const issues =
           sourceType === 'business'
             ? [...getBusinessIconNameIssues(sourceName), ...getBusinessSvgIssues(svg)]
-            : [...getIconNameIssues(sourceName), ...getSvgIssues(cleanedSvg)];
+            : sourceType === 'illustration'
+              ? [...getBusinessIconNameIssues(sourceName), ...getIllustrationSvgIssues(svg)]
+              : [...getIconNameIssues(sourceName), ...getSvgIssues(cleanedSvg)];
         const warnings = [
-          ...(sourceType === 'business' ? [] : getIconNameWarnings(sourceName)),
+          ...(sourceType === 'business' || sourceType === 'illustration'
+            ? []
+            : getIconNameWarnings(sourceName)),
           ...(sourceType === 'generic' && svg.trim() !== cleanedSvg.trim()
             ? ['SVG 会在提交时自动清洗。']
             : []),
@@ -187,7 +197,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             svg:
               sourceType === 'business'
                 ? sanitizeBusinessSvg(data.sourceSvg ?? data.svg, ycloudMetadata.businessColorMode)
-                : sanitizeSvg(data.svg),
+                : sourceType === 'illustration'
+                  ? (data.sourceSvg ?? data.svg)
+                  : sanitizeSvg(data.svg),
           },
         ]),
       ),
@@ -263,7 +275,12 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         options: {
           sourceType,
           png: pngOption,
-          fileName: sourceType === 'business' ? 'business-icons' : 'icons',
+          fileName:
+            sourceType === 'business'
+              ? 'business-icons'
+              : sourceType === 'illustration'
+                ? 'illustration'
+                : 'icons',
           ycloud: ycloudMetadata,
         },
       },
@@ -321,6 +338,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           (item) => item.type === 'blob' && /^business-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
         )
         .map((item) => item.path.replace(/^business-icons\/[^/]+\//, '').replace(/\.svg$/, ''));
+      const nextExistingIllustrationNames = tree.tree
+        .filter((item) => item.type === 'blob' && /^illustration\/[^/]+\.svg$/.test(item.path))
+        .map((item) => item.path.replace(/^illustration\//, '').replace(/\.svg$/, ''));
       const businessIndex = businessIndexResponse.ok
         ? decodeBase64Json<BusinessIconIndex>(
             ((await businessIndexResponse.json()) as GitHubContentFile).content,
@@ -363,8 +383,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       );
       setExistingGenericIconNames(nextExistingIconNames);
       setExistingBusinessIconNames(nextExistingBusinessIconNames);
+      setExistingIllustrationNames(nextExistingIllustrationNames);
       setCategoryMessage(
-        `已同步 ${nextCategories.length} 个已有分类、${nextExistingIconNames.length} 个通用图标、${nextExistingBusinessIconNames.length} 个业务图标。`,
+        `已同步 ${nextCategories.length} 个已有分类、${nextExistingIconNames.length} 个通用图标、${nextExistingBusinessIconNames.length} 个业务图标、${nextExistingIllustrationNames.length} 个插画。`,
       );
     } catch (error) {
       setCategoryMessage(
@@ -423,7 +444,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     deployableSelectedIcons.length > 0 &&
     (sourceType === 'business'
       ? ycloudMetadata.businessColorMode !== undefined
-      : ycloudMetadata.categories.length > 0) &&
+      : sourceType === 'illustration' || ycloudMetadata.categories.length > 0) &&
     !isDeploying;
 
   return (
@@ -482,12 +503,26 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             >
               业务图标
             </button>
+            <button
+              className={[
+                styles.sourceOption,
+                sourceType === 'illustration' ? styles.sourceOptionActive : '',
+              ].join(' ')}
+              type="button"
+              onClick={() => {
+                setSourceType('illustration');
+              }}
+            >
+              插画
+            </button>
           </div>
         </div>
         <p className={styles.sourceHint}>
           {sourceType === 'business'
             ? '当前提交到 business-icons/<颜色类型>/*.svg，不需要通用元数据。'
-            : '当前提交到 icons/*.svg，需要分类和通用元数据。'}
+            : sourceType === 'illustration'
+              ? '当前提交到 illustration-icons/*.svg，保留原始颜色和尺寸属性。'
+              : '当前提交到 icons/*.svg，需要分类和通用元数据。'}
         </p>
       </section>
 
@@ -750,7 +785,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             const previewSvg =
               sourceType === 'business'
                 ? sanitizeBusinessSvg(data.sourceSvg ?? svg, ycloudMetadata.businessColorMode)
-                : svg;
+                : sourceType === 'illustration'
+                  ? (data.sourceSvg ?? svg)
+                  : svg;
             const previewLabel = getSourceIconName(name, data);
             return (
               <div
@@ -910,7 +947,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                         previewDialogIcon[1].sourceSvg ?? previewDialogIcon[1].svg,
                         ycloudMetadata.businessColorMode,
                       )
-                    : previewDialogIcon[1].svg,
+                    : sourceType === 'illustration'
+                      ? (previewDialogIcon[1].sourceSvg ?? previewDialogIcon[1].svg)
+                      : previewDialogIcon[1].svg,
               }}
             />
           </section>
@@ -959,7 +998,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           <p className={styles.footerHint}>
             {sourceType === 'business'
               ? `将提交到 business-icons/${ycloudMetadata.businessColorMode}/，并执行业务 SVG 轻量清洗。`
-              : '将提交 SVG、图标信息和必要的分类信息。'}
+              : sourceType === 'illustration'
+                ? '将提交到 illustration-icons/，保留 SVG 原始颜色和尺寸属性。'
+                : '将提交 SVG、图标信息和必要的分类信息。'}
           </p>
         )}
         <button

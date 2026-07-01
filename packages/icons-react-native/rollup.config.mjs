@@ -7,6 +7,7 @@ const outputFileName = 'ycloud-react-native';
 const outputDir = 'dist';
 const inputs = ['src/ycloud-react-native.ts', 'src/icons/index.ts'];
 const businessInput = 'src/business.ts';
+const illustrationInput = 'src/illustration.ts';
 const bundles = [
   {
     format: 'cjs',
@@ -74,6 +75,16 @@ export default [
     plugins: [dts()],
   },
   {
+    input: illustrationInput,
+    output: [
+      {
+        file: `dist/illustration.d.ts`,
+        format: 'es',
+      },
+    ],
+    plugins: [dts()],
+  },
+  {
     input: inputs[1],
     output: [
       {
@@ -116,6 +127,22 @@ export default [
         react: 'react',
         'react-native': 'react-native',
         '@ycloud-web/icons/business': 'YCloudBusinessIcons',
+      },
+    },
+  })),
+  ...['cjs', 'esm'].map((format) => ({
+    input: illustrationInput,
+    plugins: plugins({ pkg }),
+    external: ['react', 'react-native', '@ycloud-web/icons/illustration'],
+    output: {
+      name: `${packageName}Illustration`,
+      file: `dist/${format}/illustration.${format === 'esm' ? 'mjs' : 'js'}`,
+      format,
+      sourcemap: true,
+      globals: {
+        react: 'react',
+        'react-native': 'react-native',
+        '@ycloud-web/icons/illustration': 'YCloudIllustrations',
       },
     },
   })),

@@ -107,6 +107,27 @@ export function getBusinessSvgIssues(svg: string) {
   }
   return issues;
 }
+export function getIllustrationSvgIssues(svg: string) {
+  const issues: string[] = [];
+  const openTag = svg.match(/<svg\b[^>]*>/i)?.[0] ?? '';
+  if (!openTag) {
+    issues.push('插画 SVG 根节点需要是 <svg>');
+    return issues;
+  }
+  if (!/\bviewBox="[^"]+"/i.test(openTag)) {
+    issues.push('插画 SVG 需要包含 viewBox');
+  }
+  if (/<\s*(?:script|foreignObject)\b/i.test(svg)) {
+    issues.push('插画 SVG 不能包含 script 或 foreignObject');
+  }
+  if (/\son[a-z]+\s*=/i.test(svg)) {
+    issues.push('插画 SVG 不能包含事件属性');
+  }
+  if (/javascript\s*:/i.test(svg)) {
+    issues.push('插画 SVG 不能包含 javascript: URL');
+  }
+  return issues;
+}
 export function sanitizeSvg(svg: string) {
   const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
   if (!openTag) return svg.trim();

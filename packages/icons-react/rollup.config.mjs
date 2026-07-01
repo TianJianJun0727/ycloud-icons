@@ -10,6 +10,7 @@ const packageName = 'YCloudReact';
 const outputFileName = 'ycloud-react';
 const inputs = [`src/ycloud-react.ts`];
 const businessInput = 'src/business.ts';
+const illustrationInput = 'src/illustration.ts';
 const bundles = [
   {
     format: 'cjs',
@@ -194,6 +195,20 @@ export default [
     plugins: [dts()],
   },
   {
+    input: illustrationInput,
+    output: [
+      {
+        file: `illustration.d.ts`,
+        format: 'es',
+      },
+      {
+        file: `illustration.d.mts`,
+        format: 'es',
+      },
+    ],
+    plugins: [dts()],
+  },
+  {
     input: businessInput,
     plugins: plugins({ pkg }),
     external: ['react', '@ycloud-web/icons/business'],
@@ -220,6 +235,36 @@ export default [
       globals: {
         react: 'react',
         '@ycloud-web/icons/business': 'YCloudBusinessIcons',
+      },
+    },
+  },
+  {
+    input: illustrationInput,
+    plugins: plugins({ pkg }),
+    external: ['react', '@ycloud-web/icons/illustration'],
+    output: {
+      name: `${packageName}Illustration`,
+      file: 'illustration.js',
+      format: 'cjs',
+      sourcemap: true,
+      globals: {
+        react: 'react',
+        '@ycloud-web/icons/illustration': 'YCloudIllustrations',
+      },
+    },
+  },
+  {
+    input: illustrationInput,
+    plugins: plugins({ pkg }),
+    external: ['react', '@ycloud-web/icons/illustration'],
+    output: {
+      name: `${packageName}Illustration`,
+      file: 'illustration.mjs',
+      format: 'esm',
+      sourcemap: true,
+      globals: {
+        react: 'react',
+        '@ycloud-web/icons/illustration': 'YCloudIllustrations',
       },
     },
   },
