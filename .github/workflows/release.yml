@@ -365,7 +365,7 @@ jobs:
           tag_name: v${{ needs.prepare.outputs.version }}
           name: Version ${{ needs.prepare.outputs.version }}
           body_path: .release-notes.md
-          target_commitish: ${{ needs.prepare.outputs.ref }}
+          target_commitish: ${{ github.sha }}
 
   # Temporarily disable automatic docs deployment after package releases.
   # Keep this job for quick restoration when release-driven docs publishing is needed again.
