@@ -289,9 +289,15 @@ jobs:
           fi
 
           git fetch origin main --tags
+          if ! git merge-base --is-ancestor "$merge_commit" origin/main; then
+            echo "Release preparation PR #${pr_number} merged as ${merge_commit}, but that commit is not in origin/main history." >&2
+            echo "Refusing to create v${VERSION}; release tags must point to commits on main." >&2
+            exit 1
+          fi
+
           if git rev-parse -q --verify "refs/tags/v${VERSION}" >/dev/null; then
-            echo "Release tag v${VERSION} already exists."
-            exit 0
+            echo "Release tag v${VERSION} already exists. Automatic releases require a new, unused tag." >&2
+            exit 1
           fi
 
           git tag "v${VERSION}" "$merge_commit"

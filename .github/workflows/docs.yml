@@ -1,8 +1,9 @@
 name: Deploy Docs
 
 on:
-  # Temporarily disable automatic docs deployment from main pushes.
-  # Keep this block for quick restoration when automatic docs publishing is needed again.
+  # Docs deployment is release-driven so GitHub Pages builds against the npm packages
+  # that were just published. Local docs development still uses workspace packages.
+  # Keep this block disabled unless main-push docs deploys are intentionally restored.
   # push:
   #   branches:
   #     - main

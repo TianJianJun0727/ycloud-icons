@@ -55,30 +55,12 @@ jobs:
       version: ${{ steps.version.outputs.version }}
       npm-tag: ${{ steps.version.outputs.npm-tag }}
       ref: ${{ steps.version.outputs.ref }}
+      release-sha: ${{ steps.release-ref.outputs.release-sha }}
       core-published: ${{ steps.version.outputs.core-published }}
       frameworks-matrix: ${{ steps.version.outputs.frameworks-matrix }}
       has-frameworks: ${{ steps.version.outputs.has-frameworks }}
 
     steps:
-      - name: Configure git default branch
-        if: github.event_name == 'push'
-        run: git config --global init.defaultBranch main
-
-      - uses: actions/checkout@v7
-        if: github.event_name == 'push'
-        with:
-          fetch-depth: 0
-
-      - name: Verify tag commit is on main
-        if: github.event_name == 'push'
-        run: |
-          git fetch origin +refs/heads/main:refs/remotes/origin/main
-          if ! git merge-base --is-ancestor "$GITHUB_SHA" origin/main; then
-            echo "Release tag ${GITHUB_REF_NAME} points to ${GITHUB_SHA}, which is not in origin/main history." >&2
-            echo "Merge the release commit into main first, then create the tag from main." >&2
-            exit 1
-          fi
-
       - name: Resolve release plan
         id: version
         shell: bash
@@ -150,6 +132,30 @@ jobs:
           VERSION_REF: ${{ inputs.version || github.ref }}
           INPUT_TAG: ${{ inputs.tag || 'latest' }}
           INPUT_REF: ${{ inputs.ref || '' }}
+
+      - name: Configure git default branch
+        run: git config --global init.defaultBranch main
+
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ steps.version.outputs.ref }}
+
+      - name: Verify release ref is on main
+        id: release-ref
+        run: |
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
+          release_sha="$(git rev-parse HEAD)"
+
+          if ! git merge-base --is-ancestor "$release_sha" origin/main; then
+            echo "Release ref $RELEASE_REF points to ${release_sha}, which is not in origin/main history." >&2
+            echo "Merge the release commit into main first, then publish from the main-backed release tag." >&2
+            exit 1
+          fi
+
+          echo "release-sha=${release_sha}" >> "$GITHUB_OUTPUT"
+        env:
+          RELEASE_REF: ${{ steps.version.outputs.ref }}
 
   release-core:
     if: github.repository == 'TianJianJun0727/ycloud-icons'
@@ -377,7 +383,7 @@ jobs:
           tag_name: v${{ needs.prepare.outputs.version }}
           name: Version ${{ needs.prepare.outputs.version }}
           body_path: .release-notes.md
-          target_commitish: ${{ github.sha }}
+          target_commitish: ${{ needs.prepare.outputs.release-sha }}
 
   deploy-docs:
     if: github.repository == 'TianJianJun0727/ycloud-icons'
