@@ -60,6 +60,25 @@ jobs:
       has-frameworks: ${{ steps.version.outputs.has-frameworks }}
 
     steps:
+      - name: Configure git default branch
+        if: github.event_name == 'push'
+        run: git config --global init.defaultBranch main
+
+      - uses: actions/checkout@v7
+        if: github.event_name == 'push'
+        with:
+          fetch-depth: 0
+
+      - name: Verify tag commit is on main
+        if: github.event_name == 'push'
+        run: |
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
+          if ! git merge-base --is-ancestor "$GITHUB_SHA" origin/main; then
+            echo "Release tag ${GITHUB_REF_NAME} points to ${GITHUB_SHA}, which is not in origin/main history." >&2
+            echo "Merge the release commit into main first, then create the tag from main." >&2
+            exit 1
+          fi
+
       - name: Resolve release plan
         id: version
         shell: bash
