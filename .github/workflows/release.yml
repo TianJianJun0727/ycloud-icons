@@ -298,16 +298,60 @@ jobs:
       - name: Verify pnpm version
         run: pnpm --version
 
+      - name: Use published core package
+        id: core-dependency
+        shell: bash
+        run: |
+          node <<'NODE'
+          const { readdirSync, readFileSync, writeFileSync } = require('node:fs');
+          const path = require('node:path');
+
+          const packageName = process.env.PACKAGE;
+          const version = process.env.VERSION;
+          const packagesDir = path.join(process.cwd(), 'packages');
+          const packageDirs = readdirSync(packagesDir, { withFileTypes: true })
+            .filter((entry) => entry.isDirectory())
+            .map((entry) => path.join(packagesDir, entry.name, 'package.json'));
+          const packageJsonPath = packageDirs.find((filePath) => {
+            const manifest = JSON.parse(readFileSync(filePath, 'utf8'));
+            return manifest.name === packageName;
+          });
+
+          if (!packageJsonPath) {
+            throw new Error(`Package manifest not found for ${packageName}.`);
+          }
+
+          const manifest = JSON.parse(readFileSync(packageJsonPath, 'utf8'));
+          if (!manifest.dependencies?.['@ycloud-web/icons']) {
+            process.exit(0);
+          }
+
+          manifest.dependencies['@ycloud-web/icons'] = version;
+          writeFileSync(packageJsonPath, `${JSON.stringify(manifest, null, 2)}\n`);
+          NODE
+
+          if git diff --quiet -- packages; then
+            echo "uses-published-core=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "uses-published-core=true" >> "$GITHUB_OUTPUT"
+        env:
+          PACKAGE: ${{ matrix.package }}
+          VERSION: ${{ needs.prepare.outputs.version }}
+
       - name: Install dependencies
+        if: steps.core-dependency.outputs.uses-published-core != 'true'
         run: pnpm install --frozen-lockfile
+
+      - name: Install dependencies with published core package
+        if: steps.core-dependency.outputs.uses-published-core == 'true'
+        run: pnpm install --no-frozen-lockfile --config.link-workspace-packages=false
 
       - name: Verify package version
         run: node ./scripts/syncPackageVersions.mts "${VERSION}" --check
         env:
           VERSION: ${{ needs.prepare.outputs.version }}
-
-      - name: Build core package
-        run: pnpm --filter @ycloud-web/icons build
 
       - name: Build
         run: pnpm --filter ${{ matrix.package }} build

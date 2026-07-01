@@ -72,14 +72,19 @@ jobs:
           const version = process.env.PACKAGE_VERSION;
           const packagePath = 'docs/package.json';
           const manifest = JSON.parse(readFileSync(packagePath, 'utf8'));
-          const packages = [
-            '@ycloud-web/icons',
-            '@ycloud-web/icons-react',
-            '@ycloud-web/icons-vue',
-          ];
+          const iconPackagePattern = /^@ycloud-web\/icons(?:$|-)/;
 
-          for (const packageName of packages) {
-            manifest.dependencies[packageName] = version;
+          for (const dependencyType of ['dependencies', 'devDependencies']) {
+            const dependencies = manifest[dependencyType];
+            if (!dependencies) {
+              continue;
+            }
+
+            for (const packageName of Object.keys(dependencies)) {
+              if (iconPackagePattern.test(packageName)) {
+                dependencies[packageName] = version;
+              }
+            }
           }
 
           writeFileSync(packagePath, `${JSON.stringify(manifest, null, 2)}\n`);
@@ -99,7 +104,14 @@ jobs:
         id: pages-cache-key
         run: |
           release_tags_hash="$(git tag --list 'v*' --sort=-version:refname | sha256sum | cut -d ' ' -f 1)"
+          if [[ -n "$PACKAGE_VERSION" ]]; then
+            icon_packages_hash="npm-${PACKAGE_VERSION}"
+          else
+            icon_packages_hash="workspace-$(git ls-files -z packages | xargs -0 sha256sum | sha256sum | cut -d ' ' -f 1)"
+          fi
+
           echo "release-tags=${release_tags_hash}-${PACKAGE_VERSION:-workspace}" >> "$GITHUB_OUTPUT"
+          echo "icon-packages=${icon_packages_hash}" >> "$GITHUB_OUTPUT"
         env:
           PACKAGE_VERSION: ${{ inputs.package_version }}
 
@@ -108,7 +120,7 @@ jobs:
         uses: actions/cache@v5
         with:
           path: docs/.vercel/output/static
-          key: pages-static-${{ runner.os }}-${{ steps.pages-cache-key.outputs.release-tags }}-${{ hashFiles('docs/*.md', 'docs/*.ts', 'docs/*.json', 'docs/en/**', 'docs/guide/**', 'docs/icons/**', 'docs/images/**', 'docs/public/**', 'docs/.vitepress/**/*.ts', 'docs/.vitepress/**/*.vue', 'docs/.vitepress/**/*.css', 'docs/.vitepress/**/*.json', 'docs/.vitepress/**/*.svg', 'docs/scripts/**', 'icons/**', 'categories/**', 'changelogs/releases/**', 'packages/**', 'packages/icons-static/font/**', 'scripts/writeChangelog.mts', 'docs/package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml') }}
+          key: pages-static-${{ runner.os }}-${{ steps.pages-cache-key.outputs.release-tags }}-${{ steps.pages-cache-key.outputs.icon-packages }}-${{ hashFiles('docs/*.md', 'docs/*.ts', 'docs/*.json', 'docs/en/**', 'docs/guide/**', 'docs/icons/**', 'docs/images/**', 'docs/public/**', 'docs/.vitepress/**/*.ts', 'docs/.vitepress/**/*.vue', 'docs/.vitepress/**/*.css', 'docs/.vitepress/**/*.json', 'docs/.vitepress/**/*.svg', 'docs/scripts/**', 'icons/**', 'categories/**', 'changelogs/releases/**', 'scripts/writeChangelog.mts', 'scripts/writeGitHubReleaseNotes.mjs', 'docs/package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml') }}
 
       - name: Build docs
         if: steps.pages-build-cache.outputs.cache-hit != 'true'

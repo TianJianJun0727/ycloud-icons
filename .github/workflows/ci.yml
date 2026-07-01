@@ -91,7 +91,7 @@ jobs:
 
           changed_icon_svgs="$(
             jq -r '.files[].path' <<< "$pr_json" |
-              grep -E '^(icons/[^/]+\.svg|business-icons/[^/]+/[^/]+\.svg|illustration-icons/[^/]+\.svg)$' || true
+              grep -E '^(icons/[^/]+\.svg|business-icons/[^/]+/[^/]+\.svg|illustration-icons/([^/]+/)*[^/]+\.svg)$' || true
           )"
           if [[ -z "$changed_icon_svgs" ]]; then
             echo "The merged Figma PR does not change icon SVG files."
@@ -170,14 +170,14 @@ jobs:
       - name: Log latest tag
         run: echo '${{ steps.latest-tag.outputs.LATEST_TAG }}'
 
-      - name: Check if we can patch
-        run: pnpm semver "$LATEST_VERSION" -i minor
+      - name: Check if we can create a patch version
+        run: pnpm semver "$LATEST_VERSION" -i patch
         env:
           LATEST_VERSION: ${{ steps.latest-tag.outputs.LATEST_VERSION }}
 
       - name: Create new version
         id: new-version
-        run: echo "NEW_VERSION=$(pnpm semver "$LATEST_VERSION" -i minor)" >> "$GITHUB_OUTPUT"
+        run: echo "NEW_VERSION=$(pnpm semver "$LATEST_VERSION" -i patch)" >> "$GITHUB_OUTPUT"
         env:
           LATEST_VERSION: ${{ steps.latest-tag.outputs.LATEST_VERSION }}
 
