@@ -671,7 +671,7 @@ export function buildBusinessSvelteIconModule(
 
   return [
     '<script lang="ts">',
-    "  import type { BusinessIconImageProps } from '../businessTypes';",
+    "  import type { BusinessIconImageProps } from '../businessTypes.js';",
     ...buildBusinessIconExtraProps(componentName, colorMode).map((line) =>
       line ? `  ${line}` : line,
     ),
@@ -734,6 +734,22 @@ function buildBusinessHtmlImageTypes() {
     '  secondaryColor?: string;',
     '  style?: unknown;',
     '  [key: string]: unknown;',
+    '}',
+    '',
+  ].join('\n');
+}
+
+function buildBusinessSvelteTypes() {
+  return [
+    "import type { SVGAttributes } from 'svelte/elements';",
+    '',
+    "export interface BusinessIconImageProps extends Omit<SVGAttributes<SVGSVGElement>, 'color' | 'width' | 'height'> {",
+    '  size?: number | string;',
+    '  width?: number | string;',
+    '  height?: number | string;',
+    '  alt?: string;',
+    '  color?: string;',
+    '  secondaryColor?: string;',
     '}',
     '',
   ].join('\n');
@@ -1073,7 +1089,7 @@ export async function generateBusinessIconsPackage(targets: Target[] = [...allTa
     );
     await fs.writeFile(
       path.join(sveltePackageSrcDir, 'businessTypes.ts'),
-      buildBusinessHtmlImageTypes(),
+      buildBusinessSvelteTypes(),
     );
   }
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { BusinessIconImageProps } from '../businessTypes';
+  import type { BusinessIconImageProps } from '../businessTypes.js';
   const { size = 24, width, height, alt = '', color = 'currentColor', style, ...props }: BusinessIconImageProps = $props();
 </script>
 

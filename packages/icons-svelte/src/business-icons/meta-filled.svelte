@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { BusinessIconImageProps } from '../businessTypes';
+  import type { BusinessIconImageProps } from '../businessTypes.js';
   type MetaFilledProps = BusinessIconImageProps & {
     secondaryColor?: string;
   };

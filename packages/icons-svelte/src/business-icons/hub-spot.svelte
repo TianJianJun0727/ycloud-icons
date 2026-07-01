@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { BusinessIconImageProps } from '../businessTypes';
+  import type { BusinessIconImageProps } from '../businessTypes.js';
   type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: HubSpotProps = $props();
