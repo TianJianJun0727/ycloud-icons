@@ -1,11 +1,6 @@
 {
   "illustrations": [
     {
-      "name": "not-found",
-      "path": "illustration-icons/not-found.svg",
-      "componentName": "NotFound"
-    },
-    {
       "name": "account-unbound",
       "path": "illustration-icons/account-unbound.svg",
       "componentName": "AccountUnbound"
@@ -49,6 +44,11 @@
       "name": "no-permission",
       "path": "illustration-icons/no-permission.svg",
       "componentName": "NoPermission"
+    },
+    {
+      "name": "not-found",
+      "path": "illustration-icons/not-found.svg",
+      "componentName": "NotFound"
     },
     {
       "name": "payment-method-disabled",

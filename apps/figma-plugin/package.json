@@ -2,6 +2,7 @@
   "name": "@ycloud-web/figma-plugin",
   "version": "0.0.0",
   "private": true,
+  "author": "TianJianJun",
   "type": "module",
   "scripts": {
     "build": "build-figma-plugin --typecheck --minify",

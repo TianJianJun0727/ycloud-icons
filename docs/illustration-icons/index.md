@@ -11,8 +11,25 @@ head:
 ---
 
 <script setup>
+import { computed, ref } from 'vue'
 import { data } from './illustration.data.ts'
 import PageContainer from '~/.vitepress/theme/components/PageContainer.vue'
+import InputSearch from '~/.vitepress/theme/components/base/InputSearch.vue'
+import NoResults from '~/.vitepress/theme/components/icons/NoResults.vue'
+
+const searchQuery = ref('')
+const filteredIllustrations = computed(() => {
+  const query = searchQuery.value.trim().toLowerCase()
+
+  if (!query) return data.illustrations
+
+  return data.illustrations.filter((item) =>
+    item.name.includes(query) ||
+    item.displayName.toLowerCase().includes(query) ||
+    item.componentName.toLowerCase().includes(query) ||
+    item.path.toLowerCase().includes(query)
+  )
+})
 </script>
 
 <div class="VPDoc content">
@@ -21,9 +38,20 @@ import PageContainer from '~/.vitepress/theme/components/PageContainer.vue'
       <div class="illustration-header">
         <p class="muted">共 {{ data.illustrations.length }} 个插画。插画保留原始 SVG 颜色和尺寸属性，组件默认 width="100%" height="auto"。</p>
       </div>
+      <InputSearch
+        v-model="searchQuery"
+        :placeholder="`搜索 ${data.illustrations.length} 个插画…`"
+        class="illustration-search"
+      />
+      <NoResults
+        v-if="filteredIllustrations.length === 0"
+        :searchQuery="searchQuery"
+        :isBrandSearch="false"
+        @clear="searchQuery = ''"
+      />
       <div class="illustration-grid">
         <a
-          v-for="item in data.illustrations"
+          v-for="item in filteredIllustrations"
           :key="item.name"
           class="illustration-card"
           :href="`/illustration-icons/${item.name}`"
@@ -46,6 +74,10 @@ import PageContainer from '~/.vitepress/theme/components/PageContainer.vue'
 
 .muted {
   color: var(--vp-c-text-2);
+}
+
+.illustration-search {
+  width: 100%;
 }
 
 .illustration-grid {
