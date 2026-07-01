@@ -111,10 +111,10 @@
     "babel-preset-solid": "^1.8.12",
     "esbuild": "^0.28.1",
     "jest-serializer-html": "^7.1.0",
-    "rollup": "^4.62.0",
+    "rollup": "^4.62.2",
     "solid-js": "^1.9.4",
     "typescript": "7.0.1-rc",
-    "vite": "^8.1.0",
+    "vite": "^8.1.2",
     "vite-plugin-solid": "^2.11.12"
   },
   "peerDependencies": {
