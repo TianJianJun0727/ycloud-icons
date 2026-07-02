@@ -19,9 +19,10 @@ const config = {
   ],
   'business-icons/**/*.svg': [
     'node ./scripts/optimizeStagedBusinessSvgs.mts',
+    'prettier --parser html --write',
     'node ./scripts/writeBusinessIconIndex.mts',
     'oxfmt business-icons/index.json',
-    'node ./scripts/checkBusinessSvgSource.mts',
+    () => 'node ./scripts/checkBusinessSvgSource.mts',
   ],
   'business-icons/**/*.json': (filenames) => [`oxfmt ${filenames.join(' ')}`],
   'icons/*.json': (filenames) => {
