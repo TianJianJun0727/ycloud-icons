@@ -44,7 +44,7 @@
     "preview": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@floating-ui/vue": "^1.1.9",
+    "@floating-ui/vue": "^2.0.0",
     "@headlessui/vue": "^1.7.23",
     "@vueuse/components": "^14.0.0",
     "@vueuse/core": "^14.0.0",
@@ -55,11 +55,11 @@
     "fuse.js": "^7.1.0",
     "jszip": "^3.10.1",
     "lodash-es": "^4.18.1",
-    "motion-v": "1.10.3",
+    "motion-v": "2.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sandpack-vue3": "3.1.12",
-    "vue": "^3.5.24"
+    "vue": "^3.5.39"
   },
   "devDependencies": {
     "@rollup/plugin-replace": "^6.0.3",
@@ -67,21 +67,21 @@
     "@ycloud-web/build-icons": "workspace:*",
     "@ycloud-web/helpers": "workspace:*",
     "@ycloud-web/shared": "workspace:*",
-    "h3": "^1.15.9",
+    "h3": "2.0.1-rc.22",
     "markdown-it": "^14.2.0",
     "markdown-it-container": "^4.0.0",
     "nitropack": "^2.13.4",
     "rollup-plugin-copy": "^3.5.0",
-    "semver": "^7.7.3",
-    "sharp": "^0.34.5",
-    "shiki": "^3.15.0",
+    "semver": "^7.8.5",
+    "sharp": "^0.35.2",
+    "shiki": "^4.3.0",
     "simple-git": "^3.36.0",
-    "sitemap": "^7.1.2",
+    "sitemap": "^9.0.1",
     "svg-path-commander": "^2.1.11",
-    "svg-pathdata": "^6.0.3",
+    "svg-pathdata": "^9.0.0",
     "svgson": "^5.3.1",
     "vitepress": "^1.6.4",
     "vitepress-plugin-group-icons": "^1.7.5",
-    "vitepress-plugin-llms": "^1.13.1"
+    "vitepress-plugin-llms": "^1.13.2"
   }
 }
