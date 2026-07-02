@@ -233,8 +233,8 @@ importers:
         specifier: ^2.1.11
         version: 2.2.1
       svg-pathdata:
-        specifier: ^6.0.3
-        version: 6.0.3
+        specifier: ^9.0.0
+        version: 9.0.0
       svgson:
         specifier: ^5.3.1
         version: 5.3.1
@@ -10410,13 +10410,13 @@ packages:
     resolution: {integrity: sha512-hZ9GOFBT/J31fTu3UCj+dZs1w4ZqiGCG/nQpFm1CEQ/EPFj9x3pHXPi6EjYuZmPlua7K8CdFc2+HxndiZ/Q3+g==}
     engines: {node: '>=16', pnpm: '>=8.6.0'}
 
-  svg-pathdata@6.0.3:
-    resolution: {integrity: sha512-qsjeeq5YjBZ5eMdFuUa4ZosMLxgr5RZ+F+Y1OrDhuOCEInRMA3x74XdBtggJcj9kOeInz0WE+LgCPDkZFlBYJw==}
-    engines: {node: '>=12.0.0'}
-
   svg-pathdata@7.0.0:
     resolution: {integrity: sha512-R0T/Xij8AvDHy//mLlXyv1phLoFurCHWjHXikkzhXMz6kN3hup78tAFpFDCr0Zr+uIs7vmKQN+SvRjM03mMoHg==}
     engines: {node: '>=20.11.1'}
+
+  svg-pathdata@9.0.0:
+    resolution: {integrity: sha512-h9FuqmNsgDKq2hQBqTMOWjZwqdZOnWijZmcg6FL4iSmH6VvRnobhHrBQSdOiP0W9nwgv0qiW5vQ3//Arrmp19g==}
+    engines: {node: '>=24.14.0'}
 
   svg2ttf@6.1.0:
     resolution: {integrity: sha512-EjxgcmhKcBpx/3fR1hPwVtJAbUc/ZsDpwOTF74SI3PbzCg4pDHnxVmoSuqgEqxVJGqqkSCI6+82cucpn2D5aOw==}
@@ -21976,11 +21976,11 @@ snapshots:
     dependencies:
       '@thednp/dommatrix': 3.0.4
 
-  svg-pathdata@6.0.3: {}
-
   svg-pathdata@7.0.0:
     dependencies:
       yerror: 8.0.0
+
+  svg-pathdata@9.0.0: {}
 
   svg2ttf@6.1.0:
     dependencies:
