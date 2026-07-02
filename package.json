@@ -62,12 +62,15 @@
     "rename": "node ./scripts/rename/renameIcon.mts",
     "renamePattern": "node ./scripts/rename/renamePattern.mts",
     "generate:illustration-index": "node ./scripts/writeIllustrationIndex.mts",
-    "lint:svg:illustration": "node ./scripts/checkIllustrationSvgSource.mts"
+    "lint:svg:illustration": "node ./scripts/checkIllustrationSvgSource.mts",
+    "pr:create": "node ./scripts/createPr.mjs"
   },
   "devDependencies": {
     "@actions/core": "^3.0.1",
     "@actions/github": "^9.1.1",
     "@ai-sdk/openai": "4.0.4",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@commitlint/lint": "^21.2.0",
     "@octokit/rest": "^22.0.1",
     "@types/node": "^24.13.2",
     "@types/yargs": "^17.0.35",

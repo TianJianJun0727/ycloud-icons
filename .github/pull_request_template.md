@@ -8,7 +8,11 @@ Please use the format: <type>(<scope>): <short description>
 Example: feat(icons): added `camera` icon
 
 Available types: fix, feat, perf, docs, style, refactor, test, chore, ci, build
-Common scopes: icons, docs, studio, site, dev
+Common scopes: icons, docs, studio, site, dev, actions
+
+Local PR creation:
+Use `pnpm pr:create -- --title "ci(actions): update workflow actions" --description "..." --verification "pnpm lint"`
+instead of raw `gh pr create`. The helper validates the title format and writes PR body via `--body-file`.
 -->
 
 <!-- Insert `closes #issueNumber` here if merging this PR will resolve an existing issue -->
