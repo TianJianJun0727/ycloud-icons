@@ -1,42 +1,9 @@
 name: YCloud Icons Static Checks
 
 on:
-  push:
-    branches:
-      - next
-    paths:
-      - icons/**
-      - business-icons/**
-      - illustration-icons/**
-      - scripts/generateBusinessIconsPackage.mts
-      - scripts/generateIllustrationsPackage.mts
-      - scripts/writeAssetMetadata.mts
-      - scripts/writeBusinessIconIndex.mts
-      - scripts/writeIllustrationIndex.mts
-      - scripts/render/**
-      - .github/actions/setup-pnpm/**
-      - package.json
-      - packages/icons-static/**
-      - pnpm-workspace.yaml
-      - tools/build-helpers/**
-      - tools/build-icons/**
-      - tools/rollup-plugins/**
-  pull_request:
-    paths:
-      - icons/**
-      - business-icons/**
-      - illustration-icons/**
-      - scripts/generateBusinessIconsPackage.mts
-      - scripts/generateIllustrationsPackage.mts
-      - scripts/writeAssetMetadata.mts
-      - scripts/writeBusinessIconIndex.mts
-      - scripts/writeIllustrationIndex.mts
-      - scripts/render/**
-      - packages/icons-static/**
-      - tools/build-helpers/**
-      - tools/build-icons/**
-      - tools/rollup-plugins/**
-
+  # Automatic checks are handled by icons-frameworks.yml
+  # This workflow can be triggered manually for targeted testing
+  workflow_dispatch:
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
