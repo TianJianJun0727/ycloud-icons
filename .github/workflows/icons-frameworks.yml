@@ -1,0 +1,116 @@
+name: YCloud Icons Framework Packages Checks
+
+on:
+  push:
+    branches:
+      - next
+    paths:
+      - icons/**
+      - business-icons/**
+      - illustration-icons/**
+      - scripts/generateBusinessIconsPackage.mts
+      - scripts/generateIllustrationsPackage.mts
+      - scripts/writeAssetMetadata.mts
+      - scripts/writeBusinessIconIndex.mts
+      - scripts/writeIllustrationIndex.mts
+      - scripts/render/**
+      - .github/actions/setup-pnpm/**
+      - package.json
+      - packages/icons-angular/**
+      - packages/icons-astro/**
+      - packages/icons-data/**
+      - packages/icons-preact/**
+      - packages/icons-react/**
+      - packages/icons-react-native/**
+      - packages/icons-shared/**
+      - packages/icons-solid/**
+      - packages/icons-static/**
+      - packages/icons-svelte/**
+      - packages/icons-vue/**
+      - pnpm-workspace.yaml
+      - scripts/generateNextJSAliases.mjs
+      - tools/build-helpers/**
+      - tools/build-icons/**
+      - tools/rollup-plugins/**
+  pull_request:
+    paths:
+      - icons/**
+      - business-icons/**
+      - illustration-icons/**
+      - scripts/generateBusinessIconsPackage.mts
+      - scripts/generateIllustrationsPackage.mts
+      - scripts/writeAssetMetadata.mts
+      - scripts/writeBusinessIconIndex.mts
+      - scripts/writeIllustrationIndex.mts
+      - scripts/render/**
+      - packages/icons-angular/**
+      - packages/icons-astro/**
+      - packages/icons-data/**
+      - packages/icons-preact/**
+      - packages/icons-react/**
+      - packages/icons-react-native/**
+      - packages/icons-shared/**
+      - packages/icons-solid/**
+      - packages/icons-static/**
+      - packages/icons-svelte/**
+      - packages/icons-vue/**
+      - tools/build-helpers/**
+      - tools/build-icons/**
+      - tools/rollup-plugins/**
+      - scripts/generateNextJSAliases.mjs
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: YCloud Icons ${{ matrix.package-name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - package: '@ycloud-web/icons-angular'
+            package-name: 'Angular'
+            has-test: true
+          - package: '@ycloud-web/icons-astro'
+            package-name: 'Astro'
+            has-test: true
+          - package: '@ycloud-web/icons-data'
+            package-name: 'Data'
+            has-test: true
+          - package: '@ycloud-web/icons-preact'
+            package-name: 'Preact'
+            has-test: true
+          - package: '@ycloud-web/icons-react'
+            package-name: 'React'
+            has-test: true
+          - package: '@ycloud-web/icons-react-native'
+            package-name: 'React Native'
+            has-test: true
+          - package: '@ycloud-web/icons-solid'
+            package-name: 'Solid'
+            has-test: true
+          - package: '@ycloud-web/icons-static'
+            package-name: 'Static'
+            has-test: false
+          - package: '@ycloud-web/icons-svelte'
+            package-name: 'Svelte'
+            has-test: true
+          - package: '@ycloud-web/icons-vue'
+            package-name: 'Vue'
+            has-test: true
+
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup-pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm --filter ${{ matrix.package }} build
+
+      - name: Test
+        if: ${{ matrix.has-test }}
+        run: pnpm --filter ${{ matrix.package }} test
