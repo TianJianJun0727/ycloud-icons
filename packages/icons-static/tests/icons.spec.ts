@@ -11,32 +11,26 @@ describe('icons-static', () => {
     const iconNames = Object.keys(icons);
     expect(iconNames.length).toBeGreaterThan(0);
 
-    // Test first icon has required properties
+    // Test first icon is a string
     const firstIcon = icons[iconNames[0] as keyof typeof icons];
-    expect(firstIcon).toHaveProperty('name');
-    expect(firstIcon).toHaveProperty('attrs');
-    expect(firstIcon).toHaveProperty('node');
-    expect(Array.isArray(firstIcon.node)).toBe(true);
+    expect(typeof firstIcon).toBe('string');
+    expect(firstIcon.length).toBeGreaterThan(0);
   });
 
-  it('should have valid SVG attributes', () => {
+  it('should have valid SVG strings', () => {
     const iconNames = Object.keys(icons);
     const firstIcon = icons[iconNames[0] as keyof typeof icons];
 
-    expect(firstIcon.attrs).toHaveProperty('xmlns');
-    expect(firstIcon.attrs.xmlns).toBe('http://www.w3.org/2000/svg');
-    expect(firstIcon.attrs).toHaveProperty('viewBox');
+    expect(firstIcon).toContain('<svg');
+    expect(firstIcon).toContain('xmlns="http://www.w3.org/2000/svg"');
+    expect(firstIcon).toContain('viewBox=');
+    expect(firstIcon).toContain('</svg>');
   });
 
-  it('should have valid node structure', () => {
+  it('should have ycloud class', () => {
     const iconNames = Object.keys(icons);
     const firstIcon = icons[iconNames[0] as keyof typeof icons];
 
-    expect(Array.isArray(firstIcon.node)).toBe(true);
-    if (firstIcon.node.length > 0) {
-      const [tagName, attrs] = firstIcon.node[0];
-      expect(typeof tagName).toBe('string');
-      expect(typeof attrs).toBe('object');
-    }
+    expect(firstIcon).toContain('class="ycloud');
   });
 });
