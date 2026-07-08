@@ -12,7 +12,7 @@
 |--------|------|--------|--------|--------|--------|
 | P0 (Critical) | 10 | 10 | 0 | 0 | 100% ✅ |
 | P1 (High) | 15 | 15 | 0 | 0 | 100% ✅ |
-| P2 (Medium) | 12 | 0 | 0 | 12 | 0% |
+| P2 (Medium) | 12 | 3 | 1 | 8 | 25% |
 | P3 (Low) | 12 | 0 | 0 | 12 | 0% |
 | **总计** | **49** | **25** | **0** | **24** | **51%** |
 
@@ -144,7 +144,73 @@
 
 ## 🟡 Phase 3: P2 中优先级 (1个月内)
 
-*待 Phase 1-2 完成后展开*
+### 数据完整性
+
+- [x] **#26** Schema 全局唯一性验证
+  - 状态: ✅ 已完成
+  - 文件: `scripts/checkIconsAndCategories.mts`
+  - 修复内容:
+    - SVG / JSON / 分类 slug 大小写归一重复从新增 warning 升级为全量 error
+    - 图标 canonical name 与 aliases 全局重名升级为全量 error
+    - 保留新增文件提示信息, 但不再只检查新增文件
+
+- [x] **#27** 构建脚本竞态/递归/写入可靠性修复
+  - 状态: ✅ 已完成
+  - 文件: `scripts/assetMetadata.mts`, `scripts/writeAssetMetadata.mts`
+  - 修复内容:
+    - 修正单个业务图标/插画 JSON 被错误按聚合 metadata index 校验的问题
+    - 单文件 metadata 读取增加运行时结构校验
+    - 单文件 metadata 和聚合 metadata index 写入改为临时文件 + rename 原子写入
+    - 写入前自动创建父目录, 失败时清理临时文件
+
+### 类型安全
+
+- [ ] **#28** 深度导入添加类型定义 (F16)
+  - 状态: 待处理
+
+- [x] **#29** Astro createYCloudIcon 类型约束
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-astro/src/createYCloudIcon.ts`
+  - 修复内容: `$$props` 从 `Record<string, any>` 收窄为 `IconProps`
+
+- [ ] **#30** Angular 依赖注入类型守卫
+  - 状态: 待处理
+
+### 测试提升
+
+- [ ] **#31** Scripts 覆盖率从 <5% 提升到 60%
+  - 状态: 进行中
+  - 文件: `scripts/assetMetadata.spec.ts`, `scripts/checkIconsAndCategories.spec.ts`
+  - 当前进展:
+    - 添加 asset metadata 单文件读取、非法结构拒绝、原子写入测试
+    - 添加图标 canonical name 与 alias 全局重名阻断测试
+
+- [ ] **#32** 快照测试重构 (减少 50%)
+  - 状态: 待处理
+
+- [ ] **#33** 创建 @ycloud-web/test-utils 共享包
+  - 状态: 待处理
+
+- [ ] **#34** 添加性能 benchmark 测试
+  - 状态: 待处理
+
+### 框架改进
+
+- [ ] **#35** Svelte 修复 `$props()` 解构响应性
+  - 状态: 待处理
+
+- [ ] **#36** Svelte 实现响应式 Context
+  - 状态: 待处理
+
+- [ ] **#37** icons 同步 DOM 操作异步分片
+  - 状态: 待处理
+
+### 额外中风险修复
+
+- [x] **Svelte `absoluteStrokeWidth` NaN/Infinity 防护**
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-svelte/src/Icon.svelte`
+  - 修复内容: 当 `size` 为 `0`、非法字符串或 `strokeWidth` 非数值时, absolute stroke width 计算使用安全兜底, 避免输出 `NaN` 或 `Infinity`
 
 ---
 
@@ -172,4 +238,9 @@
   - React DynamicIcon 添加 memo 优化
   - 验证所有 P1 任务已在之前 PR 中完成
   - 整体进度: 51% (25/49)
-
+- Phase 3 启动:
+  - 修复 asset metadata 单文件校验和原子写入
+  - 图标名称/alias 全局唯一性改为阻断错误
+  - Astro `createYCloudIcon` props 类型收窄
+  - Svelte `absoluteStrokeWidth` 增加 NaN/Infinity 防护
+  - 新增脚本单测覆盖数据完整性关键路径

@@ -17,8 +17,12 @@
     ...props
   }: IconProps = $props();
 
+  const numericSize = $derived(Number(size));
+  const safeSize = $derived(Number.isFinite(numericSize) ? Math.max(numericSize, 1) : 24);
+  const numericStrokeWidth = $derived(Number(strokeWidth));
+  const safeStrokeWidth = $derived(Number.isFinite(numericStrokeWidth) ? numericStrokeWidth : 2);
   const calculatedStrokeWidth = $derived(
-    absoluteStrokeWidth ? (Number(strokeWidth) * 24) / Number(size) : strokeWidth,
+    absoluteStrokeWidth ? (safeStrokeWidth * 24) / safeSize : strokeWidth,
   );
 </script>
 

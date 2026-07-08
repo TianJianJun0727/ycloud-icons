@@ -6,10 +6,9 @@
  * - 每个 `icons/*.svg` 必须有同名 `icons/*.json`。
  * - 每个 `icons/*.json` 必须有同名 `icons/*.svg`。
  * - 每个图标 JSON 中的 `categories` 必须引用已经存在的 `categories/*.json`。
- * 提醒内容：
+ * 检查内容：
  * - `icons/*.svg`、`icons/*.json`、`categories/*.json` 的 slug 是否出现大小写变体重复。
  * - 图标文件名和 aliases 是否互相重复。
- * 提醒只针对新增文件场景：CLI 通过 `ADDED_FILES` 环境变量传入 PR 新增文件列表。
  *
  * 注意：这里不检查中英文内容细节；字段语言、重复值和 use-cases 成对规则由
  * `checkIconMetadata.mts` / `checkCategoryMetadata.mts` 负责。
@@ -95,10 +94,6 @@ function getAddedSlugs(addedFiles: string[], directory: string, extension: strin
   );
 }
 
-function includesAddedSlug(values: string[], addedSlugs: ReadonlySet<string>) {
-  return values.some((value) => addedSlugs.has(value.toLowerCase()));
-}
-
 function getAliasName(alias: unknown) {
   if (typeof alias === 'string') {
     return alias;
@@ -133,30 +128,20 @@ export async function checkIconsAndCategories(
   const iconJsonNames = iconJsonFiles.map((file) => getFileSlug(file, '.json'));
   const categoryNames = categoryJsonFiles.map((file) => getFileSlug(file, '.json'));
   const addedFiles = options.addedFiles ?? [];
-  const addedIconSvgSlugs = getAddedSlugs(addedFiles, 'icons', '.svg');
   const addedIconJsonSlugs = getAddedSlugs(addedFiles, 'icons', '.json');
-  const addedCategoryJsonSlugs = getAddedSlugs(addedFiles, 'categories', '.json');
   const errors: string[] = [];
   const warnings: string[] = [];
 
   for (const duplicate of findNormalizedDuplicates(iconNames)) {
-    if (includesAddedSlug(duplicate, addedIconSvgSlugs)) {
-      warnings.push(`Duplicate icon SVG slugs after case normalization: ${duplicate.join(', ')}.`);
-    }
+    errors.push(`Duplicate icon SVG slugs after case normalization: ${duplicate.join(', ')}.`);
   }
 
   for (const duplicate of findNormalizedDuplicates(iconJsonNames)) {
-    if (includesAddedSlug(duplicate, addedIconJsonSlugs)) {
-      warnings.push(`Duplicate icon JSON slugs after case normalization: ${duplicate.join(', ')}.`);
-    }
+    errors.push(`Duplicate icon JSON slugs after case normalization: ${duplicate.join(', ')}.`);
   }
 
   for (const duplicate of findNormalizedDuplicates(categoryNames)) {
-    if (includesAddedSlug(duplicate, addedCategoryJsonSlugs)) {
-      warnings.push(
-        `Duplicate category JSON slugs after case normalization: ${duplicate.join(', ')}.`,
-      );
-    }
+    errors.push(`Duplicate category JSON slugs after case normalization: ${duplicate.join(', ')}.`);
   }
 
   iconNames.forEach((iconName) => {
@@ -192,13 +177,16 @@ export async function checkIconsAndCategories(
   ]);
 
   for (const duplicate of findDuplicateIconNameEntries(iconAndAliasNames)) {
-    if (duplicate.some((entry) => addedIconJsonSlugs.has(entry.ownerIconName.toLowerCase()))) {
-      warnings.push(
-        `Duplicate icon name or alias after case normalization: ${[
-          ...new Set(duplicate.map((entry) => entry.name)),
-        ].join(', ')}.`,
-      );
-    }
+    const duplicateNames = [...new Set(duplicate.map((entry) => entry.name))].join(', ');
+    const owners = [...new Set(duplicate.map((entry) => entry.ownerIconName))].join(', ');
+    const addedOwnerHint = duplicate.some((entry) =>
+      addedIconJsonSlugs.has(entry.ownerIconName.toLowerCase()),
+    )
+      ? ' Added icon metadata is involved.'
+      : '';
+    errors.push(
+      `Duplicate icon name or alias after case normalization: ${duplicateNames}. Owners: ${owners}.${addedOwnerHint}`,
+    );
   }
 
   return { errors, warnings };
