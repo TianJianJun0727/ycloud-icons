@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
+import { randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { promisify } from 'node:util';
 import {
@@ -57,6 +58,21 @@ async function pathExists(file: string) {
   }
 }
 
+async function writeJsonFileAtomic(file: string, value: unknown) {
+  await fs.mkdir(path.dirname(file), { recursive: true });
+  const temporaryFile = path.join(
+    path.dirname(file),
+    `.${path.basename(file)}.${randomUUID()}.tmp`,
+  );
+  try {
+    await fs.writeFile(temporaryFile, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+    await fs.rename(temporaryFile, file);
+  } catch (error) {
+    await fs.rm(temporaryFile, { force: true }).catch(() => {});
+    throw error;
+  }
+}
+
 async function removeOrphanJsonFiles(dir: string, keepFiles: Set<string>, depth = 0) {
   // Prevent infinite recursion
   if (depth > 100) {
@@ -88,6 +104,25 @@ async function removeOrphanJsonFiles(dir: string, keepFiles: Set<string>, depth 
       }
     }),
   );
+}
+
+async function collectJsonFiles(dir: string, depth = 0): Promise<string[]> {
+  if (depth > 100) {
+    throw new Error(`Maximum recursion depth exceeded in ${dir}`);
+  }
+
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(
+    entries.map(async (entry) => {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        return collectJsonFiles(fullPath, depth + 1);
+      }
+      return entry.isFile() && entry.name.endsWith('.json') ? [fullPath] : [];
+    }),
+  );
+
+  return files.flat();
 }
 
 async function readLegacyBusinessMetadata() {
@@ -235,20 +270,11 @@ async function writeMetadataFile(
   type: MetadataEntry['type'],
   assets: MetadataEntry[],
 ) {
-  await fs.mkdir(path.dirname(file), { recursive: true });
-  await fs.writeFile(
-    file,
-    `${JSON.stringify(
-      {
-        metadataVersion: 1,
-        type,
-        assets: assets.sort((left, right) => left.name.localeCompare(right.name)),
-      },
-      null,
-      2,
-    )}\n`,
-    'utf8',
-  );
+  await writeJsonFileAtomic(file, {
+    metadataVersion: 1,
+    type,
+    assets: assets.sort((left, right) => left.name.localeCompare(right.name)),
+  });
 }
 
 function getMetadataTitle(metadata: Record<string, unknown> | undefined) {
@@ -346,16 +372,14 @@ await writeIconMetadata();
 await writeBusinessMetadata();
 await writeIllustrationMetadata();
 
-await execFileAsync(
-  'pnpm',
-  [
-    'exec',
-    'oxfmt',
-    'icons/metadata/*.json',
-    'business-icons/**/*.json',
-    'illustration-icons/**/*.json',
-  ],
-  {
+const metadataJsonFiles = [
+  ...(await collectJsonFiles(path.join(iconsDir, 'metadata'))),
+  ...(await collectJsonFiles(businessIconsDir)),
+  ...(await collectJsonFiles(illustrationIconsDir)),
+];
+
+if (metadataJsonFiles.length > 0) {
+  await execFileAsync('pnpm', ['exec', 'oxfmt', ...metadataJsonFiles], {
     cwd: repoRoot,
-  },
-);
+  });
+}

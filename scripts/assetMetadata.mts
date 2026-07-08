@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { randomUUID } from 'node:crypto';
 
 export type AssetKind = 'business-icon' | 'illustration';
 
@@ -16,6 +17,77 @@ export type AssetMetadata = {
     };
   };
 };
+
+function isPlainObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+function isNonEmptyString(value: unknown): value is string {
+  return typeof value === 'string' && value.length > 0;
+}
+
+function isNonEmptyStringArray(value: unknown): value is string[] {
+  return Array.isArray(value) && value.length > 0 && value.every(isNonEmptyString);
+}
+
+function assertAssetMetadata(file: string, data: unknown): asserts data is AssetMetadata {
+  if (!isPlainObject(data)) {
+    throw new Error(`Invalid asset metadata in ${file}: not an object`);
+  }
+
+  if (!isNonEmptyString(data.$schema)) {
+    throw new Error(`Invalid asset metadata in ${file}: missing or invalid $schema`);
+  }
+
+  if (!isNonEmptyString(data.name)) {
+    throw new Error(`Invalid asset metadata in ${file}: missing or invalid name`);
+  }
+
+  if (!isNonEmptyStringArray(data.tags)) {
+    throw new Error(`Invalid asset metadata in ${file}: tags must be a non-empty string array`);
+  }
+
+  if (!isNonEmptyStringArray(data['use-cases'])) {
+    throw new Error(
+      `Invalid asset metadata in ${file}: use-cases must be a non-empty string array`,
+    );
+  }
+
+  if (!isPlainObject(data.i18n) || !isPlainObject(data.i18n.en)) {
+    throw new Error(`Invalid asset metadata in ${file}: missing or invalid i18n.en`);
+  }
+
+  if (!isNonEmptyString(data.i18n.en.name)) {
+    throw new Error(`Invalid asset metadata in ${file}: missing or invalid i18n.en.name`);
+  }
+
+  if (!isNonEmptyStringArray(data.i18n.en.tags)) {
+    throw new Error(
+      `Invalid asset metadata in ${file}: i18n.en.tags must be a non-empty string array`,
+    );
+  }
+
+  if (!isNonEmptyStringArray(data.i18n.en['use-cases'])) {
+    throw new Error(
+      `Invalid asset metadata in ${file}: i18n.en.use-cases must be a non-empty string array`,
+    );
+  }
+}
+
+async function writeJsonFileAtomic(file: string, value: unknown) {
+  await fs.mkdir(path.dirname(file), { recursive: true });
+  const temporaryFile = path.join(
+    path.dirname(file),
+    `.${path.basename(file)}.${randomUUID()}.tmp`,
+  );
+  try {
+    await fs.writeFile(temporaryFile, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+    await fs.rename(temporaryFile, file);
+  } catch (error) {
+    await fs.rm(temporaryFile, { force: true }).catch(() => {});
+    throw error;
+  }
+}
 
 const BUSINESS_ICON_LABEL_BY_COLOR_MODE: Record<string, { zh: string; en: string }> = {
   mono: { zh: '单色业务图标', en: 'mono business icon' },
@@ -300,25 +372,8 @@ export async function readAssetMetadata(file: string): Promise<AssetMetadata | u
   try {
     const content = await fs.readFile(file, 'utf8');
     const data = JSON.parse(content);
-
-    // Runtime validation
-    if (!data || typeof data !== 'object') {
-      throw new Error(`Invalid metadata in ${file}: not an object`);
-    }
-
-    if (typeof data.metadataVersion !== 'number') {
-      throw new Error(`Invalid metadata in ${file}: missing or invalid metadataVersion`);
-    }
-
-    if (!['icon', 'business-icon', 'illustration'].includes(data.type)) {
-      throw new Error(`Invalid metadata in ${file}: invalid type "${data.type}"`);
-    }
-
-    if (!Array.isArray(data.assets)) {
-      throw new Error(`Invalid metadata in ${file}: assets must be an array`);
-    }
-
-    return data as AssetMetadata;
+    assertAssetMetadata(file, data);
+    return data;
   } catch (error) {
     if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
       return undefined;
@@ -328,7 +383,8 @@ export async function readAssetMetadata(file: string): Promise<AssetMetadata | u
 }
 
 export async function writeAssetMetadata(file: string, metadata: AssetMetadata) {
-  await fs.writeFile(file, `${JSON.stringify(metadata, null, 2)}\n`, 'utf8');
+  assertAssetMetadata(file, metadata);
+  await writeJsonFileAtomic(file, metadata);
 }
 
 export function metadataPathForSvg(svgPath: string) {
