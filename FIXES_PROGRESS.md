@@ -8,15 +8,15 @@
 
 ## 📊 整体进度
 
-| 优先级 | 总数 | 已修复 | 进行中 | 待处理 | 完成率 |
-|--------|------|--------|--------|--------|--------|
-| P0 (Critical) | 10 | 10 | 0 | 0 | 100% ✅ |
-| P1 (High) | 15 | 15 | 0 | 0 | 100% ✅ |
-| P2 (Medium) | 12 | 3 | 1 | 8 | 25% |
-| P3 (Low) | 12 | 0 | 0 | 12 | 0% |
-| **总计** | **49** | **25** | **0** | **24** | **51%** |
+| 优先级        | 总数   | 已修复 | 进行中 | 待处理 | 完成率  |
+| ------------- | ------ | ------ | ------ | ------ | ------- |
+| P0 (Critical) | 10     | 10     | 0      | 0      | 100% ✅ |
+| P1 (High)     | 15     | 15     | 0      | 0      | 100% ✅ |
+| P2 (Medium)   | 12     | 4      | 1      | 7      | 33%     |
+| P3 (Low)      | 12     | 0      | 0      | 12     | 0%      |
+| **总计**      | **49** | **26** | **1**  | **22** | **53%** |
 
-*注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处理*
+_注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处理_
 
 ---
 
@@ -27,24 +27,21 @@
 - [x] **#1** 修复文件写入 + 错误处理 (F5 + F12)
   - 状态: ✅ 已完成
   - 文件: `tools/build-helpers/src/writeFileIfNotExists.ts`, `tools/build-icons/cli.ts`
-  - 修复内容: 
+  - 修复内容:
     - writeFileIfNotExists 改为 async 并 await writeFile
     - cli.ts catch 块添加 process.exitCode = 1
-  
 - [x] **#2** 修复 JSON import 缓存 (F13)
   - 状态: ✅ 已完成
   - 文件: `tools/build-icons/utils/getIconMetaData.ts`
   - 修复内容: 使用 fs.readFile + JSON.parse 替代 import(),避免 ESM 缓存
-  
 - [x] **#3** 添加 JSON 解析运行时校验
   - 状态: ✅ 已完成
   - 文件: `scripts/assetMetadata.mts`
   - 修复内容: 添加 metadataVersion、type、assets 字段验证
-  
 - [x] **构建脚本 #3** 文件系统竞态条件
-  - 状态: ✅ 已完成  
+  - 状态: ✅ 已完成
   - 文件: `scripts/writeAssetMetadata.mts:60-79`
-  - 修复内容: 
+  - 修复内容:
     - 添加递归深度限制(最大100层)
     - fs.rm 添加 { force: true }
     - 捕获并忽略 ENOENT 错误
@@ -54,15 +51,12 @@
 - [ ] **#4** CI Secret 安全处理
   - 状态: 待处理
   - 文件: `.github/workflows/ci.yml`
-  
 - [ ] **#5** 所有敏感 workflow 添加 repository 检查
   - 状态: 待处理
   - 文件: `.github/workflows/docs.yml`, `lint-code.yml` 等
-  
 - [ ] **#6** Angular XSS 防护
   - 状态: 待处理
   - 文件: `packages/icons-angular/src/ycloud-icon-base.ts`
-  
 - [ ] **#7** 固定 Action 版本到 commit SHA
   - 状态: 待处理
   - 文件: 多个 workflow 文件
@@ -72,11 +66,9 @@
 - [ ] **#8** 补充 icons-static sprite.svg
   - 状态: 待处理
   - 文件: `packages/icons-static/`
-  
 - [ ] **#9** icons 添加 SSR document 检查
   - 状态: 待处理
   - 文件: `packages/icons/src/createElement.ts`
-  
 - [ ] **#10** hasA11yProp 修复原型链污染
   - 状态: 待处理
   - 文件: `packages/icons-shared/src/utils/hasA11yProp.ts`
@@ -173,8 +165,14 @@
   - 文件: `packages/icons-astro/src/createYCloudIcon.ts`
   - 修复内容: `$$props` 从 `Record<string, any>` 收窄为 `IconProps`
 
-- [ ] **#30** Angular 依赖注入类型守卫
-  - 状态: 待处理
+- [x] **#30** Angular 依赖注入类型守卫
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-angular/src/types.ts`, `packages/icons-angular/src/ycloud-icons.ts`, `packages/icons-angular/src/ycloud-icons.spec.ts`
+  - 修复内容:
+    - `isYCloudIconComponent` 不再使用运行时不可靠的 `instanceof Type`
+    - `isYCloudIconData` 增加 node tuple、attrs 值类型和 aliases 运行时校验
+    - `provideYCloudIcons` 对非法 provider input 明确抛出错误
+    - 补充 Angular icon data/component type guard 单测
 
 ### 测试提升
 
@@ -216,7 +214,7 @@
 
 ## 🟢 Phase 4: P3 长期改进 (2-3个月)
 
-*待 Phase 1-3 完成后展开*
+_待 Phase 1-3 完成后展开_
 
 ---
 
@@ -242,5 +240,6 @@
   - 修复 asset metadata 单文件校验和原子写入
   - 图标名称/alias 全局唯一性改为阻断错误
   - Astro `createYCloudIcon` props 类型收窄
+  - Angular 图标数据和组件运行时类型守卫加固
   - Svelte `absoluteStrokeWidth` 增加 NaN/Infinity 防护
   - 新增脚本单测覆盖数据完整性关键路径
