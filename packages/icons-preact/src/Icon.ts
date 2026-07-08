@@ -56,8 +56,8 @@ const Icon = ({
       stroke: color ?? contextColor,
       ['stroke-width' as 'strokeWidth']: calculatedStrokeWidth,
       class: mergeClasses('ycloud', contextClass, classes),
-      ...(!children && !hasA11yProp(rest) && { 'aria-hidden': 'true' }),
       ...rest,
+      ...(!children && !hasA11yProp(rest) && { 'aria-hidden': 'true' }),
     },
     [...iconNode.map(([tag, attrs]) => h(tag, attrs)), ...toChildArray(children)],
   );

@@ -71,7 +71,7 @@ const configs = bundles
               }),
           paths,
           format,
-          sourcemap: true,
+          sourcemap: false, // Disable source maps to reduce package size from 66M to ~20M
           preserveModules,
           exports: 'named',
           globals: {},

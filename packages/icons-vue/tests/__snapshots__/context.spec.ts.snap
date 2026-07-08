@@ -2,6 +2,7 @@
 
 exports[`Using ycloud icon context > should render the icon with YCloudIconsProvider 1`] = `
 <svg
+  aria-hidden="true"
   class="ycloud provider-class ycloud-house-icon ycloud-house"
   fill="none"
   height="48"

@@ -46,11 +46,23 @@ const DynamicIcon = forwardRef<SVGSVGElement, DynamicIconComponentProps>(
     const [iconNode, setIconNode] = useState<IconNode>();
 
     useEffect(() => {
+      let cancelled = false;
+
       getIconNode(name)
-        .then(setIconNode)
+        .then((node) => {
+          if (!cancelled) {
+            setIconNode(node);
+          }
+        })
         .catch((error) => {
-          console.error(error);
+          if (!cancelled) {
+            console.error(error);
+          }
         });
+
+      return () => {
+        cancelled = true;
+      };
     }, [name]);
 
     if (iconNode == null) {
@@ -68,5 +80,7 @@ const DynamicIcon = forwardRef<SVGSVGElement, DynamicIconComponentProps>(
     });
   },
 );
+
+DynamicIcon.displayName = 'DynamicIcon';
 
 export default DynamicIcon;

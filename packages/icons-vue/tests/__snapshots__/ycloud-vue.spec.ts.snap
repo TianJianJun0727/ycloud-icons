@@ -3,6 +3,7 @@
 exports[`Using ycloud icon components > should add a class to the element 1`] = `
 <div>
   <svg
+    aria-hidden="true"
     class="ycloud ycloud-smile-icon ycloud-smile my-icon"
     fill="none"
     height="24"
@@ -41,6 +42,7 @@ exports[`Using ycloud icon components > should add a class to the element 1`] = 
 exports[`Using ycloud icon components > should add a style attribute to the element 1`] = `
 <div>
   <svg
+    aria-hidden="true"
     class="ycloud ycloud-smile-icon ycloud-smile"
     fill="none"
     height="24"
@@ -80,6 +82,7 @@ exports[`Using ycloud icon components > should add a style attribute to the elem
 exports[`Using ycloud icon components > should adjust the size, stroke color and stroke width 1`] = `
 <div>
   <svg
+    aria-hidden="true"
     class="ycloud ycloud-smile-icon ycloud-smile"
     fill="none"
     height="48"
@@ -161,6 +164,7 @@ exports[`Using ycloud icon components > should pass children to the icon slot 1`
 exports[`Using ycloud icon components > should render an component 1`] = `
 <div>
   <svg
+    aria-hidden="true"
     class="ycloud ycloud-smile-icon ycloud-smile"
     fill="none"
     height="24"
