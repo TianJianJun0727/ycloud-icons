@@ -25,6 +25,7 @@ concurrency:
 
 jobs:
   lint-code:
+    if: github.repository == 'TianJianJun0727/ycloud-icons'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

@@ -57,13 +57,18 @@ async function pathExists(file: string) {
   }
 }
 
-async function removeOrphanJsonFiles(dir: string, keepFiles: Set<string>) {
+async function removeOrphanJsonFiles(dir: string, keepFiles: Set<string>, depth = 0) {
+  // Prevent infinite recursion
+  if (depth > 100) {
+    throw new Error(`Maximum recursion depth exceeded in ${dir}`);
+  }
+
   const entries = await fs.readdir(dir, { withFileTypes: true });
   await Promise.all(
     entries.map(async (entry) => {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        await removeOrphanJsonFiles(fullPath, keepFiles);
+        await removeOrphanJsonFiles(fullPath, keepFiles, depth + 1);
         return;
       }
       if (
@@ -72,7 +77,14 @@ async function removeOrphanJsonFiles(dir: string, keepFiles: Set<string>) {
         entry.name !== 'index.json' &&
         !keepFiles.has(fullPath)
       ) {
-        await fs.rm(fullPath);
+        try {
+          await fs.rm(fullPath, { force: true });
+        } catch (error) {
+          // Ignore ENOENT errors (file already deleted)
+          if (error && typeof error === 'object' && 'code' in error && error.code !== 'ENOENT') {
+            throw error;
+          }
+        }
       }
     }),
   );

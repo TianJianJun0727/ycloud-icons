@@ -15,6 +15,7 @@ concurrency:
 jobs:
   auto-merge-icon-source:
     name: Auto merge icon source PR
+    timeout-minutes: 15
     if: >-
       github.repository == 'TianJianJun0727/ycloud-icons' &&
       github.event.pull_request.head.repo.full_name == github.repository &&

@@ -89,18 +89,59 @@ export abstract class YCloudIconBase {
         }
         const contentRef = this.contentRef();
         const refChild = contentRef.nativeElement;
+
+        // SVG attribute whitelist to prevent XSS
+        const SAFE_SVG_ATTRS = new Set([
+          'd',
+          'fill',
+          'stroke',
+          'stroke-width',
+          'stroke-linecap',
+          'stroke-linejoin',
+          'stroke-miterlimit',
+          'fill-rule',
+          'clip-rule',
+          'opacity',
+          'fill-opacity',
+          'stroke-opacity',
+          'transform',
+          'cx',
+          'cy',
+          'r',
+          'rx',
+          'ry',
+          'x',
+          'y',
+          'x1',
+          'y1',
+          'x2',
+          'y2',
+          'width',
+          'height',
+          'viewBox',
+          'preserveAspectRatio',
+          'points',
+          'pathLength',
+          'vector-effect',
+          'class',
+          'id',
+        ]);
+
         const elements = node.map(([name, attrs]) => {
           const element = this.renderer.createElement(name, 'http://www.w3.org/2000/svg');
           if (absoluteStrokeWidth) {
             this.renderer.setAttribute(element, 'vector-effect', 'non-scaling-stroke');
           }
-          Object.entries(attrs).forEach(([name, value]) =>
-            this.renderer.setAttribute(
-              element,
-              name,
-              typeof value === 'number' ? value.toString(10) : value,
-            ),
-          );
+          Object.entries(attrs).forEach(([name, value]) => {
+            // Only set whitelisted attributes to prevent XSS
+            if (SAFE_SVG_ATTRS.has(name)) {
+              this.renderer.setAttribute(
+                element,
+                name,
+                typeof value === 'number' ? value.toString(10) : value,
+              );
+            }
+          });
           this.renderer.insertBefore(this.elRef.nativeElement, element, refChild);
           return element;
         });
