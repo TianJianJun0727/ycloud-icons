@@ -4,12 +4,19 @@ import { promises as fs } from 'fs';
 import SVGFixer from 'oslllo-svg-fixer';
 import path from 'path';
 
-vi.mock('fs', () => ({
-  promises: {
+vi.mock('fs', () => {
+  const promises = {
     mkdir: vi.fn(),
     copyFile: vi.fn(),
-  },
-}));
+  };
+
+  return {
+    default: {
+      promises,
+    },
+    promises,
+  };
+});
 
 vi.mock('oslllo-svg-fixer', () => ({
   default: vi.fn(),
