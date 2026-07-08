@@ -103,6 +103,7 @@
     "@ycloud-web/build-icons": "workspace:*",
     "@ycloud-web/rollup-plugins": "workspace:*",
     "@ycloud-web/shared": "workspace:*",
+    "axe-core": "^4.10.2",
     "jest-serializer-html": "^7.1.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
@@ -110,7 +111,9 @@
     "rollup-plugin-dts": "^6.4.1",
     "rollup-plugin-preserve-directives": "^0.4.0",
     "typescript": "7.0.1-rc",
-    "vite": "^8.1.2"
+    "vite": "^8.1.2",
+    "vitest": "4.1.9",
+    "vitest-axe": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0"

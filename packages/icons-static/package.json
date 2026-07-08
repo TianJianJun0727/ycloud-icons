@@ -93,7 +93,9 @@
     "build:manifest": "node ./scripts/writeStaticAssetsManifest.mts && pnpm --dir ../.. exec oxfmt packages/icons-static/assets.json",
     "build:sprite": "node ./scripts/generateSprite.mts",
     "build:bundles": "NODE_OPTIONS='--require=../../scripts/useTypeScript6Register.cjs --experimental-loader=../../scripts/useTypeScript6Loader.mjs --no-warnings' rollup -c rollup.config.mjs",
-    "clean": "rm -rf dist && rm -rf build && rm -rf icons && rm -rf business-icons && rm -rf illustration && rm -rf illustrations && rm -rf illustration-icons && rm -rf ./src/business-icons ./src/illustration-icons && rm -f ./src/business-static.ts ./src/illustration-static.ts ./src/business-icons.ts ./src/illustration-icons.ts sprite.svg assets.json"
+    "clean": "rm -rf dist && rm -rf build && rm -rf icons && rm -rf business-icons && rm -rf illustration && rm -rf illustrations && rm -rf illustration-icons && rm -rf ./src/business-icons ./src/illustration-icons && rm -f ./src/business-static.ts ./src/illustration-static.ts ./src/business-icons.ts ./src/illustration-icons.ts sprite.svg assets.json",
+    "test": "pnpm build:icons && pnpm build:assets && vitest run",
+    "test:watch": "vitest run --watch"
   },
   "devDependencies": {
     "@types/node": "^24.13.2",
@@ -103,6 +105,7 @@
     "prettier": "^3.9.4",
     "rollup": "^4.62.2",
     "rollup-plugin-dts": "^6.4.1",
-    "svgson": "^5.2.1"
+    "svgson": "^5.2.1",
+    "vitest": "4.1.9"
   }
 }
