@@ -1,4 +1,4 @@
-import { createElement, forwardRef, useEffect, useState } from 'react';
+import { createElement, forwardRef, memo, useEffect, useState } from 'react';
 import type { JSX } from 'react';
 import { IconNode, YCloudIcon, YCloudIconsProps } from './types';
 import dynamicIconImports from './dynamicIconImports';
@@ -83,4 +83,6 @@ const DynamicIcon = forwardRef<SVGSVGElement, DynamicIconComponentProps>(
 
 DynamicIcon.displayName = 'DynamicIcon';
 
-export default DynamicIcon;
+// Memoize DynamicIcon to prevent unnecessary re-renders
+// Only re-render when name or other props change
+export default memo(DynamicIcon);

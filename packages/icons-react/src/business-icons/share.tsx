@@ -21,11 +21,7 @@ const Share = forwardRef<SVGSVGElement, BusinessIconImageProps>(
       </g>
       <defs>
         <clipPath>
-          <rect
-            width="20"
-            height="20"
-            transform="translate(0.394531)"
-          />
+          <rect width="20" height="20" transform="translate(0.394531)" />
         </clipPath>
       </defs>
     </svg>
