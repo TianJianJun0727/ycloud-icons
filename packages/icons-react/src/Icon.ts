@@ -1,4 +1,4 @@
-import { createElement, forwardRef } from 'react';
+import { createElement, forwardRef, memo } from 'react';
 import defaultAttributes from './defaultAttributes';
 import { IconNode, YCloudIconsProps } from './types';
 import { mergeClasses, hasA11yProp } from '@ycloud-web/shared';
@@ -62,4 +62,6 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
   },
 );
 
-export default Icon;
+// Memoize Icon component to prevent unnecessary re-renders
+// Icons are typically pure and don't need to re-render unless props change
+export default memo(Icon);
