@@ -1,4 +1,4 @@
-import { createElement, forwardRef, type FunctionComponent } from 'react';
+import { createElement, forwardRef, useMemo, type FunctionComponent } from 'react';
 import * as NativeSvg from 'react-native-svg';
 import { defaultAttributes, childDefaultAttributes } from './defaultAttributes';
 import { IconNode, YCloudIconsProps } from './types';
@@ -52,11 +52,16 @@ const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
         ? (Number(strokeWidth ?? contextStrokeWidth) * 24) / Number(size ?? contextSize)
         : (strokeWidth ?? contextStrokeWidth);
 
-    const customAttrs = {
-      stroke: color ?? contextColor ?? defaultAttributes.stroke,
-      strokeWidth: calculatedStrokeWidth,
-      ...rest,
-    };
+    // Memoize customAttrs to prevent unnecessary re-renders in child elements
+    // This is critical for performance with hundreds of icons on screen
+    const customAttrs = useMemo(
+      () => ({
+        stroke: color ?? contextColor ?? defaultAttributes.stroke,
+        strokeWidth: calculatedStrokeWidth,
+        ...rest,
+      }),
+      [color, contextColor, calculatedStrokeWidth, rest],
+    );
 
     return createElement(
       NativeSvg.Svg as unknown as string,

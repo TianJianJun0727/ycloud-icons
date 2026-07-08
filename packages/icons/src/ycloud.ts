@@ -6,7 +6,7 @@ export interface CreateIconsOptions {
   icons?: Icons;
   nameAttr?: string;
   attrs?: SVGProps;
-  root?: Element | Document | DocumentFragment;
+  root?: Element | Document | DocumentFragment | Element[];
   inTemplates?: boolean;
 }
 
@@ -31,11 +31,15 @@ const createIcons = ({
     throw new Error('`createIcons()` 只能在浏览器环境中使用。');
   }
 
-  const elementsToReplace = Array.from(root.querySelectorAll(`[${nameAttr}]`));
+  // Performance optimization: allow passing element array directly to skip querySelectorAll
+  // Useful for large DOM trees (10,000+ nodes) or when caller already has the target elements
+  const elementsToReplace = Array.isArray(root)
+    ? root
+    : Array.from(root.querySelectorAll(`[${nameAttr}]`));
 
   elementsToReplace.forEach((element) => replaceElement(element, { nameAttr, icons, attrs }));
 
-  if (inTemplates) {
+  if (inTemplates && !Array.isArray(root)) {
     const templates = Array.from(root.querySelectorAll('template'));
 
     templates.forEach((template) =>
@@ -50,7 +54,7 @@ const createIcons = ({
   }
 
   /** @todo: 在 v1.0 中移除该兼容逻辑。 */
-  if (nameAttr === 'data-ycloud') {
+  if (nameAttr === 'data-ycloud' && !Array.isArray(root)) {
     const deprecatedElements = root.querySelectorAll('[icon-name]');
     if (deprecatedElements.length > 0) {
       console.warn(
