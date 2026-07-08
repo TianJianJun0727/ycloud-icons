@@ -10,12 +10,12 @@ import { writeFile } from './writeFile.ts';
  * @param {string} fileName
  * @param {string} outputDirectory
  */
-export const writeFileIfNotExists = (
+export const writeFileIfNotExists = async (
   content: string,
   fileName: string,
   outputDirectory: string,
-): void => {
+): Promise<void> => {
   if (!fs.existsSync(path.join(outputDirectory, fileName))) {
-    writeFile(content, fileName, outputDirectory);
+    await writeFile(content, fileName, outputDirectory);
   }
 };

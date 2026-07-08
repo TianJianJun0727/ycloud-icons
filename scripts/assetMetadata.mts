@@ -298,7 +298,27 @@ export function createAssetMetadata({
 
 export async function readAssetMetadata(file: string): Promise<AssetMetadata | undefined> {
   try {
-    return JSON.parse(await fs.readFile(file, 'utf8')) as AssetMetadata;
+    const content = await fs.readFile(file, 'utf8');
+    const data = JSON.parse(content);
+
+    // Runtime validation
+    if (!data || typeof data !== 'object') {
+      throw new Error(`Invalid metadata in ${file}: not an object`);
+    }
+
+    if (typeof data.metadataVersion !== 'number') {
+      throw new Error(`Invalid metadata in ${file}: missing or invalid metadataVersion`);
+    }
+
+    if (!['icon', 'business-icon', 'illustration'].includes(data.type)) {
+      throw new Error(`Invalid metadata in ${file}: invalid type "${data.type}"`);
+    }
+
+    if (!Array.isArray(data.assets)) {
+      throw new Error(`Invalid metadata in ${file}: assets must be an array`);
+    }
+
+    return data as AssetMetadata;
   } catch (error) {
     if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
       return undefined;
