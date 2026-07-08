@@ -1,5 +1,11 @@
 import { InjectionToken, Provider } from '@angular/core';
-import { isYCloudIconComponent, YCloudIcon, YCloudIconData, YCloudIcons } from './types';
+import {
+  isYCloudIconComponent,
+  isYCloudIconData,
+  YCloudIcon,
+  YCloudIconData,
+  YCloudIcons,
+} from './types';
 
 /**
  * Injection token for providing YCloud icons by name.
@@ -40,6 +46,9 @@ export function provideYCloudIcons(...icons: Array<YCloudIcon | YCloudIconData>)
     provide: YCLOUD_ICONS,
     useValue: icons.reduce((acc, icon) => {
       const iconData = isYCloudIconComponent(icon) ? icon.icon : icon;
+      if (!isYCloudIconData(iconData)) {
+        throw new TypeError('Invalid YCloud icon provider input.');
+      }
       acc[iconData.name] = iconData;
       for (const alias of iconData.aliases ?? []) {
         acc[alias] = iconData;

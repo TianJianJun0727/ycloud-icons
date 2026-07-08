@@ -32,17 +32,41 @@ export interface YCloudIcon extends Type<YCloudIconProps> {
   icon: YCloudIconData;
 }
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+
+function isHtmlAttributeValue(value: unknown): value is string | number {
+  return typeof value === 'string' || typeof value === 'number';
+}
+
+function isHtmlAttributes(value: unknown): value is HtmlAttributes {
+  return isRecord(value) && Object.values(value).every(isHtmlAttributeValue);
+}
+
+function isYCloudIconNode(value: unknown): value is YCloudIconNode {
+  return (
+    Array.isArray(value) &&
+    value.length === 2 &&
+    typeof value[0] === 'string' &&
+    isHtmlAttributes(value[1])
+  );
+}
+
 /**
  * Type guard for {@link YCloudIconData}
  */
 export function isYCloudIconData(icon: unknown): icon is YCloudIconData {
   return (
-    !!icon &&
-    typeof icon === 'object' &&
+    isRecord(icon) &&
     'name' in icon &&
-    typeof icon.name === 'string' &&
+    typeof icon['name'] === 'string' &&
     'node' in icon &&
-    Array.isArray(icon.node)
+    Array.isArray(icon['node']) &&
+    icon['node'].every(isYCloudIconNode) &&
+    (icon['aliases'] === undefined ||
+      (Array.isArray(icon['aliases']) &&
+        icon['aliases'].every((alias) => typeof alias === 'string')))
   );
 }
 
@@ -50,7 +74,7 @@ export function isYCloudIconData(icon: unknown): icon is YCloudIconData {
  * Type guard for {@link YCloudIcon}
  */
 export function isYCloudIconComponent(icon: unknown): icon is YCloudIcon {
-  return icon instanceof Type && 'icon' in icon && isYCloudIconData(icon.icon);
+  return typeof icon === 'function' && 'icon' in icon && isYCloudIconData(icon.icon);
 }
 
 export type YCloudIconInput = YCloudIcon | YCloudIconData | string;

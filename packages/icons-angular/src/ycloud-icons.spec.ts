@@ -5,7 +5,7 @@ import {
   ycloudLegacyIconMap,
   provideYCloudIcons,
 } from './ycloud-icons';
-import { YCloudIconData } from './types';
+import { isYCloudIconComponent, isYCloudIconData, YCloudIconData } from './types';
 import { YCloudCircle } from './icons/circle';
 
 describe('YCloud icons', () => {
@@ -59,6 +59,44 @@ describe('YCloud icons', () => {
         OtherLegacyIcon: otherLegacyIconData,
         ['circle']: YCloudCircle.icon,
       });
+    });
+    it('should reject invalid icon data at provider creation time', () => {
+      expect(() =>
+        provideYCloudIcons({
+          name: 'invalid',
+          node: [['path', { d: undefined }]],
+        } as unknown as YCloudIconData),
+      ).toThrowError('Invalid YCloud icon provider input.');
+    });
+  });
+  describe('type guards', () => {
+    it('should identify icon data with valid nodes and aliases', () => {
+      expect(
+        isYCloudIconData({
+          name: 'mock-icon',
+          node: [['path', { d: 'M0 0h1v1z', opacity: 0.5 }]],
+          aliases: ['mock-alias'],
+        }),
+      ).toBe(true);
+    });
+    it('should reject malformed icon nodes and aliases', () => {
+      expect(
+        isYCloudIconData({
+          name: 'mock-icon',
+          node: [['path', { d: undefined }]],
+        }),
+      ).toBe(false);
+      expect(
+        isYCloudIconData({
+          name: 'mock-icon',
+          node: [['path', { d: 'M0 0h1v1z' }]],
+          aliases: [123],
+        }),
+      ).toBe(false);
+    });
+    it('should only identify Angular component classes as icon components', () => {
+      expect(isYCloudIconComponent(YCloudCircle)).toBe(true);
+      expect(isYCloudIconComponent({ icon: YCloudCircle.icon })).toBe(false);
     });
   });
 });
