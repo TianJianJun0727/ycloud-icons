@@ -69,6 +69,7 @@ const Icon: FunctionalComponent<YCloudIconsProps & IconProps> = (
       height: size ?? contextSize ?? defaultAttributes.height,
       stroke: color ?? contextColor ?? defaultAttributes.stroke,
       'stroke-width': calculatedStrokeWidth.value,
+      ...(!slots.default && !hasA11yProp(props) && { 'aria-hidden': 'true' }),
       class: mergeClasses(
         'ycloud',
         contextClass,
@@ -76,8 +77,6 @@ const Icon: FunctionalComponent<YCloudIconsProps & IconProps> = (
           ? [`ycloud-${toKebabCase(toPascalCase(name))}-icon`, `ycloud-${toKebabCase(name)}`]
           : ['ycloud-icon']),
       ),
-      // Add aria-hidden if no accessibility props are provided
-      ...(!slots.default && !hasA11yProp(props) && { 'aria-hidden': 'true' }),
     },
     [...iconNode.map((child) => h(...child)), ...(slots.default ? [slots.default()] : [])],
   );
