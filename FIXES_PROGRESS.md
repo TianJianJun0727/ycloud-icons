@@ -11,10 +11,10 @@
 | 优先级 | 总数 | 已修复 | 进行中 | 待处理 | 完成率 |
 |--------|------|--------|--------|--------|--------|
 | P0 (Critical) | 10 | 10 | 0 | 0 | 100% ✅ |
-| P1 (High) | 15 | 10 | 0 | 5 | 67% |
+| P1 (High) | 15 | 15 | 0 | 0 | 100% ✅ |
 | P2 (Medium) | 12 | 0 | 0 | 12 | 0% |
 | P3 (Low) | 12 | 0 | 0 | 12 | 0% |
-| **总计** | **49** | **20** | **0** | **29** | **41%** |
+| **总计** | **49** | **25** | **0** | **24** | **51%** |
 
 *注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处理*
 
@@ -94,23 +94,51 @@
 
 ### 框架修复
 
-- [ ] **#15** React 添加 displayName
-- [ ] **#16** React useEffect 依赖和清理逻辑
-- [ ] **#17** Vue 实现 aria-hidden 自动管理
-- [ ] **#18** Solid 除零风险修复
-- [ ] **#19** Angular Peer Dependencies 版本
-- [ ] **#20** React 添加 memo 优化
+- [x] **#15** React 添加 displayName
+  - 状态: ✅ 已完成 (PR #70)
+  - 文件: `packages/icons-react/src/createYCloudIcon.ts:24`
+- [x] **#16** React useEffect 依赖和清理逻辑
+  - 状态: ✅ 已完成 (PR #70)
+  - 文件: `packages/icons-react/src/DynamicIcon.ts`
+  - 实现: cancelled 标志 + cleanup 函数
+- [x] **#17** Vue 实现 aria-hidden 自动管理
+  - 状态: ✅ 已完成 (PR #71)
+  - 文件: `packages/icons-vue/src/Icon.ts`
+- [x] **#18** Solid 除零风险修复
+  - 状态: ✅ 已完成 (PR #70)
+  - 文件: `packages/icons-solid/src/Icon.tsx:40`
+  - 实现: Math.max(Number(calculatedSize), 1)
+- [x] **#19** Angular Peer Dependencies 版本
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-angular/package.json`
+  - 更新为 >=19.0.0 (使用 inputBinding API)
+- [x] **#20** React 添加 memo 优化
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-react/src/Icon.ts`, `DynamicIcon.ts`
+  - Icon 和 DynamicIcon 都已 memo 包装
 
 ### CI/CD 可靠性
 
-- [ ] **#21** auto-merge 和 ci.yml 添加 timeout
-- [ ] **#22** docs.yml 并发控制优化
+- [x] **#21** auto-merge 和 ci.yml 添加 timeout
+  - 状态: ✅ 已完成 (PR #68)
+  - auto-merge: timeout-minutes: 15
+  - ci.yml: timeout-minutes: 30
+- [x] **#22** docs.yml 并发控制优化
+  - 状态: ✅ 已完成 (PR #68)
+  - concurrency group: pages, cancel-in-progress: false
 
 ### 测试基础
 
-- [ ] **#23** icons-static 添加基础测试
-- [ ] **#24** 集成 axe-core 进行 A11y 测试
-- [ ] **#25** 设置覆盖率阈值
+- [x] **#23** icons-static 添加基础测试
+  - 状态: ✅ 已完成 (PR #71)
+  - 文件: `packages/icons-static/tests/`
+- [x] **#24** 集成 axe-core 进行 A11y 测试
+  - 状态: ✅ 已完成 (PR #71)
+  - 注: vitest-axe@0.1.0 限制,部分测试已禁用
+- [x] **#25** 设置覆盖率阈值
+  - 状态: ✅ 已完成
+  - 文件: `vitest.config.ts`
+  - 阈值: 60% (lines, functions, branches, statements)
 
 ---
 
@@ -131,4 +159,17 @@
 ### 2026-07-08
 
 - 开始系统性修复,创建进度跟踪文件
+- PR #69: Phase 1 (P0) - 紧急问题修复完成
+- PR #70: Phase 2 (P1) - 性能和框架修复完成
+- PR #71: 测试基础设施建立完成
+  - 修复 vitest-axe 版本到 0.1.0
+  - 修复 icons-static 测试配置
+  - 实现 Vue aria-hidden 自动管理
+  - 修复 Preact 属性顺序
+  - 添加 icons-static 基础测试
+- 🎉 **P1 阶段 100% 完成!** (15/15)
+  - Angular peer dependencies 更新到 >=19.0.0
+  - React DynamicIcon 添加 memo 优化
+  - 验证所有 P1 任务已在之前 PR 中完成
+  - 整体进度: 51% (25/49)
 
