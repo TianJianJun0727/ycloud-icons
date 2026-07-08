@@ -15,7 +15,7 @@ const createSVGElement = ([tag, attrs, children]: CreateSVGElementParams) => {
   if (typeof document === 'undefined') {
     throw new Error(
       'createElement can only be used in browser environment. ' +
-      'For SSR, use framework-specific packages (@ycloud-web/icons-react, @ycloud-web/icons-vue, etc.)',
+        'For SSR, use framework-specific packages (@ycloud-web/icons-react, @ycloud-web/icons-vue, etc.)',
     );
   }
 

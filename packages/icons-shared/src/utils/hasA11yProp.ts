@@ -10,8 +10,12 @@ export const hasA11yProp = (props: Record<string, any>) => {
     if (Object.prototype.hasOwnProperty.call(props, prop)) {
       const value = props[prop];
       // Check if it's an a11y prop with a non-empty value
-      if ((prop.startsWith('aria-') || prop === 'role' || prop === 'title') &&
-          value !== '' && value !== null && value !== undefined) {
+      if (
+        (prop.startsWith('aria-') || prop === 'role' || prop === 'title') &&
+        value !== '' &&
+        value !== null &&
+        value !== undefined
+      ) {
         return true;
       }
     }
