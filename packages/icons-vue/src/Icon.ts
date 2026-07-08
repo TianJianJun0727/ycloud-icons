@@ -1,5 +1,11 @@
 import { computed, type FunctionalComponent, h } from 'vue';
-import { isEmptyString, mergeClasses, toKebabCase, toPascalCase } from '@ycloud-web/shared';
+import {
+  isEmptyString,
+  mergeClasses,
+  toKebabCase,
+  toPascalCase,
+  hasA11yProp,
+} from '@ycloud-web/shared';
 import defaultAttributes from './defaultAttributes';
 import { IconNode, YCloudIconsProps } from './types';
 import { useYCloudIconsProps } from './context';
@@ -70,6 +76,8 @@ const Icon: FunctionalComponent<YCloudIconsProps & IconProps> = (
           ? [`ycloud-${toKebabCase(toPascalCase(name))}-icon`, `ycloud-${toKebabCase(name)}`]
           : ['ycloud-icon']),
       ),
+      // Add aria-hidden if no accessibility props are provided
+      ...(!slots.default && !hasA11yProp(props) && { 'aria-hidden': 'true' }),
     },
     [...iconNode.map((child) => h(...child)), ...(slots.default ? [slots.default()] : [])],
   );

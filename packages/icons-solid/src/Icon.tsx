@@ -24,26 +24,21 @@ const Icon = (props: YCloudIconsProps & IconProps) => {
 
   const globalProps = useContext(YCloudContext);
 
+  const calculatedSize = localProps.size ?? globalProps.size ?? defaultAttributes.width;
+  const calculatedStrokeWidth =
+    localProps.strokeWidth ?? globalProps.strokeWidth ?? defaultAttributes['stroke-width'];
+
   return (
     <svg
       {...defaultAttributes}
-      width={localProps.size ?? globalProps.size ?? defaultAttributes.width}
-      height={localProps.size ?? globalProps.size ?? defaultAttributes.height}
+      width={calculatedSize}
+      height={calculatedSize}
       stroke={localProps.color ?? globalProps.color ?? defaultAttributes.stroke}
       stroke-width={
         (localProps.absoluteStrokeWidth ?? globalProps.absoluteStrokeWidth) === true
-          ? (Number(
-              localProps.strokeWidth ??
-                globalProps.strokeWidth ??
-                defaultAttributes['stroke-width'],
-            ) *
-              24) /
-            Number(localProps.size ?? globalProps.size)
-          : Number(
-              localProps.strokeWidth ??
-                globalProps.strokeWidth ??
-                defaultAttributes['stroke-width'],
-            )
+          ? // Prevent division by zero by ensuring size is at least 1
+            (Number(calculatedStrokeWidth) * 24) / Math.max(Number(calculatedSize), 1)
+          : Number(calculatedStrokeWidth)
       }
       class={mergeClasses(
         'ycloud',
