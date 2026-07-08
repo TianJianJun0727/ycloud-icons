@@ -12,9 +12,9 @@
 | ------------- | ------ | ------ | ------ | ------ | ------- |
 | P0 (Critical) | 10     | 10     | 0      | 0      | 100% ✅ |
 | P1 (High)     | 15     | 15     | 0      | 0      | 100% ✅ |
-| P2 (Medium)   | 12     | 4      | 1      | 7      | 33%     |
+| P2 (Medium)   | 12     | 6      | 1      | 5      | 50%     |
 | P3 (Low)      | 12     | 0      | 0      | 12     | 0%      |
-| **总计**      | **49** | **26** | **1**  | **22** | **53%** |
+| **总计**      | **49** | **28** | **1**  | **20** | **57%** |
 
 _注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处理_
 
@@ -159,6 +159,7 @@ _注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处�
 
 - [ ] **#28** 深度导入添加类型定义 (F16)
   - 状态: 待处理
+  - 当前判断: 多数包已有单图标 JS 深度导入, 但没有对应单图标 `.d.ts` 产物; 不能只在 `package.json` exports 添加不存在的 `types` 路径, 需要后续配套生成链路一起处理
 
 - [x] **#29** Astro createYCloudIcon 类型约束
   - 状态: ✅ 已完成
@@ -194,11 +195,21 @@ _注: 仅统计路线图中的 Top 49 问题,其余问题将在后续阶段处�
 
 ### 框架改进
 
-- [ ] **#35** Svelte 修复 `$props()` 解构响应性
-  - 状态: 待处理
+- [x] **#35** Svelte 修复 `$props()` 解构响应性
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-svelte/src/Icon.svelte`, `packages/icons-svelte/tests/ycloud-svelte.spec.ts`
+  - 修复内容:
+    - `Icon.svelte` 改用响应式 props 解构
+    - 显式 props 优先于 context, 未传值时使用响应式 fallback
+    - 补充 rerender 后 size/color 更新测试
 
-- [ ] **#36** Svelte 实现响应式 Context
-  - 状态: 待处理
+- [x] **#36** Svelte 实现响应式 Context
+  - 状态: ✅ 已完成
+  - 文件: `packages/icons-svelte/src/context.ts`, `packages/icons-svelte/src/Icon.svelte`, `packages/icons-svelte/tests/ReactiveContextWrapper.svelte`, `packages/icons-svelte/tests/ycloud-svelte.spec.ts`
+  - 修复内容:
+    - `setYCloudIconsProps` 改为写入 Svelte writable store 并返回 store
+    - `Icon.svelte` 订阅 context store, context 更新后自动刷新 size/color/class 等默认属性
+    - 补充 context rerender 更新测试
 
 - [ ] **#37** icons 同步 DOM 操作异步分片
   - 状态: 待处理
@@ -241,5 +252,6 @@ _待 Phase 1-3 完成后展开_
   - 图标名称/alias 全局唯一性改为阻断错误
   - Astro `createYCloudIcon` props 类型收窄
   - Angular 图标数据和组件运行时类型守卫加固
+  - Svelte `$props()` 解构和全局 context 响应性修复
   - Svelte `absoluteStrokeWidth` 增加 NaN/Infinity 防护
   - 新增脚本单测覆盖数据完整性关键路径
