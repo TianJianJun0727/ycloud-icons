@@ -3,6 +3,7 @@ import { render, cleanup } from '@testing-library/svelte';
 import { Smile, Pen, Edit2 } from '../src/icons.js';
 import TestSlots from './TestSlots.svelte';
 import ContextWrapper from './ContextWrapper.svelte';
+import ReactiveContextWrapper from './ReactiveContextWrapper.svelte';
 
 describe('Using ycloud icon components', () => {
   afterEach(() => cleanup());
@@ -104,6 +105,51 @@ describe('Using ycloud icon components', () => {
     expect(IconComponent).toHaveAttribute('height', '32');
     expect(IconComponent).toHaveAttribute('stroke', 'red');
     expect(IconComponent).toHaveAttribute('stroke-width', '1');
+  });
+
+  it('should react to prop updates after destructuring $props', async () => {
+    const { container, rerender } = render(Smile, {
+      size: 32,
+      color: 'red',
+    });
+
+    const IconComponent = container.firstElementChild;
+
+    expect(IconComponent).toHaveAttribute('width', '32');
+    expect(IconComponent).toHaveAttribute('height', '32');
+    expect(IconComponent).toHaveAttribute('stroke', 'red');
+
+    await rerender({
+      size: 40,
+      color: 'blue',
+    });
+
+    expect(IconComponent).toHaveAttribute('width', '40');
+    expect(IconComponent).toHaveAttribute('height', '40');
+    expect(IconComponent).toHaveAttribute('stroke', 'blue');
+  });
+
+  it('should react to context updates from the global set properties', async () => {
+    const { container, rerender } = render(ReactiveContextWrapper, {
+      size: 32,
+      color: 'red',
+    });
+
+    const IconComponent = container.firstElementChild;
+
+    expect(IconComponent).toHaveAttribute('width', '32');
+    expect(IconComponent).toHaveAttribute('height', '32');
+    expect(IconComponent).toHaveAttribute('stroke', 'red');
+    expect(IconComponent).toHaveClass('provider-class');
+
+    await rerender({
+      size: 40,
+      color: 'blue',
+    });
+
+    expect(IconComponent).toHaveAttribute('width', '40');
+    expect(IconComponent).toHaveAttribute('height', '40');
+    expect(IconComponent).toHaveAttribute('stroke', 'blue');
   });
 });
 

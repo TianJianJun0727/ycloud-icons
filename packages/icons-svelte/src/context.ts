@@ -1,4 +1,5 @@
 import { getContext, setContext } from 'svelte';
+import { writable, type Writable } from 'svelte/store';
 
 const YCloudContext = Symbol('ycloud-context');
 
@@ -10,7 +11,12 @@ export interface YCloudGlobalContext {
   class?: string;
 }
 
-export const setYCloudIconsProps = (globalProps: YCloudGlobalContext) =>
-  setContext(YCloudContext, globalProps);
+export type YCloudGlobalContextStore = Writable<YCloudGlobalContext>;
 
-export const getYCloudContext = () => getContext<YCloudGlobalContext>(YCloudContext);
+export const setYCloudIconsProps = (globalProps: YCloudGlobalContext) => {
+  const globalPropsStore = writable(globalProps);
+  setContext(YCloudContext, globalPropsStore);
+  return globalPropsStore;
+};
+
+export const getYCloudContext = () => getContext<YCloudGlobalContextStore>(YCloudContext);
