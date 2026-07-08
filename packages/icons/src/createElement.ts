@@ -11,10 +11,22 @@ type CreateSVGElementParams = [tag: string, attrs: SVGProps, children?: IconNode
  * @returns {SVGElement}
  */
 const createSVGElement = ([tag, attrs, children]: CreateSVGElementParams) => {
+  // Check if document is available (browser environment)
+  if (typeof document === 'undefined') {
+    throw new Error(
+      'createElement can only be used in browser environment. ' +
+      'For SSR, use framework-specific packages (@ycloud-web/icons-react, @ycloud-web/icons-vue, etc.)',
+    );
+  }
+
   const element = document.createElementNS('http://www.w3.org/2000/svg', tag);
 
   Object.keys(attrs).forEach((name) => {
-    element.setAttribute(name, String(attrs[name]));
+    const value = attrs[name];
+    // Skip undefined and null values to avoid "undefined" strings
+    if (value !== undefined && value !== null) {
+      element.setAttribute(name, String(value));
+    }
   });
 
   if (children && children.length) {
