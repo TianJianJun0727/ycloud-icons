@@ -12,6 +12,7 @@ const Shopify = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }: ShopifyProps) =>
@@ -27,6 +28,7 @@ const Shopify = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

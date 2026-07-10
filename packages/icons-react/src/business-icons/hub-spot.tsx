@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type HubSpotProps = Omit<BusinessIconImageProps, 'color'>;
+type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const HubSpot = forwardRef<SVGSVGElement, HubSpotProps>(
   ({ size = 24, width, height, alt = '', style, ...props }, ref) => (

@@ -11,6 +11,7 @@ const Shopify = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }: ShopifyProps) => (
@@ -18,6 +19,7 @@ const Shopify = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 21 21"
     fill={color}
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}

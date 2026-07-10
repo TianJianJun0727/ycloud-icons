@@ -7,6 +7,7 @@ const Segment: FunctionalComponent<BusinessIconImageProps> = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }) =>
@@ -22,6 +23,7 @@ const Segment: FunctionalComponent<BusinessIconImageProps> = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

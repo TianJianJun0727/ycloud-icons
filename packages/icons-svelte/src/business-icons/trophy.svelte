@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
+  type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: TrophyProps = $props();
 </script>

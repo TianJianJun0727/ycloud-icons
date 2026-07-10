@@ -5,6 +5,7 @@ export interface BusinessIconImageProps {
   alt?: string;
   color?: string;
   secondaryColor?: string;
+  strokeWidth?: number | string;
   style?: unknown;
   [key: string]: unknown;
 }

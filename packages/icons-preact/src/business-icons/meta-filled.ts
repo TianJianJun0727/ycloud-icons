@@ -12,6 +12,7 @@ const MetaFilled = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }: MetaFilledProps) =>
@@ -27,6 +28,7 @@ const MetaFilled = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

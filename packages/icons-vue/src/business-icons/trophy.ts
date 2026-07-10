@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
+type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
 
 const Trophy: FunctionalComponent<TrophyProps> = ({
   size = 24,

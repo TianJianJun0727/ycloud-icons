@@ -1,12 +1,13 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  const { size = 24, width, height, alt = '', color = 'currentColor', style, ...props }: BusinessIconImageProps = $props();
+  const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BusinessIconImageProps = $props();
 </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 48 49"
   fill="currentColor"
+  stroke-width={strokeWidth}
   width={width ?? size}
   height={height ?? size}
   role={alt ? 'img' : undefined}

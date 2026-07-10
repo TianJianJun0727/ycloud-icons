@@ -1,12 +1,13 @@
 ---
 import type { BusinessIconImageProps } from '../businessTypes';
-const { size = 24, width, height, alt = '', color = 'currentColor', style, ...props }: BusinessIconImageProps = Astro.props;
+const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BusinessIconImageProps = Astro.props;
 ---
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 28 29"
   fill="currentColor"
+  stroke-width={strokeWidth}
   width={width ?? size}
   height={height ?? size}
   role={alt ? 'img' : undefined}

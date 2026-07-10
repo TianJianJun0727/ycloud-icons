@@ -4,13 +4,14 @@
     secondaryColor?: string;
   };
 
-  const { size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', style, ...props }: BotfilledProps = $props();
+  const { size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }: BotfilledProps = $props();
 </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="-0.7 0 19 19"
   fill={color}
+  stroke-width={strokeWidth}
   width={width ?? size}
   height={height ?? size}
   role={alt ? 'img' : undefined}

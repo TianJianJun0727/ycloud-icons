@@ -134,12 +134,13 @@ export function ChannelIcon() {
     <Billing
       size={24}
       color="#111827"
+      strokeWidth={1.5}
     />
   );
 }
 ```
 
-React 业务图标组件底层渲染为内联 `<svg>`。`mono` 和 `duotone` 支持 `size`、`color`；`duotone` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color`，仅支持调整尺寸。
+React 业务图标组件底层渲染为内联 `<svg>`。`mono` 和 `duotone` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`duotone` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
 
 ```tsx
 import { Shopify } from '@ycloud-web/icons-react/business';
@@ -150,12 +151,13 @@ export function DuotoneIcon() {
       size={24}
       color="#111827"
       secondaryColor="#fff"
+      strokeWidth={1.5}
     />
   );
 }
 ```
 
-其他框架包同样使用现有包的 `business` 子入口：
+其他内联 SVG 组件包同样支持 `size`、`color` 和 `strokeWidth` 规则，并使用现有包的 `business` 子入口。React Native 业务图标基于图片资源渲染，不支持动态 `strokeWidth`：
 
 ```ts
 import { Billing } from '@ycloud-web/icons-preact/business';

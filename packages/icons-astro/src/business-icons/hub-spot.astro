@@ -1,6 +1,6 @@
 ---
 import type { BusinessIconImageProps } from '../businessTypes';
-type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
+type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
 
 const { size = 24, width, height, alt = '', style, ...props }: HubSpotProps = Astro.props;
 ---

@@ -147,7 +147,19 @@ function toReactAttributeName(name: string) {
   return name.replace(/-([a-z])/g, (_, letter: string) => letter.toUpperCase());
 }
 
-function buildReactAttribute(name: string, value: string) {
+function supportsBusinessStrokeWidth(colorMode: BusinessIconColorMode) {
+  return colorMode !== 'multicolor';
+}
+
+function buildStrokeWidthExpression(value: string) {
+  return `strokeWidth ?? ${JSON.stringify(value)}`;
+}
+
+function buildReactAttribute(
+  name: string,
+  value: string,
+  colorMode: BusinessIconColorMode = 'mono',
+) {
   const reactName = toReactAttributeName(name);
   if (value === primaryColorToken) {
     return `${reactName}={color}`;
@@ -155,13 +167,20 @@ function buildReactAttribute(name: string, value: string) {
   if (value === secondaryColorToken) {
     return `${reactName}={secondaryColor}`;
   }
+  if (name === 'stroke-width' && supportsBusinessStrokeWidth(colorMode)) {
+    return `${reactName}={${buildStrokeWidthExpression(value)}}`;
+  }
   return `${reactName}=${JSON.stringify(value)}`;
 }
 
-function buildReactSvgNode(node: INode, indent = 6): string[] {
+function buildReactSvgNode(
+  node: INode,
+  indent = 6,
+  colorMode: BusinessIconColorMode = 'mono',
+): string[] {
   const spacing = ' '.repeat(indent);
   const attributes = Object.entries(node.attributes ?? {})
-    .map(([name, value]) => buildReactAttribute(name, String(value)))
+    .map(([name, value]) => buildReactAttribute(name, String(value), colorMode))
     .join(' ');
   const openTag = attributes ? `<${node.name} ${attributes}` : `<${node.name}`;
   const children = (node.children ?? []).filter((child) => typeof child !== 'string') as INode[];
@@ -172,7 +191,7 @@ function buildReactSvgNode(node: INode, indent = 6): string[] {
 
   return [
     `${spacing}${openTag}>`,
-    ...children.flatMap((child) => buildReactSvgNode(child, indent + 2)),
+    ...children.flatMap((child) => buildReactSvgNode(child, indent + 2, colorMode)),
     `${spacing}</${node.name}>`,
   ];
 }
@@ -182,13 +201,13 @@ function getBusinessSvgPropsPattern(
   includeSecondaryColor = colorMode === 'duotone',
 ) {
   if (colorMode === 'duotone' && includeSecondaryColor) {
-    return "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', style, ...props }";
+    return "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }";
   }
   if (colorMode === 'duotone') {
-    return "{ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }";
+    return "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }";
   }
   if (colorMode === 'mono') {
-    return "{ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }";
+    return "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }";
   }
   return "{ size = 24, width, height, alt = '', style, ...props }";
 }
@@ -217,7 +236,7 @@ function buildBusinessIconExtraProps(
   }
   if (colorMode === 'multicolor') {
     return [
-      `type ${componentName}Props = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;`,
+      `type ${componentName}Props = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;`,
       '',
     ];
   }
@@ -232,24 +251,38 @@ function toObjectPropertyName(name: string) {
   return /^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(name) ? name : JSON.stringify(name);
 }
 
-function buildObjectAttributeValue(value: string) {
+function buildObjectAttributeValue(
+  value: string,
+  options: { isStrokeWidth?: boolean; colorMode?: BusinessIconColorMode } = {},
+) {
   if (value === primaryColorToken) {
     return 'color';
   }
   if (value === secondaryColorToken) {
     return 'secondaryColor';
   }
+  if (options.isStrokeWidth && supportsBusinessStrokeWidth(options.colorMode ?? 'mono')) {
+    return buildStrokeWidthExpression(value);
+  }
   return toStringLiteral(value);
 }
 
-function buildObjectProperty(name: string, value: string, indent = 8) {
-  return `${' '.repeat(indent)}${toObjectPropertyName(name)}: ${buildObjectAttributeValue(value)},`;
+function buildObjectProperty(
+  name: string,
+  value: string,
+  indent = 8,
+  colorMode: BusinessIconColorMode = 'mono',
+) {
+  return `${' '.repeat(indent)}${toObjectPropertyName(name)}: ${buildObjectAttributeValue(value, {
+    isStrokeWidth: name === 'stroke-width',
+    colorMode,
+  })},`;
 }
 
-function buildHNode(node: INode, indent = 6): string[] {
+function buildHNode(node: INode, indent = 6, colorMode: BusinessIconColorMode = 'mono'): string[] {
   const spacing = ' '.repeat(indent);
   const properties = Object.entries(node.attributes ?? {}).map(([name, value]) =>
-    buildObjectProperty(name, String(value), indent + 4),
+    buildObjectProperty(name, String(value), indent + 4, colorMode),
   );
   const children = (node.children ?? []).filter((child) => typeof child !== 'string') as INode[];
 
@@ -271,7 +304,7 @@ function buildHNode(node: INode, indent = 6): string[] {
     ...properties,
     `${spacing}  },`,
     `${spacing}  [`,
-    ...children.flatMap((child) => buildHNode(child, indent + 4)),
+    ...children.flatMap((child) => buildHNode(child, indent + 4, colorMode)),
     `${spacing}  ],`,
     `${spacing}),`,
   ];
@@ -279,39 +312,52 @@ function buildHNode(node: INode, indent = 6): string[] {
 
 function buildHSvgElement(svg: string, colorMode: BusinessIconColorMode) {
   const root = parseSync(svg);
+  const rootHasStrokeWidth = 'stroke-width' in (root.attributes ?? {});
   const rootProperties = Object.entries(root.attributes ?? {})
     .filter(([name]) => name !== 'width' && name !== 'height')
-    .map(([name, value]) => buildObjectProperty(name, String(value), 4));
+    .map(([name, value]) => buildObjectProperty(name, String(value), 6, colorMode));
   const children = (root.children ?? []).filter((child) => typeof child !== 'string') as INode[];
-  const colorProperties = colorMode === 'multicolor' ? [] : ['    color,'];
+  const colorProperties = colorMode === 'multicolor' ? [] : ['      color,'];
+  const strokeWidthProperties =
+    supportsBusinessStrokeWidth(colorMode) && !rootHasStrokeWidth
+      ? ['      "stroke-width": strokeWidth,']
+      : [];
 
   return [
     '  h(',
     `    ${toStringLiteral(root.name)},`,
     '    {',
     ...rootProperties,
-    '    width: width ?? size,',
-    '    height: height ?? size,',
-    "    role: alt ? 'img' : undefined,",
-    "    'aria-label': alt || undefined,",
-    "    'aria-hidden': alt ? undefined : true,",
+    '      width: width ?? size,',
+    '      height: height ?? size,',
+    "      role: alt ? 'img' : undefined,",
+    "      'aria-label': alt || undefined,",
+    "      'aria-hidden': alt ? undefined : true,",
     ...colorProperties,
-    '    style,',
-    '    ...props,',
+    ...strokeWidthProperties,
+    '      style,',
+    '      ...props,',
     '    },',
     '    [',
-    ...children.flatMap((child) => buildHNode(child, 6)),
+    ...children.flatMap((child) => buildHNode(child, 6, colorMode)),
     '    ],',
     '  );',
   ];
 }
 
-function buildMarkupAttribute(name: string, value: string) {
+function buildMarkupAttribute(
+  name: string,
+  value: string,
+  colorMode: BusinessIconColorMode = 'mono',
+) {
   if (value === primaryColorToken) {
     return `${name}={color}`;
   }
   if (value === secondaryColorToken) {
     return `${name}={secondaryColor}`;
+  }
+  if (name === 'stroke-width' && supportsBusinessStrokeWidth(colorMode)) {
+    return `${name}={${buildStrokeWidthExpression(value)}}`;
   }
   return `${name}=${JSON.stringify(value)}`;
 }
@@ -320,10 +366,13 @@ function buildMarkupSvgNode(
   node: INode,
   indent = 6,
   attributeNameFormatter: (name: string) => string = (name) => name,
+  colorMode: BusinessIconColorMode = 'mono',
 ): string[] {
   const spacing = ' '.repeat(indent);
   const attributes = Object.entries(node.attributes ?? {})
-    .map(([name, value]) => buildMarkupAttribute(attributeNameFormatter(name), String(value)))
+    .map(([name, value]) =>
+      buildMarkupAttribute(attributeNameFormatter(name), String(value), colorMode),
+    )
     .join(' ');
   const openTag = attributes ? `<${node.name} ${attributes}` : `<${node.name}`;
   const children = (node.children ?? []).filter((child) => typeof child !== 'string') as INode[];
@@ -334,7 +383,9 @@ function buildMarkupSvgNode(
 
   return [
     `${spacing}${openTag}>`,
-    ...children.flatMap((child) => buildMarkupSvgNode(child, indent + 2, attributeNameFormatter)),
+    ...children.flatMap((child) =>
+      buildMarkupSvgNode(child, indent + 2, attributeNameFormatter, colorMode),
+    ),
     `${spacing}</${node.name}>`,
   ];
 }
@@ -345,16 +396,23 @@ function buildMarkupSvgElement(
   attributeNameFormatter: (name: string) => string = (name) => name,
 ) {
   const root = parseSync(svg);
+  const rootHasStrokeWidth = 'stroke-width' in (root.attributes ?? {});
   const rootAttributes = Object.entries(root.attributes ?? {})
     .filter(([name]) => name !== 'width' && name !== 'height')
     .map(
-      ([name, value]) => `  ${buildMarkupAttribute(attributeNameFormatter(name), String(value))}`,
+      ([name, value]) =>
+        `  ${buildMarkupAttribute(attributeNameFormatter(name), String(value), colorMode)}`,
     );
+  const strokeWidthAttributes =
+    supportsBusinessStrokeWidth(colorMode) && !rootHasStrokeWidth
+      ? [`  ${attributeNameFormatter('stroke-width')}={strokeWidth}`]
+      : [];
   const children = (root.children ?? []).filter((child) => typeof child !== 'string') as INode[];
 
   return [
     '<svg',
     ...rootAttributes,
+    ...strokeWidthAttributes,
     '  width={width ?? size}',
     '  height={height ?? size}',
     "  role={alt ? 'img' : undefined}",
@@ -364,7 +422,7 @@ function buildMarkupSvgElement(
     '  style={style}',
     '  {...props}',
     '>',
-    ...children.flatMap((child) => buildMarkupSvgNode(child, 2, attributeNameFormatter)),
+    ...children.flatMap((child) => buildMarkupSvgNode(child, 2, attributeNameFormatter, colorMode)),
     '</svg>',
   ];
 }
@@ -375,16 +433,21 @@ function buildReactSvgElement(
   colorMode: BusinessIconColorMode,
 ) {
   const root = parseSync(svg);
+  const rootHasStrokeWidth = 'stroke-width' in (root.attributes ?? {});
   const rootAttributes = Object.entries(root.attributes ?? {})
     .filter(([name]) => name !== 'width' && name !== 'height')
-    .map(([name, value]) => buildReactAttribute(name, String(value)));
+    .map(([name, value]) => buildReactAttribute(name, String(value), colorMode));
+  const strokeWidthAttributes =
+    supportsBusinessStrokeWidth(colorMode) && !rootHasStrokeWidth
+      ? ['strokeWidth={strokeWidth}']
+      : [];
   const children = (root.children ?? []).filter((child) => typeof child !== 'string') as INode[];
   const propsType = colorMode === 'mono' ? 'BusinessIconImageProps' : `${componentName}Props`;
   const propsPattern =
     colorMode === 'duotone'
-      ? "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', style, ...props }"
+      ? "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }"
       : colorMode === 'mono'
-        ? "{ size = 24, width, height, alt = '', color = 'currentColor', style, ...props }"
+        ? "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }"
         : "{ size = 24, width, height, alt = '', style, ...props }";
   const styleExpression =
     colorMode === 'multicolor' ? 'style={style}' : 'style={{ color, ...style }}';
@@ -395,6 +458,7 @@ function buildReactSvgElement(
     '    <svg',
     '      ref={ref}',
     ...rootAttributes.map((attribute) => `      ${attribute}`),
+    ...strokeWidthAttributes.map((attribute) => `      ${attribute}`),
     '      width={width ?? size}',
     '      height={height ?? size}',
     "      role={alt ? 'img' : undefined}",
@@ -403,7 +467,7 @@ function buildReactSvgElement(
     `      ${styleExpression}`,
     '      {...props}',
     '    >',
-    ...children.flatMap((child) => buildReactSvgNode(child, 6)),
+    ...children.flatMap((child) => buildReactSvgNode(child, 6, colorMode)),
     '    </svg>',
     '  ),',
     ');',
@@ -534,7 +598,7 @@ export function buildBusinessReactIconModule(
     "import { forwardRef } from 'react';",
     "import type { BusinessIconImageProps } from '../businessTypes';",
     '',
-    `type ${componentName}Props = Omit<BusinessIconImageProps, 'color'>;`,
+    `type ${componentName}Props = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;`,
     '',
     ...componentSource,
     '',
@@ -567,6 +631,7 @@ function buildBusinessReactTypes() {
     '  height?: number | string;',
     '  alt?: string;',
     '  color?: string;',
+    '  strokeWidth?: number | string;',
     '}',
     '',
   ].join('\n');
@@ -729,6 +794,7 @@ function buildBusinessHtmlImageTypes() {
     '  alt?: string;',
     '  color?: string;',
     '  secondaryColor?: string;',
+    '  strokeWidth?: number | string;',
     '  style?: unknown;',
     '  [key: string]: unknown;',
     '}',
@@ -747,6 +813,7 @@ function buildBusinessSvelteTypes() {
     '  alt?: string;',
     '  color?: string;',
     '  secondaryColor?: string;',
+    '  strokeWidth?: number | string;',
     '}',
     '',
   ].join('\n');
@@ -763,6 +830,7 @@ function buildBusinessSolidTypes() {
     '  alt?: string;',
     '  color?: string;',
     '  secondaryColor?: string;',
+    '  strokeWidth?: number | string;',
     '}',
     '',
   ].join('\n');

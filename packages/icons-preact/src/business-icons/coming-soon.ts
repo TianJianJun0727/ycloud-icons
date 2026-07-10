@@ -12,6 +12,7 @@ const ComingSoon = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }: ComingSoonProps) =>
@@ -27,6 +28,7 @@ const ComingSoon = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

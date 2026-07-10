@@ -7,6 +7,7 @@ const LineSimple = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) =>
@@ -22,6 +23,7 @@ const LineSimple = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },
@@ -36,7 +38,7 @@ const LineSimple = ({
         x2: '7.15',
         y2: '16.35',
         stroke: 'currentColor',
-        'stroke-width': '1.3',
+        'stroke-width': strokeWidth ?? '1.3',
         'stroke-linecap': 'round',
       }),
       h('line', {
@@ -45,7 +47,7 @@ const LineSimple = ({
         x2: '10.65',
         y2: '16.35',
         stroke: 'currentColor',
-        'stroke-width': '1.3',
+        'stroke-width': strokeWidth ?? '1.3',
         'stroke-linecap': 'round',
       }),
       h('line', {
@@ -54,7 +56,7 @@ const LineSimple = ({
         x2: '18.65',
         y2: '16.35',
         stroke: 'currentColor',
-        'stroke-width': '1.3',
+        'stroke-width': strokeWidth ?? '1.3',
         'stroke-linecap': 'round',
       }),
       h('line', {
@@ -63,7 +65,7 @@ const LineSimple = ({
         x2: '14.65',
         y2: '16.35',
         stroke: 'currentColor',
-        'stroke-width': '1.3',
+        'stroke-width': strokeWidth ?? '1.3',
         'stroke-linecap': 'round',
       }),
     ],

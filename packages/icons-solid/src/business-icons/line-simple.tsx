@@ -6,6 +6,7 @@ const LineSimple = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) => (
@@ -13,6 +14,7 @@ const LineSimple = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     fill="currentColor"
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}
@@ -32,7 +34,7 @@ const LineSimple = ({
       x2="7.15"
       y2="16.35"
       stroke="currentColor"
-      stroke-width="1.3"
+      stroke-width={strokeWidth ?? '1.3'}
       stroke-linecap="round"
     />
     <line
@@ -41,7 +43,7 @@ const LineSimple = ({
       x2="10.65"
       y2="16.35"
       stroke="currentColor"
-      stroke-width="1.3"
+      stroke-width={strokeWidth ?? '1.3'}
       stroke-linecap="round"
     />
     <line
@@ -50,7 +52,7 @@ const LineSimple = ({
       x2="18.65"
       y2="16.35"
       stroke="currentColor"
-      stroke-width="1.3"
+      stroke-width={strokeWidth ?? '1.3'}
       stroke-linecap="round"
     />
     <line
@@ -59,7 +61,7 @@ const LineSimple = ({
       x2="14.65"
       y2="16.35"
       stroke="currentColor"
-      stroke-width="1.3"
+      stroke-width={strokeWidth ?? '1.3'}
       stroke-linecap="round"
     />
   </svg>

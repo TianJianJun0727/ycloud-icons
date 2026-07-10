@@ -7,6 +7,7 @@ const BusinessIcon: FunctionalComponent<BusinessIconImageProps> = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }) =>
@@ -22,6 +23,7 @@ const BusinessIcon: FunctionalComponent<BusinessIconImageProps> = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

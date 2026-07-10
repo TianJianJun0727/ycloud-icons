@@ -6,6 +6,7 @@ const AgentGuideFilled = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) => (
@@ -13,6 +14,7 @@ const AgentGuideFilled = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 18 18"
     fill="currentColor"
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}

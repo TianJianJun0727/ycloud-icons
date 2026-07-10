@@ -132,12 +132,13 @@ export function ChannelIcon() {
     <Billing
       size={24}
       color="#111827"
+      strokeWidth={1.5}
     />
   );
 }
 ```
 
-React business icon components render inline `<svg>`. `mono` and `duotone` support `size` and `color`; `duotone` also supports `secondaryColor`, defaulting to `#fff`. `multicolor` keeps fixed source colors and only supports size changes.
+React business icon components render inline `<svg>`. `mono` and `duotone` support `size`, `color`, and `strokeWidth`. `strokeWidth` is unset by default, so source SVG stroke widths or no-stroke states stay unchanged unless the prop is explicitly passed. `duotone` also supports `secondaryColor`, defaulting to `#fff`. `multicolor` keeps fixed source colors, does not expose `color` or `strokeWidth`, and only supports size changes.
 
 ```tsx
 import { Shopify } from '@ycloud-web/icons-react/business';
@@ -148,12 +149,13 @@ export function DuotoneIcon() {
       size={24}
       color="#111827"
       secondaryColor="#fff"
+      strokeWidth={1.5}
     />
   );
 }
 ```
 
-Other framework packages use the same `business` subpath pattern:
+Other inline SVG component packages support the same `size`, `color`, and `strokeWidth` rules and use the same `business` subpath pattern. React Native business icons render image resources, so they do not support dynamic `strokeWidth`:
 
 ```ts
 import { Billing } from '@ycloud-web/icons-preact/business';
