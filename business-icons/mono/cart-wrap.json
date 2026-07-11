@@ -1,0 +1,37 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "购物车包裹",
+  "tags": [
+    "购物车包裹",
+    "购物车",
+    "购物",
+    "包裹",
+    "电商",
+    "订单",
+    "YCloud",
+    "单色业务图标",
+    "业务图标"
+  ],
+  "use-cases": ["购物车或订单入口展示", "YCloud 电商业务场景中的购物车视觉"],
+  "i18n": {
+    "en": {
+      "name": "cart wrap",
+      "tags": [
+        "cart wrap",
+        "cart",
+        "shopping cart",
+        "shopping",
+        "package",
+        "commerce",
+        "order",
+        "YCloud",
+        "mono",
+        "business icon"
+      ],
+      "use-cases": [
+        "Shopping cart or order entry",
+        "YCloud commerce business visual for cart scenarios"
+      ]
+    }
+  }
+}

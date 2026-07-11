@@ -26,6 +26,8 @@ const emit = defineEmits<{
       <BusinessIconPreview
         id="previewer"
         :svg="icon.svg"
+        :colorMode="icon.colorMode"
+        :supportsStrokeWidth="icon.supportsStrokeWidth"
       />
     </div>
     <BusinessIconInfo

@@ -38,13 +38,13 @@
     "@angular/forms": "^22.0.4",
     "@angular/platform-browser": "^22.0.4",
     "@angular/router": "^22.0.4",
-    "@vitest/browser-playwright": "^4.1.9",
+    "@vitest/browser-playwright": "4.1.9",
     "@ycloud-web/build-icons": "workspace:*",
     "@ycloud-web/helpers": "workspace:*",
     "ng-packagr": "^22.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "typescript": "7.0.1-rc"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "@angular/common": ">=19.0.0",

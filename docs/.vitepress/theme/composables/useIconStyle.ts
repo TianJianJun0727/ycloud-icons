@@ -7,6 +7,7 @@ export const ICON_STYLE_CONTEXT = Symbol('style');
 interface IconSizeContext {
   size: Ref<number>;
   strokeWidth: Ref<number>;
+  businessStrokeWidthEnabled: Ref<boolean>;
   color: Ref<string>;
   absoluteStrokeWidth: Ref<boolean>;
 }
@@ -14,6 +15,7 @@ interface IconSizeContext {
 export const STYLE_DEFAULTS = {
   size: 24,
   strokeWidth: 2,
+  businessStrokeWidthEnabled: false,
   color: 'currentColor',
   absoluteStrokeWidth: false,
 };
@@ -21,6 +23,7 @@ export const STYLE_DEFAULTS = {
 export const iconStyleContext = {
   size: ref(24),
   strokeWidth: ref(2),
+  businessStrokeWidthEnabled: ref(false),
   color: ref('currentColor'),
   absoluteStrokeWidth: ref(false),
 };

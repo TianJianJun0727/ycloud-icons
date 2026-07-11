@@ -110,6 +110,9 @@ const isCurrentDetail = computed(() => {
       :detailPath="detailPath"
       :detailText="isEnglish ? 'See details' : '查看详情'"
       :isCurrentDetail="isCurrentDetail"
+      mode="business"
+      :colorMode="icon.colorMode"
+      :supportsStrokeWidth="icon.supportsStrokeWidth"
       :popoverPosition="popoverPosition"
     />
 

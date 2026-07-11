@@ -210,6 +210,11 @@ export {
   default as YCloudCannedResponseCheck,
 } from './business-icons/canned-response-check';
 export {
+  default as CartWrap,
+  default as CartWrapIcon,
+  default as YCloudCartWrap,
+} from './business-icons/cart-wrap';
+export {
   default as CategoryFilled,
   default as CategoryFilledIcon,
   default as YCloudCategoryFilled,
@@ -793,6 +798,11 @@ export {
   default as WhatsappPhoneOutlinedIcon,
   default as YCloudWhatsappPhoneOutlined,
 } from './business-icons/whatsapp-phone-outlined';
+export {
+  default as WhatsappWrap,
+  default as WhatsappWrapIcon,
+  default as YCloudWhatsappWrap,
+} from './business-icons/whatsapp-wrap';
 export {
   default as WidgetsFilled,
   default as WidgetsFilledIcon,

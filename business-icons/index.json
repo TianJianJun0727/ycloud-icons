@@ -307,6 +307,12 @@
     },
     {
       "category": "mono",
+      "name": "cart-wrap",
+      "path": "business-icons/mono/cart-wrap.svg",
+      "componentName": "CartWrap"
+    },
+    {
+      "category": "mono",
       "name": "category-filled",
       "path": "business-icons/mono/category-filled.svg",
       "componentName": "CategoryFilled"
@@ -1018,6 +1024,12 @@
       "name": "whatsapp-phone-outlined",
       "path": "business-icons/mono/whatsapp-phone-outlined.svg",
       "componentName": "WhatsappPhoneOutlined"
+    },
+    {
+      "category": "mono",
+      "name": "whatsapp-wrap",
+      "path": "business-icons/mono/whatsapp-wrap.svg",
+      "componentName": "WhatsappWrap"
     },
     {
       "category": "mono",

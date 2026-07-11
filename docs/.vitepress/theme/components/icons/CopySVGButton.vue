@@ -14,16 +14,30 @@ const copiedText = computed(() => (isEnglish.value ? 'Copied' : '已复制'));
 const confettiText = ref(copiedText.value);
 const props = defineProps<{
   name: string;
+  mode?: 'icon' | 'business';
+  colorMode?: string;
+  supportsStrokeWidth?: boolean;
   popoverPosition?: 'top' | 'bottom';
 }>();
 
-const { size } = useIconStyleContext();
+const { size, strokeWidth, businessStrokeWidthEnabled } = useIconStyleContext();
 
 const { animate, confetti } = useConfetti();
+const businessStrokeWidthAttrs = computed(() =>
+  props.mode === 'business' &&
+  props.supportsStrokeWidth === true &&
+  businessStrokeWidthEnabled.value
+    ? { 'stroke-width': `${strokeWidth.value}` }
+    : undefined,
+);
 
 function copySVG() {
   confettiText.value = copiedText.value;
-  const svgString = getSVGIcon();
+  const svgString = getSVGIcon(
+    undefined,
+    undefined,
+    businessStrokeWidthAttrs.value,
+  );
 
   confetti();
   void navigator.clipboard.writeText(svgString).catch(() => {});
@@ -31,7 +45,11 @@ function copySVG() {
 
 function copyDataUrl() {
   confettiText.value = copiedText.value;
-  const svgString = getSVGIcon();
+  const svgString = getSVGIcon(
+    undefined,
+    undefined,
+    businessStrokeWidthAttrs.value,
+  );
 
   // Create SVG data url
   const dataUrl = `data:image/svg+xml;base64,${btoa(svgString)}`;
@@ -41,7 +59,11 @@ function copyDataUrl() {
 
 function downloadSVG() {
   confettiText.value = downloadText.value;
-  const svgString = getSVGIcon();
+  const svgString = getSVGIcon(
+    undefined,
+    undefined,
+    businessStrokeWidthAttrs.value,
+  );
 
   downloadData(`${props.name}.svg`, `data:image/svg+xml;base64,${btoa(svgString)}`);
   confetti();
@@ -49,7 +71,11 @@ function downloadSVG() {
 
 function downloadPNG() {
   confettiText.value = downloadText.value;
-  const svgString = getSVGIcon();
+  const svgString = getSVGIcon(
+    undefined,
+    undefined,
+    businessStrokeWidthAttrs.value,
+  );
 
   const canvas = document.createElement('canvas');
   canvas.width = size.value;

@@ -30,7 +30,11 @@ const displayName = computed(() =>
       :aria-label="displayName"
       @click="emit('select', icon)"
     >
-      <BusinessIconPreview :svg="icon.svg" />
+      <BusinessIconPreview
+        :svg="icon.svg"
+        :colorMode="icon.colorMode"
+        :supportsStrokeWidth="icon.supportsStrokeWidth"
+      />
     </button>
   </Tooltip>
 </template>

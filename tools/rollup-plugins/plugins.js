@@ -12,6 +12,7 @@ const plugins = ({
   withEsbuild = true,
   esbuildOptions = {},
   withSummary = false,
+  withVisualizer = true,
 }) =>
   [
     withEsbuild
@@ -31,10 +32,12 @@ This source code is licensed under the ${pkg.license} license.
 See the LICENSE file in the root directory of this source tree.`,
     }),
     withSummary ? summary() : null,
-    visualizer({
-      sourcemap: true,
-      filename: `stats/${pkg.name}${minify ? '-min' : ''}.html`,
-    }),
+    withVisualizer
+      ? visualizer({
+          sourcemap: true,
+          filename: `stats/${pkg.name}${minify ? '-min' : ''}.html`,
+        })
+      : null,
   ].filter(Boolean);
 
 export { license, visualizer, replace };
