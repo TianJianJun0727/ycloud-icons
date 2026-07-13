@@ -24,12 +24,6 @@ type Category = {
   englishTitle: string;
 };
 
-type GitHubContentItem = {
-  name: string;
-  path: string;
-  type: string;
-};
-
 type GitHubTree = {
   tree: Array<{
     path: string;
@@ -85,21 +79,46 @@ const createGitHubReadHeaders = (
   return headers;
 };
 
+const sleep = (ms: number) => new Promise((resolve) => window.setTimeout(resolve, ms));
+
+const isRetriableGitHubStatus = (status: number) =>
+  status === 408 ||
+  status === 429 ||
+  status === 500 ||
+  status === 502 ||
+  status === 503 ||
+  status === 504;
+
 async function fetchGitHubRead(
   url: string,
   apiKey?: string,
   accept = 'application/vnd.github+json',
 ): Promise<Response> {
   const token = apiKey?.trim();
-  const response = await fetch(url, {
-    headers: createGitHubReadHeaders(token, accept),
-  });
-  if (response.status !== 401 || !token) {
-    return response;
+  let lastError: unknown;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: createGitHubReadHeaders(token, accept),
+      });
+      if (response.status === 401 && token) {
+        return fetch(url, {
+          headers: createGitHubReadHeaders(undefined, accept),
+        });
+      }
+      if (!isRetriableGitHubStatus(response.status) || attempt === 2) {
+        return response;
+      }
+      lastError = new Error(`${response.status} ${response.statusText}`);
+    } catch (error) {
+      lastError = error;
+      if (attempt === 2) {
+        break;
+      }
+    }
+    await sleep(400 * (attempt + 1));
   }
-  return fetch(url, {
-    headers: createGitHubReadHeaders(undefined, accept),
-  });
+  throw lastError instanceof Error ? lastError : new Error('GitHub 网络请求失败。');
 }
 
 async function readGitHubRawJson<T>(url: string, apiKey?: string): Promise<T> {
@@ -141,6 +160,13 @@ const collectIconMetadataNames = (index: IconMetadataIndex | undefined) =>
       ])
       .filter((name): name is string => typeof name === 'string' && name.length > 0),
   );
+
+function getGitHubSyncErrorMessage(error: unknown) {
+  if (error instanceof TypeError && error.message === 'Failed to fetch') {
+    return '同步数据失败：GitHub 网络请求失败，请检查 Figma 网络权限、代理或稍后重试。';
+  }
+  return error instanceof Error ? `同步数据失败：${error.message}` : '同步数据失败。';
+}
 
 interface DeployProps {
   sourceType: IconSourceType;
@@ -385,17 +411,16 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     setCategoryMessage('');
     try {
       const apiUrl = `https://api.github.com/repos/${githubData.owner}/${githubData.name}`;
-      const [listResponse, treeResponse] = await Promise.all([
-        fetchGitHubRead(`${apiUrl}/contents/categories?ref=main`, githubApiKey),
+      const [categoryData, treeResponse] = await Promise.all([
+        readGitHubRawJson<Array<{ name?: unknown; title?: unknown; englishTitle?: unknown }>>(
+          `${apiUrl}/contents/docs/.vitepress/data/categoriesData.json?ref=main`,
+          githubApiKey,
+        ),
         fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
       ]);
-      if (!listResponse.ok) {
-        throw new Error(`${listResponse.status} ${listResponse.statusText}`);
-      }
       if (!treeResponse.ok) {
         throw new Error(`${treeResponse.status} ${treeResponse.statusText}`);
       }
-      const items = (await listResponse.json()) as GitHubContentItem[];
       const tree = (await treeResponse.json()) as GitHubTree;
       if (tree.truncated) {
         throw new Error('GitHub main 分支文件树返回结果被截断，无法安全判断同名覆盖。');
@@ -414,7 +439,6 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           githubApiKey,
         ),
       ]);
-      const jsonFiles = items.filter((item) => item.type === 'file' && item.name.endsWith('.json'));
       const treeGenericIconNames = tree.tree
         .filter((item) => item.type === 'blob' && /^icons\/[^/]+\.svg$/.test(item.path))
         .map((item) => item.path.replace(/^icons\//, '').replace(/\.svg$/, ''));
@@ -440,25 +464,27 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           ...collectIconMetadataNames(illustrationMetadata),
         ]),
       );
-      const nextCategories = await Promise.all(
-        jsonFiles.map(async (item) => {
-          const category = await readGitHubRawJson<{
-            title?: unknown;
-            i18n?: {
-              en?: {
-                title?: unknown;
-              };
-            };
-          }>(`${apiUrl}/contents/${item.path}?ref=main`, githubApiKey);
-          const key = item.name.replace(/\.json$/, '');
-          const title = getStringValue(category.title, key);
+      const nextCategories = categoryData
+        .filter((item) => typeof item.name === 'string' && item.name.length > 0)
+        .map((item) => {
+          const key = item.name as string;
+          const title = getStringValue(item.title, key);
           return {
             key,
             title,
-            englishTitle: getStringValue(category.i18n?.en?.title, key),
+            englishTitle: getStringValue(item.englishTitle, key),
           };
-        }),
-      );
+        });
+      const missingCategoryData = tree.tree
+        .filter((item) => item.type === 'blob' && /^categories\/[^/]+\.json$/.test(item.path))
+        .map((item) => item.path.replace(/^categories\//, '').replace(/\.json$/, ''))
+        .filter((key) => !nextCategories.some((category) => category.key === key))
+        .map((key) => ({
+          key,
+          title: key,
+          englishTitle: key,
+        }));
+      nextCategories.push(...missingCategoryData);
       setCategories(
         nextCategories.sort((left, right) =>
           getStringValue(left.title, left.key).localeCompare(
@@ -472,9 +498,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       setExistingIllustrationNames(nextExistingIllustrationNamesWithAliases);
       setCategoryMessage('synced');
     } catch (error) {
-      setCategoryMessage(
-        error instanceof Error ? `同步数据失败：${error.message}` : '同步数据失败。',
-      );
+      setCategoryMessage(getGitHubSyncErrorMessage(error));
     } finally {
       setIsLoadingCategories(false);
     }
