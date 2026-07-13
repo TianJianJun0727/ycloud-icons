@@ -5,6 +5,7 @@ import { FRAME_NAME } from '../../common/constants';
 import {
   getBusinessSvgIssues,
   getBusinessIconNameIssues,
+  getTargetIconName,
   getIconNameIssues,
   getIconNameWarnings,
   getIllustrationSvgIssues,
@@ -12,7 +13,6 @@ import {
   sanitizeBusinessSvg,
   sanitizeIllustrationSvg,
   sanitizeSvg,
-  toKebabCase,
 } from '../../common/iconRules';
 import type { IconSourceType, YCloudIconData } from '../../common/types';
 import { useAppDispatch, useAppState } from '../contexts/AppContext';
@@ -89,6 +89,31 @@ function decodeBase64Json<T>(content: string): T {
   return JSON.parse(Base64.decode(content.replace(/\s/g, ''))) as T;
 }
 
+const createGitHubReadHeaders = (apiKey?: string): HeadersInit => {
+  const headers: Record<string, string> = {
+    'X-GitHub-Api-Version': GITHUB_API_VERSION,
+    Accept: 'application/vnd.github+json',
+  };
+  const token = apiKey?.trim();
+  if (token) {
+    headers.Authorization = `Bearer ${token}`;
+  }
+  return headers;
+};
+
+async function fetchGitHubRead(url: string, apiKey?: string): Promise<Response> {
+  const token = apiKey?.trim();
+  const response = await fetch(url, {
+    headers: createGitHubReadHeaders(token),
+  });
+  if (response.status !== 401 || !token) {
+    return response;
+  }
+  return fetch(url, {
+    headers: createGitHubReadHeaders(),
+  });
+}
+
 const uniqueList = (items: string[]) =>
   items.filter((item, index, list) => list.indexOf(item) === index);
 
@@ -153,7 +178,8 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           : `已同步 ${categories.length} 个已有分类、${existingGenericIconNames.length} 个通用图标。`
       : categoryMessage;
   const existingIconSet = useMemo(() => new Set(existingIconNames), [existingIconNames]);
-  const getTargetIconKey = (name: string, data?: YCloudIconData) => toKebabCase(data?.name || name);
+  const getTargetIconKey = (name: string, data?: YCloudIconData) =>
+    getTargetIconName(data?.figma?.name, data?.name, name);
   const targetIconNameCounts = useMemo(() => {
     const counts = new Map<string, number>();
     for (const [name, data] of icons) {
@@ -184,9 +210,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           issues.push(`本次预览中存在重复目标名：${targetName}`);
         }
         const warnings = [
-          ...(sourceType === 'business' || sourceType === 'illustration'
-            ? []
-            : getIconNameWarnings(sourceName)),
+          ...getIconNameWarnings(sourceName),
           ...(sourceType === 'generic' && svg.trim() !== cleanedSvg.trim()
             ? ['SVG 会在提交时自动清洗。']
             : []),
@@ -346,26 +370,13 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     setIsLoadingCategories(true);
     setCategoryMessage('');
     try {
-      const headers = {
-        Authorization: `Bearer ${githubApiKey}`,
-        'X-GitHub-Api-Version': GITHUB_API_VERSION,
-        Accept: 'application/vnd.github+json',
-      };
       const apiUrl = `https://api.github.com/repos/${githubData.owner}/${githubData.name}`;
       const [listResponse, treeResponse, businessIndexResponse, iconMetadataResponse] =
         await Promise.all([
-          fetch(`${apiUrl}/contents/categories?ref=main`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/git/trees/main?recursive=1`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/contents/business-icons/index.json?ref=main`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/contents/icons/metadata/index.json?ref=main`, {
-            headers,
-          }),
+          fetchGitHubRead(`${apiUrl}/contents/categories?ref=main`, githubApiKey),
+          fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
+          fetchGitHubRead(`${apiUrl}/contents/business-icons/index.json?ref=main`, githubApiKey),
+          fetchGitHubRead(`${apiUrl}/contents/icons/metadata/index.json?ref=main`, githubApiKey),
         ]);
       if (!listResponse.ok) {
         throw new Error(`${listResponse.status} ${listResponse.statusText}`);
@@ -416,9 +427,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       );
       const nextCategories = await Promise.all(
         jsonFiles.map(async (item) => {
-          const response = await fetch(`${apiUrl}/contents/${item.path}?ref=main`, {
-            headers,
-          });
+          const response = await fetchGitHubRead(
+            `${apiUrl}/contents/${item.path}?ref=main`,
+            githubApiKey,
+          );
           if (!response.ok) {
             throw new Error(`${response.status} ${response.statusText}`);
           }

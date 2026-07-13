@@ -6,26 +6,32 @@ export const toKebabCase = (value: string) =>
     .replace(/^-+|-+$/g, '')
     .replace(/-{2,}/g, '-')
     .toLowerCase();
+
+export function getTargetIconName(...candidates: Array<string | undefined>) {
+  for (const candidate of candidates) {
+    const name = candidate?.trim();
+    if (name) {
+      return name;
+    }
+  }
+  return '';
+}
+
 const hasCjkText = (value: string) => /[\u3400-\u9fff]/.test(value);
 const ICON_NAME_ALLOWED_PATTERN = /^[a-zA-Z0-9-]+$/;
-const ICON_NAME_ALLOWED_MESSAGE = '图标名称仅允许英文字母、数字和短横线（a-z、A-Z、0-9、-）';
+const ICON_NAME_ALLOWED_MESSAGE =
+  '图层名称不是最终规范命名，提交后会由 GitHub Action / AI 检测并重命名。';
 
 function getRawIconNameIssues(rawName: string) {
   const normalizedRawName = rawName.trim();
-  if (
-    normalizedRawName.includes('|') ||
-    normalizedRawName.includes('｜') ||
-    normalizedRawName.includes('/')
-  ) {
-    return [];
+  const issues = [];
+  if (normalizedRawName.length === 0) {
+    issues.push('图标名称不能为空。');
   }
-  if (hasCjkText(normalizedRawName)) {
-    return [];
+  if (/[\\/]/.test(normalizedRawName)) {
+    issues.push('图标名称不能包含 / 或反斜杠，否则无法作为提交文件名。');
   }
-  if (!ICON_NAME_ALLOWED_PATTERN.test(normalizedRawName)) {
-    return [ICON_NAME_ALLOWED_MESSAGE];
-  }
-  return [];
+  return issues;
 }
 
 export function parseIconName(rawName: string) {
@@ -56,24 +62,18 @@ export function parseIconName(rawName: string) {
   };
 }
 export function getIconNameIssues(rawName: string) {
-  const issues = getRawIconNameIssues(rawName);
-  const parsedName = parseIconName(rawName);
-  if (!/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(parsedName.fileName)) {
-    issues.push('英文名需要能转换为小写短横线命名');
-  }
-  return issues;
+  return getRawIconNameIssues(rawName);
 }
 export function getBusinessIconNameIssues(rawName: string) {
-  const issues = getRawIconNameIssues(rawName);
-  const parsedName = parseIconName(rawName);
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(parsedName.fileName)) {
-    issues.push('业务图标名需要能转换为小写短横线命名');
-  }
-  return issues;
+  return getRawIconNameIssues(rawName);
 }
 export function getIconNameWarnings(rawName: string) {
   const warnings: string[] = [];
   const parsedName = parseIconName(rawName);
+  const normalizedRawName = rawName.trim();
+  if (normalizedRawName.length > 0 && !ICON_NAME_ALLOWED_PATTERN.test(normalizedRawName)) {
+    warnings.push(ICON_NAME_ALLOWED_MESSAGE);
+  }
   if (!parsedName.nameEn) {
     warnings.push('建议图层名称使用英文语义名称，例如：arrow-left。');
   }

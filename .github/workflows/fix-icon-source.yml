@@ -103,6 +103,19 @@ jobs:
           echo "business_source_changed=$business_source_changed" >> "$GITHUB_OUTPUT"
           echo "illustration_source_changed=$illustration_source_changed" >> "$GITHUB_OUTPUT"
 
+      - name: Normalize submitted icon filenames
+        if: steps.source-change-kind.outputs.generic_source_changed == 'true' || steps.source-change-kind.outputs.business_source_changed == 'true' || steps.source-change-kind.outputs.illustration_source_changed == 'true'
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+        run: |
+          git fetch --no-tags --depth=1 origin ${{ github.event.pull_request.base.sha }}
+          mapfile -d '' changed_icon_files < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} HEAD -- icons business-icons illustration-icons)
+          if (( ${#changed_icon_files[@]} > 0 )); then
+            node ./scripts/fixIconFileNames.mts "${changed_icon_files[@]}"
+          fi
+
       - name: Optimize changed SVGs
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |

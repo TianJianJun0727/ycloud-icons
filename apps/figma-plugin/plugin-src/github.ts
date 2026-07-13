@@ -1,8 +1,8 @@
 import {
+  getTargetIconName,
   sanitizeBusinessSvg,
   sanitizeIllustrationSvg,
   sanitizeSvg,
-  toKebabCase,
 } from '../common/iconRules';
 import type { IconSourceType, YCloudIconData, YCloudMetadataOptions } from '../common/types';
 import { Base64 } from 'js-base64';
@@ -114,9 +114,43 @@ function createAssetJson(icon: YCloudIconData, fallbackName: string, kind: IconS
     },
   };
 }
+
+function getAutoRenameNotes(icons: Record<string, YCloudIconData>) {
+  const notes = Object.entries(icons)
+    .map(([key, icon]) => {
+      const rawName = icon.figma?.name || icon.name || key;
+      const targetName = getTargetIconName(icon.figma?.name, icon.name, key);
+      const normalizedRawName = rawName.trim().toLowerCase();
+      const shouldReviewName =
+        /[\u3400-\u9fff]/.test(rawName) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(normalizedRawName);
+      return shouldReviewName ? `- \`${targetName}\`：Figma 原名 \`${rawName}\`` : undefined;
+    })
+    .filter((note): note is string => typeof note === 'string');
+  if (notes.length === 0) {
+    return [];
+  }
+  return ['部分图标使用 Figma 原始名称提交，请由 GitHub Action / AI 确认并重命名：', ...notes];
+}
+
+function getInvalidUploadNameMessages(icons: Record<string, YCloudIconData>) {
+  return Object.entries(icons)
+    .map(([key, icon]) => {
+      const rawName = icon.figma?.name || icon.name || key;
+      const targetName = getTargetIconName(icon.figma?.name, icon.name, key);
+      if (!targetName) {
+        return `- \`${rawName || key}\`：名称不能为空`;
+      }
+      if (/[\\/]/.test(targetName)) {
+        return `- \`${rawName}\`：名称不能包含 / 或反斜杠`;
+      }
+      return undefined;
+    })
+    .filter((message): message is string => typeof message === 'string');
+}
+
 function buildYCloudFiles(icons: Record<string, YCloudIconData>, metadata: YCloudMetadataOptions) {
   const iconFiles = Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `icons/${name}.svg`,
@@ -136,7 +170,7 @@ function buildBusinessIconFiles(
 ) {
   const businessColorMode = getBusinessColorMode(metadata);
   return Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `business-icons/${businessColorMode}/${name}.svg`,
@@ -151,7 +185,7 @@ function buildBusinessIconFiles(
 }
 function buildIllustrationFiles(icons: Record<string, YCloudIconData>) {
   return Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `illustration-icons/${name}.svg`,
@@ -282,6 +316,12 @@ export function createGithubClient(
     const baseBranch = 'main';
     const newBranch = `figma-plugin/${Date.now()}`;
     const businessColorMode = getBusinessColorMode(metadata);
+    const invalidUploadNameMessages = getInvalidUploadNameMessages(icons);
+    if (invalidUploadNameMessages.length > 0) {
+      throw new Error(
+        ['部分图标名称无法作为提交文件名。', ...invalidUploadNameMessages].join('\n'),
+      );
+    }
     const files =
       sourceType === 'business'
         ? buildBusinessIconFiles(icons, metadata)
@@ -298,6 +338,7 @@ export function createGithubClient(
       );
     }
     const reviewNotes: string[] = [];
+    reviewNotes.push(...getAutoRenameNotes(icons));
     const iconCount = Object.keys(icons).length;
     const scope =
       sourceType === 'business'
