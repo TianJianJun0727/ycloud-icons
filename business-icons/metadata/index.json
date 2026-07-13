@@ -4,6 +4,34 @@
   "assets": [
     {
       "type": "business-icon",
+      "name": "ad-wrap",
+      "path": "business-icons/mono/ad-wrap.svg",
+      "title": "AD-wrap",
+      "englishName": "AD-wrap",
+      "componentName": "AdWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "AD-wrap",
+        "tags": ["AD-wrap", "业务图标"],
+        "use-cases": ["AD-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "AD-wrap",
+            "tags": ["AD-wrap", "business icon"],
+            "use-cases": ["AD-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "AD-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "botfilled",
       "path": "business-icons/duotone/botfilled.svg",
       "title": "机器人",
@@ -26,6 +54,90 @@
             ]
           }
         }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "calling-wrap",
+      "path": "business-icons/mono/calling-wrap.svg",
+      "title": "Calling-wrap",
+      "englishName": "Calling-wrap",
+      "componentName": "CallingWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Calling-wrap",
+        "tags": ["Calling-wrap", "业务图标"],
+        "use-cases": ["Calling-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Calling-wrap",
+            "tags": ["Calling-wrap", "business icon"],
+            "use-cases": ["Calling-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Calling-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "cart-wrap",
+      "path": "business-icons/mono/cart-wrap.svg",
+      "title": "Cart-wrap",
+      "englishName": "Cart-wrap",
+      "componentName": "CartWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Cart-wrap",
+        "tags": ["Cart-wrap", "业务图标"],
+        "use-cases": ["Cart-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Cart-wrap",
+            "tags": ["Cart-wrap", "business icon"],
+            "use-cases": ["Cart-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Cart-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "chatbot-wrap",
+      "path": "business-icons/mono/chatbot-wrap.svg",
+      "title": "Chatbot-wrap",
+      "englishName": "Chatbot-wrap",
+      "componentName": "ChatbotWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Chatbot-wrap",
+        "tags": ["Chatbot-wrap", "业务图标"],
+        "use-cases": ["Chatbot-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Chatbot-wrap",
+            "tags": ["Chatbot-wrap", "business icon"],
+            "use-cases": ["Chatbot-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Chatbot-wrap"
+          }
+        ]
       }
     },
     {
@@ -56,6 +168,90 @@
     },
     {
       "type": "business-icon",
+      "name": "contact-wrap",
+      "path": "business-icons/mono/contact-wrap.svg",
+      "title": "Contact-wrap",
+      "englishName": "Contact-wrap",
+      "componentName": "ContactWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Contact-wrap",
+        "tags": ["Contact-wrap", "业务图标"],
+        "use-cases": ["Contact-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Contact-wrap",
+            "tags": ["Contact-wrap", "business icon"],
+            "use-cases": ["Contact-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Contact-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "developers-wrap",
+      "path": "business-icons/mono/developers-wrap.svg",
+      "title": "Developers-wrap",
+      "englishName": "Developers-wrap",
+      "componentName": "DevelopersWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Developers-wrap",
+        "tags": ["Developers-wrap", "业务图标"],
+        "use-cases": ["Developers-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Developers-wrap",
+            "tags": ["Developers-wrap", "business icon"],
+            "use-cases": ["Developers-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Developers-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "home-wrap",
+      "path": "business-icons/mono/home-wrap.svg",
+      "title": "Home-wrap",
+      "englishName": "Home-wrap",
+      "componentName": "HomeWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Home-wrap",
+        "tags": ["Home-wrap", "业务图标"],
+        "use-cases": ["Home-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Home-wrap",
+            "tags": ["Home-wrap", "business icon"],
+            "use-cases": ["Home-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Home-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "hub-spot",
       "path": "business-icons/multicolor/hub-spot.svg",
       "title": "HubSpot",
@@ -75,6 +271,118 @@
             "use-cases": ["HubSpot entry or status", "Legacy business visual for HubSpot scenarios"]
           }
         }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "inbox-wrap",
+      "path": "business-icons/mono/inbox-wrap.svg",
+      "title": "Inbox-wrap",
+      "englishName": "Inbox-wrap",
+      "componentName": "InboxWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Inbox-wrap",
+        "tags": ["Inbox-wrap", "业务图标"],
+        "use-cases": ["Inbox-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Inbox-wrap",
+            "tags": ["Inbox-wrap", "business icon"],
+            "use-cases": ["Inbox-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Inbox-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "integration-wrap",
+      "path": "business-icons/mono/integration-wrap.svg",
+      "title": "Integration-wrap",
+      "englishName": "Integration-wrap",
+      "componentName": "IntegrationWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Integration-wrap",
+        "tags": ["Integration-wrap", "业务图标"],
+        "use-cases": ["Integration-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Integration-wrap",
+            "tags": ["Integration-wrap", "business icon"],
+            "use-cases": ["Integration-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Integration-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "journey-wrap",
+      "path": "business-icons/mono/journey-wrap.svg",
+      "title": "Journey-wrap",
+      "englishName": "Journey-wrap",
+      "componentName": "JourneyWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Journey-wrap",
+        "tags": ["Journey-wrap", "业务图标"],
+        "use-cases": ["Journey-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Journey-wrap",
+            "tags": ["Journey-wrap", "business icon"],
+            "use-cases": ["Journey-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Journey-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "megaphone-wrap",
+      "path": "business-icons/mono/megaphone-wrap.svg",
+      "title": "Megaphone-wrap",
+      "englishName": "Megaphone-wrap",
+      "componentName": "MegaphoneWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Megaphone-wrap",
+        "tags": ["Megaphone-wrap", "业务图标"],
+        "use-cases": ["Megaphone-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Megaphone-wrap",
+            "tags": ["Megaphone-wrap", "business icon"],
+            "use-cases": ["Megaphone-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Megaphone-wrap"
+          }
+        ]
       }
     },
     {
@@ -101,6 +409,62 @@
             ]
           }
         }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "order-wrap",
+      "path": "business-icons/mono/order-wrap.svg",
+      "title": "Order-wrap",
+      "englishName": "Order-wrap",
+      "componentName": "OrderWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Order-wrap",
+        "tags": ["Order-wrap", "业务图标"],
+        "use-cases": ["Order-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Order-wrap",
+            "tags": ["Order-wrap", "business icon"],
+            "use-cases": ["Order-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Order-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "partner-wrap",
+      "path": "business-icons/mono/partner-wrap.svg",
+      "title": "Partner-wrap",
+      "englishName": "Partner-wrap",
+      "componentName": "PartnerWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Partner-wrap",
+        "tags": ["Partner-wrap", "业务图标"],
+        "use-cases": ["Partner-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Partner-wrap",
+            "tags": ["Partner-wrap", "business icon"],
+            "use-cases": ["Partner-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Partner-wrap"
+          }
+        ]
       }
     },
     {
@@ -147,6 +511,34 @@
             "use-cases": ["trophy entry or status", "Legacy business visual for trophy scenarios"]
           }
         }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp-wrap",
+      "path": "business-icons/mono/whatsapp-wrap.svg",
+      "title": "Whatsapp-wrap",
+      "englishName": "Whatsapp-wrap",
+      "componentName": "WhatsappWrap",
+      "category": "mono",
+      "colorMode": "mono",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Whatsapp-wrap",
+        "tags": ["Whatsapp-wrap", "业务图标"],
+        "use-cases": ["Whatsapp-wrap相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Whatsapp-wrap",
+            "tags": ["Whatsapp-wrap", "business icon"],
+            "use-cases": ["Whatsapp-wrap entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Whatsapp-wrap"
+          }
+        ]
       }
     }
   ]

@@ -54,6 +54,90 @@
       "componentName": "Shopify"
     },
     {
+      "category": "mono",
+      "name": "ad-wrap",
+      "path": "business-icons/mono/ad-wrap.svg",
+      "componentName": "AdWrap"
+    },
+    {
+      "category": "mono",
+      "name": "calling-wrap",
+      "path": "business-icons/mono/calling-wrap.svg",
+      "componentName": "CallingWrap"
+    },
+    {
+      "category": "mono",
+      "name": "cart-wrap",
+      "path": "business-icons/mono/cart-wrap.svg",
+      "componentName": "CartWrap"
+    },
+    {
+      "category": "mono",
+      "name": "chatbot-wrap",
+      "path": "business-icons/mono/chatbot-wrap.svg",
+      "componentName": "ChatbotWrap"
+    },
+    {
+      "category": "mono",
+      "name": "contact-wrap",
+      "path": "business-icons/mono/contact-wrap.svg",
+      "componentName": "ContactWrap"
+    },
+    {
+      "category": "mono",
+      "name": "developers-wrap",
+      "path": "business-icons/mono/developers-wrap.svg",
+      "componentName": "DevelopersWrap"
+    },
+    {
+      "category": "mono",
+      "name": "home-wrap",
+      "path": "business-icons/mono/home-wrap.svg",
+      "componentName": "HomeWrap"
+    },
+    {
+      "category": "mono",
+      "name": "inbox-wrap",
+      "path": "business-icons/mono/inbox-wrap.svg",
+      "componentName": "InboxWrap"
+    },
+    {
+      "category": "mono",
+      "name": "integration-wrap",
+      "path": "business-icons/mono/integration-wrap.svg",
+      "componentName": "IntegrationWrap"
+    },
+    {
+      "category": "mono",
+      "name": "journey-wrap",
+      "path": "business-icons/mono/journey-wrap.svg",
+      "componentName": "JourneyWrap"
+    },
+    {
+      "category": "mono",
+      "name": "megaphone-wrap",
+      "path": "business-icons/mono/megaphone-wrap.svg",
+      "componentName": "MegaphoneWrap"
+    },
+    {
+      "category": "mono",
+      "name": "order-wrap",
+      "path": "business-icons/mono/order-wrap.svg",
+      "componentName": "OrderWrap"
+    },
+    {
+      "category": "mono",
+      "name": "partner-wrap",
+      "path": "business-icons/mono/partner-wrap.svg",
+      "componentName": "PartnerWrap"
+    },
+    {
+      "category": "mono",
+      "name": "whatsapp-wrap",
+      "path": "business-icons/mono/whatsapp-wrap.svg",
+      "componentName": "WhatsappWrap"
+    },
+    {
       "category": "multicolor",
       "name": "hub-spot",
       "path": "business-icons/multicolor/hub-spot.svg",
