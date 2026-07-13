@@ -11,6 +11,7 @@ import z from 'zod';
 import { createAiClient } from './aiClient.mts';
 
 const FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const FIGMA_WRAPPER_SUFFIXES = ['wrap', 'wrapper'];
 const renameSchema = z.object({
   items: z.array(
     z.object({
@@ -44,8 +45,40 @@ function createStableNameHash(value: string) {
   return hash.toString(36);
 }
 
-function fallbackName(sourceName: string) {
-  return toKebabCase(sourceName) || `figma-icon-${createStableNameHash(sourceName)}`;
+function isBusinessIconTarget(target: RenameTarget) {
+  return /^business-icons\/[^/]+$/.test(target.directory);
+}
+
+function normalizeSuggestedName(target: RenameTarget, value: string) {
+  const normalizedName = toKebabCase(value);
+  return isBusinessIconTarget(target) ? stripFigmaWrapperSuffix(normalizedName) : normalizedName;
+}
+
+function fallbackName(target: RenameTarget) {
+  const normalizedName = normalizeSuggestedName(target, target.sourceName);
+  return normalizedName || `figma-icon-${createStableNameHash(target.sourceName)}`;
+}
+
+function stripFigmaWrapperSuffix(name: string) {
+  const parts = name.split('-');
+  if (parts.length <= 1) {
+    return name;
+  }
+  const lastPart = parts.at(-1);
+  if (!lastPart || !FIGMA_WRAPPER_SUFFIXES.includes(lastPart)) {
+    return name;
+  }
+  return parts.slice(0, -1).join('-');
+}
+
+function shouldNormalizeFileName(normalizedFile: string, sourceName: string) {
+  if (!FILENAME_PATTERN.test(sourceName)) {
+    return true;
+  }
+  if (/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile)) {
+    return stripFigmaWrapperSuffix(sourceName) !== sourceName;
+  }
+  return false;
 }
 
 async function fileExists(file: string) {
@@ -113,7 +146,7 @@ async function collectTargets(files: string[]) {
 
     const extension = path.extname(normalizedFile);
     const sourceName = path.basename(normalizedFile, extension);
-    if (FILENAME_PATTERN.test(sourceName)) {
+    if (!shouldNormalizeFileName(normalizedFile, sourceName)) {
       continue;
     }
 
@@ -143,7 +176,7 @@ async function suggestNames(targets: RenameTarget[]) {
   });
 
   const fallback = new Map(
-    targets.map((target) => [target.sourceName, fallbackName(target.sourceName)]),
+    targets.map((target) => [target.sourceName, fallbackName(target)]),
   );
   if (!ai) {
     return fallback;
@@ -165,6 +198,7 @@ async function suggestNames(targets: RenameTarget[]) {
         '- targetName must be lowercase kebab-case: a-z, 0-9, and hyphen only.',
         '- Use short semantic English names suitable for an icon package export.',
         '- Do not include words like icon, svg, business, illustration unless they are part of the meaning.',
+        '- For business icon filenames, remove trailing Figma layer container words such as wrap or wrapper unless they are clearly part of the icon meaning.',
         '- Preserve the source meaning from Chinese names or metadata names.',
         '',
         JSON.stringify({ items }, null, 2),
@@ -174,7 +208,8 @@ async function suggestNames(targets: RenameTarget[]) {
     );
 
     for (const item of response.items) {
-      const normalized = toKebabCase(item.targetName);
+      const target = targets.find((renameTarget) => renameTarget.sourceName === item.sourceName);
+      const normalized = target ? normalizeSuggestedName(target, item.targetName) : '';
       if (normalized) {
         fallback.set(item.sourceName, normalized);
       }
@@ -236,7 +271,7 @@ async function main() {
 
   const suggestions = await suggestNames(targets);
   for (const target of targets) {
-    await renamePair(target, suggestions.get(target.sourceName) ?? fallbackName(target.sourceName));
+    await renamePair(target, suggestions.get(target.sourceName) ?? fallbackName(target));
   }
 }
 
