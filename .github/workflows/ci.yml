@@ -8,6 +8,7 @@ on:
       - icons/**/*.svg
       - business-icons/**/*.svg
       - illustration-icons/**/*.svg
+  workflow_dispatch:
 
 permissions:
   id-token: write # Required for OIDC
@@ -20,7 +21,7 @@ concurrency:
 
 jobs:
   detect-figma-icon-merge:
-    if: github.repository == 'TianJianJun0727/ycloud-icons' && github.event_name == 'push'
+    if: github.repository == 'TianJianJun0727/ycloud-icons' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest
     outputs:
       SHOULD_RELEASE: ${{ steps.detect.outputs.SHOULD_RELEASE }}
@@ -35,9 +36,15 @@ jobs:
         id: detect
         env:
           GH_TOKEN: ${{ github.token }}
-          HEAD_MESSAGE: ${{ github.event.head_commit.message }}
+          HEAD_MESSAGE: ${{ github.event.head_commit.message || '' }}
         run: |
           echo "SHOULD_RELEASE=false" >> "$GITHUB_OUTPUT"
+
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "Manual icon release dispatch requested."
+            echo "SHOULD_RELEASE=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
           owner="${GITHUB_REPOSITORY%/*}"
           repo="${GITHUB_REPOSITORY#*/}"
@@ -125,7 +132,7 @@ jobs:
     timeout-minutes: 30
     if: >-
       github.repository == 'TianJianJun0727/ycloud-icons' &&
-      github.event_name == 'push' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
       needs.detect-figma-icon-merge.outputs.SHOULD_RELEASE == 'true'
     needs: detect-figma-icon-merge
     environment: ${{ needs.detect-figma-icon-merge.outputs.RELEASE_ENVIRONMENT }}
