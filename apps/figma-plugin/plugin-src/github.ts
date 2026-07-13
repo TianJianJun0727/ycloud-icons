@@ -5,7 +5,6 @@ import {
   sanitizeSvg,
 } from '../common/iconRules';
 import type { IconSourceType, YCloudIconData, YCloudMetadataOptions } from '../common/types';
-import { Base64 } from 'js-base64';
 const GITHUB_API_VERSION = '2022-11-28';
 interface TreeItem {
   path: string;
@@ -20,10 +19,6 @@ interface GitHubTree {
   }>;
   truncated?: boolean;
 }
-interface GitHubContentFile {
-  content: string;
-  encoding: string;
-}
 type IconMetadataIndex = {
   assets?: Array<{
     name?: string;
@@ -32,10 +27,6 @@ type IconMetadataIndex = {
     };
   }>;
 };
-
-function decodeBase64Json<T>(content: string): T {
-  return JSON.parse(Base64.decode(content.replace(/\s/g, ''))) as T;
-}
 
 function getBusinessColorMode(metadata: YCloudMetadataOptions) {
   if (metadata.businessColorMode === 'multicolor' || metadata.businessCategory === 'multicolor') {
@@ -222,6 +213,21 @@ export function createGithubClient(
     }
     return response.json();
   }
+  async function requestText(path: string, init?: RequestInit): Promise<string> {
+    const response = await fetch(`${API_URL}${path}`, {
+      ...init,
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        'X-GitHub-Api-Version': GITHUB_API_VERSION,
+        Accept: 'application/vnd.github.raw',
+        ...(init?.headers ?? {}),
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`GitHub 请求失败：${response.status} ${response.statusText}`);
+    }
+    return response.text();
+  }
   async function uploadBlob(content: string): Promise<{
     sha: string;
   }> {
@@ -250,8 +256,8 @@ export function createGithubClient(
   async function getTree(treeSha: string): Promise<GitHubTree> {
     return request(`/git/trees/${treeSha}?recursive=1`);
   }
-  async function getContent(path: string, ref: string): Promise<GitHubContentFile> {
-    return request(`/contents/${path}?ref=${ref}`);
+  async function getRawJson<T>(path: string, ref: string): Promise<T> {
+    return JSON.parse(await requestText(`/contents/${path}?ref=${ref}`)) as T;
   }
   async function createBranch(name: string, sha: string) {
     return request('/git/refs', {
@@ -355,9 +361,7 @@ export function createGithubClient(
     const [baseTree, iconMetadata] = await Promise.all([
       getTree(baseCommit.tree.sha),
       sourceType === 'generic'
-        ? getContent('icons/metadata/index.json', baseBranch).then((file) =>
-            decodeBase64Json<IconMetadataIndex>(file.content),
-          )
+        ? getRawJson<IconMetadataIndex>('icons/metadata/index.json', baseBranch)
         : Promise.resolve(undefined),
     ]);
     if (baseTree.truncated) {

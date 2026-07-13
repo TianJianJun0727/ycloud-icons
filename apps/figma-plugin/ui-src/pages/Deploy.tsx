@@ -1,4 +1,3 @@
-import { Base64 } from 'js-base64';
 import { h } from 'preact';
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { FRAME_NAME } from '../../common/constants';
@@ -30,11 +29,6 @@ type GitHubContentItem = {
   type: string;
 };
 
-type GitHubContentFile = {
-  content: string;
-  encoding: string;
-};
-
 type GitHubTree = {
   tree: Array<{
     path: string;
@@ -61,15 +55,6 @@ type BusinessIconIndex = {
   }>;
 };
 
-type IconMetadataIndex = {
-  assets?: Array<{
-    name?: string;
-    metadata?: {
-      aliases?: Array<string | { name?: string }>;
-    };
-  }>;
-};
-
 const GITHUB_API_VERSION = '2022-11-28';
 const businessColorModes = [
   { value: 'mono', label: '单色', description: 'business-icons/mono' },
@@ -85,14 +70,13 @@ const getCategoryLabel = (category: Category | undefined, fallback: string) => {
   return `${category.title} / ${category.englishTitle}`;
 };
 
-function decodeBase64Json<T>(content: string): T {
-  return JSON.parse(Base64.decode(content.replace(/\s/g, ''))) as T;
-}
-
-const createGitHubReadHeaders = (apiKey?: string): HeadersInit => {
+const createGitHubReadHeaders = (
+  apiKey?: string,
+  accept = 'application/vnd.github+json',
+): HeadersInit => {
   const headers: Record<string, string> = {
     'X-GitHub-Api-Version': GITHUB_API_VERSION,
-    Accept: 'application/vnd.github+json',
+    Accept: accept,
   };
   const token = apiKey?.trim();
   if (token) {
@@ -101,33 +85,30 @@ const createGitHubReadHeaders = (apiKey?: string): HeadersInit => {
   return headers;
 };
 
-async function fetchGitHubRead(url: string, apiKey?: string): Promise<Response> {
+async function fetchGitHubRead(
+  url: string,
+  apiKey?: string,
+  accept = 'application/vnd.github+json',
+): Promise<Response> {
   const token = apiKey?.trim();
   const response = await fetch(url, {
-    headers: createGitHubReadHeaders(token),
+    headers: createGitHubReadHeaders(token, accept),
   });
   if (response.status !== 401 || !token) {
     return response;
   }
   return fetch(url, {
-    headers: createGitHubReadHeaders(),
+    headers: createGitHubReadHeaders(undefined, accept),
   });
 }
 
-const uniqueList = (items: string[]) =>
-  items.filter((item, index, list) => list.indexOf(item) === index);
-
-const collectIconMetadataNames = (index: IconMetadataIndex) =>
-  uniqueList(
-    (index.assets ?? [])
-      .flatMap((asset) => [
-        asset.name,
-        ...(asset.metadata?.aliases ?? []).map((alias) =>
-          typeof alias === 'string' ? alias : alias.name,
-        ),
-      ])
-      .filter((name): name is string => typeof name === 'string' && name.length > 0),
-  );
+async function readGitHubRawJson<T>(url: string, apiKey?: string): Promise<T> {
+  const response = await fetchGitHubRead(url, apiKey, 'application/vnd.github.raw');
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText}`);
+  }
+  return JSON.parse(await response.text()) as T;
+}
 
 interface DeployProps {
   sourceType: IconSourceType;
@@ -371,13 +352,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     setCategoryMessage('');
     try {
       const apiUrl = `https://api.github.com/repos/${githubData.owner}/${githubData.name}`;
-      const [listResponse, treeResponse, businessIndexResponse, iconMetadataResponse] =
-        await Promise.all([
-          fetchGitHubRead(`${apiUrl}/contents/categories?ref=main`, githubApiKey),
-          fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
-          fetchGitHubRead(`${apiUrl}/contents/business-icons/index.json?ref=main`, githubApiKey),
-          fetchGitHubRead(`${apiUrl}/contents/icons/metadata/index.json?ref=main`, githubApiKey),
-        ]);
+      const [listResponse, treeResponse, businessIndex] = await Promise.all([
+        fetchGitHubRead(`${apiUrl}/contents/categories?ref=main`, githubApiKey),
+        fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
+        readGitHubRawJson<BusinessIconIndex>(
+          `${apiUrl}/contents/business-icons/index.json?ref=main`,
+          githubApiKey,
+        ),
+      ]);
       if (!listResponse.ok) {
         throw new Error(`${listResponse.status} ${listResponse.statusText}`);
       }
@@ -393,15 +375,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       const treeGenericIconNames = tree.tree
         .filter((item) => item.type === 'blob' && /^icons\/[^/]+\.svg$/.test(item.path))
         .map((item) => item.path.replace(/^icons\//, '').replace(/\.svg$/, ''));
-      const iconMetadata = iconMetadataResponse.ok
-        ? decodeBase64Json<IconMetadataIndex>(
-            ((await iconMetadataResponse.json()) as GitHubContentFile).content,
-          )
-        : undefined;
-      const metadataGenericIconNames = iconMetadata ? collectIconMetadataNames(iconMetadata) : [];
-      const nextExistingIconNames = Array.from(
-        new Set([...treeGenericIconNames, ...metadataGenericIconNames]),
-      );
+      const nextExistingIconNames = Array.from(new Set(treeGenericIconNames));
       const treeBusinessIconNames = tree.tree
         .filter(
           (item) => item.type === 'blob' && /^business-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
@@ -412,13 +386,6 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
         )
         .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, ''));
-      const businessIndex = businessIndexResponse.ok
-        ? decodeBase64Json<BusinessIconIndex>(
-            ((await businessIndexResponse.json()) as GitHubContentFile).content,
-          )
-        : (() => {
-            throw new Error(`${businessIndexResponse.status} ${businessIndexResponse.statusText}`);
-          })();
       const indexBusinessIconNames = (businessIndex.icons ?? [])
         .map((icon) => icon.name)
         .filter((name): name is string => typeof name === 'string' && name.length > 0);
@@ -427,22 +394,14 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       );
       const nextCategories = await Promise.all(
         jsonFiles.map(async (item) => {
-          const response = await fetchGitHubRead(
-            `${apiUrl}/contents/${item.path}?ref=main`,
-            githubApiKey,
-          );
-          if (!response.ok) {
-            throw new Error(`${response.status} ${response.statusText}`);
-          }
-          const file = (await response.json()) as GitHubContentFile;
-          const category = decodeBase64Json<{
+          const category = await readGitHubRawJson<{
             title: string;
             i18n?: {
               en?: {
                 title?: string;
               };
             };
-          }>(file.content);
+          }>(`${apiUrl}/contents/${item.path}?ref=main`, githubApiKey);
           return {
             key: item.name.replace(/\.json$/, ''),
             title: category.title,
