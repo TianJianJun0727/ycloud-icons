@@ -41,7 +41,12 @@
             "tags": ["Alipay", "illustration"],
             "use-cases": ["Alipay entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Alipay"
+          }
+        ]
       }
     },
     {
@@ -62,7 +67,12 @@
             "tags": ["API", "illustration"],
             "use-cases": ["API entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "API"
+          }
+        ]
       }
     },
     {
@@ -83,7 +93,12 @@
             "tags": ["BusinessAPP", "illustration"],
             "use-cases": ["BusinessAPP entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "BusinessAPP"
+          }
+        ]
       }
     },
     {
@@ -398,7 +413,12 @@
             "tags": ["Facebook", "illustration"],
             "use-cases": ["Facebook entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Facebook"
+          }
+        ]
       }
     },
     {
@@ -845,7 +865,12 @@
             "tags": ["Meta", "illustration"],
             "use-cases": ["Meta entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Meta"
+          }
+        ]
       }
     },
     {
@@ -1181,7 +1206,12 @@
             "tags": ["Tiktok", "illustration"],
             "use-cases": ["Tiktok entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Tiktok"
+          }
+        ]
       }
     },
     {
@@ -1307,7 +1337,12 @@
             "tags": ["Wechat pay", "illustration"],
             "use-cases": ["Wechat pay entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Wechat pay"
+          }
+        ]
       }
     },
     {
@@ -1328,7 +1363,12 @@
             "tags": ["WhatsApp", "illustration"],
             "use-cases": ["WhatsApp entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "WhatsApp"
+          }
+        ]
       }
     }
   ]

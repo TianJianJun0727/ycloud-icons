@@ -259,6 +259,13 @@ export function createGithubClient(
   async function getRawJson<T>(path: string, ref: string): Promise<T> {
     return JSON.parse(await requestText(`/contents/${path}?ref=${ref}`)) as T;
   }
+  async function getOptionalRawJson<T>(path: string, ref: string): Promise<T | undefined> {
+    try {
+      return await getRawJson<T>(path, ref);
+    } catch {
+      return undefined;
+    }
+  }
   async function createBranch(name: string, sha: string) {
     return request('/git/refs', {
       method: 'POST',
@@ -358,11 +365,15 @@ export function createGithubClient(
         : `feat(${scope}): add ${iconCount} icons`;
     const head = await getHead(baseBranch);
     const baseCommit = await getCommit(head.object.sha);
+    const metadataPath =
+      sourceType === 'business'
+        ? 'business-icons/metadata/index.json'
+        : sourceType === 'illustration'
+          ? 'illustration-icons/metadata/index.json'
+          : 'icons/metadata/index.json';
     const [baseTree, iconMetadata] = await Promise.all([
       getTree(baseCommit.tree.sha),
-      sourceType === 'generic'
-        ? getRawJson<IconMetadataIndex>('icons/metadata/index.json', baseBranch)
-        : Promise.resolve(undefined),
+      getOptionalRawJson<IconMetadataIndex>(metadataPath, baseBranch),
     ]);
     if (baseTree.truncated) {
       throw new Error(
@@ -374,13 +385,22 @@ export function createGithubClient(
         baseTree.tree.filter((item) => item.type === 'blob').map((item) => item.path),
       );
       const existingIconNames = new Set(iconMetadata ? collectIconMetadataNames(iconMetadata) : []);
-      const existingBusinessIconNames = new Set(
-        baseTree.tree
+      const existingBusinessIconNames = new Set([
+        ...baseTree.tree
           .filter(
             (item) => item.type === 'blob' && /^business-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
           )
           .map((item) => item.path.replace(/^business-icons\/[^/]+\//, '').replace(/\.svg$/, '')),
-      );
+        ...(sourceType === 'business' ? [...existingIconNames] : []),
+      ]);
+      const existingIllustrationNames = new Set([
+        ...baseTree.tree
+          .filter(
+            (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
+          )
+          .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, '')),
+        ...(sourceType === 'illustration' ? [...existingIconNames] : []),
+      ]);
       const conflicts = files
         .filter((file) => existingPaths.has(file.path))
         .map((file) => file.path);
@@ -402,7 +422,16 @@ export function createGithubClient(
               })
               .map((file) => `${file.path}（业务图标名称需跨颜色模式唯一）`)
           : [];
-      conflicts.push(...aliasConflicts, ...businessNameConflicts);
+      const illustrationNameConflicts =
+        sourceType === 'illustration'
+          ? files
+              .filter((file) => {
+                const name = file.path.match(/^illustration-icons\/(.+)\.svg$/)?.[1];
+                return Boolean(name && existingIllustrationNames.has(name));
+              })
+              .map((file) => `${file.path}（命中已有插画名称或别名）`)
+          : [];
+      conflicts.push(...aliasConflicts, ...businessNameConflicts, ...illustrationNameConflicts);
       if (conflicts.length > 0) {
         throw new Error(
           [

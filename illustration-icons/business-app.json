@@ -9,5 +9,10 @@
       "tags": ["BusinessAPP", "illustration"],
       "use-cases": ["BusinessAPP entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "BusinessAPP"
+    }
+  ]
 }

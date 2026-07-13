@@ -9,5 +9,10 @@
       "tags": ["Wechat pay", "illustration"],
       "use-cases": ["Wechat pay entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "Wechat pay"
+    }
+  ]
 }

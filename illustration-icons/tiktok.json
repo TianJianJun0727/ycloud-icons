@@ -9,5 +9,10 @@
       "tags": ["Tiktok", "illustration"],
       "use-cases": ["Tiktok entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "Tiktok"
+    }
+  ]
 }

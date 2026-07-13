@@ -9,5 +9,10 @@
       "tags": ["Facebook", "illustration"],
       "use-cases": ["Facebook entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "Facebook"
+    }
+  ]
 }

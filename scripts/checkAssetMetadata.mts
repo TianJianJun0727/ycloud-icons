@@ -34,7 +34,12 @@ function isNonEmptyStringArray(value: unknown) {
 }
 
 function findDuplicateItems(value: string[]) {
-  return [...value.reduce((map, item) => map.set(item, (map.get(item) ?? 0) + 1), new Map<string, number>())]
+  return [
+    ...value.reduce(
+      (map, item) => map.set(item, (map.get(item) ?? 0) + 1),
+      new Map<string, number>(),
+    ),
+  ]
     .filter(([, count]) => count > 1)
     .map(([item]) => item);
 }
@@ -44,12 +49,41 @@ function validateStringArray(file: string, field: string, value: unknown) {
     return [`${file}: ${field} must be non-empty.`];
   }
   const duplicates = findDuplicateItems(value);
-  return duplicates.length > 0 ? [`${file}: ${field} has duplicates: ${duplicates.join(', ')}.`] : [];
+  return duplicates.length > 0
+    ? [`${file}: ${field} has duplicates: ${duplicates.join(', ')}.`]
+    : [];
+}
+
+function getAliasName(alias: unknown) {
+  if (typeof alias === 'string') {
+    return alias;
+  }
+  if (alias && typeof alias === 'object' && 'name' in alias && typeof alias.name === 'string') {
+    return alias.name;
+  }
+  return undefined;
+}
+
+function validateAliases(file: string, value: unknown) {
+  if (value === undefined) {
+    return [];
+  }
+  if (!Array.isArray(value) || value.length === 0) {
+    return [`${file}: aliases must be non-empty when present.`];
+  }
+  const names = value.map(getAliasName);
+  if (names.some((name) => !name)) {
+    return [`${file}: aliases must contain strings or { name } objects.`];
+  }
+  const duplicates = findDuplicateItems(names as string[]);
+  return duplicates.length > 0
+    ? [`${file}: aliases has duplicates: ${duplicates.join(', ')}.`]
+    : [];
 }
 
 function validateMetadata(file: string, metadata: AssetMetadata) {
   const errors: string[] = [];
-  const allowedRootKeys = new Set(['$schema', 'name', 'tags', 'i18n', 'use-cases']);
+  const allowedRootKeys = new Set(['$schema', 'name', 'tags', 'i18n', 'use-cases', 'aliases']);
   const allowedI18nKeys = new Set(['en']);
   const allowedEnglishKeys = new Set(['name', 'tags', 'use-cases']);
   for (const key of Object.keys(metadata)) {
@@ -70,6 +104,7 @@ function validateMetadata(file: string, metadata: AssetMetadata) {
   if (!metadata.name) errors.push(`${file}: missing name.`);
   errors.push(...validateStringArray(file, 'tags', metadata.tags));
   errors.push(...validateStringArray(file, 'use-cases', metadata['use-cases']));
+  errors.push(...validateAliases(file, metadata.aliases));
   if (!metadata.i18n?.en?.name) errors.push(`${file}: missing i18n.en.name.`);
   errors.push(...validateStringArray(file, 'i18n.en.tags', metadata.i18n?.en?.tags));
   errors.push(...validateStringArray(file, 'i18n.en.use-cases', metadata.i18n?.en?.['use-cases']));
@@ -135,31 +170,28 @@ async function validateBusinessMetadata() {
   }
 
   errors.push(
-    ...(await validateMetadataFile(
-      'business-icons/metadata/index.json',
-      {
-        metadataVersion: 1,
-        type: 'business-icon',
-        assets: await Promise.all(
-          index.icons.map(async (icon) => {
-            const metadata = await readJson<Record<string, unknown>>(
-              path.join(repoRoot, icon.path.replace(/\.svg$/, '.json')),
-            );
-            return {
-              type: 'business-icon' as const,
-              name: icon.name,
-              path: icon.path,
-              title: getMetadataTitle(metadata),
-              englishName: getMetadataEnglishName(metadata),
-              componentName: icon.componentName,
-              category: icon.category,
-              colorMode: icon.category,
-              metadata,
-            };
-          }),
-        ),
-      },
-    )),
+    ...(await validateMetadataFile('business-icons/metadata/index.json', {
+      metadataVersion: 1,
+      type: 'business-icon',
+      assets: await Promise.all(
+        index.icons.map(async (icon) => {
+          const metadata = await readJson<Record<string, unknown>>(
+            path.join(repoRoot, icon.path.replace(/\.svg$/, '.json')),
+          );
+          return {
+            type: 'business-icon' as const,
+            name: icon.name,
+            path: icon.path,
+            title: getMetadataTitle(metadata),
+            englishName: getMetadataEnglishName(metadata),
+            componentName: icon.componentName,
+            category: icon.category,
+            colorMode: icon.category,
+            metadata,
+          };
+        }),
+      ),
+    })),
   );
   return errors;
 }
@@ -187,29 +219,26 @@ async function validateIllustrationMetadata() {
   }
 
   errors.push(
-    ...(await validateMetadataFile(
-      'illustration-icons/metadata/index.json',
-      {
-        metadataVersion: 1,
-        type: 'illustration',
-        assets: await Promise.all(
-          index.illustrations.map(async (illustration) => {
-            const metadata = await readJson<Record<string, unknown>>(
-              path.join(repoRoot, illustration.path.replace(/\.svg$/, '.json')),
-            );
-            return {
-              type: 'illustration' as const,
-              name: illustration.name,
-              path: illustration.path,
-              title: getMetadataTitle(metadata),
-              englishName: getMetadataEnglishName(metadata),
-              componentName: illustration.componentName,
-              metadata,
-            };
-          }),
-        ),
-      },
-    )),
+    ...(await validateMetadataFile('illustration-icons/metadata/index.json', {
+      metadataVersion: 1,
+      type: 'illustration',
+      assets: await Promise.all(
+        index.illustrations.map(async (illustration) => {
+          const metadata = await readJson<Record<string, unknown>>(
+            path.join(repoRoot, illustration.path.replace(/\.svg$/, '.json')),
+          );
+          return {
+            type: 'illustration' as const,
+            name: illustration.name,
+            path: illustration.path,
+            title: getMetadataTitle(metadata),
+            englishName: getMetadataEnglishName(metadata),
+            componentName: illustration.componentName,
+            metadata,
+          };
+        }),
+      ),
+    })),
   );
   return errors;
 }

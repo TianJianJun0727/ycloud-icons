@@ -9,5 +9,10 @@
       "tags": ["Alipay", "illustration"],
       "use-cases": ["Alipay entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "Alipay"
+    }
+  ]
 }

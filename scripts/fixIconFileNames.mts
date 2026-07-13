@@ -71,6 +71,33 @@ async function readJsonName(file: string) {
   }
 }
 
+async function addAliasToJson(file: string, aliasName: string) {
+  if (!(await fileExists(file))) {
+    return;
+  }
+
+  try {
+    const metadata = JSON.parse(await fs.readFile(file, 'utf-8')) as {
+      aliases?: Array<string | { name?: string }>;
+    };
+    const aliases = metadata.aliases ?? [];
+    const hasAlias = aliases.some((alias) =>
+      typeof alias === 'string' ? alias === aliasName : alias.name === aliasName,
+    );
+    if (hasAlias) {
+      return;
+    }
+    metadata.aliases = [...aliases, { name: aliasName }];
+    await fs.writeFile(file, `${JSON.stringify(metadata, null, 2)}\n`, 'utf-8');
+  } catch (error) {
+    console.warn(
+      `Failed to add alias "${aliasName}" to ${file}: ${
+        error instanceof Error ? error.message : String(error)
+      }`,
+    );
+  }
+}
+
 async function collectTargets(files: string[]) {
   const sourceNames = new Map<string, RenameTarget>();
 
@@ -191,6 +218,7 @@ async function renamePair(target: RenameTarget, targetName: string) {
   }
   if (await fileExists(target.jsonPath)) {
     await fs.rename(target.jsonPath, nextJsonPath);
+    await addAliasToJson(nextJsonPath, target.sourceName);
   }
 
   console.log(
