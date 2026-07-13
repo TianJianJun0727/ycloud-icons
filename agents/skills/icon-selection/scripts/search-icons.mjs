@@ -23,7 +23,7 @@ const { values } = parseArgs({
     },
     'cache-dir': {
       type: 'string',
-      default: path.join(os.homedir(), '.cache', 'ycloud-icons-design'),
+      default: path.join(os.homedir(), '.cache', 'ycloud-icons-selection'),
     },
     'refresh-cache': { type: 'boolean', default: false },
     'no-cache': { type: 'boolean', default: false },
@@ -517,8 +517,8 @@ const localVersion = getLocalVersion();
 const dataVersion = localVersion || (await getRemoteVersion());
 const cacheKey = hash(
   JSON.stringify({
-    script: 'ycloud-icons-design/search-icons',
-    version: 2,
+    script: 'ycloud-icons-selection/search-icons',
+    version: 3,
     repo: localVersion ? repo : undefined,
     metadataUrl: localVersion ? undefined : metadataUrl,
     dataVersion,
@@ -542,8 +542,17 @@ if (cacheInfo) {
   );
 }
 
+const confidenceForScore = (score) => {
+  if (score >= 40) return 'high';
+  if (score >= 18) return 'medium';
+  return 'low';
+};
+
 const scored = allItems
-  .map((item) => ({ ...item, score: scoreItem(item) }))
+  .map((item) => {
+    const score = scoreItem(item);
+    return { ...item, score, confidence: confidenceForScore(score) };
+  })
   .filter((item) => item.score > 0)
   .sort(
     (left, right) =>
@@ -560,6 +569,7 @@ if (values.json) {
     console.log(`${item.componentName} [${item.kind}] score=${item.score}`);
     console.log(`  import: ${item.importPath}`);
     console.log(`  source: ${item.path}`);
+    console.log(`  confidence: ${item.confidence}`);
     console.log(`  usage: ${item.usage}`);
   }
 }

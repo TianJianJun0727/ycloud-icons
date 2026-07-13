@@ -1,8 +1,27 @@
+---
+name: ycloud-icons-maintenance
+description: Use when modifying the ycloud-icons repository source assets, metadata, generated indexes, package outputs, release notes, npm publishing workflow, or documentation build flow. Covers generic icons, business icons, illustrations, validation, changelog, release, and docs deployment maintenance.
+---
+
 # YCloud Icons 图标维护 Skill
 
-## 适用对象
+## 适用对象与触发时机
 
 这份 Skill 只给会直接修改仓库的 AI / 代理使用。目标是让图标增删改流程尽量确定、可复现、低歧义。
+
+在这些场景触发：
+
+- 新增、删除、重命名、清洗或迁移 `icons/`、`business-icons/`、`illustration-icons/` 资源。
+- 补齐或修复图标 JSON metadata、分类、业务颜色模式、插画索引。
+- 修复图标源 PR 的检查、自动修复、自动合并或包构建失败。
+- 修复 `CHANGELOG.md`、`changelogs/releases/*.json`、GitHub Release 内容。
+- 调试或触发 npm 发布、GitHub tag、docs 部署、本地 docs 构建。
+
+不要在这些场景触发：
+
+- 只是给业务 UI 代码选择一个现有图标、业务图标或插画。用 `ycloud-icons-selection`。
+- 只需要解释某个图标组件如何使用，且不改仓库源码。
+- 用户明确要求只做产品/视觉建议，不涉及仓库文件。
 
 ## 执行原则
 
@@ -21,6 +40,22 @@
 业务图标必须维护逐图标 JSON；它的颜色模式来自目录级 `business-icons/<color-mode>/index.json` 和生成产物 `business-icons/index.json`。业务图标数据同时需要进入各包的 `business` 子入口。
 
 插画必须维护逐图标 JSON；它的索引来自生成产物 `illustration-icons/index.json`。插画数据同时需要进入各包的 `illustration` 子入口。
+
+## 快速路径
+
+先判断任务类型，然后只跑对应路径。不要一开始就全量重建所有包。
+
+| 任务                   | 必改文件                                                | 生成/校验                                                                                    |
+| ---------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 通用图标新增           | `icons/<name>.svg`、`icons/<name>.json`                 | `pnpm optimize`、`pnpm checkIcons`、`pnpm lint:json`                                         |
+| 通用图标删除           | 同时删除同名 `.svg` 和 `.json`                          | `pnpm checkIcons`、`rg -n "<name>" docs icons categories packages`                           |
+| 业务图标新增/移动/删除 | `business-icons/<mode>/*.svg`                           | `node ./scripts/writeBusinessIconIndex.mts`、`node ./scripts/checkBusinessSvgSource.mts`     |
+| 插画新增/删除          | `illustration-icons/*.svg`、同名 JSON                   | `node ./scripts/writeIllustrationIndex.mts`、`node ./scripts/checkIllustrationSvgSource.mts` |
+| docs 显示/搜索异常     | docs generated data 或 Vue 组件                         | `pnpm --dir docs docs:build:no-og` 或 `pnpm docs:build:github-pages`                         |
+| release notes 异常     | `changelogs/releases/v*.json`、`CHANGELOG.md`           | `pnpm generate:changelog`、`node scripts/writeGitHubReleaseNotes.mjs`                        |
+| npm 发布链路异常       | `.github/workflows/ci.yml`、`release.yml`、package 版本 | `gh run view ... --log-failed`、对应 package build/test                                      |
+
+如果任务跨越多类图标，按“通用图标 -> 业务图标 -> 插画 -> docs -> package/release”的顺序处理，避免生成物互相覆盖。
 
 ## 目录约定
 

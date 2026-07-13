@@ -19,9 +19,19 @@ Use this skill when the user asks or the implementation needs:
 - migrating from another icon library to YCloud icons
 - adding an icon to code and the exact component name is unknown
 
-When a design file already contains an icon, use the design as the visual and semantic constraint, then search the YCloud icon library for the closest existing component. Do not silently keep ad hoc SVG from the design unless no existing asset is suitable or the user explicitly asks to import the raw SVG.
-
 Do not use this skill for SVG source cleanup, package generation, release, or docs deployment. Use `icon-maintenance` for those repository maintenance tasks.
+
+## Design-To-Code Rule
+
+When a design file already contains an icon:
+
+1. Use the design icon's meaning, surrounding text, control type, and visual shape as constraints.
+2. Search YCloud icons with both semantic keywords and visible shape keywords.
+3. Prefer an existing YCloud component when it is semantically correct and visually close enough.
+4. If the closest library icon is semantically right but visually different, report the tradeoff before using it.
+5. Do not silently keep ad hoc SVG from the design unless no existing asset is suitable or the user explicitly asks to import the raw SVG.
+
+For icon-library migrations, search by the old component name and by the UI meaning. Do not assume one-to-one naming exists.
 
 ## Decision Rule
 
@@ -59,11 +69,14 @@ Good queries describe intent, not just nouns:
 node agents/skills/icon-selection/scripts/search-icons.mjs --query "客户搜索 输入框" --kind icon --limit 8
 node agents/skills/icon-selection/scripts/search-icons.mjs --query "账号未绑定 空状态" --kind illustration --limit 6
 node agents/skills/icon-selection/scripts/search-icons.mjs --query "whatsapp 渠道" --kind business --limit 6
+node agents/skills/icon-selection/scripts/search-icons.mjs --query "左箭头 返回 导航" --kind icon --limit 8
 ```
+
+For design icons, run at least one semantic query and one shape query when the first result is not clearly correct.
 
 ## Versioned Cache
 
-The script caches normalized search data in `~/.cache/ycloud-icons-design`:
+The script caches normalized search data in `~/.cache/ycloud-icons-selection`:
 
 - Local source version: current git `HEAD` plus dirty status under `icons/`, `business-icons/`, `illustration-icons/`, `categories/`, and `docs/public/metadata/`.
 - Remote source version: deployed `metadata/version.json` when available, otherwise metadata response headers.
@@ -94,6 +107,8 @@ When coding, keep the selected asset aligned with its intended level:
 - product/channel/legacy visual: business icon
 - page empty/error/no-permission state: illustration
 
+If the target framework is not React, keep the same component name and switch the package family, for example `@ycloud-web/icons-vue`, `@ycloud-web/icons-svelte`, `@ycloud-web/icons-solid`, or `@ycloud-web/icons-preact`.
+
 ## Recommendation Format
 
 Answer with:
@@ -104,6 +119,7 @@ Answer with:
 - reason it fits the UI context
 - why the other resource types are not preferred
 - styling limits
+- confidence level: high, medium, or low
 
 Example:
 
@@ -112,7 +128,10 @@ Example:
 原因：这是普通搜索操作，应优先使用符合规范的通用线性图标。
 不使用 business-icons：没有历史兼容或固定色诉求。
 不使用 illustration-icons：不是页面级状态插画。
+置信度：high
 ```
+
+If confidence is medium or low, list 2-3 candidates instead of forcing a single answer.
 
 ## Capability Notes
 
