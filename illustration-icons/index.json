@@ -6,6 +6,11 @@
       "componentName": "AccountUnbound"
     },
     {
+      "name": "alipay",
+      "path": "illustration-icons/alipay.svg",
+      "componentName": "Alipay"
+    },
+    {
       "name": "close-logo",
       "path": "illustration-icons/close-logo.svg",
       "componentName": "CloseLogo"
@@ -186,6 +191,11 @@
       "componentName": "PaymentMethodDisabled"
     },
     {
+      "name": "paypal",
+      "path": "illustration-icons/paypal.svg",
+      "componentName": "Paypal"
+    },
+    {
       "name": "register-phone",
       "path": "illustration-icons/register-phone.svg",
       "componentName": "RegisterPhone"
@@ -249,6 +259,11 @@
       "name": "waiting-status",
       "path": "illustration-icons/waiting-status.svg",
       "componentName": "WaitingStatus"
+    },
+    {
+      "name": "wechat-pay",
+      "path": "illustration-icons/wechat-pay.svg",
+      "componentName": "WechatPay"
     }
   ]
 }

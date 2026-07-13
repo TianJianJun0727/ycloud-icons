@@ -25,6 +25,27 @@
     },
     {
       "type": "illustration",
+      "name": "alipay",
+      "path": "illustration-icons/alipay.svg",
+      "title": "Alipay",
+      "englishName": "Alipay",
+      "componentName": "Alipay",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "Alipay",
+        "tags": ["Alipay", "插画"],
+        "use-cases": ["Alipay相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Alipay",
+            "tags": ["Alipay", "illustration"],
+            "use-cases": ["Alipay entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
       "name": "close-logo",
       "path": "illustration-icons/close-logo.svg",
       "title": "关闭 Logo",
@@ -850,6 +871,27 @@
     },
     {
       "type": "illustration",
+      "name": "paypal",
+      "path": "illustration-icons/paypal.svg",
+      "title": "paypal",
+      "englishName": "paypal",
+      "componentName": "Paypal",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "paypal",
+        "tags": ["paypal", "插画"],
+        "use-cases": ["paypal相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "paypal",
+            "tags": ["paypal", "illustration"],
+            "use-cases": ["paypal entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
       "name": "register-phone",
       "path": "illustration-icons/register-phone.svg",
       "title": "注册手机号",
@@ -1138,6 +1180,27 @@
             "name": "Waiting Status",
             "tags": ["waiting status", "waiting", "status"],
             "use-cases": ["Task waiting for processing", "Waiting state for async flow"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
+      "name": "wechat-pay",
+      "path": "illustration-icons/wechat-pay.svg",
+      "title": "Wechat pay",
+      "englishName": "Wechat pay",
+      "componentName": "WechatPay",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "Wechat pay",
+        "tags": ["Wechat pay", "插画"],
+        "use-cases": ["Wechat pay相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Wechat pay",
+            "tags": ["Wechat pay", "illustration"],
+            "use-cases": ["Wechat pay entry or status"]
           }
         }
       }
