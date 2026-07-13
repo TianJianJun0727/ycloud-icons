@@ -2,6 +2,10 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.3 - 2026-07-13
+
+- fix(ci): wrap app token script awaits (#91)
+
 ## v0.2.2 - 2026-07-01
 
 - Added support for the illustration icon workflow.

@@ -3,6 +3,16 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.3 - 2026-07-13
+
+### 中文
+
+- fix(ci): wrap app token script awaits (#91)
+
+### English
+
+- fix(ci): wrap app token script awaits (#91)
+
 ## v0.2.2 - 2026-07-01
 
 ### 中文
