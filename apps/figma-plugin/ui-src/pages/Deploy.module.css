@@ -300,6 +300,11 @@
   padding: 0;
 }
 
+.previewIllustrationButton {
+  height: 58px;
+  padding: 6px;
+}
+
 .previewIconButton:hover {
   border-color: var(--yc-brand);
   background: var(--yc-bg-hover);
@@ -340,6 +345,17 @@
 .previewIcon svg {
   width: 24px;
   height: 24px;
+}
+
+.previewIllustrationIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.previewIllustrationIcon svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .previewName,
@@ -488,6 +504,16 @@
   background: var(--yc-bg-secondary);
   color: var(--yc-text);
   padding: 10px;
+}
+
+.previewEmpty {
+  align-items: center;
+  display: flex;
+  min-height: 150px;
+  grid-column: 1 / -1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .rawData {

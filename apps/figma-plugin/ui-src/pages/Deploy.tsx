@@ -1,10 +1,11 @@
-import { Base64 } from 'js-base64';
 import { h } from 'preact';
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { Base64 } from 'js-base64';
 import { FRAME_NAME } from '../../common/constants';
 import {
   getBusinessSvgIssues,
   getBusinessIconNameIssues,
+  getTargetIconName,
   getIconNameIssues,
   getIconNameWarnings,
   getIllustrationSvgIssues,
@@ -12,7 +13,6 @@ import {
   sanitizeBusinessSvg,
   sanitizeIllustrationSvg,
   sanitizeSvg,
-  toKebabCase,
 } from '../../common/iconRules';
 import type { IconSourceType, YCloudIconData } from '../../common/types';
 import { useAppDispatch, useAppState } from '../contexts/AppContext';
@@ -30,11 +30,6 @@ type GitHubContentItem = {
   type: string;
 };
 
-type GitHubContentFile = {
-  content: string;
-  encoding: string;
-};
-
 type GitHubTree = {
   tree: Array<{
     path: string;
@@ -43,31 +38,9 @@ type GitHubTree = {
   truncated?: boolean;
 };
 
-type BusinessIconIndex = {
-  categories: Array<{
-    name: string;
-    title: string;
-    i18n: {
-      en: {
-        title: string;
-      };
-    };
-  }>;
-  icons?: Array<{
-    name?: string;
-    category?: string;
-    path?: string;
-    componentName?: string;
-  }>;
-};
-
-type IconMetadataIndex = {
-  assets?: Array<{
-    name?: string;
-    metadata?: {
-      aliases?: Array<string | { name?: string }>;
-    };
-  }>;
+type GitHubContentJsonEnvelope = {
+  content?: unknown;
+  encoding?: unknown;
 };
 
 const GITHUB_API_VERSION = '2022-11-28';
@@ -85,24 +58,57 @@ const getCategoryLabel = (category: Category | undefined, fallback: string) => {
   return `${category.title} / ${category.englishTitle}`;
 };
 
-function decodeBase64Json<T>(content: string): T {
-  return JSON.parse(Base64.decode(content.replace(/\s/g, ''))) as T;
+const getStringValue = (value: unknown, fallback: string) =>
+  typeof value === 'string' && value.trim().length > 0 ? value : fallback;
+
+const createGitHubReadHeaders = (
+  apiKey?: string,
+  accept = 'application/vnd.github+json',
+): HeadersInit => {
+  const headers: Record<string, string> = {
+    'X-GitHub-Api-Version': GITHUB_API_VERSION,
+    Accept: accept,
+  };
+  const token = apiKey?.trim();
+  if (token) {
+    headers.Authorization = `Bearer ${token}`;
+  }
+  return headers;
+};
+
+async function fetchGitHubRead(
+  url: string,
+  apiKey?: string,
+  accept = 'application/vnd.github+json',
+): Promise<Response> {
+  const token = apiKey?.trim();
+  const response = await fetch(url, {
+    headers: createGitHubReadHeaders(token, accept),
+  });
+  if (response.status !== 401 || !token) {
+    return response;
+  }
+  return fetch(url, {
+    headers: createGitHubReadHeaders(undefined, accept),
+  });
 }
 
-const uniqueList = (items: string[]) =>
-  items.filter((item, index, list) => list.indexOf(item) === index);
-
-const collectIconMetadataNames = (index: IconMetadataIndex) =>
-  uniqueList(
-    (index.assets ?? [])
-      .flatMap((asset) => [
-        asset.name,
-        ...(asset.metadata?.aliases ?? []).map((alias) =>
-          typeof alias === 'string' ? alias : alias.name,
-        ),
-      ])
-      .filter((name): name is string => typeof name === 'string' && name.length > 0),
-  );
+async function readGitHubRawJson<T>(url: string, apiKey?: string): Promise<T> {
+  const response = await fetchGitHubRead(url, apiKey, 'application/vnd.github.raw+json');
+  if (!response.ok) {
+    throw new Error(`${response.status} ${response.statusText}`);
+  }
+  const parsed = JSON.parse(await response.text()) as T | GitHubContentJsonEnvelope;
+  const envelopeContent = (parsed as GitHubContentJsonEnvelope | undefined)?.content;
+  if (parsed && typeof parsed === 'object' && typeof envelopeContent === 'string') {
+    const content = envelopeContent.replace(/\s/g, '');
+    if (!content) {
+      throw new Error('GitHub JSON 文件内容为空，无法同步数据。');
+    }
+    return JSON.parse(Base64.decode(content)) as T;
+  }
+  return parsed as T;
+}
 
 interface DeployProps {
   sourceType: IconSourceType;
@@ -153,7 +159,9 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           : `已同步 ${categories.length} 个已有分类、${existingGenericIconNames.length} 个通用图标。`
       : categoryMessage;
   const existingIconSet = useMemo(() => new Set(existingIconNames), [existingIconNames]);
-  const getTargetIconKey = (name: string, data?: YCloudIconData) => toKebabCase(data?.name || name);
+  const sourceTypeItemName = sourceType === 'illustration' ? '插画' : '图标';
+  const getTargetIconKey = (name: string, data?: YCloudIconData) =>
+    getTargetIconName(data?.figma?.name, data?.name, name);
   const targetIconNameCounts = useMemo(() => {
     const counts = new Map<string, number>();
     for (const [name, data] of icons) {
@@ -184,9 +192,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           issues.push(`本次预览中存在重复目标名：${targetName}`);
         }
         const warnings = [
-          ...(sourceType === 'business' || sourceType === 'illustration'
-            ? []
-            : getIconNameWarnings(sourceName)),
+          ...getIconNameWarnings(sourceName),
           ...(sourceType === 'generic' && svg.trim() !== cleanedSvg.trim()
             ? ['SVG 会在提交时自动清洗。']
             : []),
@@ -346,27 +352,11 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     setIsLoadingCategories(true);
     setCategoryMessage('');
     try {
-      const headers = {
-        Authorization: `Bearer ${githubApiKey}`,
-        'X-GitHub-Api-Version': GITHUB_API_VERSION,
-        Accept: 'application/vnd.github+json',
-      };
       const apiUrl = `https://api.github.com/repos/${githubData.owner}/${githubData.name}`;
-      const [listResponse, treeResponse, businessIndexResponse, iconMetadataResponse] =
-        await Promise.all([
-          fetch(`${apiUrl}/contents/categories?ref=main`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/git/trees/main?recursive=1`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/contents/business-icons/index.json?ref=main`, {
-            headers,
-          }),
-          fetch(`${apiUrl}/contents/icons/metadata/index.json?ref=main`, {
-            headers,
-          }),
-        ]);
+      const [listResponse, treeResponse] = await Promise.all([
+        fetchGitHubRead(`${apiUrl}/contents/categories?ref=main`, githubApiKey),
+        fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
+      ]);
       if (!listResponse.ok) {
         throw new Error(`${listResponse.status} ${listResponse.statusText}`);
       }
@@ -382,15 +372,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       const treeGenericIconNames = tree.tree
         .filter((item) => item.type === 'blob' && /^icons\/[^/]+\.svg$/.test(item.path))
         .map((item) => item.path.replace(/^icons\//, '').replace(/\.svg$/, ''));
-      const iconMetadata = iconMetadataResponse.ok
-        ? decodeBase64Json<IconMetadataIndex>(
-            ((await iconMetadataResponse.json()) as GitHubContentFile).content,
-          )
-        : undefined;
-      const metadataGenericIconNames = iconMetadata ? collectIconMetadataNames(iconMetadata) : [];
-      const nextExistingIconNames = Array.from(
-        new Set([...treeGenericIconNames, ...metadataGenericIconNames]),
-      );
+      const nextExistingIconNames = Array.from(new Set(treeGenericIconNames));
       const treeBusinessIconNames = tree.tree
         .filter(
           (item) => item.type === 'blob' && /^business-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
@@ -401,45 +383,33 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
         )
         .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, ''));
-      const businessIndex = businessIndexResponse.ok
-        ? decodeBase64Json<BusinessIconIndex>(
-            ((await businessIndexResponse.json()) as GitHubContentFile).content,
-          )
-        : (() => {
-            throw new Error(`${businessIndexResponse.status} ${businessIndexResponse.statusText}`);
-          })();
-      const indexBusinessIconNames = (businessIndex.icons ?? [])
-        .map((icon) => icon.name)
-        .filter((name): name is string => typeof name === 'string' && name.length > 0);
-      const nextExistingBusinessIconNames = Array.from(
-        new Set([...indexBusinessIconNames, ...treeBusinessIconNames]),
-      );
+      const nextExistingBusinessIconNames = Array.from(new Set(treeBusinessIconNames));
       const nextCategories = await Promise.all(
         jsonFiles.map(async (item) => {
-          const response = await fetch(`${apiUrl}/contents/${item.path}?ref=main`, {
-            headers,
-          });
-          if (!response.ok) {
-            throw new Error(`${response.status} ${response.statusText}`);
-          }
-          const file = (await response.json()) as GitHubContentFile;
-          const category = decodeBase64Json<{
-            title: string;
+          const category = await readGitHubRawJson<{
+            title?: unknown;
             i18n?: {
               en?: {
-                title?: string;
+                title?: unknown;
               };
             };
-          }>(file.content);
+          }>(`${apiUrl}/contents/${item.path}?ref=main`, githubApiKey);
+          const key = item.name.replace(/\.json$/, '');
+          const title = getStringValue(category.title, key);
           return {
-            key: item.name.replace(/\.json$/, ''),
-            title: category.title,
-            englishTitle: category.i18n?.en?.title ?? item.name.replace(/\.json$/, ''),
+            key,
+            title,
+            englishTitle: getStringValue(category.i18n?.en?.title, key),
           };
         }),
       );
       setCategories(
-        nextCategories.sort((left, right) => left.title.localeCompare(right.title, 'zh-Hans-CN')),
+        nextCategories.sort((left, right) =>
+          getStringValue(left.title, left.key).localeCompare(
+            getStringValue(right.title, right.key),
+            'zh-Hans-CN',
+          ),
+        ),
       );
       setExistingGenericIconNames(nextExistingIconNames);
       setExistingBusinessIconNames(nextExistingBusinessIconNames);
@@ -510,13 +480,13 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       <section className={styles.card}>
         <div className={styles.row}>
           <div>
-            <h2 className={styles.title}>提交图标</h2>
+            <h2 className={styles.title}>提交{sourceTypeLabel}</h2>
             <p className={styles.muted}>
-              读取当前选中的图标或区块；未选择时读取 <strong>{FRAME_NAME}</strong>。
+              读取当前选中的{sourceTypeItemName}或区块；未选择时读取 <strong>{FRAME_NAME}</strong>。
             </p>
           </div>
           <span className={[styles.badge, icons.length > 0 ? styles.badgeReady : ''].join(' ')}>
-            {icons.length} 个图标
+            {icons.length} 个{sourceTypeItemName}
           </span>
         </div>
         <div className={styles.repoLine}>
@@ -579,7 +549,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           {sourceType === 'business'
             ? '当前提交到 business-icons/<颜色模式>/*.svg。'
             : sourceType === 'illustration'
-              ? '当前提交到 illustration-icons/*.svg。'
+              ? '当前提交到 illustration-icons/*.svg；插画不要求 24x24，预览按容器等比缩放，提交时保留原始颜色和尺寸属性。'
               : '当前提交到 icons/*.svg，并提交所选分类。'}
         </p>
       </section>
@@ -790,7 +760,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                 );
               }}
             >
-              选择可提交图标
+              选择可提交{sourceTypeItemName}
             </button>
             <button
               className={styles.secondaryButton}
@@ -835,7 +805,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                 <div className={styles.previewItemHeader}>
                   <label
                     className={styles.previewCheckbox}
-                    aria-label={`选择图标 ${previewLabel}`}
+                    aria-label={`选择${sourceTypeItemName} ${previewLabel}`}
                   >
                     <input
                       className={styles.checkbox}
@@ -864,7 +834,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                   </span>
                 </div>
                 <button
-                  className={styles.previewIconButton}
+                  className={[
+                    styles.previewIconButton,
+                    sourceType === 'illustration' ? styles.previewIllustrationButton : '',
+                  ].join(' ')}
                   type="button"
                   aria-label={
                     disabledReasons.length > 0
@@ -876,7 +849,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                   }}
                 >
                   <span
-                    className={styles.previewIcon}
+                    className={[
+                      styles.previewIcon,
+                      sourceType === 'illustration' ? styles.previewIllustrationIcon : '',
+                    ].join(' ')}
                     dangerouslySetInnerHTML={{ __html: previewSvg }}
                   />
                 </button>
@@ -896,10 +872,11 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             );
           })}
           {icons.length === 0 && (
-            <div className={styles.empty}>
-              <p className={styles.title}>还没有可提交的图标</p>
+            <div className={[styles.empty, styles.previewEmpty].join(' ')}>
+              <p className={styles.title}>还没有可提交的{sourceTypeItemName}</p>
               <p className={styles.muted}>
-                请在画布中准备名为 {FRAME_NAME} 的画框或区块，并放入图标组件。
+                请在画布中准备名为 {FRAME_NAME} 的画框或区块，并放入
+                {sourceTypeItemName}。
               </p>
             </div>
           )}
@@ -1035,7 +1012,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             {sourceType === 'business'
               ? '清洗：移除脚本、事件属性、style/class/data-*、未引用 id 和 javascript: 链接；按颜色模式处理 fill/stroke，不添加通用描边属性。'
               : sourceType === 'illustration'
-                ? '清洗：移除脚本、事件属性、style/class/data-*、未引用 id 和 javascript: 链接；保留原始颜色和尺寸属性。'
+                ? '清洗：仅移除脚本、事件属性、style/class/data-*、未引用 id 和 javascript: 链接；不做 24x24 尺寸清洗，保留原始颜色和尺寸属性。'
                 : '清洗：统一 24x24 viewBox、currentColor、stroke-width=2、round linecap/linejoin，并移除 style 和硬编码颜色。'}
           </p>
         )}
@@ -1045,7 +1022,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           disabled={!canDeploy}
           onClick={deploy}
         >
-          {isDeploying ? '提交中' : '提交图标'}
+          {isDeploying ? '提交中' : `提交${sourceTypeLabel}`}
         </button>
       </section>
     </div>

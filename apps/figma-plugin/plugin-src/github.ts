@@ -1,11 +1,10 @@
 import {
+  getTargetIconName,
   sanitizeBusinessSvg,
   sanitizeIllustrationSvg,
   sanitizeSvg,
-  toKebabCase,
 } from '../common/iconRules';
 import type { IconSourceType, YCloudIconData, YCloudMetadataOptions } from '../common/types';
-import { Base64 } from 'js-base64';
 const GITHUB_API_VERSION = '2022-11-28';
 interface TreeItem {
   path: string;
@@ -20,10 +19,6 @@ interface GitHubTree {
   }>;
   truncated?: boolean;
 }
-interface GitHubContentFile {
-  content: string;
-  encoding: string;
-}
 type IconMetadataIndex = {
   assets?: Array<{
     name?: string;
@@ -32,10 +27,6 @@ type IconMetadataIndex = {
     };
   }>;
 };
-
-function decodeBase64Json<T>(content: string): T {
-  return JSON.parse(Base64.decode(content.replace(/\s/g, ''))) as T;
-}
 
 function getBusinessColorMode(metadata: YCloudMetadataOptions) {
   if (metadata.businessColorMode === 'multicolor' || metadata.businessCategory === 'multicolor') {
@@ -114,9 +105,43 @@ function createAssetJson(icon: YCloudIconData, fallbackName: string, kind: IconS
     },
   };
 }
+
+function getAutoRenameNotes(icons: Record<string, YCloudIconData>) {
+  const notes = Object.entries(icons)
+    .map(([key, icon]) => {
+      const rawName = icon.figma?.name || icon.name || key;
+      const targetName = getTargetIconName(icon.figma?.name, icon.name, key);
+      const normalizedRawName = rawName.trim().toLowerCase();
+      const shouldReviewName =
+        /[\u3400-\u9fff]/.test(rawName) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(normalizedRawName);
+      return shouldReviewName ? `- \`${targetName}\`：Figma 原名 \`${rawName}\`` : undefined;
+    })
+    .filter((note): note is string => typeof note === 'string');
+  if (notes.length === 0) {
+    return [];
+  }
+  return ['部分图标使用 Figma 原始名称提交，请由 GitHub Action / AI 确认并重命名：', ...notes];
+}
+
+function getInvalidUploadNameMessages(icons: Record<string, YCloudIconData>) {
+  return Object.entries(icons)
+    .map(([key, icon]) => {
+      const rawName = icon.figma?.name || icon.name || key;
+      const targetName = getTargetIconName(icon.figma?.name, icon.name, key);
+      if (!targetName) {
+        return `- \`${rawName || key}\`：名称不能为空`;
+      }
+      if (/[\\/]/.test(targetName)) {
+        return `- \`${rawName}\`：名称不能包含 / 或反斜杠`;
+      }
+      return undefined;
+    })
+    .filter((message): message is string => typeof message === 'string');
+}
+
 function buildYCloudFiles(icons: Record<string, YCloudIconData>, metadata: YCloudMetadataOptions) {
   const iconFiles = Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `icons/${name}.svg`,
@@ -136,7 +161,7 @@ function buildBusinessIconFiles(
 ) {
   const businessColorMode = getBusinessColorMode(metadata);
   return Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `business-icons/${businessColorMode}/${name}.svg`,
@@ -151,7 +176,7 @@ function buildBusinessIconFiles(
 }
 function buildIllustrationFiles(icons: Record<string, YCloudIconData>) {
   return Object.entries(icons).flatMap(([key, icon]) => {
-    const name = toKebabCase(icon.name || key);
+    const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
         path: `illustration-icons/${name}.svg`,
@@ -188,6 +213,21 @@ export function createGithubClient(
     }
     return response.json();
   }
+  async function requestText(path: string, init?: RequestInit): Promise<string> {
+    const response = await fetch(`${API_URL}${path}`, {
+      ...init,
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        'X-GitHub-Api-Version': GITHUB_API_VERSION,
+        Accept: 'application/vnd.github.raw+json',
+        ...(init?.headers ?? {}),
+      },
+    });
+    if (!response.ok) {
+      throw new Error(`GitHub 请求失败：${response.status} ${response.statusText}`);
+    }
+    return response.text();
+  }
   async function uploadBlob(content: string): Promise<{
     sha: string;
   }> {
@@ -216,8 +256,8 @@ export function createGithubClient(
   async function getTree(treeSha: string): Promise<GitHubTree> {
     return request(`/git/trees/${treeSha}?recursive=1`);
   }
-  async function getContent(path: string, ref: string): Promise<GitHubContentFile> {
-    return request(`/contents/${path}?ref=${ref}`);
+  async function getRawJson<T>(path: string, ref: string): Promise<T> {
+    return JSON.parse(await requestText(`/contents/${path}?ref=${ref}`)) as T;
   }
   async function createBranch(name: string, sha: string) {
     return request('/git/refs', {
@@ -282,6 +322,12 @@ export function createGithubClient(
     const baseBranch = 'main';
     const newBranch = `figma-plugin/${Date.now()}`;
     const businessColorMode = getBusinessColorMode(metadata);
+    const invalidUploadNameMessages = getInvalidUploadNameMessages(icons);
+    if (invalidUploadNameMessages.length > 0) {
+      throw new Error(
+        ['部分图标名称无法作为提交文件名。', ...invalidUploadNameMessages].join('\n'),
+      );
+    }
     const files =
       sourceType === 'business'
         ? buildBusinessIconFiles(icons, metadata)
@@ -298,6 +344,7 @@ export function createGithubClient(
       );
     }
     const reviewNotes: string[] = [];
+    reviewNotes.push(...getAutoRenameNotes(icons));
     const iconCount = Object.keys(icons).length;
     const scope =
       sourceType === 'business'
@@ -314,9 +361,7 @@ export function createGithubClient(
     const [baseTree, iconMetadata] = await Promise.all([
       getTree(baseCommit.tree.sha),
       sourceType === 'generic'
-        ? getContent('icons/metadata/index.json', baseBranch).then((file) =>
-            decodeBase64Json<IconMetadataIndex>(file.content),
-          )
+        ? getRawJson<IconMetadataIndex>('icons/metadata/index.json', baseBranch)
         : Promise.resolve(undefined),
     ]);
     if (baseTree.truncated) {
