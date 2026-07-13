@@ -9,5 +9,10 @@
       "tags": ["WhatsApp", "illustration"],
       "use-cases": ["WhatsApp entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "WhatsApp"
+    }
+  ]
 }

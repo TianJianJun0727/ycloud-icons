@@ -9,5 +9,10 @@
       "tags": ["Meta", "illustration"],
       "use-cases": ["Meta entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "Meta"
+    }
+  ]
 }

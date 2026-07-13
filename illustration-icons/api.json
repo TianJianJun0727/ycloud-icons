@@ -9,5 +9,10 @@
       "tags": ["API", "illustration"],
       "use-cases": ["API entry or status"]
     }
-  }
+  },
+  "aliases": [
+    {
+      "name": "API"
+    }
+  ]
 }

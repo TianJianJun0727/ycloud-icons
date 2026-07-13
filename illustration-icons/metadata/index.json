@@ -67,7 +67,12 @@
             "tags": ["API", "illustration"],
             "use-cases": ["API entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "API"
+          }
+        ]
       }
     },
     {
@@ -88,7 +93,12 @@
             "tags": ["BusinessAPP", "illustration"],
             "use-cases": ["BusinessAPP entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "BusinessAPP"
+          }
+        ]
       }
     },
     {
@@ -403,7 +413,12 @@
             "tags": ["Facebook", "illustration"],
             "use-cases": ["Facebook entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Facebook"
+          }
+        ]
       }
     },
     {
@@ -850,7 +865,12 @@
             "tags": ["Meta", "illustration"],
             "use-cases": ["Meta entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Meta"
+          }
+        ]
       }
     },
     {
@@ -1186,7 +1206,12 @@
             "tags": ["Tiktok", "illustration"],
             "use-cases": ["Tiktok entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Tiktok"
+          }
+        ]
       }
     },
     {
@@ -1338,7 +1363,12 @@
             "tags": ["WhatsApp", "illustration"],
             "use-cases": ["WhatsApp entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "WhatsApp"
+          }
+        ]
       }
     }
   ]
