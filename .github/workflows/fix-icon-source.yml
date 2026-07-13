@@ -120,11 +120,11 @@ jobs:
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           svg_files=()
-          for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+          while IFS= read -r -d '' file; do
             if [[ "$file" == icons/*.svg && -f "$file" ]]; then
               svg_files+=("$file")
             fi
-          done
+          done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons)
 
           if (( ${#svg_files[@]} > 0 )); then
             node ./scripts/optimizeStagedSvgs.mts "${svg_files[@]}"
@@ -132,11 +132,11 @@ jobs:
           fi
 
           business_svg_files=()
-          for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+          while IFS= read -r -d '' file; do
             if [[ "$file" == business-icons/*/*.svg && -f "$file" ]]; then
               business_svg_files+=("$file")
             fi
-          done
+          done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- business-icons)
 
           if (( ${#business_svg_files[@]} > 0 )); then
             node ./scripts/optimizeStagedBusinessSvgs.mts "${business_svg_files[@]}"
@@ -150,11 +150,11 @@ jobs:
 
           if [[ "${{ steps.source-change-kind.outputs.illustration_changed }}" == "true" ]]; then
             illustration_svg_files=()
-            for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+            while IFS= read -r -d '' file; do
               if [[ "$file" == illustration-icons/*.svg && -f "$file" ]]; then
                 illustration_svg_files+=("$file")
               fi
-            done
+            done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- illustration-icons)
 
             if (( ${#illustration_svg_files[@]} > 0 )); then
               pnpm exec prettier --parser html --write "${illustration_svg_files[@]}"
@@ -172,13 +172,13 @@ jobs:
           AI_MODEL: ${{ vars.AI_MODEL }}
         run: |
           json_files=()
-          for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+          while IFS= read -r -d '' file; do
             if [[ "$file" == icons/*.json && "$file" != icons/*/*.json && "$file" != icons/package.json && -f "$file" ]]; then
               json_files+=("$file")
             elif [[ "$file" == categories/*.json && "$file" != categories/*/*.json && -f "$file" ]]; then
               json_files+=("$file")
             fi
-          done
+          done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons categories)
 
           if (( ${#json_files[@]} > 0 )); then
             node ./scripts/fixMetadata.mts "${json_files[@]}"
@@ -194,11 +194,11 @@ jobs:
         if: steps.source-change-kind.outputs.generic_source_changed == 'true' || steps.source-change-kind.outputs.business_source_changed == 'true' || steps.source-change-kind.outputs.illustration_source_changed == 'true'
         run: |
           format_files=()
-          for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+          while IFS= read -r -d '' file; do
             if [[ ( "$file" == icons/*.json || "$file" == categories/*.json || "$file" == business-icons/*.json || "$file" == business-icons/*/*.json || "$file" == illustration-icons/*.json ) && -f "$file" ]]; then
               format_files+=("$file")
             fi
-          done
+          done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons categories business-icons illustration-icons)
 
           if (( ${#format_files[@]} > 0 )); then
             pnpm exec oxfmt "${format_files[@]}"
@@ -210,7 +210,7 @@ jobs:
           icon_json_files=()
           category_json_files=()
           added_generic_source_files=()
-          for file in ${{ steps.changed-files.outputs.added_files }} ${{ steps.changed-files.outputs.modified_files }} ${{ steps.changed-files.outputs.renamed_files }}; do
+          while IFS= read -r -d '' file; do
             if [[ "$file" == icons/*.svg && "$file" != icons/*/*.svg && -f "$file" ]]; then
               generic_svg_files+=("$file")
             elif [[ "$file" == icons/*.json && "$file" != icons/*/*.json && "$file" != icons/package.json && -f "$file" ]]; then
@@ -218,14 +218,14 @@ jobs:
             elif [[ "$file" == categories/*.json && "$file" != categories/*/*.json && -f "$file" ]]; then
               category_json_files+=("$file")
             fi
-          done
-          for file in ${{ steps.changed-files.outputs.added_files }}; do
+          done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons categories)
+          while IFS= read -r -d '' file; do
             if [[ "$file" == icons/*.svg && "$file" != icons/*/*.svg && -f "$file" ]]; then
               added_generic_source_files+=("$file")
             elif [[ "$file" == icons/*.json && "$file" != icons/*/*.json && "$file" != icons/package.json && -f "$file" ]]; then
               added_generic_source_files+=("$file")
             fi
-          done
+          done < <(git diff --name-only -z --diff-filter=A ${{ github.event.pull_request.base.sha }} -- icons)
 
           if [[ "${{ steps.source-change-kind.outputs.generic_changed }}" == "true" ]]; then
             if (( ${#generic_svg_files[@]} > 0 )); then

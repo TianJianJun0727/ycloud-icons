@@ -219,7 +219,7 @@ export function createGithubClient(
       headers: {
         Authorization: `Bearer ${accessToken}`,
         'X-GitHub-Api-Version': GITHUB_API_VERSION,
-        Accept: 'application/vnd.github.raw',
+        Accept: 'application/vnd.github.raw+json',
         ...(init?.headers ?? {}),
       },
     });

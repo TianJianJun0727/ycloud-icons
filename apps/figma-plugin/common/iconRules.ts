@@ -192,6 +192,13 @@ function isWhiteColor(value: string) {
   );
 }
 
+function getReferencedIds(svg: string) {
+  return new Set([
+    ...[...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]),
+    ...[...svg.matchAll(/\b(?:href|xlink:href)=["']#([^"']+)["']/g)].map((match) => match[1]),
+  ]);
+}
+
 export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMode = 'mono') {
   const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
   if (!openTag) return svg.trim();
@@ -204,7 +211,7 @@ export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMod
             ? '<svg fill="var(--business-icon-primary-color)"'
             : '<svg fill="currentColor"',
         );
-  const referencedIds = new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+  const referencedIds = getReferencedIds(svg);
 
   const normalized = svg
     .replace(openTag, cleanedOpenTag)
@@ -232,7 +239,7 @@ export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMod
 export function sanitizeIllustrationSvg(svg: string) {
   const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
   if (!openTag) return svg.trim();
-  const referencedIds = new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+  const referencedIds = getReferencedIds(svg);
 
   const normalized = svg
     .replace(
