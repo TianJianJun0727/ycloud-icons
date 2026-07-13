@@ -1,0 +1,23 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "Meta",
+  "tags": [
+    "Meta",
+    "插画"
+  ],
+  "use-cases": [
+    "Meta相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Meta",
+      "tags": [
+        "Meta",
+        "illustration"
+      ],
+      "use-cases": [
+        "Meta entry or status"
+      ]
+    }
+  }
+}

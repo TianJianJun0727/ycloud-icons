@@ -1,0 +1,23 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "WhatsApp",
+  "tags": [
+    "WhatsApp",
+    "插画"
+  ],
+  "use-cases": [
+    "WhatsApp相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "WhatsApp",
+      "tags": [
+        "WhatsApp",
+        "illustration"
+      ],
+      "use-cases": [
+        "WhatsApp entry or status"
+      ]
+    }
+  }
+}
