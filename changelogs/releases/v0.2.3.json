@@ -1,0 +1,10 @@
+{
+  "tag": "v0.2.3",
+  "date": "2026-07-13",
+  "zh": [
+    "fix(ci): wrap app token script awaits (#91)"
+  ],
+  "en": [
+    "fix(ci): wrap app token script awaits (#91)"
+  ]
+}
