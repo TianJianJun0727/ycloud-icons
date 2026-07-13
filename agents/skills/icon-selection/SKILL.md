@@ -5,7 +5,7 @@ description: Use during YCloud application development when choosing existing ge
 
 # YCloud Icons Selection
 
-Use this skill when implementing UI code and choosing visuals from this repository for a page, component, feature, empty state, or documentation example.
+Use this skill when implementing UI code and choosing visuals from this repository for a page, component, feature, empty state, or documentation example. Trigger it whether or not a design file exists.
 
 ## Trigger When
 
@@ -13,10 +13,13 @@ Use this skill when the user asks or the implementation needs:
 
 - “这个按钮/菜单/页面用什么图标”
 - “查一下有没有某个图标”
+- “把设计稿里的 icon 落到代码里”
 - “没有设计稿，帮我选合适的 icon”
 - “这个业务场景有没有已有图标或插画”
 - migrating from another icon library to YCloud icons
 - adding an icon to code and the exact component name is unknown
+
+When a design file already contains an icon, use the design as the visual and semantic constraint, then search the YCloud icon library for the closest existing component. Do not silently keep ad hoc SVG from the design unless no existing asset is suitable or the user explicitly asks to import the raw SVG.
 
 Do not use this skill for SVG source cleanup, package generation, release, or docs deployment. Use `icon-maintenance` for those repository maintenance tasks.
 
