@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Language",
+  "tags": [
+    "Language",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Language相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Language",
+      "tags": [
+        "Language",
+        "business icon"
+      ],
+      "use-cases": [
+        "Language entry or status"
+      ]
+    }
+  }
+}

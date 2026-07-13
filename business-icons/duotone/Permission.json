@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Permission",
+  "tags": [
+    "Permission",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Permission相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Permission",
+      "tags": [
+        "Permission",
+        "business icon"
+      ],
+      "use-cases": [
+        "Permission entry or status"
+      ]
+    }
+  }
+}

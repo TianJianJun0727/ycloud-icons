@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Status",
+  "tags": [
+    "Status",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Status相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Status",
+      "tags": [
+        "Status",
+        "business icon"
+      ],
+      "use-cases": [
+        "Status entry or status"
+      ]
+    }
+  }
+}
