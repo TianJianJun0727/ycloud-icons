@@ -4,7 +4,14 @@
 
 ## v0.2.3 - 2026-07-13
 
-- fix(ci): wrap app token script awaits (#91)
+- Improved the release, npm publishing, and documentation deployment flow, including manual full icon release dispatch and more stable GitHub App token and auto-merge handling.
+- Updated package dependencies and GitHub Actions versions, and cleaned up package build outputs, export entries, and structural review findings.
+- Removed name snapshot data and improved icon metadata, duplicate-name detection, and remote data synchronization flows.
+- Expanded the illustration icon system with new illustration assets, detail pages, search, list, and usage examples.
+- Adjusted business icon capabilities with stroke width customization, mono icon removal, and wrapper suffix cleanup.
+- Improved the Figma plugin GitHub data sync, icon name normalization, renamed alias tracking, and submission validation experience.
+- Merged multiple batches of generic icon and illustration source updates, with related SVG normalization and format validation fixes.
+- Fixed critical, performance, data integrity, Angular, React, and Svelte issues from code review, and added test infrastructure.
 
 ## v0.2.2 - 2026-07-01
 

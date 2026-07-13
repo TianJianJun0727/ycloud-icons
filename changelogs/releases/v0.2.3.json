@@ -1,6 +1,24 @@
 {
   "tag": "v0.2.3",
   "date": "2026-07-13",
-  "zh": ["fix(ci): wrap app token script awaits (#91)"],
-  "en": ["fix(ci): wrap app token script awaits (#91)"]
+  "zh": [
+    "优化 release、npm 发布和文档部署链路，支持手动触发完整图标发布流程，并修复 GitHub App token 与自动合并稳定性问题。",
+    "升级包依赖和 GitHub Actions 版本，清理包构建产物、导出入口和 review 中发现的结构问题。",
+    "移除 name 快照数据，改进图标元数据、重名检测和远程数据同步流程。",
+    "完善插画图标体系，补充插画资源、文档详情页、搜索、列表和示例展示。",
+    "调整业务图标能力，支持描边宽度自定义、移除 mono 图标并清理 wrapper 后缀命名。",
+    "改进 Figma 插件的 GitHub 数据同步、图标名称规范化、重命名别名追踪和提交校验体验。",
+    "合并多批通用图标和插画源文件更新，并修复相关 SVG 规范化与格式校验流程。",
+    "修复代码审查中的关键、性能、数据完整性、Angular、React、Svelte 等框架问题，并补充测试基础设施。"
+  ],
+  "en": [
+    "Improved the release, npm publishing, and documentation deployment flow, including manual full icon release dispatch and more stable GitHub App token and auto-merge handling.",
+    "Updated package dependencies and GitHub Actions versions, and cleaned up package build outputs, export entries, and structural review findings.",
+    "Removed name snapshot data and improved icon metadata, duplicate-name detection, and remote data synchronization flows.",
+    "Expanded the illustration icon system with new illustration assets, detail pages, search, list, and usage examples.",
+    "Adjusted business icon capabilities with stroke width customization, mono icon removal, and wrapper suffix cleanup.",
+    "Improved the Figma plugin GitHub data sync, icon name normalization, renamed alias tracking, and submission validation experience.",
+    "Merged multiple batches of generic icon and illustration source updates, with related SVG normalization and format validation fixes.",
+    "Fixed critical, performance, data integrity, Angular, React, and Svelte issues from code review, and added test infrastructure."
+  ]
 }
