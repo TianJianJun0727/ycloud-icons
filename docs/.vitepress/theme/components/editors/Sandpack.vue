@@ -1,9 +1,5 @@
 <script lang="ts" setup>
-import { type FunctionalComponent } from 'vue';
-import { type YCloudIconsProps } from '@ycloud-web/icons-vue';
 import { Sandpack } from 'sandpack-vue3';
-
-defineProps<FunctionalComponent<YCloudIconsProps>>();
 </script>
 
 <template>
