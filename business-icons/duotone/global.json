@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Global",
+  "tags": ["Global", "业务图标"],
+  "use-cases": ["Global相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Global",
+      "tags": ["Global", "business icon"],
+      "use-cases": ["Global entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Global"
+    }
+  ]
+}

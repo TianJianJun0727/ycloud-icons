@@ -32,6 +32,85 @@
     },
     {
       "type": "business-icon",
+      "name": "ads",
+      "path": "business-icons/duotone/ads.svg",
+      "title": "Ads",
+      "englishName": "Ads",
+      "componentName": "Ads",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Ads",
+        "tags": ["Ads", "业务图标"],
+        "use-cases": ["Ads相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Ads",
+            "tags": ["Ads", "business icon"],
+            "use-cases": ["Ads entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Ads"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "aftersale",
+      "path": "business-icons/duotone/aftersale.svg",
+      "title": "Aftersale",
+      "englishName": "Aftersale",
+      "componentName": "Aftersale",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Aftersale",
+        "tags": ["Aftersale", "业务图标"],
+        "use-cases": ["Aftersale相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Aftersale",
+            "tags": ["Aftersale", "business icon"],
+            "use-cases": ["Aftersale entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Aftersale"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "agent",
+      "path": "business-icons/duotone/agent.svg",
+      "title": "agent",
+      "englishName": "agent",
+      "componentName": "Agent",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "agent",
+        "tags": ["agent", "业务图标"],
+        "use-cases": ["agent相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "agent",
+            "tags": ["agent", "business icon"],
+            "use-cases": ["agent entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "botfilled",
       "path": "business-icons/duotone/botfilled.svg",
       "title": "机器人",
@@ -108,6 +187,34 @@
         "aliases": [
           {
             "name": "Cart-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "category",
+      "path": "business-icons/duotone/category.svg",
+      "title": "Category",
+      "englishName": "Category",
+      "componentName": "Category",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Category",
+        "tags": ["Category", "业务图标"],
+        "use-cases": ["Category相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Category",
+            "tags": ["Category", "business icon"],
+            "use-cases": ["Category entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Category"
           }
         ]
       }
@@ -196,6 +303,34 @@
     },
     {
       "type": "business-icon",
+      "name": "date",
+      "path": "business-icons/duotone/date.svg",
+      "title": "Date",
+      "englishName": "Date",
+      "componentName": "Date",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Date",
+        "tags": ["Date", "业务图标"],
+        "use-cases": ["Date相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Date",
+            "tags": ["Date", "business icon"],
+            "use-cases": ["Date entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Date"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "developers",
       "path": "business-icons/mono/developers.svg",
       "title": "Developers",
@@ -218,6 +353,62 @@
         "aliases": [
           {
             "name": "Developers-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "direction",
+      "path": "business-icons/duotone/direction.svg",
+      "title": "Direction",
+      "englishName": "Direction",
+      "componentName": "Direction",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Direction",
+        "tags": ["Direction", "业务图标"],
+        "use-cases": ["Direction相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Direction",
+            "tags": ["Direction", "business icon"],
+            "use-cases": ["Direction entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Direction"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "global",
+      "path": "business-icons/duotone/global.svg",
+      "title": "Global",
+      "englishName": "Global",
+      "componentName": "Global",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Global",
+        "tags": ["Global", "业务图标"],
+        "use-cases": ["Global相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Global",
+            "tags": ["Global", "business icon"],
+            "use-cases": ["Global entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Global"
           }
         ]
       }
@@ -303,6 +494,34 @@
     },
     {
       "type": "business-icon",
+      "name": "inbox-whats-app",
+      "path": "business-icons/duotone/inbox-whats-app.svg",
+      "title": "InboxWhatsApp",
+      "englishName": "InboxWhatsApp",
+      "componentName": "InboxWhatsApp",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "InboxWhatsApp",
+        "tags": ["InboxWhatsApp", "业务图标"],
+        "use-cases": ["InboxWhatsApp相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "InboxWhatsApp",
+            "tags": ["InboxWhatsApp", "business icon"],
+            "use-cases": ["InboxWhatsApp entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "InboxWhatsApp"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "integration",
       "path": "business-icons/mono/integration.svg",
       "title": "Integration",
@@ -353,6 +572,34 @@
         "aliases": [
           {
             "name": "Journey-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "language",
+      "path": "business-icons/duotone/language.svg",
+      "title": "Language",
+      "englishName": "Language",
+      "componentName": "Language",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Language",
+        "tags": ["Language", "业务图标"],
+        "use-cases": ["Language相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Language",
+            "tags": ["Language", "business icon"],
+            "use-cases": ["Language entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Language"
           }
         ]
       }
@@ -441,6 +688,34 @@
     },
     {
       "type": "business-icon",
+      "name": "orders-paid",
+      "path": "business-icons/duotone/orders-paid.svg",
+      "title": "Orders-Paid",
+      "englishName": "Orders-Paid",
+      "componentName": "OrdersPaid",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Orders-Paid",
+        "tags": ["Orders-Paid", "业务图标"],
+        "use-cases": ["Orders-Paid相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Orders-Paid",
+            "tags": ["Orders-Paid", "business icon"],
+            "use-cases": ["Orders-Paid entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Orders-Paid"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "partner",
       "path": "business-icons/mono/partner.svg",
       "title": "Partner",
@@ -463,6 +738,62 @@
         "aliases": [
           {
             "name": "Partner-wrap"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "permission",
+      "path": "business-icons/duotone/permission.svg",
+      "title": "Permission",
+      "englishName": "Permission",
+      "componentName": "Permission",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Permission",
+        "tags": ["Permission", "业务图标"],
+        "use-cases": ["Permission相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Permission",
+            "tags": ["Permission", "business icon"],
+            "use-cases": ["Permission entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Permission"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "product-docs",
+      "path": "business-icons/duotone/product-docs.svg",
+      "title": "ProductDocs",
+      "englishName": "ProductDocs",
+      "componentName": "ProductDocs",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "ProductDocs",
+        "tags": ["ProductDocs", "业务图标"],
+        "use-cases": ["ProductDocs相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "ProductDocs",
+            "tags": ["ProductDocs", "business icon"],
+            "use-cases": ["ProductDocs entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "ProductDocs"
           }
         ]
       }
@@ -492,6 +823,90 @@
     },
     {
       "type": "business-icon",
+      "name": "source",
+      "path": "business-icons/duotone/source.svg",
+      "title": "Source",
+      "englishName": "Source",
+      "componentName": "Source",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Source",
+        "tags": ["Source", "业务图标"],
+        "use-cases": ["Source相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Source",
+            "tags": ["Source", "business icon"],
+            "use-cases": ["Source entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "status",
+      "path": "business-icons/duotone/status.svg",
+      "title": "Status",
+      "englishName": "Status",
+      "componentName": "Status",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Status",
+        "tags": ["Status", "业务图标"],
+        "use-cases": ["Status相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Status",
+            "tags": ["Status", "business icon"],
+            "use-cases": ["Status entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Status"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "tag",
+      "path": "business-icons/duotone/tag.svg",
+      "title": "Tag",
+      "englishName": "Tag",
+      "componentName": "Tag",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Tag",
+        "tags": ["Tag", "业务图标"],
+        "use-cases": ["Tag相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Tag",
+            "tags": ["Tag", "business icon"],
+            "use-cases": ["Tag entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Tag"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "trophy",
       "path": "business-icons/multicolor/trophy.svg",
       "title": "奖杯",
@@ -511,6 +926,62 @@
             "use-cases": ["trophy entry or status", "Legacy business visual for trophy scenarios"]
           }
         }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "type",
+      "path": "business-icons/duotone/type.svg",
+      "title": "Type",
+      "englishName": "Type",
+      "componentName": "Type",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Type",
+        "tags": ["Type", "业务图标"],
+        "use-cases": ["Type相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Type",
+            "tags": ["Type", "business icon"],
+            "use-cases": ["Type entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "Type"
+          }
+        ]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "user",
+      "path": "business-icons/duotone/user.svg",
+      "title": "User",
+      "englishName": "User",
+      "componentName": "User",
+      "category": "duotone",
+      "colorMode": "duotone",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "User",
+        "tags": ["User", "业务图标"],
+        "use-cases": ["User相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "User",
+            "tags": ["User", "business icon"],
+            "use-cases": ["User entry or status"]
+          }
+        },
+        "aliases": [
+          {
+            "name": "User"
+          }
+        ]
       }
     },
     {

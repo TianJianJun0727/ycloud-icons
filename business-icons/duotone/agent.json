@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "agent",
+  "tags": ["agent", "业务图标"],
+  "use-cases": ["agent相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "agent",
+      "tags": ["agent", "business icon"],
+      "use-cases": ["agent entry or status"]
+    }
+  }
+}
