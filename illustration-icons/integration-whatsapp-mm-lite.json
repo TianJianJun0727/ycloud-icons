@@ -1,0 +1,16 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "WhatsApp MM Lite 集成",
+  "tags": ["WhatsApp", "MM Lite", "集成", "渠道"],
+  "use-cases": ["WhatsApp MM Lite 渠道或集成入口", "WhatsApp 轻量渠道能力说明"],
+  "i18n": {
+    "en": {
+      "name": "WhatsApp MM Lite Integration",
+      "tags": ["WhatsApp", "MM Lite", "integration", "channel"],
+      "use-cases": [
+        "WhatsApp MM Lite channel or integration entry",
+        "WhatsApp lite channel capability description"
+      ]
+    }
+  }
+}

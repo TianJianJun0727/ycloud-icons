@@ -1,4 +1,18 @@
-export const accountUnboundIllustration = {
+type IllustrationDefinitionNode =
+  | readonly [tag: string, attrs: Record<string, string>]
+  | readonly [
+      tag: string,
+      attrs: Record<string, string>,
+      children: readonly IllustrationDefinitionNode[],
+    ];
+
+interface IllustrationDefinition {
+  name: string;
+  attrs: Record<string, string>;
+  node: readonly IllustrationDefinitionNode[];
+}
+
+export const accountUnboundIllustration: IllustrationDefinition = {
   name: 'account-unbound',
   attrs: { viewBox: '0 0 400 300', fill: 'none', xmlns: 'http://www.w3.org/2000/svg' },
   node: [
@@ -419,6 +433,6 @@ export const accountUnboundIllustration = {
       ],
     ],
   ],
-} as const;
+};
 
 export default accountUnboundIllustration;

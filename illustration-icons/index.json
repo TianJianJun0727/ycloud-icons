@@ -6,9 +6,44 @@
       "componentName": "AccountUnbound"
     },
     {
+      "name": "close-logo",
+      "path": "illustration-icons/close-logo.svg",
+      "componentName": "CloseLogo"
+    },
+    {
+      "name": "code-coupon",
+      "path": "illustration-icons/code-coupon.svg",
+      "componentName": "CodeCoupon"
+    },
+    {
+      "name": "custom-icon",
+      "path": "illustration-icons/custom-icon.svg",
+      "componentName": "CustomIcon"
+    },
+    {
+      "name": "customer-support",
+      "path": "illustration-icons/customer-support.svg",
+      "componentName": "CustomerSupport"
+    },
+    {
       "name": "data-importing",
       "path": "illustration-icons/data-importing.svg",
       "componentName": "DataImporting"
+    },
+    {
+      "name": "developer-integration",
+      "path": "illustration-icons/developer-integration.svg",
+      "componentName": "DeveloperIntegration"
+    },
+    {
+      "name": "email",
+      "path": "illustration-icons/email.svg",
+      "componentName": "Email"
+    },
+    {
+      "name": "empty-ai",
+      "path": "illustration-icons/empty-ai.svg",
+      "componentName": "EmptyAi"
     },
     {
       "name": "empty-list",
@@ -31,9 +66,99 @@
       "componentName": "EmptySearch"
     },
     {
+      "name": "expand-logo",
+      "path": "illustration-icons/expand-logo.svg",
+      "componentName": "ExpandLogo"
+    },
+    {
+      "name": "has-expired",
+      "path": "illustration-icons/has-expired.svg",
+      "componentName": "HasExpired"
+    },
+    {
+      "name": "integration-coupons",
+      "path": "illustration-icons/integration-coupons.svg",
+      "componentName": "IntegrationCoupons"
+    },
+    {
+      "name": "integration-data-connectors",
+      "path": "illustration-icons/integration-data-connectors.svg",
+      "componentName": "IntegrationDataConnectors"
+    },
+    {
+      "name": "integration-email",
+      "path": "illustration-icons/integration-email.svg",
+      "componentName": "IntegrationEmail"
+    },
+    {
+      "name": "integration-hubspot",
+      "path": "illustration-icons/integration-hubspot.svg",
+      "componentName": "IntegrationHubspot"
+    },
+    {
+      "name": "integration-mixdesk",
+      "path": "illustration-icons/integration-mixdesk.svg",
+      "componentName": "IntegrationMixdesk"
+    },
+    {
+      "name": "integration-qmail",
+      "path": "illustration-icons/integration-qmail.svg",
+      "componentName": "IntegrationQmail"
+    },
+    {
+      "name": "integration-reshdesk",
+      "path": "illustration-icons/integration-reshdesk.svg",
+      "componentName": "IntegrationReshdesk"
+    },
+    {
+      "name": "integration-sale-smartly",
+      "path": "illustration-icons/integration-sale-smartly.svg",
+      "componentName": "IntegrationSaleSmartly"
+    },
+    {
+      "name": "integration-shopify",
+      "path": "illustration-icons/integration-shopify.svg",
+      "componentName": "IntegrationShopify"
+    },
+    {
+      "name": "integration-sms",
+      "path": "illustration-icons/integration-sms.svg",
+      "componentName": "IntegrationSms"
+    },
+    {
+      "name": "integration-verify",
+      "path": "illustration-icons/integration-verify.svg",
+      "componentName": "IntegrationVerify"
+    },
+    {
+      "name": "integration-voice-code",
+      "path": "illustration-icons/integration-voice-code.svg",
+      "componentName": "IntegrationVoiceCode"
+    },
+    {
+      "name": "integration-whatsapp-mm-lite",
+      "path": "illustration-icons/integration-whatsapp-mm-lite.svg",
+      "componentName": "IntegrationWhatsappMmLite"
+    },
+    {
+      "name": "integration-zapier",
+      "path": "illustration-icons/integration-zapier.svg",
+      "componentName": "IntegrationZapier"
+    },
+    {
+      "name": "lead-generation",
+      "path": "illustration-icons/lead-generation.svg",
+      "componentName": "LeadGeneration"
+    },
+    {
       "name": "load-failed",
       "path": "illustration-icons/load-failed.svg",
       "componentName": "LoadFailed"
+    },
+    {
+      "name": "marketing-automation",
+      "path": "illustration-icons/marketing-automation.svg",
+      "componentName": "MarketingAutomation"
     },
     {
       "name": "network-disconnected",
@@ -51,9 +176,74 @@
       "componentName": "NotFound"
     },
     {
+      "name": "not-match",
+      "path": "illustration-icons/not-match.svg",
+      "componentName": "NotMatch"
+    },
+    {
       "name": "payment-method-disabled",
       "path": "illustration-icons/payment-method-disabled.svg",
       "componentName": "PaymentMethodDisabled"
+    },
+    {
+      "name": "register-phone",
+      "path": "illustration-icons/register-phone.svg",
+      "componentName": "RegisterPhone"
+    },
+    {
+      "name": "template-calling-request",
+      "path": "illustration-icons/template-calling-request.svg",
+      "componentName": "TemplateCallingRequest"
+    },
+    {
+      "name": "template-insights-authorization",
+      "path": "illustration-icons/template-insights-authorization.svg",
+      "componentName": "TemplateInsightsAuthorization"
+    },
+    {
+      "name": "template-limited-time-offer",
+      "path": "illustration-icons/template-limited-time-offer.svg",
+      "componentName": "TemplateLimitedTimeOffer"
+    },
+    {
+      "name": "template-media-card-carousel",
+      "path": "illustration-icons/template-media-card-carousel.svg",
+      "componentName": "TemplateMediaCardCarousel"
+    },
+    {
+      "name": "template-single-product-checkout",
+      "path": "illustration-icons/template-single-product-checkout.svg",
+      "componentName": "TemplateSingleProductCheckout"
+    },
+    {
+      "name": "template-whatsapp-order-details",
+      "path": "illustration-icons/template-whatsapp-order-details.svg",
+      "componentName": "TemplateWhatsappOrderDetails"
+    },
+    {
+      "name": "template-whatsapp-order-status",
+      "path": "illustration-icons/template-whatsapp-order-status.svg",
+      "componentName": "TemplateWhatsappOrderStatus"
+    },
+    {
+      "name": "version-enterprise",
+      "path": "illustration-icons/version-enterprise.svg",
+      "componentName": "VersionEnterprise"
+    },
+    {
+      "name": "version-free",
+      "path": "illustration-icons/version-free.svg",
+      "componentName": "VersionFree"
+    },
+    {
+      "name": "version-growth",
+      "path": "illustration-icons/version-growth.svg",
+      "componentName": "VersionGrowth"
+    },
+    {
+      "name": "version-pro",
+      "path": "illustration-icons/version-pro.svg",
+      "componentName": "VersionPro"
     },
     {
       "name": "waiting-status",

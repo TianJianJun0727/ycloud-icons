@@ -1,0 +1,16 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "线索获客",
+  "tags": ["线索", "获客", "客户", "增长"],
+  "use-cases": ["线索获客业务场景", "客户增长与营销转化展示"],
+  "i18n": {
+    "en": {
+      "name": "Lead Generation",
+      "tags": ["lead generation", "leads", "customer", "growth"],
+      "use-cases": [
+        "Lead generation business scenario",
+        "Customer growth and marketing conversion display"
+      ]
+    }
+  }
+}
