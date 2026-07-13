@@ -194,7 +194,7 @@ function sanitizeNotes(notes: unknown) {
     .filter((note): note is string => typeof note === 'string')
     .map((note) => note.trim())
     .filter(Boolean)
-    .slice(0, 6);
+    .slice(0, 12);
 }
 
 async function readPersistedNotes(entry: ReleaseEntry): Promise<ChangelogNotes | undefined> {
@@ -250,12 +250,13 @@ function buildAiPrompt(entry: ReleaseEntry) {
 要求：
 - 输出严格 JSON，不要 Markdown，不要代码块。
 - JSON 结构必须是 {"tag":"v0.0.0","zh":["..."],"en":["..."]}。
-- zh 和 en 各 1 到 5 条。
+- zh 和 en 各 1 到 10 条。
 - 中文自然、简洁，避免逐字翻译 commit。
 - 英文自然、简洁，不能混入中文。
 - 不要编造文件变更之外的能力。
 - 不要输出原始 commit hash。
 - 忽略纯 release version sync、自动生成文件、无实际用户影响的维护提交。
+- 覆盖版本范围内的主要变更类别，不要只总结最新一个提交。
 - 如果版本只包含维护或 CI 调整，也要概括成用户可理解的稳定性、文档或构建流程变化。
 
 版本变更输入：
