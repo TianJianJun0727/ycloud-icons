@@ -9,6 +9,9 @@ const props = defineProps<{
   detailPath: string;
   detailText: string;
   isCurrentDetail?: boolean;
+  mode?: 'icon' | 'business';
+  colorMode?: string;
+  supportsStrokeWidth?: boolean;
   popoverPosition?: 'top' | 'bottom';
 }>();
 
@@ -38,10 +41,16 @@ function openDetail(event: MouseEvent) {
     />
     <CopySVGButton
       :name="name"
+      :mode="mode"
+      :colorMode="colorMode"
+      :supportsStrokeWidth="supportsStrokeWidth"
       :popoverPosition="popoverPosition"
     />
     <CopyCodeButton
       :name="name"
+      :mode="mode"
+      :colorMode="colorMode"
+      :supportsStrokeWidth="supportsStrokeWidth"
       :popoverPosition="popoverPosition"
     />
   </div>

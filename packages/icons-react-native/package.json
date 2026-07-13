@@ -96,7 +96,7 @@
     "react-native-svg": "^15.8.0",
     "rollup": "^4.62.2",
     "rollup-plugin-dts": "^6.4.1",
-    "typescript": "7.0.1-rc",
+    "typescript": "7.0.2",
     "vite": "^8.1.2"
   },
   "peerDependencies": {

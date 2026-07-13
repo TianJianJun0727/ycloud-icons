@@ -6,6 +6,7 @@ const JourneyFilled = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) => (
@@ -13,6 +14,7 @@ const JourneyFilled = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-4.3 -3 32.5 32.5"
     fill="currentColor"
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}

@@ -41,6 +41,7 @@ import { callingOutlinedIcon } from './business-icons/calling-outlined';
 import { campaignFilledIcon } from './business-icons/campaign-filled';
 import { campaignOutlinedIcon } from './business-icons/campaign-outlined';
 import { cannedResponseCheckIcon } from './business-icons/canned-response-check';
+import { cartWrapIcon } from './business-icons/cart-wrap';
 import { categoryFilledIcon } from './business-icons/category-filled';
 import { chatLoadingIconIcon } from './business-icons/chat-loading-icon';
 import { checkIcon } from './business-icons/check';
@@ -165,6 +166,7 @@ import { whatsappBusinessOutlinedIcon } from './business-icons/whatsapp-business
 import { whatsappNotchOutlinedIcon } from './business-icons/whatsapp-notch-outlined';
 import { whatsappPhoneFilledIcon } from './business-icons/whatsapp-phone-filled';
 import { whatsappPhoneOutlinedIcon } from './business-icons/whatsapp-phone-outlined';
+import { whatsappWrapIcon } from './business-icons/whatsapp-wrap';
 import { widgetsFilledIcon } from './business-icons/widgets-filled';
 import { widgetsOutlinedIcon } from './business-icons/widgets-outlined';
 
@@ -422,6 +424,12 @@ export {
   default as CannedResponseCheckIcon,
   default as YCloudCannedResponseCheck,
 } from './business-icons/canned-response-check';
+export * from './business-icons/cart-wrap';
+export {
+  default as CartWrap,
+  default as CartWrapIcon,
+  default as YCloudCartWrap,
+} from './business-icons/cart-wrap';
 export * from './business-icons/category-filled';
 export {
   default as CategoryFilled,
@@ -1130,6 +1138,12 @@ export {
   default as WhatsappPhoneOutlinedIcon,
   default as YCloudWhatsappPhoneOutlined,
 } from './business-icons/whatsapp-phone-outlined';
+export * from './business-icons/whatsapp-wrap';
+export {
+  default as WhatsappWrap,
+  default as WhatsappWrapIcon,
+  default as YCloudWhatsappWrap,
+} from './business-icons/whatsapp-wrap';
 export * from './business-icons/widgets-filled';
 export {
   default as WidgetsFilled,
@@ -1202,6 +1216,7 @@ export const businessIconNames = [
   'campaign-filled',
   'campaign-outlined',
   'canned-response-check',
+  'cart-wrap',
   'category-filled',
   'chat-loading-icon',
   'check',
@@ -1326,6 +1341,7 @@ export const businessIconNames = [
   'whatsapp-notch-outlined',
   'whatsapp-phone-filled',
   'whatsapp-phone-outlined',
+  'whatsapp-wrap',
   'widgets-filled',
   'widgets-outlined',
 ] as const;
@@ -1375,6 +1391,7 @@ export const businessIcons = {
   'campaign-filled': campaignFilledIcon,
   'campaign-outlined': campaignOutlinedIcon,
   'canned-response-check': cannedResponseCheckIcon,
+  'cart-wrap': cartWrapIcon,
   'category-filled': categoryFilledIcon,
   'chat-loading-icon': chatLoadingIconIcon,
   check: checkIcon,
@@ -1499,6 +1516,7 @@ export const businessIcons = {
   'whatsapp-notch-outlined': whatsappNotchOutlinedIcon,
   'whatsapp-phone-filled': whatsappPhoneFilledIcon,
   'whatsapp-phone-outlined': whatsappPhoneOutlinedIcon,
+  'whatsapp-wrap': whatsappWrapIcon,
   'widgets-filled': widgetsFilledIcon,
   'widgets-outlined': widgetsOutlinedIcon,
 } as const satisfies Record<string, BusinessIconDefinition>;

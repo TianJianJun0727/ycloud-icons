@@ -214,6 +214,11 @@ export {
   default as YCloudCannedResponseCheck,
 } from './business-icons/canned-response-check.svelte';
 export {
+  default as CartWrap,
+  default as CartWrapIcon,
+  default as YCloudCartWrap,
+} from './business-icons/cart-wrap.svelte';
+export {
   default as CategoryFilled,
   default as CategoryFilledIcon,
   default as YCloudCategoryFilled,
@@ -833,6 +838,11 @@ export {
   default as WhatsappPhoneOutlinedIcon,
   default as YCloudWhatsappPhoneOutlined,
 } from './business-icons/whatsapp-phone-outlined.svelte';
+export {
+  default as WhatsappWrap,
+  default as WhatsappWrapIcon,
+  default as YCloudWhatsappWrap,
+} from './business-icons/whatsapp-wrap.svelte';
 export {
   default as WidgetsFilled,
   default as WidgetsFilledIcon,

@@ -11,7 +11,11 @@ const allowedAttrs = [
   'class',
 ];
 
-export default function getSVGIcon(element?: HTMLElement, attrs?: Record<string, string>) {
+export default function getSVGIcon(
+  element?: HTMLElement,
+  attrs?: Record<string, string>,
+  descendantAttrs?: Record<string, string>,
+) {
   const svg = element ?? document.querySelector('#previewer svg');
   if (!svg) return;
 
@@ -26,6 +30,12 @@ export default function getSVGIcon(element?: HTMLElement, attrs?: Record<string,
 
   for (const [key, value] of Object.entries(attrs ?? {})) {
     clonedSvg.setAttribute(key, value);
+  }
+
+  for (const child of Array.from(clonedSvg.querySelectorAll('*'))) {
+    for (const [key, value] of Object.entries(descendantAttrs ?? {})) {
+      child.setAttribute(key, value);
+    }
   }
 
   const svgString = new XMLSerializer().serializeToString(clonedSvg);

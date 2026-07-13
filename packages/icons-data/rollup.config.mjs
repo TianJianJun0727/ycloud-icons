@@ -56,7 +56,7 @@ const configs = bundles
       inputs.map((input) => ({
         input,
         treeshake: preserveModules ? false : undefined,
-        plugins: [...plugins({ pkg, minify })],
+        plugins: [...plugins({ pkg, minify, withVisualizer: false })],
         external,
         output: {
           name: packageName,

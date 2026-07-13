@@ -14,6 +14,7 @@ const MetaFilled = forwardRef<SVGSVGElement, MetaFilledProps>(
       alt = '',
       color = 'currentColor',
       secondaryColor = '#fff',
+      strokeWidth,
       style,
       ...props
     },
@@ -24,6 +25,7 @@ const MetaFilled = forwardRef<SVGSVGElement, MetaFilledProps>(
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 14 14"
       fill={color}
+      strokeWidth={strokeWidth}
       width={width ?? size}
       height={height ?? size}
       role={alt ? 'img' : undefined}

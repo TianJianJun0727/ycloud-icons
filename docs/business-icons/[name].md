@@ -54,24 +54,32 @@ const codeExample = computed(() => codeExamples.value.map(
       <BusinessIconPreview
         id="previewer"
         :svg="params.svg"
+        :colorMode="params.colorMode"
+        :supportsStrokeWidth="params.supportsStrokeWidth"
       />
     </div>
     <div :class="$style.smallPreviews">
       <div :class="$style.smallPreview">
         <BusinessIconPreview
           :svg="params.svg"
+          :colorMode="params.colorMode"
+          :supportsStrokeWidth="params.supportsStrokeWidth"
           :size="48"
         />
       </div>
       <div :class="$style.smallPreview">
         <BusinessIconPreview
           :svg="params.svg"
+          :colorMode="params.colorMode"
+          :supportsStrokeWidth="params.supportsStrokeWidth"
           :size="32"
         />
       </div>
       <div :class="$style.smallPreview">
         <BusinessIconPreview
           :svg="params.svg"
+          :colorMode="params.colorMode"
+          :supportsStrokeWidth="params.supportsStrokeWidth"
           :size="24"
         />
       </div>

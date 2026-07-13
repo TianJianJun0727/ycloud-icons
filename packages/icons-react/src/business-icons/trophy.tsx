@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TrophyProps = Omit<BusinessIconImageProps, 'color'>;
+type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Trophy = forwardRef<SVGSVGElement, TrophyProps>(
   ({ size = 24, width, height, alt = '', style, ...props }, ref) => (

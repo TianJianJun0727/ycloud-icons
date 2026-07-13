@@ -6,6 +6,7 @@ const Progressomg = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) => (
@@ -13,6 +14,7 @@ const Progressomg = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
     fill="currentColor"
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}

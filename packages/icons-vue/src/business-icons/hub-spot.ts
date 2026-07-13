@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
+type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
 
 const HubSpot: FunctionalComponent<HubSpotProps> = ({
   size = 24,

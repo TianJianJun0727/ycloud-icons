@@ -7,6 +7,7 @@ const CreditCardIcon = ({
   height,
   alt = '',
   color = 'currentColor',
+  strokeWidth,
   style,
   ...props
 }: BusinessIconImageProps) =>
@@ -22,6 +23,7 @@ const CreditCardIcon = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

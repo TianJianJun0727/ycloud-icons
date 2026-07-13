@@ -8,18 +8,26 @@ import useConfetti from '@theme/composables/useConfetti';
 
 const props = defineProps<{
   name: string;
+  mode?: 'icon' | 'business';
+  colorMode?: string;
+  supportsStrokeWidth?: boolean;
   popoverPosition?: 'top' | 'bottom';
 }>();
 const { page } = useData();
 const isEnglish = computed(() => page.value.relativePath?.startsWith?.('en/') ?? false);
-const { size, color, strokeWidth, absoluteStrokeWidth } = useIconStyleContext();
+const { size, color, strokeWidth, absoluteStrokeWidth, businessStrokeWidthEnabled } =
+  useIconStyleContext();
 const { animate, confetti } = useConfetti();
 const componentName = computed(() => {
   return (toPascalCase(props.name) as string).replace(/\s/g, '');
 });
+const supportsBusinessStrokeWidth = computed(
+  () => props.mode === 'business' && props.supportsStrokeWidth === true,
+);
 
 function copyJSX() {
   let attrs = [''];
+  const isBusinessIcon = props.mode === 'business';
 
   if (size.value && size.value !== 24) {
     attrs.push(`size={${size.value}}`);
@@ -29,11 +37,16 @@ function copyJSX() {
     attrs.push(`color="${color.value}"`);
   }
 
-  if (strokeWidth.value && strokeWidth.value !== 2) {
+  if (
+    strokeWidth.value &&
+    (isBusinessIcon
+      ? businessStrokeWidthEnabled.value && supportsBusinessStrokeWidth.value
+      : strokeWidth.value !== 2)
+  ) {
     attrs.push(`strokeWidth={${strokeWidth.value}}`);
   }
 
-  if (absoluteStrokeWidth.value) {
+  if (!isBusinessIcon && absoluteStrokeWidth.value) {
     attrs.push(`absoluteStrokeWidth`);
   }
 
@@ -52,6 +65,7 @@ function copyComponentName() {
 
 function copyVue() {
   let attrs = [''];
+  const isBusinessIcon = props.mode === 'business';
 
   if (size.value && size.value !== 24) {
     attrs.push(`:size="${size.value}"`);
@@ -61,11 +75,16 @@ function copyVue() {
     attrs.push(`color="${color.value}"`);
   }
 
-  if (strokeWidth.value && strokeWidth.value !== 2) {
+  if (
+    strokeWidth.value &&
+    (isBusinessIcon
+      ? businessStrokeWidthEnabled.value && supportsBusinessStrokeWidth.value
+      : strokeWidth.value !== 2)
+  ) {
     attrs.push(`:stroke-width="${strokeWidth.value}"`);
   }
 
-  if (absoluteStrokeWidth.value) {
+  if (!isBusinessIcon && absoluteStrokeWidth.value) {
     attrs.push(`absoluteStrokeWidth`);
   }
 
@@ -77,6 +96,7 @@ function copyVue() {
 
 function copyAngular() {
   let attrs = [''];
+  const isBusinessIcon = props.mode === 'business';
 
   attrs.push(`name="${props.name}"`);
 
@@ -88,11 +108,16 @@ function copyAngular() {
     attrs.push(`color="${color.value}"`);
   }
 
-  if (strokeWidth.value && strokeWidth.value !== 2) {
+  if (
+    strokeWidth.value &&
+    (isBusinessIcon
+      ? businessStrokeWidthEnabled.value && supportsBusinessStrokeWidth.value
+      : strokeWidth.value !== 2)
+  ) {
     attrs.push(`[strokeWidth]="${strokeWidth.value}"`);
   }
 
-  if (absoluteStrokeWidth.value) {
+  if (!isBusinessIcon && absoluteStrokeWidth.value) {
     attrs.push(`[absoluteStrokeWidth]="true"`);
   }
 

@@ -92,7 +92,7 @@ icon.src = iconUrl;
 
 const App = () => {
   return (
-    <$PascalCase size={24} color="#128C7E" />
+    <$PascalCase size={24} color="#128C7E" strokeWidth={1.5} />
   );
 };
 
@@ -126,6 +126,7 @@ const App = () => {
       size={24}
       color="#128C7E"
       secondaryColor="#FFFFFF"
+      strokeWidth={1.5}
     />
   );
 };

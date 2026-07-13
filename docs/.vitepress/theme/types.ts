@@ -60,6 +60,7 @@ export interface BusinessIconEntity {
   path: string;
   svg: string;
   dataUri: string;
+  supportsStrokeWidth?: boolean;
   createdRelease?: Release;
   changedRelease?: Release;
   git?: IconGitMetadata;

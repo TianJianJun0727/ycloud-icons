@@ -14,6 +14,7 @@ const ComingSoon = forwardRef<SVGSVGElement, ComingSoonProps>(
       alt = '',
       color = 'currentColor',
       secondaryColor = '#fff',
+      strokeWidth,
       style,
       ...props
     },
@@ -24,6 +25,7 @@ const ComingSoon = forwardRef<SVGSVGElement, ComingSoonProps>(
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 65 14"
       fill={color}
+      strokeWidth={strokeWidth}
       width={width ?? size}
       height={height ?? size}
       role={alt ? 'img' : undefined}

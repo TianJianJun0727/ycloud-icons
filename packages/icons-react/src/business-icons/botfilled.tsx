@@ -14,6 +14,7 @@ const Botfilled = forwardRef<SVGSVGElement, BotfilledProps>(
       alt = '',
       color = 'currentColor',
       secondaryColor = '#fff',
+      strokeWidth,
       style,
       ...props
     },
@@ -24,6 +25,7 @@ const Botfilled = forwardRef<SVGSVGElement, BotfilledProps>(
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-0.7 0 19 19"
       fill={color}
+      strokeWidth={strokeWidth}
       width={width ?? size}
       height={height ?? size}
       role={alt ? 'img' : undefined}

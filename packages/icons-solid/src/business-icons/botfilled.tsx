@@ -11,6 +11,7 @@ const Botfilled = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }: BotfilledProps) => (
@@ -18,6 +19,7 @@ const Botfilled = ({
     xmlns="http://www.w3.org/2000/svg"
     viewBox="-0.7 0 19 19"
     fill={color}
+    stroke-width={strokeWidth}
     width={width ?? size}
     height={height ?? size}
     role={alt ? 'img' : undefined}

@@ -9,4 +9,5 @@ export interface BusinessIconImageProps extends Omit<
   height?: number | string;
   alt?: string;
   color?: string;
+  strokeWidth?: number | string;
 }

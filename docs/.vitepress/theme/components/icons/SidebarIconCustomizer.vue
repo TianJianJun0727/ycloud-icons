@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { shallowRef, type Ref, watch, computed } from 'vue';
+import { shallowRef, type Ref, watch, computed, watchEffect } from 'vue';
 import { useCssVar, syncRef } from '@vueuse/core';
 import { useData } from 'vitepress';
 import { STYLE_DEFAULTS, useIconStyleContext } from '@theme/composables/useIconStyle';
@@ -14,9 +14,13 @@ const props = defineProps<{
   mode?: 'icon' | 'business';
 }>();
 
-const { color, strokeWidth, size, absoluteStrokeWidth } = useIconStyleContext();
-const { page } = useData();
+const { color, strokeWidth, size, absoluteStrokeWidth, businessStrokeWidthEnabled } =
+  useIconStyleContext();
+const { page, params } = useData();
 const isEnglish = computed(() => page.value?.relativePath?.startsWith?.('en/') ?? false);
+const businessStrokeWidthSupported = computed(
+  () => props.mode !== 'business' || params.value?.supportsStrokeWidth === true,
+);
 const documentRef = shallowRef<HTMLElement | undefined>(
   typeof document !== 'undefined' ? document?.documentElement : undefined,
 );
@@ -46,6 +50,7 @@ function resetStyle() {
   strokeWidth.value = STYLE_DEFAULTS.strokeWidth;
   size.value = STYLE_DEFAULTS.size;
   absoluteStrokeWidth.value = STYLE_DEFAULTS.absoluteStrokeWidth;
+  businessStrokeWidthEnabled.value = STYLE_DEFAULTS.businessStrokeWidthEnabled;
 }
 
 watch(absoluteStrokeWidth, (enabled) => {
@@ -54,13 +59,31 @@ watch(absoluteStrokeWidth, (enabled) => {
   htmlEl.classList.toggle('absolute-stroke-width', enabled);
 });
 
+watchEffect(() => {
+  const target = props.rootEl?.value ?? documentRef.value;
+
+  if (!target) return;
+
+  if (
+    props.mode === 'business' &&
+    businessStrokeWidthSupported.value &&
+    businessStrokeWidthEnabled.value
+  ) {
+    target.style.setProperty('--customize-business-strokeWidth', `${strokeWidth.value}`);
+    return;
+  }
+
+  target.style.removeProperty('--customize-business-strokeWidth');
+});
+
 const customizingActive = computed(() => {
   return (
     color.value !== STYLE_DEFAULTS.color ||
     size.value !== STYLE_DEFAULTS.size ||
-    (props.mode !== 'business' &&
-      (strokeWidth.value !== STYLE_DEFAULTS.strokeWidth ||
-        absoluteStrokeWidth.value !== STYLE_DEFAULTS.absoluteStrokeWidth))
+    (props.mode === 'business'
+      ? businessStrokeWidthSupported.value && businessStrokeWidthEnabled.value
+      : strokeWidth.value !== STYLE_DEFAULTS.strokeWidth ||
+        absoluteStrokeWidth.value !== STYLE_DEFAULTS.absoluteStrokeWidth)
   );
 });
 </script>
@@ -104,6 +127,33 @@ const customizingActive = computed(() => {
         :max="3"
         :step="0.25"
       />
+    </InputField>
+
+    <InputField
+      v-else-if="businessStrokeWidthSupported"
+      id="business-stroke-width-enabled"
+      :label="isEnglish ? 'Stroke width' : '描边宽度'"
+    >
+      <template #display>
+        <Switch
+          id="business-stroke-width-enabled"
+          name="business-stroke-width-enabled"
+          v-model="businessStrokeWidthEnabled"
+        />
+      </template>
+      <template v-if="businessStrokeWidthEnabled">
+        <div class="business-stroke-width-value">
+          <span class="customize-label">{{ strokeWidth }}px</span>
+        </div>
+        <RangeSlider
+          id="business-stroke-width"
+          name="business-stroke-width"
+          v-model="strokeWidth"
+          :min="0.5"
+          :max="3"
+          :step="0.25"
+        />
+      </template>
     </InputField>
 
     <InputField
@@ -179,5 +229,11 @@ const customizingActive = computed(() => {
 
 .color-picker-field:deep(.color-picker) {
   width: 100%;
+}
+
+.business-stroke-width-value {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
 }
 </style>

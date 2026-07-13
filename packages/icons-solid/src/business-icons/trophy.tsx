@@ -1,6 +1,6 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor'>;
+type TrophyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
 
 const Trophy = ({ size = 24, width, height, alt = '', style, ...props }: TrophyProps) => (
   <svg

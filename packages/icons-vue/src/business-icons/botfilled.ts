@@ -12,6 +12,7 @@ const Botfilled: FunctionalComponent<BotfilledProps> = ({
   alt = '',
   color = 'currentColor',
   secondaryColor = '#fff',
+  strokeWidth,
   style,
   ...props
 }) =>
@@ -27,6 +28,7 @@ const Botfilled: FunctionalComponent<BotfilledProps> = ({
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },

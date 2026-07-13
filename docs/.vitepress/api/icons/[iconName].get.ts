@@ -1,4 +1,4 @@
-import { eventHandler, getQuery, setResponseHeader, createError } from 'h3';
+import { eventHandler, getQuery, setResponseHeader, createError, defaultContentType } from 'h3';
 import iconNodes from '../../data/iconNodes';
 import { createYCloudIcon } from '@ycloud-web/icons-react';
 import { renderToString } from 'react-dom/server';
@@ -10,12 +10,10 @@ export default eventHandler((event) => {
   const iconNode = iconNodes[params.iconName];
 
   if (iconNode == null) {
-    const error = createError({
+    throw createError({
       statusCode: 404,
       message: `Icon "${params.iconName}" not found`,
     });
-
-    return sendError(event, error);
   }
 
   const width = getQuery(event).width || undefined;
