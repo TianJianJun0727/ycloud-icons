@@ -75,13 +75,20 @@ jobs:
             return response.json();
           };
 
-          const installation = await githubRequest(`/repos/${repository}/installation`);
-          const tokenResponse = await githubRequest(
-            `/app/installations/${installation.id}/access_tokens`,
-            { method: 'POST' },
-          );
-          console.log('::add-mask::' + tokenResponse.token);
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, `token=${tokenResponse.token}\n`);
+          async function main() {
+            const installation = await githubRequest(`/repos/${repository}/installation`);
+            const tokenResponse = await githubRequest(
+              `/app/installations/${installation.id}/access_tokens`,
+              { method: 'POST' },
+            );
+            console.log('::add-mask::' + tokenResponse.token);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `token=${tokenResponse.token}\n`);
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
           NODE
 
       - name: Validate auto-merge scope
