@@ -40,6 +40,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
 
       - uses: ./.github/actions/setup-pnpm
         with:
@@ -110,7 +111,6 @@ jobs:
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_MODEL: ${{ vars.AI_MODEL }}
         run: |
-          git fetch --no-tags --depth=1 origin ${{ github.event.pull_request.base.sha }}
           mapfile -d '' changed_icon_files < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} HEAD -- icons business-icons illustration-icons)
           if (( ${#changed_icon_files[@]} > 0 )); then
             node ./scripts/fixIconFileNames.mts "${changed_icon_files[@]}"
