@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Megaphone-wrap",
+  "tags": [
+    "Megaphone-wrap",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Megaphone-wrap相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Megaphone-wrap",
+      "tags": [
+        "Megaphone-wrap",
+        "business icon"
+      ],
+      "use-cases": [
+        "Megaphone-wrap entry or status"
+      ]
+    }
+  }
+}

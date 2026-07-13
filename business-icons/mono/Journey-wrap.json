@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Journey-wrap",
+  "tags": [
+    "Journey-wrap",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Journey-wrap相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Journey-wrap",
+      "tags": [
+        "Journey-wrap",
+        "business icon"
+      ],
+      "use-cases": [
+        "Journey-wrap entry or status"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "AD-wrap",
+  "tags": [
+    "AD-wrap",
+    "业务图标"
+  ],
+  "use-cases": [
+    "AD-wrap相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "AD-wrap",
+      "tags": [
+        "AD-wrap",
+        "business icon"
+      ],
+      "use-cases": [
+        "AD-wrap entry or status"
+      ]
+    }
+  }
+}

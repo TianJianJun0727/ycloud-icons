@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Home-wrap",
+  "tags": [
+    "Home-wrap",
+    "业务图标"
+  ],
+  "use-cases": [
+    "Home-wrap相关入口或状态展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "Home-wrap",
+      "tags": [
+        "Home-wrap",
+        "business icon"
+      ],
+      "use-cases": [
+        "Home-wrap entry or status"
+      ]
+    }
+  }
+}
