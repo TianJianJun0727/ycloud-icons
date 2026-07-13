@@ -41,7 +41,12 @@
             "tags": ["Alipay", "illustration"],
             "use-cases": ["Alipay entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Alipay"
+          }
+        ]
       }
     },
     {
@@ -1307,7 +1312,12 @@
             "tags": ["Wechat pay", "illustration"],
             "use-cases": ["Wechat pay entry or status"]
           }
-        }
+        },
+        "aliases": [
+          {
+            "name": "Wechat pay"
+          }
+        ]
       }
     },
     {

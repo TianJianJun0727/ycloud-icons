@@ -9,6 +9,7 @@ export type AssetMetadata = {
   name: string;
   tags: string[];
   'use-cases': string[];
+  aliases?: Array<string | { name: string }>;
   i18n: {
     en: {
       name: string;
@@ -50,6 +51,22 @@ function assertAssetMetadata(file: string, data: unknown): asserts data is Asset
   if (!isNonEmptyStringArray(data['use-cases'])) {
     throw new Error(
       `Invalid asset metadata in ${file}: use-cases must be a non-empty string array`,
+    );
+  }
+
+  if (
+    'aliases' in data &&
+    !(
+      Array.isArray(data.aliases) &&
+      data.aliases.length > 0 &&
+      data.aliases.every(
+        (alias) =>
+          isNonEmptyString(alias) || (isPlainObject(alias) && isNonEmptyString(alias.name)),
+      )
+    )
+  ) {
+    throw new Error(
+      `Invalid asset metadata in ${file}: aliases must be a non-empty array of strings or { name } objects`,
     );
   }
 

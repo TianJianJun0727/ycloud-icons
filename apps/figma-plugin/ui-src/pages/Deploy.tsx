@@ -43,6 +43,15 @@ type GitHubContentJsonEnvelope = {
   encoding?: unknown;
 };
 
+type IconMetadataIndex = {
+  assets?: Array<{
+    name?: string;
+    metadata?: {
+      aliases?: Array<string | { name?: string }>;
+    };
+  }>;
+};
+
 const GITHUB_API_VERSION = '2022-11-28';
 const businessColorModes = [
   { value: 'mono', label: '单色', description: 'business-icons/mono' },
@@ -109,6 +118,29 @@ async function readGitHubRawJson<T>(url: string, apiKey?: string): Promise<T> {
   }
   return parsed as T;
 }
+
+async function readGitHubOptionalRawJson<T>(url: string, apiKey?: string): Promise<T | undefined> {
+  try {
+    return await readGitHubRawJson<T>(url, apiKey);
+  } catch {
+    return undefined;
+  }
+}
+
+const uniqueList = (items: string[]) =>
+  items.filter((item, index, list) => list.indexOf(item) === index);
+
+const collectIconMetadataNames = (index: IconMetadataIndex | undefined) =>
+  uniqueList(
+    (index?.assets ?? [])
+      .flatMap((asset) => [
+        asset.name,
+        ...(asset.metadata?.aliases ?? []).map((alias) =>
+          typeof alias === 'string' ? alias : alias.name,
+        ),
+      ])
+      .filter((name): name is string => typeof name === 'string' && name.length > 0),
+  );
 
 interface DeployProps {
   sourceType: IconSourceType;
@@ -368,11 +400,27 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       if (tree.truncated) {
         throw new Error('GitHub main 分支文件树返回结果被截断，无法安全判断同名覆盖。');
       }
+      const [genericMetadata, businessMetadata, illustrationMetadata] = await Promise.all([
+        readGitHubOptionalRawJson<IconMetadataIndex>(
+          `${apiUrl}/contents/icons/metadata/index.json?ref=main`,
+          githubApiKey,
+        ),
+        readGitHubOptionalRawJson<IconMetadataIndex>(
+          `${apiUrl}/contents/business-icons/metadata/index.json?ref=main`,
+          githubApiKey,
+        ),
+        readGitHubOptionalRawJson<IconMetadataIndex>(
+          `${apiUrl}/contents/illustration-icons/metadata/index.json?ref=main`,
+          githubApiKey,
+        ),
+      ]);
       const jsonFiles = items.filter((item) => item.type === 'file' && item.name.endsWith('.json'));
       const treeGenericIconNames = tree.tree
         .filter((item) => item.type === 'blob' && /^icons\/[^/]+\.svg$/.test(item.path))
         .map((item) => item.path.replace(/^icons\//, '').replace(/\.svg$/, ''));
-      const nextExistingIconNames = Array.from(new Set(treeGenericIconNames));
+      const nextExistingIconNames = Array.from(
+        new Set([...treeGenericIconNames, ...collectIconMetadataNames(genericMetadata)]),
+      );
       const treeBusinessIconNames = tree.tree
         .filter(
           (item) => item.type === 'blob' && /^business-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
@@ -383,7 +431,15 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
         )
         .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, ''));
-      const nextExistingBusinessIconNames = Array.from(new Set(treeBusinessIconNames));
+      const nextExistingBusinessIconNames = Array.from(
+        new Set([...treeBusinessIconNames, ...collectIconMetadataNames(businessMetadata)]),
+      );
+      const nextExistingIllustrationNamesWithAliases = Array.from(
+        new Set([
+          ...nextExistingIllustrationNames,
+          ...collectIconMetadataNames(illustrationMetadata),
+        ]),
+      );
       const nextCategories = await Promise.all(
         jsonFiles.map(async (item) => {
           const category = await readGitHubRawJson<{
@@ -413,7 +469,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       );
       setExistingGenericIconNames(nextExistingIconNames);
       setExistingBusinessIconNames(nextExistingBusinessIconNames);
-      setExistingIllustrationNames(nextExistingIllustrationNames);
+      setExistingIllustrationNames(nextExistingIllustrationNamesWithAliases);
       setCategoryMessage('synced');
     } catch (error) {
       setCategoryMessage(

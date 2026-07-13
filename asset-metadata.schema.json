@@ -31,6 +31,30 @@
       "minItems": 1,
       "uniqueItems": true
     },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
     "i18n": {
       "type": "object",
       "additionalProperties": false,
