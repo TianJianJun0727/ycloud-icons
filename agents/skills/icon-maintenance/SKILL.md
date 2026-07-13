@@ -29,9 +29,9 @@
 - `categories/*.json`：分类定义，决定左侧分类展示、分类标题和英文标题
 - `business-icons/<color-mode>/*.svg`：业务图标 SVG 源文件；一级目录只能是 `mono`、`duotone`、`multicolor`
 - `business-icons/<color-mode>/index.json`：业务颜色模式定义，包含中文标题和英文标题
-- `business-icons/index.json`：生成产物，供校验、Figma 插件、文档和包生成消费
+- `business-icons/index.json`：生成产物，供校验、文档和包生成消费
 - `illustration-icons/*.svg`：插画 SVG 源文件
-- `illustration-icons/index.json`：生成产物，供校验、Figma 插件、文档和包生成消费
+- `illustration-icons/index.json`：生成产物，供校验、文档和包生成消费
 - `docs/`：文档站点，图标详情页、分类页和搜索数据都由构建脚本自动生成
 
 一个通用图标必须同时具备：
@@ -211,6 +211,109 @@ node ./scripts/checkBusinessSvgSource.mts
 node ./scripts/writeIllustrationIndex.mts
 node ./scripts/checkIllustrationSvgSource.mts
 ```
+
+## 文档、发布和 CI 链路
+
+图标维护不是只让本地文件通过校验，还要保证 PR、npm 发布和文档部署能串起来。
+
+### 图标 PR 进入仓库
+
+图标源文件进入 PR 后，自动修复和校验流程需要保证源文件、metadata 和索引一致：
+
+- 文件名不符合规范时，自动修复流程负责重命名；不要在源文件进入 PR 前强行转换最终名字。
+- 如果发生重命名，元数据里应保留原始名称或 alias，避免重复检测和后续审核脱节。
+- 通用图标只和 `icons/` 现有图标查重；业务图标只和 `business-icons/` 查重；插画只和 `illustration-icons/` 查重。
+- 自动修复后必须同步对应 JSON metadata、业务/插画根索引，以及必要的格式化。
+
+相关工作流：
+
+- `.github/workflows/fix-icon-source.yml`：自动修复 SVG、命名、metadata 和索引。
+- `.github/workflows/auto-merge-icon-source.yml`：图标源 PR 通过后自动合并。
+- `.github/workflows/ci.yml`：图标合并后的 release PR、版本、tag 和触发发布链路。
+
+### 本地文档构建
+
+本地看文档效果时优先跑：
+
+```sh
+pnpm docs:dev:no-og
+```
+
+验证线上 GitHub Pages 构建路径时跑：
+
+```sh
+pnpm docs:build:github-pages
+```
+
+如果只想跳过 OG 图生成但验证 VitePress 页面，跑：
+
+```sh
+pnpm --dir docs docs:build:no-og
+```
+
+docs 构建前会生成这些关键数据：
+
+- 根 `CHANGELOG.md` 和 `docs/.vitepress/data/CHANGELOG.en.md`
+- `docs/.vitepress/data/iconNodes`
+- `docs/.vitepress/data/iconDetails`
+- `docs/.vitepress/data/*GitMetadata.json`
+- `docs/public/metadata/icons.json`
+- `docs/public/metadata/business-icons.json`
+- `docs/public/metadata/illustration-icons.json`
+
+如果文档搜索、详情页、分类或插画展示异常，不要只修 Vue 组件；先确认这些生成数据是否最新。
+
+### npm 发布流程
+
+标准发布链路应该是：
+
+1. 图标源 PR 合并到 `main`。
+2. `Continuous integration icons` 创建 release PR，更新 package 版本、changelog 和 `changelogs/releases/vX.Y.Z.json`。
+3. release PR 合并到 `main`。
+4. 新 tag `vX.Y.Z` 必须指向 `main` 上的 release commit。
+5. `.github/workflows/release.yml` 发布 core 包和各 framework 包。
+6. GitHub Release 读取 `changelogs/releases/vX.Y.Z.json` 或 `CHANGELOG.md` 生成双语 release notes。
+7. 发布成功后通过 workflow_call 触发 docs 部署，线上文档尽量使用已发布 npm 包。
+
+手动发布时先检查：
+
+```sh
+gh run list --repo TianJianJun0727/ycloud-icons --workflow "Continuous integration icons" --limit 5
+gh run list --repo TianJianJun0727/ycloud-icons --workflow "Release Packages" --limit 5
+gh run list --repo TianJianJun0727/ycloud-icons --workflow "Deploy Docs" --limit 5
+```
+
+如果需要手动触发完整 release PR 链路：
+
+```sh
+gh workflow run "Continuous integration icons" --repo TianJianJun0727/ycloud-icons --ref main
+```
+
+如果只需要重新部署指定版本文档，优先等 npm release 成功后再触发 docs，并带上发布版本：
+
+```sh
+gh workflow run "Deploy Docs" --repo TianJianJun0727/ycloud-icons --ref main -f ref=main -f package_version=<version>
+```
+
+### changelog / GitHub Release
+
+`changelogs/releases/vX.Y.Z.json` 是 GitHub Release 和文档 changelog 的源数据。生成 release PR 时要覆盖上一个 tag 到当前 release commit 之间的主要变更，不要只保留最后一个提交。
+
+修复历史 release notes 时：
+
+```sh
+pnpm generate:changelog
+RELEASE_VERSION=<version> YCLOUD_CHANGELOG_RELEASE_NOTES_PATH=.release-notes.md node scripts/writeGitHubReleaseNotes.mjs
+gh release edit "v<version>" --repo TianJianJun0727/ycloud-icons --notes-file .release-notes.md
+rm .release-notes.md
+```
+
+提交修复时至少包含：
+
+- `changelogs/releases/vX.Y.Z.json`
+- `CHANGELOG.md`
+- `docs/.vitepress/data/CHANGELOG.en.md`
+- 如果生成规则有问题，同步修改 `scripts/writeChangelog.mts`
 
 ## 添加一个通用图标
 
@@ -455,7 +558,7 @@ node ./scripts/checkBusinessSvgSource.mts
 business-icons/mono/billing.svg -> Billing
 ```
 
-所以不同颜色模式目录下不能出现同名 SVG。重复名称会导致包生成和 Figma 提交校验失败。
+所以不同颜色模式目录下不能出现同名 SVG。重复名称会导致包生成和源文件校验失败。
 
 ### 4. 自检结果
 
@@ -463,7 +566,7 @@ business-icons/mono/billing.svg -> Billing
 
 - 图标能在 `/business-icons/` 列表展示
 - 图标能在 `/business-icons/<name>` 页面生成详情
-- 所属颜色模式能在文档和 Figma 插件下拉中展示
+- 所属颜色模式能在文档中展示
 - 根 `business-icons/index.json` 是由脚本生成的最新内容
 - `@ycloud-web/icons-data/business` 能导出对应 SVG / data URI 数据
 - 业务字体示例可使用 `business-icon-<name>`
@@ -491,12 +594,12 @@ node ./scripts/writeIllustrationIndex.mts
 node ./scripts/checkIllustrationSvgSource.mts
 ```
 
-如果插画来自 Figma 插件提交，后续自动链路必须和通用图标、业务图标一致：
+如果插画来自外部 SVG 源文件，后续自动链路必须和通用图标、业务图标一致：
 
 - 自动修复工作流需要刷新并提交 `illustration-icons/index.json`
 - PR lint 需要运行 `pnpm lint:svg:illustration`
 - 自动合并白名单需要允许 `illustration-icons/*.svg` 和 `illustration-icons/index.json`
-- 合并到 `main` 后，Figma PR 中的 `illustration-icons/*.svg` 变更需要触发 release / npm 发布流程
+- 合并到 `main` 后，`illustration-icons/*.svg` 变更需要触发 release / npm 发布流程
 
 ### 3. 检查导出名
 
@@ -533,7 +636,7 @@ git diff --check
 - `illustration-icons/`
 - `docs/` 中与图标展示或说明直接相关的文件
 
-如果 diff 扩散到了大量无关文件，应先解释原因，再决定是否继续提交。业务图标变更通常还会触发 `packages/icons-static/business-font/`、Figma 插件或业务图标文档相关文件；插画变更通常会触发插画索引、包入口和文档列表相关文件。
+如果 diff 扩散到了大量无关文件，应先解释原因，再决定是否继续提交。业务图标变更通常还会触发 `packages/icons-static/business-font/` 或业务图标文档相关文件；插画变更通常会触发插画索引、包入口和文档列表相关文件。
 
 ## 一句话摘要
 
