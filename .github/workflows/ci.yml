@@ -189,7 +189,7 @@ jobs:
         id: release-pr
         shell: bash
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
           YCLOUD_AI_CHANGELOG: '1'
           YCLOUD_AI_CHANGELOG_VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
@@ -309,7 +309,7 @@ jobs:
           git tag "v${VERSION}" "$merge_commit"
           git push origin "v${VERSION}"
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           VERSION: ${{ steps.new-version.outputs.NEW_VERSION }}
           MAX_WAIT_ATTEMPTS: 30
           WAIT_INTERVAL_SECONDS: 30
