@@ -31,9 +31,33 @@
   "icons": [
     {
       "category": "duotone",
+      "name": "ads",
+      "path": "business-icons/duotone/ads.svg",
+      "componentName": "Ads"
+    },
+    {
+      "category": "duotone",
+      "name": "aftersale",
+      "path": "business-icons/duotone/aftersale.svg",
+      "componentName": "Aftersale"
+    },
+    {
+      "category": "duotone",
+      "name": "agent",
+      "path": "business-icons/duotone/agent.svg",
+      "componentName": "Agent"
+    },
+    {
+      "category": "duotone",
       "name": "botfilled",
       "path": "business-icons/duotone/botfilled.svg",
       "componentName": "Botfilled"
+    },
+    {
+      "category": "duotone",
+      "name": "category",
+      "path": "business-icons/duotone/category.svg",
+      "componentName": "Category"
     },
     {
       "category": "duotone",
@@ -43,15 +67,93 @@
     },
     {
       "category": "duotone",
+      "name": "date",
+      "path": "business-icons/duotone/date.svg",
+      "componentName": "Date"
+    },
+    {
+      "category": "duotone",
+      "name": "direction",
+      "path": "business-icons/duotone/direction.svg",
+      "componentName": "Direction"
+    },
+    {
+      "category": "duotone",
+      "name": "global",
+      "path": "business-icons/duotone/global.svg",
+      "componentName": "Global"
+    },
+    {
+      "category": "duotone",
+      "name": "inbox-whats-app",
+      "path": "business-icons/duotone/inbox-whats-app.svg",
+      "componentName": "InboxWhatsApp"
+    },
+    {
+      "category": "duotone",
+      "name": "language",
+      "path": "business-icons/duotone/language.svg",
+      "componentName": "Language"
+    },
+    {
+      "category": "duotone",
       "name": "meta-filled",
       "path": "business-icons/duotone/meta-filled.svg",
       "componentName": "MetaFilled"
     },
     {
       "category": "duotone",
+      "name": "orders-paid",
+      "path": "business-icons/duotone/orders-paid.svg",
+      "componentName": "OrdersPaid"
+    },
+    {
+      "category": "duotone",
+      "name": "permission",
+      "path": "business-icons/duotone/permission.svg",
+      "componentName": "Permission"
+    },
+    {
+      "category": "duotone",
+      "name": "product-docs",
+      "path": "business-icons/duotone/product-docs.svg",
+      "componentName": "ProductDocs"
+    },
+    {
+      "category": "duotone",
       "name": "shopify",
       "path": "business-icons/duotone/shopify.svg",
       "componentName": "Shopify"
+    },
+    {
+      "category": "duotone",
+      "name": "source",
+      "path": "business-icons/duotone/source.svg",
+      "componentName": "Source"
+    },
+    {
+      "category": "duotone",
+      "name": "status",
+      "path": "business-icons/duotone/status.svg",
+      "componentName": "Status"
+    },
+    {
+      "category": "duotone",
+      "name": "tag",
+      "path": "business-icons/duotone/tag.svg",
+      "componentName": "Tag"
+    },
+    {
+      "category": "duotone",
+      "name": "type",
+      "path": "business-icons/duotone/type.svg",
+      "componentName": "Type"
+    },
+    {
+      "category": "duotone",
+      "name": "user",
+      "path": "business-icons/duotone/user.svg",
+      "componentName": "User"
     },
     {
       "category": "mono",

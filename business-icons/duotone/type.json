@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Type",
+  "tags": ["Type", "业务图标"],
+  "use-cases": ["Type相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Type",
+      "tags": ["Type", "business icon"],
+      "use-cases": ["Type entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Type"
+    }
+  ]
+}

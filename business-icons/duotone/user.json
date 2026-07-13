@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "User",
+  "tags": ["User", "业务图标"],
+  "use-cases": ["User相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "User",
+      "tags": ["User", "business icon"],
+      "use-cases": ["User entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "User"
+    }
+  ]
+}
