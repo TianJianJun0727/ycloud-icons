@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Developers",
+  "tags": ["Developers", "业务图标"],
+  "use-cases": ["Developers相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Developers",
+      "tags": ["Developers", "business icon"],
+      "use-cases": ["Developers entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Developers-wrap"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Calling",
+  "tags": ["Calling", "业务图标"],
+  "use-cases": ["Calling相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Calling",
+      "tags": ["Calling", "business icon"],
+      "use-cases": ["Calling entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Calling-wrap"
+    }
+  ]
+}

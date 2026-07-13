@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Integration",
+  "tags": ["Integration", "业务图标"],
+  "use-cases": ["Integration相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Integration",
+      "tags": ["Integration", "business icon"],
+      "use-cases": ["Integration entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Integration-wrap"
+    }
+  ]
+}

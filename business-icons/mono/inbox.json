@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Inbox",
+  "tags": ["Inbox", "业务图标"],
+  "use-cases": ["Inbox相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Inbox",
+      "tags": ["Inbox", "business icon"],
+      "use-cases": ["Inbox entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Inbox-wrap"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Partner",
+  "tags": ["Partner", "业务图标"],
+  "use-cases": ["Partner相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Partner",
+      "tags": ["Partner", "business icon"],
+      "use-cases": ["Partner entry or status"]
+    }
+  },
+  "aliases": [
+    {
+      "name": "Partner-wrap"
+    }
+  ]
+}

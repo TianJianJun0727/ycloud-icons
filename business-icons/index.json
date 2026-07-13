@@ -55,87 +55,87 @@
     },
     {
       "category": "mono",
-      "name": "ad-wrap",
-      "path": "business-icons/mono/ad-wrap.svg",
-      "componentName": "AdWrap"
+      "name": "ad",
+      "path": "business-icons/mono/ad.svg",
+      "componentName": "Ad"
     },
     {
       "category": "mono",
-      "name": "calling-wrap",
-      "path": "business-icons/mono/calling-wrap.svg",
-      "componentName": "CallingWrap"
+      "name": "calling",
+      "path": "business-icons/mono/calling.svg",
+      "componentName": "Calling"
     },
     {
       "category": "mono",
-      "name": "cart-wrap",
-      "path": "business-icons/mono/cart-wrap.svg",
-      "componentName": "CartWrap"
+      "name": "cart",
+      "path": "business-icons/mono/cart.svg",
+      "componentName": "Cart"
     },
     {
       "category": "mono",
-      "name": "chatbot-wrap",
-      "path": "business-icons/mono/chatbot-wrap.svg",
-      "componentName": "ChatbotWrap"
+      "name": "chatbot",
+      "path": "business-icons/mono/chatbot.svg",
+      "componentName": "Chatbot"
     },
     {
       "category": "mono",
-      "name": "contact-wrap",
-      "path": "business-icons/mono/contact-wrap.svg",
-      "componentName": "ContactWrap"
+      "name": "contact",
+      "path": "business-icons/mono/contact.svg",
+      "componentName": "Contact"
     },
     {
       "category": "mono",
-      "name": "developers-wrap",
-      "path": "business-icons/mono/developers-wrap.svg",
-      "componentName": "DevelopersWrap"
+      "name": "developers",
+      "path": "business-icons/mono/developers.svg",
+      "componentName": "Developers"
     },
     {
       "category": "mono",
-      "name": "home-wrap",
-      "path": "business-icons/mono/home-wrap.svg",
-      "componentName": "HomeWrap"
+      "name": "home",
+      "path": "business-icons/mono/home.svg",
+      "componentName": "Home"
     },
     {
       "category": "mono",
-      "name": "inbox-wrap",
-      "path": "business-icons/mono/inbox-wrap.svg",
-      "componentName": "InboxWrap"
+      "name": "inbox",
+      "path": "business-icons/mono/inbox.svg",
+      "componentName": "Inbox"
     },
     {
       "category": "mono",
-      "name": "integration-wrap",
-      "path": "business-icons/mono/integration-wrap.svg",
-      "componentName": "IntegrationWrap"
+      "name": "integration",
+      "path": "business-icons/mono/integration.svg",
+      "componentName": "Integration"
     },
     {
       "category": "mono",
-      "name": "journey-wrap",
-      "path": "business-icons/mono/journey-wrap.svg",
-      "componentName": "JourneyWrap"
+      "name": "journey",
+      "path": "business-icons/mono/journey.svg",
+      "componentName": "Journey"
     },
     {
       "category": "mono",
-      "name": "megaphone-wrap",
-      "path": "business-icons/mono/megaphone-wrap.svg",
-      "componentName": "MegaphoneWrap"
+      "name": "megaphone",
+      "path": "business-icons/mono/megaphone.svg",
+      "componentName": "Megaphone"
     },
     {
       "category": "mono",
-      "name": "order-wrap",
-      "path": "business-icons/mono/order-wrap.svg",
-      "componentName": "OrderWrap"
+      "name": "order",
+      "path": "business-icons/mono/order.svg",
+      "componentName": "Order"
     },
     {
       "category": "mono",
-      "name": "partner-wrap",
-      "path": "business-icons/mono/partner-wrap.svg",
-      "componentName": "PartnerWrap"
+      "name": "partner",
+      "path": "business-icons/mono/partner.svg",
+      "componentName": "Partner"
     },
     {
       "category": "mono",
-      "name": "whatsapp-wrap",
-      "path": "business-icons/mono/whatsapp-wrap.svg",
-      "componentName": "WhatsappWrap"
+      "name": "whatsapp",
+      "path": "business-icons/mono/whatsapp.svg",
+      "componentName": "Whatsapp"
     },
     {
       "category": "multicolor",
