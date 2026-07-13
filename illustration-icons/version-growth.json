@@ -1,0 +1,13 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "增长版",
+  "tags": ["增长版", "套餐", "版本", "订阅"],
+  "use-cases": ["增长版套餐或版本标识", "订阅版本展示"],
+  "i18n": {
+    "en": {
+      "name": "Growth Plan",
+      "tags": ["growth", "plan", "version", "subscription"],
+      "use-cases": ["Growth plan or edition mark", "Subscription edition display"]
+    }
+  }
+}

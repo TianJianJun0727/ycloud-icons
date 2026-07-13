@@ -1,0 +1,13 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "已过期",
+  "tags": ["过期", "失效", "状态", "提醒"],
+  "use-cases": ["活动、权益或授权已过期", "失效状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Has Expired",
+      "tags": ["expired", "invalid", "status", "reminder"],
+      "use-cases": ["Expired campaign, benefit, or authorization", "Invalid state display"]
+    }
+  }
+}

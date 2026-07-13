@@ -57,6 +57,7 @@ const reactAttributeNameMap: Record<string, string> = {
   'stop-opacity': 'stopOpacity',
   'color-interpolation-filters': 'colorInterpolationFilters',
   'mask-type': 'maskType',
+  'xmlns:xlink': 'xmlnsXlink',
   'xlink:href': 'xlinkHref',
 };
 
@@ -121,15 +122,32 @@ function parseSvgAsset(svg: string) {
   };
 }
 
+function buildIllustrationDefinitionTypes(exportTypes = false) {
+  const typePrefix = exportTypes ? 'export ' : '';
+  return [
+    `${typePrefix}type IllustrationDefinitionNode =`,
+    '  | readonly [tag: string, attrs: Record<string, string>]',
+    '  | readonly [tag: string, attrs: Record<string, string>, children: readonly IllustrationDefinitionNode[]];',
+    '',
+    `${typePrefix}interface IllustrationDefinition {`,
+    '  name: string;',
+    '  attrs: Record<string, string>;',
+    '  node: readonly IllustrationDefinitionNode[];',
+    '}',
+  ].join('\n');
+}
+
 function buildDataModule(name: string, svg: string) {
   const exportBase = getIllustrationExportBase(name);
   const asset = parseSvgAsset(svg);
   return [
-    `export const ${exportBase}Illustration = {`,
+    buildIllustrationDefinitionTypes(),
+    '',
+    `export const ${exportBase}Illustration: IllustrationDefinition = {`,
     `  name: ${toStringLiteral(name)},`,
     `  attrs: ${JSON.stringify(asset.attrs)},`,
     `  node: ${JSON.stringify(asset.node)},`,
-    `} as const;`,
+    `};`,
     '',
     `export default ${exportBase}Illustration;`,
     '',
@@ -163,22 +181,14 @@ function buildDataIndex(sources: IllustrationSource[], includeAliases = true) {
     '',
     ...exports,
     '',
-    'export type IllustrationDefinitionNode =',
-    '  | readonly [tag: string, attrs: Record<string, string>]',
-    '  | readonly [tag: string, attrs: Record<string, string>, children: readonly IllustrationDefinitionNode[]];',
-    '',
-    'export interface IllustrationDefinition {',
-    '  name: string;',
-    '  attrs: Record<string, string>;',
-    '  node: readonly IllustrationDefinitionNode[];',
-    '}',
+    buildIllustrationDefinitionTypes(true),
     '',
     `export const illustrationNames = [${names}] as const;`,
     'export type IllustrationName = (typeof illustrationNames)[number];',
     '',
-    'export const illustrations = {',
+    'export const illustrations: Record<IllustrationName, IllustrationDefinition> = {',
     ...entries,
-    '} as const satisfies Record<string, IllustrationDefinition>;',
+    '};',
     '',
     'export function getIllustration(name: IllustrationName) {',
     '  return illustrations[name];',

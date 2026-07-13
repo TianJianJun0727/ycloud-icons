@@ -1,0 +1,16 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "Reshdesk 集成",
+  "tags": ["Reshdesk", "集成", "客服", "渠道"],
+  "use-cases": ["Reshdesk 渠道或集成入口", "客服系统集成能力说明"],
+  "i18n": {
+    "en": {
+      "name": "Reshdesk Integration",
+      "tags": ["Reshdesk", "integration", "support", "channel"],
+      "use-cases": [
+        "Reshdesk channel or integration entry",
+        "Support system integration capability description"
+      ]
+    }
+  }
+}

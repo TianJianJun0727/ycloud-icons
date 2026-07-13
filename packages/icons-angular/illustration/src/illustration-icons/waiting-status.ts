@@ -1,4 +1,18 @@
-export const waitingStatusIllustration = {
+type IllustrationDefinitionNode =
+  | readonly [tag: string, attrs: Record<string, string>]
+  | readonly [
+      tag: string,
+      attrs: Record<string, string>,
+      children: readonly IllustrationDefinitionNode[],
+    ];
+
+interface IllustrationDefinition {
+  name: string;
+  attrs: Record<string, string>;
+  node: readonly IllustrationDefinitionNode[];
+}
+
+export const waitingStatusIllustration: IllustrationDefinition = {
   name: 'waiting-status',
   attrs: { viewBox: '0 0 400 300', fill: 'none', xmlns: 'http://www.w3.org/2000/svg' },
   node: [
@@ -601,6 +615,6 @@ export const waitingStatusIllustration = {
       ],
     ],
   ],
-} as const;
+};
 
 export default waitingStatusIllustration;

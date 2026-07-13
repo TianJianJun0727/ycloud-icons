@@ -44,7 +44,10 @@ function validateIllustrationSvgFileName(file: string) {
 }
 
 function collectReferencedIds(svg: string) {
-  return new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+  return new Set([
+    ...[...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]),
+    ...[...svg.matchAll(/\b(?:href|xlink:href)=["']#([^"']+)["']/g)].map((match) => match[1]),
+  ]);
 }
 
 function checkDuplicatedAttributes(errors: string[], svg: string) {

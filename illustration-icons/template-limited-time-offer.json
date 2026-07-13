@@ -1,0 +1,13 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "限时优惠模板",
+  "tags": ["模板", "限时优惠", "营销", "消息"],
+  "use-cases": ["限时优惠消息模板", "营销模板场景展示"],
+  "i18n": {
+    "en": {
+      "name": "Limited Time Offer Template",
+      "tags": ["template", "limited time offer", "marketing", "message"],
+      "use-cases": ["Limited time offer message template", "Marketing template scenario display"]
+    }
+  }
+}

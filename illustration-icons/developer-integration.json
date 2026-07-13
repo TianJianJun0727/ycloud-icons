@@ -1,0 +1,13 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "开发者集成",
+  "tags": ["开发者", "集成", "代码", "API"],
+  "use-cases": ["开发者集成入口", "API 或代码接入说明"],
+  "i18n": {
+    "en": {
+      "name": "Developer Integration",
+      "tags": ["developer", "integration", "code", "api"],
+      "use-cases": ["Developer integration entry", "API or code integration guidance"]
+    }
+  }
+}
