@@ -1,0 +1,13 @@
+{
+  "$schema": "../asset-metadata.schema.json",
+  "name": "Tiktok",
+  "tags": ["Tiktok", "插画"],
+  "use-cases": ["Tiktok相关入口或状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Tiktok",
+      "tags": ["Tiktok", "illustration"],
+      "use-cases": ["Tiktok entry or status"]
+    }
+  }
+}

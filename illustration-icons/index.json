@@ -11,6 +11,16 @@
       "componentName": "Alipay"
     },
     {
+      "name": "api",
+      "path": "illustration-icons/api.svg",
+      "componentName": "Api"
+    },
+    {
+      "name": "business-app",
+      "path": "illustration-icons/business-app.svg",
+      "componentName": "BusinessApp"
+    },
+    {
       "name": "close-logo",
       "path": "illustration-icons/close-logo.svg",
       "componentName": "CloseLogo"
@@ -74,6 +84,11 @@
       "name": "expand-logo",
       "path": "illustration-icons/expand-logo.svg",
       "componentName": "ExpandLogo"
+    },
+    {
+      "name": "facebook",
+      "path": "illustration-icons/facebook.svg",
+      "componentName": "Facebook"
     },
     {
       "name": "has-expired",
@@ -166,6 +181,11 @@
       "componentName": "MarketingAutomation"
     },
     {
+      "name": "meta",
+      "path": "illustration-icons/meta.svg",
+      "componentName": "Meta"
+    },
+    {
       "name": "network-disconnected",
       "path": "illustration-icons/network-disconnected.svg",
       "componentName": "NetworkDisconnected"
@@ -236,6 +256,11 @@
       "componentName": "TemplateWhatsappOrderStatus"
     },
     {
+      "name": "tiktok",
+      "path": "illustration-icons/tiktok.svg",
+      "componentName": "Tiktok"
+    },
+    {
       "name": "version-enterprise",
       "path": "illustration-icons/version-enterprise.svg",
       "componentName": "VersionEnterprise"
@@ -264,6 +289,11 @@
       "name": "wechat-pay",
       "path": "illustration-icons/wechat-pay.svg",
       "componentName": "WechatPay"
+    },
+    {
+      "name": "whatsapp",
+      "path": "illustration-icons/whatsapp.svg",
+      "componentName": "Whatsapp"
     }
   ]
 }

@@ -46,6 +46,48 @@
     },
     {
       "type": "illustration",
+      "name": "api",
+      "path": "illustration-icons/api.svg",
+      "title": "API",
+      "englishName": "API",
+      "componentName": "Api",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "API",
+        "tags": ["API", "插画"],
+        "use-cases": ["API相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "API",
+            "tags": ["API", "illustration"],
+            "use-cases": ["API entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
+      "name": "business-app",
+      "path": "illustration-icons/business-app.svg",
+      "title": "BusinessAPP",
+      "englishName": "BusinessAPP",
+      "componentName": "BusinessApp",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "BusinessAPP",
+        "tags": ["BusinessAPP", "插画"],
+        "use-cases": ["BusinessAPP相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "BusinessAPP",
+            "tags": ["BusinessAPP", "illustration"],
+            "use-cases": ["BusinessAPP entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
       "name": "close-logo",
       "path": "illustration-icons/close-logo.svg",
       "title": "关闭 Logo",
@@ -334,6 +376,27 @@
               "Expanded entry or brand state display",
               "Brand mark expanded-state illustration"
             ]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
+      "name": "facebook",
+      "path": "illustration-icons/facebook.svg",
+      "title": "Facebook",
+      "englishName": "Facebook",
+      "componentName": "Facebook",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "Facebook",
+        "tags": ["Facebook", "插画"],
+        "use-cases": ["Facebook相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Facebook",
+            "tags": ["Facebook", "illustration"],
+            "use-cases": ["Facebook entry or status"]
           }
         }
       }
@@ -766,6 +829,27 @@
     },
     {
       "type": "illustration",
+      "name": "meta",
+      "path": "illustration-icons/meta.svg",
+      "title": "Meta",
+      "englishName": "Meta",
+      "componentName": "Meta",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "Meta",
+        "tags": ["Meta", "插画"],
+        "use-cases": ["Meta相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Meta",
+            "tags": ["Meta", "illustration"],
+            "use-cases": ["Meta entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
       "name": "network-disconnected",
       "path": "illustration-icons/network-disconnected.svg",
       "title": "网络断开",
@@ -1081,6 +1165,27 @@
     },
     {
       "type": "illustration",
+      "name": "tiktok",
+      "path": "illustration-icons/tiktok.svg",
+      "title": "Tiktok",
+      "englishName": "Tiktok",
+      "componentName": "Tiktok",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "Tiktok",
+        "tags": ["Tiktok", "插画"],
+        "use-cases": ["Tiktok相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "Tiktok",
+            "tags": ["Tiktok", "illustration"],
+            "use-cases": ["Tiktok entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
       "name": "version-enterprise",
       "path": "illustration-icons/version-enterprise.svg",
       "title": "企业版",
@@ -1201,6 +1306,27 @@
             "name": "Wechat pay",
             "tags": ["Wechat pay", "illustration"],
             "use-cases": ["Wechat pay entry or status"]
+          }
+        }
+      }
+    },
+    {
+      "type": "illustration",
+      "name": "whatsapp",
+      "path": "illustration-icons/whatsapp.svg",
+      "title": "WhatsApp",
+      "englishName": "WhatsApp",
+      "componentName": "Whatsapp",
+      "metadata": {
+        "$schema": "../asset-metadata.schema.json",
+        "name": "WhatsApp",
+        "tags": ["WhatsApp", "插画"],
+        "use-cases": ["WhatsApp相关入口或状态展示"],
+        "i18n": {
+          "en": {
+            "name": "WhatsApp",
+            "tags": ["WhatsApp", "illustration"],
+            "use-cases": ["WhatsApp entry or status"]
           }
         }
       }
