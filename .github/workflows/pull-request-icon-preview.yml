@@ -19,10 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-      - uses: nubjs/setup-nub@v0
-        with:
-          node-version-file: 'package.json'
-          package-manager-cache: false
+      - uses: ./.github/actions/setup-nub
 
       - name: Get changed files
         id: changed-files
@@ -30,8 +27,8 @@ jobs:
         with:
           files: icons/*.svg
 
-      - name: Install svgson for code preview (safer and faster than installing all deps)
-        run: npm install svgson@5.3.1 --force
+      - name: Install dependencies
+        run: nub install --frozen-lockfile
 
       - name: Save PR number
         run: |

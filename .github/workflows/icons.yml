@@ -14,7 +14,7 @@ on:
       - scripts/writeBusinessIconIndex.mts
       - scripts/writeIllustrationIndex.mts
       - scripts/render/**
-      - .github/actions/setup-pnpm/**
+      - .github/actions/setup-nub/**
       - package.json
       - packages/icons/**
       - pnpm-workspace.yaml
@@ -47,12 +47,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-nub
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: nub install --frozen-lockfile
 
       - name: Build
-        run: pnpm --filter @ycloud-web/icons build
+        run: nub --filter @ycloud-web/icons build
 
       - name: Test
-        run: pnpm --filter @ycloud-web/icons test
+        run: nub --filter @ycloud-web/icons test

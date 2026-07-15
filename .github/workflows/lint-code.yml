@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-nub
       - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
+        run: nub install --frozen-lockfile
 
       - name: Get changed generic icon files
         id: changed-generic-icons
@@ -60,11 +60,11 @@ jobs:
 
       - name: Run Linter
         run: |
-          pnpm lint:es
-          pnpm lint:format
+          nub run lint:es
+          nub run lint:format
 
           if [[ "${{ steps.changed-generic-icons.outputs.any_changed }}" == "true" ]]; then
-            ADDED_FILES="${{ steps.changed-generic-icons.outputs.added_files }}" pnpm checkIcons
+            ADDED_FILES="${{ steps.changed-generic-icons.outputs.added_files }}" nub run checkIcons
           fi
 
           generic_svg_files=()
@@ -76,15 +76,15 @@ jobs:
 
           if (( ${#generic_svg_files[@]} > 0 )); then
             node ./scripts/checkSvgSource.mts "${generic_svg_files[@]}"
-            pnpm exec prettier --parser html --check "${generic_svg_files[@]}"
+            nubx prettier --parser html --check "${generic_svg_files[@]}"
           fi
 
           if [[ "${{ steps.changed-business-icons.outputs.any_changed }}" == "true" ]]; then
-            pnpm lint:svg:business
+            nub run lint:svg:business
           fi
 
           if [[ "${{ steps.changed-illustrations.outputs.any_changed }}" == "true" ]]; then
-            pnpm lint:svg:illustration
+            nub run lint:svg:illustration
           fi
 
-          pnpm lint:json
+          nub run lint:json

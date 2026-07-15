@@ -26,9 +26,9 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: TianJianJun0727/ycloud-icons
-      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-nub
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: nub install --frozen-lockfile
 
       - name: Generate comment markup
         run: node ./scripts/suggestIconMetadata.mts
