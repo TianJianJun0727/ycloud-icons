@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Mixdesk 集成",
+  "tags": ["Mixdesk", "集成", "客服", "渠道"],
+  "use-cases": ["Mixdesk 渠道或集成入口", "客服渠道能力说明"],
+  "i18n": {
+    "en": {
+      "name": "Mixdesk Integration",
+      "tags": ["Mixdesk", "integration", "customer service", "channel"],
+      "use-cases": [
+        "Mixdesk channel or integration entry",
+        "Customer service channel capability description"
+      ]
+    }
+  }
+}

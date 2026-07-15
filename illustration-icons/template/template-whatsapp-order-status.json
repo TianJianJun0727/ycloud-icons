@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "WhatsApp 订单状态模板",
+  "tags": ["模板", "WhatsApp", "订单状态", "消息"],
+  "use-cases": ["WhatsApp 订单状态消息模板", "订单状态模板场景展示"],
+  "i18n": {
+    "en": {
+      "name": "WhatsApp Order Status Template",
+      "tags": ["template", "WhatsApp", "order status", "message"],
+      "use-cases": [
+        "WhatsApp order status message template",
+        "Order status template scenario display"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "WhatsApp 订单详情模板",
+  "tags": ["模板", "WhatsApp", "订单详情", "消息"],
+  "use-cases": ["WhatsApp 订单详情消息模板", "订单详情模板场景展示"],
+  "i18n": {
+    "en": {
+      "name": "WhatsApp Order Details Template",
+      "tags": ["template", "WhatsApp", "order details", "message"],
+      "use-cases": [
+        "WhatsApp order details message template",
+        "Order details template scenario display"
+      ]
+    }
+  }
+}

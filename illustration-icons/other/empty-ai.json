@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "空 AI",
+  "tags": ["空状态", "AI", "智能", "未生成"],
+  "use-cases": ["AI 内容为空或未生成", "智能内容空状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Empty AI",
+      "tags": ["empty", "ai", "intelligence", "not generated"],
+      "use-cases": ["Empty AI content or not generated yet", "AI content empty state display"]
+    }
+  }
+}

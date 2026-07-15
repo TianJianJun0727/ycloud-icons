@@ -204,7 +204,7 @@ jobs:
           if [[ "${{ steps.source-change-kind.outputs.illustration_changed }}" == "true" ]]; then
             illustration_svg_files=()
             while IFS= read -r -d '' file; do
-              if [[ "$file" == illustration-icons/*.svg && -f "$file" ]]; then
+              if [[ "$file" =~ ^illustration-icons/([^/]+/)?[^/]+\.svg$ && -f "$file" ]]; then
                 illustration_svg_files+=("$file")
               fi
             done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- illustration-icons)
@@ -241,14 +241,14 @@ jobs:
         if: steps.source-change-kind.outputs.generic_changed == 'true' || steps.source-change-kind.outputs.business_changed == 'true' || steps.source-change-kind.outputs.illustration_changed == 'true'
         run: |
           node ./scripts/writeAssetMetadata.mts
-          nubx oxfmt icons/metadata/*.json business-icons/**/*.json illustration-icons/*.json illustration-icons/metadata/*.json
+          nubx oxfmt icons/metadata/*.json business-icons/**/*.json illustration-icons/index.json illustration-icons/**/*.json illustration-icons/metadata/*.json
 
       - name: Format changed metadata
         if: steps.source-change-kind.outputs.generic_source_changed == 'true' || steps.source-change-kind.outputs.business_source_changed == 'true' || steps.source-change-kind.outputs.illustration_source_changed == 'true'
         run: |
           format_files=()
           while IFS= read -r -d '' file; do
-            if [[ ( "$file" == icons/*.json || "$file" == categories/*.json || "$file" == business-icons/*.json || "$file" == business-icons/*/*.json || "$file" == illustration-icons/*.json ) && -f "$file" ]]; then
+            if [[ ( "$file" == icons/*.json || "$file" == categories/*.json || "$file" == business-icons/*.json || "$file" == business-icons/*/*.json || "$file" == illustration-icons/*.json || "$file" == illustration-icons/*/*.json ) && -f "$file" ]]; then
               format_files+=("$file")
             fi
           done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons categories business-icons illustration-icons)

@@ -54,8 +54,18 @@ function listIllustrationSvgPaths() {
 
   return fs
     .readdirSync(illustrationIconsDir, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.svg'))
-    .map((entry) => `illustration-icons/${entry.name}`)
+    .flatMap((entry) => {
+      if (entry.isFile() && entry.name.endsWith('.svg')) {
+        return [`illustration-icons/${entry.name}`];
+      }
+      if (!entry.isDirectory() || entry.name === 'metadata') {
+        return [];
+      }
+      return fs
+        .readdirSync(path.join(illustrationIconsDir, entry.name), { withFileTypes: true })
+        .filter((child) => child.isFile() && child.name.endsWith('.svg'))
+        .map((child) => `illustration-icons/${entry.name}/${child.name}`);
+    })
     .sort((left, right) => left.localeCompare(right));
 }
 

@@ -21,9 +21,9 @@ import { data } from './codeExamples.data'
 const { params } = useData()
 
 const codeExamples = computed(() => {
-  const colorMode = params.value.colorMode ?? 'mono'
+  const colorMode = params.value.colorMode ?? 'outlined'
 
-  return data.codeExamples?.[colorMode] ?? data.codeExamples?.mono ?? []
+  return data.codeExamples?.[colorMode] ?? data.codeExamples?.outlined ?? []
 })
 
 const tabs = computed(() => codeExamples.value.map(
@@ -39,7 +39,7 @@ const codeExample = computed(() => codeExamples.value.map(
         .replace(/\$PascalCase/g, pascalCaseName)
         .replace(/\$CamelCase/g, camelCaseName)
         .replace(/\$Category/g, params.value.category)
-        .replace(/\$ColorMode/g, params.value.colorMode ?? 'mono')
+        .replace(/\$ColorMode/g, params.value.colorMode ?? 'outlined')
         .replace(/\$Name/g, params.value.name)
     }
   ).join('') ?? []

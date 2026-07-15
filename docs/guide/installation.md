@@ -11,7 +11,7 @@ YCloud Icons 当前覆盖 10 种包类型，可以按项目所用框架选择安
 
 - 通用图标：默认入口和 `icons/*` 子路径，适合 24x24 线性图标。
 - 业务图标：`business` 子入口、`business-icons/*` 静态路径和独立业务字体，适合产品或业务专有图形。
-- 插画：`illustration` 子入口和 `illustration-icons/*` 静态路径，适合保留原始颜色和宽高比例的插画资源。
+- 插画：`illustration` 子入口和 `illustration-icons/<category>/*` 静态路径，适合保留原始颜色和宽高比例的插画资源。
 
 业务图标和插画不会混入通用图标默认入口。业务图标规则见 [业务图标](./business-icons.md)，插画规则见 [插画](./illustration-icons.md)，插画列表可在 [插画](/illustration-icons/) 中浏览。
 

@@ -46,7 +46,7 @@ export type YCloudIconData = {
   attrs: SVGProps;
   node: YCloudIconNode[];
   aliases?: string[];
-  colorMode?: 'mono' | 'duotone' | 'multicolor';
+  colorMode?: 'outlined' | 'filled' | 'multicolor';
 };
 ```
 
@@ -56,7 +56,7 @@ export type YCloudIconData = {
 | `attrs`     | `SVGProps`                                | 根 `<svg>` 属性。                                    |
 | `node`      | `YCloudIconNode[]`                        | SVG 子节点，格式为 `[tagName, attributes]` 元组。    |
 | `aliases`   | `string[]`                                | 可选别名。                                           |
-| `colorMode` | `'mono' \| 'duotone' \| 'multicolor'`     | 业务图标颜色类型；通用图标和插画通常不需要这个字段。 |
+| `colorMode` | `'outlined' \| 'filled' \| 'multicolor'`     | 业务图标颜色类型；通用图标和插画通常不需要这个字段。 |
 
 ## 使用方式
 

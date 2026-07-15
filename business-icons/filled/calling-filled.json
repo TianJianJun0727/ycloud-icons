@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "calling填充",
+  "tags": ["calling填充", "calling", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["calling填充相关入口或状态展示", "需要兼容历史业务视觉的calling填充场景"],
+  "i18n": {
+    "en": {
+      "name": "calling filled",
+      "tags": ["calling filled", "calling", "filled", "filled business icon", "business icon"],
+      "use-cases": [
+        "calling filled entry or status",
+        "Legacy business visual for calling filled scenarios"
+      ]
+    }
+  }
+}

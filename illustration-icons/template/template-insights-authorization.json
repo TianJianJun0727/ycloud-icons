@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "模板洞察授权",
+  "tags": ["模板", "洞察", "授权", "状态"],
+  "use-cases": ["模板洞察授权状态或入口", "模板分析授权说明"],
+  "i18n": {
+    "en": {
+      "name": "Template Insights Authorization",
+      "tags": ["template", "insights", "authorization", "status"],
+      "use-cases": [
+        "Template insights authorization status or entry",
+        "Template analytics authorization description"
+      ]
+    }
+  }
+}

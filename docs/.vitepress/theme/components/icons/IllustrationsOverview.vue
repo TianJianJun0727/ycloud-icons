@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import { useData } from 'vitepress';
-import type { IllustrationEntity } from '@theme/types';
+import type { IllustrationCategory, IllustrationEntity } from '@theme/types';
 import { Icon } from '@ycloud-web/icons-vue';
 import { listSortDescending } from '~/.vitepress/data/iconNodes';
 import useSearch from '@theme/composables/useSearch';
@@ -17,6 +17,7 @@ import IllustrationDetailOverlay from './IllustrationDetailOverlay.vue';
 
 const props = defineProps<{
   illustrations: IllustrationEntity[];
+  categories: IllustrationCategory[];
 }>();
 
 const { page } = useData();
@@ -63,6 +64,7 @@ const searchKeys = computed(() =>
         { name: 'componentName', weight: 2 },
         { name: 'englishTags', weight: 2 },
         { name: 'englishUseCases', weight: 1 },
+        { name: 'englishCategoryTitle', weight: 1 },
         { name: 'name', weight: 1 },
       ]
     : [
@@ -70,11 +72,40 @@ const searchKeys = computed(() =>
         { name: 'componentName', weight: 2 },
         { name: 'tags', weight: 2 },
         { name: 'useCases', weight: 1 },
+        { name: 'categoryTitle', weight: 1 },
         { name: 'name', weight: 1 },
       ],
 );
 const searchResults = useSearch(searchQueryDebounced, sortedIllustrations, searchKeys);
 const searchPlaceholder = useSearchPlaceholder(searchQuery, searchResults);
+
+const categoryOrder = computed(() => props.categories.map((category) => category.name));
+const sortedSearchResults = computed(() => {
+  switch (selectedSort.value.value) {
+    case 'release-date':
+    case 'name':
+      return searchResults.value;
+    default:
+      return [...searchResults.value].sort((left, right) => {
+        const order =
+          categoryOrder.value.indexOf(left.category) -
+          categoryOrder.value.indexOf(right.category);
+        if (order !== 0) return order;
+        return left.name.localeCompare(right.name);
+      });
+  }
+});
+
+const groupedIllustrations = computed(() =>
+  props.categories
+    .map((category) => ({
+      category,
+      illustrations: sortedSearchResults.value.filter(
+        (illustration) => illustration.category === category.name,
+      ),
+    }))
+    .filter((group) => group.illustrations.length > 0),
+);
 </script>
 
 <template>
@@ -115,12 +146,34 @@ const searchPlaceholder = useSearchPlaceholder(searchQuery, searchResults);
       :isBrandSearch="searchPlaceholder.isBrand"
       @clear="searchQuery = ''"
     />
-    <IllustrationGrid
-      v-else
-      :illustrations="searchResults"
-      :activeIllustration="activeIllustrationName"
-      @select="activeIllustration = $event"
-    />
+    <template v-else>
+      <IllustrationGrid
+        v-for="group in groupedIllustrations"
+        :key="group.category.name"
+        :illustrations="group.illustrations"
+        :activeIllustration="activeIllustrationName"
+        @select="activeIllustration = $event"
+      >
+        <template #title>
+          <h2
+            class="illustration-category-title"
+            :id="group.category.name"
+          >
+            <a
+              class="header-anchor"
+              :href="`#${group.category.name}`"
+              :aria-label="
+                isEnglish
+                  ? `Permalink to &quot;${group.category.englishTitle}&quot;`
+                  : `跳转到“${group.category.title}”插画分类`
+              "
+              >&ZeroWidthSpace;</a
+            >
+            {{ isEnglish ? group.category.englishTitle : group.category.title }}
+          </h2>
+        </template>
+      </IllustrationGrid>
+    </template>
   </div>
 
   <IllustrationDetailOverlay
@@ -138,5 +191,12 @@ const searchPlaceholder = useSearchPlaceholder(searchQuery, searchResults);
 
 .input-wrapper {
   width: 100%;
+}
+
+.illustration-category-title {
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 24px 0 8px;
 }
 </style>

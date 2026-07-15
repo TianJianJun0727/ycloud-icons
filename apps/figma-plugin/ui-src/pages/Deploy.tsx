@@ -46,10 +46,22 @@ type IconMetadataIndex = {
   }>;
 };
 
+type IllustrationIndex = {
+  categories?: Array<{
+    name?: unknown;
+    title?: unknown;
+    i18n?: {
+      en?: {
+        title?: unknown;
+      };
+    };
+  }>;
+};
+
 const GITHUB_API_VERSION = '2022-11-28';
 const businessColorModes = [
-  { value: 'mono', label: '单色', description: 'business-icons/mono' },
-  { value: 'duotone', label: '双色', description: 'business-icons/duotone' },
+  { value: 'outlined', label: '描边', description: 'business-icons/outlined' },
+  { value: 'filled', label: '填充', description: 'business-icons/filled' },
   { value: 'multicolor', label: '多色', description: 'business-icons/multicolor' },
 ] as const;
 
@@ -213,7 +225,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
       ? sourceType === 'business'
         ? `已同步 ${businessColorModes.length} 个颜色模式、${existingBusinessIconNames.length} 个业务图标。`
         : sourceType === 'illustration'
-          ? `已同步 ${existingIllustrationNames.length} 个插画。`
+          ? `已同步 ${categories.length} 个插画分类、${existingIllustrationNames.length} 个插画。`
           : `已同步 ${categories.length} 个已有分类、${existingGenericIconNames.length} 个通用图标。`
       : categoryMessage;
   const existingIconSet = useMemo(() => new Set(existingIconNames), [existingIconNames]);
@@ -394,6 +406,12 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
   };
 
   const toggleCategory = (categoryKey: string) => {
+    if (sourceType === 'illustration') {
+      updateMetadata({
+        categories: [categoryKey],
+      });
+      return;
+    }
     const nextCategories = ycloudMetadata.categories.includes(categoryKey)
       ? ycloudMetadata.categories.filter((key) => key !== categoryKey)
       : [...ycloudMetadata.categories, categoryKey];
@@ -411,9 +429,12 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     setCategoryMessage('');
     try {
       const apiUrl = `https://api.github.com/repos/${githubData.owner}/${githubData.name}`;
-      const [categoryData, treeResponse] = await Promise.all([
-        readGitHubRawJson<Array<{ name?: unknown; title?: unknown; englishTitle?: unknown }>>(
-          `${apiUrl}/contents/docs/.vitepress/data/categoriesData.json?ref=main`,
+      const [categoryData, illustrationIndex, treeResponse] = await Promise.all([
+        readGitHubOptionalRawJson<
+          Array<{ name?: unknown; title?: unknown; englishTitle?: unknown }>
+        >(`${apiUrl}/contents/docs/.vitepress/data/categoriesData.json?ref=main`, githubApiKey),
+        readGitHubOptionalRawJson<IllustrationIndex>(
+          `${apiUrl}/contents/illustration-icons/index.json?ref=main`,
           githubApiKey,
         ),
         fetchGitHubRead(`${apiUrl}/git/trees/main?recursive=1`, githubApiKey),
@@ -452,9 +473,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         .map((item) => item.path.replace(/^business-icons\/[^/]+\//, '').replace(/\.svg$/, ''));
       const nextExistingIllustrationNames = tree.tree
         .filter(
-          (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
+          (item) =>
+            item.type === 'blob' && /^illustration-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
         )
-        .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, ''));
+        .map((item) => item.path.replace(/^illustration-icons\/[^/]+\//, '').replace(/\.svg$/, ''));
       const nextExistingBusinessIconNames = Array.from(
         new Set([...treeBusinessIconNames, ...collectIconMetadataNames(businessMetadata)]),
       );
@@ -464,7 +486,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           ...collectIconMetadataNames(illustrationMetadata),
         ]),
       );
-      const nextCategories = categoryData
+      const genericCategories = (categoryData ?? [])
         .filter((item) => typeof item.name === 'string' && item.name.length > 0)
         .map((item) => {
           const key = item.name as string;
@@ -475,16 +497,48 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
             englishTitle: getStringValue(item.englishTitle, key),
           };
         });
+      const illustrationCategories = (illustrationIndex?.categories ?? [])
+        .filter((item) => typeof item.name === 'string' && item.name.length > 0)
+        .map((item) => {
+          const key = item.name as string;
+          const title = getStringValue(item.title, key);
+          return {
+            key,
+            title,
+            englishTitle: getStringValue(item.i18n?.en?.title, key),
+          };
+        });
       const missingCategoryData = tree.tree
         .filter((item) => item.type === 'blob' && /^categories\/[^/]+\.json$/.test(item.path))
         .map((item) => item.path.replace(/^categories\//, '').replace(/\.json$/, ''))
-        .filter((key) => !nextCategories.some((category) => category.key === key))
+        .filter((key) => !genericCategories.some((category) => category.key === key))
         .map((key) => ({
           key,
           title: key,
           englishTitle: key,
         }));
-      nextCategories.push(...missingCategoryData);
+      const missingIllustrationCategoryData = tree.tree
+        .filter(
+          (item) =>
+            item.type === 'blob' && /^illustration-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
+        )
+        .map((item) => item.path.replace(/^illustration-icons\//, '').split('/')[0])
+        .filter((key) => key && !illustrationCategories.some((category) => category.key === key))
+        .map((key) => ({
+          key,
+          title: key === 'other' ? '其他' : key,
+          englishTitle: key === 'other' ? 'Other' : key,
+        }));
+      const nextCategories =
+        sourceType === 'illustration'
+          ? [
+              ...illustrationCategories,
+              ...missingIllustrationCategoryData,
+              ...(illustrationCategories.some((category) => category.key === 'other')
+                ? []
+                : [{ key: 'other', title: '其他', englishTitle: 'Other' }]),
+            ]
+          : [...genericCategories, ...missingCategoryData];
       setCategories(
         nextCategories.sort((left, right) =>
           getStringValue(left.title, left.key).localeCompare(
@@ -544,6 +598,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     icons.length === 0 ? '图标源' : '',
     deployableSelectedIcons.length === 0 ? '本次提交图标' : '',
     sourceType === 'generic' && ycloudMetadata.categories.length === 0 ? '分类' : '',
+    sourceType === 'illustration' && ycloudMetadata.categories.length === 0 ? '分类' : '',
     sourceType === 'business' && ycloudMetadata.businessColorMode === undefined ? '颜色模式' : '',
   ].filter(Boolean);
   const canDeploy =
@@ -552,7 +607,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
     deployableSelectedIcons.length > 0 &&
     (sourceType === 'business'
       ? ycloudMetadata.businessColorMode !== undefined
-      : sourceType === 'illustration' || ycloudMetadata.categories.length > 0) &&
+      : ycloudMetadata.categories.length > 0) &&
     !isDeploying;
 
   return (
@@ -619,6 +674,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               type="button"
               onClick={() => {
                 setSourceType('illustration');
+                updateMetadata({ categories: ['other'] });
               }}
             >
               插画
@@ -629,7 +685,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
           {sourceType === 'business'
             ? '当前提交到 business-icons/<颜色模式>/*.svg。'
             : sourceType === 'illustration'
-              ? '当前提交到 illustration-icons/*.svg；插画不要求 24x24，预览按容器等比缩放，提交时保留原始颜色和尺寸属性。'
+              ? '当前提交到 illustration-icons/<分类>/*.svg；插画不要求 24x24，预览按容器等比缩放，提交时保留原始颜色和尺寸属性。'
               : '当前提交到 icons/*.svg，并提交所选分类。'}
         </p>
       </section>
@@ -665,7 +721,7 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               value={ycloudMetadata.businessColorMode}
               onChange={(event) => {
                 updateMetadata({
-                  businessColorMode: event.currentTarget.value as 'mono' | 'duotone' | 'multicolor',
+                  businessColorMode: event.currentTarget.value as 'outlined' | 'filled' | 'multicolor',
                   businessCategory: event.currentTarget.value,
                 });
               }}
@@ -691,12 +747,16 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
         </section>
       )}
 
-      {sourceType === 'generic' && (
+      {(sourceType === 'generic' || sourceType === 'illustration') && (
         <section className={styles.card}>
           <div className={styles.row}>
             <div>
               <h2 className={styles.title}>分类</h2>
-              <p className={styles.muted}>选择目标图标库中已有分类。</p>
+              <p className={styles.muted}>
+                {sourceType === 'illustration'
+                  ? '选择目标插画分类；不确定分类时选择 other。'
+                  : '选择目标图标库中已有分类。'}
+              </p>
             </div>
             <button
               className={styles.secondaryButton}
@@ -763,7 +823,8 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
                 <label className={styles.checkboxLabel}>
                   <input
                     className={styles.checkbox}
-                    type="checkbox"
+                    type={sourceType === 'illustration' ? 'radio' : 'checkbox'}
+                    name={sourceType === 'illustration' ? 'illustration-category' : undefined}
                     checked={ycloudMetadata.categories.includes(category.key)}
                     onChange={() => {
                       toggleCategory(category.key);

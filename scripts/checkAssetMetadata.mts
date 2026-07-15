@@ -234,6 +234,7 @@ async function validateIllustrationMetadata() {
             title: getMetadataTitle(metadata),
             englishName: getMetadataEnglishName(metadata),
             componentName: illustration.componentName,
+            category: illustration.category,
             metadata,
           };
         }),

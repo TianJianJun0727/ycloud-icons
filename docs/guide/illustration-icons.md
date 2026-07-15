@@ -7,7 +7,7 @@ description: 插画 SVG 资产的存放、校验和使用规则。
 
 `illustration-icons/` 用于存放不适合进入通用图标或业务图标体系的插画类 SVG。
 
-插画通常面积更大、细节更多、包含固定颜色，适合空状态、引导页、结果页、异常页等页面级视觉表达。它不参与通用图标的 24x24 线性规范，也不参与业务图标的单色、双色、多色颜色清洗规则。
+插画通常面积更大、细节更多、包含固定颜色，适合空状态、引导页、结果页、异常页等页面级视觉表达。它不参与通用图标的 24x24 线性规范，也不参与业务图标的描边、填充、多色颜色清洗规则。
 
 ## 适用场景
 
@@ -23,8 +23,8 @@ description: 插画 SVG 资产的存放、校验和使用规则。
 ## 目录规则
 
 ```text
-illustration-icons/<illustration-name>.svg
-illustration-icons/<illustration-name>.json
+illustration-icons/<category>/<illustration-name>.svg
+illustration-icons/<category>/<illustration-name>.json
 illustration-icons/index.json
 illustration-icons/metadata/index.json
 docs/public/metadata/illustration-icons.json
@@ -35,7 +35,7 @@ docs/public/metadata/illustration-icons.json
 文件名必须使用小写 kebab-case，并且会直接决定包内导出名：
 
 ```text
-illustration-icons/empty-page.svg -> EmptyPage
+illustration-icons/other/empty-page.svg -> EmptyPage
 ```
 
 ## 清洗和校验规则
@@ -44,8 +44,8 @@ illustration-icons/empty-page.svg -> EmptyPage
 
 基础校验会检查：
 
-- 文件路径必须是 `illustration-icons/<illustration-name>.svg`
-- 同名 metadata 必须存在于 `illustration-icons/<illustration-name>.json`
+- 文件路径必须是 `illustration-icons/<category>/<illustration-name>.svg`；不确定分类时使用 `other`
+- 同名 metadata 必须存在于 `illustration-icons/<category>/<illustration-name>.json`
 - 文件名必须是小写 kebab-case
 - 根节点必须是 `<svg>`
 - 禁止 `<script>` 和 `<foreignObject>`
@@ -66,12 +66,12 @@ node ./scripts/checkIllustrationSvgSource.mts
 
 在 Figma 插件中选择“插画”后，插件会：
 
-- 提交到 `illustration-icons/*.svg`
-- 同时提交 `illustration-icons/*.json`
+- 提交到 `illustration-icons/<category>/*.svg`
+- 同时提交 `illustration-icons/<category>/*.json`
 - 不做颜色转换
 - 不做大小清洗
 - 不生成 `icons/*.json`，但会生成插画自己的同名 metadata JSON
-- 不要求通用图标的多选分类、标签或使用场景
+- 插画分类为单选；不确定分类时选择 `other`
 - 只按插画 SVG 基础安全规则拦截明显不安全的 SVG
 
 插件提交生成 PR 后，GitHub 工作流会和通用图标、业务图标一样处理插画：
@@ -79,7 +79,7 @@ node ./scripts/checkIllustrationSvgSource.mts
 - `fix-icon-source` 会自动刷新并格式化 `illustration-icons/index.json`、同名 metadata JSON 和仓库快照；`docs/public/metadata` 在文档构建时复制
 - PR lint 会运行 `pnpm lint:svg:illustration`
 - 允许同仓库 Figma 插画 PR 进入自动合并流程
-- 合并到 `main` 后，如果 PR 来自 Figma 且包含 `illustration-icons/*.svg`，会触发图标 release 流程并发布新的 npm 版本
+- 合并到 `main` 后，如果 PR 来自 Figma 且包含 `illustration-icons/<category>/*.svg`，会触发图标 release 流程并发布新的 npm 版本
 
 选择“通用图标”时仍沿用 `icons/*.svg` + `icons/*.json` 流程；选择“业务图标”时仍沿用 `business-icons/<color-mode>/*.svg` 流程。
 
@@ -137,7 +137,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import emptyPageUrl from '@ycloud-web/icons-static/illustration-icons/empty-page.svg';
+import emptyPageUrl from '@ycloud-web/icons-static/illustration-icons/other/empty-page.svg';
 ```
 
 ### Data 包

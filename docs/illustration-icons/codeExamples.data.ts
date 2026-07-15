@@ -5,7 +5,7 @@ const getIllustrationCodes = () => [
     language: 'html',
     title: 'Vanilla',
     code: `<script type="module">
-import illustrationUrl from '@ycloud-web/icons-static/illustration-icons/$Name.svg';
+import illustrationUrl from '@ycloud-web/icons-static/$Path';
 
 document.querySelector('#$Name').src = illustrationUrl;
 </script>
@@ -81,7 +81,7 @@ export default App;
     language: 'html',
     title: 'Angular',
     code: `<!-- app.component.ts -->
-import illustrationUrl from '@ycloud-web/icons-static/illustration-icons/$Name.svg';
+import illustrationUrl from '@ycloud-web/icons-static/$Path';
 
 iconUrl = illustrationUrl;
 

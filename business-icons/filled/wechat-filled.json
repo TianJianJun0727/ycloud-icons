@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "wechat填充",
+  "tags": ["wechat填充", "wechat", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["wechat填充相关入口或状态展示", "需要兼容历史业务视觉的wechat填充场景"],
+  "i18n": {
+    "en": {
+      "name": "wechat filled",
+      "tags": ["wechat filled", "wechat", "filled", "filled business icon", "business icon"],
+      "use-cases": [
+        "wechat filled entry or status",
+        "Legacy business visual for wechat filled scenarios"
+      ]
+    }
+  }
+}

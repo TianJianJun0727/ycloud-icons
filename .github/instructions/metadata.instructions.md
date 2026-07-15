@@ -1,5 +1,5 @@
 ---
-applyTo: 'icons/*.json,business-icons/**/*.json,illustration-icons/*.json'
+applyTo: 'icons/*.json,business-icons/**/*.json,illustration-icons/**/*.json'
 ---
 
 # YCloud Icons Metadata
@@ -9,7 +9,7 @@ Icon metadata lives next to the SVG source:
 - generic icons: `icons/*.json`, validated by `icon.schema.json`
 - business icons: `business-icons/<color-mode>/*.json`, validated by
   `scripts/checkAssetMetadata.mts`
-- illustrations: `illustration-icons/*.json`, validated by
+- illustrations: `illustration-icons/<category>/*.json`, validated by
   `scripts/checkAssetMetadata.mts`
 
 Each asset JSON must have the same basename as its SVG file, for example
@@ -36,7 +36,7 @@ use-case fields, but do not include `categories`. Their `$schema` points to
 `asset-metadata.schema.json`:
 
 - business icons usually use `../../asset-metadata.schema.json`
-- illustrations usually use `../asset-metadata.schema.json`
+- illustrations usually use `../../asset-metadata.schema.json`
 
 Do not add `contributors`. This project no longer keeps per-icon contributor
 metadata.

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "链接circle填充",
+  "tags": ["链接circle填充", "链接", "circle", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["链接circle填充相关入口或状态展示", "需要兼容历史业务视觉的链接circle填充场景"],
+  "i18n": {
+    "en": {
+      "name": "link circle filled",
+      "tags": [
+        "link circle filled",
+        "link",
+        "circle",
+        "filled",
+        "filled business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "link circle filled entry or status",
+        "Legacy business visual for link circle filled scenarios"
+      ]
+    }
+  }
+}

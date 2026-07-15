@@ -16,7 +16,7 @@ YCloud Icons 不是单一组件包，而是一套围绕同一份图标源数据�
 ```text
 icons/*.svg + icons/*.json
 business-icons/<color-mode>/*.svg + business-icons/<color-mode>/*.json + business-icons/<color-mode>/index.json
-illustration-icons/*.svg + illustration-icons/*.json
+illustration-icons/<category>/*.svg + illustration-icons/<category>/*.json
   -> 根级校验 / 清洗脚本
   -> packages/* 生成各框架产物
   -> docs/scripts/* 生成文档数据
@@ -43,14 +43,14 @@ illustration-icons/
 - `icons/metadata/index.json`：通用图标仓库最新 metadata 快照，供 Figma/GitHub/skills 直接读取
 - `docs/public/metadata/icons.json`：文档构建时从通用图标仓库快照复制出来的部署 URL 查询快照
 - `categories/*.json`：分类定义、分类标题和英文标题
-- `business-icons/<color-mode>/*.svg`：业务专有图标图形，一级目录只能是 `mono`、`duotone` 或 `multicolor`
+- `business-icons/<color-mode>/*.svg`：业务专有图标图形，一级目录只能是 `outlined`、`filled` 或 `multicolor`
 - `business-icons/<color-mode>/*.json`：业务图标同名 metadata，用于搜索、文档、Figma 和 skills 查询
 - `business-icons/<color-mode>/index.json`：业务图标颜色模式的中英文标题
 - `business-icons/index.json`：生成产物，供校验、插件、文档和包生成消费
 - `business-icons/metadata/index.json`：业务图标仓库最新 metadata 快照，供 Figma/GitHub/skills 直接读取
 - `docs/public/metadata/business-icons.json`：文档构建时从业务图标仓库快照复制出来的部署 URL 查询快照
-- `illustration-icons/*.svg`：插画资源，保留原始颜色和尺寸属性
-- `illustration-icons/*.json`：插画同名 metadata，用于搜索、文档、Figma 和 skills 查询
+- `illustration-icons/<category>/*.svg`：插画资源，一级目录是插画分类；不确定分类时使用 `other`，保留原始颜色和尺寸属性
+- `illustration-icons/<category>/*.json`：插画同名 metadata，用于搜索、文档、Figma 和 skills 查询
 - `illustration-icons/index.json`：生成产物，供校验、插件、文档和包生成消费
 - `illustration-icons/metadata/index.json`：插画仓库最新 metadata 快照，供 Figma/GitHub/skills 直接读取
 - `docs/public/metadata/illustration-icons.json`：文档构建时从插画仓库快照复制出来的部署 URL 查询快照
@@ -148,7 +148,7 @@ business-icons/metadata/index.json
 docs/public/metadata/business-icons.json
 ```
 
-业务图标会为每个 SVG 维护同名 JSON。一级目录表达颜色模式：`mono` 会把固定颜色清洗成 `currentColor`，`duotone` 会把白色映射为 secondary token、其他颜色映射为 primary token，`multicolor` 会保留固定色。根 `business-icons/index.json` 由脚本生成，用于 Figma 插件颜色模式选择、文档展示和包生成；`business-icons/metadata/index.json` 由脚本生成，用于 Figma、GitHub 校验和 skills 对当前仓库 main 的查询；`docs/public/metadata` 下的快照由文档构建从仓库快照复制，用于部署后的 URL 兜底查询。
+业务图标会为每个 SVG 维护同名 JSON。一级目录表达颜色模式：`outlined` 会把固定颜色清洗成 `currentColor`，`filled` 会把白色映射为 secondary token、其他颜色映射为 primary token，`multicolor` 会保留固定色。根 `business-icons/index.json` 由脚本生成，用于 Figma 插件颜色模式选择、文档展示和包生成；`business-icons/metadata/index.json` 由脚本生成，用于 Figma、GitHub 校验和 skills 对当前仓库 main 的查询；`docs/public/metadata` 下的快照由文档构建从仓库快照复制，用于部署后的 URL 兜底查询。
 
 ## 三、包结构怎么分
 

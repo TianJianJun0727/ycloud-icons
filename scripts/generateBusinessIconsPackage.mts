@@ -47,7 +47,7 @@ type BusinessIconSource = {
   staticPath: string;
   colorMode: BusinessIconColorMode;
 };
-type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+type BusinessIconColorMode = 'outlined' | 'filled' | 'multicolor';
 type BusinessIconExportSource = string | { name: string; colorMode: BusinessIconColorMode };
 
 const toPascalCase = (value: string) =>
@@ -134,7 +134,7 @@ function normalizeBusinessIconSource(source: BusinessIconExportSource): {
   name: string;
   colorMode: BusinessIconColorMode;
 } {
-  return typeof source === 'string' ? { name: source, colorMode: 'mono' } : source;
+  return typeof source === 'string' ? { name: source, colorMode: 'outlined' } : source;
 }
 
 function toReactAttributeName(name: string) {
@@ -158,7 +158,7 @@ function buildStrokeWidthExpression(value: string) {
 function buildReactAttribute(
   name: string,
   value: string,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ) {
   const reactName = toReactAttributeName(name);
   if (value === primaryColorToken) {
@@ -176,7 +176,7 @@ function buildReactAttribute(
 function buildReactSvgNode(
   node: INode,
   indent = 6,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ): string[] {
   const spacing = ' '.repeat(indent);
   const attributes = Object.entries(node.attributes ?? {})
@@ -198,22 +198,22 @@ function buildReactSvgNode(
 
 function getBusinessSvgPropsPattern(
   colorMode: BusinessIconColorMode,
-  includeSecondaryColor = colorMode === 'duotone',
+  includeSecondaryColor = colorMode === 'filled',
 ) {
-  if (colorMode === 'duotone' && includeSecondaryColor) {
+  if (colorMode === 'filled' && includeSecondaryColor) {
     return "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }";
   }
-  if (colorMode === 'duotone') {
+  if (colorMode === 'filled') {
     return "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }";
   }
-  if (colorMode === 'mono') {
+  if (colorMode === 'outlined') {
     return "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }";
   }
   return "{ size = 24, width, height, alt = '', style, ...props }";
 }
 
 function getBusinessSvgPropsType(componentName: string, colorMode: BusinessIconColorMode) {
-  if (colorMode === 'duotone') {
+  if (colorMode === 'filled') {
     return `${componentName}Props`;
   }
   if (colorMode === 'multicolor') {
@@ -226,7 +226,7 @@ function buildBusinessIconExtraProps(
   componentName: string,
   colorMode: BusinessIconColorMode,
 ): string[] {
-  if (colorMode === 'duotone') {
+  if (colorMode === 'filled') {
     return [
       `type ${componentName}Props = BusinessIconImageProps & {`,
       '  secondaryColor?: string;',
@@ -261,7 +261,7 @@ function buildObjectAttributeValue(
   if (value === secondaryColorToken) {
     return 'secondaryColor';
   }
-  if (options.isStrokeWidth && supportsBusinessStrokeWidth(options.colorMode ?? 'mono')) {
+  if (options.isStrokeWidth && supportsBusinessStrokeWidth(options.colorMode ?? 'outlined')) {
     return buildStrokeWidthExpression(value);
   }
   return toStringLiteral(value);
@@ -271,7 +271,7 @@ function buildObjectProperty(
   name: string,
   value: string,
   indent = 8,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ) {
   return `${' '.repeat(indent)}${toObjectPropertyName(name)}: ${buildObjectAttributeValue(value, {
     isStrokeWidth: name === 'stroke-width',
@@ -279,7 +279,7 @@ function buildObjectProperty(
   })},`;
 }
 
-function buildHNode(node: INode, indent = 6, colorMode: BusinessIconColorMode = 'mono'): string[] {
+function buildHNode(node: INode, indent = 6, colorMode: BusinessIconColorMode = 'outlined'): string[] {
   const spacing = ' '.repeat(indent);
   const properties = Object.entries(node.attributes ?? {}).map(([name, value]) =>
     buildObjectProperty(name, String(value), indent + 4, colorMode),
@@ -348,7 +348,7 @@ function buildHSvgElement(svg: string, colorMode: BusinessIconColorMode) {
 function buildMarkupAttribute(
   name: string,
   value: string,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ) {
   if (value === primaryColorToken) {
     return `${name}={color}`;
@@ -366,7 +366,7 @@ function buildMarkupSvgNode(
   node: INode,
   indent = 6,
   attributeNameFormatter: (name: string) => string = (name) => name,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ): string[] {
   const spacing = ' '.repeat(indent);
   const attributes = Object.entries(node.attributes ?? {})
@@ -442,11 +442,11 @@ function buildReactSvgElement(
       ? ['strokeWidth={strokeWidth}']
       : [];
   const children = (root.children ?? []).filter((child) => typeof child !== 'string') as INode[];
-  const propsType = colorMode === 'mono' ? 'BusinessIconImageProps' : `${componentName}Props`;
+  const propsType = colorMode === 'outlined' ? 'BusinessIconImageProps' : `${componentName}Props`;
   const propsPattern =
-    colorMode === 'duotone'
+    colorMode === 'filled'
       ? "{ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }"
-      : colorMode === 'mono'
+      : colorMode === 'outlined'
         ? "{ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }"
         : "{ size = 24, width, height, alt = '', style, ...props }";
   const styleExpression =
@@ -477,7 +477,7 @@ function buildReactSvgElement(
 export function buildBusinessIconModule(
   name: string,
   svg: string,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
 ) {
   const exportBase = getBusinessIconExportBase(name);
   const asset = parseSvgAsset(svg);
@@ -535,7 +535,7 @@ export function buildBusinessIconsIndex(
     '',
     'export interface BusinessIconDefinition {',
     '  name: string;',
-    "  colorMode: 'mono' | 'duotone' | 'multicolor';",
+    "  colorMode: 'outlined' | 'filled' | 'multicolor';",
     '  attrs: Record<string, string>;',
     '  node: readonly BusinessIconDefinitionNode[];',
     '}',
@@ -556,13 +556,13 @@ export function buildBusinessIconsIndex(
 
 export function buildBusinessReactIconModule(
   name: string,
-  colorMode: BusinessIconColorMode = 'mono',
+  colorMode: BusinessIconColorMode = 'outlined',
   svg = '<svg fill="currentColor" viewBox="0 0 24 24" />',
 ) {
   const componentName = getBusinessIconComponentName(name);
   const componentSource = buildReactSvgElement(svg, componentName, colorMode);
 
-  if (colorMode === 'mono') {
+  if (colorMode === 'outlined') {
     return [
       "import { forwardRef } from 'react';",
       "import type { BusinessIconImageProps } from '../businessTypes';",
@@ -576,7 +576,7 @@ export function buildBusinessReactIconModule(
     ].join('\n');
   }
 
-  if (colorMode === 'duotone') {
+  if (colorMode === 'filled') {
     return [
       "import { forwardRef } from 'react';",
       "import type { BusinessIconImageProps } from '../businessTypes';",
@@ -937,11 +937,11 @@ async function readBusinessIconSources() {
           sourcePath,
           staticPath: sourcePath,
           colorMode:
-            sourcePath.split(path.sep)[0] === 'duotone'
-              ? 'duotone'
+            sourcePath.split(path.sep)[0] === 'filled'
+              ? 'filled'
               : sourcePath.split(path.sep)[0] === 'multicolor'
                 ? 'multicolor'
-                : 'mono',
+                : 'outlined',
         };
       })
       .sort((left, right) => left.name.localeCompare(right.name));

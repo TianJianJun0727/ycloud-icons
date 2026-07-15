@@ -13,7 +13,7 @@ import { buildBusinessIconIndex } from './writeBusinessIconIndex.mts';
 const BUSINESS_ICONS_DIR = 'business-icons';
 const BUSINESS_ICON_INDEX_FILE = path.join(BUSINESS_ICONS_DIR, 'index.json');
 const SVG_FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*\.svg$/;
-const BUSINESS_ICON_COLOR_MODES = ['mono', 'duotone', 'multicolor'] as const;
+const BUSINESS_ICON_COLOR_MODES = ['outlined', 'filled', 'multicolor'] as const;
 
 type BusinessIconIndex = {
   categories: Array<{
@@ -111,7 +111,7 @@ function walk(errors: string[], node: INode, referencedIds: Set<string>, colorMo
 
     if (colorMode !== 'multicolor' && /^(fill|stroke)$/i.test(attr)) {
       const validColorValues =
-        colorMode === 'duotone'
+        colorMode === 'filled'
           ? ['none', 'var(--business-icon-primary-color)', 'var(--business-icon-secondary-color)']
           : ['none', 'currentColor'];
       if (!validColorValues.includes(String(value))) {
@@ -137,7 +137,7 @@ function checkRoot(errors: string[], root: INode) {
   }
 }
 
-export function validateBusinessSvgSource(svg: string, colorMode = 'mono') {
+export function validateBusinessSvgSource(svg: string, colorMode = 'outlined') {
   const errors: string[] = [];
   const referencedIds = collectReferencedIds(svg);
   checkDuplicatedAttributes(errors, svg);
@@ -156,11 +156,11 @@ export function validateBusinessSvgSource(svg: string, colorMode = 'mono') {
 export async function validateBusinessSvgSourceFile(file: string, categoryNames: Set<string>) {
   const fileNameErrors = validateBusinessSvgFileName(file, categoryNames);
   const normalizedFile = file.split(path.sep).join('/');
-  const colorMode = normalizedFile.includes(`${BUSINESS_ICONS_DIR}/duotone/`)
-    ? 'duotone'
+  const colorMode = normalizedFile.includes(`${BUSINESS_ICONS_DIR}/filled/`)
+    ? 'filled'
     : normalizedFile.includes(`${BUSINESS_ICONS_DIR}/multicolor/`)
       ? 'multicolor'
-      : 'mono';
+      : 'outlined';
 
   try {
     return [

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "comingsoon",
+  "tags": ["comingsoon", "coming", "soon", "填充业务图标", "业务图标"],
+  "use-cases": ["comingsoon相关入口或状态展示", "需要兼容历史业务视觉的comingsoon场景"],
+  "i18n": {
+    "en": {
+      "name": "coming soon",
+      "tags": ["coming soon", "coming", "soon", "filled business icon", "business icon"],
+      "use-cases": [
+        "coming soon entry or status",
+        "Legacy business visual for coming soon scenarios"
+      ]
+    }
+  }
+}

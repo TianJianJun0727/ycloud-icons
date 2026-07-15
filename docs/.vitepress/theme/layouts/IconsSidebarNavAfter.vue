@@ -4,6 +4,7 @@ import { computed } from 'vue';
 
 import CategoryList from '../components/icons/CategoryList.vue';
 import BusinessCategoryList from '../components/icons/BusinessCategoryList.vue';
+import IllustrationCategoryList from '../components/icons/IllustrationCategoryList.vue';
 import SidebarIconCustomizer from '../components/icons/SidebarIconCustomizer.vue';
 
 const { page } = useData();
@@ -22,6 +23,14 @@ const isBusinessIconsPage = computed(() => {
   );
 });
 
+const isIllustrationIconsPage = computed(() => {
+  const relativePath = page.value?.relativePath ?? '';
+
+  return (
+    relativePath.startsWith('illustration-icons/') ||
+    relativePath.startsWith('en/illustration-icons/')
+  );
+});
 </script>
 
 <template>
@@ -36,5 +45,6 @@ const isBusinessIconsPage = computed(() => {
     />
     <CategoryList v-if="isIconsPage" />
     <BusinessCategoryList v-if="isBusinessIconsPage" />
+    <IllustrationCategoryList v-if="isIllustrationIconsPage" />
   </div>
 </template>

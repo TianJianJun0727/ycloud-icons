@@ -52,6 +52,24 @@ const isCurrentDetail = computed(() => {
 
     <template v-if="showMetadataDetails">
       <div
+        v-if="illustration.category"
+        class="metadata-section"
+      >
+        <div class="metadata-title">{{ isEnglish ? 'Categories' : '分类' }}</div>
+        <div class="group metadata-badges">
+          <Badge
+            :href="`${isEnglish ? '/en' : ''}/illustration-icons/#${illustration.category}`"
+            :title="isEnglish ? 'Illustration category' : '插画分类'"
+          >
+            {{ isEnglish ? illustration.englishCategoryTitle : illustration.categoryTitle }}
+          </Badge>
+          <Badge :title="isEnglish ? 'Component export name' : '组件导出名'">
+            {{ illustration.componentName }}
+          </Badge>
+        </div>
+      </div>
+
+      <div
         v-if="displayTags.length > 0"
         class="metadata-section"
       >

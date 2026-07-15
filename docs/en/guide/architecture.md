@@ -16,7 +16,7 @@ The main flow looks like this:
 ```text
 icons/*.svg + icons/*.json
 business-icons/<color-mode>/*.svg + business-icons/<color-mode>/*.json + business-icons/<color-mode>/index.json
-illustration-icons/*.svg + illustration-icons/*.json
+illustration-icons/<category>/*.svg + illustration-icons/<category>/*.json
   -> validation and SVG optimization
   -> package generation for each framework
   -> documentation data generation
@@ -43,14 +43,14 @@ illustration-icons/
 - `icons/metadata/index.json`: latest repository generic icon metadata snapshot read directly by Figma/GitHub/skills
 - `docs/public/metadata/icons.json`: deployed URL lookup snapshot copied from generic icon repository snapshots during docs builds
 - `categories/*.json`: category definitions, Chinese titles, and English titles
-- `business-icons/<color-mode>/*.svg`: business-specific icon artwork; the first-level folder must be `mono`, `duotone`, or `multicolor`
+- `business-icons/<color-mode>/*.svg`: business-specific icon artwork; the first-level folder must be `outlined`, `filled`, or `multicolor`
 - `business-icons/<color-mode>/*.json`: same-name business icon metadata for search, docs, Figma, and skills lookup
 - `business-icons/<color-mode>/index.json`: localized business color-mode titles
 - `business-icons/index.json`: generated index consumed by validation, the Figma plugin, docs, and package generation
 - `business-icons/metadata/index.json`: latest repository business icon metadata snapshot read directly by Figma/GitHub/skills
 - `docs/public/metadata/business-icons.json`: deployed URL lookup snapshot copied from business icon repository snapshots during docs builds
-- `illustration-icons/*.svg`: illustration artwork that keeps its original colors and size attributes
-- `illustration-icons/*.json`: same-name illustration metadata for search, docs, Figma, and skills lookup
+- `illustration-icons/<category>/*.svg`: illustration artwork grouped by first-level category folder; use `other` when the category is unclear, and keep original colors and size attributes
+- `illustration-icons/<category>/*.json`: same-name illustration metadata for search, docs, Figma, and skills lookup
 - `illustration-icons/index.json`: generated index consumed by validation, the Figma plugin, docs, and package generation
 - `illustration-icons/metadata/index.json`: latest repository illustration metadata snapshot read directly by Figma/GitHub/skills
 - `docs/public/metadata/illustration-icons.json`: deployed URL lookup snapshot copied from illustration repository snapshots during docs builds
@@ -139,7 +139,7 @@ business-icons/metadata/index.json
 docs/public/metadata/business-icons.json
 ```
 
-Business icons keep a same-name JSON file next to every SVG. The first-level folder represents the color mode: `mono` converts fixed colors to `currentColor`, `duotone` maps white to the secondary token and all other colors to the primary token, and `multicolor` keeps fixed colors. The root `business-icons/index.json` is generated for the Figma plugin color-mode selector, docs, and package generation. `business-icons/metadata/index.json` is generated for Figma, GitHub validation, and skills lookup against the current repository main branch; snapshots under `docs/public/metadata` are copied from repository snapshots during docs builds as deployed URL fallbacks.
+Business icons keep a same-name JSON file next to every SVG. The first-level folder represents the color mode: `outlined` converts fixed colors to `currentColor`, `filled` maps white to the secondary token and all other colors to the primary token, and `multicolor` keeps fixed colors. The root `business-icons/index.json` is generated for the Figma plugin color-mode selector, docs, and package generation. `business-icons/metadata/index.json` is generated for Figma, GitHub validation, and skills lookup against the current repository main branch; snapshots under `docs/public/metadata` are copied from repository snapshots during docs builds as deployed URL fallbacks.
 
 ## Package Structure
 

@@ -93,7 +93,7 @@ bun add @ycloud-web/icons-static@latest
 插画 SVG 使用 `illustration-icons/` 路径：
 
 ```html
-<img src="~@ycloud-web/icons-static/illustration-icons/empty-page.svg" />
+<img src="~@ycloud-web/icons-static/illustration-icons/other/empty-page.svg" />
 ```
 
 ### 远程 metadata

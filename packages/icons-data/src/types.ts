@@ -15,7 +15,7 @@ export type YCloudIconData = {
   attrs: SVGProps;
   node: YCloudIconNode[];
   aliases?: string[];
-  colorMode?: 'mono' | 'duotone' | 'multicolor';
+  colorMode?: 'outlined' | 'filled' | 'multicolor';
 };
 
 /**

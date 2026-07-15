@@ -2,13 +2,23 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import illustrationIconGitMetadata from '../.vitepress/data/illustrationIconGitMetadata.json';
-import type { IllustrationEntity, Release } from '../.vitepress/theme/types';
+import type { IllustrationCategory, IllustrationEntity, Release } from '../.vitepress/theme/types';
 
 type IllustrationIndex = {
+  categories: Array<{
+    name: string;
+    title: string;
+    i18n: {
+      en: {
+        title: string;
+      };
+    };
+  }>;
   illustrations: Array<{
     name: string;
     path: string;
     componentName: string;
+    category: string;
   }>;
 };
 
@@ -54,10 +64,18 @@ function readMetadata(file: string): AssetMetadata | undefined {
 export default {
   async load() {
     const index = JSON.parse(fs.readFileSync(indexPath, 'utf8')) as IllustrationIndex;
+    const categories: IllustrationCategory[] = index.categories.map((category) => ({
+      name: category.name,
+      title: category.title,
+      englishTitle: category.i18n.en.title,
+      iconCount: index.illustrations.filter((item) => item.category === category.name).length,
+    }));
+    const categoryByName = new Map(categories.map((category) => [category.name, category]));
     const illustrations: IllustrationEntity[] = index.illustrations.map((item) => {
       const svg = fs.readFileSync(path.resolve(repoRoot, item.path), 'utf8').trim();
       const metadata = readMetadata(path.resolve(repoRoot, item.path.replace(/\.svg$/, '.json')));
       const assetGeneratedMetadata = generatedMetadata[item.path];
+      const category = categoryByName.get(item.category);
       return {
         name: item.name,
         displayName: metadata?.name ?? toDisplayName(item.name),
@@ -66,6 +84,9 @@ export default {
         englishName: metadata?.i18n?.en?.name,
         englishTags: metadata?.i18n?.en?.tags ?? [],
         englishUseCases: metadata?.i18n?.en?.['use-cases'] ?? [],
+        category: item.category,
+        categoryTitle: category?.title ?? item.category,
+        englishCategoryTitle: category?.englishTitle ?? item.category,
         componentName: item.componentName,
         path: item.path,
         svg,
@@ -77,6 +98,7 @@ export default {
     });
 
     return {
+      categories,
       illustrations,
     };
   },

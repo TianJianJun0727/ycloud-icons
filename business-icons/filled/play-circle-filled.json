@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "playcircle填充",
+  "tags": ["playcircle填充", "play", "circle", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["playcircle填充相关入口或状态展示", "需要兼容历史业务视觉的playcircle填充场景"],
+  "i18n": {
+    "en": {
+      "name": "play circle filled",
+      "tags": [
+        "play circle filled",
+        "play",
+        "circle",
+        "filled",
+        "filled business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "play circle filled entry or status",
+        "Legacy business visual for play circle filled scenarios"
+      ]
+    }
+  }
+}

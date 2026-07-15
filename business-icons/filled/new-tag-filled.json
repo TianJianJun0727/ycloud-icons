@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "new标签填充",
+  "tags": ["new标签填充", "new", "标签", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["new标签填充相关入口或状态展示", "需要兼容历史业务视觉的new标签填充场景"],
+  "i18n": {
+    "en": {
+      "name": "new tag filled",
+      "tags": ["new tag filled", "new", "tag", "filled", "filled business icon", "business icon"],
+      "use-cases": [
+        "new tag filled entry or status",
+        "Legacy business visual for new tag filled scenarios"
+      ]
+    }
+  }
+}
