@@ -23,9 +23,10 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
+      - uses: nubjs/setup-nub@v0
         with:
           node-version-file: 'package.json'
+          package-manager-cache: false
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v47
