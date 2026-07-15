@@ -2,7 +2,10 @@ import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
 const Share = forwardRef<SVGSVGElement, BusinessIconImageProps>(
-  ({ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }, ref) => (
+  (
+    { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props },
+    ref,
+  ) => (
     <svg
       ref={ref}
       xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +25,11 @@ const Share = forwardRef<SVGSVGElement, BusinessIconImageProps>(
       </g>
       <defs>
         <clipPath>
-          <rect width="20" height="20" transform="translate(0.394531)" />
+          <rect
+            width="20"
+            height="20"
+            transform="translate(0.394531)"
+          />
         </clipPath>
       </defs>
     </svg>

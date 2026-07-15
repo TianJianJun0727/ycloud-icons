@@ -27,8 +27,9 @@ export default {
       name: category.name,
       title: category.title,
       englishTitle: category.i18n.en.title,
-      iconCount: index.illustrations.filter((illustration) => illustration.category === category.name)
-        .length,
+      iconCount: index.illustrations.filter(
+        (illustration) => illustration.category === category.name,
+      ).length,
     }));
 
     return {

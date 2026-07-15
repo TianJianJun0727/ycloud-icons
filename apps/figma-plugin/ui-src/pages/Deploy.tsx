@@ -721,7 +721,10 @@ const Deploy = ({ sourceType, setSourceType }: DeployProps) => {
               value={ycloudMetadata.businessColorMode}
               onChange={(event) => {
                 updateMetadata({
-                  businessColorMode: event.currentTarget.value as 'outlined' | 'filled' | 'multicolor',
+                  businessColorMode: event.currentTarget.value as
+                    | 'outlined'
+                    | 'filled'
+                    | 'multicolor',
                   businessCategory: event.currentTarget.value,
                 });
               }}

@@ -8131,8 +8131,8 @@
   <path d="m15 19-3 3-3-3"></path>
   <path d="m15 5-3-3-3 3"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-ungroup">
-  <rect x="11" y="14" width="10" height="7" rx="2"></rect>
-  <rect x="3" y="3" width="10" height="7" rx="2"></rect>
+  <rect width="10" height="7" x="11" y="14" rx="2"></rect>
+  <rect width="10" height="7" x="3" y="3" rx="2"></rect>
 </symbol><symbol viewBox="0 0 24 24" id="icon-university">
   <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
   <path d="M18 12h.01"></path>

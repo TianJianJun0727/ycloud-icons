@@ -2,7 +2,10 @@ import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
 const CompositeTriggerIcon = forwardRef<SVGSVGElement, BusinessIconImageProps>(
-  ({ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }, ref) => (
+  (
+    { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props },
+    ref,
+  ) => (
     <svg
       ref={ref}
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +26,11 @@ const CompositeTriggerIcon = forwardRef<SVGSVGElement, BusinessIconImageProps>(
       </g>
       <defs>
         <clipPath id="clip0_22104_26112">
-          <rect width="20" height="20" fill="currentColor" />
+          <rect
+            width="20"
+            height="20"
+            fill="currentColor"
+          />
         </clipPath>
       </defs>
     </svg>

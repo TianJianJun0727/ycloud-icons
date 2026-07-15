@@ -1,7 +1,16 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-const CtwaSystemKeywordEvent: FunctionalComponent<BusinessIconImageProps> = ({ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }) =>
+const CtwaSystemKeywordEvent: FunctionalComponent<BusinessIconImageProps> = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  strokeWidth,
+  style,
+  ...props
+}) =>
   h(
     'svg',
     {
@@ -14,17 +23,14 @@ const CtwaSystemKeywordEvent: FunctionalComponent<BusinessIconImageProps> = ({ s
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
-      "stroke-width": strokeWidth,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },
     [
-      h(
-        'path',
-        {
-          d: 'M14.5154 17.7863L12.4144 15.7148H3.39233V2.25781H18.1032V15.7148L16.0014 13.6448V4.32775H5.49333V13.6448H13.2839L17.4883 17.7863H14.5154ZM9.69766 11.5749V8.46919H7.59511V6.39847H13.9004V8.46919H11.7987V11.5749H9.69766Z',
-        },
-      ),
+      h('path', {
+        d: 'M14.5154 17.7863L12.4144 15.7148H3.39233V2.25781H18.1032V15.7148L16.0014 13.6448V4.32775H5.49333V13.6448H13.2839L17.4883 17.7863H14.5154ZM9.69766 11.5749V8.46919H7.59511V6.39847H13.9004V8.46919H11.7987V11.5749H9.69766Z',
+      }),
     ],
   );
 

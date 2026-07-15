@@ -9,16 +9,6 @@ export {
   default as YCloudCloseLogo,
 } from './illustration-icons/close-logo.svelte';
 export {
-  default as CodeCoupon,
-  default as CodeCouponIcon,
-  default as YCloudCodeCoupon,
-} from './illustration-icons/code-coupon.svelte';
-export {
-  default as CustomIcon,
-  default as CustomIconIcon,
-  default as YCloudCustomIcon,
-} from './illustration-icons/custom-icon.svelte';
-export {
   default as CustomerSupport,
   default as CustomerSupportIcon,
   default as YCloudCustomerSupport,

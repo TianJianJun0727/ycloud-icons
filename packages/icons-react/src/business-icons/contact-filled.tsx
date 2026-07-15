@@ -6,7 +6,20 @@ type ContactFilledProps = BusinessIconImageProps & {
 };
 
 const ContactFilled = forwardRef<SVGSVGElement, ContactFilledProps>(
-  ({ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }, ref) => (
+  (
+    {
+      size = 24,
+      width,
+      height,
+      alt = '',
+      color = 'currentColor',
+      secondaryColor = '#fff',
+      strokeWidth,
+      style,
+      ...props
+    },
+    ref,
+  ) => (
     <svg
       ref={ref}
       xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,20 @@ type TaskMenuFilledProps = BusinessIconImageProps & {
 };
 
 const TaskMenuFilled = forwardRef<SVGSVGElement, TaskMenuFilledProps>(
-  ({ size = 24, width, height, alt = '', color = 'currentColor', secondaryColor = '#fff', strokeWidth, style, ...props }, ref) => (
+  (
+    {
+      size = 24,
+      width,
+      height,
+      alt = '',
+      color = 'currentColor',
+      secondaryColor = '#fff',
+      strokeWidth,
+      style,
+      ...props
+    },
+    ref,
+  ) => (
     <svg
       ref={ref}
       xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +39,11 @@ const TaskMenuFilled = forwardRef<SVGSVGElement, TaskMenuFilledProps>(
       </g>
       <defs>
         <clipPath id="clip0_7774_12737">
-          <rect width="24" height="24" fill={color} />
+          <rect
+            width="24"
+            height="24"
+            fill={color}
+          />
         </clipPath>
       </defs>
     </svg>

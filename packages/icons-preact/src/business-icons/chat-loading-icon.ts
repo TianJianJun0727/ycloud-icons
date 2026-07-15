@@ -1,7 +1,16 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-const ChatLoadingIcon = ({ size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BusinessIconImageProps) =>
+const ChatLoadingIcon = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  strokeWidth,
+  style,
+  ...props
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {
@@ -14,40 +23,31 @@ const ChatLoadingIcon = ({ size = 24, width, height, alt = '', color = 'currentC
       'aria-label': alt || undefined,
       'aria-hidden': alt ? undefined : true,
       color,
-      "stroke-width": strokeWidth,
+      'stroke-width': strokeWidth,
       style,
       ...props,
     },
     [
-      h(
-        'circle',
-        {
-          cx: '5',
-          cy: '12.2285',
-          r: '1.5',
-          fill: 'currentColor',
-        },
-      ),
-      h(
-        'circle',
-        {
-          cx: '12',
-          cy: '12.2285',
-          r: '1.5',
-          fill: 'currentColor',
-          "fill-opacity": '0.8',
-        },
-      ),
-      h(
-        'circle',
-        {
-          cx: '19',
-          cy: '12.2285',
-          r: '1.5',
-          fill: 'currentColor',
-          "fill-opacity": '0.3',
-        },
-      ),
+      h('circle', {
+        cx: '5',
+        cy: '12.2285',
+        r: '1.5',
+        fill: 'currentColor',
+      }),
+      h('circle', {
+        cx: '12',
+        cy: '12.2285',
+        r: '1.5',
+        fill: 'currentColor',
+        'fill-opacity': '0.8',
+      }),
+      h('circle', {
+        cx: '19',
+        cy: '12.2285',
+        r: '1.5',
+        fill: 'currentColor',
+        'fill-opacity': '0.3',
+      }),
     ],
   );
 

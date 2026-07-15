@@ -9,20 +9,10 @@ export {
   default as YCloudCloseLogo,
 } from './close-logo';
 export {
-  default as CodeCoupon,
-  default as CodeCouponIcon,
-  default as YCloudCodeCoupon,
-} from './code-coupon';
-export {
   default as CustomerSupport,
   default as CustomerSupportIcon,
   default as YCloudCustomerSupport,
 } from './customer-support';
-export {
-  default as CustomIcon,
-  default as CustomIconIcon,
-  default as YCloudCustomIcon,
-} from './custom-icon';
 export {
   default as DataImporting,
   default as DataImportingIcon,
