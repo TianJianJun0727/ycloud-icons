@@ -1,5 +1,5 @@
-name: Setup Nub, Node.js and pnpm
-description: Setup Nub, provision the project-pinned Node.js, activate packageManager-pinned pnpm with Corepack, and cache the pnpm store.
+name: Setup Nub and Node.js
+description: Setup Nub, provision the project-pinned Node.js, and cache the Nub package store.
 
 inputs:
   node-version-file:
@@ -33,33 +33,37 @@ runs:
         registry-url: ${{ inputs.registry-url }}
         package-manager-cache: false
 
-    - name: Enable Corepack pnpm
+    - name: Print Nub version
+      shell: bash
+      run: nub --version
+
+    - name: Add pnpm compatibility shim
       shell: bash
       run: |
-        npm install --global corepack@latest
-        corepack enable
-        corepack install
-        pnpm --version
+        nub pm shim
+        mkdir -p "$RUNNER_TEMP/nub-pnpm-shim"
+        ln -sf "$HOME/.nub/shims/pnpm" "$RUNNER_TEMP/nub-pnpm-shim/pnpm"
+        echo "$RUNNER_TEMP/nub-pnpm-shim" >> "$GITHUB_PATH"
 
-    - name: Resolve pnpm store path
-      id: pnpm-store
+    - name: Resolve Nub store path
+      id: nub-store
       shell: bash
-      run: echo "path=$(pnpm store path --silent)" >> "$GITHUB_OUTPUT"
+      run: echo "path=$(nub store path)" >> "$GITHUB_OUTPUT"
 
-    - name: Restore pnpm store
+    - name: Restore Nub store
       if: inputs.cache-mode == 'restore'
       uses: actions/cache/restore@v6
       with:
-        path: ${{ steps.pnpm-store.outputs.path }}
-        key: pnpm-store-${{ runner.os }}-${{ hashFiles('package.json', 'pnpm-lock.yaml') }}
+        path: ${{ steps.nub-store.outputs.path }}
+        key: nub-store-${{ runner.os }}-${{ hashFiles('package.json', 'pnpm-lock.yaml') }}
         restore-keys: |
-          pnpm-store-${{ runner.os }}-
+          nub-store-${{ runner.os }}-
 
-    - name: Restore and save pnpm store
+    - name: Restore and save Nub store
       if: inputs.cache-mode != 'restore'
       uses: actions/cache@v6
       with:
-        path: ${{ steps.pnpm-store.outputs.path }}
-        key: pnpm-store-${{ runner.os }}-${{ hashFiles('package.json', 'pnpm-lock.yaml') }}
+        path: ${{ steps.nub-store.outputs.path }}
+        key: nub-store-${{ runner.os }}-${{ hashFiles('package.json', 'pnpm-lock.yaml') }}
         restore-keys: |
-          pnpm-store-${{ runner.os }}-
+          nub-store-${{ runner.os }}-

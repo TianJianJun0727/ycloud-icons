@@ -53,7 +53,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ inputs.ref || github.ref }}
 
-      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-nub
 
       - name: Use published icon packages
         if: ${{ inputs.package_version != '' }}
@@ -86,11 +86,11 @@ jobs:
 
       - name: Install dependencies
         if: ${{ inputs.package_version == '' }}
-        run: pnpm install --frozen-lockfile
+        run: nub install --frozen-lockfile
 
       - name: Install dependencies with published icon packages
         if: ${{ inputs.package_version != '' }}
-        run: pnpm install --no-frozen-lockfile --config.link-workspace-packages=false
+        run: nub install --no-frozen-lockfile --config.link-workspace-packages=false
 
       - name: Generate GitHub Pages cache key
         id: pages-cache-key
@@ -119,7 +119,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           NODE_OPTIONS: --max-old-space-size=12288
-        run: pnpm docs:build:github-pages
+        run: nub run docs:build:github-pages
 
       - name: Reuse GitHub Pages build output
         if: steps.pages-build-cache.outputs.cache-hit == 'true'

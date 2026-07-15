@@ -3,7 +3,7 @@ name: Figma Plugin Checks
 on:
   pull_request:
     paths:
-      - .github/actions/setup-pnpm/**
+      - .github/actions/setup-nub/**
       - .github/workflows/figma-plugin.yml
       - apps/figma-plugin/**
       - package.json
@@ -19,18 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-nub
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: nub install --frozen-lockfile
 
       - name: Build
-        run: pnpm figma:build
+        run: nub run figma:build
 
       - name: Typecheck
-        run: pnpm figma:typecheck
+        run: nub run figma:typecheck
 
       - name: Lint
-        run: pnpm exec oxlint apps/figma-plugin --quiet
+        run: nubx oxlint apps/figma-plugin --quiet
 
       - name: Format check
-        run: pnpm exec oxfmt --check 'apps/figma-plugin/**/*.{js,mjs,ts,jsx,tsx,html,css,scss,json,yml,yaml}' --ignore-path .oxfmtignore --no-error-on-unmatched-pattern
+        run: nubx oxfmt --check 'apps/figma-plugin/**/*.{js,mjs,ts,jsx,tsx,html,css,scss,json,yml,yaml}' --ignore-path .oxfmtignore --no-error-on-unmatched-pattern
