@@ -4,7 +4,11 @@
 
 ## v0.2.5 - 2026-07-17
 
-- feat(business-icons): refresh filled and multicolor assets (#104)
+- Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.
+- Updated icon documentation, business icon guides, and architecture notes to match the current asset rules.
+- Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
+- Unified naming rules for generic icons, business icons, and illustrations, with matching validation, fix, and auto-merge flow updates.
+- Cleaned up historical review documents and changelog data to reduce repository maintenance noise.
 
 ## v0.2.4 - 2026-07-17
 
