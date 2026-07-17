@@ -2,6 +2,10 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.5 - 2026-07-17
+
+- feat(business-icons): refresh filled and multicolor assets (#104)
+
 ## v0.2.4 - 2026-07-17
 
 - Unified directory, naming, category, and metadata rules for business and illustration assets, with improved generation and validation workflows.

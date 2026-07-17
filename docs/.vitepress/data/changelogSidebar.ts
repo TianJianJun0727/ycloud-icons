@@ -1,5 +1,9 @@
 const changelogSidebarItems = [
   {
+    "text": "v0.2.5 · 2026-07-17",
+    "link": "/changelog#v0-2-5-2026-07-17"
+  },
+  {
     "text": "v0.2.4 · 2026-07-17",
     "link": "/changelog#v0-2-4-2026-07-17"
   },
