@@ -2,9 +2,17 @@
   "tag": "v0.2.5",
   "date": "2026-07-17",
   "zh": [
-    "feat(business-icons): refresh filled and multicolor assets (#104)"
+    "优化图标维护与图标选择 skills，补充本地脚本、发布、文档构建和缓存使用指引。",
+    "同步更新图标文档、业务图标指南和架构说明，保持资产规则与页面说明一致。",
+    "更新业务图标资源、命名和元数据，覆盖 filled、outlined 与 multicolor 等分类。",
+    "统一通用图标、业务图标和插画的命名规则，修正相关检测、修复和自动合并流程。",
+    "清理历史 review 文档和 changelog 数据，减少仓库维护噪音。"
   ],
   "en": [
-    "feat(business-icons): refresh filled and multicolor assets (#104)"
+    "Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.",
+    "Updated icon documentation, business icon guides, and architecture notes to match the current asset rules.",
+    "Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.",
+    "Unified naming rules for generic icons, business icons, and illustrations, with matching validation, fix, and auto-merge flow updates.",
+    "Cleaned up historical review documents and changelog data to reduce repository maintenance noise."
   ]
 }

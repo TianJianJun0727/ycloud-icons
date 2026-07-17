@@ -132,23 +132,116 @@ function getEnglishFallbackNotes(commits: string[], hasPreviousTag: boolean) {
   return commits;
 }
 
+function hasChangedFile(changedFiles: string[], pattern: RegExp) {
+  return changedFiles.some((line) => pattern.test(line.replace(/^[A-Z]\d*\s+/, '')));
+}
+
+function getDeterministicFallbackNotes(
+  commits: string[],
+  changedFiles: string[],
+  hasPreviousTag: boolean,
+): ChangelogNotes {
+  if (!hasPreviousTag && commits.length === 1 && commits[0] === '首个正式版本发布。') {
+    return {
+      zh: ['首个正式版本发布。'],
+      en: ['First stable release.'],
+    };
+  }
+
+  if (commits.length === 1 && commits[0] === '本版本没有记录到额外提交说明。') {
+    return {
+      zh: ['本版本没有记录到额外提交说明。'],
+      en: ['No additional commit notes were recorded for this release.'],
+    };
+  }
+
+  const notes: ChangelogNotes = { zh: [], en: [] };
+  const addNote = (zh: string, en: string) => {
+    if (!notes.zh.includes(zh)) {
+      notes.zh.push(zh);
+      notes.en.push(en);
+    }
+  };
+
+  if (hasChangedFile(changedFiles, /^business-icons\//)) {
+    addNote(
+      '更新业务图标资源、命名和元数据，覆盖 filled、outlined 与 multicolor 等分类。',
+      'Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^illustration-icons\//)) {
+    addNote(
+      '更新插画资源、分类和元数据，保持插画搜索与文档展示一致。',
+      'Updated illustration assets, categories, and metadata to keep search and documentation consistent.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^icons\//)) {
+    addNote(
+      '更新通用图标资源和元数据，保持图标命名、搜索和文档数据一致。',
+      'Updated generic icon assets and metadata to keep naming, search, and documentation data aligned.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^agents\/skills\//)) {
+    addNote(
+      '优化图标维护与图标选择 skills，补充本地脚本、发布、文档构建和缓存使用指引。',
+      'Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^docs\//) || hasChangedFile(changedFiles, /^README(\.en)?\.md$/)) {
+    addNote(
+      '同步更新文档、指南和示例，保持图标资产规则与页面说明一致。',
+      'Updated documentation, guides, and examples to match the current icon asset rules.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^\.github\/workflows\//)) {
+    addNote(
+      '优化 GitHub Actions 中的图标修复、自动合并、发布和文档部署流程。',
+      'Improved GitHub Actions flows for icon fixes, auto-merge, releases, and documentation deployment.',
+    );
+  }
+
+  if (hasChangedFile(changedFiles, /^packages\//)) {
+    addNote(
+      '刷新包版本、导出入口或构建产物，使各框架包与最新图标资源保持一致。',
+      'Refreshed package versions, export entries, or build outputs so framework packages stay aligned with the latest icon assets.',
+    );
+  }
+
+  if (!notes.zh.length) {
+    const releaseCommits = commits.filter((commit) => !/^chore\(release\):/i.test(commit));
+    return {
+      zh: releaseCommits,
+      en: getEnglishFallbackNotes(releaseCommits, hasPreviousTag),
+    };
+  }
+
+  return {
+    zh: notes.zh.slice(0, 10),
+    en: notes.en.slice(0, 10),
+  };
+}
+
 function buildEntries(tags: string[]): ReleaseEntry[] {
   return tags.map((tag, index) => {
     const previousTag = tags[index + 1];
     const version = tag.replace(/^v/, '');
     const commits = getCommits(tag, previousTag);
     const previousTagExists = index < tags.length - 1;
+    const changedFiles = getChangedFiles(tag, previousTag);
+    const notes = getDeterministicFallbackNotes(commits, changedFiles, previousTagExists);
 
     return {
       version,
       tag,
       date: getTagDate(tag),
       commits,
-      changedFiles: getChangedFiles(tag, previousTag),
-      notes: {
-        zh: commits,
-        en: getEnglishFallbackNotes(commits, previousTagExists),
-      },
+      changedFiles,
+      notes,
     };
   });
 }
@@ -167,17 +260,16 @@ function buildPendingReleaseEntry(tags: string[]): ReleaseEntry | undefined {
   const previousTag = tags[0];
   const commits = getCommits('HEAD', previousTag);
   const previousTagExists = Boolean(previousTag);
+  const changedFiles = getChangedFiles('HEAD', previousTag);
+  const notes = getDeterministicFallbackNotes(commits, changedFiles, previousTagExists);
 
   return {
     version: targetVersion,
     tag: targetTag,
     date: getRefDate('HEAD'),
     commits,
-    changedFiles: getChangedFiles('HEAD', previousTag),
-    notes: {
-      zh: commits,
-      en: getEnglishFallbackNotes(commits, previousTagExists),
-    },
+    changedFiles,
+    notes,
   };
 }
 
