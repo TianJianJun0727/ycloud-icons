@@ -7,8 +7,8 @@ For the user-facing guide, see [Business icons](../docs/en/guide/business-icons.
 ## Source layout
 
 ```text
-business-icons/<color-mode>/<snake_name>.svg
-business-icons/<color-mode>/<snake_name>.json
+business-icons/<color-mode>/<kebab-name>.svg
+business-icons/<color-mode>/<kebab-name>.json
 business-icons/<color-mode>/index.json
 business-icons/index.json
 business-icons/metadata/index.json
@@ -20,7 +20,7 @@ Supported color modes are:
 - `filled`: use primary and secondary business color tokens
 - `multicolor`: preserve fixed source colors
 
-SVG names must be globally unique across all color modes because generated package exports are flat. File names use lowercase snake_case, for example `whatsapp_outlined.svg`.
+SVG names must be globally unique across all color modes because generated package exports are flat. File names use lowercase kebab-case, for example `whatsapp-outlined.svg`.
 
 Each SVG requires same-name bilingual metadata JSON. Do not hand-edit the generated root index or metadata index.
 
@@ -47,11 +47,11 @@ import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 ```ts
 import { getBusinessIcon } from '@ycloud-web/icons-data/business';
 
-const whatsapp = getBusinessIcon('whatsapp_outlined');
+const whatsapp = getBusinessIcon('whatsapp-outlined');
 ```
 
 ```ts
-import whatsappUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg';
+import whatsappUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp-outlined.svg';
 ```
 
 Generic icons, business icons, and illustrations use separate source rules. If an asset can express an ordinary UI action without product-specific meaning, prefer `icons/`. Use `illustration-icons/` for page-level artwork.

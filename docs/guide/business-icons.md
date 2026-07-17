@@ -64,7 +64,7 @@ multicolor
 - 颜色模式目录必须有 `business-icons/<color-mode>/index.json`
 - 根 `business-icons/index.json` 必须由 `node ./scripts/writeBusinessIconIndex.mts` 生成并保持同步
 - `business-icons/metadata/index.json` 必须由 `node ./scripts/writeAssetMetadata.mts` 生成并保持同步；`docs/public/metadata` 由文档构建直接复制
-- 文件名必须是小写 snake_case，例如 `whatsapp_outlined.svg`
+- 文件名必须是小写 kebab-case，例如 `whatsapp-outlined.svg`
 - 根节点必须是 `<svg>`
 - `outlined` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
 - `filled` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
@@ -112,10 +112,10 @@ pnpm add @ycloud-web/icons
 ```ts
 import { businessIcons, getBusinessIcon } from '@ycloud-web/icons/business';
 
-const icon = getBusinessIcon('whatsapp_outlined');
+const icon = getBusinessIcon('whatsapp-outlined');
 const rootAttrs = icon.attrs;
 const children = icon.node;
-const sameIcon = businessIcons['whatsapp_outlined'];
+const sameIcon = businessIcons['whatsapp-outlined'];
 ```
 
 ### React 包
@@ -130,7 +130,13 @@ pnpm add @ycloud-web/icons-react
 import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 
 export function ChannelIcon() {
-  return <WhatsappOutlined size={24} color="#111827" strokeWidth={1.5} />;
+  return (
+    <WhatsappOutlined
+      size={24}
+      color="#111827"
+      strokeWidth={1.5}
+    />
+  );
 }
 ```
 
@@ -140,7 +146,14 @@ React 业务图标组件底层渲染为内联 `<svg>`。`outlined` 和 `filled` 
 import { ShopifyFilled } from '@ycloud-web/icons-react/business';
 
 export function FilledIcon() {
-  return <ShopifyFilled size={24} color="#111827" secondaryColor="#fff" strokeWidth={1.5} />;
+  return (
+    <ShopifyFilled
+      size={24}
+      color="#111827"
+      secondaryColor="#fff"
+      strokeWidth={1.5}
+    />
+  );
 }
 ```
 
@@ -160,7 +173,7 @@ Angular 包导出业务图标定义，可按 `attrs + node` 渲染为内联 SVG 
 ```ts
 import { getBusinessIcon } from '@ycloud-web/icons-angular/business';
 
-const whatsapp = getBusinessIcon('whatsapp_outlined');
+const whatsapp = getBusinessIcon('whatsapp-outlined');
 ```
 
 ### Static 包
@@ -172,7 +185,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg';
+import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp-outlined.svg';
 ```
 
 业务图标也会生成独立 Icon Font，不和通用 `font/ycloud.css` 混在一起：
@@ -182,7 +195,10 @@ import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/wh
 ```
 
 ```html
-<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
+<span
+  class="business-icon-whatsapp-outlined"
+  aria-hidden="true"
+></span>
 ```
 
 静态 SVG 与数据包会保留清洗后的颜色 token。使用 `filled` 源时，打包到组件阶段会把 primary/secondary token 转为对应框架的可传入颜色参数；多色图标始终保留源 SVG 固定色。

@@ -21,14 +21,14 @@ Use `ycloud-icons-selection` when the task only needs an existing asset recommen
 
 ## Route the task
 
-| Task | Source of truth | Required generation or validation |
-| --- | --- | --- |
-| Generic icon | `icons/<kebab-name>.svg` + matching JSON | `pnpm checkIcons`, `pnpm lint:json`, `pnpm lint:svg:icons` |
-| Business icon | `business-icons/<mode>/<snake_name>.svg` + matching JSON | `pnpm generate:business-index`, `pnpm generate:asset-metadata`, `pnpm lint:svg:business`, `pnpm lint:json:assets` |
-| Illustration | `illustration-icons/<category>/<kebab-name>.svg` + matching JSON | `pnpm generate:illustration-index`, `pnpm generate:asset-metadata`, `pnpm lint:svg:illustration`, `pnpm lint:json:assets` |
-| Docs/search | generated metadata and VitePress data | `pnpm docs:build:no-og` |
-| Package exports | generator plus affected package | affected package `build:icons`, `test`, or `build` |
-| Release/CI | workflows, release JSON, changelog, tags | inspect failed run and verify the narrowest affected chain |
+| Task            | Source of truth                                                  | Required generation or validation                                                                                         |
+| --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Generic icon    | `icons/<kebab-name>.svg` + matching JSON                         | `pnpm checkIcons`, `pnpm lint:json`, `pnpm lint:svg:icons`                                                                |
+| Business icon   | `business-icons/<mode>/<kebab-name>.svg` + matching JSON         | `pnpm generate:business-index`, `pnpm generate:asset-metadata`, `pnpm lint:svg:business`, `pnpm lint:json:assets`         |
+| Illustration    | `illustration-icons/<category>/<kebab-name>.svg` + matching JSON | `pnpm generate:illustration-index`, `pnpm generate:asset-metadata`, `pnpm lint:svg:illustration`, `pnpm lint:json:assets` |
+| Docs/search     | generated metadata and VitePress data                            | `pnpm docs:build:no-og`                                                                                                   |
+| Package exports | generator plus affected package                                  | affected package `build:icons`, `test`, or `build`                                                                        |
+| Release/CI      | workflows, release JSON, changelog, tags                         | inspect failed run and verify the narrowest affected chain                                                                |
 
 Read [asset-workflows.md](references/asset-workflows.md) before modifying source assets, metadata, categories, or generated indexes.
 

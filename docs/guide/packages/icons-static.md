@@ -102,9 +102,7 @@ AI 选图、远程重名判断或离线搜索使用文档站发布的 metadata �
 
 ```js
 const iconMetadata = await fetch('/metadata/icons.json').then((res) => res.json());
-const businessIconMetadata = await fetch('/metadata/business-icons.json').then((res) =>
-  res.json(),
-);
+const businessIconMetadata = await fetch('/metadata/business-icons.json').then((res) => res.json());
 const illustrationMetadata = await fetch('/metadata/illustration-icons.json').then((res) =>
   res.json(),
 );

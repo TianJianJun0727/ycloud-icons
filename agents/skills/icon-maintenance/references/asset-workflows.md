@@ -40,11 +40,11 @@ Use only the color modes accepted by `scripts/writeBusinessIconIndex.mts` and `s
 - `filled`: primary and secondary business color tokens
 - `multicolor`: fixed colors are preserved
 
-Business filenames are lowercase `snake_case`, not kebab-case. Each SVG has a sibling JSON file:
+Business filenames are lowercase `kebab-case`, not snake_case. Each SVG has a sibling JSON file:
 
 ```text
-business-icons/<mode>/<snake_name>.svg
-business-icons/<mode>/<snake_name>.json
+business-icons/<mode>/<kebab-name>.svg
+business-icons/<mode>/<kebab-name>.json
 ```
 
 Names must be unique across all modes because generated component names do not include the directory name automatically.
@@ -65,7 +65,7 @@ Use `asset-metadata.schema.json` and nearby reviewed files when editing sibling 
 
 ## Illustrations
 
-Illustrations may live at the root or one category level deep; prefer the existing category directories:
+Illustrations must live one category level deep. Use the existing category directories, and use `other` when the category is unclear:
 
 ```text
 illustration-icons/<category>/<kebab-name>.svg

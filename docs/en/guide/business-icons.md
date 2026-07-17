@@ -62,7 +62,7 @@ Only baseline structure and safety checks run:
 - color-mode folders must include `business-icons/<color-mode>/index.json`
 - root `business-icons/index.json` must match `node ./scripts/writeBusinessIconIndex.mts`
 - `business-icons/metadata/index.json` must match `node ./scripts/writeAssetMetadata.mts`; `docs/public/metadata` is copied during docs builds
-- file names must be lowercase snake_case, for example `whatsapp_outlined.svg`
+- file names must be lowercase kebab-case, for example `whatsapp-outlined.svg`
 - the root element must be `<svg>`
 - `outlined` `fill` and `stroke` may only be `currentColor` or `none`
 - `filled` `fill` and `stroke` may only be `var(--business-icon-primary-color)`, `var(--business-icon-secondary-color)`, or `none`
@@ -110,10 +110,10 @@ pnpm add @ycloud-web/icons
 ```ts
 import { businessIcons, getBusinessIcon } from '@ycloud-web/icons/business';
 
-const icon = getBusinessIcon('whatsapp_outlined');
+const icon = getBusinessIcon('whatsapp-outlined');
 const rootAttrs = icon.attrs;
 const children = icon.node;
-const sameIcon = businessIcons['whatsapp_outlined'];
+const sameIcon = businessIcons['whatsapp-outlined'];
 ```
 
 ### React package
@@ -128,7 +128,13 @@ pnpm add @ycloud-web/icons-react
 import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 
 export function ChannelIcon() {
-  return <WhatsappOutlined size={24} color="#111827" strokeWidth={1.5} />;
+  return (
+    <WhatsappOutlined
+      size={24}
+      color="#111827"
+      strokeWidth={1.5}
+    />
+  );
 }
 ```
 
@@ -138,7 +144,14 @@ React business icon components render inline `<svg>`. `outlined` and `filled` su
 import { ShopifyFilled } from '@ycloud-web/icons-react/business';
 
 export function FilledIcon() {
-  return <ShopifyFilled size={24} color="#111827" secondaryColor="#fff" strokeWidth={1.5} />;
+  return (
+    <ShopifyFilled
+      size={24}
+      color="#111827"
+      secondaryColor="#fff"
+      strokeWidth={1.5}
+    />
+  );
 }
 ```
 
@@ -158,7 +171,7 @@ The Angular package exports business icon definitions that can be rendered as in
 ```ts
 import { getBusinessIcon } from '@ycloud-web/icons-angular/business';
 
-const whatsapp = getBusinessIcon('whatsapp_outlined');
+const whatsapp = getBusinessIcon('whatsapp-outlined');
 ```
 
 ### Static package
@@ -170,7 +183,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg';
+import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp-outlined.svg';
 ```
 
 Business icons also generate a separate icon font. It is not mixed into the generic `font/ycloud.css` output:
@@ -180,7 +193,10 @@ Business icons also generate a separate icon font. It is not mixed into the gene
 ```
 
 ```html
-<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
+<span
+  class="business-icon-whatsapp-outlined"
+  aria-hidden="true"
+></span>
 ```
 
 Static SVGs and data packages keep the cleaned color tokens. During component package generation, filled primary and secondary tokens are converted to framework props; multicolor icons always keep their fixed source colors.
