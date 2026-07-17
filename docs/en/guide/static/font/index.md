@@ -29,17 +29,11 @@ Each icon font includes all icons for that asset family, which can significantly
 ```
 
 ```html [CDN]
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/@ycloud-web/icons-static@latest/font/ycloud.css"
-/>
+<link rel="stylesheet" href="https://unpkg.com/@ycloud-web/icons-static@latest/font/ycloud.css" />
 ```
 
 ```html [Static asset]
-<link
-  rel="stylesheet"
-  href="/your/path/to/ycloud.css"
-/>
+<link rel="stylesheet" href="/your/path/to/ycloud.css" />
 ```
 
 :::
@@ -74,16 +68,13 @@ Business icons use a separate font and the `business-icon-` class prefix:
 ```
 
 ```html [Static asset]
-<link
-  rel="stylesheet"
-  href="/your/path/to/ycloud-business.css"
-/>
+<link rel="stylesheet" href="/your/path/to/ycloud-business.css" />
 ```
 
 :::
 
 ```html
-<div class="business-icon-billing"></div>
+<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
 ```
 
 ## Example with JavaScript

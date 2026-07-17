@@ -50,13 +50,13 @@ export type YCloudIconData = {
 };
 ```
 
-| 名称        | 类型                                      | 说明                                                 |
-| ----------- | ----------------------------------------- | ---------------------------------------------------- |
-| `name`      | `string`                                  | 图标名称。                                           |
-| `attrs`     | `SVGProps`                                | 根 `<svg>` 属性。                                    |
-| `node`      | `YCloudIconNode[]`                        | SVG 子节点，格式为 `[tagName, attributes]` 元组。    |
-| `aliases`   | `string[]`                                | 可选别名。                                           |
-| `colorMode` | `'outlined' \| 'filled' \| 'multicolor'`     | 业务图标颜色类型；通用图标和插画通常不需要这个字段。 |
+| 名称        | 类型                                     | 说明                                                 |
+| ----------- | ---------------------------------------- | ---------------------------------------------------- |
+| `name`      | `string`                                 | 图标名称。                                           |
+| `attrs`     | `SVGProps`                               | 根 `<svg>` 属性。                                    |
+| `node`      | `YCloudIconNode[]`                       | SVG 子节点，格式为 `[tagName, attributes]` 元组。    |
+| `aliases`   | `string[]`                               | 可选别名。                                           |
+| `colorMode` | `'outlined' \| 'filled' \| 'multicolor'` | 业务图标颜色类型；通用图标和插画通常不需要这个字段。 |
 
 ## 使用方式
 
@@ -72,9 +72,9 @@ import { House } from '@ycloud-web/icons-data';
 ```ts
 import { businessIconNames, getBusinessIcon } from '@ycloud-web/icons-data/business';
 
-const billing = getBusinessIcon('billing');
-const rootAttrs = billing.attrs;
-const children = billing.node;
+const whatsapp = getBusinessIcon('whatsapp_outlined');
+const rootAttrs = whatsapp.attrs;
+const children = whatsapp.node;
 const availableBusinessIcons = businessIconNames;
 ```
 

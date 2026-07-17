@@ -11,8 +11,10 @@ It provides consistent icon source data, tree-shakable component packages, stati
 The repository maintains three SVG asset families:
 
 - **Generic icons**: stored in `icons/`, using 24x24 linear SVGs, `icons/*.json` metadata, and the generic category system.
-- **Business icons**: stored in `business-icons/`, grouped by first-level color-mode folders (`mono`, `duotone`, and `multicolor`), preserving business-specific geometry, and exported through each package's `business` subpath plus `business-icons/` and `business-font/` in the static package.
-- **Illustrations**: stored in `illustration-icons/`, preserving original SVG colors and size attributes, and exported through each package's `illustration` subpath plus `illustration-icons/` in the static package.
+- **Business icons**: stored in `business-icons/`, grouped by `outlined`, `filled`, and `multicolor` color modes, named with snake_case, and exported through each package's `business` subpath plus `business-icons/` and `business-font/` in the static package.
+- **Illustrations**: stored in `illustration-icons/`, grouped by use-case category while preserving source colors and dimensions, and exported through each package's `illustration` subpath plus `illustration-icons/` in the static package.
+
+See the [business icon guide](./docs/en/guide/business-icons.md), [illustration guide](./docs/en/guide/illustration-icons.md), and [maintenance guide](./docs/en/guide/icon-maintenance.md) for asset selection and contribution rules.
 
 ## Packages
 
@@ -40,12 +42,7 @@ React:
 import { Camera } from '@ycloud-web/icons-react';
 
 export function Example() {
-  return (
-    <Camera
-      size={24}
-      color="currentColor"
-    />
-  );
+  return <Camera size={24} color="currentColor" />;
 }
 ```
 
@@ -57,10 +54,7 @@ import { Camera } from '@ycloud-web/icons-vue';
 </script>
 
 <template>
-  <Camera
-    :size="24"
-    color="currentColor"
-  />
+  <Camera :size="24" color="currentColor" />
 </template>
 ```
 
@@ -79,10 +73,10 @@ createIcons({
 Business icons in React:
 
 ```tsx
-import { Billing } from '@ycloud-web/icons-react/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 
 export function BusinessExample() {
-  return <Billing size={24} />;
+  return <WhatsappOutlined size={24} color="currentColor" />;
 }
 ```
 
@@ -94,7 +88,7 @@ Business icon font:
   href="https://unpkg.com/@ycloud-web/icons-static@latest/business-font/ycloud-business.css"
 />
 
-<div class="business-icon-billing"></div>
+<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
 ```
 
 Illustrations in React:
@@ -103,12 +97,7 @@ Illustrations in React:
 import { EmptyPage } from '@ycloud-web/icons-react/illustration';
 
 export function IllustrationExample() {
-  return (
-    <EmptyPage
-      width="100%"
-      height="auto"
-    />
-  );
+  return <EmptyPage width="100%" height="auto" />;
 }
 ```
 
@@ -144,6 +133,12 @@ pnpm docs:dev:og
 
 # Build docs while skipping per-page OG images
 pnpm docs:build:no-og
+
+# Build the GitHub Pages variant
+pnpm docs:build:github-pages
+
+# Build docs and generate llms.txt
+pnpm --dir docs docs:build:llms
 ```
 
 ## License

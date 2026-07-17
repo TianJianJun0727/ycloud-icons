@@ -37,4 +37,4 @@ YCloud Icons 会持续跟随自身业务需求维护图标源。新增、修改�
 
 ## 官方包
 
-YCloud Icons 覆盖 10 种包类型：[Core JavaScript](./ycloud/index.md)、[React](./react/index.md)、[Vue](./vue/index.md)、[Svelte](./svelte/index.md)、[Solid](./solid/index.md)、[Preact](./preact/index.md)、[React Native](./react-native/index.md)、[Angular](./angular/index.md)、[Astro](./astro/index.md) 和 [Static assets](./static/index.md)。
+YCloud Icons 提供 11 个公开包，覆盖 [Core JavaScript](./ycloud/index.md)、[React](./react/index.md)、[Vue](./vue/index.md)、[Svelte](./svelte/index.md)、[Solid](./solid/index.md)、[Preact](./preact/index.md)、[React Native](./react-native/index.md)、[Angular](./angular/index.md)、[Astro](./astro/index.md)、[Static assets](./static/index.md) 和 [Icon data](./packages/icons-data.md)。

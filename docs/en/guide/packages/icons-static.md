@@ -37,16 +37,13 @@ No framework peer dependency.
 ## Usage
 
 ```html
-<img
-  src="./node_modules/@ycloud-web/icons-static/icons/house.svg"
-  alt="House"
-/>
+<img src="./node_modules/@ycloud-web/icons-static/icons/house.svg" alt="House" />
 ```
 
 ```html
 <img
-  src="./node_modules/@ycloud-web/icons-static/business-icons/outlined/billing.svg"
-  alt="Billing"
+  src="./node_modules/@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg"
+  alt="WhatsApp"
 />
 ```
 
@@ -63,9 +60,7 @@ AI icon selection, remote duplicate checks, and offline search use metadata snap
 
 ```js
 const iconMetadata = await fetch('/metadata/icons.json').then((res) => res.json());
-const businessIconMetadata = await fetch('/metadata/business-icons.json').then((res) =>
-  res.json(),
-);
+const businessIconMetadata = await fetch('/metadata/business-icons.json').then((res) => res.json());
 const illustrationMetadata = await fetch('/metadata/illustration-icons.json').then((res) =>
   res.json(),
 );

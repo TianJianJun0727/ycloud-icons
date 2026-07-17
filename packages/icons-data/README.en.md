@@ -9,7 +9,7 @@ Language: <a href="./README.md">中文</a> | English
 </p>
 
 <p align="center">
-Helper library that exports YCloud Icons generic icon node data and business icon SVG data.
+Helper library that exports structured data for YCloud generic icons, business icons, and illustrations.
 </p>
 
 <div align="center">
@@ -30,7 +30,7 @@ Helper library that exports YCloud Icons generic icon node data and business ico
 
 # @ycloud-web/icons-data
 
-Exports YCloud Icons generic icon node data in a tree-shakable format, and exposes business icon SVG / data URI data through a business subpath.
+Exports YCloud Icons generic icon node data in a tree-shakable format, with separate subpaths for structured business icon and illustration SVG definitions.
 
 ## Installation
 
@@ -68,17 +68,30 @@ const houseSvg = buildYCloudSvg(House, {
 });
 ```
 
-Business icons use a separate subpath that exports raw SVG, data URIs, and an index:
+Business icons use a separate subpath that exports structured SVG definitions and an index:
 
 ```ts
-import { billingDataUri, businessIcons, getBusinessIcon } from '@ycloud-web/icons-data/business';
+import {
+  businessIconNames,
+  getBusinessIcon,
+  whatsappOutlinedIcon,
+} from '@ycloud-web/icons-data/business';
 
-const billing = getBusinessIcon('billing');
-const imageSource = billingDataUri;
-const allBusinessIconNames = Object.keys(businessIcons);
+const whatsapp = getBusinessIcon('whatsapp_outlined');
+const sameIcon = whatsappOutlinedIcon;
+const allBusinessIconNames = businessIconNames;
 ```
 
 Business icons are not generic stroke node data, so they do not support generic build params such as `strokeWidth` or `absoluteStrokeWidth`.
+
+Illustrations also use a dedicated subpath and retain source SVG colors and root attributes:
+
+```ts
+import { getIllustration, illustrationNames } from '@ycloud-web/icons-data/illustration';
+
+const emptyPage = getIllustration('empty-page');
+const allIllustrationNames = illustrationNames;
+```
 
 ## Documentation
 

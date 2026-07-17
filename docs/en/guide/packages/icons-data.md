@@ -54,9 +54,9 @@ Business icon data:
 ```ts
 import { businessIconNames, getBusinessIcon } from '@ycloud-web/icons-data/business';
 
-const billing = getBusinessIcon('billing');
-const rootAttrs = billing.attrs;
-const children = billing.node;
+const whatsapp = getBusinessIcon('whatsapp_outlined');
+const rootAttrs = whatsapp.attrs;
+const children = whatsapp.node;
 const availableBusinessIcons = businessIconNames;
 ```
 

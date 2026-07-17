@@ -36,7 +36,7 @@ icons/<icon-name>.json
 
 这页更偏设计与 SVG 代码规范。日常维护时，至少记住下面几点：
 
-- 图标文件名使用 kebab-case
+- 通用图标与插画文件名使用 kebab-case；业务图标文件名使用 snake_case
 - 视觉风格应保持和现有线性图标一致
 - 不要保留无意义的导出垃圾，例如多余分组、编辑器残留属性、无用元数据
 - 图标应尽量保持简洁、对齐和可读，避免过度复杂的路径结构
@@ -165,13 +165,16 @@ icons/<icon-name>.json
 
 ## 建议执行的校验命令
 
-无论是新增、删除还是修改图标，至少建议执行：
+通用图标新增、删除或修改后至少执行：
 
 ```sh
 pnpm checkIcons
 pnpm lint:json
-pnpm --dir docs docs:build:no-og
+pnpm lint:svg:icons
+pnpm docs:build:no-og
 ```
+
+业务图标与插画分别运行对应索引生成、metadata 生成和 SVG 校验命令，完整命令见[业务图标](/guide/business-icons)与[插画](/guide/illustration-icons)。
 
 如果改动影响具体包的导出行为，再补对应包构建，例如：
 

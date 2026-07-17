@@ -1,59 +1,57 @@
-# Business Icons
+# Business icons
 
-This directory stores business-specific SVG icons that do not follow the generic
-YCloud linear icon rules.
+`business-icons/` stores product-, channel-, and workflow-specific SVG icons that do not belong in the generic 24px linear icon family.
 
-Use this directory for icons that need filled shapes or product-specific visual
-details.
+For the user-facing guide, see [Business icons](../docs/en/guide/business-icons.md) or [业务图标](../docs/guide/business-icons.md).
 
-Place icons in `business-icons/<category>/<icon-name>.svg`. Each category also
-keeps a `business-icons/<category>/index.json` file for its Chinese title,
-English title, and sort weight. The root `business-icons/index.json` is
-generated and consumed by validation, the Figma plugin, docs, package
-generation, and duplicate-name checks.
+## Source layout
 
-Allowed categories are `inbox`, `menu`, `chatbot`, `outlined`, `filled`,
-`basic`, and `filter`.
+```text
+business-icons/<color-mode>/<snake_name>.svg
+business-icons/<color-mode>/<snake_name>.json
+business-icons/<color-mode>/index.json
+business-icons/index.json
+business-icons/metadata/index.json
+```
 
-These files are not processed by the generic `icons/*.svg` SVGO cleanup
-pipeline. They use a lighter business cleanup that clears colors, style
-attributes, and design-tool noise while preserving geometry and stroke details.
-They are still validated for basic SVG safety and structure.
+Supported color modes are:
 
-Package outputs are flat by icon name, so SVG file names must be unique across
-all business categories. For example, `business-icons/menu/billing.svg` exports
-`Billing` from framework business subpaths and `billingDataUri` from core data
-subpaths, including `@ycloud-web/icons/business` and
-`@ycloud-web/icons-data/business`.
+- `outlined`: use `currentColor` and preserve source stroke width unless a component prop overrides it
+- `filled`: use primary and secondary business color tokens
+- `multicolor`: preserve fixed source colors
 
-Usage examples:
+SVG names must be globally unique across all color modes because generated package exports are flat. File names use lowercase snake_case, for example `whatsapp_outlined.svg`.
+
+Each SVG requires same-name bilingual metadata JSON. Do not hand-edit the generated root index or metadata index.
+
+## Generate and validate
+
+From the repository root, run:
+
+```sh
+pnpm optimize:business
+pnpm generate:business-index
+pnpm generate:asset-metadata
+pnpm lint:svg:business
+pnpm lint:json:assets
+```
+
+Skip `pnpm optimize:business` for metadata-only changes.
+
+## Package usage
 
 ```tsx
-import { Billing } from '@ycloud-web/icons-react/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 ```
 
 ```ts
-import { billingDataUri } from '@ycloud-web/icons-data/business';
+import { getBusinessIcon } from '@ycloud-web/icons-data/business';
+
+const whatsapp = getBusinessIcon('whatsapp_outlined');
 ```
 
-```html
-<link
-  rel="stylesheet"
-  href="@ycloud-web/icons-static/business-font/ycloud-business.css"
-/>
-
-<div class="business-icon-billing"></div>
+```ts
+import whatsappUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg';
 ```
 
-Current rules:
-
-- File names must use lowercase kebab-case, for example `whatsapp-business.svg`.
-- Category folders must use one of the allowed names above.
-- Category folders must include `index.json`.
-- The root `business-icons/index.json` must match `node ./scripts/writeBusinessIconIndex.mts`.
-- The root element must be `<svg>`.
-- `<script>` and `<foreignObject>` are not allowed.
-- Event handler attributes such as `onclick` are not allowed.
-- `fill` and `stroke` must be `currentColor` or `none` after cleanup.
-- `style`, `class`, unreferenced `id`, and `data-*` attributes are not allowed.
-- `javascript:` URLs are not allowed.
+Generic icons, business icons, and illustrations use separate source rules. If an asset can express an ordinary UI action without product-specific meaning, prefer `icons/`. Use `illustration-icons/` for page-level artwork.

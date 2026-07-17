@@ -31,4 +31,4 @@ However, not everyone can understand them easily. Read more about [how to use YC
 
 ## Official Packages
 
-YCloud Icons follows Lucide's official package coverage and documents 10 package types: [Core JavaScript](./ycloud/index.md), [React](./react/index.md), [Vue](./vue/index.md), [Svelte](./svelte/index.md), [Solid](./solid/index.md), [Preact](./preact/index.md), [React Native](./react-native/index.md), [Angular](./angular/index.md), [Astro](./astro/index.md), and [Static assets](./static/index.md).
+YCloud Icons publishes 11 packages covering [Core JavaScript](./ycloud/index.md), [React](./react/index.md), [Vue](./vue/index.md), [Svelte](./svelte/index.md), [Solid](./solid/index.md), [Preact](./preact/index.md), [React Native](./react-native/index.md), [Angular](./angular/index.md), [Astro](./astro/index.md), [Static assets](./static/index.md), and [Icon data](./packages/icons-data.md).
