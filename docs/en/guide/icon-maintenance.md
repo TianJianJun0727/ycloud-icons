@@ -24,6 +24,8 @@ Related files:
 - `categories/*.json`: category keys, Chinese titles, and English titles.
 - `docs/`: generated documentation pages, search data, category pages, and icon detail pages.
 
+Generic icons and illustrations use kebab-case file names. Business icons use snake_case file names.
+
 Business-specific icons live in `business-icons/<color-mode>/*.svg`. The first-level folder must be `outlined`, `filled`, or `multicolor`, and it controls the cleanup and package-generation behavior. Each SVG needs same-name metadata JSON. Color-mode display names live in `business-icons/<color-mode>/index.json`, while `business-icons/index.json` and `business-icons/metadata/index.json` are generated; URL-based remote lookup snapshots are copied into `docs/public/metadata` during docs builds. See [Business icons](/en/guide/business-icons).
 
 Illustrations live in `illustration-icons/<category>/*.svg`; the first-level folder is the category, and unclear assets should use `other`. They do not go through color conversion or size cleanup, and generated components default to `width="100%"` and `height="auto"`. Each SVG needs same-name metadata JSON, while `illustration-icons/index.json` and `illustration-icons/metadata/index.json` are generated; URL-based remote lookup snapshots are copied into `docs/public/metadata` during docs builds. Package subpaths use `@ycloud-web/icons-*/illustration`, while static assets use `@ycloud-web/icons-static/illustration-icons/<category>/<name>.svg`.
@@ -112,13 +114,16 @@ Rules:
 
 ## Validation
 
-Run at least:
+For generic icon additions, removals, or updates, run at least:
 
 ```sh
 pnpm checkIcons
 pnpm lint:json
-pnpm --dir docs docs:build:no-og
+pnpm lint:svg:icons
+pnpm docs:build:no-og
 ```
+
+For business icons and illustrations, run their index generator, asset metadata generator, and family-specific SVG validator. See [Business icons](/en/guide/business-icons) and [Illustrations](/en/guide/illustration-icons) for the exact commands.
 
 If the change affects package exports or runtime behavior, also run the related package build, for example:
 

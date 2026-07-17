@@ -11,8 +11,10 @@ YCloud Icons 是 YCloud 的多框架 SVG 图标组件库，面向产品前端、
 仓库同时维护三类 SVG 资产：
 
 - **通用图标**：位于 `icons/`，使用 24x24 线性 SVG、`icons/*.json` 元数据和通用分类体系。
-- **业务图标**：位于 `business-icons/`，按 `mono`、`duotone`、`multicolor` 一级目录区分颜色模式，保留业务图形自身几何结构，通过各包的 `business` 子入口和静态包的 `business-icons/`、`business-font/` 输出。
-- **插画**：位于 `illustration-icons/`，保留原始 SVG 颜色和尺寸属性，通过各包的 `illustration` 子入口和静态包的 `illustration-icons/` 输出。
+- **业务图标**：位于 `business-icons/`，按 `outlined`、`filled`、`multicolor` 区分颜色模式，文件名使用 snake_case，通过各包的 `business` 子入口和静态包的 `business-icons/`、`business-font/` 输出。
+- **插画**：位于 `illustration-icons/`，按用途分类并保留原始 SVG 颜色和尺寸属性，通过各包的 `illustration` 子入口和静态包的 `illustration-icons/` 输出。
+
+资源选择与维护规则分别见[业务图标指南](./docs/guide/business-icons.md)、[插画指南](./docs/guide/illustration-icons.md)和[图标维护指南](./docs/guide/icon-maintenance.md)。
 
 ## 包
 
@@ -40,12 +42,7 @@ React：
 import { Camera } from '@ycloud-web/icons-react';
 
 export function Example() {
-  return (
-    <Camera
-      size={24}
-      color="currentColor"
-    />
-  );
+  return <Camera size={24} color="currentColor" />;
 }
 ```
 
@@ -57,10 +54,7 @@ import { Camera } from '@ycloud-web/icons-vue';
 </script>
 
 <template>
-  <Camera
-    :size="24"
-    color="currentColor"
-  />
+  <Camera :size="24" color="currentColor" />
 </template>
 ```
 
@@ -79,10 +73,10 @@ createIcons({
 业务图标 React：
 
 ```tsx
-import { Billing } from '@ycloud-web/icons-react/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 
 export function BusinessExample() {
-  return <Billing size={24} />;
+  return <WhatsappOutlined size={24} color="currentColor" />;
 }
 ```
 
@@ -94,7 +88,7 @@ export function BusinessExample() {
   href="https://unpkg.com/@ycloud-web/icons-static@latest/business-font/ycloud-business.css"
 />
 
-<div class="business-icon-billing"></div>
+<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
 ```
 
 插画 React：
@@ -103,12 +97,7 @@ export function BusinessExample() {
 import { EmptyPage } from '@ycloud-web/icons-react/illustration';
 
 export function IllustrationExample() {
-  return (
-    <EmptyPage
-      width="100%"
-      height="auto"
-    />
-  );
+  return <EmptyPage width="100%" height="auto" />;
 }
 ```
 
@@ -146,7 +135,7 @@ pnpm docs:build:no-og
 pnpm docs:build:github-pages
 
 # 构建文档并额外生成 llms.txt
-pnpm docs:build:llms
+pnpm --dir docs docs:build:llms
 ```
 
 ## 许可证

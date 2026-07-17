@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-导出 YCloud Icons 通用图标节点数据和业务图标 SVG 数据的辅助库。
+导出 YCloud Icons 通用图标、业务图标和插画结构化数据的辅助库。
 </p>
 
 <div align="center">
@@ -30,7 +30,7 @@
 
 # @ycloud-web/icons-data
 
-以支持 tree-shaking 的格式导出 YCloud Icons 通用图标节点数据，并通过业务子入口导出业务图标 SVG / data URI 数据。
+以支持 tree-shaking 的格式导出 YCloud Icons 通用图标节点数据，并通过独立子入口导出业务图标和插画的结构化 SVG 定义。
 
 ## 安装
 
@@ -68,17 +68,30 @@ const houseSvg = buildYCloudSvg(House, {
 });
 ```
 
-业务图标使用独立子入口，导出原始 SVG、data URI 和索引数据：
+业务图标使用独立子入口，导出结构化 SVG 定义和索引数据：
 
 ```ts
-import { billingDataUri, businessIcons, getBusinessIcon } from '@ycloud-web/icons-data/business';
+import {
+  businessIconNames,
+  getBusinessIcon,
+  whatsappOutlinedIcon,
+} from '@ycloud-web/icons-data/business';
 
-const billing = getBusinessIcon('billing');
-const imageSource = billingDataUri;
-const allBusinessIconNames = Object.keys(businessIcons);
+const whatsapp = getBusinessIcon('whatsapp_outlined');
+const sameIcon = whatsappOutlinedIcon;
+const allBusinessIconNames = businessIconNames;
 ```
 
 业务图标不是通用 stroke 节点数据，不支持 `strokeWidth`、`absoluteStrokeWidth` 等通用构建参数。
+
+插画同样使用独立子入口，并保留源 SVG 的颜色和根属性：
+
+```ts
+import { getIllustration, illustrationNames } from '@ycloud-web/icons-data/illustration';
+
+const emptyPage = getIllustration('empty-page');
+const allIllustrationNames = illustrationNames;
+```
 
 ## 文档
 

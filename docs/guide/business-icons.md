@@ -64,7 +64,7 @@ multicolor
 - 颜色模式目录必须有 `business-icons/<color-mode>/index.json`
 - 根 `business-icons/index.json` 必须由 `node ./scripts/writeBusinessIconIndex.mts` 生成并保持同步
 - `business-icons/metadata/index.json` 必须由 `node ./scripts/writeAssetMetadata.mts` 生成并保持同步；`docs/public/metadata` 由文档构建直接复制
-- 文件名必须是小写 kebab-case
+- 文件名必须是小写 snake_case，例如 `whatsapp_outlined.svg`
 - 根节点必须是 `<svg>`
 - `outlined` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
 - `filled` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
@@ -112,10 +112,10 @@ pnpm add @ycloud-web/icons
 ```ts
 import { businessIcons, getBusinessIcon } from '@ycloud-web/icons/business';
 
-const icon = getBusinessIcon('billing');
+const icon = getBusinessIcon('whatsapp_outlined');
 const rootAttrs = icon.attrs;
 const children = icon.node;
-const sameIcon = businessIcons['billing'];
+const sameIcon = businessIcons['whatsapp_outlined'];
 ```
 
 ### React 包
@@ -127,45 +127,32 @@ pnpm add @ycloud-web/icons-react
 ```
 
 ```tsx
-import { Billing } from '@ycloud-web/icons-react/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-react/business';
 
 export function ChannelIcon() {
-  return (
-    <Billing
-      size={24}
-      color="#111827"
-      strokeWidth={1.5}
-    />
-  );
+  return <WhatsappOutlined size={24} color="#111827" strokeWidth={1.5} />;
 }
 ```
 
 React 业务图标组件底层渲染为内联 `<svg>`。`outlined` 和 `filled` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`filled` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
 
 ```tsx
-import { Shopify } from '@ycloud-web/icons-react/business';
+import { ShopifyFilled } from '@ycloud-web/icons-react/business';
 
 export function FilledIcon() {
-  return (
-    <Shopify
-      size={24}
-      color="#111827"
-      secondaryColor="#fff"
-      strokeWidth={1.5}
-    />
-  );
+  return <ShopifyFilled size={24} color="#111827" secondaryColor="#fff" strokeWidth={1.5} />;
 }
 ```
 
 其他内联 SVG 组件包同样支持 `size`、`color` 和 `strokeWidth` 规则，并使用现有包的 `business` 子入口。React Native 业务图标基于图片资源渲染，不支持动态 `strokeWidth`：
 
 ```ts
-import { Billing } from '@ycloud-web/icons-preact/business';
-import { Billing } from '@ycloud-web/icons-vue/business';
-import { Billing } from '@ycloud-web/icons-solid/business';
-import { Billing } from '@ycloud-web/icons-svelte/business';
-import { Billing } from '@ycloud-web/icons-astro/business';
-import { Billing } from '@ycloud-web/icons-react-native/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-preact/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-vue/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-solid/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-svelte/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-astro/business';
+import { WhatsappOutlined } from '@ycloud-web/icons-react-native/business';
 ```
 
 Angular 包导出业务图标定义，可按 `attrs + node` 渲染为内联 SVG 或自行序列化：
@@ -173,7 +160,7 @@ Angular 包导出业务图标定义，可按 `attrs + node` 渲染为内联 SVG 
 ```ts
 import { getBusinessIcon } from '@ycloud-web/icons-angular/business';
 
-const billing = getBusinessIcon('billing');
+const whatsapp = getBusinessIcon('whatsapp_outlined');
 ```
 
 ### Static 包
@@ -185,7 +172,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import billingIconUrl from '@ycloud-web/icons-static/business-icons/outlined/billing.svg';
+import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg';
 ```
 
 业务图标也会生成独立 Icon Font，不和通用 `font/ycloud.css` 混在一起：
@@ -195,7 +182,7 @@ import billingIconUrl from '@ycloud-web/icons-static/business-icons/outlined/bil
 ```
 
 ```html
-<div class="business-icon-billing"></div>
+<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
 ```
 
 静态 SVG 与数据包会保留清洗后的颜色 token。使用 `filled` 源时，打包到组件阶段会把 primary/secondary token 转为对应框架的可传入颜色参数；多色图标始终保留源 SVG 固定色。

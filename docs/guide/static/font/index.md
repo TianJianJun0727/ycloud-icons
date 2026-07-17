@@ -29,17 +29,11 @@ Icon Font 会包含对应类型的全部图标，可能显著增加应用包体�
 ```
 
 ```html [CDN]
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/@ycloud-web/icons-static@latest/font/ycloud.css"
-/>
+<link rel="stylesheet" href="https://unpkg.com/@ycloud-web/icons-static@latest/font/ycloud.css" />
 ```
 
 ```html [Static asset]
-<link
-  rel="stylesheet"
-  href="/your/path/to/ycloud.css"
-/>
+<link rel="stylesheet" href="/your/path/to/ycloud.css" />
 ```
 
 :::
@@ -74,16 +68,13 @@ Icon Font 会包含对应类型的全部图标，可能显著增加应用包体�
 ```
 
 ```html [Static asset]
-<link
-  rel="stylesheet"
-  href="/your/path/to/ycloud-business.css"
-/>
+<link rel="stylesheet" href="/your/path/to/ycloud-business.css" />
 ```
 
 :::
 
 ```html
-<div class="business-icon-billing"></div>
+<span class="business-icon-whatsapp-outlined" aria-hidden="true"></span>
 ```
 
 ## JavaScript 示例
