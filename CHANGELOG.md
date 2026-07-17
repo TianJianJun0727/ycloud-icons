@@ -7,11 +7,17 @@
 
 ### 中文
 
-- feat(icons): align asset workflows and generated packages (#98)
+- 统一业务图标与插画资产的目录、命名、分类和元数据规则，完善生成与校验流程。
+- 重整业务图标的 filled、outlined 和 multicolor 等类型，移除过时资源，并重新生成各框架包与导出入口。
+- 更新 Figma 插件的图标同步与提交流程，调整文档界面，并支持按中英文名称搜索通用图标。
+- 恢复 GitHub Actions 使用 Node.js、npm 和 pnpm，移除临时的 Nub 工具链集成。
 
 ### English
 
-- feat(icons): align asset workflows and generated packages (#98)
+- Unified directory, naming, category, and metadata rules for business and illustration assets, with improved generation and validation workflows.
+- Reorganized business icons into filled, outlined, multicolor, and other explicit variants, removed obsolete assets, and regenerated framework packages and exports.
+- Updated icon synchronization and submission in the Figma plugin, refined the documentation UI, and added bilingual name search for generic icons.
+- Restored GitHub Actions to Node.js, npm, and pnpm and removed the temporary Nub toolchain integration.
 
 ## v0.2.3 - 2026-07-13
 

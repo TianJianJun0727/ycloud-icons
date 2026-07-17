@@ -4,7 +4,10 @@
 
 ## v0.2.4 - 2026-07-17
 
-- feat(icons): align asset workflows and generated packages (#98)
+- Unified directory, naming, category, and metadata rules for business and illustration assets, with improved generation and validation workflows.
+- Reorganized business icons into filled, outlined, multicolor, and other explicit variants, removed obsolete assets, and regenerated framework packages and exports.
+- Updated icon synchronization and submission in the Figma plugin, refined the documentation UI, and added bilingual name search for generic icons.
+- Restored GitHub Actions to Node.js, npm, and pnpm and removed the temporary Nub toolchain integration.
 
 ## v0.2.3 - 2026-07-13
 
