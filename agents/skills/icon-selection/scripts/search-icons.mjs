@@ -4,9 +4,13 @@ import { execFileSync } from 'node:child_process';
 import os from 'node:os';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 
-const defaultRepo = '/Users/tianjianjun/Projects/ycloud-icons';
+const bundledRepo = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../..');
+const defaultRepo = fs.existsSync(path.join(bundledRepo, 'package.json'))
+  ? bundledRepo
+  : process.cwd();
 
 const { values } = parseArgs({
   options: {
@@ -29,8 +33,28 @@ const { values } = parseArgs({
     'no-cache': { type: 'boolean', default: false },
     'cache-info': { type: 'boolean', default: false },
     json: { type: 'boolean', default: false },
+    help: { type: 'boolean', short: 'h', default: false },
   },
 });
+
+if (values.help) {
+  console.log(`Search YCloud icons by metadata and source assets.
+
+Usage:
+  node search-icons.mjs --query <text> [options]
+
+Options:
+  -q, --query <text>          Semantic, product, or shape keywords
+  -k, --kind <kind>           all | icon | business | illustration
+  -l, --limit <number>        Maximum results (default: 12)
+      --repo <path>           ycloud-icons repository root
+      --json                  Print JSON output
+      --refresh-cache         Rebuild the versioned cache
+      --no-cache              Read sources without cache
+      --cache-info            Print cache hit and version details
+  -h, --help                  Show this help`);
+  process.exit(0);
+}
 
 const repo = path.resolve(values.repo);
 const query = values.query?.trim() ?? '';
@@ -41,6 +65,12 @@ const cacheDir = path.resolve(String(values['cache-dir']));
 const refreshCache = Boolean(values['refresh-cache']);
 const noCache = Boolean(values['no-cache']);
 const cacheInfo = Boolean(values['cache-info']);
+
+const allowedKinds = new Set(['all', 'icon', 'business', 'business-icon', 'illustration']);
+if (!allowedKinds.has(kind)) {
+  console.error(`Invalid --kind "${kind}". Use all, icon, business, or illustration.`);
+  process.exit(1);
+}
 
 if (!query) {
   console.error('Missing --query. Example: node search-icons.mjs --query "empty order"');
@@ -393,16 +423,16 @@ const loadBusinessIconsFromSnapshot = async () => {
     const colorMode = asset.colorMode ?? asset.category;
     const metadata = asset.metadata ?? {};
     const colorRule =
-      colorMode === 'mono'
-        ? 'supports size and color'
-        : colorMode === 'duotone'
-          ? 'supports size and main color; fixed white layer cannot be changed'
+      colorMode === 'outlined'
+        ? 'supports size, color, and stroke width when strokes exist'
+        : colorMode === 'filled'
+          ? 'supports size, primary color, secondary color, and stroke width when strokes exist'
           : 'supports size only; fixed multicolor artwork';
     return {
       kind: 'business-icon',
       priority: 2,
       name: asset.name,
-      componentName: `${asset.componentName}Icon`,
+      componentName: asset.componentName,
       importPath: '@ycloud-web/icons-react/business',
       path: asset.path,
       category: colorMode,
@@ -429,16 +459,16 @@ const loadBusinessIconsFromSource = () => {
   return (index.icons ?? []).map((icon) => {
     const colorMode = icon.category;
     const colorRule =
-      colorMode === 'mono'
-        ? 'supports size and color'
-        : colorMode === 'duotone'
-          ? 'supports size and main color; fixed white layer cannot be changed'
+      colorMode === 'outlined'
+        ? 'supports size, color, and stroke width when strokes exist'
+        : colorMode === 'filled'
+          ? 'supports size, primary color, secondary color, and stroke width when strokes exist'
           : 'supports size only; fixed multicolor artwork';
     return {
       kind: 'business-icon',
       priority: 2,
       name: icon.name,
-      componentName: `${icon.componentName}Icon`,
+      componentName: icon.componentName,
       importPath: '@ycloud-web/icons-react/business',
       path: icon.path,
       category: colorMode,
@@ -463,10 +493,10 @@ const loadIllustrationsFromSnapshot = async () => {
       kind: 'illustration',
       priority: 3,
       name: asset.name,
-      componentName: `${asset.componentName}Illustration`,
+      componentName: asset.componentName,
       importPath: '@ycloud-web/icons-react/illustration',
       path: asset.path,
-      category: 'illustration',
+      category: asset.category ?? 'illustration',
       primaryNames: [asset.title, asset.englishName, metadata.name, metadata.i18n?.en?.name],
       keywords: [
         asset.name,
@@ -491,7 +521,7 @@ const loadIllustrationsFromSource = () => {
     kind: 'illustration',
     priority: 3,
     name: illustration.name,
-    componentName: `${illustration.componentName}Illustration`,
+    componentName: illustration.componentName,
     importPath: '@ycloud-web/icons-react/illustration',
     path: illustration.path,
     category: 'illustration',
@@ -518,7 +548,7 @@ const dataVersion = localVersion || (await getRemoteVersion());
 const cacheKey = hash(
   JSON.stringify({
     script: 'ycloud-icons-selection/search-icons',
-    version: 3,
+    version: 4,
     repo: localVersion ? repo : undefined,
     metadataUrl: localVersion ? undefined : metadataUrl,
     dataVersion,
@@ -565,6 +595,9 @@ const scored = allItems
 if (values.json) {
   console.log(JSON.stringify(scored, null, 2));
 } else {
+  if (scored.length === 0) {
+    console.log('No matching YCloud icons found. Try broader semantic or shape keywords.');
+  }
   for (const item of scored) {
     console.log(`${item.componentName} [${item.kind}] score=${item.score}`);
     console.log(`  import: ${item.importPath}`);

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'YCloud 图标选择'
+  short_description: '检索并推荐 YCloud 通用图标、业务图标和页面插画'
+  default_prompt: '使用 $ycloud-icons-selection 为当前界面选择合适的 YCloud 图标并给出导入方式。'
