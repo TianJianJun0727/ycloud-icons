@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "acquire更多leads",
+  "tags": ["acquire更多leads", "acquire", "更多", "leads", "描边业务图标", "业务图标"],
+  "use-cases": ["acquire更多leads相关入口或状态展示", "需要兼容历史业务视觉的acquire更多leads场景"],
+  "i18n": {
+    "en": {
+      "name": "acquire more leads",
+      "tags": [
+        "acquire more leads",
+        "acquire",
+        "more",
+        "leads",
+        "outlined business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "acquire more leads entry or status",
+        "Legacy business visual for acquire more leads scenarios"
+      ]
+    }
+  }
+}

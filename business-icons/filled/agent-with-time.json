@@ -1,0 +1,23 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "客服坐席with时间",
+  "tags": ["客服坐席with时间", "客服坐席", "with", "时间", "描边业务图标", "业务图标"],
+  "use-cases": ["客服坐席with时间相关入口或状态展示", "需要兼容历史业务视觉的客服坐席with时间场景"],
+  "i18n": {
+    "en": {
+      "name": "agent with time",
+      "tags": [
+        "agent with time",
+        "agent",
+        "with",
+        "time",
+        "outlined business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "agent with time entry or status",
+        "Legacy business visual for agent with time scenarios"
+      ]
+    }
+  }
+}

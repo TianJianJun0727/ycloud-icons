@@ -51,31 +51,6 @@
     },
     {
       "type": "illustration",
-      "name": "customer-support",
-      "path": "illustration-icons/other/customer-support.svg",
-      "title": "客户支持",
-      "englishName": "Customer Support",
-      "componentName": "CustomerSupport",
-      "category": "other",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "客户支持",
-        "tags": ["客服", "客户支持", "帮助", "耳机"],
-        "use-cases": ["客户支持或客服入口", "帮助中心与服务支持场景"],
-        "i18n": {
-          "en": {
-            "name": "Customer Support",
-            "tags": ["customer support", "support", "help", "headset"],
-            "use-cases": [
-              "Customer support or service entry",
-              "Help center and service support scenarios"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "data-importing",
       "path": "illustration-icons/other/data-importing.svg",
       "title": "数据导入中",
@@ -117,31 +92,6 @@
             "name": "Developer Integration",
             "tags": ["developer", "integration", "code", "api"],
             "use-cases": ["Developer integration entry", "API or code integration guidance"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "email",
-      "path": "illustration-icons/other/email.svg",
-      "title": "邮件",
-      "englishName": "Email",
-      "componentName": "Email",
-      "category": "other",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "邮件",
-        "tags": ["邮件", "邮箱", "消息", "通知"],
-        "use-cases": ["邮件渠道配置", "邮箱通知或消息发送场景"],
-        "i18n": {
-          "en": {
-            "name": "Email",
-            "tags": ["email", "mailbox", "message", "notification"],
-            "use-cases": [
-              "Email channel configuration",
-              "Email notification or message sending scenarios"
-            ]
           }
         }
       }
@@ -655,31 +605,6 @@
     },
     {
       "type": "illustration",
-      "name": "lead-generation",
-      "path": "illustration-icons/other/lead-generation.svg",
-      "title": "线索获客",
-      "englishName": "Lead Generation",
-      "componentName": "LeadGeneration",
-      "category": "other",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "线索获客",
-        "tags": ["线索", "获客", "客户", "增长"],
-        "use-cases": ["线索获客业务场景", "客户增长与营销转化展示"],
-        "i18n": {
-          "en": {
-            "name": "Lead Generation",
-            "tags": ["lead generation", "leads", "customer", "growth"],
-            "use-cases": [
-              "Lead generation business scenario",
-              "Customer growth and marketing conversion display"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "load-failed",
       "path": "illustration-icons/other/load-failed.svg",
       "title": "加载失败",
@@ -696,31 +621,6 @@
             "name": "Load Failed",
             "tags": ["load failed", "load", "failed"],
             "use-cases": ["Page or module failed to load", "Prompt users to retry"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "marketing-automation",
-      "path": "illustration-icons/other/marketing-automation.svg",
-      "title": "营销自动化",
-      "englishName": "Marketing Automation",
-      "componentName": "MarketingAutomation",
-      "category": "other",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "营销自动化",
-        "tags": ["营销自动化", "流程", "自动化", "触达"],
-        "use-cases": ["营销自动化流程展示", "自动化触达或任务编排场景"],
-        "i18n": {
-          "en": {
-            "name": "Marketing Automation",
-            "tags": ["marketing automation", "workflow", "automation", "outreach"],
-            "use-cases": [
-              "Marketing automation workflow display",
-              "Automated outreach or task orchestration scenarios"
-            ]
           }
         }
       }
@@ -837,31 +737,6 @@
     },
     {
       "type": "illustration",
-      "name": "register-phone",
-      "path": "illustration-icons/other/register-phone.svg",
-      "title": "注册手机号",
-      "englishName": "Register Phone",
-      "componentName": "RegisterPhone",
-      "category": "other",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "注册手机号",
-        "tags": ["手机号", "注册", "移动端", "账号"],
-        "use-cases": ["手机号注册或绑定场景", "账号手机号信息展示"],
-        "i18n": {
-          "en": {
-            "name": "Register Phone",
-            "tags": ["phone", "registration", "mobile", "account"],
-            "use-cases": [
-              "Phone registration or binding scenario",
-              "Account phone information display"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "template-calling-request",
       "path": "illustration-icons/template/template-calling-request.svg",
       "title": "通话请求模板",
@@ -878,31 +753,6 @@
             "name": "Calling Request Template",
             "tags": ["template", "calling request", "WhatsApp", "message"],
             "use-cases": ["Calling request message template", "Template message scenario display"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "template-insights-authorization",
-      "path": "illustration-icons/template/template-insights-authorization.svg",
-      "title": "模板洞察授权",
-      "englishName": "Template Insights Authorization",
-      "componentName": "TemplateInsightsAuthorization",
-      "category": "template",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "模板洞察授权",
-        "tags": ["模板", "洞察", "授权", "状态"],
-        "use-cases": ["模板洞察授权状态或入口", "模板分析授权说明"],
-        "i18n": {
-          "en": {
-            "name": "Template Insights Authorization",
-            "tags": ["template", "insights", "authorization", "status"],
-            "use-cases": [
-              "Template insights authorization status or entry",
-              "Template analytics authorization description"
-            ]
           }
         }
       }

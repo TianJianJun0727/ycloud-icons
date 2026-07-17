@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "sandclock",
+  "tags": ["sandclock", "sand", "clock", "描边业务图标", "业务图标"],
+  "use-cases": ["sandclock相关入口或状态展示", "需要兼容历史业务视觉的sandclock场景"],
+  "i18n": {
+    "en": {
+      "name": "sand clock",
+      "tags": ["sand clock", "sand", "clock", "outlined business icon", "business icon"],
+      "use-cases": ["sand clock entry or status", "Legacy business visual for sand clock scenarios"]
+    }
+  }
+}

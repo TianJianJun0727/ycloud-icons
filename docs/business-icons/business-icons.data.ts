@@ -61,8 +61,8 @@ function readMetadata(file: string): AssetMetadata | undefined {
   return JSON.parse(fs.readFileSync(file, 'utf8')) as AssetMetadata;
 }
 
-function supportsStrokeWidth(svg: string) {
-  return /\bstroke\s*=\s*["'](?!none["'])/i.test(svg);
+function supportsStrokeWidth(category: string) {
+  return category !== 'multicolor';
 }
 
 const generatedMetadata = businessIconGitMetadata as BusinessIconGeneratedMetadataIndex;
@@ -124,7 +124,7 @@ export default {
               englishUseCases: metadata?.i18n?.en?.['use-cases'] ?? [],
               svg,
               dataUri: `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`,
-              supportsStrokeWidth: supportsStrokeWidth(svg),
+              supportsStrokeWidth: supportsStrokeWidth(category),
               createdRelease: assetGeneratedMetadata?.createdRelease,
               changedRelease: assetGeneratedMetadata?.changedRelease,
               git: assetGeneratedMetadata?.git,

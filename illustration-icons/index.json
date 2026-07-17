@@ -60,12 +60,6 @@
       "category": "logo"
     },
     {
-      "name": "customer-support",
-      "path": "illustration-icons/other/customer-support.svg",
-      "componentName": "CustomerSupport",
-      "category": "other"
-    },
-    {
       "name": "data-importing",
       "path": "illustration-icons/other/data-importing.svg",
       "componentName": "DataImporting",
@@ -76,12 +70,6 @@
       "path": "illustration-icons/integration/developer-integration.svg",
       "componentName": "DeveloperIntegration",
       "category": "integration"
-    },
-    {
-      "name": "email",
-      "path": "illustration-icons/other/email.svg",
-      "componentName": "Email",
-      "category": "other"
     },
     {
       "name": "empty-ai",
@@ -210,21 +198,9 @@
       "category": "integration"
     },
     {
-      "name": "lead-generation",
-      "path": "illustration-icons/other/lead-generation.svg",
-      "componentName": "LeadGeneration",
-      "category": "other"
-    },
-    {
       "name": "load-failed",
       "path": "illustration-icons/other/load-failed.svg",
       "componentName": "LoadFailed",
-      "category": "other"
-    },
-    {
-      "name": "marketing-automation",
-      "path": "illustration-icons/other/marketing-automation.svg",
-      "componentName": "MarketingAutomation",
       "category": "other"
     },
     {
@@ -258,21 +234,9 @@
       "category": "other"
     },
     {
-      "name": "register-phone",
-      "path": "illustration-icons/other/register-phone.svg",
-      "componentName": "RegisterPhone",
-      "category": "other"
-    },
-    {
       "name": "template-calling-request",
       "path": "illustration-icons/template/template-calling-request.svg",
       "componentName": "TemplateCallingRequest",
-      "category": "template"
-    },
-    {
-      "name": "template-insights-authorization",
-      "path": "illustration-icons/template/template-insights-authorization.svg",
-      "componentName": "TemplateInsightsAuthorization",
       "category": "template"
     },
     {

@@ -31,6 +31,18 @@
   "icons": [
     {
       "category": "filled",
+      "name": "acquire-more-leads",
+      "path": "business-icons/filled/acquire-more-leads.svg",
+      "componentName": "AcquireMoreLeads"
+    },
+    {
+      "category": "filled",
+      "name": "add-tags",
+      "path": "business-icons/filled/add-tags.svg",
+      "componentName": "AddTags"
+    },
+    {
+      "category": "filled",
       "name": "advertising-filled",
       "path": "business-icons/filled/advertising-filled.svg",
       "componentName": "AdvertisingFilled"
@@ -49,9 +61,45 @@
     },
     {
       "category": "filled",
+      "name": "agent-with-time",
+      "path": "business-icons/filled/agent-with-time.svg",
+      "componentName": "AgentWithTime"
+    },
+    {
+      "category": "filled",
+      "name": "agent",
+      "path": "business-icons/filled/agent.svg",
+      "componentName": "Agent"
+    },
+    {
+      "category": "filled",
+      "name": "alipay",
+      "path": "business-icons/filled/alipay.svg",
+      "componentName": "Alipay"
+    },
+    {
+      "category": "filled",
       "name": "analytics-filled",
       "path": "business-icons/filled/analytics-filled.svg",
       "componentName": "AnalyticsFilled"
+    },
+    {
+      "category": "filled",
+      "name": "api-docs",
+      "path": "business-icons/filled/api-docs.svg",
+      "componentName": "ApiDocs"
+    },
+    {
+      "category": "filled",
+      "name": "ask-question",
+      "path": "business-icons/filled/ask-question.svg",
+      "componentName": "AskQuestion"
+    },
+    {
+      "category": "filled",
+      "name": "assign",
+      "path": "business-icons/filled/assign.svg",
+      "componentName": "Assign"
     },
     {
       "category": "filled",
@@ -61,15 +109,117 @@
     },
     {
       "category": "filled",
+      "name": "benefit-analytics",
+      "path": "business-icons/filled/benefit-analytics.svg",
+      "componentName": "BenefitAnalytics"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-global",
+      "path": "business-icons/filled/benefit-global.svg",
+      "componentName": "BenefitGlobal"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-languages",
+      "path": "business-icons/filled/benefit-languages.svg",
+      "componentName": "BenefitLanguages"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-payments",
+      "path": "business-icons/filled/benefit-payments.svg",
+      "componentName": "BenefitPayments"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-restriction",
+      "path": "business-icons/filled/benefit-restriction.svg",
+      "componentName": "BenefitRestriction"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-security",
+      "path": "business-icons/filled/benefit-security.svg",
+      "componentName": "BenefitSecurity"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-sender",
+      "path": "business-icons/filled/benefit-sender.svg",
+      "componentName": "BenefitSender"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-simple",
+      "path": "business-icons/filled/benefit-simple.svg",
+      "componentName": "BenefitSimple"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-smile",
+      "path": "business-icons/filled/benefit-smile.svg",
+      "componentName": "BenefitSmile"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-statistical",
+      "path": "business-icons/filled/benefit-statistical.svg",
+      "componentName": "BenefitStatistical"
+    },
+    {
+      "category": "filled",
+      "name": "benefit-template",
+      "path": "business-icons/filled/benefit-template.svg",
+      "componentName": "BenefitTemplate"
+    },
+    {
+      "category": "filled",
       "name": "billing-filled",
       "path": "business-icons/filled/billing-filled.svg",
       "componentName": "BillingFilled"
     },
     {
       "category": "filled",
+      "name": "blog",
+      "path": "business-icons/filled/blog.svg",
+      "componentName": "Blog"
+    },
+    {
+      "category": "filled",
       "name": "botfilled",
       "path": "business-icons/filled/botfilled.svg",
       "componentName": "Botfilled"
+    },
+    {
+      "category": "filled",
+      "name": "branch",
+      "path": "business-icons/filled/branch.svg",
+      "componentName": "Branch"
+    },
+    {
+      "category": "filled",
+      "name": "business-icon",
+      "path": "business-icons/filled/business-icon.svg",
+      "componentName": "BusinessIcon"
+    },
+    {
+      "category": "filled",
+      "name": "call-api",
+      "path": "business-icons/filled/call-api.svg",
+      "componentName": "CallApi"
+    },
+    {
+      "category": "filled",
+      "name": "call-in",
+      "path": "business-icons/filled/call-in.svg",
+      "componentName": "CallIn"
+    },
+    {
+      "category": "filled",
+      "name": "call-out",
+      "path": "business-icons/filled/call-out.svg",
+      "componentName": "CallOut"
     },
     {
       "category": "filled",
@@ -82,6 +232,12 @@
       "name": "campaign-filled",
       "path": "business-icons/filled/campaign-filled.svg",
       "componentName": "CampaignFilled"
+    },
+    {
+      "category": "filled",
+      "name": "canned-response-check",
+      "path": "business-icons/filled/canned-response-check.svg",
+      "componentName": "CannedResponseCheck"
     },
     {
       "category": "filled",
@@ -121,6 +277,12 @@
     },
     {
       "category": "filled",
+      "name": "composite-trigger-icon",
+      "path": "business-icons/filled/composite-trigger-icon.svg",
+      "componentName": "CompositeTriggerIcon"
+    },
+    {
+      "category": "filled",
       "name": "contact-filled",
       "path": "business-icons/filled/contact-filled.svg",
       "componentName": "ContactFilled"
@@ -133,9 +295,45 @@
     },
     {
       "category": "filled",
+      "name": "create-tickets-icon",
+      "path": "business-icons/filled/create-tickets-icon.svg",
+      "componentName": "CreateTicketsIcon"
+    },
+    {
+      "category": "filled",
+      "name": "credit-card-icon",
+      "path": "business-icons/filled/credit-card-icon.svg",
+      "componentName": "CreditCardIcon"
+    },
+    {
+      "category": "filled",
+      "name": "ctwa-system-keyword-event",
+      "path": "business-icons/filled/ctwa-system-keyword-event.svg",
+      "componentName": "CtwaSystemKeywordEvent"
+    },
+    {
+      "category": "filled",
+      "name": "date-time",
+      "path": "business-icons/filled/date-time.svg",
+      "componentName": "DateTime"
+    },
+    {
+      "category": "filled",
+      "name": "delivered-icon",
+      "path": "business-icons/filled/delivered-icon.svg",
+      "componentName": "DeliveredIcon"
+    },
+    {
+      "category": "filled",
       "name": "direction-filled",
       "path": "business-icons/filled/direction-filled.svg",
       "componentName": "DirectionFilled"
+    },
+    {
+      "category": "filled",
+      "name": "discount",
+      "path": "business-icons/filled/discount.svg",
+      "componentName": "Discount"
     },
     {
       "category": "filled",
@@ -151,9 +349,33 @@
     },
     {
       "category": "filled",
+      "name": "edit-title",
+      "path": "business-icons/filled/edit-title.svg",
+      "componentName": "EditTitle"
+    },
+    {
+      "category": "filled",
       "name": "export-filled",
       "path": "business-icons/filled/export-filled.svg",
       "componentName": "ExportFilled"
+    },
+    {
+      "category": "filled",
+      "name": "filter-event",
+      "path": "business-icons/filled/filter-event.svg",
+      "componentName": "FilterEvent"
+    },
+    {
+      "category": "filled",
+      "name": "gift",
+      "path": "business-icons/filled/gift.svg",
+      "componentName": "Gift"
+    },
+    {
+      "category": "filled",
+      "name": "global",
+      "path": "business-icons/filled/global.svg",
+      "componentName": "Global"
     },
     {
       "category": "filled",
@@ -175,6 +397,12 @@
     },
     {
       "category": "filled",
+      "name": "location",
+      "path": "business-icons/filled/location.svg",
+      "componentName": "Location"
+    },
+    {
+      "category": "filled",
       "name": "message-bubble-filled",
       "path": "business-icons/filled/message-bubble-filled.svg",
       "componentName": "MessageBubbleFilled"
@@ -193,9 +421,57 @@
     },
     {
       "category": "filled",
+      "name": "migrate-outlined",
+      "path": "business-icons/filled/migrate-outlined.svg",
+      "componentName": "MigrateOutlined"
+    },
+    {
+      "category": "filled",
+      "name": "mobile-phone",
+      "path": "business-icons/filled/mobile-phone.svg",
+      "componentName": "MobilePhone"
+    },
+    {
+      "category": "filled",
+      "name": "more-price",
+      "path": "business-icons/filled/more-price.svg",
+      "componentName": "MorePrice"
+    },
+    {
+      "category": "filled",
+      "name": "more-restriction",
+      "path": "business-icons/filled/more-restriction.svg",
+      "componentName": "MoreRestriction"
+    },
+    {
+      "category": "filled",
+      "name": "more-sender-name",
+      "path": "business-icons/filled/more-sender-name.svg",
+      "componentName": "MoreSenderName"
+    },
+    {
+      "category": "filled",
+      "name": "more-sender",
+      "path": "business-icons/filled/more-sender.svg",
+      "componentName": "MoreSender"
+    },
+    {
+      "category": "filled",
+      "name": "more-vert",
+      "path": "business-icons/filled/more-vert.svg",
+      "componentName": "MoreVert"
+    },
+    {
+      "category": "filled",
       "name": "mouse-filled",
       "path": "business-icons/filled/mouse-filled.svg",
       "componentName": "MouseFilled"
+    },
+    {
+      "category": "filled",
+      "name": "music",
+      "path": "business-icons/filled/music.svg",
+      "componentName": "Music"
     },
     {
       "category": "filled",
@@ -229,9 +505,21 @@
     },
     {
       "category": "filled",
+      "name": "progressomg",
+      "path": "business-icons/filled/progressomg.svg",
+      "componentName": "Progressomg"
+    },
+    {
+      "category": "filled",
       "name": "push-pin-filled",
       "path": "business-icons/filled/push-pin-filled.svg",
       "componentName": "PushPinFilled"
+    },
+    {
+      "category": "filled",
+      "name": "qmai-event",
+      "path": "business-icons/filled/qmai-event.svg",
+      "componentName": "QmaiEvent"
     },
     {
       "category": "filled",
@@ -241,15 +529,51 @@
     },
     {
       "category": "filled",
+      "name": "sand-clock",
+      "path": "business-icons/filled/sand-clock.svg",
+      "componentName": "SandClock"
+    },
+    {
+      "category": "filled",
       "name": "security-filled",
       "path": "business-icons/filled/security-filled.svg",
       "componentName": "SecurityFilled"
     },
     {
       "category": "filled",
+      "name": "segment",
+      "path": "business-icons/filled/segment.svg",
+      "componentName": "Segment"
+    },
+    {
+      "category": "filled",
+      "name": "send-message-mark",
+      "path": "business-icons/filled/send-message-mark.svg",
+      "componentName": "SendMessageMark"
+    },
+    {
+      "category": "filled",
+      "name": "send-message",
+      "path": "business-icons/filled/send-message.svg",
+      "componentName": "SendMessage"
+    },
+    {
+      "category": "filled",
       "name": "setting-filled",
       "path": "business-icons/filled/setting-filled.svg",
       "componentName": "SettingFilled"
+    },
+    {
+      "category": "filled",
+      "name": "share",
+      "path": "business-icons/filled/share.svg",
+      "componentName": "Share"
+    },
+    {
+      "category": "filled",
+      "name": "shop-assistant",
+      "path": "business-icons/filled/shop-assistant.svg",
+      "componentName": "ShopAssistant"
     },
     {
       "category": "filled",
@@ -271,9 +595,27 @@
     },
     {
       "category": "filled",
+      "name": "star",
+      "path": "business-icons/filled/star.svg",
+      "componentName": "Star"
+    },
+    {
+      "category": "filled",
       "name": "status-filled",
       "path": "business-icons/filled/status-filled.svg",
       "componentName": "StatusFilled"
+    },
+    {
+      "category": "filled",
+      "name": "table-setting",
+      "path": "business-icons/filled/table-setting.svg",
+      "componentName": "TableSetting"
+    },
+    {
+      "category": "filled",
+      "name": "tag",
+      "path": "business-icons/filled/tag.svg",
+      "componentName": "Tag"
     },
     {
       "category": "filled",
@@ -283,15 +625,39 @@
     },
     {
       "category": "filled",
+      "name": "team",
+      "path": "business-icons/filled/team.svg",
+      "componentName": "Team"
+    },
+    {
+      "category": "filled",
       "name": "template-filled",
       "path": "business-icons/filled/template-filled.svg",
       "componentName": "TemplateFilled"
     },
     {
       "category": "filled",
+      "name": "title-edit-icon",
+      "path": "business-icons/filled/title-edit-icon.svg",
+      "componentName": "TitleEditIcon"
+    },
+    {
+      "category": "filled",
       "name": "tool-filled",
       "path": "business-icons/filled/tool-filled.svg",
       "componentName": "ToolFilled"
+    },
+    {
+      "category": "filled",
+      "name": "trigger",
+      "path": "business-icons/filled/trigger.svg",
+      "componentName": "Trigger"
+    },
+    {
+      "category": "filled",
+      "name": "unsubscribe",
+      "path": "business-icons/filled/unsubscribe.svg",
+      "componentName": "Unsubscribe"
     },
     {
       "category": "filled",
@@ -313,9 +679,27 @@
     },
     {
       "category": "filled",
+      "name": "whatsapp-business-outlined",
+      "path": "business-icons/filled/whatsapp-business-outlined.svg",
+      "componentName": "WhatsappBusinessOutlined"
+    },
+    {
+      "category": "filled",
+      "name": "whatsapp-notch-outlined",
+      "path": "business-icons/filled/whatsapp-notch-outlined.svg",
+      "componentName": "WhatsappNotchOutlined"
+    },
+    {
+      "category": "filled",
       "name": "whatsapp-phone-filled",
       "path": "business-icons/filled/whatsapp-phone-filled.svg",
       "componentName": "WhatsappPhoneFilled"
+    },
+    {
+      "category": "filled",
+      "name": "whatsapp-phone-outlined",
+      "path": "business-icons/filled/whatsapp-phone-outlined.svg",
+      "componentName": "WhatsappPhoneOutlined"
     },
     {
       "category": "filled",
@@ -337,9 +721,9 @@
     },
     {
       "category": "outlined",
-      "name": "acquire-more-leads",
-      "path": "business-icons/outlined/acquire-more-leads.svg",
-      "componentName": "AcquireMoreLeads"
+      "name": "ad",
+      "path": "business-icons/outlined/ad.svg",
+      "componentName": "Ad"
     },
     {
       "category": "outlined",
@@ -349,123 +733,15 @@
     },
     {
       "category": "outlined",
-      "name": "add-tags",
-      "path": "business-icons/outlined/add-tags.svg",
-      "componentName": "AddTags"
-    },
-    {
-      "category": "outlined",
       "name": "advertising-outlined",
       "path": "business-icons/outlined/advertising-outlined.svg",
       "componentName": "AdvertisingOutlined"
     },
     {
       "category": "outlined",
-      "name": "agent-with-time",
-      "path": "business-icons/outlined/agent-with-time.svg",
-      "componentName": "AgentWithTime"
-    },
-    {
-      "category": "outlined",
-      "name": "agent",
-      "path": "business-icons/outlined/agent.svg",
-      "componentName": "Agent"
-    },
-    {
-      "category": "outlined",
-      "name": "alipay",
-      "path": "business-icons/outlined/alipay.svg",
-      "componentName": "Alipay"
-    },
-    {
-      "category": "outlined",
-      "name": "api-docs",
-      "path": "business-icons/outlined/api-docs.svg",
-      "componentName": "ApiDocs"
-    },
-    {
-      "category": "outlined",
-      "name": "ask-question",
-      "path": "business-icons/outlined/ask-question.svg",
-      "componentName": "AskQuestion"
-    },
-    {
-      "category": "outlined",
-      "name": "assign",
-      "path": "business-icons/outlined/assign.svg",
-      "componentName": "Assign"
-    },
-    {
-      "category": "outlined",
       "name": "balance",
       "path": "business-icons/outlined/balance.svg",
       "componentName": "Balance"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-analytics",
-      "path": "business-icons/outlined/benefit-analytics.svg",
-      "componentName": "BenefitAnalytics"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-global",
-      "path": "business-icons/outlined/benefit-global.svg",
-      "componentName": "BenefitGlobal"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-languages",
-      "path": "business-icons/outlined/benefit-languages.svg",
-      "componentName": "BenefitLanguages"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-payments",
-      "path": "business-icons/outlined/benefit-payments.svg",
-      "componentName": "BenefitPayments"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-restriction",
-      "path": "business-icons/outlined/benefit-restriction.svg",
-      "componentName": "BenefitRestriction"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-security",
-      "path": "business-icons/outlined/benefit-security.svg",
-      "componentName": "BenefitSecurity"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-sender",
-      "path": "business-icons/outlined/benefit-sender.svg",
-      "componentName": "BenefitSender"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-simple",
-      "path": "business-icons/outlined/benefit-simple.svg",
-      "componentName": "BenefitSimple"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-smile",
-      "path": "business-icons/outlined/benefit-smile.svg",
-      "componentName": "BenefitSmile"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-statistical",
-      "path": "business-icons/outlined/benefit-statistical.svg",
-      "componentName": "BenefitStatistical"
-    },
-    {
-      "category": "outlined",
-      "name": "benefit-template",
-      "path": "business-icons/outlined/benefit-template.svg",
-      "componentName": "BenefitTemplate"
     },
     {
       "category": "outlined",
@@ -481,45 +757,9 @@
     },
     {
       "category": "outlined",
-      "name": "blog",
-      "path": "business-icons/outlined/blog.svg",
-      "componentName": "Blog"
-    },
-    {
-      "category": "outlined",
       "name": "bot-outlined",
       "path": "business-icons/outlined/bot-outlined.svg",
       "componentName": "BotOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "branch",
-      "path": "business-icons/outlined/branch.svg",
-      "componentName": "Branch"
-    },
-    {
-      "category": "outlined",
-      "name": "business-icon",
-      "path": "business-icons/outlined/business-icon.svg",
-      "componentName": "BusinessIcon"
-    },
-    {
-      "category": "outlined",
-      "name": "call-api",
-      "path": "business-icons/outlined/call-api.svg",
-      "componentName": "CallApi"
-    },
-    {
-      "category": "outlined",
-      "name": "call-in",
-      "path": "business-icons/outlined/call-in.svg",
-      "componentName": "CallIn"
-    },
-    {
-      "category": "outlined",
-      "name": "call-out",
-      "path": "business-icons/outlined/call-out.svg",
-      "componentName": "CallOut"
     },
     {
       "category": "outlined",
@@ -529,21 +769,33 @@
     },
     {
       "category": "outlined",
+      "name": "calling",
+      "path": "business-icons/outlined/calling.svg",
+      "componentName": "Calling"
+    },
+    {
+      "category": "outlined",
       "name": "campaign-outlined",
       "path": "business-icons/outlined/campaign-outlined.svg",
       "componentName": "CampaignOutlined"
     },
     {
       "category": "outlined",
-      "name": "canned-response-check",
-      "path": "business-icons/outlined/canned-response-check.svg",
-      "componentName": "CannedResponseCheck"
+      "name": "cart",
+      "path": "business-icons/outlined/cart.svg",
+      "componentName": "Cart"
     },
     {
       "category": "outlined",
       "name": "chat-loading-icon",
       "path": "business-icons/outlined/chat-loading-icon.svg",
       "componentName": "ChatLoadingIcon"
+    },
+    {
+      "category": "outlined",
+      "name": "chatbot",
+      "path": "business-icons/outlined/chatbot.svg",
+      "componentName": "Chatbot"
     },
     {
       "category": "outlined",
@@ -589,15 +841,15 @@
     },
     {
       "category": "outlined",
-      "name": "composite-trigger-icon",
-      "path": "business-icons/outlined/composite-trigger-icon.svg",
-      "componentName": "CompositeTriggerIcon"
-    },
-    {
-      "category": "outlined",
       "name": "contact-outlined",
       "path": "business-icons/outlined/contact-outlined.svg",
       "componentName": "ContactOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "contact",
+      "path": "business-icons/outlined/contact.svg",
+      "componentName": "Contact"
     },
     {
       "category": "outlined",
@@ -613,51 +865,15 @@
     },
     {
       "category": "outlined",
-      "name": "create-tickets-icon",
-      "path": "business-icons/outlined/create-tickets-icon.svg",
-      "componentName": "CreateTicketsIcon"
-    },
-    {
-      "category": "outlined",
-      "name": "credit-card-icon",
-      "path": "business-icons/outlined/credit-card-icon.svg",
-      "componentName": "CreditCardIcon"
-    },
-    {
-      "category": "outlined",
-      "name": "ctwa-system-keyword-event",
-      "path": "business-icons/outlined/ctwa-system-keyword-event.svg",
-      "componentName": "CtwaSystemKeywordEvent"
-    },
-    {
-      "category": "outlined",
-      "name": "date-time",
-      "path": "business-icons/outlined/date-time.svg",
-      "componentName": "DateTime"
-    },
-    {
-      "category": "outlined",
-      "name": "delivered-icon",
-      "path": "business-icons/outlined/delivered-icon.svg",
-      "componentName": "DeliveredIcon"
-    },
-    {
-      "category": "outlined",
-      "name": "discount",
-      "path": "business-icons/outlined/discount.svg",
-      "componentName": "Discount"
+      "name": "developers",
+      "path": "business-icons/outlined/developers.svg",
+      "componentName": "Developers"
     },
     {
       "category": "outlined",
       "name": "double-check",
       "path": "business-icons/outlined/double-check.svg",
       "componentName": "DoubleCheck"
-    },
-    {
-      "category": "outlined",
-      "name": "edit-title",
-      "path": "business-icons/outlined/edit-title.svg",
-      "componentName": "EditTitle"
     },
     {
       "category": "outlined",
@@ -679,27 +895,9 @@
     },
     {
       "category": "outlined",
-      "name": "filter-event",
-      "path": "business-icons/outlined/filter-event.svg",
-      "componentName": "FilterEvent"
-    },
-    {
-      "category": "outlined",
       "name": "flow",
       "path": "business-icons/outlined/flow.svg",
       "componentName": "Flow"
-    },
-    {
-      "category": "outlined",
-      "name": "gift",
-      "path": "business-icons/outlined/gift.svg",
-      "componentName": "Gift"
-    },
-    {
-      "category": "outlined",
-      "name": "global",
-      "path": "business-icons/outlined/global.svg",
-      "componentName": "Global"
     },
     {
       "category": "outlined",
@@ -709,9 +907,33 @@
     },
     {
       "category": "outlined",
+      "name": "home",
+      "path": "business-icons/outlined/home.svg",
+      "componentName": "Home"
+    },
+    {
+      "category": "outlined",
+      "name": "inbox",
+      "path": "business-icons/outlined/inbox.svg",
+      "componentName": "Inbox"
+    },
+    {
+      "category": "outlined",
+      "name": "integration",
+      "path": "business-icons/outlined/integration.svg",
+      "componentName": "Integration"
+    },
+    {
+      "category": "outlined",
       "name": "journey-outlined",
       "path": "business-icons/outlined/journey-outlined.svg",
       "componentName": "JourneyOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "journey",
+      "path": "business-icons/outlined/journey.svg",
+      "componentName": "Journey"
     },
     {
       "category": "outlined",
@@ -739,12 +961,6 @@
     },
     {
       "category": "outlined",
-      "name": "location",
-      "path": "business-icons/outlined/location.svg",
-      "componentName": "Location"
-    },
-    {
-      "category": "outlined",
       "name": "logout",
       "path": "business-icons/outlined/logout.svg",
       "componentName": "Logout"
@@ -754,6 +970,12 @@
       "name": "map-outlined",
       "path": "business-icons/outlined/map-outlined.svg",
       "componentName": "MapOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "megaphone",
+      "path": "business-icons/outlined/megaphone.svg",
+      "componentName": "Megaphone"
     },
     {
       "category": "outlined",
@@ -769,57 +991,9 @@
     },
     {
       "category": "outlined",
-      "name": "migrate-outlined",
-      "path": "business-icons/outlined/migrate-outlined.svg",
-      "componentName": "MigrateOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "mobile-phone",
-      "path": "business-icons/outlined/mobile-phone.svg",
-      "componentName": "MobilePhone"
-    },
-    {
-      "category": "outlined",
       "name": "more-horiz",
       "path": "business-icons/outlined/more-horiz.svg",
       "componentName": "MoreHoriz"
-    },
-    {
-      "category": "outlined",
-      "name": "more-price",
-      "path": "business-icons/outlined/more-price.svg",
-      "componentName": "MorePrice"
-    },
-    {
-      "category": "outlined",
-      "name": "more-restriction",
-      "path": "business-icons/outlined/more-restriction.svg",
-      "componentName": "MoreRestriction"
-    },
-    {
-      "category": "outlined",
-      "name": "more-sender-name",
-      "path": "business-icons/outlined/more-sender-name.svg",
-      "componentName": "MoreSenderName"
-    },
-    {
-      "category": "outlined",
-      "name": "more-sender",
-      "path": "business-icons/outlined/more-sender.svg",
-      "componentName": "MoreSender"
-    },
-    {
-      "category": "outlined",
-      "name": "more-vert",
-      "path": "business-icons/outlined/more-vert.svg",
-      "componentName": "MoreVert"
-    },
-    {
-      "category": "outlined",
-      "name": "music",
-      "path": "business-icons/outlined/music.svg",
-      "componentName": "Music"
     },
     {
       "category": "outlined",
@@ -835,27 +1009,27 @@
     },
     {
       "category": "outlined",
+      "name": "order",
+      "path": "business-icons/outlined/order.svg",
+      "componentName": "Order"
+    },
+    {
+      "category": "outlined",
+      "name": "partner",
+      "path": "business-icons/outlined/partner.svg",
+      "componentName": "Partner"
+    },
+    {
+      "category": "outlined",
       "name": "partners-outlined",
       "path": "business-icons/outlined/partners-outlined.svg",
       "componentName": "PartnersOutlined"
     },
     {
       "category": "outlined",
-      "name": "progressomg",
-      "path": "business-icons/outlined/progressomg.svg",
-      "componentName": "Progressomg"
-    },
-    {
-      "category": "outlined",
       "name": "push-pin-outlined",
       "path": "business-icons/outlined/push-pin-outlined.svg",
       "componentName": "PushPinOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "qmai-event",
-      "path": "business-icons/outlined/qmai-event.svg",
-      "componentName": "QmaiEvent"
     },
     {
       "category": "outlined",
@@ -877,51 +1051,15 @@
     },
     {
       "category": "outlined",
-      "name": "sand-clock",
-      "path": "business-icons/outlined/sand-clock.svg",
-      "componentName": "SandClock"
-    },
-    {
-      "category": "outlined",
       "name": "scroll-to-bottom",
       "path": "business-icons/outlined/scroll-to-bottom.svg",
       "componentName": "ScrollToBottom"
     },
     {
       "category": "outlined",
-      "name": "segment",
-      "path": "business-icons/outlined/segment.svg",
-      "componentName": "Segment"
-    },
-    {
-      "category": "outlined",
-      "name": "send-message-mark",
-      "path": "business-icons/outlined/send-message-mark.svg",
-      "componentName": "SendMessageMark"
-    },
-    {
-      "category": "outlined",
-      "name": "send-message",
-      "path": "business-icons/outlined/send-message.svg",
-      "componentName": "SendMessage"
-    },
-    {
-      "category": "outlined",
       "name": "setting-outlined",
       "path": "business-icons/outlined/setting-outlined.svg",
       "componentName": "SettingOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "share",
-      "path": "business-icons/outlined/share.svg",
-      "componentName": "Share"
-    },
-    {
-      "category": "outlined",
-      "name": "shop-assistant",
-      "path": "business-icons/outlined/shop-assistant.svg",
-      "componentName": "ShopAssistant"
     },
     {
       "category": "outlined",
@@ -943,12 +1081,6 @@
     },
     {
       "category": "outlined",
-      "name": "star",
-      "path": "business-icons/outlined/star.svg",
-      "componentName": "Star"
-    },
-    {
-      "category": "outlined",
       "name": "start-arrow",
       "path": "business-icons/outlined/start-arrow.svg",
       "componentName": "StartArrow"
@@ -961,27 +1093,9 @@
     },
     {
       "category": "outlined",
-      "name": "table-setting",
-      "path": "business-icons/outlined/table-setting.svg",
-      "componentName": "TableSetting"
-    },
-    {
-      "category": "outlined",
-      "name": "tag",
-      "path": "business-icons/outlined/tag.svg",
-      "componentName": "Tag"
-    },
-    {
-      "category": "outlined",
       "name": "task-complete",
       "path": "business-icons/outlined/task-complete.svg",
       "componentName": "TaskComplete"
-    },
-    {
-      "category": "outlined",
-      "name": "team",
-      "path": "business-icons/outlined/team.svg",
-      "componentName": "Team"
     },
     {
       "category": "outlined",
@@ -991,27 +1105,9 @@
     },
     {
       "category": "outlined",
-      "name": "title-edit-icon",
-      "path": "business-icons/outlined/title-edit-icon.svg",
-      "componentName": "TitleEditIcon"
-    },
-    {
-      "category": "outlined",
-      "name": "trigger",
-      "path": "business-icons/outlined/trigger.svg",
-      "componentName": "Trigger"
-    },
-    {
-      "category": "outlined",
       "name": "undo",
       "path": "business-icons/outlined/undo.svg",
       "componentName": "Undo"
-    },
-    {
-      "category": "outlined",
-      "name": "unsubscribe",
-      "path": "business-icons/outlined/unsubscribe.svg",
-      "componentName": "Unsubscribe"
     },
     {
       "category": "outlined",
@@ -1021,21 +1117,9 @@
     },
     {
       "category": "outlined",
-      "name": "whatsapp-business-outlined",
-      "path": "business-icons/outlined/whatsapp-business-outlined.svg",
-      "componentName": "WhatsappBusinessOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "whatsapp-notch-outlined",
-      "path": "business-icons/outlined/whatsapp-notch-outlined.svg",
-      "componentName": "WhatsappNotchOutlined"
-    },
-    {
-      "category": "outlined",
-      "name": "whatsapp-phone-outlined",
-      "path": "business-icons/outlined/whatsapp-phone-outlined.svg",
-      "componentName": "WhatsappPhoneOutlined"
+      "name": "whatsapp",
+      "path": "business-icons/outlined/whatsapp.svg",
+      "componentName": "Whatsapp"
     },
     {
       "category": "outlined",

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "APIdocs",
+  "tags": ["APIdocs", "API", "docs", "描边业务图标", "业务图标"],
+  "use-cases": ["APIdocs相关入口或状态展示", "需要兼容历史业务视觉的APIdocs场景"],
+  "i18n": {
+    "en": {
+      "name": "api docs",
+      "tags": ["api docs", "api", "docs", "outlined business icon", "business icon"],
+      "use-cases": ["api docs entry or status", "Legacy business visual for api docs scenarios"]
+    }
+  }
+}

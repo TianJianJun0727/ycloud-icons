@@ -341,45 +341,7 @@
       ]
     }
   },
-  "illustration-icons/other/customer-support.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
   "illustration-icons/other/data-importing.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
-  "illustration-icons/other/email.svg": {
     "createdRelease": {
       "version": "0.0.0",
       "date": "2020-06-08T16:39:52+0100"
@@ -512,45 +474,7 @@
       ]
     }
   },
-  "illustration-icons/other/lead-generation.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
   "illustration-icons/other/load-failed.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
-  "illustration-icons/other/marketing-automation.svg": {
     "createdRelease": {
       "version": "0.0.0",
       "date": "2020-06-08T16:39:52+0100"
@@ -664,25 +588,6 @@
       ]
     }
   },
-  "illustration-icons/other/register-phone.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
   "illustration-icons/other/waiting-status.svg": {
     "createdRelease": {
       "version": "0.0.0",
@@ -703,25 +608,6 @@
     }
   },
   "illustration-icons/template/template-calling-request.svg": {
-    "createdRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "changedRelease": {
-      "version": "0.0.0",
-      "date": "2020-06-08T16:39:52+0100"
-    },
-    "git": {
-      "createdAt": "2026-07-15T19:58:14+08:00",
-      "changedAt": "2026-07-15T19:58:14+08:00",
-      "createdBy": "田建军",
-      "changedBy": "田建军",
-      "contributors": [
-        "田建军"
-      ]
-    }
-  },
-  "illustration-icons/template/template-insights-authorization.svg": {
     "createdRelease": {
       "version": "0.0.0",
       "date": "2020-06-08T16:39:52+0100"

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "benefitstatistical",
+  "tags": ["benefitstatistical", "benefit", "statistical", "描边业务图标", "业务图标"],
+  "use-cases": [
+    "benefitstatistical相关入口或状态展示",
+    "需要兼容历史业务视觉的benefitstatistical场景"
+  ],
+  "i18n": {
+    "en": {
+      "name": "benefit statistical",
+      "tags": [
+        "benefit statistical",
+        "benefit",
+        "statistical",
+        "outlined business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "benefit statistical entry or status",
+        "Legacy business visual for benefit statistical scenarios"
+      ]
+    }
+  }
+}

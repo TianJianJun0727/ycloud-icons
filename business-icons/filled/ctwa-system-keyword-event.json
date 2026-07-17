@@ -1,0 +1,35 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "ctwasystemkeyword事件",
+  "tags": [
+    "ctwasystemkeyword事件",
+    "ctwa",
+    "system",
+    "keyword",
+    "事件",
+    "描边业务图标",
+    "业务图标"
+  ],
+  "use-cases": [
+    "ctwasystemkeyword事件相关入口或状态展示",
+    "需要兼容历史业务视觉的ctwasystemkeyword事件场景"
+  ],
+  "i18n": {
+    "en": {
+      "name": "ctwa system keyword event",
+      "tags": [
+        "ctwa system keyword event",
+        "ctwa",
+        "system",
+        "keyword",
+        "event",
+        "outlined business icon",
+        "business icon"
+      ],
+      "use-cases": [
+        "ctwa system keyword event entry or status",
+        "Legacy business visual for ctwa system keyword event scenarios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "更多vert",
+  "tags": ["更多vert", "更多", "vert", "描边业务图标", "业务图标"],
+  "use-cases": ["更多vert相关入口或状态展示", "需要兼容历史业务视觉的更多vert场景"],
+  "i18n": {
+    "en": {
+      "name": "more vert",
+      "tags": ["more vert", "more", "vert", "outlined business icon", "business icon"],
+      "use-cases": ["more vert entry or status", "Legacy business visual for more vert scenarios"]
+    }
+  }
+}

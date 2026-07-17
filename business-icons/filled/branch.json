@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "branch",
+  "tags": ["branch", "描边业务图标", "业务图标"],
+  "use-cases": ["branch相关入口或状态展示", "需要兼容历史业务视觉的branch场景"],
+  "i18n": {
+    "en": {
+      "name": "branch",
+      "tags": ["branch", "outlined business icon", "business icon"],
+      "use-cases": ["branch entry or status", "Legacy business visual for branch scenarios"]
+    }
+  }
+}

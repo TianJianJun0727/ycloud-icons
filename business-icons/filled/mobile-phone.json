@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "mobile电话",
+  "tags": ["mobile电话", "mobile", "电话", "描边业务图标", "业务图标"],
+  "use-cases": ["mobile电话相关入口或状态展示", "需要兼容历史业务视觉的mobile电话场景"],
+  "i18n": {
+    "en": {
+      "name": "mobile phone",
+      "tags": ["mobile phone", "mobile", "phone", "outlined business icon", "business icon"],
+      "use-cases": [
+        "mobile phone entry or status",
+        "Legacy business visual for mobile phone scenarios"
+      ]
+    }
+  }
+}

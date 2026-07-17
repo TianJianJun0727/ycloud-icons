@@ -19,7 +19,7 @@ const { color, strokeWidth, size, absoluteStrokeWidth, businessStrokeWidthEnable
 const { page, params } = useData();
 const isEnglish = computed(() => page.value?.relativePath?.startsWith?.('en/') ?? false);
 const businessStrokeWidthSupported = computed(
-  () => props.mode !== 'business' || params.value?.supportsStrokeWidth === true,
+  () => props.mode === 'business' || params.value?.supportsStrokeWidth === true,
 );
 const documentRef = shallowRef<HTMLElement | undefined>(
   typeof document !== 'undefined' ? document?.documentElement : undefined,
@@ -89,25 +89,14 @@ const customizingActive = computed(() => {
 </script>
 
 <template>
-  <div
-    class="customizer-card"
-    :class="{ customized: customizingActive }"
-  >
+  <div class="customizer-card" :class="{ customized: customizingActive }">
     <div class="card-header">
       <h2 class="card-title">{{ isEnglish ? 'Customize' : '自定义' }}</h2>
       <ResetButton @click="resetStyle"></ResetButton>
     </div>
-    <InputField
-      id="icon-color"
-      :label="isEnglish ? 'Color' : '颜色'"
-      class="color-picker-field"
-    >
+    <InputField id="icon-color" :label="isEnglish ? 'Color' : '颜色'" class="color-picker-field">
       <template #display>
-        <ColorPicker
-          v-model="color"
-          id="icon-color"
-          class="color-picker"
-        />
+        <ColorPicker v-model="color" id="icon-color" class="color-picker" />
       </template>
     </InputField>
 
@@ -156,21 +145,11 @@ const customizingActive = computed(() => {
       </template>
     </InputField>
 
-    <InputField
-      id="size"
-      :label="isEnglish ? 'Size' : '尺寸'"
-    >
+    <InputField id="size" :label="isEnglish ? 'Size' : '尺寸'">
       <template #display>
         <span class="customize-label">{{ size }}px</span>
       </template>
-      <RangeSlider
-        id="size"
-        name="size"
-        v-model="size"
-        :min="16"
-        :max="256"
-        :step="4"
-      />
+      <RangeSlider id="size" name="size" v-model="size" :min="16" :max="256" :step="4" />
     </InputField>
 
     <InputField
