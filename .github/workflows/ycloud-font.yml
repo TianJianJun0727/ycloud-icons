@@ -5,13 +5,13 @@ on:
     branches:
       - next
     paths:
-      - .github/actions/setup-nub/**
+      - .github/actions/setup-pnpm/**
       - packages/icons-static/package.json
       - .github/workflows/ycloud-font.yml
       - tools/build-font/**
   pull_request:
     paths:
-      - .github/actions/setup-nub/**
+      - .github/actions/setup-pnpm/**
       - .github/workflows/ycloud-font.yml
       - packages/icons-static/package.json
       - tools/build-font/**
@@ -25,15 +25,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
       - name: Install dependencies
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Execute unit tests for build-font
-        run: nub run test:font
+        run: pnpm test:font
 
       - name: Create font in packages/icons-static/font
-        run: nub run build:font
+        run: pnpm build:font
 
       - name: 'Upload to Artifacts'
         uses: actions/upload-artifact@v7
