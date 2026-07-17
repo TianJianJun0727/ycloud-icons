@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Facebook",
+  "tags": ["Facebook", "社交媒体", "营销渠道", "品牌", "多色", "业务图标"],
+  "use-cases": ["用于 Facebook 渠道入口", "用于展示 Facebook 社交媒体或营销渠道"],
+  "i18n": {
+    "en": {
+      "name": "facebook",
+      "tags": [
+        "facebook",
+        "social media",
+        "marketing channel",
+        "brand",
+        "multicolor",
+        "business icon"
+      ],
+      "use-cases": [
+        "Facebook channel entry",
+        "Display Facebook as a social media or marketing channel"
+      ]
+    }
+  },
+  "aliases": ["facebook"]
+}

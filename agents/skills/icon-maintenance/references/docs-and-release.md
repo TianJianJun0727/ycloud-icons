@@ -68,3 +68,59 @@ Before publishing or deploying, verify:
 4. docs deployment uses the intended package version
 
 Only trigger workflows, edit GitHub releases, publish packages, or deploy docs when the user explicitly authorizes that external mutation.
+
+## Stable release path
+
+When the user asks for a stable path that automatically bumps the package version, writes changelog, publishes npm packages, and deploys docs, use the existing workflow chain instead of adding a new workflow:
+
+```text
+ci.yml workflow_dispatch
+  -> creates release/vX.Y.Z branch
+  -> runs scripts/syncPackageVersions.mts
+  -> runs scripts/writeChangelog.mts
+  -> opens and auto-merges release PR
+  -> pushes tag vX.Y.Z on main
+  -> release.yml publishes npm and creates GitHub Release
+  -> release.yml triggers docs.yml with package_version=X.Y.Z
+```
+
+Trigger the full chain from `main`:
+
+```sh
+gh workflow run ci.yml --repo TianJianJun0727/ycloud-icons --ref main
+```
+
+Monitor the orchestration run first:
+
+```sh
+gh run list --repo TianJianJun0727/ycloud-icons --workflow ci.yml --limit 5
+gh run watch <ci-run-id> --repo TianJianJun0727/ycloud-icons --exit-status
+```
+
+After it succeeds, fetch tags and monitor the tag-triggered package release:
+
+```sh
+git fetch origin main --tags
+git tag --list 'v*' --sort=-version:refname | head
+gh run list --repo TianJianJun0727/ycloud-icons --workflow release.yml --limit 5
+gh run watch <release-run-id> --repo TianJianJun0727/ycloud-icons --exit-status
+```
+
+Then monitor the docs deployment triggered by `release.yml`:
+
+```sh
+gh run list --repo TianJianJun0727/ycloud-icons --workflow docs.yml --limit 5
+gh run watch <docs-run-id> --repo TianJianJun0727/ycloud-icons --exit-status
+```
+
+Use local scripts only to reproduce or repair the release preparation step:
+
+```sh
+node ./scripts/syncPackageVersions.mts <version>
+YCLOUD_AI_CHANGELOG=1 YCLOUD_AI_CHANGELOG_VERSION=<version> node ./scripts/writeChangelog.mts
+RELEASE_VERSION=<version> YCLOUD_CHANGELOG_RELEASE_NOTES_PATH=.release-notes.md node ./scripts/writeGitHubReleaseNotes.mjs
+```
+
+Do not create release tags from a local feature branch. The release tag must point to the merged release commit on `origin/main`, because `release.yml` rejects refs that are not in main history.
+
+Do not manually publish package subsets unless the full release workflow failed after a package was already published. In that recovery case, re-run `release.yml` with the same `version`, `tag`, and release tag `ref`; the workflow skips packages that already exist on npm.

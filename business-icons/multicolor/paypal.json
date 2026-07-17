@@ -1,0 +1,25 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "PayPal",
+  "tags": ["PayPal", "支付方式", "购买额度", "账单", "品牌", "多色", "业务图标"],
+  "use-cases": ["用于支付方式选择中的 PayPal 选项", "用于购买额度页面展示 PayPal 支付渠道"],
+  "i18n": {
+    "en": {
+      "name": "paypal",
+      "tags": [
+        "paypal",
+        "payment method",
+        "buy credits",
+        "billing",
+        "brand",
+        "multicolor",
+        "business icon"
+      ],
+      "use-cases": [
+        "PayPal option in payment method selectors",
+        "Display PayPal as a payment channel when buying credits"
+      ]
+    }
+  },
+  "aliases": ["paypal"]
+}

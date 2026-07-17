@@ -1,10 +1,8 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 32 32"
-  fill="var(--business-icon-primary-color)"
->
-  <path d="M32 14V13.9751C32 6.25497 25.7297 0 18 0V14H32Z" />
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path
-    d="M15.5 16.5258V2C7.4899 2 1 8.49421 1 16.5V16.5258C1.01292 24.523 7.49852 31 15.5 31C23.5015 31 29.9871 24.523 30 16.5258H15.5Z"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M22 11.0162V11.0323H12.9677V2C17.9547 2 22 6.03546 22 11.0162ZM11.3548 3.29032V12.6618H20.7097C20.7013 17.8213 16.5171 22 11.3548 22C6.19259 22 2.00834 17.8213 2 12.6618V12.6452C2 7.48013 6.18703 3.29032 11.3548 3.29032Z"
+    fill="var(--business-icon-primary-color)"
   />
 </svg>

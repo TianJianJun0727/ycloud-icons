@@ -1,0 +1,22 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "TikTok",
+  "tags": ["TikTok", "社交媒体", "短视频", "营销渠道", "品牌", "多色", "业务图标"],
+  "use-cases": ["用于 TikTok 渠道入口", "用于展示 TikTok 短视频或营销渠道"],
+  "i18n": {
+    "en": {
+      "name": "tiktok",
+      "tags": [
+        "tiktok",
+        "social media",
+        "short video",
+        "marketing channel",
+        "brand",
+        "multicolor",
+        "business icon"
+      ],
+      "use-cases": ["TikTok channel entry", "Display TikTok as a short-video or marketing channel"]
+    }
+  },
+  "aliases": ["tiktok"]
+}
