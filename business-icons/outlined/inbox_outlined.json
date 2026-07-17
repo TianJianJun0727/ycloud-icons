@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "收件箱",
+  "tags": ["Inbox", "左侧导航", "会话", "自动回复", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的 Inbox 模块入口", "用于 Inbox 消息头像中标识收件箱自动回复来源"],
+  "i18n": {
+    "en": {
+      "name": "inbox",
+      "tags": [
+        "inbox",
+        "sidebar navigation",
+        "conversation",
+        "automated reply",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for the Inbox module",
+        "Identify Inbox automated-reply sources in message avatars"
+      ]
+    }
+  },
+  "aliases": ["inbox"]
+}

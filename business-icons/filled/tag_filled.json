@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "标签",
+  "tags": ["标签", "Inbox", "Journey", "会话筛选", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox 会话和分析中的标签筛选与展示", "用于 Journey 流程中的添加标签节点"],
+  "i18n": {
+    "en": {
+      "name": "tag",
+      "tags": ["tag", "inbox", "journey", "conversation filter", "filled", "business icon"],
+      "use-cases": [
+        "Display and filter tags in Inbox conversations and analytics",
+        "Add-tag node in Journey flows"
+      ]
+    }
+  },
+  "aliases": ["tag"]
+}

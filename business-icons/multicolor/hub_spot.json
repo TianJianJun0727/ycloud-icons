@@ -1,0 +1,20 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "HubSpot",
+  "tags": ["HubSpot", "联系人同步", "Inbox", "集成", "多色", "品牌图标"],
+  "use-cases": [
+    "用于 Calling 联系人详情中标识 HubSpot 同步信息",
+    "用于 Inbox 消息头像中标识 HubSpot 自动化来源"
+  ],
+  "i18n": {
+    "en": {
+      "name": "hub spot",
+      "tags": ["hubspot", "contact sync", "inbox", "integration", "multicolor", "brand icon"],
+      "use-cases": [
+        "Identify HubSpot sync information in Calling contact details",
+        "Identify HubSpot automation sources in Inbox message avatars"
+      ]
+    }
+  },
+  "aliases": ["hub-spot"]
+}

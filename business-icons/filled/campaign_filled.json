@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "营销活动",
+  "tags": ["营销活动", "新手引导", "目标选择", "群发", "填充", "业务图标"],
+  "use-cases": ["用于新手引导中选择营销活动目标", "用于入门目标卡片展示营销群发方向"],
+  "i18n": {
+    "en": {
+      "name": "campaign",
+      "tags": ["campaign", "onboarding", "goal selection", "broadcast", "filled", "business icon"],
+      "use-cases": [
+        "Select the marketing campaign goal during onboarding",
+        "Show the campaign and broadcast goal in getting-started cards"
+      ]
+    }
+  },
+  "aliases": ["campaign"]
+}

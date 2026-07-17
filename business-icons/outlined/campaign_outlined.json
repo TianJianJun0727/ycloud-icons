@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "营销活动",
+  "tags": ["营销活动", "左侧导航", "Journey", "群发", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的营销和 Journey 模块入口", "导航到营销活动、群发和自动化旅程"],
+  "i18n": {
+    "en": {
+      "name": "campaign",
+      "tags": [
+        "campaign",
+        "sidebar navigation",
+        "journey",
+        "broadcast",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for Campaign and Journey features",
+        "Navigate to campaigns, broadcasts, and automated journeys"
+      ]
+    }
+  },
+  "aliases": ["campaign"]
+}

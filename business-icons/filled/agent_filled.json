@@ -1,0 +1,27 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "客服坐席",
+  "tags": ["客服坐席", "Inbox", "会话分配", "流程条件", "填充", "业务图标"],
+  "use-cases": [
+    "用于 Inbox 会话、坐席分析和 Calling 日志中的坐席标识",
+    "用于 Inbox Flow 的坐席归属条件和节点展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "agent",
+      "tags": [
+        "agent",
+        "inbox",
+        "conversation assignment",
+        "flow condition",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Identify agents in Inbox conversations, analytics, and Calling logs",
+        "Represent agent ownership conditions and nodes in Inbox Flow"
+      ]
+    }
+  },
+  "aliases": ["agent"]
+}

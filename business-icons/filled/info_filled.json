@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "信息",
+  "tags": ["信息", "提示", "说明", "帮助", "填充", "业务图标"],
+  "use-cases": ["信息提示入口或状态展示", "说明内容、帮助提示或补充信息场景"],
+  "i18n": {
+    "en": {
+      "name": "info",
+      "tags": ["info", "notice", "description", "help", "filled", "business icon"],
+      "use-cases": [
+        "Information entry or status display",
+        "Description, help tooltip, or supplemental information scenarios"
+      ]
+    }
+  },
+  "aliases": ["info_filled"]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "模板",
+  "tags": ["消息模板", "Journey", "发送消息", "流程节点", "填充", "业务图标"],
+  "use-cases": ["用于 Journey 流程中的发送模板消息节点", "标识通过模板发送 WhatsApp 消息的动作"],
+  "i18n": {
+    "en": {
+      "name": "template",
+      "tags": [
+        "message template",
+        "journey",
+        "send message",
+        "workflow node",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Send-template-message node in Journey flows",
+        "Represent sending WhatsApp messages through templates"
+      ]
+    }
+  },
+  "aliases": ["template"]
+}

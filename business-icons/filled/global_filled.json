@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "全球",
+  "tags": ["国家地区", "Inbox Flow", "SMS 集成", "全球覆盖", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox Flow 的国家或地区条件", "用于 SMS 集成上手页展示全球覆盖能力"],
+  "i18n": {
+    "en": {
+      "name": "global",
+      "tags": [
+        "country and region",
+        "inbox flow",
+        "sms integration",
+        "global coverage",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Country or region condition in Inbox Flow",
+        "Show global coverage on SMS integration onboarding"
+      ]
+    }
+  },
+  "aliases": ["global"]
+}

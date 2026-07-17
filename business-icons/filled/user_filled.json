@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "用户",
+  "tags": ["联系人", "新增联系人", "单个添加", "用户", "填充", "业务图标"],
+  "use-cases": ["用于新增联系人弹窗的单个联系人入口", "标识手动创建一位联系人的操作"],
+  "i18n": {
+    "en": {
+      "name": "user",
+      "tags": ["contact", "add contact", "single entry", "user", "filled", "business icon"],
+      "use-cases": [
+        "Single-contact entry in the add-contact dialog",
+        "Identify the action to manually create one contact"
+      ]
+    }
+  },
+  "aliases": ["user"]
+}

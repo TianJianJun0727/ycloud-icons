@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "qmai事件",
+  "tags": ["企迈事件", "Journey", "电商事件", "触发条件", "填充", "业务图标"],
+  "use-cases": ["用于 Journey 事件筛选中标识企迈事件", "用于企迈事件规则和触发条件展示"],
+  "i18n": {
+    "en": {
+      "name": "qmai event",
+      "tags": [
+        "qmai event",
+        "journey",
+        "commerce event",
+        "trigger condition",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Identify Qmai events in Journey event filters",
+        "Display Qmai event rules and trigger conditions"
+      ]
+    }
+  },
+  "aliases": ["qmai-event", "qmai-event_filled"]
+}

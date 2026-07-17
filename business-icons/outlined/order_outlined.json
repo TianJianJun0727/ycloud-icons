@@ -1,0 +1,14 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "订单",
+  "tags": ["订单", "交易", "购买", "履约", "描边", "业务图标"],
+  "use-cases": ["订单菜单入口", "订单列表、交易详情或履约处理页面"],
+  "i18n": {
+    "en": {
+      "name": "order",
+      "tags": ["order", "transaction", "purchase", "fulfillment", "outlined", "business icon"],
+      "use-cases": ["Order menu entry", "Order list, transaction detail, or fulfillment pages"]
+    }
+  },
+  "aliases": ["order"]
+}

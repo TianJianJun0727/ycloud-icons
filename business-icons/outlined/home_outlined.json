@@ -1,0 +1,14 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "首页",
+  "tags": ["首页", "主页", "概览", "仪表盘", "描边", "业务图标"],
+  "use-cases": ["首页菜单入口", "工作台、概览或仪表盘页面"],
+  "i18n": {
+    "en": {
+      "name": "home",
+      "tags": ["home", "overview", "dashboard", "workspace", "outlined", "business icon"],
+      "use-cases": ["Home menu entry", "Workspace, overview, or dashboard pages"]
+    }
+  },
+  "aliases": ["home"]
+}

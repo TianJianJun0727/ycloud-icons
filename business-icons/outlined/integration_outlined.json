@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "集成",
+  "tags": ["集成", "左侧导航", "组件", "应用连接", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的 Integrations 和 Components 入口", "导航到第三方应用连接和组件管理"],
+  "i18n": {
+    "en": {
+      "name": "integration",
+      "tags": [
+        "integration",
+        "sidebar navigation",
+        "components",
+        "app connection",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for Integrations and Components",
+        "Navigate to third-party app connections and component management"
+      ]
+    }
+  },
+  "aliases": ["integration"]
+}

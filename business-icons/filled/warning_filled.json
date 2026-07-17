@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "警告",
+  "tags": ["警告", "风险", "提醒", "异常", "填充", "业务图标"],
+  "use-cases": ["警告状态提示或风险提醒", "异常反馈、风险确认或重要提醒场景"],
+  "i18n": {
+    "en": {
+      "name": "warning",
+      "tags": ["warning", "risk", "alert", "exception", "filled", "business icon"],
+      "use-cases": [
+        "Warning status feedback or risk alert",
+        "Exception feedback, risk confirmation, or important reminder scenarios"
+      ]
+    }
+  },
+  "aliases": ["warning_filled"]
+}

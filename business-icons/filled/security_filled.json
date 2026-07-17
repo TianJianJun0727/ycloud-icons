@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "安全",
+  "tags": ["安全", "号码验证", "风险控制", "功能卖点", "填充", "业务图标"],
+  "use-cases": ["用于号码验证集成上手页展示安全能力", "说明号码验证服务的风险控制价值"],
+  "i18n": {
+    "en": {
+      "name": "security",
+      "tags": [
+        "security",
+        "number verification",
+        "risk control",
+        "feature benefit",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show security capabilities on number verification onboarding",
+        "Explain the risk-control value of number verification"
+      ]
+    }
+  },
+  "aliases": ["security"]
+}

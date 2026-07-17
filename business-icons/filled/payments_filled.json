@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "支付",
+  "tags": ["支付能力", "集成", "费用", "功能卖点", "填充", "业务图标"],
+  "use-cases": ["用于 Email、SMS 和号码验证上手页展示支付能力", "说明集成服务的支付和费用相关功能"],
+  "i18n": {
+    "en": {
+      "name": "payments",
+      "tags": ["payments", "integration", "cost", "feature benefit", "filled", "business icon"],
+      "use-cases": [
+        "Show payment capabilities on Email, SMS, and number verification onboarding",
+        "Explain payment and cost-related integration features"
+      ]
+    }
+  },
+  "aliases": ["payments"]
+}

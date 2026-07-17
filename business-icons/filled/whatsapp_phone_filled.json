@@ -1,0 +1,27 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "WhatsApp电话",
+  "tags": ["WhatsApp 号码", "Inbox 分析", "会话筛选", "集成", "填充", "业务图标"],
+  "use-cases": [
+    "用于 Inbox 分析、会话列表和 Calling 日志中的号码维度",
+    "用于号码筛选和 MM Lite API 账户展示"
+  ],
+  "i18n": {
+    "en": {
+      "name": "whatsapp phone",
+      "tags": [
+        "whatsapp phone",
+        "inbox analytics",
+        "conversation filter",
+        "integration",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Represent phone-number dimensions in Inbox analytics, conversations, and Calling logs",
+        "Display phone filters and MM Lite API accounts"
+      ]
+    }
+  },
+  "aliases": ["whatsapp-phone", "whatsapp-phone_filled"]
+}

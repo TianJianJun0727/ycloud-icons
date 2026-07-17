@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "确认",
+  "tags": ["确认", "成功", "完成", "勾选", "填充", "业务图标"],
+  "use-cases": ["确认操作入口或成功状态提示", "任务完成、校验通过或选中状态场景"],
+  "i18n": {
+    "en": {
+      "name": "check",
+      "tags": ["check", "success", "complete", "selected", "filled", "business icon"],
+      "use-cases": [
+        "Confirm action entry or success status feedback",
+        "Task completion, validation passed, or selected state scenarios"
+      ]
+    }
+  },
+  "aliases": ["check_filled"]
+}

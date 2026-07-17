@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "benefit安全",
+  "tags": ["安全保障", "号码验证", "集成卖点", "风险控制", "填充", "业务图标"],
+  "use-cases": ["用于号码验证集成上手页展示安全收益", "说明号码验证对风险控制的帮助"],
+  "i18n": {
+    "en": {
+      "name": "benefit security",
+      "tags": [
+        "security benefit",
+        "number verification",
+        "integration benefit",
+        "risk control",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show security benefits on number verification onboarding",
+        "Explain how number verification supports risk control"
+      ]
+    }
+  },
+  "aliases": ["benefit-security", "benefit-security_filled"]
+}
