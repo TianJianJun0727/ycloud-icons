@@ -1,0 +1,4 @@
+interface:
+  display_name: 'YCloud 图标维护'
+  short_description: '维护 YCloud 图标资源、元数据、构建、文档与发布链路'
+  default_prompt: '使用 $ycloud-icons-maintenance 完成当前 YCloud 图标仓库维护任务并验证结果。'
