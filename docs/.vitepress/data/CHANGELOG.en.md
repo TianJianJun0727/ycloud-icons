@@ -2,6 +2,10 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.4 - 2026-07-17
+
+- feat(icons): align asset workflows and generated packages (#98)
+
 ## v0.2.3 - 2026-07-13
 
 - Improved the release, npm publishing, and documentation deployment flow, including manual full icon release dispatch and more stable GitHub App token and auto-merge handling.
