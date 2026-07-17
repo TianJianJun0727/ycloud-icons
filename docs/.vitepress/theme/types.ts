@@ -25,6 +25,7 @@ export interface IconEntity extends IconMetaData {
   displayTags?: string[];
   displayUseCases?: string[];
   displayCategories?: string[];
+  chineseName?: string;
   englishName?: string;
   englishTags?: string[];
   englishUseCases?: string[];

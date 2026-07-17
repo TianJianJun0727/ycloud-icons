@@ -8,6 +8,7 @@ export default {
           ,
           {
             name,
+            displayName: chineseName,
             englishName,
             tags,
             englishTags,
@@ -21,6 +22,8 @@ export default {
         ]) => ({
           name,
           displayName: englishName,
+          chineseName,
+          englishName,
           tags,
           displayTags: englishTags,
           categories,
