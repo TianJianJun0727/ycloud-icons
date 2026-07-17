@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "客服坐席引导",
+  "tags": ["人工接管", "客服坐席", "Inbox Flow", "流程节点", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox Flow 中的人工坐席接管节点", "标识自动化流程转交给客服处理"],
+  "i18n": {
+    "en": {
+      "name": "agent guide",
+      "tags": ["agent takeover", "agent", "inbox flow", "workflow node", "filled", "business icon"],
+      "use-cases": [
+        "Agent takeover node in Inbox Flow",
+        "Indicate handoff from automation to a support agent"
+      ]
+    }
+  },
+  "aliases": ["agent-guide", "agent-guide_filled"]
+}

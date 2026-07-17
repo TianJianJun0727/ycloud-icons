@@ -107,8 +107,8 @@ async function writeJsonFileAtomic(file: string, value: unknown) {
 }
 
 const BUSINESS_ICON_LABEL_BY_COLOR_MODE: Record<string, { zh: string; en: string }> = {
-  mono: { zh: '单色业务图标', en: 'mono business icon' },
-  duotone: { zh: '双色业务图标', en: 'duotone business icon' },
+  outlined: { zh: '描边业务图标', en: 'outlined business icon' },
+  filled: { zh: '填充业务图标', en: 'filled business icon' },
   multicolor: { zh: '多色业务图标', en: 'multicolor business icon' },
 };
 
@@ -357,7 +357,7 @@ export function createAssetMetadata({
 
   const englishName = toEnglishName(name);
   const chineseName = toChineseName(name);
-  const colorModeLabel = BUSINESS_ICON_LABEL_BY_COLOR_MODE[colorMode ?? 'mono'] ?? {
+  const colorModeLabel = BUSINESS_ICON_LABEL_BY_COLOR_MODE[colorMode ?? 'outlined'] ?? {
     zh: '业务图标',
     en: 'business icon',
   };

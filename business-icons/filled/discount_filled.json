@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "discount",
+  "tags": ["限时优惠", "消息模板", "折扣", "营销", "填充", "业务图标"],
+  "use-cases": ["用于消息模板中的限时优惠内容展示", "标识营销模板里的折扣和优惠信息"],
+  "i18n": {
+    "en": {
+      "name": "discount",
+      "tags": [
+        "limited-time offer",
+        "message template",
+        "discount",
+        "marketing",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Display limited-time offers in message templates",
+        "Identify discount and promotion content in marketing templates"
+      ]
+    }
+  },
+  "aliases": ["discount"]
+}

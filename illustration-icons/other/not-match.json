@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "不匹配",
+  "tags": ["不匹配", "异常", "状态", "规则"],
+  "use-cases": ["规则、条件或数据不匹配", "匹配失败状态展示"],
+  "i18n": {
+    "en": {
+      "name": "Not Match",
+      "tags": ["not match", "mismatch", "status", "rule"],
+      "use-cases": ["Rule, condition, or data mismatch", "Match failure state display"]
+    }
+  }
+}

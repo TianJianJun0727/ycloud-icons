@@ -22,12 +22,12 @@ describe('generateBusinessIconsPackage', () => {
 
   it('generates an icon definition module with parsed SVG nodes', () => {
     const svg = '<svg viewBox="0 0 16 16"><path fill="#25D366" d="M0 0h16v16H0z"/></svg>';
-    const moduleSource = buildBusinessIconModule('whatsapp-business', svg, 'duotone');
+    const moduleSource = buildBusinessIconModule('whatsapp-business', svg, 'filled');
 
     expect(moduleSource).toContain('export const whatsappBusinessIcon = {');
     expect(moduleSource).toContain('"viewBox":"0 0 16 16"');
     expect(moduleSource).toContain('"fill":"#25D366"');
-    expect(moduleSource).toContain("colorMode: 'duotone'");
+    expect(moduleSource).toContain("colorMode: 'filled'");
   });
 
   it('generates an index that exports names, definitions, and icon modules', () => {
@@ -42,10 +42,10 @@ describe('generateBusinessIconsPackage', () => {
     expect(indexSource).toContain("'whatsapp-business': whatsappBusinessIcon");
   });
 
-  it('generates React inline components that require two colors for duotone business icons', () => {
+  it('generates React inline components that require two colors for filled business icons', () => {
     const moduleSource = buildBusinessReactIconModule(
       'whatsapp-business',
-      'duotone',
+      'filled',
       '<svg fill="var(--business-icon-primary-color)" viewBox="0 0 16 16"><path d="M0 0h16v16H0z"/><path fill="var(--business-icon-secondary-color)" d="M4 4h8v8H4z"/></svg>',
     );
 
@@ -59,10 +59,10 @@ describe('generateBusinessIconsPackage', () => {
     expect(moduleSource).not.toContain('--business-icon-secondary-color');
   });
 
-  it('generates React inline components for mono business icons', () => {
+  it('generates React inline components for outlined business icons', () => {
     const moduleSource = buildBusinessReactIconModule(
       'contact',
-      'mono',
+      'outlined',
       '<svg fill="currentColor" viewBox="0 0 16 16"><path d="M0 0h16v16H0z"/></svg>',
     );
 
@@ -101,8 +101,8 @@ describe('generateBusinessIconsPackage', () => {
 
   it('generates inline SVG components in non-React component packages', () => {
     const svg = '<svg fill="currentColor" viewBox="0 0 16 16"><path d="M0 0h16v16H0z"/></svg>';
-    const solidSource = buildBusinessSolidIconModule('whatsapp-business', svg, 'mono');
-    const svelteSource = buildBusinessSvelteIconModule('whatsapp-business', svg, 'mono');
+    const solidSource = buildBusinessSolidIconModule('whatsapp-business', svg, 'outlined');
+    const svelteSource = buildBusinessSvelteIconModule('whatsapp-business', svg, 'outlined');
 
     expect(solidSource).toContain('<svg');
     expect(solidSource).toContain('fill="currentColor"');
@@ -116,10 +116,10 @@ describe('generateBusinessIconsPackage', () => {
     expect(svelteSource).not.toContain('@ycloud-web/icons/business');
   });
 
-  it('lets mono and duotone React business icons override stroke width explicitly', () => {
+  it('lets outlined and filled React business icons override stroke width explicitly', () => {
     const moduleSource = buildBusinessReactIconModule(
       'stroke-icon',
-      'mono',
+      'outlined',
       '<svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 16 16"><path stroke-width="3" d="M0 0h16v16"/></svg>',
     );
 
@@ -129,7 +129,7 @@ describe('generateBusinessIconsPackage', () => {
 
     const moduleWithoutRootStrokeWidth = buildBusinessReactIconModule(
       'stroke-icon',
-      'mono',
+      'outlined',
       '<svg fill="none" stroke="currentColor" viewBox="0 0 16 16"><path d="M0 0h16v16"/></svg>',
     );
 
@@ -156,10 +156,10 @@ describe('generateBusinessIconsPackage', () => {
     const svg =
       '<svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 16 16"><path stroke-width="3" d="M0 0h16v16"/></svg>';
 
-    const preactSource = buildBusinessPreactIconModule('stroke-icon', svg, 'mono');
-    const vueSource = buildBusinessVueIconModule('stroke-icon', svg, 'mono');
-    const solidSource = buildBusinessSolidIconModule('stroke-icon', svg, 'mono');
-    const svelteSource = buildBusinessSvelteIconModule('stroke-icon', svg, 'mono');
+    const preactSource = buildBusinessPreactIconModule('stroke-icon', svg, 'outlined');
+    const vueSource = buildBusinessVueIconModule('stroke-icon', svg, 'outlined');
+    const solidSource = buildBusinessSolidIconModule('stroke-icon', svg, 'outlined');
+    const svelteSource = buildBusinessSvelteIconModule('stroke-icon', svg, 'outlined');
 
     expect(preactSource).toContain('"stroke-width": strokeWidth ?? "1.5"');
     expect(preactSource).toContain('"stroke-width": strokeWidth ?? "3"');

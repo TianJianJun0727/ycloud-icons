@@ -2,15 +2,501 @@
   "assets": [
     {
       "type": "business-icon",
+      "name": "acquire-more-leads",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/acquire-more-leads.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "add-nick",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/add-nick.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "add-tags",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/add-tags.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "advertising-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/advertising-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "advertising-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/advertising-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "agent",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/agent.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "agent-guide-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/agent-guide-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "agent-permission-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/agent-permission-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "agent-with-time",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/agent-with-time.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "alipay",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/alipay.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "analytics-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/analytics-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "api-docs",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/api-docs.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "ask-question",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/ask-question.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "assign",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/assign.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "authentication-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/authentication-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "balance",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/balance.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-analytics",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-analytics.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-global",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-global.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-languages",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-languages.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-payments",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-payments.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-restriction",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-restriction.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-security",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-security.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-sender",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-sender.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-simple",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-simple.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-smile",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-smile.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-statistical",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-statistical.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit-template",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/benefit-template.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "billing",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/billing.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "billing-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/billing-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "block",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/block.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "blog",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/blog.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "bot-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/bot-outlined.svg"
+    },
+    {
+      "type": "business-icon",
       "name": "botfilled",
-      "colorMode": "duotone",
-      "path": "business-icons/duotone/botfilled.svg"
+      "colorMode": "filled",
+      "path": "business-icons/filled/botfilled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "branch",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/branch.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "business-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/business-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "call-api",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/call-api.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "call-in",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/call-in.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "call-out",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/call-out.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "calling-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/calling-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "calling-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/calling-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "campaign-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/campaign-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "campaign-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/campaign-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "canned-response-check",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/canned-response-check.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "category-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/category-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "chat-loading-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/chat-loading-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "check",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/check.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "check-cancel-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/check-cancel-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "circular-right-arrow",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/circular-right-arrow.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "clock-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/clock-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "code-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/code-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "code-mark",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/code-mark.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "code-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/code-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "code-text",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/code-text.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "coding-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/coding-filled.svg"
     },
     {
       "type": "business-icon",
       "name": "coming-soon",
-      "colorMode": "duotone",
-      "path": "business-icons/duotone/coming-soon.svg"
+      "colorMode": "filled",
+      "path": "business-icons/filled/coming-soon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "company",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/company.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "compass-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/compass-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "composite-trigger-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/composite-trigger-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "contact-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/contact-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "contact-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/contact-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "conversation-unsubscribe",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/conversation-unsubscribe.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "coupon-code",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/coupon-code.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "coupon-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/coupon-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "create-tickets-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/create-tickets-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "credit-card-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/credit-card-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "ctwa-system-keyword-event",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/ctwa-system-keyword-event.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "date-time",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/date-time.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "delivered-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/delivered-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "direction-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/direction-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "discount",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/discount.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "doc-csv-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/doc-csv-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "document-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/document-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "double-check",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/double-check.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "edit-title",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/edit-title.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "exchange",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/exchange.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "expand-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/expand-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "export-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/export-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "file-attach",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/file-attach.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "filter-event",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/filter-event.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "flow",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/flow.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "gift",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/gift.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "global",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/global.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "handle",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/handle.svg"
     },
     {
       "type": "business-icon",
@@ -20,21 +506,513 @@
     },
     {
       "type": "business-icon",
+      "name": "journey-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/journey-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "journey-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/journey-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "language",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/language.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "lightning-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/lightning-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "line-simple",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/line-simple.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "link",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/link.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "link-action",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/link-action.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "link-circle-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/link-circle-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "location",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/location.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "logout",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/logout.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "map-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/map-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "menu-open",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/menu-open.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "message-bubble-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/message-bubble-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "message-bubble-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/message-bubble-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "message-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/message-filled.svg"
+    },
+    {
+      "type": "business-icon",
       "name": "meta-filled",
-      "colorMode": "duotone",
-      "path": "business-icons/duotone/meta-filled.svg"
+      "colorMode": "filled",
+      "path": "business-icons/filled/meta-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "migrate-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/migrate-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "mobile-phone",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/mobile-phone.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-horiz",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-horiz.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-price",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-price.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-restriction",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-restriction.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-sender",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-sender.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-sender-name",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-sender-name.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "more-vert",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/more-vert.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "mouse-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/mouse-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "music",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/music.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "new-tag-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/new-tag-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "note-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/note-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "online-chat-outline",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/online-chat-outline.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "order-event-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/order-event-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "order-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/order-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "partners-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/partners-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "payments-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/payments-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "play-circle-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/play-circle-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "progressomg",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/progressomg.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "push-pin-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/push-pin-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "push-pin-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/push-pin-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "qmai-event",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/qmai-event.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "qr-code",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/qr-code.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "record-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/record-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "redo",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/redo.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "route",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/route.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "sand-clock",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/sand-clock.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "scroll-to-bottom",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/scroll-to-bottom.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "security-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/security-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "segment",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/segment.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "send-message",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/send-message.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "send-message-mark",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/send-message-mark.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "setting-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/setting-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "setting-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/setting-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "share",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/share.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "shop-assistant",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/shop-assistant.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "shop-check-bag-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/shop-check-bag-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "shop-menu-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/shop-menu-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "shop-menu-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/shop-menu-outlined.svg"
     },
     {
       "type": "business-icon",
       "name": "shopify",
-      "colorMode": "duotone",
-      "path": "business-icons/duotone/shopify.svg"
+      "colorMode": "filled",
+      "path": "business-icons/filled/shopify.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "show-side-bar",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/show-side-bar.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "side-bar",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/side-bar.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "star",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/star.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "start-arrow",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/start-arrow.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "status-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/status-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "sync",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/sync.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "table-setting",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/table-setting.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "tag",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/tag.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "task-complete",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/task-complete.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "task-menu-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/task-menu-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "team",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/team.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "template-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/template-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "time-clock",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/time-clock.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "title-edit-icon",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/title-edit-icon.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "tool-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/tool-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "trigger",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/trigger.svg"
     },
     {
       "type": "business-icon",
       "name": "trophy",
       "colorMode": "multicolor",
       "path": "business-icons/multicolor/trophy.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "undo",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/undo.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "unsubscribe",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/unsubscribe.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "upgrade-diamond-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/upgrade-diamond-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "upload-file",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/upload-file.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "user-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/user-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "wechat-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/wechat-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp-business-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/whatsapp-business-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp-notch-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/whatsapp-notch-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp-phone-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/whatsapp-phone-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp-phone-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/whatsapp-phone-outlined.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "widgets-filled",
+      "colorMode": "filled",
+      "path": "business-icons/filled/widgets-filled.svg"
+    },
+    {
+      "type": "business-icon",
+      "name": "widgets-outlined",
+      "colorMode": "outlined",
+      "path": "business-icons/outlined/widgets-outlined.svg"
     },
     {
       "type": "icon",
@@ -10014,252 +10992,242 @@
     {
       "type": "illustration",
       "name": "account-unbound",
-      "path": "illustration-icons/account-unbound.svg"
+      "path": "illustration-icons/other/account-unbound.svg"
     },
     {
       "type": "illustration",
       "name": "close-logo",
-      "path": "illustration-icons/close-logo.svg"
-    },
-    {
-      "type": "illustration",
-      "name": "code-coupon",
-      "path": "illustration-icons/code-coupon.svg"
-    },
-    {
-      "type": "illustration",
-      "name": "custom-icon",
-      "path": "illustration-icons/custom-icon.svg"
+      "path": "illustration-icons/logo/close-logo.svg"
     },
     {
       "type": "illustration",
       "name": "customer-support",
-      "path": "illustration-icons/customer-support.svg"
+      "path": "illustration-icons/other/customer-support.svg"
     },
     {
       "type": "illustration",
       "name": "data-importing",
-      "path": "illustration-icons/data-importing.svg"
+      "path": "illustration-icons/other/data-importing.svg"
     },
     {
       "type": "illustration",
       "name": "developer-integration",
-      "path": "illustration-icons/developer-integration.svg"
+      "path": "illustration-icons/integration/developer-integration.svg"
     },
     {
       "type": "illustration",
       "name": "email",
-      "path": "illustration-icons/email.svg"
+      "path": "illustration-icons/other/email.svg"
     },
     {
       "type": "illustration",
       "name": "empty-ai",
-      "path": "illustration-icons/empty-ai.svg"
+      "path": "illustration-icons/other/empty-ai.svg"
     },
     {
       "type": "illustration",
       "name": "empty-list",
-      "path": "illustration-icons/empty-list.svg"
+      "path": "illustration-icons/other/empty-list.svg"
     },
     {
       "type": "illustration",
       "name": "empty-orders",
-      "path": "illustration-icons/empty-orders.svg"
+      "path": "illustration-icons/other/empty-orders.svg"
     },
     {
       "type": "illustration",
       "name": "empty-page",
-      "path": "illustration-icons/empty-page.svg"
+      "path": "illustration-icons/other/empty-page.svg"
     },
     {
       "type": "illustration",
       "name": "empty-search",
-      "path": "illustration-icons/empty-search.svg"
+      "path": "illustration-icons/other/empty-search.svg"
     },
     {
       "type": "illustration",
       "name": "expand-logo",
-      "path": "illustration-icons/expand-logo.svg"
+      "path": "illustration-icons/logo/expand-logo.svg"
     },
     {
       "type": "illustration",
       "name": "has-expired",
-      "path": "illustration-icons/has-expired.svg"
+      "path": "illustration-icons/other/has-expired.svg"
     },
     {
       "type": "illustration",
       "name": "integration-coupons",
-      "path": "illustration-icons/integration-coupons.svg"
+      "path": "illustration-icons/integration/integration-coupons.svg"
     },
     {
       "type": "illustration",
       "name": "integration-data-connectors",
-      "path": "illustration-icons/integration-data-connectors.svg"
+      "path": "illustration-icons/integration/integration-data-connectors.svg"
     },
     {
       "type": "illustration",
       "name": "integration-email",
-      "path": "illustration-icons/integration-email.svg"
+      "path": "illustration-icons/integration/integration-email.svg"
     },
     {
       "type": "illustration",
       "name": "integration-hubspot",
-      "path": "illustration-icons/integration-hubspot.svg"
+      "path": "illustration-icons/integration/integration-hubspot.svg"
     },
     {
       "type": "illustration",
       "name": "integration-mixdesk",
-      "path": "illustration-icons/integration-mixdesk.svg"
+      "path": "illustration-icons/integration/integration-mixdesk.svg"
     },
     {
       "type": "illustration",
       "name": "integration-qmail",
-      "path": "illustration-icons/integration-qmail.svg"
+      "path": "illustration-icons/integration/integration-qmail.svg"
     },
     {
       "type": "illustration",
       "name": "integration-reshdesk",
-      "path": "illustration-icons/integration-reshdesk.svg"
+      "path": "illustration-icons/integration/integration-reshdesk.svg"
     },
     {
       "type": "illustration",
       "name": "integration-sale-smartly",
-      "path": "illustration-icons/integration-sale-smartly.svg"
+      "path": "illustration-icons/integration/integration-sale-smartly.svg"
     },
     {
       "type": "illustration",
       "name": "integration-shopify",
-      "path": "illustration-icons/integration-shopify.svg"
+      "path": "illustration-icons/integration/integration-shopify.svg"
     },
     {
       "type": "illustration",
       "name": "integration-sms",
-      "path": "illustration-icons/integration-sms.svg"
+      "path": "illustration-icons/integration/integration-sms.svg"
     },
     {
       "type": "illustration",
       "name": "integration-verify",
-      "path": "illustration-icons/integration-verify.svg"
+      "path": "illustration-icons/integration/integration-verify.svg"
     },
     {
       "type": "illustration",
       "name": "integration-voice-code",
-      "path": "illustration-icons/integration-voice-code.svg"
+      "path": "illustration-icons/integration/integration-voice-code.svg"
     },
     {
       "type": "illustration",
       "name": "integration-whatsapp-mm-lite",
-      "path": "illustration-icons/integration-whatsapp-mm-lite.svg"
+      "path": "illustration-icons/integration/integration-whatsapp-mm-lite.svg"
     },
     {
       "type": "illustration",
       "name": "integration-zapier",
-      "path": "illustration-icons/integration-zapier.svg"
+      "path": "illustration-icons/integration/integration-zapier.svg"
     },
     {
       "type": "illustration",
       "name": "lead-generation",
-      "path": "illustration-icons/lead-generation.svg"
+      "path": "illustration-icons/other/lead-generation.svg"
     },
     {
       "type": "illustration",
       "name": "load-failed",
-      "path": "illustration-icons/load-failed.svg"
+      "path": "illustration-icons/other/load-failed.svg"
     },
     {
       "type": "illustration",
       "name": "marketing-automation",
-      "path": "illustration-icons/marketing-automation.svg"
+      "path": "illustration-icons/other/marketing-automation.svg"
     },
     {
       "type": "illustration",
       "name": "network-disconnected",
-      "path": "illustration-icons/network-disconnected.svg"
+      "path": "illustration-icons/other/network-disconnected.svg"
     },
     {
       "type": "illustration",
       "name": "no-permission",
-      "path": "illustration-icons/no-permission.svg"
+      "path": "illustration-icons/other/no-permission.svg"
     },
     {
       "type": "illustration",
       "name": "not-found",
-      "path": "illustration-icons/not-found.svg"
+      "path": "illustration-icons/other/not-found.svg"
     },
     {
       "type": "illustration",
       "name": "not-match",
-      "path": "illustration-icons/not-match.svg"
+      "path": "illustration-icons/other/not-match.svg"
     },
     {
       "type": "illustration",
       "name": "payment-method-disabled",
-      "path": "illustration-icons/payment-method-disabled.svg"
+      "path": "illustration-icons/other/payment-method-disabled.svg"
     },
     {
       "type": "illustration",
       "name": "register-phone",
-      "path": "illustration-icons/register-phone.svg"
+      "path": "illustration-icons/other/register-phone.svg"
     },
     {
       "type": "illustration",
       "name": "template-calling-request",
-      "path": "illustration-icons/template-calling-request.svg"
+      "path": "illustration-icons/template/template-calling-request.svg"
     },
     {
       "type": "illustration",
       "name": "template-insights-authorization",
-      "path": "illustration-icons/template-insights-authorization.svg"
+      "path": "illustration-icons/template/template-insights-authorization.svg"
     },
     {
       "type": "illustration",
       "name": "template-limited-time-offer",
-      "path": "illustration-icons/template-limited-time-offer.svg"
+      "path": "illustration-icons/template/template-limited-time-offer.svg"
     },
     {
       "type": "illustration",
       "name": "template-media-card-carousel",
-      "path": "illustration-icons/template-media-card-carousel.svg"
+      "path": "illustration-icons/template/template-media-card-carousel.svg"
     },
     {
       "type": "illustration",
       "name": "template-single-product-checkout",
-      "path": "illustration-icons/template-single-product-checkout.svg"
+      "path": "illustration-icons/template/template-single-product-checkout.svg"
     },
     {
       "type": "illustration",
       "name": "template-whatsapp-order-details",
-      "path": "illustration-icons/template-whatsapp-order-details.svg"
+      "path": "illustration-icons/template/template-whatsapp-order-details.svg"
     },
     {
       "type": "illustration",
       "name": "template-whatsapp-order-status",
-      "path": "illustration-icons/template-whatsapp-order-status.svg"
+      "path": "illustration-icons/template/template-whatsapp-order-status.svg"
     },
     {
       "type": "illustration",
       "name": "version-enterprise",
-      "path": "illustration-icons/version-enterprise.svg"
+      "path": "illustration-icons/version/version-enterprise.svg"
     },
     {
       "type": "illustration",
       "name": "version-free",
-      "path": "illustration-icons/version-free.svg"
+      "path": "illustration-icons/version/version-free.svg"
     },
     {
       "type": "illustration",
       "name": "version-growth",
-      "path": "illustration-icons/version-growth.svg"
+      "path": "illustration-icons/version/version-growth.svg"
     },
     {
       "type": "illustration",
       "name": "version-pro",
-      "path": "illustration-icons/version-pro.svg"
+      "path": "illustration-icons/version/version-pro.svg"
     },
     {
       "type": "illustration",
       "name": "waiting-status",
-      "path": "illustration-icons/waiting-status.svg"
+      "path": "illustration-icons/other/waiting-status.svg"
     }
   ]
 }

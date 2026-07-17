@@ -8,7 +8,7 @@ const props = defineProps<{
   supportsStrokeWidth?: boolean;
 }>();
 
-const supportsStrokeWidth = computed(() => props.supportsStrokeWidth === true);
+const supportsStrokeWidth = computed(() => props.supportsStrokeWidth !== false);
 </script>
 
 <template>

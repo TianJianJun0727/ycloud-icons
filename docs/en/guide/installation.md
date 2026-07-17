@@ -11,7 +11,7 @@ These packages cover three asset families:
 
 - Generic icons: default entries and `icons/*` subpaths for 24x24 linear icons.
 - Business icons: `business` subpath entries, `business-icons/*` static paths, and a separate business icon font for product- or business-specific artwork.
-- Illustrations: `illustration` subpath entries and `illustration-icons/*` static paths for artwork that keeps its original colors and aspect ratio.
+- Illustrations: `illustration` subpath entries and `illustration-icons/<category>/*` static paths for artwork that keeps its original colors and aspect ratio.
 
 Business icons and illustrations are not mixed into the generic default entries. See [Business icons](./business-icons.md) for the business source and validation rules, see [Illustrations](./illustration-icons.md) for illustration rules, and browse the [Illustrations](/en/illustration-icons/) gallery.
 

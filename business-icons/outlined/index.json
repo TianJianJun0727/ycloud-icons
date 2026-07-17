@@ -1,0 +1,10 @@
+{
+  "$schema": "../../category.schema.json",
+  "title": "描边",
+  "weight": 10,
+  "i18n": {
+    "en": {
+      "title": "Outlined"
+    }
+  }
+}

@@ -9,9 +9,9 @@ import { parseSync, stringify, type INode } from 'svgson';
 
 function getBusinessIconColorMode(filePath: string) {
   const segments = filePath.split(/[\\/]/);
-  if (segments.includes('duotone')) return 'duotone';
+  if (segments.includes('filled')) return 'filled';
   if (segments.includes('multicolor')) return 'multicolor';
-  return 'mono';
+  return 'outlined';
 }
 
 function collectReferencedIds(svg: string) {
@@ -34,7 +34,7 @@ function removeUnsafeNodes(node: INode) {
   });
 }
 
-type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+type BusinessIconColorMode = 'outlined' | 'filled' | 'multicolor';
 
 function normalizeColorValue(value: string, colorMode: BusinessIconColorMode) {
   if (value === 'none' || value.startsWith('var(')) {
@@ -45,7 +45,7 @@ function normalizeColorValue(value: string, colorMode: BusinessIconColorMode) {
     return value;
   }
 
-  if (colorMode === 'mono') {
+  if (colorMode === 'outlined') {
     return 'currentColor';
   }
 
@@ -117,9 +117,9 @@ function cleanBusinessSvg(svg: string, filePath: string) {
   removeUnsafeNodes(root);
   cleanAttributes(root, referencedIds, colorMode);
   if (root.name.toLowerCase() === 'svg' && !root.attributes.fill) {
-    if (colorMode === 'mono') {
+    if (colorMode === 'outlined') {
       root.attributes.fill = 'currentColor';
-    } else if (colorMode === 'duotone') {
+    } else if (colorMode === 'filled') {
       root.attributes.fill = 'var(--business-icon-primary-color)';
     }
   }

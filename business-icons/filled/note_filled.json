@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "备注",
+  "tags": ["说明信息", "集成", "使用指南", "功能卖点", "填充", "业务图标"],
+  "use-cases": ["用于 Email 和号码验证上手页展示说明性能力", "标识集成功能介绍和注意事项"],
+  "i18n": {
+    "en": {
+      "name": "note",
+      "tags": [
+        "note",
+        "integration",
+        "getting started",
+        "feature benefit",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show explanatory benefits on Email and number verification onboarding",
+        "Identify integration feature descriptions and notes"
+      ]
+    }
+  },
+  "aliases": ["note"]
+}

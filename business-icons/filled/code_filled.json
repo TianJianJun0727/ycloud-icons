@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "代码",
+  "tags": ["开发接入", "新手引导", "目标选择", "WhatsApp API", "填充", "业务图标"],
+  "use-cases": ["用于新手引导中选择 WhatsApp API 接入目标", "用于入门目标卡片展示开发集成方向"],
+  "i18n": {
+    "en": {
+      "name": "code",
+      "tags": [
+        "developer integration",
+        "onboarding",
+        "goal selection",
+        "whatsapp api",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Select the WhatsApp API integration goal during onboarding",
+        "Show the developer integration goal in getting-started cards"
+      ]
+    }
+  },
+  "aliases": ["code"]
+}

@@ -7,7 +7,7 @@ description: Source, validation, and usage rules for illustration SVG assets.
 
 `illustration-icons/` stores illustration SVG assets that should not enter the generic icon or business icon systems.
 
-Illustrations are usually larger, more detailed, and keep fixed colors. They are intended for empty states, onboarding, result pages, error pages, and other page-level visual communication. They do not follow the generic 24x24 linear icon rules, and they do not use the business icon mono, duotone, or multicolor cleanup rules.
+Illustrations are usually larger, more detailed, and keep fixed colors. They are intended for empty states, onboarding, result pages, error pages, and other page-level visual communication. They do not follow the generic 24x24 linear icon rules, and they do not use the business icon outlined, filled, or multicolor cleanup rules.
 
 ## When to use it
 
@@ -23,8 +23,8 @@ If the artwork should be reused as a 24px UI icon, put it in `icons/` or `busine
 ## Directory
 
 ```text
-illustration-icons/<illustration-name>.svg
-illustration-icons/<illustration-name>.json
+illustration-icons/<category>/<illustration-name>.svg
+illustration-icons/<category>/<illustration-name>.json
 illustration-icons/index.json
 illustration-icons/metadata/index.json
 docs/public/metadata/illustration-icons.json
@@ -35,7 +35,7 @@ Illustrations need same-name per-SVG metadata JSON for search, AI illustration s
 File names must be lowercase kebab-case and directly determine package export names:
 
 ```text
-illustration-icons/empty-page.svg -> EmptyPage
+illustration-icons/other/empty-page.svg -> EmptyPage
 ```
 
 ## Cleanup And Validation
@@ -44,8 +44,8 @@ Illustrations do not run color conversion or size cleanup. Fixed colors, gradien
 
 Baseline validation checks:
 
-- paths must use `illustration-icons/<illustration-name>.svg`
-- same-name metadata must exist at `illustration-icons/<illustration-name>.json`
+- paths must use `illustration-icons/<category>/<illustration-name>.svg`; use `other` when the category is unclear
+- same-name metadata must exist at `illustration-icons/<category>/<illustration-name>.json`
 - file names must be lowercase kebab-case
 - the root element must be `<svg>`
 - `<script>` and `<foreignObject>` are not allowed
@@ -66,12 +66,12 @@ node ./scripts/checkIllustrationSvgSource.mts
 
 When “Illustrations” is selected in the Figma plugin, the plugin will:
 
-- submit files to `illustration-icons/*.svg`
-- submit matching `illustration-icons/*.json`
+- submit files to `illustration-icons/<category>/*.svg`
+- submit matching `illustration-icons/<category>/*.json`
 - skip color conversion
 - skip size cleanup
 - skip `icons/*.json` generation, but create illustration same-name metadata JSON
-- skip generic multi-category, tag, and use-case requirements
+- use a single illustration category; choose `other` when the category is unclear
 - only block SVGs that fail the illustration SVG baseline safety checks
 
 After the plugin opens a PR, GitHub workflows handle illustrations like generic icons and business icons:
@@ -79,7 +79,7 @@ After the plugin opens a PR, GitHub workflows handle illustrations like generic 
 - `fix-icon-source` refreshes and formats `illustration-icons/index.json`, same-name metadata JSON, and repository snapshots; `docs/public/metadata` is copied during docs builds
 - PR lint runs `pnpm lint:svg:illustration`
 - same-repository Figma illustration PRs can enter the auto-merge flow
-- after merging to `main`, a Figma PR that includes `illustration-icons/*.svg` triggers the icon release flow and publishes a new npm version
+- after merging to `main`, a Figma PR that includes `illustration-icons/<category>/*.svg` triggers the icon release flow and publishes a new npm version
 
 When “Generic icons” is selected, the plugin keeps using the existing `icons/*.svg` + `icons/*.json` flow. When “Business icons” is selected, it keeps using the `business-icons/<color-mode>/*.svg` flow.
 
@@ -137,7 +137,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import emptyPageUrl from '@ycloud-web/icons-static/illustration-icons/empty-page.svg';
+import emptyPageUrl from '@ycloud-web/icons-static/illustration-icons/other/empty-page.svg';
 ```
 
 ### Data package

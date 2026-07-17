@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "分析",
+  "tags": ["数据分析", "集成", "使用指南", "功能卖点", "填充", "业务图标"],
+  "use-cases": ["用于 Email、SMS 和号码验证集成的分析能力说明", "用于集成上手页展示数据分析卖点"],
+  "i18n": {
+    "en": {
+      "name": "analytics",
+      "tags": [
+        "analytics",
+        "integration",
+        "getting started",
+        "feature benefit",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Explain analytics capabilities for Email, SMS, and number verification integrations",
+        "Show analytics benefits on integration getting-started pages"
+      ]
+    }
+  },
+  "aliases": ["analytics"]
+}

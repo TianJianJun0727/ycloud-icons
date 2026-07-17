@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "路径",
+  "tags": ["路径", "Journey", "创建旅程", "流程", "填充", "业务图标"],
+  "use-cases": ["用于创建 Journey 弹窗标识自定义旅程路径", "展示从头创建自动化旅程的入口"],
+  "i18n": {
+    "en": {
+      "name": "route",
+      "tags": ["route", "journey", "create journey", "workflow", "filled", "business icon"],
+      "use-cases": [
+        "Identify the custom Journey path in the create dialog",
+        "Show the entry for building an automation journey from scratch"
+      ]
+    }
+  },
+  "aliases": ["route", "path"]
+}

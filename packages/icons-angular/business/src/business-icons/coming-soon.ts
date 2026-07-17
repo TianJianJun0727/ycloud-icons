@@ -1,6 +1,6 @@
 export const comingSoonIcon = {
   name: 'coming-soon',
-  colorMode: 'duotone',
+  colorMode: 'filled',
   attrs: {
     xmlns: 'http://www.w3.org/2000/svg',
     viewBox: '0 0 65 14',

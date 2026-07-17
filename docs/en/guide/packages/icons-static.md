@@ -45,14 +45,14 @@ No framework peer dependency.
 
 ```html
 <img
-  src="./node_modules/@ycloud-web/icons-static/business-icons/mono/billing.svg"
+  src="./node_modules/@ycloud-web/icons-static/business-icons/outlined/billing.svg"
   alt="Billing"
 />
 ```
 
 ```html
 <img
-  src="./node_modules/@ycloud-web/icons-static/illustration-icons/empty-page.svg"
+  src="./node_modules/@ycloud-web/icons-static/illustration-icons/other/empty-page.svg"
   alt="Empty page"
 />
 ```

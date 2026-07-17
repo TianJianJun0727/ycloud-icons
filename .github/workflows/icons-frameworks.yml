@@ -14,7 +14,7 @@ on:
       - scripts/writeBusinessIconIndex.mts
       - scripts/writeIllustrationIndex.mts
       - scripts/render/**
-      - .github/actions/setup-nub/**
+      - .github/actions/setup-pnpm/**
       - package.json
       - packages/icons-angular/**
       - packages/icons-astro/**
@@ -104,13 +104,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
       - name: Install dependencies
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: nub --filter ${{ matrix.package }} build
+        run: pnpm --filter ${{ matrix.package }} build
 
       - name: Test
         if: ${{ matrix.has-test }}
-        run: nub --filter ${{ matrix.package }} test
+        run: pnpm --filter ${{ matrix.package }} test

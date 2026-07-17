@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "benefitsmile",
+  "tags": ["用户体验", "SMS 集成", "集成卖点", "客户沟通", "填充", "业务图标"],
+  "use-cases": ["用于 SMS 集成上手页展示客户体验收益", "说明短信沟通带来的用户体验提升"],
+  "i18n": {
+    "en": {
+      "name": "benefit smile",
+      "tags": [
+        "experience benefit",
+        "sms integration",
+        "integration benefit",
+        "customer communication",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show customer experience benefits on SMS integration onboarding",
+        "Explain experience improvements from SMS communication"
+      ]
+    }
+  },
+  "aliases": ["benefit-smile", "benefit-smile_filled"]
+}

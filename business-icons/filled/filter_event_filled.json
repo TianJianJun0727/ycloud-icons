@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "筛选事件",
+  "tags": ["事件筛选", "Journey", "联系人事件", "规则", "填充", "业务图标"],
+  "use-cases": ["用于 Journey 事件或数据规则的筛选入口", "标识联系人事件条件和规则标签"],
+  "i18n": {
+    "en": {
+      "name": "filter event",
+      "tags": ["event filter", "journey", "contact event", "rule", "filled", "business icon"],
+      "use-cases": [
+        "Filter entry for Journey event and data rules",
+        "Represent contact event conditions and rule chips"
+      ]
+    }
+  },
+  "aliases": ["filter-event", "filter-event_filled"]
+}

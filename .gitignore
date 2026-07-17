@@ -14,7 +14,7 @@ stash
 coverage
 stats
 *.log
-outlined
+/outlined
 lucide-font
 ycloud-font
 packages/**/src/icons/*.js

@@ -13,6 +13,7 @@ type IllustrationIndex = {
     name: string;
     path: string;
     componentName: string;
+    category: string;
   }>;
 };
 
@@ -32,12 +33,19 @@ function validateIllustrationSvgFileName(file: string) {
   const segments = relativePath.split('/').filter(Boolean);
   const fileName = path.basename(file);
 
-  if (segments.length !== 1) {
-    errors.push('Illustration SVG must be stored as "illustration-icons/<name>.svg".');
+  if (segments.length !== 1 && segments.length !== 2) {
+    errors.push(
+      'Illustration SVG must be stored as "illustration-icons/<name>.svg" or "illustration-icons/<category>/<name>.svg".',
+    );
   }
   if (!SVG_FILENAME_PATTERN.test(fileName)) {
     errors.push(
       'Illustration SVG filename must be lowercase kebab-case with only letters and numbers.',
+    );
+  }
+  if (segments.length === 2 && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(segments[0])) {
+    errors.push(
+      'Illustration category directory must be lowercase kebab-case with only letters and numbers.',
     );
   }
   return errors;
@@ -128,10 +136,22 @@ async function validateIllustrationSvgSourceFile(file: string) {
 async function readDefaultIllustrationSvgFiles() {
   try {
     const entries = await fs.readdir(ILLUSTRATION_DIR, { withFileTypes: true });
-    return entries
-      .filter((entry) => entry.isFile() && entry.name.endsWith('.svg'))
-      .map((entry) => path.join(ILLUSTRATION_DIR, entry.name))
-      .sort();
+    const files = await Promise.all(
+      entries.map(async (entry) => {
+        const fullPath = path.join(ILLUSTRATION_DIR, entry.name);
+        if (entry.isDirectory()) {
+          if (entry.name === 'metadata') {
+            return [];
+          }
+          const children = await fs.readdir(fullPath, { withFileTypes: true });
+          return children
+            .filter((child) => child.isFile() && child.name.endsWith('.svg'))
+            .map((child) => path.join(fullPath, child.name));
+        }
+        return entry.isFile() && entry.name.endsWith('.svg') ? [fullPath] : [];
+      }),
+    );
+    return files.flat().sort();
   } catch (error) {
     if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
       return [];

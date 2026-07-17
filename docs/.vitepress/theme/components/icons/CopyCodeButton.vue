@@ -21,9 +21,7 @@ const { animate, confetti } = useConfetti();
 const componentName = computed(() => {
   return (toPascalCase(props.name) as string).replace(/\s/g, '');
 });
-const supportsBusinessStrokeWidth = computed(
-  () => props.mode === 'business' && props.supportsStrokeWidth === true,
-);
+const supportsBusinessStrokeWidth = computed(() => props.mode === 'business');
 
 function copyJSX() {
   let attrs = [''];

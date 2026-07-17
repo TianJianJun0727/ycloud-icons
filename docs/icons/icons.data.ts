@@ -26,6 +26,7 @@ export default {
         ]) => ({
           name,
           displayName,
+          chineseName: displayName,
           englishName,
           tags,
           displayTags,

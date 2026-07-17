@@ -5,12 +5,13 @@
     {
       "type": "illustration",
       "name": "account-unbound",
-      "path": "illustration-icons/account-unbound.svg",
+      "path": "illustration-icons/other/account-unbound.svg",
       "title": "账号未绑定",
       "englishName": "Account Unbound",
       "componentName": "AccountUnbound",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "账号未绑定",
         "tags": ["账号未绑定", "解绑", "未连接", "账户异常"],
         "use-cases": ["账号绑定状态为空或失效", "引导用户绑定账号"],
@@ -25,91 +26,14 @@
     },
     {
       "type": "illustration",
-      "name": "alipay",
-      "path": "illustration-icons/alipay.svg",
-      "title": "Alipay",
-      "englishName": "Alipay",
-      "componentName": "Alipay",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "Alipay",
-        "tags": ["Alipay", "插画"],
-        "use-cases": ["Alipay相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Alipay",
-            "tags": ["Alipay", "illustration"],
-            "use-cases": ["Alipay entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Alipay"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "api",
-      "path": "illustration-icons/api.svg",
-      "title": "API",
-      "englishName": "API",
-      "componentName": "Api",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "API",
-        "tags": ["API", "插画"],
-        "use-cases": ["API相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "API",
-            "tags": ["API", "illustration"],
-            "use-cases": ["API entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "API"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "business-app",
-      "path": "illustration-icons/business-app.svg",
-      "title": "BusinessAPP",
-      "englishName": "BusinessAPP",
-      "componentName": "BusinessApp",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "BusinessAPP",
-        "tags": ["BusinessAPP", "插画"],
-        "use-cases": ["BusinessAPP相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "BusinessAPP",
-            "tags": ["BusinessAPP", "illustration"],
-            "use-cases": ["BusinessAPP entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "BusinessAPP"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
       "name": "close-logo",
-      "path": "illustration-icons/close-logo.svg",
+      "path": "illustration-icons/logo/close-logo.svg",
       "title": "关闭 Logo",
       "englishName": "Close Logo",
       "componentName": "CloseLogo",
+      "category": "logo",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "关闭 Logo",
         "tags": ["关闭", "logo", "品牌", "状态"],
         "use-cases": ["关闭入口或品牌状态展示", "品牌标识关闭态插画"],
@@ -127,85 +51,14 @@
     },
     {
       "type": "illustration",
-      "name": "code-coupon",
-      "path": "illustration-icons/code-coupon.svg",
-      "title": "优惠码",
-      "englishName": "Code Coupon",
-      "componentName": "CodeCoupon",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "优惠码",
-        "tags": ["优惠码", "折扣码", "优惠券", "促销"],
-        "use-cases": ["优惠码或折扣码状态展示", "营销活动中的优惠券插画"],
-        "i18n": {
-          "en": {
-            "name": "Code Coupon",
-            "tags": ["code coupon", "discount code", "coupon", "promotion"],
-            "use-cases": [
-              "Code coupon or discount code state display",
-              "Coupon illustration for marketing campaigns"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "custom-icon",
-      "path": "illustration-icons/custom-icon.svg",
-      "title": "自定义图标",
-      "englishName": "Custom Icon",
-      "componentName": "CustomIcon",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "自定义图标",
-        "tags": ["自定义", "代码", "图标", "配置"],
-        "use-cases": ["自定义图标配置入口", "开发者自定义能力展示"],
-        "i18n": {
-          "en": {
-            "name": "Custom Icon",
-            "tags": ["custom", "code", "icon", "configuration"],
-            "use-cases": [
-              "Custom icon configuration entry",
-              "Developer customization capability display"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "customer-support",
-      "path": "illustration-icons/customer-support.svg",
-      "title": "客户支持",
-      "englishName": "Customer Support",
-      "componentName": "CustomerSupport",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "客户支持",
-        "tags": ["客服", "客户支持", "帮助", "耳机"],
-        "use-cases": ["客户支持或客服入口", "帮助中心与服务支持场景"],
-        "i18n": {
-          "en": {
-            "name": "Customer Support",
-            "tags": ["customer support", "support", "help", "headset"],
-            "use-cases": [
-              "Customer support or service entry",
-              "Help center and service support scenarios"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "data-importing",
-      "path": "illustration-icons/data-importing.svg",
+      "path": "illustration-icons/other/data-importing.svg",
       "title": "数据导入中",
       "englishName": "Data Importing",
       "componentName": "DataImporting",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "数据导入中",
         "tags": ["数据导入", "导入中", "处理中", "同步中"],
         "use-cases": ["数据正在导入时的页面占位", "导入流程等待状态"],
@@ -224,12 +77,13 @@
     {
       "type": "illustration",
       "name": "developer-integration",
-      "path": "illustration-icons/developer-integration.svg",
+      "path": "illustration-icons/integration/developer-integration.svg",
       "title": "开发者集成",
       "englishName": "Developer Integration",
       "componentName": "DeveloperIntegration",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "开发者集成",
         "tags": ["开发者", "集成", "代码", "API"],
         "use-cases": ["开发者集成入口", "API 或代码接入说明"],
@@ -244,37 +98,14 @@
     },
     {
       "type": "illustration",
-      "name": "email",
-      "path": "illustration-icons/email.svg",
-      "title": "邮件",
-      "englishName": "Email",
-      "componentName": "Email",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "邮件",
-        "tags": ["邮件", "邮箱", "消息", "通知"],
-        "use-cases": ["邮件渠道配置", "邮箱通知或消息发送场景"],
-        "i18n": {
-          "en": {
-            "name": "Email",
-            "tags": ["email", "mailbox", "message", "notification"],
-            "use-cases": [
-              "Email channel configuration",
-              "Email notification or message sending scenarios"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "empty-ai",
-      "path": "illustration-icons/empty-ai.svg",
+      "path": "illustration-icons/other/empty-ai.svg",
       "title": "空 AI",
       "englishName": "Empty AI",
       "componentName": "EmptyAi",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "空 AI",
         "tags": ["空状态", "AI", "智能", "未生成"],
         "use-cases": ["AI 内容为空或未生成", "智能内容空状态展示"],
@@ -290,12 +121,13 @@
     {
       "type": "illustration",
       "name": "empty-list",
-      "path": "illustration-icons/empty-list.svg",
+      "path": "illustration-icons/other/empty-list.svg",
       "title": "空列表",
       "englishName": "Empty List",
       "componentName": "EmptyList",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "空列表",
         "tags": ["空列表", "暂无数据", "列表为空", "无内容"],
         "use-cases": ["列表或表格无数据", "筛选后没有可展示内容"],
@@ -311,12 +143,13 @@
     {
       "type": "illustration",
       "name": "empty-orders",
-      "path": "illustration-icons/empty-orders.svg",
+      "path": "illustration-icons/other/empty-orders.svg",
       "title": "空订单",
       "englishName": "Empty Orders",
       "componentName": "EmptyOrders",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "空订单",
         "tags": ["空订单", "暂无订单", "订单为空"],
         "use-cases": ["订单列表为空", "商店还没有订单数据"],
@@ -332,12 +165,13 @@
     {
       "type": "illustration",
       "name": "empty-page",
-      "path": "illustration-icons/empty-page.svg",
+      "path": "illustration-icons/other/empty-page.svg",
       "title": "空页面",
       "englishName": "Empty Page",
       "componentName": "EmptyPage",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "空页面",
         "tags": ["空页面", "占位页", "暂无内容"],
         "use-cases": ["页面内容为空", "模块暂未配置内容"],
@@ -353,12 +187,13 @@
     {
       "type": "illustration",
       "name": "empty-search",
-      "path": "illustration-icons/empty-search.svg",
+      "path": "illustration-icons/other/empty-search.svg",
       "title": "搜索无结果",
       "englishName": "Empty Search",
       "componentName": "EmptySearch",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "搜索无结果",
         "tags": ["搜索无结果", "未找到", "空搜索"],
         "use-cases": ["搜索或筛选没有结果", "提示用户调整搜索条件"],
@@ -374,12 +209,13 @@
     {
       "type": "illustration",
       "name": "expand-logo",
-      "path": "illustration-icons/expand-logo.svg",
+      "path": "illustration-icons/logo/expand-logo.svg",
       "title": "展开 Logo",
       "englishName": "Expand Logo",
       "componentName": "ExpandLogo",
+      "category": "logo",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "展开 Logo",
         "tags": ["展开", "logo", "品牌", "状态"],
         "use-cases": ["展开入口或品牌状态展示", "品牌标识展开态插画"],
@@ -397,39 +233,14 @@
     },
     {
       "type": "illustration",
-      "name": "facebook",
-      "path": "illustration-icons/facebook.svg",
-      "title": "Facebook",
-      "englishName": "Facebook",
-      "componentName": "Facebook",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "Facebook",
-        "tags": ["Facebook", "插画"],
-        "use-cases": ["Facebook相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Facebook",
-            "tags": ["Facebook", "illustration"],
-            "use-cases": ["Facebook entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Facebook"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
       "name": "has-expired",
-      "path": "illustration-icons/has-expired.svg",
+      "path": "illustration-icons/other/has-expired.svg",
       "title": "已过期",
       "englishName": "Has Expired",
       "componentName": "HasExpired",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "已过期",
         "tags": ["过期", "失效", "状态", "提醒"],
         "use-cases": ["活动、权益或授权已过期", "失效状态展示"],
@@ -445,12 +256,13 @@
     {
       "type": "illustration",
       "name": "integration-coupons",
-      "path": "illustration-icons/integration-coupons.svg",
+      "path": "illustration-icons/integration/integration-coupons.svg",
       "title": "优惠券集成",
       "englishName": "Coupons Integration",
       "componentName": "IntegrationCoupons",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "优惠券集成",
         "tags": ["集成", "优惠券", "渠道", "营销"],
         "use-cases": ["优惠券渠道或集成入口", "营销优惠能力说明"],
@@ -469,12 +281,13 @@
     {
       "type": "illustration",
       "name": "integration-data-connectors",
-      "path": "illustration-icons/integration-data-connectors.svg",
+      "path": "illustration-icons/integration/integration-data-connectors.svg",
       "title": "数据连接器集成",
       "englishName": "Data Connectors Integration",
       "componentName": "IntegrationDataConnectors",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "数据连接器集成",
         "tags": ["集成", "数据连接器", "数据", "渠道"],
         "use-cases": ["数据连接器渠道或集成入口", "数据接入能力说明"],
@@ -493,12 +306,13 @@
     {
       "type": "illustration",
       "name": "integration-email",
-      "path": "illustration-icons/integration-email.svg",
+      "path": "illustration-icons/integration/integration-email.svg",
       "title": "邮件集成",
       "englishName": "Email Integration",
       "componentName": "IntegrationEmail",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "邮件集成",
         "tags": ["集成", "邮件", "渠道", "邮箱"],
         "use-cases": ["邮件渠道或集成入口", "邮箱渠道能力说明"],
@@ -517,12 +331,13 @@
     {
       "type": "illustration",
       "name": "integration-hubspot",
-      "path": "illustration-icons/integration-hubspot.svg",
+      "path": "illustration-icons/integration/integration-hubspot.svg",
       "title": "HubSpot 集成",
       "englishName": "HubSpot Integration",
       "componentName": "IntegrationHubspot",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "HubSpot 集成",
         "tags": ["HubSpot", "集成", "CRM", "渠道"],
         "use-cases": ["HubSpot 渠道或集成入口", "CRM 集成能力说明"],
@@ -541,12 +356,13 @@
     {
       "type": "illustration",
       "name": "integration-mixdesk",
-      "path": "illustration-icons/integration-mixdesk.svg",
+      "path": "illustration-icons/integration/integration-mixdesk.svg",
       "title": "Mixdesk 集成",
       "englishName": "Mixdesk Integration",
       "componentName": "IntegrationMixdesk",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "Mixdesk 集成",
         "tags": ["Mixdesk", "集成", "客服", "渠道"],
         "use-cases": ["Mixdesk 渠道或集成入口", "客服渠道能力说明"],
@@ -565,12 +381,13 @@
     {
       "type": "illustration",
       "name": "integration-qmail",
-      "path": "illustration-icons/integration-qmail.svg",
+      "path": "illustration-icons/integration/integration-qmail.svg",
       "title": "QMail 集成",
       "englishName": "QMail Integration",
       "componentName": "IntegrationQmail",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "QMail 集成",
         "tags": ["QMail", "集成", "邮件", "渠道"],
         "use-cases": ["QMail 渠道或集成入口", "企业邮箱集成能力说明"],
@@ -589,12 +406,13 @@
     {
       "type": "illustration",
       "name": "integration-reshdesk",
-      "path": "illustration-icons/integration-reshdesk.svg",
+      "path": "illustration-icons/integration/integration-reshdesk.svg",
       "title": "Reshdesk 集成",
       "englishName": "Reshdesk Integration",
       "componentName": "IntegrationReshdesk",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "Reshdesk 集成",
         "tags": ["Reshdesk", "集成", "客服", "渠道"],
         "use-cases": ["Reshdesk 渠道或集成入口", "客服系统集成能力说明"],
@@ -613,12 +431,13 @@
     {
       "type": "illustration",
       "name": "integration-sale-smartly",
-      "path": "illustration-icons/integration-sale-smartly.svg",
+      "path": "illustration-icons/integration/integration-sale-smartly.svg",
       "title": "SaleSmartly 集成",
       "englishName": "SaleSmartly Integration",
       "componentName": "IntegrationSaleSmartly",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "SaleSmartly 集成",
         "tags": ["SaleSmartly", "集成", "客服", "渠道"],
         "use-cases": ["SaleSmartly 渠道或集成入口", "客户服务集成能力说明"],
@@ -637,12 +456,13 @@
     {
       "type": "illustration",
       "name": "integration-shopify",
-      "path": "illustration-icons/integration-shopify.svg",
+      "path": "illustration-icons/integration/integration-shopify.svg",
       "title": "Shopify 集成",
       "englishName": "Shopify Integration",
       "componentName": "IntegrationShopify",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "Shopify 集成",
         "tags": ["Shopify", "集成", "电商", "渠道"],
         "use-cases": ["Shopify 渠道或集成入口", "电商店铺集成能力说明"],
@@ -661,12 +481,13 @@
     {
       "type": "illustration",
       "name": "integration-sms",
-      "path": "illustration-icons/integration-sms.svg",
+      "path": "illustration-icons/integration/integration-sms.svg",
       "title": "短信集成",
       "englishName": "SMS Integration",
       "componentName": "IntegrationSms",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "短信集成",
         "tags": ["短信", "集成", "渠道", "通知"],
         "use-cases": ["短信渠道或集成入口", "短信通知能力说明"],
@@ -685,12 +506,13 @@
     {
       "type": "illustration",
       "name": "integration-verify",
-      "path": "illustration-icons/integration-verify.svg",
+      "path": "illustration-icons/integration/integration-verify.svg",
       "title": "验证集成",
       "englishName": "Verify Integration",
       "componentName": "IntegrationVerify",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "验证集成",
         "tags": ["验证", "集成", "渠道", "安全"],
         "use-cases": ["验证渠道或集成入口", "身份验证能力说明"],
@@ -709,12 +531,13 @@
     {
       "type": "illustration",
       "name": "integration-voice-code",
-      "path": "illustration-icons/integration-voice-code.svg",
+      "path": "illustration-icons/integration/integration-voice-code.svg",
       "title": "语音验证码集成",
       "englishName": "Voice Code Integration",
       "componentName": "IntegrationVoiceCode",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "语音验证码集成",
         "tags": ["语音验证码", "集成", "渠道", "验证"],
         "use-cases": ["语音验证码渠道或集成入口", "语音验证能力说明"],
@@ -733,12 +556,13 @@
     {
       "type": "illustration",
       "name": "integration-whatsapp-mm-lite",
-      "path": "illustration-icons/integration-whatsapp-mm-lite.svg",
+      "path": "illustration-icons/integration/integration-whatsapp-mm-lite.svg",
       "title": "WhatsApp MM Lite 集成",
       "englishName": "WhatsApp MM Lite Integration",
       "componentName": "IntegrationWhatsappMmLite",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "WhatsApp MM Lite 集成",
         "tags": ["WhatsApp", "MM Lite", "集成", "渠道"],
         "use-cases": ["WhatsApp MM Lite 渠道或集成入口", "WhatsApp 轻量渠道能力说明"],
@@ -757,12 +581,13 @@
     {
       "type": "illustration",
       "name": "integration-zapier",
-      "path": "illustration-icons/integration-zapier.svg",
+      "path": "illustration-icons/integration/integration-zapier.svg",
       "title": "Zapier 集成",
       "englishName": "Zapier Integration",
       "componentName": "IntegrationZapier",
+      "category": "integration",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "Zapier 集成",
         "tags": ["Zapier", "集成", "自动化", "渠道"],
         "use-cases": ["Zapier 渠道或集成入口", "自动化集成能力说明"],
@@ -780,37 +605,14 @@
     },
     {
       "type": "illustration",
-      "name": "lead-generation",
-      "path": "illustration-icons/lead-generation.svg",
-      "title": "线索获客",
-      "englishName": "Lead Generation",
-      "componentName": "LeadGeneration",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "线索获客",
-        "tags": ["线索", "获客", "客户", "增长"],
-        "use-cases": ["线索获客业务场景", "客户增长与营销转化展示"],
-        "i18n": {
-          "en": {
-            "name": "Lead Generation",
-            "tags": ["lead generation", "leads", "customer", "growth"],
-            "use-cases": [
-              "Lead generation business scenario",
-              "Customer growth and marketing conversion display"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "load-failed",
-      "path": "illustration-icons/load-failed.svg",
+      "path": "illustration-icons/other/load-failed.svg",
       "title": "加载失败",
       "englishName": "Load Failed",
       "componentName": "LoadFailed",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "加载失败",
         "tags": ["加载失败", "请求失败", "重试"],
         "use-cases": ["页面或模块加载失败", "提示用户重试"],
@@ -825,63 +627,14 @@
     },
     {
       "type": "illustration",
-      "name": "marketing-automation",
-      "path": "illustration-icons/marketing-automation.svg",
-      "title": "营销自动化",
-      "englishName": "Marketing Automation",
-      "componentName": "MarketingAutomation",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "营销自动化",
-        "tags": ["营销自动化", "流程", "自动化", "触达"],
-        "use-cases": ["营销自动化流程展示", "自动化触达或任务编排场景"],
-        "i18n": {
-          "en": {
-            "name": "Marketing Automation",
-            "tags": ["marketing automation", "workflow", "automation", "outreach"],
-            "use-cases": [
-              "Marketing automation workflow display",
-              "Automated outreach or task orchestration scenarios"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "meta",
-      "path": "illustration-icons/meta.svg",
-      "title": "Meta",
-      "englishName": "Meta",
-      "componentName": "Meta",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "Meta",
-        "tags": ["Meta", "插画"],
-        "use-cases": ["Meta相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Meta",
-            "tags": ["Meta", "illustration"],
-            "use-cases": ["Meta entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Meta"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
       "name": "network-disconnected",
-      "path": "illustration-icons/network-disconnected.svg",
+      "path": "illustration-icons/other/network-disconnected.svg",
       "title": "网络断开",
       "englishName": "Network Disconnected",
       "componentName": "NetworkDisconnected",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "网络断开",
         "tags": ["网络断开", "离线", "连接失败"],
         "use-cases": ["网络异常页面", "离线或连接中断提示"],
@@ -897,12 +650,13 @@
     {
       "type": "illustration",
       "name": "no-permission",
-      "path": "illustration-icons/no-permission.svg",
+      "path": "illustration-icons/other/no-permission.svg",
       "title": "无权限",
       "englishName": "No Permission",
       "componentName": "NoPermission",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "无权限",
         "tags": ["无权限", "权限不足", "访问受限"],
         "use-cases": ["无权限访问页面", "权限不足的功能入口"],
@@ -918,12 +672,13 @@
     {
       "type": "illustration",
       "name": "not-found",
-      "path": "illustration-icons/not-found.svg",
+      "path": "illustration-icons/other/not-found.svg",
       "title": "未找到",
       "englishName": "Not Found",
       "componentName": "NotFound",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "未找到",
         "tags": ["404", "未找到", "页面不存在"],
         "use-cases": ["404 页面", "资源不存在或链接失效"],
@@ -939,12 +694,13 @@
     {
       "type": "illustration",
       "name": "not-match",
-      "path": "illustration-icons/not-match.svg",
+      "path": "illustration-icons/other/not-match.svg",
       "title": "不匹配",
       "englishName": "Not Match",
       "componentName": "NotMatch",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "不匹配",
         "tags": ["不匹配", "异常", "状态", "规则"],
         "use-cases": ["规则、条件或数据不匹配", "匹配失败状态展示"],
@@ -960,12 +716,13 @@
     {
       "type": "illustration",
       "name": "payment-method-disabled",
-      "path": "illustration-icons/payment-method-disabled.svg",
+      "path": "illustration-icons/other/payment-method-disabled.svg",
       "title": "支付方式不可用",
       "englishName": "Payment Method Disabled",
       "componentName": "PaymentMethodDisabled",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "支付方式不可用",
         "tags": ["支付方式不可用", "支付禁用", "付款方式"],
         "use-cases": ["支付方式被禁用", "付款配置不可用"],
@@ -980,58 +737,14 @@
     },
     {
       "type": "illustration",
-      "name": "paypal",
-      "path": "illustration-icons/paypal.svg",
-      "title": "paypal",
-      "englishName": "paypal",
-      "componentName": "Paypal",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "paypal",
-        "tags": ["paypal", "插画"],
-        "use-cases": ["paypal相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "paypal",
-            "tags": ["paypal", "illustration"],
-            "use-cases": ["paypal entry or status"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "register-phone",
-      "path": "illustration-icons/register-phone.svg",
-      "title": "注册手机号",
-      "englishName": "Register Phone",
-      "componentName": "RegisterPhone",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "注册手机号",
-        "tags": ["手机号", "注册", "移动端", "账号"],
-        "use-cases": ["手机号注册或绑定场景", "账号手机号信息展示"],
-        "i18n": {
-          "en": {
-            "name": "Register Phone",
-            "tags": ["phone", "registration", "mobile", "account"],
-            "use-cases": [
-              "Phone registration or binding scenario",
-              "Account phone information display"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "template-calling-request",
-      "path": "illustration-icons/template-calling-request.svg",
+      "path": "illustration-icons/template/template-calling-request.svg",
       "title": "通话请求模板",
       "englishName": "Calling Request Template",
       "componentName": "TemplateCallingRequest",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "通话请求模板",
         "tags": ["模板", "通话请求", "WhatsApp", "消息"],
         "use-cases": ["通话请求消息模板", "模板消息场景展示"],
@@ -1046,37 +759,14 @@
     },
     {
       "type": "illustration",
-      "name": "template-insights-authorization",
-      "path": "illustration-icons/template-insights-authorization.svg",
-      "title": "模板洞察授权",
-      "englishName": "Template Insights Authorization",
-      "componentName": "TemplateInsightsAuthorization",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "模板洞察授权",
-        "tags": ["模板", "洞察", "授权", "状态"],
-        "use-cases": ["模板洞察授权状态或入口", "模板分析授权说明"],
-        "i18n": {
-          "en": {
-            "name": "Template Insights Authorization",
-            "tags": ["template", "insights", "authorization", "status"],
-            "use-cases": [
-              "Template insights authorization status or entry",
-              "Template analytics authorization description"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "template-limited-time-offer",
-      "path": "illustration-icons/template-limited-time-offer.svg",
+      "path": "illustration-icons/template/template-limited-time-offer.svg",
       "title": "限时优惠模板",
       "englishName": "Limited Time Offer Template",
       "componentName": "TemplateLimitedTimeOffer",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "限时优惠模板",
         "tags": ["模板", "限时优惠", "营销", "消息"],
         "use-cases": ["限时优惠消息模板", "营销模板场景展示"],
@@ -1095,12 +785,13 @@
     {
       "type": "illustration",
       "name": "template-media-card-carousel",
-      "path": "illustration-icons/template-media-card-carousel.svg",
+      "path": "illustration-icons/template/template-media-card-carousel.svg",
       "title": "媒体卡片轮播模板",
       "englishName": "Media Card Carousel Template",
       "componentName": "TemplateMediaCardCarousel",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "媒体卡片轮播模板",
         "tags": ["模板", "媒体卡片", "轮播", "消息"],
         "use-cases": ["媒体卡片轮播消息模板", "富媒体模板场景展示"],
@@ -1119,12 +810,13 @@
     {
       "type": "illustration",
       "name": "template-single-product-checkout",
-      "path": "illustration-icons/template-single-product-checkout.svg",
+      "path": "illustration-icons/template/template-single-product-checkout.svg",
       "title": "单商品结账模板",
       "englishName": "Single Product Checkout Template",
       "componentName": "TemplateSingleProductCheckout",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "单商品结账模板",
         "tags": ["模板", "单商品", "结账", "电商"],
         "use-cases": ["单商品结账消息模板", "电商模板场景展示"],
@@ -1143,12 +835,13 @@
     {
       "type": "illustration",
       "name": "template-whatsapp-order-details",
-      "path": "illustration-icons/template-whatsapp-order-details.svg",
+      "path": "illustration-icons/template/template-whatsapp-order-details.svg",
       "title": "WhatsApp 订单详情模板",
       "englishName": "WhatsApp Order Details Template",
       "componentName": "TemplateWhatsappOrderDetails",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "WhatsApp 订单详情模板",
         "tags": ["模板", "WhatsApp", "订单详情", "消息"],
         "use-cases": ["WhatsApp 订单详情消息模板", "订单详情模板场景展示"],
@@ -1167,12 +860,13 @@
     {
       "type": "illustration",
       "name": "template-whatsapp-order-status",
-      "path": "illustration-icons/template-whatsapp-order-status.svg",
+      "path": "illustration-icons/template/template-whatsapp-order-status.svg",
       "title": "WhatsApp 订单状态模板",
       "englishName": "WhatsApp Order Status Template",
       "componentName": "TemplateWhatsappOrderStatus",
+      "category": "template",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "WhatsApp 订单状态模板",
         "tags": ["模板", "WhatsApp", "订单状态", "消息"],
         "use-cases": ["WhatsApp 订单状态消息模板", "订单状态模板场景展示"],
@@ -1190,39 +884,14 @@
     },
     {
       "type": "illustration",
-      "name": "tiktok",
-      "path": "illustration-icons/tiktok.svg",
-      "title": "Tiktok",
-      "englishName": "Tiktok",
-      "componentName": "Tiktok",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "Tiktok",
-        "tags": ["Tiktok", "插画"],
-        "use-cases": ["Tiktok相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Tiktok",
-            "tags": ["Tiktok", "illustration"],
-            "use-cases": ["Tiktok entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Tiktok"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
       "name": "version-enterprise",
-      "path": "illustration-icons/version-enterprise.svg",
+      "path": "illustration-icons/version/version-enterprise.svg",
       "title": "企业版",
       "englishName": "Enterprise Plan",
       "componentName": "VersionEnterprise",
+      "category": "version",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "企业版",
         "tags": ["企业版", "套餐", "版本", "订阅"],
         "use-cases": ["企业版套餐或版本标识", "订阅版本展示"],
@@ -1238,12 +907,13 @@
     {
       "type": "illustration",
       "name": "version-free",
-      "path": "illustration-icons/version-free.svg",
+      "path": "illustration-icons/version/version-free.svg",
       "title": "免费版",
       "englishName": "Free Plan",
       "componentName": "VersionFree",
+      "category": "version",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "免费版",
         "tags": ["免费版", "套餐", "版本", "订阅"],
         "use-cases": ["免费版套餐或版本标识", "订阅版本展示"],
@@ -1259,12 +929,13 @@
     {
       "type": "illustration",
       "name": "version-growth",
-      "path": "illustration-icons/version-growth.svg",
+      "path": "illustration-icons/version/version-growth.svg",
       "title": "增长版",
       "englishName": "Growth Plan",
       "componentName": "VersionGrowth",
+      "category": "version",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "增长版",
         "tags": ["增长版", "套餐", "版本", "订阅"],
         "use-cases": ["增长版套餐或版本标识", "订阅版本展示"],
@@ -1280,12 +951,13 @@
     {
       "type": "illustration",
       "name": "version-pro",
-      "path": "illustration-icons/version-pro.svg",
+      "path": "illustration-icons/version/version-pro.svg",
       "title": "专业版",
       "englishName": "Pro Plan",
       "componentName": "VersionPro",
+      "category": "version",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "专业版",
         "tags": ["专业版", "套餐", "版本", "订阅"],
         "use-cases": ["专业版套餐或版本标识", "订阅版本展示"],
@@ -1301,12 +973,13 @@
     {
       "type": "illustration",
       "name": "waiting-status",
-      "path": "illustration-icons/waiting-status.svg",
+      "path": "illustration-icons/other/waiting-status.svg",
       "title": "等待状态",
       "englishName": "Waiting Status",
       "componentName": "WaitingStatus",
+      "category": "other",
       "metadata": {
-        "$schema": "../asset-metadata.schema.json",
+        "$schema": "../../asset-metadata.schema.json",
         "name": "等待状态",
         "tags": ["等待", "排队中", "处理中"],
         "use-cases": ["任务等待处理", "异步流程等待状态"],
@@ -1317,58 +990,6 @@
             "use-cases": ["Task waiting for processing", "Waiting state for async flow"]
           }
         }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "wechat-pay",
-      "path": "illustration-icons/wechat-pay.svg",
-      "title": "Wechat pay",
-      "englishName": "Wechat pay",
-      "componentName": "WechatPay",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "Wechat pay",
-        "tags": ["Wechat pay", "插画"],
-        "use-cases": ["Wechat pay相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Wechat pay",
-            "tags": ["Wechat pay", "illustration"],
-            "use-cases": ["Wechat pay entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Wechat pay"
-          }
-        ]
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "whatsapp",
-      "path": "illustration-icons/whatsapp.svg",
-      "title": "WhatsApp",
-      "englishName": "WhatsApp",
-      "componentName": "Whatsapp",
-      "metadata": {
-        "$schema": "../asset-metadata.schema.json",
-        "name": "WhatsApp",
-        "tags": ["WhatsApp", "插画"],
-        "use-cases": ["WhatsApp相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "WhatsApp",
-            "tags": ["WhatsApp", "illustration"],
-            "use-cases": ["WhatsApp entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "WhatsApp"
-          }
-        ]
       }
     }
   ]

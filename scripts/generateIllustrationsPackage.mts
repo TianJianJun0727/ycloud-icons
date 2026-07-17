@@ -413,18 +413,40 @@ async function readSources(): Promise<IllustrationSource[]> {
   try {
     const entries = await fs.readdir(illustrationsDir, { withFileTypes: true });
     const sources = await Promise.all(
-      entries
-        .filter((entry) => entry.isFile() && entry.name.endsWith('.svg'))
-        .map(async (entry) => {
-          const sourcePath = entry.name;
-          return {
+      entries.map(async (entry) => {
+        const fullPath = path.join(illustrationsDir, entry.name);
+        if (entry.isDirectory()) {
+          if (entry.name === 'metadata') {
+            return [];
+          }
+          const children = await fs.readdir(fullPath, { withFileTypes: true });
+          return Promise.all(
+            children
+              .filter((child) => child.isFile() && child.name.endsWith('.svg'))
+              .map(async (child) => {
+                const sourcePath = path.join(entry.name, child.name);
+                return {
+                  name: path.basename(child.name, '.svg'),
+                  sourcePath,
+                  svg: await fs.readFile(path.join(illustrationsDir, sourcePath), 'utf-8'),
+                };
+              }),
+          );
+        }
+        if (!entry.isFile() || !entry.name.endsWith('.svg')) {
+          return [];
+        }
+        const sourcePath = entry.name;
+        return [
+          {
             name: path.basename(entry.name, '.svg'),
             sourcePath,
             svg: await fs.readFile(path.join(illustrationsDir, sourcePath), 'utf-8'),
-          };
-        }),
+          },
+        ];
+      }),
     );
-    return sources.sort((left, right) => left.name.localeCompare(right.name));
+    return sources.flat().sort((left, right) => left.name.localeCompare(right.name));
   } catch (error) {
     if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') return [];
     throw error;
@@ -545,6 +567,9 @@ export async function generateIllustrationsPackage(targets: Target[] = [...allTa
         );
       }
       if (targets.includes('static')) {
+        await fs.mkdir(path.dirname(path.join(packageDirs.static, source.sourcePath)), {
+          recursive: true,
+        });
         writes.push(
           fs.copyFile(
             path.join(illustrationsDir, source.sourcePath),

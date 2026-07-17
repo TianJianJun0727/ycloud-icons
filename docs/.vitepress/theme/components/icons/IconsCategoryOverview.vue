@@ -72,13 +72,15 @@ const mappedIcons = computed(() => {
 const searchKeys = computed(() =>
   isEnglish.value
     ? [
-        { name: 'displayName', weight: 3 },
+        { name: 'chineseName', weight: 3 },
+        { name: 'englishName', weight: 3 },
         { name: 'aliases', weight: 3 },
         { name: 'displayTags', weight: 2 },
         { name: 'displayCategories', weight: 1 },
       ]
     : [
-        { name: 'displayName', weight: 3 },
+        { name: 'chineseName', weight: 3 },
+        { name: 'englishName', weight: 3 },
         { name: 'displayTags', weight: 2 },
         { name: 'displayCategories', weight: 1 },
       ],

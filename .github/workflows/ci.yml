@@ -207,10 +207,10 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
 
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
 
       - name: Install dependencies
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Fetch tags
         run: git fetch --all --tags
@@ -232,13 +232,13 @@ jobs:
         run: echo '${{ steps.latest-tag.outputs.LATEST_TAG }}'
 
       - name: Check if we can create a patch version
-        run: nubx semver "$LATEST_VERSION" -i patch
+        run: pnpm semver "$LATEST_VERSION" -i patch
         env:
           LATEST_VERSION: ${{ steps.latest-tag.outputs.LATEST_VERSION }}
 
       - name: Create new version
         id: new-version
-        run: echo "NEW_VERSION=$(nubx semver "$LATEST_VERSION" -i patch)" >> "$GITHUB_OUTPUT"
+        run: echo "NEW_VERSION=$(pnpm semver "$LATEST_VERSION" -i patch)" >> "$GITHUB_OUTPUT"
         env:
           LATEST_VERSION: ${{ steps.latest-tag.outputs.LATEST_VERSION }}
 

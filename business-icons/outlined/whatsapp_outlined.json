@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "WhatsApp",
+  "tags": ["WhatsApp", "左侧导航", "渠道接入", "嵌入式注册", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的 WhatsApp 模块入口", "用于嵌入式注册引导中标识 WhatsApp API 渠道"],
+  "i18n": {
+    "en": {
+      "name": "whatsapp",
+      "tags": [
+        "whatsapp",
+        "sidebar navigation",
+        "channel setup",
+        "embedded signup",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for the WhatsApp module",
+        "Identify the WhatsApp API channel in embedded signup guidance"
+      ]
+    }
+  },
+  "aliases": ["whatsapp"]
+}

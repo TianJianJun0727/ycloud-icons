@@ -1,5 +1,5 @@
 /**
- * Rename newly submitted icon source files to repository-safe kebab-case names.
+ * Rename newly submitted icon source files to repository-safe names.
  *
  * Figma submissions may keep the original layer names so that review/AI can
  * infer better semantic names. This script runs in the source-fix workflow and
@@ -10,7 +10,8 @@ import path from 'node:path';
 import z from 'zod';
 import { createAiClient } from './aiClient.mts';
 
-const FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const KEBAB_FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const SNAKE_FILENAME_PATTERN = /^[a-z0-9]+(?:_[a-z0-9]+)*$/;
 const FIGMA_WRAPPER_SUFFIXES = ['wrap', 'wrapper'];
 const renameSchema = z.object({
   items: z.array(
@@ -28,14 +29,17 @@ type RenameTarget = {
   jsonPath: string;
 };
 
-const toKebabCase = (value: string) =>
+const toDelimitedCase = (value: string, delimiter: '-' | '_') =>
   value
     .trim()
-    .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
-    .replace(/[^a-zA-Z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .replace(/-{2,}/g, '-')
+    .replace(/([a-z0-9])([A-Z])/g, `$1${delimiter}$2`)
+    .replace(/[^a-zA-Z0-9]+/g, delimiter)
+    .replace(new RegExp(`^${delimiter}+|${delimiter}+$`, 'g'), '')
+    .replace(new RegExp(`${delimiter}{2,}`, 'g'), delimiter)
     .toLowerCase();
+
+const toKebabCase = (value: string) => toDelimitedCase(value, '-');
+const toSnakeCase = (value: string) => toDelimitedCase(value, '_');
 
 function createStableNameHash(value: string) {
   let hash = 0;
@@ -50,8 +54,10 @@ function isBusinessIconTarget(target: RenameTarget) {
 }
 
 function normalizeSuggestedName(target: RenameTarget, value: string) {
-  const normalizedName = toKebabCase(value);
-  return isBusinessIconTarget(target) ? stripFigmaWrapperSuffix(normalizedName) : normalizedName;
+  if (isBusinessIconTarget(target)) {
+    return stripFigmaWrapperSuffix(toSnakeCase(value), '_');
+  }
+  return toKebabCase(value);
 }
 
 function fallbackName(target: RenameTarget) {
@@ -59,8 +65,8 @@ function fallbackName(target: RenameTarget) {
   return normalizedName || `figma-icon-${createStableNameHash(target.sourceName)}`;
 }
 
-function stripFigmaWrapperSuffix(name: string) {
-  const parts = name.split('-');
+function stripFigmaWrapperSuffix(name: string, delimiter: '-' | '_' = '-') {
+  const parts = name.split(delimiter);
   if (parts.length <= 1) {
     return name;
   }
@@ -68,15 +74,18 @@ function stripFigmaWrapperSuffix(name: string) {
   if (!lastPart || !FIGMA_WRAPPER_SUFFIXES.includes(lastPart)) {
     return name;
   }
-  return parts.slice(0, -1).join('-');
+  return parts.slice(0, -1).join(delimiter);
 }
 
 function shouldNormalizeFileName(normalizedFile: string, sourceName: string) {
-  if (!FILENAME_PATTERN.test(sourceName)) {
-    return true;
-  }
   if (/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile)) {
-    return stripFigmaWrapperSuffix(sourceName) !== sourceName;
+    return (
+      !SNAKE_FILENAME_PATTERN.test(sourceName) ||
+      stripFigmaWrapperSuffix(sourceName, '_') !== sourceName
+    );
+  }
+  if (!KEBAB_FILENAME_PATTERN.test(sourceName)) {
+    return true;
   }
   return false;
 }
@@ -139,7 +148,7 @@ async function collectTargets(files: string[]) {
     if (
       !/^icons\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
       !/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
-      !/^illustration-icons\/[^/]+\.(?:svg|json)$/.test(normalizedFile)
+      !/^illustration-icons\/(?:[^/]+\/)?[^/]+\.(?:svg|json)$/.test(normalizedFile)
     ) {
       continue;
     }
@@ -171,13 +180,10 @@ async function collectTargets(files: string[]) {
 
 async function suggestNames(targets: RenameTarget[]) {
   const ai = createAiClient({
-    systemPrompt:
-      'Return only JSON. Generate concise English lowercase kebab-case icon file names.',
+    systemPrompt: 'Return only JSON. Generate concise English icon file names.',
   });
 
-  const fallback = new Map(
-    targets.map((target) => [target.sourceName, fallbackName(target)]),
-  );
+  const fallback = new Map(targets.map((target) => [target.sourceName, fallbackName(target)]));
   if (!ai) {
     return fallback;
   }
@@ -195,7 +201,8 @@ async function suggestNames(targets: RenameTarget[]) {
       [
         'Rename icon source files for the YCloud Icons repository.',
         'Rules:',
-        '- targetName must be lowercase kebab-case: a-z, 0-9, and hyphen only.',
+        '- For icons and illustrations, targetName should be lowercase kebab-case: a-z, 0-9, and hyphen only.',
+        '- For business-icons, targetName should be lowercase snake_case: a-z, 0-9, and underscore only.',
         '- Use short semantic English names suitable for an icon package export.',
         '- Do not include words like icon, svg, business, illustration unless they are part of the meaning.',
         '- For business icon filenames, remove trailing Figma layer container words such as wrap or wrapper unless they are clearly part of the icon meaning.',

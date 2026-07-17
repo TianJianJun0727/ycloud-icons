@@ -193,19 +193,19 @@ jobs:
           fetch-depth: 0
           ref: ${{ needs.prepare.outputs.ref }}
 
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
         if: needs.prepare.outputs.core-published != 'true'
         with:
           registry-url: https://registry.npmjs.org
           cache-mode: restore
 
-      - name: Verify Nub version
+      - name: Verify pnpm version
         if: needs.prepare.outputs.core-published != 'true'
-        run: nub --version
+        run: pnpm --version
 
       - name: Install dependencies
         if: needs.prepare.outputs.core-published != 'true'
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Verify package version
         if: needs.prepare.outputs.core-published != 'true'
@@ -215,11 +215,11 @@ jobs:
 
       - name: Build
         if: needs.prepare.outputs.core-published != 'true'
-        run: nub --filter @ycloud-web/icons build
+        run: pnpm --filter @ycloud-web/icons build
 
       - name: Test
         if: needs.prepare.outputs.core-published != 'true'
-        run: nub --filter @ycloud-web/icons test
+        run: pnpm --filter @ycloud-web/icons test
 
       - name: Publish
         if: needs.prepare.outputs.core-published != 'true'
@@ -240,7 +240,7 @@ jobs:
           }
 
           for attempt in 1 2 3; do
-            if nub --filter "${PACKAGE}" publish --tag "${NPM_TAG}" --access public --provenance --no-git-checks; then
+            if pnpm --filter "${PACKAGE}" publish --tag "${NPM_TAG}" --access public --provenance --no-git-checks; then
               if wait_for_package_version; then
                 exit 0
               fi
@@ -290,13 +290,13 @@ jobs:
           fetch-depth: 0
           ref: ${{ needs.prepare.outputs.ref }}
 
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
         with:
           registry-url: https://registry.npmjs.org
           cache-mode: restore
 
-      - name: Verify Nub version
-        run: nub --version
+      - name: Verify pnpm version
+        run: pnpm --version
 
       - name: Use published core package
         id: core-dependency
@@ -342,11 +342,11 @@ jobs:
 
       - name: Install dependencies
         if: steps.core-dependency.outputs.uses-published-core != 'true'
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Install dependencies with published core package
         if: steps.core-dependency.outputs.uses-published-core == 'true'
-        run: nub install --no-frozen-lockfile --config.link-workspace-packages=false
+        run: pnpm install --no-frozen-lockfile --config.link-workspace-packages=false
 
       - name: Verify package version
         run: node ./scripts/syncPackageVersions.mts "${VERSION}" --check
@@ -354,11 +354,11 @@ jobs:
           VERSION: ${{ needs.prepare.outputs.version }}
 
       - name: Build
-        run: nub --filter ${{ matrix.package }} build
+        run: pnpm --filter ${{ matrix.package }} build
 
       - name: Test
         if: ${{ matrix.hasTest == true }}
-        run: nub --filter ${{ matrix.package }} test
+        run: pnpm --filter ${{ matrix.package }} test
 
       - name: Publish
         shell: bash
@@ -378,7 +378,7 @@ jobs:
           }
 
           for attempt in 1 2 3; do
-            if nub --filter "${PACKAGE}" publish --tag "${NPM_TAG}" --access public --provenance --no-git-checks; then
+            if pnpm --filter "${PACKAGE}" publish --tag "${NPM_TAG}" --access public --provenance --no-git-checks; then
               if wait_for_package_version; then
                 exit 0
               fi

@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
       - name: Install dependencies
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: nub --filter @ycloud-web/icons-static build
+        run: pnpm --filter @ycloud-web/icons-static build

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "聊天机器人",
+  "tags": ["聊天机器人", "左侧导航", "自动回复", "消息来源", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的 Chatbot 模块入口", "用于 Inbox 头像中标识机器人或自动回复消息来源"],
+  "i18n": {
+    "en": {
+      "name": "chatbot",
+      "tags": [
+        "chatbot",
+        "sidebar navigation",
+        "automated reply",
+        "message source",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for the Chatbot module",
+        "Identify bot and automated-reply message sources in Inbox avatars"
+      ]
+    }
+  },
+  "aliases": ["chatbot"]
+}

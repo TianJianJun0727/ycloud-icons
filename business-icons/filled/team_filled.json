@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "团队",
+  "tags": ["团队", "Inbox 分析", "坐席团队", "筛选", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox 坐席和团队分析中的团队维度", "标识团队筛选项和团队统计"],
+  "i18n": {
+    "en": {
+      "name": "team",
+      "tags": ["team", "inbox analytics", "agent team", "filter", "filled", "business icon"],
+      "use-cases": [
+        "Team dimension in Inbox agent and team analytics",
+        "Identify team filters and team statistics"
+      ]
+    }
+  },
+  "aliases": ["team"]
+}

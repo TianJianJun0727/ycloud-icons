@@ -4,905 +4,2143 @@
   "assets": [
     {
       "type": "business-icon",
-      "name": "ad",
-      "path": "business-icons/mono/ad.svg",
-      "title": "AD",
-      "englishName": "AD",
-      "componentName": "Ad",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "acquire_more_leads_filled",
+      "path": "business-icons/filled/acquire_more_leads_filled.svg",
+      "title": "acquire更多leads",
+      "englishName": "acquire more leads",
+      "componentName": "AcquireMoreLeadsFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "AD",
-        "tags": ["AD", "业务图标"],
-        "use-cases": ["AD相关入口或状态展示"],
+        "name": "acquire更多leads",
+        "tags": ["获取潜在客户", "新手引导", "目标选择", "获客", "填充", "业务图标"],
+        "use-cases": [
+          "用于新手引导中选择获取更多潜在客户的使用目标",
+          "用于入门目标卡片展示获客方向"
+        ],
         "i18n": {
           "en": {
-            "name": "AD",
-            "tags": ["AD", "business icon"],
-            "use-cases": ["AD entry or status"]
+            "name": "acquire more leads",
+            "tags": [
+              "acquire leads",
+              "onboarding",
+              "goal selection",
+              "lead generation",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Select the acquire-more-leads goal during onboarding",
+              "Show the lead generation goal in getting-started cards"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "AD-wrap"
-          }
-        ]
+        "aliases": ["acquire-more-leads", "acquire-more-leads_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "ads",
-      "path": "business-icons/duotone/ads.svg",
-      "title": "Ads",
-      "englishName": "Ads",
-      "componentName": "Ads",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "advertising_outlined",
+      "path": "business-icons/outlined/advertising_outlined.svg",
+      "title": "广告",
+      "englishName": "advertising",
+      "componentName": "AdvertisingOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Ads",
-        "tags": ["Ads", "业务图标"],
-        "use-cases": ["Ads相关入口或状态展示"],
+        "name": "广告",
+        "tags": ["广告", "左侧导航", "广告投放", "获客", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的广告模块入口", "用于引导用户进入广告投放和获客功能"],
         "i18n": {
           "en": {
-            "name": "Ads",
-            "tags": ["Ads", "business icon"],
-            "use-cases": ["Ads entry or status"]
+            "name": "advertising",
+            "tags": [
+              "advertising",
+              "sidebar navigation",
+              "ad campaigns",
+              "lead generation",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Advertising module",
+              "Navigate to advertising and lead generation features"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Ads"
-          }
-        ]
+        "aliases": ["advertising"]
       }
     },
     {
       "type": "business-icon",
-      "name": "aftersale",
-      "path": "business-icons/duotone/aftersale.svg",
-      "title": "Aftersale",
-      "englishName": "Aftersale",
-      "componentName": "Aftersale",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Aftersale",
-        "tags": ["Aftersale", "业务图标"],
-        "use-cases": ["Aftersale相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Aftersale",
-            "tags": ["Aftersale", "business icon"],
-            "use-cases": ["Aftersale entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Aftersale"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "agent",
-      "path": "business-icons/duotone/agent.svg",
-      "title": "agent",
+      "name": "agent_filled",
+      "path": "business-icons/filled/agent_filled.svg",
+      "title": "客服坐席",
       "englishName": "agent",
-      "componentName": "Agent",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "componentName": "AgentFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "agent",
-        "tags": ["agent", "业务图标"],
-        "use-cases": ["agent相关入口或状态展示"],
+        "name": "客服坐席",
+        "tags": ["客服坐席", "Inbox", "会话分配", "流程条件", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Inbox 会话、坐席分析和 Calling 日志中的坐席标识",
+          "用于 Inbox Flow 的坐席归属条件和节点展示"
+        ],
         "i18n": {
           "en": {
             "name": "agent",
-            "tags": ["agent", "business icon"],
-            "use-cases": ["agent entry or status"]
-          }
-        }
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "botfilled",
-      "path": "business-icons/duotone/botfilled.svg",
-      "title": "机器人",
-      "englishName": "bot filled",
-      "componentName": "Botfilled",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "机器人",
-        "tags": ["机器人", "双色业务图标", "业务图标"],
-        "use-cases": ["机器人相关入口或状态展示", "需要兼容历史业务视觉的 机器人 场景"],
-        "i18n": {
-          "en": {
-            "name": "bot filled",
-            "tags": ["bot filled", "botfilled", "duotone", "business icon"],
+            "tags": [
+              "agent",
+              "inbox",
+              "conversation assignment",
+              "flow condition",
+              "filled",
+              "business icon"
+            ],
             "use-cases": [
-              "bot filled entry or status",
-              "Legacy business visual for bot filled scenarios"
+              "Identify agents in Inbox conversations, analytics, and Calling logs",
+              "Represent agent ownership conditions and nodes in Inbox Flow"
             ]
           }
-        }
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "calling",
-      "path": "business-icons/mono/calling.svg",
-      "title": "Calling",
-      "englishName": "Calling",
-      "componentName": "Calling",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Calling",
-        "tags": ["Calling", "业务图标"],
-        "use-cases": ["Calling相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Calling",
-            "tags": ["Calling", "business icon"],
-            "use-cases": ["Calling entry or status"]
-          }
         },
-        "aliases": [
-          {
-            "name": "Calling-wrap"
-          }
-        ]
+        "aliases": ["agent"]
       }
     },
     {
       "type": "business-icon",
-      "name": "cart",
-      "path": "business-icons/mono/cart.svg",
-      "title": "Cart",
-      "englishName": "Cart",
-      "componentName": "Cart",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "agent_guide_filled",
+      "path": "business-icons/filled/agent_guide_filled.svg",
+      "title": "客服坐席引导",
+      "englishName": "agent guide",
+      "componentName": "AgentGuideFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Cart",
-        "tags": ["Cart", "业务图标"],
-        "use-cases": ["Cart相关入口或状态展示"],
+        "name": "客服坐席引导",
+        "tags": ["人工接管", "客服坐席", "Inbox Flow", "流程节点", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox Flow 中的人工坐席接管节点", "标识自动化流程转交给客服处理"],
         "i18n": {
           "en": {
-            "name": "Cart",
-            "tags": ["Cart", "business icon"],
-            "use-cases": ["Cart entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Cart-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "category",
-      "path": "business-icons/duotone/category.svg",
-      "title": "Category",
-      "englishName": "Category",
-      "componentName": "Category",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Category",
-        "tags": ["Category", "业务图标"],
-        "use-cases": ["Category相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Category",
-            "tags": ["Category", "business icon"],
-            "use-cases": ["Category entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Category"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "chatbot",
-      "path": "business-icons/mono/chatbot.svg",
-      "title": "Chatbot",
-      "englishName": "Chatbot",
-      "componentName": "Chatbot",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Chatbot",
-        "tags": ["Chatbot", "业务图标"],
-        "use-cases": ["Chatbot相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Chatbot",
-            "tags": ["Chatbot", "business icon"],
-            "use-cases": ["Chatbot entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Chatbot-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "coming-soon",
-      "path": "business-icons/duotone/coming-soon.svg",
-      "title": "即将上线",
-      "englishName": "coming soon",
-      "componentName": "ComingSoon",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "即将上线",
-        "tags": ["即将上线", "即将", "上线", "双色业务图标", "业务图标"],
-        "use-cases": ["即将上线相关入口或状态展示", "需要兼容历史业务视觉的 即将上线 场景"],
-        "i18n": {
-          "en": {
-            "name": "coming soon",
-            "tags": ["coming soon", "coming", "soon", "duotone", "business icon"],
+            "name": "agent guide",
+            "tags": [
+              "agent takeover",
+              "agent",
+              "inbox flow",
+              "workflow node",
+              "filled",
+              "business icon"
+            ],
             "use-cases": [
-              "coming soon entry or status",
-              "Legacy business visual for coming soon scenarios"
+              "Agent takeover node in Inbox Flow",
+              "Indicate handoff from automation to a support agent"
             ]
           }
-        }
+        },
+        "aliases": ["agent-guide", "agent-guide_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "contact",
-      "path": "business-icons/mono/contact.svg",
-      "title": "Contact",
-      "englishName": "Contact",
-      "componentName": "Contact",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "agent_with_time_filled",
+      "path": "business-icons/filled/agent_with_time_filled.svg",
+      "title": "客服坐席with时间",
+      "englishName": "agent with time",
+      "componentName": "AgentWithTimeFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Contact",
-        "tags": ["Contact", "业务图标"],
-        "use-cases": ["Contact相关入口或状态展示"],
+        "name": "客服坐席with时间",
+        "tags": ["最近处理坐席", "客服坐席", "处理时间", "Inbox Flow", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox Flow 的最近处理坐席条件", "标识带处理时间信息的坐席归属节点"],
         "i18n": {
           "en": {
-            "name": "Contact",
-            "tags": ["Contact", "business icon"],
-            "use-cases": ["Contact entry or status"]
+            "name": "agent with time",
+            "tags": [
+              "last handled agent",
+              "agent",
+              "handling time",
+              "inbox flow",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Last-handled-agent condition in Inbox Flow",
+              "Represent agent ownership with handling-time context"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Contact-wrap"
-          }
-        ]
+        "aliases": ["agent-with-time", "agent-with-time_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "date",
-      "path": "business-icons/duotone/date.svg",
-      "title": "Date",
-      "englishName": "Date",
-      "componentName": "Date",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "alipay_filled",
+      "path": "business-icons/filled/alipay_filled.svg",
+      "title": "alipay",
+      "englishName": "alipay",
+      "componentName": "AlipayFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Date",
-        "tags": ["Date", "业务图标"],
-        "use-cases": ["Date相关入口或状态展示"],
+        "name": "alipay",
+        "tags": ["支付宝", "支付方式", "购买额度", "账单", "填充", "业务图标"],
+        "use-cases": ["用于支付方式选择中的支付宝选项", "用于购买额度页面展示支付宝支付渠道"],
         "i18n": {
           "en": {
-            "name": "Date",
-            "tags": ["Date", "business icon"],
-            "use-cases": ["Date entry or status"]
+            "name": "alipay",
+            "tags": [
+              "alipay",
+              "payment method",
+              "buy credits",
+              "billing",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Alipay option in payment method selectors",
+              "Display Alipay as a payment channel when buying credits"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Date"
-          }
-        ]
+        "aliases": ["alipay"]
       }
     },
     {
       "type": "business-icon",
-      "name": "developers",
-      "path": "business-icons/mono/developers.svg",
-      "title": "Developers",
-      "englishName": "Developers",
-      "componentName": "Developers",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "analytics_filled",
+      "path": "business-icons/filled/analytics_filled.svg",
+      "title": "分析",
+      "englishName": "analytics",
+      "componentName": "AnalyticsFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Developers",
-        "tags": ["Developers", "业务图标"],
-        "use-cases": ["Developers相关入口或状态展示"],
+        "name": "分析",
+        "tags": ["数据分析", "集成", "使用指南", "功能卖点", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Email、SMS 和号码验证集成的分析能力说明",
+          "用于集成上手页展示数据分析卖点"
+        ],
         "i18n": {
           "en": {
-            "name": "Developers",
-            "tags": ["Developers", "business icon"],
-            "use-cases": ["Developers entry or status"]
+            "name": "analytics",
+            "tags": [
+              "analytics",
+              "integration",
+              "getting started",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Explain analytics capabilities for Email, SMS, and number verification integrations",
+              "Show analytics benefits on integration getting-started pages"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Developers-wrap"
-          }
-        ]
+        "aliases": ["analytics"]
       }
     },
     {
       "type": "business-icon",
-      "name": "direction",
-      "path": "business-icons/duotone/direction.svg",
-      "title": "Direction",
-      "englishName": "Direction",
-      "componentName": "Direction",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "authentication_filled",
+      "path": "business-icons/filled/authentication_filled.svg",
+      "title": "authentication",
+      "englishName": "authentication",
+      "componentName": "AuthenticationFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Direction",
-        "tags": ["Direction", "业务图标"],
-        "use-cases": ["Direction相关入口或状态展示"],
+        "name": "authentication",
+        "tags": ["身份验证", "Email 集成", "安全接入", "使用指南", "填充", "业务图标"],
+        "use-cases": ["用于 Email 集成上手页展示身份验证能力", "说明邮件服务接入时的认证保障"],
         "i18n": {
           "en": {
-            "name": "Direction",
-            "tags": ["Direction", "business icon"],
-            "use-cases": ["Direction entry or status"]
+            "name": "authentication",
+            "tags": [
+              "authentication",
+              "email integration",
+              "secure access",
+              "getting started",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show authentication capability on the Email integration getting-started page",
+              "Explain authentication protection for email service setup"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Direction"
-          }
-        ]
+        "aliases": ["authentication"]
       }
     },
     {
       "type": "business-icon",
-      "name": "global",
-      "path": "business-icons/duotone/global.svg",
-      "title": "Global",
-      "englishName": "Global",
-      "componentName": "Global",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "benefit_analytics_filled",
+      "path": "business-icons/filled/benefit_analytics_filled.svg",
+      "title": "benefit分析",
+      "englishName": "benefit analytics",
+      "componentName": "BenefitAnalyticsFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Global",
-        "tags": ["Global", "业务图标"],
-        "use-cases": ["Global相关入口或状态展示"],
+        "name": "benefit分析",
+        "tags": ["分析能力", "号码验证", "集成卖点", "数据洞察", "填充", "业务图标"],
+        "use-cases": ["用于号码验证集成上手页展示分析收益", "说明验证结果的数据洞察能力"],
         "i18n": {
           "en": {
-            "name": "Global",
-            "tags": ["Global", "business icon"],
-            "use-cases": ["Global entry or status"]
+            "name": "benefit analytics",
+            "tags": [
+              "analytics benefit",
+              "number verification",
+              "integration benefit",
+              "insights",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show analytics benefits on number verification onboarding",
+              "Explain insights available from verification results"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Global"
-          }
-        ]
+        "aliases": ["benefit-analytics", "benefit-analytics_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "home",
-      "path": "business-icons/mono/home.svg",
-      "title": "Home",
-      "englishName": "Home",
-      "componentName": "Home",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "benefit_payments_filled",
+      "path": "business-icons/filled/benefit_payments_filled.svg",
+      "title": "benefit支付",
+      "englishName": "benefit payments",
+      "componentName": "BenefitPaymentsFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Home",
-        "tags": ["Home", "业务图标"],
-        "use-cases": ["Home相关入口或状态展示"],
+        "name": "benefit支付",
+        "tags": ["支付收益", "Email 集成", "集成卖点", "费用", "填充", "业务图标"],
+        "use-cases": ["用于 Email 集成上手页展示支付相关收益", "说明邮件服务的费用和支付优势"],
         "i18n": {
           "en": {
-            "name": "Home",
-            "tags": ["Home", "business icon"],
-            "use-cases": ["Home entry or status"]
+            "name": "benefit payments",
+            "tags": [
+              "payments benefit",
+              "email integration",
+              "integration benefit",
+              "cost",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show payment-related benefits on Email integration onboarding",
+              "Explain pricing and payment advantages for email services"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Home-wrap"
-          }
-        ]
+        "aliases": ["benefit-payments", "benefit-payments_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "hub-spot",
-      "path": "business-icons/multicolor/hub-spot.svg",
+      "name": "benefit_restriction_filled",
+      "path": "business-icons/filled/benefit_restriction_filled.svg",
+      "title": "benefitrestriction",
+      "englishName": "benefit restriction",
+      "componentName": "BenefitRestrictionFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefitrestriction",
+        "tags": ["限制管理", "Email 集成", "集成卖点", "发送规则", "填充", "业务图标"],
+        "use-cases": ["用于 Email 集成上手页展示限制管理能力", "说明邮件发送规则和限制控制"],
+        "i18n": {
+          "en": {
+            "name": "benefit restriction",
+            "tags": [
+              "restriction benefit",
+              "email integration",
+              "integration benefit",
+              "sending rules",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show restriction management on Email integration onboarding",
+              "Explain email sending rules and limit controls"
+            ]
+          }
+        },
+        "aliases": ["benefit-restriction", "benefit-restriction_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit_sender_filled",
+      "path": "business-icons/filled/benefit_sender_filled.svg",
+      "title": "benefitsender",
+      "englishName": "benefit sender",
+      "componentName": "BenefitSenderFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefitsender",
+        "tags": ["发送方", "SMS 集成", "集成卖点", "消息发送", "填充", "业务图标"],
+        "use-cases": ["用于 SMS 集成上手页展示发送方能力", "说明短信发送渠道和发送方支持"],
+        "i18n": {
+          "en": {
+            "name": "benefit sender",
+            "tags": [
+              "sender benefit",
+              "sms integration",
+              "integration benefit",
+              "message sending",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show sender capabilities on SMS integration onboarding",
+              "Explain SMS sending channels and sender support"
+            ]
+          }
+        },
+        "aliases": ["benefit-sender", "benefit-sender_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit_simple_filled",
+      "path": "business-icons/filled/benefit_simple_filled.svg",
+      "title": "benefitsimple",
+      "englishName": "benefit simple",
+      "componentName": "BenefitSimpleFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefitsimple",
+        "tags": ["简单易用", "号码验证", "集成卖点", "快速接入", "填充", "业务图标"],
+        "use-cases": ["用于号码验证集成上手页展示易用性", "说明号码验证服务的快速接入体验"],
+        "i18n": {
+          "en": {
+            "name": "benefit simple",
+            "tags": [
+              "simplicity benefit",
+              "number verification",
+              "integration benefit",
+              "quick setup",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show ease of use on number verification onboarding",
+              "Explain the quick setup experience for number verification"
+            ]
+          }
+        },
+        "aliases": ["benefit-simple", "benefit-simple_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit_smile_filled",
+      "path": "business-icons/filled/benefit_smile_filled.svg",
+      "title": "benefitsmile",
+      "englishName": "benefit smile",
+      "componentName": "BenefitSmileFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefitsmile",
+        "tags": ["用户体验", "SMS 集成", "集成卖点", "客户沟通", "填充", "业务图标"],
+        "use-cases": ["用于 SMS 集成上手页展示客户体验收益", "说明短信沟通带来的用户体验提升"],
+        "i18n": {
+          "en": {
+            "name": "benefit smile",
+            "tags": [
+              "experience benefit",
+              "sms integration",
+              "integration benefit",
+              "customer communication",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show customer experience benefits on SMS integration onboarding",
+              "Explain experience improvements from SMS communication"
+            ]
+          }
+        },
+        "aliases": ["benefit-smile", "benefit-smile_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit_statistical_filled",
+      "path": "business-icons/filled/benefit_statistical_filled.svg",
+      "title": "benefitstatistical",
+      "englishName": "benefit statistical",
+      "componentName": "BenefitStatisticalFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefitstatistical",
+        "tags": ["统计数据", "Email 集成", "集成卖点", "发送分析", "填充", "业务图标"],
+        "use-cases": ["用于 Email 集成上手页展示统计能力", "说明邮件发送结果和统计分析"],
+        "i18n": {
+          "en": {
+            "name": "benefit statistical",
+            "tags": [
+              "statistics benefit",
+              "email integration",
+              "integration benefit",
+              "sending analytics",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show statistics capabilities on Email integration onboarding",
+              "Explain email delivery results and statistical analysis"
+            ]
+          }
+        },
+        "aliases": ["benefit-statistical", "benefit-statistical_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "benefit_template_filled",
+      "path": "business-icons/filled/benefit_template_filled.svg",
+      "title": "benefit模板",
+      "englishName": "benefit template",
+      "componentName": "BenefitTemplateFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "benefit模板",
+        "tags": ["消息模板", "号码验证", "集成卖点", "标准化", "填充", "业务图标"],
+        "use-cases": ["用于号码验证集成上手页展示模板能力", "说明标准化验证流程和结果展示"],
+        "i18n": {
+          "en": {
+            "name": "benefit template",
+            "tags": [
+              "template benefit",
+              "number verification",
+              "integration benefit",
+              "standardization",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show template capabilities on number verification onboarding",
+              "Explain standardized verification flows and results"
+            ]
+          }
+        },
+        "aliases": ["benefit-template", "benefit-template_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "branch_filled",
+      "path": "business-icons/filled/branch_filled.svg",
+      "title": "branch",
+      "englishName": "branch",
+      "componentName": "BranchFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "branch",
+        "tags": ["条件分支", "Inbox Flow", "流程节点", "路由", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox Flow 的条件分支节点", "标识自动化流程根据条件进入不同路径"],
+        "i18n": {
+          "en": {
+            "name": "branch",
+            "tags": ["branch", "inbox flow", "workflow node", "routing", "filled", "business icon"],
+            "use-cases": [
+              "Condition branch node in Inbox Flow",
+              "Indicate routing into different automation paths"
+            ]
+          }
+        },
+        "aliases": ["branch"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "calling_filled",
+      "path": "business-icons/filled/calling_filled.svg",
+      "title": "calling",
+      "englishName": "calling",
+      "componentName": "CallingFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "calling",
+        "tags": ["Calling", "通话日志", "筛选条件", "状态", "填充", "业务图标"],
+        "use-cases": ["用于 Calling 日志页面标识通话类型", "用于通话日志筛选项和状态展示"],
+        "i18n": {
+          "en": {
+            "name": "calling",
+            "tags": ["calling", "call logs", "filter", "status", "filled", "business icon"],
+            "use-cases": [
+              "Identify call types on the Calling logs page",
+              "Display Calling filters and statuses in call logs"
+            ]
+          }
+        },
+        "aliases": ["calling"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "calling_outlined",
+      "path": "business-icons/outlined/calling_outlined.svg",
+      "title": "呼叫",
+      "englishName": "calling",
+      "componentName": "CallingOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "呼叫",
+        "tags": ["Calling", "左侧导航", "通话", "菜单", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的 Calling 模块入口", "导航到通话管理和通话日志功能"],
+        "i18n": {
+          "en": {
+            "name": "calling",
+            "tags": ["calling", "sidebar navigation", "calls", "menu", "outlined", "business icon"],
+            "use-cases": [
+              "Sidebar entry for the Calling module",
+              "Navigate to call management and call logs"
+            ]
+          }
+        },
+        "aliases": ["calling"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "campaign_filled",
+      "path": "business-icons/filled/campaign_filled.svg",
+      "title": "营销活动",
+      "englishName": "campaign",
+      "componentName": "CampaignFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "营销活动",
+        "tags": ["营销活动", "新手引导", "目标选择", "群发", "填充", "业务图标"],
+        "use-cases": ["用于新手引导中选择营销活动目标", "用于入门目标卡片展示营销群发方向"],
+        "i18n": {
+          "en": {
+            "name": "campaign",
+            "tags": [
+              "campaign",
+              "onboarding",
+              "goal selection",
+              "broadcast",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Select the marketing campaign goal during onboarding",
+              "Show the campaign and broadcast goal in getting-started cards"
+            ]
+          }
+        },
+        "aliases": ["campaign"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "campaign_outlined",
+      "path": "business-icons/outlined/campaign_outlined.svg",
+      "title": "营销活动",
+      "englishName": "campaign",
+      "componentName": "CampaignOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "营销活动",
+        "tags": ["营销活动", "左侧导航", "Journey", "群发", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的营销和 Journey 模块入口", "导航到营销活动、群发和自动化旅程"],
+        "i18n": {
+          "en": {
+            "name": "campaign",
+            "tags": [
+              "campaign",
+              "sidebar navigation",
+              "journey",
+              "broadcast",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for Campaign and Journey features",
+              "Navigate to campaigns, broadcasts, and automated journeys"
+            ]
+          }
+        },
+        "aliases": ["campaign"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "cancel_filled",
+      "path": "business-icons/filled/cancel_filled.svg",
+      "title": "取消",
+      "englishName": "cancel",
+      "componentName": "CancelFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "取消",
+        "tags": ["取消", "关闭", "失败", "终止", "填充", "业务图标"],
+        "use-cases": ["取消操作入口或状态提示", "流程终止、失败反馈或关闭动作场景"],
+        "i18n": {
+          "en": {
+            "name": "cancel",
+            "tags": ["cancel", "close", "failed", "terminate", "filled", "business icon"],
+            "use-cases": [
+              "Cancel action entry or status feedback",
+              "Flow termination, failure feedback, or close action scenarios"
+            ]
+          }
+        },
+        "aliases": ["cancel_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "cart_outlined",
+      "path": "business-icons/outlined/cart_outlined.svg",
+      "title": "购物车",
+      "englishName": "cart",
+      "componentName": "CartOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "购物车",
+        "tags": ["购物车", "购物", "订单", "电商", "描边", "业务图标"],
+        "use-cases": ["购物车菜单入口", "电商订单或商品购买流程页面"],
+        "i18n": {
+          "en": {
+            "name": "cart",
+            "tags": ["cart", "shopping", "order", "commerce", "outlined", "business icon"],
+            "use-cases": ["Shopping cart menu entry", "Commerce order or checkout flow pages"]
+          }
+        },
+        "aliases": ["cart"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "chatbot_outlined",
+      "path": "business-icons/outlined/chatbot_outlined.svg",
+      "title": "聊天机器人",
+      "englishName": "chatbot",
+      "componentName": "ChatbotOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "聊天机器人",
+        "tags": ["聊天机器人", "左侧导航", "自动回复", "消息来源", "描边", "业务图标"],
+        "use-cases": [
+          "用于左侧菜单的 Chatbot 模块入口",
+          "用于 Inbox 头像中标识机器人或自动回复消息来源"
+        ],
+        "i18n": {
+          "en": {
+            "name": "chatbot",
+            "tags": [
+              "chatbot",
+              "sidebar navigation",
+              "automated reply",
+              "message source",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Chatbot module",
+              "Identify bot and automated-reply message sources in Inbox avatars"
+            ]
+          }
+        },
+        "aliases": ["chatbot"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "check_cancel_filled",
+      "path": "business-icons/filled/check_cancel_filled.svg",
+      "title": "检查cancel",
+      "englishName": "check cancel",
+      "componentName": "CheckCancelFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "检查cancel",
+        "tags": ["消息状态", "成功失败", "Journey", "流程节点", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 流程中的消息状态规则节点", "标识消息成功或失败的条件判断"],
+        "i18n": {
+          "en": {
+            "name": "check cancel",
+            "tags": [
+              "message status",
+              "success and failure",
+              "journey",
+              "workflow node",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Message status rule node in Journey flows",
+              "Represent success or failure conditions for messages"
+            ]
+          }
+        },
+        "aliases": ["check-cancel", "check-cancel_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "check_filled",
+      "path": "business-icons/filled/check_filled.svg",
+      "title": "确认",
+      "englishName": "check",
+      "componentName": "CheckFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "确认",
+        "tags": ["确认", "成功", "完成", "勾选", "填充", "业务图标"],
+        "use-cases": ["确认操作入口或成功状态提示", "任务完成、校验通过或选中状态场景"],
+        "i18n": {
+          "en": {
+            "name": "check",
+            "tags": ["check", "success", "complete", "selected", "filled", "business icon"],
+            "use-cases": [
+              "Confirm action entry or success status feedback",
+              "Task completion, validation passed, or selected state scenarios"
+            ]
+          }
+        },
+        "aliases": ["check_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "code_filled",
+      "path": "business-icons/filled/code_filled.svg",
+      "title": "代码",
+      "englishName": "code",
+      "componentName": "CodeFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "代码",
+        "tags": ["开发接入", "新手引导", "目标选择", "WhatsApp API", "填充", "业务图标"],
+        "use-cases": [
+          "用于新手引导中选择 WhatsApp API 接入目标",
+          "用于入门目标卡片展示开发集成方向"
+        ],
+        "i18n": {
+          "en": {
+            "name": "code",
+            "tags": [
+              "developer integration",
+              "onboarding",
+              "goal selection",
+              "whatsapp api",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Select the WhatsApp API integration goal during onboarding",
+              "Show the developer integration goal in getting-started cards"
+            ]
+          }
+        },
+        "aliases": ["code"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "coding_filled",
+      "path": "business-icons/filled/coding_filled.svg",
+      "title": "coding",
+      "englishName": "coding",
+      "componentName": "CodingFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "coding",
+        "tags": ["开发集成", "SMS 集成", "代码接入", "使用指南", "填充", "业务图标"],
+        "use-cases": ["用于 SMS 集成上手页展示代码接入能力", "说明开发者通过接口接入短信服务"],
+        "i18n": {
+          "en": {
+            "name": "coding",
+            "tags": [
+              "coding",
+              "sms integration",
+              "developer setup",
+              "getting started",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show developer setup on SMS integration onboarding",
+              "Explain API-based integration with SMS services"
+            ]
+          }
+        },
+        "aliases": ["coding"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "contact_outlined",
+      "path": "business-icons/outlined/contact_outlined.svg",
+      "title": "联系人",
+      "englishName": "contact",
+      "componentName": "ContactOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "联系人",
+        "tags": ["联系人", "左侧导航", "客户管理", "菜单", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的联系人模块入口", "导航到联系人列表、分群和客户数据管理"],
+        "i18n": {
+          "en": {
+            "name": "contact",
+            "tags": [
+              "contact",
+              "sidebar navigation",
+              "customer management",
+              "menu",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Contacts module",
+              "Navigate to contact lists, segments, and customer data management"
+            ]
+          }
+        },
+        "aliases": ["contact"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "credit_card_filled",
+      "path": "business-icons/filled/credit_card_filled.svg",
+      "title": "creditcard",
+      "englishName": "credit card",
+      "componentName": "CreditCardFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "creditcard",
+        "tags": ["信用卡", "支付方式", "购买额度", "账单", "填充", "业务图标"],
+        "use-cases": ["用于支付方式选择中的信用卡选项", "用于购买额度页面展示银行卡支付渠道"],
+        "i18n": {
+          "en": {
+            "name": "credit card",
+            "tags": [
+              "credit card",
+              "payment method",
+              "buy credits",
+              "billing",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Credit card option in payment method selectors",
+              "Display card payment when buying credits"
+            ]
+          }
+        },
+        "aliases": ["credit-card", "credit-card_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "date_time_filled",
+      "path": "business-icons/filled/date_time_filled.svg",
+      "title": "date时间",
+      "englishName": "date time",
+      "componentName": "DateTimeFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "date时间",
+        "tags": ["日期时间", "Inbox 分析", "通话日志", "响应时间", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Inbox 分析和会话表格展示时间维度",
+          "用于 Calling 日志及坐席响应时间筛选和统计"
+        ],
+        "i18n": {
+          "en": {
+            "name": "date time",
+            "tags": [
+              "date and time",
+              "inbox analytics",
+              "call logs",
+              "response time",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Display time dimensions in Inbox analytics and conversation tables",
+              "Support Calling log and agent response-time filters and metrics"
+            ]
+          }
+        },
+        "aliases": ["date-time", "date-time_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "developers_outlined",
+      "path": "business-icons/outlined/developers_outlined.svg",
+      "title": "开发者",
+      "englishName": "developers",
+      "componentName": "DevelopersOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "开发者",
+        "tags": ["开发者", "左侧导航", "API", "应用", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的 Developers 模块入口", "导航到 API、应用和开发者配置"],
+        "i18n": {
+          "en": {
+            "name": "developers",
+            "tags": [
+              "developers",
+              "sidebar navigation",
+              "api",
+              "apps",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Developers module",
+              "Navigate to APIs, apps, and developer configuration"
+            ]
+          }
+        },
+        "aliases": ["developers"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "discount_filled",
+      "path": "business-icons/filled/discount_filled.svg",
+      "title": "discount",
+      "englishName": "discount",
+      "componentName": "DiscountFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "discount",
+        "tags": ["限时优惠", "消息模板", "折扣", "营销", "填充", "业务图标"],
+        "use-cases": ["用于消息模板中的限时优惠内容展示", "标识营销模板里的折扣和优惠信息"],
+        "i18n": {
+          "en": {
+            "name": "discount",
+            "tags": [
+              "limited-time offer",
+              "message template",
+              "discount",
+              "marketing",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Display limited-time offers in message templates",
+              "Identify discount and promotion content in marketing templates"
+            ]
+          }
+        },
+        "aliases": ["discount"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "doc_csv_filled",
+      "path": "business-icons/filled/doc_csv_filled.svg",
+      "title": "文档csv",
+      "englishName": "doc csv",
+      "componentName": "DocCsvFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "文档csv",
+        "tags": ["CSV 文件", "联系人导入", "批量上传", "文件", "填充", "业务图标"],
+        "use-cases": ["用于新增联系人弹窗的文件上传入口", "标识通过 CSV 批量导入联系人"],
+        "i18n": {
+          "en": {
+            "name": "doc csv",
+            "tags": [
+              "csv file",
+              "contact import",
+              "bulk upload",
+              "file",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "File upload entry in the add-contact dialog",
+              "Indicate bulk contact import through CSV"
+            ]
+          }
+        },
+        "aliases": ["doc-csv", "doc-csv_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "filter_event_filled",
+      "path": "business-icons/filled/filter_event_filled.svg",
+      "title": "筛选事件",
+      "englishName": "filter event",
+      "componentName": "FilterEventFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "筛选事件",
+        "tags": ["事件筛选", "Journey", "联系人事件", "规则", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 事件或数据规则的筛选入口", "标识联系人事件条件和规则标签"],
+        "i18n": {
+          "en": {
+            "name": "filter event",
+            "tags": ["event filter", "journey", "contact event", "rule", "filled", "business icon"],
+            "use-cases": [
+              "Filter entry for Journey event and data rules",
+              "Represent contact event conditions and rule chips"
+            ]
+          }
+        },
+        "aliases": ["filter-event", "filter-event_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "global_filled",
+      "path": "business-icons/filled/global_filled.svg",
+      "title": "全球",
+      "englishName": "global",
+      "componentName": "GlobalFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "全球",
+        "tags": ["国家地区", "Inbox Flow", "SMS 集成", "全球覆盖", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox Flow 的国家或地区条件", "用于 SMS 集成上手页展示全球覆盖能力"],
+        "i18n": {
+          "en": {
+            "name": "global",
+            "tags": [
+              "country and region",
+              "inbox flow",
+              "sms integration",
+              "global coverage",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Country or region condition in Inbox Flow",
+              "Show global coverage on SMS integration onboarding"
+            ]
+          }
+        },
+        "aliases": ["global"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "home_outlined",
+      "path": "business-icons/outlined/home_outlined.svg",
+      "title": "首页",
+      "englishName": "home",
+      "componentName": "HomeOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "首页",
+        "tags": ["首页", "主页", "概览", "仪表盘", "描边", "业务图标"],
+        "use-cases": ["首页菜单入口", "工作台、概览或仪表盘页面"],
+        "i18n": {
+          "en": {
+            "name": "home",
+            "tags": ["home", "overview", "dashboard", "workspace", "outlined", "business icon"],
+            "use-cases": ["Home menu entry", "Workspace, overview, or dashboard pages"]
+          }
+        },
+        "aliases": ["home"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "hub_spot",
+      "path": "business-icons/multicolor/hub_spot.svg",
       "title": "HubSpot",
-      "englishName": "HubSpot",
+      "englishName": "hub spot",
       "componentName": "HubSpot",
       "category": "multicolor",
       "colorMode": "multicolor",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
         "name": "HubSpot",
-        "tags": ["HubSpot", "集成", "客户关系管理", "多色业务图标", "业务图标"],
-        "use-cases": ["HubSpot 集成入口或状态展示", "需要兼容历史业务视觉的 HubSpot 场景"],
+        "tags": ["HubSpot", "联系人同步", "Inbox", "集成", "多色", "品牌图标"],
+        "use-cases": [
+          "用于 Calling 联系人详情中标识 HubSpot 同步信息",
+          "用于 Inbox 消息头像中标识 HubSpot 自动化来源"
+        ],
         "i18n": {
           "en": {
-            "name": "HubSpot",
-            "tags": ["HubSpot", "hub", "spot", "multicolor", "business icon"],
-            "use-cases": ["HubSpot entry or status", "Legacy business visual for HubSpot scenarios"]
-          }
-        }
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "inbox",
-      "path": "business-icons/mono/inbox.svg",
-      "title": "Inbox",
-      "englishName": "Inbox",
-      "componentName": "Inbox",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Inbox",
-        "tags": ["Inbox", "业务图标"],
-        "use-cases": ["Inbox相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Inbox",
-            "tags": ["Inbox", "business icon"],
-            "use-cases": ["Inbox entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Inbox-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "inbox-whats-app",
-      "path": "business-icons/duotone/inbox-whats-app.svg",
-      "title": "InboxWhatsApp",
-      "englishName": "InboxWhatsApp",
-      "componentName": "InboxWhatsApp",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "InboxWhatsApp",
-        "tags": ["InboxWhatsApp", "业务图标"],
-        "use-cases": ["InboxWhatsApp相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "InboxWhatsApp",
-            "tags": ["InboxWhatsApp", "business icon"],
-            "use-cases": ["InboxWhatsApp entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "InboxWhatsApp"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "integration",
-      "path": "business-icons/mono/integration.svg",
-      "title": "Integration",
-      "englishName": "Integration",
-      "componentName": "Integration",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Integration",
-        "tags": ["Integration", "业务图标"],
-        "use-cases": ["Integration相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Integration",
-            "tags": ["Integration", "business icon"],
-            "use-cases": ["Integration entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Integration-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "journey",
-      "path": "business-icons/mono/journey.svg",
-      "title": "Journey",
-      "englishName": "Journey",
-      "componentName": "Journey",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Journey",
-        "tags": ["Journey", "业务图标"],
-        "use-cases": ["Journey相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Journey",
-            "tags": ["Journey", "business icon"],
-            "use-cases": ["Journey entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Journey-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "language",
-      "path": "business-icons/duotone/language.svg",
-      "title": "Language",
-      "englishName": "Language",
-      "componentName": "Language",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Language",
-        "tags": ["Language", "业务图标"],
-        "use-cases": ["Language相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Language",
-            "tags": ["Language", "business icon"],
-            "use-cases": ["Language entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Language"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "megaphone",
-      "path": "business-icons/mono/megaphone.svg",
-      "title": "Megaphone",
-      "englishName": "Megaphone",
-      "componentName": "Megaphone",
-      "category": "mono",
-      "colorMode": "mono",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Megaphone",
-        "tags": ["Megaphone", "业务图标"],
-        "use-cases": ["Megaphone相关入口或状态展示"],
-        "i18n": {
-          "en": {
-            "name": "Megaphone",
-            "tags": ["Megaphone", "business icon"],
-            "use-cases": ["Megaphone entry or status"]
-          }
-        },
-        "aliases": [
-          {
-            "name": "Megaphone-wrap"
-          }
-        ]
-      }
-    },
-    {
-      "type": "business-icon",
-      "name": "meta-filled",
-      "path": "business-icons/duotone/meta-filled.svg",
-      "title": "Meta填充",
-      "englishName": "meta filled",
-      "componentName": "MetaFilled",
-      "category": "duotone",
-      "colorMode": "duotone",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "Meta填充",
-        "tags": ["Meta填充", "Meta", "填充", "双色业务图标", "业务图标"],
-        "use-cases": ["Meta填充相关入口或状态展示", "需要兼容历史业务视觉的 Meta填充 场景"],
-        "i18n": {
-          "en": {
-            "name": "meta filled",
-            "tags": ["meta filled", "meta", "filled", "duotone", "business icon"],
+            "name": "hub spot",
+            "tags": ["hubspot", "contact sync", "inbox", "integration", "multicolor", "brand icon"],
             "use-cases": [
-              "meta filled entry or status",
-              "Legacy business visual for meta filled scenarios"
+              "Identify HubSpot sync information in Calling contact details",
+              "Identify HubSpot automation sources in Inbox message avatars"
             ]
           }
-        }
+        },
+        "aliases": ["hub-spot"]
       }
     },
     {
       "type": "business-icon",
-      "name": "order",
-      "path": "business-icons/mono/order.svg",
-      "title": "Order",
-      "englishName": "Order",
-      "componentName": "Order",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "inbox_outlined",
+      "path": "business-icons/outlined/inbox_outlined.svg",
+      "title": "收件箱",
+      "englishName": "inbox",
+      "componentName": "InboxOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Order",
-        "tags": ["Order", "业务图标"],
-        "use-cases": ["Order相关入口或状态展示"],
+        "name": "收件箱",
+        "tags": ["Inbox", "左侧导航", "会话", "自动回复", "描边", "业务图标"],
+        "use-cases": [
+          "用于左侧菜单的 Inbox 模块入口",
+          "用于 Inbox 消息头像中标识收件箱自动回复来源"
+        ],
         "i18n": {
           "en": {
-            "name": "Order",
-            "tags": ["Order", "business icon"],
-            "use-cases": ["Order entry or status"]
+            "name": "inbox",
+            "tags": [
+              "inbox",
+              "sidebar navigation",
+              "conversation",
+              "automated reply",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Inbox module",
+              "Identify Inbox automated-reply sources in message avatars"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Order-wrap"
-          }
-        ]
+        "aliases": ["inbox"]
       }
     },
     {
       "type": "business-icon",
-      "name": "orders-paid",
-      "path": "business-icons/duotone/orders-paid.svg",
-      "title": "Orders-Paid",
-      "englishName": "Orders-Paid",
-      "componentName": "OrdersPaid",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "info_filled",
+      "path": "business-icons/filled/info_filled.svg",
+      "title": "信息",
+      "englishName": "info",
+      "componentName": "InfoFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Orders-Paid",
-        "tags": ["Orders-Paid", "业务图标"],
-        "use-cases": ["Orders-Paid相关入口或状态展示"],
+        "name": "信息",
+        "tags": ["信息", "提示", "说明", "帮助", "填充", "业务图标"],
+        "use-cases": ["信息提示入口或状态展示", "说明内容、帮助提示或补充信息场景"],
         "i18n": {
           "en": {
-            "name": "Orders-Paid",
-            "tags": ["Orders-Paid", "business icon"],
-            "use-cases": ["Orders-Paid entry or status"]
+            "name": "info",
+            "tags": ["info", "notice", "description", "help", "filled", "business icon"],
+            "use-cases": [
+              "Information entry or status display",
+              "Description, help tooltip, or supplemental information scenarios"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Orders-Paid"
-          }
-        ]
+        "aliases": ["info_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "partner",
-      "path": "business-icons/mono/partner.svg",
-      "title": "Partner",
-      "englishName": "Partner",
-      "componentName": "Partner",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "integration_outlined",
+      "path": "business-icons/outlined/integration_outlined.svg",
+      "title": "集成",
+      "englishName": "integration",
+      "componentName": "IntegrationOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Partner",
-        "tags": ["Partner", "业务图标"],
-        "use-cases": ["Partner相关入口或状态展示"],
+        "name": "集成",
+        "tags": ["集成", "左侧导航", "组件", "应用连接", "描边", "业务图标"],
+        "use-cases": [
+          "用于左侧菜单的 Integrations 和 Components 入口",
+          "导航到第三方应用连接和组件管理"
+        ],
         "i18n": {
           "en": {
-            "name": "Partner",
-            "tags": ["Partner", "business icon"],
-            "use-cases": ["Partner entry or status"]
+            "name": "integration",
+            "tags": [
+              "integration",
+              "sidebar navigation",
+              "components",
+              "app connection",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for Integrations and Components",
+              "Navigate to third-party app connections and component management"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Partner-wrap"
-          }
-        ]
+        "aliases": ["integration"]
       }
     },
     {
       "type": "business-icon",
-      "name": "permission",
-      "path": "business-icons/duotone/permission.svg",
-      "title": "Permission",
-      "englishName": "Permission",
-      "componentName": "Permission",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "journey_outlined",
+      "path": "business-icons/outlined/journey_outlined.svg",
+      "title": "旅程",
+      "englishName": "journey",
+      "componentName": "JourneyOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Permission",
-        "tags": ["Permission", "业务图标"],
-        "use-cases": ["Permission相关入口或状态展示"],
+        "name": "旅程",
+        "tags": ["Journey", "自动化旅程", "消息来源", "Inbox", "描边", "业务图标"],
+        "use-cases": [
+          "用于 Inbox 消息头像中标识 Journey 自动化来源",
+          "区分由营销旅程触发的会话消息"
+        ],
         "i18n": {
           "en": {
-            "name": "Permission",
-            "tags": ["Permission", "business icon"],
-            "use-cases": ["Permission entry or status"]
+            "name": "journey",
+            "tags": [
+              "journey",
+              "automation journey",
+              "message source",
+              "inbox",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify Journey automation sources in Inbox avatars",
+              "Distinguish messages triggered by marketing journeys"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Permission"
-          }
-        ]
+        "aliases": ["journey"]
       }
     },
     {
       "type": "business-icon",
-      "name": "product-docs",
-      "path": "business-icons/duotone/product-docs.svg",
-      "title": "ProductDocs",
-      "englishName": "ProductDocs",
-      "componentName": "ProductDocs",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "lightning_filled",
+      "path": "business-icons/filled/lightning_filled.svg",
+      "title": "lightning",
+      "englishName": "lightning",
+      "componentName": "LightningFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "ProductDocs",
-        "tags": ["ProductDocs", "业务图标"],
-        "use-cases": ["ProductDocs相关入口或状态展示"],
+        "name": "lightning",
+        "tags": ["自定义事件", "Journey", "触发条件", "实时", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 事件筛选中标识自定义事件", "用于自定义事件规则和触发条件展示"],
         "i18n": {
           "en": {
-            "name": "ProductDocs",
-            "tags": ["ProductDocs", "business icon"],
-            "use-cases": ["ProductDocs entry or status"]
+            "name": "lightning",
+            "tags": [
+              "custom event",
+              "journey",
+              "trigger condition",
+              "real time",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify custom events in Journey event filters",
+              "Display custom event rules and trigger conditions"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "ProductDocs"
-          }
-        ]
+        "aliases": ["lightning"]
       }
     },
     {
       "type": "business-icon",
-      "name": "shopify",
-      "path": "business-icons/duotone/shopify.svg",
+      "name": "message_bubble_filled",
+      "path": "business-icons/filled/message_bubble_filled.svg",
+      "title": "消息bubble",
+      "englishName": "message bubble",
+      "componentName": "MessageBubbleFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "消息bubble",
+        "tags": ["客户服务", "新手引导", "目标选择", "会话", "填充", "业务图标"],
+        "use-cases": ["用于新手引导中选择客户服务目标", "用于入门目标卡片展示会话客服方向"],
+        "i18n": {
+          "en": {
+            "name": "message bubble",
+            "tags": [
+              "customer service",
+              "onboarding",
+              "goal selection",
+              "conversation",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Select the customer service goal during onboarding",
+              "Show the conversational support goal in getting-started cards"
+            ]
+          }
+        },
+        "aliases": ["message-bubble", "message-bubble_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "message_filled",
+      "path": "business-icons/filled/message_filled.svg",
+      "title": "消息",
+      "englishName": "message",
+      "componentName": "MessageFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "消息",
+        "tags": ["消息", "号码验证", "集成卖点", "通知", "填充", "业务图标"],
+        "use-cases": ["用于号码验证集成上手页展示消息能力", "说明验证结果的消息通知场景"],
+        "i18n": {
+          "en": {
+            "name": "message",
+            "tags": [
+              "message",
+              "number verification",
+              "integration benefit",
+              "notification",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show messaging capabilities on number verification onboarding",
+              "Explain message notifications for verification results"
+            ]
+          }
+        },
+        "aliases": ["message"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "more_price_filled",
+      "path": "business-icons/filled/more_price_filled.svg",
+      "title": "更多price",
+      "englishName": "more price",
+      "componentName": "MorePriceFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "更多price",
+        "tags": ["价格优势", "集成", "费用", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于 Email、SMS 和号码验证上手页展示价格优势", "说明集成服务的费用和性价比"],
+        "i18n": {
+          "en": {
+            "name": "more price",
+            "tags": [
+              "pricing benefit",
+              "integration",
+              "cost",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show pricing benefits on Email, SMS, and number verification onboarding",
+              "Explain integration costs and value"
+            ]
+          }
+        },
+        "aliases": ["more-price", "more-price_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "more_restriction_filled",
+      "path": "business-icons/filled/more_restriction_filled.svg",
+      "title": "更多restriction",
+      "englishName": "more restriction",
+      "componentName": "MoreRestrictionFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "更多restriction",
+        "tags": ["限制管理", "SMS 集成", "发送规则", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于 SMS 集成上手页展示限制管理能力", "说明短信发送规则和限制条件"],
+        "i18n": {
+          "en": {
+            "name": "more restriction",
+            "tags": [
+              "restriction management",
+              "sms integration",
+              "sending rules",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show restriction management on SMS integration onboarding",
+              "Explain SMS sending rules and constraints"
+            ]
+          }
+        },
+        "aliases": ["more-restriction", "more-restriction_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "more_sender_filled",
+      "path": "business-icons/filled/more_sender_filled.svg",
+      "title": "更多sender",
+      "englishName": "more sender",
+      "componentName": "MoreSenderFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "更多sender",
+        "tags": ["发送方", "SMS 集成", "消息渠道", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于 SMS 集成上手页展示发送方能力", "说明短信发送渠道和发送主体"],
+        "i18n": {
+          "en": {
+            "name": "more sender",
+            "tags": [
+              "sender",
+              "sms integration",
+              "message channel",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show sender capabilities on SMS integration onboarding",
+              "Explain SMS channels and sending identities"
+            ]
+          }
+        },
+        "aliases": ["more-sender", "more-sender_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "more_sender_name_filled",
+      "path": "business-icons/filled/more_sender_name_filled.svg",
+      "title": "更多sendername",
+      "englishName": "more sender name",
+      "componentName": "MoreSenderNameFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "更多sendername",
+        "tags": ["发送方名称", "Email 集成", "品牌身份", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于 Email 集成上手页展示发送方名称能力", "说明邮件发送时的品牌身份配置"],
+        "i18n": {
+          "en": {
+            "name": "more sender name",
+            "tags": [
+              "sender name",
+              "email integration",
+              "brand identity",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show sender-name capabilities on Email integration onboarding",
+              "Explain brand identity configuration for email sending"
+            ]
+          }
+        },
+        "aliases": ["more-sender-name", "more-sender-name_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "note_filled",
+      "path": "business-icons/filled/note_filled.svg",
+      "title": "备注",
+      "englishName": "note",
+      "componentName": "NoteFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "备注",
+        "tags": ["说明信息", "集成", "使用指南", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于 Email 和号码验证上手页展示说明性能力", "标识集成功能介绍和注意事项"],
+        "i18n": {
+          "en": {
+            "name": "note",
+            "tags": [
+              "note",
+              "integration",
+              "getting started",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show explanatory benefits on Email and number verification onboarding",
+              "Identify integration feature descriptions and notes"
+            ]
+          }
+        },
+        "aliases": ["note"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "order_event_filled",
+      "path": "business-icons/filled/order_event_filled.svg",
+      "title": "订单事件",
+      "englishName": "order event",
+      "componentName": "OrderEventFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "订单事件",
+        "tags": ["订单事件", "Journey", "电商事件", "触发条件", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 事件筛选中标识订单事件", "用于订单事件规则和触发条件展示"],
+        "i18n": {
+          "en": {
+            "name": "order event",
+            "tags": [
+              "order event",
+              "journey",
+              "commerce event",
+              "trigger condition",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify order events in Journey event filters",
+              "Display order event rules and trigger conditions"
+            ]
+          }
+        },
+        "aliases": ["order-event", "order-event_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "order_outlined",
+      "path": "business-icons/outlined/order_outlined.svg",
+      "title": "订单",
+      "englishName": "order",
+      "componentName": "OrderOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "订单",
+        "tags": ["订单", "交易", "购买", "履约", "描边", "业务图标"],
+        "use-cases": ["订单菜单入口", "订单列表、交易详情或履约处理页面"],
+        "i18n": {
+          "en": {
+            "name": "order",
+            "tags": [
+              "order",
+              "transaction",
+              "purchase",
+              "fulfillment",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Order menu entry",
+              "Order list, transaction detail, or fulfillment pages"
+            ]
+          }
+        },
+        "aliases": ["order"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "partners_outlined",
+      "path": "business-icons/outlined/partners_outlined.svg",
+      "title": "合作伙伴",
+      "englishName": "partners",
+      "componentName": "PartnersOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "合作伙伴",
+        "tags": ["合作伙伴", "左侧导航", "伙伴计划", "菜单", "描边", "业务图标"],
+        "use-cases": ["用于左侧菜单的 Partners 模块入口", "导航到合作伙伴计划和伙伴管理"],
+        "i18n": {
+          "en": {
+            "name": "partners",
+            "tags": [
+              "partners",
+              "sidebar navigation",
+              "partner program",
+              "menu",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the Partners module",
+              "Navigate to partner programs and partner management"
+            ]
+          }
+        },
+        "aliases": ["partners"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "payments_filled",
+      "path": "business-icons/filled/payments_filled.svg",
+      "title": "支付",
+      "englishName": "payments",
+      "componentName": "PaymentsFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "支付",
+        "tags": ["支付能力", "集成", "费用", "功能卖点", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Email、SMS 和号码验证上手页展示支付能力",
+          "说明集成服务的支付和费用相关功能"
+        ],
+        "i18n": {
+          "en": {
+            "name": "payments",
+            "tags": [
+              "payments",
+              "integration",
+              "cost",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show payment capabilities on Email, SMS, and number verification onboarding",
+              "Explain payment and cost-related integration features"
+            ]
+          }
+        },
+        "aliases": ["payments"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "qmai_event_filled",
+      "path": "business-icons/filled/qmai_event_filled.svg",
+      "title": "qmai事件",
+      "englishName": "qmai event",
+      "componentName": "QmaiEventFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "qmai事件",
+        "tags": ["企迈事件", "Journey", "电商事件", "触发条件", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 事件筛选中标识企迈事件", "用于企迈事件规则和触发条件展示"],
+        "i18n": {
+          "en": {
+            "name": "qmai event",
+            "tags": [
+              "qmai event",
+              "journey",
+              "commerce event",
+              "trigger condition",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify Qmai events in Journey event filters",
+              "Display Qmai event rules and trigger conditions"
+            ]
+          }
+        },
+        "aliases": ["qmai-event", "qmai-event_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "route_filled",
+      "path": "business-icons/filled/route_filled.svg",
+      "title": "路径",
+      "englishName": "route",
+      "componentName": "RouteFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "路径",
+        "tags": ["路径", "Journey", "创建旅程", "流程", "填充", "业务图标"],
+        "use-cases": ["用于创建 Journey 弹窗标识自定义旅程路径", "展示从头创建自动化旅程的入口"],
+        "i18n": {
+          "en": {
+            "name": "route",
+            "tags": ["route", "journey", "create journey", "workflow", "filled", "business icon"],
+            "use-cases": [
+              "Identify the custom Journey path in the create dialog",
+              "Show the entry for building an automation journey from scratch"
+            ]
+          }
+        },
+        "aliases": ["route", "path"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "sand_clock_filled",
+      "path": "business-icons/filled/sand_clock_filled.svg",
+      "title": "sandclock",
+      "englishName": "sand clock",
+      "componentName": "SandClockFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "sandclock",
+        "tags": ["等待", "Journey", "延时节点", "流程", "填充", "业务图标"],
+        "use-cases": ["用于 Journey 流程中的等待节点", "标识消息或动作执行前的延时时间"],
+        "i18n": {
+          "en": {
+            "name": "sand clock",
+            "tags": ["wait", "journey", "delay node", "workflow", "filled", "business icon"],
+            "use-cases": [
+              "Wait node in Journey flows",
+              "Represent delays before messages or actions execute"
+            ]
+          }
+        },
+        "aliases": ["sand-clock", "sand-clock_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "security_filled",
+      "path": "business-icons/filled/security_filled.svg",
+      "title": "安全",
+      "englishName": "security",
+      "componentName": "SecurityFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "安全",
+        "tags": ["安全", "号码验证", "风险控制", "功能卖点", "填充", "业务图标"],
+        "use-cases": ["用于号码验证集成上手页展示安全能力", "说明号码验证服务的风险控制价值"],
+        "i18n": {
+          "en": {
+            "name": "security",
+            "tags": [
+              "security",
+              "number verification",
+              "risk control",
+              "feature benefit",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Show security capabilities on number verification onboarding",
+              "Explain the risk-control value of number verification"
+            ]
+          }
+        },
+        "aliases": ["security"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "shopify_filled",
+      "path": "business-icons/filled/shopify_filled.svg",
       "title": "Shopify",
       "englishName": "shopify",
-      "componentName": "Shopify",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "componentName": "ShopifyFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
         "name": "Shopify",
-        "tags": ["Shopify", "双色业务图标", "业务图标"],
-        "use-cases": ["Shopify相关入口或状态展示", "需要兼容历史业务视觉的 Shopify 场景"],
+        "tags": ["Shopify", "Journey", "电商事件", "触发条件", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Journey 事件筛选中标识 Shopify 事件",
+          "用于 Shopify 事件规则和触发条件展示"
+        ],
         "i18n": {
           "en": {
             "name": "shopify",
-            "tags": ["shopify", "duotone", "business icon"],
-            "use-cases": ["shopify entry or status", "Legacy business visual for shopify scenarios"]
+            "tags": [
+              "shopify",
+              "journey",
+              "commerce event",
+              "trigger condition",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify Shopify events in Journey event filters",
+              "Display Shopify event rules and trigger conditions"
+            ]
           }
-        }
+        },
+        "aliases": ["shopify"]
       }
     },
     {
       "type": "business-icon",
-      "name": "source",
-      "path": "business-icons/duotone/source.svg",
-      "title": "Source",
-      "englishName": "Source",
-      "componentName": "Source",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "star_filled",
+      "path": "business-icons/filled/star_filled.svg",
+      "title": "star",
+      "englishName": "star",
+      "componentName": "StarFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Source",
-        "tags": ["Source", "业务图标"],
-        "use-cases": ["Source相关入口或状态展示"],
+        "name": "star",
+        "tags": ["重点指标", "Inbox 分析", "坐席表现", "团队表现", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox 坐席和团队分析中标识重点指标", "突出表现排名或关键分析维度"],
         "i18n": {
           "en": {
-            "name": "Source",
-            "tags": ["Source", "business icon"],
-            "use-cases": ["Source entry or status"]
+            "name": "star",
+            "tags": [
+              "highlight metric",
+              "inbox analytics",
+              "agent performance",
+              "team performance",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Highlight key metrics in Inbox agent and team analytics",
+              "Emphasize performance rankings or important analysis dimensions"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Source"
-          }
-        ]
+        "aliases": ["star"]
       }
     },
     {
       "type": "business-icon",
-      "name": "status",
-      "path": "business-icons/duotone/status.svg",
-      "title": "Status",
-      "englishName": "Status",
-      "componentName": "Status",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "status_filled",
+      "path": "business-icons/filled/status_filled.svg",
+      "title": "状态",
+      "englishName": "status",
+      "componentName": "StatusFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Status",
-        "tags": ["Status", "业务图标"],
-        "use-cases": ["Status相关入口或状态展示"],
+        "name": "状态",
+        "tags": ["状态", "Calling", "通话日志", "筛选条件", "填充", "业务图标"],
+        "use-cases": ["用于 Calling 日志页面的状态筛选项", "标识通话记录的处理状态"],
         "i18n": {
           "en": {
-            "name": "Status",
-            "tags": ["Status", "business icon"],
-            "use-cases": ["Status entry or status"]
+            "name": "status",
+            "tags": ["status", "calling", "call logs", "filter", "filled", "business icon"],
+            "use-cases": [
+              "Status filter on the Calling logs page",
+              "Identify processing states for call records"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Status"
-          }
-        ]
+        "aliases": ["status"]
       }
     },
     {
       "type": "business-icon",
-      "name": "tag",
-      "path": "business-icons/duotone/tag.svg",
-      "title": "Tag",
-      "englishName": "Tag",
-      "componentName": "Tag",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "tag_filled",
+      "path": "business-icons/filled/tag_filled.svg",
+      "title": "标签",
+      "englishName": "tag",
+      "componentName": "TagFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Tag",
-        "tags": ["Tag", "业务图标"],
-        "use-cases": ["Tag相关入口或状态展示"],
+        "name": "标签",
+        "tags": ["标签", "Inbox", "Journey", "会话筛选", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Inbox 会话和分析中的标签筛选与展示",
+          "用于 Journey 流程中的添加标签节点"
+        ],
         "i18n": {
           "en": {
-            "name": "Tag",
-            "tags": ["Tag", "business icon"],
-            "use-cases": ["Tag entry or status"]
+            "name": "tag",
+            "tags": ["tag", "inbox", "journey", "conversation filter", "filled", "business icon"],
+            "use-cases": [
+              "Display and filter tags in Inbox conversations and analytics",
+              "Add-tag node in Journey flows"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Tag"
+        "aliases": ["tag"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "team_filled",
+      "path": "business-icons/filled/team_filled.svg",
+      "title": "团队",
+      "englishName": "team",
+      "componentName": "TeamFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "团队",
+        "tags": ["团队", "Inbox 分析", "坐席团队", "筛选", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox 坐席和团队分析中的团队维度", "标识团队筛选项和团队统计"],
+        "i18n": {
+          "en": {
+            "name": "team",
+            "tags": ["team", "inbox analytics", "agent team", "filter", "filled", "business icon"],
+            "use-cases": [
+              "Team dimension in Inbox agent and team analytics",
+              "Identify team filters and team statistics"
+            ]
           }
-        ]
+        },
+        "aliases": ["team"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "template_filled",
+      "path": "business-icons/filled/template_filled.svg",
+      "title": "模板",
+      "englishName": "template",
+      "componentName": "TemplateFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "模板",
+        "tags": ["消息模板", "Journey", "发送消息", "流程节点", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Journey 流程中的发送模板消息节点",
+          "标识通过模板发送 WhatsApp 消息的动作"
+        ],
+        "i18n": {
+          "en": {
+            "name": "template",
+            "tags": [
+              "message template",
+              "journey",
+              "send message",
+              "workflow node",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Send-template-message node in Journey flows",
+              "Represent sending WhatsApp messages through templates"
+            ]
+          }
+        },
+        "aliases": ["template"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "trigger_filled",
+      "path": "business-icons/filled/trigger_filled.svg",
+      "title": "触发器",
+      "englishName": "trigger",
+      "componentName": "TriggerFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "触发器",
+        "tags": ["触发器", "Inbox Flow", "Journey", "流程节点", "填充", "业务图标"],
+        "use-cases": ["用于 Inbox Flow 和 Journey 的流程起始节点", "标识自动化流程的触发入口"],
+        "i18n": {
+          "en": {
+            "name": "trigger",
+            "tags": [
+              "trigger",
+              "inbox flow",
+              "journey",
+              "workflow node",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Starting node in Inbox Flow and Journey workflows",
+              "Identify the trigger entry for automation flows"
+            ]
+          }
+        },
+        "aliases": ["trigger"]
       }
     },
     {
@@ -918,11 +2156,11 @@
         "$schema": "../../asset-metadata.schema.json",
         "name": "奖杯",
         "tags": ["奖杯", "多色业务图标", "业务图标"],
-        "use-cases": ["奖杯相关入口或状态展示", "需要兼容历史业务视觉的 奖杯 场景"],
+        "use-cases": ["奖杯相关入口或状态展示", "需要兼容历史业务视觉的奖杯场景"],
         "i18n": {
           "en": {
             "name": "trophy",
-            "tags": ["trophy", "multicolor", "business icon"],
+            "tags": ["trophy", "multicolor business icon", "business icon"],
             "use-cases": ["trophy entry or status", "Legacy business visual for trophy scenarios"]
           }
         }
@@ -930,86 +2168,272 @@
     },
     {
       "type": "business-icon",
-      "name": "type",
-      "path": "business-icons/duotone/type.svg",
-      "title": "Type",
-      "englishName": "Type",
-      "componentName": "Type",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "user_filled",
+      "path": "business-icons/filled/user_filled.svg",
+      "title": "用户",
+      "englishName": "user",
+      "componentName": "UserFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Type",
-        "tags": ["Type", "业务图标"],
-        "use-cases": ["Type相关入口或状态展示"],
+        "name": "用户",
+        "tags": ["联系人", "新增联系人", "单个添加", "用户", "填充", "业务图标"],
+        "use-cases": ["用于新增联系人弹窗的单个联系人入口", "标识手动创建一位联系人的操作"],
         "i18n": {
           "en": {
-            "name": "Type",
-            "tags": ["Type", "business icon"],
-            "use-cases": ["Type entry or status"]
+            "name": "user",
+            "tags": ["contact", "add contact", "single entry", "user", "filled", "business icon"],
+            "use-cases": [
+              "Single-contact entry in the add-contact dialog",
+              "Identify the action to manually create one contact"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Type"
-          }
-        ]
+        "aliases": ["user"]
       }
     },
     {
       "type": "business-icon",
-      "name": "user",
-      "path": "business-icons/duotone/user.svg",
-      "title": "User",
-      "englishName": "User",
-      "componentName": "User",
-      "category": "duotone",
-      "colorMode": "duotone",
+      "name": "warning_filled",
+      "path": "business-icons/filled/warning_filled.svg",
+      "title": "警告",
+      "englishName": "warning",
+      "componentName": "WarningFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "User",
-        "tags": ["User", "业务图标"],
-        "use-cases": ["User相关入口或状态展示"],
+        "name": "警告",
+        "tags": ["警告", "风险", "提醒", "异常", "填充", "业务图标"],
+        "use-cases": ["警告状态提示或风险提醒", "异常反馈、风险确认或重要提醒场景"],
         "i18n": {
           "en": {
-            "name": "User",
-            "tags": ["User", "business icon"],
-            "use-cases": ["User entry or status"]
+            "name": "warning",
+            "tags": ["warning", "risk", "alert", "exception", "filled", "business icon"],
+            "use-cases": [
+              "Warning status feedback or risk alert",
+              "Exception feedback, risk confirmation, or important reminder scenarios"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "User"
-          }
-        ]
+        "aliases": ["warning_filled"]
       }
     },
     {
       "type": "business-icon",
-      "name": "whatsapp",
-      "path": "business-icons/mono/whatsapp.svg",
-      "title": "Whatsapp",
-      "englishName": "Whatsapp",
-      "componentName": "Whatsapp",
-      "category": "mono",
-      "colorMode": "mono",
+      "name": "wechat_filled",
+      "path": "business-icons/filled/wechat_filled.svg",
+      "title": "wechat",
+      "englishName": "wechat",
+      "componentName": "WechatFilled",
+      "category": "filled",
+      "colorMode": "filled",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "Whatsapp",
-        "tags": ["Whatsapp", "业务图标"],
-        "use-cases": ["Whatsapp相关入口或状态展示"],
+        "name": "wechat",
+        "tags": ["微信支付", "支付方式", "购买额度", "账单", "填充", "业务图标"],
+        "use-cases": ["用于支付方式选择中的微信支付选项", "用于购买额度页面展示微信支付渠道"],
         "i18n": {
           "en": {
-            "name": "Whatsapp",
-            "tags": ["Whatsapp", "business icon"],
-            "use-cases": ["Whatsapp entry or status"]
+            "name": "wechat",
+            "tags": [
+              "wechat pay",
+              "payment method",
+              "buy credits",
+              "billing",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "WeChat Pay option in payment method selectors",
+              "Display WeChat Pay as a payment channel when buying credits"
+            ]
           }
         },
-        "aliases": [
-          {
-            "name": "Whatsapp-wrap"
+        "aliases": ["wechat"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "whats_app_business_outlined",
+      "path": "business-icons/outlined/whats_app_business_outlined.svg",
+      "title": "WhatsApp业务描边",
+      "englishName": "whatsapp business outlined",
+      "componentName": "WhatsAppBusinessOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "WhatsApp业务描边",
+        "tags": ["WhatsApp Business App", "号码选择", "账户类型", "Inbox", "描边", "业务图标"],
+        "use-cases": [
+          "用于号码选择器和账户设置中标识 WhatsApp Business App 号码",
+          "用于 Inbox 头像、开发接入和建号流程区分 Business App 渠道"
+        ],
+        "i18n": {
+          "en": {
+            "name": "whatsapp business outlined",
+            "tags": [
+              "whatsapp business app",
+              "phone selection",
+              "account type",
+              "inbox",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify WhatsApp Business App numbers in selectors and account settings",
+              "Distinguish Business App channels in Inbox avatars, developer setup, and onboarding"
+            ]
           }
-        ]
+        },
+        "aliases": ["whatsapp-business", "whats-app-business_outlined"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "whats_app_phone_outlined",
+      "path": "business-icons/outlined/whats_app_phone_outlined.svg",
+      "title": "WhatsApp电话描边",
+      "englishName": "whatsapp phone outlined",
+      "componentName": "WhatsAppPhoneOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "WhatsApp电话描边",
+        "tags": ["WhatsApp API 号码", "号码选择", "账户设置", "消息发送", "描边", "业务图标"],
+        "use-cases": [
+          "用于号码选择器、账户设置和建号流程中标识 WhatsApp API 号码",
+          "用于 Campaign、Inbox、Journey 和开发接入中的发送号码展示"
+        ],
+        "i18n": {
+          "en": {
+            "name": "whatsapp phone outlined",
+            "tags": [
+              "whatsapp api phone",
+              "phone selection",
+              "account settings",
+              "message sending",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Identify WhatsApp API numbers in selectors, account settings, and onboarding",
+              "Display sending numbers in Campaign, Inbox, Journey, and developer setup"
+            ]
+          }
+        },
+        "aliases": ["whatsapp-phone", "whats-app-phone_outlined"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp_outlined",
+      "path": "business-icons/outlined/whatsapp_outlined.svg",
+      "title": "WhatsApp",
+      "englishName": "whatsapp",
+      "componentName": "WhatsappOutlined",
+      "category": "outlined",
+      "colorMode": "outlined",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "WhatsApp",
+        "tags": ["WhatsApp", "左侧导航", "渠道接入", "嵌入式注册", "描边", "业务图标"],
+        "use-cases": [
+          "用于左侧菜单的 WhatsApp 模块入口",
+          "用于嵌入式注册引导中标识 WhatsApp API 渠道"
+        ],
+        "i18n": {
+          "en": {
+            "name": "whatsapp",
+            "tags": [
+              "whatsapp",
+              "sidebar navigation",
+              "channel setup",
+              "embedded signup",
+              "outlined",
+              "business icon"
+            ],
+            "use-cases": [
+              "Sidebar entry for the WhatsApp module",
+              "Identify the WhatsApp API channel in embedded signup guidance"
+            ]
+          }
+        },
+        "aliases": ["whatsapp"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "whatsapp_phone_filled",
+      "path": "business-icons/filled/whatsapp_phone_filled.svg",
+      "title": "WhatsApp电话",
+      "englishName": "whatsapp phone",
+      "componentName": "WhatsappPhoneFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "WhatsApp电话",
+        "tags": ["WhatsApp 号码", "Inbox 分析", "会话筛选", "集成", "填充", "业务图标"],
+        "use-cases": [
+          "用于 Inbox 分析、会话列表和 Calling 日志中的号码维度",
+          "用于号码筛选和 MM Lite API 账户展示"
+        ],
+        "i18n": {
+          "en": {
+            "name": "whatsapp phone",
+            "tags": [
+              "whatsapp phone",
+              "inbox analytics",
+              "conversation filter",
+              "integration",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Represent phone-number dimensions in Inbox analytics, conversations, and Calling logs",
+              "Display phone filters and MM Lite API accounts"
+            ]
+          }
+        },
+        "aliases": ["whatsapp-phone", "whatsapp-phone_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "widgets_filled",
+      "path": "business-icons/filled/widgets_filled.svg",
+      "title": "组件",
+      "englishName": "widgets",
+      "componentName": "WidgetsFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "组件",
+        "tags": ["其他目标", "新手引导", "目标选择", "自定义需求", "填充", "业务图标"],
+        "use-cases": ["用于新手引导中选择其他或自定义目标", "用于入门目标卡片表示未预设的业务需求"],
+        "i18n": {
+          "en": {
+            "name": "widgets",
+            "tags": [
+              "other goal",
+              "onboarding",
+              "goal selection",
+              "custom requirement",
+              "filled",
+              "business icon"
+            ],
+            "use-cases": [
+              "Select an other or custom goal during onboarding",
+              "Represent business requirements not covered by predefined goals"
+            ]
+          }
+        },
+        "aliases": ["widgets"]
       }
     }
   ]

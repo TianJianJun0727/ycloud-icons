@@ -90,7 +90,7 @@ const CloseIcon = createYCloudIcon('Close', x);
   box-shadow: var(--vp-shadow-5);
   will-change: transform;
   pointer-events: all;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .overlay-menu {

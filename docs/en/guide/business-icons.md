@@ -7,7 +7,7 @@ description: Source, validation, and submission rules for business-specific SVG 
 
 `business-icons/` stores business-specific SVGs that should not enter the generic icon library.
 
-Generic icons live in `icons/` and follow the 24x24 linear `currentColor` rules with `stroke-width="2"` and metadata. Business icons are split by color mode into mono, duotone, and multicolor sources. They use dedicated cleanup and validation rules, and they do not enter the generic category and metadata system.
+Generic icons live in `icons/` and follow the 24x24 linear `currentColor` rules with `stroke-width="2"` and metadata. Business icons are split by color mode into outlined, filled, and multicolor sources. They use dedicated cleanup and validation rules, and they do not enter the generic category and metadata system.
 
 ## When to use it
 
@@ -35,8 +35,8 @@ Business icon first-level folders now represent color modes instead of business 
 The current allowed folders are:
 
 ```text
-mono
-duotone
+outlined
+filled
 multicolor
 ```
 
@@ -50,8 +50,8 @@ Business cleanup will:
 
 - remove `<script>`, `<foreignObject>`, event attributes, and `javascript:` URLs
 - remove design-tool noise such as `style`, `class`, unreferenced `id`, and `data-*`
-- `mono`: convert hardcoded `fill` and `stroke` to `currentColor`, or keep `none`
-- `duotone`: convert white fills/strokes to `var(--business-icon-secondary-color)` and all other colors to `var(--business-icon-primary-color)`, without relying on path order
+- `outlined`: convert hardcoded `fill` and `stroke` to `currentColor`, or keep `none`
+- `filled`: convert white fills/strokes to `var(--business-icon-secondary-color)` and all other colors to `var(--business-icon-primary-color)`, without relying on path order
 - `multicolor`: keep fixed colors from the source SVG
 - preserve original `width`, `height`, `viewBox`, `stroke-width`, `stroke-linecap`, `stroke-linejoin`, and geometry
 
@@ -64,8 +64,8 @@ Only baseline structure and safety checks run:
 - `business-icons/metadata/index.json` must match `node ./scripts/writeAssetMetadata.mts`; `docs/public/metadata` is copied during docs builds
 - file names must be lowercase kebab-case
 - the root element must be `<svg>`
-- `mono` `fill` and `stroke` may only be `currentColor` or `none`
-- `duotone` `fill` and `stroke` may only be `var(--business-icon-primary-color)`, `var(--business-icon-secondary-color)`, or `none`
+- `outlined` `fill` and `stroke` may only be `currentColor` or `none`
+- `filled` `fill` and `stroke` may only be `var(--business-icon-primary-color)`, `var(--business-icon-secondary-color)`, or `none`
 - `multicolor` may keep fixed colors, but still runs through the safety checks
 - style and design-tool attributes such as `style`, `class`, and `data-*` are not allowed
 - `<script>` and `<foreignObject>` are not allowed
@@ -85,7 +85,7 @@ node ./scripts/checkBusinessSvgSource.mts
 
 When “Business icons” is selected in the Figma plugin, the plugin will:
 
-- choose Mono, Duotone, or Multicolor
+- choose Outlined, Filled, or Multicolor
 - submit files to `business-icons/<color-mode>/*.svg`
 - submit matching `business-icons/<color-mode>/*.json`
 - clean SVGs with the business SVG rules before submission
@@ -138,12 +138,12 @@ export function ChannelIcon() {
 }
 ```
 
-React business icon components render inline `<svg>`. `mono` and `duotone` support `size`, `color`, and `strokeWidth`. `strokeWidth` is unset by default, so source SVG stroke widths or no-stroke states stay unchanged unless the prop is explicitly passed. `duotone` also supports `secondaryColor`, defaulting to `#fff`. `multicolor` keeps fixed source colors, does not expose `color` or `strokeWidth`, and only supports size changes.
+React business icon components render inline `<svg>`. `outlined` and `filled` support `size`, `color`, and `strokeWidth`. `strokeWidth` is unset by default, so source SVG stroke widths or no-stroke states stay unchanged unless the prop is explicitly passed. `filled` also supports `secondaryColor`, defaulting to `#fff`. `multicolor` keeps fixed source colors, does not expose `color` or `strokeWidth`, and only supports size changes.
 
 ```tsx
 import { Shopify } from '@ycloud-web/icons-react/business';
 
-export function DuotoneIcon() {
+export function FilledIcon() {
   return (
     <Shopify
       size={24}
@@ -183,7 +183,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import billingIconUrl from '@ycloud-web/icons-static/business-icons/mono/billing.svg';
+import billingIconUrl from '@ycloud-web/icons-static/business-icons/outlined/billing.svg';
 ```
 
 Business icons also generate a separate icon font. It is not mixed into the generic `font/ycloud.css` output:
@@ -196,4 +196,4 @@ Business icons also generate a separate icon font. It is not mixed into the gene
 <div class="business-icon-billing"></div>
 ```
 
-Static SVGs and data packages keep the cleaned color tokens. During component package generation, duotone primary and secondary tokens are converted to framework props; multicolor icons always keep their fixed source colors.
+Static SVGs and data packages keep the cleaned color tokens. During component package generation, filled primary and secondary tokens are converted to framework props; multicolor icons always keep their fixed source colors.

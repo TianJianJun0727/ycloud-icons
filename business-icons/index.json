@@ -1,20 +1,20 @@
 {
   "categories": [
     {
-      "name": "mono",
-      "title": "单色",
+      "name": "outlined",
+      "title": "描边",
       "i18n": {
         "en": {
-          "title": "Mono"
+          "title": "Outlined"
         }
       }
     },
     {
-      "name": "duotone",
-      "title": "双色",
+      "name": "filled",
+      "title": "填充",
       "i18n": {
         "en": {
-          "title": "Duotone"
+          "title": "Filled"
         }
       }
     },
@@ -30,219 +30,345 @@
   ],
   "icons": [
     {
-      "category": "duotone",
-      "name": "ads",
-      "path": "business-icons/duotone/ads.svg",
-      "componentName": "Ads"
+      "category": "filled",
+      "name": "acquire_more_leads_filled",
+      "path": "business-icons/filled/acquire_more_leads_filled.svg",
+      "componentName": "AcquireMoreLeadsFilled"
     },
     {
-      "category": "duotone",
-      "name": "aftersale",
-      "path": "business-icons/duotone/aftersale.svg",
-      "componentName": "Aftersale"
+      "category": "filled",
+      "name": "agent_filled",
+      "path": "business-icons/filled/agent_filled.svg",
+      "componentName": "AgentFilled"
     },
     {
-      "category": "duotone",
-      "name": "agent",
-      "path": "business-icons/duotone/agent.svg",
-      "componentName": "Agent"
+      "category": "filled",
+      "name": "agent_guide_filled",
+      "path": "business-icons/filled/agent_guide_filled.svg",
+      "componentName": "AgentGuideFilled"
     },
     {
-      "category": "duotone",
-      "name": "botfilled",
-      "path": "business-icons/duotone/botfilled.svg",
-      "componentName": "Botfilled"
+      "category": "filled",
+      "name": "agent_with_time_filled",
+      "path": "business-icons/filled/agent_with_time_filled.svg",
+      "componentName": "AgentWithTimeFilled"
     },
     {
-      "category": "duotone",
-      "name": "category",
-      "path": "business-icons/duotone/category.svg",
-      "componentName": "Category"
+      "category": "filled",
+      "name": "alipay_filled",
+      "path": "business-icons/filled/alipay_filled.svg",
+      "componentName": "AlipayFilled"
     },
     {
-      "category": "duotone",
-      "name": "coming-soon",
-      "path": "business-icons/duotone/coming-soon.svg",
-      "componentName": "ComingSoon"
+      "category": "filled",
+      "name": "analytics_filled",
+      "path": "business-icons/filled/analytics_filled.svg",
+      "componentName": "AnalyticsFilled"
     },
     {
-      "category": "duotone",
-      "name": "date",
-      "path": "business-icons/duotone/date.svg",
-      "componentName": "Date"
+      "category": "filled",
+      "name": "authentication_filled",
+      "path": "business-icons/filled/authentication_filled.svg",
+      "componentName": "AuthenticationFilled"
     },
     {
-      "category": "duotone",
-      "name": "direction",
-      "path": "business-icons/duotone/direction.svg",
-      "componentName": "Direction"
+      "category": "filled",
+      "name": "benefit_analytics_filled",
+      "path": "business-icons/filled/benefit_analytics_filled.svg",
+      "componentName": "BenefitAnalyticsFilled"
     },
     {
-      "category": "duotone",
-      "name": "global",
-      "path": "business-icons/duotone/global.svg",
-      "componentName": "Global"
+      "category": "filled",
+      "name": "benefit_payments_filled",
+      "path": "business-icons/filled/benefit_payments_filled.svg",
+      "componentName": "BenefitPaymentsFilled"
     },
     {
-      "category": "duotone",
-      "name": "inbox-whats-app",
-      "path": "business-icons/duotone/inbox-whats-app.svg",
-      "componentName": "InboxWhatsApp"
+      "category": "filled",
+      "name": "benefit_restriction_filled",
+      "path": "business-icons/filled/benefit_restriction_filled.svg",
+      "componentName": "BenefitRestrictionFilled"
     },
     {
-      "category": "duotone",
-      "name": "language",
-      "path": "business-icons/duotone/language.svg",
-      "componentName": "Language"
+      "category": "filled",
+      "name": "benefit_sender_filled",
+      "path": "business-icons/filled/benefit_sender_filled.svg",
+      "componentName": "BenefitSenderFilled"
     },
     {
-      "category": "duotone",
-      "name": "meta-filled",
-      "path": "business-icons/duotone/meta-filled.svg",
-      "componentName": "MetaFilled"
+      "category": "filled",
+      "name": "benefit_simple_filled",
+      "path": "business-icons/filled/benefit_simple_filled.svg",
+      "componentName": "BenefitSimpleFilled"
     },
     {
-      "category": "duotone",
-      "name": "orders-paid",
-      "path": "business-icons/duotone/orders-paid.svg",
-      "componentName": "OrdersPaid"
+      "category": "filled",
+      "name": "benefit_smile_filled",
+      "path": "business-icons/filled/benefit_smile_filled.svg",
+      "componentName": "BenefitSmileFilled"
     },
     {
-      "category": "duotone",
-      "name": "permission",
-      "path": "business-icons/duotone/permission.svg",
-      "componentName": "Permission"
+      "category": "filled",
+      "name": "benefit_statistical_filled",
+      "path": "business-icons/filled/benefit_statistical_filled.svg",
+      "componentName": "BenefitStatisticalFilled"
     },
     {
-      "category": "duotone",
-      "name": "product-docs",
-      "path": "business-icons/duotone/product-docs.svg",
-      "componentName": "ProductDocs"
+      "category": "filled",
+      "name": "benefit_template_filled",
+      "path": "business-icons/filled/benefit_template_filled.svg",
+      "componentName": "BenefitTemplateFilled"
     },
     {
-      "category": "duotone",
-      "name": "shopify",
-      "path": "business-icons/duotone/shopify.svg",
-      "componentName": "Shopify"
+      "category": "filled",
+      "name": "branch_filled",
+      "path": "business-icons/filled/branch_filled.svg",
+      "componentName": "BranchFilled"
     },
     {
-      "category": "duotone",
-      "name": "source",
-      "path": "business-icons/duotone/source.svg",
-      "componentName": "Source"
+      "category": "filled",
+      "name": "calling_filled",
+      "path": "business-icons/filled/calling_filled.svg",
+      "componentName": "CallingFilled"
     },
     {
-      "category": "duotone",
-      "name": "status",
-      "path": "business-icons/duotone/status.svg",
-      "componentName": "Status"
+      "category": "filled",
+      "name": "campaign_filled",
+      "path": "business-icons/filled/campaign_filled.svg",
+      "componentName": "CampaignFilled"
     },
     {
-      "category": "duotone",
-      "name": "tag",
-      "path": "business-icons/duotone/tag.svg",
-      "componentName": "Tag"
+      "category": "filled",
+      "name": "cancel_filled",
+      "path": "business-icons/filled/cancel_filled.svg",
+      "componentName": "CancelFilled"
     },
     {
-      "category": "duotone",
-      "name": "type",
-      "path": "business-icons/duotone/type.svg",
-      "componentName": "Type"
+      "category": "filled",
+      "name": "check_cancel_filled",
+      "path": "business-icons/filled/check_cancel_filled.svg",
+      "componentName": "CheckCancelFilled"
     },
     {
-      "category": "duotone",
-      "name": "user",
-      "path": "business-icons/duotone/user.svg",
-      "componentName": "User"
+      "category": "filled",
+      "name": "check_filled",
+      "path": "business-icons/filled/check_filled.svg",
+      "componentName": "CheckFilled"
     },
     {
-      "category": "mono",
-      "name": "ad",
-      "path": "business-icons/mono/ad.svg",
-      "componentName": "Ad"
+      "category": "filled",
+      "name": "code_filled",
+      "path": "business-icons/filled/code_filled.svg",
+      "componentName": "CodeFilled"
     },
     {
-      "category": "mono",
-      "name": "calling",
-      "path": "business-icons/mono/calling.svg",
-      "componentName": "Calling"
+      "category": "filled",
+      "name": "coding_filled",
+      "path": "business-icons/filled/coding_filled.svg",
+      "componentName": "CodingFilled"
     },
     {
-      "category": "mono",
-      "name": "cart",
-      "path": "business-icons/mono/cart.svg",
-      "componentName": "Cart"
+      "category": "filled",
+      "name": "credit_card_filled",
+      "path": "business-icons/filled/credit_card_filled.svg",
+      "componentName": "CreditCardFilled"
     },
     {
-      "category": "mono",
-      "name": "chatbot",
-      "path": "business-icons/mono/chatbot.svg",
-      "componentName": "Chatbot"
+      "category": "filled",
+      "name": "date_time_filled",
+      "path": "business-icons/filled/date_time_filled.svg",
+      "componentName": "DateTimeFilled"
     },
     {
-      "category": "mono",
-      "name": "contact",
-      "path": "business-icons/mono/contact.svg",
-      "componentName": "Contact"
+      "category": "filled",
+      "name": "discount_filled",
+      "path": "business-icons/filled/discount_filled.svg",
+      "componentName": "DiscountFilled"
     },
     {
-      "category": "mono",
-      "name": "developers",
-      "path": "business-icons/mono/developers.svg",
-      "componentName": "Developers"
+      "category": "filled",
+      "name": "doc_csv_filled",
+      "path": "business-icons/filled/doc_csv_filled.svg",
+      "componentName": "DocCsvFilled"
     },
     {
-      "category": "mono",
-      "name": "home",
-      "path": "business-icons/mono/home.svg",
-      "componentName": "Home"
+      "category": "filled",
+      "name": "filter_event_filled",
+      "path": "business-icons/filled/filter_event_filled.svg",
+      "componentName": "FilterEventFilled"
     },
     {
-      "category": "mono",
-      "name": "inbox",
-      "path": "business-icons/mono/inbox.svg",
-      "componentName": "Inbox"
+      "category": "filled",
+      "name": "global_filled",
+      "path": "business-icons/filled/global_filled.svg",
+      "componentName": "GlobalFilled"
     },
     {
-      "category": "mono",
-      "name": "integration",
-      "path": "business-icons/mono/integration.svg",
-      "componentName": "Integration"
+      "category": "filled",
+      "name": "info_filled",
+      "path": "business-icons/filled/info_filled.svg",
+      "componentName": "InfoFilled"
     },
     {
-      "category": "mono",
-      "name": "journey",
-      "path": "business-icons/mono/journey.svg",
-      "componentName": "Journey"
+      "category": "filled",
+      "name": "lightning_filled",
+      "path": "business-icons/filled/lightning_filled.svg",
+      "componentName": "LightningFilled"
     },
     {
-      "category": "mono",
-      "name": "megaphone",
-      "path": "business-icons/mono/megaphone.svg",
-      "componentName": "Megaphone"
+      "category": "filled",
+      "name": "message_bubble_filled",
+      "path": "business-icons/filled/message_bubble_filled.svg",
+      "componentName": "MessageBubbleFilled"
     },
     {
-      "category": "mono",
-      "name": "order",
-      "path": "business-icons/mono/order.svg",
-      "componentName": "Order"
+      "category": "filled",
+      "name": "message_filled",
+      "path": "business-icons/filled/message_filled.svg",
+      "componentName": "MessageFilled"
     },
     {
-      "category": "mono",
-      "name": "partner",
-      "path": "business-icons/mono/partner.svg",
-      "componentName": "Partner"
+      "category": "filled",
+      "name": "more_price_filled",
+      "path": "business-icons/filled/more_price_filled.svg",
+      "componentName": "MorePriceFilled"
     },
     {
-      "category": "mono",
-      "name": "whatsapp",
-      "path": "business-icons/mono/whatsapp.svg",
-      "componentName": "Whatsapp"
+      "category": "filled",
+      "name": "more_restriction_filled",
+      "path": "business-icons/filled/more_restriction_filled.svg",
+      "componentName": "MoreRestrictionFilled"
+    },
+    {
+      "category": "filled",
+      "name": "more_sender_filled",
+      "path": "business-icons/filled/more_sender_filled.svg",
+      "componentName": "MoreSenderFilled"
+    },
+    {
+      "category": "filled",
+      "name": "more_sender_name_filled",
+      "path": "business-icons/filled/more_sender_name_filled.svg",
+      "componentName": "MoreSenderNameFilled"
+    },
+    {
+      "category": "filled",
+      "name": "note_filled",
+      "path": "business-icons/filled/note_filled.svg",
+      "componentName": "NoteFilled"
+    },
+    {
+      "category": "filled",
+      "name": "order_event_filled",
+      "path": "business-icons/filled/order_event_filled.svg",
+      "componentName": "OrderEventFilled"
+    },
+    {
+      "category": "filled",
+      "name": "payments_filled",
+      "path": "business-icons/filled/payments_filled.svg",
+      "componentName": "PaymentsFilled"
+    },
+    {
+      "category": "filled",
+      "name": "qmai_event_filled",
+      "path": "business-icons/filled/qmai_event_filled.svg",
+      "componentName": "QmaiEventFilled"
+    },
+    {
+      "category": "filled",
+      "name": "route_filled",
+      "path": "business-icons/filled/route_filled.svg",
+      "componentName": "RouteFilled"
+    },
+    {
+      "category": "filled",
+      "name": "sand_clock_filled",
+      "path": "business-icons/filled/sand_clock_filled.svg",
+      "componentName": "SandClockFilled"
+    },
+    {
+      "category": "filled",
+      "name": "security_filled",
+      "path": "business-icons/filled/security_filled.svg",
+      "componentName": "SecurityFilled"
+    },
+    {
+      "category": "filled",
+      "name": "shopify_filled",
+      "path": "business-icons/filled/shopify_filled.svg",
+      "componentName": "ShopifyFilled"
+    },
+    {
+      "category": "filled",
+      "name": "star_filled",
+      "path": "business-icons/filled/star_filled.svg",
+      "componentName": "StarFilled"
+    },
+    {
+      "category": "filled",
+      "name": "status_filled",
+      "path": "business-icons/filled/status_filled.svg",
+      "componentName": "StatusFilled"
+    },
+    {
+      "category": "filled",
+      "name": "tag_filled",
+      "path": "business-icons/filled/tag_filled.svg",
+      "componentName": "TagFilled"
+    },
+    {
+      "category": "filled",
+      "name": "team_filled",
+      "path": "business-icons/filled/team_filled.svg",
+      "componentName": "TeamFilled"
+    },
+    {
+      "category": "filled",
+      "name": "template_filled",
+      "path": "business-icons/filled/template_filled.svg",
+      "componentName": "TemplateFilled"
+    },
+    {
+      "category": "filled",
+      "name": "trigger_filled",
+      "path": "business-icons/filled/trigger_filled.svg",
+      "componentName": "TriggerFilled"
+    },
+    {
+      "category": "filled",
+      "name": "user_filled",
+      "path": "business-icons/filled/user_filled.svg",
+      "componentName": "UserFilled"
+    },
+    {
+      "category": "filled",
+      "name": "warning_filled",
+      "path": "business-icons/filled/warning_filled.svg",
+      "componentName": "WarningFilled"
+    },
+    {
+      "category": "filled",
+      "name": "wechat_filled",
+      "path": "business-icons/filled/wechat_filled.svg",
+      "componentName": "WechatFilled"
+    },
+    {
+      "category": "filled",
+      "name": "whatsapp_phone_filled",
+      "path": "business-icons/filled/whatsapp_phone_filled.svg",
+      "componentName": "WhatsappPhoneFilled"
+    },
+    {
+      "category": "filled",
+      "name": "widgets_filled",
+      "path": "business-icons/filled/widgets_filled.svg",
+      "componentName": "WidgetsFilled"
     },
     {
       "category": "multicolor",
-      "name": "hub-spot",
-      "path": "business-icons/multicolor/hub-spot.svg",
+      "name": "hub_spot",
+      "path": "business-icons/multicolor/hub_spot.svg",
       "componentName": "HubSpot"
     },
     {
@@ -250,6 +376,102 @@
       "name": "trophy",
       "path": "business-icons/multicolor/trophy.svg",
       "componentName": "Trophy"
+    },
+    {
+      "category": "outlined",
+      "name": "advertising_outlined",
+      "path": "business-icons/outlined/advertising_outlined.svg",
+      "componentName": "AdvertisingOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "calling_outlined",
+      "path": "business-icons/outlined/calling_outlined.svg",
+      "componentName": "CallingOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "campaign_outlined",
+      "path": "business-icons/outlined/campaign_outlined.svg",
+      "componentName": "CampaignOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "cart_outlined",
+      "path": "business-icons/outlined/cart_outlined.svg",
+      "componentName": "CartOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "chatbot_outlined",
+      "path": "business-icons/outlined/chatbot_outlined.svg",
+      "componentName": "ChatbotOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "contact_outlined",
+      "path": "business-icons/outlined/contact_outlined.svg",
+      "componentName": "ContactOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "developers_outlined",
+      "path": "business-icons/outlined/developers_outlined.svg",
+      "componentName": "DevelopersOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "home_outlined",
+      "path": "business-icons/outlined/home_outlined.svg",
+      "componentName": "HomeOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "inbox_outlined",
+      "path": "business-icons/outlined/inbox_outlined.svg",
+      "componentName": "InboxOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "integration_outlined",
+      "path": "business-icons/outlined/integration_outlined.svg",
+      "componentName": "IntegrationOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "journey_outlined",
+      "path": "business-icons/outlined/journey_outlined.svg",
+      "componentName": "JourneyOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "order_outlined",
+      "path": "business-icons/outlined/order_outlined.svg",
+      "componentName": "OrderOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "partners_outlined",
+      "path": "business-icons/outlined/partners_outlined.svg",
+      "componentName": "PartnersOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "whats_app_business_outlined",
+      "path": "business-icons/outlined/whats_app_business_outlined.svg",
+      "componentName": "WhatsAppBusinessOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "whats_app_phone_outlined",
+      "path": "business-icons/outlined/whats_app_phone_outlined.svg",
+      "componentName": "WhatsAppPhoneOutlined"
+    },
+    {
+      "category": "outlined",
+      "name": "whatsapp_outlined",
+      "path": "business-icons/outlined/whatsapp_outlined.svg",
+      "componentName": "WhatsappOutlined"
     }
   ]
 }

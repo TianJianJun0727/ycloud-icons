@@ -1,7 +1,5 @@
 import { accountUnboundIllustration } from './illustration-icons/account-unbound';
 import { closeLogoIllustration } from './illustration-icons/close-logo';
-import { codeCouponIllustration } from './illustration-icons/code-coupon';
-import { customIconIllustration } from './illustration-icons/custom-icon';
 import { customerSupportIllustration } from './illustration-icons/customer-support';
 import { dataImportingIllustration } from './illustration-icons/data-importing';
 import { developerIntegrationIllustration } from './illustration-icons/developer-integration';
@@ -61,18 +59,6 @@ export {
   default as CloseLogoIcon,
   default as YCloudCloseLogo,
 } from './illustration-icons/close-logo';
-export * from './illustration-icons/code-coupon';
-export {
-  default as CodeCoupon,
-  default as CodeCouponIcon,
-  default as YCloudCodeCoupon,
-} from './illustration-icons/code-coupon';
-export * from './illustration-icons/custom-icon';
-export {
-  default as CustomIcon,
-  default as CustomIconIcon,
-  default as YCloudCustomIcon,
-} from './illustration-icons/custom-icon';
 export * from './illustration-icons/customer-support';
 export {
   default as CustomerSupport,
@@ -367,8 +353,6 @@ export interface IllustrationDefinition {
 export const illustrationNames = [
   'account-unbound',
   'close-logo',
-  'code-coupon',
-  'custom-icon',
   'customer-support',
   'data-importing',
   'developer-integration',
@@ -421,8 +405,6 @@ export type IllustrationName = (typeof illustrationNames)[number];
 export const illustrations: Record<IllustrationName, IllustrationDefinition> = {
   'account-unbound': accountUnboundIllustration,
   'close-logo': closeLogoIllustration,
-  'code-coupon': codeCouponIllustration,
-  'custom-icon': customIconIllustration,
   'customer-support': customerSupportIllustration,
   'data-importing': dataImportingIllustration,
   'developer-integration': developerIntegrationIllustration,

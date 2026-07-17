@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "更多sendername",
+  "tags": ["发送方名称", "Email 集成", "品牌身份", "功能卖点", "填充", "业务图标"],
+  "use-cases": ["用于 Email 集成上手页展示发送方名称能力", "说明邮件发送时的品牌身份配置"],
+  "i18n": {
+    "en": {
+      "name": "more sender name",
+      "tags": [
+        "sender name",
+        "email integration",
+        "brand identity",
+        "feature benefit",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show sender-name capabilities on Email integration onboarding",
+        "Explain brand identity configuration for email sending"
+      ]
+    }
+  },
+  "aliases": ["more-sender-name", "more-sender-name_filled"]
+}

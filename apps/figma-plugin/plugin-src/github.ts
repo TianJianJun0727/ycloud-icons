@@ -1,5 +1,6 @@
 import {
   getTargetIconName,
+  normalizeBusinessColorMode,
   sanitizeBusinessSvg,
   sanitizeIllustrationSvg,
   sanitizeSvg,
@@ -29,13 +30,7 @@ type IconMetadataIndex = {
 };
 
 function getBusinessColorMode(metadata: YCloudMetadataOptions) {
-  if (metadata.businessColorMode === 'multicolor' || metadata.businessCategory === 'multicolor') {
-    return 'multicolor';
-  }
-  if (metadata.businessColorMode === 'duotone' || metadata.businessCategory === 'duotone') {
-    return 'duotone';
-  }
-  return 'mono';
+  return normalizeBusinessColorMode(metadata.businessColorMode ?? metadata.businessCategory);
 }
 
 function uniqueList<T>(items: T[]): T[] {
@@ -106,6 +101,11 @@ function createAssetJson(icon: YCloudIconData, fallbackName: string, kind: IconS
   };
 }
 
+function getIllustrationCategory(metadata: YCloudMetadataOptions) {
+  const category = metadata.categories[0]?.trim();
+  return category && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(category) ? category : 'other';
+}
+
 function getAutoRenameNotes(icons: Record<string, YCloudIconData>) {
   const notes = Object.entries(icons)
     .map(([key, icon]) => {
@@ -174,17 +174,28 @@ function buildBusinessIconFiles(
     ];
   });
 }
-function buildIllustrationFiles(icons: Record<string, YCloudIconData>) {
+function buildIllustrationFiles(
+  icons: Record<string, YCloudIconData>,
+  metadata: YCloudMetadataOptions,
+) {
+  const category = getIllustrationCategory(metadata);
   return Object.entries(icons).flatMap(([key, icon]) => {
     const name = getTargetIconName(icon.figma?.name, icon.name, key);
     return [
       {
-        path: `illustration-icons/${name}.svg`,
+        path: `illustration-icons/${category}/${name}.svg`,
         content: sanitizeIllustrationSvg(icon.svg),
       },
       {
-        path: `illustration-icons/${name}.json`,
-        content: `${JSON.stringify(createAssetJson(icon, name, 'illustration'), null, 2)}\n`,
+        path: `illustration-icons/${category}/${name}.json`,
+        content: `${JSON.stringify(
+          {
+            ...createAssetJson(icon, name, 'illustration'),
+            $schema: '../../asset-metadata.schema.json',
+          },
+          null,
+          2,
+        )}\n`,
       },
     ];
   });
@@ -339,7 +350,7 @@ export function createGithubClient(
       sourceType === 'business'
         ? buildBusinessIconFiles(icons, metadata)
         : sourceType === 'illustration'
-          ? buildIllustrationFiles(icons)
+          ? buildIllustrationFiles(icons, metadata)
           : buildYCloudFiles(icons, metadata);
     const duplicateTargetPaths = findDuplicates(files.map((file) => file.path));
     if (duplicateTargetPaths.length > 0) {
@@ -396,9 +407,12 @@ export function createGithubClient(
       const existingIllustrationNames = new Set([
         ...baseTree.tree
           .filter(
-            (item) => item.type === 'blob' && /^illustration-icons\/[^/]+\.svg$/.test(item.path),
+            (item) =>
+              item.type === 'blob' && /^illustration-icons\/[^/]+\/[^/]+\.svg$/.test(item.path),
           )
-          .map((item) => item.path.replace(/^illustration-icons\//, '').replace(/\.svg$/, '')),
+          .map((item) =>
+            item.path.replace(/^illustration-icons\/[^/]+\//, '').replace(/\.svg$/, ''),
+          ),
         ...(sourceType === 'illustration' ? [...existingIconNames] : []),
       ]);
       const conflicts = files
@@ -426,7 +440,7 @@ export function createGithubClient(
         sourceType === 'illustration'
           ? files
               .filter((file) => {
-                const name = file.path.match(/^illustration-icons\/(.+)\.svg$/)?.[1];
+                const name = file.path.match(/^illustration-icons\/[^/]+\/(.+)\.svg$/)?.[1];
                 return Boolean(name && existingIllustrationNames.has(name));
               })
               .map((file) => `${file.path}（命中已有插画名称或别名）`)
@@ -469,7 +483,7 @@ export function createGithubClient(
         sourceType === 'business'
           ? `本次提交 ${iconCount} 个业务图标，颜色模式为 \`business-icons/${businessColorMode}/\`。SVG 已按业务规则轻量清洗。`
           : sourceType === 'illustration'
-            ? `本次提交 ${iconCount} 个插画。SVG 已做安全轻量清洗，并保留原始颜色和尺寸属性。`
+            ? `本次提交 ${iconCount} 个插画，分类为 \`illustration-icons/${getIllustrationCategory(metadata)}/\`。SVG 已做安全轻量清洗，并保留原始颜色和尺寸属性。`
             : `本次提交 ${iconCount} 个图标。SVG 已按图标库规范自动清洗。`,
         '',
         '变更文件：',

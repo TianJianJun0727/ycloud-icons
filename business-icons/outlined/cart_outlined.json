@@ -1,0 +1,14 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "购物车",
+  "tags": ["购物车", "购物", "订单", "电商", "描边", "业务图标"],
+  "use-cases": ["购物车菜单入口", "电商订单或商品购买流程页面"],
+  "i18n": {
+    "en": {
+      "name": "cart",
+      "tags": ["cart", "shopping", "order", "commerce", "outlined", "business icon"],
+      "use-cases": ["Shopping cart menu entry", "Commerce order or checkout flow pages"]
+    }
+  },
+  "aliases": ["cart"]
+}

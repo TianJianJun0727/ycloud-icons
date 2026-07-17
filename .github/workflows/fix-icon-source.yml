@@ -95,12 +95,12 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           fetch-depth: 0
 
-      - uses: ./.github/actions/setup-nub
+      - uses: ./.github/actions/setup-pnpm
         with:
           cache-mode: restore
 
       - name: Install dependencies
-        run: nub install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Get changed icon source files
         id: changed-files
@@ -181,7 +181,7 @@ jobs:
 
           if (( ${#svg_files[@]} > 0 )); then
             node ./scripts/optimizeStagedSvgs.mts "${svg_files[@]}"
-            nubx prettier --parser html --write "${svg_files[@]}"
+            pnpm exec prettier --parser html --write "${svg_files[@]}"
           fi
 
           business_svg_files=()
@@ -193,28 +193,28 @@ jobs:
 
           if (( ${#business_svg_files[@]} > 0 )); then
             node ./scripts/optimizeStagedBusinessSvgs.mts "${business_svg_files[@]}"
-            nubx prettier --parser html --write "${business_svg_files[@]}"
+            pnpm exec prettier --parser html --write "${business_svg_files[@]}"
           fi
 
           if [[ "${{ steps.source-change-kind.outputs.business_changed }}" == "true" ]]; then
             node ./scripts/writeBusinessIconIndex.mts
-            nubx oxfmt business-icons/index.json
+            pnpm exec oxfmt business-icons/index.json
           fi
 
           if [[ "${{ steps.source-change-kind.outputs.illustration_changed }}" == "true" ]]; then
             illustration_svg_files=()
             while IFS= read -r -d '' file; do
-              if [[ "$file" == illustration-icons/*.svg && -f "$file" ]]; then
+              if [[ "$file" =~ ^illustration-icons/([^/]+/)?[^/]+\.svg$ && -f "$file" ]]; then
                 illustration_svg_files+=("$file")
               fi
             done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- illustration-icons)
 
             if (( ${#illustration_svg_files[@]} > 0 )); then
-              nubx prettier --parser html --write "${illustration_svg_files[@]}"
+              pnpm exec prettier --parser html --write "${illustration_svg_files[@]}"
             fi
 
             node ./scripts/writeIllustrationIndex.mts
-            nubx oxfmt illustration-icons/index.json
+            pnpm exec oxfmt illustration-icons/index.json
           fi
 
       - name: Complete changed metadata i18n
@@ -241,20 +241,20 @@ jobs:
         if: steps.source-change-kind.outputs.generic_changed == 'true' || steps.source-change-kind.outputs.business_changed == 'true' || steps.source-change-kind.outputs.illustration_changed == 'true'
         run: |
           node ./scripts/writeAssetMetadata.mts
-          nubx oxfmt icons/metadata/*.json business-icons/**/*.json illustration-icons/*.json illustration-icons/metadata/*.json
+          pnpm exec oxfmt icons/metadata/*.json business-icons/**/*.json illustration-icons/index.json illustration-icons/**/*.json illustration-icons/metadata/*.json
 
       - name: Format changed metadata
         if: steps.source-change-kind.outputs.generic_source_changed == 'true' || steps.source-change-kind.outputs.business_source_changed == 'true' || steps.source-change-kind.outputs.illustration_source_changed == 'true'
         run: |
           format_files=()
           while IFS= read -r -d '' file; do
-            if [[ ( "$file" == icons/*.json || "$file" == categories/*.json || "$file" == business-icons/*.json || "$file" == business-icons/*/*.json || "$file" == illustration-icons/*.json ) && -f "$file" ]]; then
+            if [[ ( "$file" == icons/*.json || "$file" == categories/*.json || "$file" == business-icons/*.json || "$file" == business-icons/*/*.json || "$file" == illustration-icons/*.json || "$file" == illustration-icons/*/*.json ) && -f "$file" ]]; then
               format_files+=("$file")
             fi
           done < <(git diff --name-only -z ${{ github.event.pull_request.base.sha }} -- icons categories business-icons illustration-icons)
 
           if (( ${#format_files[@]} > 0 )); then
-            nubx oxfmt "${format_files[@]}"
+            pnpm exec oxfmt "${format_files[@]}"
           fi
 
       - name: Validate changed icon source
@@ -283,10 +283,10 @@ jobs:
           if [[ "${{ steps.source-change-kind.outputs.generic_changed }}" == "true" ]]; then
             if (( ${#generic_svg_files[@]} > 0 )); then
               node ./scripts/checkSvgSource.mts "${generic_svg_files[@]}"
-              nubx prettier --parser html --check "${generic_svg_files[@]}"
+              pnpm exec prettier --parser html --check "${generic_svg_files[@]}"
             fi
 
-            ADDED_FILES="${added_generic_source_files[*]}" nub run checkIcons
+            ADDED_FILES="${added_generic_source_files[*]}" pnpm checkIcons
           fi
 
           if (( ${#icon_json_files[@]} > 0 )); then
@@ -306,7 +306,7 @@ jobs:
           fi
 
           if [[ "${{ steps.source-change-kind.outputs.generic_changed }}" == "true" || "${{ steps.source-change-kind.outputs.business_changed }}" == "true" || "${{ steps.source-change-kind.outputs.illustration_changed }}" == "true" ]]; then
-            nub run lint:json
+            pnpm lint:json
           fi
 
       - name: Commit fixes

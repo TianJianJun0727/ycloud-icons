@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "组件",
+  "tags": ["其他目标", "新手引导", "目标选择", "自定义需求", "填充", "业务图标"],
+  "use-cases": ["用于新手引导中选择其他或自定义目标", "用于入门目标卡片表示未预设的业务需求"],
+  "i18n": {
+    "en": {
+      "name": "widgets",
+      "tags": [
+        "other goal",
+        "onboarding",
+        "goal selection",
+        "custom requirement",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Select an other or custom goal during onboarding",
+        "Represent business requirements not covered by predefined goals"
+      ]
+    }
+  },
+  "aliases": ["widgets"]
+}

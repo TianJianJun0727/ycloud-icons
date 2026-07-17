@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "触发器",
+  "tags": ["触发器", "Inbox Flow", "Journey", "流程节点", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox Flow 和 Journey 的流程起始节点", "标识自动化流程的触发入口"],
+  "i18n": {
+    "en": {
+      "name": "trigger",
+      "tags": ["trigger", "inbox flow", "journey", "workflow node", "filled", "business icon"],
+      "use-cases": [
+        "Starting node in Inbox Flow and Journey workflows",
+        "Identify the trigger entry for automation flows"
+      ]
+    }
+  },
+  "aliases": ["trigger"]
+}

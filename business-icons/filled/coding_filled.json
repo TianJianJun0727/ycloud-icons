@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "coding",
+  "tags": ["开发集成", "SMS 集成", "代码接入", "使用指南", "填充", "业务图标"],
+  "use-cases": ["用于 SMS 集成上手页展示代码接入能力", "说明开发者通过接口接入短信服务"],
+  "i18n": {
+    "en": {
+      "name": "coding",
+      "tags": [
+        "coding",
+        "sms integration",
+        "developer setup",
+        "getting started",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show developer setup on SMS integration onboarding",
+        "Explain API-based integration with SMS services"
+      ]
+    }
+  },
+  "aliases": ["coding"]
+}

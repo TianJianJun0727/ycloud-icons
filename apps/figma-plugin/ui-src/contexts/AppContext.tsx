@@ -3,20 +3,20 @@ import { createContext, h } from 'preact';
 import { useContext, useReducer } from 'preact/hooks';
 import { type Events as PluginEvents } from '../../common/fromPlugin';
 import { emit, type Events as UiEvents } from '../../common/fromUi';
+import { normalizeBusinessColorMode } from '../../common/iconRules';
 import type { GithubData, YCloudIconData, YCloudMetadataOptions } from '../../common/types';
 import { getGithubDataFromUrl } from '../utils/string';
 function uniqueList<T>(items: T[] = []): T[] {
   return items.filter((item, index, list) => list.indexOf(item) === index);
 }
 function normalizeYCloudMetadata(options?: Partial<YCloudMetadataOptions>): YCloudMetadataOptions {
-  const legacyBusinessColorMode =
-    options?.businessCategory === 'duotone' || options?.businessCategory === 'multicolor'
-      ? options.businessCategory
-      : 'mono';
+  const businessColorMode = normalizeBusinessColorMode(
+    options?.businessColorMode ?? options?.businessCategory,
+  );
   return {
     categories: uniqueList(options?.categories),
-    businessColorMode: options?.businessColorMode ?? legacyBusinessColorMode,
-    businessCategory: options?.businessCategory ?? '',
+    businessColorMode,
+    businessCategory: businessColorMode,
     tagsZh: uniqueList(options?.tagsZh),
     useCasesZh: uniqueList(options?.useCasesZh),
   };

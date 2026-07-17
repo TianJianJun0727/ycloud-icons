@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "联系人",
+  "tags": ["联系人", "左侧导航", "客户管理", "菜单", "描边", "业务图标"],
+  "use-cases": ["用于左侧菜单的联系人模块入口", "导航到联系人列表、分群和客户数据管理"],
+  "i18n": {
+    "en": {
+      "name": "contact",
+      "tags": [
+        "contact",
+        "sidebar navigation",
+        "customer management",
+        "menu",
+        "outlined",
+        "business icon"
+      ],
+      "use-cases": [
+        "Sidebar entry for the Contacts module",
+        "Navigate to contact lists, segments, and customer data management"
+      ]
+    }
+  },
+  "aliases": ["contact"]
+}

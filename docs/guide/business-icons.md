@@ -7,7 +7,7 @@ description: 业务专有 SVG 图标的存放、校验和提交规则。
 
 `business-icons/` 用于存放不适合进入通用图标库的业务专有 SVG。
 
-通用图标位于 `icons/`，要求保持 24x24、线性风格、`currentColor`、`stroke-width="2"` 和统一元数据。业务图标按颜色模式拆分为单色、双色和多色，使用独立清洗与校验规则，不需要进入通用分类和元数据体系。
+通用图标位于 `icons/`，要求保持 24x24、线性风格、`currentColor`、`stroke-width="2"` 和统一元数据。业务图标按颜色模式拆分为描边、填充和多色，使用独立清洗与校验规则，不需要进入通用分类和元数据体系。
 
 ## 适用场景
 
@@ -35,8 +35,8 @@ docs/public/metadata/business-icons.json
 当前允许目录：
 
 ```text
-mono
-duotone
+outlined
+filled
 multicolor
 ```
 
@@ -52,8 +52,8 @@ multicolor
 
 - 移除 `<script>`、`<foreignObject>`、事件属性和 `javascript:` URL
 - 移除 `style`、`class`、未被引用的 `id`、`data-*` 这类设计工具噪声
-- `mono`：将写死的 `fill`、`stroke` 转为 `currentColor` 或保留 `none`
-- `duotone`：将白色填充/描边转为 `var(--business-icon-secondary-color)`，其他颜色转为 `var(--business-icon-primary-color)`，不按路径顺序判断
+- `outlined`：将写死的 `fill`、`stroke` 转为 `currentColor` 或保留 `none`
+- `filled`：将白色填充/描边转为 `var(--business-icon-secondary-color)`，其他颜色转为 `var(--business-icon-primary-color)`，不按路径顺序判断
 - `multicolor`：不清洗固定颜色，保留源 SVG 的多色视觉
 - 保留原始 `width`、`height`、`viewBox`、`stroke-width`、`stroke-linecap`、`stroke-linejoin` 和几何结构
 
@@ -66,8 +66,8 @@ multicolor
 - `business-icons/metadata/index.json` 必须由 `node ./scripts/writeAssetMetadata.mts` 生成并保持同步；`docs/public/metadata` 由文档构建直接复制
 - 文件名必须是小写 kebab-case
 - 根节点必须是 `<svg>`
-- `mono` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
-- `duotone` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
+- `outlined` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
+- `filled` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
 - `multicolor` 允许固定颜色，但仍执行安全检查
 - 禁止 `style`、`class`、`data-*` 这类样式和设计工具属性
 - 禁止 `<script>` 和 `<foreignObject>`
@@ -87,7 +87,7 @@ node ./scripts/checkBusinessSvgSource.mts
 
 在 Figma 插件中选择“业务图标”后，插件会：
 
-- 通过单选控件选择单色、双色或多色
+- 通过单选控件选择描边、填充或多色
 - 提交到 `business-icons/<color-mode>/*.svg`
 - 同时提交 `business-icons/<color-mode>/*.json`
 - 按业务 SVG 规则清洗后提交
@@ -140,12 +140,12 @@ export function ChannelIcon() {
 }
 ```
 
-React 业务图标组件底层渲染为内联 `<svg>`。`mono` 和 `duotone` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`duotone` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
+React 业务图标组件底层渲染为内联 `<svg>`。`outlined` 和 `filled` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`filled` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
 
 ```tsx
 import { Shopify } from '@ycloud-web/icons-react/business';
 
-export function DuotoneIcon() {
+export function FilledIcon() {
   return (
     <Shopify
       size={24}
@@ -185,7 +185,7 @@ pnpm add @ycloud-web/icons-static
 ```
 
 ```ts
-import billingIconUrl from '@ycloud-web/icons-static/business-icons/mono/billing.svg';
+import billingIconUrl from '@ycloud-web/icons-static/business-icons/outlined/billing.svg';
 ```
 
 业务图标也会生成独立 Icon Font，不和通用 `font/ycloud.css` 混在一起：
@@ -198,4 +198,4 @@ import billingIconUrl from '@ycloud-web/icons-static/business-icons/mono/billing
 <div class="business-icon-billing"></div>
 ```
 
-静态 SVG 与数据包会保留清洗后的颜色 token。使用 `duotone` 源时，打包到组件阶段会把 primary/secondary token 转为对应框架的可传入颜色参数；多色图标始终保留源 SVG 固定色。
+静态 SVG 与数据包会保留清洗后的颜色 token。使用 `filled` 源时，打包到组件阶段会把 primary/secondary token 转为对应框架的可传入颜色参数；多色图标始终保留源 SVG 固定色。

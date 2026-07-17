@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "SaleSmartly 集成",
+  "tags": ["SaleSmartly", "集成", "客服", "渠道"],
+  "use-cases": ["SaleSmartly 渠道或集成入口", "客户服务集成能力说明"],
+  "i18n": {
+    "en": {
+      "name": "SaleSmartly Integration",
+      "tags": ["SaleSmartly", "integration", "customer service", "channel"],
+      "use-cases": [
+        "SaleSmartly channel or integration entry",
+        "Customer service integration capability description"
+      ]
+    }
+  }
+}

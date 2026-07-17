@@ -25,6 +25,7 @@ export interface IconEntity extends IconMetaData {
   displayTags?: string[];
   displayUseCases?: string[];
   displayCategories?: string[];
+  chineseName?: string;
   englishName?: string;
   englishTags?: string[];
   englishUseCases?: string[];
@@ -81,6 +82,9 @@ export interface IllustrationEntity {
   englishName?: string;
   englishTags?: string[];
   englishUseCases?: string[];
+  category: string;
+  categoryTitle: string;
+  englishCategoryTitle: string;
   componentName: string;
   path: string;
   svg: string;
@@ -89,6 +93,13 @@ export interface IllustrationEntity {
   changedRelease?: Release;
   git?: IconGitMetadata;
   popularity?: number;
+}
+
+export interface IllustrationCategory {
+  name: string;
+  title: string;
+  englishTitle: string;
+  iconCount: number;
 }
 
 export interface Category {

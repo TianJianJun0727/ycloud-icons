@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "短信集成",
+  "tags": ["短信", "集成", "渠道", "通知"],
+  "use-cases": ["短信渠道或集成入口", "短信通知能力说明"],
+  "i18n": {
+    "en": {
+      "name": "SMS Integration",
+      "tags": ["sms", "integration", "channel", "notification"],
+      "use-cases": ["SMS channel or integration entry", "SMS notification capability description"]
+    }
+  }
+}

@@ -3,7 +3,8 @@ title: Illustrations
 description: Browse all YCloud Icons illustrations.
 layout: page
 outline: 2
-sidebar: false
+outlineTitle: Categories
+sidebar: true
 head:
   - - link
     - rel: canonical
@@ -18,6 +19,9 @@ import PageContainer from '~/.vitepress/theme/components/PageContainer.vue'
 
 <div class="VPDoc content">
   <PageContainer>
-    <IllustrationsOverview :illustrations="data.illustrations" />
+    <IllustrationsOverview
+      :illustrations="data.illustrations"
+      :categories="data.categories"
+    />
   </PageContainer>
 </div>

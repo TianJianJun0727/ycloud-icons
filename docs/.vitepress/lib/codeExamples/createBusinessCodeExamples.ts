@@ -6,7 +6,7 @@ type CodeExampleType = {
   code: string;
 }[];
 
-type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+type BusinessIconColorMode = 'outlined' | 'filled' | 'multicolor';
 
 const getSharedImageComponentCodes = (): CodeExampleType => [
   {
@@ -72,7 +72,7 @@ businessIconUrl = iconUrl;
   },
 ];
 
-const getMonoBusinessIconCodes = (): CodeExampleType => [
+const getOutlinedBusinessIconCodes = (): CodeExampleType => [
   {
     language: 'html',
     title: 'Vanilla',
@@ -102,7 +102,7 @@ export default App;
   ...getSharedImageComponentCodes(),
 ];
 
-const getDuotoneBusinessIconCodes = (): CodeExampleType => [
+const getFilledBusinessIconCodes = (): CodeExampleType => [
   {
     language: 'html',
     title: 'Vanilla',
@@ -167,20 +167,20 @@ export default App;
 ];
 
 const getBusinessIconCodes = (colorMode: BusinessIconColorMode): CodeExampleType => {
-  if (colorMode === 'duotone') {
-    return getDuotoneBusinessIconCodes();
+  if (colorMode === 'filled') {
+    return getFilledBusinessIconCodes();
   }
 
   if (colorMode === 'multicolor') {
     return getMulticolorBusinessIconCodes();
   }
 
-  return getMonoBusinessIconCodes();
+  return getOutlinedBusinessIconCodes();
 };
 
 export default async function createBusinessCodeExamples() {
   const codeExampleEntries = await Promise.all(
-    (['mono', 'duotone', 'multicolor'] as const).map(async (colorMode) => {
+    (['outlined', 'filled', 'multicolor'] as const).map(async (colorMode) => {
       const codes = getBusinessIconCodes(colorMode);
 
       const codeExamples = await Promise.all(

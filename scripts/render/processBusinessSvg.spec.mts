@@ -32,10 +32,10 @@ describe('processBusinessSvg', () => {
     expect(svg).not.toContain('fill="white"');
   });
 
-  it('normalizes fixed colors into two color slots for duotone business icons', async () => {
+  it('normalizes fixed colors into two color slots for filled business icons', async () => {
     const svg = await processBusinessSvg(
       '<svg viewBox="0 0 20 20"><path fill="#FF934A" d="M0 0h20v20H0z"/><path fill="white" d="M4 4h12v12H4z"/></svg>',
-      'business-icons/duotone/trophy.svg',
+      'business-icons/filled/trophy.svg',
     );
 
     expect(svg).toContain('fill="var(--business-icon-primary-color)"');
@@ -47,7 +47,7 @@ describe('processBusinessSvg', () => {
   it('maps white to the secondary color slot regardless of order', async () => {
     const svg = await processBusinessSvg(
       '<svg viewBox="0 0 20 20"><path fill="#fff" d="M4 4h12v12H4z"/><path fill="#FF934A" d="M0 0h20v20H0z"/></svg>',
-      'business-icons/duotone/trophy.svg',
+      'business-icons/filled/trophy.svg',
     );
 
     expect(svg).toContain('fill="var(--business-icon-secondary-color)"');

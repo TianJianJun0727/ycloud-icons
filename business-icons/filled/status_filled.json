@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "状态",
+  "tags": ["状态", "Calling", "通话日志", "筛选条件", "填充", "业务图标"],
+  "use-cases": ["用于 Calling 日志页面的状态筛选项", "标识通话记录的处理状态"],
+  "i18n": {
+    "en": {
+      "name": "status",
+      "tags": ["status", "calling", "call logs", "filter", "filled", "business icon"],
+      "use-cases": [
+        "Status filter on the Calling logs page",
+        "Identify processing states for call records"
+      ]
+    }
+  },
+  "aliases": ["status"]
+}

@@ -224,16 +224,20 @@ async function syncIllustrationMetadata() {
 
       const current = await readAssetMetadata(metadataPath);
       const legacy = fromLegacyMetadata(legacyMetadata.get(illustration.name));
+      const schemaPath = path
+        .relative(path.dirname(metadataPath), path.join(repoRoot, 'asset-metadata.schema.json'))
+        .split(path.sep)
+        .join('/');
       const fallback = createAssetMetadata({
         kind: 'illustration',
         name: illustration.name,
-        schemaPath: '../asset-metadata.schema.json',
+        schemaPath,
       });
       await writeAssetMetadata(metadataPath, {
         ...fallback,
         ...legacy,
         ...current,
-        $schema: '../asset-metadata.schema.json',
+        $schema: schemaPath,
         i18n: {
           en: {
             ...fallback.i18n.en,
@@ -357,6 +361,7 @@ async function writeIllustrationMetadata() {
         title: getMetadataTitle(metadata),
         englishName: getMetadataEnglishName(metadata),
         componentName: illustration.componentName,
+        category: illustration.category,
         metadata,
       };
     }),

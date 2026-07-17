@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const BUSINESS_ICONS_DIR = 'business-icons';
 const BUSINESS_ICON_INDEX_FILE = path.join(BUSINESS_ICONS_DIR, 'index.json');
 const BUSINESS_CATEGORY_CONFIG_FILE = 'index.json';
-const BUSINESS_ICON_COLOR_MODES = ['mono', 'duotone', 'multicolor'] as const;
+const BUSINESS_ICON_COLOR_MODES = ['outlined', 'filled', 'multicolor'] as const;
 
 type BusinessCategoryConfig = {
   $schema?: string;

@@ -25,29 +25,36 @@ function getDisplayName(illustration: IllustrationEntity) {
 </script>
 
 <template>
-  <div class="illustration-grid">
-    <Tooltip
-      v-for="illustration in illustrations"
-      :key="illustration.name"
-      :title="getDisplayName(illustration)"
-    >
-      <button
-        type="button"
-        class="illustration-card"
-        :class="{ active: activeIllustration === illustration.name }"
-        :aria-label="getDisplayName(illustration)"
-        @click="emit('select', illustration)"
+  <section class="illustration-section">
+    <slot name="title" />
+    <div class="illustration-grid">
+      <Tooltip
+        v-for="illustration in illustrations"
+        :key="illustration.name"
+        :title="getDisplayName(illustration)"
       >
-        <span class="illustration-preview-wrap">
-          <IllustrationPreview :svg="illustration.svg" />
-        </span>
-        <span class="illustration-name">{{ getDisplayName(illustration) }}</span>
-      </button>
-    </Tooltip>
-  </div>
+        <button
+          type="button"
+          class="illustration-card"
+          :class="{ active: activeIllustration === illustration.name }"
+          :aria-label="getDisplayName(illustration)"
+          @click="emit('select', illustration)"
+        >
+          <span class="illustration-preview-wrap">
+            <IllustrationPreview :svg="illustration.svg" />
+          </span>
+          <span class="illustration-name">{{ getDisplayName(illustration) }}</span>
+        </button>
+      </Tooltip>
+    </div>
+  </section>
 </template>
 
 <style scoped>
+.illustration-section {
+  margin-bottom: 8px;
+}
+
 .illustration-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

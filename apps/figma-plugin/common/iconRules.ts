@@ -160,7 +160,17 @@ export function sanitizeSvg(svg: string) {
   return `${normalized}\n`;
 }
 
-type BusinessIconColorMode = 'mono' | 'duotone' | 'multicolor';
+export type BusinessIconColorMode = 'outlined' | 'filled' | 'multicolor';
+
+export function normalizeBusinessColorMode(value?: string): BusinessIconColorMode {
+  if (value === 'duotone' || value === 'filled') {
+    return 'filled';
+  }
+  if (value === 'multicolor') {
+    return 'multicolor';
+  }
+  return 'outlined';
+}
 
 function normalizeBusinessSvgColor(value: string, colorMode: BusinessIconColorMode) {
   if (value === 'none' || value.startsWith('var(')) {
@@ -169,7 +179,7 @@ function normalizeBusinessSvgColor(value: string, colorMode: BusinessIconColorMo
   if (colorMode === 'multicolor') {
     return value;
   }
-  if (colorMode === 'mono') {
+  if (colorMode === 'outlined') {
     return 'currentColor';
   }
   if (value === 'currentColor') {
@@ -199,7 +209,8 @@ function getReferencedIds(svg: string) {
   ]);
 }
 
-export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMode = 'mono') {
+export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMode = 'outlined') {
+  colorMode = normalizeBusinessColorMode(colorMode);
   const openTag = svg.match(/<svg\b[^>]*>/i)?.[0];
   if (!openTag) return svg.trim();
   const cleanedOpenTag =
@@ -207,7 +218,7 @@ export function sanitizeBusinessSvg(svg: string, colorMode: BusinessIconColorMod
       ? openTag
       : openTag.replace(
           /<svg\b/i,
-          colorMode === 'duotone'
+          colorMode === 'filled'
             ? '<svg fill="var(--business-icon-primary-color)"'
             : '<svg fill="currentColor"',
         );
