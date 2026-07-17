@@ -32,7 +32,9 @@ Use `ycloud-icons-selection` when the task only needs an existing asset recommen
 
 Read [asset-workflows.md](references/asset-workflows.md) before modifying source assets, metadata, categories, or generated indexes.
 
-Read [docs-and-release.md](references/docs-and-release.md) only for docs, package generation, CI, changelog, release, tag, npm publishing, or deployment work.
+Read [capability-map.md](references/capability-map.md) when selecting which local script, package command, or GitHub Action workflow matches the requested maintenance task.
+
+Read [docs-and-release.md](references/docs-and-release.md) only for docs, package generation, CI, changelog, release, tag, npm publishing, deployment work, or requests for a stable release path.
 
 ## Make surgical changes
 

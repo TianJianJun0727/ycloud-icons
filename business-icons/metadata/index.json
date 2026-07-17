@@ -4,43 +4,6 @@
   "assets": [
     {
       "type": "business-icon",
-      "name": "acquire-more-leads-filled",
-      "path": "business-icons/filled/acquire-more-leads-filled.svg",
-      "title": "获取更多潜在客户",
-      "englishName": "acquire more leads",
-      "componentName": "AcquireMoreLeadsFilled",
-      "category": "filled",
-      "colorMode": "filled",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "获取更多潜在客户",
-        "tags": ["获取潜在客户", "新手引导", "目标选择", "获客", "填充", "业务图标"],
-        "use-cases": [
-          "用于新手引导中选择获取更多潜在客户的使用目标",
-          "用于入门目标卡片展示获客方向"
-        ],
-        "i18n": {
-          "en": {
-            "name": "acquire more leads",
-            "tags": [
-              "acquire leads",
-              "onboarding",
-              "goal selection",
-              "lead generation",
-              "filled",
-              "business icon"
-            ],
-            "use-cases": [
-              "Select the acquire-more-leads goal during onboarding",
-              "Show the lead generation goal in getting-started cards"
-            ]
-          }
-        },
-        "aliases": ["acquire-more-leads", "acquire-more-leads_filled"]
-      }
-    },
-    {
-      "type": "business-icon",
       "name": "advertising-outlined",
       "path": "business-icons/outlined/advertising-outlined.svg",
       "title": "广告",
@@ -176,6 +139,41 @@
           }
         },
         "aliases": ["agent-with-time", "agent-with-time_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "alipay",
+      "path": "business-icons/multicolor/alipay.svg",
+      "title": "支付宝",
+      "englishName": "alipay",
+      "componentName": "Alipay",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "支付宝",
+        "tags": ["支付宝", "支付方式", "购买额度", "账单", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于支付方式选择中的支付宝选项", "用于购买额度页面展示支付宝支付渠道"],
+        "i18n": {
+          "en": {
+            "name": "alipay",
+            "tags": [
+              "alipay",
+              "payment method",
+              "buy credits",
+              "billing",
+              "brand",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": [
+              "Alipay option in payment method selectors",
+              "Display Alipay as a payment channel when buying credits"
+            ]
+          }
+        },
+        "aliases": ["alipay"]
       }
     },
     {
@@ -706,33 +704,6 @@
     },
     {
       "type": "business-icon",
-      "name": "cancel-filled",
-      "path": "business-icons/filled/cancel-filled.svg",
-      "title": "取消",
-      "englishName": "cancel",
-      "componentName": "CancelFilled",
-      "category": "filled",
-      "colorMode": "filled",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "取消",
-        "tags": ["取消", "关闭", "失败", "终止", "填充", "业务图标"],
-        "use-cases": ["取消操作入口或状态提示", "流程终止、失败反馈或关闭动作场景"],
-        "i18n": {
-          "en": {
-            "name": "cancel",
-            "tags": ["cancel", "close", "failed", "terminate", "filled", "business icon"],
-            "use-cases": [
-              "Cancel action entry or status feedback",
-              "Flow termination, failure feedback, or close action scenarios"
-            ]
-          }
-        },
-        "aliases": ["cancel_filled"]
-      }
-    },
-    {
-      "type": "business-icon",
       "name": "cart-outlined",
       "path": "business-icons/outlined/cart-outlined.svg",
       "title": "购物车",
@@ -1129,6 +1100,66 @@
           }
         },
         "aliases": ["doc-csv", "doc-csv_filled"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "error-filled",
+      "path": "business-icons/filled/error-filled.svg",
+      "title": "error填充",
+      "englishName": "error filled",
+      "componentName": "ErrorFilled",
+      "category": "filled",
+      "colorMode": "filled",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "error填充",
+        "tags": ["error填充", "error", "填充", "填充业务图标", "业务图标"],
+        "use-cases": ["error填充相关入口或状态展示", "需要兼容历史业务视觉的error填充场景"],
+        "i18n": {
+          "en": {
+            "name": "error filled",
+            "tags": ["error filled", "error", "filled", "filled business icon", "business icon"],
+            "use-cases": [
+              "error filled entry or status",
+              "Legacy business visual for error filled scenarios"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "facebook",
+      "path": "business-icons/multicolor/facebook.svg",
+      "title": "Facebook",
+      "englishName": "facebook",
+      "componentName": "Facebook",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Facebook",
+        "tags": ["Facebook", "社交媒体", "营销渠道", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于 Facebook 渠道入口", "用于展示 Facebook 社交媒体或营销渠道"],
+        "i18n": {
+          "en": {
+            "name": "facebook",
+            "tags": [
+              "facebook",
+              "social media",
+              "marketing channel",
+              "brand",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": [
+              "Facebook channel entry",
+              "Display Facebook as a social media or marketing channel"
+            ]
+          }
+        },
+        "aliases": ["facebook"]
       }
     },
     {
@@ -1556,40 +1587,6 @@
     },
     {
       "type": "business-icon",
-      "name": "more-sender-filled",
-      "path": "business-icons/filled/more-sender-filled.svg",
-      "title": "更多发送方",
-      "englishName": "more sender",
-      "componentName": "MoreSenderFilled",
-      "category": "filled",
-      "colorMode": "filled",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "更多发送方",
-        "tags": ["发送方", "SMS 集成", "消息渠道", "功能卖点", "填充", "业务图标"],
-        "use-cases": ["用于 SMS 集成上手页展示发送方能力", "说明短信发送渠道和发送主体"],
-        "i18n": {
-          "en": {
-            "name": "more sender",
-            "tags": [
-              "sender",
-              "sms integration",
-              "message channel",
-              "feature benefit",
-              "filled",
-              "business icon"
-            ],
-            "use-cases": [
-              "Show sender capabilities on SMS integration onboarding",
-              "Explain SMS channels and sending identities"
-            ]
-          }
-        },
-        "aliases": ["more-sender", "more-sender_filled"]
-      }
-    },
-    {
-      "type": "business-icon",
       "name": "more-sender-name-filled",
       "path": "business-icons/filled/more-sender-name-filled.svg",
       "title": "更多发送方名称",
@@ -1760,39 +1757,37 @@
     },
     {
       "type": "business-icon",
-      "name": "payments-filled",
-      "path": "business-icons/filled/payments-filled.svg",
-      "title": "支付",
-      "englishName": "payments",
-      "componentName": "PaymentsFilled",
-      "category": "filled",
-      "colorMode": "filled",
+      "name": "paypal",
+      "path": "business-icons/multicolor/paypal.svg",
+      "title": "PayPal",
+      "englishName": "paypal",
+      "componentName": "Paypal",
+      "category": "multicolor",
+      "colorMode": "multicolor",
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
-        "name": "支付",
-        "tags": ["支付能力", "集成", "费用", "功能卖点", "填充", "业务图标"],
-        "use-cases": [
-          "用于 Email、SMS 和号码验证上手页展示支付能力",
-          "说明集成服务的支付和费用相关功能"
-        ],
+        "name": "PayPal",
+        "tags": ["PayPal", "支付方式", "购买额度", "账单", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于支付方式选择中的 PayPal 选项", "用于购买额度页面展示 PayPal 支付渠道"],
         "i18n": {
           "en": {
-            "name": "payments",
+            "name": "paypal",
             "tags": [
-              "payments",
-              "integration",
-              "cost",
-              "feature benefit",
-              "filled",
+              "paypal",
+              "payment method",
+              "buy credits",
+              "billing",
+              "brand",
+              "multicolor",
               "business icon"
             ],
             "use-cases": [
-              "Show payment capabilities on Email, SMS, and number verification onboarding",
-              "Explain payment and cost-related integration features"
+              "PayPal option in payment method selectors",
+              "Display PayPal as a payment channel when buying credits"
             ]
           }
         },
-        "aliases": ["payments"]
+        "aliases": ["paypal"]
       }
     },
     {
@@ -1915,6 +1910,41 @@
           }
         },
         "aliases": ["security"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "shopify",
+      "path": "business-icons/multicolor/shopify.svg",
+      "title": "Shopify",
+      "englishName": "shopify",
+      "componentName": "Shopify",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "Shopify",
+        "tags": ["Shopify", "集成", "电商", "店铺", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于 Shopify 集成入口", "用于展示 Shopify 店铺或电商渠道"],
+        "i18n": {
+          "en": {
+            "name": "shopify",
+            "tags": [
+              "shopify",
+              "integration",
+              "commerce",
+              "store",
+              "brand",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": [
+              "Shopify integration entry",
+              "Display Shopify stores or commerce channels"
+            ]
+          }
+        },
+        "aliases": ["shopify"]
       }
     },
     {
@@ -2111,6 +2141,41 @@
     },
     {
       "type": "business-icon",
+      "name": "tiktok",
+      "path": "business-icons/multicolor/tiktok.svg",
+      "title": "TikTok",
+      "englishName": "tiktok",
+      "componentName": "Tiktok",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "TikTok",
+        "tags": ["TikTok", "社交媒体", "短视频", "营销渠道", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于 TikTok 渠道入口", "用于展示 TikTok 短视频或营销渠道"],
+        "i18n": {
+          "en": {
+            "name": "tiktok",
+            "tags": [
+              "tiktok",
+              "social media",
+              "short video",
+              "marketing channel",
+              "brand",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": [
+              "TikTok channel entry",
+              "Display TikTok as a short-video or marketing channel"
+            ]
+          }
+        },
+        "aliases": ["tiktok"]
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "trigger-filled",
       "path": "business-icons/filled/trigger-filled.svg",
       "title": "触发器",
@@ -2252,6 +2317,41 @@
           }
         },
         "aliases": ["wechat"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "wechat-pay",
+      "path": "business-icons/multicolor/wechat-pay.svg",
+      "title": "微信支付",
+      "englishName": "wechat pay",
+      "componentName": "WechatPay",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "微信支付",
+        "tags": ["微信支付", "支付方式", "购买额度", "账单", "品牌", "多色", "业务图标"],
+        "use-cases": ["用于支付方式选择中的微信支付选项", "用于购买额度页面展示微信支付渠道"],
+        "i18n": {
+          "en": {
+            "name": "wechat pay",
+            "tags": [
+              "wechat pay",
+              "payment method",
+              "buy credits",
+              "billing",
+              "brand",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": [
+              "WeChat Pay option in payment method selectors",
+              "Display WeChat Pay as a payment channel when buying credits"
+            ]
+          }
+        },
+        "aliases": ["wechat-pay", "wechat"]
       }
     },
     {

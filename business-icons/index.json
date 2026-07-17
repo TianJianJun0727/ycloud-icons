@@ -31,12 +31,6 @@
   "icons": [
     {
       "category": "filled",
-      "name": "acquire-more-leads-filled",
-      "path": "business-icons/filled/acquire-more-leads-filled.svg",
-      "componentName": "AcquireMoreLeadsFilled"
-    },
-    {
-      "category": "filled",
       "name": "agent-filled",
       "path": "business-icons/filled/agent-filled.svg",
       "componentName": "AgentFilled"
@@ -139,12 +133,6 @@
     },
     {
       "category": "filled",
-      "name": "cancel-filled",
-      "path": "business-icons/filled/cancel-filled.svg",
-      "componentName": "CancelFilled"
-    },
-    {
-      "category": "filled",
       "name": "check-cancel-filled",
       "path": "business-icons/filled/check-cancel-filled.svg",
       "componentName": "CheckCancelFilled"
@@ -190,6 +178,12 @@
       "name": "doc-csv-filled",
       "path": "business-icons/filled/doc-csv-filled.svg",
       "componentName": "DocCsvFilled"
+    },
+    {
+      "category": "filled",
+      "name": "error-filled",
+      "path": "business-icons/filled/error-filled.svg",
+      "componentName": "ErrorFilled"
     },
     {
       "category": "filled",
@@ -241,12 +235,6 @@
     },
     {
       "category": "filled",
-      "name": "more-sender-filled",
-      "path": "business-icons/filled/more-sender-filled.svg",
-      "componentName": "MoreSenderFilled"
-    },
-    {
-      "category": "filled",
       "name": "more-sender-name-filled",
       "path": "business-icons/filled/more-sender-name-filled.svg",
       "componentName": "MoreSenderNameFilled"
@@ -262,12 +250,6 @@
       "name": "order-event-filled",
       "path": "business-icons/filled/order-event-filled.svg",
       "componentName": "OrderEventFilled"
-    },
-    {
-      "category": "filled",
-      "name": "payments-filled",
-      "path": "business-icons/filled/payments-filled.svg",
-      "componentName": "PaymentsFilled"
     },
     {
       "category": "filled",
@@ -367,15 +349,51 @@
     },
     {
       "category": "multicolor",
+      "name": "alipay",
+      "path": "business-icons/multicolor/alipay.svg",
+      "componentName": "Alipay"
+    },
+    {
+      "category": "multicolor",
+      "name": "facebook",
+      "path": "business-icons/multicolor/facebook.svg",
+      "componentName": "Facebook"
+    },
+    {
+      "category": "multicolor",
       "name": "hub-spot",
       "path": "business-icons/multicolor/hub-spot.svg",
       "componentName": "HubSpot"
     },
     {
       "category": "multicolor",
+      "name": "paypal",
+      "path": "business-icons/multicolor/paypal.svg",
+      "componentName": "Paypal"
+    },
+    {
+      "category": "multicolor",
+      "name": "shopify",
+      "path": "business-icons/multicolor/shopify.svg",
+      "componentName": "Shopify"
+    },
+    {
+      "category": "multicolor",
+      "name": "tiktok",
+      "path": "business-icons/multicolor/tiktok.svg",
+      "componentName": "Tiktok"
+    },
+    {
+      "category": "multicolor",
       "name": "trophy",
       "path": "business-icons/multicolor/trophy.svg",
       "componentName": "Trophy"
+    },
+    {
+      "category": "multicolor",
+      "name": "wechat-pay",
+      "path": "business-icons/multicolor/wechat-pay.svg",
+      "componentName": "WechatPay"
     },
     {
       "category": "outlined",

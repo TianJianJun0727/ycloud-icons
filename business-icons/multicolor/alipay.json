@@ -1,0 +1,25 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "支付宝",
+  "tags": ["支付宝", "支付方式", "购买额度", "账单", "品牌", "多色", "业务图标"],
+  "use-cases": ["用于支付方式选择中的支付宝选项", "用于购买额度页面展示支付宝支付渠道"],
+  "i18n": {
+    "en": {
+      "name": "alipay",
+      "tags": [
+        "alipay",
+        "payment method",
+        "buy credits",
+        "billing",
+        "brand",
+        "multicolor",
+        "business icon"
+      ],
+      "use-cases": [
+        "Alipay option in payment method selectors",
+        "Display Alipay as a payment channel when buying credits"
+      ]
+    }
+  },
+  "aliases": ["alipay"]
+}

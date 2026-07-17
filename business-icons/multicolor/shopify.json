@@ -1,0 +1,22 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Shopify",
+  "tags": ["Shopify", "集成", "电商", "店铺", "品牌", "多色", "业务图标"],
+  "use-cases": ["用于 Shopify 集成入口", "用于展示 Shopify 店铺或电商渠道"],
+  "i18n": {
+    "en": {
+      "name": "shopify",
+      "tags": [
+        "shopify",
+        "integration",
+        "commerce",
+        "store",
+        "brand",
+        "multicolor",
+        "business icon"
+      ],
+      "use-cases": ["Shopify integration entry", "Display Shopify stores or commerce channels"]
+    }
+  },
+  "aliases": ["shopify"]
+}

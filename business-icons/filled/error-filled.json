@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "error填充",
+  "tags": ["error填充", "error", "填充", "填充业务图标", "业务图标"],
+  "use-cases": ["error填充相关入口或状态展示", "需要兼容历史业务视觉的error填充场景"],
+  "i18n": {
+    "en": {
+      "name": "error filled",
+      "tags": ["error filled", "error", "filled", "filled business icon", "business icon"],
+      "use-cases": [
+        "error filled entry or status",
+        "Legacy business visual for error filled scenarios"
+      ]
+    }
+  }
+}
