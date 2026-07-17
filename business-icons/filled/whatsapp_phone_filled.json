@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "WhatsApp电话",
+  "name": "WhatsApp 电话",
   "tags": ["WhatsApp 号码", "Inbox 分析", "会话筛选", "集成", "填充", "业务图标"],
   "use-cases": [
     "用于 Inbox 分析、会话列表和 Calling 日志中的号码维度",

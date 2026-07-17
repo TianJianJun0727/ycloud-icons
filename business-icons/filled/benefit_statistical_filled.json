@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "benefitstatistical",
+  "name": "统计收益",
   "tags": ["统计数据", "Email 集成", "集成卖点", "发送分析", "填充", "业务图标"],
   "use-cases": ["用于 Email 集成上手页展示统计能力", "说明邮件发送结果和统计分析"],
   "i18n": {

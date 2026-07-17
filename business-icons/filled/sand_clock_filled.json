@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "sandclock",
+  "name": "沙漏",
   "tags": ["等待", "Journey", "延时节点", "流程", "填充", "业务图标"],
   "use-cases": ["用于 Journey 流程中的等待节点", "标识消息或动作执行前的延时时间"],
   "i18n": {

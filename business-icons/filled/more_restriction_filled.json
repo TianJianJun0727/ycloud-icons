@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "更多restriction",
+  "name": "更多限制",
   "tags": ["限制管理", "SMS 集成", "发送规则", "功能卖点", "填充", "业务图标"],
   "use-cases": ["用于 SMS 集成上手页展示限制管理能力", "说明短信发送规则和限制条件"],
   "i18n": {

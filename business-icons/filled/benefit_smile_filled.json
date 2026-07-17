@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "benefitsmile",
+  "name": "体验收益",
   "tags": ["用户体验", "SMS 集成", "集成卖点", "客户沟通", "填充", "业务图标"],
   "use-cases": ["用于 SMS 集成上手页展示客户体验收益", "说明短信沟通带来的用户体验提升"],
   "i18n": {

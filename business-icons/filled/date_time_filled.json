@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "date时间",
+  "name": "日期时间",
   "tags": ["日期时间", "Inbox 分析", "通话日志", "响应时间", "填充", "业务图标"],
   "use-cases": [
     "用于 Inbox 分析和会话表格展示时间维度",

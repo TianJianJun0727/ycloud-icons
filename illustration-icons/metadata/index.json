@@ -35,7 +35,7 @@
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
         "name": "关闭 Logo",
-        "tags": ["关闭", "logo", "品牌", "状态"],
+        "tags": ["关闭", "标识", "品牌", "状态"],
         "use-cases": ["关闭入口或品牌状态展示", "品牌标识关闭态插画"],
         "i18n": {
           "en": {
@@ -217,7 +217,7 @@
       "metadata": {
         "$schema": "../../asset-metadata.schema.json",
         "name": "展开 Logo",
-        "tags": ["展开", "logo", "品牌", "状态"],
+        "tags": ["展开", "标识", "品牌", "状态"],
         "use-cases": ["展开入口或品牌状态展示", "品牌标识展开态插画"],
         "i18n": {
           "en": {

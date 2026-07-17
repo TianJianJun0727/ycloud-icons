@@ -148,7 +148,7 @@ async function collectTargets(files: string[]) {
     if (
       !/^icons\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
       !/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
-      !/^illustration-icons\/(?:[^/]+\/)?[^/]+\.(?:svg|json)$/.test(normalizedFile)
+      !/^illustration-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile)
     ) {
       continue;
     }

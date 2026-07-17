@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "calling",
+  "name": "通话",
   "tags": ["Calling", "通话日志", "筛选条件", "状态", "填充", "业务图标"],
   "use-cases": ["用于 Calling 日志页面标识通话类型", "用于通话日志筛选项和状态展示"],
   "i18n": {

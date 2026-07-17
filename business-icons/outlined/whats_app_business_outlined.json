@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "WhatsApp业务描边",
+  "name": "WhatsApp Business",
   "tags": ["WhatsApp Business App", "号码选择", "账户类型", "Inbox", "描边", "业务图标"],
   "use-cases": [
     "用于号码选择器和账户设置中标识 WhatsApp Business App 号码",
@@ -8,7 +8,7 @@
   ],
   "i18n": {
     "en": {
-      "name": "whatsapp business outlined",
+      "name": "whatsapp business",
       "tags": [
         "whatsapp business app",
         "phone selection",

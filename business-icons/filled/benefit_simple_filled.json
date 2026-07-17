@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "benefitsimple",
+  "name": "易用性收益",
   "tags": ["简单易用", "号码验证", "集成卖点", "快速接入", "填充", "业务图标"],
   "use-cases": ["用于号码验证集成上手页展示易用性", "说明号码验证服务的快速接入体验"],
   "i18n": {

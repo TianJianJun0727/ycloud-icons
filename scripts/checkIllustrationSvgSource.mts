@@ -33,9 +33,9 @@ function validateIllustrationSvgFileName(file: string) {
   const segments = relativePath.split('/').filter(Boolean);
   const fileName = path.basename(file);
 
-  if (segments.length !== 1 && segments.length !== 2) {
+  if (segments.length !== 2) {
     errors.push(
-      'Illustration SVG must be stored as "illustration-icons/<name>.svg" or "illustration-icons/<category>/<name>.svg".',
+      'Illustration SVG must be stored as "illustration-icons/<category>/<name>.svg". Use "other" when the category is unclear.',
     );
   }
   if (!SVG_FILENAME_PATTERN.test(fileName)) {

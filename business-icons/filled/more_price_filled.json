@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "更多price",
+  "name": "更多价格",
   "tags": ["价格优势", "集成", "费用", "功能卖点", "填充", "业务图标"],
   "use-cases": ["用于 Email、SMS 和号码验证上手页展示价格优势", "说明集成服务的费用和性价比"],
   "i18n": {

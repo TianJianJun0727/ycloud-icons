@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "lightning",
+  "name": "闪电",
   "tags": ["自定义事件", "Journey", "触发条件", "实时", "填充", "业务图标"],
   "use-cases": ["用于 Journey 事件筛选中标识自定义事件", "用于自定义事件规则和触发条件展示"],
   "i18n": {

@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "benefitsender",
+  "name": "发送方收益",
   "tags": ["发送方", "SMS 集成", "集成卖点", "消息发送", "填充", "业务图标"],
   "use-cases": ["用于 SMS 集成上手页展示发送方能力", "说明短信发送渠道和发送方支持"],
   "i18n": {

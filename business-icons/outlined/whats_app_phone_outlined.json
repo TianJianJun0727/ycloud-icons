@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "WhatsApp电话描边",
+  "name": "WhatsApp 电话",
   "tags": ["WhatsApp API 号码", "号码选择", "账户设置", "消息发送", "描边", "业务图标"],
   "use-cases": [
     "用于号码选择器、账户设置和建号流程中标识 WhatsApp API 号码",
@@ -8,7 +8,7 @@
   ],
   "i18n": {
     "en": {
-      "name": "whatsapp phone outlined",
+      "name": "whatsapp phone",
       "tags": [
         "whatsapp api phone",
         "phone selection",

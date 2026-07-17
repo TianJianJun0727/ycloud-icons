@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "star",
+  "name": "星标",
   "tags": ["重点指标", "Inbox 分析", "坐席表现", "团队表现", "填充", "业务图标"],
   "use-cases": ["用于 Inbox 坐席和团队分析中标识重点指标", "突出表现排名或关键分析维度"],
   "i18n": {

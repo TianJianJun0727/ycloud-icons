@@ -1,6 +1,6 @@
 {
   "$schema": "../../asset-metadata.schema.json",
-  "name": "discount",
+  "name": "折扣",
   "tags": ["限时优惠", "消息模板", "折扣", "营销", "填充", "业务图标"],
   "use-cases": ["用于消息模板中的限时优惠内容展示", "标识营销模板里的折扣和优惠信息"],
   "i18n": {
