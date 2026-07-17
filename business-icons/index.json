@@ -91,12 +91,6 @@
     },
     {
       "category": "filled",
-      "name": "benefit_security_filled",
-      "path": "business-icons/filled/benefit_security_filled.svg",
-      "componentName": "BenefitSecurityFilled"
-    },
-    {
-      "category": "filled",
       "name": "benefit_sender_filled",
       "path": "business-icons/filled/benefit_sender_filled.svg",
       "componentName": "BenefitSenderFilled"
