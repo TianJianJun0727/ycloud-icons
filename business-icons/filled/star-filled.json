@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "星标",
+  "tags": ["重点指标", "Inbox 分析", "坐席表现", "团队表现", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox 坐席和团队分析中标识重点指标", "突出表现排名或关键分析维度"],
+  "i18n": {
+    "en": {
+      "name": "star",
+      "tags": [
+        "highlight metric",
+        "inbox analytics",
+        "agent performance",
+        "team performance",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Highlight key metrics in Inbox agent and team analytics",
+        "Emphasize performance rankings or important analysis dimensions"
+      ]
+    }
+  },
+  "aliases": ["star"]
+}

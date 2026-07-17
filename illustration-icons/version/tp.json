@@ -1,0 +1,13 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "TP 版",
+  "tags": ["TP 版", "套餐", "版本", "订阅"],
+  "use-cases": ["TP 版套餐或版本标识", "订阅版本展示"],
+  "i18n": {
+    "en": {
+      "name": "TP Plan",
+      "tags": ["tp plan", "plan", "version", "subscription"],
+      "use-cases": ["TP plan or version badge", "Subscription plan display"]
+    }
+  }
+}

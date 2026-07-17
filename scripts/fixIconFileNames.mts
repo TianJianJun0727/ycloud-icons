@@ -11,7 +11,6 @@ import z from 'zod';
 import { createAiClient } from './aiClient.mts';
 
 const KEBAB_FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const SNAKE_FILENAME_PATTERN = /^[a-z0-9]+(?:_[a-z0-9]+)*$/;
 const FIGMA_WRAPPER_SUFFIXES = ['wrap', 'wrapper'];
 const renameSchema = z.object({
   items: z.array(
@@ -39,7 +38,6 @@ const toDelimitedCase = (value: string, delimiter: '-' | '_') =>
     .toLowerCase();
 
 const toKebabCase = (value: string) => toDelimitedCase(value, '-');
-const toSnakeCase = (value: string) => toDelimitedCase(value, '_');
 
 function createStableNameHash(value: string) {
   let hash = 0;
@@ -55,7 +53,7 @@ function isBusinessIconTarget(target: RenameTarget) {
 
 function normalizeSuggestedName(target: RenameTarget, value: string) {
   if (isBusinessIconTarget(target)) {
-    return stripFigmaWrapperSuffix(toSnakeCase(value), '_');
+    return stripFigmaWrapperSuffix(toKebabCase(value));
   }
   return toKebabCase(value);
 }
@@ -80,8 +78,7 @@ function stripFigmaWrapperSuffix(name: string, delimiter: '-' | '_' = '-') {
 function shouldNormalizeFileName(normalizedFile: string, sourceName: string) {
   if (/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile)) {
     return (
-      !SNAKE_FILENAME_PATTERN.test(sourceName) ||
-      stripFigmaWrapperSuffix(sourceName, '_') !== sourceName
+      !KEBAB_FILENAME_PATTERN.test(sourceName) || stripFigmaWrapperSuffix(sourceName) !== sourceName
     );
   }
   if (!KEBAB_FILENAME_PATTERN.test(sourceName)) {
@@ -148,7 +145,7 @@ async function collectTargets(files: string[]) {
     if (
       !/^icons\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
       !/^business-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile) &&
-      !/^illustration-icons\/(?:[^/]+\/)?[^/]+\.(?:svg|json)$/.test(normalizedFile)
+      !/^illustration-icons\/[^/]+\/[^/]+\.(?:svg|json)$/.test(normalizedFile)
     ) {
       continue;
     }
@@ -201,8 +198,7 @@ async function suggestNames(targets: RenameTarget[]) {
       [
         'Rename icon source files for the YCloud Icons repository.',
         'Rules:',
-        '- For icons and illustrations, targetName should be lowercase kebab-case: a-z, 0-9, and hyphen only.',
-        '- For business-icons, targetName should be lowercase snake_case: a-z, 0-9, and underscore only.',
+        '- For icons, business-icons, and illustrations, targetName should be lowercase kebab-case: a-z, 0-9, and hyphen only.',
         '- Use short semantic English names suitable for an icon package export.',
         '- Do not include words like icon, svg, business, illustration unless they are part of the meaning.',
         '- For business icon filenames, remove trailing Figma layer container words such as wrap or wrapper unless they are clearly part of the icon meaning.',

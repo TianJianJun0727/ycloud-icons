@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "带时间的客服坐席",
+  "tags": ["最近处理坐席", "客服坐席", "处理时间", "Inbox Flow", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox Flow 的最近处理坐席条件", "标识带处理时间信息的坐席归属节点"],
+  "i18n": {
+    "en": {
+      "name": "agent with time",
+      "tags": [
+        "last handled agent",
+        "agent",
+        "handling time",
+        "inbox flow",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Last-handled-agent condition in Inbox Flow",
+        "Represent agent ownership with handling-time context"
+      ]
+    }
+  },
+  "aliases": ["agent-with-time", "agent-with-time_filled"]
+}

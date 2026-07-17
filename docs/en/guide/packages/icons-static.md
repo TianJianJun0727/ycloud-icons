@@ -37,12 +37,15 @@ No framework peer dependency.
 ## Usage
 
 ```html
-<img src="./node_modules/@ycloud-web/icons-static/icons/house.svg" alt="House" />
+<img
+  src="./node_modules/@ycloud-web/icons-static/icons/house.svg"
+  alt="House"
+/>
 ```
 
 ```html
 <img
-  src="./node_modules/@ycloud-web/icons-static/business-icons/outlined/whatsapp_outlined.svg"
+  src="./node_modules/@ycloud-web/icons-static/business-icons/outlined/whatsapp-outlined.svg"
   alt="WhatsApp"
 />
 ```

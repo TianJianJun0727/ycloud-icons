@@ -72,7 +72,7 @@ import { House } from '@ycloud-web/icons-data';
 ```ts
 import { businessIconNames, getBusinessIcon } from '@ycloud-web/icons-data/business';
 
-const whatsapp = getBusinessIcon('whatsapp_outlined');
+const whatsapp = getBusinessIcon('whatsapp-outlined');
 const rootAttrs = whatsapp.attrs;
 const children = whatsapp.node;
 const availableBusinessIcons = businessIconNames;

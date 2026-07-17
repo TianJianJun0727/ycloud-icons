@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "模板收益",
+  "tags": ["消息模板", "号码验证", "集成卖点", "标准化", "填充", "业务图标"],
+  "use-cases": ["用于号码验证集成上手页展示模板能力", "说明标准化验证流程和结果展示"],
+  "i18n": {
+    "en": {
+      "name": "benefit template",
+      "tags": [
+        "template benefit",
+        "number verification",
+        "integration benefit",
+        "standardization",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show template capabilities on number verification onboarding",
+        "Explain standardized verification flows and results"
+      ]
+    }
+  },
+  "aliases": ["benefit-template", "benefit-template_filled"]
+}

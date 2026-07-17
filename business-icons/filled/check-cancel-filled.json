@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "检查取消",
+  "tags": ["消息状态", "成功失败", "Journey", "流程节点", "填充", "业务图标"],
+  "use-cases": ["用于 Journey 流程中的消息状态规则节点", "标识消息成功或失败的条件判断"],
+  "i18n": {
+    "en": {
+      "name": "check cancel",
+      "tags": [
+        "message status",
+        "success and failure",
+        "journey",
+        "workflow node",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Message status rule node in Journey flows",
+        "Represent success or failure conditions for messages"
+      ]
+    }
+  },
+  "aliases": ["check-cancel", "check-cancel_filled"]
+}

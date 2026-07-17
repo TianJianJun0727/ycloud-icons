@@ -12,7 +12,7 @@ import { buildBusinessIconIndex } from './writeBusinessIconIndex.mts';
 
 const BUSINESS_ICONS_DIR = 'business-icons';
 const BUSINESS_ICON_INDEX_FILE = path.join(BUSINESS_ICONS_DIR, 'index.json');
-const SVG_FILENAME_PATTERN = /^[a-z0-9]+(?:_[a-z0-9]+)*\.svg$/;
+const SVG_FILENAME_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*\.svg$/;
 const BUSINESS_ICON_COLOR_MODES = ['outlined', 'filled', 'multicolor'] as const;
 
 type BusinessIconIndex = {
@@ -57,7 +57,7 @@ export function validateBusinessSvgFileName(file: string, categoryNames: Set<str
 
   if (!SVG_FILENAME_PATTERN.test(fileName)) {
     errors.push(
-      `Business SVG filename must be lowercase snake_case with only letters, numbers and underscores, for example "whatsapp_business.svg" or "whatsapp_business_outlined.svg".`,
+      `Business SVG filename must be lowercase kebab-case with only letters, numbers and hyphens, for example "whatsapp-business.svg" or "whatsapp-business-outlined.svg".`,
     );
   }
 

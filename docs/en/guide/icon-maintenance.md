@@ -24,7 +24,7 @@ Related files:
 - `categories/*.json`: category keys, Chinese titles, and English titles.
 - `docs/`: generated documentation pages, search data, category pages, and icon detail pages.
 
-Generic icons and illustrations use kebab-case file names. Business icons use snake_case file names.
+Generic icons, business icons, and illustrations all use kebab-case file names.
 
 Business-specific icons live in `business-icons/<color-mode>/*.svg`. The first-level folder must be `outlined`, `filled`, or `multicolor`, and it controls the cleanup and package-generation behavior. Each SVG needs same-name metadata JSON. Color-mode display names live in `business-icons/<color-mode>/index.json`, while `business-icons/index.json` and `business-icons/metadata/index.json` are generated; URL-based remote lookup snapshots are copied into `docs/public/metadata` during docs builds. See [Business icons](/en/guide/business-icons).
 

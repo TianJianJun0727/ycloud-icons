@@ -1,0 +1,27 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "日期时间",
+  "tags": ["日期时间", "Inbox 分析", "通话日志", "响应时间", "填充", "业务图标"],
+  "use-cases": [
+    "用于 Inbox 分析和会话表格展示时间维度",
+    "用于 Calling 日志及坐席响应时间筛选和统计"
+  ],
+  "i18n": {
+    "en": {
+      "name": "date time",
+      "tags": [
+        "date and time",
+        "inbox analytics",
+        "call logs",
+        "response time",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Display time dimensions in Inbox analytics and conversation tables",
+        "Support Calling log and agent response-time filters and metrics"
+      ]
+    }
+  },
+  "aliases": ["date-time", "date-time_filled"]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "身份验证",
+  "tags": ["身份验证", "Email 集成", "安全接入", "使用指南", "填充", "业务图标"],
+  "use-cases": ["用于 Email 集成上手页展示身份验证能力", "说明邮件服务接入时的认证保障"],
+  "i18n": {
+    "en": {
+      "name": "authentication",
+      "tags": [
+        "authentication",
+        "email integration",
+        "secure access",
+        "getting started",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show authentication capability on the Email integration getting-started page",
+        "Explain authentication protection for email service setup"
+      ]
+    }
+  },
+  "aliases": ["authentication"]
+}

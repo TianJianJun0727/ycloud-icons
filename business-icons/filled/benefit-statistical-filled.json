@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "统计收益",
+  "tags": ["统计数据", "Email 集成", "集成卖点", "发送分析", "填充", "业务图标"],
+  "use-cases": ["用于 Email 集成上手页展示统计能力", "说明邮件发送结果和统计分析"],
+  "i18n": {
+    "en": {
+      "name": "benefit statistical",
+      "tags": [
+        "statistics benefit",
+        "email integration",
+        "integration benefit",
+        "sending analytics",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Show statistics capabilities on Email integration onboarding",
+        "Explain email delivery results and statistical analysis"
+      ]
+    }
+  },
+  "aliases": ["benefit-statistical", "benefit-statistical_filled"]
+}

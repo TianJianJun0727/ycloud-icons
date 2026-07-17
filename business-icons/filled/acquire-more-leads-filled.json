@@ -1,0 +1,24 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "获取更多潜在客户",
+  "tags": ["获取潜在客户", "新手引导", "目标选择", "获客", "填充", "业务图标"],
+  "use-cases": ["用于新手引导中选择获取更多潜在客户的使用目标", "用于入门目标卡片展示获客方向"],
+  "i18n": {
+    "en": {
+      "name": "acquire more leads",
+      "tags": [
+        "acquire leads",
+        "onboarding",
+        "goal selection",
+        "lead generation",
+        "filled",
+        "business icon"
+      ],
+      "use-cases": [
+        "Select the acquire-more-leads goal during onboarding",
+        "Show the lead generation goal in getting-started cards"
+      ]
+    }
+  },
+  "aliases": ["acquire-more-leads", "acquire-more-leads_filled"]
+}

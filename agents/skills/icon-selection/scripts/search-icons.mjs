@@ -250,8 +250,12 @@ const fixedVisualTokens = [
   '品牌',
   '渠道',
   '固定色',
-  '双色',
+  '描边',
+  '填充',
   '多色',
+  'outlined',
+  'filled',
+  'multicolor',
 ];
 
 const scoreItem = (item) => {
@@ -524,9 +528,9 @@ const loadIllustrationsFromSource = () => {
     componentName: illustration.componentName,
     importPath: '@ycloud-web/icons-react/illustration',
     path: illustration.path,
-    category: 'illustration',
+    category: illustration.category ?? 'illustration',
     primaryNames: [illustration.name, illustration.componentName],
-    keywords: [illustration.name, illustration.componentName],
+    keywords: [illustration.name, illustration.componentName, illustration.category],
     usage:
       'Large SVG illustration for empty states, error states, permission states, onboarding, or page-level visual feedback. Supports width and height only.',
   }));

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "条件分支",
+  "tags": ["条件分支", "Inbox Flow", "流程节点", "路由", "填充", "业务图标"],
+  "use-cases": ["用于 Inbox Flow 的条件分支节点", "标识自动化流程根据条件进入不同路径"],
+  "i18n": {
+    "en": {
+      "name": "branch",
+      "tags": ["branch", "inbox flow", "workflow node", "routing", "filled", "business icon"],
+      "use-cases": [
+        "Condition branch node in Inbox Flow",
+        "Indicate routing into different automation paths"
+      ]
+    }
+  },
+  "aliases": ["branch"]
+}
