@@ -3,6 +3,16 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.4 - 2026-07-17
+
+### 中文
+
+- feat(icons): align asset workflows and generated packages (#98)
+
+### English
+
+- feat(icons): align asset workflows and generated packages (#98)
+
 ## v0.2.3 - 2026-07-13
 
 ### 中文
