@@ -5891,6 +5891,12 @@
     "className": "icon-memory-stick",
     "unicode": "&#58437;"
   },
+  "menu-open": {
+    "encodedCode": "\\e722",
+    "prefix": "icon",
+    "className": "icon-menu-open",
+    "unicode": "&#59170;"
+  },
   "menu": {
     "encodedCode": "\\e115",
     "prefix": "icon",

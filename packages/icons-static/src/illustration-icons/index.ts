@@ -4,25 +4,27 @@ export {
   default as YCloudAccountUnbound,
 } from './account-unbound';
 export {
-  default as CloseLogo,
-  default as CloseLogoIcon,
-  default as YCloudCloseLogo,
-} from './close-logo';
+  default as CallingRequest,
+  default as CallingRequestIcon,
+  default as YCloudCallingRequest,
+} from './calling-request';
+export { default as Close, default as CloseIcon, default as YCloudClose } from './close';
+export { default as Coupons, default as CouponsIcon, default as YCloudCoupons } from './coupons';
 export {
-  default as CustomerSupport,
-  default as CustomerSupportIcon,
-  default as YCloudCustomerSupport,
-} from './customer-support';
+  default as DataConnectors,
+  default as DataConnectorsIcon,
+  default as YCloudDataConnectors,
+} from './data-connectors';
 export {
   default as DataImporting,
   default as DataImportingIcon,
   default as YCloudDataImporting,
 } from './data-importing';
 export {
-  default as DeveloperIntegration,
-  default as DeveloperIntegrationIcon,
-  default as YCloudDeveloperIntegration,
-} from './developer-integration';
+  default as Developer,
+  default as DeveloperIcon,
+  default as YCloudDeveloper,
+} from './developer';
 export { default as Email, default as EmailIcon, default as YCloudEmail } from './email';
 export { default as EmptyAi, default as EmptyAiIcon, default as YCloudEmptyAi } from './empty-ai';
 export {
@@ -46,100 +48,35 @@ export {
   default as YCloudEmptySearch,
 } from './empty-search';
 export {
-  default as ExpandLogo,
-  default as ExpandLogoIcon,
-  default as YCloudExpandLogo,
-} from './expand-logo';
+  default as Enterprise,
+  default as EnterpriseIcon,
+  default as YCloudEnterprise,
+} from './enterprise';
+export { default as Expand, default as ExpandIcon, default as YCloudExpand } from './expand';
+export { default as Free, default as FreeIcon, default as YCloudFree } from './free';
+export { default as Growth, default as GrowthIcon, default as YCloudGrowth } from './growth';
 export {
   default as HasExpired,
   default as HasExpiredIcon,
   default as YCloudHasExpired,
 } from './has-expired';
+export { default as Hubspot, default as HubspotIcon, default as YCloudHubspot } from './hubspot';
 export {
-  default as IntegrationCoupons,
-  default as IntegrationCouponsIcon,
-  default as YCloudIntegrationCoupons,
-} from './integration-coupons';
-export {
-  default as IntegrationDataConnectors,
-  default as IntegrationDataConnectorsIcon,
-  default as YCloudIntegrationDataConnectors,
-} from './integration-data-connectors';
-export {
-  default as IntegrationEmail,
-  default as IntegrationEmailIcon,
-  default as YCloudIntegrationEmail,
-} from './integration-email';
-export {
-  default as IntegrationHubspot,
-  default as IntegrationHubspotIcon,
-  default as YCloudIntegrationHubspot,
-} from './integration-hubspot';
-export {
-  default as IntegrationMixdesk,
-  default as IntegrationMixdeskIcon,
-  default as YCloudIntegrationMixdesk,
-} from './integration-mixdesk';
-export {
-  default as IntegrationQmail,
-  default as IntegrationQmailIcon,
-  default as YCloudIntegrationQmail,
-} from './integration-qmail';
-export {
-  default as IntegrationReshdesk,
-  default as IntegrationReshdeskIcon,
-  default as YCloudIntegrationReshdesk,
-} from './integration-reshdesk';
-export {
-  default as IntegrationSaleSmartly,
-  default as IntegrationSaleSmartlyIcon,
-  default as YCloudIntegrationSaleSmartly,
-} from './integration-sale-smartly';
-export {
-  default as IntegrationShopify,
-  default as IntegrationShopifyIcon,
-  default as YCloudIntegrationShopify,
-} from './integration-shopify';
-export {
-  default as IntegrationSms,
-  default as IntegrationSmsIcon,
-  default as YCloudIntegrationSms,
-} from './integration-sms';
-export {
-  default as IntegrationVerify,
-  default as IntegrationVerifyIcon,
-  default as YCloudIntegrationVerify,
-} from './integration-verify';
-export {
-  default as IntegrationVoiceCode,
-  default as IntegrationVoiceCodeIcon,
-  default as YCloudIntegrationVoiceCode,
-} from './integration-voice-code';
-export {
-  default as IntegrationWhatsappMmLite,
-  default as IntegrationWhatsappMmLiteIcon,
-  default as YCloudIntegrationWhatsappMmLite,
-} from './integration-whatsapp-mm-lite';
-export {
-  default as IntegrationZapier,
-  default as IntegrationZapierIcon,
-  default as YCloudIntegrationZapier,
-} from './integration-zapier';
-export {
-  default as LeadGeneration,
-  default as LeadGenerationIcon,
-  default as YCloudLeadGeneration,
-} from './lead-generation';
+  default as LimitedTimeOffer,
+  default as LimitedTimeOfferIcon,
+  default as YCloudLimitedTimeOffer,
+} from './limited-time-offer';
 export {
   default as LoadFailed,
   default as LoadFailedIcon,
   default as YCloudLoadFailed,
 } from './load-failed';
 export {
-  default as MarketingAutomation,
-  default as MarketingAutomationIcon,
-  default as YCloudMarketingAutomation,
-} from './marketing-automation';
+  default as MediaCardCarousel,
+  default as MediaCardCarouselIcon,
+  default as YCloudMediaCardCarousel,
+} from './media-card-carousel';
+export { default as Mixdesk, default as MixdeskIcon, default as YCloudMixdesk } from './mixdesk';
 export {
   default as NetworkDisconnected,
   default as NetworkDisconnectedIcon,
@@ -165,68 +102,50 @@ export {
   default as PaymentMethodDisabledIcon,
   default as YCloudPaymentMethodDisabled,
 } from './payment-method-disabled';
+export { default as Pro, default as ProIcon, default as YCloudPro } from './pro';
+export { default as Qmail, default as QmailIcon, default as YCloudQmail } from './qmail';
 export {
-  default as RegisterPhone,
-  default as RegisterPhoneIcon,
-  default as YCloudRegisterPhone,
-} from './register-phone';
+  default as Reshdesk,
+  default as ReshdeskIcon,
+  default as YCloudReshdesk,
+} from './reshdesk';
 export {
-  default as TemplateCallingRequest,
-  default as TemplateCallingRequestIcon,
-  default as YCloudTemplateCallingRequest,
-} from './template-calling-request';
+  default as SaleSmartly,
+  default as SaleSmartlyIcon,
+  default as YCloudSaleSmartly,
+} from './sale-smartly';
+export { default as Shopify, default as ShopifyIcon, default as YCloudShopify } from './shopify';
 export {
-  default as TemplateInsightsAuthorization,
-  default as TemplateInsightsAuthorizationIcon,
-  default as YCloudTemplateInsightsAuthorization,
-} from './template-insights-authorization';
+  default as SingleProductCheckout,
+  default as SingleProductCheckoutIcon,
+  default as YCloudSingleProductCheckout,
+} from './single-product-checkout';
+export { default as Sms, default as SmsIcon, default as YCloudSms } from './sms';
+export { default as Tp, default as TpIcon, default as YCloudTp } from './tp';
+export { default as Verify, default as VerifyIcon, default as YCloudVerify } from './verify';
 export {
-  default as TemplateLimitedTimeOffer,
-  default as TemplateLimitedTimeOfferIcon,
-  default as YCloudTemplateLimitedTimeOffer,
-} from './template-limited-time-offer';
-export {
-  default as TemplateMediaCardCarousel,
-  default as TemplateMediaCardCarouselIcon,
-  default as YCloudTemplateMediaCardCarousel,
-} from './template-media-card-carousel';
-export {
-  default as TemplateSingleProductCheckout,
-  default as TemplateSingleProductCheckoutIcon,
-  default as YCloudTemplateSingleProductCheckout,
-} from './template-single-product-checkout';
-export {
-  default as TemplateWhatsappOrderDetails,
-  default as TemplateWhatsappOrderDetailsIcon,
-  default as YCloudTemplateWhatsappOrderDetails,
-} from './template-whatsapp-order-details';
-export {
-  default as TemplateWhatsappOrderStatus,
-  default as TemplateWhatsappOrderStatusIcon,
-  default as YCloudTemplateWhatsappOrderStatus,
-} from './template-whatsapp-order-status';
-export {
-  default as VersionEnterprise,
-  default as VersionEnterpriseIcon,
-  default as YCloudVersionEnterprise,
-} from './version-enterprise';
-export {
-  default as VersionFree,
-  default as VersionFreeIcon,
-  default as YCloudVersionFree,
-} from './version-free';
-export {
-  default as VersionGrowth,
-  default as VersionGrowthIcon,
-  default as YCloudVersionGrowth,
-} from './version-growth';
-export {
-  default as VersionPro,
-  default as VersionProIcon,
-  default as YCloudVersionPro,
-} from './version-pro';
+  default as VoiceCode,
+  default as VoiceCodeIcon,
+  default as YCloudVoiceCode,
+} from './voice-code';
 export {
   default as WaitingStatus,
   default as WaitingStatusIcon,
   default as YCloudWaitingStatus,
 } from './waiting-status';
+export {
+  default as WhatsappMmLite,
+  default as WhatsappMmLiteIcon,
+  default as YCloudWhatsappMmLite,
+} from './whatsapp-mm-lite';
+export {
+  default as WhatsappOrderDetails,
+  default as WhatsappOrderDetailsIcon,
+  default as YCloudWhatsappOrderDetails,
+} from './whatsapp-order-details';
+export {
+  default as WhatsappOrderStatus,
+  default as WhatsappOrderStatusIcon,
+  default as YCloudWhatsappOrderStatus,
+} from './whatsapp-order-status';
+export { default as Zapier, default as ZapierIcon, default as YCloudZapier } from './zapier';
