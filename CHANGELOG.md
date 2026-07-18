@@ -3,6 +3,16 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.7 - 2026-07-18
+
+### 中文
+
+- 修复了多色商业图标（Facebook、Shopify、Trophy）中镂空区域未透明的问题。
+
+### English
+
+- Fixed transparent cutout rendering for multicolor business icons (Facebook, Shopify, Trophy).
+
 ## v0.2.6 - 2026-07-18
 
 ### 中文
