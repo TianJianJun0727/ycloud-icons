@@ -3,6 +3,24 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.6 - 2026-07-18
+
+### 中文
+
+- 同步了 Lucide 上游的部分图标更新。
+- 新增 menu-open 图标并重新生成相关资源。
+- 统一了业务图标的尺寸，提升视觉一致性。
+- 修正文档中的图标样式说明。
+- 优化发布流程，提升文档部署与更新日志生成的稳定性。
+
+### English
+
+- Synced selected icon updates from the Lucide upstream.
+- Added the menu-open icon and regenerated icon assets.
+- Normalized business icon sizes for visual consistency.
+- Aligned icon style descriptions in documentation.
+- Stabilized documentation deployment and changelog generation in release process.
+
 ## v0.2.5 - 2026-07-17
 
 ### 中文
