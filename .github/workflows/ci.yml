@@ -280,6 +280,10 @@ jobs:
           node ./scripts/syncPackageVersions.mts "$VERSION"
           node ./scripts/writeChangelog.mts
 
+          if [ -f "changelogs/releases/v${VERSION}.json" ]; then
+            pnpm exec oxfmt "changelogs/releases/v${VERSION}.json"
+          fi
+
           git add packages/*/package.json CHANGELOG.md docs/.vitepress/data/CHANGELOG.en.md docs/.vitepress/data/changelogSidebar.ts
           if [ -f "changelogs/releases/v${VERSION}.json" ]; then
             git add "changelogs/releases/v${VERSION}.json"
@@ -312,11 +316,51 @@ jobs:
 
           echo "number=$pr_number" >> "$GITHUB_OUTPUT"
 
-          if ! gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --auto --squash --subject "chore(release): prepare v${VERSION}"; then
-            echo "Failed to enable auto-merge for PR #${pr_number}. This may indicate:" >&2
-            echo "  - Required status checks are not satisfied" >&2
-            echo "  - Required reviews are missing" >&2
-            echo "  - Branch protection rules prevent auto-merge" >&2
+          checks_ready="false"
+          previous_check_count="0"
+          stable_check_count="0"
+
+          for attempt in $(seq 1 120); do
+            checks_json="$(gh pr checks "$pr_number" --repo "$GITHUB_REPOSITORY" --json name,bucket 2>/dev/null || true)"
+            checks_json="${checks_json:-[]}"
+            check_count="$(jq 'length' <<< "$checks_json")"
+            failed_count="$(jq '[.[] | select(.bucket == "fail" or .bucket == "cancel")] | length' <<< "$checks_json")"
+            pending_count="$(jq '[.[] | select(.bucket == "pending")] | length' <<< "$checks_json")"
+            lint_registered="$(jq 'any(.[]; .name == "lint-code")' <<< "$checks_json")"
+
+            if [[ "$failed_count" -gt 0 ]]; then
+              echo "Release PR #${pr_number} has failing checks; refusing to merge." >&2
+              gh pr checks "$pr_number" --repo "$GITHUB_REPOSITORY" || true
+              exit 1
+            fi
+
+            if [[ "$lint_registered" == "true" && "$pending_count" -eq 0 ]]; then
+              if [[ "$check_count" -eq "$previous_check_count" ]]; then
+                stable_check_count=$((stable_check_count + 1))
+              else
+                stable_check_count=1
+              fi
+
+              if [[ "$stable_check_count" -ge 3 ]]; then
+                checks_ready="true"
+                break
+              fi
+            else
+              stable_check_count=0
+            fi
+
+            previous_check_count="$check_count"
+            echo "Waiting for release PR checks... (${attempt}/120, registered: ${check_count}, pending: ${pending_count})"
+            sleep 5
+          done
+
+          if [[ "$checks_ready" != "true" ]]; then
+            echo "Timed out waiting for release PR #${pr_number} checks; refusing to merge." >&2
+            exit 1
+          fi
+
+          if ! gh pr merge "$pr_number" --repo "$GITHUB_REPOSITORY" --squash --subject "chore(release): prepare v${VERSION}"; then
+            echo "Failed to merge release PR #${pr_number} after all checks passed." >&2
             exit 1
           fi
 
