@@ -1,6 +1,6 @@
 ---
 title: 填充图标 - Angular
-description: 目前并不正式支持填充图标，但仍可以通过标准 SVG 属性应用 fill，部分场景下可以得到可接受的效果。
+description: 了解对通用图标应用 fill 与使用独立填充业务图标的区别。
 ---
 
 <script setup>
@@ -9,9 +9,9 @@ import Sandpack from '~/.vitepress/theme/components/editors/SandpackAngular.vue'
 
 # 填充图标
 
-YCloud Icons 目前并不正式支持填充图标。
+包默认入口中的通用图标采用线性描边风格，并不会为每个图标自动生成对应的填充版本。不过，图标本质上是标准 SVG 元素，因此仍然可以应用 `fill` 等 SVG 属性；实际效果取决于图标结构。
 
-不过，图标本质上是标准 SVG 元素，因此仍然可以应用 `fill` 等 SVG 属性。根据图标结构不同，实际效果可能是可接受的。
+仓库还维护独立设计的业务图标。填充业务图标通过 [`business` 子入口](/guide/business-icons) 导出，名称由文件名生成，例如 `CallingFilled`。
 
 ## 星级评分示例
 

@@ -40,7 +40,7 @@ filled
 multicolor
 ```
 
-Business icons need same-name per-SVG metadata JSON, but they do not enter the generic category system. They are generated into `business` subpath entries in the existing packages instead of being mixed into the generic default entries. Package component exports are still based on the SVG file name and do not include the color mode, so SVG file names must remain unique across color-mode folders. `business-icons/metadata/index.json` is generated from source metadata and used by the Figma plugin, GitHub checks, and local skills lookup; the docs public snapshot is used after deployment as fallback.
+Business icons need same-name per-SVG metadata JSON, but they do not enter the generic category system. They are generated into `business` subpath entries in the existing packages instead of being mixed into the generic default entries. Component exports are generated from the complete SVG file name: `calling-outlined.svg` exports `CallingOutlined`, and `calling-filled.svg` exports `CallingFilled`. The generator does not append the containing folder's color mode, so SVG file names must remain unique across color-mode folders. `business-icons/metadata/index.json` is generated from source metadata and used by the Figma plugin, GitHub checks, and local skills lookup; the docs public snapshot is used after deployment as fallback.
 
 ## Cleanup And Validation
 

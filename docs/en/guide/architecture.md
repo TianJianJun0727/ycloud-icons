@@ -172,7 +172,7 @@ For example:
 import { Camera } from '@ycloud-web/icons-react';
 ```
 
-Stable component names keep IDE autocomplete, TypeScript hints, and rename refactors predictable.
+`Camera` comes from the generic default entrypoint. Business icons and illustrations use the separate `business` and `illustration` subpaths. Business component names are generated directly from SVG file names, so `calling-outlined.svg` and `calling-filled.svg` export `CallingOutlined` and `CallingFilled`. This source-to-export mapping keeps IDE autocomplete, TypeScript hints, and rename refactors predictable.
 
 ### Static Assets
 
@@ -204,11 +204,11 @@ Public packages are published under the `@ycloud-web` scope, while local package
 
 This keeps the package directory, `package.json`, CI jobs, documentation links, and npm package identity aligned.
 
-## Style Entrypoints
+## Asset Families And Color Modes
 
-The current release ships one outline-style icon set. When generated outline, filled, or other style variants are added later, YCloud Icons should prefer explicit style entrypoints over a runtime `theme` string.
+The repository currently ships generic linear icons, business icons, and illustrations. Generic icons use each package's default entrypoint. Business icons use the `business` subpath and are grouped in source by the `outlined`, `filled`, and `multicolor` color modes. Illustrations use the `illustration` subpath. Business color modes are commonly part of the file and component name, for example `CallingOutlined` and `CallingFilled`; the packages do not switch these resources with a runtime `theme` prop.
 
-This keeps tree-shaking predictable and preserves strong component names. Style conversion should happen during generation, not at runtime, and generated variants should only be published when the conversion is reliable.
+Each business color mode has its own source cleanup rules before all business components are generated into a flat `business` export. Because component names come from file names, SVG file names must be globally unique across the color-mode folders.
 
 ## Documentation Generation
 

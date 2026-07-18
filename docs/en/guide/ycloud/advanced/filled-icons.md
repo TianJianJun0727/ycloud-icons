@@ -1,6 +1,6 @@
 ---
 title: Filled Icons - YCloud
-description: Fills are not officially supported in YCloud, but you can still use the fill attribute on certain icons to create filled versions.
+description: Learn the difference between applying fill to generic icons and using authored filled business icons in YCloud.
 ---
 
 <script setup>
@@ -9,9 +9,9 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 # Filled Icons
 
-Fills are officially not supported.
-However, all SVG properties are available on all icons.
-Fill can still be used and will work fine on certain icons.
+Generic icons from the package's default entrypoint are stroke-based and do not include an automatically generated filled counterpart for every icon. You can still pass standard SVG properties such as `fill`, which works for shapes that support it.
+
+Authored business icons are separate assets. Filled business icons are exported from the [`business` subpath](/en/guide/business-icons) with file-name-derived component names such as `CallingFilled`.
 
 Example with stars:
 

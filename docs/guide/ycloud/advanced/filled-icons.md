@@ -1,6 +1,6 @@
 ---
 title: 填充图标 - YCloud Icons
-description: YCloud Icons 目前并不正式支持填充图标，但你仍可以在部分图标上使用 fill 属性创建填充效果。
+description: 了解对通用图标应用 fill 与使用独立填充业务图标的区别。
 ---
 
 <script setup>
@@ -9,9 +9,9 @@ import Sandpack from '~/.vitepress/theme/components/editors/Sandpack.vue'
 
 # 填充图标
 
-YCloud Icons 目前并不正式支持填充图标。
-不过，所有图标都可以接收 SVG 属性。
-因此在某些图标上仍然可以使用 `fill`，并且效果正常。
+包默认入口中的通用图标采用线性描边风格，并不会为每个图标自动生成对应的填充版本。你仍然可以传入 `fill` 等标准 SVG 属性；它会在支持填充的图形上生效。
+
+仓库还维护独立设计的业务图标。填充业务图标通过 [`business` 子入口](/guide/business-icons) 导出，名称由文件名生成，例如 `CallingFilled`。
 
 下面是星级评分的示例：
 
