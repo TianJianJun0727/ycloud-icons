@@ -57,15 +57,20 @@ Treat `changelogs/releases/vX.Y.Z.json` as the source for release notes and gene
 
 ```sh
 pnpm generate:changelog
+pnpm exec oxfmt "changelogs/releases/vX.Y.Z.json"
 RELEASE_VERSION=<version> YCLOUD_CHANGELOG_RELEASE_NOTES_PATH=.release-notes.md node scripts/writeGitHubReleaseNotes.mjs
 ```
 
 Before publishing or deploying, verify:
 
-1. the release commit is on `main`
-2. tag `vX.Y.Z` points to that commit
-3. the package release completed successfully
-4. docs deployment uses the intended package version
+1. the release JSON is formatted and its Chinese and English entries describe only the intended changes
+2. `CHANGELOG.md` and `docs/.vitepress/data/CHANGELOG.en.md` contain the same release meaning
+3. the release commit is on `main`
+4. tag `vX.Y.Z` points to that commit
+5. the package release completed successfully
+6. the GitHub Release body matches the inspected bilingual release JSON
+7. every published package reports version `X.Y.Z` on npm
+8. docs deployment uses the intended package version
 
 Only trigger workflows, edit GitHub releases, publish packages, or deploy docs when the user explicitly authorizes that external mutation.
 
@@ -78,7 +83,10 @@ ci.yml workflow_dispatch
   -> creates release/vX.Y.Z branch
   -> runs scripts/syncPackageVersions.mts
   -> runs scripts/writeChangelog.mts
-  -> opens and auto-merges release PR
+  -> formats changelogs/releases/vX.Y.Z.json
+  -> opens the release PR
+  -> waits for registered PR checks and stops on failure or timeout
+  -> squash-merges only after all checks pass
   -> pushes tag vX.Y.Z on main
   -> release.yml publishes npm and creates GitHub Release
   -> release.yml triggers docs.yml with package_version=X.Y.Z
@@ -96,6 +104,16 @@ Monitor the orchestration run first:
 gh run list --repo TianJianJun0727/ycloud-icons --workflow ci.yml --limit 5
 gh run watch <ci-run-id> --repo TianJianJun0727/ycloud-icons --exit-status
 ```
+
+While the orchestration run is active, inspect the generated release PR instead of assuming generated notes are valid:
+
+```sh
+gh pr list --repo TianJianJun0727/ycloud-icons --head release/vX.Y.Z
+gh pr diff <release-pr-number> --repo TianJianJun0727/ycloud-icons --patch
+gh pr checks <release-pr-number> --repo TianJianJun0727/ycloud-icons
+```
+
+Review the release JSON and both generated changelog files in that diff. Do not use `gh pr merge --auto` as a CI gate. Without required status checks configured on the target branch, GitHub may merge immediately. The release workflow must explicitly wait until checks are registered and all are successful, must not merge while checks are pending, and must stop on failure or timeout.
 
 After it succeeds, fetch tags and monitor the tag-triggered package release:
 
@@ -118,6 +136,7 @@ Use local scripts only to reproduce or repair the release preparation step:
 ```sh
 node ./scripts/syncPackageVersions.mts <version>
 YCLOUD_AI_CHANGELOG=1 YCLOUD_AI_CHANGELOG_VERSION=<version> node ./scripts/writeChangelog.mts
+pnpm exec oxfmt "changelogs/releases/v<version>.json"
 RELEASE_VERSION=<version> YCLOUD_CHANGELOG_RELEASE_NOTES_PATH=.release-notes.md node ./scripts/writeGitHubReleaseNotes.mjs
 ```
 
