@@ -4,25 +4,35 @@ export {
   default as YCloudAccountUnbound,
 } from './illustration-icons/account-unbound.svelte';
 export {
-  default as CloseLogo,
-  default as CloseLogoIcon,
-  default as YCloudCloseLogo,
-} from './illustration-icons/close-logo.svelte';
+  default as CallingRequest,
+  default as CallingRequestIcon,
+  default as YCloudCallingRequest,
+} from './illustration-icons/calling-request.svelte';
 export {
-  default as CustomerSupport,
-  default as CustomerSupportIcon,
-  default as YCloudCustomerSupport,
-} from './illustration-icons/customer-support.svelte';
+  default as Close,
+  default as CloseIcon,
+  default as YCloudClose,
+} from './illustration-icons/close.svelte';
+export {
+  default as Coupons,
+  default as CouponsIcon,
+  default as YCloudCoupons,
+} from './illustration-icons/coupons.svelte';
+export {
+  default as DataConnectors,
+  default as DataConnectorsIcon,
+  default as YCloudDataConnectors,
+} from './illustration-icons/data-connectors.svelte';
 export {
   default as DataImporting,
   default as DataImportingIcon,
   default as YCloudDataImporting,
 } from './illustration-icons/data-importing.svelte';
 export {
-  default as DeveloperIntegration,
-  default as DeveloperIntegrationIcon,
-  default as YCloudDeveloperIntegration,
-} from './illustration-icons/developer-integration.svelte';
+  default as Developer,
+  default as DeveloperIcon,
+  default as YCloudDeveloper,
+} from './illustration-icons/developer.svelte';
 export {
   default as Email,
   default as EmailIcon,
@@ -54,100 +64,55 @@ export {
   default as YCloudEmptySearch,
 } from './illustration-icons/empty-search.svelte';
 export {
-  default as ExpandLogo,
-  default as ExpandLogoIcon,
-  default as YCloudExpandLogo,
-} from './illustration-icons/expand-logo.svelte';
+  default as Enterprise,
+  default as EnterpriseIcon,
+  default as YCloudEnterprise,
+} from './illustration-icons/enterprise.svelte';
+export {
+  default as Expand,
+  default as ExpandIcon,
+  default as YCloudExpand,
+} from './illustration-icons/expand.svelte';
+export {
+  default as Free,
+  default as FreeIcon,
+  default as YCloudFree,
+} from './illustration-icons/free.svelte';
+export {
+  default as Growth,
+  default as GrowthIcon,
+  default as YCloudGrowth,
+} from './illustration-icons/growth.svelte';
 export {
   default as HasExpired,
   default as HasExpiredIcon,
   default as YCloudHasExpired,
 } from './illustration-icons/has-expired.svelte';
 export {
-  default as IntegrationCoupons,
-  default as IntegrationCouponsIcon,
-  default as YCloudIntegrationCoupons,
-} from './illustration-icons/integration-coupons.svelte';
+  default as Hubspot,
+  default as HubspotIcon,
+  default as YCloudHubspot,
+} from './illustration-icons/hubspot.svelte';
 export {
-  default as IntegrationDataConnectors,
-  default as IntegrationDataConnectorsIcon,
-  default as YCloudIntegrationDataConnectors,
-} from './illustration-icons/integration-data-connectors.svelte';
-export {
-  default as IntegrationEmail,
-  default as IntegrationEmailIcon,
-  default as YCloudIntegrationEmail,
-} from './illustration-icons/integration-email.svelte';
-export {
-  default as IntegrationHubspot,
-  default as IntegrationHubspotIcon,
-  default as YCloudIntegrationHubspot,
-} from './illustration-icons/integration-hubspot.svelte';
-export {
-  default as IntegrationMixdesk,
-  default as IntegrationMixdeskIcon,
-  default as YCloudIntegrationMixdesk,
-} from './illustration-icons/integration-mixdesk.svelte';
-export {
-  default as IntegrationQmail,
-  default as IntegrationQmailIcon,
-  default as YCloudIntegrationQmail,
-} from './illustration-icons/integration-qmail.svelte';
-export {
-  default as IntegrationReshdesk,
-  default as IntegrationReshdeskIcon,
-  default as YCloudIntegrationReshdesk,
-} from './illustration-icons/integration-reshdesk.svelte';
-export {
-  default as IntegrationSaleSmartly,
-  default as IntegrationSaleSmartlyIcon,
-  default as YCloudIntegrationSaleSmartly,
-} from './illustration-icons/integration-sale-smartly.svelte';
-export {
-  default as IntegrationShopify,
-  default as IntegrationShopifyIcon,
-  default as YCloudIntegrationShopify,
-} from './illustration-icons/integration-shopify.svelte';
-export {
-  default as IntegrationSms,
-  default as IntegrationSmsIcon,
-  default as YCloudIntegrationSms,
-} from './illustration-icons/integration-sms.svelte';
-export {
-  default as IntegrationVerify,
-  default as IntegrationVerifyIcon,
-  default as YCloudIntegrationVerify,
-} from './illustration-icons/integration-verify.svelte';
-export {
-  default as IntegrationVoiceCode,
-  default as IntegrationVoiceCodeIcon,
-  default as YCloudIntegrationVoiceCode,
-} from './illustration-icons/integration-voice-code.svelte';
-export {
-  default as IntegrationWhatsappMmLite,
-  default as IntegrationWhatsappMmLiteIcon,
-  default as YCloudIntegrationWhatsappMmLite,
-} from './illustration-icons/integration-whatsapp-mm-lite.svelte';
-export {
-  default as IntegrationZapier,
-  default as IntegrationZapierIcon,
-  default as YCloudIntegrationZapier,
-} from './illustration-icons/integration-zapier.svelte';
-export {
-  default as LeadGeneration,
-  default as LeadGenerationIcon,
-  default as YCloudLeadGeneration,
-} from './illustration-icons/lead-generation.svelte';
+  default as LimitedTimeOffer,
+  default as LimitedTimeOfferIcon,
+  default as YCloudLimitedTimeOffer,
+} from './illustration-icons/limited-time-offer.svelte';
 export {
   default as LoadFailed,
   default as LoadFailedIcon,
   default as YCloudLoadFailed,
 } from './illustration-icons/load-failed.svelte';
 export {
-  default as MarketingAutomation,
-  default as MarketingAutomationIcon,
-  default as YCloudMarketingAutomation,
-} from './illustration-icons/marketing-automation.svelte';
+  default as MediaCardCarousel,
+  default as MediaCardCarouselIcon,
+  default as YCloudMediaCardCarousel,
+} from './illustration-icons/media-card-carousel.svelte';
+export {
+  default as Mixdesk,
+  default as MixdeskIcon,
+  default as YCloudMixdesk,
+} from './illustration-icons/mixdesk.svelte';
 export {
   default as NetworkDisconnected,
   default as NetworkDisconnectedIcon,
@@ -174,68 +139,78 @@ export {
   default as YCloudPaymentMethodDisabled,
 } from './illustration-icons/payment-method-disabled.svelte';
 export {
-  default as RegisterPhone,
-  default as RegisterPhoneIcon,
-  default as YCloudRegisterPhone,
-} from './illustration-icons/register-phone.svelte';
+  default as Pro,
+  default as ProIcon,
+  default as YCloudPro,
+} from './illustration-icons/pro.svelte';
 export {
-  default as TemplateCallingRequest,
-  default as TemplateCallingRequestIcon,
-  default as YCloudTemplateCallingRequest,
-} from './illustration-icons/template-calling-request.svelte';
+  default as Qmail,
+  default as QmailIcon,
+  default as YCloudQmail,
+} from './illustration-icons/qmail.svelte';
 export {
-  default as TemplateInsightsAuthorization,
-  default as TemplateInsightsAuthorizationIcon,
-  default as YCloudTemplateInsightsAuthorization,
-} from './illustration-icons/template-insights-authorization.svelte';
+  default as Reshdesk,
+  default as ReshdeskIcon,
+  default as YCloudReshdesk,
+} from './illustration-icons/reshdesk.svelte';
 export {
-  default as TemplateLimitedTimeOffer,
-  default as TemplateLimitedTimeOfferIcon,
-  default as YCloudTemplateLimitedTimeOffer,
-} from './illustration-icons/template-limited-time-offer.svelte';
+  default as SaleSmartly,
+  default as SaleSmartlyIcon,
+  default as YCloudSaleSmartly,
+} from './illustration-icons/sale-smartly.svelte';
 export {
-  default as TemplateMediaCardCarousel,
-  default as TemplateMediaCardCarouselIcon,
-  default as YCloudTemplateMediaCardCarousel,
-} from './illustration-icons/template-media-card-carousel.svelte';
+  default as Shopify,
+  default as ShopifyIcon,
+  default as YCloudShopify,
+} from './illustration-icons/shopify.svelte';
 export {
-  default as TemplateSingleProductCheckout,
-  default as TemplateSingleProductCheckoutIcon,
-  default as YCloudTemplateSingleProductCheckout,
-} from './illustration-icons/template-single-product-checkout.svelte';
+  default as SingleProductCheckout,
+  default as SingleProductCheckoutIcon,
+  default as YCloudSingleProductCheckout,
+} from './illustration-icons/single-product-checkout.svelte';
 export {
-  default as TemplateWhatsappOrderDetails,
-  default as TemplateWhatsappOrderDetailsIcon,
-  default as YCloudTemplateWhatsappOrderDetails,
-} from './illustration-icons/template-whatsapp-order-details.svelte';
+  default as Sms,
+  default as SmsIcon,
+  default as YCloudSms,
+} from './illustration-icons/sms.svelte';
 export {
-  default as TemplateWhatsappOrderStatus,
-  default as TemplateWhatsappOrderStatusIcon,
-  default as YCloudTemplateWhatsappOrderStatus,
-} from './illustration-icons/template-whatsapp-order-status.svelte';
+  default as Tp,
+  default as TpIcon,
+  default as YCloudTp,
+} from './illustration-icons/tp.svelte';
 export {
-  default as VersionEnterprise,
-  default as VersionEnterpriseIcon,
-  default as YCloudVersionEnterprise,
-} from './illustration-icons/version-enterprise.svelte';
+  default as Verify,
+  default as VerifyIcon,
+  default as YCloudVerify,
+} from './illustration-icons/verify.svelte';
 export {
-  default as VersionFree,
-  default as VersionFreeIcon,
-  default as YCloudVersionFree,
-} from './illustration-icons/version-free.svelte';
-export {
-  default as VersionGrowth,
-  default as VersionGrowthIcon,
-  default as YCloudVersionGrowth,
-} from './illustration-icons/version-growth.svelte';
-export {
-  default as VersionPro,
-  default as VersionProIcon,
-  default as YCloudVersionPro,
-} from './illustration-icons/version-pro.svelte';
+  default as VoiceCode,
+  default as VoiceCodeIcon,
+  default as YCloudVoiceCode,
+} from './illustration-icons/voice-code.svelte';
 export {
   default as WaitingStatus,
   default as WaitingStatusIcon,
   default as YCloudWaitingStatus,
 } from './illustration-icons/waiting-status.svelte';
+export {
+  default as WhatsappMmLite,
+  default as WhatsappMmLiteIcon,
+  default as YCloudWhatsappMmLite,
+} from './illustration-icons/whatsapp-mm-lite.svelte';
+export {
+  default as WhatsappOrderDetails,
+  default as WhatsappOrderDetailsIcon,
+  default as YCloudWhatsappOrderDetails,
+} from './illustration-icons/whatsapp-order-details.svelte';
+export {
+  default as WhatsappOrderStatus,
+  default as WhatsappOrderStatusIcon,
+  default as YCloudWhatsappOrderStatus,
+} from './illustration-icons/whatsapp-order-status.svelte';
+export {
+  default as Zapier,
+  default as ZapierIcon,
+  default as YCloudZapier,
+} from './illustration-icons/zapier.svelte';
 export type { IllustrationProps } from './illustrationTypes.js';

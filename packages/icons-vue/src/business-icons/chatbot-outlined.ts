@@ -1,0 +1,95 @@
+import { h, type FunctionalComponent } from 'vue';
+import type { BusinessIconImageProps } from '../businessTypes';
+
+const ChatbotOutlined: FunctionalComponent<BusinessIconImageProps> = ({
+  size = 24,
+  width,
+  height,
+  alt = '',
+  color = 'currentColor',
+  strokeWidth,
+  style,
+  ...props
+}) =>
+  h(
+    'svg',
+    {
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: width ?? size,
+      height: height ?? size,
+      role: alt ? 'img' : undefined,
+      'aria-label': alt || undefined,
+      'aria-hidden': alt ? undefined : true,
+      color,
+      'stroke-width': strokeWidth,
+      style,
+      ...props,
+    },
+    [
+      h(
+        'g',
+        {
+          transform: 'translate(-1.333332 -1.444449) scale(1.111111)',
+        },
+        [
+          h('g', {}, [
+            h('g', {}, [
+              h('path', {
+                d: 'M11.9999 6.40001C12.6074 6.40001 13.0999 5.90753 13.0999 5.30001C13.0999 4.6925 12.6074 4.20001 11.9999 4.20001C11.3924 4.20001 10.8999 4.6925 10.8999 5.30001C10.8999 5.90753 11.3924 6.40001 11.9999 6.40001Z',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M12 6.40002V8.50002',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M16.5 9H7.5C6.11929 9 5 10.1193 5 11.5V17.5C5 18.8807 6.11929 20 7.5 20H16.5C17.8807 20 19 18.8807 19 17.5V11.5C19 10.1193 17.8807 9 16.5 9Z',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M3 13.5V16',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M21 13.5V16',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M9.5 13.5V15.5',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+              h('path', {
+                d: 'M14.5 13.5V15.5',
+                stroke: 'currentColor',
+                'stroke-width': strokeWidth ?? '1.5',
+                'stroke-linecap': 'round',
+                'stroke-linejoin': 'round',
+              }),
+            ]),
+          ]),
+        ],
+      ),
+    ],
+  );
+
+export default ChatbotOutlined;

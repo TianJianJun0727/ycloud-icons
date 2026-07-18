@@ -4923,6 +4923,11 @@
   <path d="M8 12v-2"></path>
   <path d="M8 18v-2"></path>
   <rect x="2" y="6" width="20" height="10" rx="2"></rect>
+</symbol><symbol viewBox="0 0 24 24" id="icon-menu-open">
+  <path d="M3 6h13"></path>
+  <path d="M3 12h10"></path>
+  <path d="M3 18h13"></path>
+  <path d="m20 8-4 4 4 4"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-menu">
   <path d="M4 5h16"></path>
   <path d="M4 12h16"></path>

@@ -27112,6 +27112,31 @@
     },
     {
       "type": "icon",
+      "name": "menu-open",
+      "path": "icons/menu-open.svg",
+      "title": "打开菜单",
+      "englishName": "menu open",
+      "metadata": {
+        "$schema": "../icon.schema.json",
+        "use-cases": ["打开或切换导航菜单", "展开侧边栏", "显示菜单面板"],
+        "name": "打开菜单",
+        "tags": ["菜单", "导航", "侧边栏", "打开", "展开"],
+        "categories": ["layout", "account"],
+        "i18n": {
+          "en": {
+            "name": "menu open",
+            "tags": ["menu", "navigation", "sidebar", "open", "expand"],
+            "use-cases": [
+              "Open or toggle a navigation menu",
+              "Expand a sidebar",
+              "Show a menu panel"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "icon",
       "name": "merge",
       "path": "icons/merge.svg",
       "title": "合并",

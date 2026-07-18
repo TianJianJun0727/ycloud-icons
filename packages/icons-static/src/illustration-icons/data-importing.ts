@@ -1,5 +1,5 @@
 /**
- * @license @ycloud-web/icons-static v0.2.3 - ISC
+ * @license @ycloud-web/icons-static v0.2.5 - ISC
  */
 
 const DataImporting: string =

@@ -1,33 +1,15 @@
 {
-  "acquire-more-leads": {
-    "encodedCode": "\\f0ac",
-    "prefix": "business-icon",
-    "className": "business-icon-acquire-more-leads",
-    "unicode": "&#61612;"
-  },
-  "add-nick": {
-    "encodedCode": "\\f0ad",
-    "prefix": "business-icon",
-    "className": "business-icon-add-nick",
-    "unicode": "&#61613;"
-  },
-  "add-tags": {
-    "encodedCode": "\\f0ae",
-    "prefix": "business-icon",
-    "className": "business-icon-add-tags",
-    "unicode": "&#61614;"
-  },
-  "advertising-filled": {
-    "encodedCode": "\\f0af",
-    "prefix": "business-icon",
-    "className": "business-icon-advertising-filled",
-    "unicode": "&#61615;"
-  },
   "advertising-outlined": {
     "encodedCode": "\\f0b0",
     "prefix": "business-icon",
     "className": "business-icon-advertising-outlined",
     "unicode": "&#61616;"
+  },
+  "agent-filled": {
+    "encodedCode": "\\f14f",
+    "prefix": "business-icon",
+    "className": "business-icon-agent-filled",
+    "unicode": "&#61775;"
   },
   "agent-guide-filled": {
     "encodedCode": "\\f0b2",
@@ -35,23 +17,17 @@
     "className": "business-icon-agent-guide-filled",
     "unicode": "&#61618;"
   },
-  "agent-permission-filled": {
-    "encodedCode": "\\f0b3",
+  "agent-with-time-filled": {
+    "encodedCode": "\\f150",
     "prefix": "business-icon",
-    "className": "business-icon-agent-permission-filled",
-    "unicode": "&#61619;"
+    "className": "business-icon-agent-with-time-filled",
+    "unicode": "&#61776;"
   },
-  "agent-with-time": {
-    "encodedCode": "\\f0b4",
+  "alipay-filled": {
+    "encodedCode": "\\f151",
     "prefix": "business-icon",
-    "className": "business-icon-agent-with-time",
-    "unicode": "&#61620;"
-  },
-  "agent": {
-    "encodedCode": "\\f0b1",
-    "prefix": "business-icon",
-    "className": "business-icon-agent",
-    "unicode": "&#61617;"
+    "className": "business-icon-alipay-filled",
+    "unicode": "&#61777;"
   },
   "alipay": {
     "encodedCode": "\\f0b5",
@@ -65,167 +41,65 @@
     "className": "business-icon-analytics-filled",
     "unicode": "&#61622;"
   },
-  "api-docs": {
-    "encodedCode": "\\f0b7",
-    "prefix": "business-icon",
-    "className": "business-icon-api-docs",
-    "unicode": "&#61623;"
-  },
-  "ask-question": {
-    "encodedCode": "\\f0b8",
-    "prefix": "business-icon",
-    "className": "business-icon-ask-question",
-    "unicode": "&#61624;"
-  },
-  "assign": {
-    "encodedCode": "\\f0b9",
-    "prefix": "business-icon",
-    "className": "business-icon-assign",
-    "unicode": "&#61625;"
-  },
   "authentication-filled": {
     "encodedCode": "\\f0ba",
     "prefix": "business-icon",
     "className": "business-icon-authentication-filled",
     "unicode": "&#61626;"
   },
-  "balance": {
-    "encodedCode": "\\f0bb",
+  "benefit-analytics-filled": {
+    "encodedCode": "\\f152",
     "prefix": "business-icon",
-    "className": "business-icon-balance",
-    "unicode": "&#61627;"
+    "className": "business-icon-benefit-analytics-filled",
+    "unicode": "&#61778;"
   },
-  "benefit-analytics": {
-    "encodedCode": "\\f0bc",
+  "benefit-payments-filled": {
+    "encodedCode": "\\f153",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-analytics",
-    "unicode": "&#61628;"
+    "className": "business-icon-benefit-payments-filled",
+    "unicode": "&#61779;"
   },
-  "benefit-global": {
-    "encodedCode": "\\f0bd",
+  "benefit-restriction-filled": {
+    "encodedCode": "\\f154",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-global",
-    "unicode": "&#61629;"
+    "className": "business-icon-benefit-restriction-filled",
+    "unicode": "&#61780;"
   },
-  "benefit-languages": {
-    "encodedCode": "\\f0be",
+  "benefit-sender-filled": {
+    "encodedCode": "\\f155",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-languages",
-    "unicode": "&#61630;"
+    "className": "business-icon-benefit-sender-filled",
+    "unicode": "&#61781;"
   },
-  "benefit-payments": {
-    "encodedCode": "\\f0bf",
+  "benefit-simple-filled": {
+    "encodedCode": "\\f156",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-payments",
-    "unicode": "&#61631;"
+    "className": "business-icon-benefit-simple-filled",
+    "unicode": "&#61782;"
   },
-  "benefit-restriction": {
-    "encodedCode": "\\f0c0",
+  "benefit-smile-filled": {
+    "encodedCode": "\\f157",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-restriction",
-    "unicode": "&#61632;"
+    "className": "business-icon-benefit-smile-filled",
+    "unicode": "&#61783;"
   },
-  "benefit-security": {
-    "encodedCode": "\\f0c1",
+  "benefit-statistical-filled": {
+    "encodedCode": "\\f158",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-security",
-    "unicode": "&#61633;"
+    "className": "business-icon-benefit-statistical-filled",
+    "unicode": "&#61784;"
   },
-  "benefit-sender": {
-    "encodedCode": "\\f0c2",
+  "benefit-template-filled": {
+    "encodedCode": "\\f159",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-sender",
-    "unicode": "&#61634;"
+    "className": "business-icon-benefit-template-filled",
+    "unicode": "&#61785;"
   },
-  "benefit-simple": {
-    "encodedCode": "\\f0c3",
+  "branch-filled": {
+    "encodedCode": "\\f15a",
     "prefix": "business-icon",
-    "className": "business-icon-benefit-simple",
-    "unicode": "&#61635;"
-  },
-  "benefit-smile": {
-    "encodedCode": "\\f0c4",
-    "prefix": "business-icon",
-    "className": "business-icon-benefit-smile",
-    "unicode": "&#61636;"
-  },
-  "benefit-statistical": {
-    "encodedCode": "\\f0c5",
-    "prefix": "business-icon",
-    "className": "business-icon-benefit-statistical",
-    "unicode": "&#61637;"
-  },
-  "benefit-template": {
-    "encodedCode": "\\f0c6",
-    "prefix": "business-icon",
-    "className": "business-icon-benefit-template",
-    "unicode": "&#61638;"
-  },
-  "billing-filled": {
-    "encodedCode": "\\f0c8",
-    "prefix": "business-icon",
-    "className": "business-icon-billing-filled",
-    "unicode": "&#61640;"
-  },
-  "billing": {
-    "encodedCode": "\\f0c7",
-    "prefix": "business-icon",
-    "className": "business-icon-billing",
-    "unicode": "&#61639;"
-  },
-  "block": {
-    "encodedCode": "\\f0c9",
-    "prefix": "business-icon",
-    "className": "business-icon-block",
-    "unicode": "&#61641;"
-  },
-  "blog": {
-    "encodedCode": "\\f0ca",
-    "prefix": "business-icon",
-    "className": "business-icon-blog",
-    "unicode": "&#61642;"
-  },
-  "bot-outlined": {
-    "encodedCode": "\\f0cb",
-    "prefix": "business-icon",
-    "className": "business-icon-bot-outlined",
-    "unicode": "&#61643;"
-  },
-  "botfilled": {
-    "encodedCode": "\\f032",
-    "prefix": "business-icon",
-    "className": "business-icon-botfilled",
-    "unicode": "&#61490;"
-  },
-  "branch": {
-    "encodedCode": "\\f0cc",
-    "prefix": "business-icon",
-    "className": "business-icon-branch",
-    "unicode": "&#61644;"
-  },
-  "business-icon": {
-    "encodedCode": "\\f0cd",
-    "prefix": "business-icon",
-    "className": "business-icon-business-icon",
-    "unicode": "&#61645;"
-  },
-  "call-api": {
-    "encodedCode": "\\f0ce",
-    "prefix": "business-icon",
-    "className": "business-icon-call-api",
-    "unicode": "&#61646;"
-  },
-  "call-in": {
-    "encodedCode": "\\f0cf",
-    "prefix": "business-icon",
-    "className": "business-icon-call-in",
-    "unicode": "&#61647;"
-  },
-  "call-out": {
-    "encodedCode": "\\f0d0",
-    "prefix": "business-icon",
-    "className": "business-icon-call-out",
-    "unicode": "&#61648;"
+    "className": "business-icon-branch-filled",
+    "unicode": "&#61786;"
   },
   "calling-filled": {
     "encodedCode": "\\f0d1",
@@ -251,23 +125,17 @@
     "className": "business-icon-campaign-outlined",
     "unicode": "&#61652;"
   },
-  "canned-response-check": {
-    "encodedCode": "\\f0d5",
+  "cart-outlined": {
+    "encodedCode": "\\f15b",
     "prefix": "business-icon",
-    "className": "business-icon-canned-response-check",
-    "unicode": "&#61653;"
+    "className": "business-icon-cart-outlined",
+    "unicode": "&#61787;"
   },
-  "category-filled": {
-    "encodedCode": "\\f0d6",
+  "chatbot-outlined": {
+    "encodedCode": "\\f15c",
     "prefix": "business-icon",
-    "className": "business-icon-category-filled",
-    "unicode": "&#61654;"
-  },
-  "chat-loading-icon": {
-    "encodedCode": "\\f0d7",
-    "prefix": "business-icon",
-    "className": "business-icon-chat-loading-icon",
-    "unicode": "&#61655;"
+    "className": "business-icon-chatbot-outlined",
+    "unicode": "&#61788;"
   },
   "check-cancel-filled": {
     "encodedCode": "\\f0d9",
@@ -275,23 +143,11 @@
     "className": "business-icon-check-cancel-filled",
     "unicode": "&#61657;"
   },
-  "check": {
-    "encodedCode": "\\f0d8",
+  "check-filled": {
+    "encodedCode": "\\f15d",
     "prefix": "business-icon",
-    "className": "business-icon-check",
-    "unicode": "&#61656;"
-  },
-  "circular-right-arrow": {
-    "encodedCode": "\\f0da",
-    "prefix": "business-icon",
-    "className": "business-icon-circular-right-arrow",
-    "unicode": "&#61658;"
-  },
-  "clock-outlined": {
-    "encodedCode": "\\f0db",
-    "prefix": "business-icon",
-    "className": "business-icon-clock-outlined",
-    "unicode": "&#61659;"
+    "className": "business-icon-check-filled",
+    "unicode": "&#61789;"
   },
   "code-filled": {
     "encodedCode": "\\f0dc",
@@ -299,59 +155,11 @@
     "className": "business-icon-code-filled",
     "unicode": "&#61660;"
   },
-  "code-mark": {
-    "encodedCode": "\\f0dd",
-    "prefix": "business-icon",
-    "className": "business-icon-code-mark",
-    "unicode": "&#61661;"
-  },
-  "code-outlined": {
-    "encodedCode": "\\f0de",
-    "prefix": "business-icon",
-    "className": "business-icon-code-outlined",
-    "unicode": "&#61662;"
-  },
-  "code-text": {
-    "encodedCode": "\\f0df",
-    "prefix": "business-icon",
-    "className": "business-icon-code-text",
-    "unicode": "&#61663;"
-  },
   "coding-filled": {
     "encodedCode": "\\f0e0",
     "prefix": "business-icon",
     "className": "business-icon-coding-filled",
     "unicode": "&#61664;"
-  },
-  "coming-soon": {
-    "encodedCode": "\\f048",
-    "prefix": "business-icon",
-    "className": "business-icon-coming-soon",
-    "unicode": "&#61512;"
-  },
-  "company": {
-    "encodedCode": "\\f0e1",
-    "prefix": "business-icon",
-    "className": "business-icon-company",
-    "unicode": "&#61665;"
-  },
-  "compass-filled": {
-    "encodedCode": "\\f0e2",
-    "prefix": "business-icon",
-    "className": "business-icon-compass-filled",
-    "unicode": "&#61666;"
-  },
-  "composite-trigger-icon": {
-    "encodedCode": "\\f0e3",
-    "prefix": "business-icon",
-    "className": "business-icon-composite-trigger-icon",
-    "unicode": "&#61667;"
-  },
-  "contact-filled": {
-    "encodedCode": "\\f0e4",
-    "prefix": "business-icon",
-    "className": "business-icon-contact-filled",
-    "unicode": "&#61668;"
   },
   "contact-outlined": {
     "encodedCode": "\\f0e5",
@@ -359,65 +167,29 @@
     "className": "business-icon-contact-outlined",
     "unicode": "&#61669;"
   },
-  "conversation-unsubscribe": {
-    "encodedCode": "\\f0e6",
+  "credit-card-filled": {
+    "encodedCode": "\\f15e",
     "prefix": "business-icon",
-    "className": "business-icon-conversation-unsubscribe",
-    "unicode": "&#61670;"
+    "className": "business-icon-credit-card-filled",
+    "unicode": "&#61790;"
   },
-  "coupon-code": {
-    "encodedCode": "\\f0e7",
+  "date-time-filled": {
+    "encodedCode": "\\f15f",
     "prefix": "business-icon",
-    "className": "business-icon-coupon-code",
-    "unicode": "&#61671;"
+    "className": "business-icon-date-time-filled",
+    "unicode": "&#61791;"
   },
-  "coupon-filled": {
-    "encodedCode": "\\f0e8",
+  "developers-outlined": {
+    "encodedCode": "\\f160",
     "prefix": "business-icon",
-    "className": "business-icon-coupon-filled",
-    "unicode": "&#61672;"
+    "className": "business-icon-developers-outlined",
+    "unicode": "&#61792;"
   },
-  "create-tickets-icon": {
-    "encodedCode": "\\f0e9",
+  "discount-filled": {
+    "encodedCode": "\\f161",
     "prefix": "business-icon",
-    "className": "business-icon-create-tickets-icon",
-    "unicode": "&#61673;"
-  },
-  "credit-card-icon": {
-    "encodedCode": "\\f0ea",
-    "prefix": "business-icon",
-    "className": "business-icon-credit-card-icon",
-    "unicode": "&#61674;"
-  },
-  "ctwa-system-keyword-event": {
-    "encodedCode": "\\f0eb",
-    "prefix": "business-icon",
-    "className": "business-icon-ctwa-system-keyword-event",
-    "unicode": "&#61675;"
-  },
-  "date-time": {
-    "encodedCode": "\\f0ec",
-    "prefix": "business-icon",
-    "className": "business-icon-date-time",
-    "unicode": "&#61676;"
-  },
-  "delivered-icon": {
-    "encodedCode": "\\f0ed",
-    "prefix": "business-icon",
-    "className": "business-icon-delivered-icon",
-    "unicode": "&#61677;"
-  },
-  "direction-filled": {
-    "encodedCode": "\\f0ee",
-    "prefix": "business-icon",
-    "className": "business-icon-direction-filled",
-    "unicode": "&#61678;"
-  },
-  "discount": {
-    "encodedCode": "\\f0ef",
-    "prefix": "business-icon",
-    "className": "business-icon-discount",
-    "unicode": "&#61679;"
+    "className": "business-icon-discount-filled",
+    "unicode": "&#61793;"
   },
   "doc-csv-filled": {
     "encodedCode": "\\f0f0",
@@ -425,77 +197,35 @@
     "className": "business-icon-doc-csv-filled",
     "unicode": "&#61680;"
   },
-  "document-filled": {
-    "encodedCode": "\\f0f1",
+  "error-filled": {
+    "encodedCode": "\\f162",
     "prefix": "business-icon",
-    "className": "business-icon-document-filled",
-    "unicode": "&#61681;"
+    "className": "business-icon-error-filled",
+    "unicode": "&#61794;"
   },
-  "double-check": {
-    "encodedCode": "\\f0f2",
+  "facebook": {
+    "encodedCode": "\\f163",
     "prefix": "business-icon",
-    "className": "business-icon-double-check",
-    "unicode": "&#61682;"
+    "className": "business-icon-facebook",
+    "unicode": "&#61795;"
   },
-  "edit-title": {
-    "encodedCode": "\\f0f3",
+  "filter-event-filled": {
+    "encodedCode": "\\f164",
     "prefix": "business-icon",
-    "className": "business-icon-edit-title",
-    "unicode": "&#61683;"
+    "className": "business-icon-filter-event-filled",
+    "unicode": "&#61796;"
   },
-  "exchange": {
-    "encodedCode": "\\f0f4",
+  "global-filled": {
+    "encodedCode": "\\f165",
     "prefix": "business-icon",
-    "className": "business-icon-exchange",
-    "unicode": "&#61684;"
+    "className": "business-icon-global-filled",
+    "unicode": "&#61797;"
   },
-  "expand-icon": {
-    "encodedCode": "\\f0f5",
+  "home-outlined": {
+    "encodedCode": "\\f166",
     "prefix": "business-icon",
-    "className": "business-icon-expand-icon",
-    "unicode": "&#61685;"
-  },
-  "export-filled": {
-    "encodedCode": "\\f0f6",
-    "prefix": "business-icon",
-    "className": "business-icon-export-filled",
-    "unicode": "&#61686;"
-  },
-  "file-attach": {
-    "encodedCode": "\\f0f7",
-    "prefix": "business-icon",
-    "className": "business-icon-file-attach",
-    "unicode": "&#61687;"
-  },
-  "filter-event": {
-    "encodedCode": "\\f0f8",
-    "prefix": "business-icon",
-    "className": "business-icon-filter-event",
-    "unicode": "&#61688;"
-  },
-  "flow": {
-    "encodedCode": "\\f0f9",
-    "prefix": "business-icon",
-    "className": "business-icon-flow",
-    "unicode": "&#61689;"
-  },
-  "gift": {
-    "encodedCode": "\\f0fa",
-    "prefix": "business-icon",
-    "className": "business-icon-gift",
-    "unicode": "&#61690;"
-  },
-  "global": {
-    "encodedCode": "\\f0fb",
-    "prefix": "business-icon",
-    "className": "business-icon-global",
-    "unicode": "&#61691;"
-  },
-  "handle": {
-    "encodedCode": "\\f0fc",
-    "prefix": "business-icon",
-    "className": "business-icon-handle",
-    "unicode": "&#61692;"
+    "className": "business-icon-home-outlined",
+    "unicode": "&#61798;"
   },
   "hub-spot": {
     "encodedCode": "\\f064",
@@ -503,11 +233,23 @@
     "className": "business-icon-hub-spot",
     "unicode": "&#61540;"
   },
-  "journey-filled": {
-    "encodedCode": "\\f0fd",
+  "inbox-outlined": {
+    "encodedCode": "\\f167",
     "prefix": "business-icon",
-    "className": "business-icon-journey-filled",
-    "unicode": "&#61693;"
+    "className": "business-icon-inbox-outlined",
+    "unicode": "&#61799;"
+  },
+  "info-filled": {
+    "encodedCode": "\\f168",
+    "prefix": "business-icon",
+    "className": "business-icon-info-filled",
+    "unicode": "&#61800;"
+  },
+  "integration-outlined": {
+    "encodedCode": "\\f169",
+    "prefix": "business-icon",
+    "className": "business-icon-integration-outlined",
+    "unicode": "&#61801;"
   },
   "journey-outlined": {
     "encodedCode": "\\f0fe",
@@ -515,65 +257,11 @@
     "className": "business-icon-journey-outlined",
     "unicode": "&#61694;"
   },
-  "language": {
-    "encodedCode": "\\f0ff",
-    "prefix": "business-icon",
-    "className": "business-icon-language",
-    "unicode": "&#61695;"
-  },
   "lightning-filled": {
     "encodedCode": "\\f100",
     "prefix": "business-icon",
     "className": "business-icon-lightning-filled",
     "unicode": "&#61696;"
-  },
-  "line-simple": {
-    "encodedCode": "\\f101",
-    "prefix": "business-icon",
-    "className": "business-icon-line-simple",
-    "unicode": "&#61697;"
-  },
-  "link-action": {
-    "encodedCode": "\\f103",
-    "prefix": "business-icon",
-    "className": "business-icon-link-action",
-    "unicode": "&#61699;"
-  },
-  "link-circle-filled": {
-    "encodedCode": "\\f104",
-    "prefix": "business-icon",
-    "className": "business-icon-link-circle-filled",
-    "unicode": "&#61700;"
-  },
-  "link": {
-    "encodedCode": "\\f102",
-    "prefix": "business-icon",
-    "className": "business-icon-link",
-    "unicode": "&#61698;"
-  },
-  "location": {
-    "encodedCode": "\\f105",
-    "prefix": "business-icon",
-    "className": "business-icon-location",
-    "unicode": "&#61701;"
-  },
-  "logout": {
-    "encodedCode": "\\f106",
-    "prefix": "business-icon",
-    "className": "business-icon-logout",
-    "unicode": "&#61702;"
-  },
-  "map-outlined": {
-    "encodedCode": "\\f107",
-    "prefix": "business-icon",
-    "className": "business-icon-map-outlined",
-    "unicode": "&#61703;"
-  },
-  "menu-open": {
-    "encodedCode": "\\f108",
-    "prefix": "business-icon",
-    "className": "business-icon-menu-open",
-    "unicode": "&#61704;"
   },
   "message-bubble-filled": {
     "encodedCode": "\\f109",
@@ -581,101 +269,35 @@
     "className": "business-icon-message-bubble-filled",
     "unicode": "&#61705;"
   },
-  "message-bubble-outlined": {
-    "encodedCode": "\\f10a",
-    "prefix": "business-icon",
-    "className": "business-icon-message-bubble-outlined",
-    "unicode": "&#61706;"
-  },
   "message-filled": {
     "encodedCode": "\\f10b",
     "prefix": "business-icon",
     "className": "business-icon-message-filled",
     "unicode": "&#61707;"
   },
-  "meta-filled": {
-    "encodedCode": "\\f072",
+  "more-price-filled": {
+    "encodedCode": "\\f16a",
     "prefix": "business-icon",
-    "className": "business-icon-meta-filled",
-    "unicode": "&#61554;"
+    "className": "business-icon-more-price-filled",
+    "unicode": "&#61802;"
   },
-  "migrate-outlined": {
-    "encodedCode": "\\f10c",
+  "more-restriction-filled": {
+    "encodedCode": "\\f16b",
     "prefix": "business-icon",
-    "className": "business-icon-migrate-outlined",
-    "unicode": "&#61708;"
+    "className": "business-icon-more-restriction-filled",
+    "unicode": "&#61803;"
   },
-  "mobile-phone": {
-    "encodedCode": "\\f10d",
+  "more-sender-name-filled": {
+    "encodedCode": "\\f16c",
     "prefix": "business-icon",
-    "className": "business-icon-mobile-phone",
-    "unicode": "&#61709;"
-  },
-  "more-horiz": {
-    "encodedCode": "\\f10e",
-    "prefix": "business-icon",
-    "className": "business-icon-more-horiz",
-    "unicode": "&#61710;"
-  },
-  "more-price": {
-    "encodedCode": "\\f10f",
-    "prefix": "business-icon",
-    "className": "business-icon-more-price",
-    "unicode": "&#61711;"
-  },
-  "more-restriction": {
-    "encodedCode": "\\f110",
-    "prefix": "business-icon",
-    "className": "business-icon-more-restriction",
-    "unicode": "&#61712;"
-  },
-  "more-sender-name": {
-    "encodedCode": "\\f112",
-    "prefix": "business-icon",
-    "className": "business-icon-more-sender-name",
-    "unicode": "&#61714;"
-  },
-  "more-sender": {
-    "encodedCode": "\\f111",
-    "prefix": "business-icon",
-    "className": "business-icon-more-sender",
-    "unicode": "&#61713;"
-  },
-  "more-vert": {
-    "encodedCode": "\\f113",
-    "prefix": "business-icon",
-    "className": "business-icon-more-vert",
-    "unicode": "&#61715;"
-  },
-  "mouse-filled": {
-    "encodedCode": "\\f114",
-    "prefix": "business-icon",
-    "className": "business-icon-mouse-filled",
-    "unicode": "&#61716;"
-  },
-  "music": {
-    "encodedCode": "\\f115",
-    "prefix": "business-icon",
-    "className": "business-icon-music",
-    "unicode": "&#61717;"
-  },
-  "new-tag-filled": {
-    "encodedCode": "\\f116",
-    "prefix": "business-icon",
-    "className": "business-icon-new-tag-filled",
-    "unicode": "&#61718;"
+    "className": "business-icon-more-sender-name-filled",
+    "unicode": "&#61804;"
   },
   "note-filled": {
     "encodedCode": "\\f117",
     "prefix": "business-icon",
     "className": "business-icon-note-filled",
     "unicode": "&#61719;"
-  },
-  "online-chat-outline": {
-    "encodedCode": "\\f118",
-    "prefix": "business-icon",
-    "className": "business-icon-online-chat-outline",
-    "unicode": "&#61720;"
   },
   "order-event-filled": {
     "encodedCode": "\\f119",
@@ -695,77 +317,29 @@
     "className": "business-icon-partners-outlined",
     "unicode": "&#61723;"
   },
-  "payments-filled": {
-    "encodedCode": "\\f11c",
+  "paypal": {
+    "encodedCode": "\\f16d",
     "prefix": "business-icon",
-    "className": "business-icon-payments-filled",
-    "unicode": "&#61724;"
+    "className": "business-icon-paypal",
+    "unicode": "&#61805;"
   },
-  "play-circle-filled": {
-    "encodedCode": "\\f11d",
+  "qmai-event-filled": {
+    "encodedCode": "\\f16e",
     "prefix": "business-icon",
-    "className": "business-icon-play-circle-filled",
-    "unicode": "&#61725;"
+    "className": "business-icon-qmai-event-filled",
+    "unicode": "&#61806;"
   },
-  "progressomg": {
-    "encodedCode": "\\f11e",
+  "route-filled": {
+    "encodedCode": "\\f16f",
     "prefix": "business-icon",
-    "className": "business-icon-progressomg",
-    "unicode": "&#61726;"
+    "className": "business-icon-route-filled",
+    "unicode": "&#61807;"
   },
-  "push-pin-filled": {
-    "encodedCode": "\\f11f",
+  "sand-clock-filled": {
+    "encodedCode": "\\f170",
     "prefix": "business-icon",
-    "className": "business-icon-push-pin-filled",
-    "unicode": "&#61727;"
-  },
-  "push-pin-outlined": {
-    "encodedCode": "\\f120",
-    "prefix": "business-icon",
-    "className": "business-icon-push-pin-outlined",
-    "unicode": "&#61728;"
-  },
-  "qmai-event": {
-    "encodedCode": "\\f121",
-    "prefix": "business-icon",
-    "className": "business-icon-qmai-event",
-    "unicode": "&#61729;"
-  },
-  "qr-code": {
-    "encodedCode": "\\f122",
-    "prefix": "business-icon",
-    "className": "business-icon-qr-code",
-    "unicode": "&#61730;"
-  },
-  "record-filled": {
-    "encodedCode": "\\f123",
-    "prefix": "business-icon",
-    "className": "business-icon-record-filled",
-    "unicode": "&#61731;"
-  },
-  "redo": {
-    "encodedCode": "\\f124",
-    "prefix": "business-icon",
-    "className": "business-icon-redo",
-    "unicode": "&#61732;"
-  },
-  "route": {
-    "encodedCode": "\\f125",
-    "prefix": "business-icon",
-    "className": "business-icon-route",
-    "unicode": "&#61733;"
-  },
-  "sand-clock": {
-    "encodedCode": "\\f126",
-    "prefix": "business-icon",
-    "className": "business-icon-sand-clock",
-    "unicode": "&#61734;"
-  },
-  "scroll-to-bottom": {
-    "encodedCode": "\\f127",
-    "prefix": "business-icon",
-    "className": "business-icon-scroll-to-bottom",
-    "unicode": "&#61735;"
+    "className": "business-icon-sand-clock-filled",
+    "unicode": "&#61808;"
   },
   "security-filled": {
     "encodedCode": "\\f128",
@@ -773,65 +347,11 @@
     "className": "business-icon-security-filled",
     "unicode": "&#61736;"
   },
-  "segment": {
-    "encodedCode": "\\f129",
+  "shopify-filled": {
+    "encodedCode": "\\f171",
     "prefix": "business-icon",
-    "className": "business-icon-segment",
-    "unicode": "&#61737;"
-  },
-  "send-message-mark": {
-    "encodedCode": "\\f12b",
-    "prefix": "business-icon",
-    "className": "business-icon-send-message-mark",
-    "unicode": "&#61739;"
-  },
-  "send-message": {
-    "encodedCode": "\\f12a",
-    "prefix": "business-icon",
-    "className": "business-icon-send-message",
-    "unicode": "&#61738;"
-  },
-  "setting-filled": {
-    "encodedCode": "\\f12c",
-    "prefix": "business-icon",
-    "className": "business-icon-setting-filled",
-    "unicode": "&#61740;"
-  },
-  "setting-outlined": {
-    "encodedCode": "\\f12d",
-    "prefix": "business-icon",
-    "className": "business-icon-setting-outlined",
-    "unicode": "&#61741;"
-  },
-  "share": {
-    "encodedCode": "\\f12e",
-    "prefix": "business-icon",
-    "className": "business-icon-share",
-    "unicode": "&#61742;"
-  },
-  "shop-assistant": {
-    "encodedCode": "\\f12f",
-    "prefix": "business-icon",
-    "className": "business-icon-shop-assistant",
-    "unicode": "&#61743;"
-  },
-  "shop-check-bag-filled": {
-    "encodedCode": "\\f130",
-    "prefix": "business-icon",
-    "className": "business-icon-shop-check-bag-filled",
-    "unicode": "&#61744;"
-  },
-  "shop-menu-filled": {
-    "encodedCode": "\\f131",
-    "prefix": "business-icon",
-    "className": "business-icon-shop-menu-filled",
-    "unicode": "&#61745;"
-  },
-  "shop-menu-outlined": {
-    "encodedCode": "\\f132",
-    "prefix": "business-icon",
-    "className": "business-icon-shop-menu-outlined",
-    "unicode": "&#61746;"
+    "className": "business-icon-shopify-filled",
+    "unicode": "&#61809;"
   },
   "shopify": {
     "encodedCode": "\\f09a",
@@ -839,29 +359,11 @@
     "className": "business-icon-shopify",
     "unicode": "&#61594;"
   },
-  "show-side-bar": {
-    "encodedCode": "\\f133",
+  "star-filled": {
+    "encodedCode": "\\f172",
     "prefix": "business-icon",
-    "className": "business-icon-show-side-bar",
-    "unicode": "&#61747;"
-  },
-  "side-bar": {
-    "encodedCode": "\\f134",
-    "prefix": "business-icon",
-    "className": "business-icon-side-bar",
-    "unicode": "&#61748;"
-  },
-  "star": {
-    "encodedCode": "\\f135",
-    "prefix": "business-icon",
-    "className": "business-icon-star",
-    "unicode": "&#61749;"
-  },
-  "start-arrow": {
-    "encodedCode": "\\f136",
-    "prefix": "business-icon",
-    "className": "business-icon-start-arrow",
-    "unicode": "&#61750;"
+    "className": "business-icon-star-filled",
+    "unicode": "&#61810;"
   },
   "status-filled": {
     "encodedCode": "\\f137",
@@ -869,41 +371,17 @@
     "className": "business-icon-status-filled",
     "unicode": "&#61751;"
   },
-  "sync": {
-    "encodedCode": "\\f138",
+  "tag-filled": {
+    "encodedCode": "\\f173",
     "prefix": "business-icon",
-    "className": "business-icon-sync",
-    "unicode": "&#61752;"
+    "className": "business-icon-tag-filled",
+    "unicode": "&#61811;"
   },
-  "table-setting": {
-    "encodedCode": "\\f139",
+  "team-filled": {
+    "encodedCode": "\\f174",
     "prefix": "business-icon",
-    "className": "business-icon-table-setting",
-    "unicode": "&#61753;"
-  },
-  "tag": {
-    "encodedCode": "\\f13a",
-    "prefix": "business-icon",
-    "className": "business-icon-tag",
-    "unicode": "&#61754;"
-  },
-  "task-complete": {
-    "encodedCode": "\\f13b",
-    "prefix": "business-icon",
-    "className": "business-icon-task-complete",
-    "unicode": "&#61755;"
-  },
-  "task-menu-filled": {
-    "encodedCode": "\\f13c",
-    "prefix": "business-icon",
-    "className": "business-icon-task-menu-filled",
-    "unicode": "&#61756;"
-  },
-  "team": {
-    "encodedCode": "\\f13d",
-    "prefix": "business-icon",
-    "className": "business-icon-team",
-    "unicode": "&#61757;"
+    "className": "business-icon-team-filled",
+    "unicode": "&#61812;"
   },
   "template-filled": {
     "encodedCode": "\\f13e",
@@ -911,29 +389,17 @@
     "className": "business-icon-template-filled",
     "unicode": "&#61758;"
   },
-  "time-clock": {
-    "encodedCode": "\\f13f",
+  "tiktok": {
+    "encodedCode": "\\f175",
     "prefix": "business-icon",
-    "className": "business-icon-time-clock",
-    "unicode": "&#61759;"
+    "className": "business-icon-tiktok",
+    "unicode": "&#61813;"
   },
-  "title-edit-icon": {
-    "encodedCode": "\\f140",
+  "trigger-filled": {
+    "encodedCode": "\\f176",
     "prefix": "business-icon",
-    "className": "business-icon-title-edit-icon",
-    "unicode": "&#61760;"
-  },
-  "tool-filled": {
-    "encodedCode": "\\f141",
-    "prefix": "business-icon",
-    "className": "business-icon-tool-filled",
-    "unicode": "&#61761;"
-  },
-  "trigger": {
-    "encodedCode": "\\f142",
-    "prefix": "business-icon",
-    "className": "business-icon-trigger",
-    "unicode": "&#61762;"
+    "className": "business-icon-trigger-filled",
+    "unicode": "&#61814;"
   },
   "trophy": {
     "encodedCode": "\\f0ab",
@@ -941,35 +407,17 @@
     "className": "business-icon-trophy",
     "unicode": "&#61611;"
   },
-  "undo": {
-    "encodedCode": "\\f143",
-    "prefix": "business-icon",
-    "className": "business-icon-undo",
-    "unicode": "&#61763;"
-  },
-  "unsubscribe": {
-    "encodedCode": "\\f144",
-    "prefix": "business-icon",
-    "className": "business-icon-unsubscribe",
-    "unicode": "&#61764;"
-  },
-  "upgrade-diamond-filled": {
-    "encodedCode": "\\f145",
-    "prefix": "business-icon",
-    "className": "business-icon-upgrade-diamond-filled",
-    "unicode": "&#61765;"
-  },
-  "upload-file": {
-    "encodedCode": "\\f146",
-    "prefix": "business-icon",
-    "className": "business-icon-upload-file",
-    "unicode": "&#61766;"
-  },
   "user-filled": {
     "encodedCode": "\\f147",
     "prefix": "business-icon",
     "className": "business-icon-user-filled",
     "unicode": "&#61767;"
+  },
+  "warning-filled": {
+    "encodedCode": "\\f177",
+    "prefix": "business-icon",
+    "className": "business-icon-warning-filled",
+    "unicode": "&#61815;"
   },
   "wechat-filled": {
     "encodedCode": "\\f148",
@@ -977,17 +425,29 @@
     "className": "business-icon-wechat-filled",
     "unicode": "&#61768;"
   },
-  "whatsapp-business-outlined": {
-    "encodedCode": "\\f149",
+  "wechat-pay": {
+    "encodedCode": "\\f178",
     "prefix": "business-icon",
-    "className": "business-icon-whatsapp-business-outlined",
-    "unicode": "&#61769;"
+    "className": "business-icon-wechat-pay",
+    "unicode": "&#61816;"
   },
-  "whatsapp-notch-outlined": {
-    "encodedCode": "\\f14a",
+  "whats-app-business-outlined": {
+    "encodedCode": "\\f179",
     "prefix": "business-icon",
-    "className": "business-icon-whatsapp-notch-outlined",
-    "unicode": "&#61770;"
+    "className": "business-icon-whats-app-business-outlined",
+    "unicode": "&#61817;"
+  },
+  "whats-app-phone-outlined": {
+    "encodedCode": "\\f17a",
+    "prefix": "business-icon",
+    "className": "business-icon-whats-app-phone-outlined",
+    "unicode": "&#61818;"
+  },
+  "whatsapp-outlined": {
+    "encodedCode": "\\f17b",
+    "prefix": "business-icon",
+    "className": "business-icon-whatsapp-outlined",
+    "unicode": "&#61819;"
   },
   "whatsapp-phone-filled": {
     "encodedCode": "\\f14b",
@@ -995,22 +455,10 @@
     "className": "business-icon-whatsapp-phone-filled",
     "unicode": "&#61771;"
   },
-  "whatsapp-phone-outlined": {
-    "encodedCode": "\\f14c",
-    "prefix": "business-icon",
-    "className": "business-icon-whatsapp-phone-outlined",
-    "unicode": "&#61772;"
-  },
   "widgets-filled": {
     "encodedCode": "\\f14d",
     "prefix": "business-icon",
     "className": "business-icon-widgets-filled",
     "unicode": "&#61773;"
-  },
-  "widgets-outlined": {
-    "encodedCode": "\\f14e",
-    "prefix": "business-icon",
-    "className": "business-icon-widgets-outlined",
-    "unicode": "&#61774;"
   }
 }
