@@ -2,6 +2,14 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.6 - 2026-07-18
+
+- Synced selected icon updates from the Lucide upstream.
+- Added the menu-open icon and regenerated icon assets.
+- Normalized business icon sizes for visual consistency.
+- Aligned icon style descriptions in documentation.
+- Stabilized documentation deployment and changelog generation in release process.
+
 ## v0.2.5 - 2026-07-17
 
 - Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.
