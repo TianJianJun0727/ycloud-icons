@@ -42,7 +42,7 @@ multicolor
 
 业务图标需要每个 SVG 配一份同名 JSON 元数据，但不进入通用图标分类体系。`business-icons/<color-mode>/index.json` 只维护颜色模式显示配置；根 `business-icons/index.json` 由脚本生成颜色模式、多语言显示名和图标索引；`business-icons/metadata/index.json` 由脚本生成查询快照，用于 Figma、GitHub 检测和 skills 本地查询。docs public 下的同形态快照用于部署后的 URL 兜底查询。
 
-它会生成到现有包的 `business` 子入口，不混入通用图标默认入口。包内组件导出名仍按文件名生成，不拼接颜色模式名，因此不同颜色模式目录下也不能出现同名 SVG。
+它会生成到现有包的 `business` 子入口，不混入通用图标默认入口。组件导出名按完整文件名生成，例如 `calling-outlined.svg` 导出 `CallingOutlined`、`calling-filled.svg` 导出 `CallingFilled`；生成器不会再根据所在目录追加颜色模式。因此不同颜色模式目录下不能出现同名 SVG。
 
 ## 清洗和校验规则
 

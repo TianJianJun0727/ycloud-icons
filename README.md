@@ -132,7 +132,7 @@ export function IllustrationExample() {
 
 ## 风格策略
 
-YCloud Icons 会保持稳定的公开组件名，例如 `Camera`。当前版本先提供单一线性图标集；后续如果引入 outline、filled 等多风格形态，会优先通过明确的包入口或目录区分，而不是给组件名追加风格后缀。这样可以让组件命名、图标搜索和重构体验保持一致。
+通用图标位于 `icons/`，采用 24x24 线性风格，并从各框架包的默认入口导出，例如 `Camera`。业务图标通过 `business` 子入口独立导出，源码按 `outlined`、`filled`、`multicolor` 颜色模式分目录；组件名由文件名生成，因此会出现 `CallingOutlined`、`CallingFilled` 等带风格后缀的名称。仓库不提供运行时 `theme` 参数在同一组件名下切换风格。
 
 ## 开发
 

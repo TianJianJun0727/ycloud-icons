@@ -180,7 +180,9 @@ docs/public/metadata/business-icons.json
 import { Camera } from '@ycloud-web/icons-react';
 ```
 
-而不是为不同来源或风格附加一堆额外前缀，确保：
+这里的 `Camera` 来自通用图标默认入口。业务图标和插画分别从 `business`、`illustration` 子入口导出，不会混入默认入口。业务图标组件名直接由 SVG 文件名生成，因此 `calling-outlined.svg`、`calling-filled.svg` 会分别导出 `CallingOutlined`、`CallingFilled`。
+
+这种映射确保：
 
 - IDE 自动补全稳定
 - TypeScript 类型提示稳定
@@ -228,22 +230,22 @@ import { Camera } from '@ycloud-web/icons-react';
 3. 后续自动化更简单
    生成文档、生成源码链接、同步包版本时，都可以从 `package.json` 直接得到稳定路径。
 
-## 五、风格入口为什么独立
+## 五、资产家族和颜色模式如何表达
 
-当前版本先提供单一线性图标集。后续如果生成 outline、filled 等多风格形态，风格不会塞进一个运行时 `theme` 参数里临时切换，而会优先通过明确入口表达。
+当前仓库同时提供通用线性图标、业务图标和插画。通用图标使用各包默认入口；业务图标使用 `business` 子入口，并在源码中按 `outlined`、`filled`、`multicolor` 分目录；插画使用 `illustration` 子入口。业务图标的颜色模式通常也会写入文件名和组件名，例如 `CallingOutlined`、`CallingFilled`。仓库不通过运行时 `theme` 参数在同一组件名下切换这些资源。
 
 这样设计的原因是：
 
 1. 更符合 Tree Shaking
-   业务侧只引入实际用到的风格入口。
+   业务侧只从对应资产入口引入实际用到的图标。
 
 2. 类型更直接
-   组件名仍然是稳定的 `Camera`，不会因为字符串参数丢失重构体验。
+   颜色模式体现在静态导出名中，TypeScript 和 IDE 可以直接识别 `CallingOutlined`、`CallingFilled` 等组件。
 
 3. 生成链路更清晰
-   outline、filled 可以在构建期分别生成，而不是把风格判断推迟到运行时。
+   `outlined`、`filled`、`multicolor` 使用各自的源码清洗规则，再生成到扁平的 `business` 导出中，不把颜色模式判断推迟到运行时。
 
-前提也很明确：只有自动转换可靠时，才应该批量生成对应风格；转换不可靠的图标，应允许显式覆盖。
+业务图标组件名由文件名生成且导出是扁平的，因此不同颜色模式目录中的 SVG 文件名必须全局唯一。
 
 ## 六、文档站为什么也走生成链路
 

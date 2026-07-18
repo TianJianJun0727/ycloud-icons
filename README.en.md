@@ -132,7 +132,7 @@ export function IllustrationExample() {
 
 ## Style Strategy
 
-YCloud Icons keeps stable public component names such as `Camera`. The current release ships one outline-style icon set. If outline, filled, or other style variants are introduced later, they should be separated by explicit package entrypoints or directories instead of adding style suffixes to component names. This keeps component naming, icon search, and refactoring behavior consistent.
+Generic icons live in `icons/`, follow the 24x24 linear style, and are exported from each framework package's default entrypoint, for example `Camera`. Business icons use a separate `business` subpath and source folders for the `outlined`, `filled`, and `multicolor` color modes. Their component names are generated from file names, so public exports include style suffixes such as `CallingOutlined` and `CallingFilled`. The packages do not provide a runtime `theme` prop that switches styles under one component name.
 
 ## Development
 
