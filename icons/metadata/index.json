@@ -10730,6 +10730,47 @@
     },
     {
       "type": "icon",
+      "name": "circle-euro",
+      "path": "icons/circle-euro.svg",
+      "title": "圆形欧元",
+      "englishName": "circle euro",
+      "metadata": {
+        "$schema": "../icon.schema.json",
+        "aliases": [
+          {
+            "name": "circle-euro-sign"
+          }
+        ],
+        "use-cases": ["货币选择按钮", "欧元价格徽章", "欧洲区域付款方式"],
+        "name": "圆形欧元",
+        "tags": ["欧元", "货币", "金融", "银行", "欧洲", "经济", "支付", "硬币", "兑换", "€"],
+        "categories": ["shopping", "finance"],
+        "i18n": {
+          "en": {
+            "name": "circle euro",
+            "tags": [
+              "euro",
+              "currency",
+              "finance",
+              "banking",
+              "europe",
+              "economy",
+              "payment",
+              "coin",
+              "exchange",
+              "€"
+            ],
+            "use-cases": [
+              "Currency selector buttons",
+              "Euro pricing badges",
+              "European payment methods"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "icon",
       "name": "circle-fading-arrow-up",
       "path": "icons/circle-fading-arrow-up.svg",
       "title": "圆形淡出箭头上",
@@ -16969,23 +17010,60 @@
       "type": "icon",
       "name": "file-box",
       "path": "icons/file-box.svg",
-      "title": "文件盒",
+      "title": "3D模型文件",
       "englishName": "file box",
       "metadata": {
         "$schema": "../icon.schema.json",
-        "use-cases": ["文件存储管理", "文档归档收纳", "资料整理盒子", "文件收纳容器"],
-        "name": "文件盒",
-        "tags": ["文件盒", "收纳盒", "存储盒", "文档盒", "归档盒"],
-        "categories": ["files"],
+        "use-cases": [
+          "表示 OBJ、STL、FBX 或 GLTF 等 3D 模型文件",
+          "标识 CAD 和工程模型文档",
+          "展示可打印或可制造的 3D 资产",
+          "识别包含数字产品模型的文件"
+        ],
+        "name": "3D模型文件",
+        "tags": [
+          "文档",
+          "文件",
+          "立方体",
+          "盒子",
+          "3D",
+          "模型",
+          "资产",
+          "对象",
+          "几何",
+          "网格",
+          "增强现实",
+          "CAD",
+          "设计",
+          "蓝图",
+          "场景"
+        ],
+        "categories": ["files", "design", "development"],
         "i18n": {
           "en": {
             "name": "file box",
-            "tags": ["file box", "storage box", "document box", "archive box", "organizer"],
+            "tags": [
+              "document",
+              "file",
+              "cube",
+              "box",
+              "3d",
+              "model",
+              "asset",
+              "object",
+              "geometry",
+              "mesh",
+              "augmented reality",
+              "CAD",
+              "design",
+              "blueprint",
+              "scene"
+            ],
             "use-cases": [
-              "File storage management",
-              "Document archiving organization",
-              "Material organization box",
-              "File storage container"
+              "Representing 3D model files such as OBJ, STL, FBX, or GLTF",
+              "Indicating CAD and engineering model documents",
+              "Showing printable or manufacturable 3D assets",
+              "Identifying files containing digital product models"
             ]
           }
         }
@@ -31369,6 +31447,41 @@
     },
     {
       "type": "icon",
+      "name": "paper-bag",
+      "path": "icons/paper-bag.svg",
+      "title": "纸袋",
+      "englishName": "paper bag",
+      "metadata": {
+        "$schema": "../icon.schema.json",
+        "use-cases": ["表示餐厅或外卖应用中的打包餐食", "表示午餐外带包装", "标识环保纸质零售包装"],
+        "name": "纸袋",
+        "tags": ["纸袋", "收纳", "包装", "午餐", "外卖", "环保", "牛皮纸", "零售", "餐盒"],
+        "categories": ["food-beverage", "shopping"],
+        "i18n": {
+          "en": {
+            "name": "paper bag",
+            "tags": [
+              "paper bag",
+              "storage",
+              "package",
+              "lunch",
+              "takeout",
+              "eco-friendly",
+              "kraft",
+              "retail",
+              "doggy bag"
+            ],
+            "use-cases": [
+              "Representing restaurant or food delivery takeout",
+              "Representing lunch takeout packaging",
+              "Indicating eco-friendly retail packaging"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "icon",
       "name": "paperclip",
       "path": "icons/paperclip.svg",
       "title": "回形针",
@@ -35628,6 +35741,71 @@
     },
     {
       "type": "icon",
+      "name": "scan-box",
+      "path": "icons/scan-box.svg",
+      "title": "扫描物体",
+      "englishName": "scan box",
+      "metadata": {
+        "$schema": "../icon.schema.json",
+        "use-cases": [
+          "启动增强现实扫描",
+          "在现实场景中放置虚拟 3D 对象",
+          "表示空间映射或房间扫描",
+          "扫描物体以创建 3D 模型",
+          "校准深度传感器或激光雷达"
+        ],
+        "name": "扫描物体",
+        "tags": [
+          "增强现实",
+          "AR",
+          "3D",
+          "物体检测",
+          "物体识别",
+          "空间计算",
+          "捕获",
+          "立方体",
+          "边界框",
+          "相机",
+          "激光雷达",
+          "深度",
+          "扫描",
+          "映射",
+          "放置"
+        ],
+        "categories": ["design", "devices", "shopping", "gaming"],
+        "i18n": {
+          "en": {
+            "name": "scan box",
+            "tags": [
+              "augmented reality",
+              "AR",
+              "3d",
+              "object detection",
+              "object recognition",
+              "spatial computing",
+              "capture",
+              "cube",
+              "bounding box",
+              "camera",
+              "lidar",
+              "depth",
+              "scanning",
+              "mapping",
+              "placement"
+            ],
+            "use-cases": [
+              "Starting an augmented reality scan",
+              "Placing virtual 3D objects in a real-world scene",
+              "Indicating spatial mapping or room scanning",
+              "Scanning an object to create a 3D model",
+              "Calibrating depth sensors or LiDAR"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "icon",
       "name": "scan-eye",
       "path": "icons/scan-eye.svg",
       "title": "扫描眼睛",
@@ -36543,6 +36721,31 @@
               "cloud service"
             ],
             "use-cases": ["Server shutdown state", "Service disabled status", "Maintenance mode"]
+          }
+        }
+      }
+    },
+    {
+      "type": "icon",
+      "name": "server-plus",
+      "path": "icons/server-plus.svg",
+      "title": "添加服务器",
+      "englishName": "server plus",
+      "metadata": {
+        "$schema": "../icon.schema.json",
+        "use-cases": ["在控制台中创建服务器", "添加云计算资源", "扩展存储或计算节点"],
+        "name": "添加服务器",
+        "tags": ["添加", "创建", "新建", "服务器", "云", "存储", "计算"],
+        "categories": ["development", "devices"],
+        "i18n": {
+          "en": {
+            "name": "server plus",
+            "tags": ["add", "create", "new", "server", "cloud", "storage", "computing"],
+            "use-cases": [
+              "Creating a server in a dashboard",
+              "Adding cloud computing resources",
+              "Expanding storage or compute nodes"
+            ]
           }
         }
       }

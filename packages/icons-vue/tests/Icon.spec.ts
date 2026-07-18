@@ -19,6 +19,17 @@ describe('Using Icon Component', () => {
     expect(container.firstChild).toBeDefined();
   });
 
+  it('should render icon based on a kebab-case icon-node prop', async () => {
+    const { container } = render(Icon, {
+      props: {
+        'icon-node': airVent,
+        name: 'AirVent',
+      },
+    });
+
+    expect(container.querySelector('svg')?.children).toHaveLength(airVent.length);
+  });
+
   it('should render icon and match snapshot', async () => {
     const { container } = render(Icon, {
       props: {

@@ -37,6 +37,7 @@
     "@angular/core": "^22.0.4",
     "@angular/forms": "^22.0.4",
     "@angular/platform-browser": "^22.0.4",
+    "@angular/platform-server": "^22.0.4",
     "@angular/router": "^22.0.4",
     "@vitest/browser-playwright": "4.1.9",
     "@ycloud-web/build-icons": "workspace:*",

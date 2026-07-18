@@ -1940,6 +1940,10 @@
   <circle cx="12" cy="12" r="10"></circle>
   <path d="M7 10h10"></path>
   <path d="M7 14h10"></path>
+</symbol><symbol viewBox="0 0 24 24" id="icon-circle-euro">
+  <path d="M15 9.4a4 4 0 1 0 0 5.2"></path>
+  <path d="M7 12h5"></path>
+  <circle cx="12" cy="12" r="10"></circle>
 </symbol><symbol viewBox="0 0 24 24" id="icon-circle-fading-arrow-up">
   <path d="M12 2a10 10 0 0 1 7.38 16.75"></path>
   <path d="m16 12-4-4-4 4"></path>
@@ -2796,7 +2800,7 @@
   <path d="M14 12h.01"></path>
   <path d="M22 20h-3"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-dot">
-  <circle cx="12.1" cy="12.1" r="1"></circle>
+  <circle cx="12" cy="12" r="1"></circle>
 </symbol><symbol viewBox="0 0 24 24" id="icon-download">
   <path d="M12 15V3"></path>
   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
@@ -2916,11 +2920,11 @@
   <path d="M21 21H8a2 2 0 0 1-1.42-.587l-3.994-3.999a2 2 0 0 1 0-2.828l10-10a2 2 0 0 1 2.829 0l5.999 6a2 2 0 0 1 0 2.828L12.834 21"></path>
   <path d="m5.082 11.09 8.828 8.828"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-ethernet-port">
-  <path d="m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3z"></path>
-  <path d="M6 8v1"></path>
   <path d="M10 8v1"></path>
   <path d="M14 8v1"></path>
   <path d="M18 8v1"></path>
+  <path d="M19 17a2 2 0 00-1.765 1.059l-.47.882A2 2 0 0115 20H9a2 2 0 01-1.765-1.059l-.47-.882A2 2 0 005 17H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v9a2 2 0 01-2 2z"></path>
+  <path d="M6 8v1"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-euro">
   <path d="M4 10h12"></path>
   <path d="M4 14h9"></path>
@@ -3019,11 +3023,11 @@
   <path d="m7.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88"></path>
   <circle cx="6" cy="14" r="3"></circle>
 </symbol><symbol viewBox="0 0 24 24" id="icon-file-box">
-  <path d="M14.5 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.8"></path>
-  <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
-  <path d="M11.7 14.2 7 17l-4.7-2.8"></path>
-  <path d="M3 13.1a2 2 0 0 0-.999 1.76v3.24a2 2 0 0 0 .969 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01z"></path>
-  <path d="M7 17v5"></path>
+  <path d="M14 2v5a1 1 0 001 1h5"></path>
+  <path d="M14.692 22H18a2 2 0 002-2V8a2.4 2.4 0 00-.706-1.706l-3.588-3.588A2.4 2.4 0 0014 2H6a2 2 0 00-2 2v3.804"></path>
+  <path d="M2.264 13.752 7 16.5l4.737-2.748"></path>
+  <path d="M2.995 13.014A2 2 0 002 14.744v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0012 18.26v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z"></path>
+  <path d="M7 16.5V22"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-file-braces-corner">
   <path d="M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6"></path>
   <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
@@ -4011,8 +4015,8 @@
   <path d="M6 15V9"></path>
   <rect width="20" height="14" x="2" y="5" rx="2"></rect>
 </symbol><symbol viewBox="0 0 24 24" id="icon-hdmi-port">
-  <path d="M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z"></path>
-  <path d="M7.5 12h9"></path>
+  <path d="M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z"></path>
+  <path d="M8 12h8"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-heading-1">
   <path d="M4 12h8"></path>
   <path d="M4 18V6"></path>
@@ -5461,8 +5465,8 @@
 </symbol><symbol viewBox="0 0 24 24" id="icon-omega">
   <path d="M3 20h4.5a.5.5 0 0 0 .5-.5v-.282a.52.52 0 0 0-.247-.437 8 8 0 1 1 8.494-.001.52.52 0 0 0-.247.438v.282a.5.5 0 0 0 .5.5H21"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-option">
-  <path d="M3 3h6l6 18h6"></path>
   <path d="M14 3h7"></path>
+  <path d="M3 3h5.28a1 1 0 0 1 .948.684l5.544 16.632a1 1 0 0 0 .949.684H21"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-orbit">
   <path d="M20.341 6.484A10 10 0 0 1 10.266 21.85"></path>
   <path d="M3.659 17.516A10 10 0 0 1 13.74 2.152"></path>
@@ -5651,6 +5655,9 @@
   <rect width="18" height="18" x="3" y="3" rx="2"></rect>
   <path d="M3 9h18"></path>
   <path d="M9 21V9"></path>
+</symbol><symbol viewBox="0 0 24 24" id="icon-paper-bag">
+  <path d="M5.364 3.848C4 6 3 9.652 3 12.652V19a2 2 0 002 2h14a2 2 0 002-2v-5c0-2.334-1.816-4.668-2.622-7.002"></path>
+  <path d="M7 3h11.379a2 2 0 011.789 1.106l.723 1.447A1 1 0 0119.997 7h-8.525a2 2 0 01-1.789-1.106L8.79 4.105a2 2 0 10-3.579 1.789l2.261 4.522A5 5 0 018 12.652V21"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-paperclip">
   <path d="m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-parasol">
@@ -6414,6 +6421,14 @@
   <path d="M8 7v10"></path>
   <path d="M12 7v10"></path>
   <path d="M17 7v10"></path>
+</symbol><symbol viewBox="0 0 24 24" id="icon-scan-box">
+  <path d="M12 12v5.5"></path>
+  <path d="M17 3h2a2 2 0 012 2v2"></path>
+  <path d="M21 17v2a2 2 0 01-2 2h-2"></path>
+  <path d="M3 7V5a2 2 0 012-2h2"></path>
+  <path d="M7 21H5a2 2 0 01-2-2v-2"></path>
+  <path d="M7.264 9.252 12 12l4.737-2.748"></path>
+  <path d="M7.995 8.514A2 2 0 007 10.244v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0017 13.76v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-scan-eye">
   <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
   <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
@@ -6590,6 +6605,13 @@
   <path d="M4 14a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16.5l1-.5.5.5-8-8H4z"></path>
   <path d="M6 18h.01"></path>
   <path d="m2 2 20 20"></path>
+</symbol><symbol viewBox="0 0 24 24" id="icon-server-plus">
+  <path d="M12.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2"></path>
+  <path d="M16 12h6"></path>
+  <path d="M19 9v6"></path>
+  <path d="M22 18v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8.5"></path>
+  <path d="M6 18h.01"></path>
+  <path d="M6 6h.01"></path>
 </symbol><symbol viewBox="0 0 24 24" id="icon-server">
   <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
   <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>

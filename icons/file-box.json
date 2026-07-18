@@ -1,14 +1,14 @@
 {
   "$schema": "../icon.schema.json",
-  "use-cases": ["文件存储管理", "文档归档收纳", "资料整理盒子", "文件收纳容器"],
-  "name": "文件盒",
-  "tags": ["文件盒", "收纳盒", "存储盒", "文档盒", "归档盒"],
-  "categories": ["files"],
+  "use-cases": ["表示 OBJ、STL、FBX 或 GLTF 等 3D 模型文件", "标识 CAD 和工程模型文档", "展示可打印或可制造的 3D 资产", "识别包含数字产品模型的文件"],
+  "name": "3D模型文件",
+  "tags": ["文档", "文件", "立方体", "盒子", "3D", "模型", "资产", "对象", "几何", "网格", "增强现实", "CAD", "设计", "蓝图", "场景"],
+  "categories": ["files", "design", "development"],
   "i18n": {
     "en": {
       "name": "file box",
-      "tags": ["file box", "storage box", "document box", "archive box", "organizer"],
-      "use-cases": ["File storage management", "Document archiving organization", "Material organization box", "File storage container"]
+      "tags": ["document", "file", "cube", "box", "3d", "model", "asset", "object", "geometry", "mesh", "augmented reality", "CAD", "design", "blueprint", "scene"],
+      "use-cases": ["Representing 3D model files such as OBJ, STL, FBX, or GLTF", "Indicating CAD and engineering model documents", "Showing printable or manufacturable 3D assets", "Identifying files containing digital product models"]
     }
   }
 }

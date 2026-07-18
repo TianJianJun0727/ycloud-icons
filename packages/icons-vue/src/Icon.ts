@@ -10,15 +10,16 @@ import defaultAttributes from './defaultAttributes';
 import { IconNode, YCloudIconsProps } from './types';
 import { useYCloudIconsProps } from './context';
 
-interface IconProps {
-  iconNode: IconNode;
-  name: string;
-}
+type IconProps = { name: string } & (
+  | { iconNode: IconNode; 'icon-node'?: never }
+  | { 'icon-node': IconNode; iconNode?: never }
+);
 
 const Icon: FunctionalComponent<YCloudIconsProps & IconProps> = (
   {
     name,
     iconNode,
+    'icon-node': iconNodeKebabCase,
     absoluteStrokeWidth,
     'absolute-stroke-width': absoluteStrokeWidthKebabCase,
     strokeWidth,
@@ -78,7 +79,10 @@ const Icon: FunctionalComponent<YCloudIconsProps & IconProps> = (
           : ['ycloud-icon']),
       ),
     },
-    [...iconNode.map((child) => h(...child)), ...(slots.default ? [slots.default()] : [])],
+    [
+      ...(iconNode ?? iconNodeKebabCase ?? []).map((child) => h(...child)),
+      ...(slots.default ? [slots.default()] : []),
+    ],
   );
 };
 

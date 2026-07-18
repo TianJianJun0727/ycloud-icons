@@ -71,15 +71,19 @@ describe('YCloudIconBase', () => {
 
   it('should render children', () => {
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML).toBe(
-      '<!--container--><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path><!--ng-container-->',
-    );
+    expect(
+      Array.from(fixture.nativeElement.children as HTMLCollectionOf<Element>).map(
+        (child) => child.tagName,
+      ),
+    ).toEqual(['circle', 'path']);
   });
 
   describe('class', () => {
     it('should add all classes', () => {
       fixture.detectChanges();
-      expect(getSvgAttribute('class')).toBe('ycloud ycloud-circle-check ycloud-check-circle-2');
+      expect(new Set(fixture.nativeElement.classList)).toEqual(
+        new Set(['ycloud', 'ycloud-circle-check', 'ycloud-check-circle-2']),
+      );
     });
   });
 

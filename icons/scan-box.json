@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "use-cases": ["启动增强现实扫描", "在现实场景中放置虚拟 3D 对象", "表示空间映射或房间扫描", "扫描物体以创建 3D 模型", "校准深度传感器或激光雷达"],
+  "name": "扫描物体",
+  "tags": ["增强现实", "AR", "3D", "物体检测", "物体识别", "空间计算", "捕获", "立方体", "边界框", "相机", "激光雷达", "深度", "扫描", "映射", "放置"],
+  "categories": ["design", "devices", "shopping", "gaming"],
+  "i18n": {
+    "en": {
+      "name": "scan box",
+      "tags": ["augmented reality", "AR", "3d", "object detection", "object recognition", "spatial computing", "capture", "cube", "bounding box", "camera", "lidar", "depth", "scanning", "mapping", "placement"],
+      "use-cases": ["Starting an augmented reality scan", "Placing virtual 3D objects in a real-world scene", "Indicating spatial mapping or room scanning", "Scanning an object to create a 3D model", "Calibrating depth sensors or LiDAR"]
+    }
+  }
+}
