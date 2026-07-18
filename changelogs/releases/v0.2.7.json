@@ -1,9 +1,7 @@
 {
   "tag": "v0.2.7",
   "date": "2026-07-18",
-  "zh": [
-    "修复了多色商业图标（Facebook、Shopify、Trophy）中镂空区域未透明的问题。"
-  ],
+  "zh": ["修复了多色商业图标（Facebook、Shopify、Trophy）中镂空区域未透明的问题。"],
   "en": [
     "Fixed transparent cutout rendering for multicolor business icons (Facebook, Shopify, Trophy)."
   ]
