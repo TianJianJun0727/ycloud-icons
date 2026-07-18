@@ -70,6 +70,33 @@ describe('YCloudDynamicIcon', () => {
     ).toEqual(['circle', 'polyline']);
   });
 
+  it('should preserve safe attributes on custom icon nodes', () => {
+    icon.set({
+      name: 'custom',
+      node: [
+        [
+          'path',
+          {
+            d: 'M0 0h1v1z',
+            opacity: 0.5,
+            transform: 'translate(1 1)',
+            'fill-rule': 'evenodd',
+            'stroke-linecap': 'square',
+            pathLength: 1,
+          },
+        ],
+      ],
+    });
+    fixture.detectChanges();
+
+    const path = fixture.nativeElement.querySelector('path') as SVGPathElement;
+    expect(path.getAttribute('opacity')).toBe('0.5');
+    expect(path.getAttribute('transform')).toBe('translate(1 1)');
+    expect(path.getAttribute('fill-rule')).toBe('evenodd');
+    expect(path.getAttribute('stroke-linecap')).toBe('square');
+    expect(path.getAttribute('pathLength')).toBe('1');
+  });
+
   it('should remove children on change', () => {
     icon.set(null);
     fixture.detectChanges();
