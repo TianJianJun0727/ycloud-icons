@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "use-cases": ["在控制台中创建服务器", "添加云计算资源", "扩展存储或计算节点"],
+  "name": "添加服务器",
+  "tags": ["添加", "创建", "新建", "服务器", "云", "存储", "计算"],
+  "categories": ["development", "devices"],
+  "i18n": {
+    "en": {
+      "name": "server plus",
+      "tags": ["add", "create", "new", "server", "cloud", "storage", "computing"],
+      "use-cases": ["Creating a server in a dashboard", "Adding cloud computing resources", "Expanding storage or compute nodes"]
+    }
+  }
+}

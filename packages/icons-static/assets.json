@@ -2699,6 +2699,16 @@
     },
     {
       "type": "icon",
+      "name": "circle-euro",
+      "path": "icons/circle-euro.svg"
+    },
+    {
+      "type": "icon",
+      "name": "circle-euro-sign",
+      "path": "icons/circle-euro-sign.svg"
+    },
+    {
+      "type": "icon",
       "name": "circle-fading-arrow-up",
       "path": "icons/circle-fading-arrow-up.svg"
     },
@@ -7024,6 +7034,11 @@
     },
     {
       "type": "icon",
+      "name": "paper-bag",
+      "path": "icons/paper-bag.svg"
+    },
+    {
+      "type": "icon",
       "name": "paperclip",
       "path": "icons/paperclip.svg"
     },
@@ -7939,6 +7954,11 @@
     },
     {
       "type": "icon",
+      "name": "scan-box",
+      "path": "icons/scan-box.svg"
+    },
+    {
+      "type": "icon",
       "name": "scan-eye",
       "path": "icons/scan-eye.svg"
     },
@@ -8116,6 +8136,11 @@
       "type": "icon",
       "name": "server-off",
       "path": "icons/server-off.svg"
+    },
+    {
+      "type": "icon",
+      "name": "server-plus",
+      "path": "icons/server-plus.svg"
     },
     {
       "type": "icon",

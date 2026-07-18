@@ -63,15 +63,44 @@ describe('YCloudDynamicIcon', () => {
   it('should render children', () => {
     icon.set(testIcon2);
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML).toBe(
-      '<!--container--><circle cx="12" cy="12" r="8"></circle><polyline points="1 1 22 22"></polyline><!--ng-container-->',
-    );
+    expect(
+      Array.from(fixture.nativeElement.children as HTMLCollectionOf<Element>).map(
+        (child) => child.tagName,
+      ),
+    ).toEqual(['circle', 'polyline']);
+  });
+
+  it('should preserve safe attributes on custom icon nodes', () => {
+    icon.set({
+      name: 'custom',
+      node: [
+        [
+          'path',
+          {
+            d: 'M0 0h1v1z',
+            opacity: 0.5,
+            transform: 'translate(1 1)',
+            'fill-rule': 'evenodd',
+            'stroke-linecap': 'square',
+            pathLength: 1,
+          },
+        ],
+      ],
+    });
+    fixture.detectChanges();
+
+    const path = fixture.nativeElement.querySelector('path') as SVGPathElement;
+    expect(path.getAttribute('opacity')).toBe('0.5');
+    expect(path.getAttribute('transform')).toBe('translate(1 1)');
+    expect(path.getAttribute('fill-rule')).toBe('evenodd');
+    expect(path.getAttribute('stroke-linecap')).toBe('square');
+    expect(path.getAttribute('pathLength')).toBe('1');
   });
 
   it('should remove children on change', () => {
     icon.set(null);
     fixture.detectChanges();
-    expect(fixture.nativeElement.innerHTML).toBe('<!--container--><!--ng-container-->');
+    expect(fixture.nativeElement.children).toHaveLength(0);
   });
 
   describe('iconInput', () => {
@@ -79,8 +108,8 @@ describe('YCloudDynamicIcon', () => {
       icon.set(testIcon);
       fixture.detectChanges();
       expect(component['icon']()).toBe(testIcon);
-      expect(fixture.nativeElement.innerHTML).toBe(
-        '<!--container--><polyline points="1 1 22 22"></polyline><!--ng-container-->',
+      expect(fixture.nativeElement.querySelector('polyline')?.getAttribute('points')).toBe(
+        '1 1 22 22',
       );
     });
     it('should support YCloudIcon input', () => {
@@ -107,7 +136,9 @@ describe('YCloudDynamicIcon', () => {
     it('should add backwards compatible classes from aliases', () => {
       icon.set(testIcon2);
       fixture.detectChanges();
-      expect(getSvgAttribute('class')).toBe('ycloud ycloud-demo-other ycloud-demo-2');
+      expect(new Set(fixture.nativeElement.classList)).toEqual(
+        new Set(['ycloud', 'ycloud-demo-other', 'ycloud-demo-2']),
+      );
     });
     it('should add class icon if available', () => {
       icon.set(YCloudActivity);

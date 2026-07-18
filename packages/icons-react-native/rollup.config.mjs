@@ -1,6 +1,7 @@
 import plugins from '@ycloud-web/rollup-plugins';
 import dts from 'rollup-plugin-dts';
 import pkg from './package.json' with { type: 'json' };
+import getDeclarationEntries from './scripts/getDeclarationEntries.mts';
 
 const packageName = 'YCloudReact';
 const outputFileName = 'icons';
@@ -54,6 +55,27 @@ const bundles = [
   },
 ];
 
+const declarationFamilies = [
+  {
+    input: await getDeclarationEntries('src/icons'),
+    outputDir: 'dist/types/icons',
+    typesModuleMatcher: /[/\\]src[/\\]types\.(d\.)?ts$/,
+    typesModulePath: '../icons.js',
+  },
+  {
+    input: await getDeclarationEntries('src/business-icons'),
+    outputDir: 'dist/types/business-icons',
+    typesModuleMatcher: /[/\\]src[/\\]businessTypes\.(d\.)?ts$/,
+    typesModulePath: '../business-icons.js',
+  },
+  {
+    input: await getDeclarationEntries('src/illustration-icons'),
+    outputDir: 'dist/types/illustration-icons',
+    typesModuleMatcher: /[/\\]src[/\\]illustrationTypes\.(d\.)?ts$/,
+    typesModulePath: '../illustration-icons.js',
+  },
+];
+
 const configs = bundles
   .map(({ inputs, outputDir, format, preserveModules, extension = 'js' }) =>
     inputs.map((input) => ({
@@ -89,7 +111,7 @@ export default [
     input: inputs[0],
     output: [
       {
-        file: `dist/${outputFileName}.d.ts`,
+        file: `dist/types/${outputFileName}.d.ts`,
         format: 'es',
       },
     ],
@@ -99,7 +121,7 @@ export default [
     input: businessInput,
     output: [
       {
-        file: `dist/business-icons.d.ts`,
+        file: `dist/types/business-icons.d.ts`,
         format: 'es',
       },
     ],
@@ -109,11 +131,22 @@ export default [
     input: illustrationInput,
     output: [
       {
-        file: `dist/illustration-icons.d.ts`,
+        file: `dist/types/illustration-icons.d.ts`,
         format: 'es',
       },
     ],
     plugins: [dts()],
   },
+  ...declarationFamilies.map(({ input, outputDir, typesModuleMatcher, typesModulePath }) => ({
+    input,
+    external: [typesModuleMatcher],
+    output: {
+      format: 'es',
+      dir: outputDir,
+      entryFileNames: '[name].d.ts',
+      paths: (id) => (typesModuleMatcher.test(id) ? typesModulePath : id),
+    },
+    plugins: [dts()],
+  })),
   ...configs,
 ];

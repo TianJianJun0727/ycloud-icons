@@ -102,7 +102,7 @@ export function createAiClient(options: AiClientOptions = {}) {
         system:
           options.systemPrompt ?? 'Return only a valid JSON object. Do not wrap it in Markdown.',
         prompt: input,
-        output: Output.json({ name: _schemaName }),
+        output: Output.object({ name: _schemaName, schema }),
         temperature: 0,
       });
 

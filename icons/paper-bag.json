@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "use-cases": ["表示餐厅或外卖应用中的打包餐食", "表示午餐外带包装", "标识环保纸质零售包装"],
+  "name": "纸袋",
+  "tags": ["纸袋", "收纳", "包装", "午餐", "外卖", "环保", "牛皮纸", "零售", "餐盒"],
+  "categories": ["food-beverage", "shopping"],
+  "i18n": {
+    "en": {
+      "name": "paper bag",
+      "tags": ["paper bag", "storage", "package", "lunch", "takeout", "eco-friendly", "kraft", "retail", "doggy bag"],
+      "use-cases": ["Representing restaurant or food delivery takeout", "Representing lunch takeout packaging", "Indicating eco-friendly retail packaging"]
+    }
+  }
+}

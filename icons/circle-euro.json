@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "aliases": [{ "name": "circle-euro-sign" }],
+  "use-cases": ["货币选择按钮", "欧元价格徽章", "欧洲区域付款方式"],
+  "name": "圆形欧元",
+  "tags": ["欧元", "货币", "金融", "银行", "欧洲", "经济", "支付", "硬币", "兑换", "€"],
+  "categories": ["shopping", "finance"],
+  "i18n": {
+    "en": {
+      "name": "circle euro",
+      "tags": ["euro", "currency", "finance", "banking", "europe", "economy", "payment", "coin", "exchange", "€"],
+      "use-cases": ["Currency selector buttons", "Euro pricing badges", "European payment methods"]
+    }
+  }
+}

@@ -38,6 +38,7 @@ const zhText: Record<string, string> = {
   'Filled icons': '填充图标',
   'Aliased Names': '别名',
   'Combining icons': '组合图标',
+  Optimizations: '性能优化',
   'Dynamic icon component': '动态图标组件',
   'Icon provider': '图标 Provider',
   'SVG Files & Sprite': 'SVG 文件和 Sprite',
@@ -88,6 +89,7 @@ const zhDesc: Record<string, string> = {
   'Using filled icons in ycloud.': '在 ycloud 中使用填充图标。',
   'Using aliased icon names.': '使用图标别名。',
   'Combine multiple icons into one.': '将多个图标组合为一个图标。',
+  'Optimize React Native and Expo web bundle size.': '优化 React Native 与 Expo Web 的构建体积。',
   'Dynamically import icons as needed.': '按需动态导入图标。',
   'Provide icons at app level and use them by name.': '在应用层提供图标并按名称使用。',
   'Overview of using YCloud Icons as static assets in your projects.':

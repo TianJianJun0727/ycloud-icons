@@ -62,6 +62,11 @@ export const reactNativeSidebar = [
         link: '/guide/react-native/advanced/combining-icons',
         desc: 'Combine multiple icons into one',
       },
+      {
+        text: 'Optimizations',
+        link: '/guide/react-native/advanced/optimizations',
+        desc: 'Optimize React Native and Expo web bundle size',
+      },
     ],
   },
 ] satisfies DefaultTheme.SidebarItem[] & { items: { desc?: string }[] }[];

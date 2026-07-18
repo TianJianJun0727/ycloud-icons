@@ -1,13 +1,4 @@
-import {
-  Component,
-  effect,
-  ElementRef,
-  inject,
-  input,
-  Renderer2,
-  Signal,
-  viewChild,
-} from '@angular/core';
+import { Component, computed, inject, input, Signal } from '@angular/core';
 import { YCLOUD_CONFIG } from './ycloud-config';
 import { YCloudIconData, Nullable } from './types';
 import defaultAttributes from './default-attributes';
@@ -23,6 +14,7 @@ import { ycloudIconTemplate } from './ycloud-icon-template';
   host: {
     ...defaultAttributes,
     class: 'ycloud',
+    '[class]': 'iconClasses()',
     '[attr.width]': 'size()',
     '[attr.height]': 'size()',
     '[attr.stroke]': 'color()',
@@ -32,10 +24,28 @@ import { ycloudIconTemplate } from './ycloud-icon-template';
 })
 export abstract class YCloudIconBase {
   protected abstract readonly icon: Signal<Nullable<YCloudIconData>>;
+  protected readonly iconNodes = computed<YCloudIconData['node']>(() => {
+    const node = this.icon()?.node ?? [];
+    if (!this.absoluteStrokeWidth()) {
+      return node;
+    }
+    return node.map<YCloudIconData['node'][number]>(([name, attrs]) => [
+      name,
+      {
+        'vector-effect': 'non-scaling-stroke',
+        ...attrs,
+      },
+    ]);
+  });
+  protected readonly iconClasses = computed(() => {
+    const icon = this.icon();
+    if (!icon) {
+      return '';
+    }
+    const { name, aliases = [] } = icon;
+    return [name, ...aliases].map((item) => `ycloud-${item}`).join(' ');
+  });
   protected readonly iconConfig = inject(YCLOUD_CONFIG);
-  protected readonly elRef = inject(ElementRef);
-  protected readonly renderer = inject(Renderer2);
-  protected readonly contentRef = viewChild.required<ElementRef>('contentRef');
   /**
    * An optional accessible label for the icon.
    * - If provided, it will add the title as an [`<svg:title>` element](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/title).
@@ -76,84 +86,4 @@ export abstract class YCloudIconBase {
   readonly absoluteStrokeWidth = input(this.iconConfig.absoluteStrokeWidth, {
     transform: (value: Nullable<boolean>) => value ?? this.iconConfig.absoluteStrokeWidth,
   });
-
-  constructor() {
-    effect((onCleanup) => {
-      const icon = this.icon();
-      if (icon) {
-        const absoluteStrokeWidth = this.absoluteStrokeWidth();
-        const { name, node, aliases = [] } = icon;
-        const classes = [name, ...aliases].map((item) => `ycloud-${item}`);
-        for (const cssClass of classes) {
-          this.renderer.addClass(this.elRef.nativeElement, cssClass);
-        }
-        const contentRef = this.contentRef();
-        const refChild = contentRef.nativeElement;
-
-        // SVG attribute whitelist to prevent XSS
-        const SAFE_SVG_ATTRS = new Set([
-          'd',
-          'fill',
-          'stroke',
-          'stroke-width',
-          'stroke-linecap',
-          'stroke-linejoin',
-          'stroke-miterlimit',
-          'fill-rule',
-          'clip-rule',
-          'opacity',
-          'fill-opacity',
-          'stroke-opacity',
-          'transform',
-          'cx',
-          'cy',
-          'r',
-          'rx',
-          'ry',
-          'x',
-          'y',
-          'x1',
-          'y1',
-          'x2',
-          'y2',
-          'width',
-          'height',
-          'viewBox',
-          'preserveAspectRatio',
-          'points',
-          'pathLength',
-          'vector-effect',
-          'class',
-          'id',
-        ]);
-
-        const elements = node.map(([name, attrs]) => {
-          const element = this.renderer.createElement(name, 'http://www.w3.org/2000/svg');
-          if (absoluteStrokeWidth) {
-            this.renderer.setAttribute(element, 'vector-effect', 'non-scaling-stroke');
-          }
-          Object.entries(attrs).forEach(([name, value]) => {
-            // Only set whitelisted attributes to prevent XSS
-            if (SAFE_SVG_ATTRS.has(name)) {
-              this.renderer.setAttribute(
-                element,
-                name,
-                typeof value === 'number' ? value.toString(10) : value,
-              );
-            }
-          });
-          this.renderer.insertBefore(this.elRef.nativeElement, element, refChild);
-          return element;
-        });
-        onCleanup(() => {
-          elements.forEach((element) =>
-            this.renderer.removeChild(this.elRef.nativeElement, element),
-          );
-          for (const cssClass of classes) {
-            this.renderer.removeClass(this.elRef.nativeElement, cssClass);
-          }
-        });
-      }
-    });
-  }
 }
