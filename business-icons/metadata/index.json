@@ -1104,6 +1104,36 @@
     },
     {
       "type": "business-icon",
+      "name": "enterprise",
+      "path": "business-icons/multicolor/enterprise.svg",
+      "title": "企业版",
+      "englishName": "Enterprise Plan",
+      "componentName": "Enterprise",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "企业版",
+        "tags": ["企业版", "套餐", "版本", "订阅", "多色", "业务图标"],
+        "use-cases": ["企业版套餐或版本标识", "订阅版本展示"],
+        "i18n": {
+          "en": {
+            "name": "Enterprise Plan",
+            "tags": [
+              "enterprise",
+              "plan",
+              "version",
+              "subscription",
+              "multicolor",
+              "business icon"
+            ],
+            "use-cases": ["Enterprise plan or edition mark", "Subscription edition display"]
+          }
+        }
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "error-filled",
       "path": "business-icons/filled/error-filled.svg",
       "title": "error填充",
@@ -1191,6 +1221,29 @@
     },
     {
       "type": "business-icon",
+      "name": "free",
+      "path": "business-icons/multicolor/free.svg",
+      "title": "免费版",
+      "englishName": "Free Plan",
+      "componentName": "Free",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "免费版",
+        "tags": ["免费版", "套餐", "版本", "订阅", "多色", "业务图标"],
+        "use-cases": ["免费版套餐或版本标识", "订阅版本展示"],
+        "i18n": {
+          "en": {
+            "name": "Free Plan",
+            "tags": ["free", "plan", "version", "subscription", "multicolor", "business icon"],
+            "use-cases": ["Free plan or edition mark", "Subscription edition display"]
+          }
+        }
+      }
+    },
+    {
+      "type": "business-icon",
       "name": "global-filled",
       "path": "business-icons/filled/global-filled.svg",
       "title": "全球",
@@ -1221,6 +1274,29 @@
           }
         },
         "aliases": ["global"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "growth",
+      "path": "business-icons/multicolor/growth.svg",
+      "title": "增长版",
+      "englishName": "Growth Plan",
+      "componentName": "Growth",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "增长版",
+        "tags": ["增长版", "套餐", "版本", "订阅", "多色", "业务图标"],
+        "use-cases": ["增长版套餐或版本标识", "订阅版本展示"],
+        "i18n": {
+          "en": {
+            "name": "Growth Plan",
+            "tags": ["growth", "plan", "version", "subscription", "multicolor", "business icon"],
+            "use-cases": ["Growth plan or edition mark", "Subscription edition display"]
+          }
+        }
       }
     },
     {
@@ -1788,6 +1864,29 @@
           }
         },
         "aliases": ["paypal"]
+      }
+    },
+    {
+      "type": "business-icon",
+      "name": "pro",
+      "path": "business-icons/multicolor/pro.svg",
+      "title": "专业版",
+      "englishName": "Pro Plan",
+      "componentName": "Pro",
+      "category": "multicolor",
+      "colorMode": "multicolor",
+      "metadata": {
+        "$schema": "../../asset-metadata.schema.json",
+        "name": "专业版",
+        "tags": ["专业版", "套餐", "版本", "订阅", "多色", "业务图标"],
+        "use-cases": ["专业版套餐或版本标识", "订阅版本展示"],
+        "i18n": {
+          "en": {
+            "name": "Pro Plan",
+            "tags": ["pro", "plan", "version", "subscription", "multicolor", "business icon"],
+            "use-cases": ["Pro plan or edition mark", "Subscription edition display"]
+          }
+        }
       }
     },
     {

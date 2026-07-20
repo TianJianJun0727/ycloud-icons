@@ -305,28 +305,6 @@
     },
     {
       "type": "illustration",
-      "name": "enterprise",
-      "path": "illustration-icons/version/enterprise.svg",
-      "title": "企业版",
-      "englishName": "Enterprise Plan",
-      "componentName": "Enterprise",
-      "category": "version",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "企业版",
-        "tags": ["企业版", "套餐", "版本", "订阅"],
-        "use-cases": ["企业版套餐或版本标识", "订阅版本展示"],
-        "i18n": {
-          "en": {
-            "name": "Enterprise Plan",
-            "tags": ["enterprise", "plan", "version", "subscription"],
-            "use-cases": ["Enterprise plan or edition mark", "Subscription edition display"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
       "name": "expand",
       "path": "illustration-icons/logo/expand.svg",
       "title": "展开 Logo",
@@ -346,50 +324,6 @@
               "Expanded entry or brand state display",
               "Brand mark expanded-state illustration"
             ]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "free",
-      "path": "illustration-icons/version/free.svg",
-      "title": "免费版",
-      "englishName": "Free Plan",
-      "componentName": "Free",
-      "category": "version",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "免费版",
-        "tags": ["免费版", "套餐", "版本", "订阅"],
-        "use-cases": ["免费版套餐或版本标识", "订阅版本展示"],
-        "i18n": {
-          "en": {
-            "name": "Free Plan",
-            "tags": ["free", "plan", "version", "subscription"],
-            "use-cases": ["Free plan or edition mark", "Subscription edition display"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "growth",
-      "path": "illustration-icons/version/growth.svg",
-      "title": "增长版",
-      "englishName": "Growth Plan",
-      "componentName": "Growth",
-      "category": "version",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "增长版",
-        "tags": ["增长版", "套餐", "版本", "订阅"],
-        "use-cases": ["增长版套餐或版本标识", "订阅版本展示"],
-        "i18n": {
-          "en": {
-            "name": "Growth Plan",
-            "tags": ["growth", "plan", "version", "subscription"],
-            "use-cases": ["Growth plan or edition mark", "Subscription edition display"]
           }
         }
       }
@@ -644,28 +578,6 @@
             "name": "Payment Method Disabled",
             "tags": ["payment method disabled", "payment", "method", "disabled"],
             "use-cases": ["Payment method is disabled", "Payment configuration is unavailable"]
-          }
-        }
-      }
-    },
-    {
-      "type": "illustration",
-      "name": "pro",
-      "path": "illustration-icons/version/pro.svg",
-      "title": "专业版",
-      "englishName": "Pro Plan",
-      "componentName": "Pro",
-      "category": "version",
-      "metadata": {
-        "$schema": "../../asset-metadata.schema.json",
-        "name": "专业版",
-        "tags": ["专业版", "套餐", "版本", "订阅"],
-        "use-cases": ["专业版套餐或版本标识", "订阅版本展示"],
-        "i18n": {
-          "en": {
-            "name": "Pro Plan",
-            "tags": ["pro", "plan", "version", "subscription"],
-            "use-cases": ["Pro plan or edition mark", "Subscription edition display"]
           }
         }
       }

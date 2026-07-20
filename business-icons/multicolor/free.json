@@ -1,12 +1,12 @@
 {
   "$schema": "../../asset-metadata.schema.json",
   "name": "免费版",
-  "tags": ["免费版", "套餐", "版本", "订阅"],
+  "tags": ["免费版", "套餐", "版本", "订阅", "多色", "业务图标"],
   "use-cases": ["免费版套餐或版本标识", "订阅版本展示"],
   "i18n": {
     "en": {
       "name": "Free Plan",
-      "tags": ["free", "plan", "version", "subscription"],
+      "tags": ["free", "plan", "version", "subscription", "multicolor", "business icon"],
       "use-cases": ["Free plan or edition mark", "Subscription edition display"]
     }
   }

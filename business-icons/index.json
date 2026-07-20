@@ -355,9 +355,27 @@
     },
     {
       "category": "multicolor",
+      "name": "enterprise",
+      "path": "business-icons/multicolor/enterprise.svg",
+      "componentName": "Enterprise"
+    },
+    {
+      "category": "multicolor",
       "name": "facebook",
       "path": "business-icons/multicolor/facebook.svg",
       "componentName": "Facebook"
+    },
+    {
+      "category": "multicolor",
+      "name": "free",
+      "path": "business-icons/multicolor/free.svg",
+      "componentName": "Free"
+    },
+    {
+      "category": "multicolor",
+      "name": "growth",
+      "path": "business-icons/multicolor/growth.svg",
+      "componentName": "Growth"
     },
     {
       "category": "multicolor",
@@ -370,6 +388,12 @@
       "name": "paypal",
       "path": "business-icons/multicolor/paypal.svg",
       "componentName": "Paypal"
+    },
+    {
+      "category": "multicolor",
+      "name": "pro",
+      "path": "business-icons/multicolor/pro.svg",
+      "componentName": "Pro"
     },
     {
       "category": "multicolor",

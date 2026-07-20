@@ -126,28 +126,10 @@
       "category": "other"
     },
     {
-      "name": "enterprise",
-      "path": "illustration-icons/version/enterprise.svg",
-      "componentName": "Enterprise",
-      "category": "version"
-    },
-    {
       "name": "expand",
       "path": "illustration-icons/logo/expand.svg",
       "componentName": "Expand",
       "category": "logo"
-    },
-    {
-      "name": "free",
-      "path": "illustration-icons/version/free.svg",
-      "componentName": "Free",
-      "category": "version"
-    },
-    {
-      "name": "growth",
-      "path": "illustration-icons/version/growth.svg",
-      "componentName": "Growth",
-      "category": "version"
     },
     {
       "name": "has-expired",
@@ -214,12 +196,6 @@
       "path": "illustration-icons/other/payment-method-disabled.svg",
       "componentName": "PaymentMethodDisabled",
       "category": "other"
-    },
-    {
-      "name": "pro",
-      "path": "illustration-icons/version/pro.svg",
-      "componentName": "Pro",
-      "category": "version"
     },
     {
       "name": "qmail",
