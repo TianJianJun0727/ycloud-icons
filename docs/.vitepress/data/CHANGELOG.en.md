@@ -2,6 +2,12 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.8 - 2026-07-21
+
+- Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
+- Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.
+- Improved GitHub Actions flows for icon fixes, auto-merge, releases, and documentation deployment.
+
 ## v0.2.7 - 2026-07-18
 
 - Fixed transparent cutout rendering for multicolor business icons (Facebook, Shopify, Trophy).
