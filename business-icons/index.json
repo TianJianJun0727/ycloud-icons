@@ -385,6 +385,12 @@
     },
     {
       "category": "multicolor",
+      "name": "meta",
+      "path": "business-icons/multicolor/meta.svg",
+      "componentName": "Meta"
+    },
+    {
+      "category": "multicolor",
       "name": "paypal",
       "path": "business-icons/multicolor/paypal.svg",
       "componentName": "Paypal"
