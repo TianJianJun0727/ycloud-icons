@@ -3,6 +3,20 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.8 - 2026-07-21
+
+### 中文
+
+- 更新业务图标资源、命名和元数据，覆盖 filled、outlined 与 multicolor 等分类。
+- 优化图标维护与图标选择 skills，补充本地脚本、发布、文档构建和缓存使用指引。
+- 优化 GitHub Actions 中的图标修复、自动合并、发布和文档部署流程。
+
+### English
+
+- Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
+- Improved icon maintenance and selection skills with guidance for local scripts, releases, docs builds, and cached lookup.
+- Improved GitHub Actions flows for icon fixes, auto-merge, releases, and documentation deployment.
+
 ## v0.2.7 - 2026-07-18
 
 ### 中文
