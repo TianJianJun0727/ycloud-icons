@@ -3,7 +3,6 @@
 set -e
 
 corepack enable
-corepack prepare pnpm@11.6.0 --activate
 
 pnpm config set registry https://registry.npmmirror.com
 pnpm install --frozen-lockfile
