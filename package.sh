@@ -2,8 +2,9 @@
 
 set -e
 
-export npm_config_registry="https://registry.npmmirror.com"
+corepack enable
 
+pnpm config set registry https://registry.npmmirror.com
 pnpm install --frozen-lockfile
 
 pnpm --filter @ycloud-web/icons build
