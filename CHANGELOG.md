@@ -3,6 +3,20 @@
 > 此文件会在文档构建前根据 Git tag 和版本变更自动生成。
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.9 - 2026-07-22
+
+### 中文
+
+- 更新业务图标资源、命名和元数据，覆盖 filled、outlined 与 multicolor 等分类。
+- 更新插画资源、分类和元数据，保持插画搜索与文档展示一致。
+- 同步更新文档、指南和示例，保持图标资产规则与页面说明一致。
+
+### English
+
+- Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
+- Updated illustration assets, categories, and metadata to keep search and documentation consistent.
+- Updated documentation, guides, and examples to match the current icon asset rules.
+
 ## v0.2.8 - 2026-07-21
 
 ### 中文
