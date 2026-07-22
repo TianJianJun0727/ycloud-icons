@@ -18,7 +18,7 @@ DOCS_LLMS=0 \
 DOCS_META_CHUNK=1 \
 DOCS_VERCEL=0 \
 DOCS_OUT_DIR=../dist \
-NODE_OPTIONS="${NODE_OPTIONS:---max-old-space-size=8192}" \
+NODE_OPTIONS="${NODE_OPTIONS:---max-old-space-size=6144}" \
 pnpm docs:build:no-og
 
 echo "Docs build completed: dist"
