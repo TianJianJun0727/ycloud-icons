@@ -15,7 +15,10 @@ function getBusinessIconColorMode(filePath: string) {
 }
 
 function collectReferencedIds(svg: string) {
-  return new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+  return new Set([
+    ...[...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]),
+    ...[...svg.matchAll(/(?:href|xlink:href)=["']#([^"']+)["']/g)].map((match) => match[1]),
+  ]);
 }
 
 function removeUnsafeNodes(node: INode) {

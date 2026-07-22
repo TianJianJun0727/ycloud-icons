@@ -81,7 +81,10 @@ function checkDuplicatedAttributes(errors: string[], svg: string) {
 }
 
 function collectReferencedIds(svg: string) {
-  return new Set([...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]));
+  return new Set([
+    ...[...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]),
+    ...[...svg.matchAll(/(?:href|xlink:href)=["']#([^"']+)["']/g)].map((match) => match[1]),
+  ]);
 }
 
 function walk(errors: string[], node: INode, referencedIds: Set<string>, colorMode: string) {

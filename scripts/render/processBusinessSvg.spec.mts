@@ -70,6 +70,16 @@ describe('processBusinessSvg', () => {
     expect(svg).not.toContain('business-icon-secondary-color');
   });
 
+  it('keeps ids referenced by href attributes', async () => {
+    const svg = await processBusinessSvg(
+      '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="symbol-logo"/><image id="image-logo"/><use href="#symbol-logo"/><use xlink:href="#image-logo"/></svg>',
+      'business-icons/multicolor/brand.svg',
+    );
+
+    expect(svg).toContain('id="symbol-logo"');
+    expect(svg).toContain('id="image-logo"');
+  });
+
   it('removes unsafe SVG content', async () => {
     const svg = await processBusinessSvg(
       '<svg viewBox="0 0 16 16" onclick="alert(1)" data-name="Icon"><script>alert(1)</script><path id="unused" style="fill:red" class="shape" fill="red" d="M0 0h16v16H0z"/></svg>',

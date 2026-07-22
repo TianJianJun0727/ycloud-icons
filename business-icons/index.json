@@ -355,6 +355,24 @@
     },
     {
       "category": "multicolor",
+      "name": "coupons",
+      "path": "business-icons/multicolor/coupons.svg",
+      "componentName": "Coupons"
+    },
+    {
+      "category": "multicolor",
+      "name": "data-connectors",
+      "path": "business-icons/multicolor/data-connectors.svg",
+      "componentName": "DataConnectors"
+    },
+    {
+      "category": "multicolor",
+      "name": "email",
+      "path": "business-icons/multicolor/email.svg",
+      "componentName": "Email"
+    },
+    {
+      "category": "multicolor",
       "name": "enterprise",
       "path": "business-icons/multicolor/enterprise.svg",
       "componentName": "Enterprise"
@@ -370,6 +388,12 @@
       "name": "free",
       "path": "business-icons/multicolor/free.svg",
       "componentName": "Free"
+    },
+    {
+      "category": "multicolor",
+      "name": "freshdesk",
+      "path": "business-icons/multicolor/freshdesk.svg",
+      "componentName": "Freshdesk"
     },
     {
       "category": "multicolor",
@@ -391,6 +415,12 @@
     },
     {
       "category": "multicolor",
+      "name": "mixdesk",
+      "path": "business-icons/multicolor/mixdesk.svg",
+      "componentName": "Mixdesk"
+    },
+    {
+      "category": "multicolor",
       "name": "paypal",
       "path": "business-icons/multicolor/paypal.svg",
       "componentName": "Paypal"
@@ -403,9 +433,27 @@
     },
     {
       "category": "multicolor",
+      "name": "qmai",
+      "path": "business-icons/multicolor/qmai.svg",
+      "componentName": "Qmai"
+    },
+    {
+      "category": "multicolor",
+      "name": "sale-smartly",
+      "path": "business-icons/multicolor/sale-smartly.svg",
+      "componentName": "SaleSmartly"
+    },
+    {
+      "category": "multicolor",
       "name": "shopify",
       "path": "business-icons/multicolor/shopify.svg",
       "componentName": "Shopify"
+    },
+    {
+      "category": "multicolor",
+      "name": "sms",
+      "path": "business-icons/multicolor/sms.svg",
+      "componentName": "Sms"
     },
     {
       "category": "multicolor",
@@ -421,9 +469,33 @@
     },
     {
       "category": "multicolor",
+      "name": "verify",
+      "path": "business-icons/multicolor/verify.svg",
+      "componentName": "Verify"
+    },
+    {
+      "category": "multicolor",
+      "name": "voice-code",
+      "path": "business-icons/multicolor/voice-code.svg",
+      "componentName": "VoiceCode"
+    },
+    {
+      "category": "multicolor",
       "name": "wechat-pay",
       "path": "business-icons/multicolor/wechat-pay.svg",
       "componentName": "WechatPay"
+    },
+    {
+      "category": "multicolor",
+      "name": "whatsapp-mm-lite",
+      "path": "business-icons/multicolor/whatsapp-mm-lite.svg",
+      "componentName": "WhatsappMmLite"
+    },
+    {
+      "category": "multicolor",
+      "name": "zapier",
+      "path": "business-icons/multicolor/zapier.svg",
+      "componentName": "Zapier"
     },
     {
       "category": "outlined",

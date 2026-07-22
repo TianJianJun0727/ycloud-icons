@@ -1,0 +1,16 @@
+{
+  "$schema": "../../asset-metadata.schema.json",
+  "name": "Qmai 集成",
+  "tags": ["Qmai", "集成", "邮件", "渠道"],
+  "use-cases": ["Qmai 渠道或集成入口", "企业邮箱集成能力说明"],
+  "i18n": {
+    "en": {
+      "name": "Qmai Integration",
+      "tags": ["Qmai", "integration", "email", "channel"],
+      "use-cases": [
+        "Qmai channel or integration entry",
+        "Business email integration capability description"
+      ]
+    }
+  }
+}
