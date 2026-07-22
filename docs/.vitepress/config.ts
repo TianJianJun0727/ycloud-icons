@@ -77,7 +77,7 @@ export default defineConfig({
   base,
   cleanUrls: true,
   metaChunk: isMetaChunkEnabled,
-  outDir: '.vercel/output/static',
+  outDir: process.env.DOCS_OUT_DIR ?? '.vercel/output/static',
   srcExclude: ['**/README.md'],
   markdown: {
     config(md) {
