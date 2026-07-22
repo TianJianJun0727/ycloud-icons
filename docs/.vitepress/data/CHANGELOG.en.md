@@ -2,6 +2,12 @@
 
 > This file is generated before the documentation build from Git tags and release changes.
 
+## v0.2.9 - 2026-07-22
+
+- Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
+- Updated illustration assets, categories, and metadata to keep search and documentation consistent.
+- Updated documentation, guides, and examples to match the current icon asset rules.
+
 ## v0.2.8 - 2026-07-21
 
 - Updated business icon assets, naming, and metadata across filled, outlined, and multicolor categories.
