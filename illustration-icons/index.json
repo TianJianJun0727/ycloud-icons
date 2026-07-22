@@ -1,15 +1,6 @@
 {
   "categories": [
     {
-      "name": "integration",
-      "title": "集成",
-      "i18n": {
-        "en": {
-          "title": "Integration"
-        }
-      }
-    },
-    {
       "name": "logo",
       "title": "标识",
       "i18n": {
@@ -66,34 +57,10 @@
       "category": "logo"
     },
     {
-      "name": "coupons",
-      "path": "illustration-icons/integration/coupons.svg",
-      "componentName": "Coupons",
-      "category": "integration"
-    },
-    {
-      "name": "data-connectors",
-      "path": "illustration-icons/integration/data-connectors.svg",
-      "componentName": "DataConnectors",
-      "category": "integration"
-    },
-    {
       "name": "data-importing",
       "path": "illustration-icons/other/data-importing.svg",
       "componentName": "DataImporting",
       "category": "other"
-    },
-    {
-      "name": "developer",
-      "path": "illustration-icons/integration/developer.svg",
-      "componentName": "Developer",
-      "category": "integration"
-    },
-    {
-      "name": "email",
-      "path": "illustration-icons/integration/email.svg",
-      "componentName": "Email",
-      "category": "integration"
     },
     {
       "name": "empty-ai",
@@ -156,12 +123,6 @@
       "category": "other"
     },
     {
-      "name": "hubspot",
-      "path": "illustration-icons/integration/hubspot.svg",
-      "componentName": "Hubspot",
-      "category": "integration"
-    },
-    {
       "name": "limited-time-offer",
       "path": "illustration-icons/template/limited-time-offer.svg",
       "componentName": "LimitedTimeOffer",
@@ -178,12 +139,6 @@
       "path": "illustration-icons/template/media-card-carousel.svg",
       "componentName": "MediaCardCarousel",
       "category": "template"
-    },
-    {
-      "name": "mixdesk",
-      "path": "illustration-icons/integration/mixdesk.svg",
-      "componentName": "Mixdesk",
-      "category": "integration"
     },
     {
       "name": "network-disconnected",
@@ -222,40 +177,10 @@
       "category": "version"
     },
     {
-      "name": "qmail",
-      "path": "illustration-icons/integration/qmail.svg",
-      "componentName": "Qmail",
-      "category": "integration"
-    },
-    {
-      "name": "reshdesk",
-      "path": "illustration-icons/integration/reshdesk.svg",
-      "componentName": "Reshdesk",
-      "category": "integration"
-    },
-    {
-      "name": "sale-smartly",
-      "path": "illustration-icons/integration/sale-smartly.svg",
-      "componentName": "SaleSmartly",
-      "category": "integration"
-    },
-    {
-      "name": "shopify",
-      "path": "illustration-icons/integration/shopify.svg",
-      "componentName": "Shopify",
-      "category": "integration"
-    },
-    {
       "name": "single-product-checkout",
       "path": "illustration-icons/template/single-product-checkout.svg",
       "componentName": "SingleProductCheckout",
       "category": "template"
-    },
-    {
-      "name": "sms",
-      "path": "illustration-icons/integration/sms.svg",
-      "componentName": "Sms",
-      "category": "integration"
     },
     {
       "name": "tp",
@@ -264,28 +189,10 @@
       "category": "version"
     },
     {
-      "name": "verify",
-      "path": "illustration-icons/integration/verify.svg",
-      "componentName": "Verify",
-      "category": "integration"
-    },
-    {
-      "name": "voice-code",
-      "path": "illustration-icons/integration/voice-code.svg",
-      "componentName": "VoiceCode",
-      "category": "integration"
-    },
-    {
       "name": "waiting-status",
       "path": "illustration-icons/other/waiting-status.svg",
       "componentName": "WaitingStatus",
       "category": "other"
-    },
-    {
-      "name": "whatsapp-mm-lite",
-      "path": "illustration-icons/integration/whatsapp-mm-lite.svg",
-      "componentName": "WhatsappMmLite",
-      "category": "integration"
     },
     {
       "name": "whatsapp-order-details",
@@ -298,12 +205,6 @@
       "path": "illustration-icons/template/whatsapp-order-status.svg",
       "componentName": "WhatsappOrderStatus",
       "category": "template"
-    },
-    {
-      "name": "zapier",
-      "path": "illustration-icons/integration/zapier.svg",
-      "componentName": "Zapier",
-      "category": "integration"
     }
   ]
 }
