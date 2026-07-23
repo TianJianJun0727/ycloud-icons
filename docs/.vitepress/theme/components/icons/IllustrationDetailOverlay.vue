@@ -16,7 +16,6 @@ const emit = defineEmits<{
 <template>
   <IconDetailOverlayShell
     :open="!!illustration"
-    layout="page"
     @close="emit('close')"
   >
     <div
