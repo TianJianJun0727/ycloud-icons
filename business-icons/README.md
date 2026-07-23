@@ -17,7 +17,8 @@ business-icons/metadata/index.json
 Supported color modes are:
 
 - `outlined`: use `currentColor` and preserve source stroke width unless a component prop overrides it
-- `filled`: use the configurable primary business color and keep white details fixed
+- `filled`: use the single primary business color token; render internal details as transparent
+  compound-path cutouts instead of white, additional-color, or same-color overlay shapes
 - `multicolor`: preserve fixed source colors
 
 SVG names must be globally unique across all color modes because generated package exports are flat. File names use lowercase kebab-case, for example `whatsapp-outlined.svg`.

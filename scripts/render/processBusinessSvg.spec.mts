@@ -32,27 +32,24 @@ describe('processBusinessSvg', () => {
     expect(svg).not.toContain('fill="white"');
   });
 
-  it('normalizes filled business icons to a configurable primary color and fixed white', async () => {
-    const svg = await processBusinessSvg(
-      '<svg viewBox="0 0 20 20"><path fill="#FF934A" d="M0 0h20v20H0z"/><path fill="white" d="M4 4h12v12H4z"/></svg>',
-      'business-icons/filled/trophy.svg',
-    );
-
-    expect(svg).toContain('fill="var(--business-icon-primary-color)"');
-    expect(svg).toContain('fill="#fff"');
-    expect(svg).not.toContain('#FF934A');
-    expect(svg).not.toContain('fill="white"');
+  it('rejects multiple paint colors in filled business icons', async () => {
+    expect(() =>
+      processBusinessSvg(
+        '<svg viewBox="0 0 20 20"><path fill="#FF934A" d="M0 0h20v20H0z"/><path fill="white" d="M4 4h12v12H4z"/></svg>',
+        'business-icons/filled/trophy.svg',
+      ),
+    ).toThrow('Convert background-colored details to transparent compound-path cutouts');
   });
 
-  it('keeps white fixed regardless of path order', async () => {
+  it('preserves transparent compound-path cutouts in filled business icons', async () => {
     const svg = await processBusinessSvg(
-      '<svg viewBox="0 0 20 20"><path fill="#fff" d="M4 4h12v12H4z"/><path fill="#FF934A" d="M0 0h20v20H0z"/></svg>',
+      '<svg viewBox="0 0 20 20" fill="#FF934A"><path fill-rule="evenodd" d="M0 0h20v20H0zM4 4h12v12H4z"/></svg>',
       'business-icons/filled/trophy.svg',
     );
 
     expect(svg).toContain('fill="var(--business-icon-primary-color)"');
-    expect(svg).toContain('<path fill="#fff" d="M4 4h12v12H4z" />');
-    expect(svg).toContain('<path fill="var(--business-icon-primary-color)" d="M0 0h20v20H0z" />');
+    expect(svg).toContain('fill-rule="evenodd"');
+    expect(svg).toContain('d="M0 0h20v20H0zM4 4h12v12H4z"');
     expect(svg).not.toContain('#FF934A');
   });
 

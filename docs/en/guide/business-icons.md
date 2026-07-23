@@ -51,7 +51,7 @@ Business cleanup will:
 - remove `<script>`, `<foreignObject>`, event attributes, and `javascript:` URLs
 - remove design-tool noise such as `style`, `class`, unreferenced `id`, and `data-*`
 - `outlined`: convert hardcoded `fill` and `stroke` to `currentColor`, or keep `none`
-- `filled`: keep white fills/strokes as fixed `#fff` and convert all other colors to `var(--business-icon-primary-color)`, without relying on path order
+- `filled`: accept one paint color and convert it to `var(--business-icon-primary-color)`; internal details must use transparent compound-path cutouts instead of white, additional-color, or same-color overlay shapes
 - `multicolor`: keep fixed colors from the source SVG
 - preserve original `width`, `height`, `viewBox`, `stroke-width`, `stroke-linecap`, `stroke-linejoin`, and geometry
 
@@ -65,7 +65,7 @@ Only baseline structure and safety checks run:
 - file names must be lowercase kebab-case, for example `whatsapp-outlined.svg`
 - the root element must be `<svg>`
 - `outlined` `fill` and `stroke` may only be `currentColor` or `none`
-- `filled` `fill` and `stroke` may only be `var(--business-icon-primary-color)`, `#fff`, or `none`
+- `filled` `fill` and `stroke` may only be `var(--business-icon-primary-color)` or `none`, with internal details represented by transparent compound-path cutouts
 - `multicolor` may keep fixed colors, but still runs through the safety checks
 - style and design-tool attributes such as `style`, `class`, and `data-*` are not allowed
 - `<script>` and `<foreignObject>` are not allowed
@@ -138,7 +138,7 @@ export function ChannelIcon() {
 }
 ```
 
-React business icon components render inline `<svg>`. `outlined` and `filled` support `size`, `color`, and `strokeWidth`. `strokeWidth` is unset by default, so source SVG stroke widths or no-stroke states stay unchanged unless the prop is explicitly passed. White details in `filled` icons stay fixed at `#fff`; there is no second color prop. `multicolor` keeps fixed source colors, does not expose `color` or `strokeWidth`, and only supports size changes.
+React business icon components render inline `<svg>`. `outlined` and single-color `filled` icons support `size`, `color`, and `strokeWidth`. `strokeWidth` is unset by default, so source SVG stroke widths or no-stroke states stay unchanged unless the prop is explicitly passed. `multicolor` keeps fixed source colors, does not expose `color` or `strokeWidth`, and only supports size changes.
 
 ```tsx
 import { ShopifyFilled } from '@ycloud-web/icons-react/business';
@@ -198,4 +198,4 @@ Business icons also generate a separate icon font. It is not mixed into the gene
 ></span>
 ```
 
-Static SVGs and data packages keep the cleaned primary color token and fixed white details. During component package generation, the filled primary token is converted to the framework `color` prop; multicolor icons always keep their fixed source colors.
+Static SVGs and data packages keep the cleaned color tokens. During component package generation, the filled primary token is converted to the framework `color` prop; multicolor icons always keep their fixed source colors.

@@ -51,7 +51,7 @@ Respect capability differences:
 
 - generic icons: size, color, and stroke width
 - outlined business icons: size, color, and stroke width when strokes exist
-- filled business icons: size, color, and stroke width when strokes exist; white details stay fixed
+- filled business icons: size, color, and stroke width when strokes exist
 - multicolor business icons: fixed colors and size
 - illustrations: width and height; use meaningful alternative text when informative
 

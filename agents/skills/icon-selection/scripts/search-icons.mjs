@@ -430,7 +430,7 @@ const loadBusinessIconsFromSnapshot = async () => {
       colorMode === 'outlined'
         ? 'supports size, color, and stroke width when strokes exist'
         : colorMode === 'filled'
-          ? 'supports size, color, and stroke width when strokes exist; white details stay fixed'
+          ? 'supports size, color, and stroke width when strokes exist'
           : 'supports size only; fixed multicolor artwork';
     return {
       kind: 'business-icon',
@@ -466,7 +466,7 @@ const loadBusinessIconsFromSource = () => {
       colorMode === 'outlined'
         ? 'supports size, color, and stroke width when strokes exist'
         : colorMode === 'filled'
-          ? 'supports size, color, and stroke width when strokes exist; white details stay fixed'
+          ? 'supports size, color, and stroke width when strokes exist'
           : 'supports size only; fixed multicolor artwork';
     return {
       kind: 'business-icon',
