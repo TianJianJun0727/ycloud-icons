@@ -1,10 +1,6 @@
 ---
 import type { BusinessIconImageProps } from '../businessTypes';
-type DocCsvFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: DocCsvFilledProps = Astro.props;
+const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BusinessIconImageProps = Astro.props;
 ---
 
 <svg

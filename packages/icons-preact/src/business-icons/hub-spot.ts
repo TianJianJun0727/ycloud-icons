@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type HubSpotProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const HubSpot = ({ size = 24, width, height, alt = '', style, ...props }: HubSpotProps) =>
   h(

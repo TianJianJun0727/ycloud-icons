@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type CheckCancelFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const CheckCancelFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const CheckCancelFilled = ({
   strokeWidth,
   style,
   ...props
-}: CheckCancelFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"

@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type StatusFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const StatusFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const StatusFilled = ({
   strokeWidth,
   style,
   ...props
-}: StatusFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"

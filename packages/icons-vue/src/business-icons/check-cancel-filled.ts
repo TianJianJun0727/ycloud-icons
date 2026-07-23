@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type CheckCancelFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const CheckCancelFilled: FunctionalComponent<CheckCancelFilledProps> = ({
+const CheckCancelFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

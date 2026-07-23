@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+  type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: AlipayProps = $props();
 </script>

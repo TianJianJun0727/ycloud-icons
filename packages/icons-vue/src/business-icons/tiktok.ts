@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Tiktok: FunctionalComponent<TiktokProps> = ({
   size = 24,

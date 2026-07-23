@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type SecurityFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const SecurityFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const SecurityFilled = ({
   strokeWidth,
   style,
   ...props
-}: SecurityFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type MessageFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const MessageFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const MessageFilled = ({
   strokeWidth,
   style,
   ...props
-}: MessageFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

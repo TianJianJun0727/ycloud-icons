@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+  type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: TiktokProps = $props();
 </script>

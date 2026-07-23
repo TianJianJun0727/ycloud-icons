@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type DocCsvFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const DocCsvFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const DocCsvFilled = ({
   strokeWidth,
   style,
   ...props
-}: DocCsvFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

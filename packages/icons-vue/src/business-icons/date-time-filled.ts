@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type DateTimeFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const DateTimeFilled: FunctionalComponent<DateTimeFilledProps> = ({
+const DateTimeFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

@@ -15,4 +15,21 @@ describe('validateBusinessSvgSource', () => {
 
     expect(validateBusinessSvgSource(svg, 'multicolor')).toEqual([]);
   });
+
+  it('accepts only the primary color token for filled icons', () => {
+    expect(
+      validateBusinessSvgSource(
+        '<svg viewBox="0 0 24 24" fill="var(--business-icon-primary-color)"><path fill-rule="evenodd" d="M4 4h16v16H4z"/></svg>',
+        'filled',
+      ),
+    ).toEqual([]);
+    expect(
+      validateBusinessSvgSource(
+        '<svg viewBox="0 0 24 24"><path fill="var(--legacy-color)" d="M4 4h16v16H4z"/></svg>',
+        'filled',
+      ),
+    ).toEqual([
+      '<path> must use "fill" as none or var(--business-icon-primary-color).',
+    ]);
+  });
 });

@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TriggerFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const TriggerFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const TriggerFilled = ({
   strokeWidth,
   style,
   ...props
-}: TriggerFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

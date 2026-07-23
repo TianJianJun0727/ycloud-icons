@@ -53,7 +53,7 @@ multicolor
 - 移除 `<script>`、`<foreignObject>`、事件属性和 `javascript:` URL
 - 移除 `style`、`class`、未被引用的 `id`、`data-*` 这类设计工具噪声
 - `outlined`：将写死的 `fill`、`stroke` 转为 `currentColor` 或保留 `none`
-- `filled`：将白色填充/描边转为 `var(--business-icon-secondary-color)`，其他颜色转为 `var(--business-icon-primary-color)`，不按路径顺序判断
+- `filled`：只接受一种填充/描边颜色并转为 `var(--business-icon-primary-color)`；内部细节必须通过复合路径透明镂空实现，禁止使用白色、额外颜色或同色覆盖路径模拟
 - `multicolor`：不清洗固定颜色，保留源 SVG 的多色视觉
 - 保留原始 `width`、`height`、`viewBox`、`stroke-width`、`stroke-linecap`、`stroke-linejoin` 和几何结构
 
@@ -67,7 +67,7 @@ multicolor
 - 文件名必须是小写 kebab-case，例如 `whatsapp-outlined.svg`
 - 根节点必须是 `<svg>`
 - `outlined` 的 `fill`、`stroke` 只能是 `currentColor` 或 `none`
-- `filled` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)`、`var(--business-icon-secondary-color)` 或 `none`
+- `filled` 的 `fill`、`stroke` 只能是 `var(--business-icon-primary-color)` 或 `none`，内部细节使用透明复合路径镂空
 - `multicolor` 允许固定颜色，但仍执行安全检查
 - 禁止 `style`、`class`、`data-*` 这类样式和设计工具属性
 - 禁止 `<script>` 和 `<foreignObject>`
@@ -140,7 +140,7 @@ export function ChannelIcon() {
 }
 ```
 
-React 业务图标组件底层渲染为内联 `<svg>`。`outlined` 和 `filled` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`filled` 额外支持 `secondaryColor`，默认值为 `#fff`。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
+React 业务图标组件底层渲染为内联 `<svg>`。`outlined` 和单色 `filled` 支持 `size`、`color`、`strokeWidth`；`strokeWidth` 默认不设置，保留源 SVG 的原始描边宽度或无描边状态，仅在显式传入时覆盖。`multicolor` 保留固定色，不暴露 `color` 或 `strokeWidth`，仅支持调整尺寸。
 
 ```tsx
 import { ShopifyFilled } from '@ycloud-web/icons-react/business';
@@ -150,7 +150,6 @@ export function FilledIcon() {
     <ShopifyFilled
       size={24}
       color="#111827"
-      secondaryColor="#fff"
       strokeWidth={1.5}
     />
   );
@@ -201,4 +200,4 @@ import whatsappIconUrl from '@ycloud-web/icons-static/business-icons/outlined/wh
 ></span>
 ```
 
-静态 SVG 与数据包会保留清洗后的颜色 token。使用 `filled` 源时，打包到组件阶段会把 primary/secondary token 转为对应框架的可传入颜色参数；多色图标始终保留源 SVG 固定色。
+静态 SVG 与数据包会保留清洗后的颜色 token。使用 `filled` 源时，打包到组件阶段会把 primary token 转为对应框架的 `color` 参数；多色图标始终保留源 SVG 固定色。

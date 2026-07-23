@@ -1,23 +1,9 @@
 import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WarningFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const WarningFilled = forwardRef<SVGSVGElement, WarningFilledProps>(
+const WarningFilled = forwardRef<SVGSVGElement, BusinessIconImageProps>(
   (
-    {
-      size = 24,
-      width,
-      height,
-      alt = '',
-      color = 'currentColor',
-      secondaryColor = '#fff',
-      strokeWidth,
-      style,
-      ...props
-    },
+    { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props },
     ref,
   ) => (
     <svg

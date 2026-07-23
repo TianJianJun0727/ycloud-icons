@@ -1,23 +1,9 @@
 import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type BenefitTemplateFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const BenefitTemplateFilled = forwardRef<SVGSVGElement, BenefitTemplateFilledProps>(
+const BenefitTemplateFilled = forwardRef<SVGSVGElement, BusinessIconImageProps>(
   (
-    {
-      size = 24,
-      width,
-      height,
-      alt = '',
-      color = 'currentColor',
-      secondaryColor = '#fff',
-      strokeWidth,
-      style,
-      ...props
-    },
+    { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props },
     ref,
   ) => (
     <svg

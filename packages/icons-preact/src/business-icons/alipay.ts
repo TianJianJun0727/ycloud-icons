@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Alipay = ({ size = 24, width, height, alt = '', style, ...props }: AlipayProps) =>
   h(

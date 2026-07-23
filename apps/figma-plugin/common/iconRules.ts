@@ -173,7 +173,7 @@ export function normalizeBusinessColorMode(value?: string): BusinessIconColorMod
 }
 
 function normalizeBusinessSvgColor(value: string, colorMode: BusinessIconColorMode) {
-  if (value === 'none' || value.startsWith('var(')) {
+  if (value === 'none') {
     return value;
   }
   if (colorMode === 'multicolor') {
@@ -182,24 +182,7 @@ function normalizeBusinessSvgColor(value: string, colorMode: BusinessIconColorMo
   if (colorMode === 'outlined') {
     return 'currentColor';
   }
-  if (value === 'currentColor') {
-    return 'var(--business-icon-primary-color)';
-  }
-  return isWhiteColor(value)
-    ? 'var(--business-icon-secondary-color)'
-    : 'var(--business-icon-primary-color)';
-}
-
-function isWhiteColor(value: string) {
-  const normalizedValue = value.trim().toLowerCase().replace(/\s+/g, '');
-  return (
-    normalizedValue === 'white' ||
-    normalizedValue === '#fff' ||
-    normalizedValue === '#ffffff' ||
-    normalizedValue === '#ffffffff' ||
-    normalizedValue === 'rgb(255,255,255)' ||
-    normalizedValue === 'rgba(255,255,255,1)'
-  );
+  return 'var(--business-icon-primary-color)';
 }
 
 function getReferencedIds(svg: string) {

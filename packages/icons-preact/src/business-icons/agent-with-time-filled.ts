@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type AgentWithTimeFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const AgentWithTimeFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const AgentWithTimeFilled = ({
   strokeWidth,
   style,
   ...props
-}: AgentWithTimeFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type ShopifyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type ShopifyProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Shopify = ({ size = 24, width, height, alt = '', style, ...props }: ShopifyProps) =>
   h(

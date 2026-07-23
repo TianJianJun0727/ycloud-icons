@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type MoreSenderNameFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const MoreSenderNameFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const MoreSenderNameFilled = ({
   strokeWidth,
   style,
   ...props
-}: MoreSenderNameFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

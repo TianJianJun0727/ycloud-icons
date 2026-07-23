@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type BenefitRestrictionFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const BenefitRestrictionFilled: FunctionalComponent<BenefitRestrictionFilledProps> = ({
+const BenefitRestrictionFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

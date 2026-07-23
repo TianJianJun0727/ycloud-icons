@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const WechatPay: FunctionalComponent<WechatPayProps> = ({
   size = 24,

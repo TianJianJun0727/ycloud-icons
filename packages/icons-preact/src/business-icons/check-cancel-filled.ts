@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type CheckCancelFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const CheckCancelFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const CheckCancelFilled = ({
   strokeWidth,
   style,
   ...props
-}: CheckCancelFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

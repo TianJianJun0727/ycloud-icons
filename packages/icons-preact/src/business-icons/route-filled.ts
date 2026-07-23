@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type RouteFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const RouteFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const RouteFilled = ({
   strokeWidth,
   style,
   ...props
-}: RouteFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

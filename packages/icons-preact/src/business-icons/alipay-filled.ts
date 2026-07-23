@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type AlipayFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const AlipayFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const AlipayFilled = ({
   strokeWidth,
   style,
   ...props
-}: AlipayFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

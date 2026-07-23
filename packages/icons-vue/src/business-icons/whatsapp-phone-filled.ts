@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WhatsappPhoneFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const WhatsappPhoneFilled: FunctionalComponent<WhatsappPhoneFilledProps> = ({
+const WhatsappPhoneFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

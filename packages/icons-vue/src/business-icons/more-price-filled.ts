@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type MorePriceFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const MorePriceFilled: FunctionalComponent<MorePriceFilledProps> = ({
+const MorePriceFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

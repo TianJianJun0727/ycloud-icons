@@ -115,7 +115,7 @@ function walk(errors: string[], node: INode, referencedIds: Set<string>, colorMo
     if (colorMode !== 'multicolor' && /^(fill|stroke)$/i.test(attr)) {
       const validColorValues =
         colorMode === 'filled'
-          ? ['none', 'var(--business-icon-primary-color)', 'var(--business-icon-secondary-color)']
+          ? ['none', 'var(--business-icon-primary-color)']
           : ['none', 'currentColor'];
       if (!validColorValues.includes(String(value))) {
         errors.push(`<${node.name}> must use "${attr}" as ${validColorValues.join(' or ')}.`);

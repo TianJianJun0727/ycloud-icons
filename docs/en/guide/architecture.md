@@ -139,7 +139,7 @@ business-icons/metadata/index.json
 docs/public/metadata/business-icons.json
 ```
 
-Business icons keep a same-name JSON file next to every SVG. The first-level folder represents the color mode: `outlined` converts fixed colors to `currentColor`, `filled` maps white to the secondary token and all other colors to the primary token, and `multicolor` keeps fixed colors. The root `business-icons/index.json` is generated for the Figma plugin color-mode selector, docs, and package generation. `business-icons/metadata/index.json` is generated for Figma, GitHub validation, and skills lookup against the current repository main branch; snapshots under `docs/public/metadata` are copied from repository snapshots during docs builds as deployed URL fallbacks.
+Business icons keep a same-name JSON file next to every SVG. The first-level folder represents the color mode: `outlined` converts fixed colors to `currentColor`, `filled` accepts one color and maps it to the primary token while internal details use transparent compound-path cutouts, and `multicolor` keeps fixed colors. The root `business-icons/index.json` is generated for the Figma plugin color-mode selector, docs, and package generation. `business-icons/metadata/index.json` is generated for Figma, GitHub validation, and skills lookup against the current repository main branch; snapshots under `docs/public/metadata` are copied from repository snapshots during docs builds as deployed URL fallbacks.
 
 ## Package Structure
 

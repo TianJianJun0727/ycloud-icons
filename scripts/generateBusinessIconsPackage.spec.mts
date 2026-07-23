@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  buildBusinessAstroIconModule,
   buildBusinessIconModule,
   buildBusinessIconsIndex,
   buildBusinessPreactIconModule,
@@ -42,21 +43,16 @@ describe('generateBusinessIconsPackage', () => {
     expect(indexSource).toContain("'whatsapp-business': whatsappBusinessIcon");
   });
 
-  it('generates React inline components that require two colors for filled business icons', () => {
+  it('generates single-color React inline components for filled business icons', () => {
     const moduleSource = buildBusinessReactIconModule(
       'whatsapp-business',
       'filled',
-      '<svg fill="var(--business-icon-primary-color)" viewBox="0 0 16 16"><path d="M0 0h16v16H0z"/><path fill="var(--business-icon-secondary-color)" d="M4 4h8v8H4z"/></svg>',
+      '<svg fill="var(--business-icon-primary-color)" viewBox="0 0 16 16"><path d="M0 0h16v16H0z"/><path fill="var(--business-icon-primary-color)" d="M4 4h8v8H4z"/></svg>',
     );
 
     expect(moduleSource).toContain("import { forwardRef } from 'react';");
-    expect(moduleSource).toContain('type WhatsappBusinessProps = BusinessIconImageProps & {');
-    expect(moduleSource).toContain('secondaryColor?: string;');
-    expect(moduleSource).toContain("secondaryColor = '#fff'");
     expect(moduleSource).toContain('fill={color}');
-    expect(moduleSource).toContain('fill={secondaryColor}');
     expect(moduleSource).not.toContain('dangerouslySetInnerHTML');
-    expect(moduleSource).not.toContain('--business-icon-secondary-color');
   });
 
   it('generates React inline components for outlined business icons', () => {
@@ -84,7 +80,6 @@ describe('generateBusinessIconsPackage', () => {
     expect(moduleSource).toContain('forwardRef<SVGSVGElement, ShopifyProps>');
     expect(moduleSource).toContain('fill="#95BF47"');
     expect(moduleSource).not.toContain('color =');
-    expect(moduleSource).not.toContain('secondaryColor');
   });
 
   it('generates a React index with named component exports', () => {
@@ -114,6 +109,23 @@ describe('generateBusinessIconsPackage', () => {
     expect(svelteSource).toContain('<path d="M0 0h16v16H0z" />');
     expect(solidSource).not.toContain('@ycloud-web/icons/business');
     expect(svelteSource).not.toContain('@ycloud-web/icons/business');
+  });
+
+  it('generates single-color filled components across framework packages', () => {
+    const svg =
+      '<svg fill="var(--business-icon-primary-color)" viewBox="0 0 16 16"><path fill="var(--business-icon-primary-color)" d="M0 0h16v16H0z"/></svg>';
+    const moduleSources = [
+      buildBusinessPreactIconModule('shopify-filled', svg, 'filled'),
+      buildBusinessVueIconModule('shopify-filled', svg, 'filled'),
+      buildBusinessSolidIconModule('shopify-filled', svg, 'filled'),
+      buildBusinessSvelteIconModule('shopify-filled', svg, 'filled'),
+      buildBusinessAstroIconModule('shopify-filled', svg, 'filled'),
+    ];
+
+    for (const moduleSource of moduleSources) {
+      expect(moduleSource).toContain('BusinessIconImageProps');
+      expect(moduleSource).toContain('color');
+    }
   });
 
   it('lets outlined and filled React business icons override stroke width explicitly', () => {

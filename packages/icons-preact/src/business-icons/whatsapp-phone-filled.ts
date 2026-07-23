@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WhatsappPhoneFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const WhatsappPhoneFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const WhatsappPhoneFilled = ({
   strokeWidth,
   style,
   ...props
-}: WhatsappPhoneFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

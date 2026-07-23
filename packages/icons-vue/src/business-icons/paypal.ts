@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type PaypalProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type PaypalProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Paypal: FunctionalComponent<PaypalProps> = ({
   size = 24,

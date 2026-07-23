@@ -1,6 +1,6 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type TiktokProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Tiktok = ({ size = 24, width, height, alt = '', style, ...props }: TiktokProps) => (
   <svg

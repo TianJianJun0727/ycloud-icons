@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+  type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: WechatPayProps = $props();
 </script>

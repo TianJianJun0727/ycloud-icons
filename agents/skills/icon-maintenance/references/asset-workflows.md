@@ -37,7 +37,8 @@ Do not add a category merely because a tag is missing. Add `categories/<slug>.js
 Use only the color modes accepted by `scripts/writeBusinessIconIndex.mts` and `scripts/checkBusinessSvgSource.mts`. The current modes are:
 
 - `outlined`: strokes/fills use `currentColor` or `none`
-- `filled`: primary and secondary business color tokens
+- `filled`: the primary business color token only; use transparent compound-path cutouts for
+  internal details
 - `multicolor`: fixed colors are preserved
 
 Business filenames are lowercase `kebab-case`, not snake_case. Each SVG has a sibling JSON file:
