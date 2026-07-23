@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
-  type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+  type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
   const { size = 24, width, height, alt = '', style, ...props }: FacebookProps = $props();
 </script>

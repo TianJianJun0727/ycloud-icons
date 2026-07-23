@@ -1,6 +1,6 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type WechatPayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const WechatPay = ({ size = 24, width, height, alt = '', style, ...props }: WechatPayProps) => (
   <svg

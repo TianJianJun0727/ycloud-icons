@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type QmaiEventFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const QmaiEventFilled: FunctionalComponent<QmaiEventFilledProps> = ({
+const QmaiEventFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

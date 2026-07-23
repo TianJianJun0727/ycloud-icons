@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Facebook = ({ size = 24, width, height, alt = '', style, ...props }: FacebookProps) =>
   h(

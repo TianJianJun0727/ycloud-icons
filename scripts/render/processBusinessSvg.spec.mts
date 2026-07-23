@@ -32,29 +32,27 @@ describe('processBusinessSvg', () => {
     expect(svg).not.toContain('fill="white"');
   });
 
-  it('normalizes fixed colors into two color slots for filled business icons', async () => {
+  it('normalizes filled business icons to a configurable primary color and fixed white', async () => {
     const svg = await processBusinessSvg(
       '<svg viewBox="0 0 20 20"><path fill="#FF934A" d="M0 0h20v20H0z"/><path fill="white" d="M4 4h12v12H4z"/></svg>',
       'business-icons/filled/trophy.svg',
     );
 
     expect(svg).toContain('fill="var(--business-icon-primary-color)"');
-    expect(svg).toContain('fill="var(--business-icon-secondary-color)"');
+    expect(svg).toContain('fill="#fff"');
     expect(svg).not.toContain('#FF934A');
     expect(svg).not.toContain('fill="white"');
   });
 
-  it('maps white to the secondary color slot regardless of order', async () => {
+  it('keeps white fixed regardless of path order', async () => {
     const svg = await processBusinessSvg(
       '<svg viewBox="0 0 20 20"><path fill="#fff" d="M4 4h12v12H4z"/><path fill="#FF934A" d="M0 0h20v20H0z"/></svg>',
       'business-icons/filled/trophy.svg',
     );
 
-    expect(svg).toContain('fill="var(--business-icon-secondary-color)"');
     expect(svg).toContain('fill="var(--business-icon-primary-color)"');
-    expect(svg).toContain('<path fill="var(--business-icon-secondary-color)" d="M4 4h12v12H4z" />');
+    expect(svg).toContain('<path fill="#fff" d="M4 4h12v12H4z" />');
     expect(svg).toContain('<path fill="var(--business-icon-primary-color)" d="M0 0h20v20H0z" />');
-    expect(svg).not.toContain('#fff');
     expect(svg).not.toContain('#FF934A');
   });
 
@@ -67,7 +65,6 @@ describe('processBusinessSvg', () => {
     expect(svg).toContain('fill="#FF934A"');
     expect(svg).toContain('fill="#25D366"');
     expect(svg).not.toContain('fill="currentColor"');
-    expect(svg).not.toContain('business-icon-secondary-color');
   });
 
   it('keeps ids referenced by href attributes', async () => {

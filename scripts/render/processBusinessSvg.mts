@@ -40,7 +40,7 @@ function removeUnsafeNodes(node: INode) {
 type BusinessIconColorMode = 'outlined' | 'filled' | 'multicolor';
 
 function normalizeColorValue(value: string, colorMode: BusinessIconColorMode) {
-  if (value === 'none' || value.startsWith('var(')) {
+  if (value === 'none') {
     return value;
   }
 
@@ -52,13 +52,15 @@ function normalizeColorValue(value: string, colorMode: BusinessIconColorMode) {
     return 'currentColor';
   }
 
+  if (value === 'var(--business-icon-primary-color)') {
+    return value;
+  }
+
   if (value === 'currentColor') {
     return 'var(--business-icon-primary-color)';
   }
 
-  return isWhiteColor(value)
-    ? 'var(--business-icon-secondary-color)'
-    : 'var(--business-icon-primary-color)';
+  return isWhiteColor(value) ? '#fff' : 'var(--business-icon-primary-color)';
 }
 
 function isWhiteColor(value: string) {

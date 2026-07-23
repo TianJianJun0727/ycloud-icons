@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type GlobalFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const GlobalFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const GlobalFilled = ({
   strokeWidth,
   style,
   ...props
-}: GlobalFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

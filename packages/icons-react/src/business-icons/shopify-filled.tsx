@@ -1,23 +1,9 @@
 import { forwardRef } from 'react';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type ShopifyFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const ShopifyFilled = forwardRef<SVGSVGElement, ShopifyFilledProps>(
+const ShopifyFilled = forwardRef<SVGSVGElement, BusinessIconImageProps>(
   (
-    {
-      size = 24,
-      width,
-      height,
-      alt = '',
-      color = 'currentColor',
-      secondaryColor = '#fff',
-      strokeWidth,
-      style,
-      ...props
-    },
+    { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props },
     ref,
   ) => (
     <svg
@@ -42,7 +28,7 @@ const ShopifyFilled = forwardRef<SVGSVGElement, ShopifyFilledProps>(
         />
         <path
           d="M10.7578 7.75164L10.1538 9.55188C10.1538 9.55188 9.61842 9.26712 8.96878 9.26712C8.01188 9.26712 7.96618 9.87074 7.96618 10.0187C7.96618 10.8392 10.1085 11.1584 10.1085 13.0839C10.1085 14.599 9.15123 15.5788 7.85228 15.5788C6.29142 15.5788 5.50537 14.6103 5.50537 14.6103L5.92687 13.2319C5.92687 13.2319 6.74736 13.9381 7.43078 13.9381C7.88672 13.9381 8.06884 13.5851 8.06884 13.3229C8.06884 12.2521 6.31427 12.2064 6.31427 10.4406C6.31427 8.95953 7.37383 7.52382 9.52704 7.52382C10.3475 7.51257 10.7578 7.75164 10.7578 7.75164H10.7578Z"
-          fill={secondaryColor}
+          fill="#fff"
         />
       </g>
     </svg>

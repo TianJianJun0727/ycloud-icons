@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type RouteFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const RouteFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const RouteFilled = ({
   strokeWidth,
   style,
   ...props
-}: RouteFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WechatFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const WechatFilled: FunctionalComponent<WechatFilledProps> = ({
+const WechatFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

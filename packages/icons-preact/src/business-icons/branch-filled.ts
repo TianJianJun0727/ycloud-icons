@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type BranchFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const BranchFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const BranchFilled = ({
   strokeWidth,
   style,
   ...props
-}: BranchFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

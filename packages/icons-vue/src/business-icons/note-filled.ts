@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type NoteFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const NoteFilled: FunctionalComponent<NoteFilledProps> = ({
+const NoteFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

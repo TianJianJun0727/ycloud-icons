@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type SandClockFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const SandClockFilled: FunctionalComponent<SandClockFilledProps> = ({
+const SandClockFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

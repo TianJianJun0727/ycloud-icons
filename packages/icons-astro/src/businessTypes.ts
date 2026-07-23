@@ -4,7 +4,6 @@ export interface BusinessIconImageProps {
   height?: number | string;
   alt?: string;
   color?: string;
-  secondaryColor?: string;
   strokeWidth?: number | string;
   style?: unknown;
   [key: string]: unknown;

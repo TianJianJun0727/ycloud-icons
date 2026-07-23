@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type WechatFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const WechatFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const WechatFilled = ({
   strokeWidth,
   style,
   ...props
-}: WechatFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

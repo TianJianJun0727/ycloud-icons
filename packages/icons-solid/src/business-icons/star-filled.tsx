@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type StarFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const StarFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const StarFilled = ({
   strokeWidth,
   style,
   ...props
-}: StarFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

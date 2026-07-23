@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type TriggerFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const TriggerFilled: FunctionalComponent<TriggerFilledProps> = ({
+const TriggerFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

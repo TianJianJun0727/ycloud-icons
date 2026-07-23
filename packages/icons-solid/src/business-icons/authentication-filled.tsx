@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type AuthenticationFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const AuthenticationFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const AuthenticationFilled = ({
   strokeWidth,
   style,
   ...props
-}: AuthenticationFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"

@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type AlipayProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Alipay: FunctionalComponent<AlipayProps> = ({
   size = 24,

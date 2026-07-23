@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type BranchFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const BranchFilled: FunctionalComponent<BranchFilledProps> = ({
+const BranchFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

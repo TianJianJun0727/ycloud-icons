@@ -1,10 +1,6 @@
 ---
 import type { BusinessIconImageProps } from '../businessTypes';
-type BenefitTemplateFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BenefitTemplateFilledProps = Astro.props;
+const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: BusinessIconImageProps = Astro.props;
 ---
 
 <svg

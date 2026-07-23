@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { BusinessIconImageProps } from '../businessTypes.js';
   type WarningFilledProps = BusinessIconImageProps & {
-    secondaryColor?: string;
   };
 
   const { size = 24, width, height, alt = '', color = 'currentColor', strokeWidth, style, ...props }: WarningFilledProps = $props();

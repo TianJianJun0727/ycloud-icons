@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type DocCsvFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const DocCsvFilled: FunctionalComponent<DocCsvFilledProps> = ({
+const DocCsvFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

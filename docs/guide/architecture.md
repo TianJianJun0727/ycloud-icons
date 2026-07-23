@@ -147,7 +147,7 @@ business-icons/metadata/index.json
 docs/public/metadata/business-icons.json
 ```
 
-业务图标会为每个 SVG 维护同名 JSON。一级目录表达颜色模式：`outlined` 会把固定颜色清洗成 `currentColor`，`filled` 会把白色映射为 secondary token、其他颜色映射为 primary token，`multicolor` 会保留固定色。根 `business-icons/index.json` 由脚本生成，用于 Figma 插件颜色模式选择、文档展示和包生成；`business-icons/metadata/index.json` 由脚本生成，用于 Figma、GitHub 校验和 skills 对当前仓库 main 的查询；`docs/public/metadata` 下的快照由文档构建从仓库快照复制，用于部署后的 URL 兜底查询。
+业务图标会为每个 SVG 维护同名 JSON。一级目录表达颜色模式：`outlined` 会把固定颜色清洗成 `currentColor`，`filled` 会保留固定白色并把其他颜色映射为 primary token，`multicolor` 会保留固定色。根 `business-icons/index.json` 由脚本生成，用于 Figma 插件颜色模式选择、文档展示和包生成；`business-icons/metadata/index.json` 由脚本生成，用于 Figma、GitHub 校验和 skills 对当前仓库 main 的查询；`docs/public/metadata` 下的快照由文档构建从仓库快照复制，用于部署后的 URL 兜底查询。
 
 ## 三、包结构怎么分
 

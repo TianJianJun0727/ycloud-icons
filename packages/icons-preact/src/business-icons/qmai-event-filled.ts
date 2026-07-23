@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type QmaiEventFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const QmaiEventFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const QmaiEventFilled = ({
   strokeWidth,
   style,
   ...props
-}: QmaiEventFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type ShopifyProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type ShopifyProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Shopify: FunctionalComponent<ShopifyProps> = ({
   size = 24,

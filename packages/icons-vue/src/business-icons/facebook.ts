@@ -1,7 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type FacebookProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Facebook: FunctionalComponent<FacebookProps> = ({
   size = 24,

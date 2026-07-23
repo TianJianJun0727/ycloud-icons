@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type ErrorFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const ErrorFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const ErrorFilled = ({
   strokeWidth,
   style,
   ...props
-}: ErrorFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

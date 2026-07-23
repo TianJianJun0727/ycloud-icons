@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type SandClockFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const SandClockFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const SandClockFilled = ({
   strokeWidth,
   style,
   ...props
-}: SandClockFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"

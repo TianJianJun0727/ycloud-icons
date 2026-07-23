@@ -1,11 +1,7 @@
 import { h, type FunctionalComponent } from 'vue';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type CreditCardFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
-const CreditCardFilled: FunctionalComponent<CreditCardFilledProps> = ({
+const CreditCardFilled: FunctionalComponent<BusinessIconImageProps> = ({
   size = 24,
   width,
   height,

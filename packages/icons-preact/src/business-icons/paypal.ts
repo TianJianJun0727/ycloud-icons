@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type PaypalProps = Omit<BusinessIconImageProps, 'color' | 'secondaryColor' | 'strokeWidth'>;
+type PaypalProps = Omit<BusinessIconImageProps, 'color' | 'strokeWidth'>;
 
 const Paypal = ({ size = 24, width, height, alt = '', style, ...props }: PaypalProps) =>
   h(

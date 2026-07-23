@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type FilterEventFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const FilterEventFilled = ({
   size = 24,
   width,
@@ -14,7 +10,7 @@ const FilterEventFilled = ({
   strokeWidth,
   style,
   ...props
-}: FilterEventFilledProps) =>
+}: BusinessIconImageProps) =>
   h(
     'svg',
     {

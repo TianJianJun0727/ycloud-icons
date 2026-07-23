@@ -1,9 +1,5 @@
 import type { BusinessIconImageProps } from '../businessTypes';
 
-type DocCsvFilledProps = BusinessIconImageProps & {
-  secondaryColor?: string;
-};
-
 const DocCsvFilled = ({
   size = 24,
   width,
@@ -13,7 +9,7 @@ const DocCsvFilled = ({
   strokeWidth,
   style,
   ...props
-}: DocCsvFilledProps) => (
+}: BusinessIconImageProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
