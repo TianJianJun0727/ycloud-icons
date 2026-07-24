@@ -12,7 +12,7 @@ Choose existing assets from the repository; do not modify source assets unless t
 Run from the repository root:
 
 ```sh
-node agents/skills/icon-selection/scripts/search-icons.mjs --query "客户搜索 输入框" --limit 8 --cache-info
+node .agents/skills/icon-selection/scripts/search-icons.mjs --query "客户搜索 输入框" --limit 8 --cache-info
 ```
 
 Use `--kind icon`, `--kind business`, or `--kind illustration` to narrow results. Use `--json` for machine-readable output, `--refresh-cache` after metadata regeneration or deployment, and `--no-cache` while diagnosing source data.
